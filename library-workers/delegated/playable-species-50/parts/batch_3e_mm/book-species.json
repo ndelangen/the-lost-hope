@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Centaur",
+    "kind": "species",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Large Monstrous Humanoid. Strength +8, Dexterity +4, Constitution +4, Intelligence −2, Wisdom +2. Walk 50 ft., darkvision 60 ft., +3 natural armor.",
+      "Space 10 ft., reach 5 ft. Size modifiers are −1 AC and attacks, −4 Hide, +4 grapple. The character entry specifies twice Medium carrying limits.",
+      "Four racial d8 Hit Dice grant BAB +4, base saves Fort +1, Ref +4, Will +4, and two feats. Skill points are 7 × (2 + Intelligence modifier), with the normal minimum. Racial class skills are Listen, Move Silently, Spot, and Survival.",
+      "Two secondary hooves deal 1d6 base damage each. Under the printed combat rule, a lance charge deals double damage.",
+      "Sylvan and Elven are automatic. Common, Gnome, and Halfling are bonus choices. Favored class Ranger. LA +2, ECL 6 before class levels."
+    ]
+  },
+  {
+    "name": "Hound Archon",
+    "kind": "species",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider with the Archon, Good, and Lawful subtypes. On the Material Plane it also has the Extraplanar subtype. Strength +4, Constitution +2, Wisdom +2, Charisma +2. Walk 40 ft., +9 natural armor, darkvision 60 ft., low-light vision, and scent.",
+      "Six racial d8 Hit Dice grant BAB +6, base Fort +5, Ref +5, Will +5, and three feats. Skill points are 9 × (8 + Intelligence modifier). Racial class skills are Concentration, Hide, Jump, Listen, Move Silently, Sense Motive, Spot, and Survival.",
+      "Bite 1d8 and slam 1d4. Treat natural and wielded weapons as good and lawful for overcoming damage reduction. DR 10/evil, immunity to electricity and petrification, +4 racial bonus against poison, and SR 16 + class levels.",
+      "Aura of menace within 20 ft. of a hostile archon, Will DC 15 + Charisma modifier. Failure imposes −2 on attacks, AC, and saves for 24 hours or until the victim hits the archon. A creature that resists or breaks the effect avoids that archon's aura for 24 hours.",
+      "Constant magic circle against evil at caster level equal to Hit Dice. Constant tongues and at-will greater teleport at CL 14, with teleport restricted to self and up to 50 lb. of objects. At will aid, continual flame, detect evil, and message at CL 6.",
+      "Change shape to a Small through Large canine. Its normal attacks give way to that form's bite. Canine shape gives a +4 circumstance bonus to Hide and Survival. Celestial is automatic. Common, Draconic, and Infernal are bonus choices. Favored class Ranger. LA +5, ECL 11 before classes."
+    ]
+  },
+  {
+    "name": "Janni",
+    "kind": "species",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Native Outsider. Strength +6, Dexterity +4, Constitution +2, Intelligence +4, Wisdom +4, Charisma +2. Walk 30 ft., fly 20 ft. with perfect maneuverability. Darkvision 60 ft. and +1 natural armor.",
+      "Six racial d8 Hit Dice grant BAB +6, base Fort +5, Ref +5, Will +5, three feats, and bonus Improved Initiative. Racial skill points are 9 × (8 + Intelligence modifier). Racial class skills are Appraise, Concentration, Craft, Escape Artist, Listen, Move Silently, Ride, Sense Motive, and Spot.",
+      "Fire resistance 10, telepathy 100 ft. Elemental endurance allows 48 hours on an Elemental Plane. After that, take 1 damage each additional hour until death or return to the Material Plane.",
+      "Change size twice daily as enlarge person or reduce person, with self as an additional valid target. Fort DC 12 + Charisma modifier. At CL 12 use self-only invisibility and speak with animals three times daily, and ethereal jaunt for 1 hour once daily. Create food and water once daily at CL 7.",
+      "Plane shift at CL 13 to the Material Plane, Astral Plane, or any of the four Elemental Planes. May take up to eight other creatures who link hands with the janni.",
+      "Common is automatic. Abyssal, Aquan, Auran, Celestial, Ignan, Infernal, and Terran are bonus choices. Favored class Rogue. LA +5, ECL 11 before classes."
+    ]
+  },
+  {
+    "name": "Lizardfolk",
+    "kind": "species",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid (Reptilian). Strength +2, Constitution +2, Intelligence −2. Walk 30 ft., +5 natural armor, proficiency with simple weapons and shields.",
+      "Two racial d8 Hit Dice grant BAB +1, base saves Fort +0, Ref +3, Will +0, and one feat. Racial skill points are 5 × (2 + Intelligence modifier), minimum 1 point per equivalent HD. Balance, Jump, and Swim are racial class skills and each has a +4 racial bonus.",
+      "Two claws and a bite, each with 1d4 base damage. The claws are primary and the bite is secondary in the standard full-attack routine.",
+      "Hold breath for four times the Constitution score in rounds before risking drowning. Swim checks use the listed racial bonus. The entry supplies a land speed.",
+      "Common and Draconic are automatic for characters. Aquan, Goblin, Gnoll, and Orc are bonus languages. Favored class Druid. LA +1, ECL 3 before classes."
+    ]
+  },
+  {
+    "name": "Pixie",
+    "kind": "species",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Fey. Strength −4, Dexterity +8, Intelligence +6, Wisdom +4, Charisma +6. Walk 20 ft., fly 60 ft. with good maneuverability. Low-light vision. +1 natural armor and +2 racial bonus to Listen, Search, and Spot.",
+      "Size grants +1 AC and attacks, +4 Hide, −4 grapple, and three-quarters Medium carrying limits. First class level replaces the single fey Hit Die. Dodge and Weapon Finesse are bonus feats.",
+      "DR 10/cold iron. SR 15 + class levels. Constant greater invisibility continues through attacks and can be suppressed or resumed as a free action.",
+      "At CL 8, each 1/day. Lesser confusion, dancing lights, detect chaos, detect good, detect evil, detect law, detect thoughts, dispel magic, entangle, and permanent image limited to sight and sound. Save DCs use Charisma. Some pixies also have irresistible dance 1/day at CL 8.",
+      "Common and Sylvan are automatic. Elven, Gnome, and Halfling are bonus choices. Favored class Sorcerer. LA +4, or +6 with irresistible dance."
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Wolf",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025), 2024 rules",
+    "printedPages": [
+      373
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775850-wolf",
+    "byline": "Monster Manual, pg. 373",
+    "sourceUrlRole": "Official D&D Beyond stat block.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataResult": "The April 2025 Monster Manual errata has no change to the Wolf stat block.",
+    "habitatEvidence": "Habitat tags printed on the D&D Beyond stat block.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+    "portraitSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+    "sourceDistinctions": [
+      "The Monster Manual Bite applies Prone automatically on a hit against a Medium or smaller creature."
+    ]
+  },
+  {
+    "name": "Brontosaurus",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "printedPages": [
+      139
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17239-brontosaurus",
+    "sourceFile": "",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "sourceUrlRole": "D&D Beyond reference. The first-printing supplies the verified rules.",
+    "pdfPages": [
+      140
+    ],
+    "errataUrl": "",
+    "errataResult": "The 2021 v3.0 Volo's Guide to Monsters errata has no change to this entry.",
+    "habitatEvidence": "The creature entry and Appendix C provide no named habitat for this creature.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-08/parts/b08_06/portraits/brontosaurus.png",
+    "portraitSha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+    "sourceDistinctions": [
+      "Both attacks have 20-ft. reach. Stomp can knock the target prone on a failed save."
+    ]
+  },
+  {
+    "name": "Cranium Rat",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "printedPages": [
+      133
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17229-cranium-rat",
+    "sourceFile": "",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "sourceUrlRole": "D&D Beyond reference. The first-printing supplies the verified rules.",
+    "pdfPages": [
+      134
+    ],
+    "errataUrl": "",
+    "errataResult": "The 2021 v3.0 Volo's Guide to Monsters errata has no change to this entry.",
+    "habitatPrintedPages": [
+      224
+    ],
+    "habitatPdfPages": [
+      225
+    ],
+    "habitatEvidence": "Appendix C, Creatures by Environment, p. 224.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "playable-species-50-batch-8/parts/eight_mr2_b/portraits/cranium-rat.png",
+    "portraitSha256": "da0e610eda41d06d605999814baa013aef458343829724d63a3a5f046134021c",
+    "sourceDistinctions": [
+      "This stat block covers one Cranium Rat. Illumination only produces dim light."
+    ]
+  },
+  {
+    "name": "Deinonychus",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "printedPages": [
+      139
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17240-deinonychus",
+    "sourceFile": "",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "sourceUrlRole": "D&D Beyond reference. The first-printing supplies the verified rules.",
+    "pdfPages": [
+      140
+    ],
+    "errataUrl": "",
+    "errataResult": "The 2021 v3.0 Volo's Guide to Monsters errata has no change to this entry.",
+    "habitatEvidence": "The creature entry and Appendix C provide no named habitat for this creature.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png",
+    "portraitSha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+    "sourceDistinctions": [
+      "The Pounce trigger uses a claw hit. Its extra Bite costs a bonus action."
+    ]
+  },
+  {
+    "name": "Dimetrodon",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "printedPages": [
+      139
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17238-dimetrodon",
+    "sourceFile": "",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "sourceUrlRole": "D&D Beyond reference. The first-printing supplies the verified rules.",
+    "pdfPages": [
+      140
+    ],
+    "errataUrl": "",
+    "errataResult": "The 2021 v3.0 Volo's Guide to Monsters errata has no change to this entry.",
+    "habitatPrintedPages": [
+      222
+    ],
+    "habitatPdfPages": [
+      223
+    ],
+    "habitatEvidence": "Appendix C, Creatures by Environment, p. 222. The creature entry describes hunting along shores and in shallow water.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-08/parts/b08_06/portraits/dimetrodon.png",
+    "portraitSha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+    "sourceDistinctions": [
+      "Volo describes Dimetrodon as a sail-backed reptile that shares habitats with dinosaurs."
+    ]
+  }
+]

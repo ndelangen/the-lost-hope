@@ -1,0 +1,29 @@
+{
+  "commit": "210e580258a39b28ae6d04f15ab8cf444752958c",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 570,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-44-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-44-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/44/results.json",
+  "searchResults": "output/dm-library/encounter-batches/44/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Ruinant",
+      "source": "https://www.dndbeyond.com/monsters/4485987-ruinant",
+      "challenge": "6"
+    },
+    {
+      "name": "Tormenauk",
+      "source": "https://www.dndbeyond.com/monsters/4486023-tormenauk",
+      "challenge": "8"
+    }
+  ],
+  "nextSourceNote": "Use the shared demon soul rules with distinct individual abilities and verify the printed starting soul counts."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Beetle, Giant Round",
+    "entryId": "beast-b92bd8c43b4031887bd02580",
+    "versionKey": "16eccb9a793bf514def14421",
+    "path": "",
+    "sha256": "5e57b611579d07a8329499305ca34e81a1d5dc08fef43a3761b0b0e841b7afbb",
+    "width": 1254,
+    "height": 1254,
+    "selection": "existing parchment portrait"
+  },
+  {
+    "name": "Earthworm, Giant",
+    "entryId": "beast-5a3396513a1e3f718e9eaf0b",
+    "versionKey": "bdfa48f5c6c5f3a0bde1aff5",
+    "path": "",
+    "sha256": "9a43566f0a7c4bc0a2964b4b2d7f4d32023e0d50888950e00a1843551858cf85",
+    "width": 1254,
+    "height": 1254,
+    "selection": "existing parchment portrait"
+  }
+]

@@ -1,0 +1,228 @@
+{
+  "builds": [
+    {
+      "id": "southlands-heroes-tosculi",
+      "title": "Sivi Amberwing, Hiveless Tosculi Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "speed": "30 ft., glide 40 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +5",
+        "Investigation +2",
+        "Perception +7",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Passive Perception 17",
+      "languages": "Tosculi, Common, Thieves’ Cant",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Natural Armor sets AC to at least 11 + Dexterity modifier.",
+        "Gliding Wings. Sivi cannot hover and takes no fall damage. Finish the round at least one-quarter of the distance flown below the start or fall. A 40 ft. glide requires a drop of at least 10 ft.",
+        "Stalker supplies Perception and Stealth. Expertise doubles the proficiency bonus for both. Sivi is proficient with thieves’ tools.",
+        "Sneak Attack deals an extra 1d6 once per turn on a hit with a finesse or ranged weapon. Sivi needs advantage or an active enemy of the target within 5 ft. of it, provided she has no disadvantage on the attack."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +5, range 80/320 ft. Hit 1d6 + 3 piercing.",
+        "Dagger. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d4 + 3 piercing.",
+        "Claw. Melee attack +1, reach 5 ft. Hit 1d4 − 1 slashing.",
+        "Cunning Action. Take Dash, Disengage, or Hide as a bonus action."
+      ],
+      "tactics": "Sivi scouts from ledge to ledge, keeping enough height to clear each gap. She calls down the route from cover before moving again."
+    },
+    {
+      "id": "unlikely-heroes-jinnborn",
+      "title": "Narel Claywind, Earth Shaper Jinnborn Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Persuasion +1"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 11",
+      "languages": "Common, Terran",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. AC 14 from chain shirt and Dexterity.",
+        "Earth siraati. Narel has acid resistance. Once on his turn on a melee hit he can add 1d6 acid damage. Three uses per long rest.",
+        "Desert Dependent. Each month spent out of the desert, make a DC 15 Charisma save (−1) or gain indefinite madness as determined with the DM.",
+        "Dueling. The listed melee damage includes +2 when wielding the framing mallet in one hand with no other weapon."
+      ],
+      "actions": [
+        "Framing mallet (club). Melee weapon attack +5, reach 5 ft. Hit 1d4 + 5 bludgeoning.",
+        "Second Wind. Bonus action to regain 1d10 + 1 HP. One use per short or long rest."
+      ],
+      "tactics": "Narel talks first. If pressed into a fight beside the kiln, he tries to draw the intruder away from the dry clay racks and spends his elemental strike on an opening hit."
+    },
+    {
+      "id": "unlikely-heroes-ramag",
+      "title": "Vey Tern, Ramag checkpoint Wizard 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 12,
+      "hp": 8,
+      "hitDice": "1d6+2",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 17,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Arcana +5",
+        "History +5",
+        "Investigation +5"
+      ],
+      "senses": "Passive Perception 11",
+      "languages": "Common, Giant",
+      "traits": [
+        "Proficiency +2. Intelligence save +5 and Wisdom save +3. Arcana proficiency comes from Mystical Understanding.",
+        "Spell Damping gives advantage on Strength (−1) and Dexterity (+2) saves against spells. Arcane Heritage waives class prerequisites to attune to a magic item.",
+        "Spellcasting. Intelligence DC 13, spell attack +5. Two 1st-level slots per long rest. Arcane Recovery restores one expended 1st-level slot after a short rest, once per day. The spellbook also contains detect magic and comprehend languages, available as rituals without preparing them."
+      ],
+      "actions": [
+        "Quarterstaff. Melee weapon attack +1, reach 5 ft. Hit 1d6 − 1 bludgeoning one-handed or 1d8 − 1 with two hands.",
+        "Ray of frost (cantrip). Ranged spell attack +5, range 60 ft. Hit 1d8 cold and reduce target speed by 10 ft. through the start of Vey’s next turn.",
+        "Light or mage hand (cantrips). Light a touched object for 1 hour, or manipulate a light object in reach of a spectral hand within 30 ft. for up to 1 minute.",
+        "Mage armor (1st level). Touch a willing unarmored creature. Its base AC is 13 + Dexterity modifier for 8 hours (Vey’s AC rises to 15).",
+        "Fog cloud (1st level). A 20 ft. radius sphere within 120 ft. is heavily obscured for up to 1 hour with concentration. Wind of at least 10 mph disperses it.",
+        "Grease (1st level). Cover a 10 ft. square within 60 ft. with difficult terrain for 1 minute. Creatures in it when cast, entering it, or ending a turn there must pass a Dexterity save (DC 13) or fall prone.",
+        "Feather fall (1st level, reaction). When Vey or a creature within 60 ft. falls, choose up to five falling creatures within 60 ft. They descend at 60 ft. per round for up to 1 minute and land on their feet without fall damage if they land before the spell ends."
+      ],
+      "tactics": "Vey saves a spell slot for feather fall. When the upper passage closes, she guides travelers to the maintenance shaft and lowers them to the landing beneath it."
+    },
+    {
+      "id": "unlikely-heroes-kijani",
+      "title": "Kesh Reedroot, Kijani trail sentinel Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Plant",
+      "ac": 11,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +2",
+        "Perception +4"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 14",
+      "languages": "Common, Sylvan",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Unarmored AC is 10 + Dexterity modifier.",
+        "Plantborn. Kesh is a Plant and is immune to effects that put a creature to sleep. Kesh rests in dormancy.",
+        "Contained Fury. At 9 HP or fewer, add 1d4 damage to one weapon hit per turn. While at 9 HP or fewer, use a reaction after an attack from a visible attacker hits to raise AC to 13 for that attack.",
+        "Dueling. The listed one-handed damage includes +2 while Kesh wields the staff with no other weapon."
+      ],
+      "actions": [
+        "Quarterstaff. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 5 bludgeoning one-handed or 1d8 + 3 with two hands. Contained Fury adds 1d4 bludgeoning when eligible.",
+        "Action Surge. Take one additional action this turn. One use per short or long rest.",
+        "Second Wind. Bonus action to regain 1d10 + 2 HP. One use per short or long rest."
+      ],
+      "tactics": "Kesh holds the narrow crossing from the near side. Once wounded, he decides whether to hold the line with Contained Fury or heal with Second Wind and carry a warning to the next sentry."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Tosculi",
+      "speciesPublication": "Southlands Heroes (2015)",
+      "edition": "Fifth edition compatible",
+      "name": "Sivi Amberwing",
+      "size": "Small",
+      "build": "southlands-heroes-tosculi",
+      "role": "Advance scout",
+      "motive": "Find a way across a broken trail before the pack animals arrive.",
+      "hook": "Sivi signals from the top of a waypost and asks the party to watch where she lands."
+    },
+    {
+      "species": "Jinnborn",
+      "speciesPublication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "name": "Narel Claywind",
+      "size": "Medium",
+      "build": "unlikely-heroes-jinnborn",
+      "role": "Kiln keeper and caravan escort",
+      "motive": "Get a cart of clay water jars through the pass before dawn.",
+      "hook": "Narel offers passage with the caravan in exchange for help bringing one late cart in from the salt flats."
+    },
+    {
+      "species": "Ramag",
+      "speciesPublication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "name": "Vey Tern",
+      "size": "Medium",
+      "build": "unlikely-heroes-ramag",
+      "role": "Arcane checkpoint guide",
+      "motive": "Keep travelers moving while the upper passage is closed.",
+      "hook": "Vey opens a hatch above a lower landing and asks who can carry the checkpoint lantern on the way down."
+    },
+    {
+      "species": "Kijani",
+      "speciesPublication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "name": "Kesh Reedroot",
+      "size": "Medium",
+      "build": "unlikely-heroes-kijani",
+      "role": "Trail sentinel",
+      "motive": "Keep a narrow crossing open long enough for the last travelers to pass.",
+      "hook": "Kesh waves the party through the crossing and asks someone to warn the next sentry that the road behind them has closed."
+    }
+  ]
+}

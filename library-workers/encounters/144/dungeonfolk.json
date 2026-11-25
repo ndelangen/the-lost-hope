@@ -1,0 +1,416 @@
+[
+  {
+    "name": "Jackalwere",
+    "pages": "p. 193",
+    "statBlock": {
+      "name": "Jackalwere",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (shapechanger), chaotic evil",
+      "ac": 12,
+      "hp": 18,
+      "hitDice": "4d8",
+      "speed": "40 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "description": "A jackal with the power to take human form. Jackalweres waylay travelers and use their sleep gaze to capture victims for lamias.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Passive Perception 12.",
+        "Languages": "Common. It can't speak in jackal form.",
+        "Traits": "Shapechanger. As an action it takes the form of a specific Medium human, a Medium jackal-humanoid hybrid, or its true Small jackal form. Only its size can change its statistics. Its equipment keeps its form. When it dies, the jackalwere returns to its true form.\nKeen Hearing and Smell. It has advantage on Wisdom (Perception) checks that use hearing or smell.\nPack Tactics. It has advantage on attacks against a creature if one or more of its allies is within 5 ft. of that creature and that ally is not Incapacitated.",
+        "Actions": "Bite (jackal or hybrid form). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) piercing damage.\nScimitar (human or hybrid form). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) slashing damage.\nSleep Gaze. One creature the jackalwere can see within 30 ft. must make a DC 10 Wisdom save. On a failure, magical sleep makes it Unconscious for 10 minutes, or until someone spends an action shaking it awake. A successful save makes the creature immune to this jackalwere's gaze for 24 hours. Undead and creatures immune to Charmed are unaffected.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered.",
+        "Printed source": "Monster Manual (2014), p. 193, with the global damage immunity wording from the 2018 errata."
+      },
+      "skills": {
+        "Deception": 4,
+        "Perception": 2,
+        "Stealth": 4
+      }
+    }
+  },
+  {
+    "name": "Kenku",
+    "pages": "p. 194",
+    "statBlock": {
+      "name": "Kenku",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (kenku), chaotic neutral",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "description": "A wingless, feathered humanoid that communicates by reproducing sounds it has heard. A flock can use animal calls as signals.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Passive Perception 12.",
+        "Languages": "Understands Auran and Common. It speaks through Mimicry.",
+        "Traits": "Ambusher. During the first round of combat, it has advantage on attack rolls against creatures it surprised.\nMimicry. It can reproduce sounds it has heard, including voices. A listener recognizes the imitation with a successful DC 14 Wisdom (Insight) check.",
+        "Actions": "Shortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 6 (1d6 + 3) piercing damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. Hit for 6 (1d6 + 3) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 194, with the Ambusher timing from the 2018 errata."
+      },
+      "skills": {
+        "Deception": 4,
+        "Perception": 2,
+        "Stealth": 5
+      }
+    }
+  },
+  {
+    "name": "Bullywug",
+    "pages": "p. 35",
+    "statBlock": {
+      "name": "Bullywug",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (bullywug), neutral evil",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "20 ft., swim 40 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "description": "A frog-headed swamp raider. Bullywugs train giant frogs and bring captive trespassers before their self-styled rulers.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Hide armor and shield.",
+        "Senses": "Passive Perception 10.",
+        "Languages": "Bullywug.",
+        "Traits": "Amphibious. It breathes air and water.\nSpeak with Frogs and Toads. It can speak in Bullywug to convey simple ideas to frogs and toads.\nSwamp Camouflage. It has advantage on Dexterity (Stealth) checks to hide in swamp terrain.\nStanding Leap. It can long jump up to 20 ft. and high jump up to 10 ft. A running start is optional.",
+        "Actions": "Multiattack. It makes one Bite and one melee Spear attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit for 3 (1d4 + 1) bludgeoning damage.\nSpear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit for 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage with two hands in melee.",
+        "Printed source": "Monster Manual (2014), p. 35."
+      },
+      "skills": {
+        "Stealth": 3
+      }
+    }
+  },
+  {
+    "name": "Kuo-toa",
+    "pages": "p. 199",
+    "statBlock": {
+      "name": "Kuo-toa",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (kuo-toa), neutral evil",
+      "ac": 13,
+      "hp": 18,
+      "hitDice": "4d8",
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "description": "An amphibious Underdark warrior with a net and an adhesive shield. Kuo-toa can bring deities into being through shared belief.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor and shield.",
+        "Senses": "Darkvision 120 ft., passive Perception 14.",
+        "Languages": "Undercommon.",
+        "Traits": "Amphibious. It breathes air and water.\nOtherworldly Perception. It senses any Invisible creature or creature on the Ethereal Plane within 30 ft. It can pinpoint those that are moving.\nSlippery. It has advantage on ability checks and saving throws to escape a grapple.\nSunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit for 3 (1d4 + 1) piercing damage.\nSpear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit for 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage with two hands in melee.\nNet. Ranged weapon attack, +3 to hit, range 5/15 ft., one Large or smaller creature. A hit leaves the target Restrained. A creature can spend an action to free itself or another creature with a successful DC 10 Strength check. Dealing 5 slashing damage to the AC 10 net destroys it and frees the target unharmed.",
+        "Reactions": "Sticky Shield. When a creature misses the kuo-toa with a melee weapon attack, the kuo-toa catches the weapon with its shield. The attacker must succeed on a DC 11 Strength saving throw to keep the weapon from sticking. A stuck weapon is unusable. The wielder is Grappled while it is stuck if the wielder can't or won't release it. A creature can take an action and make a DC 11 Strength check to pull the weapon free.",
+        "Printed source": "Monster Manual (2014), p. 199."
+      },
+      "skills": {
+        "Perception": 4
+      }
+    }
+  },
+  {
+    "name": "Kuo-toa Archpriest",
+    "pages": "p. 200",
+    "statBlock": {
+      "name": "Kuo-toa Archpriest",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (kuo-toa), neutral evil",
+      "ac": 13,
+      "hp": 97,
+      "hitDice": "13d8 + 39",
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "description": "The ruler of a kuo-toa domain and a cleric of the god it demands its subjects worship. It grants spells to its whips and can withdraw that power.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., passive Perception 19.",
+        "Languages": "Undercommon.",
+        "Traits": "Amphibious. It breathes air and water.\nOtherworldly Perception. It senses any Invisible creature or creature on the Ethereal Plane within 30 ft. It can pinpoint those that are moving.\nSlippery. It has advantage on ability checks and saving throws to escape a grapple.\nSunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Spellcasting": "The archpriest casts as a 10th-level cleric, using Wisdom (spell save DC 14, +6 to hit with spell attacks).\nCantrips at will: guidance, sacred flame, thaumaturgy.\n1st level, 4 slots: detect magic, sanctuary, shield of faith.\n2nd level, 3 slots: hold person, spiritual weapon.\n3rd level, 3 slots: spirit guardians, tongues.\n4th level, 3 slots: control water, divination.\n5th level, 2 slots: mass cure wounds, scrying.",
+        "Actions": "Multiattack. It makes two melee attacks.\nScepter. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 6 (1d6 + 3) bludgeoning damage plus 14 (4d6) lightning damage.\nUnarmed Strike. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 5 (1d4 + 3) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), p. 200, with the Unarmed Strike damage from the errata."
+      },
+      "skills": {
+        "Perception": 9,
+        "Religion": 6
+      }
+    }
+  },
+  {
+    "name": "Kuo-toa Monitor",
+    "pages": "p. 198",
+    "statBlock": {
+      "name": "Kuo-toa Monitor",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (kuo-toa), neutral evil",
+      "ac": 13,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "description": "An enforcer who watches for dissent and carries out the archpriest's orders. Its unarmed strikes keep opponents from taking reactions.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor with the monitor's Wisdom modifier added.",
+        "Senses": "Darkvision 120 ft., passive Perception 16.",
+        "Languages": "Undercommon.",
+        "Traits": "Amphibious. It breathes air and water.\nOtherworldly Perception. It senses any Invisible creature or creature on the Ethereal Plane within 30 ft. It can pinpoint those that are moving.\nSlippery. It has advantage on ability checks and saving throws to escape a grapple.\nSunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Actions": "Multiattack. It makes one Bite attack and two Unarmed Strikes.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) piercing damage.\nUnarmed Strike. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) bludgeoning damage plus 3 (1d6) lightning damage. The target can't take reactions until the end of the monitor's next turn.",
+        "Variant": "The monitor uses the Whip's statistics with AC 13, CR 3 (700 XP), and the actions above. The variant removes Spellcasting.",
+        "Printed source": "Monster Manual (2014), monitor variant p. 198 and base Whip profile p. 200."
+      },
+      "skills": {
+        "Perception": 6,
+        "Religion": 4
+      }
+    }
+  },
+  {
+    "name": "Kuo-toa Whip",
+    "pages": "p. 200",
+    "statBlock": {
+      "name": "Kuo-toa Whip",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (kuo-toa), neutral evil",
+      "ac": 11,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "1",
+      "xp": 200,
+      "description": "A priest who draws its magic from the archpriest's favor. A whip can pin a captive with its pincer staff while its allies close in.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., passive Perception 16.",
+        "Languages": "Undercommon.",
+        "Traits": "Amphibious. It breathes air and water.\nOtherworldly Perception. It senses any Invisible creature or creature on the Ethereal Plane within 30 ft. It can pinpoint those that are moving.\nSlippery. It has advantage on ability checks and saving throws to escape a grapple.\nSunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Spellcasting": "The whip casts as a 2nd-level cleric, using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nCantrips at will: sacred flame, thaumaturgy.\n1st level, 3 slots: bane, shield of faith.",
+        "Actions": "Multiattack. It makes one Bite and one Pincer Staff attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) piercing damage.\nPincer Staff. Melee weapon attack, +4 to hit, reach 10 ft., one target. Hit for 5 (1d6 + 2) piercing damage. A Medium or smaller target is Grappled (escape DC 14). While the grapple lasts, the whip can't use the staff against a different target.",
+        "Printed source": "Monster Manual (2014), p. 200."
+      },
+      "skills": {
+        "Perception": 6,
+        "Religion": 4
+      }
+    }
+  },
+  {
+    "name": "Winged Kobold",
+    "pages": "p. 195",
+    "statBlock": {
+      "name": "Winged Kobold",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small humanoid (kobold), lawful evil",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "3d6 - 3",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "description": "Also called an urd, this kobold has leathery wings and uses high ledges to drop stones on intruders.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 8.",
+        "Languages": "Common and Draconic.",
+        "Traits": "Sunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.\nPack Tactics. It has advantage on attacks against a creature if one or more of its allies is within 5 ft. of that creature and that ally is not Incapacitated.",
+        "Actions": "Dagger. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 5 (1d4 + 3) piercing damage.\nDropped Rock. Ranged weapon attack, +5 to hit, one target directly below the kobold. Hit for 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), p. 195."
+      }
+    }
+  }
+]

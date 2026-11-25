@@ -1,0 +1,1708 @@
+[
+  {
+    "name": "Giant Ant",
+    "version": {
+      "key": "ed606c09975a3c7c20dd5ef9",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit points",
+          "11"
+        ],
+        [
+          "Hit dice",
+          "2"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "18″"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–6"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Garden of Colossal Flowers"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large worker ant with prominent mandibles."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Workers drawn to the flowers · The flowers cry out when a character enters a bed, about five feet from a flower. The first Giant Bumble Bee arrives the following round. The first three worker ants arrive with the fourth Giant Bumble Bee, three rounds after the first bee. Three more workers arrive each following round until 48 have come. Each ant has 11 HP.",
+            "Garden boundary · They pursue and attack the party inside the garden. The workers leave the party alone outside it."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The printed block describes workers and lists no poison or magic resistance.",
+            "Gary Gygax, The Land Beyond the Magic Mirror (TSR, 1983), B. Garden of Colossal Flowers, p. 9."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Ant": true,
+      "giant ant garden flowers worker": true
+    },
+    "hash": "c3a757de9a7f79b0f0ea7c752ce433c0a360f8a6c6d1e885a3cd828b717a24ed",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "existingDragonfly": {
+      "id": "beast-bab1b413d6982af02645f2ef",
+      "name": "Giant Dragonfly",
+      "kind": "beast",
+      "group": "Beast",
+      "groups": [
+        "Beast",
+        "Unclassified"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Katerina Ladon · The Wild Beyond the Witchlight"
+        }
+      ],
+      "versions": [
+        {
+          "key": "7d5f7b424cdfcb092ece3011",
+          "publication": "The Land Beyond the Magic Mirror",
+          "edition": "AD&D 1st edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "3"
+            ],
+            [
+              "Hit dice",
+              "7 (8+8 for larger specimens)"
+            ],
+            [
+              "Movement",
+              "1, fly 36"
+            ],
+            [
+              "Attacks per round",
+              "1"
+            ],
+            [
+              "Damage per attack",
+              "3–12 (4–16 for larger specimens)"
+            ]
+          ],
+          "sections": []
+        },
+        {
+          "key": "f9605604ec8fcc578218089c",
+          "publication": "The Wild Beyond the Witchlight",
+          "edition": "2014 fifth edition",
+          "description": "A Large beast with challenge rating 1/2. Named abilities include Drone, Bite, Uncanny Dodge.",
+          "source": "https://5e.tools/bestiary.html#giant%20dragonfly_wbtw",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/20472/418/1000/1000/637677439515233198.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Katerina Ladon · The Wild Beyond the Witchlight"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "16"
+            ],
+            [
+              "Hit points",
+              "22"
+            ],
+            [
+              "Hit dice",
+              "4d10"
+            ],
+            [
+              "Challenge",
+              "1/2"
+            ],
+            [
+              "Size",
+              "Large"
+            ],
+            [
+              "Type",
+              "Beast"
+            ],
+            [
+              "Speed",
+              "walk 10 ft., fly 60 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Strength",
+              "15"
+            ],
+            [
+              "Dexterity",
+              "18"
+            ],
+            [
+              "Constitution",
+              "11"
+            ],
+            [
+              "Intelligence",
+              "3"
+            ],
+            [
+              "Wisdom",
+              "10"
+            ],
+            [
+              "Charisma",
+              "3"
+            ],
+            [
+              "Alignment",
+              "unaligned"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +6 to hit · reach 5 ft. · 1d4 + 4 piercing"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Drone"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Bite · Melee attack · +6 to hit · 1d4 + 4 piercing damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Reactions reference",
+              "lines": [
+                "Uncanny Dodge"
+              ]
+            }
+          ],
+          "sourceCode": "WBtW",
+          "page": 234,
+          "references": [
+            {
+              "label": "The Wild Beyond the Witchlight, p. 234",
+              "url": "https://5e.tools/bestiary.html#giant%20dragonfly_wbtw"
+            }
+          ],
+          "inline": {
+            "A Large beast with challenge rating 1/2. Named abilities include Drone, Bite, Uncanny Dodge.": [
+              {
+                "start": 86,
+                "end": 91,
+                "target": {
+                  "name": "Dodge",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 192,
+                  "local": {
+                    "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                    "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Uncanny Dodge": [
+              {
+                "start": 8,
+                "end": 13,
+                "target": {
+                  "name": "Dodge",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 192,
+                  "local": {
+                    "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                    "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Katerina Ladon · The Wild Beyond the Witchlight"
+      }
+    }
+  },
+  {
+    "name": "Giant Crab",
+    "version": {
+      "key": "bd7811d12bd8352c9c0d7aad",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit points",
+          "24"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "9″"
+        ],
+        [
+          "Attacks per round",
+          "2"
+        ],
+        [
+          "Damage per attack",
+          "2–8 / 2–8"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "The gelid river by the Reedy Bank"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A river crab large enough to clamber into the punt."
+          ]
+        },
+        {
+          "title": "Special defenses mechanics",
+          "lines": [
+            "Magic resistance · 25% magic resistance."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Sticking oars at M · When rowing upstream, the oars stick after three attempts. While an oar is stuck, there is a 1-in-6 chance each round that a giant crab climbs into the boat and attacks. Free the oar using the procedure for opening a door. The crabs walk on the gelid surface and leave the punt upright here.",
+            "Reedy Bank at N · If the party tries to continue downstream from N, a giant crab upsets or holes the boat before they get started. Upstream from N is possible only if they arrived from area O. That route toward M uses the sticking-oar and crab encounter rules."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The punting encounter supplies the 24 HP value.",
+            "Gary Gygax, The Land Beyond the Magic Mirror (TSR, 1983), M. Large Punt and N. Reedy Bank, p. 19."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "e52e8edaa6db45fa0c43c6b2",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "3d8"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "13"
+          ],
+          [
+            "Dex",
+            "15"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "9"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claw · melee · +3 to hit · reach 5 ft. · 1d6 + 1 bludgeoning"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "7cbd09f612061b7ead13b9d6",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "a16a3ee792d732851cb329f3",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Medium beast with challenge rating 1/8. Listed habitats: coastal. Named abilities include Amphibious, Claw.",
+        "source": "https://5e.tools/bestiary.html#giant%20crab_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "3d8"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "9"
+          ],
+          [
+            "Initiative",
+            "2"
+          ],
+          [
+            "Strength",
+            "13"
+          ],
+          [
+            "Dexterity",
+            "15"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "9"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claw · melee · +3 to hit · reach 5 ft. · 1d6 + 1 bludgeoning"
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Each claw can grapple one creature on a hit (escape DC 11). The crab can breathe air or water."
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +4"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "coastal"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Amphibious"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Claw · Melee attack · +3 to hit · 1d6 + 1 bludgeoning damage · Escape DC 11 · reach 5 ft. · Grappled"
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 324,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 324",
+            "url": "https://5e.tools/bestiary.html#giant%20crab_mm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_phb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Stealth +4": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "blindsight 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            }
+          ],
+          "Claw · Melee attack · +3 to hit · 1d6 + 1 bludgeoning damage · Escape DC 11 · reach 5 ft. · Grappled": [
+            {
+              "start": 92,
+              "end": 100,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "61cd3cc8fff3d965f4509af7",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Medium beast with challenge rating 1/8. Listed habitats: coastal, underwater. Named abilities include Amphibious, Claw.",
+        "source": "https://5e.tools/bestiary.html#giant%20crab_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43939/240/1000/1000/638607418422171721.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Warren Mahy · Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "3d8"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "9"
+          ],
+          [
+            "Strength",
+            "13"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "9"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "coastal",
+              "underwater",
+              "coastal, underwater"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claw · melee · +3 to hit · reach 5 ft. · 1d6 + 1 bludgeoning"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +3"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Blindsight 30 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Amphibious"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Claw · Melee attack · +3 to hit · 1d6 + 1 bludgeoning damage · Escape DC 11 · reach 5 ft. · Grappled"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 356",
+            "url": "https://5e.tools/bestiary.html#giant%20crab_xmm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_xphb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Stealth +3": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            }
+          ],
+          "Claw · Melee attack · +3 to hit · 1d6 + 1 bludgeoning damage · Escape DC 11 · reach 5 ft. · Grappled": [
+            {
+              "start": 92,
+              "end": 100,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "fc8ee74035fbedb1ebcb6aae",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "3d8"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., swim 30 ft."
+          ],
+          [
+            "XP",
+            "25"
+          ],
+          [
+            "Str",
+            "13"
+          ],
+          [
+            "Dex",
+            "15"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "9"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +4 Senses blindsight 30 ft., passive Perception 9 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Amphibious. The crab can breathe air and water."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Claw. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +4 Senses blindsight 30 ft., passive Perception 9 Languages —": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "start": 25,
+              "end": 35,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 52,
+              "end": 62,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Claw. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 118,
+              "end": 126,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "86a8eca31b5c53e6b3368cfe",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "3d8"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Swim 30 ft."
+          ],
+          [
+            "XP",
+            "25"
+          ],
+          [
+            "Str",
+            "13"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "9"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +3 Senses Blindsight 30 ft.; Passive Perception 9 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Amphibious. The crab can breathe air and water."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +3 Senses Blindsight 30 ft.; Passive Perception 9 Languages None": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            },
+            {
+              "start": 25,
+              "end": 35,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            },
+            {
+              "start": 44,
+              "end": 62,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 136,
+              "end": 144,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Crab": true,
+      "giant crab oars stuck punt": true
+    },
+    "hash": "99f50e5452cfcf804e2d2ce0816ae23618c4227e901b7f0b2e517152a3eb3c8d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Warren Mahy · Monster Manual (2024)"
+      }
+    ]
+  },
+  {
+    "name": "Carnivorous Ape",
+    "version": {
+      "key": "9cc06d1fe1eff81d626385d5",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit points",
+          "25"
+        ],
+        [
+          "Hit dice",
+          "5"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12″"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–4 / 1–4 / 1–8"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Manor house banquet"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A heavy-bodied ape that appears as a large monkey to guests under the banquet’s delusion."
+          ]
+        },
+        {
+          "title": "Special attacks and defenses mechanics",
+          "lines": [
+            "Rend · When both forelimb attacks hit, the ape deals an additional 1–8 rending damage.",
+            "Magic resistance · 25% magic resistance."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Banquet ambush · Three apes with 25 HP each try to rise and attack alongside the giant wolverines when the banquet erupts into combat. The printed attack order places the apes after the wolverines and the next wave of 26 larvae crossing the table. Characters still wearing crowns of delusion misread the attacks as affection."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Gary Gygax, The Land Beyond the Magic Mirror (TSR, 1983), The Mad Feast Hall, CA, pp. 24–25."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Carnivorous Ape": true,
+      "carnivorous ape forelimb banquet": true
+    },
+    "hash": "1d8dc0331da476d46bfa69c2b75b784a6b15f58b4dac5929719d4e01f9f713cd",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Giant Wolverine",
+    "version": {
+      "key": "6b768bd0f525218d0186ad19",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "4"
+        ],
+        [
+          "Hit points",
+          "22"
+        ],
+        [
+          "Hit dice",
+          "4+4"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "15″"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "2–5 / 2–5 / 2–8"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Manor house banquet"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A great shaggy wolverine that seems like a harmless teddy bear to guests under the banquet’s delusion."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Ferocity · The wolverine gains +4 to hit.",
+            "Musk · The wolverine can spray one target behind it. The target saves vs. Poison or is blinded for 1–8 hours. A successful save still causes 2–8 turns of nausea and cuts Strength and Dexterity by half for that duration. Worn cloth saves as if attacked by acid. On failure it rots and is destroyed."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Banquet ambush · Two wolverines with 22 HP each try to rise and attack alongside the carnivorous apes when the banquet erupts into combat. The printed attack order places the wolverines before the next wave of 26 larvae crossing the table, followed by the apes."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The encounter block gives no magic resistance. The Afterword on p. 26 separately discusses 25% magic resistance for creatures native to the land or long accustomed to it.",
+            "Gary Gygax, The Land Beyond the Magic Mirror (TSR, 1983), The Mad Feast Hall, GW, pp. 24–25."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Wolverine": true,
+      "giant wolverine banquet musk": true
+    },
+    "hash": "d39a854fabe0e7755bb4ffe47525da9b4ef108abe125d4f918d27733b0ea5c5c",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  }
+]

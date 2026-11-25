@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Giant Ape",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 157,
+    "hitDice": "15d12 + 60",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Athletics +9 and Perception +4. Passive Perception 14. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A huge gorilla-like ape with silver-grey back fur, a heavy brow, and long muscular forearms that end in broad knuckles.",
+    "habitats": [
+      "Forests",
+      "Jungles",
+      "Wooded slopes"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 130. ",
+      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee weapon attack, +9 to hit against one target within 10 ft. On a hit, deal 22 (3d10 + 6) bludgeoning damage.\nRock. Ranged weapon attack, +9 to hit against one target, range 50/100 ft. On a hit, deal 30 (7d6 + 6) bludgeoning damage.",
+      "At the table": "Choose Rock as its own action. At distances beyond 50 ft. and up to 100 ft., roll it with disadvantage for long range."
+    }
+  },
+  {
+    "name": "Giant Ape",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 157,
+    "hitDice": "15d12 + 60",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Athletics +9 and Perception +4. Passive Perception 14. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A huge gorilla-like ape with silver-grey back fur, a heavy brow, and long muscular forearms that end in broad knuckles.",
+    "habitats": [
+      "Forests",
+      "Jungles",
+      "Wooded slopes"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 323. https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee weapon attack, +9 to hit against one target within 10 ft. On a hit, deal 22 (3d10 + 6) bludgeoning damage.\nRock. Ranged weapon attack, +9 to hit against one target, range 50/100 ft. On a hit, deal 30 (7d6 + 6) bludgeoning damage.",
+      "At the table": "Choose Rock as its own action. At distances beyond 50 ft. and up to 100 ft., roll it with disadvantage for long range."
+    }
+  },
+  {
+    "name": "Giant Badger",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "30 ft., burrow 10 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. and passive Perception 11. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A stocky giant badger with a black-and-white striped face, grizzled grey fur, broad shoulders, and long ivory digging claws.",
+    "habitats": [
+      "Forests",
+      "Woodland edges",
+      "Burrows"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 130. ",
+      "Traits": "Keen Smell. Roll Wisdom (Perception) checks with advantage when they depend on scent.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 6 (2d4 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Giant Badger",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "30 ft., burrow 10 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. and passive Perception 11. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A stocky giant badger with a black-and-white striped face, grizzled grey fur, broad shoulders, and long ivory digging claws.",
+    "habitats": [
+      "Forests",
+      "Woodland edges",
+      "Burrows"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 323. https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+      "Traits": "Keen Smell. Roll Wisdom (Perception) checks with advantage when they depend on scent.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 6 (2d4 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Giant Bat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 22,
+    "hitDice": "4d10",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Blindsight 60 ft. and passive Perception 11. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A large airborne bat with sooty brown fur, high ridged ears, and broad leathery wings that stretch between elongated fingers.",
+    "habitats": [
+      "Caves",
+      "Forests",
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 130. ",
+      "Traits": "Echolocation. Deafened shuts off the bat's blindsight.\nKeen Hearing. Roll Wisdom (Perception) checks with advantage when they depend on hearing.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Bat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 22,
+    "hitDice": "4d10",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Blindsight 60 ft. and passive Perception 11. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A large airborne bat with sooty brown fur, high ridged ears, and broad leathery wings that stretch between elongated fingers.",
+    "habitats": [
+      "Caves",
+      "Forests",
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 323. https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+      "Traits": "Echolocation. Deafened shuts off the bat's blindsight.\nKeen Hearing. Roll Wisdom (Perception) checks with advantage when they depend on hearing.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage."
+    }
+  }
+]

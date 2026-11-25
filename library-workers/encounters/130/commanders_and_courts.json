@@ -1,0 +1,555 @@
+[
+  {
+    "name": "Argan Rael",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Tiefling), chaotic evil",
+    "ac": 15,
+    "hp": 104,
+    "hitDice": "19d8 + 19",
+    "speed": "30 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "AC 18 with Mage Armor. Saving throws Con +4, Int +10, Wis +3. Arcana +10, History +10, Investigation +10, Perception +3. Resists fire and necrotic damage. Darkvision 60 ft., passive Perception 13. Speaks Common and Infernal.",
+    "description": "Argan persuaded Prince Ellan to fund his hunt for immortality. He now lives in the Bracers of the Spellbreaker and prefers to take spellcasters as hosts.",
+    "sections": {
+      "Role": "Artillery",
+      "Printed source": "p. 382. Soulbinder items and curse, pp. 380–381.",
+      "Traits": "Magic Resistance. Argan has advantage on saves against spells and other magical effects.\nPervasive Magic. His spell attacks bypass damage resistance.",
+      "Actions": "Multiattack. Make three Arcane Lance attacks.\nArcane Lance (cantrip). Melee or ranged spell attack +10, reach 5 ft. or range 90 ft., one target. Hit 17 (5d6) force damage. Argan can move the target horizontally up to 15 ft.\nLightning Volley (3rd-level spell). Choose up to three visible creatures within 30 ft. Each makes a DC 18 Constitution save. Failure deals 21 (6d6) lightning damage and halves speed until the end of its next turn. Success halves damage and leaves speed alone.\nFireball (1/day, 7th-level spell). Pick a point within 90 ft. Chosen creatures in a 20-ft.-radius sphere make DC 18 Dexterity saves, taking 42 (12d6) fire damage on a failure or half on a success.",
+      "Bonus Actions": "Misty Step (2/day, 2nd-level spell). Teleport up to 30 ft. to a visible unoccupied space.",
+      "Utility Spells": "Intelligence, spell save DC 18. All listed utility spells take one action. At will, Dancing Lights, Mage Hand, Message, Prestidigitation. Twice per day each, Detect Magic, Mage Armor, Sending.",
+      "Villain Party Action": "Soulbinders. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 4, Gravity Bomb. Center a 20-ft.-radius sphere on a visible point within 90 ft. Enemies inside make DC 18 Constitution saves. A failure deals 33 (6d10) force damage and reduces speed to 0 through the end of the target's next turn. Success halves the damage and preserves speed.",
+      "Recoverable Magic Item": "Bracers of the Spellbreaker. Very rare. Spellcaster attunement required. The wearer has advantage on saves against spells and magical effects, and their spell attacks bypass damage resistance.\nCursed Sentience. The item uses its Soulbinder's alignment, mental ability scores, and languages. It hears and sees in darkness within 60 ft. and can speak to its wearer telepathically. Break attunement with Remove Curse or equivalent magic. After seven days attuned and every 24 hours after that, make a DC 18 Wisdom save. Each failure reduces Wisdom by 1 while attuned. On the third failure, the Soulbinder takes control and changes the wearer's body, statistics, and equipment to match its own. The wearer remains aware. Breaking attunement restores the body and control. The Soulbinder returns to the item when attunement ends or the body dies. After 1d6 + 12 months of possession, the victim's soul and body are destroyed. The full group ritual for permanently lifting the curse is on p. 382."
+    }
+  },
+  {
+    "name": "Kishina Darrowind",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Half-Elf), lawful neutral",
+    "ac": 19,
+    "hp": 121,
+    "hitDice": "22d8 + 22",
+    "speed": "50 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Armor includes Pathfinder’s Boots. Saving throws Str +5, Dex +10, Wis +10. Acrobatics +10, Athletics +5, Insight +10, Perception +10. Darkvision 60 ft., passive Perception 20. Speaks Common and Elvish.",
+    "description": "Kishina once fought the invaders of her homeland. She guided the Soulbinders to the ruin that bound her to the Pathfinder’s Boots, and now wants to learn how the ritual worked.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Printed source": "p. 383. Villain party action, p. 382. Soulbinder items and curse, pp. 380–381.",
+      "Traits": "Charm Resistant. Advantage on saves to avoid or end Charmed.\nLight Landing. Falling deals no damage to Kishina.\nStanding Leap. Long jump 45 ft. and high jump 15 ft., with or without a running start.",
+      "Actions": "Multiattack. Make four Unarmed Strikes or three Throwing Knife attacks.\nUnarmed Strike. Melee weapon attack +10, reach 5 ft., one target. Hit 11 (1d8 + 7) bludgeoning damage. A critical hit instead deals 20 (3d8 + 7).\nThrowing Knife. Ranged weapon attack +10, range 20/60 ft., one target. Hit 9 (1d4 + 7) piercing damage.\nPainful Sprint (recharge 6). Move up to speed without provoking opportunity attacks. Each enemy Kishina can see and passes within 5 ft. of makes a DC 18 Constitution save. On a failure it is Poisoned until the start of its next turn. If it fails by at least 5, it also falls Prone.",
+      "Bonus Actions": "Throw. A visible Large or smaller enemy within 5 ft. makes a DC 18 Dexterity save. On a failure, Kishina moves the target up to 15 ft. away and knocks it Prone.",
+      "Reactions": "Shield (3/day, 1st-level spell). When an attack or Magic Missile targets Kishina, she gains +5 AC including against that attack and takes no Magic Missile damage until the start of her next turn.",
+      "Villain Party Action": "Soulbinders. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 3, Furious Dance. Each visible enemy within 15 ft. makes a DC 18 Dexterity save. Failure deals 22 (5d8) bludgeoning damage and knocks the target Prone. Success halves damage and avoids the fall.",
+      "Recoverable Magic Item": "Pathfinder’s Boots. Very rare. Attunement required. The wearer gains +2 AC and +10 ft. walking speed. The boots hold 7 charges. Spend 1 to cast Feather Fall, Jump, or Shield. They regain 1d6 + 1 spent charges at dawn.\nCursed Sentience. The item uses its Soulbinder's alignment, mental ability scores, and languages. It hears and sees in darkness within 60 ft. and can speak to its wearer telepathically. Break attunement with Remove Curse or equivalent magic. After seven days attuned and every 24 hours after that, make a DC 18 Wisdom save. Each failure reduces Wisdom by 1 while attuned. On the third failure, the Soulbinder takes control and changes the wearer's body, statistics, and equipment to match its own. The wearer remains aware. Breaking attunement restores the body and control. The Soulbinder returns to the item when attunement ends or the body dies. After 1d6 + 12 months of possession, the victim's soul and body are destroyed. The full group ritual for permanently lifting the curse is on p. 382."
+    }
+  },
+  {
+    "name": "Prince Ellan Farra",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Elf), lawful evil",
+    "ac": 18,
+    "hp": 110,
+    "hitDice": "20d8 + 20",
+    "speed": "30 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Cha": {
+        "score": 20,
+        "modifier": 5
+      }
+    },
+    "otherStatistics": "Breastplate and shield. Saving throws Dex +5, Wis +10, Cha +8. Deception +8, Insight +10, Persuasion +8, Religion +3. Immune to psychic damage and to Charmed and Frightened. Darkvision 60 ft., passive Perception 17. Speaks Common and Elvish.",
+    "description": "Passed over for the crown, Ellan traded his mortal life for the chance to outlast his family. Now bound to the Crown of Majesty, he expects his subjects to worship him.",
+    "sections": {
+      "Role": "Controller",
+      "Printed source": "p. 383. Villain party action, p. 382. Soulbinder items and curse, pp. 380–381.",
+      "Traits": "Elf Glamour (1/day). When a creature targets Ellan with an attack, power, or spell, it makes a DC 18 Wisdom save or becomes Charmed by him through the end of his next turn. No action required.\nResolute Aura. While Ellan is conscious, he and any allies within 20 ft. who can see him are immune to Charmed and Frightened.",
+      "Actions": "Multiattack. Make two Bladed Scepter attacks.\nBladed Scepter. Melee weapon attack +10, reach 5 ft., one target. Hit 11 (1d8 + 7) bludgeoning plus 10 (3d6) poison damage. The target makes a DC 18 Constitution save or is Poisoned for 1 minute. It can save again at the end of each turn.\nCommand (2nd-level spell). Speak a one-word order to up to two visible creatures within 60 ft. On a failed DC 18 Wisdom save, a target follows the order on its next turn. The spell has no effect on Undead, targets who understand neither Common nor Elvish, or those who would be directly harmed by obeying. It ends if the target cannot comply. Approach makes the target advance by the shortest route and end its turn when within 5 ft. Drop makes it release held objects and end its turn. Flee makes it spend its turn getting away as quickly as possible. Grovel makes it fall Prone and end its turn. Halt forbids movement and actions.\nUnholy Flame (3rd-level spell). A visible creature within 60 ft. makes a DC 18 Dexterity save. Failure deals 27 (6d8) fire damage and envelops the creature in flame. While enveloped it takes 7 (2d6) fire damage at the start of its turns and can save to end the effect at the end of each turn. Success on the initial save halves the damage and avoids the ongoing flames.",
+      "Villain Party Action": "Soulbinders. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 1, Battle Cry. Enemies who hear Ellan within 60 ft. make DC 18 Wisdom saves. On a failure, they have disadvantage on ability checks and attack rolls through the end of their next turns.",
+      "Recoverable Magic Item": "Crown of Majesty. Very rare. Attunement required. The wearer resists psychic damage and is immune to Charmed and Frightened. The crown holds 3 charges. Spend an action and 1 charge to cast Command or Charm Person, DC 18. It regains 1d3 spent charges at dawn.\nCursed Sentience. The item uses its Soulbinder's alignment, mental ability scores, and languages. It hears and sees in darkness within 60 ft. and can speak to its wearer telepathically. Break attunement with Remove Curse or equivalent magic. After seven days attuned and every 24 hours after that, make a DC 18 Wisdom save. Each failure reduces Wisdom by 1 while attuned. On the third failure, the Soulbinder takes control and changes the wearer's body, statistics, and equipment to match its own. The wearer remains aware. Breaking attunement restores the body and control. The Soulbinder returns to the item when attunement ends or the body dies. After 1d6 + 12 months of possession, the victim's soul and body are destroyed. The full group ritual for permanently lifting the curse is on p. 382."
+    }
+  },
+  {
+    "name": "Radlee Thugram",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Human), neutral evil",
+    "ac": 18,
+    "hp": 130,
+    "hitDice": "20d8 + 40",
+    "speed": "30 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Plate. Saving throws Str +10, Con +5, Wis +6. Athletics +10, Intimidation +4, Perception +6, Survival +6. Truesight 60 ft., passive Perception 16. Speaks Common.",
+    "description": "Radlee deserted after her commander used her unit as bait. As a Soulbinder, she protects her fellow mercenaries and has little patience for Ellan’s courtly demands.",
+    "sections": {
+      "Role": "Soldier",
+      "Printed source": "p. 384. Villain party action, p. 382. Soulbinder items and curse, pp. 380–381.",
+      "Traits": "Exploit Opening (3/day). Gain advantage on an attack roll.\nSure-Footed. Advantage on saves against forced movement or being knocked Prone.\nTactical Vigilance. Radlee has advantage on initiative checks. While she can act, she and allies within 30 ft. who see or hear her cannot be surprised.",
+      "Actions": "Multiattack. Make three Halberd attacks, three Longbow attacks, or one Halberd attack and use Backswipe.\nHalberd. Melee weapon attack +10, reach 10 ft., one target. Hit 12 (1d10 + 7) slashing damage.\nLongbow. Ranged weapon attack +6, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing damage.\nBackswipe. One creature within 5 ft. makes a DC 18 Strength save. On a failure it takes 16 (3d10) bludgeoning damage and falls Prone.",
+      "Reactions": "Protector. When a creature Radlee can see within 10 ft. attacks her ally, she can make a Halberd attack against the attacker.",
+      "Villain Party Action": "Soulbinders. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 2, Strategic Positioning. Radlee and each ally within 60 ft. who sees or hears her can move up to half speed without provoking opportunity attacks and take the Hide action.",
+      "Recoverable Magic Item": "Visionary’s Cloak. Very rare. Attunement required. The wearer has advantage on initiative checks and cannot be surprised. With the hood up, the wearer has truesight to 60 ft. and glowing eyes. Raising or lowering the hood takes an action.\nCursed Sentience. The item uses its Soulbinder's alignment, mental ability scores, and languages. It hears and sees in darkness within 60 ft. and can speak to its wearer telepathically. Break attunement with Remove Curse or equivalent magic. After seven days attuned and every 24 hours after that, make a DC 18 Wisdom save. Each failure reduces Wisdom by 1 while attuned. On the third failure, the Soulbinder takes control and changes the wearer's body, statistics, and equipment to match its own. The wearer remains aware. Breaking attunement restores the body and control. The Soulbinder returns to the item when attunement ends or the body dies. After 1d6 + 12 months of possession, the victim's soul and body are destroyed. The full group ritual for permanently lifting the curse is on p. 382."
+    }
+  },
+  {
+    "name": "Scarlet Shadow",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Dragonborn), neutral evil",
+    "ac": 19,
+    "hp": 130,
+    "hitDice": "20d8 + 40",
+    "speed": "30 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Cha": {
+        "score": 11,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Studded leather. Saving throws Dex +10, Int +4, Wis +8. Acrobatics +10, Perception +8, Sleight of Hand +10, Stealth +13. Resists necrotic damage. Darkvision 60 ft., passive Perception 18. Speaks Common and Draconic.",
+    "description": "The lone survivor of an assassins’ guild took its name as his own. Bound to the Ring of Scarlet Shadows, he wants to become a god of death.",
+    "sections": {
+      "Role": "Ambusher",
+      "Printed source": "p. 384. Villain party action, p. 382. Soulbinder items and curse, pp. 380–381.",
+      "Traits": "Assassinate. On Scarlet's first turn, his attacks have advantage against creatures that have yet to act. His first hit against a surprised creature is a critical hit.\nSneak Attack (1/turn). A weapon hit deals 14 (4d6) extra damage if he has advantage. It also qualifies when an ally who can act is within 5 ft. of the target and Scarlet lacks disadvantage.",
+      "Actions": "Multiattack. Make three Shadow Blade attacks or three bow attacks. Use the listed Longbow profile for the bow attacks.\nShadow Blade. Melee weapon attack +10, reach 5 ft., one target. Hit 14 (2d6 + 7) necrotic damage. A target hit by two or more Shadow Blade attacks in one turn makes a DC 18 Wisdom save or is Blinded through the end of its next turn.\nLongbow. Ranged weapon attack +10, range 150/600 ft., one target. Hit 11 (1d8 + 7) piercing damage.\nRazor Garrote. Melee weapon attack +10, reach 5 ft., one target. Hit 11 (1d8 + 7) slashing damage. A Medium or smaller creature is Grappled, escape DC 17. Until free, it is Restrained and takes 22 (5d8) slashing damage at the start of its turns. Scarlet can attack only that target during the grapple.\nUmbral Breath (recharge 6). Creatures in a 30-ft. cone make DC 18 Dexterity saves. A failure deals 28 (8d6) necrotic damage and leaves the creature Frightened of Scarlet for 1 minute, with a repeat save at the end of each turn. Success halves damage and avoids Frightened.",
+      "Bonus Actions": "Cunning Action. Dash, Disengage, or Hide.",
+      "Villain Party Action": "Soulbinders. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 5, Shadow Shift. Teleport up to 30 ft. to a visible unoccupied space, then make one Shadow Blade or Razor Garrote attack with advantage. Any hit is critical.",
+      "Recoverable Magic Item": "Ring of Scarlet Shadows. Very rare. Attunement required. The wearer gains darkvision to 60 ft. or adds 60 ft. to an existing range, and has advantage on Dexterity (Stealth) checks to hide. A bonus action extends or dismisses a shadow blade from the ring hand. It works as a shortsword dealing necrotic damage. While extended, it cannot be dropped and the hand cannot hold anything else.\nCursed Sentience. The item uses its Soulbinder's alignment, mental ability scores, and languages. It hears and sees in darkness within 60 ft. and can speak to its wearer telepathically. Break attunement with Remove Curse or equivalent magic. After seven days attuned and every 24 hours after that, make a DC 18 Wisdom save. Each failure reduces Wisdom by 1 while attuned. On the third failure, the Soulbinder takes control and changes the wearer's body, statistics, and equipment to match its own. The wearer remains aware. Breaking attunement restores the body and control. The Soulbinder returns to the item when attunement ends or the body dies. After 1d6 + 12 months of possession, the victim's soul and body are destroyed. The full group ritual for permanently lifting the curse is on p. 382."
+    },
+    "ruleNotes": [
+      "The printed Multiattack mentions a Shortbow, but the only bow statistics provided are for a Longbow. This summary uses that listed attack."
+    ]
+  },
+  {
+    "name": "Jutkarr Flintfingers",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Dwarf), neutral evil",
+    "ac": 16,
+    "hp": 91,
+    "hitDice": "14d8 + 28",
+    "speed": "25 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Breastplate. Saving throws Con +5, Int +9. History +9, Investigation +9, Perception +6, Religion +9. Resists poison and psychic damage. Darkvision 60 ft., passive Perception 16. Speaks Common, Dwarvish, and thieves’ cant. Telepathy 120 ft.",
+    "description": "Jutkarr likes locks and guarded vaults for the same reason he likes the broadsheet’s puzzles. He plans the Amethyst Knife’s operations and keeps its supplies in order.",
+    "sections": {
+      "Role": "Support",
+      "Printed source": "p. 376. Villain party action, p. 375.",
+      "Traits": "Mind Link. The bosses of the Amethyst Knife can speak telepathically with one another across any distance on the same plane.\nPoison Resistant. Advantage on saves to avoid or end Poisoned.",
+      "Actions": "Multiattack. Make two Deserved Transfer attacks.\nDeserved Transfer (2nd-order power). Melee or ranged power attack +9, reach 5 ft. or range 30 ft., one creature. Hit 13 (2d6 + 6) psychic damage. A creature Jutkarr can see within 30 ft. gains temporary HP equal to half the damage dealt.\nPsionic Resilience (2/day, 4th-order power). Touch a willing creature and give it immunity to one chosen condition for 1 hour. Choose Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, Petrified, Poisoned, or Stunned. Suppress that condition for the same duration if the target already has it.",
+      "Reactions": "Shared Condition. When the creature becomes Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, or Stunned, it can transfer the condition and its remaining duration to a willing Amethyst Knife boss within 60 ft. who neither has the condition nor is immune to it. The condition ends for the original creature. This reaction works even while Incapacitated.",
+      "Villain Party Action": "Amethyst Knife. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 3, I Planned For This. An Amethyst Knife boss within 60 ft. of Jutkarr can swap places by teleporting with another willing boss in the same area. A boss must see the one it swaps with. No action required.",
+      "Dazed (MCDM)": "While Dazed, a creature can use only one of its movement, action, or bonus action on its turn. Gaining Dazed ends the turn if it happens during that turn. Extra actions such as Haste or Action Surge still work. Cure Ailment, Lesser Restoration, and Greater Restoration can end the condition.",
+      "Psionic Powers (MCDM)": "Powers have no components and count as supernatural. Antimagic Field, Counterspell, and Dispel Magic do not stop powers. A creature may maintain several different powers at once, up to its proficiency bonus, but cannot concentrate on a spell or another effect at the same time. Failing a concentration save ends all active powers. If a foe provokes an opportunity attack, the creature can use a melee power attack as its reaction instead."
+    }
+  },
+  {
+    "name": "Llyvessa",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Elf), neutral",
+    "ac": 18,
+    "hp": 88,
+    "hitDice": "16d8 + 16",
+    "speed": "35 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Studded leather. Saving throws Dex +9, Wis +6. Acrobatics +9, Nature +5, Perception +6, Stealth +9, Survival +6. Darkvision 60 ft., passive Perception 16. Speaks Elvish. Telepathy 120 ft.",
+    "description": "Llyvessa replaced a missing guide on the expedition that uncovered the Amethyst Knife’s crystal. Something she saw there still frightens her, though she keeps her reasons for staying with the group to herself.",
+    "sections": {
+      "Role": "Artillery",
+      "Printed source": "p. 376. Villain party action, p. 375.",
+      "Traits": "Deadly Sharpshooter. Long range does not give Llyvessa disadvantage with a ranged weapon.\nElf Glamour (1/day). When a creature targets Llyvessa with an attack, power, or spell, it makes a DC 14 Wisdom save or is Charmed by her until the end of her next turn. No action required.\nMind Link. The bosses of the Amethyst Knife can speak telepathically with one another across any distance on the same plane.",
+      "Actions": "Multiattack. Make two attacks with Scimitar or Longbow. Alternatively, make one Longbow attack and use Psychic Shot if available.\nScimitar. Melee weapon attack +9, reach 5 ft., one target. Hit 9 (1d6 + 6) slashing damage.\nLongbow. Ranged weapon attack +9, range 150/600 ft., one target. Hit 15 (2d8 + 6) piercing damage.\nPsychic Shot (recharge 5–6). Make a Longbow attack that ignores cover and passes through mundane solid obstacles up to 5 ft. thick. It cannot pass through an object being worn or carried.",
+      "Bonus Actions": "Jaunt (1/day, 3rd-order power). Teleport Llyvessa or one willing creature within 5 ft. to a visible unoccupied space within 30 ft. of her.",
+      "Reactions": "Control Projectiles (3/day, 2nd-order power). When a creature Llyvessa sees within 60 ft. makes a ranged weapon attack, she chooses whether that attack has advantage or disadvantage.\nShared Condition. When the creature becomes Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, or Stunned, it can transfer the condition and its remaining duration to a willing Amethyst Knife boss within 60 ft. who neither has the condition nor is immune to it. The condition ends for the original creature. This reaction works even while Incapacitated.",
+      "Villain Party Action": "Amethyst Knife. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 2, Leaves Fall on the Moon. Fire an arrow that creates a 150-ft. line, 5 ft. wide. Enemies in the line make DC 17 Wisdom saves, taking 21 (6d6) psychic damage on a failure or half on success.",
+      "Dazed (MCDM)": "While Dazed, a creature can use only one of its movement, action, or bonus action on its turn. Gaining Dazed ends the turn if it happens during that turn. Extra actions such as Haste or Action Surge still work. Cure Ailment, Lesser Restoration, and Greater Restoration can end the condition.",
+      "Psionic Powers (MCDM)": "Powers have no components and count as supernatural. Antimagic Field, Counterspell, and Dispel Magic do not stop powers. A creature may maintain several different powers at once, up to its proficiency bonus, but cannot concentrate on a spell or another effect at the same time. Failing a concentration save ends all active powers. If a foe provokes an opportunity attack, the creature can use a melee power attack as its reaction instead."
+    }
+  },
+  {
+    "name": "Victory Graves",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Human), neutral evil",
+    "ac": 18,
+    "hp": 88,
+    "hitDice": "16d8 + 16",
+    "speed": "40 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Studded leather. Saving throws Dex +9, Int +5. Acrobatics +9, Athletics +6, Deception +4, Intimidation +4, Stealth +9. Passive Perception 11. Speaks Common and thieves’ cant. Telepathy 120 ft.",
+    "description": "A veteran of backroom fighting pits, Vic likes to coax opponents into duels. She started as Harlo’s bodyguard and is now his second-in-command.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Printed source": "p. 377. Villain party action, p. 375. Mindrazor item, p. 374.",
+      "Traits": "Exploit Opening (3/day). Gain advantage on an attack roll.\nMind Link. The bosses of the Amethyst Knife can speak telepathically with one another across any distance on the same plane.\nKinetic Buildup. Each melee weapon hit adds 5 ft. to her speed and grants one additional reaction until the start of her next turn. The bonuses stack.\nPsionic Wound (3/day). When Mindrazor hits, she can force a DC 17 Intelligence save. On a failure, the target is vulnerable to psychic damage for 1 minute. Repeat the save at the end of each turn to end it. No action required.",
+      "Actions": "Multiattack. Make three Mindrazor attacks and one Cheap Shot.\nMindrazor. Melee weapon attack +10, reach 5 ft., one target. Hit 11 (1d8 + 7) piercing damage.\nCheap Shot. Melee weapon attack +9, reach 5 ft., one target. Hit 8 (1d4 + 6) bludgeoning damage. The target makes a DC 17 Dexterity save. On a failure, Victory knocks it Prone or inflicts Blinded, Dazed, or Deafened until the end of its next turn.",
+      "Reactions": "Shared Condition. When the creature becomes Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, or Stunned, it can transfer the condition and its remaining duration to a willing Amethyst Knife boss within 60 ft. who neither has the condition nor is immune to it. The condition ends for the original creature. This reaction works even while Incapacitated.",
+      "Villain Party Action": "Amethyst Knife. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 4, Telepathic Tirade. Pick one visible creature within 30 ft. Until the end of its next turn, it rolls ability checks, attacks, and saves with disadvantage and takes 5 (1d10) psychic damage each time one fails.",
+      "Recoverable Magic Item": "Mindrazor. Very rare +1 rapier, attunement required. It holds 3 charges and refills at dawn. On a hit spend 1 charge to force a DC 17 Intelligence save. A failure gives the target vulnerability to psychic damage for 1 minute. The target can try the save again at the end of each turn.",
+      "Dazed (MCDM)": "While Dazed, a creature can use only one of its movement, action, or bonus action on its turn. Gaining Dazed ends the turn if it happens during that turn. Extra actions such as Haste or Action Surge still work. Cure Ailment, Lesser Restoration, and Greater Restoration can end the condition."
+    }
+  },
+  {
+    "name": "Treyvan von Hirnschmann",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Half-Elf), neutral evil",
+    "ac": 18,
+    "hp": 102,
+    "hitDice": "12d8 + 48",
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 22,
+        "modifier": 6
+      }
+    },
+    "otherStatistics": "Plate. Saving throws Str +9, Con +7. Athletics +9, Religion +3. Darkvision 60 ft., passive Perception 12. Speaks Common and Elvish. Telepathy 120 ft.",
+    "description": "After learning that his own father was plotting his death, Treyvan pledged his muscle and telekinesis to the Amethyst Knife. He wants to seize the dukedom that he was denied.",
+    "sections": {
+      "Role": "Soldier",
+      "Printed source": "p. 377. Villain party action, p. 375.",
+      "Traits": "Charm Resistant. Advantage on saves to avoid or end Charmed.\nMind Link. The bosses of the Amethyst Knife can speak telepathically with one another across any distance on the same plane.\nTelekinetic Bastion. Allies within 20 ft. gain +2 AC and +2 on Dexterity saves. Enemies treat that area as difficult terrain.",
+      "Actions": "Multiattack. Make two Maul attacks. Treyvan can replace one with Telekinetic Throw or Choke if available.\nMaul. Melee weapon attack +9, reach 5 ft., one target. Hit 13 (2d6 + 6) bludgeoning damage. A Medium or smaller target can be knocked Prone or pushed up to 10 ft. away, at Treyvan's choice.\nTelekinetic Throw. Make a Maul attack with a range of 30 ft. The maul immediately returns after the attack.\nChoke (2/day, 5th-order power, concentration). A visible Large or smaller creature within 30 ft. makes a DC 17 Dexterity save. Failure leaves it Restrained for up to 1 minute. It takes 14 (4d6) force damage at the start of its turns and can repeat the save at the end of each turn. The power ends if it gains total cover from Treyvan or moves beyond 30 ft.",
+      "Reactions": "Shared Condition. When the creature becomes Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, or Stunned, it can transfer the condition and its remaining duration to a willing Amethyst Knife boss within 60 ft. who neither has the condition nor is immune to it. The condition ends for the original creature. This reaction works even while Incapacitated.",
+      "Villain Party Action": "Amethyst Knife. The party can use one villain party action per round, after an enemy's turn. Each action is available once per encounter, in any order. The member taking it must be present and able to act.\nAction 1, Amethyst Formation. Treyvan can move each willing Amethyst Knife boss he sees within 60 ft. up to 30 ft. in any direction.",
+      "Dazed (MCDM)": "While Dazed, a creature can use only one of its movement, action, or bonus action on its turn. Gaining Dazed ends the turn if it happens during that turn. Extra actions such as Haste or Action Surge still work. Cure Ailment, Lesser Restoration, and Greater Restoration can end the condition.",
+      "Psionic Powers (MCDM)": "Powers have no components and count as supernatural. Antimagic Field, Counterspell, and Dispel Magic do not stop powers. A creature may maintain several different powers at once, up to its proficiency bonus, but cannot concentrate on a spell or another effect at the same time. Failing a concentration save ends all active powers. If a foe provokes an opportunity attack, the creature can use a melee power attack as its reaction instead."
+    }
+  },
+  {
+    "name": "Kiona the Dread Lord",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Undead (Incorporeal), chaotic evil",
+    "ac": 17,
+    "hp": 136,
+    "hitDice": "16d8 + 64",
+    "speed": "0 ft., fly 60 ft. (hover)",
+    "cr": "9",
+    "xp": 5000,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Int +9, Wis +6. Arcana +9, History +9, Perception +6. Resists acid, cold, fire, lightning, thunder, and bludgeoning, piercing, and slashing from mundane attacks. Immune to necrotic and poison damage and to Charmed, Dazed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, and Unconscious. Blindsight 60 ft., passive Perception 16. Speaks Common, Draconic, and Orc.",
+    "description": "The Codex Mortis destroyed the archaeologist Kiona Duemois’s body. She built an army of spectral undead to search for the lost book.",
+    "sections": {
+      "Role": "Leader",
+      "Printed source": "Stat block, p. 249. Background, p. 245.",
+      "Traits": "Corrupting Phasing. Kiona can cross through creatures and objects. She takes 5 (1d10) force damage if she ends her turn inside an object. Each creature she passes through takes 9 (2d8) necrotic damage the first time she passes through it on a turn.\nIncorporeal Empowerment. Incorporeal Undead ignore difficult terrain while within 120 ft. of Kiona.\nSpiritual Sacrifice (3/day). After failing a save, Kiona can lose 15 HP and succeed instead.",
+      "Actions": "Multiattack. Make two Energy Siphon attacks.\nEnergy Siphon. Melee or ranged spell attack +9, reach 5 ft. or range 120 ft., one creature. Hit 15 (3d6 + 5) necrotic damage. The target cannot regain HP until the start of Kiona's next turn. She gains temporary HP equal to half the damage dealt.\nRise from Death (1/day). Summon three shadows, two specters, or one wraith under Kiona's control. They appear in unoccupied spaces within 30 ft. and act immediately after her on the same initiative count.",
+      "Bonus Actions": "Path of Pain. An incorporeal Undead other than Kiona within 120 ft. who can see her can move up to its speed.",
+      "Reactions": "Death’s Breath. After hitting Kiona with an attack from within 5 ft., the attacker must make a DC 17 Constitution save or be Poisoned through the end of its next turn.",
+      "Villain Actions": "Kiona can use one of these actions after an enemy's turn, up to once per round. Each is available once per encounter, in any order.\nAction 1, Restrain Them! Choose a visible point within 120 ft. Each enemy in a 20-ft.-radius sphere centered there makes a DC 17 Dexterity save. Failure leaves it Restrained until the end of Kiona's next turn.\nAction 2, Ruinous March. Kiona and each ally within 60 ft. can move up to its speed without provoking opportunity attacks.\nAction 3, Vitality Drain. Kiona and each ally within 60 ft. can make a melee attack without using an action. A creature hit gains one level of Exhaustion.",
+      "Mundane Attacks (MCDM)": "Magical and psionic attacks deal supernatural damage and bypass the listed resistance to mundane attacks."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Shadow (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "shadows"
+        ]
+      },
+      {
+        "name": "Specter (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "specters"
+        ]
+      },
+      {
+        "name": "Wraith (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "wraith"
+        ]
+      }
+    ]
+  }
+]

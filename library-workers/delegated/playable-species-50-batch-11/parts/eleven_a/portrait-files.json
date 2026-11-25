@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ape",
+    "file": "portraits/ape.png",
+    "sha256": "250cdf842117ba4a51833022a76ae5f5c3014b1aef5ce485423987b098bfd7a8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Awakened Tree",
+    "file": "portraits/awakened-tree.png",
+    "sha256": "f29676d828ca18f89f610d79464c054ed4565e4fbbb714f40b6757d60ec2a993",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Baboon",
+    "file": "portraits/baboon.png",
+    "sha256": "5a91f621187ffbb19513b13d49059c856189b427b149022faad9bdfe4e3094ae",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Badger",
+    "file": "portraits/badger.png",
+    "sha256": "802014506c60b5eecbf56b57a8cd860198044f1bc1ac5c58e1fa9c4158430142",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Bat",
+    "file": "portraits/bat.png",
+    "sha256": "0b766f7a2427c58c3e86111d76cbeb56ca8bcb891b81d42ff201018f816b62cf",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

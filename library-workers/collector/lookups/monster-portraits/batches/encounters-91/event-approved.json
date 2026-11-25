@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Duskling",
+    "slug": "duskling",
+    "caption": "Iriavel Solthenar · Original Duskling NPC",
+    "id": "species-d936b210189e4755b5aa13b7:6c33b3e1f03d9f67f85cbecd",
+    "entry": "species-d936b210189e4755b5aa13b7",
+    "version": "6c33b3e1f03d9f67f85cbecd",
+    "suffix": "encounters-91/duskling.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-91/duskling.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-91/event-drafts/duskling-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 91 2026-11-24/event-drafts/duskling-event-v1.png",
+    "overrides": [],
+    "sha256": "2db51ee9fd7c0b2038a4a193fbb75eeff82803aa73d7ca093b9960ada4769b6d",
+    "bytes": 1980437
+  }
+]

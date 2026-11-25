@@ -1,0 +1,120 @@
+{
+  "builds": [
+    {
+      "id": "goliath-route-rigger-35e",
+      "title": "Goliath route rigger, Expert 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 2.",
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "ac": 13,
+      "hp": 8,
+      "hitDice": "1d6+2",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +8",
+        "Craft (ropemaking) +5",
+        "Jump +8",
+        "Listen +4",
+        "Sense Motive +9",
+        "Spot +4",
+        "Use Rope +5"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Gol-Kaa, Dwarven",
+      "traits": [
+        "Space 5 ft. Natural reach 5 ft. Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +8 with Powerful Build. Fortitude +2, Reflex +1, Will +2.",
+        "Powerful Build lets Kethan wield Large weapons. Determine weapon reach from his actual Medium size and the weapon’s reach property.",
+        "Skill Focus (Sense Motive) adds +3. Sense Motive already includes the species’ +2 bonus. Each listed skill has four Expert class ranks.",
+        "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+        "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation."
+      ],
+      "actions": [
+        "Large longspear +4 melee, 2d6+6 piercing, critical ×3. Hits at 10 ft. but cannot hit adjacent targets.",
+        "Large club +4 melee, 1d8+4 bludgeoning, critical ×2, 5-ft. reach. May instead throw it at +1 with a 10-ft. range increment."
+      ],
+      "tactics": "Kethan asks the party to check the downhill anchors before he crosses to rig a line. He takes a standing jump across the break and can climb at half speed while attaching the line. If cornered on the path, he uses the longspear at 10 ft. and the club up close."
+    },
+    {
+      "id": "goliath-rockfall-lookout-35e",
+      "title": "Goliath rockfall lookout, Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2.",
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 5,
+      "speed": "40 ft.",
+      "abilityScores": {
+        "STR": 19,
+        "DEX": 12,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +7",
+        "Jump +11",
+        "Knowledge (nature) +4",
+        "Listen +5",
+        "Sense Motive +3"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Gol-Kaa",
+      "traits": [
+        "Space and natural reach 5 ft. Studded leather +3, Dexterity +1. Touch 11, flat-footed 13. BAB +1, grapple +9 with Powerful Build. Fortitude +4, Reflex +1, Will +1.",
+        "Improved Initiative adds +4. Fast Movement adds 10 ft. before armor and load modifiers. With the listed gear and a light load, speed is 40 ft. and Jump includes the +4 speed bonus. Barbarian illiteracy applies.",
+        "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+        "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation."
+      ],
+      "actions": [
+        "Large greatsword +5 melee, 3d6+6 slashing, critical 19–20/×2, reach 5 ft. In Mountain Rage, +7 melee, 3d6+10 slashing, 10-ft. reach.",
+        "Large javelin +2 ranged, 1d8+4 piercing, critical ×2, 30-ft. increment. In Mountain Rage, +1 ranged and 1d8+7 piercing.",
+        "Mountain Rage once per day, at most once per encounter, up to 7 rounds. Become Large with 10-ft. space and reach, Strength 25, Constitution 19, HP 16, AC 11, touch 8, flat-footed 10, grapple +12, Fortitude +6, Reflex +1, Will +3, Climb +10, and Jump +14. Weapons stay Large and the grapple size modifier stays +4. Remove 2 bonus HP when rage ends. Fatigue lasts through the encounter, with −2 Str and Dex and no running or charging."
+      ],
+      "tactics": "Rova calls the watch when stones start moving above the quarry path. She holds anyone at the marked turn until the path is clear, and uses Mountain Rage to defend the shelter if a creature follows the crew down."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Goliath",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Stone (2004)",
+      "name": "Kethan Linekeeper Varukutai",
+      "build": "goliath-route-rigger-35e",
+      "role": "Route rigger and Expert.",
+      "motive": "Reopen the pass before sleet reaches the exposed shoulder.",
+      "hook": "Kethan can rig a crossing if the party checks which downhill anchors survived the rockfall."
+    },
+    {
+      "species": "Goliath",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Stone (2004)",
+      "name": "Rova Stonecaller Athamavi",
+      "build": "goliath-rockfall-lookout-35e",
+      "role": "Rockfall lookout and Barbarian.",
+      "motive": "Get the quarry crew into shelter before the next fall.",
+      "hook": "Rova can lead the party to the shelter if they help account for the crew at the path marker."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Spiker",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Planar Handbook",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "July 2004",
+    "productCode": "620-17920-001-EN",
+    "isbn": "0-7869-3429-8",
+    "printedPages": {
+      "speciesTable": 6,
+      "playableSpecies": [
+        14,
+        15
+      ],
+      "racialTraits": 15,
+      "illustration": 15
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "ea54f6b6945dcebe9819669310abd11f3ac95cbc2e7abc3da8533fe58a2c54a7",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "6861d72b5d6b3f98341bdae513692369532ac46d52f88ca3272f0a329180d9af",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "David Hudnut, A spiker, p. 15.",
+    "sourceDistinctions": [
+      "The first printing labels DR 2/bludgeoning and describes protection against bludgeoning. The November 2004 errata fixes it to DR 2/piercing or slashing.",
+      "Worn armor reduces maximum Dexterity by one more and worsens its armor check penalty by two. Shields and arcane spell failure are exempt.",
+      "The core FAQ treats spike damage as a replacement for ordinary unarmed damage when winning a grapple check to deal damage. Use a light spike attack at −4 if rolling against AC while grappling."
+    ],
+    "entryId": "species-04cebed85eb4d89bc2ced91f",
+    "versionKey": "a07d1ad271c5759fcc7f7af1",
+    "slug": "spiker",
+    "portraitSelection": "generated",
+    "portraitForm": "Grip Stonebrace, an original Spiker Monk",
+    "npcExamples": [
+      "Parry Millguard",
+      "Grip Stonebrace"
+    ]
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Electric Eel",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Fish",
+    "printedRow": "Eel, Electric",
+    "printedPages": [
+      117
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 117,
+        "viewerPage": 120,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf2949b86e3fe804af0c021045ab0d44.webp",
+        "sha256": "607509f093f2e17b5f95a9704e43e5879420476cedb9f7709fe84165430fb34a"
+      },
+      {
+        "printedPage": 118,
+        "viewerPage": 121,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/981f6c8811613d3c1f2b6bf18210924c.webp",
+        "sha256": "8df4e8a1a3b2ff1cafe4a651c68b91bf8f58ae2949b3fd4fa2b040a8f456f7d9"
+      },
+      {
+        "printedPage": 378,
+        "viewerPage": 381,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/86d43ae12f3d55ecb443ba0531c3dea8.webp",
+        "sha256": "2dacc408cdd24c459c00f8a01507825ff5445ab1111531f356085995fd3c3ffe"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–3",
+    "printedEelArtIdentified": false,
+    "entryId": "beast-d768847856de1b91c493b1c6",
+    "versionKey": "32e3922628811e86cd53695d",
+    "slug": "electric-eel",
+    "query": "electric eel recharge 3d8 2d8 1d8",
+    "appearanceQuery": "electric eel elongated blunt head",
+    "habitatQuery": "electric eel fresh water summoning",
+    "portraitSelection": "generated",
+    "habitatSupportPage": 378,
+    "stagedOverlap": {
+      "publication": "Corsairs of the Great Sea",
+      "edition": "AD&D 2nd edition",
+      "individualHitPoints": 16
+    },
+    "portraitEvidence": "The illustration uses real freshwater eel anatomy. The charcoal-olive palette is an illustration choice."
+  },
+  {
+    "name": "Giant Eel",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Fish",
+    "printedRow": "Eel, Giant",
+    "printedPages": [
+      117,
+      118
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 117,
+        "viewerPage": 120,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf2949b86e3fe804af0c021045ab0d44.webp",
+        "sha256": "607509f093f2e17b5f95a9704e43e5879420476cedb9f7709fe84165430fb34a"
+      },
+      {
+        "printedPage": 118,
+        "viewerPage": 121,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/981f6c8811613d3c1f2b6bf18210924c.webp",
+        "sha256": "8df4e8a1a3b2ff1cafe4a651c68b91bf8f58ae2949b3fd4fa2b040a8f456f7d9"
+      },
+      {
+        "printedPage": 378,
+        "viewerPage": 381,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/86d43ae12f3d55ecb443ba0531c3dea8.webp",
+        "sha256": "2dacc408cdd24c459c00f8a01507825ff5445ab1111531f356085995fd3c3ffe"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–4",
+    "printedEelArtIdentified": false,
+    "entryId": "beast-ed797228b83f1c8aff841a47",
+    "versionKey": "75f1839f7fcaa3a2b7fe1721",
+    "slug": "giant-eel",
+    "query": "giant eel initiative bite electric",
+    "appearanceQuery": "giant eel broad toothy jaws",
+    "habitatQuery": "giant eel aquatic salinity",
+    "portraitSelection": "generated",
+    "appendixNamingUncertainty": "The freshwater summoning label giant electric is not identified with the Giant Eel combat entry.",
+    "portraitEvidence": "The biting attack supports a toothy eel. The broad head, scale, dark umber color, and curve are illustration choices."
+  },
+  {
+    "name": "Marine Eel",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Fish",
+    "printedRow": "Eel, Marine",
+    "printedPages": [
+      117,
+      118
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 117,
+        "viewerPage": 120,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf2949b86e3fe804af0c021045ab0d44.webp",
+        "sha256": "607509f093f2e17b5f95a9704e43e5879420476cedb9f7709fe84165430fb34a"
+      },
+      {
+        "printedPage": 118,
+        "viewerPage": 121,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/981f6c8811613d3c1f2b6bf18210924c.webp",
+        "sha256": "8df4e8a1a3b2ff1cafe4a651c68b91bf8f58ae2949b3fd4fa2b040a8f456f7d9"
+      },
+      {
+        "printedPage": 378,
+        "viewerPage": 381,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/86d43ae12f3d55ecb443ba0531c3dea8.webp",
+        "sha256": "2dacc408cdd24c459c00f8a01507825ff5445ab1111531f356085995fd3c3ffe"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1",
+    "printedEelArtIdentified": false,
+    "entryId": "beast-e20326c2d181c774f8a4e4c5",
+    "versionKey": "c530347aa0eb0c8ab21b9fb4",
+    "slug": "marine-eel",
+    "query": "marine eel discharge paralyzation rounds damage",
+    "appearanceQuery": "marine eel mottled blue gray head",
+    "habitatQuery": "marine eel salt water fresh water summoning",
+    "portraitSelection": "generated",
+    "habitatSupportPage": 378,
+    "printedStatVariants": [
+      {
+        "hitDice": 6,
+        "thac0": 13,
+        "damage": "2–8",
+        "xp": 420
+      },
+      {
+        "hitDice": 7,
+        "thac0": 13,
+        "damage": "3–12",
+        "xp": 650
+      },
+      {
+        "hitDice": 8,
+        "thac0": 12,
+        "damage": "4–16",
+        "xp": 975
+      }
+    ],
+    "portraitEvidence": "The moray-like outline and blue-gray palette are illustration choices. The head and fins do not identify a printed species."
+  },
+  {
+    "name": "Weed Eel",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Fish",
+    "printedRow": "Eel, Weed",
+    "printedPages": [
+      117,
+      118
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 117,
+        "viewerPage": 120,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf2949b86e3fe804af0c021045ab0d44.webp",
+        "sha256": "607509f093f2e17b5f95a9704e43e5879420476cedb9f7709fe84165430fb34a"
+      },
+      {
+        "printedPage": 118,
+        "viewerPage": 121,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/981f6c8811613d3c1f2b6bf18210924c.webp",
+        "sha256": "8df4e8a1a3b2ff1cafe4a651c68b91bf8f58ae2949b3fd4fa2b040a8f456f7d9"
+      },
+      {
+        "printedPage": 378,
+        "viewerPage": 381,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/86d43ae12f3d55ecb443ba0531c3dea8.webp",
+        "sha256": "2dacc408cdd24c459c00f8a01507825ff5445ab1111531f356085995fd3c3ffe"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "10–60",
+    "printedEelArtIdentified": false,
+    "entryId": "beast-9bdc5dc41eac682e3468db1d",
+    "versionKey": "7f6460c52059cfb259f6a699",
+    "slug": "weed-eel",
+    "query": "weed eel poison 1d4 colony tunnels",
+    "appearanceQuery": "weed eel slender long tapering body",
+    "habitatQuery": "weed eel fresh salt water 25 to 40 feet",
+    "portraitSelection": "generated",
+    "portraitEvidence": "A slender body is an interpretation of the small individual lair openings. Speckled sand-olive colors and posture are illustration choices."
+  }
+]

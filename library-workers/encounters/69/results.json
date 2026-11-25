@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Catfolk",
+    "species": "species-93839c4d7c9b6b6e016bea36",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of the Wild (2005)"
+    ],
+    "portraitSha256": "e4f35117d06c991ad6f12db44e726e02743bcafc572695d1b6d2ea2c1ed85b3c",
+    "caption": "Tavira of the Sun Reed · Original Catfolk NPC",
+    "npcReceipts": [
+      {
+        "name": "Tavira of the Sun Reed",
+        "id": "npc-f4074220a5e29967319f9a50",
+        "challenge": "Provisional CR 2. ECL 2."
+      },
+      {
+        "name": "Keshar of the Dry Brook",
+        "id": "npc-fb81301b3355e0183713cf56",
+        "challenge": "Provisional CR 2. ECL 2."
+      }
+    ]
+  }
+]

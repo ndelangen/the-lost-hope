@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Vril",
+    "kind": "species",
+    "publication": "Drow of the Underdark (2007)",
+    "edition": "3.5 edition",
+    "book": "Drow of the Underdark",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "May 2007",
+    "isbn": "978-0-7869-4151-3",
+    "printedPages": {
+      "playableSpecies": [
+        123,
+        124,
+        126
+      ],
+      "racialTraits": 126,
+      "illustration": 123,
+      "vrilFeats": 123
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "f7a54d6d14240a01bcc2c105410c5129a9f4744301bfd4c4f858914d3b33339b",
+    "errataTitle": "Drow of the Underdark Errata: The Vril Warrior",
+    "errataDate": "2007-05-04",
+    "originalErrata": "http://www.wizards.com/default.asp?x=dnd/dnd/20070504a",
+    "readableErrata": "https://www.scribd.com/document/1073439070/Drow-of-the-Underdark-Errata",
+    "printedArtCredit": "Steve Ellis, p. 123.",
+    "sourceDistinctions": [
+      "The 2007 book provides the playable traits and refers to the stat block. The official errata supplies the omitted stat block and ability text.",
+      "Shriek’s level-3 stat block says 2d6, consistent with the written increase at 3rd and every three levels. Later examples conflict. This profile applies the written progression up to the 4d6 cap.",
+      "The Small carrying-capacity sentence is malformed. This profile uses the core Small multiplier of three-quarters.",
+      "Level adjustment is treated as +0 because the playable list gives no adjustment and the sample has only three class Hit Dice.",
+      "The −4 against drow and spiderkind poisons is corroborated by both the published Drow Slayer feat and the errata stat block."
+    ],
+    "entryId": "species-1986745ae5e853461f59177b",
+    "versionKey": "b183610bcd5435d11360d0e7",
+    "slug": "vril",
+    "portraitSelection": "generated",
+    "portraitForm": "Skriv Ashstripe, an original Vril ledge scout",
+    "npcExamples": [
+      "Skriv Ashstripe",
+      "Brak Greystripe"
+    ]
+  }
+]

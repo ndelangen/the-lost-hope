@@ -1,0 +1,424 @@
+[
+  {
+    "name": "Bandit Crime Lord",
+    "statBlock": {
+      "name": "Bandit Crime Lord",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 17,
+      "hp": 169,
+      "hitDice": "26d8 + 52",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 20,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 6
+      },
+      "skills": {
+        "Acrobatics": 9,
+        "Perception": 10,
+        "Stealth": 13
+      },
+      "description": "The boss of a bandit crew fights with a scimitar, a pair of pistols, and poisoned ammunition.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+9 to the roll. Initiative score 19.",
+        "Languages": "Common, Thieves' Cant.",
+        "Gear": "2 pistols, scimitar, studded leather armor.",
+        "Traits": "Evasion. If a Dexterity save normally halves an effect's damage, take none on a success and half on a failure. Evasion is unavailable while Incapacitated.",
+        "Actions": "Multiattack. Make three attacks in any combination with Scimitar and Pistol.\nScimitar. Melee attack, +9 to hit, reach 5 ft. Hit for 12 (2d6 + 5) slashing damage plus 14 (4d6) poison damage.\nPistol. Ranged attack, +9 to hit, range 30/90 ft. Hit for 10 (1d10 + 5) piercing damage plus 14 (4d6) poison damage.",
+        "Bonus actions": "Deadly Aim. Gain Advantage on the next attack roll this turn. A hit with that attack deals 28 (8d6) extra poison damage.",
+        "Printed source": "Monster Manual (2024), p. 28."
+      },
+      "printedPage": 28
+    }
+  },
+  {
+    "name": "Bandit Deceiver",
+    "statBlock": {
+      "name": "Bandit Deceiver",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 16,
+      "hp": 130,
+      "hitDice": "20d8 + 40",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 6
+      },
+      "skills": {
+        "Acrobatics": 6,
+        "Perception": 4,
+        "Stealth": 9
+      },
+      "description": "A bandit uses illusions to set up poisoned dagger strikes or escape pursuit.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+6 to the roll. Initiative score 16.",
+        "Languages": "Common, Thieves' Cant.",
+        "Gear": "6 daggers, wand.",
+        "Armor": "The listed AC includes Mage Armor.",
+        "Actions": "Multiattack. Make three Dagger attacks.\nDagger. Melee or ranged attack, +6 to hit, reach 5 ft. or range 20/60 ft. Hit for 8 (2d4 + 3) piercing damage plus 10 (3d6) poison damage.\nBlinding Flash (recharge 4–6). Pick a point you can see within 120 ft. Each creature in a 10-ft.-radius Sphere around that point makes a DC 14 Constitution save. On a failure, take 13 (3d6 + 3) radiant damage and become Blinded until the start of the bandit's next turn. On a success, take half damage only.\nSpellcasting. Cast one of the spells listed below as an action.",
+        "Spellcasting": "Intelligence, spell save DC 14.\nAt will. Disguise Self, Mage Hand, Minor Illusion.\n1/day each. Hold Person (4th-level version), Mage Armor (included in AC), Major Image.",
+        "Printed source": "Monster Manual (2024), p. 28."
+      },
+      "printedPage": 28
+    }
+  },
+  {
+    "name": "Berserker Commander",
+    "statBlock": {
+      "name": "Berserker Commander",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 16,
+      "hp": 136,
+      "hitDice": "16d8 + 64",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "savingThrows": {
+        "Str": 7,
+        "Con": 7
+      },
+      "skills": {
+        "Athletics": 7,
+        "Perception": 5
+      },
+      "description": "A frontline commander keeps allies moving even after the fight turns against them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+5 to the roll. Initiative score 15.",
+        "Languages": "Common.",
+        "Gear": "Greataxe, 6 javelins.",
+        "Condition immunities": "Charmed, Frightened.",
+        "Traits": "Bloodied Frenzy. While Bloodied, gain Advantage on attack rolls and saving throws.",
+        "Actions": "Multiattack. Make three attacks in any combination with Greataxe and Javelin.\nGreataxe. Melee attack, +7 to hit, reach 5 ft. Hit for 10 (1d12 + 4) slashing damage. Deal 10 (3d6) thunder damage to either that target or another creature within 5 ft. of it.\nJavelin. Melee or ranged attack, +7 to hit, reach 5 ft. or range 30/120 ft. Hit for 18 (4d6 + 4) piercing damage and reduce the target's Speed by 5 ft. until the start of the berserker's next turn.",
+        "Bonus actions": "Frenzied Rush. Each ally within 30 ft. can use its Reaction to move up to half its Speed. The berserker can also move up to half its Speed. This movement provokes no Opportunity Attacks.",
+        "Printed source": "Monster Manual (2024), p. 37."
+      },
+      "printedPage": 37
+    }
+  },
+  {
+    "name": "Pirate Admiral",
+    "statBlock": {
+      "name": "Pirate Admiral",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 20,
+      "hp": 182,
+      "hitDice": "28d8 + 56",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 22
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Str": 6,
+        "Dex": 10,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Acrobatics": 10,
+        "Athletics": 6,
+        "Perception": 6
+      },
+      "description": "A pirate leader presses the attack with a poisoned blade and keeps nearby companions in the fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+10 to the roll. Initiative score 20.",
+        "Languages": "Common plus one other language.",
+        "Gear": "Pistol, scimitar.",
+        "Actions": "Multiattack. Make three attacks in any combination with Scimitar and Pistol.\nScimitar. Melee attack, +10 to hit, reach 5 ft. Hit for 16 (3d6 + 6) slashing damage plus 7 (2d6) poison damage. Choose Awestruck to leave the target Charmed or Poison to leave it Poisoned. Either condition lasts until the start of the pirate's next turn.\nPistol. Ranged attack, +10 to hit, range 30/90 ft. Hit for 28 (4d10 + 6) piercing damage.",
+        "Bonus actions": "Rally (1/day). Pick up to three other creatures you can see within 30 ft. The targets gain Advantage on attack rolls and saving throws until the start of the pirate's next turn.",
+        "Reactions": "Defensive Stance. When a melee attack roll hits the pirate while it is holding a weapon, add 4 to its AC against melee attack rolls until the start of its next turn. Apply the bonus to the triggering attack as well. The extra AC can turn a hit into a miss.",
+        "Printed source": "Monster Manual (2024), p. 242."
+      },
+      "printedPage": 242
+    }
+  },
+  {
+    "name": "Questing Knight",
+    "statBlock": {
+      "name": "Questing Knight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 18,
+      "hp": 202,
+      "hitDice": "27d8 + 81",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 15,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 7,
+        "Wis": 5,
+        "Cha": 8
+      },
+      "skills": {
+        "Athletics": 9,
+        "Perception": 5,
+        "Persuasion": 8
+      },
+      "description": "A wandering knight uses radiant attacks and an aura that steadies nearby companions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+7 to the roll. Initiative score 17.",
+        "Languages": "Common plus one other language.",
+        "Gear": "Greatsword, longbow, plate armor.",
+        "Condition immunities": "Charmed, Frightened.",
+        "Traits": "Aura of Bravery. Choose which creatures in the knight's 30-ft. Emanation to protect. Those creatures gain immunity to Charmed and Frightened while inside the aura.",
+        "Actions": "Multiattack. Make three attacks in any combination with Greatsword and Longbow.\nGreatsword. Melee attack, +9 to hit, reach 5 ft. Hit for 12 (2d6 + 5) slashing damage plus 22 (5d8) radiant damage.\nLongbow. Ranged attack, +7 to hit, range 150/600 ft. Hit for 12 (2d8 + 3) piercing damage plus 22 (5d8) radiant damage.\nSpellcasting. Cast one of the spells listed below as an action.",
+        "Spellcasting": "Charisma, spell save DC 16.\n1/day each. Daylight, Dispel Evil and Good, Greater Restoration, Phantom Steed.",
+        "Printed source": "Monster Manual (2024), p. 184."
+      },
+      "printedPage": 184
+    }
+  },
+  {
+    "name": "Scout Captain",
+    "statBlock": {
+      "name": "Scout Captain",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Dex": 5,
+        "Int": 4
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 7,
+        "Survival": 6
+      },
+      "description": "A field leader picks out firing positions and strikes hardest when the target is exposed.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+5 to the roll. Initiative score 15.",
+        "Languages": "Common plus one other language.",
+        "Gear": "Longbow, shortsword, studded leather armor.",
+        "Actions": "Multiattack. Make two attacks in any combination with Shortsword and Longbow.\nShortsword. Melee attack, +5 to hit, reach 5 ft. Hit for 6 (1d6 + 3) piercing damage. Add 10 (3d6) piercing damage if the attack roll had Advantage.\nLongbow. Ranged attack, +5 to hit, range 150/600 ft. Hit for 7 (1d8 + 3) piercing damage. Add 10 (3d6) piercing damage if the attack roll had Advantage.",
+        "Bonus actions": "Aim. Gain Advantage on the next attack roll this turn.",
+        "Reactions": "Uncanny Dodge. When an attack roll hits the scout, halve the damage it takes from that attack and round down.",
+        "Printed source": "Monster Manual (2024), p. 270."
+      },
+      "printedPage": 270
+    }
+  },
+  {
+    "name": "Spy Master",
+    "statBlock": {
+      "name": "Spy Master",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 19,
+      "hp": 137,
+      "hitDice": "25d8 + 25",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 21,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 5,
+        "Int": 8,
+        "Wis": 7
+      },
+      "skills": {
+        "Deception": 7,
+        "Insight": 7,
+        "Investigation": 8,
+        "Perception": 11,
+        "Sleight Of Hand": 9,
+        "Stealth": 13
+      },
+      "description": "An experienced infiltrator uses poisoned weapons and a smoke bomb to break contact.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+9 to the roll. Initiative score 19.",
+        "Languages": "Common plus two other languages.",
+        "Gear": "Hand crossbow, rapier, thieves' tools.",
+        "Actions": "Multiattack. Make three attacks in any combination with Rapier and Hand Crossbow.\nRapier. Melee attack, +9 to hit, reach 5 ft. Hit for 14 (2d8 + 5) piercing damage plus 7 (2d6) poison damage.\nHand Crossbow. Ranged attack, +9 to hit, range 30/120 ft. Hit for 12 (2d6 + 5) piercing damage plus 9 (2d8) poison damage.\nSmoke Bomb (1/day). Throw a bomb at a point you can see within 30 ft. Each creature in a 20-ft.-radius Sphere around that point makes a DC 16 Constitution save. On a failure, take 28 (8d6) poison damage and become Blinded until the end of the spy's next turn. On a success, take half damage only.",
+        "Bonus actions": "Cunning Action. Use Dash, Disengage, or Hide.",
+        "Printed source": "Monster Manual (2024), p. 295."
+      },
+      "printedPage": 295
+    }
+  }
+]

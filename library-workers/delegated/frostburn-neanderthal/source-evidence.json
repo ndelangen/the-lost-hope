@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Neanderthal",
+    "kind": "species",
+    "publication": "Frostburn (2004)",
+    "edition": "3.5 edition",
+    "book": "Frostburn",
+    "authors": [
+      "Wolfgang Baur",
+      "James Jacobs",
+      "George Strayton"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "September 2004",
+    "productCode": "620-17758-001-EN",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        36,
+        37,
+        38
+      ],
+      "racialTraits": [
+        37,
+        38
+      ],
+      "illustration": 39,
+      "warrior": [
+        145,
+        146
+      ],
+      "namedExamples": [
+        67,
+        171,
+        172,
+        173
+      ]
+    },
+    "pdfPageOffset": 0,
+    "primaryBookScan": "",
+    "primaryBookSha256": "4e794d5f13557e3d925ad925c710ad5c924454fe07fff4e818c52e7bfc6b84da",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "bd74b7b46036f60d8df4f20eef61b38d2a1fdf7b7b80d06b050563ab69dcd4ec",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "David Griffith, Frostfell races (Neanderthal), p. 39.",
+    "sourceDistinctions": [
+      "Primitive Weapon Mastery adds +1 on attack rolls with the listed weapons. It grants neither proficiency nor damage.",
+      "Climate Tolerant covers environmental Fortitude saves in the stated temperature range and counts as Cold Endurance only for prerequisites.",
+      "Illiteracy is a racial rule with a two-point literacy option and a Wizard exception.",
+      "The separate Warrior on pp. 145–146 and named NPCs have their own statistics. Wizards’ February 2006 Frostburn errata does not change Neanderthal."
+    ],
+    "entryId": "species-15a68ad7dedc822af58f3204",
+    "versionKey": "ea25be1b3c3841cd8d245651",
+    "slug": "neanderthal",
+    "portraitSelection": "generated",
+    "portraitForm": "Oren Hearthward, an original Neanderthal Barbarian",
+    "npcExamples": [
+      "Oren Hearthward",
+      "Vela Ridgewatch"
+    ]
+  }
+]

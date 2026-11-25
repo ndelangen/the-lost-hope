@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Giant Two-Headed Goat",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "author": "Shawn Merwin",
+    "printing": "Original Dungeons & Dragons Adventurers League release, September 1, 2015",
+    "printedAdventureCode": "DDEX3-1",
+    "printedPages": [
+      14
+    ],
+    "pdfPages": [
+      14
+    ],
+    "encounterPrintedPages": [
+      10,
+      12,
+      13
+    ],
+    "section": "The Birth, Demon Goats",
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX3-01 - Harried in ",
+    "sourceSha256": "64c9074df79528b67c4d8b818a67a96494c35419c50e2e30097c6469d82d7a4e",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the original 2015 adventure, independently verified in the local .",
+    "officialIndexUrl": "",
+    "officialIndexRole": "Wizards of the Coast Forgotten Realms Adventurers League index records the adventure in Rage of Demons.",
+    "habitatEvidence": "The encounter placement of the creature in Harried in Hillsfar.",
+    "appearanceEvidence": "The new portrait follows the red fur and forked horn shape described on pp. 10 and 12.",
+    "portraitSource": "portraits/giant-two-headed-goat.png",
+    "portraitSha256": "b7466292a68336d9a1d26cf0d04f2d8ec4dcb72359fc8eac4a818058ae3d07de",
+    "sourceDistinctions": [
+      "Ram continues at the top of the second column on p. 14. Multiattack requires separate targets."
+    ]
+  },
+  {
+    "name": "Goat",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "author": "Shawn Merwin",
+    "printing": "Original Dungeons & Dragons Adventurers League release, September 1, 2015",
+    "printedAdventureCode": "DDEX3-1",
+    "printedPages": [
+      14
+    ],
+    "pdfPages": [
+      14
+    ],
+    "encounterPrintedPages": [
+      10,
+      12,
+      13
+    ],
+    "section": "The Birth, Demon Goats",
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX3-01 - Harried in ",
+    "sourceSha256": "64c9074df79528b67c4d8b818a67a96494c35419c50e2e30097c6469d82d7a4e",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the original 2015 adventure, independently verified in the local .",
+    "officialIndexUrl": "",
+    "officialIndexRole": "Wizards of the Coast Forgotten Realms Adventurers League index records the adventure in Rage of Demons.",
+    "habitatEvidence": "The encounter placement of the creature in Harried in Hillsfar.",
+    "appearanceEvidence": "Encounter coloration follows p. 12. Reused goat portrait shows ordinary coloration.",
+    "portraitSource": "beast-ready-batch-02/parts/b02_04/portraits/goat.png",
+    "portraitSha256": "3d9ebe807d3471a32e50e0516f6439b7f34340af62f545da120602096372ad39",
+    "sourceDistinctions": [
+      "The encounter uses this Goat stat block for the red-furred siblings."
+    ]
+  },
+  {
+    "name": "Jackal",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "author": "Shawn Merwin",
+    "printing": "Original Dungeons & Dragons Adventurers League release, September 1, 2015",
+    "printedAdventureCode": "DDEX3-1",
+    "printedPages": [
+      29
+    ],
+    "pdfPages": [
+      29
+    ],
+    "encounterPrintedPages": [
+      27,
+      28
+    ],
+    "section": "The Life, Battling the Jackalweres",
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX3-01 - Harried in ",
+    "sourceSha256": "64c9074df79528b67c4d8b818a67a96494c35419c50e2e30097c6469d82d7a4e",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the original 2015 adventure, independently verified in the local .",
+    "officialIndexUrl": "",
+    "officialIndexRole": "Wizards of the Coast Forgotten Realms Adventurers League index records the adventure in Rage of Demons.",
+    "habitatEvidence": "The encounter placement of the creature in Harried in Hillsfar.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-02/parts/b02_05/portraits/jackal.png",
+    "portraitSha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d",
+    "sourceDistinctions": [
+      "The encounter uses the Jackal stat block on the left of p. 29."
+    ]
+  },
+  {
+    "name": "Wild Dog",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "author": "Shawn Merwin",
+    "printing": "Original Dungeons & Dragons Adventurers League release, September 1, 2015",
+    "printedAdventureCode": "DDEX3-1",
+    "printedPages": [
+      14
+    ],
+    "pdfPages": [
+      14
+    ],
+    "encounterPrintedPages": [
+      10,
+      11,
+      13
+    ],
+    "section": "The Birth, Rescuing Pynroth",
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX3-01 - Harried in ",
+    "sourceSha256": "64c9074df79528b67c4d8b818a67a96494c35419c50e2e30097c6469d82d7a4e",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the original 2015 adventure, independently verified in the local .",
+    "officialIndexUrl": "",
+    "officialIndexRole": "Wizards of the Coast Forgotten Realms Adventurers League index records the adventure in Rage of Demons.",
+    "habitatEvidence": "The encounter placement of the creature in Harried in Hillsfar.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-08/parts/b08_08/portraits/wild-dog.png",
+    "portraitSha256": "fbb0c2e35a467b8ca4334eb49263454fab778a0f050356683ac57cadb5f2d187",
+    "sourceDistinctions": [
+      "The p. 14 Wild Dog stat block lists Keen Hearing and Smell as its only trait."
+    ]
+  },
+  {
+    "name": "Wild Dog Alpha",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "author": "Shawn Merwin",
+    "printing": "Original Dungeons & Dragons Adventurers League release, September 1, 2015",
+    "printedAdventureCode": "DDEX3-1",
+    "printedPages": [
+      14
+    ],
+    "pdfPages": [
+      14
+    ],
+    "encounterPrintedPages": [
+      10,
+      11,
+      13
+    ],
+    "section": "The Birth, Rescuing Pynroth",
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX3-01 - Harried in ",
+    "sourceSha256": "64c9074df79528b67c4d8b818a67a96494c35419c50e2e30097c6469d82d7a4e",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the original 2015 adventure, independently verified in the local .",
+    "officialIndexUrl": "",
+    "officialIndexRole": "Wizards of the Coast Forgotten Realms Adventurers League index records the adventure in Rage of Demons.",
+    "habitatEvidence": "The encounter placement of the creature in Harried in Hillsfar.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "indexed:images/beasts/wild-dog-alpha/parchment-portrait.webp",
+    "portraitSha256": "d19643d63a07e4004727ba685ae045d53b7a0fa27d004dc28d4b6627d2580e7c",
+    "sourceDistinctions": [
+      "The p. 14 Pounce text calls the attacker a lion in its last sentence. The table summary reads that subject as the alpha.",
+      "The p. 11 Wisdom (Perception) check to see the hiding alpha has no printed DC."
+    ]
+  }
+]

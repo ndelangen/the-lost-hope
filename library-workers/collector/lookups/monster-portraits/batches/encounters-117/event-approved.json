@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Bhuka",
+    "slug": "bhuka",
+    "caption": "Akari of the Reed Well · Original Bhuka NPC",
+    "id": "species-5e666e3d3c1c1443f887de6c:6578ff04ae7f50568a808d2c",
+    "entry": "species-5e666e3d3c1c1443f887de6c",
+    "version": "6578ff04ae7f50568a808d2c",
+    "suffix": "encounters-117/bhuka.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-117/bhuka.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-117/event-drafts/bhuka-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 117 2026-11-24/event-drafts/bhuka-event-v1.png",
+    "overrides": [],
+    "sha256": "b51b2dd74f4a16df36a3a45fdec631d13dfb44a2683a1771beed3245ec004577",
+    "bytes": 2012533
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "baseline": "5ea49f89de7593893d96ce5ddf2de7f7fdac49c4",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Goliath"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Stone (2004)",
+  "powerfulBuildMountainMovementAndMountainRageVerified": true,
+  "existingFifthEditionProfilesPreserved": 5,
+  "defaultVersionPreserved": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

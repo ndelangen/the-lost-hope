@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Flind",
+    "file": "",
+    "sha256": "1bed0c321d075295f5b7980b6ab780e8e257655084e61d9392483e5591e79b68",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Forestkith Goblin",
+    "file": "",
+    "sha256": "f39480f36d48f429a448095aeb35bcfa33c2726d93065ab46bb3e2b7ec25c0bd",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Poison Dusk Lizardfolk",
+    "file": "",
+    "sha256": "ccff5aa856fb689650d0f04ff4eff7485c375850938ee8e5ebbd814c94e7dec7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Viletooth Lizardfolk",
+    "file": "",
+    "sha256": "3d978f6e8ea188179738e2960f194497c97414db1f5e2e7cdf62ca019992ec29",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Sunscorch Hobgoblin",
+    "file": "",
+    "sha256": "1dad1a8936099ce51a63c1ec16c233455f2f26b03c68f8e03d03102934956561",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

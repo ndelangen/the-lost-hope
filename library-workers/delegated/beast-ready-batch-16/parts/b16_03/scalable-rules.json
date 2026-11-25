@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Giant Insect",
+    "publication": "Player’s Handbook",
+    "edition": "2024 fifth edition",
+    "printedRules": {
+      "page": 279,
+      "citation": "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect",
+      "sections": {
+        "Summoning": "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends.",
+        "Initiative and commands": "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger.",
+        "Scaling": "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP.",
+        "Statistics": "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages.",
+        "Movement": "Walk 40 ft. and climb 40 ft. The wasp form also flies 40 ft.",
+        "Traits": "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check.",
+        "Actions": "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.\nWeb Bolt (Spider only). Ranged attack roll using the caster’s spell attack modifier, with 60-ft. range. A hit deals 1d10 + 3 + spell level bludgeoning damage and reduces the target’s Speed to 0 until the start of the insect’s next turn.",
+        "Bonus actions": "Venomous Spew (Centipede only). One creature the centipede can see within 10 ft. makes a Constitution saving throw against the caster’s spell save DC. On a failure it is Poisoned until the start of the insect’s next turn.",
+        "Printing note": "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
+      }
+    }
+  },
+  {
+    "name": "Giant Insect (Centipede)",
+    "publication": "Player’s Handbook",
+    "edition": "2024 fifth edition",
+    "printedRules": {
+      "page": 279,
+      "citation": "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect",
+      "sections": {
+        "Summoning": "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends.",
+        "Initiative and commands": "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger.",
+        "Scaling": "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP.",
+        "Statistics": "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages.",
+        "Movement": "Walk 40 ft. and climb 40 ft.",
+        "Traits": "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check.",
+        "Actions": "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.",
+        "Bonus actions": "Venomous Spew (Centipede only). One creature the centipede can see within 10 ft. makes a Constitution saving throw against the caster’s spell save DC. On a failure it is Poisoned until the start of the insect’s next turn.",
+        "Printing note": "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
+      }
+    }
+  },
+  {
+    "name": "Giant Insect (Spider)",
+    "publication": "Player’s Handbook",
+    "edition": "2024 fifth edition",
+    "printedRules": {
+      "page": 279,
+      "citation": "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect",
+      "sections": {
+        "Summoning": "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends.",
+        "Initiative and commands": "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger.",
+        "Scaling": "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP.",
+        "Statistics": "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages.",
+        "Movement": "Walk 40 ft. and climb 40 ft.",
+        "Traits": "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check.",
+        "Actions": "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.\nWeb Bolt (Spider only). Ranged attack roll using the caster’s spell attack modifier, with 60-ft. range. A hit deals 1d10 + 3 + spell level bludgeoning damage and reduces the target’s Speed to 0 until the start of the insect’s next turn.",
+        "Printing note": "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
+      }
+    }
+  },
+  {
+    "name": "Giant Insect (Wasp)",
+    "publication": "Player’s Handbook",
+    "edition": "2024 fifth edition",
+    "printedRules": {
+      "page": 279,
+      "citation": "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect",
+      "sections": {
+        "Summoning": "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends.",
+        "Initiative and commands": "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger.",
+        "Scaling": "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP.",
+        "Statistics": "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages.",
+        "Movement": "Walk 40 ft. and climb 40 ft. The wasp also flies 40 ft.",
+        "Traits": "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check.",
+        "Actions": "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.",
+        "Printing note": "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
+      }
+    }
+  }
+]

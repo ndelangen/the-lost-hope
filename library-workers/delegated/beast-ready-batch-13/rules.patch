@@ -1,0 +1,2605 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index 4a02f12..88fc96e 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -5003,6 +5003,2600 @@
+     },
+     "publication": "SRD 5.1"
+   },
++  {
++    "name": "Awakened White Moose",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "kind": "beast",
++    "classification": "Large Beast, neutral evil",
++    "ac": 11,
++    "hp": 68,
++    "hitDice": "8d10 + 24",
++    "speed": "40 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 11,
++    "otherStatistics": "Passive Perception 11. Languages Druidic. AC 11 from natural armor.",
++    "appearance": "A heavy white bull moose with broad palmate antlers and a dark muzzle.",
++    "habitats": ["Forest", "Arctic"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 82, Chapter 1, The White Moose.",
++      "Traits": "Charge. If the moose moves at least 20 ft. straight toward a target and then hits it with Antlers on that turn, the hit deals an extra 9 (2d8) bludgeoning damage. A creature hit this way must pass a DC 14 Strength save or fall prone.\nSure-Footed. The moose has advantage on Strength and Dexterity saves against being knocked prone.",
++      "Actions": "Multiattack. Make one Antlers attack and one Hooves attack.\nAntlers. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 13 (2d8 + 4) piercing damage.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 9 (2d4 + 4) bludgeoning damage.",
++      "At the table": "The moose serves the frost druid Ravisin and lairs in area E6. It is attuned to the full-moon mirror in E7, which functions as a crystal ball while its frame is lit. It uses the mirror to find familiar hunters and loggers."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Cave Bear",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "kind": "beast",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 42,
++    "hitDice": "5d10 + 15",
++    "speed": "40 ft., swim 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 13. Languages none. AC 12 from natural armor.",
++    "appearance": "A broad-bodied bear with thick brown fur and sturdy paws.",
++    "habitats": ["Cave", "Underground"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 76, Chapter 1, Good Mead, area V7. Base stat block in the 2014 Monster Manual p. 334.",
++      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
++      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit for 9 (1d8 + 5) piercing damage.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit for 12 (2d6 + 5) slashing damage.",
++      "At the table": "If more than two intruders are visible in the V4 encounter, the verbeeg whistles for Yogobor, who arrives three rounds later. In V7, a creature can sneak past the sleeping bear in the dark with a DC 14 Dexterity (Stealth) check. A light that illuminates it wakes it. When reduced to 20 HP or fewer, it tries to flee if the verbeeg is out of sight."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "skills": {
++      "Perception": 3
++    }
++  },
++  {
++    "name": "Chimeric Baboon",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "kind": "beast",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 11,
++    "otherStatistics": "Passive Perception 11. Languages none.",
++    "appearance": "An olive-brown baboon with a long muzzle and exposed upper canines.",
++    "habitats": ["Menagerie"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 246, Chapter 7, area Y16 Menagerie, Chimeric Creations table. Base stat block in the 2014 Monster Manual p. 318.",
++      "Traits": "Pack Tactics. The baboon has advantage on an attack roll against a creature if one of the baboon’s allies is within 5 ft. of that creature and is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. Hit for 1 (1d4 − 1) piercing damage plus 3 (1d6) poison damage.",
++      "At the table": "A creature made by the Chimeric Creator is loyal to the person who pulled its lever."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Chimeric Cat",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "kind": "beast",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "40 ft., climb 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Blindsight 60 ft., tremorsense 60 ft. Passive Perception 13. Languages none.",
++    "appearance": "A tabby cat with a slender pair of sensory antennae.",
++    "habitats": ["Menagerie"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 246, Chapter 7, area Y16 Menagerie, Chimeric Creations table. Base stat block in the 2014 Monster Manual p. 320.",
++      "Traits": "Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell.",
++      "Actions": "Claws. Melee weapon attack, +0 to hit, reach 5 ft., one target. Hit for 1 slashing damage.",
++      "At the table": "A creature made by the Chimeric Creator is loyal to the person who pulled its lever."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "skills": {
++      "Perception": 3,
++      "Stealth": 4
++    }
++  },
++  {
++    "name": "Chimeric Fox",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "kind": "beast",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "30 ft., burrow 5 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 13. Languages none.",
++    "appearance": "A compact arctic fox with pale winter fur shifting to a mottled parchment tan along its side.",
++    "habitats": ["Menagerie", "Arctic", "Forest"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 246, Chapter 7, area Y16 Menagerie, Chimeric Creations table. Base stat block on p. 288 of the adventure.",
++      "Traits": "Keen Hearing. The fox has advantage on Wisdom (Perception) checks that rely on hearing.\nCamouflaging Fur. Its fur changes color to match its surroundings, granting advantage on Dexterity (Stealth) checks.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit for 1 piercing damage.",
++      "At the table": "A creature made by the Chimeric Creator is loyal to the person who pulled its lever."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "skills": {
++      "Perception": 3,
++      "Stealth": 5
++    }
++  },
++  {
++    "name": "Chimeric Hare",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "kind": "beast",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 − 1",
++    "speed": "20 ft., burrow 5 ft., fly 30 ft.",
++    "cr": "0",
++    "xp": 0,
++    "abilities": {
++      "Str": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 12,
++    "otherStatistics": "Passive Perception 12. Languages none.",
++    "appearance": "A white snowshoe hare with upright black-tipped ears and a pair of feathered wings.",
++    "habitats": ["Menagerie", "Arctic"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 246, Chapter 7, area Y16 Menagerie, Chimeric Creations table. Base stat block on p. 294 of the adventure.",
++      "Traits": "Escape. The hare can Dash, Disengage, or Hide as a bonus action on each of its turns.",
++      "At the table": "A creature made by the Chimeric Creator is loyal to the person who pulled its lever."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "skills": {
++      "Perception": 2,
++      "Stealth": 5
++    }
++  },
++  {
++    "name": "Chimeric Rat",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 10,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. Languages none.",
++    "appearance": "A small rat with gills and iridescent scales over its back, rounded ears and a thin bare tail.",
++    "habitats": ["Ythryn Menagerie"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, first printing, p. 246. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247 Base creature from the 2014 Monster Manual, p. 335.",
++      "Traits": "Keen Smell. The rat has advantage on Wisdom (Perception) checks that depend on smell.\nChimeric Creation. Its gills allow breathing both air and water. It has iridescent scales.",
++      "Actions": "Bite. Make a melee weapon attack at +0 against one target within 5 ft. A hit deals 1 piercing damage.",
++      "Encounter rules": "A creature made by the Chimeric Creator is loyal to whoever pulled its lever. Roll a d6 on the Chimeric Creations table. The machine requires 80 hit points of blood, split evenly across eight containers. Pulling the lever starts the wheel and the creature emerges 1 minute later. The machine recharges after 8 hours. Examining it for at least 1 minute allows a DC 15 Intelligence (Arcana) check to learn its operation. A roll of 5 produces this rat."
++    }
++  },
++  {
++    "name": "Chimeric Weasel",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Perception +3. Stealth +5. Passive Perception 13. Languages none.",
++    "appearance": "A slim brown weasel with a pale belly and softly glowing eyes.",
++    "habitats": ["Ythryn Menagerie"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, first printing, p. 246. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247 Base creature from the 2014 Monster Manual, p. 340.",
++      "Traits": "Keen Hearing and Smell. The weasel has advantage on Wisdom (Perception) checks that depend on hearing or smell.\nChimeric Creation. Its eyes give off bright light in a 20-ft. radius and dim light for 20 ft. beyond that.",
++      "Actions": "Bite. Make a melee weapon attack at +5 against one target within 5 ft. A hit deals 1 piercing damage.",
++      "Encounter rules": "A creature made by the Chimeric Creator is loyal to whoever pulled its lever. Roll a d6 on the Chimeric Creations table. The machine requires 80 hit points of blood, split evenly across eight containers. Pulling the lever starts the wheel and the creature emerges 1 minute later. The machine recharges after 8 hours. Examining it for at least 1 minute allows a DC 15 Intelligence (Arcana) check to learn its operation. A roll of 1 produces this weasel."
++    }
++  },
++  {
++    "name": "Fox",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "30 ft., burrow 5 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Stealth +5. Darkvision 60 ft. Passive Perception 13. Languages none.",
++    "appearance": "A white arctic fox with thick winter fur and a bushy tail.",
++    "habitats": ["Arctic", "Forest", "Ten-Towns outskirts"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, first printing, p. 288. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=289",
++      "Traits": "Keen Hearing. The fox has advantage on Wisdom (Perception) checks that depend on hearing.",
++      "Actions": "Bite. Make a melee weapon attack at +5 against one creature within 5 ft. A hit deals 1 piercing damage."
++    }
++  },
++  {
++    "name": "Giant Walrus",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 9,
++    "hp": 85,
++    "hitDice": "9d12 + 27",
++    "speed": "20 ft., swim 40 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. Languages none.",
++    "appearance": "An elephant-sized walrus with thick folds of skin, bristly whiskers and two long tusks.",
++    "habitats": ["Arctic", "Coastal", "Sea of Moving Ice"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, first printing, p. 312. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=313",
++      "Traits": "Hold Breath. The walrus can hold its breath for 30 minutes.",
++      "Actions": "Multiattack. Make one Body Flop and one Tusks attack.\nBody Flop. Make a melee weapon attack at +8 against one target within 5 ft. A hit deals 15 (2d8 + 6) bludgeoning damage.\nTusks. Make a melee weapon attack at +8 against one target within 5 ft. A hit deals 16 (3d6 + 6) piercing damage."
++    }
++  },
++  {
++    "name": "Hare",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "20 ft., burrow 5 ft.",
++    "cr": "0",
++    "xp": 0,
++    "abilities": {
++      "Str": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +2. Stealth +5. Passive Perception 12. Languages none.",
++    "appearance": "A winter snowshoe hare with relatively short ears and broad furry hind feet.",
++    "habitats": ["Arctic", "Burrows"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, first printing, p. 294. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=295",
++      "Bonus Actions": "Escape. On each of its turns, the hare can use a bonus action to Dash, Disengage, or Hide."
++    }
++  },
++  {
++    "name": "Kingsport",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "speed": "20 ft., swim 40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Blindsight 30 ft. Blind beyond that radius. Passive Perception 10. Speaks Common.",
++    "appearance": "An eyeless albino penguin, about five feet tall, in a plain leather harness.",
++    "habitats": ["Ythryn Library"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, first printing, p. 243. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=244",
++      "Traits": "Hold Breath. Kingsport can hold his breath for 20 minutes.",
++      "Actions": "Beak. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 3 (1d4 + 1) piercing damage."
++    }
++  },
++  {
++    "name": "Knucklehead Trout",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, Unaligned",
++    "ac": 12,
++    "hp": 7,
++    "hitDice": "2d6",
++    "speed": "0 ft., swim 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 1,
++        "modifier": -5
++      }
++    },
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 8. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A deep-bodied trout with a bulbous red forehead, small eyes, silver-gray belly, and a ruddy forked tail.",
++    "habitats": ["Arctic", "Freshwater", "Underwater"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 295. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=296",
++      "Traits": "Water Breathing. The trout breathes only underwater.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) piercing damage.\nTail. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) bludgeoning damage.",
++      "Fishing in Icewind Dale": "Under the lake procedure on p. 11, use fishing tackle from a rowboat or fish through a hole cut in the ice with a saw or similar tool. After each hour, a successful DC 15 Wisdom (Survival) check hooks a trout. Then contest the angler’s Strength (Athletics) against the trout’s Strength check, which the trout makes with advantage. A win pulls the fish out. On a loss, the trout escapes. If the angler loses by 5 or more, they must make a DC 10 Dexterity save to avoid being pulled into frigid water. Once rescued, a soaked character remains subject to the frigid-water effects until their wet clothes are replaced with dry ones."
++    }
++  },
++  {
++    "name": "Mountain Goat",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, Unaligned",
++    "ac": 11,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "speed": "40 ft., climb 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 10. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A shaggy cream-white goat with a narrow chin beard, dark hooves, and slim backward-curving black horns.",
++    "habitats": ["Arctic", "Mountain"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 304. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=305",
++      "Traits": "Charge. After moving at least 20 ft. straight toward a target and hitting it with Ram on that turn, deal 3 (1d6) extra bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Strength save or fall prone.\nSure-Footed. The goat has advantage on Strength and Dexterity saves against effects that would knock it prone.",
++      "Actions": "Ram. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Reindeer",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, Unaligned",
++    "ac": 10,
++    "hp": 13,
++    "hitDice": "2d10 + 2",
++    "speed": "50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Passive Perception 10. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A thick-coated caribou with broad hooves and branching antlers. About one in six Icewind Dale reindeer has antlers that glow.",
++    "habitats": ["Arctic", "Tundra"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden, p. 307, with pp. 11, 107 and 268. The adventure adapts the 2014 Monster Manual Elk on p. 322. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=308",
++      "Traits": "Charge. After moving at least 20 ft. straight toward a target and hitting it with Ram that turn, deal 7 (2d6) extra damage. If the target is a creature, it must succeed on a DC 13 Strength save or fall prone.\nCold Acclimation. The reindeer automatically succeeds on the adventure’s hourly DC 10 Constitution save against extreme cold.\nGlowing Antlers (roughly one in six). A reindeer with this trait sheds dim light in a 10-ft. radius.",
++      "Actions": "Ram. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit, reach 5 ft., one prone creature. Hit for 8 (2d4 + 3) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Seal",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, Unaligned",
++    "ac": 11,
++    "hp": 9,
++    "hitDice": "2d8",
++    "speed": "20 ft., swim 40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 11. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A silvery-gray seal with a rounded whiskered head, dark spots, and short foreflippers.",
++    "habitats": ["Arctic", "Coastal", "Underwater"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 308. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=309",
++      "Traits": "Hold Breath. The seal can hold its breath for 15 minutes.\nKeen Smell. It has advantage on Wisdom (Perception) checks that use smell.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit for 1 piercing damage.",
++      "Adventure context": "The seals from the Sea of Moving Ice are acclimated to cold weather, as described on p. 308. That acclimation is distinct from damage resistance."
++    }
++  },
++  {
++    "name": "Sperm Whale",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Gargantuan Beast, Unaligned",
++    "ac": 13,
++    "hp": 189,
++    "hitDice": "14d20 + 42",
++    "speed": "0 ft., swim 60 ft.",
++    "cr": "8",
++    "xp": 3900,
++    "abilities": {
++      "Str": {
++        "score": 26,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Blindsight 120 ft. Passive Perception 11. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An immense slate-gray toothed whale with a block-shaped forehead, a narrow lower jaw, and broad tail flukes.",
++    "habitats": ["Arctic", "Underwater"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 309. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=310",
++      "Traits": "Echolocation. The whale loses access to blindsight while deafened.\nHold Breath. It can hold its breath for 90 minutes.\nKeen Hearing. It has advantage on Wisdom (Perception) checks that use hearing.",
++      "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +11 to hit, reach 5 ft., one target. Hit for 21 (3d8 + 8) piercing damage. A Large or smaller creature hit must succeed on a DC 14 Dexterity save or be swallowed. A swallowed creature has total cover from attacks and other effects outside the whale and takes 3 (1d6) acid damage at the start of each of the whale’s turns. If one creature inside the whale deals it at least 30 damage on a single turn, the whale must succeed on a DC 16 Constitution save at the end of that turn or regurgitate all swallowed creatures. They fall prone in a space within 10 ft. of the whale. If the whale dies, a swallowed creature can use 20 ft. of movement to leave the corpse, exiting prone.\nTail. Melee weapon attack, +11 to hit, reach 15 ft., one target. Hit for 18 (3d6 + 8) bludgeoning damage. Against an object, deal 37 (6d6 + 16) bludgeoning damage instead."
++    }
++  },
++  {
++    "name": "Walrus",
++    "publication": "Icewind Dale: Rime of the Frostmaiden",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, Unaligned",
++    "ac": 9,
++    "hp": 22,
++    "hitDice": "3d10 + 6",
++    "speed": "20 ft., swim 40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 10. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A bulky marine mammal with a broad whiskered muzzle, heavy flippers, and two long ivory tusks.",
++    "habitats": ["Arctic", "Coastal", "Underwater"],
++    "sections": {
++      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 312. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=313",
++      "Traits": "Hold Breath. The walrus can hold its breath for 10 minutes.",
++      "Actions": "Tusks. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 7 (2d4 + 2) piercing damage."
++    }
++  },
++  {
++    "name": "Aurochs",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast (Cattle), unaligned",
++    "ac": 11,
++    "hp": 38,
++    "hitDice": "4d10 + 16",
++    "speed": "50 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 11,
++    "otherStatistics": "Natural armor. Passive Perception 11. Languages none. Proficiency Bonus +2.",
++    "appearance": "A broad, muscular wild bovine with a thick neck and long, outward-pointing horns.",
++    "habitats": ["Grassland", "Hill", "Mountain"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, first printing, p. 71, Cattle, Aurochs.",
++      "Actions": "Gore. Make a +7 melee weapon attack against one target within 5 ft. A hit deals 14 (2d8 + 5) piercing damage. If the aurochs moved at least 20 ft. straight toward the target immediately before the hit, it deals another 9 (2d8) piercing damage. A creature hit after that movement must succeed on a DC 15 Strength save or fall prone.",
++      "Encounter ecology": "Aurochs roam in wild herds. Orcs and humans sometimes train them from an early age to carry riders in combat."
++    }
++  },
++  {
++    "name": "Deep Rothé",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast (Cattle), unaligned",
++    "ac": 10,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "speed": "30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. Languages none. Proficiency Bonus +2.",
++    "appearance": "A shaggy Underdark bovine with thick curled horns and a low, compact build.",
++    "habitats": ["Underdark"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, first printing, p. 71, Cattle, Deep Rothé.",
++      "Traits": "Beast of Burden. Count the creature as one size larger when determining its carrying capacity.",
++      "Actions": "Gore. Make a +6 melee weapon attack against one target within 5 ft. A hit deals 7 (1d6 + 4) piercing damage. If the rothé moved at least 20 ft. straight toward the target immediately before the hit, add 7 (2d6) piercing damage.\nDancing Lights. The rothé casts dancing lights using Wisdom as its spellcasting ability. The casting requires no components.",
++      "Encounter ecology": "Deep rothé communicate with others of their kind using dancing lights."
++    }
++  },
++  {
++    "name": "Dolphin",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "0 ft., swim 60 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "skills": {
++      "Perception": 3
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Natural armor. Blindsight 60 ft. Passive Perception 13. Languages none. Proficiency Bonus +2.",
++    "appearance": "A sleek dolphin with a tapered beak, curved dorsal fin and streamlined gray body.",
++    "habitats": ["Coastal", "Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, first printing, p. 97, Dolphins, Dolphin.",
++      "Traits": "Hold Breath. The dolphin can hold its breath for 20 minutes.",
++      "Actions": "Slam. Make a +4 melee weapon attack against one target within 5 ft. A hit deals 5 (1d6 + 2) bludgeoning damage. If the dolphin moved at least 30 ft. straight toward the target immediately before the hit, add 3 (1d6) bludgeoning damage.",
++      "Encounter ecology": "Dolphins are social marine mammals about 5 to 6 ft. long as adults. They hunt small fish and squid in oceans and the Elemental Plane of Water."
++    }
++  },
++  {
++    "name": "Ox",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast (Cattle), unaligned",
++    "ac": 10,
++    "hp": 15,
++    "hitDice": "2d10 + 4",
++    "speed": "30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Passive Perception 10. Languages none. Proficiency Bonus +2.",
++    "appearance": "A heavy domesticated bovine with a broad body, strong shoulders and long curved horns.",
++    "habitats": ["Grassland", "Urban"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, first printing, p. 72, Cattle, Ox.",
++      "Traits": "Beast of Burden. Count the creature as one size larger when determining its carrying capacity.",
++      "Actions": "Gore. Make a +6 melee weapon attack against one target within 5 ft. A hit deals 7 (1d6 + 4) piercing damage. If the ox moved at least 20 ft. straight toward the target immediately before the hit, add 7 (2d6) piercing damage.",
++      "Encounter ecology": "Oxen are domesticated cattle raised for hauling and for milk or meat."
++    }
++  },
++  {
++    "name": "Hadrosaurus",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast (Dinosaur), unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 12,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +2. Passive Perception 12. Languages —.",
++    "appearance": "A gray-green, duck-billed dinosaur with a curved reddish head crest and a long tail.",
++    "habitats": ["Grassland", "Swamp"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Dinosaurs, stat block p. 96. https://www.dndbeyond.com/monsters/2560844-hadrosaurus",
++      "Actions": "Tail. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) bludgeoning damage.",
++      "Encounter ecology": "This herbivore can move on two or four legs. A hadrosaurus raised from a hatchling can be trained to carry a rider."
++    }
++  },
++  {
++    "name": "Quetzalcoatlus",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast (Dinosaur), unaligned",
++    "ac": 13,
++    "hp": 30,
++    "hitDice": "4d12 + 4",
++    "speed": "10 ft., fly 80 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 12,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +2. Passive Perception 12. Languages —.",
++    "appearance": "A long-beaked, crested pterosaur with folded wing membranes and long forelimbs.",
++    "habitats": ["Coastal", "Hill", "Mountain"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Dinosaurs, stat block p. 96. https://www.dndbeyond.com/monsters/2560901-quetzalcoatlus",
++      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one creature. A hit deals 12 (3d6 + 2) piercing damage. If the quetzalcoatlus flew at least 30 ft. toward the target immediately before the hit, the target takes another 10 (3d6) piercing damage.",
++      "Encounter ecology": "Its wingspan exceeds 30 ft. It can walk on all fours and is more comfortable flying."
++    }
++  },
++  {
++    "name": "Stegosaurus",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast (Dinosaur), unaligned",
++    "ac": 13,
++    "hp": 76,
++    "hitDice": "8d12 + 24",
++    "speed": "40 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 10. Languages —.",
++    "appearance": "A heavy gray-green dinosaur with reddish dorsal plates and a curved, spiked tail.",
++    "habitats": ["Forest", "Grassland"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Dinosaurs, stat block p. 96. https://www.dndbeyond.com/monsters/2560928-stegosaurus",
++      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 26 (6d6 + 5) piercing damage.",
++      "Encounter ecology": "Stegosaurs travel in herds of mixed ages. The flexible, spiked tail can strike predators."
++    }
++  },
++  {
++    "name": "Swarm of Rot Grubs",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Medium swarm of Tiny Beasts, unaligned",
++    "ac": 8,
++    "hp": 22,
++    "hitDice": "5d8",
++    "speed": "5 ft., climb 5 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Cha": {
++        "score": 1,
++        "modifier": -5
++      }
++    },
++    "passivePerception": 6,
++    "otherStatistics": "Proficiency bonus +2. Blindsight 10 ft. Passive Perception 6. Languages —.",
++    "appearance": "A close cluster of pale, legless grubs with ringed bodies and darker mouthparts.",
++    "habitats": ["Swamp", "Underdark"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Swarm of Rot Grubs, stat block p. 237. https://www.dndbeyond.com/monsters/2560935-swarm-of-rot-grubs",
++      "Damage Vulnerabilities": "Fire.",
++      "Damage Resistances": "Piercing and slashing.",
++      "Condition Immunities": "Charmed, frightened, grappled, paralyzed, petrified, prone and restrained.",
++      "Traits": "Swarm. The swarm can share spaces with other creatures and pass through openings large enough for a Tiny maggot. It cannot regain HP or gain temporary HP.",
++      "Actions": "Bites. Melee weapon attack, +0 to hit, reach 0 ft., one creature in the swarm’s space. A hit deals 7 (2d6) piercing damage. The target must pass a DC 10 Constitution saving throw or become poisoned. A poisoned target takes 3 (1d6) poison damage at the end of each of its turns. Each time the target takes fire damage, it can repeat the save, ending the effect on a success. If the poisoned target ends its turn with 0 HP, it dies.",
++      "Single Rot Grub": "On contact with an individual grub, a creature must pass a DC 10 Constitution saving throw or become poisoned as the grub burrows in. It takes 3 (1d6) poison damage at the end of each of its turns while poisoned. Each time it takes fire damage, it can repeat the save, ending the effect on a success. If the poisoned creature ends its turn with 0 HP, it dies.",
++      "Encounter ecology": "These finger-sized maggots infest corpses and decaying matter. They eat living or dead creatures and can also survive on vegetation. Fire helps dislodge them, and the text also identifies magic that neutralizes poison as a way to stop them."
++    }
++  },
++  {
++    "name": "Aurochs",
++    "publication": "Volo's Guide to Monsters",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 38,
++    "hitDice": "4d10 + 16",
++    "speed": "50 ft.",
++    "printedPage": 207,
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 11,
++    "otherStatistics": "Natural armor. Passive Perception 11. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A dark, heavyset wild bull with a rust-brown forelock, a shaggy neck and pale horns curling upward.",
++    "habitats": ["Grassland", "Hill", "Mountain"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Appendix A, Assorted Beasts, Aurochs, p. 207. https://www.dndbeyond.com/sources/dnd/vgtm",
++      "Traits": "Charge. After moving at least 20 ft. straight toward a target, a Gore hit against it that turn deals an extra 9 (2d8) piercing damage. A creature hit this way must pass a DC 15 Strength saving throw or fall prone.",
++      "Actions": "Gore. Melee weapon attack, +7 to hit, reach 5 ft., one target. The hit deals 14 (2d8 + 5) piercing damage.",
++      "Encounter ecology": "Orcs devoted to Bahgtru train aurochs as war mounts while the animals are young."
++    }
++  },
++  {
++    "name": "Cow",
++    "publication": "Volo's Guide to Monsters",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 15,
++    "hitDice": "2d10 + 4",
++    "speed": "30 ft.",
++    "printedPage": 207,
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Passive Perception 10. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A brown-and-cream farm cow with a pale muzzle, short curved horns and a long tufted tail.",
++    "habitats": ["Grassland", "Pasture"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Appendix A, Assorted Beasts, Cattle, Cow, p. 207. https://www.dndbeyond.com/sources/dnd/vgtm",
++      "Traits": "Charge. If the creature moves at least 20 ft. straight toward a target and hits it with Gore that turn, the hit deals an extra 7 (2d6) piercing damage.",
++      "Actions": "Gore. Melee weapon attack, +6 to hit, reach 5 ft., one target. The hit deals 7 (1d6 + 4) piercing damage."
++    }
++  },
++  {
++    "name": "Deep Rothé",
++    "publication": "Volo's Guide to Monsters",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "speed": "30 ft.",
++    "printedPage": 208,
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Darkvision 60 ft.. Passive Perception 10. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A compact, musk-ox-like bovine with a long dark brown coat and thick horns curled around its face.",
++    "habitats": ["Underdark"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Appendix A, Assorted Beasts, Cattle, Cow and Rothé, pp. 207–208. https://www.dndbeyond.com/sources/dnd/vgtm",
++      "Traits": "Charge. If the creature moves at least 20 ft. straight toward a target and hits it with Gore that turn, the hit deals an extra 7 (2d6) piercing damage.\nInnate Spellcasting. Charisma is the deep rothé’s spellcasting ability. It can cast Dancing Lights at will without components.",
++      "Actions": "Gore. Melee weapon attack, +6 to hit, reach 5 ft., one target. The hit deals 7 (1d6 + 4) piercing damage.",
++      "Encounter ecology": "Stunted rothé from the Underdark use magical flashes to communicate with each other.",
++      "Dancing Lights (2014)": "Action, range 120 ft., concentration up to 1 minute. Create up to four floating lights or combine them into one roughly humanoid Medium figure. Each light casts dim light in a 10-ft. radius. As a bonus action, move the lights up to 60 ft. within range. Keep separate lights within 20 ft. of another light from the spell. A light disappears if it leaves range. https://www.dndbeyond.com/spells/2057-dancing-lights"
++    }
++  },
++  {
++    "name": "Dolphin",
++    "publication": "Volo's Guide to Monsters",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "0 ft., swim 60 ft.",
++    "printedPage": 208,
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 13,
++    "skills": {
++      "Perception": 3
++    },
++    "otherStatistics": "Natural armor. Perception +3. Blindsight 60 ft.. Passive Perception 13. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slate-gray dolphin with a pale underside, a tapered snout and broad tail flukes.",
++    "habitats": ["Coastal", "Underwater"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Appendix A, Assorted Beasts, Dolphin, p. 208. https://www.dndbeyond.com/sources/dnd/vgtm",
++      "Traits": "Charge. If the dolphin moves at least 30 ft. straight toward a target and hits it with Slam that turn, the hit deals an extra 3 (1d6) bludgeoning damage.\nHold Breath. The dolphin can hold its breath for 20 minutes.",
++      "Actions": "Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. The hit deals 5 (1d6 + 2) bludgeoning damage.",
++      "Encounter ecology": "Adult dolphins are about 5 to 6 feet long. These social marine mammals feed on fish and squid."
++    }
++  },
++  {
++    "name": "Ox",
++    "publication": "Volo's Guide to Monsters",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 15,
++    "hitDice": "2d10 + 4",
++    "speed": "30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
++    "appearance": "A broad-bodied draft bovine with horns and a heavy neck.",
++    "habitats": ["Grassland", "Farmland"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Volo's Guide to Monsters, first printing (November 2016), Appendix A, pp. 207–208.",
++      "Traits": "Charge. If the animal moves at least 20 ft. straight toward a target and hits it with Gore during the same turn, add 7 (2d6) piercing damage.\nBeast of Burden. Treat the ox as Huge when determining its carrying capacity.",
++      "Actions": "Gore. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 7 (1d6 + 4) piercing damage."
++    }
++  },
++  {
++    "name": "Rothé",
++    "publication": "Volo's Guide to Monsters",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 15,
++    "hitDice": "2d10 + 4",
++    "speed": "30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Darkvision 30 ft., passive Perception 10. No listed skills or languages.",
++    "appearance": "A shaggy musk-ox-like bovine with a dark brown coat and broad pale horns that sweep up at the tips.",
++    "habitats": ["Grassland"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Volo's Guide to Monsters, first printing (November 2016), Appendix A, pp. 207–208.",
++      "Traits": "Charge. If the animal moves at least 20 ft. straight toward a target and hits it with Gore during the same turn, add 7 (2d6) piercing damage.",
++      "Actions": "Gore. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 7 (1d6 + 4) piercing damage."
++    }
++  },
++  {
++    "name": "Stench Kow",
++    "publication": "Volo's Guide to Monsters",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 15,
++    "hitDice": "2d10 + 4",
++    "speed": "30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Resists cold, fire, and poison damage. Darkvision 60 ft., passive Perception 10. No listed skills or languages.",
++    "appearance": "A misshapen orange and moss-green bison with a shaggy shoulder hump, curved horns, and lean hindquarters.",
++    "habitats": ["Lower Planes"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Volo's Guide to Monsters, first printing (November 2016), Appendix A, pp. 207–208.",
++      "Traits": "Charge. If the animal moves at least 20 ft. straight toward a target and hits it with Gore during the same turn, add 7 (2d6) piercing damage.\nStench. A creature other than a stench kow that starts its turn within 5 ft. of the kow must make a DC 12 CON save. On a failure it is poisoned until the start of its next turn. On a success it is immune to the Stench of all stench kows for 1 hour.",
++      "Actions": "Gore. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 7 (1d6 + 4) piercing damage."
++    }
++  },
++  {
++    "name": "Swarm of Rot Grubs",
++    "publication": "Volo's Guide to Monsters",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Swarm of Tiny Beasts, unaligned",
++    "ac": 8,
++    "hp": 22,
++    "hitDice": "5d8",
++    "speed": "5 ft., climb 5 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Cha": {
++        "score": 1,
++        "modifier": -5
++      }
++    },
++    "passivePerception": 6,
++    "otherStatistics": "Resists piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, and restrained. Blindsight 10 ft., passive Perception 6. No listed skills or languages.",
++    "appearance": "A cluster of finger-sized maggots with visibly segmented bodies.",
++    "habitats": ["Corpses", "Piles of decaying matter", "Swamp"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Volo's Guide to Monsters, first printing (November 2016), Appendix A, p. 208.",
++      "Traits": "Swarm. The swarm can share its space with other creatures and move through any opening that admits a Tiny maggot. It cannot regain hit points or gain temporary hit points.",
++      "Actions": "Bites. Melee weapon attack, +0 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, the target is infested by 1d4 rot grubs. At the start of each of its turns, the target takes 1d6 piercing damage per infesting grub. Applying fire to the bite wound before the end of the target’s next turn deals 1 fire damage to the target and kills the grubs from that bite. Once that window passes, they are too deep under the skin for fire at the wound. If the target ends its turn with 0 HP while infested, it dies. An effect that cures disease kills all rot grubs infesting the target.",
++      "Encounter ecology": "Rot grubs gather in corpses and decaying material and may attack a creature that disturbs them. Burning an infested corpse kills its remaining grubs."
++    }
++  },
++  {
++    "name": "Amphisbaena",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 60,
++    "hitDice": "8d12 + 8",
++    "speed": "30 ft., Swim 30 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Perception +2. Blindsight 10 ft. Passive Perception 12. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An olive-brown snake with a head at each end of a single undulating body.",
++    "habitats": ["Underground", "Ruins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, first printing, April 2017, The Hidden Shrine of Tamoachan, area 39, Chamber of the Second Sun, printed p. 84, p. 85. https://www.dndbeyond.com/sources/dnd/tftyp It adapts Giant Constrictor Snake in Monster Manual (2014), printed p. 324. https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
++      "Actions": "Two melee attacks. On each of its turns the amphisbaena can make two melee attacks, with at most one Constrict.\n\nBite. Melee weapon attack, +6 to hit, reach 10 ft., one creature. A hit deals 11 (2d6 + 4) piercing damage.\n\nConstrict. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 13 (2d8 + 4) bludgeoning damage and grapples the target (escape DC 16). The creature is restrained while the grapple lasts and the snake cannot constrict another target until the grapple ends.",
++      "Encounter notes": "The snake hides in rubble in the Chamber of the Second Sun. If it dies, four baboons enter from the hole above."
++    }
++  },
++  {
++    "name": "Elder Giant Lizard",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 85,
++    "hitDice": "9d12 + 27",
++    "speed": "30 ft., Climb 30 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC includes natural armor. Stealth +5. Darkvision 60 ft. Passive Perception 10. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy-bodied lizard with olive scales, a broad head, four clawed feet, and a thick tail.",
++    "habitats": ["Underground", "Cave"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, first printing, April 2017, Against the Giants, area 21, Lizards’ Lair, printed p. 176, p. 177. https://www.dndbeyond.com/sources/dnd/tftyp It adapts Giant Crocodile in Monster Manual (2014), printed p. 324. https://www.dndbeyond.com/monsters/16880-giant-crocodile",
++      "Traits": "Hold Breath. The lizard can hold its breath for 30 minutes.",
++      "Actions": "Multiattack. Make one Bite and one Tail attack.\n\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 21 (3d10 + 5) piercing damage and grapples the target (escape DC 16). The target remains restrained and the lizard cannot bite a different target until that grapple ends.\n\nTail. Melee weapon attack, +8 to hit, reach 10 ft., one target the lizard is not grappling. A hit deals 14 (2d8 + 5) bludgeoning damage. A creature hit must succeed on a DC 16 Strength save or fall prone.",
++      "Encounter notes": "The mated pair raises four young in this cavern. The adults hunt in caverns below the lair and feed on fungi when they cannot find larger prey."
++    }
++  },
++  {
++    "name": "Giant Crayfish",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 15,
++    "hp": 45,
++    "hitDice": "7d10 + 7",
++    "speed": "30 ft., Swim 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "AC includes natural armor. Stealth +3. Blindsight 30 ft. Passive Perception 9. No languages in the Appendix B stat block.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An oversized crayfish with two broad pincers, a mottled ochre shell, sweeping antennae, and a fan-shaped tail.",
++    "habitats": ["Underground", "Freshwater"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, first printing, April 2017, Appendix B, Creatures, printed p. 235, p. 236. https://www.dndbeyond.com/sources/dnd/tftyp",
++      "Traits": "Amphibious. The crayfish can breathe air and water.",
++      "Actions": "Multiattack. Make two Claw attacks.\n\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) bludgeoning damage and grapples the target (escape DC 12). The crayfish has two claws and can grapple one target with each.",
++      "Encounter notes": "The guard in area 3 of the Hidden Shrine of Tamoachan speaks Olman. Six giant crayfish occupy an aquarium tier in White Plume Mountain."
++    }
++  },
++  {
++    "name": "Giant Lightning Eel",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 13,
++    "hp": 42,
++    "hitDice": "5d10 + 15",
++    "speed": "5 ft., Swim 30 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Lightning damage resistance. Blindsight 60 ft. Passive Perception 11. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A long, dark-backed eel with a broad head, pale underside, and faint blue sparks.",
++    "habitats": ["Underground", "Underwater"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, first printing, April 2017, Appendix B, Creatures, printed p. 236, p. 237. https://www.dndbeyond.com/sources/dnd/tftyp",
++      "Traits": "Water Breathing. The eel breathes only underwater.",
++      "Actions": "Multiattack. Make two Bite attacks.\n\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) piercing damage plus 4 (1d8) lightning damage.\n\nLightning Jolt (Recharge 5–6). Outside water, the eel touches one creature within 5 ft. In a body of water, it affects every creature within 15 ft. Each affected creature makes a DC 12 Constitution save. On a failure, it takes 13 (3d8) lightning damage and, if it takes any of that damage, is stunned until the end of the eel’s next turn. On a success, it takes half the damage and is not stunned.",
++      "Encounter notes": "Chae is the pet of the nereid Dasa Zotz in the Hidden Shrine of Tamoachan. When she calls for it, the eel strikes from near the surface of her pool."
++    }
++  },
++  {
++    "name": "Giant Subterranean Lizard",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 66,
++    "hitDice": "7d12 + 21",
++    "speed": "30 ft., Swim 50 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC includes natural armor. Stealth +3. Passive Perception 10. No languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A pale pink-white lizard with splayed toes and a long tapering tail.",
++    "habitats": ["Underground", "Cave"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, first printing, April 2017, Appendix B, Creatures, printed p. 236, p. 237. https://www.dndbeyond.com/sources/dnd/tftyp",
++      "Actions": "Multiattack. Make one Bite and one Tail attack. The lizard can replace either one with Swallow.\n\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 16 (2d10 + 5) piercing damage and grapples the target (escape DC 15). The target remains restrained and the lizard cannot bite a different target until that grapple ends.\n\nTail. Melee weapon attack, +7 to hit, reach 10 ft., one target the lizard is not grappling. A hit deals 12 (2d6 + 5) bludgeoning damage. A creature hit must succeed on a DC 15 Strength save or fall prone.\n\nSwallow. Melee weapon attack, +7 to hit, reach 5 ft., one Medium or smaller creature the lizard is grappling. On a hit the target takes 16 (2d10 + 5) piercing damage, is swallowed, and is released from the grapple. A swallowed creature is blinded and restrained, has total cover against attacks and effects outside the lizard, and takes 10 (3d6) acid damage at the start of each lizard turn. The lizard can hold one swallowed target at a time. If the lizard dies, the swallowed creature is no longer restrained by it and can spend 10 ft. of movement to leave the corpse, exiting prone.",
++      "Encounter notes": "In the Forge of Fury the troglodytes chain a white-scaled specimen near a stream. It lashes with its tail before trying to seize and swallow prey."
++    }
++  },
++  {
++    "name": "Guthash",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Medium beast, unaligned",
++    "ac": 12,
++    "hp": 16,
++    "printedPage": 21,
++    "speed": "30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Darkvision 60 ft. Languages none.",
++    "appearance": "A swollen, six-foot female giant rat with coarse brown fur, pink ears and a bare tail.",
++    "habitats": ["Sunless Citadel", "Underground"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 21, The Sunless Citadel, area 30, Mama Rat. Base rules from Monster Manual (2014), Giant Rat, Diseased Giant Rat variant, p. 327.",
++      "Traits": "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell.\nPack Tactics. The rat has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) piercing damage. A creature hit this way contracts a disease on a failed DC 10 Constitution save. Until cured, the creature can regain HP only by magical means and its HP maximum decreases by 3 (1d6) every 24 hours. It dies if the disease reduces its HP maximum to 0.",
++      "Encounter": "Three other giant rats occupy the nest with Guthash. The giant rats of the citadel descend from her. The group attacks intruders."
++    },
++    "hitDice": ""
++  },
++  {
++    "name": "Huge Giant Crab",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Huge beast, unaligned",
++    "ac": 15,
++    "hp": 161,
++    "printedPage": 103,
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "8",
++    "xp": 3900,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "passivePerception": 9,
++    "otherStatistics": "AC includes natural armor. Blindsight 30 ft. Languages none.",
++    "appearance": "A huge rust-brown crab with a spiny shell and two heavy claws. The adventure puts a copper band on one claw.",
++    "habitats": ["White Plume Mountain", "Boiling Bubble"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 103, White Plume Mountain, area 17, The Boiling Bubble. Base rules from Monster Manual (2014), Giant Crab, p. 324.",
++      "Traits": "Amphibious. Breathe air and water.\nA rune-covered copper band on one claw makes this crab immune to being charmed, frightened or paralyzed. The magic works only for this crab and the band has no treasure value.",
++      "Actions": "Claw. Melee weapon attack +9, reach 10 ft., one target. On a hit, deal 27 (4d10 + 5) bludgeoning damage and grapple the target (escape DC 14). Each of the two claws can hold only one target.",
++      "Encounter": "The crab guards the treasure and fights without striking the elastic skin. A piercing puncture creates a jet that deals 2 (1d4) fire damage when it first breaks through and to creatures that enter or start a turn in its space. The puncture does not seal. Major damage collapses the bubble in 1d6 rounds."
++    },
++    "hitDice": "14d12 + 70",
++    "skills": {
++      "Stealth": 4
++    }
++  },
++  {
++    "name": "Huge Polar Bear",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Huge beast, unaligned",
++    "ac": 12,
++    "hp": 65,
++    "printedPage": 187,
++    "speed": "40 ft., swim 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "AC includes natural armor. Languages none.",
++    "appearance": "A huge white bear with heavy shoulders, small ears and a black nose.",
++    "habitats": ["Glacial Rift of the Frost Giant Jarl", "Ice caves"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 187, Against the Giants, Glacial Rift lower level, area 17, Kennel Cave. Base rules from Monster Manual (2014), Polar Bear, p. 334.",
++      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
++      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack +7, reach 5 ft., one target. On a hit, deal 9 (1d8 + 5) piercing damage.\nClaws. Melee weapon attack +7, reach 5 ft., one target. On a hit, deal 12 (2d6 + 5) slashing damage.",
++      "Encounter": "Four bears form the jarl's hunting pack. Each wears a jeweled collar worth 200 gp."
++    },
++    "hitDice": "",
++    "skills": {
++      "Perception": 3
++    }
++  },
++  {
++    "name": "Snow Leopard",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Large beast, unaligned",
++    "ac": 12,
++    "hp": 37,
++    "printedPage": 183,
++    "speed": "40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Darkvision 60 ft. Languages none.",
++    "appearance": "A pale gray snow leopard with charcoal rosettes, broad paws and a long, thick tail.",
++    "habitats": ["Glacial Rift of the Frost Giant Jarl", "Ice caves"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 183, Against the Giants, Glacial Rift upper level, area 15, Ice Cave. Base rules from Monster Manual (2014), Tiger, p. 339.",
++      "Traits": "Keen Smell. The leopard has advantage on Wisdom (Perception) checks that rely on smell.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claw on the same turn. On a failed DC 13 Strength save, it falls prone. If the target is prone, make one Bite attack against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 8 (1d10 + 3) piercing damage.\nClaw. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 7 (1d8 + 3) slashing damage.",
++      "Encounter": "Two snow leopards serve as pets of the yetis in area 13. They lair on a high ledge and try to surprise intruders."
++    },
++    "hitDice": "5d10 + 10",
++    "skills": {
++      "Perception": 3,
++      "Stealth": 6
++    }
++  },
++  {
++    "name": "Young Winter Wolf",
++    "publication": "Tales from the Yawning Portal",
++    "edition": "2014 fifth edition",
++    "classification": "Large beast, unaligned",
++    "ac": 14,
++    "hp": 37,
++    "printedPage": 181,
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "AC includes natural armor. Languages none.",
++    "appearance": "A half-grown wolf with a dense snow-white coat, a bushy tail and pale blue eyes.",
++    "habitats": ["Glacial Rift of the Frost Giant Jarl", "Ice caves"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 181, Against the Giants, Glacial Rift upper level, area 4, Small Ice Cave. Base rules from Monster Manual (2014), Dire Wolf, p. 321.",
++      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) piercing damage. A creature hit this way falls prone on a failed DC 13 Strength save.",
++      "Encounter": "Three half-grown pups share a bone-strewn cave with two adult winter wolves. If the pups are harmed, the adults accept the risk of opportunity attacks and group up to kill quickly."
++    },
++    "hitDice": "5d10 + 10",
++    "skills": {
++      "Perception": 3,
++      "Stealth": 4
++    }
++  },
++  {
++    "name": "Cave Badger",
++    "publication": "Out of the Abyss",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "speed": "30 ft., burrow 15 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 11,
++    "otherStatistics": "Natural armor. Darkvision 30 ft., tremorsense 60 ft.. Passive Perception 11. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, broad badger with a striped face, coarse fur, and heavy digging claws.",
++    "habitats": ["Underdark"],
++    "sections": {
++      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Chapter 6, Blingdenstone, p. 96. Use the Giant Badger base block in the 2014 Monster Manual, p. 323, with the adventure changes below. https://www.dndbeyond.com/monsters/274103-cave-badger",
++      "Traits": "Keen Smell. The badger has advantage on Wisdom (Perception) checks based on smell.\nTunneling. The badger leaves tunnels behind as it burrows.",
++      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +3 to hit, 5 ft. reach, one target. A hit deals 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, 5 ft. reach, one target. A hit deals 6 (2d4 + 1) slashing damage.",
++      "Encounter ecology": "The svirfneblin put these badgers to work digging in Blingdenstone.",
++      "Encounter placement": "A 12 on the Blingdenstone encounter table produces 1d4 + 2 cave badgers.",
++      "Source notes": "The adventure gives AC 12 from natural armor, 60 ft. tremorsense, and a 15-ft. burrow speed. Darkvision comes from the inherited Giant Badger block."
++    }
++  },
++  {
++    "name": "Female Steeder",
++    "publication": "Out of the Abyss",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 14,
++    "hp": 30,
++    "hitDice": "4d10 + 8",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "skills": {
++      "Stealth": 7
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Natural armor. Stealth +7. Darkvision 120 ft.. Passive Perception 10. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad-bodied tarantula with bristled legs, clustered eyes, and dark pads at the tips of its feet.",
++    "habitats": ["Underdark"],
++    "sections": {
++      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Appendix C, Creatures, Steeders, p. 231. https://www.dndbeyond.com/monsters/17401-female-steeder",
++      "Traits": "Spider Climb. The steeder climbs difficult surfaces and crosses ceilings upside down without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement for the turn to jump up to 90 ft. vertically or horizontally.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, 5 ft. reach, one creature. A hit deals 7 (1d8 + 3) piercing damage and calls for a DC 12 Constitution saving throw. A creature takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg. Melee weapon attack, +5 to hit, 5 ft. reach, one Medium or smaller creature. A hit sticks the creature to a leg and grapples it until it escapes, DC 12. The action recharges when the steeder has no creatures grappled.",
++      "Encounter ecology": "Duergar use the larger female steeders as mounts. The animals grip walls, ceilings, and prey with a sticky secretion from their legs.",
++      "Encounter placement": "When a Duergar Kavalrachni hits with a melee attack while riding a female steeder, the steeder can use its reaction to make a melee attack against the same target.",
++      "Source notes": "Appendix C p. 231 gives a Large Beast. The encounter-specific Cavalry Training on p. 226 belongs to the Duergar Kavalrachni rider."
++    }
++  },
++  {
++    "name": "Fiendish Giant Spider",
++    "publication": "Out of the Abyss",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft., climb 40 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "skills": {
++      "Perception": 3,
++      "Stealth": 7
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Perception +3, Stealth +7. Blindsight 10 ft., darkvision 60 ft.. Passive Perception 13. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A mottled brown hunting spider with striped legs. The adventure describes the former drow servants as burning with baleful energy.",
++    "habitats": ["Underdark"],
++    "sections": {
++      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Chapter 6, Blingdenstone, p. 97. Use the Giant Wolf Spider base block in the 2014 Monster Manual, p. 330, with the adventure changes below. https://www.dndbeyond.com/monsters/274108-fiendish-giant-spider",
++      "Defenses": "Resists cold, fire, and lightning damage. Immune to poison damage and the poisoned condition.",
++      "Traits": "Spider Climb. The spider climbs difficult surfaces and crosses ceilings upside down without an ability check.\nWeb Sense. Touching a web tells the spider the exact location of every other creature touching that web.\nWeb Walker. Webbing imposes no movement restrictions on the spider.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, 5 ft. reach, one creature. A hit deals 4 (1d6 + 1) piercing damage. The creature makes a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failure or half on a success. If this poison drops it to 0 HP, it is stable and poisoned for 1 hour, even if it regains HP. It is paralyzed while poisoned this way.",
++      "Encounter ecology": "Former servants of the drow turn up among the tunnels and ruins of Blingdenstone.",
++      "Encounter placement": "A 15 on the Blingdenstone encounter table produces 1d4 + 2 fiendish giant spiders.",
++      "Source notes": "The adventure changes challenge and defenses. The 2014 Giant Wolf Spider base retains the Medium Beast type and unaligned alignment. D&D Beyond independently lists the adventure entry as a Beast."
++    }
++  },
++  {
++    "name": "Giant Riding Lizard",
++    "publication": "Out of the Abyss",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Darkvision 30 ft. Passive Perception 10. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sturdy four-legged olive lizard with a long tail, pale throat, and clawed toes.",
++    "habitats": ["Underdark"],
++    "sections": {
++      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, chapter 8, Audience in Gauntlgrym, stat cards, p. 131. https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=132",
++      "Traits": "Spider Climb. Cross difficult surfaces, including the underside of ceilings, without an ability check.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 6 (1d8 + 2) piercing damage.",
++      "Encounter ecology": "An Underdark mount. The Emerald Enclave supplies Giant Riding Lizards for its scouts and the adventuring party in chapter 8. Drow riders also use them in the adventure.",
++      "Source notes": "The adventure prints a dedicated Giant Riding Lizard card. This block uses its 30-ft. darkvision and unconditional Spider Climb directly."
++    }
++  },
++  {
++    "name": "Giant Rocktopus",
++    "publication": "Out of the Abyss",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 52,
++    "hitDice": "8d10 + 8",
++    "speed": "20 ft., climb 10 ft., swim 60 ft. (inherited)",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "skills": {
++      "Perception": 4,
++      "Stealth": 5
++    },
++    "passivePerception": 14,
++    "otherStatistics": "Proficiency bonus +2. Perception +4. Stealth +5. Darkvision 60 ft. Passive Perception 14. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A mottled russet octopus with a knobbly mantle and eight sucker-lined arms. Its coloration can shift to blend with rock.",
++    "habitats": ["Underdark"],
++    "sections": {
++      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, chapter 2, Into Darkness, Creature Encounters, Giant “Rocktopus”, p. 28. https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=29",
++      "Traits": "Camouflage. Advantage on Dexterity (Stealth) checks in any terrain. The variant removes Hold Breath. Water Breathing is inherited from Giant Octopus and permits breathing only underwater. See the table ruling.",
++      "Actions": "Tentacles. Melee weapon attack, +5 to hit, 15-ft. reach, one target. On a hit, deal 10 (2d6 + 3) bludgeoning damage. A creature hit is grappled (escape DC 16) and restrained for the duration. The rocktopus cannot use Tentacles on a different target until the grapple ends.\nInk Cloud. Underwater only. Ink heavily obscures the 20-ft. radius around the rocktopus for 1 minute. A significant current can disperse it sooner. After releasing the ink, it can Dash as a bonus action. Recharge after a short or long rest.",
++      "Encounter ecology": "A land-adapted octopus can change color to blend into rock, lie in cracks, and ambush smaller creatures.",
++      "Source notes": "The passage calls it a Giant Octopus variant and supplies walk 20 ft. and climb 10 ft. It removes Hold Breath and replaces Underwater Camouflage with unconditional Camouflage. The passage gives no explicit replacement for swim 60 ft., Water Breathing, or Ink Cloud. Tentacles retains the base attack. The inherited Water Breathing trait conflicts with the published land ecology. Allowing it to breathe air is a table ruling.",
++      "At the table": "For the published land encounter, allow air breathing as a DM ruling. Keep Ink Cloud underwater-only. A Tentacles hit grapples the target immediately. It can spend an action to attempt a DC 16 Strength (Athletics) or Dexterity (Acrobatics) escape check."
++    }
++  },
++  {
++    "name": "Male Steeder",
++    "publication": "Out of the Abyss",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "skills": {
++      "Stealth": 5
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Stealth +5. Darkvision 120 ft. Passive Perception 10. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A pony-sized tarantula with a chestnut abdomen, sturdy bristled legs, and small dark eyes.",
++    "habitats": ["Underdark"],
++    "sections": {
++      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, appendix C, Creatures, Miscellaneous Creatures, Steeders, p. 231. https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=232",
++      "Traits": "Spider Climb. Cross difficult surfaces, including the underside of ceilings, without an ability check.\nLeap. If its speed is 30 ft. or more, the steeder can spend its entire movement on its turn to jump up to 60 ft. either vertically or horizontally.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 7 (1d8 + 2) piercing damage. The creature makes a DC 12 Constitution save and takes 4 (1d8) acid damage on a failure or half as much on a success.\nSticky Leg. Melee weapon attack, +4 to hit, 5-ft. reach, one Small or Tiny creature. On a hit, the creature sticks to the leg and is grappled (escape DC 12). This action recharges when the steeder has no creature grappled.",
++      "Encounter ecology": "Duergar train pony-sized male steeders as pack beasts. Steeders rely on adhesive legs for climbing and catching prey. They do not make webs.",
++      "Source notes": "The September 2015 first printing identifies Male Steeder as a Medium Beast. The public legacy creature index displays Monstrosity. The original adventure stat block supplies the classification and mechanics here. The 2015 Bite line prints 7 piercing alongside 1d8 + 2. Both are recorded as printed. Sticky Leg applies only to Small or Tiny creatures, and Leap uses a 60-ft. distance."
++    }
++  },
+   {
+     "name": "Bugbear",
+     "classification": "Medium humanoid (goblinoid), chaotic evil",

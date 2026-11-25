@@ -1,0 +1,14 @@
+[
+  {
+    "id": "beast-e3d406b1afda39b80412965c",
+    "name": "Rat, Swarm of Rats",
+    "base": "monster-5941966f457fe4f6c60c3939",
+    "slug": "swarm-of-rats"
+  },
+  {
+    "id": "beast-256b2b8f154071f94b1a637f",
+    "name": "Raven, Swarm of Ravens",
+    "base": "monster-eff4cac94120f8733a73e333",
+    "slug": "swarm-of-ravens"
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-bulette-marl",
+      "title": "Marl, Bulette Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 15,
+      "hp": 13,
+      "hitDice": "1d12 + 1",
+      "initiative": 2,
+      "speed": "30 ft. walking, 30 ft. burrowing",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +4",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., tremorsense 30 ft., passive Perception 13",
+      "languages": "Common from the Outlander background.",
+      "traits": [
+        "Proficiency +2. Strength save +4 and Constitution save +3. Natural AC 15 is 13 + 2 Dexterity. Barbarian Unarmored Defense would instead give AC 13. No armor or shield.",
+        "Outlander grants Athletics, Survival and one chosen language, Common. Barbarian skill choices are Nature and Perception.",
+        "Rage twice per long rest, starting as a bonus action. It lasts up to 1 minute and gives advantage on Strength checks and saves plus resistance to bludgeoning, piercing and slashing. It ends if knocked unconscious or if his turn ends without attacking a hostile creature or taking damage since his previous turn. A bonus action can end it early.",
+        "At Strength 15, a normal running long jump can reach 15 ft. after a 10-ft. run-up. The complete approach takes at least 25 ft. of movement. A standing long jump falls short."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +4, reach 5 ft. Hit 1d8 + 2 slashing, or 1d8 + 4 when raging.",
+        "Deadly Leap. After jumping at least 15 ft., make a +4 bite against one Medium or smaller creature in the landing space. Miss, land in an open adjacent square. Hit, target chooses Strength or Dexterity save DC 12. On failure, deal bite damage once and knock it prone in the landing space. On success, deal half and move the target 5 ft. to a free square it chooses. If no such square is open, it falls prone in the landing space."
+      ],
+      "tactics": "Marl warns trespassers before attacking. If they rush the trench, he rages, takes a 10-ft. run-up and leaps across it onto a Medium or smaller attacker."
+    },
+    {
+      "id": "mr2018-cambion-ilyra-vell",
+      "title": "Ilyra Vell, Cambion Fighter 3, Champion",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Fiend",
+      "ac": 14,
+      "hp": 25,
+      "hitDice": "3d10 + 3",
+      "initiative": 2,
+      "speed": "30 ft. walking, 30 ft. flying in light armor or unarmored",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 13
+      },
+      "skills": [
+        "Athletics +5",
+        "Deception +3",
+        "Insight +2",
+        "Sleight of Hand +4"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 10",
+      "languages": "Common, Abyssal, Infernal.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +3. Purchased studded leather gives AC 12 + 2 Dexterity. The rapier can use Strength, and Dueling adds 2 damage while she holds it in one hand with her other hand free.",
+        "Charlatan grants Deception and Sleight of Hand plus disguise kit and forgery kit proficiency. Fighter skills are Athletics and Insight.",
+        "Champion. Weapon attacks score critical hits on rolls of 19 and 20. Fire bolt uses a spell attack and follows the usual critical hit rule.",
+        "Action Surge gives one extra action on her turn, once per short or long rest. Second Wind also recharges on a short or long rest."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5, reach 5 ft. Hit 1d8 + 5 piercing.",
+        "Fire Bolt. Ranged spell attack +3, range 120 ft. Hit 1d10 fire.",
+        "Charm Person. Once per day as an action, choose a visible humanoid within 30 ft. Wisdom save DC 11, with advantage if she or her companions are fighting it. On failure, the target is charmed for 1 hour or until she or her companions harm it. It regards her as a friendly acquaintance and knows she charmed it after the spell ends.",
+        "Second Wind. Bonus action to recover 1d10 + 3 hit points."
+      ],
+      "tactics": "Ilyra tries to settle trouble verbally. If fighting starts she uses flight to keep the way to the service stairs open. She saves Action Surge for two rapier attacks or for a Dash after an attack."
+    },
+    {
+      "id": "mr2018-carrion-crawler-silt-sifter",
+      "title": "Silt Sifter, Carrion Crawler Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 13,
+      "hp": 11,
+      "hitDice": "1d8 + 3",
+      "initiative": 2,
+      "speed": "30 ft. walking, 30 ft. climbing",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 16,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +5",
+        "Sleight of Hand +4",
+        "Stealth +6"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 15 or 20 when smell applies",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Dexterity save +4 and Intelligence save +3. Natural AC 13 comes from 11 + 2 Dexterity. Rogue Expertise doubles proficiency in Perception and Stealth.",
+        "Urchin grants Sleight of Hand and Stealth. Rogue skills are Acrobatics, Insight, Investigation and Perception. Tool proficiencies are on the sheet, with no manipulators to use the tools unaided. Knows thieves' cant.",
+        "Sneak Attack adds 1d6 damage once per turn on a finesse strike if the attack has advantage or a different enemy of the target within 5 ft. is able to act and the attack lacks disadvantage. The species conversion lets its unarmed strikes qualify."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +4, reach 5 ft. Hit 1d8 + 2 slashing, plus 1d6 Sneak Attack when eligible.",
+        "Tentacles. One adjacent target, +4 to hit. Hit 1d8 + 2 poison, plus 1d6 of the same type when eligible for Sneak Attack. The target makes a DC 13 Constitution save or is poisoned and restrained for up to 1 minute. It repeats the save at the end of each of its turns, ending the effects on a success. Once per short or long rest."
+      ],
+      "tactics": "Silt Sifter listens upside down beneath the culvert lip. If forced to fight, it waits for a distracted target and uses its tentacles before climbing away to warn the lockkeeper."
+    },
+    {
+      "id": "mr2018-chimera-latch",
+      "title": "Latch, Chimera Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 16,
+      "hp": 14,
+      "hitDice": "1d12 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking, 30 ft. flying unarmored",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Understands, reads and writes Draconic. Cannot speak.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Natural AC 16 is 14 + 2 Dexterity. Barbarian Unarmored Defense gives AC 14 as a separate option.",
+        "Soldier skills are Athletics and Intimidation. Barbarian skills are Animal Handling and Perception. Latch wears no armor and carries no weapons or shields.",
+        "Rage twice per long rest, starting as a bonus action. It lasts up to 1 minute with advantage on Strength checks and saves and resistance to bludgeoning, piercing and slashing. It ends if knocked unconscious or a turn ends without attacking a hostile creature or taking damage since the prior turn. Latch can end it early as a bonus action. Lightning Breath is a saving throw ability, so using it alone does not sustain Rage."
+      ],
+      "actions": [
+        "Claws, Horns, or Teeth. Melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3, or 1d8 + 5 while raging. Choose slashing, bludgeoning or piercing.",
+        "Blue Head's Lightning Breath. As an action, breathe a 5-by-30-ft. line of lightning. Each creature in the line makes a DC 12 Dexterity save, taking 2d6 lightning damage on failure or half on success. Once per short or long rest."
+      ],
+      "tactics": "Latch scratches a warning into soft ground. If enemies crowd the rails, Latch breathes along the straight approach and rages on the next turn before closing to strike."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Bulette",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Marl",
+      "size": "Medium",
+      "build": "mr2018-bulette-marl",
+      "role": "Collapsed quarry guide",
+      "motive": "Keep crews off the thin roof over a buried spring.",
+      "hook": "Marl wants a surveyor to mark safe crossings for workers who keep mistaking the roof of the spring for solid ground."
+    },
+    {
+      "species": "Cambion",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Ilyra Vell",
+      "size": "Medium",
+      "build": "mr2018-cambion-ilyra-vell",
+      "role": "Ledger courier and duelist",
+      "motive": "Get a missing customs ledger back to the people it implicates.",
+      "hook": "Ilyra can identify the forged entries while the signatures are fresh. She offers the party a share of the courier fee to get her past the bailiff."
+    },
+    {
+      "species": "Carrion Crawler",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Silt Sifter",
+      "size": "Medium",
+      "build": "mr2018-carrion-crawler-silt-sifter",
+      "role": "Culvert scout",
+      "motive": "Find the source of putrid water before the lockkeeper shuts the whole basin.",
+      "hook": "Silt Sifter overheard unfamiliar voices inside a sealed silt trap. It offers to lead the party to a ceiling shaft above it."
+    },
+    {
+      "species": "Chimera",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Latch",
+      "size": "Medium",
+      "build": "mr2018-chimera-latch",
+      "role": "Retired bridge sentry",
+      "motive": "Retrieve the signal ribbons that warned workers of a closing swing bridge.",
+      "hook": "The keeper who stole the ribbons has left the bridge open at night. Latch traces the safe route into town for anyone willing to help."
+    }
+  ]
+}

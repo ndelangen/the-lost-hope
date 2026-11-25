@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Shade",
+    "kind": "species",
+    "publication": "Heroes of Shadow (2011)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Charisma and either +2 Dexterity or +2 Intelligence. Speed 6 squares, darkvision, Common and one other language. +2 Arcana and +2 Stealth.",
+      "Fragile Mortality removes one healing surge from your normal total. Practiced Sneak grants Stealth training. Shadow Origin applies to effects keyed to creature origin.",
+      "Master of Shadows lets you replace a class utility choice above 1st level with a Shade utility of the same or a lower level.",
+      "One with Shadow is an at-will standard action. Through the end of your next turn, ordinary cover or concealment is enough to attempt to hide, and cover from allies can help you become or stay hidden."
+    ]
+  },
+  {
+    "name": "Vryloka",
+    "kind": "species",
+    "publication": "Heroes of Shadow (2011)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Charisma and either +2 Strength or +2 Dexterity. Speed 7 squares, low-light vision, Common and one other language. +2 Perception and +2 Stealth.",
+      "Blood Dependency reduces your healing surge value by 2 while bloodied. Human Heritage adds +5 to Bluff checks to pass as human.",
+      "You count as living and undead. If an effect has a different result for each, you choose which to use. Resist necrotic damage equal to 5 plus half your level.",
+      "Vampiric Heritage lets you take a Vryloka utility power in place of a class utility choice above 1st level, at the same level or lower.",
+      "Lifeblood is a free action once per encounter when you bloody or kill an enemy. Choose a shift up to your speed, temporary HP equal to 5 plus half your level, or a +2 power bonus on attack rolls through the end of your next turn."
+    ]
+  },
+  {
+    "name": "Revenant",
+    "kind": "species",
+    "publication": "Heroes of Shadow (2011)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Dexterity and either +2 Charisma or +2 Constitution. Speed 6 squares, low-light vision, Common and one other language. +2 Endurance and +2 Intimidate.",
+      "You count as living and undead. Choose a prior race for prerequisites such as feats and paragon paths.",
+      "Unnatural Vitality lets you take the dazed condition in place of unconsciousness when dying at 0 HP or below. Make the usual death saves. A failed save leaves you unconscious.",
+      "Dark Reaping is a free action once per encounter when a creature drops to 0 HP within 5 squares. Add 1d8 plus Constitution modifier necrotic damage to one creature you hit before the end of your next turn."
+    ]
+  },
+  {
+    "name": "Hamadryad",
+    "kind": "species",
+    "publication": "Heroes of the Feywild (2011)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Wisdom and either +2 Intelligence or +2 Charisma. Speed 6 squares, low-light vision, Common and Elven. +2 Diplomacy and +2 Nature. The book presents Hamadryads as female fey.",
+      "Forest Walk lets you ignore difficult terrain from forest growth. Oaken Vitality doubles the time before checks against starvation, thirst, or suffocation, and adds +5 to those Endurance checks.",
+      "You replace sleep with four hours of meditation with light, water, or contact with earth to gain an extended rest. You remain aware while meditating.",
+      "Tree Mind adds +2 to saves against effects that daze, dominate, or stun.",
+      "Hamadryad Aspects is a minor action once per encounter. Through the end of your next turn, either enemies that see you grant you combat advantage, or you resist all damage by 5, rising to 10 at level 11 and 15 at level 21."
+    ]
+  },
+  {
+    "name": "Shadar-kai",
+    "kind": "species",
+    "publication": "Dragon #372 (2009)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Dexterity and +2 Intelligence. Speed 6 squares, low-light vision, Common and one other language. +2 Acrobatics and +2 Stealth.",
+      "Shadow Origin applies to effects keyed to creature origin. Winterkin adds +1 Fortitude and +2 to death saves and saves against unconsciousness.",
+      "Shadow Jaunt is a move action once per encounter. Teleport 3 squares, then remain insubstantial until the start of your next turn."
+    ]
+  }
+]

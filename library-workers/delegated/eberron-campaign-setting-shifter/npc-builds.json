@@ -1,0 +1,117 @@
+{
+  "builds": [
+    {
+      "id": "shifter-wildhunt-trail-ranger-35e",
+      "title": "Shifter Wildhunt trail ranger, Ranger 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Shapechanger)",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +7",
+        "Handle Animal +3",
+        "Jump +7",
+        "Listen +7",
+        "Spot +7",
+        "Survival +7 unshifted, +5 while shifting"
+      ],
+      "senses": "Low-light vision. Scent while shifting.",
+      "languages": "Common",
+      "traits": [
+        "Leather armor +2 and Dexterity +3. Touch 13, flat-footed 12. BAB +1, grapple +2. Fortitude +4, Reflex +5, Will +1.",
+        "Alertness and bonus Track. Wild Empathy +0. Favored enemy magical beasts adds +2 weapon damage and +2 to Bluff, Listen, Sense Motive, Spot and Survival against magical beasts.",
+        "Wildhunt shifts once per day as a free action for 6 rounds. Constitution rises from 14 to 16. HP rises from 10 to 11 and Fortitude from +4 to +5. Remove the 1 bonus HP when shifting ends.",
+        "Wildhunt scent detects a creature at 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action identifies direction. Within 5 ft., pinpoint the source.",
+        "While shifting, a Wildhunt Shifter with Track can follow scent using Survival. A typical fresh trail is DC 10 and adds +2 per hour, with adjustments for odor and group size. Ignore surface and poor-visibility modifiers."
+      ],
+      "actions": [
+        "Short sword +2 melee, 1d6+1 piercing, critical 19–20/×2, 5-ft. reach.",
+        "Longbow +4 ranged, 1d8 piercing, critical ×3, 100-ft. increment."
+      ],
+      "tactics": "Iona follows a fresh scent once the party identifies which equipment belonged to the missing pack train. She saves Wildhunt for the stretch where the trail crosses bare rock."
+    },
+    {
+      "id": "shifter-razorclaw-latchguard-35e",
+      "title": "Shifter Razorclaw latchguard, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Shapechanger)",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +3",
+        "Climb +7, or +8 while shifting",
+        "Jump +7, or +8 while shifting"
+      ],
+      "senses": "Low-light vision.",
+      "languages": "Common",
+      "traits": [
+        "Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +3 or +4 while shifting. Fortitude +4, Reflex +2, Will +1. Armor check penalty −1.",
+        "Weapon Focus (short sword) is the Fighter bonus feat. Healing Factor is a shifter feat. Its extra round makes this shift last 6 rounds. Heal 1 HP when a shift ends while Dane is alive.",
+        "Razorclaw shifts once per day as a free action. Strength rises from 15 to 17 and two claws become available while shifting."
+      ],
+      "actions": [
+        "Short sword +4 melee, 1d6+2 piercing, critical 19–20/×2, 5-ft. reach. While shifting, +5 melee and 1d6+3 piercing if used alone.",
+        "Light crossbow +3 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+        "While shifting, one claw as a standard action or both as a full attack. Each claw is +4 melee, 1d4+3 piercing and slashing.",
+        "First-printing mixed full attack while shifting. Apply −2 to both attacks. Short sword +3 melee for 1d6+3 and light off-hand claw +2 melee for 1d4+1."
+      ],
+      "tactics": "Dane asks the party to secure the mill latch while the repairers file through. He uses Razorclaw if something gets through the gap and switches between a single short sword attack and a two-claw full attack when he has the time and room."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Shifter",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Eberron Campaign Setting (2004)",
+      "name": "Iona Fernridge",
+      "build": "shifter-wildhunt-trail-ranger-35e",
+      "role": "Wildhunt trail ranger.",
+      "motive": "Locate a missing pack train before its tracks wash away.",
+      "hook": "Iona can follow a familiar scent across bare stone if the party identifies the right bundle of gear."
+    },
+    {
+      "species": "Shifter",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Eberron Campaign Setting (2004)",
+      "name": "Dane Millward",
+      "build": "shifter-razorclaw-latchguard-35e",
+      "role": "Razorclaw latchguard and Fighter.",
+      "motive": "Get the repairers through a warped mill gate before it gives way.",
+      "hook": "Dane can keep watch at the opening if the party helps secure the worn latch."
+    }
+  ]
+}

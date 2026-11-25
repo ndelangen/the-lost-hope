@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Baboon",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersAnimals.rtf",
+    "heading": "BABOON",
+    "supportingShards": [
+      "TypesSubtypesAbilities.rtf"
+    ],
+    "url": "https://www.d20srd.org/srd/monsters/baboon.htm",
+    "verification": "Checked the creature’s stat table and combat prose in the original RTF archive.",
+    "appearanceSource": "Reused editorial portrait. The SRD describes a ground-dwelling primate about the size of a large dog.",
+    "habitatSource": "Environment field in MonstersAnimals.rtf, BABOON."
+  },
+  {
+    "name": "Dire Ape",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersDi-Do.rtf",
+    "heading": "DIRE APE",
+    "supportingShards": [
+      "TypesSubtypesAbilities.rtf"
+    ],
+    "url": "https://www.d20srd.org/srd/monsters/direApe.htm",
+    "verification": "Checked the creature’s stat table and combat prose in the original RTF archive.",
+    "appearanceSource": "The SRD gives height and weight. Fur color and pose come from the reused illustration.",
+    "habitatSource": "Environment field in MonstersDi-Do.rtf, DIRE APE.",
+    "printingNote": "Rend damage conflicts within the RTF. Choose which printed value to use before play. Both are preserved in the Special attacks section."
+  },
+  {
+    "name": "Dire Wolf",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersDi-Do.rtf",
+    "heading": "DIRE WOLF",
+    "supportingShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatII.rtf"
+    ],
+    "url": "https://www.d20srd.org/srd/monsters/direWolf.htm",
+    "verification": "Checked the creature’s stat table and combat prose in the original RTF archive.",
+    "appearanceSource": "The SRD gives a mottled grey or black coat, length and weight. The reused portrait depicts the grey form.",
+    "habitatSource": "Environment field in MonstersDi-Do.rtf, DIRE WOLF."
+  },
+  {
+    "name": "Hyena",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersAnimals.rtf",
+    "heading": "HYENA",
+    "supportingShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatII.rtf"
+    ],
+    "url": "https://www.d20srd.org/srd/monsters/hyena.htm",
+    "verification": "Checked the creature’s stat table and combat prose in the original RTF archive.",
+    "appearanceSource": "MonstersAnimals.rtf identifies the striped hyena as the rules model. The new original portrait uses pointed ears, a dark dorsal mane and flank and leg stripes to convey that species.",
+    "habitatSource": "Environment field in MonstersAnimals.rtf, HYENA."
+  },
+  {
+    "name": "Polar Bear",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersAnimals.rtf",
+    "heading": "BEAR, POLAR",
+    "supportingShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatII.rtf"
+    ],
+    "url": "https://www.d20srd.org/srd/monsters/bearPolar.htm",
+    "verification": "Checked the creature’s stat table and combat prose in the original RTF archive.",
+    "appearanceSource": "The SRD prose describes the long body and white coat. The reused portrait supplies the pose and coloration.",
+    "habitatSource": "Environment field in MonstersAnimals.rtf, BEAR, POLAR."
+  }
+]

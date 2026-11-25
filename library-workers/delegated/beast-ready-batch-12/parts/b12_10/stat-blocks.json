@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Brontosaurus",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "classification": "Gargantuan Beast (Dinosaur), unaligned",
+    "ac": 15,
+    "hp": 121,
+    "hitDice": "9d20 + 27",
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Con": 6
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Proficiency bonus +3. Constitution saving throw +6. Passive Perception 10. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy gray-green quadruped with an upright neck, columnar legs, and a long curved tail.",
+    "habitats": [
+      "Forest",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 95. https://www.dndbeyond.com/monsters/2560746-brontosaurus",
+      "Actions": "Stomp. Melee weapon attack, +8 to hit, 20 ft. reach, one target. On a hit, deal 27 (5d8 + 5) bludgeoning damage. The target falls prone if it fails a DC 14 Strength saving throw.\nTail. Melee weapon attack, +8 to hit, 20 ft. reach, one target. On a hit, deal 32 (6d8 + 5) bludgeoning damage.",
+      "Encounter ecology": "Its size discourages most predators. It uses its tail against smaller threats that come close.",
+      "Source notes": "Both attacks have a printed reach of 20 ft. Only Stomp can knock the target prone."
+    }
+  },
+  {
+    "name": "Deinonychus",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast (Dinosaur), unaligned",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d8 + 8",
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Perception": 3
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An olive-green biped with a long stiff tail, hooked toe claws, and curled foreclaws.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 95. https://www.dndbeyond.com/monsters/2560770-deinonychus",
+      "Traits": "Pounce. Move at least 20 ft. directly toward a creature, then hit it with Claw on that turn. It falls prone if it fails a DC 12 Strength saving throw. If it is prone, the deinonychus can use a bonus action to Bite it once.",
+      "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 6 (1d8 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 6 (1d8 + 2) slashing damage.",
+      "Encounter ecology": "A larger relative of the velociraptor that hooks prey with its claws and feeds while gripping it.",
+      "Source notes": "The bonus-action Bite keys off the target being prone after the Claw trigger. The printed text does not require that the Pounce save caused the prone condition."
+    }
+  },
+  {
+    "name": "Dimetrodon",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast (Dinosaur), unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "30 ft., swim 20 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "skills": {
+      "Perception": 2
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +2. Passive Perception 12. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, wide-jawed reptile with short legs, a tapering tail, and a tall burnt-orange sail.",
+    "habitats": [
+      "Coastal",
+      "Swamp"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 95. https://www.dndbeyond.com/monsters/2560776-dimetrodon",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 9 (2d6 + 2) piercing damage.",
+      "Encounter ecology": "This sail-backed reptile shares territory with dinosaurs and hunts along shores and in shallow water like a crocodile.",
+      "Source notes": "The creature account calls it a reptile. The stat block gives it the Dinosaur tag."
+    }
+  },
+  {
+    "name": "Velociraptor",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast (Dinosaur), unaligned",
+    "ac": 13,
+    "hp": 10,
+    "hitDice": "3d4 + 3",
+    "speed": "30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Perception": 3
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A feathered, rust-and-cream biped with a narrow snout and long, nearly level tail.",
+    "habitats": [
+      "Forest",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 96, creature account p. 95. https://www.dndbeyond.com/monsters/2560950-velociraptor",
+      "Traits": "Pack Tactics. The velociraptor rolls with advantage to attack a creature if it has an ally within 5 ft. of that creature and that ally is not incapacitated.",
+      "Actions": "Multiattack. Make one Bite attack and one Claw attack.\nBite. Melee weapon attack, +4 to hit, 5 ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
+      "Encounter ecology": "About the size of a large turkey, this feathered predator often hunts in packs to take larger prey.",
+      "Source notes": "The creature account begins in the right column of p. 95. The full stat block is in the lower right column of p. 96."
+    }
+  }
+]

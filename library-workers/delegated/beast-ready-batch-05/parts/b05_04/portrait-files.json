@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "giant-weasel",
+    "file": "portraits/giant-weasel.png",
+    "sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-wolf-spider",
+    "file": "portraits/giant-wolf-spider.png",
+    "sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

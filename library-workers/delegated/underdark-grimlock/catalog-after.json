@@ -1,0 +1,1489 @@
+[
+  {
+    "name": "Grimlock",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-4ba8ea9de054114e0db40470",
+      "name": "Grimlock",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid",
+        "Aberration",
+        "Monstrous Humanoid",
+        "Medium Humanoid"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Monster Manual (2014)"
+        },
+        {
+          "url": "",
+          "credit": "John Tedrick · Monster Manual (2024)"
+        }
+      ],
+      "versions": [
+        {
+          "key": "8bcd2f5747a47be2cfcb2df6",
+          "publication": "Black Flag Roleplaying Reference Document v0.2",
+          "edition": "Black Flag Roleplaying",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "17"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Type",
+              "Medium Humanoid"
+            ],
+            [
+              "Speed",
+              "0 3 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Spiked Club · melee"
+              ]
+            }
+          ],
+          "inline": {
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "6c947ebbde8db75c22b9e527",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 1/4. Listed habitats: underdark. Named abilities include Blind Senses, Keen Hearing and Smell, Stone Camouflage.",
+          "source": "https://5e.tools/bestiary.html#grimlock_mm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30784/270/1000/1000/638062035227436078.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Monster Manual (2014)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "11"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 2"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "13"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Strength",
+              "16"
+            ],
+            [
+              "Dexterity",
+              "12"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "9"
+            ],
+            [
+              "Wisdom",
+              "8"
+            ],
+            [
+              "Charisma",
+              "6"
+            ],
+            [
+              "Creature tags",
+              "grimlock"
+            ],
+            [
+              "Alignment",
+              "neutral evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Spiked Bone Club · melee · +5 to hit · reach 5 ft. · 1d4 + 3 bludgeoning plus 1d4 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Athletics +5, Perception +3, Stealth +3"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius)"
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Undercommon"
+              ]
+            },
+            {
+              "title": "Condition immunities",
+              "lines": [
+                "blinded"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Blind Senses · Deafened",
+                "Keen Hearing and Smell · Perception",
+                "Stone Camouflage · Stealth"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Spiked Bone Club · Melee attack · +5 to hit · 1d4 + 3 bludgeoning damage · 1d4 piercing damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Debased Cultists",
+                "Blind Hunters",
+                "Endless War"
+              ]
+            }
+          ],
+          "sourceCode": "MM",
+          "page": 175,
+          "references": [
+            {
+              "label": "Monster Manual (2014), p. 175",
+              "url": "https://5e.tools/bestiary.html#grimlock_mm"
+            },
+            {
+              "label": "Deafened (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#deafened_phb",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              },
+              "preview": {
+                "name": "Deafened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot hear and automatically fail checks that require hearing.",
+                "local": {
+                  "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                }
+              }
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "label": "Stealth (skill)",
+              "url": "https://5e.tools/skills.html#stealth_phb",
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              },
+              "preview": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Athletics +5, Perception +3, Stealth +3": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              },
+              {
+                "start": 14,
+                "end": 24,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 29,
+                "end": 36,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius)": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                  }
+                }
+              },
+              {
+                "start": 34,
+                "end": 42,
+                "target": {
+                  "name": "Deafened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot hear and automatically fail checks that require hearing.",
+                  "local": {
+                    "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                  }
+                }
+              }
+            ],
+            "Condition immunities": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Condition",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 363,
+                  "local": {
+                    "entry": "compendium-7ec713220a1ab631931f9618",
+                    "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                  }
+                }
+              }
+            ],
+            "blinded": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Blinded",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                  "local": {
+                    "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                  }
+                }
+              }
+            ],
+            "Blind Senses · Deafened": [
+              {
+                "start": 15,
+                "end": 23,
+                "target": {
+                  "name": "Deafened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot hear and automatically fail checks that require hearing.",
+                  "local": {
+                    "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                  }
+                }
+              }
+            ],
+            "Keen Hearing and Smell · Perception": [
+              {
+                "start": 25,
+                "end": 35,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "Stone Camouflage · Stealth": [
+              {
+                "start": 19,
+                "end": 26,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "b1791175968d0c9a2d504c5b",
+          "publication": "Monster Manual (2024)",
+          "edition": "2024 fifth edition",
+          "description": "A Medium aberration with challenge rating 1/4. Listed habitats: underdark. Named abilities include Bone Cudgel.",
+          "source": "https://5e.tools/bestiary.html#grimlock_xmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/952/1000/1000/638741964237366688.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "John Tedrick · Monster Manual (2024)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "11"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 2"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "13"
+            ],
+            [
+              "Strength",
+              "16"
+            ],
+            [
+              "Dexterity",
+              "12"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "9"
+            ],
+            [
+              "Wisdom",
+              "8"
+            ],
+            [
+              "Charisma",
+              "6"
+            ],
+            [
+              "Alignment",
+              "neutral evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bone Cudgel · melee · +5 to hit · reach 5 ft. · 1d6 + 3 bludgeoning · 1d4 psychic"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Athletics +5, Perception +3, Stealth +5"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "Blindsight 30 ft."
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Bone Cudgel · Melee attack · +5 to hit · 1d6 + 3 bludgeoning damage · 1d4 psychic damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Grimlock",
+                "Habitat:",
+                "Treasure:"
+              ]
+            }
+          ],
+          "sourceCode": "XMM",
+          "references": [
+            {
+              "label": "Monster Manual (2025), p. 160",
+              "url": "https://5e.tools/bestiary.html#grimlock_xmm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Athletics +5, Perception +3, Stealth +5": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "XPHB:14:https://5e.tools/skills.html#athletics_xphb"
+                  }
+                }
+              },
+              {
+                "start": 14,
+                "end": 24,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                  }
+                }
+              },
+              {
+                "start": 29,
+                "end": 36,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                  }
+                }
+              }
+            ],
+            "Blindsight 30 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 361,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "95fbdf54fb95322b53390132",
+          "publication": "Monster Vault",
+          "edition": "Black Flag Roleplaying",
+          "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+          "images": [],
+          "stats": [
+            [
+              "Challenge",
+              "0.3"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ]
+          ],
+          "sections": []
+        },
+        {
+          "key": "c69d18491bfbd4c8b11c046b",
+          "publication": "Revised v3.5 SRD (Monsters)",
+          "edition": "3.5 edition",
+          "images": [],
+          "stats": [
+            [
+              "Type",
+              "Monstrous Humanoid"
+            ]
+          ],
+          "sections": []
+        },
+        {
+          "key": "56ae87d54daad5e9a9d166ee",
+          "publication": "SRD 5.1",
+          "edition": "2014 fifth edition",
+          "status": "Stat block",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "11"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 2"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "30 ft."
+            ],
+            [
+              "XP",
+              "50"
+            ],
+            [
+              "Str",
+              "16"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "9"
+            ],
+            [
+              "Wis",
+              "8"
+            ],
+            [
+              "Cha",
+              "6"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Classification",
+              "lines": [
+                "Medium humanoid (grimlock), neutral evil"
+              ]
+            },
+            {
+              "title": "Other statistics",
+              "lines": [
+                "Skills Athletics +5, Perception +3, Stealth +3 Condition Immunities blinded Senses blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius), passive Perception 13 Languages Undercommon"
+              ]
+            },
+            {
+              "title": "Traits",
+              "lines": [
+                "Blind Senses. The grimlock can’t use its blindsight while deafened and unable to smell. Keen Hearing and Smell. The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell. Stone Camouflage. The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+              ]
+            },
+            {
+              "title": "Actions",
+              "lines": [
+                "Spiked Bone Club. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage."
+              ]
+            }
+          ],
+          "inline": {
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Skills Athletics +5, Perception +3, Stealth +3 Condition Immunities blinded Senses blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius), passive Perception 13 Languages Undercommon": [
+              {
+                "start": 7,
+                "end": 16,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              },
+              {
+                "start": 21,
+                "end": 31,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 36,
+                "end": 43,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              },
+              {
+                "start": 47,
+                "end": 56,
+                "target": {
+                  "name": "Condition",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 363,
+                  "local": {
+                    "entry": "compendium-7ec713220a1ab631931f9618",
+                    "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                  }
+                }
+              },
+              {
+                "start": 68,
+                "end": 75,
+                "target": {
+                  "name": "Blinded",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                  "local": {
+                    "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                  }
+                }
+              },
+              {
+                "start": 83,
+                "end": 93,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                  }
+                }
+              },
+              {
+                "start": 117,
+                "end": 125,
+                "target": {
+                  "name": "Deafened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot hear and automatically fail checks that require hearing.",
+                  "local": {
+                    "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                  }
+                }
+              },
+              {
+                "start": 162,
+                "end": 172,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "Blind Senses. The grimlock can’t use its blindsight while deafened and unable to smell. Keen Hearing and Smell. The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell. Stone Camouflage. The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.": [
+              {
+                "start": 41,
+                "end": 51,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                  }
+                }
+              },
+              {
+                "start": 58,
+                "end": 66,
+                "target": {
+                  "name": "Deafened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot hear and automatically fail checks that require hearing.",
+                  "local": {
+                    "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                  }
+                }
+              },
+              {
+                "start": 129,
+                "end": 138,
+                "target": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 173,
+                  "description": "Roll two d20s and use the higher roll.",
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "PHB:173:https://5e.tools/book.html#PHB"
+                  }
+                }
+              },
+              {
+                "start": 150,
+                "end": 160,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 235,
+                "end": 244,
+                "target": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 173,
+                  "description": "Roll two d20s and use the higher roll.",
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "PHB:173:https://5e.tools/book.html#PHB"
+                  }
+                }
+              },
+              {
+                "start": 259,
+                "end": 266,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "Spiked Bone Club. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage.": [
+              {
+                "start": 24,
+                "end": 37,
+                "target": {
+                  "name": "Weapon Attack",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 377,
+                  "local": {
+                    "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                    "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "18e26397428501f61a584406",
+          "publication": "SRD 5.2.1",
+          "edition": "2024 fifth edition",
+          "status": "Stat block",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "11"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 2"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "30 ft., Climb 30 ft."
+            ],
+            [
+              "XP",
+              "50"
+            ],
+            [
+              "Str",
+              "16"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "9"
+            ],
+            [
+              "Wis",
+              "8"
+            ],
+            [
+              "Cha",
+              "6"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Classification",
+              "lines": [
+                "Medium Aberration, Neutral Evil"
+              ]
+            },
+            {
+              "title": "Other statistics",
+              "lines": [
+                "Skills Athletics +5, Perception +3, Stealth +5 Senses Blindsight 30 ft.; Passive Perception 13 Languages None"
+              ]
+            },
+            {
+              "title": "Actions",
+              "lines": [
+                "Bone Cudgel. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
+              ]
+            }
+          ],
+          "inline": {
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Skills Athletics +5, Perception +3, Stealth +5 Senses Blindsight 30 ft.; Passive Perception 13 Languages None": [
+              {
+                "start": 7,
+                "end": 16,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "XPHB:14:https://5e.tools/skills.html#athletics_xphb"
+                  }
+                }
+              },
+              {
+                "start": 21,
+                "end": 31,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                  }
+                }
+              },
+              {
+                "start": 36,
+                "end": 43,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                  }
+                }
+              },
+              {
+                "start": 54,
+                "end": 64,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 361,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                  }
+                }
+              },
+              {
+                "start": 73,
+                "end": 91,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Bone Cudgel. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage.": [
+              {
+                "start": 19,
+                "end": 30,
+                "target": {
+                  "name": "Attack Roll",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 361,
+                  "local": {
+                    "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                    "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      }
+    },
+    "monsterSearch": true,
+    "global": true,
+    "version": {
+      "key": "af01152ddcebf8bc675fb27a",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Monstrous Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Monstrous Humanoid. +4 Strength, +2 Dexterity, +2 Constitution, −2 Wisdom, −4 Charisma. Land speed 30 ft.",
+            "Eyeless, with +4 natural armor.",
+            "Blindsight (Ex) locates foes within 40 ft. with line of effect. Foes beyond 40 ft. have total concealment. Blindsight does not reveal color or visual detail.",
+            "Losing either hearing or smell negates blindsight. With one sense remaining, the grimlock functions as if it had Blind-Fight. Losing both leaves it effectively blinded.",
+            "Scent (Ex) detects opponents within 30 ft. under ordinary conditions. Spend a move action to determine the direction. Pinpoint the source within 5 ft.",
+            "Immune to gaze attacks, visual effects, and illusions or other attacks that rely on sight. Sound- and scent-based effects can still affect a grimlock.",
+            "+10 racial bonus on Hide checks in mountains or underground.",
+            "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Racial skill points are 5 × (2 + Intelligence modifier). Racial class skills are Climb, Hide, Listen, and Spot.",
+            "Martial Weapon Proficiency (battleaxe) is a racial bonus feat. LA +2, so ECL 4 before class levels. Favored class Barbarian.",
+            "Common and Undercommon are automatic. The Grimlock region also grants Terran and lists Abyssal, Elven (drow dialect), Kuo-Toan, and Orc as bonus languages."
+          ]
+        },
+        {
+          "title": "Original NPC · Diamond Hand",
+          "lines": [
+            "Passage guardian and Barbarian.",
+            "Motive. Cover the retreat of her hunt-bonded companion.",
+            "Hook. Diamond Hand guards the bend that leads to the pack’s water cistern.",
+            "Grimlock passage guardian, Barbarian 1 · Provisional CR 2. ECL 5 (2 racial HD, 1 class HD, LA +2). · Medium Monstrous Humanoid",
+            "AC 16 · HP 29 (2d8+1d12+9) · Speed 40 ft. with fast movement; base 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Cold Water",
+          "lines": [
+            "Fissure tracker and guide.",
+            "Motive. Find a missing climber before the culvert floods.",
+            "Hook. Cold Water catches a fresh scent at the foot of the fissure.",
+            "Grimlock fissure tracker, racial Hit Dice only · Provisional CR 1. ECL 4 (2 racial HD, LA +2). · Medium Monstrous Humanoid",
+            "AC 16 · HP 16 (2d8+4) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Diamond Hand": [
+          {
+            "start": 15,
+            "end": 27,
+            "target": {
+              "name": "Diamond Hand",
+              "group": "Grimlock",
+              "publication": "Grimlock passage guardian, Barbarian 1",
+              "local": {
+                "entry": "npc-5e5da198321208f33e0acee9",
+                "version": "d51c0c3c0ece39509d3fd635"
+              }
+            }
+          }
+        ],
+        "Hook. Diamond Hand guards the bend that leads to the pack’s water cistern.": [
+          {
+            "start": 6,
+            "end": 18,
+            "target": {
+              "name": "Diamond Hand",
+              "group": "Grimlock",
+              "publication": "Grimlock passage guardian, Barbarian 1",
+              "local": {
+                "entry": "npc-5e5da198321208f33e0acee9",
+                "version": "d51c0c3c0ece39509d3fd635"
+              }
+            }
+          }
+        ],
+        "Original NPC · Cold Water": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Cold Water",
+              "group": "Grimlock",
+              "publication": "Grimlock fissure tracker, racial Hit Dice only",
+              "local": {
+                "entry": "npc-d9ae6af36f3c9e7e18317852",
+                "version": "20644f115834f256a1f92b18"
+              }
+            }
+          }
+        ],
+        "Hook. Cold Water catches a fresh scent at the foot of the fissure.": [
+          {
+            "start": 6,
+            "end": 16,
+            "target": {
+              "name": "Cold Water",
+              "group": "Grimlock",
+              "publication": "Grimlock fissure tracker, racial Hit Dice only",
+              "local": {
+                "entry": "npc-d9ae6af36f3c9e7e18317852",
+                "version": "20644f115834f256a1f92b18"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Grimlock": true,
+      "grimlock blindsight": true,
+      "grimlock scent": true,
+      "grimlock passage guardian": true,
+      "grimlock fissure tracker": true
+    },
+    "hash": "0577e62576f77d0f2a047640acc71408f5b9f46332657284b5e3d42fec0108dc",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "af01152ddcebf8bc675fb27a",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

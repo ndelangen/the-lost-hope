@@ -1,0 +1,26 @@
+[
+  {
+    "entry": "beast-c91da6c43e46afb2273fc8b6",
+    "version": "36c88325c2a903a99cc4e21f",
+    "name": "Large Scorpion",
+    "file": "images/adnd2e-monstrous-manual-scorpions/large-scorpion.png",
+    "sha256": "623b824dd4fd95f3929492c5635dba3fd4504718f9545fbc40cf913bed682ee0",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-20f540c70a724c66ce8f06ab",
+    "version": "053ebee055cfe7a8bc689f7a",
+    "name": "Huge Scorpion",
+    "file": "images/adnd2e-monstrous-manual-scorpions/huge-scorpion.png",
+    "sha256": "d7801deafc970e3073e711f06d368cdb0055047e026eff726315291eecf9fba2",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-48104f2fffbe448b2e67acde",
+    "version": "8a69f4dc4c5c304b5d94902e",
+    "name": "Giant Scorpion",
+    "file": "images/adnd2e-monstrous-manual-scorpions/giant-scorpion.png",
+    "sha256": "fa96827358128df1438765aa4284281bd3b93e77f3abec6b0819d0bacecff84e",
+    "credit": "OpenAI ImageGen"
+  }
+]

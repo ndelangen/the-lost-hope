@@ -1,0 +1,395 @@
+[
+  {
+    "name": "Bone Golem",
+    "decision": "separate",
+    "pages": "pp. 93–94",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Bone Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Construct",
+      "ac": 23,
+      "hp": 71,
+      "hitDice": "13d10",
+      "speed": "30 ft.",
+      "cr": "10",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "otherStatistics": "Initiative +3. AC +3 Dex, +10 natural. Touch AC 13, flat-footed AC 20. Base attack +10, grapple +14. Space 5 ft., reach 5 ft. Fort +4, Ref +4, Will +4.",
+      "description": "Joints bend the wrong way on this construct built from the remains of animated skeletons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +14 melee for 2d4 + 4. Full attack makes two claws at +13, each for 2d4 + 4.\nDread Roar (Su). Once every 1d4 rounds, living creatures within 100 ft. make a DC 16 Fear save and a separate DC 16 Horror save, both Will. Failure on one paralyzes the creature for 2d6 rounds. Failure on both kills it instantly. This counts as a supernatural fear effect and a death effect.",
+        "Traits": "Damage reduction 10/magic and slashing or piercing weapons, as printed. Immune to cold. Slashing and piercing weapon damage is also halved.\nMagic Immunity (Ex). Immune to spells, spell-like abilities and supernatural effects, with named exceptions. Animate dead restores full HP. After a successful shatter, physical hits deal double damage for rounds equal to its caster level. This makes slashing and piercing hits deal normal damage and bludgeoning hits double damage. A targeted dispel magic at DC 18 disables it for a number of rounds equal to the caster's dispel check result minus 10. A result at least 10 above the DC destroys it. Detect magic reveals its aura returning while it is disabled.\nConstruct traits. Immune to mind-affecting effects, poison, disease and similar effects. Critical hits, nonlethal damage, ability damage, energy drain and death from massive damage do not affect it, subject to the exceptions below.",
+        "Dread golem commands": "The creator can give commands from within 60 ft. if the golem can see and hear them. It follows the last command and responds to attacks against it. Some dread golems act independently.",
+        "Skills and feats": "Climb +5, Hide +9, Jump +4, Listen +8, Spot +3. Cleave, Power Attack, Combat Reflexes.",
+        "Encounter details": "Any land or underground. Solitary, always neutral, no treasure. Advances to 14–20 HD (Large) or 21–40 HD (Huge).",
+        "Printed source": "pp. 93–94"
+      },
+      "ruleNotes": [
+        "The printed Dexterity 15 does not produce the listed +3 Dexterity to AC and initiative. Use the printed combat values. The single and full attack bonuses are also different in print."
+      ]
+    }
+  },
+  {
+    "name": "Doll Golem",
+    "decision": "separate",
+    "pages": "pp. 93, 95",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Doll Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny Construct",
+      "ac": 18,
+      "hp": 38,
+      "hitDice": "7d10",
+      "speed": "20 ft.",
+      "cr": "8",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "otherStatistics": "Initiative +2. AC +2 size, +4 Dex, +2 natural. Touch AC 16, flat-footed AC 14. Base attack +5. Space 2½ ft., reach 0 ft. Fort +2, Ref +4, Will +2.",
+      "description": "A foot-tall toy stands still until its painted expression twists and it lunges.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Bite +3 melee for 1d6 − 2 and Biting Laughter.\nBiting Laughter (Su). A bite hit calls for a DC 13 Will save. On failure, the victim falls prone and cannot act as with Tasha's hideous laughter. The laughter lasts until dispelled at DC 17 or until the victim dies. It deals one negative level per round. After the effect is dispelled, remove one negative level per round.",
+        "Traits": "Damage reduction 10/magic.\nMagic Immunity (Ex). Immune to spells, spell-like abilities and supernatural effects, with named exceptions. Fire effects deal half damage on a failed save and none on a successful save. Warp wood slows it as the slow spell. Mending restores full HP. A targeted dispel magic at DC 15 disables it for a number of rounds equal to the caster's dispel check result minus 10. A result at least 10 above the DC destroys it. Detect magic reveals its aura returning while it is disabled.\nConstruct traits. Immune to mind-affecting effects, poison, disease and similar effects. Critical hits, nonlethal damage, ability damage, energy drain and death from massive damage do not affect it, subject to the exceptions below.",
+        "Dread golem commands": "The creator can give commands from within 60 ft. if the golem can see and hear them. It follows the last command and responds to attacks against it. Some dread golems act independently.",
+        "Skills and feats": "Hide +9, Listen +6, Move Silently +9. Stealthy.",
+        "Encounter details": "Any land or underground. Solitary, always neutral, no treasure. Advances to 8–10 HD (Small) or 11–14 HD (Medium).",
+        "Printed source": "pp. 93, 95"
+      },
+      "ruleNotes": [
+        "The source gives only +5 on the base attack/grapple line. A standard 3.5 grapple calculation yields −5 from base attack +5, Strength −2 and Tiny size −8. Initiative is printed as +2 despite Dexterity 19."
+      ]
+    }
+  },
+  {
+    "name": "Dread Flesh Golem",
+    "decision": "separate",
+    "pages": "pp. 93, 95–96",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Dread Flesh Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Construct",
+      "ac": 23,
+      "hp": 49,
+      "hitDice": "12d10",
+      "speed": "30 ft.",
+      "cr": "11",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "otherStatistics": "Initiative +2. AC −1 size, +2 Dex, +12 natural. Touch AC 11, flat-footed AC 21. Base attack +9, grapple +14. Space 10 ft., reach 10 ft. Fort +3, Ref +2, Will +3.",
+      "description": "The seams in the golem’s skin reveal where its creator stitched the body together.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +14 melee for 2d8 + 5. Full attack makes two slams, each for the same damage and bonus.\nBerserk (Ex). Each round in combat, the cumulative chance of going berserk increases by 1 percentage point. A berserk golem attacks the nearest creature or object, then moves on to the next. Its creator can make a DC 29 Charisma check within 60 ft. to regain control and reset the chance to 0%.\nConstrict (Ex). A successful grapple check deals 2d8 + 5 damage.",
+        "Traits": "Damage reduction 5/adamantine or magic. Darkvision 60 ft., low-light vision and disease immunity. Its own stat block specifically lists vulnerability to poison, level drain and gases.\nMagic Immunity (Ex). Immune to spells and spell-like abilities that allow spell resistance. Magical cold or fire slows the golem for 2d6 rounds. Electrical magic clears this slowing effect and restores 1 HP for every 3 damage the spell would have dealt. It can gain temporary HP this way and makes no electricity save. Only acid or fire can destroy it permanently.\nRegeneration (Ex). It regains 1 HP per hour even while active. Below 0 HP it goes dormant and stops recovering. A strong electrical shock can wake it after its flesh is repaired.\nFear of fire. It tries to stay 10 ft. away from small fires and 25 ft. from larger ones. It takes a −4 penalty on Fear saves involving fire.\nConstruct traits. Immune to mind-affecting effects, poison, disease and similar effects. Critical hits, nonlethal damage, ability damage, energy drain and death from massive damage do not affect it, subject to the exceptions below.",
+        "Dread golem commands": "The creator can give commands from within 60 ft. if the golem can see and hear them. It follows the last command and responds to attacks against it. Some dread golems act independently.",
+        "Skills and feats": "Climb +12, Hide +7, Jump +11, Listen +5, Move Silently +7, Spot +6, Survival +6, Swim +10. Alertness, Blind-Fight, Dodge.",
+        "Encounter details": "Any terrain in Lamordia. Solitary or gang of 2–4, usually neutral, no treasure. Advances to 13–18 HD (Large) or 19–27 HD (Huge).",
+        "Printed source": "pp. 93, 95–96"
+      },
+      "ruleNotes": [
+        "Use the printed 49 HP and +14 grapple. Treat the flesh golem’s listed vulnerabilities as exceptions to the general construct traits. The printing does not give a separate numerical multiplier for fire or acid."
+      ]
+    }
+  },
+  {
+    "name": "Gargoyle Golem",
+    "decision": "separate",
+    "pages": "pp. 93, 97",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Gargoyle Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Construct",
+      "ac": 22,
+      "hp": 61,
+      "hitDice": "11d10",
+      "speed": "20 ft., climb 10 ft.",
+      "cr": "10",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "otherStatistics": "Initiative +5. AC +1 Dex, +11 natural. Touch AC 11, flat-footed AC 21. Base attack +8, grapple +16. Space 5 ft., reach 5 ft. Fort +3, Ref +2, Will +3.",
+      "description": "This carved guardian watches its assigned building from the eaves.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +8 melee for 2d6 + 8. Full attack makes two slams at the same bonus and damage.\nPounce (Ex). On the first round of combat, make one slam against a creature within 100 ft. If it hits after leaping down, add the falling damage the golem would have taken. Divide that extra damage between the target and their armor, shield or weapon, prioritizing items in that order.\nPetrify (Su). A target hit by both slams in the same round must succeed on a DC 15 Fortitude save or turn to stone. The golem attempts a coup de grace against the statue the next round. If the target dies, only true resurrection, wish or miracle can restore it.",
+        "Traits": "Damage reduction 10/magic. Immune to falling damage.\nMagic Immunity (Ex). Immune to spells, spell-like abilities and supernatural effects, with named exceptions. Soften earth and stone deals 2d8 damage without a save. Earthquake targeted on the golem destroys it. A targeted dispel magic at DC 16 disables it for a number of rounds equal to the caster's dispel check result minus 10. A result at least 10 above the DC destroys it. Detect magic reveals its aura returning while it is disabled.\nConstruct traits. Immune to mind-affecting effects, poison, disease and similar effects. Critical hits, nonlethal damage, ability damage, energy drain and death from massive damage do not affect it, subject to the exceptions below.",
+        "Dread golem commands": "The creator can give commands from within 60 ft. if the golem can see and hear them. It follows the last command and responds to attacks against it. Some dread golems act independently.",
+        "Skills and feats": "Climb +13, Hide +6, Jump +13, Listen +5. Improved Initiative, Power Attack.",
+        "Encounter details": "Any land or underground. Solitary, always neutral, no treasure. Advances to 11–15 HD (Medium) or 16–25 HD (Large).",
+        "Printed source": "pp. 93, 97"
+      },
+      "ruleNotes": [
+        "The printed +8 melee slam is lower than its base attack plus Strength. Use the printed attack line. The pounce rules do not give an exact division of extra falling damage."
+      ]
+    }
+  },
+  {
+    "name": "Glass Golem",
+    "decision": "separate",
+    "pages": "pp. 93, 97–98",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Glass Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Construct",
+      "ac": 19,
+      "hp": 38,
+      "hitDice": "7d10",
+      "speed": "30 ft.",
+      "cr": "8",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "otherStatistics": "Initiative +3. AC +2 Dex, +7 natural. Base attack +5, grapple +9. Space 5 ft., reach 5 ft. Fort +2, Ref +1, Will +2.",
+      "description": "A stained-glass knight can wait inside a window until a trespasser walks past.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Sword +9 melee for 2d10 + 4.\nPrismatic Burst (Su). Once every 1d4 rounds, affect every creature within 30 ft. as prismatic spray, caster level 7th and save DC 13 where applicable.",
+        "Traits": "Damage reduction 10/magic. Fast healing 2 in direct sunlight or within the radius of daylight or a similar spell. For bludgeoning weapons, double damage that gets past its damage reduction.\nMagic Immunity (Ex). Immune to spells, spell-like abilities and supernatural effects, with named exceptions. After shatter hits the golem, every subsequent physical hit for rounds equal to the spell's caster level forces a Fortitude save at DC 5 + damage dealt. Failure destroys it. Mending restores full HP. A targeted dispel magic at DC 14 disables it for a number of rounds equal to the caster's dispel check result minus 10. A result at least 10 above the DC destroys it. Detect magic reveals its aura returning while it is disabled.\nConstruct traits. Immune to mind-affecting effects, poison, disease and similar effects. Critical hits, nonlethal damage, ability damage, energy drain and death from massive damage do not affect it, subject to the exceptions below.",
+        "Dread golem commands": "The creator can give commands from within 60 ft. if the golem can see and hear them. It follows the last command and responds to attacks against it. Some dread golems act independently.",
+        "Skills and feats": "Climb +10, Listen +7, Spot +7. Improved Initiative.",
+        "Encounter details": "Any land or underground. Solitary, always neutral, no treasure. Advances to 8–12 HD (Medium) or 13–18 HD (Large).",
+        "Printed source": "pp. 93, 97–98"
+      },
+      "ruleNotes": [
+        "The source omits touch and flat-footed AC. From its printed modifiers, use touch AC 12 and flat-footed AC 17. Initiative is printed as +3 despite the listed Dexterity and Improved Initiative."
+      ]
+    }
+  },
+  {
+    "name": "Mist Golem",
+    "decision": "separate",
+    "pages": "pp. 7, 93, 99–100",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Mist Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Construct",
+      "ac": 20,
+      "hp": 99,
+      "hitDice": "18d10",
+      "speed": "20 ft.",
+      "cr": "14",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "otherStatistics": "Initiative +8. AC −1 size, +2 Dex, +9 natural. Touch AC 11, flat-footed AC 18. Base attack +13, grapple +21. Space 10 ft., reach 10 ft. Fort +11, Ref +8, Will +11.",
+      "description": "A construct forms out of the Mists, wearing the face of the person whose attempt to create it went wrong.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +21 melee for 3d6 + 8. Full attack makes two slams at the same bonus and damage.\nInfuse Essence (Su). A critical hit that kills the target turns it into a mist horror. Finding and capturing that creature is required before restoring the victim to life. A target that survives becomes ethereal and unable to act for 10 rounds. Damage directed at the golem goes to that victim instead. Direct physical attacks against the victim require a magic weapon. If the victim dies during the effect, it becomes a mist horror.\nMist Door (Su). The golem spends the round doing nothing else, and attacks against it gain +2. It retreats into the Mists the following round, leaving thick fog that clears after an hour.\nMournful Howl (Su). Anyone within 50 ft. must make a DC 15 Will save or flee in terror. The howl is audible up to a mile away.\nRam (Ex). Its blows against structures work like a battering ram.\nSpellshroud (Sp). The mist extends 15 ft. beyond the golem and produces one of ten spells per use, each usable once per day. When surprised, it releases a random unused effect. Use each spell's usual save type with a −4 penalty to its DC. Roll 1d10 if needed: 1 cloudkill, 2 confusion, 3 blindness, 4 hold person, 5 Tasha's hideous laughter, 6 Otto's irresistible dance, 7 stinking cloud, 8 silence, 9 vampiric touch, 10 slow.",
+        "Traits": "Damage reduction 10/magic. Mists subtype. The Demiplane of Dread is its home plane. In foggy conditions its targets take −2 initiative.\nMagic Immunity (Ex). Immune to spells, spell-like abilities and supernatural effects. Damage-dealing spells heal 1 HP per 2 damage they would normally deal if the golem is injured. Dispel magic has no effect.\nConstruct traits. Immune to mind-affecting effects, poison, disease and similar effects. Critical hits, nonlethal damage, ability damage, energy drain and death from massive damage do not affect it, subject to the exceptions below.",
+        "Dread golem commands": "The creator can give commands from within 60 ft. if the golem can see and hear them. It follows the last command and responds to attacks against it. Some dread golems act independently.",
+        "Specific Focus (Ex)": "At creation, its focus was exposed to moonlight within 50 ft. of both golem and creator. The object weighs at most 5 lb. and is worth at least 10,000 gp. A holder can command five tasks. The golem cannot harm the holder while they carry the item. It follows instructions literally and increasingly twists their intent. After the fifth task, the focus vanishes and appears elsewhere in Ravenloft. The golem then hunts its former holder.",
+        "Skills and feats": "Climb +11, Hide +6, Jump +12, Listen +4, Move Silently +6, Spot +4, Survival +4. Alertness, Blind-Fight, Improved Initiative, Iron Will, Power Attack.",
+        "Encounter details": "Any terrain in the Mists. Solitary, always chaotic evil, no treasure. Advances to 19–23 HD (Huge) or 24–30 HD (Gargantuan).",
+        "Printed source": "pp. 7, 93, 99–100"
+      },
+      "ruleNotes": [
+        "The prose gives no duration for the howl’s flight and no caster level or base save DC for Spellshroud. The header labels +13/+21 as Base Attack. Use the second value as grapple, following the adjacent stat blocks."
+      ]
+    }
+  },
+  {
+    "name": "Snow Golem",
+    "decision": "separate",
+    "pages": "pp. 93, 100–101",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Snow Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Construct",
+      "ac": 19,
+      "hp": 66,
+      "hitDice": "12d10",
+      "speed": "20 ft.",
+      "cr": "10",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "otherStatistics": "Initiative +3. AC −1 size, +3 Dex, +7 natural. Touch AC 12, flat-footed AC 16. Base attack +9, grapple +13. Space 10 ft., reach 10 ft. Fort +8, Ref +4, Will +8.",
+      "description": "What looks like a white marble sentinel is packed snow shaped into plate armor.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +13 melee for 2d12 + 4. Full attack makes two slams using the same bonus and damage. It sometimes grapples.\nConduction (Ex). If an electrical attack hits it, the golem takes no damage and passes the damage to a creature touching it. Without contact it stores that electrical damage and releases it into the next creature to touch it.\nCone of cold (Sp). Use once every 5 rounds at caster level 10th.",
+        "Traits": "Damage reduction 10/magic. Immune to cold and water-based attacks. The stat block lists regeneration and vulnerability to fire and steam.\nMagic Immunity (Ex). Immune to spells, spell-like abilities and supernatural effects, except that fire-based spells damage it and create a steam cloud reaching 20 ft. beyond it. Creatures in the steam make a DC 15 save or take half the damage the golem took.\nConstruct traits. Immune to mind-affecting effects, poison, disease and similar effects. Critical hits, nonlethal damage, ability damage, energy drain and death from massive damage do not affect it, subject to the exceptions below.",
+        "Dread golem commands": "The creator can give commands from within 60 ft. if the golem can see and hear them. It follows the last command and responds to attacks against it. Some dread golems act independently.",
+        "Skills and feats": "Climb +9, Hide +9, Jump +8, Listen +5, Move Silently +9, Spot +4, Survival +5. Alertness, Blind-Fight, Power Attack.",
+        "Encounter details": "Arctic lands and mountains of Todstein. Solitary, always chaotic evil, no treasure. Advances to 13–20 HD (Huge) or 20–26 HD (Gargantuan).",
+        "Printed source": "pp. 93, 100–101"
+      },
+      "ruleNotes": [
+        "The printed damage-reduction line repeats a digit across a line break. Read it as 10/magic. The steam save does not specify a type. Reflex is a table default. Regeneration is listed without a rate, and the cone of cold gives a caster level without a save DC."
+      ]
+    }
+  },
+  {
+    "name": "Wax Golem",
+    "decision": "separate",
+    "pages": "pp. 93, 102–103",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Wax Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Construct",
+      "ac": 18,
+      "hp": 44,
+      "hitDice": "8d10",
+      "speed": "20 ft.",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Initiative +6. AC +2 Dex, +6 natural. Touch AC 12, flat-footed AC 16. Base attack +6, grapple +10. Space 5 ft., reach 5 ft. Fort +6, Ref +4, Will +4.",
+      "description": "A wax duplicate knows its living counterpart’s languages and hunts them for the memories it needs to take their place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +10 melee for 2d6 + 4 plus the listed energy drain. Full attack makes two such slams or uses a weapon at +10 melee for weapon damage +4.\nMemory Drain (Su). A hit on its living counterpart calls for a DC 15 Will save. On failure, the victim takes one negative level in place of physical damage, and the golem gains the memories and abilities of the victim’s newest remaining level. If the victim escapes while partly drained, they make a DC 16 Madness save each week until the golem is destroyed. A completely drained victim is comatose and alive. If the drained counterpart later dies, the golem melts.",
+        "Traits": "Damage reduction 10/magic. Immune to cold and electrical attacks. The stat block lists regeneration and vulnerability to fire.\nMagic Immunity (Ex). The golem has the usual dread golem immunities. Magical fire melts its features, revealing the disguise.\nConstruct traits. Immune to mind-affecting effects, poison, disease and similar effects. Critical hits, nonlethal damage, ability damage, energy drain and death from massive damage do not affect it, subject to the exceptions below.",
+        "Dread golem commands": "The creator can give commands from within 60 ft. if the golem can see and hear them. It follows the last command and responds to attacks against it. Some dread golems act independently.",
+        "Skills and feats": "Climb +7, Hide +6, Jump +7, Listen +4, Move Silently +5, Spot +3, Survival +3, Swim +7. Improved Initiative, Power Attack.",
+        "Encounter details": "Any terrain. Solitary, always chaotic evil, no treasure. Advances to 9–12 HD (Large) or 13–16 HD (Huge).",
+        "Printed source": "pp. 93, 102–103"
+      },
+      "ruleNotes": [
+        "The save line prints “Wis +4” after Fortitude and Reflex. Read it as Will +4. The source gives no spell list or regeneration rate. Its only described energy-drain procedure is Memory Drain against the living counterpart."
+      ]
+    }
+  }
+]

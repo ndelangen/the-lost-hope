@@ -1,0 +1,259 @@
+[
+  {
+    "name": "Alecto",
+    "decision": "separate",
+    "pages": "pp. 79–80",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Alecto",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Outsider (Evil, Mists)",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "cr": "11",
+      "speed": "20 ft. (4 squares), fly 80 ft. (average)",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The Fury called the Implacable uses divine magic to drive penitents back to their old ways.",
+      "otherStatistics": "Any land or underground. Triune with her sisters. Always lawful evil. No treasure or level adjustment. Advances as a cleric.",
+      "sections": {
+        "Combat statistics": "Initiative +3. AC +3 Dex, +2 natural. Touch 13, flat-footed 12. Base attack +10, grapple +11. Space and reach 5 ft. each. Fort +8, Ref +9, Will +10.",
+        "Skills and feats": "Bluff +12, Diplomacy +12, Gather Information +12, Intimidate +15, Knowledge (Ravenloft) +12, Listen +14, Search +15, Sense Motive +15, Spot +12. Alertness, Exotic Weapon Proficiency, Flyby Attack, Multiattack.",
+        "Actions": "Attack. Claw +11 melee for 1d4 + 1, or +3 scourge of foolishness +16 ranged for 1d4 + 4 and Wisdom damage.\nFull attack. Two claws +11 melee for 1d4 + 1 each, or the same scourge strike.\nScourge of foolishness. A strike deals 1d3 Wisdom damage unless the target succeeds on a DC 13 Will save.\nSee Fury shared rules for Rake and Breath Weapon.",
+        "Spellcasting": "Casts as a 10th-level cleric. Save DC 13 + spell level. Domains: Death, Destruction, Evil, Fire, Knowledge, Trickery and War. Preferred spells: burning hands, cause light wounds, charm person, clairaudience, death knell, dispel good, dispel magic, divination, divine power and protection from good. The book leaves her preparations open.",
+        "Fury shared rules": "The three sisters appear together. They try three times to draw someone away from atonement before trying to kill them in public. They speak all humanoid languages.\nDefenses. Damage reduction 15/good. Immune to paralysis, polymorph and mind-affecting effects.\nAlter Self (Sp, at will). As a standard action, assume the form of an elderly human woman at caster level 10 and retain that form indefinitely.\nBreath Weapon (Su, 3/day). One adjacent square fills with foul air as stinking cloud at caster level 8. Fortitude DC 16 negates the nausea.\nFind Penitent (Su). They can find a targeted penitent at the invitation or embrace stage of corruption, even through magical concealment.\nRake (Ex). Melee +9 for 1d4 + 1 damage.\nGaseous Death (Su). At 0 HP, the Fury and her scourge vanish into black vapor. If a sister survives, the dead Fury reforms at full health after 24 hours. The last sister alive tries to flee. To destroy the trio permanently, kill all three within one 24-hour period. An Innocent under Ravenloft’s Powers Check rules must land the killing blows. On permanent death the Furies dissolve, leaving their scourges.\nWeaknesses. A paladin or good-aligned cleric can turn each Fury separately as undead by invoking her true name. Turning cannot destroy, rebuke or command her. A Fury cannot deliberately harm a good creature, though she can use her breath weapon against one.",
+        "Printed source": "pp. 79–80"
+      },
+      "ruleNotes": [
+        "The stat block calls the scourge’s effect Wisdom drain and gives a ranged attack, while the combat text calls the effect Wisdom damage and the shared rules treat scourges as whips. Use the printed attack bonus and the specific Wisdom-damage procedure. The attack line calls it scourge of fools. The listed Dexterity score also differs from the Dexterity bonus printed in AC."
+      ]
+    }
+  },
+  {
+    "name": "Megaera",
+    "decision": "separate",
+    "pages": "pp. 79–81",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Megaera",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Outsider (Evil, Mists)",
+      "ac": 15,
+      "hp": 55,
+      "hitDice": "10d8 + 10",
+      "cr": "11",
+      "speed": "20 ft. (4 squares), fly 80 ft. (average)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The Fury called the Disputatious brings arcane magic to the trio’s hunt.",
+      "otherStatistics": "Any land or underground. Triune with her sisters. Always lawful evil. No treasure or level adjustment. Advances as a sorcerer.",
+      "sections": {
+        "Combat statistics": "Initiative +3. AC +3 Dex, +2 natural. Touch 13, flat-footed 12. Printed base attack +3 and grapple +3. Space and reach 5 ft. each. Fort +8, Ref +9, Will +9.",
+        "Skills and feats": "Bluff +18, Concentration +15, Diplomacy +19, Gather Information +17, Intimidate +15, Knowledge (arcana) +16, Listen +15, Move Silently +12, Spellcraft +15, Spot +15. Alertness, Exotic Weapon Proficiency, Flyby Attack, Multiattack.",
+        "Actions": "Attack. Claw +10 melee for 1d4, or +3 scourge of idiocy +11 melee for 1d4 + 3 and Intelligence damage.\nFull attack. Two claws +10 melee for 1d4 each, or the same scourge strike.\nScourge of idiocy. A strike deals 1d3 Intelligence damage unless the target succeeds on a DC 15 Will save.\nSee Fury shared rules for Rake and Breath Weapon.",
+        "Spellcasting": "Casts as a 10th-level sorcerer. Save DC 12 + spell level. Printed spells per day by level 0–5: 6/7/7/6/5/3.\n0: daze, dancing lights, detect magic, detect poison, disrupt undead, flare, light, ray of frost, resistance.\n1st: cause fear, chill touch, color spray, hold portal, magic missile.\n2nd: darkness, flaming sphere, protection from arrows, web.\n3rd: dispel magic, lightning bolt, stinking cloud.\n4th: lesser globe of invulnerability. The book also lists polymorph any object here.\n5th: cone of cold.",
+        "Fury shared rules": "The three sisters appear together. They try three times to draw someone away from atonement before trying to kill them in public. They speak all humanoid languages.\nDefenses. Damage reduction 15/good. Immune to paralysis, polymorph and mind-affecting effects.\nAlter Self (Sp, at will). As a standard action, assume the form of an elderly human woman at caster level 10 and retain that form indefinitely.\nBreath Weapon (Su, 3/day). One adjacent square fills with foul air as stinking cloud at caster level 8. Fortitude DC 16 negates the nausea.\nFind Penitent (Su). They can find a targeted penitent at the invitation or embrace stage of corruption, even through magical concealment.\nRake (Ex). Melee +9 for 1d4 + 1 damage.\nGaseous Death (Su). At 0 HP, the Fury and her scourge vanish into black vapor. If a sister survives, the dead Fury reforms at full health after 24 hours. The last sister alive tries to flee. To destroy the trio permanently, kill all three within one 24-hour period. An Innocent under Ravenloft’s Powers Check rules must land the killing blows. On permanent death the Furies dissolve, leaving their scourges.\nWeaknesses. A paladin or good-aligned cleric can turn each Fury separately as undead by invoking her true name. Turning cannot destroy, rebuke or command her. A Fury cannot deliberately harm a good creature, though she can use her breath weapon against one.",
+        "Printed source": "pp. 79–81"
+      },
+      "ruleNotes": [
+        "The book spells her name Megarea. The single Attack line appears to print 1d4 + 5 scourge damage, while the Full Attack line gives 1d4 + 3. Use 1d4 + 3 in both. Her weapon line calls its effect Intelligence drain, while the combat prose gives Intelligence damage. Use the latter. The listed +3 base attack and +3 grapple are preserved despite her 10 outsider HD.",
+        "The book lists polymorph any object as a 4th-level spell, but in 3.5 it is an 8th-level sorcerer spell. Omit it unless the table deliberately adopts the printed exception. The school restriction in the prose also conflicts with the printed spells known."
+      ]
+    }
+  },
+  {
+    "name": "Tisiphone",
+    "decision": "separate",
+    "pages": "pp. 79–81",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Tisiphone",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Outsider (Evil, Mists)",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d10 + 10",
+      "cr": "11",
+      "speed": "20 ft. (4 squares), fly 80 ft. (average)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The Fury called the Avenger closes in with claws and a scourge that saps strength.",
+      "otherStatistics": "Any land or underground. Triune with her sisters. Always lawful evil. No treasure or level adjustment. Advances as a fighter. The text describes her as having the combat prowess of a 10th-level fighter.",
+      "sections": {
+        "Combat statistics": "Initiative +7. AC +3 Dex, +2 natural. Touch 13, flat-footed 12. Base attack +10, printed grapple +1. Space and reach 5 ft. each. Fort +8, Ref +5, Will +4.",
+        "Skills and feats": "Bluff +13, Diplomacy +12, Gather Information +13, Intimidate +14, Listen +13, Sense Motive +13, Spot +13. Combat Reflexes, Dodge, Exotic Weapon Proficiency, Flyby Attack.",
+        "Actions": "Attack. Claw +13 melee for 1d4 + 3, bite +11 melee for 1d4 + 3, or +3 scourge of weakness +16 ranged for 1d4 + 8 and Strength damage.\nFull attack as printed. Two claws +13 melee for 1d4 + 3 each, one bite +11 melee for 1d4 + 3, or one scourge strike. The prose allows a mixed round. For a mixed full attack, substitute one scourge strike for one claw.\nScourge of weakness. A strike deals 1d3 Strength damage unless the target succeeds on a DC 15 Fortitude save.\nSee Fury shared rules for Rake and Breath Weapon.",
+        "Fury shared rules": "The three sisters appear together. They try three times to draw someone away from atonement before trying to kill them in public. They speak all humanoid languages.\nDefenses. Damage reduction 15/good. Immune to paralysis, polymorph and mind-affecting effects.\nAlter Self (Sp, at will). As a standard action, assume the form of an elderly human woman at caster level 10 and retain that form indefinitely.\nBreath Weapon (Su, 3/day). One adjacent square fills with foul air as stinking cloud at caster level 8. Fortitude DC 16 negates the nausea.\nFind Penitent (Su). They can find a targeted penitent at the invitation or embrace stage of corruption, even through magical concealment.\nRake (Ex). Melee +9 for 1d4 + 1 damage.\nGaseous Death (Su). At 0 HP, the Fury and her scourge vanish into black vapor. If a sister survives, the dead Fury reforms at full health after 24 hours. The last sister alive tries to flee. To destroy the trio permanently, kill all three within one 24-hour period. An Innocent under Ravenloft’s Powers Check rules must land the killing blows. On permanent death the Furies dissolve, leaving their scourges.\nWeaknesses. A paladin or good-aligned cleric can turn each Fury separately as undead by invoking her true name. Turning cannot destroy, rebuke or command her. A Fury cannot deliberately harm a good creature, though she can use her breath weapon against one.",
+        "Printed source": "pp. 79–81"
+      },
+      "ruleNotes": [
+        "The full-attack line presents the attack modes as alternatives, but the prose allows her to use her scourge and claws in the same round without specifying a routine. The mixed full attack is a table ruling. The stat line calls the scourge rider Strength drain. The combat prose supplies Strength damage and the save. The printed grapple +1 and Hit Dice formula are retained."
+      ]
+    }
+  },
+  {
+    "name": "Sea Spawn Minion",
+    "decision": "separate",
+    "pages": "pp. 182–183",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Sea Spawn Minion",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Diminutive Aberration (Aquatic)",
+      "ac": 19,
+      "hp": 2,
+      "hitDice": "½d8",
+      "cr": "1",
+      "speed": "10 ft. (2 squares), climb 5 ft., swim 10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A six-inch slug slips ashore and takes over a host so its master can feed on the coastal village.",
+      "otherStatistics": "Any aquatic environment. Brood of 3–18. Always lawful evil. No treasure, advancement or level adjustment.",
+      "sections": {
+        "Combat statistics": "Initiative +9. AC +4 size, +5 Dex. Touch 19, flat-footed 14. Base attack +0, grapple −17. Space 1 ft., reach 0 ft. Fort +1, Ref +5, Will +2.",
+        "Skills and feats": "Hide +23, Move Silently +11. Improved Initiative.",
+        "Traits": "Amphibious (Ex). Outside both water and a suitable host it survives 1 hour per point of Constitution (12 hours for this stat block), then uses the drowning rules.\nTelepathy (Su). The master that spawned it has a telepathic link to the minion. If the minion or its host is threatened, the master can call other minions or hosts in the area to help.",
+        "Actions": "Attack or full attack. Bite +0 melee for 1 damage (printed 1d3 − 5, minimum 1) and poison. A DC 11 Fortitude save prevents paralysis for 2d6 minutes. No secondary damage.\nControl Host (Ex). As a full-round action, enter a paralyzed victim’s skull. The host makes a DC 16 Will save each round until it fails or the minion is removed. On failure, the minion takes control. The host retains memories, statistics and abilities except divinely granted powers. While implanted, apply a −4 competence penalty to Charisma-based skill checks and 1 Intelligence drain per day. At Intelligence 0, the host dies.\nRemoval. Cure disease or restoration expels the minion, dealing 3d6 damage to the host as it emerges. Greater restoration destroys it without harming the host.",
+        "Running the encounter": "A master releases 3d6 minions nightly near shore during an invasion. About one in ten reaches land. Minions climb walls and ceilings and drop onto victims. A typical host is a 1st-level human commoner whose personality becomes detached and distant.",
+        "Printed source": "pp. 182–183"
+      }
+    }
+  },
+  {
+    "name": "Marikith Hunter",
+    "decision": "separate",
+    "pages": "pp. 149–150",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Marikith Hunter",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Aberration",
+      "ac": 17,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "cr": "2",
+      "speed": "40 ft. (8 squares), climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A rubbery black hunter slips through drains and barred openings. Packs lure prey with copies of their voices.",
+      "otherStatistics": "Any underground environment in Timor. Pairs, packs of 2–8 or swarms of 2–20. Always lawful evil. No treasure or level adjustment. Advancement 4–5 HD (Medium).",
+      "sections": {
+        "Combat statistics": "Initiative +8. AC +4 Dex, +3 natural. Touch 14, flat-footed 13. Base attack +2, printed grapple +3. Space and reach 5 ft. each. Fort +2, Ref +5, Will +5.",
+        "Skills and feats": "Escape Artist +16, Hide +12, Listen +6, Move Silently +12, Spot +4. Improved Initiative. Racial bonuses: +8 Escape Artist, +4 Hide and Move Silently.",
+        "Traits": "Darkvision 120 ft. Takes half damage from bludgeoning weapons and is immune to fear, horror and madness. Hunters are under the influence of their queen.\nLight Sensitivity (Ex). Attack rolls take −1 in candlelight or starlight, −2 in torchlight, and −4 in bright sunlight or within a daylight spell.",
+        "Actions": "Attack. Claw +5 melee for 1d4 + 3.\nFull attack. Two claws +5 melee for 1d4 + 3 each and bite +0 melee for 2d4 + 3.\nCompression (Ex). While moving, pass through a gap at least 1 ft. across as a free action. A gap 7–11 inches across takes a move action. A gap 3–6 inches across takes a full-round action. Smaller gaps are impassable.\nVoice Mimicry (Ex). The hunter has no true language but can imitate voices and sounds. Resolve deception with its Bluff check at a +8 racial bonus opposed by the listener’s Listen check.",
+        "Running the encounter": "Hunters torment prey before striking. Outside the hive they hunt in small packs. In the hive the first wave has two or three hunters, and each later wave grows until the intruders are outnumbered at least ten to one.",
+        "Printed source": "pp. 149–150"
+      },
+      "ruleNotes": [
+        "The single-attack line omits claw damage, so use the matching claw damage in Full Attack. The printed grapple modifier is +3 even though the printed base attack and Strength yield +5 under the usual calculation."
+      ]
+    }
+  }
+]

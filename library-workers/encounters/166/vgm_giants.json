@@ -1,0 +1,388 @@
+[
+  {
+    "name": "Fire Giant Dreadnought",
+    "statBlock": {
+      "name": "Fire Giant Dreadnought",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 147,
+      "classification": "Huge giant (fire giant), lawful evil",
+      "ac": 21,
+      "hp": 187,
+      "hitDice": "15d12 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 15,
+      "description": "A dreadnought moves coal and ore in the foundry. When called to fight, it fills its two spiked shields with hot coals and charges behind them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 11,
+        "Cha": 5
+      },
+      "skills": {
+        "Athletics": 13,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Plate armor and two shields.",
+        "Languages": "Giant.",
+        "Damage immunities": "Fire.",
+        "Traits": "Dual Shields. Both shields count toward the giant's AC. It must stow or drop one of them before it can throw a rock.",
+        "Actions": "Multiattack. Make two Fireshield attacks.\nFireshield. Melee weapon attack, +13 to hit, reach 5 ft., one target. A hit deals 22 (4d6 + 8) bludgeoning damage plus 7 (2d6) fire damage and 7 (2d6) piercing damage.\nRock. Ranged weapon attack, +13 to hit, range 60/240 ft., one target. A hit deals 30 (4d10 + 8) bludgeoning damage.\nShield Charge. Move up to 30 ft. in a straight line, passing through spaces occupied by creatures smaller than Huge. Make a Fireshield attack against each creature the first time the giant enters its space during this move. On a hit, the target makes a DC 21 Strength save. On a failure, the giant pushes it ahead for the rest of the move. If the target fails by 5 or more, it also falls prone and takes 18 (3d6 + 8) bludgeoning damage, or 29 (6d6 + 8) if it was already prone.",
+        "Printed source": "Volo's Guide to Monsters, p. 147."
+      }
+    }
+  },
+  {
+    "name": "Firenewt Warlock of Imix",
+    "statBlock": {
+      "name": "Firenewt Warlock of Imix",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 143,
+      "classification": "Medium humanoid (firenewt), neutral evil",
+      "ac": 10,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "Firenewts build settlements around boiling springs and channels that circulate hot water. Warlocks of Imix direct their warriors on raids and claim a share of the spoils for their patron.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft., including through magical darkness.",
+        "Languages": "Draconic, Ignan.",
+        "Damage immunities": "Fire.",
+        "Traits": "Amphibious. The firenewt can breathe air and water.\nImix's Blessing. When the firenewt reduces an enemy to 0 hit points, it gains 5 temporary hit points.",
+        "Actions": "Morningstar. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) piercing damage.",
+        "Innate Spellcasting": "Using Charisma, the firenewt can cast Mage Armor on itself at will without material components. Its AC is 13 while the spell is active.",
+        "Spellcasting": "The firenewt is a 3rd-level warlock who casts using Charisma (spell save DC 12, +4 to hit with spell attacks). It regains spent slots after finishing a short or long rest.\nCantrips (at will). Fire Bolt, Guidance, Light, Mage Hand, Prestidigitation.\n1st- and 2nd-level spells (two 2nd-level slots). Burning Hands, Flaming Sphere, Hellish Rebuke, Scorching Ray.",
+        "Printed source": "Volo's Guide to Monsters, p. 143."
+      }
+    }
+  },
+  {
+    "name": "Firenewt Warrior",
+    "statBlock": {
+      "name": "Firenewt Warrior",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 142,
+      "classification": "Medium humanoid (firenewt), neutral evil",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "Firenewt warriors raid from settlements heated by springs and volcanic vents. Elite warriors ride Giant Striders, which the firenewts shelter and feed in their lairs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Chain shirt and shield.",
+        "Languages": "Draconic, Ignan.",
+        "Damage immunities": "Fire.",
+        "Traits": "Amphibious. The firenewt can breathe air and water.",
+        "Actions": "Multiattack. Make two Scimitar attacks.\nScimitar. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) slashing damage.\nSpit Fire (recharges after a short or long rest). One creature within 10 ft. makes a DC 11 Dexterity save, taking 9 (2d8) fire damage on a failure or half on a success.",
+        "Printed source": "Volo's Guide to Monsters, p. 142."
+      }
+    }
+  },
+  {
+    "name": "Flail Snail",
+    "statBlock": {
+      "name": "Flail Snail",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 144,
+      "classification": "Large elemental, unaligned",
+      "ac": 16,
+      "hp": 52,
+      "hitDice": "5d10 + 25",
+      "speed": "10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 5
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "description": "The snail grazes on stone and mineral deposits. It leaves a glassy trail that can be harvested and worked into panes or other glassware.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., tremorsense 60 ft.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Antimagic Shell. The snail has advantage on saves against spells. Spell attacks against it have disadvantage. When it succeeds on a spell save or a spell attack misses it, roll a d6 for the shell effect below.\nFlail Tentacles. The snail starts with five flail tentacles. Whenever it takes at least 10 damage during a single turn, one tentacle dies. If at least one survives, the dead tentacles regrow in 1d4 days. If all five die, the snail withdraws for total cover and wails audibly out to 600 ft. until it dies 5d6 minutes later. Limb-restoring magic such as Regenerate can stop the dying process.",
+        "Antimagic Shell mechanics": "1–2. An area or multitarget spell fails entirely. A spell targeting only the snail leaves it unaffected and rebounds on the caster, using that caster's slot level, spell save DC, spell attack bonus, and casting ability.\n3–4. No further effect.\n5–6. Each creature within 30 ft. of the snail makes a DC 15 Constitution save. On a failure it takes 1d6 force damage per level of the spell. On a success it takes half as much.",
+        "Actions": "Multiattack. Make one Flail Tentacle attack per surviving tentacle, all against the same target.\nFlail Tentacle. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.\nScintillating Shell (recharges after a short or long rest). Until the end of the snail's next turn, the shell sheds bright light out to 30 ft. and dim light another 30 ft. Creatures that see the snail have disadvantage on attacks against it while the light lasts. A creature in the bright light that can see it when the effect begins must pass a DC 15 Wisdom save or be stunned until the light ends.\nShell Defense. Withdraw into the shell to gain +4 AC until it emerges.",
+        "Bonus actions": "Emerge. The snail can emerge from Shell Defense on its turn.",
+        "Shell harvesting": "An intact shell weighs about 250 lb. and can sell for 5,000 gp. A skilled armorer can make three shields from it. Each shield grants the wielder Antimagic Shell for one month. Once that magic fades, the shield can be used to craft a Spellguard Shield. Ground shell can instead be mixed into dye for a Robe of Scintillating Colors and used in its enchanting ritual.",
+        "Printed source": "Volo's Guide to Monsters, p. 144."
+      }
+    }
+  },
+  {
+    "name": "Flind",
+    "statBlock": {
+      "name": "Flind",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 153,
+      "classification": "Medium humanoid (gnoll), chaotic evil",
+      "ac": 16,
+      "hp": 127,
+      "hitDice": "15d8 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 15,
+      "description": "A war band follows a single flind. Its flail is a gift from Yeenoghu, and it leads raids in person.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 5
+      },
+      "skills": {
+        "Intimidation": 5,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Chain mail.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Gnoll.",
+        "Traits": "Aura of Blood Thirst. While the flind is not incapacitated, any creature with Rampage can use a bonus action to make a bite attack while within 10 ft. of it.",
+        "Actions": "Multiattack. Make one attack with each of the three listed flail attacks, or make three Longbow attacks.\nFlail of Madness. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 10 (1d10 + 5) bludgeoning damage. On a failed DC 16 Wisdom save, the target must make a melee attack against a randomly chosen target within reach on its next turn. If it cannot reach any target even after moving, it loses its action that turn.\nFlail of Pain. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 10 (1d10 + 5) bludgeoning damage plus 22 (4d10) psychic damage.\nFlail of Paralysis. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 10 (1d10 + 5) bludgeoning damage. On a failed DC 16 Constitution save, the target is paralyzed until the end of its next turn.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. A hit deals 4 (1d8) piercing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 153."
+      }
+    }
+  },
+  {
+    "name": "Froghemoth",
+    "statBlock": {
+      "name": "Froghemoth",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 145,
+      "classification": "Huge monstrosity, unaligned",
+      "ac": 14,
+      "hp": 184,
+      "hitDice": "16d12 + 80",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 19,
+      "description": "A froghemoth hides in pools with only its three-eyed stalk above the water. Bullywugs sometimes feed and guard one as a god.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 9,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 9,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Fire, lightning.",
+        "Traits": "Amphibious. The froghemoth can breathe air and water.\nShock Susceptibility. After taking lightning damage, halve its speed and apply a −2 penalty to its AC and Dexterity saves until the end of its next turn. For the same duration, it loses reactions and Multiattack and can use only one action or one bonus action on its turn.",
+        "Actions": "Multiattack. Make two Tentacle attacks. The froghemoth can also use Tongue or Bite.\nTentacle. Melee weapon attack, +10 to hit, reach 20 ft., one target. A hit deals 19 (3d8 + 6) bludgeoning damage. A Huge or smaller creature is grappled (escape DC 16). The froghemoth has four tentacles, and a tentacle holding a creature is unavailable against other targets.\nBite. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 22 (3d10 + 6) piercing damage and swallows a Medium or smaller creature, subject to the two-creature limit below.\nTongue. Choose one visible Medium or smaller creature within 20 ft. On a failed DC 18 Strength save, pull it into an unoccupied space within 5 ft. of the froghemoth. The froghemoth can then Bite that creature as a bonus action.",
+        "Swallowing mechanics": "The froghemoth holds up to two creatures. Each swallowed creature is blinded and restrained, has total cover against attacks and effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns. If a creature inside deals at least 20 damage to the froghemoth in one turn, the froghemoth must pass a DC 20 Constitution save at that turn's end or regurgitate all swallowed creatures. They fall prone within 10 ft. If the froghemoth dies, the swallowed creatures are no longer restrained and can spend 10 ft. of movement to exit prone.",
+        "Printed source": "Volo's Guide to Monsters, p. 145."
+      }
+    }
+  },
+  {
+    "name": "Frost Giant Everlasting One",
+    "statBlock": {
+      "name": "Frost Giant Everlasting One",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 148,
+      "classification": "Huge giant (frost giant), chaotic evil",
+      "ac": 15,
+      "hp": 189,
+      "hitDice": "14d12 + 98",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 14,
+      "description": "An everlasting one gains a troll's regeneration by accepting Vaprak's blessing. Repeated injuries can leave it with vestigial limbs or an extra head.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 11,
+        "Con": 11,
+        "Wis": 4
+      },
+      "skills": {
+        "Athletics": 11,
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Patchwork armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Damage immunities": "Cold.",
+        "Traits": "Extra Heads. There is a 25 percent chance that the giant has more than one head. If it does, it has advantage on Wisdom (Perception) checks and on saves against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.\nRegeneration. The giant regains 10 hit points at the start of its turn. Acid or fire damage prevents regeneration at the start of its next turn. The giant dies only if it starts its turn with 0 hit points and fails to regenerate.",
+        "Actions": "Multiattack. Make two Greataxe attacks.\nGreataxe. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 26 (3d12 + 7) slashing damage, or 30 (3d12 + 11) while raging.\nRock. Ranged weapon attack, +11 to hit, range 60/240 ft., one target. A hit deals 29 (4d10 + 7) bludgeoning damage.",
+        "Bonus actions": "Vaprak's Rage (recharges after a short or long rest). Enter a rage at the start of the giant's turn. It lasts 1 minute or until the giant is incapacitated. During the rage, the giant has advantage on Strength checks and saves, adds +4 to melee weapon damage rolls, and has resistance to bludgeoning, piercing, and slashing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 148."
+      }
+    }
+  }
+]

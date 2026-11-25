@@ -1,0 +1,401 @@
+[
+  {
+    "name": "Githyanki Xenomancer",
+    "statBlock": {
+      "name": "Githyanki Xenomancer",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 27,
+      "classification": "Medium humanoid (druid, gith), any alignment",
+      "ac": 14,
+      "hp": 157,
+      "hitDice": "21d8 + 63",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 18,
+      "description": "A githyanki researcher who travels Wildspace to find unfamiliar creatures. Captured specimens may end up in its laboratory on the Astral Plane.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 7,
+        "Wis": 8
+      },
+      "skills": {
+        "Animal Handling": 8,
+        "Nature": 6,
+        "Perception": 8,
+        "Survival": 8
+      },
+      "sections": {
+        "Languages": "Gith plus any four languages.",
+        "Actions": "Multiattack. Make three attacks in any combination of Staff and Telekinetic Bolt.\nStaff. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) bludgeoning damage one-handed, or 6 (1d8 + 2) two-handed. Either way, add 14 (4d6) psychic damage.\nTelekinetic Bolt. Ranged spell attack, +8 to hit, range 60 ft., one target. On a hit, deal 20 (3d10 + 4) force damage.",
+        "Spellcasting (Psionics)": "As an action, cast one spell from the list. Wisdom sets the spell save DC at 16, and the spells require no components.\nAt will. Druidcraft, Light, Mage Hand (the hand is invisible).\n2/day each. Invisibility (self only), Pass without Trace (self only).\n1/day each. Dominate Monster, Forcecage, Plane Shift, Telekinesis.",
+        "Bonus actions": "Astral Step (Recharge 4–6). Teleport up to 30 ft. to a visible unoccupied space. Worn and carried equipment travels with the githyanki.",
+        "Printed source": "Boo’s Astral Menagerie, p. 27."
+      }
+    }
+  },
+  {
+    "name": "Gray Scavver",
+    "statBlock": {
+      "name": "Gray Scavver",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 49,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 12,
+      "hp": 19,
+      "hitDice": "3d8 + 6",
+      "speed": "0 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "A six-foot scavver that hunts in packs. The smell of blood draws it in, though a wounded scavver usually breaks off the attack.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Traits": "Unusual Nature. The gray scavver survives without air.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Roll with advantage if the target is a creature below its hit point maximum. On a hit, deal 7 (1d8 + 3) piercing damage.",
+        "Printed source": "Boo’s Astral Menagerie, p. 49."
+      }
+    }
+  },
+  {
+    "name": "Hadozee Explorer",
+    "statBlock": {
+      "name": "Hadozee Explorer",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 28,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 15,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "description": "A Wildspace explorer who often navigates for a spelljamming crew. An explorer can cross gaps by gliding and carries a musket for longer shots.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 3,
+        "Wis": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 5,
+        "Stealth": 5,
+        "Survival": 5
+      },
+      "sections": {
+        "Armor": "Studded leather armor.",
+        "Languages": "Common, Hadozee.",
+        "Traits": "Glide. For each foot it descends through the air, the hadozee can extend its membranes and glide up to 5 ft. horizontally. Heavy armor or the incapacitated condition prevents it from gliding.",
+        "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nMusket. Ranged weapon attack, +5 to hit, range 40/120 ft., one target. On a hit, deal 16 (2d12 + 3) piercing damage.",
+        "Bonus actions": "Nimble Escape. Take the Disengage or Hide action.",
+        "Reactions": "Safe Descent. When a fall would deal damage to the hadozee, it can spread its membranes to reduce that damage to 0 if it is wearing light, medium, or no armor.",
+        "Printed source": "Boo’s Astral Menagerie, p. 28."
+      }
+    }
+  },
+  {
+    "name": "Hadozee Shipmate",
+    "statBlock": {
+      "name": "Hadozee Shipmate",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 29,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 14,
+      "description": "A hadozee deckhand who can climb the rigging and glide back down.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Survival": 6
+      },
+      "sections": {
+        "Languages": "Common, Hadozee.",
+        "Traits": "Glide. For each foot it descends through the air, the hadozee can extend its membranes and glide up to 5 ft. horizontally. Heavy armor or the incapacitated condition prevents it from gliding.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. On a hit, deal 4 (1d4 + 2) piercing damage.",
+        "Reactions": "Safe Descent. When a fall would deal damage to the hadozee, it can spread its membranes to reduce that damage to 0 if it is wearing light, medium, or no armor.",
+        "Printed source": "Boo’s Astral Menagerie, p. 29."
+      }
+    }
+  },
+  {
+    "name": "Hadozee Warrior",
+    "statBlock": {
+      "name": "Hadozee Warrior",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 29,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 16,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 13,
+      "description": "A breastplate-clad mercenary armed with a shortsword and light crossbow. Some work in squads aboard pirate ships.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 3
+      },
+      "skills": {
+        "Perception": 3,
+        "Stealth": 5,
+        "Survival": 5
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Languages": "Common, Hadozee.",
+        "Traits": "Glide. For each foot it descends through the air, the hadozee can extend its membranes and glide up to 5 ft. horizontally. Heavy armor or the incapacitated condition prevents it from gliding.",
+        "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nLight Crossbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. On a hit, deal 12 (2d8 + 3) piercing damage.",
+        "Reactions": "Safe Descent. When a fall would deal damage to the hadozee, it can spread its membranes to reduce that damage to 0 if it is wearing light, medium, or no armor.\nUncanny Dodge. When an attacker the hadozee can see hits it, halve the damage it takes from that attack.",
+        "Printed source": "Boo’s Astral Menagerie, p. 29."
+      }
+    }
+  },
+  {
+    "name": "Jammer Leech",
+    "statBlock": {
+      "name": "Jammer Leech",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 30,
+      "classification": "Tiny plant, unaligned",
+      "ac": 12,
+      "hp": 27,
+      "hitDice": "5d4 + 15",
+      "speed": "10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 1
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A barnacle-like plant that clamps onto spelljamming hulls and feeds on their magic. Its reddish-purple body hides inside a shell that matches the hull.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 30 ft.",
+        "Condition immunities": "Charmed, frightened, prone.",
+        "Traits": "Spelljammer Overload. If the leech drops to 0 HP while attached to a ship with a spelljamming helm, the creature attuned to that helm makes a DC 13 Constitution save. On a failure it takes 10 (4d4) psychic damage and is incapacitated for 1 minute. On a success it takes half damage and is incapacitated until the end of its next turn.\nUnusual Nature. The leech needs neither air nor sleep.",
+        "Actions": "Spiked Tentacle. Melee weapon attack, +2 to hit, reach 5 ft., one target. On a hit, deal 2 (1d4) piercing damage.",
+        "Bonus actions": "Attach to Hull. Fasten to a ship's hull in the leech's space, dealing 2 (1d4) piercing damage to the ship regardless of its damage threshold. This damage cannot be repaired until the leech is scraped off. While attached, the leech has speed 0 and can detach as a bonus action. A creature within reach can spend an action and make a DC 18 Strength check to scrape it off. Failure leaves it in place. Scraping it off deals no damage to the leech or the ship.",
+        "Reactions": "Magical Discharge (1/day). When the leech takes damage, it can fire at a creature it can see within 30 ft. The target makes a DC 13 Dexterity save. On a failure it takes 10 (3d6) force damage and is stunned until the end of its next turn.",
+        "Ecology": "Spores settle on hulls, then puncture them after a few days and grow shells about 1 ft. across. A mated pair produces 1d6 spores per month.",
+        "Printed source": "Boo’s Astral Menagerie, p. 30."
+      }
+    }
+  },
+  {
+    "name": "Kindori",
+    "statBlock": {
+      "name": "Kindori",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 31,
+      "classification": "Gargantuan celestial, unaligned",
+      "ac": 11,
+      "hp": 202,
+      "hitDice": "15d20 + 45",
+      "speed": "0 ft., fly 60 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 12,
+      "description": "A whale-shaped celestial that feeds on starlight. Small eyes along its front edge signal to others at a distance and flash to drive off predators.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Traits": "Unusual Nature. The kindori needs no food, drink, or air.",
+        "Actions": "Tail. Melee weapon attack, +10 to hit, reach 5 ft., one target. On a hit, deal 23 (3d10 + 7) bludgeoning damage.",
+        "Bonus actions": "Flashing Eyes (Recharge 6). Project bright light in a 120-ft. cone. Creatures in the cone make a DC 14 Wisdom save or become blinded for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+        "Ecology": "A kindori has its own air envelope and gravity plane. Scavvers can live on it and eat the parasites growing there. A dead kindori's skeleton can carry a spelljamming helm and become a ship. Lunar dragons and solar dragons prey on kindori.",
+        "Printed source": "Boo’s Astral Menagerie, p. 31. Bonus action name follows the official Spelljammer errata."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Adult Lunar Dragon",
+          "terms": [
+            "Lunar dragons"
+          ]
+        },
+        {
+          "kind": "monster",
+          "name": "Adult Solar Dragon",
+          "terms": [
+            "solar dragons"
+          ]
+        }
+      ]
+    }
+  }
+]

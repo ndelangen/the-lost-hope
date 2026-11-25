@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Diopsid",
+    "kind": "species",
+    "publication": "Dragon Compendium, Volume I (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Monstrous Humanoid. +2 Constitution, −2 Dexterity, −2 Intelligence. Base land speed 30 ft. Darkvision 60 ft. Carapace gives +4 natural armor. Humanoid-only effects such as charm person and hold person do not affect Diopsids.",
+      "Bioluminescence can be lit or doused at will as a free action. It sheds light in a 10-ft. radius and shadowy illumination for 20 ft. beyond that.",
+      "Wings can be unfurled as an immediate action to descend at 60 ft. per round without falling damage. They grant no flight. A paralyzed, unconscious, or otherwise incapacitated Diopsid cannot use them.",
+      "Two strong primary arms and two weaker supporting arms. With the lower arms available for support, wield a weapon up to one size category larger without the normal size penalty. A Large longsword can be held by one primary arm and steadied by its matching lower arm.",
+      "Using all four hands, wield two two-handed weapons as a pair. Each gets full two-handed damage, including 1½ times a positive Strength modifier. Use the ordinary two-weapon attack penalties for a non-light off-hand weapon.",
+      "When a primary hand carries an item, an extra weapon used in a lower arm adds only half a positive Strength modifier. Each extra light weapon imposes −4 on all attacks, or −8 if the extra weapon is one-handed. The lower arms alone cannot wield a two-handed weapon. A lower-arm shield applies its armor check penalty to attacks and skill checks even if proficient.",
+      "Limb Symmetry waives the Dexterity prerequisite for feats with “two-weapon” in their name. Other prerequisites still apply. One free hand is enough for somatic components.",
+      "Light armor has no additional racial penalty. Medium armor imposes −2 Dexterity and heavy armor imposes −4 Dexterity. All armor must be custom-made and priced as one size larger. Diopsids do not need sleep and are immune to sleep effects.",
+      "Common and Diopsid are automatic. Bonus languages are Dwarf (Dwarven), Orc, Terran, and Undercommon. The native language uses light signals, including darkvision-only flashes. Spot detects the exchange in place of Listen. Those without bioluminescence can learn to understand and translate it.",
+      "Favored class Barbarian. LA +1. The playable profile adds no racial Hit Dice."
+    ]
+  }
+]

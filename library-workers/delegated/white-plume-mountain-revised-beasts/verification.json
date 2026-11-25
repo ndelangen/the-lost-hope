@@ -1,0 +1,19 @@
+{
+  "baseline": "7fecb8a26a6144848cc0991a700623a4c3794825",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 2,
+  "testedConditionalRuleProfiles": 2,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 2,
+  "portraitCoverage": {
+    "Advanced Huge Monstrous Crab": "generated",
+    "Large Monstrous Scorpion": "generated"
+  },
+  "versionPortraitsVerified": 2,
+  "newPortraitDrafts": 2,
+  "printedMovementRatesPreserved": true,
+  "originalEditionSavesAndAttacksVerified": true,
+  "scorpionEncounterLevelDistinctFromIndividualCr": true,
+  "signedOriginalArtAttributed": true
+}

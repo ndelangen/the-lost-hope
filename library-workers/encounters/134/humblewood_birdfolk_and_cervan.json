@@ -1,0 +1,551 @@
+[
+  {
+    "name": "Birdfolk Dockmaster",
+    "decision": "separate",
+    "pages": "Appendix B, p. 190",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Birdfolk Dockmaster",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (any birdfolk), any alignment",
+      "ac": 14,
+      "hp": 55,
+      "hitDice": "10d8 + 10",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Wis": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 15,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Leather armor. Athletics +2, Perception +5, Persuasion +4. Passive Perception 15. Birdfolk. Understands Auran without speaking it.",
+      "description": "Keeps the crews and cargo moving at Saltar’s Port.",
+      "sections": {
+        "Traits": "Glide. After falling at least 10 ft., use a reaction to fly up to the creature’s speed in one direction while descending. Land in an empty space at the end of the move and take no falling damage. Heavy objects, heavy weapons, and shields prevent gliding, but the creature may drop held items as part of the reaction.\nConfidence. Add the dockmaster’s Charisma modifier to initiative.\nSneak Attack. Once per turn, a weapon hit deals an extra 3 (1d6) damage if made with advantage. It also qualifies if an ally of the dockmaster within 5 ft. of the target is not Incapacitated, and the attack has no disadvantage.",
+        "Actions": "Multiattack. Make two Saber attacks and one Dagger attack.\nSaber. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d4 + 3) piercing damage.",
+        "Printed source": "Appendix B, p. 190"
+      },
+      "ruleNotes": [
+        "The Dagger line calls it a melee attack and lists a thrown range of 20/60 ft. Treat that range as its thrown range."
+      ]
+    }
+  },
+  {
+    "name": "Birdfolk Farmer",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 190–191. Stat block p. 191.",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Birdfolk Farmer",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (any birdfolk), any alignment",
+      "ac": 10,
+      "hp": 4,
+      "hitDice": "1d8",
+      "speed": "30 ft.",
+      "cr": "0",
+      "xp": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Nature +4. Passive Perception 10. Birdfolk. Understands Auran without speaking it.",
+      "description": "Tends vines, moss beds, or insect stock on the canopy farms that supply Humblewood’s towns.",
+      "sections": {
+        "Traits": "Glide. After falling at least 10 ft., use a reaction to fly up to the creature’s speed in one direction while descending. Land in an empty space at the end of the move and take no falling damage. Heavy objects, heavy weapons, and shields prevent gliding, but the creature may drop held items as part of the reaction.",
+        "Actions": "Pitchfork. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d4) piercing damage.",
+        "Printed source": "Appendix B, pp. 190–191. Stat block p. 191."
+      }
+    }
+  },
+  {
+    "name": "Birdfolk Guard",
+    "decision": "separate",
+    "pages": "Appendix B, p. 191",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Birdfolk Guard",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (any birdfolk), any lawful alignment",
+      "ac": 16,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Chain shirt and shield. Perception +2. Passive Perception 12. Birdfolk. Understands Auran without speaking it.",
+      "description": "A trained member of the Perch Guard who patrols settlements and aids villages on the forest floor.",
+      "sections": {
+        "Traits": "Glide. After falling at least 10 ft., use a reaction to fly up to the creature’s speed in one direction while descending. Land in an empty space at the end of the move and take no falling damage. Heavy objects and heavy weapons prevent gliding, but the creature may drop held items as part of the reaction.",
+        "Actions": "Spear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) on a two-handed melee hit.",
+        "Printed source": "Appendix B, p. 191"
+      },
+      "ruleNotes": [
+        "The guard’s Glide text lists heavy objects and heavy weapons as restrictions. Its listed AC includes a shield."
+      ]
+    }
+  },
+  {
+    "name": "Birdfolk Militia",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 191–192. Stat block p. 192.",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Birdfolk Militia",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (any birdfolk), any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Studded leather armor. Passive Perception 10. Birdfolk. Understands Auran without speaking it.",
+      "description": "A villager who serves in the local militia and can reinforce the Perch Guard when called.",
+      "sections": {
+        "Traits": "Glide. After falling at least 10 ft., use a reaction to fly up to the creature’s speed in one direction while descending. Land in an empty space at the end of the move and take no falling damage. Heavy objects, heavy weapons, and shields prevent gliding, but the creature may drop held items as part of the reaction.",
+        "Actions": "Mace. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) bludgeoning damage.",
+        "Encounter notes": "Cara Stormsinger of Meadowfen uses this block with swift strig traits and a lawful good alignment.",
+        "Printed source": "Appendix B, pp. 191–192. Stat block p. 192."
+      }
+    }
+  },
+  {
+    "name": "Birdfolk Sailor",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 191–192. Stat block p. 192.",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Birdfolk Sailor",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (any birdfolk), any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Leather armor. Athletics +3. Passive Perception 10. Birdfolk. Understands Auran without speaking it.",
+      "description": "A seafarer used to gliding between the deck and lookout posts in the rigging.",
+      "sections": {
+        "Traits": "Glide. After falling at least 10 ft., use a reaction to fly up to the creature’s speed in one direction while descending. Land in an empty space at the end of the move and take no falling damage. Heavy objects, heavy weapons, and shields prevent gliding, but the creature may drop held items as part of the reaction.",
+        "Actions": "Shortsword. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nLight Crossbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. Hit 5 (1d8 + 2) piercing damage.",
+        "Printed source": "Appendix B, pp. 191–192. Stat block p. 192."
+      },
+      "ruleNotes": [
+        "The printed weapon lines use +2 damage despite Dexterity 13 (+1). The crossbow’s printed average is 5 alongside 1d8 + 2. The summary preserves the printed attack lines."
+      ]
+    }
+  },
+  {
+    "name": "Birdfolk Skirmisher",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 191–193. Stat block p. 193.",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Birdfolk Skirmisher",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (any birdfolk), any lawful alignment",
+      "ac": 14,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Chain shirt. Athletics +4. Passive Perception 10. Birdfolk. Understands Auran without speaking it.",
+      "description": "A light infantry soldier trained to throw spears between branches or strike during a dive.",
+      "sections": {
+        "Traits": "Glide. After falling at least 10 ft., use a reaction to fly up to the creature’s speed in one direction while descending. Land in an empty space at the end of the move and take no falling damage. Heavy objects, heavy weapons, and shields prevent gliding, but the creature may drop held items as part of the reaction.\nDrop Attack. The skirmisher can attack during its glide and add 4 (1d8) damage on a hit.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) on a two-handed melee hit.",
+        "Printed source": "Appendix B, pp. 191–193. Stat block p. 193."
+      }
+    }
+  },
+  {
+    "name": "Cervan Bandit General",
+    "decision": "separate",
+    "pages": "Appendix B, p. 193",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Cervan Bandit General",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (cervan), neutral evil",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "35 ft.",
+      "cr": "2",
+      "xp": 450,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 14,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Studded leather armor. Saving throws Dex +5, Cha +4. Deception +4, Persuasion +4. Passive Perception 10. Birdfolk and Cervan.",
+      "description": "A bandit leader who keeps rival crews in line and fights with a blade in each hand.",
+      "sections": {
+        "Traits": "Surge of Vigor (recharges after a long rest). When one attack deals more than half its current HP in damage, the general immediately regains 8 (1d12 + 2) HP, even if the hit drops it to 0.\nStanding Leap. Long jump up to 30 ft. or high jump up to 15 ft. with or without a running start.",
+        "Actions": "Multiattack. Make two Scimitar attacks and one melee Dagger attack, or make two ranged Dagger attacks.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d4 + 3) piercing damage.",
+        "Reactions": "Parry. Add 2 to AC against one melee attack that would hit. The general must see the attacker and hold a melee weapon.",
+        "Encounter notes": "For Benna Seridan, use a Blade of the Wood scimitar in her main hand (+1 to attack and damage rolls) and a shortsword in her off hand (1d6 + 3 piercing damage).",
+        "Printed source": "Appendix B, p. 193"
+      }
+    }
+  },
+  {
+    "name": "Cervan Priest",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 193–194. Stat block p. 194.",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Cervan Priest",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (cervan), any alignment",
+      "ac": 10,
+      "hp": 19,
+      "hitDice": "3d8 + 6",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Medicine +4, Religion +2. Passive Perception 12. Birdfolk and Cervan.",
+      "description": "Keeps village rites and histories, and often advises local leaders.",
+      "sections": {
+        "Traits": "Surge of Vigor (recharges after a long rest). After taking damage equal to at least half its current HP, the priest immediately regains 8 (1d12 + 2) HP, even if that damage drops it to 0.\nCharge. After moving at least 20 ft. straight toward an enemy, a hit with Antlers against that enemy deals 3 (1d6) extra piercing damage. The target, if Large or smaller, must pass a DC 11 Strength save or be pushed 10 ft. away.",
+        "Actions": "Antlers. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.\nQuarterstaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) when wielded with two hands.",
+        "Spellcasting": "3rd-level Wisdom spellcaster. Save DC 12, +4 to hit with spell attacks.\nCantrips (at will). Guidance, Light, Spare the Dying.\n1st level (4 slots). Bless, Cure Wounds, Guiding Bolt, Shield of Faith.\n2nd level (2 slots). Calm Emotions, Warding Bond.",
+        "Printed source": "Appendix B, pp. 193–194. Stat block p. 194."
+      }
+    }
+  },
+  {
+    "name": "Corvum Diviner",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 194–195. Stat block p. 195.",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Corvum Diviner",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (corvum), lawful neutral",
+      "ac": 12,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 9,
+          "modifier": -1
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "AC 15 with Mage Armor. Saving throws Int +6, Wis +4. Arcana +6, History +6, Religion +6. Passive Perception 11. Auran, Birdfolk, Celestial, Cervan, and Mapach.",
+      "description": "An arcane scholar who reads omens and uses divination to uncover information.",
+      "sections": {
+        "Traits": "Glide. After falling at least 10 ft., use a reaction to fly up to the creature’s speed in one direction while descending. Land in an empty space at the end of the move and take no falling damage. Heavy objects, heavy weapons, and shields prevent gliding, but the creature may drop held items as part of the reaction.\nTalons. The creature has advantage on Strength (Athletics) checks to climb surfaces it can grip with its talons.\nSkulker. The diviner has advantage on Dexterity (Stealth) checks made in dim light or darkness.",
+        "Spellcasting": "9th-level Intelligence spellcaster. Save DC 14, +6 to hit with spell attacks.\nCantrips (at will). Fire Bolt, Light, Mage Hand, Prestidigitation.\n1st level (4 slots). Detect Magic, Mage Armor, Magic Missile, Shield.\n2nd level (2 slots). Augury, Misty Step.\n3rd level (3 slots). Clairvoyance, Counterspell, Fly.\n4th level (3 slots). Greater Invisibility, Locate Creature.\n5th level (1 slot). Scrying.",
+        "Actions": "Talons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Appendix B, pp. 194–195. Stat block p. 195."
+      },
+      "ruleNotes": [
+        "The printing grants two 2nd-level slots. The spell name Magic Missile corrects a spelling error in the printed list."
+      ]
+    }
+  },
+  {
+    "name": "Corvum Necromancer",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 195–196. Stat block p. 196.",
+    "notes": "Complete NPC stat block from Humblewood Campaign Setting v1.04.",
+    "statBlock": {
+      "name": "Corvum Necromancer",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (corvum), any evil alignment",
+      "ac": 12,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 9,
+          "modifier": -1
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 14,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "AC 15 with Mage Armor. Saving throws Int +7, Wis +3. Arcana +7, Deception +5, Medicine +3. Passive Perception 10. Birdfolk and two other languages. Understands Auran without speaking it.",
+      "description": "A spellcaster whose study of life and death exceeds what the Avium permits in practice.",
+      "sections": {
+        "Traits": "Glide. After falling at least 10 ft., use a reaction to fly up to the creature’s speed in one direction while descending. Land in an empty space at the end of the move and take no falling damage. Heavy objects, heavy weapons, and shields prevent gliding, but the creature may drop held items as part of the reaction.\nTalons. The creature has advantage on Strength (Athletics) checks to climb surfaces it can grip with its talons.\nConvincing. The necromancer has advantage on Charisma checks to convince someone it knows a subject tied to Arcana.\nLife Leech. Once per turn, when a spell of 1st level or higher kills at least one creature, the necromancer can regain HP equal to twice the spell’s level, or three times its level for a necromancy spell.",
+        "Spellcasting": "9th-level Intelligence spellcaster. Save DC 15, +7 to hit with spell attacks.\nCantrips (at will). Chill Touch, Light, Mage Hand, Prestidigitation.\n1st level (4 slots). Disguise Self, False Life, Mage Armor, Magic Missile.\n2nd level (3 slots). Misty Step, Suggestion, Ray of Enfeeblement.\n3rd level (3 slots). Animate Dead, Counterspell, Fear.\n4th level (3 slots). Greater Invisibility, Blight.\n5th level (1 slot). Dominate Person.",
+        "Actions": "Staff. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d6 − 1) bludgeoning damage, or 3 (1d8 − 1) when wielded with two hands.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Encounter notes": "Odwald Ebonhart uses this stat block with a chaotic neutral alignment.",
+        "Printed source": "Appendix B, pp. 195–196. Stat block p. 196."
+      }
+    }
+  }
+]

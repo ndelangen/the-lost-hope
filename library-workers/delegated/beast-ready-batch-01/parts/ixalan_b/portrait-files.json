@@ -1,0 +1,42 @@
+[
+  {
+    "artGroup": "brontodon",
+    "file": "portraits/brontodon.png",
+    "sha256": "c8b574189947b866f03bcdeb570873e8887f4d18507be309cf5480505827e0ad",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "ceratops",
+    "file": "portraits/ceratops.png",
+    "sha256": "6dfc38218f876e1adb5bac54bfe18c3d64d73dbce0d2a3098cd0bf66ecb937e8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "ferocidon",
+    "file": "portraits/ferocidon.png",
+    "sha256": "f69cff654030d127b4473c18ea66b94f8caa8d91bd0e658600d01d7f75292753",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "gishath-suns-avatar",
+    "file": "portraits/gishath-suns-avatar.png",
+    "sha256": "9165ee1c4111c8e74e6628990ce57d313381c4e4db4b8c79c8e4bea572d362e0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "hadrosaur",
+    "file": "portraits/hadrosaur.png",
+    "sha256": "355da53aacf6b3acedd5d204b6e430f3876b71572385bd8dd2178f49c0c080e3",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "commit": "94a92f0",
+  "batch": 94,
+  "verification": {
+    "testsPassed": 902,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Skarn",
+        "species": "species-92536714cfde2c079164312c",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Magic of Incarnum (2005)"
+        ],
+        "portraitSha256": "9a677be37ab0d0595628e2eb38be946ed27aa69fd8a7ea522b8fd3979c343fff",
+        "caption": "Corven Ashstep · Original Skarn NPC",
+        "npcReceipts": [
+          {
+            "name": "Corven Ashstep",
+            "id": "npc-04d62f29b055bf7fc62a5d66",
+            "challenge": "Provisional CR 1. ECL 1."
+          },
+          {
+            "name": "Sera Flintward",
+            "id": "npc-12c0a531a2589586b8c37b2e",
+            "challenge": "Provisional CR 1. ECL 1."
+          }
+        ]
+      }
+    ],
+    "browseThumbnail": true,
+    "r2AndBothLocalBackups": true
+  }
+}

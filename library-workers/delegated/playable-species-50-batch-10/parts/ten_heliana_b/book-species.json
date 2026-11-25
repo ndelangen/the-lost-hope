@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Mycelian",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+      "Humanoid, also treated as a Plant for any effect or prerequisite that calls for it. Gain +2 Constitution and +1 to another ability. Size and walking speed come from the host. Speaks, reads, and writes Common and one chosen language.",
+      "Symbiotic Assimilation. Take two options the host qualifies for, with GM approval. The options are one inherited damage resistance, darkvision 60 ft., Dwarven Resilience, Halfling Nimbleness, Muscle Memory for one skill proficiency, an inherited natural weapon, Powerful Build, or half-orc Relentless Endurance. Muscle Memory is repeatable. The GM can allow unlisted traits and may limit an especially strong inherited trait to a single choice.",
+      "Spore Spray. When hit by a melee attack from within 10 ft., spend a reaction to make the attacker attempt a Constitution save. Failure deals 1d8 poison damage and poisons it through the end of its next turn. Damage rises to 2d8 at level 5. DC is 8 + proficiency + Constitution modifier. Uses equal proficiency per long rest.",
+      "Insporeation. On death, choose a humanoid corpse within 100 ft. that died at most 24 hours ago and was not subject to magic that alters decay. Roll d100 at least as high as the distance in feet. On success, rise from the host in 2d6 days, gain a long rest, and replace the old assimilations with suitable new ones. Failure leaves the mycelian dead."
+    ]
+  },
+  {
+    "name": "Ombrask",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+      "Small or Medium according to former ancestry. Walk 30 ft. with 60-ft. darkvision. Gain +2 Dexterity and +1 from the former-ancestry table. Read and write Common and Undercommon. Speech requires Voice Thief.",
+      "Former ancestry bonus. Constitution for Cnidaran, Dwarf, Golynn or Oozekin. Intelligence for Cyclopian or Gnome. Strength for Dragonborn or Half-Orc. Charisma for Half-Elf, Halfling, Opteran or Tiefling. Choose Intelligence, Wisdom or Charisma for Elf. Choose Wisdom or Charisma for Gobboc. Human can choose any ability except Dexterity. Rakin uses a +1 option allowed to its former subrace.",
+      "Lightbender grants radiant resistance and advantage on saves to avoid blindness. Trackless grants Stealth proficiency.",
+      "Voice Thief. When a creature that can speak dies within 30 ft., spend a reaction to acquire its voice and speech mannerisms. Keep voices indefinitely, up to the proficiency bonus. Replace a stored voice if a new one would exceed the cap. Once per long rest.",
+      "At 5th level, Fade Away casts invisibility on the ombrask without materials once per long rest. Use Constitution for the spell. The trait also permits casts using suitable slots."
+    ]
+  },
+  {
+    "name": "Oozekin",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+      "Humanoid, also treated as an Ooze for relevant effects and prerequisites. Gain +2 Constitution and +1 Strength. Walk 30 ft. with 60-ft. darkvision. Speaks, reads, and writes Common and one chosen language.",
+      "Choose Small or Medium. A Small oozekin grows to Medium over 2d4 days. A Medium oozekin can shed a part of its body as an action to become Small.",
+      "Acidic Flesh. Resist acid and know acid splash using Constitution. A target automatically fails the cantrip save if it is grappling the oozekin or grappled by it.",
+      "Reshapeable starts at level 3. Spend an action to become a cube or puddle for up to an hour, once per long rest. Either form halves walking speed and prevents speech, object manipulation, attacks, and spellcasting. Spend an action to end the form early.",
+      "Cube. A 5-ft. cube stores carried, held and worn gear safely and provides three-quarters cover directly behind it against attacks from the opposite side. Engulf moves up to speed and can enter one creature’s space if it is no larger than the oozekin. The creature makes a Dexterity save against 8 + proficiency + Strength modifier. If it fails and the oozekin has no other grapple, it is grappled and restrained and takes acid splash failure damage at the start of its turns. On a successful save the movement is spent and the oozekin stays at its starting point.",
+      "Puddle. A 5-ft.-wide pool drops all gear, cannot carry anything, and can pass through 1-inch gaps without squeezing. It has nonmagical spider climb benefits, and attacks made from more than 5 ft. away have disadvantage."
+    ]
+  },
+  {
+    "name": "Opteran",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+      "Humanoid, also treated as Fey for relevant effects and prerequisites. Gain +2 Charisma. Speaks, reads, and writes Common and one chosen language.",
+      "Metamorphosis. Start as a Small larva with 25-ft. walk. At level 5, the opteran can change over 24 hours. If postponed, the change happens at level 6. The Medium adult walks 30 ft. and exchanges both larval traits for the two adult traits.",
+      "Larva. Many-Footed gives advantage on checks to balance and on checks and saves to avoid going prone. String Shot takes an action against one visible creature within 15 ft. The target makes a Dexterity save against 8 + proficiency + Constitution modifier. Failure restrains it for a minute. Any creature can free itself or a restrained creature it can reach by spending an action on a successful Strength check against the same DC. Uses equal proficiency per short or long rest.",
+      "Adult. Fly 20 ft. outside of medium or heavy armor. Radiant Wing gives advantage on Charisma checks."
+    ]
+  },
+  {
+    "name": "Rakin",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+      "Small humanoid with +2 Dexterity, a 30-ft. walk and an equal climb speed, plus 60-ft. darkvision. Speaks, reads, and writes Common and one chosen language. Choose Urkin, Posskin, or Tanukin.",
+      "Urkin. +1 Intelligence or Charisma. Gain Stealth or Sleight of Hand proficiency and thieves’ cant. Nimble Dodge uses a reaction to gain advantage on a Dexterity save against an effect the urkin can see, then allows movement up to speed after the effect without opportunity attacks regardless of save outcome. Once per short or long rest.",
+      "Posskin. +1 Constitution. Its unarmed bite deals 1d6 + Strength modifier slashing. Advantage on saves against disease and poison, plus poison damage resistance. If damage leaves it at half its maximum HP or lower, it can use a reaction to fall prone and appear dead to a casual observer for up to an hour, or end the effect early with its bonus action. A creature within 5 ft. can spend its action on Intelligence (Investigation) contested by the posskin’s Constitution (Deception). Once per short or long rest.",
+      "Tanukin. +1 Wisdom or Charisma. Gain Deception or Persuasion proficiency. Beasts can understand the tanukin’s speech, while the feature adds no ability to understand beasts. Know minor illusion. At level 3 add disguise self, and at level 5 add alter self. Each leveled spell is free once per long rest and may also be cast with suitable slots. Choose Wisdom or Charisma for casting."
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Mummy",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A 13-level Medium undead monster class. Starts with +2 Strength, −4 Intelligence, and no Constitution score. Land speed 20 ft., darkvision 60 ft., and Common. Proficient with simple weapons.",
+      "Undead traits grant immunity to mind-affecting effects, poison, sleep, paralysis, stunning, and disease, plus protection against critical hits, subdual damage, ability damage, energy drain, and death from massive damage. The mummy is destroyed at 0 HP.",
+      "Starts with +3 natural armor and a 1d4 slam that adds 1½ times its Strength modifier. Slam rises to 1d6 at level 6. Fire deals double damage on a failed save or when the attack allows no save. A successful save for half still halves damage.",
+      "At level 3, halve physical attack damage before applying DR. Level 7 adds DR 5/—. Mummy Rot can be applied on a slam hit once per day at level 5, three times at level 8, and freely at level 12.",
+      "Despair starts at level 10. Creatures viewing the mummy attempt a Will save, DC 10 + half its class Hit Dice + Charisma modifier. Failure paralyzes for 1d4 rounds. Each viewer saves at most once per day against this mummy.",
+      "At level 13 the progression ends with 8d12 Hit Dice, ECL 13, and CR 3 on the DM column."
+    ]
+  },
+  {
+    "name": "Ogre",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A six-level giant monster class. Starts Medium with +2 Strength, −4 Intelligence, and −4 Charisma, land speed 40 ft., darkvision 60 ft., and Giant.",
+      "Proficient with simple and martial weapons, light armor, and shields. Table A–38 starts with +3 natural armor. It rises to +4 at level 3 and +5 at level 6.",
+      "At level 5 the ogre becomes Large with 10-ft. reach. This tier changes Strength and Dexterity as shown in the class table and applies the normal Large size modifiers.",
+      "The class ends at level 6 with 4d8 class Hit Dice, ECL 6, and CR 2 on the DM column. The merrow option is an aquatic variant. Ogre Mage is a separate progression."
+    ]
+  },
+  {
+    "name": "Stone Giant",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "An 18-level giant monster class. Begins Medium with the earth subtype, +4 Strength, +3 natural armor, 40-ft. speed, darkvision 60 ft., and Common and Giant. Gains +8 racial Hide in rocky terrain.",
+      "Proficient with simple and martial weapons, light armor, and shields. At level 4, Rock Throwing starts at 1d8 plus Strength damage with a 60-ft. range increment and a +1 racial attack bonus.",
+      "At level 6, an aware stone giant can attempt to catch a Small, Medium, or Large thrown rock once per round as a free action. Reflex DC 15, 20, or 25 by projectile size. Add the projectile’s enhancement bonus to the DC.",
+      "At level 11 the giant grows to Large with 10-ft. reach. Class levels improve damage and range for rocks. At level 18 the class has 14d8 Hit Dice, ECL 18, and CR 8 on the DM column."
+    ]
+  },
+  {
+    "name": "Succubus",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A 12-level outsider monster class, which also covers the incubus. Begins Medium with +2 Dexterity, +6 Charisma, 30-ft. land speed, darkvision 60 ft., poison immunity, and +8 racial Listen and Spot. Speaks Abyssal, Celestial, and Draconic.",
+      "First level grants two claws, tongues, resistances 5 to acid, cold, electricity, and fire, and one chosen Small to Large humanoid form. The alternate form options grow to three at level 3 and any eligible humanoid at level 5.",
+      "At level 2, gain 100-ft. telepathy and seven lesser spell-like abilities. Each is usable once per day, rising to three times per day at level 4 and at will at level 6. Spell-like caster level equals class level.",
+      "At level 3 gain fly speed 50 ft. (average). Energy drain starts at level 7, stronger spell-like abilities at level 8, and spell resistance at level 9. Later levels grant electricity immunity, damage reduction and the chance to summon a balor.",
+      "The class ends at level 12 with 6d8 Hit Dice, ECL 12, and CR 7 on the DM column."
+    ]
+  },
+  {
+    "name": "Treant",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A 12-level plant monster class. Begins Medium with +2 Dexterity, +2 Intelligence, 30-ft. land speed, low-light vision, and +16 racial Hide in forested areas. Speaks Common, Sylvan and Treant.",
+      "Immune to mind-affecting effects, poison, sleep, paralysis, stunning, polymorphing, and critical hits. Starts with +4 natural armor and a natural slam. No weapon, armor, or shield proficiency.",
+      "At level 6 the treant grows Large with 10-ft. reach and gains fire vulnerability. Fire attacks with no save deal double damage. When a save is allowed, the treant takes −10 on that save.",
+      "At level 7, Trample affects creatures at least two size categories smaller. It deals 2d12 plus half the treant’s Strength bonus, Reflex DC 20 for half if the target forgoes its attack of opportunity. Full attacks against objects or structures deal double damage.",
+      "At level 8, animate one tree at a time within 180 ft. at will and gain DR 5/slashing. The tree spends a full round uprooting, moves at 10 ft., and fights as an 8th-level treant. It loses movement if the treant is incapacitated or moves out of range.",
+      "At level 11 the treant can control two trees. At level 12 the class has Huge size, 15-ft. reach, DR 10/slashing, 7d8 Hit Dice, ECL 12, and CR 8 on the DM column."
+    ]
+  }
+]

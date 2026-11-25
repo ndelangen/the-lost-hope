@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Elk",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Original D&D Adventurers League , ©2016",
+    "author": "Shawn Merwin",
+    "adventureCodeInPdf": "DDAL4-01",
+    "section": "Mission 4, Glyphs, Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      36
+    ],
+    "pdfPages": [
+      36
+    ],
+    "contextPrintedPages": [
+      32,
+      33,
+      34
+    ],
+    "sourceSha256": "2492b23660a0808ed979f9c9e30dffcdf482e65aa130c91b27ceba61e428f9fd",
+    "url": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "printWitness": "Local original publisher . Pagination matches the viewer.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. Rules are from the local 2016 publisher .",
+    "appearanceEvidence": "The Mission 4 herd has gold-colored hide and fur. Antler and body details come from the reused portrait.",
+    "habitatEvidence": "Editorial tag based on the Quivering Forest encounter, p. 32.",
+    "artGroup": "elk",
+    "sourceDistinctions": [
+      "Charge’s extra damage has no stated damage type. Ram and Hooves explicitly deal bludgeoning damage. The golden coloration describes the encounter herd."
+    ],
+    "portraitSha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab"
+  },
+  {
+    "name": "Fire Stirge",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Original D&D Adventurers League , ©2016",
+    "author": "Shawn Merwin",
+    "adventureCodeInPdf": "DDAL4-01",
+    "section": "Mission 1, Stars, Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      14
+    ],
+    "pdfPages": [
+      14
+    ],
+    "contextPrintedPages": [
+      11,
+      12,
+      13
+    ],
+    "sourceSha256": "2492b23660a0808ed979f9c9e30dffcdf482e65aa130c91b27ceba61e428f9fd",
+    "url": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "printWitness": "Local original publisher . Pagination matches the viewer.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. Rules are from the local 2016 publisher .",
+    "appearanceEvidence": "The appendix names the creature and gives Blood Drain and Flare. Color and silhouette describe the reused portrait.",
+    "habitatEvidence": "Editorial tags based on the Frozen Cave encounter on pp. 11–12.",
+    "artGroup": "fire-stirge",
+    "sourceDistinctions": [
+      "Flare describes an exhalation of fire. The damage clause gives 5 (2d4) with no separate damage-type word. Blood Drain’s recurring effect is printed as HP loss."
+    ],
+    "portraitSha256": "81dcd954b965016ada33db49428c1e9d55152f78d3aece178612c7a08922b701"
+  },
+  {
+    "name": "Giant Bat",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Original D&D Adventurers League , ©2016",
+    "author": "Shawn Merwin",
+    "adventureCodeInPdf": "DDAL4-01",
+    "section": "Mission 5, Mists, Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      42
+    ],
+    "pdfPages": [
+      42
+    ],
+    "contextPrintedPages": [
+      38,
+      39,
+      41
+    ],
+    "sourceSha256": "2492b23660a0808ed979f9c9e30dffcdf482e65aa130c91b27ceba61e428f9fd",
+    "url": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "printWitness": "Local original publisher . Pagination matches the viewer.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. Rules are from the local 2016 publisher .",
+    "appearanceEvidence": "The encounter describes large flying bats with sharp fangs. Color and other details come from the reused portrait.",
+    "habitatEvidence": "Editorial local tags based on the wooded road and the Crossing Inn grounds where the bats emerge from Barovia, pp. 38–39.",
+    "artGroup": "giant-bat",
+    "sourceDistinctions": [
+      "The source prints a Giant Bat block in the Mission 5 appendix. Echolocation and Keen Hearing are both present."
+    ],
+    "portraitSha256": "c50887fca84051934f81adda8f1fc1424fbc769e860eb76a1d4024502f95b045"
+  },
+  {
+    "name": "Ice Cat",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Original D&D Adventurers League , ©2016",
+    "author": "Shawn Merwin",
+    "adventureCodeInPdf": "DDAL4-01",
+    "section": "Mission 1, Stars, Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      14
+    ],
+    "pdfPages": [
+      14
+    ],
+    "contextPrintedPages": [
+      10,
+      11,
+      13
+    ],
+    "sourceSha256": "2492b23660a0808ed979f9c9e30dffcdf482e65aa130c91b27ceba61e428f9fd",
+    "url": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "printWitness": "Local original publisher . Pagination matches the viewer.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. Rules are from the local 2016 publisher .",
+    "appearanceEvidence": "The encounter describes feline tracks. The pale coat and other features are editorial details from the reused portrait.",
+    "habitatEvidence": "Editorial tags based on the snow-covered plateau and icy hills on pp. 10–11.",
+    "artGroup": "ice-cat",
+    "sourceDistinctions": [
+      "The block lists a Medium Beast. The encounter describes tracks of large felines without assigning a different game size."
+    ],
+    "portraitSha256": "b792f018d221ce3ce890e246e5876c627079e9407ac58614b64c2abd4fe67cdc"
+  },
+  {
+    "name": "Mastiff",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Original D&D Adventurers League , ©2016",
+    "author": "Shawn Merwin",
+    "adventureCodeInPdf": "DDAL4-01",
+    "section": "Mission 4, Glyphs, Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      35
+    ],
+    "pdfPages": [
+      35
+    ],
+    "contextPrintedPages": [
+      31,
+      34
+    ],
+    "sourceSha256": "2492b23660a0808ed979f9c9e30dffcdf482e65aa130c91b27ceba61e428f9fd",
+    "url": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+    "printWitness": "Local original publisher . Pagination matches the viewer.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. Rules are from the local 2016 publisher .",
+    "appearanceEvidence": "The reused portrait depicts the appendix Mastiff. The encounter’s Cooshee reskin has a greenish coat mottled brown.",
+    "habitatEvidence": "Editorial tag based on the Cooshee encounter in the Quivering Forest, p. 31.",
+    "artGroup": "mastiff",
+    "sourceDistinctions": [
+      "The creature block gives 25 XP. The Mission 4 combat-award table on p. 34 gives 50 XP per mastiff. Both values are preserved in their own context.",
+      "Cooshee is the encounter’s mastiff reskin. The stat block appears under Mastiff."
+    ],
+    "portraitSha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb"
+  }
+]

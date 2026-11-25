@@ -1,0 +1,34 @@
+[
+  {
+    "entry": "beast-fee58352ff0c2231bf7b6493",
+    "version": "ec09baec6aea2f3d4dbbc1a7",
+    "name": "Burrowing Owl",
+    "file": "images/al-qadim-caravans-beasts/burrowing-owl.png",
+    "sha256": "4f8aa55ac8f1148d0dd7dfc3e815d296bcfd37217b7a84cc08f3e4b15720522b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-c65d4c0c5454de5ed5733a52",
+    "version": "e4e54bac714cec9e2d3c9deb",
+    "name": "Black Sand Adder",
+    "file": "images/al-qadim-caravans-beasts/black-sand-adder.png",
+    "sha256": "6a33ec1bdb3791588c6c78c5974adf0fe4e7b62b24232022ebafbe36cbb65c14",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9ad90f308c1284265edf1386",
+    "version": "ff7aea0840eb1b3008d37f46",
+    "name": "Dune Viper",
+    "file": "images/al-qadim-caravans-beasts/dune-viper.png",
+    "sha256": "8276eddaa7889adf1956856a51a0cafec2e76e89d7eb9fc63e23ef6d916853b5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-dee6a293668a1095f8b1b31b",
+    "version": "5e377afbd67b94f622d65a13",
+    "name": "Giant Cobra",
+    "file": "images/al-qadim-caravans-beasts/giant-cobra.png",
+    "sha256": "68348461817ef19738ce0bd26a3c37190009fcd42095a90b734016de9ad6aa2b",
+    "credit": "OpenAI ImageGen"
+  }
+]

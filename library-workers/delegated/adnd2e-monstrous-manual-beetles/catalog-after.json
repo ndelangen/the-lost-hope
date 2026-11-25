@@ -1,0 +1,1999 @@
+[
+  {
+    "name": "Giant Bombardier Beetle",
+    "version": {
+      "key": "2f116be171185fb92041fff3",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "4"
+        ],
+        [
+          "Hit dice",
+          "2+2"
+        ],
+        [
+          "Size",
+          "S, 4 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "9"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "2–12"
+        ],
+        [
+          "XP",
+          "120"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any forest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A four-foot beetle with hardened wing covers and chewing mandibles."
+          ]
+        },
+        {
+          "title": "Special attacks and defenses mechanics",
+          "lines": [
+            "Acid cloud · When attacked or disturbed, it has a 50% chance each round to turn and discharge an 8-foot sphere of reddish acidic vapor from its abdomen. The cloud deals 3d4 damage per round to a creature within it. It can discharge every third round and at most twice in eight hours.",
+            "Sound of the discharge · Within 15 feet, creatures that can hear have a 20% chance of being stunned. A creature that avoids the stun has a separate 20% chance of deafness. Stun lasts 2d4 rounds followed by 2d4 rounds of deafness. Deafness alone lasts 2d6 rounds.",
+            "Printed defense · The table lists fire cloud as a separate special defense. The text describes the acidic discharge and gives no separate procedure for a fire cloud."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "3–12 appearing. Common and listed as solitary. Neutral.",
+            "Active by day. Carnivore. Nonintelligent (0). Elite (13) morale. Treasure and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Bombardier Beetle": true,
+      "giant bombardier beetle acidic vapor": true
+    },
+    "hash": "35fe5912f0a2078f502f3d466b1c38d25f5f8cabc83176103b40cb53058fac0d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "otherKind": {
+      "id": "monster-79205e6f6ed4aa75fe8e1438",
+      "name": "Giant Bombardier Beetle",
+      "kind": "monster",
+      "group": "Vermin",
+      "groups": [
+        "Vermin"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        }
+      ],
+      "versions": [
+        {
+          "key": "0dbd6894dd902b14824bcc83",
+          "publication": "Revised v3.5 SRD (Monsters)",
+          "edition": "3.5 edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "16"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d8+4"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Vermin"
+            ],
+            [
+              "Speed",
+              "0 3 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+            ],
+            [
+              "Initiative",
+              "0"
+            ],
+            [
+              "Touch armor class",
+              "10"
+            ],
+            [
+              "Flat-footed armor class",
+              "16"
+            ],
+            [
+              "Base attack bonus",
+              "1"
+            ],
+            [
+              "Grapple modifier",
+              "2"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Fort +5",
+                "Ref +0",
+                "Will +0"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +2 to hit"
+              ]
+            }
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    }
+  },
+  {
+    "name": "Giant Boring Beetle",
+    "version": {
+      "key": "d6a041ce4b5c84be556aab74",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit dice",
+          "5"
+        ],
+        [
+          "Size",
+          "L, 9 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6"
+        ],
+        [
+          "THAC0",
+          "15"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "5–20"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land",
+            "Rotting wood and underground tunnels"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A nine-foot burrowing beetle with large chewing mandibles."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Rotting wood · The beetle feeds on rotting wood and similar matter. It is found alone in large trees and can gather in underground tunnel complexes.",
+            "Fungus farms · Tunnel colonies cultivate fungi for food. They react quickly when shriekers in the farm sound an alarm.",
+            "Reported nest intelligence · The account describes rumors of nests that reason collectively at a human level. An individual beetle has Animal intelligence (1)."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "3–18 appearing. Common and listed as solitary. Neutral.",
+            "Nocturnal. Omnivore. Animal intelligence (1). Elite (14) morale. Treasure C, R, S, T. Special attacks, special defenses and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), p. 18."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Boring Beetle": true,
+      "giant boring beetle rotting wood": true
+    },
+    "hash": "4d9d8a2188ccef844c5924c8170a1ff91954519e82f6ec63c5370a7806547269",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "version": {
+      "key": "128550d49eb7102ec0b81133",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "4"
+        ],
+        [
+          "Hit dice",
+          "1+2"
+        ],
+        [
+          "Size",
+          "S, 2½ ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "2–8"
+        ],
+        [
+          "XP",
+          "35"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land",
+            "Above and below ground"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A beetle with two small red-glowing glands above its eyes and another near the back of its abdomen."
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Cold light · Three glands shed cool red light in a 10-foot radius. The light persists for 1d6 days after removal.",
+            "Mandibles · The beetle attacks with its mandibles for the table’s 2–8 damage. The glowing glands produce no heat."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "3–12 appearing. Common and listed as solitary. Neutral.",
+            "Nocturnal. Omnivore. Nonintelligent (0). Steady (12) morale. Treasure, special attacks, special defenses and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "140c0f241baf86c1a02f2470",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ],
+          [
+            "Str",
+            "8"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "7"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +1 to hit · reach 5 ft. · 1d6 − 1 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "235eaff797e2bcf41decb756",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Small beast with challenge rating 0. Listed habitats: underdark. Named abilities include Illumination, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20fire%20beetle_mm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/9/896/1000/1000/636334287498492864.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "8"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "8"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "12"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "7"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +1 to hit · reach 5 ft. · 1d6 - 1 slashing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Illumination · 10-foot radius"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +1 to hit · 1d6 - 1 slashing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 325,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 325",
+            "url": "https://5e.tools/bestiary.html#giant%20fire%20beetle_mm"
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "blindsight 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "862d991dd1efbc3fc92a1825",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Small beast with challenge rating 0. Listed habitats: underdark. Named abilities include Illumination, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20fire%20beetle_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/864/1000/1000/638741964115265335.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "8"
+          ],
+          [
+            "Strength",
+            "8"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "12"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "7"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Blindsight 30 ft."
+            ]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": [
+              "fire"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Illumination · 10-foot radius · Bright Light · Dim Light"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +1 to hit · 1 Fire damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 357",
+            "url": "https://5e.tools/bestiary.html#giant%20fire%20beetle_xmm"
+          },
+          {
+            "label": "Bright Light (rule)",
+            "url": "https://5e.tools/variantrules.html#bright%20light_xphb",
+            "local": {
+              "entry": "compendium-d5c5fbed659a5e41d72c49eb",
+              "version": "XPHB:362:https://5e.tools/variantrules.html#bright%20light_xphb"
+            },
+            "preview": {
+              "name": "Bright Light",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 362,
+              "local": {
+                "entry": "compendium-d5c5fbed659a5e41d72c49eb",
+                "version": "XPHB:362:https://5e.tools/variantrules.html#bright%20light_xphb"
+              }
+            }
+          },
+          {
+            "label": "Dim Light (rule)",
+            "url": "https://5e.tools/variantrules.html#dim%20light_xphb",
+            "local": {
+              "entry": "compendium-f8257036fcfd110c092b6f01",
+              "version": "XPHB:366:https://5e.tools/variantrules.html#dim%20light_xphb"
+            },
+            "preview": {
+              "name": "Dim Light",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-f8257036fcfd110c092b6f01",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#dim%20light_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistances": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Illumination · 10-foot radius · Bright Light · Dim Light": [
+            {
+              "start": 32,
+              "end": 44,
+              "target": {
+                "name": "Bright Light",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-d5c5fbed659a5e41d72c49eb",
+                  "version": "XPHB:362:https://5e.tools/variantrules.html#bright%20light_xphb"
+                }
+              }
+            },
+            {
+              "start": 47,
+              "end": 56,
+              "target": {
+                "name": "Dim Light",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 366,
+                "local": {
+                  "entry": "compendium-f8257036fcfd110c092b6f01",
+                  "version": "XPHB:366:https://5e.tools/variantrules.html#dim%20light_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "204647a29043e1cfb95666c8",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "description": "A giant fire beetle is a nocturnal creature that takes its name from a pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle’s glands continue to shed light for 1d6 days after the beetle dies. Giant fire beetles are most commonly found underground and in dark forests.",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ],
+          [
+            "XP",
+            "10"
+          ],
+          [
+            "Str",
+            "8"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "7"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Small beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses blindsight 30 ft., passive Perception 8 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Illumination. The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 − 1) slashing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses blindsight 30 ft., passive Perception 8 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 − 1) slashing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a891d6ec4be96ab3a27a2565",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Climb 30 ft."
+          ],
+          [
+            "XP",
+            "10"
+          ],
+          [
+            "Str",
+            "8"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "7"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Small Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Resistances Fire Senses Blindsight 30 ft.; Passive Perception 8 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Illumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Resistances Fire Senses Blindsight 30 ft.; Passive Perception 8 Languages None": [
+            {
+              "start": 24,
+              "end": 34,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            },
+            {
+              "start": 43,
+              "end": 61,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Illumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.": [
+            {
+              "start": 31,
+              "end": 43,
+              "target": {
+                "name": "Bright Light",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-d5c5fbed659a5e41d72c49eb",
+                  "version": "XPHB:362:https://5e.tools/variantrules.html#bright%20light_xphb"
+                }
+              }
+            },
+            {
+              "start": 68,
+              "end": 77,
+              "target": {
+                "name": "Dim Light",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 366,
+                "local": {
+                  "entry": "compendium-f8257036fcfd110c092b6f01",
+                  "version": "XPHB:366:https://5e.tools/variantrules.html#dim%20light_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Fire Beetle": true,
+      "giant fire beetle cold light glands": true
+    },
+    "hash": "6a2e7df77874482eb3d551f80c67824987ad88000f9bd71cdcb07cf34a891d5c",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "entryImage": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    },
+    "otherKind": {
+      "id": "monster-901b840e24b69c4ac17d622a",
+      "name": "Giant Fire Beetle",
+      "kind": "monster",
+      "group": "Vermin",
+      "groups": [
+        "Vermin"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        }
+      ],
+      "versions": [
+        {
+          "key": "MM:325:https://5e.tools/bestiary.html#giant%20fire%20beetle_mm",
+          "publication": "Monster Manual (2014)",
+          "sourceCode": "MM",
+          "edition": "2014 fifth edition",
+          "page": 325,
+          "source": "https://5e.tools/bestiary.html#giant%20fire%20beetle_mm",
+          "description": "A Small beast with challenge rating 0. Listed habitats: underdark. Named abilities include Illumination, Bite.",
+          "references": [],
+          "stats": [
+            [
+              "Type",
+              "beast"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Alignment",
+              "unaligned"
+            ],
+            [
+              "Armor class",
+              "13 · natural armor"
+            ],
+            [
+              "Hit points",
+              "4"
+            ],
+            [
+              "Hit dice",
+              "1d6 + 1"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Challenge",
+              "0"
+            ],
+            [
+              "Strength",
+              "8"
+            ],
+            [
+              "Dexterity",
+              "10"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "1"
+            ],
+            [
+              "Wisdom",
+              "7"
+            ],
+            [
+              "Charisma",
+              "3"
+            ],
+            [
+              "Passive Perception",
+              "8"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Senses",
+              "lines": [
+                "blindsight 30 ft."
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Illumination · 10-foot radius"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Bite · Melee attack · +1 to hit · 1d6 - 1 slashing damage · reach 5 ft."
+              ]
+            }
+          ],
+          "status": "Encounter reference",
+          "images": [],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "blindsight 30 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "XMM:357:https://5e.tools/bestiary.html#giant%20fire%20beetle_xmm",
+          "publication": "Monster Manual (2025)",
+          "sourceCode": "XMM",
+          "edition": "2024 fifth edition",
+          "page": 357,
+          "source": "https://5e.tools/bestiary.html#giant%20fire%20beetle_xmm",
+          "description": "A Small beast with challenge rating 0. Listed habitats: underdark. Named abilities include Illumination, Bite.",
+          "references": [
+            {
+              "label": "Bright Light (rule)",
+              "url": "https://5e.tools/variantrules.html#bright%20light_xphb",
+              "local": {
+                "entry": "compendium-d5c5fbed659a5e41d72c49eb",
+                "version": "XPHB:362:https://5e.tools/variantrules.html#bright%20light_xphb"
+              },
+              "preview": {
+                "name": "Bright Light",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-d5c5fbed659a5e41d72c49eb",
+                  "version": "XPHB:362:https://5e.tools/variantrules.html#bright%20light_xphb"
+                }
+              }
+            },
+            {
+              "label": "Dim Light (rule)",
+              "url": "https://5e.tools/variantrules.html#dim%20light_xphb",
+              "local": {
+                "entry": "compendium-f8257036fcfd110c092b6f01",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#dim%20light_xphb"
+              },
+              "preview": {
+                "name": "Dim Light",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 366,
+                "local": {
+                  "entry": "compendium-f8257036fcfd110c092b6f01",
+                  "version": "XPHB:366:https://5e.tools/variantrules.html#dim%20light_xphb"
+                }
+              }
+            },
+            {
+              "label": "Panther (creature)",
+              "url": "https://5e.tools/bestiary.html#panther_xmm",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              },
+              "preview": {
+                "name": "Panther",
+                "group": "Beast",
+                "publication": "Monster Manual (2024)",
+                "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+                "local": {
+                  "entry": "beast-346793476af7c0a55cfa62ab",
+                  "version": "b2bb83792ec748263d8b7b46"
+                }
+              }
+            },
+            {
+              "label": "Giant Goat (creature)",
+              "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              },
+              "preview": {
+                "name": "Giant Goat",
+                "group": "Beast",
+                "publication": "Monster Manual (2024)",
+                "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+                "local": {
+                  "entry": "beast-6f3ba88f8055270588c02a34",
+                  "version": "426fa41934a075969d8d0faf"
+                }
+              }
+            }
+          ],
+          "stats": [
+            [
+              "Type",
+              "beast"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Alignment",
+              "unaligned"
+            ],
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "4"
+            ],
+            [
+              "Hit dice",
+              "1d6 + 1"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Challenge",
+              "0"
+            ],
+            [
+              "Strength",
+              "8"
+            ],
+            [
+              "Dexterity",
+              "10"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "1"
+            ],
+            [
+              "Wisdom",
+              "7"
+            ],
+            [
+              "Charisma",
+              "3"
+            ],
+            [
+              "Passive Perception",
+              "8"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Senses",
+              "lines": [
+                "Blindsight 30 ft."
+              ]
+            },
+            {
+              "title": "Damage resistances",
+              "lines": [
+                "fire"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Illumination · 10-foot radius · Bright Light · Dim Light"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Bite · Melee attack · +1 to hit · 1 Fire damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Animals"
+              ]
+            }
+          ],
+          "status": "Encounter reference",
+          "images": [],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Blindsight 30 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 361,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                  }
+                }
+              }
+            ],
+            "Damage resistances": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Illumination · 10-foot radius · Bright Light · Dim Light": [
+              {
+                "start": 32,
+                "end": 44,
+                "target": {
+                  "name": "Bright Light",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 362,
+                  "local": {
+                    "entry": "compendium-d5c5fbed659a5e41d72c49eb",
+                    "version": "XPHB:362:https://5e.tools/variantrules.html#bright%20light_xphb"
+                  }
+                }
+              },
+              {
+                "start": 47,
+                "end": 56,
+                "target": {
+                  "name": "Dim Light",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 366,
+                  "local": {
+                    "entry": "compendium-f8257036fcfd110c092b6f01",
+                    "version": "XPHB:366:https://5e.tools/variantrules.html#dim%20light_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "d08248faf9f3542696194e93",
+          "publication": "Revised v3.5 SRD (Monsters)",
+          "edition": "3.5 edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "16"
+            ],
+            [
+              "Hit points",
+              "4"
+            ],
+            [
+              "Hit dice",
+              "1d8"
+            ],
+            [
+              "Challenge",
+              "1/3"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Vermin"
+            ],
+            [
+              "Speed",
+              "0 3 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+            ],
+            [
+              "Initiative",
+              "0"
+            ],
+            [
+              "Touch armor class",
+              "11"
+            ],
+            [
+              "Flat-footed armor class",
+              "16"
+            ],
+            [
+              "Base attack bonus",
+              "0"
+            ],
+            [
+              "Grapple modifier",
+              "-4"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Fort +2",
+                "Ref +0",
+                "Will +0"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +1 to hit"
+              ]
+            }
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    }
+  }
+]

@@ -1,0 +1,547 @@
+{
+  "entries": [
+    "Agony\tmonster\tUndead\tSpelljammer: Adventures in Space\t2014 fifth edition\tWizards of the Coast\t\t4\n",
+    "Flapjack\tmonster\tAberration\tSpelljammer: Adventures in Space\t2014 fifth edition\tWizards of the Coast\t\t1/8\n"
+  ],
+  "profiles": [
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Spelljammer: Adventures in Space",
+      "name": "Agony",
+      "kind": "monster",
+      "ruleset": "dnd-5e-2014",
+      "combat": {
+        "armorClass": 11,
+        "hitPoints": 45,
+        "hitDice": "10d8",
+        "challenge": "4",
+        "creatureType": "Undead",
+        "size": "Medium",
+        "speed": {
+          "walk": 0,
+          "fly": 40
+        },
+        "speedConditions": {
+          "fly": "(hover)"
+        },
+        "canHover": true,
+        "abilities": {
+          "Str": 7,
+          "Dex": 13,
+          "Con": 10,
+          "Int": 10,
+          "Wis": 12,
+          "Cha": 17
+        },
+        "passivePerception": 11,
+        "habitats": [
+          "underdark",
+          "urban"
+        ],
+        "traitNames": [
+          "Ethereal Sight",
+          "Incorporeal Movement"
+        ],
+        "actionNames": [
+          "Withering Touch",
+          "Etherealness",
+          "Horrifying Visage",
+          "Possession (Recharge 6)"
+        ],
+        "attacks": [
+          {
+            "name": "Withering Touch",
+            "hitBonus": 5,
+            "mode": "melee",
+            "damage": [
+              {
+                "average": 17,
+                "dice": "4d6 + 3",
+                "type": "necrotic"
+              }
+            ],
+            "reach": 5
+          }
+        ]
+      }
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Spelljammer: Adventures in Space",
+      "name": "Flapjack",
+      "kind": "monster",
+      "ruleset": "dnd-5e-2014",
+      "combat": {
+        "armorClass": 12,
+        "hitPoints": 7,
+        "hitDice": "2d6",
+        "challenge": "1/8",
+        "creatureType": "Aberration",
+        "size": "Small",
+        "speed": {
+          "walk": 5,
+          "fly": 30
+        },
+        "abilities": {
+          "Str": 6,
+          "Dex": 15,
+          "Con": 10,
+          "Int": 14,
+          "Wis": 14,
+          "Cha": 11
+        },
+        "passivePerception": 12,
+        "habitats": [
+          "underdark"
+        ],
+        "traitNames": [
+          "Advanced Telepathy",
+          "Prone Deficiency",
+          "Telepathic Shroud"
+        ],
+        "actionNames": [
+          "Tendrils",
+          "Stench Spray (1/Day)"
+        ],
+        "attacks": [
+          {
+            "name": "Tendrils",
+            "hitBonus": 4,
+            "mode": "melee",
+            "damage": [
+              {
+                "average": 4,
+                "dice": "1d4 + 2",
+                "type": "piercing"
+              },
+              {
+                "average": 2,
+                "dice": "1d4",
+                "type": "acid"
+              }
+            ],
+            "reach": 5
+          }
+        ]
+      }
+    }
+  ],
+  "references": [
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Spelljammer: Adventures in Space",
+      "name": "Agony",
+      "kind": "monster",
+      "pageUrl": "https://5e.tools/bestiary.html#agony_lox",
+      "artwork": [
+        {
+          "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/LoX/Agony.webp",
+          "kind": "token"
+        }
+      ]
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Spelljammer: Adventures in Space",
+      "name": "Flapjack",
+      "kind": "monster",
+      "pageUrl": "https://5e.tools/bestiary.html#flapjack_lox",
+      "artwork": [
+        {
+          "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/LoX/Flapjack%20the%20Flumph.webp",
+          "artist": "Suzanne Helmigh",
+          "kind": "illustration"
+        }
+      ]
+    }
+  ],
+  "image-credits.json": [
+    {
+      "name": "Agony",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "entityKind": "monster",
+      "file": "images/monsters/agony/lox-1.webp",
+      "sha256": "f82bec3ec6c5b858174eb94997a049159c1492b7222710f5f6fe18c44bd5704f",
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/LoX/Agony.webp",
+      "kind": "token"
+    },
+    {
+      "name": "Flapjack",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "entityKind": "monster",
+      "file": "images/monsters/flapjack/lox-1.webp",
+      "sha256": "c0cd0586c548b841db858cceb9fdeed3579b887257eafd982c16cc3f009d2fea",
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/LoX/Flapjack%20the%20Flumph.webp",
+      "artist": "Suzanne Helmigh",
+      "kind": "illustration"
+    }
+  ],
+  "monster-context.json": [
+    {
+      "name": "Agony",
+      "group": "Creatures",
+      "source": "LoX",
+      "publication": "Light of Xaryxis",
+      "edition": "2014 fifth edition",
+      "page": 34,
+      "url": "https://5e.tools/bestiary.html#agony_lox",
+      "description": "A Medium undead with challenge rating 4. Named abilities include Ethereal Sight, Incorporeal Movement, Withering Touch.",
+      "facts": [
+        [
+          "Type",
+          "undead"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Alignment",
+          "any alignment"
+        ],
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "45"
+        ],
+        [
+          "Hit dice",
+          "10d8"
+        ],
+        [
+          "Speed",
+          "walk 0 ft., fly 40 (hover) (hover)"
+        ],
+        [
+          "Challenge",
+          "4"
+        ],
+        [
+          "Strength",
+          "7"
+        ],
+        [
+          "Dexterity",
+          "13"
+        ],
+        [
+          "Constitution",
+          "10"
+        ],
+        [
+          "Intelligence",
+          "10"
+        ],
+        [
+          "Wisdom",
+          "12"
+        ],
+        [
+          "Charisma",
+          "17"
+        ],
+        [
+          "Passive Perception",
+          "11"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Senses",
+          "lines": [
+            "darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "any languages it knew in life"
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "acid, fire, lightning, thunder, bludgeoning, piercing, slashing from nonmagical attacks"
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "cold, necrotic, poison"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained"
+          ]
+        },
+        {
+          "title": "Traits reference",
+          "lines": [
+            "Ethereal Sight",
+            "Incorporeal Movement · 1d10 force damage"
+          ]
+        },
+        {
+          "title": "Actions reference",
+          "lines": [
+            "Withering Touch · Melee attack · +5 to hit · 4d6 + 3 necrotic damage · reach 5 ft.",
+            "Etherealness",
+            "Horrifying Visage · DC 13 Wisdom save · 1d4 × 10 · 1 minute · 24 hours · within 60 feet · Repeat the save at the end of each turn · Frightened · Greater restoration",
+            "Possession (Recharge 6) · DC 13 Charisma save · within 5 feet · 24 hours · 0 hit points · Incapacitated · Charmed · Frightened · Dispel evil and good"
+          ]
+        },
+        {
+          "title": "Adapted from",
+          "lines": [
+            "Ghost"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "Frightened (condition)",
+          "url": "https://5e.tools/conditionsdiseases.html#frightened_phb"
+        },
+        {
+          "label": "Greater restoration (spell)",
+          "url": "https://5e.tools/spells.html#greater%20restoration_phb"
+        },
+        {
+          "label": "Incapacitated (condition)",
+          "url": "https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+        },
+        {
+          "label": "Charmed (condition)",
+          "url": "https://5e.tools/conditionsdiseases.html#charmed_phb"
+        },
+        {
+          "label": "Dispel evil and good (spell)",
+          "url": "https://5e.tools/spells.html#dispel%20evil%20and%20good_phb"
+        },
+        {
+          "label": "Ghost (creature)",
+          "url": "https://5e.tools/bestiary.html#ghost_mm"
+        }
+      ],
+      "status": "Encounter reference"
+    },
+    {
+      "name": "Flapjack",
+      "group": "Creatures",
+      "source": "LoX",
+      "publication": "Light of Xaryxis",
+      "edition": "2014 fifth edition",
+      "page": 13,
+      "url": "https://5e.tools/bestiary.html#flapjack_lox",
+      "description": "A Small aberration with challenge rating 1/8. Named abilities include Advanced Telepathy, Prone Deficiency, Telepathic Shroud.",
+      "facts": [
+        [
+          "Type",
+          "aberration"
+        ],
+        [
+          "Size",
+          "Small"
+        ],
+        [
+          "Alignment",
+          "lawful good"
+        ],
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "7"
+        ],
+        [
+          "Hit dice",
+          "2d6"
+        ],
+        [
+          "Speed",
+          "walk 5 ft., fly 30 ft."
+        ],
+        [
+          "Challenge",
+          "1/8"
+        ],
+        [
+          "Strength",
+          "6"
+        ],
+        [
+          "Dexterity",
+          "15"
+        ],
+        [
+          "Constitution",
+          "10"
+        ],
+        [
+          "Intelligence",
+          "14"
+        ],
+        [
+          "Wisdom",
+          "14"
+        ],
+        [
+          "Charisma",
+          "11"
+        ],
+        [
+          "Passive Perception",
+          "12"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Skills",
+          "lines": [
+            "Arcana +4, History +4, Religion +4"
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "understands Undercommon but can't speak, telepathy 60 ft."
+          ]
+        },
+        {
+          "title": "Damage vulnerabilities",
+          "lines": [
+            "psychic"
+          ]
+        },
+        {
+          "title": "Traits reference",
+          "lines": [
+            "Advanced Telepathy · within 60 feet · Surprised",
+            "Prone Deficiency · DC 10 Dexterity save · Prone · Incapacitated",
+            "Telepathic Shroud"
+          ]
+        },
+        {
+          "title": "Actions reference",
+          "lines": [
+            "Tendrils · Melee attack · +4 to hit · 1d4 + 2 piercing damage · 1d4 acid damage · DC 10 Constitution save · reach 5 ft. · Lesser restoration",
+            "Stench Spray (1/Day) · DC 10 Dexterity save · 1d4 · 15-foot cone · Poisoned"
+          ]
+        },
+        {
+          "title": "Spellcasting reference",
+          "lines": [
+            "Spellcasting · Intelligence · DC 12 · Mage hand · Minor illusion · Magic missile · Unseen servant",
+            "At will · mage hand, minor illusion",
+            "1/day each · magic missile, unseen servant"
+          ]
+        },
+        {
+          "title": "Adapted from",
+          "lines": [
+            "Flumph"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "Mage hand (spell)",
+          "url": "https://5e.tools/spells.html#mage%20hand_phb"
+        },
+        {
+          "label": "Minor illusion (spell)",
+          "url": "https://5e.tools/spells.html#minor%20illusion_phb"
+        },
+        {
+          "label": "Magic missile (spell)",
+          "url": "https://5e.tools/spells.html#magic%20missile_phb"
+        },
+        {
+          "label": "Unseen servant (spell)",
+          "url": "https://5e.tools/spells.html#unseen%20servant_phb"
+        },
+        {
+          "label": "Surprised (status)",
+          "url": "https://5e.tools/conditionsdiseases.html#surprised_phb"
+        },
+        {
+          "label": "Prone (condition)",
+          "url": "https://5e.tools/conditionsdiseases.html#prone_phb"
+        },
+        {
+          "label": "Incapacitated (condition)",
+          "url": "https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+        },
+        {
+          "label": "Lesser restoration (spell)",
+          "url": "https://5e.tools/spells.html#lesser%20restoration_phb"
+        },
+        {
+          "label": "Poisoned (condition)",
+          "url": "https://5e.tools/conditionsdiseases.html#poisoned_phb"
+        },
+        {
+          "label": "Flumph (creature)",
+          "url": "https://5e.tools/bestiary.html#flumph_mm"
+        }
+      ],
+      "status": "Encounter reference"
+    }
+  ],
+  "compendium-index.json": [
+    {
+      "name": "Agony",
+      "group": "Creatures",
+      "source": "LoX",
+      "publication": "Light of Xaryxis",
+      "page": 34,
+      "url": "https://5e.tools/bestiary.html#agony_lox",
+      "facts": [],
+      "sections": [],
+      "references": []
+    },
+    {
+      "name": "Flapjack",
+      "group": "Creatures",
+      "source": "LoX",
+      "publication": "Light of Xaryxis",
+      "page": 13,
+      "url": "https://5e.tools/bestiary.html#flapjack_lox",
+      "facts": [],
+      "sections": [],
+      "references": [
+        {
+          "label": "Mage hand (spell)",
+          "url": "https://5e.tools/spells.html#mage%20hand_phb"
+        },
+        {
+          "label": "Minor illusion (spell)",
+          "url": "https://5e.tools/spells.html#minor%20illusion_phb"
+        },
+        {
+          "label": "Magic missile (spell)",
+          "url": "https://5e.tools/spells.html#magic%20missile_phb"
+        },
+        {
+          "label": "Unseen servant (spell)",
+          "url": "https://5e.tools/spells.html#unseen%20servant_phb"
+        }
+      ]
+    }
+  ]
+}

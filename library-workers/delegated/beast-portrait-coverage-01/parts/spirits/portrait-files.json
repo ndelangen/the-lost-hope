@@ -1,0 +1,17 @@
+[
+  {
+    "artGroup": "dinosaur-spirit-ankylosaur",
+    "sha256": "d9a6dc2eed0f1e497a578ca81afdd36c90353ecad2303c35ecff0414d313ed94",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "dinosaur-spirit-triceratops",
+    "sha256": "046d92d9efd0e06be7db46c4a31f217bfb8528b6dcf9701e2e361a320f432347",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "dinosaur-spirit-tyrannosaur",
+    "sha256": "b4e218fb42376bbff8c6cac7cecdea704088c543749f12038cbf2f104eae9daa",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Whisper Gnome",
+    "kind": "species",
+    "group": "3.5 edition",
+    "global": true,
+    "version": {
+      "key": "9caa043c27200fd9fb213fa2",
+      "publication": "Races of Stone (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144379M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Gnome)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Small Humanoid (Gnome) with 30-ft. base land speed. +2 Dexterity, +2 Constitution, −2 Strength, −2 Charisma.",
+            "Small size gives +1 to AC and attacks, +4 size on Hide, and uses Small weapons. Lifting and carrying capacity is three-quarters of Medium.",
+            "Low-light vision doubles normal human range and preserves color and detail. Darkvision sees in black and white out to 60 ft.",
+            "Weapon Familiarity treats the gnome hooked hammer as a martial weapon.",
+            "+1 racial on attack rolls against kobolds and goblinoids. +4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+            "+4 racial bonus on Hide and Move Silently, and +2 racial on Listen and Spot. The size and racial Hide bonuses total +8 before ranks and other modifiers.",
+            "Racial silence 1/day at caster level 1, regardless of Charisma. Center it on the Whisper Gnome’s body. The 20-ft.-radius emanation moves with the gnome and lasts 1 minute, dismissible. It blocks sound and verbal spell components.",
+            "Charisma 10 or higher also grants ghost sound, mage hand, and message once per day each. Caster level 1. Save DC where applicable is 10 + Charisma modifier + spell level.",
+            "The language description lists Gnome and says most also speak Terran. The printed traits give no separate bonus language list or level adjustment. Favored class Rogue.",
+            "The optional Extra Silence feat sets daily silence uses to 3 + Charisma bonus. Each further selection adds three uses. Silencing Strike requires sneak attack and spends a daily silence use on a declared melee sneak attack. On a hit that deals sneak attack damage, silence centers on the target for 1 round per character level with no save."
+          ]
+        },
+        {
+          "title": "Original NPC · Nella Sedgefold",
+          "lines": [
+            "Night courier and Rogue.",
+            "Motive. Deliver a ledger slip before the postern closes and find out why its intended recipient missed the lantern signal.",
+            "Hook. Nella can approach the postern while the party checks the dark lantern and its keeper.",
+            "Whisper Gnome night courier, Rogue 1 · Provisional CR 1. ECL 1. · Small Humanoid (Gnome)",
+            "AC 16 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Tovin Larkwell",
+          "lines": [
+            "Bellwright and Fighter.",
+            "Motive. Weigh the cracked clapper before the crew recasts it.",
+            "Hook. Tovin can surround the repair platform with silence while the party steadies the bell and lowers the clapper.",
+            "Whisper Gnome bellwright, Fighter 1 · Provisional CR 1. ECL 1. · Small Humanoid (Gnome)",
+            "AC 16 · HP 13 (1d10+3) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Nella Sedgefold": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Nella Sedgefold",
+              "group": "Whisper Gnome",
+              "publication": "Whisper Gnome night courier, Rogue 1",
+              "local": {
+                "entry": "npc-00d218872318744aa2aa54aa",
+                "version": "5fd778e62c8dd8c20d3fcf8a"
+              }
+            }
+          }
+        ],
+        "Original NPC · Tovin Larkwell": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Tovin Larkwell",
+              "group": "Whisper Gnome",
+              "publication": "Whisper Gnome bellwright, Fighter 1",
+              "local": {
+                "entry": "npc-a80ca1dfe01aecc2b42bf4ab",
+                "version": "4d4b6af9e4b6c2cb5cd0daf4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Whisper Gnome": true,
+      "whisper gnome silence": true,
+      "whisper gnome darkvision": true,
+      "whisper gnome silencing strike": true,
+      "whisper gnome night courier": true,
+      "whisper gnome bellwright": true
+    },
+    "hash": "a1d21eff2d78268ef5272d9dc1cc0e064ceab273214687d729d6a173b5de7ce4",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Stone (2004)",
+    "defaultVersionKey": "9caa043c27200fd9fb213fa2",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "Gas Spore Fungus": {
+    "sha256": "1a0bd592e399c98b598c0bcac6e1ca6d9aecdcbead7bbe9b009d27d9e21fec2a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Tree Blight": {
+    "sha256": "79640fa86dec09bb1e87e77c6e4df2d0080eca80895a61b47cd53a0909c4b7c2",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Bugbear Stalker": {
+    "sha256": "4833e32ed9b9feb97f09d305edfe1802388f18d44f7352fcd0e9da6a929dc000",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Bugbear Warrior": {
+    "sha256": "4833e32ed9b9feb97f09d305edfe1802388f18d44f7352fcd0e9da6a929dc000",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Centaur Trooper": {
+    "sha256": "e0dac54c92f7f849d248b25c46a4dfeaaf102c5f4203bb4afe2c518a893f0f3f",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Gnoll Warrior": {
+    "sha256": "c5f269f04ad4f80f320946b3555afebe4b8344fa2d15171f51847e9d5f7eba4a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Goblin Minion": {
+    "sha256": "bb95754805c1ea10bae529b6664e5ae2f8570621a2249ceeadbea67c30477244",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Goblin Warrior": {
+    "sha256": "bb95754805c1ea10bae529b6664e5ae2f8570621a2249ceeadbea67c30477244",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Hobgoblin Warrior": {
+    "sha256": "03e9bca4884264abcdad8548007a6131bf5b771949768ef84c6f71dc10361368",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Kobold Warrior": {
+    "sha256": "9f23b91aaddbf0d98cc2f531c36f9e4f6d4da7bb2616da8ea56864ca388b2fcc",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Gnoll Demoniac": {
+    "sha256": "c81f667da19c0658721f599b66f3b495e8b1293f7de33cf77594b661b07d4169",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Larva": {
+    "sha256": "1da5ff125cfe2d125c026ce915d2e6c920d9d80ef4c77b53e4709fadfaccdaa2",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Guard Captain": {
+    "sha256": "b8cc94c34dc986ac7f4296060d1a036fbaa1725ae46305437eb68963d69bf9e8",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Priest Acolyte": {
+    "sha256": "8e4c451b68fc9783b4ca99fa8ed65e3030dcd2ca3a56fd6df4a1fe93350fb4e0",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Warrior Infantry": {
+    "sha256": "a7d9b4042c3db312fd17c4c4b0bb496d9924e188ad4ff8a2bc7d302f76daff84",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Warrior Veteran": {
+    "sha256": "fed99201f5a6fa151b3015f5f5bf2da3b5598679b37371b71c07c7b321acd996",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Tough": {
+    "sha256": "2259f690225b19784ece8caa34a16d590a7d8b4e73f623eebd40067d26743b8f",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Tough Boss": {
+    "sha256": "74eab767295b89a71f384c29293de7b277552c6796d5848044161abfb8f195d7",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Archpriest": {
+    "sha256": "0f6307e04c9a9cbb8a948ce479c8e0bcd87f0b42967864cf0db589443ed25386",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Cultist Fanatic": {
+    "sha256": "88b77dc536db561906fbcdc9838dc893dad44b4552349708f3a769d6cbcb6fc0",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Merfolk Skirmisher": {
+    "sha256": "844fa3bd200626f8d52f114dcb41dcd56c267675e81b04898b0e03665efb96c6",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Sahuagin Warrior": {
+    "sha256": "f84f293886d3eb808f6be0ebc7cc65ae384f7f1d0ce390feda382be54732f369",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ogrillon Ogre": {
+    "sha256": "c854cc4c1f8e3b835a79f4fed458cfecda657aa41328bdfa6ab81eebeeba3a0e",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Grick Ancient": {
+    "sha256": "e0bc9aa77285a0589bb68da779f838b483bf5e70256dbd091fd34f6da9fb862b",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Yuan-ti Infiltrator": {
+    "sha256": "21479ff71b67126a7423a2ddd77b5b4c865c3d7f5df4f7572db29be70c939934",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Vampire Nightbringer": {
+    "sha256": "b2c76049735d8973466b4458b7895622c16d84ea36fa7693c1168160de600ef9",
+    "servedBefore": false,
+    "donorPrinting": "Vampire Warrior (archived portrait)"
+  },
+  "Graveyard Revenant": {
+    "sha256": "0599e3e129ef836ba1a652c93005e7a42fa126c132ee61bcf8e9286cac5f2174",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Death Knight Aspirant": {
+    "sha256": "3ebe9e8fdbdadad34e9fa60abfd11a8793834965461cd07480d5154e64998fe4",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Will-o’-Wisp": {
+    "sha256": "456e4e3b83b9f692731c1f20dcc23403f15bf4cfadec7cd6ecf84d82ee006b20",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Troll Limb": {
+    "sha256": "3206838d0a0d09ab26049b517780c367763309ab45bcb5825176b18882557fa9",
+    "servedBefore": false,
+    "donorPrinting": "Troll (Loathsome Limb; Severed Arm) (archived portrait)"
+  }
+}

@@ -1,0 +1,337 @@
+[
+  {
+    "name": "Mummy",
+    "statBlock": {
+      "name": "Mummy",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, lawful evil",
+      "ac": 11,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "20 ft.",
+      "cr": "3",
+      "xp": 700,
+      "description": "A preserved tomb guardian rises when someone breaks the conditions of its burial rite.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Wis": 2
+      },
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Necrotic and poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Undead Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. It can use Dreadful Glare and make one Rotting Fist attack.\nRotting Fist. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. A creature hit must pass a DC 12 Constitution save or contract mummy rot. While cursed, it cannot regain HP and loses 10 (3d6) maximum HP for every 24 hours that pass. At 0 maximum HP it dies and crumbles to dust. Remove Curse or other magic can end the curse.\nDreadful Glare. Choose one creature the mummy sees within 60 ft. If it can see the mummy, it must make a DC 11 Wisdom save against the magic. On a failure it is Frightened until the end of the mummy's next turn, and a failure by 5 or more also makes it Paralyzed for that duration. A successful save grants 24 hours of immunity to Dreadful Glare from all ordinary mummies.",
+        "Printed source": "Monster Manual (2014), pp. 227–228. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Mummy Lord",
+    "statBlock": {
+      "name": "Mummy Lord",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, lawful evil",
+      "ac": 17,
+      "hp": 97,
+      "hitDice": "13d8 + 39",
+      "speed": "20 ft.",
+      "cr": "15",
+      "xp": 13000,
+      "description": "A dead ruler or priest retains its will and magic. It rises again unless its hidden heart is destroyed.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "History": 5,
+        "Religion": 5
+      },
+      "savingThrows": {
+        "Con": 8,
+        "Int": 5,
+        "Wis": 9,
+        "Cha": 8
+      },
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage immunities": "Necrotic and poison. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.\nRejuvenation. A destroyed mummy lord with an intact heart returns after 24 hours at full HP. The new body appears within 5 ft. of the heart. The heart has AC 5 and 25 HP. Only fire damage can harm it. Burning it to ashes prevents further re-forming.\nUndead Nature. It needs no air, food, drink, or sleep.",
+        "Spellcasting": "10th-level cleric spellcaster. Wisdom is its spellcasting ability (save DC 17, +9 on spell attacks). It counts as a cleric when attuning to or using items that require that class or spell list.\nCantrips at will. Sacred Flame and Thaumaturgy.\n1st level, 4 slots. Command, Guiding Bolt, Shield of Faith.\n2nd level, 3 slots. Hold Person, Silence, Spiritual Weapon.\n3rd level, 3 slots. Animate Dead, Dispel Magic.\n4th level, 3 slots. Divination, Guardian of Faith.\n5th level, 2 slots. Contagion, Insect Plague.\n6th level, 1 slot. Harm.",
+        "Actions": "Multiattack. It can use Dreadful Glare and make one Rotting Fist attack.\nRotting Fist. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 14 (3d6 + 4) bludgeoning damage plus 21 (6d6) necrotic damage. A creature hit must pass a DC 16 Constitution save or contract mummy rot. While cursed, it cannot regain HP and loses 10 (3d6) maximum HP for every 24 hours that pass. At 0 maximum HP it dies and crumbles to dust. Remove Curse or other magic can end the curse.\nDreadful Glare. Choose one creature the mummy lord sees within 60 ft. If it can see the mummy lord, it must make a DC 16 Wisdom save against the magic. On a failure it is Frightened until the end of the mummy lord's next turn, and a failure by 5 or more also makes it Paralyzed for that duration. A successful save grants 24 hours of immunity to Dreadful Glare from all mummies and mummy lords.",
+        "Legendary actions": "It has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at a time, at the end of another creature's turn. It cannot use them while Incapacitated or otherwise unable to act. If surprised, it must wait until its first turn has ended.\nAttack. Make one Rotting Fist attack or use Dreadful Glare.\nBlinding Dust. Every creature within 5 ft. makes a DC 16 Constitution save or is Blinded until the end of its next turn.\nBlasphemous Word (2 actions). Every non-undead creature within 10 ft. that hears the magical utterance makes a DC 16 Constitution save or is Stunned until the end of the mummy lord's next turn.\nChannel Negative Energy (2 actions). Creatures within 60 ft., including those behind barriers or around corners, cannot regain HP until the end of the mummy lord's next turn.\nWhirlwind of Sand (2 actions). It turns into sand, moves up to 60 ft., and reforms. During this movement it is immune to damage and cannot be Grappled, Petrified, knocked Prone, Restrained, or Stunned. It keeps worn and carried equipment.",
+        "Lair actions": "In its lair the mummy lord is CR 16 (15,000 XP). At initiative count 20, losing ties, it can choose one effect and cannot repeat the previous round's effect. It cannot do so while Incapacitated or otherwise unable to act. If surprised, it must wait until after its first turn.\nEach undead in the lair knows the exact location of every living creature within 120 ft. of itself until initiative count 20 next round.\nEach undead in the lair has advantage on saves against effects that turn undead until initiative count 20 next round.\nUntil initiative count 20 next round, a non-undead creature attempting a spell of 4th level or lower in the lair feels pain and can choose a different action. If it tries to cast the spell, it makes a DC 16 Constitution save. On a failure it takes 1d6 necrotic damage per spell level, and the spell is wasted without effect.",
+        "Regional effects": "Food brought into the lair molds instantly, water evaporates at once, and other nonmagical drinks spoil. A divination spell cast there by anyone other than the mummy lord has a 25 percent chance to give misleading results chosen by the DM. An existing chance of failure or unreliability increases by 25 percentage points. Anyone who takes treasure from the lair has disadvantage on every saving throw until the treasure is returned or Remove Curse or other magic lifts the curse. All regional effects end as soon as the mummy lord is destroyed.",
+        "Printed source": "Monster Manual (2014), pp. 227–229. Resistance and immunity wording, spellcasting prerequisites, and legendary and lair action timing follow the official errata."
+      }
+    }
+  },
+  {
+    "name": "Wight",
+    "statBlock": {
+      "name": "Wight",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, neutral evil",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "description": "A once-mortal warrior keeps its ambitions in undeath and raises the victims of its life drain as servants.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "savingThrows": {},
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Studded leather.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, and slashing damage from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Sunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.\nUndead Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Longsword attacks, or make two Longbow attacks. Life Drain can replace one Longsword attack.\nLife Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 5 (1d6 + 2) necrotic damage. The target makes a DC 13 Constitution save. On a failure its maximum HP falls by the damage it took, until it finishes a long rest. It dies if the reduction takes its maximum HP to 0. A humanoid this attack kills rises as a Zombie under the wight's control after 24 hours unless it is restored to life or its body is destroyed. The wight can control up to 12 zombies at a time.\nLongsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) when used with both hands.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 300. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Wraith",
+    "statBlock": {
+      "name": "Wraith",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, neutral evil",
+      "ac": 13,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "0 ft., fly 60 ft. (hover)",
+      "cr": "5",
+      "xp": 1800,
+      "description": "An incorporeal spirit that drains the living and binds the restless dead to its service.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, lightning, and thunder. Bludgeoning, piercing, and slashing damage from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Necrotic and poison.",
+        "Condition immunities": "Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Incorporeal Movement. It treats creatures and objects as difficult terrain when moving through them. Ending its turn inside an object deals 5 (1d10) force damage to it.\nSunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.\nUndead Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Life Drain. Melee weapon attack, +6 to hit, reach 5 ft., one creature. Hit 21 (4d8 + 3) necrotic damage. The target makes a DC 14 Constitution save. On a failure its maximum HP falls by the damage it took, until it finishes a long rest. It dies if the reduction takes its maximum HP to 0.\nCreate Specter. Choose a humanoid within 10 ft. that died violently no more than 1 minute ago. Its spirit rises as a Specter in the corpse's space or the nearest unoccupied space. The wraith controls the specter and can control up to seven specters at once.",
+        "Printed source": "Monster Manual (2014), p. 302. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Zombie",
+    "statBlock": {
+      "name": "Zombie",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, neutral evil",
+      "ac": 8,
+      "hp": 22,
+      "hitDice": "3d8 + 9",
+      "speed": "20 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "description": "A reanimated corpse that follows simple orders and keeps advancing through danger.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Wis": 0
+      },
+      "passivePerception": 8,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "It understands the languages it knew in life and cannot speak.",
+        "Traits": "Undead Fortitude. If damage drops it to 0 HP, make a Constitution save with a DC of 5 plus the damage taken. Skip the save for radiant damage or damage from a critical hit. On a success it drops to 1 HP.\nUndead Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Slam. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), pp. 315–316."
+      }
+    }
+  },
+  {
+    "name": "Ogre Zombie",
+    "statBlock": {
+      "name": "Ogre Zombie",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large undead, neutral evil",
+      "ac": 8,
+      "hp": 85,
+      "hitDice": "9d10 + 36",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "description": "A lumbering ogre corpse with enough strength left to swing a heavy morningstar.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Wis": 0
+      },
+      "passivePerception": 8,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "It understands Common and Giant and cannot speak.",
+        "Traits": "Undead Fortitude. If damage drops it to 0 HP, make a Constitution save with a DC of 5 plus the damage taken. Skip the save for radiant damage or damage from a critical hit. On a success it drops to 1 HP.\nUndead Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Morningstar. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), pp. 315–316."
+      }
+    }
+  }
+]

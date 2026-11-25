@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Birdfolk",
+    "publication": "Gate Pass Gazette #5",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/birdfolk",
+    "page": "Canticle of the Wing, Birdfolk traits, gifts, and paragon",
+    "creatureType": "Humanoid",
+    "supportingSources": {
+      "class": "https://a5e.tools/rules/rogue",
+      "culture": "https://a5e.tools/rules/wildling",
+      "background": "https://a5e.tools/node/4153",
+      "destiny": "https://a5e.tools/node/4119",
+      "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+      "armor": "https://a5e.tools/rules/armor",
+      "materials": "https://a5e.tools/rules/materials",
+      "weapons": "https://a5e.tools/rules/weapons",
+      "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+    },
+    "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+    "sourceDistinctions": "Uses the original Birdfolk and level-10 gifts from Gazette #5. The online page also carries later Flightless and Mystic rules outside this profile. Plain dagger has no Thrown property in A5E."
+  },
+  {
+    "name": "Cervid",
+    "publication": "Gate Pass Gazette #11",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/cervid",
+    "page": "Cervid traits, gifts, and paragon",
+    "creatureType": "Humanoid",
+    "supportingSources": {
+      "class": "https://a5e.tools/rules/herald",
+      "culture": "https://a5e.tools/rules/nomad",
+      "background": "https://a5e.tools/node/4105",
+      "destiny": "https://a5e.tools/node/4119",
+      "spells": "https://a5e.tools/spell/heroism",
+      "bless": "https://a5e.tools/spell/bless",
+      "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+      "armor": "https://a5e.tools/rules/armor",
+      "materials": "https://a5e.tools/rules/materials",
+      "weapons": "https://a5e.tools/rules/weapons",
+      "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+    },
+    "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+    "sourceDistinctions": "Regal Antlers plus the forest terrain choice. Herald spell preparation is Charisma plus half level rounded down, so level 1 with Charisma 14 prepares two."
+  },
+  {
+    "name": "Chrysalian",
+    "publication": "Gate Pass Gazette #15",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/chrysalian",
+    "page": "Chrysalian base traits, Hovering, gifts, and paragon",
+    "creatureType": "Humanoid and Fey",
+    "supportingSources": {
+      "class": "https://a5e.tools/rules/cleric",
+      "archetype": "https://a5e.tools/node/3708",
+      "culture": "https://a5e.tools/rules/nomad",
+      "background": "https://a5e.tools/node/4108",
+      "destiny": "https://a5e.tools/node/4116",
+      "cureWounds": "https://a5e.tools/spell/cure-wounds",
+      "healingWord": "https://a5e.tools/spell/healing-word",
+      "sacredFlame": "https://a5e.tools/spell/sacred-flame",
+      "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+      "armor": "https://a5e.tools/rules/armor",
+      "materials": "https://a5e.tools/rules/materials",
+      "weapons": "https://a5e.tools/rules/weapons",
+      "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+    },
+    "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+    "sourceDistinctions": "Uses the Healing Touch gift separately from Healer’s Heal Up. Her 20-lb. limit is twice the Strength score, not twice the modifier."
+  },
+  {
+    "name": "Constructed",
+    "publication": "Gate Pass Gazette #0",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/constructed",
+    "page": "Constructed traits, frame gifts, and paragon upgrades",
+    "creatureType": "Humanoid",
+    "supportingSources": {
+      "class": "https://a5e.tools/rules/rogue",
+      "culture": "https://a5e.tools/rules/cosmopolitan",
+      "background": "https://a5e.tools/node/4083",
+      "destiny": "https://a5e.tools/node/4125",
+      "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+      "armor": "https://a5e.tools/rules/armor",
+      "materials": "https://a5e.tools/rules/materials",
+      "weapons": "https://a5e.tools/rules/weapons",
+      "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+    },
+    "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+    "sourceDistinctions": "The Constructed heritage gives mechanical traits and healing limits but does not explicitly change creature type. The build applies the usual Humanoid default. Social Grace contains a grammar defect. The example uses its two languages and one tool proficiency."
+  },
+  {
+    "name": "Dreamborn",
+    "publication": "Gate Pass Gazette #4",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/dreamborn",
+    "page": "Dreamborn traits, gifts, and paragon",
+    "creatureType": "Fey",
+    "supportingSources": {
+      "class": "https://a5e.tools/rules/druid-class",
+      "culture": "https://a5e.tools/rules/dreaming-wilds",
+      "background": "https://a5e.tools/node/4108",
+      "destiny": "https://a5e.tools/node/4127",
+      "shillelagh": "https://a5e.tools/spell/shillelagh",
+      "entangle": "https://a5e.tools/spell/entangle",
+      "produceFlame": "https://a5e.tools/spell/produce-flame",
+      "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+      "armor": "https://a5e.tools/rules/armor",
+      "materials": "https://a5e.tools/rules/materials",
+      "weapons": "https://a5e.tools/rules/weapons",
+      "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+    },
+    "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+    "sourceDistinctions": "The heritage allows two gifts. This build uses Fey Whimsy and Nature Skin, and chooses ticking clocks as the aversion. Its actual size is Small, independent of apparent size."
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "commit": "4139746b131e444aeb131e2572d371ec6ea24d99",
+  "publication": "Eberron: Rising from the Last War",
+  "encounterVersions": 3,
+  "fullStatBlocks": 3,
+  "eberronRecordsWithLocalRules": 45,
+  "generatedPortraitsInstalled": 3,
+  "firstGeneratedPortraits": 3,
+  "creditedGalleriesVerified": 3,
+  "allRecentVersionsWithGeneratedPortrait": 529,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-24-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-24-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/24/results.json",
+  "searchResults": "output/dm-library/encounter-batches/24/search-results.json",
+  "nextSourcePublication": "Curse of Strahd",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Rose Durst",
+      "source": "https://www.dndbeyond.com/monsters/356626-rose-durst",
+      "challenge": "3"
+    },
+    {
+      "name": "Thorn Durst",
+      "source": "https://www.dndbeyond.com/monsters/356633-thorn-durst",
+      "challenge": "3"
+    },
+    {
+      "name": "Wereraven",
+      "source": "https://www.dndbeyond.com/monsters/17377-wereraven",
+      "challenge": "2"
+    }
+  ],
+  "catalogFollowUp": "Three imported Inspired (Quori Vessel; …) aliases still carry an incorrect Explorer's Guide to Wildemount source tag."
+}

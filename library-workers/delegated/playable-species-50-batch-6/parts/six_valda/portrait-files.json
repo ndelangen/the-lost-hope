@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mandrake",
+    "file": "",
+    "sha256": "52297a1fb3b969534d53739c0cd00462ed3ecefae008710c7b2e652e537c7780",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Geppettin",
+    "file": "",
+    "sha256": "71cd75bc9ae947a2d0dfa662dcb67fca863fd87025595e588b17d2476fc852ce",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Spirithost",
+    "file": "",
+    "sha256": "afd51299bc96437041800ae27749682d3aae7e93ac6a522b44eb195da591fe1d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

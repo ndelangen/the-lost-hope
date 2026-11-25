@@ -1,0 +1,22 @@
+{
+  "baseline": "0ee65129ee5f823c5079e91dea88e610f6b8b76d",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 4,
+  "testedConditionalRuleProfiles": 4,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 4,
+  "portraitCoverage": {
+    "Giant Ant": "generated",
+    "Giant Crab": "generated",
+    "Carnivorous Ape": "generated",
+    "Giant Wolverine": "generated"
+  },
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "printedMovementRatesPreserved": true,
+  "separatePuntAndBankBehaviorVerified": true,
+  "banquetAttackOrderPreserved": true,
+  "existingDragonflyPreserved": true,
+  "noChallengeImported": true
+}

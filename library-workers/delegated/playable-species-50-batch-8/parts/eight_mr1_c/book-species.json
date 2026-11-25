@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Helmed Horror",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+      "Construct with no species ability score increase. Usually neutral. Flies 30 ft. The trait block gives no size, walking speed, or hover feature.",
+      "Eyeless and immune to blinded. Blindsight 60 ft. Immune to deafened, paralyzed, petrified, and poisoned, and to poison damage.",
+      "Its living armor sets unarmored AC at 18. It cannot wear other armor but may use a shield.",
+      "Understands and reads Common. It can write languages it knows. It cannot speak or provide verbal spell components.",
+      "No air, food, drink, or sleep needed. Four semiconscious hours give the benefit of eight hours of human sleep. The supplement allows normal healing by resting. Spells that exclude constructs still exclude this creature."
+    ]
+  },
+  {
+    "name": "Hippogriff",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+      "Medium monstrosity. Strength +1. Walks 40 ft. and flies 40 ft. in light armor or without armor.",
+      "Beak or claws deal 1d8 slashing as an unarmed strike. Darkvision 60 ft. Advantage on Wisdom (Perception) checks that rely on sight.",
+      "Cannot wield weapons or shields or use gear requiring hands, including a held spellcasting focus. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Homunculus",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+      "Small construct. Dexterity +1. Walks 25 ft. and flies 30 ft. in light armor or without armor. Darkvision 60 ft. Unarmored AC is 11 + Dexterity modifier.",
+      "Immune to being charmed or poisoned and to poison damage. Understands, reads, and writes Common and one language its creator speaks. The player block grants no speech.",
+      "A magical bond shares thoughts, senses, and language with the creator. Telepathic communication requires both on the same plane. The creator cannot make a second homunculus while this one lives. If the creator dies, this one dies too.",
+      "No air, food, drink, or sleep needed. Four semiconscious hours give the benefit of eight hours of human sleep. The supplement allows normal healing by resting. Spells that exclude constructs still exclude this creature."
+    ]
+  },
+  {
+    "name": "Hook Horror",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+      "Medium monstrosity. Strength and Constitution +1. Walk and climb 30 ft. Speaks, reads, and writes Hook Horror.",
+      "Echolocation gives blindsight 30 ft. unless deafened. Darkvision 10 ft. Advantage on Wisdom (Perception) checks that rely on hearing.",
+      "Its hooks deal 1d8 slashing on an unarmed strike. Unarmored AC is 13 + Dexterity modifier. Cannot wield weapons or shields or use gear requiring hands, including a held spellcasting focus."
+    ]
+  },
+  {
+    "name": "Hydra",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+      "Medium monstrosity. Strength and Constitution +1. Walk and swim 30 ft. Darkvision 10 ft. Holds breath for one hour. Speaks, reads, and writes Common.",
+      "A bite deals 1d8 piercing on an unarmed strike. Cannot wield weapons or shields or use gear requiring hands, including a held spellcasting focus.",
+      "Starts with heads equal to proficiency bonus. Damage from one source at least as high as its Constitution score costs a head. On its next turn it can spend a Hit Die as a bonus action to grow two heads. Roll the die as when resting to set the temporary HP. The second head falls off when these temporary HP run out or expire.",
+      "With no heads it is incapacitated except for that regrowth bonus action. If out of Hit Dice it falls to 0 HP and begins dying. Healing in that state regrows one head. A Hit Die spent to heal during a rest can regrow one head up to the normal count.",
+      "With at least two heads awake, it has advantage on Wisdom (Perception) checks and on saves against blindness, charm, deafness, fear, stun, and being knocked unconscious. One head stays awake while it sleeps."
+    ]
+  }
+]

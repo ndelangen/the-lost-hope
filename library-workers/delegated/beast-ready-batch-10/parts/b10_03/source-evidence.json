@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Octopus",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      365
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775830-octopus",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 365. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 353. This rules overlay follows the publisher’s Monster Manual byline.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "The modern Tentacles action lists only damage. Ink Cloud is a reaction with a once-per-day limit and a fixed turn-end trigger."
+    ]
+  },
+  {
+    "name": "Owl",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      366
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775831-owl",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 366. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 354. This rules overlay follows the publisher’s Monster Manual byline.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "The modern stat block lists Flyby and prints Perception +5 and Passive Perception 15."
+    ]
+  },
+  {
+    "name": "Panther",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      366
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775832-panther",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 366. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 354. This rules overlay follows the publisher’s Monster Manual byline.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "Rend is the modern attack. The stat block places Nimble Escape under Bonus Actions."
+    ]
+  },
+  {
+    "name": "Piranha",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      366
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195160-piranha",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 366. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "This is the individual modern Piranha. Preserve the printed land Speed 5 ft. and the wounded-target Advantage in the Bite action. The selected older portrait depicts one fish, and supplies the appearance only."
+    ]
+  },
+  {
+    "name": "Plesiosaurus",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      366
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195166-plesiosaurus",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 366. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "Dinosaur is the printed game subtype. Preserve the single 10-ft.-reach Bite with 2d6 + 4 damage."
+    ]
+  }
+]

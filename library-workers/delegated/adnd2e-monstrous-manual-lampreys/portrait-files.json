@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Lamprey",
+    "file": "",
+    "selection": "generated",
+    "sha256": "4263a697a212042cca012f2226b5ac020cf3171cb926cbbfb04815e699741881",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Lamprey",
+    "file": "",
+    "selection": "generated",
+    "sha256": "30b53844ba4699ede218c77f0375d8e2e5b0b0faeebe4c06a7aa14206cd1df81",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Land Lamprey",
+    "file": "",
+    "selection": "generated",
+    "sha256": "fb37474a3b310ce8f6301f61278f10b8ac1452e1e17558997a47bec9b868ecda",
+    "width": 1254,
+    "height": 1254
+  }
+]

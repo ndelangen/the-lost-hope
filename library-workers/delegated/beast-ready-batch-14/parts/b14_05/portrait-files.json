@@ -1,0 +1,42 @@
+[
+  {
+    "artGroup": "giant-space-hamster",
+    "file": "portraits/giant-space-hamster.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "352dd13b0bbe8c73b2e8c1e1f6a39b5b19efaec0fafcc8efd15b2602af827820",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "space-eel",
+    "file": "portraits/space-eel.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "34602dcd100284de9879534275f25d34908bae456b94684234bb1e84e72bd8e1",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "space-guppy",
+    "file": "portraits/space-guppy.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "2c67cb4af7db11ec1d2740396a3e9a3fdab8bb47e37483bbbab3938050a22aa2",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "space-mollymawk",
+    "file": "portraits/space-mollymawk.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c95343b40beba601bea562705eb2ffcd239a4ff01a091bddab84632c77bb10cf",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "space-swine",
+    "file": "portraits/space-swine.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6bbc3baacb1becf9221255c0b5fc9b267a891a423ed5b771a931e45e8808ffb1",
+    "credit": "OpenAI ImageGen"
+  }
+]

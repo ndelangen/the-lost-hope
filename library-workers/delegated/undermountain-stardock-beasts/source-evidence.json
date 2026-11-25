@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Fire Lizard",
+    "kind": "beast",
+    "publication": "Undermountain: Stardock",
+    "edition": "AD&D 2nd edition",
+    "printedName": "Lizard, Fire",
+    "publisher": "TSR",
+    "copyrightYear": 1996,
+    "productNumber": 9538,
+    "author": "Steven E. Schend",
+    "section": "The Crystal Labyrinth, Encounter 2: Where There’s Smoke",
+    "printedPages": [
+      19
+    ],
+    "pdfPages": [
+      20
+    ],
+    "creditsPrintedPage": 1,
+    "creditsPdfPage": 2,
+    "creditedCoverArtist": "Nicholas Jainschigg",
+    "creditedInteriorArtist": "Earl Geier",
+    "identifiedCreatureArtOnEncounterPage": false,
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/2/fr_downloads/tsr9538.zip",
+    "publisherPreview": "",
+    "inspectedPdfSha256": "e2dd8ea8cf740d0d41c4b127e39e541c77af800a7aa6bb8061c8800cd2adf88b",
+    "archiveAndLocalBytesMatch": true,
+    "morphologyReference": "",
+    "entryId": "beast-337fd5e0989d665c32319b66",
+    "versionKey": "dfc68d0ea9472e4e4ec1770c",
+    "slug": "fire-lizard",
+    "query": "fire lizard crystal labyrinth fiery cone",
+    "portraitSelection": "generated",
+    "individualHitPoints": 60,
+    "printedHitDice": "10",
+    "encounterCount": 1
+  },
+  {
+    "name": "Bookworm",
+    "kind": "beast",
+    "publication": "Undermountain: Stardock",
+    "edition": "AD&D 2nd edition",
+    "printedName": "Bookworm (50)",
+    "publisher": "TSR",
+    "copyrightYear": 1996,
+    "productNumber": 9538,
+    "author": "Steven E. Schend",
+    "section": "The Stardock, Area 2B: The Study",
+    "printedPages": [
+      28
+    ],
+    "pdfPages": [
+      29
+    ],
+    "creditsPrintedPage": 1,
+    "creditsPdfPage": 2,
+    "creditedCoverArtist": "Nicholas Jainschigg",
+    "creditedInteriorArtist": "Earl Geier",
+    "identifiedCreatureArtOnEncounterPage": false,
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/2/fr_downloads/tsr9538.zip",
+    "publisherPreview": "",
+    "inspectedPdfSha256": "e2dd8ea8cf740d0d41c4b127e39e541c77af800a7aa6bb8061c8800cd2adf88b",
+    "archiveAndLocalBytesMatch": true,
+    "morphologyReference": "",
+    "entryId": "beast-84938191021c881180909908",
+    "versionKey": "931e18dfbbe5596d76e682b8",
+    "slug": "bookworm",
+    "query": "bookworm stardock shelves camouflage",
+    "portraitSelection": "generated",
+    "individualHitPoints": 1,
+    "printedHitDice": null,
+    "encounterCount": 50
+  }
+]

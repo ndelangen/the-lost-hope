@@ -1,0 +1,26 @@
+{
+  "baseline": "035c59b08ec77d27452f421bcb9b4b8a7cac59f1",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Tiefling"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Planar Handbook (2004)",
+  "darknessAndConcealmentVerified": true,
+  "existingMinaConceptPreserved": true,
+  "fifthEditionProfilesPreserved": 4,
+  "defaultVersionBefore": "Player’s Handbook",
+  "defaultVersionAfter": "Player’s Handbook",
+  "listThumbnailChanged": false,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

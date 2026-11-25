@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Firbolg",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Giant",
+    "url": "",
+    "printedPages": [
+      27,
+      28,
+      29
+    ],
+    "heading": "Giant-kin, Firbolg",
+    "supportingSources": {
+      "classAndSpellRules": "",
+      "movementOnly": ""
+    },
+    "sourceDistinctions": [
+      "Uses the PHBR10 AD&D player entry. No traits from the fifth-edition firbolg are used.",
+      "PHBR10 provides no base movement for Firbolg. Used the matching Monstrous Manual rate of 15, without transferring that entry’s natural AC, Hit Dice or THAC0.",
+      "Detect Magic is the AD&D PHB wizard version for duration and area, with an effective caster level equal to actual class level as a table ruling.",
+      "The NPC uses the human-made great club from PHBR10 pp. 112, 114 and therefore gets no Strength bonus on attacks or damage with it."
+    ]
+  },
+  {
+    "name": "Voadkyn",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Giant",
+    "url": "",
+    "printedPages": [
+      29,
+      30,
+      31
+    ],
+    "heading": "Giant-kin, Voadkyn",
+    "supportingSources": {
+      "classAndRangeRules": "",
+      "movementOnly": ""
+    },
+    "sourceDistinctions": [
+      "Uses PHBR10’s player entry for the wood giant. The Monstrous Manual supplies movement only.",
+      "The rules state a 50% range increase and 1d8 arrow damage but give no range bands. The example starts with the AD&D PHB’s longbow sheaf-arrow bands and increases each by 50%. It uses PHBR10 Table 7 speed factor 10.",
+      "The forest maneuver explicitly mentions one arrow, so it is an alternative to the two stationary longbow shots. The entry does not supply distance limits for the out-and-back movement. The example assumes accessible cover."
+    ]
+  },
+  {
+    "name": "Saurial",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "heading": "Saurial",
+    "supportingSources": {
+      "classAndShieldRules": "",
+      "movementOnly": "https://anyflip.com/cmjgl/qcnv/basic/51-100"
+    },
+    "sourceDistinctions": [
+      "One player profile covers the four printed choices. The original NPC and portrait use the finhead.",
+      "The printed ability-range table abbreviates the finhead inconsistently as fn and fh. Its accompanying prose identifies the lineage as finhead, used here throughout.",
+      "PHBR10 provides the flyer’s air speed. The contemporary Saurial creature entry supplies the NPC finhead’s ground speed of 12. All other mechanics come from the player profile and core rules.",
+      "PHBR10 pp. 113–114 supplies the finhead broadsword. The sample interprets the listed claw pair and tail as alternative routines and places the shield out of hand before using two claws."
+    ]
+  },
+  {
+    "name": "Swanmay",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      59,
+      60
+    ],
+    "heading": "Swanmay",
+    "supportingSources": {
+      "classAndEquipmentRules": ""
+    },
+    "sourceDistinctions": [
+      "Uses PHBR10 as the player profile. The human form uses natural AC 7 with the character’s Dexterity adjustment. The sample uses AC 7 as listed in swan form and does not import a creature attack.",
+      "PHBR10 makes the shift at will but gives no combat timing. The NPC takes one full round to shift as a table ruling. On-foot human movement uses the AD&D PHB baseline."
+    ]
+  },
+  {
+    "name": "Sand Giant",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Giant (Earth, Fire)",
+    "url": "",
+    "printedPages": [
+      58,
+      59
+    ],
+    "heading": "Sand Giants as Characters",
+    "supportingSources": {
+      "fighterRules": "https://www.d20srd.org/srd/classes/fighter.htm",
+      "equipmentRules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+      "combatRules": "https://www.d20srd.org/srd/combat/combatStatistics.htm",
+      "featRules": "https://www.d20srd.org/srd/feats.htm",
+      "meldIntoStone": "https://www.d20srd.org/srd/spells/meldIntoStone.htm",
+      "statue": "https://www.d20srd.org/srd/spells/statue.htm",
+      "blur": "https://www.d20srd.org/srd/spells/blur.htm",
+      "spellLikeAbilities": "https://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities",
+      "crAdvancement": "https://www.d20srd.org/srd/improvingMonsters.htm"
+    },
+    "sourceDistinctions": [
+      "The player package starts on printed p. 58 and continues on p. 59. The NPC has an original ability array, feat choice and role. Fighter 1 gives total HD 16 and ECL 20. Its CR uses +1 for an associated class level on the printed CR 10 giant.",
+      "The MMIII glossary gives a standard action for spell-like abilities unless noted, so the sample uses a standard action for Statue. The related spell and the general Revised SRD spell-like timing would take one round, a possible alternate reading.",
+      "Both printed blaster DCs equal 10 + half the 15 racial Hit Dice + the respective Constitution modifier, including the Fighter 5 champion. This NPC therefore uses DC 23. This NPC uses untyped weapon damage and a standard action to fire the blaster, since the book gives neither damage type nor firing action."
+    ]
+  }
+]

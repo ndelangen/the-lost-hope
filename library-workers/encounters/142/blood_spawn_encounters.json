@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Blood Hound",
+    "decision": "separate",
+    "pages": "pp. 13–15",
+    "notes": "Standalone Blood Spawn encounter in AD&D 2e.",
+    "statBlock": {
+      "name": "Blood Hound",
+      "publication": "Blood Spawn: Creatures of Light and Shadow",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium beast. Neutral. Vos hounds are neutral evil.",
+      "hp": null,
+      "cr": "",
+      "description": "A war dog marked by a divine bloodline. A blooded handler can send it after a missing heir or a rival scion.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Bite. One attack for 2d4 damage. A Vos hound instead bites for 2d6. A trained hound generally pins the quarry first. It attacks if attacked, ordered to bite, or convinced its handler is threatened.",
+        "Tracking scions": "Automatically detect a blooded trail within 1 mile or one left in the area in the last five days if rain has not cleared it. At up to 5 miles, or for a blooded trail in that radius from the last two days, use 50%. Add 15 percentage points for a matching bloodline derivation, 15 for a named target whose personal effect the hound can scent, and 10 for a target with a great bloodline. When seeking any scion, exclude the hunting party and prefer a matching derivation in the area over a nearer nonmatching one. The chance to find a specified unblooded person within 1 mile is 50%.",
+        "Handler bond": "Only a blooded handler can bond with the hound. A breeder’s imprinting ritual binds it for life unless its handler mistreats it, dies, or transfers the bond by ritual. With a handler of the same bloodline derivation, its combat morale is 20. If it believes that handler is in danger, it fights to the death unless called off by them.",
+        "Bloodline and Seeming": "Tainted bloodline 1d3, with a Bloodmark. There is a 5% chance of one extra minor blood ability appropriate to the derivation. Choose from Courage, Detect Illusion, Detect Life, Direction Sense, Iron Will, Long Life, Poison Sense, or Resistance. Slight Perception only warns it that something is wrong with a creature disguised by the Seeming. It cannot determine what the disguise hides.",
+        "Printed source": "pp. 13–15"
+      },
+      "ac": 6,
+      "hitDice": "3+2",
+      "speed": "12",
+      "thac0": 19,
+      "xp": 120,
+      "otherStatistics": "Very rare in Cerilia, principally Anuire. Solitary, or pack for Vos hounds. Appearing 1d4, or 3d6 Vos hounds. Active any time. Omnivore. Semi-intelligence 2–4. Medium, 4–6 ft. long. Morale 11–12 or 20. No treasure or magic resistance. Perception slight, Seeming none.",
+      "ruleNotes": [
+        "The page 14 combat prose gives the ordinary bite as 2d4 + 1. The stat table on p. 15 gives 2d4. Use 2d4 as the table default."
+      ]
+    }
+  },
+  {
+    "name": "Minion of the Lost",
+    "decision": "separate",
+    "pages": "pp. 36–38",
+    "notes": "Standalone Blood Spawn encounter in AD&D 2e.",
+    "statBlock": {
+      "name": "Minion of the Lost",
+      "publication": "Blood Spawn: Creatures of Light and Shadow",
+      "edition": "AD&D 2nd edition",
+      "classification": "Shadow World minion. Size and alignment vary by form.",
+      "hp": null,
+      "cr": "",
+      "description": "The Lost magically reshaped the peoples in their service. Choose one of the three printed minion forms for the encounter.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Use the printed form below. Minions speak their ancestral language and usually know only the mission their master gave them. Each form appears in groups of 3–24, or 10–100 in its community. None has a bloodline or blood abilities.",
+        "Halfling Spawn": "AC 6, MV 6 or 12 in trees, HD 2, THAC0 19, XP 270. Small, 3 ft. 6 in. tall, neutral evil. Attack once by missile at +1 to hit, or make three melee attacks: two claws for 1d4 apiece and a tail strangle. After a successful tail hit, the victim takes 1d8 each round held and must save vs. paralyzation each round or fall unconscious for 1d4 turns. Opponents take −4 to surprise rolls. The spawn gains +2 on saves against poison, wands, staves, rods, and spells. Uncommon in Cerilian or Shadow World forests, active by day, omnivore, intelligence 8–10, treasure J (O, P), morale 8–10. Perception middling, Seeming lesser.",
+        "Masetian Spawn": "AC 8 (10), MV 12, HD 3, THAC0 18, XP 175. Medium, 6 ft. tall, lawful evil. Make one attack by weapon or bite for 1d6. It is surprised only on a 1 or 2, and opponents take −3 to surprise rolls. Thief-style chances: 50% move silently, 45% hide in shadows, 45% detect noise, 90% climb walls. Rare in the Shadow World, active by day, omnivore, intelligence 11–12, treasure K (M, P), morale 11–12. No magic resistance. Perception lesser, Seeming none.",
+        "Orog Spawn": "AC 3 on the armored torso and 5 on the lower body or unarmored torso. MV 12, HD 4+4, THAC0 17, XP 270. Huge, 7 ft. tall and 20 ft. long, chaotic evil. Makes one attack for weapon damage +2. Favored weapons are an axe, crossbow, heavy long sword, mace, or polearm. Bright sunlight blinds and nauseates it and gives −3 to attacks and saving throws. Rare in the Shadow World, active any time, carnivore, intelligence 5–7, treasure J (O), morale 13–14. No magic resistance. Perception slight, Seeming none.",
+        "Printed source": "pp. 36–38"
+      },
+      "ruleNotes": [
+        "The Masetian Spawn AC is printed as 8 (10). The form’s prose does not explain the parenthetical value. No single AC, speed, Hit Dice, THAC0, or XP applies to all three forms."
+      ]
+    }
+  },
+  {
+    "name": "Seemer",
+    "decision": "separate",
+    "pages": "pp. 39–40",
+    "notes": "Standalone Blood Spawn encounter in AD&D 2e.",
+    "statBlock": {
+      "name": "Seemer",
+      "publication": "Blood Spawn: Creatures of Light and Shadow",
+      "edition": "AD&D 2nd edition",
+      "classification": "Corporeal Shadow World creature. Any size. Chaotic evil.",
+      "hp": null,
+      "cr": "",
+      "description": "A creature of the Seeming that takes the shape of what its visitors most dread. Several witnesses might see different creatures in the same place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "The seemer senses psychic energy from 500 yards and takes a form before it is seen. It attacks intelligent creatures from outside the Shadow World. An observer must save vs. paralyzation or the seemer automatically gains surprise. It can project one person’s fear to the whole group or show each person a different fear.",
+        "Form attacks": "Use the apparent creature’s movement and attack routines with the seemer’s own AC, HD, and THAC0. Cap each damage roll at 2d6, or use the attack’s normal damage if lower. A spellcasting guise can mimic spell-like attacks other than abjuration or divination. Apparent effects such as poison, aging, and level drain persuade observers they are affected, then wear off after 2d4 hours.",
+        "Defenses and contact": "It takes damage normally despite its disguise. In sunlight it takes −2 to attacks and damage. Shadow World natives with greater Seeming or better can communicate. A creature with extraordinary Seeming has a 5% chance per 10 Seeming points to gain its brief cooperation.",
+        "Perception and Seeming": "Perception slight (1–5), Seeming extraordinary (41+). Compare a viewer’s Perception with the chosen Seeming score to see through the magical guise. Disbelief alone does not end the effect. See pp. 6–8 for the setting procedure.",
+        "Printed source": "pp. 39–40"
+      },
+      "ac": 4,
+      "hitDice": "9",
+      "speed": "Varies by form",
+      "thac0": 11,
+      "xp": 2000,
+      "otherStatistics": "Rare in the Shadow World. Solitary or in small groups, appearing 1–10. Active any time. Feeds on psychic energy. High intelligence 13–14. Morale 13–14. No treasure, bloodline, blood abilities, or magic resistance."
+    }
+  },
+  {
+    "name": "The Dispossessed",
+    "decision": "separate",
+    "pages": "pp. 21–22",
+    "notes": "Standalone Blood Spawn encounter in AD&D 2e.",
+    "statBlock": {
+      "name": "The Dispossessed",
+      "publication": "Blood Spawn: Creatures of Light and Shadow",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium disembodied spirit of a living creature. Alignment varies.",
+      "hp": null,
+      "cr": "",
+      "description": "A spirit driven from its living body by possession. Bands of the dispossessed sometimes gather in an abandoned home and act out their former lives.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Touch of despair. One attack for 1d4 damage plus despair. When the cumulative number of hits equals the target’s Constitution, its spirit leaves and becomes one of the dispossessed. The attacker immediately takes over the body. If the target survives, despair lingers for one day per hit. Each casting of remove fear shortens this by one day.",
+        "Depression": "On first sight of any dispossessed spirit, save vs. paralyzation. On failure, movement is halved and attacks and Dexterity-based tasks suffer −3 or −25% while any dispossessed spirit remains within 100 yards. After leaving that range, the penalty falls to −1 or −10% for 4d6 hours plus one hour for each four hours of exposure. A character conversing with one saves again each turn.",
+        "Defenses and behavior": "Requires a +1 or better weapon to hit. As spirits of still-living bodies, they do not respond to holy water, turning, or attacks specific to undead. They can speak and move small or medium objects psychically. Evil spirits seize chances to possess others. Any spirit has a 60% chance to mistake a character for its old body and focus on that character. Restoring it to its own body, or the death of that original body, puts it to rest. Taking a different body offers no lasting relief.",
+        "Seeming": "Perception none, Seeming slight. Observers with low Perception can mistake them for corporeal people.",
+        "Printed source": "pp. 21–22"
+      },
+      "ac": 0,
+      "hitDice": "4",
+      "speed": "9",
+      "thac0": 17,
+      "xp": 975,
+      "otherStatistics": "Uncommon in the Shadow World. Appears in bands of 1d20. Active any time. No diet. Average intelligence 8–10. Medium, about 6 ft. tall. Morale 15–16. No treasure, bloodline, blood abilities, or magic resistance."
+    }
+  },
+  {
+    "name": "Will o’Shadow",
+    "decision": "separate",
+    "pages": "pp. 61–63",
+    "notes": "Standalone Blood Spawn encounter in AD&D 2e.",
+    "statBlock": {
+      "name": "Will o’Shadow",
+      "publication": "Blood Spawn: Creatures of Light and Shadow",
+      "edition": "AD&D 2nd edition",
+      "classification": "Tiny to Small floating creature. Chaotic neutral.",
+      "hp": null,
+      "cr": "",
+      "description": "A dancing light that reaches Cerilia just ahead of an opening Shadow World portal. It draws vitality from the living before the portal pulls it back.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Life drain. One touch for 2d8 damage to a Cerilian creature. It feeds on that loss without adding the damage to its own HP. A non-Cerilian takes a 1d8 burn instead and provides no nourishment.",
+        "Feeding near the portal": "When Cerilian characters are within a quarter mile, there is a 50% chance the creature feeds on their life energy rather than the surroundings. Affected Cerilians save vs. poison or take 2d6 damage. When Cerilians are on the Shadow World side of a portal about to open and a will o’Shadow is present, make that save with a 1-point penalty. It is normally invisible on that side of the portal.",
+        "Defenses and tactics": "Mundane weapon blows deal normal damage. Detect invisibility and shadow magic are the only magic specifically noted as effective. Magical light makes the creature invisible until the light goes out. Its lesser Seeming can camouflage it with blur, color spray, dancing lights, or hypnotic pattern. It usually avoids direct combat, attacks to replace lost energy when provoked, and tries to flee at 5 HP or fewer.",
+        "Portal clues": "One to three lights can precede a portal by 1 minute to 3 hours. A larger light means it is closer to opening. Nearby vegetation may stay wilted for 1d4 days per round the portal was open. The lights communicate with one another through their movement.",
+        "Printed source": "pp. 61–63"
+      },
+      "ac": -8,
+      "hitDice": "9",
+      "speed": "Fly 18 (A)",
+      "thac0": 11,
+      "xp": 6000,
+      "otherStatistics": "Rare in Cerilia and the Shadow World. Solitary, appearing 1d3. Active at night in Cerilia or any time in the Shadow World. Feeds on Cerilian life energy. High intelligence 13–14. Treasure Q. Size 1–4 ft. across. Morale 15–16. No bloodline, blood abilities, or Perception. Seeming lesser."
+    }
+  }
+]

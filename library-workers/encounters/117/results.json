@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Bhuka",
+    "species": "species-5e666e3d3c1c1443f887de6c",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Sandstorm (2005)"
+    ],
+    "portraitSha256": "b51b2dd74f4a16df36a3a45fdec631d13dfb44a2683a1771beed3245ec004577",
+    "caption": "Akari of the Reed Well · Original Bhuka NPC",
+    "npcReceipts": [
+      {
+        "name": "Akari of the Reed Well",
+        "id": "npc-37d11709a14c1b899d7c63be",
+        "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+      },
+      {
+        "name": "Taren of High Shelf",
+        "id": "npc-52a989bd12aee5d3c1a4ff9f",
+        "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+      }
+    ]
+  }
+]

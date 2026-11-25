@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Cassyt",
+    "publication": "DDEX1-04 - Dues for the Dead",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cassyt/acolyte-2014-base-token.webp",
+    "artist": "Base creature token: Acolyte · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "9c7a70028ad246ae18e7dd36b8f8d3e19664a0dc3c2230602cdd0480513b70d2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Acolyte.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Cassyt",
+    "publication": "DDEX1-04 - Dues for the Dead",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cassyt/priest-acolyte-2024-related.webp",
+    "artist": "Related Priest Acolyte art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "0dcc99c95899e79a0f90ed79ae5ad19af0d70032c2af3f1ddc7da0bb02c11b79",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Priest%20Acolyte.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Rorreth (Red Wizard)",
+    "publication": "DDEX1-04 - Dues for the Dead",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/rorreth-red-wizard/red-wizard-rot-token.webp",
+    "artist": "Related Red Wizard token · Rise of Tiamat",
+    "kind": "token",
+    "sha256": "9127372bf56cbb4a4f5373efe4876f554741c280f26487a0d545748b7d4b8588",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/RoT/Red%20Wizard.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Rorreth (Red Wizard)",
+    "publication": "DDEX1-04 - Dues for the Dead",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/rorreth-red-wizard/thayan-apprentice-tftyp.webp",
+    "artist": "Related Thayan Apprentice art · Tales from the Yawning Portal",
+    "kind": "illustration",
+    "sha256": "01000c9294c222447627c3f69c5d005dc1fb8e75308671a82ec645ab866943bb",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/TftYP/Thayan%20Apprentice.webp"
+  }
+]

@@ -1,5 +1,5 @@
 import { existsSync } from 'node:fs'
-import { readFile, readdir, writeFile } from 'node:fs/promises'
+import { readFile, readdir, stat, writeFile } from 'node:fs/promises'
 import { basename, dirname, join } from 'node:path'
 import { gzipSync } from 'node:zlib'
 
@@ -232,6 +232,15 @@ async function auditHtmlAndReport(): Promise<void> {
     ),
   )
   console.log(`Wrote ${output}`)
+}
+
+const catalogChunks = (await readdir(ASSET_DIRECTORY)).filter((file) =>
+  /^published-library(?:-catalog-.*)?-[\w-]+\.js$/u.test(file),
+)
+assert(catalogChunks.length > 0, 'No published library catalog chunks were emitted')
+for (const file of catalogChunks) {
+  const { size } = await stat(join(ASSET_DIRECTORY, file))
+  assert(size < 10_000_000, `Library asset ${file} exceeds 10 MB`)
 }
 
 await auditGeneratedImages()

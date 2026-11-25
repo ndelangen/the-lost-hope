@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Deva",
+    "kind": "species",
+    "publication": "Player's Handbook 2 (4e)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, normal vision. Intelligence +2 and Wisdom +2. Speak Common and two other languages. History and Religion each gain a +2 racial bonus.",
+      "Immortal Origin counts as immortal for effects that check origin. Astral Majesty adds 1 to every defense when the attacker is bloodied.",
+      "Astral Resistance reduces necrotic and radiant damage by 5 plus half your level.",
+      "Memory of a Thousand Lifetimes is an encounter power that takes no action. After making an attack roll, saving throw, ability check, or skill check, add 1d6 to that roll if desired."
+    ]
+  },
+  {
+    "name": "Githzerai",
+    "kind": "species",
+    "publication": "Player's Handbook 3 (4e)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, normal vision. Wisdom +2 and choose Dexterity +2 or Intelligence +2. Speak Common and Deep Speech. Acrobatics and Athletics each gain a +2 racial bonus.",
+      "Danger Sense adds 2 to initiative. Defended Mind adds a +2 racial bonus to saving throws against daze, dominate, and stun effects.",
+      "Shifting Fortunes lets you shift 3 squares as a free action when you use second wind.",
+      "Iron Mind is a personal encounter interrupt when an attack hits you. Increase all your defenses by 2 until the end of your next turn, including against the triggering attack."
+    ]
+  },
+  {
+    "name": "Minotaur",
+    "kind": "species",
+    "publication": "Player's Handbook 3 (4e)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, normal vision. Strength +2 and choose Constitution +2 or Wisdom +2. Speak Common and one other language. Nature and Perception each gain a +2 racial bonus.",
+      "Vitality grants one extra healing surge. Ferocity gives a melee basic attack as an immediate interrupt when you drop to 0 HP or fewer. Heedless Charge grants +2 racial AC against opportunity attacks provoked while charging.",
+      "Goring Charge is an encounter standard action. Charge and use a horn strike in place of the usual basic attack. Pick Strength, Constitution, or Dexterity. Add 4 to that ability modifier to attack AC, rising to 6 at level 11 and 8 at level 21. On a hit, deal 1d6 plus the selected ability modifier and knock the target prone. The damage dice rise to 2d6 at level 11 and 3d6 at level 21."
+    ]
+  },
+  {
+    "name": "Shardmind",
+    "kind": "species",
+    "publication": "Player's Handbook 3 (4e)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, normal vision. Intelligence +2 and choose Wisdom +2 or Charisma +2. Speak Common, Deep Speech, and one other language. Gain +2 racial bonuses to Arcana, Endurance, and a third skill.",
+      "Telepathy works within 5 squares with creatures that have a language. Crystalline Mind gives resist 5 psychic, increasing to 10 at level 11 and 15 at level 21.",
+      "A living construct needs no food, drink, breath, or sleep and skips Endurance checks against starvation, thirst, and suffocation. An extended rest still takes six hours. Immortal Origin counts as immortal for origin effects.",
+      "Shard Swarm is an encounter move action. Each enemy in close burst 1 grants combat advantage to you through the end of your next turn. Then teleport half your speed."
+    ]
+  },
+  {
+    "name": "Wilden",
+    "kind": "species",
+    "publication": "Player's Handbook 3 (4e)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, low-light vision. Wisdom +2 and choose Constitution +2 or Dexterity +2. Speak Common and Elven. Nature and Stealth each gain a +2 racial bonus.",
+      "Fey Origin counts as fey for origin effects. For Hardy Form choose a +1 racial bonus to Fortitude, Reflex, or Will.",
+      "Nature’s Aspect chooses one aspect each time you finish an extended rest. Each aspect gives access to its own encounter power.",
+      "Voyage of the Ancients is a free action after you hit an enemy with an area or close attack. Teleport 3 squares. You and a visible ally gain combat advantage against one enemy hit until the end of your next turn.",
+      "Wrath of the Destroyer is an immediate reaction when a bloodied enemy attacks you or an adjacent ally. Make a melee basic attack against that enemy or charge it. A hit also dazes the enemy until the end of your next turn.",
+      "Pursuit of the Hunter is an immediate reaction when an enemy within 2 squares moves on its turn. Shift 3 squares. Through the end of your next turn, hits against that enemy deal 1d6 extra damage and you ignore its normal −2 cover or concealment penalty."
+    ]
+  }
+]

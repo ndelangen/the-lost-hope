@@ -1,0 +1,19 @@
+{
+  "baseline": "86ec01300f3c5683c0d60e55279e744e4de42fca",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 4,
+  "testedConditionalRuleProfiles": 4,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 4,
+  "portraitCoverage": {
+    "Desert Camel": "generated",
+    "Mountain Camel": "generated",
+    "Racing Camel": "generated",
+    "War Camel": "generated"
+  },
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "printedMovementRatesPreserved": true,
+  "noChallengeImported": true
+}

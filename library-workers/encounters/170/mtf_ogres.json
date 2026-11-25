@@ -1,0 +1,259 @@
+[
+  {
+    "name": "Ogre Battering Ram",
+    "statBlock": {
+      "name": "Ogre Battering Ram",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 220,
+      "classification": "Large giant, chaotic evil",
+      "ac": 14,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 8,
+      "description": "An ogre armed with an enormous club breaks doors and holds gaps in enemy lines.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Ring mail.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Traits": "Siege Monster. The ogre deals double damage to objects and structures.",
+        "Actions": "Bash. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 15 (2d10 + 4) bludgeoning damage. The ogre can push a Huge or smaller target 5 ft. away.\nBlock the Path. Until the start of the ogre’s next turn, attack rolls against it have disadvantage. It has advantage on its opportunity attack roll, which deals an extra 16 (3d10) bludgeoning damage on a hit. An enemy that tries to leave its reach without teleporting must pass a DC 14 Strength save or have its speed reduced to 0 until the start of the ogre’s next turn.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 220."
+      }
+    }
+  },
+  {
+    "name": "Ogre Bolt Launcher",
+    "statBlock": {
+      "name": "Ogre Bolt Launcher",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 220,
+      "classification": "Large giant, chaotic evil",
+      "ac": 13,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 8,
+      "description": "An ogre carries a crossbow the size of a ballista and can improvise ammunition from beams or small trees.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Actions": "Fist. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) bludgeoning damage.\nBolt Launcher. Ranged weapon attack, +3 to hit, range 120/480 ft., one target. A hit deals 17 (3d10 + 1) piercing damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 220."
+      }
+    }
+  },
+  {
+    "name": "Ogre Chain Brute",
+    "statBlock": {
+      "name": "Ogre Chain Brute",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 221,
+      "classification": "Large giant, chaotic evil",
+      "ac": 11,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 8,
+      "description": "The ogre wields a spiked chain in both hands to sweep enemies off their feet or knock one foe unconscious.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Actions": "Fist. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) bludgeoning damage.\nChain Sweep. Every creature within 10 ft. makes a DC 14 Dexterity save. On a failure, it takes 8 (1d8 + 4) bludgeoning damage and falls prone. On a success, it takes half as much damage without falling prone.\nChain Smash (Recharge 6). Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) bludgeoning damage. The target makes a DC 14 Constitution save or falls unconscious for 1 minute. It repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 221."
+      }
+    }
+  },
+  {
+    "name": "Ogre Howdah",
+    "statBlock": {
+      "name": "Ogre Howdah",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 221,
+      "classification": "Large giant, chaotic evil",
+      "ac": 13,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 8,
+      "description": "A palisade on the ogre’s back gives up to four goblins or other Small fighters a place to shoot and thrust with spears.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Breastplate.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Traits": "Howdah. The fort on the ogre’s back holds up to four Small creatures without squeezing. A rider must use a spear or another weapon with reach for a melee attack against a target within 5 ft. of the ogre. Riders have three-quarters cover against attacks and effects originating outside the fort. If the ogre dies, place its riders in unoccupied spaces within 5 ft. of it.",
+        "Actions": "Mace. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 221."
+      }
+    }
+  },
+  {
+    "name": "Oinoloth",
+    "statBlock": {
+      "name": "Oinoloth",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 251,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 17,
+      "hp": 126,
+      "hitDice": "12d10 + 60",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 17,
+      "description": "Armies hire this yugoloth when they cannot break a siege. Its plagues can empty a battlefield, and its remedies exact a cost from survivors.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 7
+      },
+      "skills": {
+        "Deception": 8,
+        "Intimidation": 8,
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid and poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. The oinoloth has advantage on saves against spells and other magical effects.\nMagic Weapons. The oinoloth’s weapon attacks are magical.",
+        "Innate Spellcasting": "Charisma governs the oinoloth’s innate spells (save DC 16). It casts them without material components.\nAt will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only).\n1/day each. Feeblemind, Globe of Invulnerability, Wall of Fire, Wall of Ice.",
+        "Actions": "Multiattack. Use Transfixing Gaze and make two Claw attacks.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 14 (3d6 + 4) slashing damage plus 22 (4d10) necrotic damage.\nCorrupted Healing (Recharge 6). Touch one willing creature within 5 ft. It regains all its hit points. The oinoloth may also end one disease or remove one condition from the following list: blinded, deafened, paralyzed, or poisoned. The target then gains one level of exhaustion and loses 7 (2d6) from its hit point maximum. It dies if that maximum reaches 0. Only Wish or three castings of Greater Restoration on it within the same hour can undo this reduction.\nTeleport. The oinoloth and its worn or carried equipment magically move up to 60 ft. to an unoccupied space it can see.\nTransfixing Gaze. Choose one visible creature within 30 ft. It makes a DC 16 Wisdom save against the magic. On a failure, it is charmed until the end of the oinoloth’s next turn and restrained while charmed this way. A success grants immunity to this oinoloth’s gaze for 24 hours.",
+        "Bonus actions": "Bringer of Plagues (Recharge 5–6). Blight the area within 30 ft. of the oinoloth for 24 hours. Normal plants in that area wither and die, and spells restore only half as many hit points to creatures there. A creature that moves into the area or starts its turn there makes a DC 16 Constitution save. On a success, it is immune to this oinoloth’s Bringer of Plagues for 24 hours. On a failure, it takes 14 (4d6) necrotic damage and becomes poisoned.\nA creature poisoned this way cannot regain hit points. Every 24 hours it can repeat the save. A failed repeat save reduces its hit point maximum by 5 (1d10) until the poison ends, and it dies if that maximum reaches 0. Three successful saves end the poison.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 251."
+      }
+    }
+  }
+]

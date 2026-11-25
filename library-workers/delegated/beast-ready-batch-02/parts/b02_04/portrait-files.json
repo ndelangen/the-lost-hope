@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Camel",
+    "artGroup": "camel",
+    "file": "portraits/camel.png",
+    "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Frog",
+    "artGroup": "frog",
+    "file": "portraits/frog.png",
+    "sha256": "2d8bb529958ace2d23046d6f813e49205cd13da686988305fee08900411ca0a5",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Goat",
+    "artGroup": "goat",
+    "file": "portraits/goat.png",
+    "sha256": "3d9ebe807d3471a32e50e0516f6439b7f34340af62f545da120602096372ad39",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hawk",
+    "artGroup": "hawk",
+    "file": "portraits/hawk.png",
+    "sha256": "1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "artGroup": "chimeric-rat",
+    "file": "portraits/chimeric-rat.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "efbd844c3e31b69b04d2a913f154417c88c75b484917751a15797da298320374",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "chimeric-weasel",
+    "file": "portraits/chimeric-weasel.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d8407f2ad8def0bc7b685753fec2d0416b8a78295455011dd997e67cc7a821b1",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "fox",
+    "file": "portraits/fox.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "33fb5fe5a708eaffa1bd437b14600ee13745188fe7d6fc88a591694c9ea1774e",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-walrus",
+    "file": "portraits/giant-walrus.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "00429d9def80d7ac8a646420879704e0fa0e580803f7d1a9de5f5438bd96a132",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "hare",
+    "file": "portraits/hare.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ea54892cc8c248509f26caf05605bfad234eb41f98a1719c2e381048c8d3735b",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "kingsport",
+    "file": "portraits/kingsport.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "36aa5c00f1707f3f3b841c5e964c81a1de2d415128ebbef50eb25f58ce446c25",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

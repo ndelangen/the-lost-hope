@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Tiefling",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Planar Handbook",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "July 2004",
+    "productCode": "620-17920-001-EN",
+    "isbn": "0-7869-3429-8",
+    "printedPages": {
+      "speciesTable": 6,
+      "playableSpecies": [
+        15,
+        16
+      ],
+      "racialTraits": 16,
+      "illustration": 16
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "ea54f6b6945dcebe9819669310abd11f3ac95cbc2e7abc3da8533fe58a2c54a7",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "6861d72b5d6b3f98341bdae513692369532ac46d52f88ca3272f0a329180d9af",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Emily Fiegenschuh, A tiefling rogue, p. 16.",
+    "sourceDistinctions": [
+      "The p. 16 player traits give Darkness once daily at caster level equal to character level. Level adjustment increases ECL, not character level.",
+      "The 3.5 spell creates shadowy illumination and 20% concealment, including against darkvision. Concealment blocks sneak attack.",
+      "Cold, electricity, and fire resistance are each 5. Native Outsider is the base type and the 5e profiles retain their own rules.",
+      "No Tiefling correction appears in the November 2004 errata. The separate Monster Manual warrior is not part of this profile."
+    ],
+    "entryId": "species-090aff131cc6474d4575d8c2",
+    "versionKey": "f2d50ee1a2e6edc9c4895256",
+    "slug": "tiefling",
+    "portraitSelection": "generated",
+    "portraitForm": "Sella Cinderlock, an original Tiefling Rogue",
+    "npcExamples": [
+      "Sella Cinderlock",
+      "Verren Vale"
+    ]
+  }
+]

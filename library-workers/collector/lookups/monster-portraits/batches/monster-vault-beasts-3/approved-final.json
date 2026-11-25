@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "crab-giant",
+    "name": "Crab, Giant",
+    "entryId": "beast-46881114a42a034d057bbf20",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A huge rugged reddish coral-brown shore crab with dark red and rust patches on a broad thick textured carapace, two stalked black eyes on short stalks, two substantial red pincers (one a little larger), four leathery jointed walking legs per side with anatomically coherent attachments, mottled fringing and a few pale scrapes on old chitin. Both giant claws and all visible legs sit within square. Stands defensively angled in three-quarter view with the right claw open and higher, the other ready beside its body, clear empty margin. Realistic crustacean anatomy exaggerated only in size, no beach, rocks, sea plants, round frame or glowing aura. Use the second reference for shell character and red coloration only.",
+    "prompt": "One original square 1254×1254 bestiary illustration matching the first reference. Fine sepia ink and pencil, detailed muted matte gouache, warm golden amber mottled parchment edge to edge, restrained soft ground contact shadow. Give the animal a whole, clear silhouette with all extremities comfortably inside the square. Empty parchment and no text, frame, signature, landscape, decorative border or additional creature. A huge rugged reddish coral-brown shore crab with dark red and rust patches on a broad thick textured carapace, two stalked black eyes on short stalks, two substantial red pincers (one a little larger), four leathery jointed walking legs per side with anatomically coherent attachments, mottled fringing and a few pale scrapes on old chitin. Both giant claws and all visible legs sit within square. Stands defensively angled in three-quarter view with the right claw open and higher, the other ready beside its body, clear empty margin. Realistic crustacean anatomy exaggerated only in size, no beach, rocks, sea plants, round frame or glowing aura. Use the second reference for shell character and red coloration only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry tokens"
+  },
+  {
+    "slug": "crocodile-giant",
+    "name": "Crocodile, Giant",
+    "entryId": "beast-1a694b74021e71ef0812e257",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A truly massive crocodile with a long broad predatory snout, pale yellow watchful eyes, black green-brown scales with muted bronze green highlights, clearly rendered rows of armored ridged scutes across its back, strong stocky short sprawling four legs, hooked claws and a heavy long tapered tail curving back into frame. Full body in low three-quarter pose, jaws open a little to reveal mismatched ivory teeth, mouth proportions natural for a crocodile. Distinct low mobile silhouette and slight bend in the tail, all within comfortable square margins. No water, rocks or anything else, no electric aura or round token frame. Use the second reference only for species form.",
+    "prompt": "One original square 1254×1254 bestiary illustration matching the first reference. Fine sepia ink and pencil, detailed muted matte gouache, warm golden amber mottled parchment edge to edge, restrained soft ground contact shadow. Give the animal a whole, clear silhouette with all extremities comfortably inside the square. Empty parchment and no text, frame, signature, landscape, decorative border or additional creature. A truly massive crocodile with a long broad predatory snout, pale yellow watchful eyes, black green-brown scales with muted bronze green highlights, clearly rendered rows of armored ridged scutes across its back, strong stocky short sprawling four legs, hooked claws and a heavy long tapered tail curving back into frame. Full body in low three-quarter pose, jaws open a little to reveal mismatched ivory teeth, mouth proportions natural for a crocodile. Distinct low mobile silhouette and slight bend in the tail, all within comfortable square margins. No water, rocks or anything else, no electric aura or round token frame. Use the second reference only for species form.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry tokens"
+  }
+]

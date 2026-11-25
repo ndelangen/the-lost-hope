@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Aarakocra",
+    "pages": "p. 12",
+    "statBlock": {
+      "name": "Aarakocra",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (aarakocra), neutral good",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "20 ft., fly 50 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "This winged scout watches for elemental incursions. An aarakocra can attack in a dive or throw a javelin from the air.",
+      "otherStatistics": "Perception +5, passive Perception 15. Aarakocra and Auran.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Dive Attack. A melee weapon attack deals 3 (1d6) extra damage if the aarakocra hits after flying at least 30 ft. in a straight dive toward the target.",
+        "Actions": "Talon. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) slashing damage.\nJavelin. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nSummon Air Elemental. Five aarakocra within 30 ft. of one another can perform an aerial dance. Each spends its action and movement on three successive turns and maintains Concentration during the dance. After the last dancer finishes its third turn, an Air Elemental appears in an unoccupied space within 60 ft. of the group. It is friendly to the summoners and follows their spoken commands. It stays for 1 hour, until it dies, until all five summoners die, or until any summoner dismisses it as a bonus action. Each summoner must finish a Short Rest before it can perform the dance again. When the air elemental returns to the Elemental Plane of Air, aarakocra within 5 ft. of it may go with it.",
+        "Printed source": "Monster Manual (2014), p. 12, with official errata."
+      }
+    }
+  },
+  {
+    "name": "Abominable Yeti",
+    "pages": "p. 306",
+    "statBlock": {
+      "name": "Abominable Yeti",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge monstrosity, chaotic evil",
+      "ac": 15,
+      "hp": 137,
+      "hitDice": "11d12 + 66",
+      "speed": "40 ft., climb 40 ft.",
+      "cr": "9",
+      "xp": 5000,
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "description": "A solitary alpine predator roughly three times the height of a human. Snow conceals its approach, and its gaze can freeze a quarry in place.",
+      "otherStatistics": "Natural armor. Perception +5, Stealth +4. Immune to cold damage. Darkvision 60 ft., passive Perception 15. Yeti.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fear of Fire. Taking fire damage gives the yeti disadvantage on attack rolls and ability checks through the end of its next turn.\nKeen Smell. The yeti has advantage on Wisdom (Perception) checks that use smell.\nSnow Camouflage. The yeti has advantage on Dexterity (Stealth) checks to hide in snow-covered terrain.",
+        "Actions": "Multiattack. The yeti may use Chilling Gaze and makes two Claw attacks.\nClaw. Melee weapon attack, +11 to hit, reach 5 ft., one target. Hit 14 (2d6 + 7) slashing damage plus 7 (2d6) cold damage.\nChilling Gaze. Choose one visible creature within 30 ft. If it can see the yeti, it must make a DC 18 Constitution save against this magic. A creature that fails and lacks cold immunity takes 21 (6d6) cold damage and is Paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the paralysis on a success. A creature that saves or whose paralysis ends gains immunity to this yeti's gaze for 1 hour.\nCold Breath (Recharge 6). Each creature in a 30-ft. cone makes a DC 18 Constitution save, taking 45 (10d8) cold damage on a failure or half on a success.",
+        "Printed source": "Monster Manual (2014), p. 306."
+      }
+    }
+  },
+  {
+    "name": "Faerie Dragon (Older)",
+    "pages": "p. 133",
+    "statBlock": {
+      "name": "Faerie Dragon (Older)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "A green, blue, indigo, or violet faerie dragon. These older butterfly-winged dragons build on the magic they learned in earlier colors.",
+      "otherStatistics": "Arcana +4, Perception +3, Stealth +7. Darkvision 60 ft., passive Perception 13. Draconic and Sylvan.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Superior Invisibility. As a bonus action, the dragon can turn itself and its worn or carried gear Invisible. It maintains Concentration as it would on a spell. The effect ends when its concentration ends.\nLimited Telepathy. The dragon can communicate magically with any other faerie dragon within 60 ft.\nMagic Resistance. The dragon has advantage on saves against spells and other magic.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (save DC 13). The dragon needs no material components. Each color adds its spells to those of all younger colors.\nRed (5 years or less), 1/day each. Dancing Lights, Mage Hand, Minor Illusion.\nOrange (6–10 years), 1/day. Color Spray.\nYellow (11–20 years), 1/day. Mirror Image.\nGreen (21–30 years), 1/day. Suggestion.\nBlue (31–40 years), 1/day. Major Image.\nIndigo (41–50 years), 1/day. Hallucinatory Terrain.\nViolet (51 years or more), 1/day. Polymorph.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale a puff of gas at one creature within 5 ft. It must succeed on a DC 11 Wisdom save or lose its reactions for 1 minute. At the start of each affected turn, roll 1d6. On 1–4, it takes no action or bonus action and spends all its movement moving in a random direction. On 5–6, it stays put and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      }
+    }
+  },
+  {
+    "name": "Faerie Dragon (Younger)",
+    "pages": "p. 133",
+    "statBlock": {
+      "name": "Faerie Dragon (Younger)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "1",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "A red, orange, or yellow faerie dragon. These cat-sized dragons hide from view to watch their pranks play out.",
+      "otherStatistics": "Arcana +4, Perception +3, Stealth +7. Darkvision 60 ft., passive Perception 13. Draconic and Sylvan.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Superior Invisibility. As a bonus action, the dragon can turn itself and its worn or carried gear Invisible. It maintains Concentration as it would on a spell. The effect ends when its concentration ends.\nLimited Telepathy. The dragon can communicate magically with any other faerie dragon within 60 ft.\nMagic Resistance. The dragon has advantage on saves against spells and other magic.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (save DC 13). The dragon needs no material components. Each color adds its spells to those of all younger colors.\nRed (5 years or less), 1/day each. Dancing Lights, Mage Hand, Minor Illusion.\nOrange (6–10 years), 1/day. Color Spray.\nYellow (11–20 years), 1/day. Mirror Image.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale a puff of gas at one creature within 5 ft. It must succeed on a DC 11 Wisdom save or lose its reactions for 1 minute. At the start of each affected turn, roll 1d6. On 1–4, it takes no action or bonus action and spends all its movement moving in a random direction. On 5–6, it stays put and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      }
+    }
+  },
+  {
+    "name": "Githyanki Knight",
+    "pages": "pp. 158–160",
+    "statBlock": {
+      "name": "Githyanki Knight",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (gith), lawful evil",
+      "ac": 18,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "A githyanki raider who can shape a silver sword by force of will. Its blade can sever an astral traveler from their body.",
+      "otherStatistics": "Plate armor. Passive Perception 12. Gith.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Spellcasting": "Innate Spellcasting (Psionics). Intelligence is the spellcasting ability (save DC 13, +5 to hit with spell attacks). No spell components are required.\nAt will. Mage Hand (the hand is invisible).\n3/day each. Jump, Misty Step, Nondetection (self only), Tongues.\n1/day each. Plane Shift, Telekinesis.",
+        "Actions": "Multiattack. The knight makes two Silver Greatsword attacks.\nSilver Greatsword. Magical melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing damage plus 10 (3d6) psychic damage. On a critical hit against a target in an astral body, such as one created by Astral Projection, the knight can forgo damage to cut the cord linking that target to its material body.",
+        "Equipment": "The silver sword has the properties of a greatsword, with the properties of a +3 greatsword while wielded by its creator.",
+        "Printed source": "Monster Manual (2014), pp. 158–160."
+      },
+      "savingThrows": {
+        "Con": 5,
+        "Int": 5,
+        "Wis": 5
+      }
+    }
+  },
+  {
+    "name": "Githyanki Warrior",
+    "pages": "p. 160",
+    "statBlock": {
+      "name": "Githyanki Warrior",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (gith), lawful evil",
+      "ac": 17,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "An astral raider who combines greatsword strikes with psionic mobility.",
+      "otherStatistics": "Half plate armor. Passive Perception 11. Gith.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Spellcasting": "Innate Spellcasting (Psionics). Intelligence is the spellcasting ability. No spell components are required.\nAt will. Mage Hand (the hand is invisible).\n3/day each. Jump, Misty Step, Nondetection (self only).",
+        "Actions": "Multiattack. The warrior makes two Greatsword attacks.\nGreatsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) slashing damage plus 7 (2d6) psychic damage.",
+        "Printed source": "Monster Manual (2014), p. 160."
+      },
+      "savingThrows": {
+        "Con": 3,
+        "Int": 3,
+        "Wis": 3
+      }
+    }
+  },
+  {
+    "name": "Githzerai Zerth",
+    "pages": "p. 161",
+    "statBlock": {
+      "name": "Githzerai Zerth",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (gith), lawful neutral",
+      "ac": 17,
+      "hp": 84,
+      "hitDice": "13d8 + 26",
+      "speed": "30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "A githzerai monk who follows the teachings of Zerthimon. Its psionics bolster its defense, power its strikes, and let it cross planes.",
+      "otherStatistics": "Arcana +6, Insight +6, Perception +6. Passive Perception 16. Gith.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Psychic Defense. The zerth adds its Wisdom modifier to AC when it wears no armor and wields no shield. The listed AC includes this bonus.",
+        "Spellcasting": "Innate Spellcasting (Psionics). Wisdom is the spellcasting ability (save DC 14, +6 to hit with spell attacks). No spell components are required.\nAt will. Mage Hand (the hand is invisible).\n3/day each. Feather Fall, Jump, See Invisibility, Shield.\n1/day each. Phantasmal Killer, Plane Shift.",
+        "Actions": "Multiattack. The zerth makes two Unarmed Strikes.\nUnarmed Strike. Magical melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) bludgeoning damage plus 13 (3d8) psychic damage.",
+        "Printed source": "Monster Manual (2014), p. 161."
+      },
+      "savingThrows": {
+        "Str": 4,
+        "Dex": 7,
+        "Int": 6,
+        "Wis": 6
+      }
+    }
+  }
+]

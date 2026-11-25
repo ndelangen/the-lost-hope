@@ -1,0 +1,331 @@
+[
+  {
+    "name": "Thorny",
+    "statBlock": {
+      "name": "Thorny",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 197,
+      "classification": "Medium plant, neutral",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "Vegepygmies keep these spiny quadrupeds as guards and hunting companions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Damage resistances": "Lightning, piercing.",
+        "Traits": "Plant Camouflage. The thorny has advantage on Dexterity (Stealth) checks in terrain with enough plant growth to hide it.\nRegeneration. The thorny heals 5 HP at the start of its turn. Taking cold, fire, or necrotic damage prevents this healing at the start of its next turn. The thorny dies only if it starts a turn at 0 HP and fails to regenerate.\nThorny Body. At the start of its turn, the thorny deals 2 (1d4) piercing damage to each creature grappling it.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 8 (2d6 + 1) piercing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 197."
+      }
+    }
+  },
+  {
+    "name": "Tlincalli",
+    "statBlock": {
+      "name": "Tlincalli",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 193,
+      "classification": "Large monstrosity, neutral evil",
+      "ac": 15,
+      "hp": 85,
+      "hitDice": "10d10 + 30",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 13,
+      "description": "These desert hunters have humanoid torsos and the bodies of giant scorpions. They use their stingers and chains to catch live prey for their young.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Tlincalli.",
+        "Actions": "Multiattack. Make one Longsword or Spiked Chain attack and one Sting attack.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing with two hands.\nSpiked Chain. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. A Large or smaller creature hit is grappled (escape DC 11) and restrained until the grapple ends. The tlincalli can't use the chain against another target while it maintains the grapple.\nSting. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage. The creature must pass a DC 14 Constitution save or be poisoned for 1 minute. Failure by 5 or more also leaves it paralyzed for as long as it remains poisoned by the sting. It repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Table notes": "The printed stat block lists passive Perception 13 and a Perception modifier of +4, which would normally give a passive score of 14.",
+        "Printed source": "Volo's Guide to Monsters, p. 193."
+      }
+    }
+  },
+  {
+    "name": "Transmuter",
+    "statBlock": {
+      "name": "Transmuter",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 218,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "description": "This specialist uses magic to transform creatures and objects. Its stone can protect or grant new abilities to whoever carries it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "sections": {
+        "Armor": "AC 15 with mage armor.",
+        "Languages": "Any four languages.",
+        "Traits": "Transmuter's Stone. The stone grants its bearer one benefit chosen by the transmuter: darkvision 60 ft., 10 ft. of extra speed while unencumbered, proficiency in Constitution saving throws, or resistance to one of acid, cold, fire, lightning, and thunder damage. The transmuter can switch the benefit when it casts a transmutation spell of 1st level or higher while carrying the stone.",
+        "Spellcasting": "9th-level wizard. Intelligence (spell save DC 14, +6 to hit with spell attacks). An asterisk marks a spell eligible to change the Transmuter's Stone.\nCantrips (at will): light, mending, prestidigitation, ray of frost.\n1st level (4 slots): chromatic orb, expeditious retreat*, mage armor.\n2nd level (3 slots): alter self*, hold person, knock*.\n3rd level (3 slots): blink*, fireball, slow*.\n4th level (3 slots): polymorph*, stoneskin.\n5th level (1 slot): telekinesis*.",
+        "Actions": "Quarterstaff. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning with two hands.",
+        "Table notes": "The printed stat block gives the transmuter three 4th-level spell slots.",
+        "Printed source": "Volo's Guide to Monsters, p. 218."
+      }
+    }
+  },
+  {
+    "name": "Trapper",
+    "statBlock": {
+      "name": "Trapper",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 194,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 85,
+      "hitDice": "10d10 + 30",
+      "speed": "10 ft., climb 10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A trapper flattens itself against a surface and waits until it can fold around passing prey. A victim's undigested gear can lure the next meal within reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "False Appearance. A motionless trapper pressed against a ceiling, floor, or wall looks like part of that surface. A creature that can see it can spot it with a DC 20 Intelligence (Investigation or Nature) check.\nSpider Climb. The trapper can climb difficult surfaces, including the underside of ceilings, without an ability check.",
+        "Actions": "Smother. Choose one Large or smaller creature within 5 ft. It must pass a DC 14 Dexterity save or be grappled (escape DC 14). While held this way, it is restrained, blinded, and at risk of suffocation. At the start of each of its turns it takes 17 (4d6 + 3) bludgeoning damage plus 3 (1d6) acid damage until the grapple ends. The trapper can smother one creature at a time.",
+        "Printed source": "Volo's Guide to Monsters, p. 194."
+      }
+    }
+  },
+  {
+    "name": "Ulitharid",
+    "statBlock": {
+      "name": "Ulitharid",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 175,
+      "classification": "Large aberration, lawful evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "17d10 + 34",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 18,
+      "description": "A rare six-tentacled mind flayer can serve as an elder brain's lieutenant or lead a splinter colony. Its brain can mature into an elder brain after its body dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Arcana": 9,
+        "Insight": 8,
+        "Perception": 8,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon, telepathy 2 miles.",
+        "Traits": "Creature Sense. The ulitharid detects creatures within 2 miles if their Intelligence is at least 4. It learns their distance, direction, and Intelligence scores. Mind blank, nondetection, and comparable magic block this sense.\nMagic Resistance. The ulitharid has advantage on saves against spells and other magical effects.\nPsionic Hub. An elder brain psychically linked to the ulitharid can also link to any creature the ulitharid detects with Creature Sense. The new link ends if the creature leaves both the elder brain's and the ulitharid's telepathy ranges. The link between the ulitharid and the elder brain works across any distance on the same plane. Beyond 5 miles, the ulitharid can end that link without using an action.",
+        "Innate spellcasting (psionics)": "Intelligence (spell save DC 17). These spells use no components.\nAt will: detect thoughts, levitate.\n1/day each: confusion, dominate monster, eyebite, feeblemind, mass suggestion, plane shift (self only), project image, scrying, telekinesis.",
+        "Actions": "Tentacles. Melee weapon attack, +9 to hit, reach 10 ft., one creature. A hit deals 27 (4d10 + 5) psychic damage. A Large or smaller creature hit is grappled (escape DC 14) and must pass a DC 17 Intelligence save or be stunned until the grapple ends.\nExtract Brain. Melee weapon attack, +9 to hit, reach 5 ft., one incapacitated humanoid the ulitharid has grappled. A hit deals 55 (10d10) piercing damage. If that drops the target to 0 HP, the ulitharid kills it by eating its brain.\nMind Blast (Recharge 5–6). The ulitharid emits magical psychic energy in a 60-foot cone. Each creature in the cone must pass a DC 17 Intelligence save or take 31 (4d12 + 5) psychic damage and become stunned for 1 minute. It repeats the save at the end of each of its turns, ending the stun on a success.",
+        "Printed source": "Volo's Guide to Monsters, p. 175."
+      }
+    }
+  },
+  {
+    "name": "Vargouille",
+    "statBlock": {
+      "name": "Vargouille",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 195,
+      "classification": "Tiny fiend, chaotic evil",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "3d4 + 6",
+      "speed": "5 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 8,
+      "description": "This Abyssal fiend looks like a severed head with bat wings in place of ears. Bright light stalls the curse it uses to make more of its kind.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Abyssal, Infernal, and any languages it knew before the transformation. It can't speak.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage plus 10 (3d6) poison damage.\nKiss. Choose one incapacitated humanoid within 5 ft. of the vargouille. The target must pass a DC 12 Charisma save or become cursed. It loses 1 point of Charisma per hour as its head changes. Time spent in sunlight or in the area of daylight doesn't count. At Charisma 2 the target dies and its head breaks free as a new vargouille. Before the transformation finishes, remove curse, greater restoration, or similar magic can lift the curse and reverse its effects.\nStunning Shriek. Each humanoid and beast within 30 ft. that can hear the vargouille makes a DC 12 Wisdom save. A creature that fails is frightened until the end of the vargouille's next turn. It is stunned while frightened by the shriek. Once it succeeds on the save or the effect ends, it is immune to all vargouilles' Stunning Shriek for 1 hour.",
+        "Printed source": "Volo's Guide to Monsters, p. 195."
+      }
+    }
+  }
+]

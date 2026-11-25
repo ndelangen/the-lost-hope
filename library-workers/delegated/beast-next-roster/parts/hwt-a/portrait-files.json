@@ -1,0 +1,124 @@
+[
+  {
+    "file": "cosmoth.png",
+    "generatedFrom": "",
+    "prompt": "Square fantasy field-guide animal portrait on a perfectly plain muted tan parchment sheet, warm medium-light oatmeal beige (#b49a77), with very fine low-contrast paper grain and nearly even tone across the entire frame. Realistic traditional graphite and colored-pencil natural history illustration, fine deliberate hatching, restrained matte color, anatomically legible at thumbnail size. Original composition and pose. Center the full creature with roughly 12 percent clear margin, generous plain paper above and below. No scene, vegetation, props, text, border, vignette, gradients, glow effects in the background, shine, graphic accents, scale objects, or graphic-design elements. One square image. An airy moth in oblique lateral three-quarter flight, slanting gently upward and toward camera. Two paired broad angular wings with a restrained sea glass blue-green tint, ink-dark outlines, and long pale oval streaks. The hindwings carry two long narrow tapered ribbons with spooned tips. Woolly warm-ivory collar around a small eye and a slender muted lavender-brown body, with fine paired feathery antennae. Let the wing veins and fuzzy scales stay finely drawn. Depict a single moth with all appendages in frame.",
+    "visualReview": "Forked silhouette reads through the two long hindwing ribbons. Muted teal and cream wing markings are visible.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "97f939787c5ef5004f2bcf6c9362dad8577ae0d19f63ca4eadedaf128dad7553",
+    "credit": "Original portrait generated with OpenAI ImageGen",
+    "generator": "Built-in OpenAI ImageGen",
+    "mappings": [
+      {
+        "name": "Cosmoth",
+        "publication": "Humblewood Tales",
+        "edition": "2014 fifth edition compatible",
+        "entry": "beast-b46b3fc2d83f648ca2aeeb45",
+        "version": "257c4e2939138eabbb142c32",
+        "placement": "alternate",
+        "anatomySource": {
+          "file": "",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/250/1000/1000/638735984427660803.png",
+          "sha256": "1a1e0ae089d76f0168e9304293564219210eefa9cbefca1fa1ad33b5e74351f8",
+          "artist": "D&D Beyond publisher art"
+        }
+      }
+    ]
+  },
+  {
+    "file": "dusktail-group.png",
+    "generatedFrom": "",
+    "prompt": "Square fantasy field-guide animal portrait on a perfectly plain muted tan parchment sheet, warm medium-light oatmeal beige (#b49a77), with very fine low-contrast paper grain and nearly even tone across the entire frame. Realistic traditional graphite and colored-pencil natural history illustration, fine deliberate hatching, restrained matte color, anatomically legible at thumbnail size. Original composition and pose. Center the full creature with roughly 12 percent clear margin, generous plain paper above and below. No scene, vegetation, props, text, border, vignette, gradients, glow effects in the background, shine, graphic accents, scale objects, or graphic-design elements. One square image. A small pack of three dusk-gray arboreal mammals on the bare sheet, one large dominant foreground individual in three-quarter profile, two smaller companions loosely spaced behind. Lithe long-eared squirrel-like quadrupeds with narrow tapering faces, low crouching bodies, violet-gray fur with subtle pale lengthwise stripes, little nimble paws, and very large almost-black feathery brush tails curling up behind their bodies. Set the main face and striking tail silhouette well inside the round-thumbnail area. Use a soft grounding shadow only.",
+    "visualReview": "The foreground face and striped coat read distinctly alongside the two smaller animals. All three dark brush tails are visible.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "296644d6d334b91ad69943b8f2a7733e24328596bcbb6d4ef14fc5d27887983d",
+    "credit": "Original portrait generated with OpenAI ImageGen",
+    "generator": "Built-in OpenAI ImageGen",
+    "mappings": [
+      {
+        "name": "Dusktail",
+        "publication": "Humblewood Tales",
+        "edition": "2014 fifth edition compatible",
+        "entry": "beast-c00474fed236d68211b673b3",
+        "version": "400aeec0fefe7c60c717e09e",
+        "placement": "alternate",
+        "anatomySource": {
+          "file": "",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/256/1000/1000/638735984435484114.png",
+          "sha256": "8b101511c39cf20fe3e940575516e2fb9adb47217ffbc9215778377eff7d8a01",
+          "artist": "D&D Beyond publisher art"
+        }
+      },
+      {
+        "name": "Swarm of Dusktails",
+        "publication": "Humblewood Tales",
+        "edition": "2014 fifth edition compatible",
+        "entry": "beast-930832df402332d22a479e95",
+        "version": "0abf1a7d26818d7def7056f7",
+        "placement": "alternate",
+        "anatomySource": {
+          "file": "",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/328/1000/1000/638735984525934723.png",
+          "sha256": "8b101511c39cf20fe3e940575516e2fb9adb47217ffbc9215778377eff7d8a01",
+          "artist": "D&D Beyond publisher art"
+        }
+      }
+    ]
+  },
+  {
+    "file": "everbug.png",
+    "generatedFrom": "",
+    "prompt": "Square fantasy field-guide animal portrait on a perfectly plain muted tan parchment sheet, warm medium-light oatmeal beige (#b49a77), with very fine low-contrast paper grain and nearly even tone across the entire frame. Realistic traditional graphite and colored-pencil natural history illustration, fine deliberate hatching, restrained matte color, anatomically legible at thumbnail size. Original composition and pose. Center the full creature with roughly 12 percent clear margin, generous plain paper above and below. No scene, vegetation, props, text, border, vignette, gradients, glow effects in the background, shine, graphic accents, scale objects, or graphic-design elements. One square image. A stout ladybird-like beetle banking gently in a low dorsal three-quarter flight pose. Two rounded raised forewing covers in muted burnt coral with big near-black spots over translucent slate-blue veined flight wings. Deep blue-black armored body, two small golden-brown eyes, long dark jointed antennae and six beetle legs. Show the full antennae, wing outlines and legs against paper, with fine hatch marks and believable wing venation.",
+    "visualReview": "Coral spotted covers, blue flight wings, and both antennae remain visible. The wing tips sit close to the frame edge.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "07d339f120c7c7b742febebf9cb4917d028ff3f47a2b65bc73089248adc84904",
+    "credit": "Original portrait generated with OpenAI ImageGen",
+    "generator": "Built-in OpenAI ImageGen",
+    "mappings": [
+      {
+        "name": "Everbug",
+        "publication": "Humblewood Tales",
+        "edition": "2014 fifth edition compatible",
+        "entry": "beast-bf2c76d0a8b9d80f8a68a453",
+        "version": "5d54e6f9052341f98bece08f",
+        "placement": "alternate",
+        "anatomySource": {
+          "file": "",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/260/1000/1000/638735984440181620.png",
+          "sha256": "1fa633621a0ca3ea85312282623497d7281c8c006e0568e382dbbd7b4c5f8cd7",
+          "artist": "D&D Beyond publisher art"
+        }
+      }
+    ]
+  },
+  {
+    "file": "firelance.png",
+    "generatedFrom": "",
+    "prompt": "Square fantasy field-guide animal portrait on a perfectly plain muted tan parchment sheet, warm medium-light oatmeal beige (#b49a77), with very fine low-contrast paper grain and nearly even tone across the entire frame. Realistic traditional graphite and colored-pencil natural history illustration, fine deliberate hatching, restrained matte color, anatomically legible at thumbnail size. Original composition and pose. Center the full creature with roughly 12 percent clear margin, generous plain paper above and below. No scene, vegetation, props, text, border, vignette, gradients, glow effects in the background, shine, graphic accents, scale objects, or graphic-design elements. One square image. A rust-red hornet-like insect in a clear three-quarter side view with head higher than the abdomen, caught in flight, six softly dangling articulated legs and two pairs of delicate translucent buff flight wings with visible veins. Narrow waist and long orange-copper striped pointed abdomen ending in a dark recurved stinger, sturdy head, oval dark compound eyes and two long slightly bent antennae. Matte umber and burnt orange, with no flaming effects. Render the natural history structure of the joints and wings.",
+    "visualReview": "The copper-banded body, narrow waist, clear veined wings and recurved stinger are visible.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1421999eb4fdbdc75f27fa250f699a2ecf8b4142a88de70cd318289b1dc175ea",
+    "credit": "Original portrait generated with OpenAI ImageGen",
+    "generator": "Built-in OpenAI ImageGen",
+    "mappings": [
+      {
+        "name": "Firelance",
+        "publication": "Humblewood Tales",
+        "edition": "2014 fifth edition compatible",
+        "entry": "beast-117d667c3fa1f36d8d02e41b",
+        "version": "23f3a4fad062b6fc6db5f363",
+        "placement": "alternate",
+        "anatomySource": {
+          "file": "",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/262/1000/1000/638735984442856419.png",
+          "sha256": "a94e094e20c56df58b650dc06b4ffc6046645f1d8926a41477cd8911e21f9ab3",
+          "artist": "D&D Beyond publisher art"
+        }
+      }
+    ]
+  }
+]

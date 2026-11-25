@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Boar",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 11,
+    "hp": 15,
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "otherStatistics": "Natural armor. Perception 9. Stealth 10. No listed special senses or languages.",
+    "appearance": "A thickset wild boar with a short tail, coarse dark bristles and a pair of upturned pale tusks.",
+    "habitats": [
+      "Woodlands",
+      "Grasslands",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 353–354. \nXP from Experience Points by Challenge Rating, p. 229.",
+      "Ability modifiers": "STR +2 · DEX +0 · CON +1 · INT -4 · WIS -1 · CHA -3",
+      "Traits": "Charge. A Tusk hit adds 3 (1d6) slashing damage if the boar moved at least 20 ft. straight toward that target earlier in the turn. A creature hit this way must make a DC 12 STR save or fall prone.\nRelentless. If 4 damage or less would drop the boar to 0 HP, it drops to 1 HP instead. Recharges after a short or long rest.",
+      "Actions": "Tusk. Melee weapon attack, +4 to hit against one target within 5 ft. On a hit, deal 5 (1d6 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Boar",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 9. No listed skill proficiencies, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A thickset wild boar with a short tail, coarse dark bristles and a pair of upturned pale tusks.",
+    "habitats": [
+      "Woodlands",
+      "Grasslands",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 319. Official 2014 rules listing: https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-b#Boar",
+      "Traits": "Charge. A Tusk hit adds 3 (1d6) slashing damage if the boar moved at least 20 ft. straight toward that target earlier in the turn. A creature hit this way must make a DC 11 Strength save or fall prone.\nRelentless. If 7 damage or less would drop the boar to 0 HP, it drops to 1 HP instead. Recharges after a short or long rest.",
+      "Actions": "Tusk. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 4 (1d6 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Deer",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 13,
+    "hp": 8,
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "otherStatistics": "Perception 12. Stealth 13. Vulnerable to frightened. No listed special senses or languages.",
+    "appearance": "A slender red deer with a russet coat, pale throat, cloven hooves and branching antlers.",
+    "habitats": [
+      "Forest edges",
+      "Woodlands",
+      "Meadows"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 355–356. \nXP from Experience Points by Challenge Rating, p. 229.",
+      "Ability modifiers": "STR +0 · DEX +3 · CON +0 · INT -4 · WIS +2 · CHA -3",
+      "Actions": "Kick. Melee weapon attack, +2 to hit against one creature within 5 ft. On a hit, deal 2 (1d4) bludgeoning damage. A target of Large size or smaller must also make a DC 10 STR save or fall prone.",
+      "Bonus Actions": "Skittish. Take the Dash or Disengage action as a bonus action.",
+      "At the table": "Vulnerability to frightened gives the deer disadvantage on checks and saves to avoid or end that condition (p. 232)."
+    }
+  },
+  {
+    "name": "Eagle",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "otherStatistics": "Perception 14, or 19 when relying on sight. Stealth 11. Vulnerable to blinded. No listed special senses or languages.",
+    "appearance": "A sea eagle with broad wings, pale head and tail, brown body plumage and a hooked beak over curved talons.",
+    "habitats": [
+      "Coasts",
+      "Beaches",
+      "Coastal waters"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 356. \nXP from Experience Points by Challenge Rating, p. 229.",
+      "Ability modifiers": "STR -2 · DEX +1 · CON +0 · INT -4 · WIS +2 · CHA -2",
+      "Traits": "Heightened Sight. Use Perception 19 for visual detection.\nSeabird. The eagle can swim up to 30 ft. on its turn. It must begin and end its movement aloft or on a solid surface. If it ends its turn swimming, make a DC 10 CON save. Failure means it immediately sinks and begins to suffocate. While suffocating, it needs a DC 8 STR check to take flight from the substance where it is sinking.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit against one creature within 5 ft. On a hit, deal 3 (1d4 + 1) slashing damage.",
+      "At the table": "The 30-ft. swim belongs to Seabird’s specific movement rule. Vulnerability to blinded gives disadvantage on checks and saves to avoid or end that condition (p. 232). Suffocation rules are on p. 132. Seabird gives no action cost for the check to take flight."
+    }
+  },
+  {
+    "name": "Elephant",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 12,
+    "hp": 105,
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "otherStatistics": "Natural armor. Perception 12. Stealth 9. Resistant to prone. No listed special senses or languages.",
+    "appearance": "A heavy grey elephant with broad ears, two ivory tusks and a long, muscular trunk.",
+    "habitats": [
+      "Savannas",
+      "Grasslands",
+      "Open woodlands"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 356. \nXP from Experience Points by Challenge Rating, p. 229.",
+      "Ability modifiers": "STR +5 · DEX -1 · CON +3 · INT -4 · WIS +0 · CHA -2",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore on the same turn. It makes a DC 15 STR save or falls prone. The elephant can make one Stomp attack against the prone target as a bonus action.",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +7 to hit against one target within 5 ft. On a hit, deal 16 (2d10 + 5) piercing damage.\nStomp. Melee weapon attack, +7 to hit against one prone creature within 5 ft. On a hit, deal 14 (2d8 + 5) bludgeoning damage.",
+      "Bonus Actions": "Trunk Grab. Choose one Large or smaller creature within 10 ft. It makes a DC 15 STR save or is grappled (escape DC 15). The elephant can hold one creature at a time.",
+      "At the table": "Resistance to prone gives the elephant advantage on checks and saves to avoid or end that condition (p. 232). Choose either Trunk Grab or the available charge follow-up for the turn’s bonus action."
+    }
+  }
+]

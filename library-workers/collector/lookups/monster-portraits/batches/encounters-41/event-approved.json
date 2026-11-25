@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Basilisk Companion",
+    "slug": "basilisk-companion",
+    "id": "monster-51f63ea6fff7e54dd258c6aa:4bc5db785f990c9069525f7f",
+    "entry": "monster-51f63ea6fff7e54dd258c6aa",
+    "version": "4bc5db785f990c9069525f7f",
+    "suffix": "encounters-41/basilisk-companion.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-41/basilisk-companion.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-41/event-drafts/basilisk-companion-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 41 2026-11-23/event-drafts/basilisk-companion-event-v1.png",
+    "overrides": [],
+    "sha256": "5a482c411acc5ca750c3f528f8848bb172b41aafd96894cbb3de37417ccca1e7",
+    "bytes": 2588954
+  },
+  {
+    "name": "Lightbender Companion",
+    "slug": "lightbender-companion",
+    "id": "monster-4ad6c1c2be302027bd054aae:1c33c0b393b9f2285db6cf40",
+    "entry": "monster-4ad6c1c2be302027bd054aae",
+    "version": "1c33c0b393b9f2285db6cf40",
+    "suffix": "encounters-41/lightbender-companion.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-41/lightbender-companion.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-41/event-drafts/lightbender-companion-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 41 2026-11-23/event-drafts/lightbender-companion-event-v1.png",
+    "overrides": [],
+    "sha256": "37cfa6f857743ff8648429378d30767c1199e04c564a2cc88684e3b4146ca71f",
+    "bytes": 2736648
+  }
+]

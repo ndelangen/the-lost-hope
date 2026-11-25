@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Nothic",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Medium Aberration. Dexterity increases by 1. Walking speed 30 ft. Typical alignment is neutral evil. Speaks, reads, and writes Undercommon.",
+      "Proficient in Arcana and Stealth. Sight-based Perception checks have advantage. The player senses the presence of invisible or ethereal creatures within 30 ft. and can locate a creature in that range while it moves.",
+      "Natural AC is 12 + Dexterity modifier while unarmored. Claw unarmed strikes deal 1d6 slashing damage.",
+      "Rotting Gaze takes an action. Choose a creature you can see within 30 ft. It takes 1d8 necrotic damage if it fails a Constitution save against 8 + proficiency bonus + Intelligence modifier. Increase the damage to 2d8 at 5th level, 3d8 at 11th, and 4d8 at 17th.",
+      "Weird Insight takes an action against one creature you can see within 30 ft. Win a Wisdom (Insight) check against its Charisma (Deception) check to learn one fact or secret about it. A target immune to charm automatically wins."
+    ]
+  },
+  {
+    "name": "Otyugh",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Medium Aberration. Strength increases by 1 and Constitution by 2. Walking speed 30 ft. Typical alignment is neutral. Speaks, reads, and writes Otyugh.",
+      "Darkvision 120 ft. Can communicate simple ideas, images and emotions by telepathy with a creature within 100 ft. that understands a language.",
+      "While unarmored, AC is 13 + Dexterity modifier. Unable to wield weapons, use shields, or operate items requiring hands.",
+      "Bite and tentacles are unarmed strikes for 1d8 piercing or bludgeoning damage. After hitting during the Attack action, use a bonus action to attempt a grapple on that target despite having no hands."
+    ]
+  },
+  {
+    "name": "Peryton",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Medium Monstrosity. Strength increases by 1. Walking speed 30 ft. Fly speed 40 ft. in light armor or while unarmored. Typical alignment is chaotic evil.",
+      "Natural AC is 11 + Dexterity modifier while unarmored. Perception checks relying on sight or smell have advantage. The player can understand and read Common and Elven.",
+      "Gore or talon unarmed strikes deal 1d8 piercing damage. Once per turn, after diving at least 30 ft. toward a creature and landing a melee weapon attack on it, add 1d6 damage. Increase the extra damage to 2d6 at 5th level, 3d6 at 11th, and 4d6 at 17th.",
+      "Flyby allows Disengage as a bonus action."
+    ]
+  },
+  {
+    "name": "Rust Monster",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Medium Monstrosity. Constitution increases by 1. Walking speed 35 ft. Typical alignment is neutral. Speaks, reads, and writes Common.",
+      "Darkvision 60 ft. The player can scent and pinpoint ferrous metal within 30 ft.",
+      "Natural AC while unarmored is 13 + Dexterity modifier. Bite unarmed strikes deal 1d8 piercing damage.",
+      "On a natural 20 with an unarmed strike, the player may destroy the target’s wielded nonmagical metal shield. If the target wields no shield, the player may instead destroy its worn nonmagical metal armor. When an attacker rolls a natural 1 with a nonmagical metal weapon against this player, the player may destroy that weapon."
+    ]
+  },
+  {
+    "name": "Shambling Mound",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Medium Plant. Strength increases by 1. Walk and swim speeds 20 ft. Typical alignment is neutral. Speaks, reads, and writes Common.",
+      "Eyeless and blind, with blindsight 30 ft. Immune to the blinded and deafened conditions and to exhaustion.",
+      "Resists lightning damage. While unarmored, AC is 13 + Dexterity modifier. Cannot wield weapons, wear shields, or use items requiring manipulation.",
+      "Slam unarmed strikes deal 1d8 bludgeoning damage. After hitting with a strike from the Attack action, a bonus action can start a grapple attempt on that target despite the lack of hands."
+    ]
+  }
+]

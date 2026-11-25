@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Devil Legate",
+    "source": "https://www.dndbeyond.com/monsters/4485819-devil-legate",
+    "challenge": "8",
+    "entry": "monster-f2ae3fd57b983f0458f2d2aa",
+    "version": "3fe659f5b530f841857dbf0d",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "devil-legate",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "7fe32fc8b8c02a0db841b83febf9a21db79aaa258dba2191420204e5fdec4fb6",
+    "status": "Stat block",
+    "appearance": "An armored infernal soldier with sweeping horns, burnished half plate, a dark red cloak and a long pike.",
+    "habitats": [
+      "Hell",
+      "Seven Cities of Hell"
+    ]
+  },
+  {
+    "name": "Devil Magistrate",
+    "source": "https://www.dndbeyond.com/monsters/4485820-devil-magistrate",
+    "challenge": "12",
+    "entry": "monster-ddd515697a5d3389140abb8d",
+    "version": "679ee33608f9f68c4d010f35",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "devil-magistrate",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "bafa7599cb8f750017dad74bf143567da988a26e1cd5e5dbadc507f8f4612051",
+    "status": "Stat block",
+    "appearance": "An agile horned devil in fitted studded leather and court robes, wielding an obsidian kris and an infernal knife.",
+    "habitats": [
+      "Hell",
+      "Seven Cities of Hell"
+    ]
+  }
+]

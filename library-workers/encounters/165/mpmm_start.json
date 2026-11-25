@@ -1,0 +1,512 @@
+[
+  {
+    "name": "White Abishai",
+    "statBlock": {
+      "name": "White Abishai",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 41,
+      "classification": "Medium fiend (devil), typically lawful evil",
+      "ac": 15,
+      "hp": 68,
+      "hitDice": "8d8 + 32",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "White abishais are reckless shock troops in Tiamat's armies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6,
+        "Con": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic, Infernal, telepathy 120 ft.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Cold, fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Devil's Sight. Magical darkness does not interfere with the abishai's darkvision.\nMagic Resistance. The abishai has advantage on saving throws against spells and other magical effects.\nReckless. At the start of its turn, it can give itself advantage on melee weapon attack rolls for that turn. If it does, attack rolls against it have advantage until the start of its next turn.",
+        "Actions": "Multiattack. Make one Bite, one Claw, and one Longsword attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 3 (1d6) cold damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d10 + 3) slashing damage.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) force damage, or 8 (1d10 + 3) force damage when wielded with two hands.",
+        "Reactions": "Vicious Reprisal. When the abishai takes damage, it makes one Bite attack against a randomly selected creature within 5 ft. If nobody is within reach, it moves up to half its speed toward an enemy it can see. That movement does not provoke opportunity attacks.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 41."
+      }
+    }
+  },
+  {
+    "name": "Winter Eladrin",
+    "statBlock": {
+      "name": "Winter Eladrin",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 117,
+      "classification": "Medium fey (elf), typically chaotic neutral",
+      "ac": 19,
+      "hp": 165,
+      "hitDice": "22d8 + 66",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 13,
+      "description": "Winter eladrin embody sorrow. Their tears freeze on their faces, and the cold around them reflects their grief.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Damage resistances": "Cold.",
+        "Traits": "Magic Resistance. The eladrin has advantage on saving throws against spells and other magical effects.\nSorrowful Presence. A non-eladrin creature starting its turn within 60 ft. makes a DC 13 Wisdom save. On failure it is charmed by the eladrin for 1 minute, with disadvantage on ability checks and saving throws while charmed this way. The creature can repeat the save at the end of each of its turns and whenever this eladrin damages it, ending the effect on a success. When the creature succeeds or the effect ends, it gains immunity to any eladrin's Sorrowful Presence for 24 hours.",
+        "Changeable Natures mechanics": "After finishing a long rest, an eladrin that is not incapacitated can adopt another season's stat block. Carry over its damage taken, conditions, and other ongoing effects.",
+        "Actions": "Multiattack. Make two attacks using Longsword or Longbow. The eladrin can replace one attack with Spellcasting.\nLongsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d8) slashing damage, or 5 (1d10) slashing damage with two hands, plus 13 (3d8) cold damage.\nLongbow. Ranged weapon attack, +7 to hit, range 150/600 ft., one target. A hit deals 7 (1d8 + 3) piercing damage and 13 (3d8) cold damage.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 16). No material components are required.\nAt will. Fog Cloud, Gust of Wind, Sleet Storm.",
+        "Bonus actions": "Fey Step (Recharge 4–6). The eladrin teleports up to 30 ft. to an unoccupied space it can see, bringing any gear it wears or carries.",
+        "Reactions": "Frigid Rebuke. When a creature the eladrin can see within 60 ft. damages it, force that creature to make a DC 16 Constitution save. On failure, it takes 11 (2d10) cold damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 117."
+      }
+    }
+  },
+  {
+    "name": "Wood Woad",
+    "statBlock": {
+      "name": "Wood Woad",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 266,
+      "classification": "Medium plant, typically lawful neutral",
+      "ac": 18,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "description": "A wood woad houses a mortal soul in a body of bark and protects the place or people entrusted to it. After the rite binds its soul to a tree, it sprouts from the tree's roots on the third day.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 7,
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Sylvan.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Bludgeoning, piercing.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Plant Camouflage. The woad has advantage on Dexterity (Stealth) checks in terrain with plenty of concealing vegetation.\nRegeneration. The woad regains 10 hit points at the start of its turn while touching the ground. Fire damage disables this trait at the start of its next turn. It dies only if it starts its turn with 0 hit points and does not regenerate.\nTree Stride. Once on each of its turns, the woad can spend 10 ft. of movement to enter a living tree magically within 5 ft. It appears in an empty space within 5 ft. of a second living tree it can see within 60 ft. of itself. Both trees must be Large or larger.",
+        "Actions": "Multiattack. Make two Club attacks.\nClub. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 14 (4d4 + 4) force damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 266."
+      }
+    }
+  },
+  {
+    "name": "Wretched Sorrowsworn",
+    "statBlock": {
+      "name": "Wretched Sorrowsworn",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 224,
+      "classification": "Small monstrosity, typically neutral evil",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "4d6 - 4",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 8,
+      "description": "Wretched sorrowsworn hunt in packs in the Shadowfell, feeding on the life force of anyone they can latch onto.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing while in dim light or darkness.",
+        "Traits": "Wretched Pack Tactics. The sorrowsworn has advantage on an attack against a creature while an ally that is not incapacitated is within 5 ft. of that creature. Otherwise, its attack rolls have disadvantage.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 6 (1d10 + 1) piercing damage and the sorrowsworn attaches to the target. While attached it cannot attack, moves with the target without spending movement, and deals 6 (1d10 + 1) necrotic damage to the target at the start of each of its own turns. The sorrowsworn can spend 5 ft. of movement on its turn to detach. Any creature, including the target, can use its action to detach it.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 224."
+      }
+    }
+  },
+  {
+    "name": "Xvart",
+    "statBlock": {
+      "name": "Xvart",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 267,
+      "classification": "Small monstrosity, typically chaotic evil",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 8,
+      "description": "Raxivort created the xvarts in his image. Magic that would locate him points to the nearest xvart instead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "Abyssal.",
+        "Traits": "Raxivort's Tongue. The xvart can communicate with bats, giant bats, rats, and giant rats.",
+        "Actions": "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage. If at least one of the xvart's allies is within 5 ft. of the target and the target is a Medium or smaller creature, the xvart can push it 5 ft.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Bonus actions": "Low Cunning. Take the Disengage action.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 267."
+      }
+    }
+  },
+  {
+    "name": "Xvart Warlock of Raxivort",
+    "statBlock": {
+      "name": "Xvart Warlock of Raxivort",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 267,
+      "classification": "Small monstrosity, typically chaotic evil",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "5d6 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "Raxivort's warlocks can speak to bats and rats, and their patron rewards them for felling enemies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 3
+      },
+      "sections": {
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "Abyssal.",
+        "Traits": "Raxivort's Blessing. When the xvart reduces an enemy to 0 hit points, it gains 4 temporary hit points.\nRaxivort's Tongue. The xvart can communicate with bats, giant bats, rats, and giant rats.",
+        "Actions": "Multiattack. Make two attacks using Scimitar or Raxivort's Bite.\nScimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nRaxivort's Bite. Ranged spell attack, +3 to hit, range 30 ft., one creature. A hit deals 7 (1d10 + 2) poison damage.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 11). No material components are required.\nAt will. Detect Magic, Mage Armor (self only), Mage Hand, Minor Illusion, Prestidigitation.\n1/day each. Burning Hands, Invisibility.",
+        "Bonus actions": "Low Cunning. Take the Disengage action.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 267."
+      }
+    }
+  },
+  {
+    "name": "Yagnoloth",
+    "statBlock": {
+      "name": "Yagnoloth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 268,
+      "classification": "Large fiend (yugoloth), typically neutral evil",
+      "ac": 17,
+      "hp": 147,
+      "hitDice": "14d10 + 70",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "description": "Yagnoloths negotiate contracts for other yugoloths. They sign contracts with their smaller arm and use the other to fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 7,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Deception": 8,
+        "Insight": 6,
+        "Perception": 6,
+        "Persuasion": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. The yagnoloth has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Electrified Touch attack and one Massive Arm attack, or make one Massive Arm attack and use either Battlefield Cunning (if available) or Teleport.\nElectrified Touch. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 27 (6d8) lightning damage.\nMassive Arm. Melee weapon attack, +8 to hit, reach 15 ft., one target. A hit deals 23 (3d12 + 4) force damage. If the target is a creature, it must pass a DC 16 Constitution save or be stunned until the end of the yagnoloth's next turn.\nBattlefield Cunning (Recharge 4–6). Up to two allied yugoloths within 60 ft. that can hear the yagnoloth can each use a reaction for one melee attack.\nLife Leech. Touch one incapacitated creature within 15 ft. It takes 36 (7d8 + 4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. On a failed DC 16 Constitution save, the target's hit point maximum falls by half the necrotic damage it took. The reduction lasts until the target finishes a long rest. A creature whose maximum falls to 0 dies.\nTeleport. The yagnoloth and any equipment it wears or carries teleport up to 60 ft. to an unoccupied space it can see.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 16). No material components are required.\nAt will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Suggestion.\n3/day. Lightning Bolt.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 268."
+      }
+    }
+  },
+  {
+    "name": "Yeenoghu",
+    "statBlock": {
+      "name": "Yeenoghu",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 270,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 20,
+      "hp": 333,
+      "hitDice": "23d12 + 184",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 24,
+      "description": "The demon lord known as the Beast of Butchery carries the Butcher, a three-headed flail he can summon to his hand. His lair, the Death Dells, is a hunting ground in the Abyss.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 15,
+        "Wis": 14
+      },
+      "skills": {
+        "Intimidation": 9,
+        "Perception": 14
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison. Nonmagical bludgeoning, piercing, and slashing.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/day). If Yeenoghu fails a saving throw, he can choose to succeed.\nMagic Resistance. Yeenoghu has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Flail attacks.\nFlail. Melee weapon attack, +16 to hit, reach 15 ft., one target. A hit deals 22 (2d12 + 9) force damage. On his turn, Yeenoghu can add one effect to a hit. He can use each effect only once per turn.\nBite. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 20 (2d10 + 9) acid damage.",
+        "Flail effects mechanics": "Confusion. On a failed DC 17 Wisdom save, the target is affected by Confusion until the start of Yeenoghu's next turn.\nForce. The target takes 13 (2d12) extra force damage.\nParalysis. On a failed DC 17 Constitution save, the target is paralyzed until the start of Yeenoghu's next turn.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 17). No material components are required.\nAt will. Detect Magic.\n3/day each. Dispel Magic, Fear, Invisibility.\n1/day. Teleport.",
+        "Bonus actions": "Rampage. When Yeenoghu reduces a creature to 0 hit points with a melee attack, he can move up to half his speed and make one Bite attack.",
+        "Legendary actions": "Yeenoghu has 3 legendary actions. Use one option, paying its listed cost, at the end of another creature's turn. He regains spent legendary actions at the start of his turn. He cannot use them while incapacitated or otherwise unable to act. If surprised, he must finish his first turn before using them.\nCharge (1 action). Move up to his speed.\nSwat Away (1 action). Make one Flail attack. On a hit, the target must pass a DC 24 Strength save or be pushed up to 15 ft. straight away from Yeenoghu. If it fails by 5 or more, it also falls prone.\nSavage (2 actions). Make a separate Bite attack against each creature within 10 ft.",
+        "Lair": "When encountered in his lair in the Death Dells, Yeenoghu is CR 25 (75,000 XP).",
+        "Lair actions": "On initiative count 20, after creatures tied on that count, Yeenoghu can choose one option. He cannot choose the same option two rounds in a row.\nIncite the Pack. Until the next initiative count 20, gnolls and hyenas in the lair have advantage on melee weapon attack rolls, and attack rolls against them have advantage.\nIron Spike. An iron spike 5 ft. tall and 1 inch wide erupts from a point on the ground Yeenoghu can see within 100 ft. A creature in that space makes a DC 24 Dexterity save. On failure, it takes 27 (6d8) piercing damage and is restrained on the spike. A creature can use its action to free itself or another creature within reach, ending the restraint.\nPack Rush. Each gnoll or hyena Yeenoghu can see can use its reaction to move up to its speed.",
+        "Regional effects": "Choose one or both effects around Yeenoghu’s lair.\nSavage Predators. Predatory Beasts within 6 miles of the lair kill far more prey than they need and leave the carcasses to rot.\nSpiky Terrain. Large iron spikes grow from the ground and stone surfaces within 1 mile of the lair. Yeenoghu mounts the bodies of his victims on them.\nIf Yeenoghu dies, these effects fade over 1d10 days.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 270."
+      }
+    }
+  },
+  {
+    "name": "Yeth Hound",
+    "statBlock": {
+      "name": "Yeth Hound",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 271,
+      "classification": "Large fey, typically neutral evil",
+      "ac": 14,
+      "hp": 51,
+      "hitDice": "6d10 + 18",
+      "speed": "40 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "description": "Powerful Fey grant packs of yeth hounds to their favorites. The hounds run their prey down at night and flee the daylight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common, Elvish, and Sylvan but cannot speak.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Condition immunities": "Charmed, exhaustion, frightened.",
+        "Traits": "Sunlight Banishment. If the hound starts its turn in sunlight, it moves to the Deep Ethereal and must stay there while sunlight falls on the spot it left. After sunset it returns to that spot on the Border Ethereal. The hound and creatures on the Material Plane can see one another across the border but cannot affect one another. Once the hound is adjacent to its master or a pack mate on the Material Plane, it can use an action to return to that plane.\nTelepathic Bond. While the hound and its master are on the same plane, they can communicate telepathically and the hound can magically share what it senses.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) piercing damage. A frightened target also takes 14 (4d6) psychic damage.\nBaleful Baying. The hound bays magically. Each enemy within 300 ft. that hears it must pass a DC 13 Wisdom save or be frightened of the hound until the end of the hound's next turn or until the hound is incapacitated. A creature frightened this way that starts its turn within 30 ft. of the hound must use all its movement before acting, taking the most direct route to get as far away as possible even through hazards. A creature that succeeds on the save is immune to every yeth hound's baying for 24 hours.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 271."
+      }
+    }
+  }
+]

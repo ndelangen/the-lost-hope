@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-337fd5e0989d665c32319b66",
+    "version": "dfc68d0ea9472e4e4ec1770c",
+    "name": "Fire Lizard",
+    "file": "images/undermountain-stardock-beasts/fire-lizard.png",
+    "sha256": "9e18c38ba20b7cbd11b86d527f2d1c483e2dd798ff16f769e79b1849a1ca884a",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-84938191021c881180909908",
+    "version": "931e18dfbbe5596d76e682b8",
+    "name": "Bookworm",
+    "file": "images/undermountain-stardock-beasts/bookworm.png",
+    "sha256": "43d3d8e861be4dcbfc9e28ffa13154681fb6a56228fe13717126697ba05bcbce",
+    "credit": "OpenAI ImageGen"
+  }
+]

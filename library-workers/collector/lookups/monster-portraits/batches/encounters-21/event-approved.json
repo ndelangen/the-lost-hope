@@ -1,0 +1,99 @@
+[
+  {
+    "entry": "monster-178e1029ca4eab6bcb9ee997",
+    "slug": "abominable-yeti-allowak-variant",
+    "name": "Abominable Yeti (Allowak variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-21/event-drafts/abominable-yeti-allowak-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 21 2026-11-23/event-drafts/abominable-yeti-allowak-variant-event-v1.png",
+    "path": "encounters-21/abominable-yeti-allowak-variant.png",
+    "registeredPath": "assets/images/content/dm-library/allowak-yetis/abominable-yeti-allowak-variant.png",
+    "previous": {
+      "sha256": "730e4c5a1b3f79b1e891e4e86142050bf982c1ce8b86df8375b897a1a1dd9ce1",
+      "bytes": 2827514
+    },
+    "overrides": [
+      {
+        "entry": "monster-178e1029ca4eab6bcb9ee997",
+        "name": "Abominable Yeti (Allowak variant)",
+        "file": "images/monsters/abominable-yeti-allowak-variant/parchment-portrait.webp",
+        "sha256": "f15ff56cb505a3cce5eb5bc953ab5a9526bc82d2eb4641e8567774c8efd38c2a",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "Explorer's Guide to Wildemount",
+        "subjectPrompt": "A colossal adult Allowak abominable yeti guardian from Eiselcross. Monumentally bulky, with a wide barrel of a torso, powerful long arms, a high shoulder hump and an especially thick silvery-white winter mane. White fur with cool ash shading, exposed slate blue-gray primate-like face and hands, low broad brow, small ice-gray eyes, and two strong dark outward-curving horns. He stands at ease facing three-quarters forward, weight on both feet, one broad hand resting on a roughly made wooden spear planted beside him. The other hand relaxed. His expression is calm and experienced. The reference's size and thick fur matter, but the pose is quiet and watchful. Small functional leather bindings on the spear only.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "c7b33cb8a502fb8de601c7ce9727991d50d7cf4e6f85ef1fc912c48508e2757a",
+    "bytes": 2582166
+  },
+  {
+    "entry": "monster-b957380dbbbde84acb655f1e",
+    "slug": "husk-zombie-burster",
+    "name": "Husk Zombie Burster",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-21/event-drafts/husk-zombie-burster-event-v1.png",
+    "saved": " Backups/Encounter Batch 21 2026-11-23/event-drafts/husk-zombie-burster-event-v1.png",
+    "path": "encounters-21/husk-zombie-burster.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-21/husk-zombie-burster.png",
+    "overrides": [],
+    "sha256": "8d8b282f109375d5fa751d911281e9108d20eb4b71866e16f3e37c64d5d4ad57",
+    "bytes": 2312039
+  },
+  {
+    "entry": "monster-327eae880e5fdf6ae0849f9f",
+    "slug": "lacedon",
+    "name": "Lacedon",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-21/event-drafts/lacedon-event-v1.png",
+    "saved": " Backups/Encounter Batch 21 2026-11-23/event-drafts/lacedon-event-v1.png",
+    "path": "encounters-21/lacedon.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-21/lacedon.png",
+    "overrides": [],
+    "sha256": "6507c03030992100ecac8152418269f484a0a47f51d2f1e29c8e7d1ee413a5f3",
+    "bytes": 2379851
+  },
+  {
+    "entry": "monster-5d328b9b26defdd6a1e61b46",
+    "slug": "sahuagin-warlock-of-ukotoa-variant",
+    "name": "Sahuagin Warlock of Uk'otoa (variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-21/event-drafts/sahuagin-warlock-of-ukotoa-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 21 2026-11-23/event-drafts/sahuagin-warlock-of-ukotoa-variant-event-v1.png",
+    "path": "encounters-21/sahuagin-warlock-of-ukotoa-variant.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-21/sahuagin-warlock-of-ukotoa-variant.png",
+    "overrides": [],
+    "sha256": "f84f293886d3eb808f6be0ebc7cc65ae384f7f1d0ce390feda382be54732f369",
+    "bytes": 2455101
+  },
+  {
+    "entry": "monster-7afe5846e0d6aed85c4bf7ec",
+    "slug": "yeti-allowak-variant",
+    "name": "Yeti (Allowak variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-21/event-drafts/yeti-allowak-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 21 2026-11-23/event-drafts/yeti-allowak-variant-event-v1.png",
+    "path": "encounters-21/yeti-allowak-variant.png",
+    "registeredPath": "assets/images/content/dm-library/allowak-yetis/yeti-allowak-variant.png",
+    "previous": {
+      "sha256": "dce0c6c7f566988b5e520bb4d5ff5a95f187c412d564a0852aa208a9921fb67d",
+      "bytes": 2779430
+    },
+    "overrides": [
+      {
+        "entry": "monster-7afe5846e0d6aed85c4bf7ec",
+        "name": "Yeti (Allowak variant)",
+        "file": "images/monsters/yeti-allowak-variant/parchment-portrait.webp",
+        "sha256": "7cd5d343130030beedae3178b51b00af19dc678fba1f4fba2f34604da32617db",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "Explorer's Guide to Wildemount",
+        "subjectPrompt": "A large adult Allowak yeti scout from Eiselcross, with a lean rangy frame, slightly forward posture, wiry long forearms and visibly lighter shoulders than an abominable yeti. Its long coarse ivory fur is streaked with pale gray at the elbows, knees and shoulders. Face and hands are exposed muted slate-blue skin, with two short dark horns rising above wide-set, curious eyes. A simple weathered leather strap crosses the torso to a small woven hip pouch, and one hand is raised lightly as though signaling a quiet greeting. The other arm hangs loose. Turn the head to the viewer in a relaxed three-quarter stance. Attentive and intelligent expression, closed mouth, no weapons.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "7298a3e22449966a428e41312e860d5cf070d36e03ef0c097e2d2233b9947262",
+    "bytes": 2343102
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-89cd1b062cb2aba1a35fca42",
+    "version": "2b154e9775abc0b082c31db2",
+    "name": "Giant Fly",
+    "file": "images/black-flag-ebony-fly/giant-fly.png",
+    "sha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-89cd1b062cb2aba1a35fca42",
+    "version": "9233a3c0cddb5f92199a3bc1",
+    "name": "Giant Fly",
+    "file": "images/black-flag-ebony-fly/giant-fly.png",
+    "sha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+    "credit": "OpenAI ImageGen"
+  }
+]

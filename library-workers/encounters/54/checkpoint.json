@@ -1,0 +1,25 @@
+{
+  "commit": "0634d6bfea5845a6321fe425b83de869bc4c41d2",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "preservedSharedGalleries": 2,
+  "recentProfilesWithGeneratedPortrait": 593,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-54-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/54/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Human Knave",
+      "source": "https://www.dndbeyond.com/monsters/4485896-human-knave",
+      "challenge": "3"
+    },
+    {
+      "name": "Human Trickshot",
+      "source": "https://www.dndbeyond.com/monsters/4485900-human-trickshot",
+      "challenge": "2"
+    }
+  ]
+}

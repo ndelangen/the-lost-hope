@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Ogre Bolt Launcher",
+    "statBlock": {
+      "name": "Ogre Bolt Launcher",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 200,
+      "classification": "Large giant, typically chaotic evil",
+      "ac": 13,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 8,
+      "description": "This ogre carries a ballista-sized crossbow. When it runs out of bolts, it can use small trees or beams torn from buildings as ammunition.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Actions": "Fist. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) bludgeoning damage.\nBolt Launcher. Ranged weapon attack, +3 to hit, range 120/480 ft., one target. A hit deals 17 (3d10 + 1) piercing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 200."
+      }
+    }
+  },
+  {
+    "name": "Ogre Chain Brute",
+    "statBlock": {
+      "name": "Ogre Chain Brute",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 201,
+      "classification": "Large giant, typically chaotic evil",
+      "ac": 11,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 8,
+      "description": "This ogre wields a spiked chain with both hands, swinging it low to knock enemies down or bringing it down overhead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Actions": "Fist. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) bludgeoning damage.\nChain Smash (Recharge 6). Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) bludgeoning damage. The target must pass a DC 14 Constitution save or be stunned for 1 minute. It can repeat the save whenever it takes damage and at the end of each of its turns, ending the effect on a success.\nChain Sweep. Every creature within 10 ft. of the ogre makes a DC 14 Dexterity save. A creature that fails takes 8 (1d8 + 4) bludgeoning damage and falls prone. A creature that succeeds takes half damage and stays upright.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 201."
+      }
+    }
+  },
+  {
+    "name": "Ogre Howdah",
+    "statBlock": {
+      "name": "Ogre Howdah",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 201,
+      "classification": "Large giant, typically chaotic evil",
+      "ac": 15,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 8,
+      "description": "This ogre carries a wooden fighting platform on its back. Goblins with bows or spears often ride in it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Breastplate and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Traits": "Howdah. Up to four Small creatures can ride in the ogre's fort without squeezing. Riders need a spear or a reach weapon to make melee attacks against a target within 5 ft. of the ogre. Riders have three-quarters cover against attacks and effects originating outside the fort. If the ogre dies, place the riders in unoccupied spaces within 5 ft. of it.",
+        "Actions": "Mace. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 201."
+      }
+    }
+  },
+  {
+    "name": "Oinoloth",
+    "statBlock": {
+      "name": "Oinoloth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 202,
+      "classification": "Medium fiend (yugoloth), typically neutral evil",
+      "ac": 17,
+      "hp": 119,
+      "hitDice": "14d8 + 56",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 17,
+      "description": "An army may hire this yugoloth to break a siege by spreading plague. The oinoloth can remove disease too, at lasting cost to the patient.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 7
+      },
+      "skills": {
+        "Deception": 8,
+        "Intimidation": 8,
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Damage resistances": "Cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. The oinoloth has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Claw attacks and use either Spellcasting or Teleport.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 14 (3d6 + 4) slashing damage plus 22 (4d10) necrotic damage.\nCorrupted Healing (Recharge 6). Touch one willing creature within 5 ft. It regains all its hit points. The oinoloth can also end one disease or remove one condition from the target. The eligible conditions are blinded, deafened, paralyzed, and poisoned. The target then gains 1 level of exhaustion and loses 7 (2d6) from its hit point maximum. It dies if its maximum drops to 0. Only Wish or three castings of Greater Restoration on the target within the same hour can remove this reduction.\nTeleport. Teleport up to 60 ft. to a visible, unoccupied space, taking any worn or carried equipment along.",
+        "Spellcasting": "As an action, cast a listed spell using Charisma (save DC 16). No material components are required.\nAt will. Darkness, Detect Magic, Dispel Magic, Hold Monster, Invisibility (self only).\n1/day each. Feeblemind, Globe of Invulnerability.",
+        "Bonus actions": "Bringer of Plagues (Recharge 5–6). Blight a 30-ft.-radius sphere centered on the oinoloth for 24 hours. Normal plants in the area wither and die.\nA creature that enters the area or starts its turn there makes a DC 16 Constitution save. On a failure, it takes 14 (4d6) poison damage and is poisoned. On a success, it gains immunity to this oinoloth's Bringer of Plagues for 24 hours.\nA creature poisoned this way cannot regain hit points. Every 24 hours, it can repeat the save. Each failure reduces its hit point maximum by 5 (1d10) until the poison ends. The creature dies if its maximum drops to 0. Three successful saves end the poison.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 202."
+      }
+    }
+  },
+  {
+    "name": "Orcus",
+    "statBlock": {
+      "name": "Orcus",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 204,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 17,
+      "hp": 405,
+      "hitDice": "30d12 + 210",
+      "speed": "40 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 22,
+      "description": "The Demon Prince of Undeath rules Thanatos from the fortress city of Naratyr. He wants to extinguish all life and rule the Undead that remain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 15,
+        "Wis": 13
+      },
+      "skills": {
+        "Arcana": 13,
+        "Perception": 13
+      },
+      "sections": {
+        "Armor": "Natural armor. AC 20 while holding the Wand of Orcus.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Necrotic and poison. Nonmagical bludgeoning, piercing, and slashing.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/day). When Orcus fails a save, he can spend a use to succeed.\nMagic Resistance. Orcus has advantage on saves against spells and other magical effects.\nMaster of Undeath. Orcus can cast Animate Dead at will and Create Undead three times per day. He chooses the level for each casting. The resulting Undead obey him indefinitely. He can cast Create Undead at any time of day.\nSpecial Equipment. Orcus carries the Wand of Orcus.",
+        "Actions": "Multiattack. Make three attacks in any combination of Wand of Orcus, Tail, or Necrotic Bolt.\nWand of Orcus. Melee weapon attack, +19 to hit, reach 10 ft., one target. A hit deals 24 (3d8 + 11) bludgeoning damage plus 13 (2d12) necrotic damage.\nTail. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 21 (3d8 + 8) force damage plus 9 (2d8) poison damage.\nNecrotic Bolt. Ranged spell attack, +15 to hit, range 120 ft., one target. A hit deals 29 (5d8 + 7) necrotic damage.\nConjure Undead (1/day). While holding the Wand of Orcus, summon any combination of Undead with a total of up to 500 average hit points. They appear in unoccupied spaces within 300 ft. and obey Orcus until destroyed or dismissed by him as an action.",
+        "Spellcasting": "As an action, cast a listed spell using Charisma (save DC 23). No material components are required.\nAt will. Detect Magic.\n3/day. Dispel Magic.\n1/day. Time Stop.\nWand Spellcasting. While holding the Wand of Orcus, use an action to cast a listed spell (save DC 18). The wand holds up to 7 charges and regains 1d4 + 3 charges each dawn.\nAt will from the wand. Animate Dead, Blight, Speak with Dead.\n1 charge each. Circle of Death or Finger of Death.\n2 charges. Power Word Kill.",
+        "Legendary actions": "Orcus has 3 legendary actions and regains them at the start of his turn. Spend the stated cost on one option immediately after another creature's turn. He cannot use them while incapacitated or otherwise unable to act. If surprised, he must finish his first turn before using one.\nAttack (1 action). Make one Tail or Necrotic Bolt attack.\nCreeping Death (2 actions). Choose a point on the ground that Orcus can see within 100 ft. A cylinder 60 ft. high and 10 ft. in radius rises from that point until the end of his next turn. Creatures inside have vulnerability to necrotic damage.",
+        "Lair actions": "At initiative count 20, after any creature tied at that count, Orcus can use one option while in his lair and able to act. He cannot repeat the same option two rounds in a row. If surprised, he must finish his first turn before using one.\nDeadly Utterance. Subject one creature Orcus knows is in his lair to Power Word Kill. He can target a creature he cannot see.\nGrasp of the Dead. Conjure skeletal arms in a visible 20-ft. square of ground until the next initiative count 20. Each creature in the square when the arms appear makes a DC 23 Strength save. On a failure, it is restrained until the arms vanish or Orcus releases it, which requires no action.\nUndead Servants. Animate up to six corpses in the lair as skeletons, zombies, or ghouls. They obey Orcus's telepathic commands anywhere in the lair.",
+        "Regional effects": "One or both effects can occur in the region around the lair.\nCharnel Realm. The region smells of rotting flesh and fills with swarms of flies.\nUndead Beasts. Some dead Beasts rise as skeletons or zombies. Undead versions of local wildlife are common.\nThese effects fade over 1d10 days after Orcus dies.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 204."
+      }
+    }
+  },
+  {
+    "name": "Orthon",
+    "statBlock": {
+      "name": "Orthon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 205,
+      "classification": "Large fiend (devil), typically lawful evil",
+      "ac": 17,
+      "hp": 105,
+      "hitDice": "10d10 + 50",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 20,
+      "description": "An infernal bounty hunter that tracks quarry across the planes. An orthon between assignments may work for anyone who offers it a difficult hunt.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 10,
+        "Stealth": 11,
+        "Survival": 10
+      },
+      "sections": {
+        "Armor": "Half plate.",
+        "Senses": "Darkvision 120 ft., truesight 30 ft.",
+        "Languages": "Common, Infernal, telepathy 120 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, poisoned.",
+        "Traits": "Magic Resistance. The orthon has advantage on saves against spells and other magical effects.",
+        "Actions": "Infernal Dagger. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 11 (2d4 + 6) force damage. The target makes a DC 17 Constitution save, taking 22 (4d10) poison damage on a failure or half on a success. On a failure, it is also poisoned for 1 minute. It can repeat the save at the end of each of its turns to end the condition.\nBrass Crossbow. Ranged weapon attack, +7 to hit, range 100/400 ft., one target. A hit deals 14 (2d10 + 3) force damage and applies one of the rider effects below. The orthon cannot choose the same effect two rounds in a row.\nAcid. The target makes a DC 17 Constitution save, taking an extra 17 (5d6) acid damage on a failure or half on a success.\nBlindness. The target takes 5 (1d10) extra radiant damage. The target and every other creature within 20 ft. of it must pass a DC 17 Dexterity save or be blinded until the end of the orthon's next turn.\nConcussion. The target and every other creature within 20 ft. of it must make a DC 17 Constitution save, taking 13 (2d12) thunder damage on a failure or half on a success.\nEntanglement. The target makes a DC 17 Dexterity save or is restrained by sticky webs for 1 hour. It can use an action to make a DC 17 Strength or Dexterity check, escaping on a success.\nParalysis. The target takes 22 (4d10) lightning damage and makes a DC 17 Constitution save. On a failure, it is paralyzed for 1 minute and can repeat the save at the end of each of its turns to end the condition.\nTracking. For 24 hours, the orthon knows the target's direction and distance while they share a plane. If the target is on another plane, the orthon knows which plane it is on without learning its exact location.",
+        "Bonus actions": "Invisibility Field (Recharge 4–6). The orthon becomes invisible. Its gear remains invisible while it wears or carries it. The effect ends immediately after it makes an attack roll or an attack roll hits it.",
+        "Reactions": "Explosive Retribution. When the orthon drops to 15 hit points or fewer, it explodes. Every other creature within 30 ft. makes a DC 17 Dexterity save, taking 9 (2d8) fire damage plus 9 (2d8) thunder damage on a failure or half on a success. The explosion destroys the orthon, its infernal dagger, and its brass crossbow.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 205."
+      }
+    }
+  },
+  {
+    "name": "Phoenix",
+    "statBlock": {
+      "name": "Phoenix",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 206,
+      "classification": "Gargantuan elemental, typically neutral",
+      "ac": 18,
+      "hp": 175,
+      "hitDice": "10d20 + 70",
+      "speed": "20 ft., fly 120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 26
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 15,
+      "description": "An elder fire elemental shaped like a vast bird. When freed from the Inner Planes, it travels from place to place setting fires.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 10,
+        "Cha": 9
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned.",
+        "Traits": "Fiery Death and Rebirth. When the phoenix dies, each creature in a 60-ft.-radius sphere centered on it makes a DC 20 Dexterity save, taking 22 (4d10) fire damage on a failure or half on a success. The blast ignites flammable objects that no one is wearing or carrying and destroys the phoenix's body.\nThe blast leaves a 5-pound, egg-shaped cinder immune to all damage. A creature that touches it takes 21 (6d6) fire damage at most once per round. A new phoenix hatches after 1d6 days.\nFire Form. Move through gaps as narrow as 1 inch without squeezing. A creature that touches the phoenix or hits it with a melee attack while within 5 ft. takes 5 (1d10) fire damage. The phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage. The phoenix can also ignite flammable objects it touches if they are unworn and uncarried. This takes no action.\nFlyby. Flying out of an enemy's reach provokes no opportunity attacks.\nIllumination. Shed bright light in a 60-ft. radius and dim light for another 30 ft.\nLegendary Resistance (3/day). When the phoenix fails a save, it can spend a use to succeed.\nSiege Monster. Deal double damage to objects and structures.",
+        "Actions": "Multiattack. Make one Beak attack and one Fiery Talons attack.\nBeak. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 15 (2d6 + 8) fire damage.\nFiery Talons. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 17 (2d8 + 8) fire damage.",
+        "Legendary actions": "The phoenix has 3 legendary actions and regains them at the start of its turn. Spend the stated cost on one option immediately after another creature's turn. It cannot use them while incapacitated or otherwise unable to act. If surprised, it must finish its first turn before using one.\nMove (1 action). Move up to its speed.\nPeck (1 action). Make one Beak attack.\nSwoop (2 actions). Move up to its speed and make one Fiery Talons attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 206."
+      }
+    }
+  }
+]

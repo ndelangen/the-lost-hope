@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Changeling",
+    "kind": "species",
+    "publication": "Eberron Campaign Setting (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Shapechanger subtype. Base land speed 30 ft. The edition gives no racial ability adjustments, racial Hit Dice, or level adjustment.",
+      "+2 racial on saving throws against sleep and charm effects.",
+      "+2 racial on Bluff, Intimidate, and Sense Motive checks.",
+      "Natural Linguist makes Speak Language a class skill in every class the Changeling takes.",
+      "Minor Change Shape (Su) is an at-will full-round action that physically alters the Changeling’s body, including facial features, skin color and texture, and size within the limits of disguise self. Clothing and possessions keep their appearance.",
+      "Within the disguise self limits, height can vary by up to 1 ft. and build can vary while keeping the same basic body plan. The new appearance retains the Changeling’s game traits. Wizards’ 3.5 FAQ gives the appearance of a Warforged as an example.",
+      "Minor Change Shape grants +10 circumstance on Disguise checks when used to create a disguise. The form lasts until another change. True seeing reveals the natural form, and death restores it.",
+      "In this printing, Changelings can copy a dragonmark’s appearance. Their ancestry does not develop dragonmarks or confer their powers.",
+      "Common is automatic. Bonus languages are Auran, Dwarven, Elven, Giant, Gnome, Halfling, and Terran. Favored class Rogue."
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "dinosaur-velociraptor",
+    "name": "Dinosaur, Velociraptor",
+    "entryId": "beast-73ec50b4446330034ccb0a10",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A single small feathered Velociraptor with scientifically plausible dromaeosaur anatomy. Narrow long snout, refined alert amber eye, long stiff counterbalancing tail with a taper and modest feather fan, two digitigrade hind legs with upcurved sickle claws, forelimbs held naturally with feathering and no pronated wrists. Layered muted gray-brown feathers with a restrained dark crest and small rusty patch under the neck as in the second reference, plumage with warmth and subtle color variation. Show the full horizontal silhouette at an agile three-quarter trot with head raised, neutral expression, limbs and tail clear with margin. Do not add bird beak or extra legs; use reference for plumage and proportions only.",
+    "prompt": "One original square 1254 by 1254 tableau for a tabletop fantasy bestiary. Match the FIRST reference for the house rendering: finely drawn sepia ink, muted matte gouache, colored pencil and gentle ink hatching, warm golden amber mottled parchment extending to all edges, soft diffuse light and restrained ground shadow. Place one complete animal against empty parchment with an uncluttered legible silhouette and breathing room around every extremity. No scenery, caption, typography, signature or border. Ignore the round blue frame in second image. A single small feathered Velociraptor with scientifically plausible dromaeosaur anatomy. Narrow long snout, refined alert amber eye, long stiff counterbalancing tail with a taper and modest feather fan, two digitigrade hind legs with upcurved sickle claws, forelimbs held naturally with feathering and no pronated wrists. Layered muted gray-brown feathers with a restrained dark crest and small rusty patch under the neck as in the second reference, plumage with warmth and subtle color variation. Show the full horizontal silhouette at an agile three-quarter trot with head raised, neutral expression, limbs and tail clear with margin. Do not add bird beak or extra legs; use reference for plumage and proportions only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry tokens"
+  },
+  {
+    "slug": "eagle-giant",
+    "name": "Eagle, Giant",
+    "entryId": "beast-baf401084a16bdf9dcae5f13",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One colossal noble eagle depicted as a plausible bird of prey consistent with the second reference. Shaded white and cream crown, cool charcoal brown back and dark-tipped wings with subtle light bars, pale breast, large yellow hooked bill, amber eyes and exceptionally stout golden talons. Whole eagle in dynamic forward three-quarter view about to land, unequal rooted wing angles both complete within the picture, long layered primary feathers apart at their tips, legs flexed but tucked far enough to read as naturally avian. No human anatomy, armor or saddle. Distinct from a vulture, full feathered head and strong curved beak. Use the second reference for anatomy and coloration only.",
+    "prompt": "One original square 1254 by 1254 tableau for a tabletop fantasy bestiary. Match the FIRST reference for the house rendering: finely drawn sepia ink, muted matte gouache, colored pencil and gentle ink hatching, warm golden amber mottled parchment extending to all edges, soft diffuse light and restrained ground shadow. Place one complete animal against empty parchment with an uncluttered legible silhouette and breathing room around every extremity. No scenery, caption, typography, signature or border. Ignore the round blue frame in second image. One colossal noble eagle depicted as a plausible bird of prey consistent with the second reference. Shaded white and cream crown, cool charcoal brown back and dark-tipped wings with subtle light bars, pale breast, large yellow hooked bill, amber eyes and exceptionally stout golden talons. Whole eagle in dynamic forward three-quarter view about to land, unequal rooted wing angles both complete within the picture, long layered primary feathers apart at their tips, legs flexed but tucked far enough to read as naturally avian. No human anatomy, armor or saddle. Distinct from a vulture, full feathered head and strong curved beak. Use the second reference for anatomy and coloration only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry tokens"
+  }
+]

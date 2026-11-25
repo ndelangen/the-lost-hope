@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Blood Drinker Vampire",
+    "statBlock": {
+      "name": "Blood Drinker Vampire",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 223,
+      "classification": "Medium undead, lawful evil",
+      "ac": 16,
+      "hp": 90,
+      "hitDice": "12d8 + 36",
+      "speed": "40 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "description": "An undead predator that can turn a victim’s blood into an infatuating bond. Blood drinkers haunt Ravnica’s alleys and sewers, and some collect blood tithes for the Orzhov Syndicate.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 7,
+        "Perception": 4,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 6,
+        "Wis": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages the vampire knew in life.",
+        "Damage resistances": "Necrotic damage. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Actions": "Multiattack. Make three melee attacks, at most one of which can be a Bite.\nBite. Melee weapon attack, +7 to hit, reach 5 ft. Target one willing creature or one creature the vampire has grappled, or that is incapacitated or restrained. On a hit, deal 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. A humanoid hit makes a DC 15 Charisma save. On a failure, the vampire charms it for 1 minute and it becomes infatuated with the vampire for that duration. Reduce the target’s hit point maximum by the necrotic damage it took. The vampire regains the same amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum reaches 0.\nRapier. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.\nUnarmed Strike. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) bludgeoning damage. With a free hand, the vampire can also grapple a creature it hits (escape DC 14).",
+        "Reactions": "Parry. Add 3 to the vampire’s AC against one melee attack that would hit it. It must see the attacker and be wielding a melee weapon.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 223."
+      }
+    }
+  },
+  {
+    "name": "Blood Witch",
+    "statBlock": {
+      "name": "Blood Witch",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 248,
+      "classification": "Medium humanoid (any race), chaotic evil",
+      "ac": 12,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 12,
+      "description": "An influential Rakdos cultist who claims to speak for Rakdos. A blood witch uses Hex to steer a foe while fighting with a sword in each hand.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "Intimidation": 7,
+        "Perception": 2,
+        "Stealth": 5
+      },
+      "savingThrows": {
+        "Wis": 2,
+        "Cha": 7
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal and one other language, usually Common.",
+        "Damage resistances": "Psychic.",
+        "Traits": "Devil’s Sight. Magical darkness does not block the witch’s darkvision.",
+        "Innate Spellcasting": "The witch uses Charisma (save DC 15, +7 to hit with spell attacks) and needs no material components.\nAt will. Alter Self, Detect Magic, Eldritch Blast (as an 11th-level caster), False Life, Levitate (self only), Mage Armor (self only, raising AC to 15).\n3/day each. Hellish Rebuke, Hex, Scorching Ray (at 3rd level).\n1/day each. Circle of Death, Enthrall, Suggestion.",
+        "Actions": "Multiattack. Make one Longsword attack and one Shortsword attack.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Bonus actions": "Blood Witch Dance. Choose one creature within 30 ft. that the witch can see and has cursed with Hex. On a failed DC 15 Charisma save, the creature uses its reaction to move up to 30 ft. in a direction the witch chooses.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 248."
+      }
+    }
+  },
+  {
+    "name": "Bloodfray Giant",
+    "statBlock": {
+      "name": "Bloodfray Giant",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 200,
+      "classification": "Huge giant, chaotic evil",
+      "ac": 14,
+      "hp": 103,
+      "hitDice": "9d12 + 45",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 12,
+      "description": "A Rakdos bouncer or enforcer. Some hold up the mobile stages during performances and lash out at anyone who disrupts the show.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 9,
+        "Perception": 2
+      },
+      "savingThrows": {
+        "Str": 9,
+        "Con": 8,
+        "Wis": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Giant.",
+        "Actions": "Chain. Melee weapon attack, +9 to hit, reach 20 ft., one target. A hit deals 16 (3d6 + 6) bludgeoning damage. A creature hit is grappled (escape DC 17) and restrained until the grapple ends. The giant can use Chain only against that creature while the grapple lasts.\nRock. Ranged weapon attack, +9 to hit, range 60/240 ft., one target. A hit deals 16 (3d6 + 6) bludgeoning damage.",
+        "Reactions": "Furious Defense. When a foe within 20 ft. of the giant damages a creature the giant can see, the giant makes one Chain attack against that foe.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 200."
+      }
+    }
+  },
+  {
+    "name": "Borborygmos",
+    "statBlock": {
+      "name": "Borborygmos",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 238,
+      "classification": "Huge giant, chaotic neutral",
+      "ac": 14,
+      "hp": 270,
+      "hitDice": "20d12 + 140",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 13,
+      "description": "The cyclops chief of the Burning Tree clan. He has kept command of the Gruul by defeating challengers and often travels with clan members whom he protects.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 13,
+        "Insight": 9,
+        "Survival": 9
+      },
+      "savingThrows": {
+        "Str": 13,
+        "Con": 13,
+        "Wis": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Tremorsense 60 ft.",
+        "Languages": "Common, Giant.",
+        "Damage resistances": "Poison, psychic.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Legendary Resistance (3/day). Borborygmos can turn a failed saving throw into a success.\nPoor Depth Perception. He has disadvantage on attack rolls against targets more than 30 ft. away.\nSiege Monster. He deals double damage to objects and structures.",
+        "Actions": "Multiattack. Borborygmos may use Frightful Presence, and makes one Maul attack and one Stomp attack.\nMaul. Melee weapon attack, +13 to hit, reach 10 ft., one target. A hit deals 28 (6d6 + 7) bludgeoning damage. A creature hit must pass a DC 21 Strength save or fall prone.\nStomp. Melee weapon attack, +13 to hit, reach 5 ft., one target. A hit deals 18 (2d10 + 7) bludgeoning damage.\nRock. Ranged weapon attack, +13 to hit, range 30/120 ft., one target. A hit deals 29 (4d10 + 7) bludgeoning damage.\nFrightful Presence. Choose any creatures within 60 ft. that can see or hear him. Each makes a DC 17 Wisdom save. A failed save frightens the creature of him for 1 minute. It may repeat the save at the end of each of its turns and end the effect on a success. A successful save or the end of the effect grants that creature immunity to his Frightful Presence for 24 hours.",
+        "Legendary actions": "Borborygmos has 3 legendary actions and recovers spent actions at the start of his turn. Use one option at the end of another creature’s turn.\nAttack (1 action). Make one weapon attack.\nBellow (2 actions). Choose one creature Borborygmos can see within 60 ft. The target makes a DC 17 Wisdom save. On a failure, it is frightened of him for 1 minute. If it was already frightened, this option stuns it instead. It may repeat the save at the end of each of its turns and end the effect on a success. A successful save or the end of the effect grants immunity to his Bellow for 24 hours.\nWide Berth (3 actions). Move up to half speed, passing through the space of any creature smaller than Huge. The first time he enters a creature’s space during this move, it makes a DC 21 Dexterity save. On a success, push it 5 ft. away from him. On a failure, it falls prone and he may make a Stomp attack against it.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 238."
+      }
+    }
+  },
+  {
+    "name": "Cackler",
+    "statBlock": {
+      "name": "Cackler",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 195,
+      "classification": "Small fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "3d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "A small Rakdos demon that performs as a jester or impersonator. Its dying laugh strikes the minds of nearby creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 3,
+        "Perception": 0,
+        "Performance": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common.",
+        "Damage resistances": "Cold, fire, and lightning damage. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Last Laugh. When the cackler dies, each creature within 10 ft. must pass a DC 11 Wisdom save or take 2 (1d4) psychic damage.\nMimicry. The cackler can copy any sound it has heard, including voices. A listener can recognize the imitation with a successful DC 11 Wisdom (Insight) check.",
+        "Innate Spellcasting": "The cackler uses Charisma (save DC 11, +3 to hit with spell attacks) and needs no material components.\nAt will. Fire Bolt.\n1/day. Tasha's Hideous Laughter.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.\nSpiked Chain. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 195."
+      }
+    }
+  }
+]

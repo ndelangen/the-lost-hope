@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Stonechild",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "book": "Races of Stone",
+    "authors": [
+      "David Noonan",
+      "Jesse Decker",
+      "Michelle Lyons"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2004",
+    "productCode": "620-96567000-001",
+    "isbn": "0-7869-3278-3",
+    "printedPages": {
+      "monsterClassRules": 86,
+      "entry": 92,
+      "artAndTraits": 93,
+      "traitsAndProgression": 94
+    },
+    "pdfPages": {
+      "monsterClassRules": 86,
+      "entry": 92,
+      "artAndTraits": 93,
+      "traitsAndProgression": 94
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "116ee9b23da70166a7c726a51bd2c1b0087882d92a8a1376088f9ce256a5992c",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Brad Williams, unnamed Stonechild, p. 93.",
+    "sourceDistinctions": [
+      "Full ancestry has two racial Hit Dice and level adjustment +4. A first class level gives ECL 7.",
+      "The optional six-level monster class incorporates that level adjustment. There is one racial Hit Die at level 3 and a second at level 4.",
+      "Magic Stone is caster level 3 for the full ancestry and each monster-class stage that provides it.",
+      "The encounter cards use the core spell’s printed damage. The separate Mayhem & Madness pregen adds Strength to its thrown stones.",
+      "Miniatures Handbook pp. 71–72 gives a separate earlier CR 3 monster block. The staged builds are original."
+    ],
+    "entryId": "species-207d136f46e06ee441423203",
+    "versionKey": "dbd47e413b0f05e348644028",
+    "slug": "stonechild",
+    "portraitSelection": "generated",
+    "portraitForm": "Miren Slatefold, an original Stonechild Fighter",
+    "npcExamples": [
+      "Miren Slatefold",
+      "Nalin Flintwell"
+    ]
+  }
+]

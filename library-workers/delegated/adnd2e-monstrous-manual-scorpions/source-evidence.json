@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Large Scorpion",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Scorpion",
+    "printedColumn": "Large",
+    "printedPages": [
+      309
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 309,
+        "viewerPage": 312,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/3107fb0068e280ea17bbff454a5b676b.webp",
+        "sha256": "02e21e45efeb888896e9ad11b424eed238527d54140e0a83cc227cbf1083b7a3"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–6",
+    "organization": "Swarm",
+    "generalPoisonTable": null,
+    "sharedFamilyArtwork": {
+      "printedPage": 309,
+      "specificFormUnconfirmed": true,
+      "artist": "Tony DiTerlizzi",
+      "attributionBasis": "Signed illustration, compared with the signature on printed p. 19.",
+      "artistContextUrl": "https://diterlizzi.com/behind-the-monstrous-manual-part-10/"
+    },
+    "entryId": "beast-c91da6c43e46afb2273fc8b6",
+    "versionKey": "36c88325c2a903a99cc4e21f",
+    "slug": "large-scorpion",
+    "query": "large scorpion type a failed save",
+    "appearanceQuery": "large scorpion tan pincers",
+    "habitatQuery": "large scorpion warm wilderness dungeons",
+    "portraitSelection": "generated",
+    "poisonType": "A",
+    "poisonDamage": "15/0",
+    "poisonSaveBonus": 2,
+    "portraitEvidence": "Tan is within the shared range. The slender build is an illustration choice."
+  },
+  {
+    "name": "Huge Scorpion",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Scorpion",
+    "printedColumn": "Huge",
+    "printedPages": [
+      309
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 309,
+        "viewerPage": 312,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/3107fb0068e280ea17bbff454a5b676b.webp",
+        "sha256": "02e21e45efeb888896e9ad11b424eed238527d54140e0a83cc227cbf1083b7a3"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–4",
+    "organization": "Swarm",
+    "generalPoisonTable": {
+      "publication": "Dungeon Master Guide",
+      "table": 51,
+      "url": "https://www.scribd.com/document/522946282/Dungeon-Master-Guide"
+    },
+    "sharedFamilyArtwork": {
+      "printedPage": 309,
+      "specificFormUnconfirmed": true,
+      "artist": "Tony DiTerlizzi",
+      "attributionBasis": "Signed illustration, compared with the signature on printed p. 19.",
+      "artistContextUrl": "https://diterlizzi.com/behind-the-monstrous-manual-part-10/"
+    },
+    "entryId": "beast-20f540c70a724c66ce8f06ab",
+    "versionKey": "053ebee055cfe7a8bc689f7a",
+    "slug": "huge-scorpion",
+    "query": "huge scorpion type f pinned fight",
+    "appearanceQuery": "huge scorpion brown black tail",
+    "habitatQuery": "huge scorpion warm wilderness subterranean",
+    "portraitSelection": "generated",
+    "poisonType": "F",
+    "failedPoisonSave": "Death next round",
+    "pinnedTargetMayFightBack": true,
+    "portraitEvidence": "Deep brown to black is within the shared range. The heavier build is an illustration choice."
+  },
+  {
+    "name": "Giant Scorpion",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Scorpion",
+    "printedColumn": "Giant",
+    "printedPages": [
+      309
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 309,
+        "viewerPage": 312,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/3107fb0068e280ea17bbff454a5b676b.webp",
+        "sha256": "02e21e45efeb888896e9ad11b424eed238527d54140e0a83cc227cbf1083b7a3"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–4",
+    "organization": "Swarm",
+    "generalPoisonTable": {
+      "publication": "Dungeon Master Guide",
+      "table": 51,
+      "url": "https://www.scribd.com/document/522946282/Dungeon-Master-Guide"
+    },
+    "sharedFamilyArtwork": {
+      "printedPage": 309,
+      "specificFormUnconfirmed": true,
+      "artist": "Tony DiTerlizzi",
+      "attributionBasis": "Signed illustration, compared with the signature on printed p. 19.",
+      "artistContextUrl": "https://diterlizzi.com/behind-the-monstrous-manual-part-10/"
+    },
+    "entryId": "beast-48104f2fffbe448b2e67acde",
+    "versionKey": "8a69f4dc4c5c304b5d94902e",
+    "slug": "giant-scorpion",
+    "query": "giant scorpion bend bars frenzy",
+    "appearanceQuery": "giant scorpion green carapace black tail",
+    "habitatQuery": "giant scorpion deserts underground burrows",
+    "portraitSelection": "generated",
+    "poisonType": "F",
+    "failedPoisonSave": "Death next round",
+    "frenzyHitPointThreshold": "1–2 HP",
+    "portraitEvidence": "The green shell, yellowish green legs and pincers, and black tail follow the prose. The family portrait is unlabelled and uses a different palette."
+  }
+]

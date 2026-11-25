@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "baloth",
+    "file": "portraits/baloth.png",
+    "sha256": "c74b6b4a727b99fec6348d86cbf7d088004698c7107d2e8ef91a887f6b6349c9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "zendikar-drake",
+    "file": "portraits/zendikar-drake.png",
+    "sha256": "5c37ceb0d8ddd13add24a6d61b21da7cb774f4019f1ed18653c011017a916b00",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "gnarlid",
+    "file": "portraits/gnarlid.png",
+    "sha256": "ceb5c1cdaa7937e00b0c811ff7a37d81bcca2d5d4fccb233eac45bcc36bd06d8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "great-cat",
+    "file": "portraits/great-cat.png",
+    "sha256": "517b7591ffcf480f2c97e65611e0a28289b672d28d92bf92407abaa03c8a0ec4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "cooshee",
+    "file": "portraits/cooshee.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "00e313bb36a771a427b14c8590cc46e165bb5cd30639c977cf1b76670477db40",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "frederick",
+    "file": "portraits/frederick.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1ec9284dbeb4d765349b28a0a956bbe24b40189010e32c832b8e9607e4d4c70b",
+    "credit": "OpenAI ImageGen"
+  }
+]

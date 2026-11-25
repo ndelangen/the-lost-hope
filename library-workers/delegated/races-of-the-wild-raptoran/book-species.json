@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Raptoran",
+    "kind": "species",
+    "publication": "Races of the Wild (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Raptoran subtype. Base land speed 30 ft. The playable entry gives no racial ability-score adjustment or level adjustment.",
+      "Wing-Aided Movement gives +10 racial bonus to Jump checks. +2 racial bonus to Climb and Spot. Low-light vision reaches twice human distance in dim light and retains color and detail.",
+      "Gliding (Ex) uses 40-ft. speed and average maneuverability. Descend 5 ft. per 20 ft. traveled forward. Gliding prevents falling damage and never allows hovering. A medium or heavy load prevents gliding.",
+      "If unconscious or helpless in midair, the wings stiffen and unfold. The Raptoran descends in a corkscrew and takes only 1d6 falling damage regardless of distance.",
+      "At 5 Hit Dice, Flight (Ex) grants a 40-ft. fly speed with average maneuverability. A medium or heavy load, fatigue, or exhaustion prevents powered flight.",
+      "At 5–9 Hit Dice, fly safely for a number of consecutive rounds equal to your Constitution modifier, minimum 1. You can fly for up to twice that many rounds, becoming fatigued at the end of the flight. You also become fatigued after more than 10 minutes total powered flight in a day. Glide before, after, or between rounds of powered flight.",
+      "At 10 Hit Dice, keep the 40-ft. average fly speed and fly with no more exertion than walking or running. The playable text leaves the daily cutoff implicit, while several 10+ HD sample NPCs still list fatigue after 10 minutes.",
+      "Once powered flight is available at 5 Hit Dice, it permits a straight-line run and a diving charge with a piercing weapon. The dive must move at least 30 ft. and descend at least 10 ft. A hit deals double damage.",
+      "Pact with Wind Lords gives +1 caster level when casting air-descriptor spells. Unerring Direction senses north even underground on the Material Plane.",
+      "A footbow is a martial weapon for a Raptoran. Its 110-ft. range increment, Strength rating, and rules for gripping it with the feet and shooting prone are on p. 165.",
+      "Common and Tuilvilanuue are automatic. Bonus languages Draconic, Elven, Gnome, Goblin, Orc, Sylvan. Favored class Cleric."
+    ]
+  }
+]

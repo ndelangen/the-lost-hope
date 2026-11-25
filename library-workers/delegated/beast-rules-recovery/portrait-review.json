@@ -1,0 +1,1034 @@
+[
+  {
+    "entry": "beast-38aafab0fefde84df1623179",
+    "version": "18696ef8d6ea9ccc0cf9df65",
+    "name": "Ghamoo-Ra",
+    "publication": "D&D: World of Warcraft",
+    "edition": "2024 fifth edition",
+    "file": "images/beasts/ghamoo-ra/parchment-portrait.webp",
+    "sha256": "63e7ce48ba210776ec96e6bbc5403ea508d42d25e63678e3958651058a982ab6",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Ghamoo-ra model render · Blizzard Entertainment · D&D: World of Warcraft"
+      },
+      {
+        "url": "",
+        "credit": "Related Alligator snapping turtle photograph by Peter Paplanus from St. Louis, Missouri · CC BY 4.0 · D&D: World of Warcraft"
+      }
+    ]
+  },
+  {
+    "entry": "beast-5d790795330b9003623dd05d",
+    "version": "4c3222a3e9c8f630a3adfa8a",
+    "name": "Boar",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/beast-next-roster/dark-pyramid-boar.png",
+    "sha256": "4a1f9b8cfaa7dd21b7b5d7241621793773ab7d2b3961d8829b2fe6f6fb7c6d0d",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    },
+    "creditedExactImages": []
+  },
+  {
+    "entry": "beast-808d0a43170b4f2ad13f4eb3",
+    "version": "82bf1cbe70e50e6958b60a0b",
+    "name": "Caterpede",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beasts/caterpede/parchment-portrait.webp",
+    "sha256": "27fa47e59bcafb48a367d8b019a07f61f39655e6b23edbcf5d01010b06a607b0",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-b46b3fc2d83f648ca2aeeb45",
+    "version": "257c4e2939138eabbb142c32",
+    "name": "Cosmoth",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/cosmoth.png",
+    "sha256": "97f939787c5ef5004f2bcf6c9362dad8577ae0d19f63ca4eadedaf128dad7553",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-c00474fed236d68211b673b3",
+    "version": "400aeec0fefe7c60c717e09e",
+    "name": "Dusktail",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/dusktail-group.png",
+    "sha256": "296644d6d334b91ad69943b8f2a7733e24328596bcbb6d4ef14fc5d27887983d",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-290e0eed3ece195969b5d786",
+    "version": "b02829e509ab3e9928435085",
+    "name": "Emberbat",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/emberbat-draft.png",
+    "sha256": "43a3071cd52b0902129bf274b7463ae666b0126e606a866aca5bfe0613111b6a",
+    "size": 1254,
+    "credit": "OpenAI ImageGen",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-bf2c76d0a8b9d80f8a68a453",
+    "version": "5d54e6f9052341f98bece08f",
+    "name": "Everbug",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/everbug.png",
+    "sha256": "07d339f120c7c7b742febebf9cb4917d028ff3f47a2b65bc73089248adc84904",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-117d667c3fa1f36d8d02e41b",
+    "version": "23f3a4fad062b6fc6db5f363",
+    "name": "Firelance",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/firelance.png",
+    "sha256": "1421999eb4fdbdc75f27fa250f699a2ecf8b4142a88de70cd318289b1dc175ea",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-6cdadee98f2f89e12d67c959",
+    "version": "cf611ae61da891e1051e0687",
+    "name": "Forest Prowler",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/forest-prowler-draft.png",
+    "sha256": "1c380787e815f435ddab9496ba60256246c69cd8435345fc001d5a14d595f831",
+    "size": 1254,
+    "credit": "OpenAI ImageGen",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-08ae1aa700e497d6a08fc794",
+    "version": "530ede547b761a805a8a9c89",
+    "name": "Gargath",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/gargath.png",
+    "sha256": "0fbc30014fec7bbfcbac0343f13ee8e9846a01a9986b2e9659740754721637a1",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-bfb3ab058bc9ee58d6e31bb2",
+    "version": "1312759214f9bfce39ed8f2c",
+    "name": "Glassbeetle",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beasts/glassbeetle/parchment-portrait.webp",
+    "sha256": "52ad7e3493afbc6dd2ed4384cc918d3debe8ee123bc073a2a2bbe4572438880a",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Giant Fire Beetle illustration · Monster Manual (2024) · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-219525ba97e3a58845e74b14",
+    "version": "f842c8c6a07c2a9cb6b5e769",
+    "name": "Juvenile Forest Prowler",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beasts/juvenile-forest-prowler/parchment-portrait.webp",
+    "sha256": "10e2b11641fbecdd65eb4091f556ab9e5ca7fcace3dc5fb1abb80d539b629287",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Forest Prowler artwork · Humblewood Campaign Setting · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-ab310c3f5c5d0b6cf65f82bb",
+    "version": "509b359c9bb24f0b6dab67c6",
+    "name": "Slicar",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/slicar.png",
+    "sha256": "bb12c5915875d22679c6ec568fc00d70bb68967853cd58c4a7f75f1c57e8d8c1",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-557cf9b8927b4c7488120931",
+    "version": "a75880108cc07275cb1bd327",
+    "name": "Swarm of Bluebees",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/swarm-of-bluebees.png",
+    "sha256": "c1511111a92e7bbd055a474048cb731f22ff1deace8022f3d4ca422ca9f00630",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-930832df402332d22a479e95",
+    "version": "0abf1a7d26818d7def7056f7",
+    "name": "Swarm of Dusktails",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/dusktail-group.png",
+    "sha256": "296644d6d334b91ad69943b8f2a7733e24328596bcbb6d4ef14fc5d27887983d",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-681ea05944c42f0a73edaa53",
+    "version": "23bc6d72a4f524f050d41b9c",
+    "name": "Swarm of Gimlet Larvae",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beasts/swarm-of-gimlet-larvae/parchment-portrait.webp",
+    "sha256": "e8c746f1007c6ebd0c525ff746aa8336c7ebaa1aeea6896024baf0f9c50cab84",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Swarm of Gimlets artwork · Humblewood Tales · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-d2837e6d235004aae7facd88",
+    "version": "83f708d5a1d4e6d922732e01",
+    "name": "Swarm of Gimlets",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/swarm-of-gimlets.png",
+    "sha256": "ab2637d6a500a4d319489a5f47e9a06220c2f7a7cf9dd59053d53148d07a8e8f",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-441a67273858472cbca85926",
+    "version": "bb106f671c56714513a7954a",
+    "name": "Toxic Caterpede",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beasts/toxic-caterpede/parchment-portrait.webp",
+    "sha256": "5fa41a830d05a8f97d952e7f15c7234cd19c7289e88dd3863cceadab9b492604",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Swarm of Insects token · Monster Manual (2014) · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-332e587050a0c943d6c5baae",
+    "version": "041f233b1ed30f3dc9ae2edd",
+    "name": "Wakewyrm",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/wakewyrm-draft.png",
+    "sha256": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+    "size": 1254,
+    "credit": "OpenAI ImageGen",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-9165cfcf0107ab4561393816",
+    "version": "468123675a1c8aacbdd966a0",
+    "name": "Young Wakewyrm",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/beast-next-roster/young-wakewyrm-draft.png",
+    "sha256": "3757dcde638316bdafaf29dc734cf69391b5527abe9661974964376a05d65eed",
+    "size": 1254,
+    "credit": "OpenAI ImageGen",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "D&D Beyond publisher art · Humblewood Tales"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "entry": "beast-bb36e7071007248658e5ff6d",
+    "version": "bcc66c5d1fbeac57d73d0e38",
+    "name": "Axolotl, Giant",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/axolotl-giant/parchment-portrait.webp",
+    "sha256": "4055e4c5273a08ba86e1bfa8c0b282f52b399be95e89bf09efc51889aefa2e99",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Axolotl photograph by Erzengel · Public domain · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-68cdd43848e4e20436bb4f62",
+    "version": "cbd156eebe2ef6d14085793a",
+    "name": "Cavalry Camel",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/cavalry-camel/parchment-portrait.webp",
+    "sha256": "49d256d261f429fab2b5a5a1253dfaeaa0ccbee9cf33bddd604f2fd90fde96f2",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Camel illustration by Polar Engine · Monster Manual (2024) · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Camel token · Monster Manual (2014) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-ea1f038dd1ecf0e761f81e53",
+    "version": "20e84728364db23c4985fe2e",
+    "name": "Death Butterfly Swarm",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/death-butterfly-swarm/parchment-portrait.webp",
+    "sha256": "62de7d6ea70e60fee69acfce01ce2ca382e38c4c77e1d1f4a238360eefc85b7a",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Monarch butterfly photograph by Kenneth Dwain Harrelson · CC BY-SA 3.0 · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-32fbd2481039c9fa51117e62",
+    "version": "6609add5e46a08fd7f18b1c7",
+    "name": "Death Butterfly Swarm, Greater",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/death-butterfly-swarm-greater/parchment-portrait.webp",
+    "sha256": "6b616fe2718401221937b8b3438f388e1b13f4f743b2a787fc7e1f7dc72cf83d",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Monarch butterfly photograph by Kenneth Dwain Harrelson · CC BY-SA 3.0 · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-89ba7b5988fbd8383091fea4",
+    "version": "a5cd4963dfe40e6401b1ca4b",
+    "name": "Feymount Raccoon",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/feymount-raccoon/parchment-portrait.webp",
+    "sha256": "eaa57bb3e58f666a3c9ed1feb9cbc5a63db0840f6c0e1a01abdde939f857158f",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Raccoon photograph by California Department of Water Resources · Public domain · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-d959be40df0ef46062799da5",
+    "version": "ae686f3c159f01ef0beaba46",
+    "name": "Hammberbill Goose",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/hammberbill-goose/parchment-portrait.webp",
+    "sha256": "3ca447a698df16cbe6ed8048485bbf96bbadcf68f7abc1c2999639cae5074308",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Giant Goose illustration · Bigby Presents: Glory of the Giants · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-abf74dc23bbf69ccee105cbe",
+    "version": "2c195736975c8e497740729e",
+    "name": "Hedgehog, Giant",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/hedgehog-giant/parchment-portrait.webp",
+    "sha256": "39d1e69f1b339bbf18ac63cc310f9629405c5e6e1e7e3e62238fc7d66cac442d",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related European hedgehog photograph by Peter O'Connor aka anemoneprojectors from Stevenage, United Kingdom · CC BY-SA 2.0 · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-5d1340b59c52f9f7f74090bb",
+    "version": "e8d25d6a827d18b17a67fdfb",
+    "name": "Honey Bee, Giant",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/honey-bee-giant/parchment-portrait.webp",
+    "sha256": "f355fefc9f3ec9dd8259ec6634e8690cd6a91b2db981b8835ab38b0ad4aab042",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Honey bee photograph by Arnoldius · CC BY-SA 4.0 · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-91d138a79d21b5c0d822db3c",
+    "version": "26fd7b4eb379626ed7046cf7",
+    "name": "Honey Bee, Swarm of Bees",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/honey-bee-swarm-of-bees/parchment-portrait.webp",
+    "sha256": "270b3037baa64afa7f6f6ca58566a46e7092e5644a77394a3622c0ee23cbd9ef",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Honey bee photograph by Arnoldius · CC BY-SA 4.0 · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-f0aed47a9def80dd410ddf0c",
+    "version": "c49fa94e7bf08c97d8b99742",
+    "name": "Millipede, Giant",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/millipede-giant/parchment-portrait.webp",
+    "sha256": "7054151507939e88a8a1597bb0b0c38cf174f65edc89731eee5142d32861e078",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Giant Centipede illustration · Monster Manual (2024) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-52edb8d8b047944fdf4d4b15",
+    "version": "00cf6c3fe3249b267bbcda58",
+    "name": "Nightwing",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/nightwing/parchment-portrait.webp",
+    "sha256": "fca6bae4ba4cdc59695850e5ce25b4736911de26b6f07b6345b9771f88662a9b",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Giant Bat token · Monster Manual (2014) · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Bat illustration · Monster Manual (2024) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-ba7f874470750071505ee3a3",
+    "version": "f58cbf238c88bfdd986a395e",
+    "name": "Oliphaunt Warbeast",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/oliphaunt-warbeast/parchment-portrait.webp",
+    "sha256": "f74dc5ef2ea94d2e0082d25a91e820c19fa903bbc1f160ba0fed4e7080801c82",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Elephant illustration by Jonathan Kuo · Monster Manual (2024) · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Elephant token · Monster Manual (2014) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-c9d1b4158aeee6db473bd528",
+    "version": "272a193147de65295e93073c",
+    "name": "Opossum",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/opossum/parchment-portrait.webp",
+    "sha256": "366eefeb75d786d44c7ec819b11dade5e85d4505cb464b1d36cfeda4208f65a9",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Virginia opossum photograph by Mathieu Landretti · CC BY-SA 4.0 · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-272e21104f920283d2449277",
+    "version": "84484e80c4fb4a3424186196",
+    "name": "Opossum, Giant",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/opossum-giant/parchment-portrait.webp",
+    "sha256": "bd0eecddf0ada9850b0ba3c7074e61167ebf3f1047a22973f4964b50a37d4254",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Virginia opossum photograph by Mathieu Landretti · CC BY-SA 4.0 · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-384de0ea5642de952c020f3e",
+    "version": "8e9658b97f1ce46f666df8ea",
+    "name": "Rattus Eel",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/rattus-eel/parchment-portrait.webp",
+    "sha256": "33bce760304be13ec6a667124136fca65e97e52e8b462ae531bc5caeaf5ebee2",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Giant Lightning Eel token · Tales from the Yawning Portal · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Rat illustration · Monster Manual (2014) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-de1bfefab956a6c0853d6053",
+    "version": "891cfcf8527de82bdd51e21c",
+    "name": "Rattus Eel, Swarm of Rattus Eels",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/rattus-eel-swarm-of-rattus-eels/parchment-portrait.webp",
+    "sha256": "757c67dfcda081730e0e81c59b59bd96c4c9e72b172db329cdca2dc3c673cddd",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Giant Lightning Eel token · Tales from the Yawning Portal · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Rats illustration by Katerina Ladon · Monster Manual (2024 rules) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-73b4a96391f0dcf28ef73c4b",
+    "version": "eba2a75504474830b4c749fa",
+    "name": "Skunk",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/skunk/parchment-portrait.webp",
+    "sha256": "29cf78752fe9013686a275b60d932b6b856291175c15b80c455d75ebe3ce746f",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Striped skunk photograph by http://www.birdphotos.com · CC BY 3.0 · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-4351b2f8d4b6d3935dba1cb5",
+    "version": "215362b88dd685b5ac214629",
+    "name": "Skunk, Giant",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/skunk-giant/parchment-portrait.webp",
+    "sha256": "21ef1f3e5f4810c00c214f7dd73dae684571a0733a55ee6629ef029215e43315",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Striped skunk photograph by http://www.birdphotos.com · CC BY 3.0 · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-4f8e918efe842f31ac6e77ea",
+    "version": "537a6a95ab8066782d430825",
+    "name": "Tress Lizard",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/tress-lizard/parchment-portrait.webp",
+    "sha256": "d3de829e1f87646c377d9ff756c3c51674e7974022a40ca904d4971b78f52a20",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Lizard illustration by Jonathan Kuo · Monster Manual (2024) · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Lizard token · Monster Manual (2014) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-824225a12d3c8e6f8e9c72f5",
+    "version": "097e4ef7b31814f91929431e",
+    "name": "War Pig",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/war-pig/parchment-portrait.webp",
+    "sha256": "acec5c7ebef435b9bc7561088c88b46b1f92659a34a9a732beb20a201ab5a520",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Boar illustration by Polar Engine · Monster Manual (2024) · Monster Vault 2"
+      },
+      {
+        "url": "",
+        "credit": "Related Boar token · Monster Manual (2014) · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-9045adbd287a169ee1105355",
+    "version": "e893f942061a2b630f40cf3a",
+    "name": "Wooly Hippopotamus",
+    "publication": "Monster Vault 2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/beasts/wooly-hippopotamus/parchment-portrait.webp",
+    "sha256": "a774d0b29281741d50d62823141ef835b8ecbf02acfe7ed74675358a95aa9455",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Hippopotamus photograph by Ralf Hüsges · CC BY 4.0 · Monster Vault 2"
+      }
+    ]
+  },
+  {
+    "entry": "beast-df1bfdea7451d735855a3d3e",
+    "version": "4d286d230f55e203747d5613",
+    "name": "Swarm of Contaminated Insects",
+    "publication": "Monsters of Drakkenheim",
+    "edition": "2024 fifth edition compatible",
+    "file": "images/beasts/swarm-of-contaminated-insects/parchment-portrait.webp",
+    "sha256": "7f5864853249440f4f9358e5c1c740a8441e505f7b7bbfd30ce9c36f89267332",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "primary",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Related Swarm of Insects token · Monster Manual (2014) · Monsters of Drakkenheim"
+      },
+      {
+        "url": "",
+        "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Monsters of Drakkenheim"
+      }
+    ]
+  },
+  {
+    "entry": "beast-f62685740da996c35d1e6a58",
+    "version": "e86e8b1cc26a9adb462d960e",
+    "name": "Spiderfrog",
+    "publication": "Muk's Guide To Everything He Learned From Tasha",
+    "edition": "2014 fifth edition",
+    "file": "images/beast-next-roster/spiderfrog.png",
+    "sha256": "2c3e68cd240672c38787215fe1750945c2d000e662905db271a362cf676a3362",
+    "size": 1254,
+    "credit": "OpenAI ImageGen · The Lost Hope",
+    "indexedPlacement": "alternate",
+    "searchFound": true,
+    "browsePortrait": {
+      "url": "",
+      "credit": "Emi Tanji · Muk's Guide To Everything He Learned From Tasha"
+    },
+    "creditedExactImages": [
+      {
+        "url": "",
+        "credit": "Emi Tanji · Muk's Guide To Everything He Learned From Tasha"
+      }
+    ]
+  }
+]

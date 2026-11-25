@@ -1,0 +1,1536 @@
+[
+  {
+    "name": "Dire Weasel",
+    "version": {
+      "key": "aaac2c2ba5d74e43353fd29f",
+      "publication": "The Burning Plague",
+      "edition": "3.0 edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "16"
+        ],
+        [
+          "Hit points",
+          "12"
+        ],
+        [
+          "Hit dice",
+          "3d8+0"
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Size",
+          "Medium-size (5 ft. long)"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Speed",
+          "walk 40 ft."
+        ],
+        [
+          "Initiative",
+          "4"
+        ],
+        [
+          "Fortitude",
+          "1"
+        ],
+        [
+          "Reflex",
+          "7"
+        ],
+        [
+          "Will",
+          "4"
+        ],
+        [
+          "Str",
+          "14"
+        ],
+        [
+          "Dex",
+          "19"
+        ],
+        [
+          "Con",
+          "6"
+        ],
+        [
+          "Int",
+          "2"
+        ],
+        [
+          "Wis",
+          "12"
+        ],
+        [
+          "Cha",
+          "11"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Mines of Duvik’s Pass"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A five-foot-long dire weasel."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Scent"
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Hide +9",
+            "Move Silently +10",
+            "Spot +5"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +7 to hit · 1d6+3"
+          ]
+        },
+        {
+          "title": "Special attacks and qualities mechanics",
+          "lines": [
+            "Attach · On a successful bite, the dire weasel latches onto the target. It loses its Dexterity bonus to Armor Class while attached, leaving it at AC 12.",
+            "Blood drain · The dire weasel deals 2d4 temporary Constitution damage each round it remains attached."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Southwestern sacks · The dire weasel hides in the southwestern sack pile. After two rounds it attacks the nearest character on round three. A character spots it by winning an opposed Spot check against its Hide roll. It leaves its kobold handlers alone.",
+            "Contagious in this adventure · A creature that comes into contact with this animal must make a DC 13 Fortitude save against the Burning Plague. See the adventure’s disease rules on pp. 3–4."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral. Weapon Finesse (bite).",
+            "The encounter prints HD 3d8+0 and Constitution 6.",
+            "Miguel Duran, The Burning Plague (Wizards of the Coast, 2000), Area 4: The Larder, pp. 7–8."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "e4fe482e10b956a6405b2482",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Related Giant Weasel illustration by Rowan Holloway · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+          },
+          {
+            "url": "",
+            "credit": "Related Giant Weasel token · Monster Manual (2014) · Revised v3.5 SRD (Monsters)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "16"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "3d8"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Animal"
+          ],
+          [
+            "Speed",
+            "0 4 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+          ],
+          [
+            "Initiative",
+            "4"
+          ],
+          [
+            "Touch armor class",
+            "14"
+          ],
+          [
+            "Flat-footed armor class",
+            "12"
+          ],
+          [
+            "Base attack bonus",
+            "2"
+          ],
+          [
+            "Grapple modifier",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Fort +3",
+              "Ref +7",
+              "Will +4"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +6 to hit"
+            ]
+          }
+        ]
+      }
+    ],
+    "queries": {
+      "Dire Weasel": true,
+      "dire weasel southwestern sacks": true
+    },
+    "hash": "6c2ffd11e1190753029b54b1de6b2bda2feac4862e39a52d2f6fbc85939048de",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Weasel illustration by Rowan Holloway · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Weasel token · Monster Manual (2014) · Revised v3.5 SRD (Monsters)"
+      }
+    ]
+  },
+  {
+    "name": "Rat",
+    "version": {
+      "key": "206a942e610691e71f664853",
+      "publication": "The Burning Plague",
+      "edition": "3.0 edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "14"
+        ],
+        [
+          "Hit points",
+          "1"
+        ],
+        [
+          "Hit dice",
+          "1/4 d8 - 1"
+        ],
+        [
+          "Size",
+          "Tiny"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Speed",
+          "walk 15 ft., climb 15 ft."
+        ],
+        [
+          "Initiative",
+          "2"
+        ],
+        [
+          "Fortitude",
+          "1"
+        ],
+        [
+          "Reflex",
+          "4"
+        ],
+        [
+          "Will",
+          "1"
+        ],
+        [
+          "Str",
+          "2"
+        ],
+        [
+          "Dex",
+          "15"
+        ],
+        [
+          "Con",
+          "8"
+        ],
+        [
+          "Int",
+          "2"
+        ],
+        [
+          "Wis",
+          "12"
+        ],
+        [
+          "Cha",
+          "2"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Mines of Duvik’s Pass"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A tiny rat from the larder at Duvik’s Pass."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Scent"
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Climb +12",
+            "Hide +18",
+            "Move Silently +10"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +4 to hit · 1d3 - 4"
+          ]
+        },
+        {
+          "title": "Special attacks and qualities mechanics",
+          "lines": [
+            "Scent · The rat detects nearby enemies by smell. The adventure refers to the Dungeon Master’s Guide for the general scent rules."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Barrels 2 and 5 · Four rats hide in each barrel. They stay inside until disturbed, then attack. Each of the eight rats has 1 HP.",
+            "Contagious in this adventure · A creature that comes into contact with this animal must make a DC 13 Fortitude save against the Burning Plague. See the adventure’s disease rules on pp. 3–4."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral. Weapon Finesse (bite).",
+            "The adventure prints CR 1 on the collective Rats (8) line. It gives no CR for a single rat.",
+            "The rat’s printed bite is 1d3 - 4. Its Hide modifier is +18.",
+            "Miguel Duran, The Burning Plague (Wizards of the Coast, 2000), Area 4: The Larder, pp. 7–8."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "f04b838f74606b04c741a77a",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "10"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft."
+          ],
+          [
+            "Str",
+            "2"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "9"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +0 to hit · reach 5 ft. · 1 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "25275b496744c5cd75725013",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "10"
+          ],
+          [
+            "Hit points",
+            "9"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "0 2 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 s ft., 9 w ft., 10 i ft., 11 m ft., 12   ft., 13 2 ft., 14 0 ft., 15   ft., 16 f ft., 17 t ft., 18 . ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee"
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "4edc8dbd1bf87cfef32607d9",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Tiny beast with challenge rating 0. Listed habitats: swamp, urban. Named abilities include Keen Smell, Bite.",
+        "source": "https://5e.tools/bestiary.html#rat_mm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/16/541/1000/1000/636376335435407571.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "10"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "2"
+          ],
+          [
+            "Dexterity",
+            "11"
+          ],
+          [
+            "Constitution",
+            "9"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +0 to hit · reach 5 ft. · 1 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "darkvision 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "swamp, urban"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Keen Smell · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +0 to hit · 1 piercing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 335,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 335",
+            "url": "https://5e.tools/bestiary.html#rat_mm"
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "darkvision 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell · Perception": [
+            {
+              "start": 13,
+              "end": 23,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "1dcd4f5ef99b04f82d529521",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Tiny beast with challenge rating 0. Listed habitats: forest, swamp, underdark, urban. Named abilities include Agile, Bite.",
+        "source": "https://5e.tools/bestiary.html#rat_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47158/970/1000/1000/638742838304678258.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Katerina Ladon · Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "10"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., climb 20 ft."
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ],
+          [
+            "Strength",
+            "2"
+          ],
+          [
+            "Dexterity",
+            "11"
+          ],
+          [
+            "Constitution",
+            "9"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest",
+              "swamp",
+              "underdark",
+              "urban",
+              "forest, swamp, underdark, urban"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +2"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 30 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Agile · Opportunity Attack"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +2 to hit · 1 Piercing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 367",
+            "url": "https://5e.tools/bestiary.html#rat_xmm"
+          },
+          {
+            "label": "Opportunity Attack (action)",
+            "url": "https://5e.tools/actions.html#opportunity%20attack_xphb",
+            "terms": [
+              "Opportunity Attacks"
+            ],
+            "local": {
+              "entry": "compendium-a05ec14a1e820d13424c67ff",
+              "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+            },
+            "preview": {
+              "name": "Opportunity Attack",
+              "group": "Actions",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-a05ec14a1e820d13424c67ff",
+                "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +2": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Agile · Opportunity Attack": [
+            {
+              "start": 8,
+              "end": 26,
+              "target": {
+                "name": "Opportunity Attack",
+                "group": "Actions",
+                "publication": "Player's Handbook (2024)",
+                "page": 371,
+                "local": {
+                  "entry": "compendium-a05ec14a1e820d13424c67ff",
+                  "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c91dbae10343088a3335a3e8",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "0.0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "88a1eea70609320a8f0477cb",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Type",
+            "Animal"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "338f530c008baf5c3bbcb029",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "10"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 − 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "20 ft."
+          ],
+          [
+            "XP",
+            "10"
+          ],
+          [
+            "Str",
+            "2"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "9"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Tiny beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses darkvision 30 ft., passive Perception 10 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses darkvision 30 ft., passive Perception 10 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell.": [
+            {
+              "start": 24,
+              "end": 33,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 45,
+              "end": 55,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "6d37fe82de833ddde8c3214e",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "10"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 − 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "20 ft., Climb 20 ft."
+          ],
+          [
+            "XP",
+            "10"
+          ],
+          [
+            "Str",
+            "2"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "9"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Tiny Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +2 Senses Darkvision 30 ft.; Passive Perception 12 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Agile. The rat doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +2 Senses Darkvision 30 ft.; Passive Perception 12 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 47,
+              "end": 65,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Agile. The rat doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach.": [
+            {
+              "start": 34,
+              "end": 52,
+              "target": {
+                "name": "Opportunity Attack",
+                "group": "Actions",
+                "publication": "Player's Handbook (2024)",
+                "page": 371,
+                "local": {
+                  "entry": "compendium-a05ec14a1e820d13424c67ff",
+                  "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Rat": true,
+      "rat barrels 2 and 5": true
+    },
+    "hash": "4af352551aa491247d71691c0943300a20201bc30b15d10b9562026eaea88790",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Katerina Ladon · Monster Manual (2024)"
+      }
+    ]
+  }
+]

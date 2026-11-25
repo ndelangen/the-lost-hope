@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Spawn of Kyuss",
+    "file": "portraits/spawn-of-kyuss.png",
+    "sha256": "f7a7e125bf5578e12e5079e48499eba984898d6a8be0908f2b24d27a160e48be",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Trapper",
+    "file": "portraits/trapper.png",
+    "sha256": "21f835731a342cfc082cc080d5bc7c170de86ea4a96b0955daf8aa1a54fa4860",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Vargouille",
+    "file": "portraits/vargouille.png",
+    "sha256": "39683a50eb7a8b4f215dc035b3de4e9f7da2f9e9fd2daef7a864d96dcae6045a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Vegepygmy",
+    "file": "portraits/vegepygmy.png",
+    "sha256": "28a37072ba94ea4da055075a8de0751e22c14d348238455d97bb8f9e2d06e651",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Xvart",
+    "file": "portraits/xvart.png",
+    "sha256": "6abd91df5ca4b1edd4286c5f52272c91f97954fd29101f0bbcec3c287f84eb55",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

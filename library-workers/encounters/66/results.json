@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Hobgoblin Brandbearer",
+    "source": "https://www.dndbeyond.com/monsters/4485882-hobgoblin-brandbearer",
+    "challenge": "5",
+    "entry": "monster-d143a75bd30ec330141dc87f",
+    "version": "930554693da64e2e2a74a887",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "hobgoblin-brandbearer",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "d52ff2d7d525494f703547c43ae538817783d8a4f7d05eabc07ca524d1461383",
+    "status": "Stat block",
+    "appearance": "A red-skinned hobgoblin in layered hide and bronze, carrying a brazier-topped standard and a worn round shield.",
+    "habitats": [
+      "Camp Firefield",
+      "War camps",
+      "Fortified settlements"
+    ]
+  },
+  {
+    "name": "Hobgoblin Incendiarist",
+    "source": "https://www.dndbeyond.com/monsters/4485885-hobgoblin-incendiarist",
+    "challenge": "1",
+    "entry": "monster-3ba2203148a6f35381556da8",
+    "version": "0c4c81087748adbbabfd38bf",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "hobgoblin-incendiarist",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "c1b934e9c5fc81e4431bac72eb29bc2031464620452d67e82ca508e9e6cdb870",
+    "status": "Stat block",
+    "appearance": "A red-skinned hobgoblin in worn leather armor, holding an incendiary clay pot and a burning taper.",
+    "habitats": [
+      "Camp Firefield",
+      "War camps",
+      "Siege lines"
+    ]
+  }
+]

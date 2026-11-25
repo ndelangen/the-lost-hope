@@ -1,0 +1,426 @@
+[
+  {
+    "name": "Vampirate Mage",
+    "statBlock": {
+      "name": "Vampirate Mage",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 63,
+      "classification": "Medium undead, typically lawful evil",
+      "ac": 14,
+      "hp": 68,
+      "hitDice": "8d8 + 32",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 12,
+      "description": "A gaunt, white-eyed spellcaster who rarely strays from the spelljamming helm of a vampirate ship. It feeds on life energy instead of blood.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+3",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "the languages it knew in life.",
+        "Damage vulnerabilities": "Radiant.",
+        "Damage immunities": "Cold, necrotic, poison.",
+        "Condition immunities": "Charmed, exhaustion, poisoned.",
+        "Traits": "Explode. At 0 hit points, the mage bursts into ash. Each creature within 5 ft. must pass a DC 14 Constitution save or take 11 (2d10) necrotic damage.\nSpider Climb. The mage can cross difficult climbing surfaces and move upside down along ceilings without an ability check.\nUnusual Nature. The mage needs neither air nor drink.",
+        "Actions": "Multiattack. Make two Ray of Cold attacks.\nEnergy Drain. Make a +5 melee or ranged spell attack against one creature, with a reach of 5 ft. or a range of 30 ft. A hit deals 22 (4d10) necrotic damage. A Humanoid this attack reduces to 0 hit points dies and immediately becomes a free-willed Shadow controlled by the DM.\nRay of Cold. Make a +5 ranged spell attack against one target within 120 ft. A hit deals 11 (2d8 + 2) cold damage.",
+        "Spellcasting": "As an action, cast one spell below using Charisma (spell save DC 13).\nAt will. Mage Hand or Message.\n1/day. Choose Darkness, Dimension Door, Fly, or Hypnotic Pattern.",
+        "Printed source": "Boo’s Astral Menagerie, p. 63."
+      },
+      "savingThrows": {
+        "Wis": 5,
+        "Cha": 5
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Shadow",
+          "terms": [
+            "Shadow",
+            "Shadows"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#shadow_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Vampirate",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#vampirate_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Vampirate Captain",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#vampirate%20captain_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Void Scavver",
+    "statBlock": {
+      "name": "Void Scavver",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 49,
+      "classification": "Huge monstrosity, unaligned",
+      "ac": 15,
+      "hp": 157,
+      "hitDice": "15d12 + 60",
+      "speed": "0 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 15,
+      "description": "A pitch-black scavver about twenty feet long with one large eye and a sharklike maw. It hunts alone and can send an invisible ray of fear from its eye.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+4",
+        "Senses": "Darkvision 120 ft.",
+        "Traits": "Unusual Nature. The scavver can live without air.",
+        "Actions": "Swallowing Bite. Make a +10 melee weapon attack against one target within 10 ft. A hit deals 45 (6d12 + 6) piercing damage. On a hit against a Large or smaller creature, it must pass a DC 16 Dexterity save or the scavver swallows it. The scavver can hold only one creature at a time.\nWhile swallowed, the creature is blinded and restrained, has total cover from attacks and other effects outside the scavver, and takes 11 (2d10) acid damage at the start of each of the scavver’s turns.\nIf a creature inside the scavver deals at least 25 damage to it in one turn, the scavver makes a DC 20 Constitution save at that turn’s end. On a failure, it ejects the swallowed creature, which falls prone within 10 ft. of the scavver. If the scavver dies, the swallowed creature stops being restrained and can spend 10 ft. of movement to crawl out, emerging prone.",
+        "Bonus actions": "Ray of Fear (Recharge 4–6). Fire an invisible magical ray at one creature the scavver can see within 60 ft. The target must pass a DC 16 Wisdom save or become frightened of the scavver until the start of the scavver’s next turn.",
+        "Encounter context": "The Wildspace encounters table can place a lone Void Scavver in the party’s path. Smaller varieties include the Brown Scavver, Gray Scavver, and Night Scavver.",
+        "Printed source": "Boo’s Astral Menagerie, p. 49. The Wildspace encounter table appears on p. 6."
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 11
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Brown Scavver",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#brown%20scavver_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Gray Scavver",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#gray%20scavver_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Night Scavver",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#night%20scavver_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Young Lunar Dragon",
+    "statBlock": {
+      "name": "Young Lunar Dragon",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 35,
+      "classification": "Large dragon, typically neutral evil",
+      "ac": 16,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "40 ft., burrow 20 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 16,
+      "description": "A pale, rock-burrowing dragon that carves its home into barren moons and collects treasure stripped from intruding ships.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+3",
+        "Senses": "Darkvision 240 ft.",
+        "Languages": "Draconic.",
+        "Damage immunities": "Cold.",
+        "Traits": "Tunneler. Burrow through solid rock at half the dragon’s burrow speed, leaving a tunnel 10 ft. in diameter.\nUnusual Nature. The dragon can live without air.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Make a +7 melee weapon attack against one target within 10 ft. A hit deals 7 (1d6 + 4) piercing damage plus 3 (1d6) cold damage.\nClaw. Make a +7 melee weapon attack against one target within 5 ft. A hit deals 7 (1d6 + 4) slashing damage.\nCold Breath (Recharge 5–6). Each creature in the dragon’s 30-ft. frost cone makes a DC 15 Constitution save. On a failure, it takes 27 (6d8) cold damage and its speed is halved until the end of its next turn. On a success, it takes half damage and keeps its normal speed.",
+        "Bonus actions": "Phase (2/day). The dragon becomes partially incorporeal while it maintains concentration as if on a spell. Until concentration ends, it has resistance to bludgeoning, piercing, and slashing damage.",
+        "Lunar dragon ages": "The Lunar Dragon Wyrmling is alabaster white. Its scales darken as it ages into an Adult Lunar Dragon, then turn slate-colored as an Ancient Lunar Dragon. During Phase, part of the dragon looks spectral, but it still cannot move through creatures or solid objects.",
+        "Printed source": "Boo’s Astral Menagerie, p. 35. The printed stat block gives typically neutral evil."
+      },
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 3
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 7
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Lunar Dragon Wyrmling",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#lunar%20dragon%20wyrmling_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Adult Lunar Dragon",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#adult%20lunar%20dragon_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ancient Lunar Dragon",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ancient%20lunar%20dragon_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Young Solar Dragon",
+    "statBlock": {
+      "name": "Young Solar Dragon",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 53,
+      "classification": "Large dragon, typically neutral",
+      "ac": 16,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "20 ft., fly 60 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 20,
+      "description": "A star-born hunter with luminous wings, gleaming scales, and a sinuous body. A young dragon might defend an asteroid belt where Kindori and scavvers are plentiful.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+4",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic.",
+        "Damage immunities": "Radiant.",
+        "Condition immunities": "Blinded.",
+        "Traits": "Flyby. The dragon does not provoke opportunity attacks when it flies out of an enemy’s reach.\nUnusual Nature. The dragon can live without air.",
+        "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Make a +9 melee weapon attack against one target within 10 ft. A hit deals 12 (2d6 + 5) piercing damage plus 7 (2d6) radiant damage.\nTail. Make a +9 melee weapon attack against one target within 15 ft. A hit deals 8 (1d6 + 5) bludgeoning damage.\nPhotonic Breath (Recharge 5–6). Choose a point the dragon can see within 120 ft. A mote of radiant energy travels there and bursts into a sphere with a 20-ft. radius. Each creature in that sphere makes a DC 17 Constitution save, taking 44 (8d10) radiant damage on a failure or half on a success.",
+        "Solar dragon ages": "The Solar Dragon Wyrmling hatches from an obsidian egg. An Adult Solar Dragon typically nests in a star, while an Ancient Solar Dragon may hunt throughout an entire Wildspace system. A solar dragon sometimes approaches a spelljamming ship after mistaking it for prey.",
+        "Printed source": "Boo’s Astral Menagerie, p. 53. Official errata sets its hit points to 178 (17d10 + 85) and challenge to 9 (5,000 XP)."
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 9,
+        "Wis": 6,
+        "Cha": 5
+      },
+      "skills": {
+        "Perception": 10,
+        "Stealth": 6
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Kindori",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kindori_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Solar Dragon Wyrmling",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#solar%20dragon%20wyrmling_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Adult Solar Dragon",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#adult%20solar%20dragon_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ancient Solar Dragon",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ancient%20solar%20dragon_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Zodar",
+    "statBlock": {
+      "name": "Zodar",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 64,
+      "classification": "Medium aberration, typically neutral",
+      "ac": 20,
+      "hp": 200,
+      "hitDice": "16d8 + 128",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 12,
+      "description": "A silent, hovering figure with an obsidian exoskeleton and two narrow eye slits. A zodar weighs about 1,500 pounds and may spend its life pursuing a purpose it never explains.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+5",
+        "Senses": "Blindsight 120 ft. (blind beyond this radius).",
+        "Languages": "See Disembodied Voice.",
+        "Damage immunities": "Acid, fire, poison.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, petrified, poisoned.",
+        "Traits": "Disembodied Voice. On at most three occasions in its life, the zodar can make the surrounding air deliver a message of up to 25 words. It reserves this for matters of great importance. A creature with Intelligence 2 or higher understands the message.\nLegendary Resistance (3/day). When the zodar fails a saving throw, it can choose to succeed.\nTransport Inhibitor. No effect can teleport the zodar or take it to another plane against its will.\nUnusual Nature. The zodar needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Crushing Fist attacks. Use Forced Teleport either before both attacks or after both.\nCrushing Fist. Make a +15 melee weapon attack against one target within 5 ft. A hit deals 21 (2d10 + 10) force damage.\nForced Teleport. Choose one creature the zodar can see within 60 ft. It makes a DC 21 Constitution save. On a failure, it takes 22 (4d10) force damage, and the zodar moves it and its worn or carried gear up to 60 ft. by magic. The destination must be visible to the zodar, unoccupied, and able to support the target. On a success, the target takes half damage and stays in place.\nWish. Cast Wish using Charisma (spell save DC 17) without components. After the spell is cast, the zodar crumbles into dust and is destroyed.",
+        "Printed source": "Boo’s Astral Menagerie, p. 64."
+      },
+      "savingThrows": {
+        "Con": 13,
+        "Int": 6,
+        "Wis": 7,
+        "Cha": 9
+      }
+    }
+  }
+]

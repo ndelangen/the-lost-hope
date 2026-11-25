@@ -1,0 +1,281 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-nothic-vesk-foldnote",
+      "title": "Vesk Foldnote, Nothic Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Aberration",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "2d8 + 2",
+      "initiative": 3,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Arcana +4",
+        "History +4",
+        "Insight +5",
+        "Investigation +4",
+        "Perception +3",
+        "Persuasion +2",
+        "Stealth +7"
+      ],
+      "senses": "Passive Perception 13, or 18 when sight applies. Detects invisible and ethereal presence within 30 ft. and locates moving creatures in that range.",
+      "languages": "Undercommon, Common from the Noble background, and thieves' cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +4. Natural AC 15 is 12 + 3 Dexterity. HP 15 is 9 at 1st level and 6 at 2nd.",
+        "Noble background supplies History, Persuasion and Common. Rogue skills are Acrobatics, Insight, Investigation and Perception. Expertise doubles proficiency in Insight and Stealth.",
+        "Cunning Action permits Dash, Disengage or Hide as a bonus action."
+      ],
+      "actions": [
+        "Dagger. +5 to hit, 5-ft. reach, or thrown range 20/60 ft. Hit 1d4 + 3 piercing. Once per turn add 1d6 Sneak Attack with advantage, or if a non-incapacitated enemy of the target is within 5 ft. of it and Vesk has no disadvantage.",
+        "Claw. Unarmed strike +1 to hit, 5-ft. reach. Hit 1d6 − 1 slashing, minimum 0. The claw has no finesse for Sneak Attack.",
+        "Rotting Gaze. One visible creature within 30 ft. makes a DC 12 Constitution save or takes 1d8 necrotic damage.",
+        "Weird Insight. Choose one visible creature within 30 ft. Vesk rolls Insight +5 against the target’s Deception. If Vesk wins, the DM reveals a fact or secret about the creature. A target immune to charm wins automatically."
+      ],
+      "tactics": "Vesk uses Weird Insight before making an offer. If cornered, Vesk uses Rotting Gaze from cover and uses Cunning Action to reach a side passage. The dagger comes out only if someone closes the gap."
+    },
+    {
+      "id": "mr2018-otyugh-grott-drainkeeper",
+      "title": "Grott the Drainkeeper, Otyugh Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Aberration",
+      "ac": 15,
+      "hp": 23,
+      "hitDice": "2d12 + 4",
+      "initiative": 2,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 120 ft., passive Perception 13",
+      "languages": "Otyugh. Communicates simple ideas, images and emotions telepathically with creatures that understand a language within 100 ft.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Natural AC 15 is 13 + 2 Dexterity. Unarmored Defense gives AC 14. HP 23 is 14 at 1st level and 9 at 2nd.",
+        "Sailor background supplies Athletics and Perception. Barbarian skills are Animal Handling and Survival. Grott’s anatomy rules out the Sailor’s hand-operated tools.",
+        "Rage twice per long rest as a bonus action, up to 1 minute. Rage grants advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing, and +2 damage to melee weapon attacks using Strength. It ends early if Grott falls unconscious or ends a turn without attacking a hostile creature or taking damage since the previous turn. A bonus action can end it early.",
+        "When Grott makes the first attack of a turn, Reckless Attack can give advantage on Strength melee weapon attacks for the rest of that turn. Attacks against Grott then have advantage until the next turn. Danger Sense grants advantage on Dexterity saves against visible effects while Grott is able to see and is neither deafened nor incapacitated."
+      ],
+      "actions": [
+        "Bite or tentacle. Melee unarmed strike +5 to hit, reach 5 ft. Hit 1d8 + 3 piercing or bludgeoning, or 1d8 + 5 while raging.",
+        "Tentacle grapple. Once a strike from the Attack action hits, spend a bonus action to grapple the same target. Roll Athletics +5, with advantage while raging, against the target’s Athletics or Acrobatics. The target can be no larger than Large and must be within reach."
+      ],
+      "tactics": "Grott warns crews with images of backed-up water. If attacked, Grott rages, blocks the culvert and uses a grapple on a later turn to hold a pursuer in place."
+    },
+    {
+      "id": "mr2018-peryton-bramblecrest",
+      "title": "Bramblecrest, Peryton Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d8 + 1",
+      "initiative": 2,
+      "speed": "30 ft. walking, 40 ft. flying while unarmored",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +1"
+      ],
+      "senses": "Passive Perception 11, or 16 when sight or smell applies.",
+      "languages": "Understands and reads Common and Elven. Communicates by gesture.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Dexterity save +4. Natural AC and Monk Unarmored Defense each give AC 13. HP is 8 + 1 Constitution.",
+        "Soldier background supplies Athletics and Intimidation. Monk skills are Acrobatics and Insight. Fights unarmed and unarmored.",
+        "Choose either Flyby Disengage or the Martial Arts bonus strike on a turn, since each uses the bonus action."
+      ],
+      "actions": [
+        "Gore or talons. Melee unarmed strike +5 to hit, reach 5 ft. Hit 1d8 + 3 piercing.",
+        "Dive Attack. Once per turn, add 1d6 damage to a successful melee weapon attack after diving at least 30 ft. toward its target.",
+        "Martial Arts. After using the Attack action for an unarmed strike, spend a bonus action on a blunt kick, +5 to hit, reach 5 ft., for 1d4 + 3 bludgeoning."
+      ],
+      "tactics": "Bramblecrest circles above the approach, dives if someone crosses the marker stones, then spends the bonus action to Disengage and withdraw if movement remains."
+    },
+    {
+      "id": "mr2018-rust-monster-pennywort",
+      "title": "Pennywort, Rust Monster Monk 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 15,
+      "hp": 17,
+      "hitDice": "2d8 + 4",
+      "initiative": 2,
+      "speed": "45 ft. walking while unarmored",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +3",
+        "Insight +4",
+        "Stealth +4",
+        "Survival +4"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 12. Pinpoints ferrous metal within 30 ft. by scent.",
+      "languages": "Common and Dwarvish from the Outlander background.",
+      "traits": [
+        "Proficiency +2. Strength save +3 and Dexterity save +4. Natural AC 15 is 13 + 2 Dexterity. Monk Unarmored Defense would give AC 14. HP 17 is 10 at 1st level and 7 at 2nd.",
+        "Outlander supplies Athletics, Survival and Dwarvish. Monk skills are Insight and Stealth. Unarmored Movement adds 10 ft. to the 35-ft. walking speed.",
+        "Two ki points return after a short or long rest with at least 30 minutes of meditation. Patient Defense spends 1 ki to Dodge as a bonus action. Step of the Wind spends 1 ki to Dash or Disengage as a bonus action and doubles jump distance for that turn.",
+        "Rust Metal. An unarmed strike with a natural 20 may destroy the target’s wielded nonmagical metal shield. If the target wields no shield, it may destroy the target’s worn nonmagical metal armor instead. A natural 1 from an attacker trying to hit Pennywort with a nonmagical metal weapon lets Pennywort destroy that weapon."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +4 to hit, reach 5 ft. Hit 1d8 + 2 piercing using Dexterity through Martial Arts.",
+        "Blunt foreleg strike. After using the Attack action for an unarmed strike, Pennywort can make one blunt strike as a bonus action, +4 to hit, reach 5 ft., for 1d4 + 2 bludgeoning. Flurry of Blows spends 1 ki for two of these strikes as the bonus action immediately after the Attack action."
+      ],
+      "tactics": "Pennywort asks for scrap before entering a smithy. If a threat closes in, Pennywort bites once and spends ki to Disengage, or uses Flurry if retreat is blocked."
+    },
+    {
+      "id": "mr2018-shambling-mound-mosswake",
+      "title": "Mosswake, Shambling Mound Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Plant",
+      "ac": 15,
+      "hp": 18,
+      "hitDice": "2d10 + 2",
+      "initiative": 2,
+      "speed": "20 ft. walking, 20 ft. swimming",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Blindsight 30 ft., blind outside that range, passive Perception 13 where applicable.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +3. Natural AC 15 is 13 + 2 Dexterity. HP 18 is 11 at 1st level and 7 at 2nd.",
+        "Fighter supplies Athletics and Perception. Folk Hero supplies Animal Handling and Survival. Mosswake fights unarmored, so the Defense fighting style is inactive.",
+        "Immune to the blinded and deafened conditions and to exhaustion. Resists lightning damage.",
+        "Second Wind restores 1d10 + 2 HP as a bonus action once per short or long rest. Action Surge grants one extra action on a turn once per short or long rest."
+      ],
+      "actions": [
+        "Slam. Melee unarmed strike +5 to hit, reach 5 ft. Hit 1d8 + 3 bludgeoning.",
+        "Vine grapple. After a slam from the Attack action hits, spend a bonus action to grapple the same target. Use Athletics +5 against the target’s Athletics or Acrobatics. The target can be no larger than Large and must be within reach."
+      ],
+      "tactics": "Mosswake waits for the intruder to enter blindsight, then slams and attempts to hold it. Mosswake saves Action Surge to Dash up to another 20 ft. or make an additional attack."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Nothic",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Vesk Foldnote",
+      "size": "Medium",
+      "build": "mr2018-nothic-vesk-foldnote",
+      "role": "Displaced archive runner",
+      "motive": "Recover a borrowed ledger without revealing the borrower.",
+      "hook": "Vesk put an anonymous witness’s letters in the wrong dispatch bag. The bag is headed for a courtroom where the witness is due to testify."
+    },
+    {
+      "species": "Otyugh",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Grott the Drainkeeper",
+      "size": "Medium",
+      "build": "mr2018-otyugh-grott-drainkeeper",
+      "role": "Culvert caretaker",
+      "motive": "Keep its food supply and the neighborhood’s drains flowing.",
+      "hook": "A contractor blocked the clean-water bypass. Grott needs someone who can open the handwheel before the next hard rain."
+    },
+    {
+      "species": "Peryton",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Bramblecrest",
+      "size": "Medium",
+      "build": "mr2018-peryton-bramblecrest",
+      "role": "Abandoned pass sentry",
+      "motive": "Keep travelers from a ledge that collapsed under its old patrol.",
+      "hook": "Bramblecrest drops pebbles ahead of travelers who keep walking toward the failed ledge. A chalk-marked detour would let the sentry rest."
+    },
+    {
+      "species": "Rust Monster",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Pennywort",
+      "size": "Medium",
+      "build": "mr2018-rust-monster-pennywort",
+      "role": "Awakened scrap sorter",
+      "motive": "Earn a place at a workshop without damaging useful tools.",
+      "hook": "Pennywort smelled a hidden cache behind a shed wall and is looking for someone who can distinguish stolen tools from scrap."
+    },
+    {
+      "species": "Shambling Mound",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Mosswake",
+      "size": "Medium",
+      "build": "mr2018-shambling-mound-mosswake",
+      "role": "Awakened reed-bank tender",
+      "motive": "Protect a small network of raised shelters during floods.",
+      "hook": "The pilings under a shelter are rotting. Mosswake can brace the platform through the storm if someone guides the occupants out."
+    }
+  ]
+}

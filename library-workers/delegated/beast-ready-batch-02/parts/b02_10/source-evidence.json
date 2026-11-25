@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Panther",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Reference Document v0.2",
+    "pdfPage": 365,
+    "printedPages": [
+      365,
+      366
+    ],
+    "pageNumbering": "Printed and page numbers agree.",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpPage": 229,
+    "xpSource": "",
+    "monsterStatisticRules": "",
+    "sourceDistinctions": [
+      "Page 366 continues the Panther block with the Stealthy Hunter bonus action.",
+      "Use fixed Perception and Stealth."
+    ],
+    "artGroup": "panther",
+    "appearanceEvidence": "Original illustration and description use editorial animal anatomy. The native stat block does not describe appearance.",
+    "habitatEvidence": "Editorial search tags based on animal behavior and encounter context. The native stat block does not give habitats. Tags: Forest, Jungle, Rocky hills."
+  },
+  {
+    "name": "Panther",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "printedPages": [
+      333
+    ],
+    "pageNumbering": "Printed folio 333 corresponds to mobile document page 334.",
+    "url": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-p#Panther",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=334",
+    "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "sourceDistinctions": [
+      "The 2014 Monster Manual folio and official 2014 Basic Rules agree. The official errata lists no Panther-specific change.",
+      "Use the 2014 skill bonuses and Keen Smell advantage. The Black Flag continuation is exclusive to its own printing."
+    ],
+    "artGroup": "panther",
+    "appearanceEvidence": "Editorial description and portrait treat the unspecified panther as a melanistic leopard.",
+    "habitatEvidence": "Forest, jungle, and rocky hills are editorial tags for a climbing big cat."
+  },
+  {
+    "name": "Vulture",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Reference Document v0.2",
+    "pdfPage": 373,
+    "printedPages": [
+      373
+    ],
+    "pageNumbering": "Printed and page numbers agree.",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpPage": 229,
+    "xpSource": "",
+    "monsterStatisticRules": "",
+    "sourceDistinctions": [
+      "The layout on p. 373 pairs two vulture blocks across columns. This is the CR 0 Vulture with 8 HP, plain Beak, and the DC 11 bile reaction."
+    ],
+    "artGroup": "vulture",
+    "appearanceEvidence": "Original illustration and description use editorial animal anatomy. The native stat block does not describe appearance.",
+    "habitatEvidence": "Editorial search tags based on animal behavior and encounter context. The native stat block does not give habitats. Tags: Open grassland, Rocky cliffs."
+  },
+  {
+    "name": "Weasel",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Reference Document v0.2",
+    "pdfPage": 373,
+    "printedPages": [
+      373
+    ],
+    "pageNumbering": "Printed and page numbers agree.",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpPage": 229,
+    "xpSource": "",
+    "monsterStatisticRules": "",
+    "sourceDistinctions": [
+      "The theft option belongs to the ordinary Weasel. Repellent Spray belongs to the separate Giant Weasel."
+    ],
+    "artGroup": "weasel",
+    "appearanceEvidence": "Original illustration and description use editorial animal anatomy. The native stat block does not describe appearance.",
+    "habitatEvidence": "Editorial search tags based on animal behavior and encounter context. The native stat block does not give habitats. Tags: Meadows, Woodland edges, Hedgerows."
+  },
+  {
+    "name": "Wolf",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Reference Document v0.2",
+    "pdfPage": 374,
+    "printedPages": [
+      374
+    ],
+    "pageNumbering": "Printed and page numbers agree.",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpPage": 229,
+    "xpSource": "",
+    "monsterStatisticRules": "",
+    "sourceDistinctions": [
+      "Use the printed attack values and fixed Perception. The adjacent Dire Wolf is a separate block."
+    ],
+    "artGroup": "wolf",
+    "appearanceEvidence": "Original illustration and description use editorial animal anatomy. The native stat block does not describe appearance.",
+    "habitatEvidence": "Editorial search tags based on animal behavior and encounter context. The native stat block does not give habitats. Tags: Forest, Grassland, Plains."
+  }
+]

@@ -1,0 +1,269 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309489,6 +309489,178 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Rat",
++      "kind": "beast",
++      "publication": "A Dark and Stormy Knight",
++      "edition": "3.5 edition",
++      "ruleset": "dnd-3.5",
++      "appearance": "A small ordinary rat from the flooded nest inside Hightower.",
++      "combat": {
++        "armorClass": 14,
++        "touchArmorClass": 14,
++        "flatFootedArmorClass": 12,
++        "hitDice": "1/4 d8",
++        "challenge": "1/8",
++        "size": "Tiny",
++        "creatureType": "Animal",
++        "initiativeModifier": 2,
++        "speed": {
++          "walk": 15,
++          "climb": 15,
++          "swim": 15
++        },
++        "baseAttackBonus": 0,
++        "grappleModifier": -12,
++        "fortitude": 2,
++        "reflex": 4,
++        "will": 1,
++        "abilities": {
++          "Str": 2,
++          "Dex": 15,
++          "Con": 10,
++          "Int": 2,
++          "Wis": 12,
++          "Cha": 2
++        },
++        "skills": {
++          "Balance": 10,
++          "Climb": 12,
++          "Hide": 14,
++          "Move Silently": 10,
++          "Swim": 10
++        },
++        "senses": ["Low-light vision", "Scent"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 0,
++            "damage": [
++              {
++                "dice": "1d3−4"
++              }
++            ]
++          }
++        ],
++        "habitats": ["Hightower entrance chamber"]
++      },
++      "mechanics": {
++        "Base creature rules": [
++          {
++            "name": "Climbing and swimming",
++            "effectNote": "The rat uses Dexterity for Climb and Swim checks. It can take 10 on either check even when threatened and can run while swimming in a straight line."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "Rat Race",
++            "effectNote": "Encounter Level 2. After everyone arrives in area 2, trigger the scene at the DM’s chosen time. Lightning floods a nest, and eight rats run in looking for an exit. Four have 2 HP each and four have 1 HP each. Each is CR 1/8."
++          },
++          {
++            "name": "Flooded nest tactics",
++            "effectNote": "They attack the nearest targets they see, with at most three rats on one target. The bite still deals at least 1 damage. A rat that survives a hit flees on its next move action."
++          }
++        ]
++      },
++      "notes": [
++        "The 3.5 Monster Manual p. 278 supplies the Tiny Animal base. Weapon Finesse. Space 2½ feet, reach 0 feet.",
++        "A Dark and Stormy Knight (Wizards of the Coast, 2005), p. 5 supplies the eight individual HP values and tactics."
++      ],
++      "encounterVariant": true
++    },
++    {
++      "name": "Medium Monstrous Spider",
++      "kind": "beast",
++      "publication": "A Dark and Stormy Knight",
++      "edition": "3.5 edition",
++      "ruleset": "dnd-3.5",
++      "appearance": "A medium-sized web-spinning spider hidden among silk in the tor.",
++      "combat": {
++        "armorClass": 14,
++        "touchArmorClass": 13,
++        "flatFootedArmorClass": 11,
++        "hitPoints": 11,
++        "hitDice": "2d8+2",
++        "challenge": "1",
++        "size": "Medium",
++        "creatureType": "Vermin",
++        "initiativeModifier": 3,
++        "speed": {
++          "walk": 30,
++          "climb": 20
++        },
++        "baseAttackBonus": 1,
++        "grappleModifier": 1,
++        "fortitude": 4,
++        "reflex": 3,
++        "will": 0,
++        "abilities": {
++          "Str": 11,
++          "Dex": 17,
++          "Con": 12,
++          "Wis": 10,
++          "Cha": 2
++        },
++        "skills": {
++          "Climb": 11,
++          "Hide": 7,
++          "Jump": 0,
++          "Spot": 4
++        },
++        "senses": ["Darkvision 60 ft.", "Tremorsense 60 ft."],
++        "immunities": ["Mind-affecting effects"],
++        "attacks": [
++          {
++            "name": "Bite plus poison",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "dice": "1d6"
++              }
++            ]
++          }
++        ],
++        "habitats": ["Hightower tomb corridor"]
++      },
++      "mechanics": {
++        "Base creature rules": [
++          {
++            "name": "Bite poison",
++            "effectNote": "Fortitude DC 12. Initial and secondary damage are each 1d4 Strength."
++          },
++          {
++            "name": "Web throw",
++            "effectNote": "The web-spinner can throw a web up to eight times per day, as a net-like attack. Its range increment is 10 feet and maximum range is 50 feet. It can catch a target up to one size category larger. Escape Artist DC 12 or Strength DC 16 to get free."
++          },
++          {
++            "name": "At home in its web",
++            "effectNote": "The spider moves across its web at climb speed and can pinpoint creatures touching it."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "What a Tangled Web",
++            "effectNote": "Encounter Level 1. This is one CR 1 spider with 11 HP. The ceiling web gives it Hide +15 and Move Silently +11 in this encounter."
++          },
++          {
++            "name": "Doorway web",
++            "effectNote": "Spot DC 20 to notice the web. It has DR 5/—, 6 HP, break DC 16, and Escape Artist DC 12. Only one creature can be caught at once. A creature that touches the web is caught as in a net and cannot move away from the doorway. A weapon that touches it sticks and needs a DC 16 Strength check to free."
++          },
++          {
++            "name": "Ceiling ambush",
++            "effectNote": "The spider attacks, with surprise if possible, when someone is caught in or attacks the doorway web. It always attacks the nearest target. It throws a web only when no character is currently entangled in a web."
++          }
++        ]
++      },
++      "notes": [
++        "The 3.5 Monster Manual pp. 288–289 supply the Medium Vermin web-spinner base. Intelligence is shown as a dash. Weapon Finesse is a bonus feat. Space and reach 5 feet.",
++        "A Dark and Stormy Knight (Wizards of the Coast, 2005), pp. 5–6 supplies the encounter’s web placement, skill totals and tactics."
++      ]
+     }
+   ],
+   "species": [
+diff --git a/dm-library/bestiary/book-catalog.ts b/dm-library/bestiary/book-catalog.ts
+--- a/dm-library/bestiary/book-catalog.ts
++++ b/dm-library/bestiary/book-catalog.ts
+@@ -20,6 +20,7 @@
+     | 'black-flag'
+   notes?: string[]
+   appearance?: string
++  encounterVariant?: boolean
+   reusedIn?: string[]
+   mechanics?: Record<string, unknown[]>
+   combat: {
+diff --git a/dm-library/bestiary/catalog.ts b/dm-library/bestiary/catalog.ts
+--- a/dm-library/bestiary/catalog.ts
++++ b/dm-library/bestiary/catalog.ts
+@@ -285,7 +285,8 @@
+         srdBlock.cr === manualProfile.combat.challenge
+           ? srdBlock
+           : undefined
+-      const bookCombat = books.profile(row) ?? sharedBookProfile
++      const directBookProfile = books.profile(row)
++      const bookCombat = directBookProfile ?? sharedBookProfile
+       const scaling = scalable.describe(row)
+       const relatedPublication =
+         bookCombat?.ruleset === 'dnd-5e-2014'
+@@ -348,6 +349,7 @@
+             : (manualProfile?.tableNotes ?? bookCombat?.notes),
+         srdAlternative: srdAlternative ?? bookSrdAlternative,
+         bookCombat: bookCombat?.combat,
++        encounterVariant: directBookProfile?.encounterVariant,
+         bookRuleset: bookCombat?.ruleset,
+         bookMechanics: bookCombat?.mechanics,
+         scaling,
+diff --git a/scripts/dm-library-content.ts b/scripts/dm-library-content.ts
+--- a/scripts/dm-library-content.ts
++++ b/scripts/dm-library-content.ts
+@@ -190,6 +190,7 @@
+   publisherArtwork?: string
+   illustrationReference?: string
+   bookMechanics?: Record<string, Mechanic[]>
++  encounterVariant?: boolean
+   tableNotes?: string[]
+   speciesTraits?: string[]
+   npcBuilds?: Npc[]
+@@ -671,6 +672,7 @@
+     })
+   }
+   const overriddenCreatureVersions = new Set<string>()
++  const encounterCreatureVersions = new Set<string>()
+   for (const row of creatures) {
+     const key = `${row.kind}:${normalize(row.name)}`
+     const published = artByName.get(key)
+@@ -686,6 +688,7 @@
+       { versions: [] },
+     )
+     const version = makeVersion(row, images)
++    if (row.encounterVariant) encounterCreatureVersions.add(`${entry.id}:${version.key}`)
+     if (row.statBlock?.overridesIndexedRules) overriddenCreatureVersions.add(version.key)
+     version.portrait = portraitFor(entry.id, version.key)
+     const citation = compendium.published(
+@@ -940,6 +943,8 @@
+     if (entry.kind !== 'item' && entry.kind !== 'compendium')
+       entry.versions?.sort(
+         (a, b) =>
++          Number(encounterCreatureVersions.has(`${entry.id}:${a.key}`)) -
++            Number(encounterCreatureVersions.has(`${entry.id}:${b.key}`)) ||
+           Number(Boolean(b.stats?.length || b.sections.length)) -
+             Number(Boolean(a.stats?.length || a.sections.length)) ||
+           a.publication.localeCompare(b.publication),
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -6466,6 +6466,7 @@
+ Mechanostrider	monster	Construct	D&D: World of Warcraft	2024 fifth edition	Wizards of the Coast		1/2
+ Medani Inquisitive	monster	Humanoid	Eberron: Forge of the Artificer	2024 fifth edition	Wizards of the Coast		3
+ Medi Tuck	monster	Humanoid	Humblewood Tales	2014 fifth edition compatible	Hit Point Press	https://www.dndbeyond.com/monsters/5174382-medi-tuck	0
++Medium Monstrous Spider	beast	Animal	A Dark and Stormy Knight	3.5 edition	Wizards of the Coast		1
+ Medium Shark	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		1
+ Medium Viper Snake	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		1
+ Medusa	monster	Monstrosity	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	6.0
+@@ -7775,6 +7776,7 @@
+ Rat	beast	Beast	SRD 5.1	2014 fifth edition	Wizards of the Coast		0
+ Rat	beast	Beast	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		0
+ Rat	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		0
++Rat	beast	Animal	A Dark and Stormy Knight	3.5 edition	Wizards of the Coast		1/8
+ Rat Crown-Prince	monster	Monstrosity	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5525085-rat-crown-prince	10
+ Rat God	monster	Fiend	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5525086-rat-god	23
+ Rat King	monster	Aberration	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5525087-rat-king	8

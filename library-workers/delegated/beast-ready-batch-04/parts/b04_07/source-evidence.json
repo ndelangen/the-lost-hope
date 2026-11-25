@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Giant Elk",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "url": "",
+    "sourceUrl": "",
+    "pdfPage": 132,
+    "printedPages": [
+      132
+    ],
+    "sourceHeading": "Giant Elk",
+    "section": "Chapter 12: Monsters",
+    "pageNumbering": "Printed folio and page agree.",
+    "appearanceEvidence": "Both entries identify the creature as an unusually large elk. The coloration and branching antler details come from the original portrait.",
+    "habitatEvidence": "Forests, meadows, and mountain slopes are editorial search tags for an elk. Neither printed creature description assigns specific terrain.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+      "Both editions leave the damage type unlabelled in Charge. Ram itself is bludgeoning."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "giant-elk",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Elk",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+    "printedPages": [
+      325
+    ],
+    "sourceHeading": "Giant Elk",
+    "section": "Appendix A: Miscellaneous Creatures",
+    "pageNumbering": "Printed folio 325 corresponds to page 326 in the mobile reader.",
+    "appearanceEvidence": "Both entries identify the creature as an unusually large elk. The coloration and branching antler details come from the original portrait.",
+    "habitatEvidence": "Forests, meadows, and mountain slopes are editorial search tags for an elk. Neither printed creature description assigns specific terrain.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+      "Both editions leave the damage type unlabelled in Charge. Ram itself is bludgeoning."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "giant-elk"
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "url": "",
+    "sourceUrl": "",
+    "pdfPage": 132,
+    "printedPages": [
+      132
+    ],
+    "sourceHeading": "Giant Fire Beetle",
+    "section": "Chapter 12: Monsters",
+    "pageNumbering": "Printed folio and page agree.",
+    "appearanceEvidence": "Both descriptions mention two luminous glands. Their color, position, and the shell details in the original portrait are editorial.",
+    "habitatEvidence": "Basic Rules p. 132 calls it nocturnal. Underground and dark forests are editorial tags for this record based on the explicit Monster Manual p. 325 description.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+      "The 1d6-day light duration after death appears in the description in both printings."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "giant-fire-beetle",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+    "printedPages": [
+      325
+    ],
+    "sourceHeading": "Giant Fire Beetle",
+    "section": "Appendix A: Miscellaneous Creatures",
+    "pageNumbering": "Printed folio 325 corresponds to page 326 in the mobile reader.",
+    "appearanceEvidence": "Both descriptions mention two luminous glands. Their color, position, and the shell details in the original portrait are editorial.",
+    "habitatEvidence": "Monster Manual p. 325 explicitly states underground and dark forests.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+      "The 1d6-day light duration after death appears in the description in both printings."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "giant-fire-beetle"
+  },
+  {
+    "name": "Giant Frog",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "url": "",
+    "sourceUrl": "",
+    "pdfPage": 133,
+    "printedPages": [
+      133
+    ],
+    "sourceHeading": "Giant Frog",
+    "section": "Chapter 12: Monsters",
+    "pageNumbering": "Printed folio and page agree.",
+    "appearanceEvidence": "The block identifies a giant frog with a standing leap. The mottled body, wide mouth, webbed feet, and color palette are editorial portrait details.",
+    "habitatEvidence": "Wetlands, ponds, and marshes are editorial habitats inferred from its Amphibious trait and swimming speed.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "giant-frog",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Frog",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+    "printedPages": [
+      325
+    ],
+    "sourceHeading": "Giant Frog",
+    "section": "Appendix A: Miscellaneous Creatures",
+    "pageNumbering": "Printed folio 325 corresponds to page 326 in the mobile reader.",
+    "appearanceEvidence": "The block identifies a giant frog with a standing leap. The mottled body, wide mouth, webbed feet, and color palette are editorial portrait details.",
+    "habitatEvidence": "Wetlands, ponds, and marshes are editorial habitats inferred from its Amphibious trait and swimming speed.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "giant-frog"
+  }
+]

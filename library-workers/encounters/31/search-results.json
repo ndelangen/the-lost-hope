@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Lightbender",
+    "query": "prismatic mane ambusher afterimage",
+    "condition": "Charmed",
+    "alternates": [
+      "D&D Beyond publisher art · Flee, Mortals!"
+    ]
+  },
+  {
+    "name": "Overmind",
+    "query": "vaurath artillery detached eyes world below",
+    "condition": "Poisoned",
+    "alternates": [
+      "D&D Beyond publisher art · Flee, Mortals!"
+    ]
+  }
+]

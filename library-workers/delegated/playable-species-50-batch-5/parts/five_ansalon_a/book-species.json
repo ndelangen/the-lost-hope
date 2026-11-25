@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Kender",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "True kender are Small and move 30 feet on land. Dexterity increases by 2, and Strength and Wisdom each decrease by 2. Small size improves attacks and AC by 1 and Hide by 4, and reduces weapon size and carrying capacity.",
+      "Treat exotic kender weapons as simple. Gain +1 on all saves, +2 to Spot, and +2 to Open Lock and Sleight of Hand. Those last two skills can be used without ranks.",
+      "True kender ignore both mundane and magical fear. Add +4 to Bluff when taunting and take a –4 racial penalty to Concentration.",
+      "Afflicted kender retain the shared base traits. Remove fear immunity, the taunt bonus, and the Concentration penalty. Add +2 to each of Climb, Hide, Jump, and Move Silently.",
+      "Common and Kenderspeak are automatic. Bonus language choices are Dwarven, Ergot, Elven, Goblin, and Solamnic. Rogue is favored."
+    ]
+  },
+  {
+    "name": "Tarmak",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Tarmaks are Medium human humanoids with 30-foot land movement, +2 Strength, –2 Intelligence, and –2 Charisma.",
+      "Choose an extra 1st-level feat from the fighter bonus-feat list. Spend the extra 4 starting skill points and the 1 extra point at later levels on Strength-, Dexterity-, or Constitution-based skills.",
+      "Tarmakian is automatic. Common, Damjatt, Keena, and Nerakese are bonus language choices. Barbarian is favored.",
+      "A Tarmak can qualify for the Hulking Brute feat in the Dragonlance Campaign Setting. Large size benefits are not automatic."
+    ]
+  },
+  {
+    "name": "Kyrie",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "The full Kyrie package is Medium, with –2 Strength, +6 Dexterity, +2 Wisdom, 20-foot land speed, 50-foot good flight, darkvision 60 feet and +2 natural armor.",
+      "The full package has 4d8 monstrous humanoid Hit Dice, +4 BAB, base saves Fort +1, Ref +4 and Will +4, two racial feats and 7 × (2 + Int modifier) racial skill points. Handle Animal, Knowledge (nature), Listen, Spot and Survival are class skills.",
+      "Full Kyrie cast and gain a domain as 3rd-level mystics. Their effective level starts at 7, comprising 4 racial HD and +3 level adjustment. Auran and Kothian are automatic, with Common, Kalinese and Nordmaarian as bonus choices. Mystic is favored.",
+      "The seven-tier Kyrie racial class is the alternative starting route. Level 1 starts at –2 Strength and +2 Dexterity, with one racial HD, gliding, a feat and a mystic domain power. It takes all seven levels before multiclassing.",
+      "The racial class gains mystic casting at tiers 2, 4 and 6. True flight starts at tier 3 at 20 feet (clumsy), improves at tier 5 to 30 feet (average) and reaches 50 feet (good) at tier 7. Natural armor begins at +1 at tier 3 and improves to +2 at tier 7. The class ends with 4d8 racial HD.",
+      "At tiers 2 and 6 the class adds +2 Dexterity. Tier 4 adds +2 Wisdom and the second feat. The fourth racial Hit Die arrives at tier 6.",
+      "From tier 1 to 7 the Kyrie class table gives BAB +1/+2/+2/+3/+3/+4/+4 and CR 1/1/2/2/2/3/3. Fortitude bases are +0/+0/+0/+1/+1/+1/+1. Reflex and Will each use +2/+3/+3/+3/+3/+4/+4. Skill points arrive at each gained racial Hit Die."
+    ]
+  },
+  {
+    "name": "Phaethon",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Phaethons are Medium humanoids with the elf and fire subtypes, –2 Strength, and +2 Wisdom. Low-light vision doubles human sight distance in dim light.",
+      "Land speed is 30 feet. Manifest fire wings as a free supernatural action without provoking. The wings enable 60-foot average flight and use character level as their effective caster level.",
+      "With wings manifested, add 1d6 fire to an unarmed hit or to damage dealt as the result of a grapple check. A round using the added fire damage cannot also include flight with those wings.",
+      "Fire subtype gives fire immunity and cold vulnerability. Common and Elven are automatic. Bonus language choices are Celestial, Draconic, Dwarven, Ignan and Sylvan. Monk is favored. Level adjustment is +2."
+    ]
+  }
+]

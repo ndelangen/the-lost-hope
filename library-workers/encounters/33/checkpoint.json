@@ -1,0 +1,30 @@
+{
+  "commit": "7f22435e75755e5dbe99b4acf134bd919d776418",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 4,
+  "fullStatBlocks": 4,
+  "generatedPortraitsInstalled": 4,
+  "creditedGalleriesVerified": 4,
+  "allRecentVersionsWithGeneratedPortrait": 547,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-33-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-33-style-reference.jpg",
+  "styleDirection": "Keep the light, subtly textured parchment, directional lighting, and painted surfaces. Use the four adult Angulotl portraits as the immediate design reference for related creatures.",
+  "results": "output/dm-library/encounter-batches/33/results.json",
+  "searchResults": "output/dm-library/encounter-batches/33/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Angulotl Tadpole",
+      "source": "https://www.dndbeyond.com/monsters/4485771-angulotl-tadpole",
+      "challenge": "1/4"
+    },
+    {
+      "name": "Clawfish",
+      "source": "https://www.dndbeyond.com/monsters/4485807-clawfish",
+      "challenge": "1/8"
+    }
+  ],
+  "nextSourceNote": "Verify the Tadpole’s printed CR and minion rules, then the frogfolk-trained Clawfish and any companion profile that is already tracked separately."
+}

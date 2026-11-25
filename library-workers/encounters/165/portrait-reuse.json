@@ -1,0 +1,126 @@
+{
+  "Young Kruthik": {
+    "sha256": "f12a0e45cb2608b80b0ce639164852a0416ff082244fed26a098fffd19be3bf9",
+    "source": "Kruthik Young"
+  },
+  "Yuan-ti Nightmare Speaker": {
+    "sha256": "9649f0b21e30516501286c39606da89cc3b39a528cfcee3bdc69680fc379a811",
+    "source": "Yuan-ti Nightmare Speaker"
+  },
+  "Abjurer": {
+    "sha256": "d2f3f9831fac1222ace7fed68e13888553c8dede36b88366ac18e81831204c2b",
+    "source": "Abjurer Wizard"
+  },
+  "Alhoon": {
+    "sha256": "50c39b41f21a909120f16e0efde15ec5d5e67279e96400a4089140b59498fefd",
+    "source": "Alhoon (MPMM)"
+  },
+  "Annis Hag": {
+    "sha256": "8ab5b8f252bd08167e11c863fbb1b30cb8834547a33c692dc70c6db550083b3c",
+    "source": "Annis Hag (MPMM)"
+  },
+  "Annis Hag (Coven)": {
+    "sha256": "8ab5b8f252bd08167e11c863fbb1b30cb8834547a33c692dc70c6db550083b3c",
+    "source": "Annis Hag (MPMM)"
+  },
+  "Annis Hag (Coven; Death)": {
+    "sha256": "8ab5b8f252bd08167e11c863fbb1b30cb8834547a33c692dc70c6db550083b3c",
+    "source": "Annis Hag (MPMM)"
+  },
+  "Annis Hag (Coven; Nature)": {
+    "sha256": "8ab5b8f252bd08167e11c863fbb1b30cb8834547a33c692dc70c6db550083b3c",
+    "source": "Annis Hag (MPMM)"
+  },
+  "Annis Hag (Coven; Prophecy)": {
+    "sha256": "8ab5b8f252bd08167e11c863fbb1b30cb8834547a33c692dc70c6db550083b3c",
+    "source": "Annis Hag (MPMM)"
+  },
+  "Apprentice Wizard": {
+    "sha256": "2295b69d6de7b1741178a499b6493a7f344917a7806f65680f5ffab20b878d75",
+    "source": "Apprentice Wizard"
+  },
+  "Archdruid": {
+    "sha256": "aba04bab48b5b628883da2f52501bf14edce39f4dab0574b2318b801910237f9",
+    "source": "Archdruid"
+  },
+  "Archer": {
+    "sha256": "ef2f0adbd85bda95d185641709b577dda69d81f50fee129e49627032305737fb",
+    "source": "Archer (MPMM)"
+  },
+  "Babau": {
+    "sha256": "fa9619fa98b1df36aac0dff7149aa0a133cd7f5537733653ea8571c5fb6f3891",
+    "source": "Babau (MPMM)"
+  },
+  "Banderhobb": {
+    "sha256": "f5b7e8590869eff27f4917fd5ef65e7185b86b4e3c30297f2c93b5098d2bd569",
+    "source": "Banderhobb (MPMM)"
+  },
+  "Bard": {
+    "sha256": "489dfefaff8d3e7df54a9397e1df95ad860e535e3d6c33f9aafceacc014fefcb",
+    "source": "Bard"
+  },
+  "Barghest": {
+    "sha256": "3f98b858095d79aac75201f6d56c2d4da6c47483a05e64da99a2fb21f797d61c",
+    "source": "Barghest (MPMM)"
+  },
+  "Bheur Hag": {
+    "sha256": "0a257c0134aa16051bd237448d2aa5d62f333920bc901a0fea5013efb4869ff3",
+    "source": "Bheur Hag (MPMM)"
+  },
+  "Bheur Hag (Coven)": {
+    "sha256": "0a257c0134aa16051bd237448d2aa5d62f333920bc901a0fea5013efb4869ff3",
+    "source": "Bheur Hag (MPMM)"
+  },
+  "Bheur Hag (Coven; Death)": {
+    "sha256": "0a257c0134aa16051bd237448d2aa5d62f333920bc901a0fea5013efb4869ff3",
+    "source": "Bheur Hag (MPMM)"
+  },
+  "Bheur Hag (Coven; Nature)": {
+    "sha256": "0a257c0134aa16051bd237448d2aa5d62f333920bc901a0fea5013efb4869ff3",
+    "source": "Bheur Hag (MPMM)"
+  },
+  "Bheur Hag (Coven; Prophecy)": {
+    "sha256": "0a257c0134aa16051bd237448d2aa5d62f333920bc901a0fea5013efb4869ff3",
+    "source": "Bheur Hag (MPMM)"
+  },
+  "Black Guard Drake": {
+    "sha256": "741399fbb4cb08ccc20a59a0b84210a2a9f0504a2546276e012896b36d47e7bc",
+    "source": "Black Guard Drake"
+  },
+  "Blackguard": {
+    "sha256": "04c2b3a213aac916ccf063e2a09ec7ee1cb5dd58b46e052967d064a270e42f5d",
+    "source": "Blackguard (MPMM)"
+  },
+  "Blue Guard Drake": {
+    "sha256": "a065de3b991a6457a730fff1638725acf61c49d25963f7305fe66a2f2a9b7010",
+    "source": "Blue Guard Drake"
+  },
+  "Bodak": {
+    "sha256": "c56e902fcd0ac9507c3dda5d3a0959f5956463d960b3b4700b195585eb2f5b81",
+    "source": "Bodak"
+  },
+  "Booyahg Caster": {
+    "sha256": "0072825416e565990e74dd853282f0938e826bbef816bd32c1b70527c57fb045",
+    "source": "Booyahg Booyahg Booyahg"
+  },
+  "Booyahg Slave of the Fiend": {
+    "sha256": "e36b0bf0dc1633407a75d3aa8099c7d277be79f342e9320b57a42bf35b3c5d91",
+    "source": "Booyahg Slave of the Archfey"
+  },
+  "Booyahg Slave of the Great Old One": {
+    "sha256": "e36b0bf0dc1633407a75d3aa8099c7d277be79f342e9320b57a42bf35b3c5d91",
+    "source": "Booyahg Slave of the Archfey"
+  },
+  "Booyahg Whip": {
+    "sha256": "bb95754805c1ea10bae529b6664e5ae2f8570621a2249ceeadbea67c30477244",
+    "source": "Goblin Warrior"
+  },
+  "Catoblepas": {
+    "sha256": "ecb64fc7173d96b8413ea803a9d104c85c9f0a83a3a29b8f5e7e83ed674937ef",
+    "source": "Catoblepas (MPMM)"
+  },
+  "Cave Fisher": {
+    "sha256": "92184ed42101eab0704e99183034f80d5fa720812490edf130ce0c885adcd920",
+    "source": "Cave Fisher (MPMM)"
+  }
+}

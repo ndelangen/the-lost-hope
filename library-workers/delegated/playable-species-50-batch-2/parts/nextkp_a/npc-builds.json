@@ -1,0 +1,287 @@
+{
+  "builds": [
+    {
+      "id": "margreve-alseid-vael",
+      "title": "Alseid woodland guide, Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Monstrosity",
+      "senses": "Darkvision 60 ft., passive Perception 14",
+      "speed": "40 ft.",
+      "languages": "Common, Elvish",
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "ac": 14,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +3",
+        "Insight +4",
+        "Perception +4",
+        "Stealth +5",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +3 and Constitution save +4. Leather armor gives AC 11 + Dexterity.",
+        "Quadruped. Trapdoors and manholes may require squeezing, and ladders and stairs count as difficult terrain.",
+        "Woodfriend. In forests Vael leaves no tracks and can always find true north.",
+        "Archery adds +2 to ranged weapon attack rolls. Action Surge grants one extra action on her turn once per short or long rest."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +7, range 80/320 ft. Hit 1d6 + 3 piercing.",
+        "Spear. Melee or ranged weapon attack +3, reach 5 ft. or range 20/60 ft. Hit 1d6 + 1 piercing, or 1d8 + 1 with two hands in melee.",
+        "Second Wind. Bonus action, regain 1d10 + 2 HP once per short or long rest."
+      ],
+      "tactics": "Vael marks a way out before checking the undergrowth. If threatened, she uses her speed to keep an open line for her shortbow."
+    },
+    {
+      "id": "margreve-erina-oolay",
+      "title": "Erina defensive courier, Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Small",
+      "type": "Humanoid",
+      "senses": "Darkvision 60 ft., passive Perception 15",
+      "speed": "25 ft., burrow 20 ft. in earth or sand",
+      "languages": "Erina, Common",
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 14,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Investigation +4",
+        "Perception +5",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +4. Leather armor gives AC 11 + Dexterity.",
+        "Expertise in Perception and Stealth. Thieves’ tools +5 on Dexterity checks. Knows Thieves’ Cant.",
+        "Hardy. Resist poison damage and roll saves against poison with advantage.",
+        "Spines. A creature grappling Oolay, or grappled by him, takes 1d4 piercing at the start of his turn.",
+        "Sneak Attack adds 1d6 once per turn to a finesse or ranged hit with advantage, or when a non-incapacitated enemy of the target is within 5 ft. of it and Oolay has no disadvantage."
+      ],
+      "actions": [
+        "Dagger. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d4 + 3 piercing.",
+        "Cunning Action. Dash, Disengage or Hide as a bonus action."
+      ],
+      "tactics": "Oolay uses Acrobatics to break a grapple and Disengages before leaving reach. He burrows into firm earth or sand to put a barrier between himself and an attacker."
+    },
+    {
+      "id": "margreve-piney-hushush",
+      "title": "Piney forest pathfinder, Ranger 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Darkvision 60 ft., passive Perception 15",
+      "speed": "30 ft.",
+      "languages": "Common, Piney (spoken)",
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "ac": 12,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 12,
+        "WIS": 16,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +5",
+        "Insight +5",
+        "Nature +3",
+        "Perception +5",
+        "Survival +5"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +2 and Dexterity save +4. Unarmored AC 10 + Dexterity.",
+        "Margreve Within. Poison resistance, advantage on saves against poison and 30 minutes of direct sunlight can meet daily food needs. Margreve Without gives Hushush barklike skin.",
+        "Favored Enemy (beasts). Advantage on Survival checks to track beasts and Intelligence checks to recall information about them.",
+        "Natural Explorer (forest). Double proficiency for proficient Intelligence or Wisdom checks related to forest terrain. After at least an hour of travel, difficult terrain does not slow the group and only magic can get it lost. Hushush remains alert while busy, can travel stealthily at normal pace alone, finds twice the food when foraging, and learns exact count, sizes and elapsed time when tracking."
+      ],
+      "actions": [
+        "Quarterstaff. Melee weapon attack +2, reach 5 ft. Hit 1d6 bludgeoning, or 1d8 with two hands.",
+        "Dagger. Melee or ranged weapon attack +4, reach 5 ft. or range 20/60 ft. Hit 1d4 + 2 piercing."
+      ],
+      "tactics": "Hushush leads travelers along routes where they can still turn back. They use their staff to check footing and defend themselves if cornered."
+    },
+    {
+      "id": "ebon-tides-sublime-ravenfolk-lampnote",
+      "title": "Sublime Ravenfolk checkpoint scout, Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Passive Perception 14",
+      "speed": "30 ft.",
+      "languages": "Common, Ravenfolk, Umbral",
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 11
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Investigation +5",
+        "Perception +4",
+        "Performance +2",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. Leather armor gives AC 11 + Dexterity.",
+        "Expertise in Investigation and Stealth. Thieves’ tools +5 on Dexterity checks. Knows Thieves’ Cant.",
+        "Constant Tune. Advantage on saves against being charmed or frightened. Cosmic Musician gives proficiency with the whistle and Performance.",
+        "Sneak Attack adds 1d6 once per turn to a finesse or ranged hit with advantage, or when a non-incapacitated enemy of the target is within 5 ft. of it and Lampnote has no disadvantage."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 3 piercing.",
+        "Cunning Action. Dash, Disengage or Hide as a bonus action.",
+        "Sublime Chord. One action per long rest. Creatures within 30 ft. that can hear Lampnote make a DC 13 Charisma save. On failure they are charmed by Lampnote for 10 minutes and regard them as a casual friend. Targets in combat with Lampnote or an ally have advantage on the save."
+      ],
+      "tactics": "Lampnote uses the chord before anyone draws steel, and leaves room for a quick exit if persuasion fails."
+    },
+    {
+      "id": "midgard-stonehide-trollkin-split-tusk",
+      "title": "Stonehide Trollkin watch guard, Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "speed": "30 ft.",
+      "languages": "Northern Tongue, Common (background)",
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 1,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Unarmored AC 10 + Dexterity + 1 from Thick Hide.",
+        "Dueling adds +2 damage when Split-Tusk uses a one-handed melee weapon and holds no other weapon.",
+        "Action Surge grants one extra action on his turn once per short or long rest."
+      ],
+      "actions": [
+        "Handaxe. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 5 slashing when Dueling applies, or 1d6 + 3 otherwise.",
+        "Claws or fangs. Unarmed strike +5, reach 5 ft. Hit 1d4 + 3 slashing for claws or piercing for fangs.",
+        "Second Wind. Bonus action, regain 1d10 + 2 HP once per short or long rest.",
+        "Inhuman Vigor. Bonus action, spend one available Hit Die to regain 1d10 + 3 HP once per long rest. Acid or fire damage blocks this until he finishes a short or long rest."
+      ],
+      "tactics": "Split-Tusk has both recovery options available at the start of the watch. He tries Second Wind first so he can save a Hit Die for a later rest."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Alseid",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Margreve Player’s Guide (2019)",
+      "name": "Vaethilalora (Vael)",
+      "build": "margreve-alseid-vael",
+      "role": "Woodland patrol guide",
+      "motive": "Get a missing charcoal crew home before the stream rises.",
+      "hook": "A new flight of iron rungs leads through a locked hatch. Vael knows an exposed route around the hillside and asks the party to check the hatch."
+    },
+    {
+      "species": "Erina",
+      "size": "Small",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Margreve Player’s Guide (2019)",
+      "name": "Oolay",
+      "build": "margreve-erina-oolay",
+      "role": "Defensive courier",
+      "motive": "Deliver a corrected sluice schedule before the culvert fills.",
+      "hook": "Oolay has two working routes to the far bank. The shorter passes through sand and the longer crosses a bridge watched by the forgery’s author."
+    },
+    {
+      "species": "Piney",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Margreve Player’s Guide (2019)",
+      "name": "Hushush",
+      "build": "margreve-piney-hushush",
+      "role": "Forest pathfinder",
+      "motive": "Bring the salt traders back through a pass before their lantern oil runs out.",
+      "hook": "Hushush finds the traders’ tracks beside two fresh trails. One is their own route in reverse, although they swear they never turned around."
+    },
+    {
+      "species": "Ravenfolk",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Book of Ebon Tides",
+      "name": "Lampnote",
+      "build": "ebon-tides-sublime-ravenfolk-lampnote",
+      "role": "Shadow Realm checkpoint scout",
+      "motive": "Find the source of an extra bell note that sounds only when the gate is locked.",
+      "hook": "The checkpoint clerk recorded an extra crossing after the last lantern went dark. Lampnote asks the party to repeat the route under observation."
+    },
+    {
+      "species": "Trollkin",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Midgard Heroes Handbook (2018)",
+      "name": "Split-Tusk",
+      "build": "midgard-stonehide-trollkin-split-tusk",
+      "role": "Regenerating watch guard",
+      "motive": "Hold the loading gate until the last dockhand is accounted for.",
+      "hook": "A lamp smashed against the gate has left a burning spill between Split-Tusk and the alarm bell. The carts behind him are still loaded."
+    }
+  ]
+}

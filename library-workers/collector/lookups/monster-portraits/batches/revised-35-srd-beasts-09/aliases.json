@@ -1,0 +1,9 @@
+[
+  {
+    "id": "beast-2cdd8ccdaea6bcdce24f05d5",
+    "name": "Rat Swarm",
+    "base": "monster-5941966f457fe4f6c60c3939",
+    "secondBase": "beast-e3d406b1afda39b80412965c",
+    "slug": "swarm-of-rats"
+  }
+]

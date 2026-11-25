@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Stegosaurus",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, September 2017",
+    "publisher": "Wizards of the Coast",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      231
+    ],
+    "pdfPage": 232,
+    "viewerPages": [
+      232
+    ],
+    "section": "Appendix D, Monsters and NPCs, Stegosaurus",
+    "sourceUrl": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+    "url": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/toa",
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "officialErrata": "",
+    "errataEvidence": "The official Tomb of Annihilation errata v2.0 does not change the Stegosaurus rules.",
+    "appearanceEvidence": "The heavy frame, rows of plates and high flexible spiked tail come from printed p. 231. Color and the exact plates shown are editorial.",
+    "habitatEvidence": "The Jungle columns of the Wilderness Encounters table on printed p. 194 list Stegosaurus. The printed p. 231 description notes mixed-age herds.",
+    "mechanicsNotes": [
+      "Stegosaurus has a single Tail action. The adjacent Stone Juggernaut block supplies its own Devastating Roll and Slam."
+    ],
+    "contextPrintedPages": [
+      194,
+      198
+    ]
+  },
+  {
+    "name": "Velociraptor",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, September 2017",
+    "publisher": "Wizards of the Coast",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      235
+    ],
+    "pdfPage": 236,
+    "viewerPages": [
+      236
+    ],
+    "section": "Appendix D, Monsters and NPCs, Velociraptor",
+    "sourceUrl": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+    "url": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/toa",
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "officialErrata": "",
+    "errataEvidence": "The official Tomb of Annihilation errata v2.0 does not change the Velociraptor rules.",
+    "appearanceEvidence": "Printed p. 235 describes a feathered dinosaur about the size of a large turkey. The mottled tan feathers and colors follow the reused portrait.",
+    "habitatEvidence": "The Wilderness Encounters table on printed p. 194 lists Velociraptor in beach, jungle and ruin columns. Pages 198–199 describe a pack ambush.",
+    "mechanicsNotes": [
+      "The Appendix B Velociraptor encounter continues from printed p. 198 onto p. 199. The appended group check is scenario procedure. The basis for the main stat block is Appendix D p. 235."
+    ],
+    "contextPrintedPages": [
+      194,
+      198,
+      199
+    ]
+  },
+  {
+    "name": "Wild Dog",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, September 2017",
+    "publisher": "Wizards of the Coast",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      96
+    ],
+    "pdfPage": 97,
+    "viewerPages": [
+      97
+    ],
+    "section": "Chapter 3, Dwellers of the Forbidden City, 2. Walled Compound",
+    "sourceUrl": "https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city",
+    "url": "https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/toa",
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "officialErrata": "",
+    "errataEvidence": "The official Tomb of Annihilation errata v2.0 does not change the Wild Dog rules.",
+    "appearanceEvidence": "The adventure names wild dogs and uses Jackal statistics. It does not describe their phenotype. The original portrait takes visual cues from African painted dogs.",
+    "habitatEvidence": "Printed p. 96 places six wild dogs in the Walled Compound in Omu. Open woodland is an editorial placement.",
+    "mechanicsNotes": [
+      "Wild Dog is the Tomb of Annihilation encounter label. The adventure uses the Jackal block, with no standalone Wild Dog stat changes."
+    ],
+    "contextPrintedPages": [],
+    "reskinReference": {
+      "publication": "Monster Manual (2014)",
+      "publisher": "Wizards of the Coast",
+      "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "firstPrintWitnessSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "name": "Jackal",
+      "printedPage": 331,
+      "pdfPage": 332,
+      "url": "https://www.dndbeyond.com/monsters/16936-jackal",
+      "sourceNotes": "The Walled Compound encounter explicitly directs use of Jackal statistics. The printed Jackal block is on p. 331. No applied errata."
+    }
+  },
+  {
+    "name": "Zebra",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, September 2017",
+    "publisher": "Wizards of the Coast",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      106
+    ],
+    "pdfPage": 107,
+    "viewerPages": [
+      107
+    ],
+    "section": "Chapter 3, Dwellers of the Forbidden City, Wongo’s Shrine, areas 12B–12C",
+    "sourceUrl": "https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city",
+    "url": "https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/toa",
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "officialErrata": "",
+    "errataEvidence": "The official Tomb of Annihilation errata v2.0 does not change the Zebra rules.",
+    "appearanceEvidence": "The encounter calls the form a zebra. The striped coat, upright mane and tufted tail are editorial portrait details.",
+    "habitatEvidence": "Savanna and open grassland are editorial habitats for an ordinary zebra. Wongo’s Shrine introduces it as a form from the mask curse.",
+    "mechanicsNotes": [
+      "The scenario curse belongs to Wongo’s Shrine areas 12B–12C. The Zebra inherits the 2014 Riding Horse block."
+    ],
+    "contextPrintedPages": [
+      105,
+      106
+    ],
+    "reskinReference": {
+      "publication": "Monster Manual (2014)",
+      "publisher": "Wizards of the Coast",
+      "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "firstPrintWitnessSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "name": "Riding Horse",
+      "printedPage": 336,
+      "pdfPage": 337,
+      "url": "https://www.dndbeyond.com/monsters/16997-riding-horse",
+      "sourceNotes": "The adventure explicitly assigns the Riding Horse statistics. The first print p. 336 gives Hooves +2. Wizards of the Coast errata v1.2 ©2016 already corrects it to +5, and v2.0 repeats the correction.",
+      "prePublicationErrata": "",
+      "officialErrata": ""
+    }
+  }
+]

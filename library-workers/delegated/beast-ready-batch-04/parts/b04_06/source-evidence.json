@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Giant Crab",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "printedPages": [
+      131
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16879-giant-crab",
+    "xp": 25,
+    "xpSource": "Basic Rules (2018), and printed p. 131.",
+    "habitatSource": "Editorial coastal and underwater search tags, informed by the amphibious trait and the animal’s natural habitat. This printing gives no habitat line.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. The official Monster Manual errata gives no specific change to the Giant Crab."
+    ],
+    "viewerPages": [
+      131
+    ]
+  },
+  {
+    "name": "Giant Crab",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      324
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16879-giant-crab",
+    "xp": 25,
+    "xpSource": "Monster Manual (2014), printed p. 324.",
+    "habitatSource": "Editorial coastal and underwater search tags, informed by the amphibious trait and the animal’s natural habitat. This printing gives no habitat line.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. The official Monster Manual errata gives no specific change to the Giant Crab."
+    ],
+    "viewerPages": [
+      325
+    ],
+    "errataUrl": ""
+  },
+  {
+    "name": "Giant Crocodile",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "printedPages": [
+      132
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+    "xp": 1800,
+    "xpSource": "Basic Rules (2018), and printed p. 132.",
+    "habitatSource": "Editorial encounter habitats based on crocodile ecology and the printed 50-ft. swim speed. The stat block does not specify a habitat.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. The official Monster Manual errata gives no specific change to the Giant Crocodile. The Tail target restriction applies to targets currently grappled by this crocodile."
+    ],
+    "viewerPages": [
+      132
+    ]
+  },
+  {
+    "name": "Giant Crocodile",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      324
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+    "xp": 1800,
+    "xpSource": "Monster Manual (2014), printed p. 324.",
+    "habitatSource": "Editorial encounter habitats based on crocodile ecology and the printed 50-ft. swim speed. The stat block does not specify a habitat.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. The official Monster Manual errata gives no specific change to the Giant Crocodile. The Tail target restriction applies to targets currently grappled by this crocodile."
+    ],
+    "viewerPages": [
+      325
+    ],
+    "errataUrl": ""
+  },
+  {
+    "name": "Giant Eagle",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "printedPages": [
+      132
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+    "xp": 200,
+    "xpSource": "Basic Rules (2018), and printed p. 132.",
+    "habitatSource": "Editorial raptor habitat and encounter tags. The Monster Manual describes nests without specifying a region.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. Auran and Common are understood. The eagle speaks Giant Eagle.",
+      "The official Monster Manual errata gives no specific change to the Giant Eagle.",
+      "The 2018 Basic Rules keeps the short language description and omits the Monster Manual nesting passage."
+    ],
+    "viewerPages": [
+      132
+    ]
+  },
+  {
+    "name": "Giant Eagle",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      324
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+    "xp": 200,
+    "xpSource": "Monster Manual (2014), printed p. 324.",
+    "habitatSource": "Editorial raptor habitat and encounter tags. The Monster Manual describes nests without specifying a region.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. Auran and Common are understood. The eagle speaks Giant Eagle.",
+      "The official Monster Manual errata gives no specific change to the Giant Eagle.",
+      "The nest details come from the Monster Manual prose after the stat block."
+    ],
+    "viewerPages": [
+      325
+    ],
+    "errataUrl": ""
+  }
+]

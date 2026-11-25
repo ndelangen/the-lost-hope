@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Crab",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 227, Crab Traits",
+    "printedPages": [
+      227
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "The printed Crab Traits line lists Small size, blindsight 60 ft., and no Amphibious trait. Its design commentary lists different values. Clatterclaw uses the trait block.",
+      "The Monk exception on p. 7 applies to the bonus-action strike. Base Claw remains slashing on the Attack action.",
+      "Giant Crab is a separate playable profile."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Crocodile",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 227, with p. 235 cross-reference, Crocodile Traits",
+    "printedPages": [
+      227,
+      235
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "Giant Crocodile on p. 235 explicitly refers players to the Crocodile traits on p. 227.",
+      "The printed Bite allows a bonus-action grapple attempt after a successful Attack-action unarmed strike. Mirejaw uses its jaws and the 2014 contest. A successful bite alone does not impose grapple or restraint.",
+      "Crocodile Traits gives swim speed but omits the Hold Breath and No Hands lines mentioned in design commentary. Mirejaw has no equipment and uses the core breath rules."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Deer",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 pp. 228–229, Deer Traits",
+    "printedPages": [
+      228,
+      229
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "The character can supply form-appropriate somatic components under p. 8. Its spell list avoids material components, so it never needs a focus.",
+      "The 1d4 Gore has no species-granted finesse trait. Elk has its own rules."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Eagle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 229, Eagle Traits",
+    "printedPages": [
+      229
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "The printed Talons line grants finesse for effects that require it. Brackenpin applies 2014 Sneak Attack to a qualifying Talons hit.",
+      "Giant Eagle is a separate playable profile."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Elephant",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 230, with p. 252 cross-reference, Elephant Traits",
+    "printedPages": [
+      230,
+      252
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "Mammoth on p. 252 explicitly refers players to Elephant traits on p. 230.",
+      "Trampling Charge grants a bonus-action attempt to knock prone after its stated movement and strike. Kettlebrow uses the 2014 shove contest and size limit."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  }
+]

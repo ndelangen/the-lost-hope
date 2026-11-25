@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Nezumi",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "printedPages": [
+      8,
+      13,
+      14,
+      178,
+      179
+    ],
+    "printedArtworkPage": 8,
+    "originalIndividualArtistUnconfirmed": true,
+    "portraitSelection": "generated",
+    "verifiedPortrait": "Original generated illustration. Printed anatomy used as reference.",
+    "entryId": "species-93cc4a353febc8bddb07958d",
+    "versionKey": "fc4d914bdb4b0f8d94940095",
+    "slug": "nezumi",
+    "npcBuildId": "nezumi-trail-scout-3e",
+    "npcName": "Tesk Reedmark",
+    "npcDesign": "Original, D&D 3.0",
+    "classRules": {
+      "url": "",
+      "printedPages": [
+        38,
+        39
+      ]
+    },
+    "equipmentRules": {
+      "url": ""
+    }
+  },
+  {
+    "name": "Vanara",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "printedPages": [
+      8,
+      15,
+      16
+    ],
+    "printedArtworkPage": 8,
+    "originalIndividualArtistUnconfirmed": true,
+    "portraitSelection": "generated",
+    "verifiedPortrait": "Original generated illustration. Printed anatomy used as reference.",
+    "entryId": "species-deeb095ab48d0adf7a14d14c",
+    "versionKey": "a341ce15604d2c428c36b37e",
+    "slug": "vanara",
+    "npcBuildId": "vanara-canopy-guide-3e",
+    "npcName": "Nemi",
+    "npcDesign": "Original, D&D 3.0",
+    "classRules": {
+      "url": "",
+      "printedPages": [
+        38,
+        39
+      ]
+    },
+    "equipmentRules": {
+      "url": ""
+    }
+  }
+]

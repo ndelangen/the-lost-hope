@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Bullywug",
+    "file": "portraits/bullywug.png",
+    "sha256": "795fd5bbaf2e0df13d660e625e5f4f834a42fedbb5675bab2b624ae405a7505e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Fomorian",
+    "file": "portraits/fomorian.png",
+    "sha256": "6ff9a9afdd6afe15358a897f44f428415003e62ff5b3c669529ce8e740e3125d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Fungi",
+    "file": "portraits/fungi.png",
+    "sha256": "30adada9331e5f335942b2d6baa21ac9bce04d6f27743b8999e452b2d2a09ca0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Gorgon",
+    "file": "portraits/gorgon.png",
+    "sha256": "d6dac9784a823d6f2ba81862218c0c3c97da686c6b00e24f5f68b8e92e2dcf67",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Hell Hound",
+    "file": "portraits/hell-hound.png",
+    "sha256": "481c375dd36684119b07728f419a988f2ae76af09af2e90bce3aed283c8524e0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

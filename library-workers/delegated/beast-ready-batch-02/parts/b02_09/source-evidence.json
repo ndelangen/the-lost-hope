@@ -1,0 +1,189 @@
+[
+  {
+    "name": "Mammoth",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "printedPages": [
+      363
+    ],
+    "viewerPages": [
+      363
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 2300,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 9
+    },
+    "abilityModifiers": {
+      "STR": 6,
+      "DEX": -1,
+      "CON": 5,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "Fixed HP. No Hit Dice formula appears in this printing.",
+    "appearanceSource": "The Black Flag block gives the name and Huge size. The detailed woolly mammoth body, coat and tusks are editorial natural-history cues, shared with the 2014 portrait.",
+    "habitatSource": "Cold steppe and tundra are editorial tags based on woolly mammoth habitat and the native block’s cold resistance.",
+    "sourceDistinctions": [
+      "The source prints both cold and prone under Resistant. The prone entry is condition resistance under p. 232.",
+      "CR 6 is worth 2,300 XP under the native table. Use the printed Gore and Stomp numbers, even though the 2014 block assigns different bonuses and dice."
+    ],
+    "supportingRules": [
+      {
+        "page": 232,
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Mammoth",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      332
+    ],
+    "pageNumbering": "Printed Monster Manual folio.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "rulesReadUrl": "https://www.dndbeyond.com/monsters/16950-mammoth",
+    "errataUrl": "",
+    "xp": 2300,
+    "xpSource": "Monster Manual, p. 332.",
+    "appearanceSource": "The p. 332 description gives thick fur, long tusks and a stocky elephantine build. The domed head, coat color and illustration are editorial.",
+    "habitatSource": "The p. 332 description gives a range of climates from subarctic to subtropical. Cold steppe and tundra are editorial tags for cold habitats.",
+    "sourceDistinctions": [
+      "Read the first-printing stat block on p. 332 and checked the 2014 D&D Beyond listing. The official Monster Manual errata has no Mammoth-specific adjustment."
+    ]
+  },
+  {
+    "name": "Seahorse",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "printedPages": [
+      368
+    ],
+    "viewerPages": [
+      368
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": -5,
+      "DEX": 0,
+      "CON": -1,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "Fixed HP. No Hit Dice formula appears in this printing.",
+    "appearanceSource": "Editorial natural-history description of a seahorse. The p. 368 stat block supplies the name and Tiny size.",
+    "habitatSource": "Coastal shallows, seagrass beds and reefs are editorial habitat tags. The p. 368 source explicitly gives Water Breathing and Underwater Camouflage.",
+    "sourceDistinctions": [
+      "The separate Seahorse, Giant stat block has its own rules. CR 0 uses 10 XP from the native table."
+    ]
+  },
+  {
+    "name": "Spider",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "printedPages": [
+      371
+    ],
+    "viewerPages": [
+      371
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 0,
+      "CON": -1,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "Fixed HP. No Hit Dice formula appears in this printing.",
+    "appearanceSource": "The p. 371 stat block gives the name and Tiny size. The orb-weaver anatomy and markings are editorial portrait choices.",
+    "habitatSource": "Woodland, gardens and sheltered corners are editorial places to encounter small web-building spiders.",
+    "sourceDistinctions": [
+      "The print gives a 10-ft. speed reduction and removal by an action. It supplies no timed expiry, and the effect inflicts no separate condition."
+    ],
+    "supportingRules": [
+      {
+        "page": 235,
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Tiger",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "printedPages": [
+      372
+    ],
+    "viewerPages": [
+      372
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 200,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 16
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 2,
+      "CON": 2,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -1
+    },
+    "hitDiceEvidence": "Fixed HP. No Hit Dice formula appears in this printing.",
+    "appearanceSource": "The p. 372 stat block gives the name and Large size. Its coat and shape are editorial natural-history cues.",
+    "habitatSource": "Forest, jungle and tall grass are editorial habitat tags based on the real animal.",
+    "sourceDistinctions": [
+      "Multiattack can hit the same creature with both attacks. The bleed check is at the start of the target’s next turn. The block gives no subsequent bleed rolls."
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Birdfolk",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #5",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Medium Humanoid. Speed 30 ft. Sight- or hearing-based Perception checks gain an expertise die. Unincapacitated birdfolk have resistance to falling damage.",
+      "Wind Rider uses the flight feathers on the forearms. While gliding, travel up to your Speed horizontally, gaining 5 ft. of horizontal travel per 5 ft. of descent. Land or move your full Speed to stay aloft. Encumbrance and a wielded weapon prevent gliding. The Narrator may allow a small held item that you cannot use mid-glide. Three full uninterrupted rounds without landing cause one fatigue level, which a short or long rest clears.",
+      "Choose Aspect of the Hunt or Wind Mastery. Aspect gives 60-ft. darkvision and finesse talons that deal 1d4 slashing plus Strength or Dexterity on an unarmed hit and leave the hands available. Wind Mastery adds true wings and 30-ft. flight in light armor or no armor. Three consecutive full rounds aloft incur fatigue cleared by a short or long rest. Switching between flying and gliding does not reset the time spent on the resumed mode before landing.",
+      "At level 10, Aspect of the Hunt increases darkvision to 120 ft., changes the talon die to 1d8, and permits a bonus-action talon attack. Wind Mastery increases fly speed to 40 ft., permits all armor, and gives a Constitution save to avoid each flight fatigue level. The DC starts at 10 and rises by 1 per prior save in the last minute."
+    ]
+  },
+  {
+    "name": "Cervid",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #11",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Medium Humanoid deerfolk with a 30-ft. Speed and cloven hooves in place of ordinary footwear. Hide or Disengage as a bonus action.",
+      "Choose arctic, desert, forest, grassland, or mountain. Ignore natural difficult terrain in the chosen environment and add an expertise die to Perception there. Sharp terrain hazards deal half damage.",
+      "Fleet Feet grants Perception proficiency, +5 ft. Speed, and a 10-ft. leap that avoids opportunity attacks, usable proficiency bonus times per long rest. Regal Antlers preclude headgear, give Intimidation proficiency with Strength allowed, and grant a hands-free bonus-action antler strike for 1d6 plus Strength. Choose piercing or bludgeoning.",
+      "Pick one at level 10. Like the Wind adds 10 ft. Speed, ignores difficult terrain when Dashing, and prevents opportunity attacks from a creature you attack in melee for that turn. Monarch of the Wilds grants an Intimidation expertise die and a bonus-action fear display. Chosen creatures within 30 ft. make Wisdom saves against your passive Intimidation or become frightened until your next turn starts. Use it proficiency bonus times per long rest."
+    ]
+  },
+  {
+    "name": "Chrysalian",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #15",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Small, with both Humanoid and Fey creature types. Speed 25 ft., fly 30 ft. Add an expertise die on scent-related Perception or Investigation and other checks where smell matters.",
+      "While flying, carry up to twice your Strength score in pounds. Armor with a Strength requirement or encumbrance grounds you. Magic items that raise AC and light shields are compatible if proficient with the shield. If slowed to zero movement or incapacitated, fall 30 ft. per round. The Narrator can call for forced-march Constitution saves on sustained flight.",
+      "Hover for a number of consecutive rounds equal to your Constitution modifier. Each uninterrupted round beyond that adds a fatigue level.",
+      "Choose one gift. Aerial Ace doubles flying movement for one turn and recharges after a full turn with zero movement. Healing Touch spends an action to heal a creature you touch for your level in hit points. Perplexing Riddle spends an action on a visible, understanding creature within 30 ft. DC is your highest passive Intelligence, Wisdom, or Charisma. Failed Wisdom saves rattle until the target’s next turn ends. Intelligence below 4 or stun immunity prevents the effect. Touch and Riddle each allow proficiency bonus uses per long rest.",
+      "Choose a paragon gift at level 10. Debilitating Cloud uses an action and fills 30 ft. around you. Creatures that breathe and can be stunned must pass a Constitution save against your maneuver DC or be stunned until your next turn begins. Uses equal proficiency bonus per long rest. Technicolor Vision reveals invisible things, gives 60-ft. darkvision or extends it by 60 ft., and gives advantage to recognize nearby visual illusions and save against visual illusion effects. Winged Champion raises flight to 40 ft. and allows armor with a Strength requirement you meet. Hovering limits remain."
+    ]
+  },
+  {
+    "name": "Constructed",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #0",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Ageless, Small or Medium. Speed 25 ft. Resist poison and choose either no need to breathe or an expertise die against charm and fear.",
+      "Nonmagical healing works only through rests. Magical healing restores half unless someone repairs you in the same round, for example using Engineering or mending. Choose a fuel: 1 lb. coal or hemp or 2 lb. wood, 2 hours of darkness, 1 flask of oil or another appropriate liquid, 1 lb. copper, or 3 hours of full sunlight or 6 of partial sunlight. Every 24 hours without fuel adds one fatigue and one strife.",
+      "Count as one size larger for carrying and carry proficiency bonus extra bulky items. Choose planarite for a resistance. Air grants thunder, death necrotic, earth lightning, fire fire, life radiant, space psychic, time force, and water cold. An 8-hour long rest includes 4 hours inactive with passive Perception intact, then light activity, without sleep.",
+      "Choose a Military, Service, or Utility frame with two augments from its list. With Narrator approval, replace one chosen augment with one from a different frame.",
+      "Military raises Speed to 30 ft., trains club, spear and light crossbow use, and integrates a qualifying melee weapon. The stowed weapon switches with a hand, cannot be thrown or disarmed, and can be replaced with 10 minutes and DC 13 Engineering or tinker’s tools. Augments cover extra land speed and handling, a shoulder cantrip cannon, ground crawl and weapon or shield training, a hand crossbow without loading, or a 20-ft. swim speed and water vehicle training.",
+      "Service grants two languages, a tool, kit, instrument or vehicle proficiency, and an expertise die for Insight or Deception. Augments let you move through larger creatures, specialize in a lore skill, learn Engineering and calculate, fire an integrated blowgun as a bonus action, or gain an integrated concealed blade.",
+      "Utility grants an expertise die with a proficient tool set. Its single crane arm can swap to a hand as a bonus action and handle weapons that would normally require two hands while shieldless. Choose a welder, flamethrower, or multi-tool. Augments offer +5 ft. Speed, an expertise die against being knocked prone, advantage against form changes, insectile climbing, or terrain treads.",
+      "At level 10 choose Advancement for a lore specialty, extra attunement slot up to four and an augment, Chassis for +1 AC and a concentration expertise die, Engine for 30-ft. unencumbered flight with fatigue after three rounds aloft, or Warframe for an expertise die to attack and damage with unarmed strikes and frame weapons."
+    ]
+  },
+  {
+    "name": "Dreamborn",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #4",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Fey with 30-ft. Speed. Choose Small or Medium for rules purposes even if your apparent size differs. Size-changing magic changes both scales in parallel. You speak and handle items as a humanoid regardless of apparent anatomy. Restraints and gags can still stop you.",
+      "Once per short rest, add a d4 expertise die to one skill check with which you lack proficiency. Someone you promise something to can use a reaction to compel it as suggestion, DC 10, once a day per creature. At level 3, cast suggestion once per long rest on a creature already agreeing to the course of action. Use your best mental ability.",
+      "Choose an aversion common in the Waking. You cannot knowingly approach within 5 ft. or touch or manipulate it, even using tools. A DC 20 Wisdom save suppresses it for an hour for that item and similar things within 30 ft. On failure your turn ends and you cannot retry for a day. If a creature protected by the aversion attacks you or an ally, you can ignore the protection as if you passed the save.",
+      "Choose two gifts. Aquatic gives swim 30 ft. and 15-minute breath holding. Animate Objects animates proficiency bonus Tiny objects once per short rest. They move at speed 30 ft. without flight. Maintaining concentration costs an action each round, or a reaction from level 3. From level 5 a Small object counts as two Tiny objects. Change Size switches between Small and Medium as an action, including equipment until it leaves you.",
+      "Other gifts include 60-ft. Darkvision, Fey Whimsy for one listed cantrip using your best mental ability, or Flight at 30 ft. up to 10 ft. above ground in light armor or less. Exceeding the height or staying up for three full rounds forces descent on the next turn with up to 30 ft. of the drop protected. Nature Skin sets unarmored AC to 13 + Dexterity and works with a shield.",
+      "Speak with Beasts gives speak with animals proficiency bonus times daily for one animal category. Vanish reacts to damage with invisibility until the end of your next turn or until an offensive act or spell, once per long rest. Wild Senses gives advantage to skill checks based on sound or smell.",
+      "At level 10 choose Improved Flight if you have Flight, raising speed to 40 ft., allowing all armor and heights, and protecting the first 60 ft. of a forced descent after three rounds. Metamorphosis grants one extra gift selected after a long rest. Now I’m Over Here teleports you up to 30 ft. to a space you can see as a bonus action, proficiency bonus times daily."
+    ]
+  }
+]

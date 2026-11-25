@@ -1,0 +1,67 @@
+[
+  {
+    "entry": "monster-d856a2ced507ef04b526989c",
+    "slug": "animated-breath-acid-form",
+    "name": "Animated Breath (Acid Form)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-20/event-drafts/animated-breath-acid-form-event-v1.png",
+    "saved": " Backups/Encounter Batch 20 2026-11-23/event-drafts/animated-breath-acid-form-event-v1.png",
+    "path": "encounters-20/animated-breath-acid-form.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-20/animated-breath-acid-form.png",
+    "overrides": [],
+    "sha256": "4a4031d908c00819aa486d4aee051ce6ed709bf0cf949e9464a0b6786115e281",
+    "bytes": 2085485
+  },
+  {
+    "entry": "monster-8719a5d06bf570fe5e1d560c",
+    "slug": "animated-breath-cold-form",
+    "name": "Animated Breath (Cold Form)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-20/event-drafts/animated-breath-cold-form-event-v1.png",
+    "saved": " Backups/Encounter Batch 20 2026-11-23/event-drafts/animated-breath-cold-form-event-v1.png",
+    "path": "encounters-20/animated-breath-cold-form.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-20/animated-breath-cold-form.png",
+    "overrides": [],
+    "sha256": "58fb32b795c50cf9d3945685c16d95503b46f8b35475f5b42ad614fa3deb8f9e",
+    "bytes": 1969695
+  },
+  {
+    "entry": "monster-d1e6e894b5c7b937eeb30647",
+    "slug": "animated-breath-fire-form",
+    "name": "Animated Breath (Fire Form)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-20/event-drafts/animated-breath-fire-form-event-v1.png",
+    "saved": " Backups/Encounter Batch 20 2026-11-23/event-drafts/animated-breath-fire-form-event-v1.png",
+    "path": "encounters-20/animated-breath-fire-form.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-20/animated-breath-fire-form.png",
+    "overrides": [],
+    "sha256": "721b63f5134c1ec0d2cb1b4b2d9346daeb83cb30b22787984e284fb4acfe4129",
+    "bytes": 2052355
+  },
+  {
+    "entry": "monster-b563ba94cbe1f1ebe315d7a7",
+    "slug": "animated-breath-lightning-form",
+    "name": "Animated Breath (Lightning Form)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-20/event-drafts/animated-breath-lightning-form-event-v1.png",
+    "saved": " Backups/Encounter Batch 20 2026-11-23/event-drafts/animated-breath-lightning-form-event-v1.png",
+    "path": "encounters-20/animated-breath-lightning-form.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-20/animated-breath-lightning-form.png",
+    "overrides": [],
+    "sha256": "b809a72b970dd3b51416b89cc2f52200596c7ca49c55189b4ccf635c7692c048",
+    "bytes": 1789244
+  },
+  {
+    "entry": "monster-7ebb47ae4f13973373a0874e",
+    "slug": "animated-breath-poison-form",
+    "name": "Animated Breath (Poison Form)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-20/event-drafts/animated-breath-poison-form-event-v1.png",
+    "saved": " Backups/Encounter Batch 20 2026-11-23/event-drafts/animated-breath-poison-form-event-v1.png",
+    "path": "encounters-20/animated-breath-poison-form.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-20/animated-breath-poison-form.png",
+    "overrides": [],
+    "sha256": "d5cd9b5468d30a4bbad945ab5367c1e08cf63ecf06a113be2b660828c276878b",
+    "bytes": 1845300
+  }
+]

@@ -145,6 +145,9 @@ function LibraryEntryPage() {
             </p>
             <h1 className="text-3xl font-bold break-words">{entry.name}</h1>
             {entry.price && <p className="font-semibold">{entry.price}</p>}
+            {entry.selected.status && (
+              <p className="text-muted-foreground text-xs font-medium">{entry.selected.status}</p>
+            )}
           </header>
           <div
             className={`grid min-w-0 gap-6 ${entry.art?.length ? 'md:grid-cols-[minmax(0,20rem)_minmax(0,1fr)]' : ''}`}

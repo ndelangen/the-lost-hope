@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Flind",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Gnoll)",
+    "printedPages": [
+      62
+    ],
+    "heading": "Flinds as Characters",
+    "url": "",
+    "supportingSources": {
+      "playerRules": "",
+      "officialRevisedSRDText": "",
+      "monsterManualIIIErrata": ""
+    },
+    "distinction": "Gnoll lineage. Use the Flinds as Characters rules, including two racial Hit Dice and LA +2."
+  },
+  {
+    "name": "Forestkith Goblin",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Goblinoid)",
+    "printedPages": [
+      64,
+      65
+    ],
+    "heading": "Forestkith Goblins as Characters",
+    "url": "",
+    "supportingSources": {
+      "playerRules": "",
+      "officialRevisedSRDText": "",
+      "monsterManualIIIErrata": "",
+      "treeShape": "https://www.d20srd.org/srd/spells/treeShape.htm"
+    },
+    "distinction": "Goblin lineage. The player traits list Climb bonuses but no climb speed or natural bite. The example uses this narrower reading. The p. 65 errata revises published sample stats."
+  },
+  {
+    "name": "Poison Dusk Lizardfolk",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Reptilian)",
+    "printedPages": [
+      96,
+      97
+    ],
+    "heading": "Poison Dusk as Characters",
+    "url": "",
+    "supportingSources": {
+      "playerRules": "",
+      "officialRevisedSRDText": "",
+      "monsterManualIIIErrata": ""
+    },
+    "distinction": "Lizardfolk lineage using the distinct Poison Dusk player profile. The p. 97 official errata revises both sample blocks without changing the player traits."
+  },
+  {
+    "name": "Viletooth Lizardfolk",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Reptilian, Dragonblood)",
+    "printedPages": [
+      9
+    ],
+    "heading": "Viletooth Lizardfolk",
+    "url": "https://anyflip.com/ogyal/nibl/basic",
+    "supportingSources": {
+      "playerRules": "",
+      "officialRevisedSRDText": "",
+      "damageAndDragonblood": "",
+      "baseLizardfolk": "https://www.d20srd.org/srd/monsters/lizardfolk.htm#lizardfolkAsCharacters"
+    },
+    "distinction": "Lizardfolk lineage using all base 3.5 player traits except the changes on Dragon Magic p. 9. The Poison Dusk player profile is separate."
+  },
+  {
+    "name": "Sunscorch Hobgoblin",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Goblinoid, Dragonblood)",
+    "printedPages": [
+      9,
+      10
+    ],
+    "heading": "Sunscorch Hobgoblins",
+    "url": "https://anyflip.com/ogyal/nibl/basic",
+    "supportingSources": {
+      "playerRules": "",
+      "officialRevisedSRDText": "",
+      "damageAndDragonblood": "",
+      "baseHobgoblin": "https://www.d20srd.org/srd/monsters/hobgoblin.htm#hobgoblinCharacters"
+    },
+    "distinction": "Hobgoblin lineage. Apply only the Dragon Magic substitutions over the 3.5 core hobgoblin."
+  }
+]

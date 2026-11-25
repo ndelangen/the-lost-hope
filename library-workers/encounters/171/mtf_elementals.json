@@ -1,0 +1,387 @@
+[
+  {
+    "name": "Tortle Druid",
+    "statBlock": {
+      "name": "Tortle Druid",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 242,
+      "classification": "Medium humanoid (tortle), lawful neutral",
+      "ac": 17,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "This turtle-shelled wanderer draws on the natural world for magic and can retreat inside its shell to weather an attack.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Animal Handling": 4,
+        "Nature": 2,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Aquan, Common.",
+        "Traits": "Hold Breath. The tortle can hold its breath for up to 1 hour.",
+        "Spellcasting": "The tortle is a 4th-level druid spellcaster. Wisdom is its spellcasting ability (DC 12, +4 to hit with spell attacks).\nCantrips (at will). Druidcraft, Guidance, Produce Flame.\n1st level (4 slots). Animal Friendship, Cure Wounds, Speak with Animals, Thunderwave.\n2nd level (3 slots). Darkvision, Hold Person.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage.\nQuarterstaff. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) with two hands.\nShell Defense. The tortle withdraws into its shell, gaining +4 AC and advantage on Strength and Constitution saves until it emerges. Inside its shell, it is prone, has disadvantage on Dexterity saves, has a speed of 0 that cannot increase, and cannot take reactions. The only action it can take is a bonus action to emerge.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 242."
+      }
+    }
+  },
+  {
+    "name": "Vampiric Mist",
+    "statBlock": {
+      "name": "Vampiric Mist",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 246,
+      "classification": "Medium undead, chaotic evil",
+      "ac": 13,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A vampire denied rest can dissolve into a hungry mist. It lurks in fog and takes on a deeper red hue whenever it feeds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3
+      },
+      "sections": {
+        "Damage resistances": "Acid, cold, lightning, necrotic, and thunder. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Life Sense. The mist locates creatures within 60 ft., except constructs and undead.\nForbiddance. The mist can enter a residence only if an occupant invites it inside.\nMisty Form. The mist and other creatures can share spaces. It passes wherever air can flow without squeezing. In water, each foot of movement costs 2 extra feet. It cannot manipulate anything that requires fingers or manual dexterity.\nSunlight Hypersensitivity. The mist takes 10 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.\nUndead Nature. The mist needs no air or sleep.",
+        "Actions": "Life Drain. Touch one creature in the mist’s space. The target makes a DC 13 Constitution save. Constructs and undead automatically succeed. On a failure, the target takes 10 (2d6 + 3) necrotic damage and the mist recovers 10 HP. The target loses as many points from its HP maximum as it took in necrotic damage until it finishes a long rest. If that maximum falls to 0, the target dies.",
+        "Tactics": "The mist can smell blood from up to 1 mile away and concentrates on wounded targets. Its feeding can go unnoticed by a sleeping victim.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 246."
+      }
+    }
+  },
+  {
+    "name": "Venom Troll",
+    "statBlock": {
+      "name": "Venom Troll",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 245,
+      "classification": "Large giant, chaotic evil",
+      "ac": 15,
+      "hp": 94,
+      "hitDice": "9d10 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 12,
+      "description": "Heavy exposure to poison can turn a troll’s own blood into venom. Even a successful hit can splash poison onto nearby creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Traits": "Keen Smell. The troll has advantage on Wisdom (Perception) checks based on smell.\nPoison Splash. Whenever the troll takes damage other than psychic damage, each creature within 5 ft. takes 9 (2d8) poison damage.\nRegeneration. The troll regains 10 HP at the start of its turns. Acid or fire damage stops this recovery at the start of its next turn. It dies only if it starts its turn at 0 HP and cannot regenerate.",
+        "Actions": "Multiattack. Make one Bite and two Claws attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage and 4 (1d8) poison damage. The target is poisoned until the start of the troll’s next turn.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage and 4 (1d8) poison damage.\nVenom Spray (Recharge 6). The troll cuts itself for 7 (2d6) slashing damage that cannot be reduced. Each creature in the 15-ft. cube of spray makes a DC 16 Constitution save. On a failure, it takes 18 (4d8) poison damage and is poisoned for 1 minute. On a success, it takes half damage and is not poisoned. A poisoned creature can repeat the save at the end of each of its turns, ending the condition on a success.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 245."
+      }
+    }
+  },
+  {
+    "name": "Wastrilith",
+    "statBlock": {
+      "name": "Wastrilith",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 139,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 157,
+      "hitDice": "15d10 + 75",
+      "speed": "30 ft., swim 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 11,
+      "description": "This Abyssal demon taints the water around it, churning currents to hold its prey in place or drag it within reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Amphibious. The wastrilith can breathe air and water.\nCorrupt Water. At the start of each of its turns, the wastrilith corrupts exposed water within 30 ft. Corruption lightly obscures the area underwater until a current disperses it. Contaminated water held in containers stays foul until it evaporates. A creature that drinks or swims in the water makes a DC 18 Constitution save. Success grants immunity to the foul water for 24 hours. Failure deals 14 (4d6) poison damage and poisons the creature for 1 minute. At the end of that minute, the poisoned creature must repeat the save. On another failure, it takes 18 (4d8) poison damage and stays poisoned until it finishes a long rest. Another demon that spends an action drinking the water gains 11 (2d10) temporary HP.\nMagic Resistance. The wastrilith has advantage on saving throws against spells and other magical effects.",
+        "Bonus actions": "Undertow. While underwater, the wastrilith can make all water within 60 ft. difficult terrain for other creatures until the start of its next turn.",
+        "Actions": "Multiattack. Use Grasping Spout and make one Bite and two Claws attacks.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 30 (4d12 + 4) piercing damage.\nClaws. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 18 (4d6 + 4) slashing damage.\nGrasping Spout. Choose a visible creature within 60 ft. The magical jet forces a DC 17 Strength save, made with disadvantage if the target is underwater. On a failure, it takes 22 (4d8 + 4) acid damage and is pulled up to 60 ft. toward the wastrilith. On a success, it takes half damage and stays in place.",
+        "Optional abyssal corruption": "The book suggests applying the 2014 Dungeon Master’s Guide chapter 2 Abyssal Corruption rule to a creature poisoned by drinking the corrupt water.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 139."
+      }
+    }
+  },
+  {
+    "name": "Water Elemental Myrmidon",
+    "statBlock": {
+      "name": "Water Elemental Myrmidon",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 203,
+      "classification": "Medium elemental, neutral",
+      "ac": 18,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "40 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "description": "A summoned water elemental bound inside a suit of plate armor carries out its maker’s orders with an enchanted trident.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Plate.",
+        "Damage resistances": "Acid. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Paralyzed, petrified, poisoned, prone.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Aquan plus one language its creator chooses.",
+        "Traits": "Magic Weapons. The myrmidon’s weapon attacks are magical.",
+        "Actions": "Multiattack. Make three Trident attacks.\nTrident. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) if used with two hands to make a melee attack.\nFreezing Strikes (Recharge 6). Use Multiattack. Each hit deals an extra 5 (1d10) cold damage. A target hit by one or more of those attacks loses 10 ft. of speed until the end of the myrmidon’s next turn.",
+        "Table notes": "The printed Constitution score is 15 but its adjacent modifier is +3. Use the standard +2 when rolling from the score. The stat block retains the printed 127 HP and 17d8 + 51 formula.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 203."
+      }
+    }
+  },
+  {
+    "name": "White Abishai",
+    "statBlock": {
+      "name": "White Abishai",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 163,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 15,
+      "hp": 68,
+      "hitDice": "8d8 + 32",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "A ferocious winged devil rushes into close combat with a sword and turns to snap at anything within reach when wounded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6,
+        "Con": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Cold, fire, and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic, Infernal, telepathy 120 ft.",
+        "Traits": "Devil’s Sight. Magical darkness does not impede the abishai’s darkvision.\nMagic Resistance. The abishai has advantage on saving throws against spells and other magical effects.\nMagic Weapons. The abishai’s weapon attacks are magical.\nReckless. At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls for that turn. If it does, attack rolls against the abishai have advantage until the start of its next turn.",
+        "Actions": "Multiattack. Make one Longsword and one Claw attack.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage or 8 (1d10 + 3) with two hands.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d10 + 3) slashing damage.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 3 (1d6) cold damage.",
+        "Reactions": "Vicious Reprisal. When the abishai takes damage, it makes a Bite attack against a random creature within 5 ft. If no creature is within reach, it moves up to half its speed toward an enemy it can see without provoking opportunity attacks.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 163."
+      }
+    }
+  },
+  {
+    "name": "Winter Eladrin",
+    "statBlock": {
+      "name": "Winter Eladrin",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 197,
+      "classification": "Medium fey (elf), chaotic neutral",
+      "ac": 19,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 13,
+      "description": "A Feywild elf’s melancholy takes physical form. Bitter cold surrounds it and frozen tears gather on its cheeks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Magic Resistance. The eladrin has advantage on saving throws against spells and other magical effects.\nSorrowful Presence. A creature other than an eladrin that starts its turn within 60 ft. of the eladrin makes a DC 13 Wisdom save. On a failure, it is charmed for 1 minute and has disadvantage on ability checks and saves while charmed. It can repeat the save at the end of each of its turns, and whenever this eladrin damages it, ending the effect on a success. A creature that succeeds on the save or whose effect ends is immune to any eladrin’s Sorrowful Presence for 24 hours.",
+        "Innate Spellcasting": "The eladrin casts with Intelligence (DC 16) and needs no material components.\nAt will. Fog Cloud, Gust of Wind.\n1/day each. Cone of Cold, Ice Storm.",
+        "Actions": "Longsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d8) slashing damage, or 5 (1d10) with two hands.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. A hit deals 4 (1d8) piercing damage.",
+        "Bonus actions": "Fey Step (Recharge 4–6). Teleport up to 30 ft. to a visible unoccupied space.",
+        "Reactions": "Frigid Rebuke. When a creature the eladrin can see within 60 ft. damages it, that creature must succeed on a DC 16 Constitution save or take 11 (2d10) cold damage.",
+        "Changeable nature": "On finishing a long rest while not incapacitated, the eladrin can adopt a different season and use the new season’s stat block. Damage taken, conditions, and other ongoing effects carry over to the new form.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 197 for the stat block and p. 195 for Changeable Nature."
+      }
+    }
+  }
+]

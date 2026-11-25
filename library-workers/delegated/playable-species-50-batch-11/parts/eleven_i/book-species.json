@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Pony",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Playable conversion by Tyler Kamstra in Monstrous Races v2, p. 258.",
+      "Medium Beast. Strength increases by 2 and Constitution by 1. Walk 40 ft. Ordinary ponies tend toward neutral.",
+      "Hooves. Unarmed strikes that hit deal 1d8 bludgeoning plus Strength modifier.",
+      "Draft Horse, Riding Horse and Warhorse use Pony as their playable rules reference. See their v2 entries on pp. 229, 262 and 266.",
+      "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Quipper",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Playable conversion by Tyler Kamstra in Monstrous Races v2, p. 259.",
+      "Tiny Beast. Dexterity increases by 2. Swim 40 ft. with no walking speed. Breathe only underwater. Ordinary quippers tend toward neutral.",
+      "Bite. Unarmed strikes deal 1d4 piercing plus the chosen Strength or Dexterity modifier. The attack roll uses the same ability and the bite counts as a finesse weapon for qualifying rules.",
+      "Blood Frenzy. After hitting with an unarmed strike during the Attack action, you may spend your bonus action on another unarmed strike against that target.",
+      "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Reef Shark",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Playable conversion by Tyler Kamstra in Monstrous Races v2, p. 261.",
+      "Medium Beast. Strength increases by 1. Swim 40 ft. with no walking speed. Breathe only underwater. Blindsight reaches 30 ft. Ordinary reef sharks tend toward neutral.",
+      "Bite. A successful unarmed strike deals 1d8 piercing plus Strength modifier.",
+      "Pack Tactics. Use a bonus action to gain advantage on the next attack roll this turn against a creature if a non-incapacitated ally is within 5 ft. of that creature.",
+      "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Playable conversion by Tyler Kamstra in Monstrous Races v2, pp. 261–262.",
+      "Medium Beast. Strength increases by 2 and Constitution by 1. Walk 40 ft.",
+      "Natural Armor. While unarmored, AC is 12 + Dexterity modifier. Gore makes unarmed strikes that hit deal 1d8 piercing plus Strength modifier.",
+      "Charge. Once per turn, move at least 20 ft. straight toward a creature and hit it with an unarmed strike on the same turn to add 1d6 damage to the attack. The bonus increases to 2d6 at level 5, 3d6 at level 11, and 4d6 at level 17. After charging you can use a bonus action to attempt to shove that creature prone.",
+      "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Playable conversion by Tyler Kamstra in Monstrous Races v2, p. 262.",
+      "Tiny Beast. Dexterity increases by 2. Walk 10 ft. Ordinary scorpions tend toward neutral.",
+      "Sting. Unarmed strikes that hit deal 1d8 poison plus either Strength or Dexterity modifier. Use the same ability for the attack roll. The sting counts as a finesse weapon for rules that require one.",
+      "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci.",
+      "Speaks, reads, and writes Common."
+    ]
+  }
+]

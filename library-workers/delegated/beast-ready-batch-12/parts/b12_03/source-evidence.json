@@ -1,0 +1,181 @@
+[
+  {
+    "name": "Owl",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Búho",
+    "printedPages": [
+      335
+    ],
+    "pdfPages": [
+      337
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 10 XP for CR 0.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_07/portraits/owl.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+      "The print separates baseline Perception and Stealth from the higher values that apply to hearing or sight and to flight."
+    ]
+  },
+  {
+    "name": "Owl, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Búho, gigante",
+    "printedPages": [
+      335
+    ],
+    "pdfPages": [
+      337
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 50 XP for CR 1/4.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-05/parts/b05_01/portraits/giant-owl.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+      "The Spanish block ends after Talons. The next folio turns to vultures. The separate English Black Flag Reference Document v1.0 has a Puffed Up Display reaction absent from this Spanish witness. The English Monster Vault block was unavailable for comparison.",
+      "The English catalog rounds the printed CR 1/4 to 0.3."
+    ],
+    "terminologyComparisonUrl": ""
+  },
+  {
+    "name": "Panther",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Pantera",
+    "printedPages": [
+      349,
+      350
+    ],
+    "pdfPages": [
+      351,
+      352
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 50 XP for CR 1/4.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_10/portraits/panther.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+      "The heading and core statistics start on p. 349. The six modifiers, both traits, both attacks and bonus action continue on p. 350.",
+      "The English catalog rounds the printed CR 1/4 to 0.3."
+    ]
+  },
+  {
+    "name": "Pony",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Poni",
+    "printedPages": [
+      351
+    ],
+    "pdfPages": [
+      353
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 25 XP for CR 1/8.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_07/portraits/pony.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+      "Draft Animal explicitly refers to the pony in the Spanish stat block. The parallel English Black Flag Reference Document v1.0 says draft horse in the Pony entry.",
+      "The English catalog rounds the printed CR 1/8 to 0.1."
+    ],
+    "terminologyComparisonUrl": ""
+  },
+  {
+    "name": "Quipper",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Piraña",
+    "printedPages": [
+      350,
+      351
+    ],
+    "pdfPages": [
+      352,
+      353
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 10 XP for CR 0.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_07/portraits/quipper.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+      "The individual Piraña starts on p. 350 and its Bite continues at the top of p. 351, immediately above the separate swarm. The English Monster Vault catalog indexes this creature as Quipper."
+    ]
+  }
+]

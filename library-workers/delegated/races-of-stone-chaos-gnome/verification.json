@@ -1,0 +1,20 @@
+{
+  "baseline": "0f9ae3b00f063f22d509f42746c43906a30ddc98",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Chaos Gnome"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Stone (2004)",
+  "luckOfChaosSlasSpellPowerAndDomainStackingVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

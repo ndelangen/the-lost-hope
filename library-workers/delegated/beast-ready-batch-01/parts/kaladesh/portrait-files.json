@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "kaladesh-drake",
+    "file": "portraits/kaladesh-drake.png",
+    "sha256": "9525a7ed36c8130cb110deb69aa6dfe4792a169cd6fd2ba74039e2d963b090f8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "gremlin",
+    "file": "portraits/gremlin.png",
+    "sha256": "ed51d32dc7fe44e635b83e44d84d2cf76039bc941f6284203d41d3d1e79158a7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "sky-leviathan",
+    "file": "portraits/sky-leviathan.png",
+    "sha256": "25ca7eac068bfdb5d5c15e8fa3d29773ee11a50e511273178858f885d4431c8c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "sky-whale",
+    "file": "portraits/sky-whale.png",
+    "sha256": "ffee91221c1338b89ed2dcd75e3249d5159d99a30686476ee116a7147401a32d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

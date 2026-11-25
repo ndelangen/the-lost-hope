@@ -1,0 +1,272 @@
+{
+  "builds": [
+    {
+      "id": "adnd2e-phbr10-firbolg-harn-alderhand",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Large",
+      "title": "Firbolg orchard steward, Fighter 3",
+      "difficulty": "3rd-level warrior, descending Armor Class.",
+      "type": "Giant",
+      "ac": 3,
+      "hp": 37,
+      "hitDice": "3d10+3 plus 13 first-level HP",
+      "initiative": 0,
+      "speed": "15 (from the AD&D Monstrous Manual movement entry).",
+      "senses": "Ordinary hearing and vision.",
+      "languages": "Firbolg, Common, Storm Giant.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 11,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Weapons: great club, club, halberd and two-handed sword.",
+        "Agriculture (Int, target 10), Weather Sense (Wis −1, target 11), Animal Handling (Wis −1, target 11)."
+      ],
+      "traits": [
+        "THAC0 18. Base ability scores Str 15 and Cha 12 become Str 17 and Cha 10 after ancestry. HP rolls are 8, 6 and 7, plus 3 from Constitution and 13 from ancestry.",
+        "Save targets 13 / 15 / 14 / 16 / 16 in order: paralyzation, poison or death magic; rod, staff or wand; petrification or polymorph; breath weapon; spell.",
+        "Natural AC 3. Wears no armor and carries no shield. Large for weapon damage. Magic resistance 15%, even against friendly magic."
+      ],
+      "actions": [
+        "Human-made great club, THAC0 18, speed factor 7. One attack for 2d4 damage against Small or Medium targets, or 1d6+1 against Large targets. Harn omits his Strength bonus with this club.",
+        "Missile defense. With one hand free, roll 1d20 per incoming missile, up to two per round. A 6 or higher stops it. A stopped boulder or similar large missile can be caught and hurled back next round at THAC0 20 before situational modifiers. Use the caught projectile’s damage, as the entry gives no replacement die.",
+        "Detect magic once a day, outside melee only. Use a 10-by-60-foot path for up to 6 rounds, pivoting 60 degrees a round if needed. Identifying the school is a 30% check. This uses the wizard spell and Harn’s Fighter 3 as caster level."
+      ],
+      "tactics": "Keep one hand free if attackers are firing from the trail. Use detect magic to examine suspicious cargo before any fighting starts."
+    },
+    {
+      "id": "adnd2e-phbr10-voadkyn-idren-mossloop",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Large",
+      "title": "Voadkyn trail bowyer, Fighter 2",
+      "difficulty": "2nd-level warrior, descending Armor Class.",
+      "type": "Giant",
+      "ac": 6,
+      "hp": 20,
+      "hitDice": "2d10 plus 7 first-level HP",
+      "initiative": 0,
+      "speed": "12 (from the AD&D Monstrous Manual movement entry).",
+      "senses": "Infravision 90 ft.",
+      "languages": "Voadkyn, Treant, Sylvan Elf, Common.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 11
+      },
+      "skills": [
+        "Weapons: giant-kin longbow, dagger, mace and two-handed sword.",
+        "Bowyer/Fletcher (Dex −1, target 15), Direction Sense (Wis +1, target 11), Hunting (Wis −1, target 9)."
+      ],
+      "traits": [
+        "Base scores Str 14, Dex 14, Con 13 and Wis 12 become Str 15, Dex 16, Con 12 and Wis 10. HP rolls 7 and 6, plus 7 ancestry HP. Natural AC 8 and leather AC 8 are alternatives. Dex 16 reduces AC to 6.",
+        "Fighter THAC0 19. Uses the paladin XP progression. +1 missile attack modifier from Dex 16. Treated as Large for incoming damage. High Strength would grant no attack bonus.",
+        "Save targets 14 / 16 / 15 / 17 / 17 in order: paralyzation, poison or death magic; rod, staff or wand; petrification or polymorph; breath weapon; spell.",
+        "90% resistance to sleep and charm. In forest vegetation, opponents have a −4 penalty on surprise rolls, and creatures that cannot detect invisible beings fail to see him when he blends with cover."
+      ],
+      "actions": [
+        "Giant-kin longbow, THAC0 17 short, 19 medium, 22 long, speed factor 10. At full size, shoot two arrows a stationary round, 1d8 piercing each. Uses 75 / 150 / 255 range bands after increasing the standard sheaf bands by 50%.",
+        "Forest snap shot. If a forest hiding spot is within reach, step out, shoot one giant-kin arrow, and return to hiding during the same round. Use the same attack and range modifiers.",
+        "Giant-kin dagger, THAC0 19, speed factor 3. One melee attack, 1d6 piercing against Small or Medium targets or 1d8 against Large targets."
+      ],
+      "tactics": "Open with a forest snap shot from vegetation, then lead pursuers away from the spindle trees. Use the dagger only if cornered."
+    },
+    {
+      "id": "adnd2e-phbr10-saurial-tessik-brightfin",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "title": "Finhead Saurial ferry guard, Fighter 2",
+      "difficulty": "2nd-level warrior, descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 4,
+      "hp": 16,
+      "hitDice": "2d10",
+      "initiative": 0,
+      "speed": "12 (finhead ground movement from the Monstrous Compendium).",
+      "senses": "Infravision 60 ft.",
+      "languages": "Saurial sounds and scents. Understands Common and replies with gestures.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Weapons: finhead broadsword, Saurial dagger, Saurial sling and Saurial staff.",
+        "Swimming (Str, target 15), Rope Use (Dex, target 15), Direction Sense (Wis +1, target 13)."
+      ],
+      "traits": [
+        "Fighter THAC0 19. Finheads have no ability changes. HP rolls 7 and 9. Natural AC 5, reduced to 4 by Dex 15. A small shield improves two chosen frontal attacks per round to AC 3.",
+        "Save targets 14 / 16 / 15 / 17 / 17 in order: paralyzation, poison or death magic; rod, staff or wand; petrification or polymorph; breath weapon; spell.",
+        "Improve save targets by 2 against sound. Worsen by 2 against gas and scent attacks. At five feet tall, Tessik risks cold sleep after 5 turns in prolonged cold, or 10 with insulation.",
+        "No percentile Strength and a −1 attack penalty with a non-Saurial weapon. Tessik uses locally made gear and relies on gestures when speaking with hearing humanoids."
+      ],
+      "actions": [
+        "Finhead broadsword, THAC0 19, speed factor 6. One attack for 1d8 slashing against Small or Medium targets, or 1d10 against Large targets.",
+        "Claws or tail, THAC0 19. Clear both hands for two claws that deal 1d3 each, or make one 1d2 tail whip. Under standard initiative these need no individual modifiers. If optional weapon speeds apply, use the core Medium natural-weapon modifier."
+      ],
+      "tactics": "Stay at the winch with sword and shield. If disarmed, stow the shield before using claws, or use the tail when that is impractical."
+    },
+    {
+      "id": "adnd2e-phbr10-swanmay-letha-fenwatch",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "title": "Swanmay river warden, Ranger 2",
+      "difficulty": "2nd-level warrior, descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 6,
+      "hp": 15,
+      "hitDice": "2d10",
+      "initiative": 0,
+      "speed": "Human 12. Swan flight 19, maneuverability D.",
+      "senses": "Ordinary hearing and vision.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 15,
+        "CHA": 12
+      },
+      "skills": [
+        "Weapons: longbow, dagger, long sword and short sword.",
+        "Tracking (bonus, Wis, target 15), Direction Sense (Wis +1, target 16), Swimming (Str, target 14), Animal Handling (Wis −1, target 14).",
+        "Hide in Shadows 15%, Move Silently 21% in natural terrain. For non-natural terrain, halve these chances."
+      ],
+      "traits": [
+        "Neutral good. Base Dex 14 and Wis 14 become 15 each. HP rolls are 8 and 7. Human natural AC 7, improved to 6 by Dex 15. Wears traveling clothes without armor. Base THAC0 19.",
+        "Save targets 14 / 16 / 15 / 17 / 17 in order: paralyzation, poison or death magic; rod, staff or wand; petrification or polymorph; breath weapon; spell.",
+        "Trolls are her ranger species enemy. Against trolls, attacks use THAC0 15 and encounter reactions take −4. She targets them before other creatures unless one poses greater danger.",
+        "Human-form animal empathy: approaches a non-hostile domesticated animal automatically. A wild or attack-trained animal saves vs. rod at −1 to resist a one-step reaction shift.",
+        "Swan form: AC 7, only +1 or stronger magical weapons can injure her by weapon attacks, and innate magic resistance is 4%."
+      ],
+      "actions": [
+        "Longbow and flight arrows, THAC0 19 short, 21 medium, 24 long, speed factor 8. Two arrows if stationary, 1d6 piercing apiece. Short/medium/long bands 70 / 140 / 210, using the core scale for the terrain.",
+        "Dagger, THAC0 19, speed factor 2. One melee attack, 1d4 piercing against Small or Medium targets or 1d3 against Large targets.",
+        "Feather token shift, at will. Spend one full round as the table’s timing convention. All possessions except the token stay where they were. Revert by shifting with the token once more. The example uses the bird shape for flight and evasion."
+      ],
+      "tactics": "Warn intruders from solid ground. Loose arrows at a distance only if pressed, or stash her gear and shift to fly a warning upstream."
+    },
+    {
+      "id": "dnd35-mm3-sand-giant-beresht-dunekeeper",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "title": "Sand Giant caravan guide, Fighter 1",
+      "difficulty": "CR 11, 15 racial HD + Fighter 1, LA +4, ECL 20.",
+      "type": "Giant (Earth, Fire)",
+      "ac": 27,
+      "hp": 169,
+      "hitDice": "15d8+90 plus 1d10+6",
+      "initiative": 11,
+      "speed": "40 ft. land, 10 ft. burrow.",
+      "senses": "Low-light vision. Listen +15, Spot +15.",
+      "languages": "Common, Giant, Goblin.",
+      "abilityScores": {
+        "STR": 31,
+        "DEX": 24,
+        "CON": 23,
+        "INT": 12,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Hide +21 (+29 in deserts), Listen +15, Spot +15, Survival +15 (+23 in deserts), Climb +13.",
+        "Six racial feats: Improved Initiative, Power Attack, Cleave, Iron Will, Weapon Focus (scimitar), Improved Critical (scimitar). Fighter bonus feat: Combat Reflexes."
+      ],
+      "traits": [
+        "Unmodified array Str 15 / Dex 14 / Con 13 / Int 12 / Wis 10 / Cha 8. AC 27 = 10 −1 size +7 Dex +11 natural, touch 16, flat-footed 20. Ordinary trail clothes carry no AC bonus.",
+        "BAB +12, grapple +26, Fort +17 / Ref +12 / Will +10. Occupies a 10-foot square and reaches 10 feet. Immunity to fire and +50% damage from cold.",
+        "Combat Reflexes allows up to 8 attacks of opportunity per round when provoked, including while flat-footed. Large scimitar is used one-handed. A two-handed grip would change its Strength bonus from +10 to +15."
+      ],
+      "actions": [
+        "Large scimitar. Melee +22, or +22/+17/+12 as a full attack. Each hit deals 1d8+10 slashing, critical 15–20/×2. Power Attack trades up to 12 attack bonus for equal damage with this grip. Cleave grants one extra melee attack if Beresht downs an enemy.",
+        "Sand blaster. As a standard action, fire a loaded blaster in a 10-ft. cone for 1d8 damage, Reflex DC 23 half. Failure also gives living targets −4 AC and −2 attack rolls for 3 rounds. Reload as a full-round action with 5 pounds of sand. One charge loaded and two carried.",
+        "Heat Shimmer, free action at will. Personal blur for 15 minutes, providing 20% miss chance from concealment against vision-dependent attacks.",
+        "Meld into stone, once per day, CL 15. As a standard action, enter a stone large enough to hold Beresht and up to 100 pounds of equipment for as long as 150 minutes. He can hear outside and exit through the entry surface before it expires.",
+        "Statue, once per day, CL 15. Touch range, standard action per the MMIII spell-like ability glossary. A willing subject becomes living stone with hardness 8 for up to 15 hours and can freely switch back and forth. Beresht usually targets himself."
+      ],
+      "tactics": "Turn on Heat Shimmer before a fight and hold reach near the cistern’s ledge. Open with the sand blaster if it catches several enemies, then use the scimitar while they are hampered."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Harn Alderhand",
+      "species": "Firbolg",
+      "size": "Large",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-firbolg-harn-alderhand",
+      "role": "Orchard road steward and occasional wagon escort.",
+      "motive": "Recover the wooden bridge pins so the lower orchard can reopen.",
+      "hook": "Harn will walk the old route with anyone who agrees to stop and inspect each bridge joint."
+    },
+    {
+      "name": "Idren Mossloop",
+      "species": "Voadkyn",
+      "size": "Large",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-voadkyn-idren-mossloop",
+      "role": "Bowyer who guards a trail between old oak groves.",
+      "motive": "Keep hunters from disturbing the spindle trees that supply his best bow staves.",
+      "hook": "Idren leaves marker knots that lead along a quiet path to the ridge."
+    },
+    {
+      "name": "Tessik Brightfin",
+      "species": "Saurial",
+      "size": "Medium",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-saurial-tessik-brightfin",
+      "role": "Finhead ferry guard and village messenger.",
+      "motive": "Keep both sides of the ferry route open during the spring thaw.",
+      "hook": "Tessik points out a hidden ferry cable and offers to pull it taut if someone releases the jammed crank."
+    },
+    {
+      "name": "Letha Fenwatch",
+      "species": "Swanmay",
+      "size": "Medium",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-swanmay-letha-fenwatch",
+      "role": "Ranger patrolling a reed-lined stretch of river.",
+      "motive": "Find who has been laying wire snares across the nesting islands.",
+      "hook": "Letha can guide the party across the marsh if they leave their dogs on the bank."
+    },
+    {
+      "name": "Beresht Dunekeeper",
+      "species": "Sand Giant",
+      "size": "Large",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-mm3-sand-giant-beresht-dunekeeper",
+      "role": "Caravan guide and caretaker for a hidden abandoned cistern.",
+      "motive": "Settle a dispute before caravans empty the cistern ahead of the seasonal roads opening.",
+      "hook": "Beresht knows the only stone lip wide enough for a wagon to cross the wash."
+    }
+  ]
+}

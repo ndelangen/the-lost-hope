@@ -1,0 +1,68 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Amalgam",
+    "publication": "Where Evil Lives",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/amalgam/source-related-gibbering-mouther.webp",
+    "artist": "Related creature art: Gibbering Mouther · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "fff41d1562780b5ba07d5f17522d582ff98b974a09a8e173e78091bd63bdd37e",
+    "reference": "images/monsters/gibbering-mouther/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Goblin Underboss Slime Servant",
+    "publication": "Where Evil Lives",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/goblin-underboss-slime-servant/source-related-minotaur-lackey-slime-servant.webp",
+    "artist": "Related creature art: Minotaur Lackey Slime Servant",
+    "kind": "illustration",
+    "sha256": "e4db127743b9bdc406dde2ef8bbd9e473a4fc8ccbf3dddd253ffc718f01e484c",
+    "reference": "images/monsters/minotaur-lackey-slime-servant/publisher-d9d73965e7618b79.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Human Brawler Slime Servant",
+    "publication": "Where Evil Lives",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/human-brawler-slime-servant/source-related-human-brawler.webp",
+    "artist": "Related creature art: Human Brawler",
+    "kind": "illustration",
+    "sha256": "acb581d2f3d0ee8c3e7562cf0e331b44a919c7266d898367f161f9ec3c2fac71",
+    "reference": "images/monsters/human-brawler/publisher-b1fe91bbde2c9c65.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Human Trickshot Slime Servant",
+    "publication": "Where Evil Lives",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/human-trickshot-slime-servant/source-related-human-trickshot.webp",
+    "artist": "Related creature art: Human Trickshot",
+    "kind": "illustration",
+    "sha256": "8f4165174233bf23f6b6e86a162a7fc1c1630547df4b5478020a0efb70d6f5e9",
+    "reference": "images/monsters/human-trickshot/publisher-50067d328456a077.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lizardfolk Bloodeye Slime Servant",
+    "publication": "Where Evil Lives",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/lizardfolk-bloodeye-slime-servant/source-related-minotaur-lackey-slime-servant.webp",
+    "artist": "Related creature art: Minotaur Lackey Slime Servant",
+    "kind": "illustration",
+    "sha256": "e4db127743b9bdc406dde2ef8bbd9e473a4fc8ccbf3dddd253ffc718f01e484c",
+    "reference": "images/monsters/minotaur-lackey-slime-servant/publisher-d9d73965e7618b79.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Orc Rampart Slime Servant",
+    "publication": "Where Evil Lives",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/orc-rampart-slime-servant/source-related-orc-rampart.webp",
+    "artist": "Related creature art: Orc Rampart",
+    "kind": "illustration",
+    "sha256": "433ab25db0e97bad36a512a39695993f28ade77c6cd59dbb26614a8140520a6f",
+    "reference": "images/monsters/orc-rampart/publisher-5e175a101c584a89.webp"
+  }
+]

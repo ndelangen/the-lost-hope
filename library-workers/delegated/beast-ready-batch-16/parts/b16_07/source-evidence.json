@@ -1,0 +1,259 @@
+[
+  {
+    "name": "Female Steeder",
+    "publication": "Out of the Abyss - D&D Encounters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceFile": " - 5th Edition (2014)/Adventures/Out of the Abyss - D&D ",
+    "sourceSha256": "2e2d1a6b82eb1c74b2ca8e54a87c4762860cd5c0cd8e5e50cb96e175bbb74239",
+    "copyrightYear": 2015,
+    "printing": "2015 introductory D&D Encounters edition",
+    "sourceUrl": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "url": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "section": "Appendix C: Creatures",
+    "sourceHeading": "Female Steeder",
+    "printedPages": [
+      62
+    ],
+    "pdfPages": [
+      62
+    ],
+    "encounterPrintedPages": [
+      62
+    ],
+    "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+    "sourceDistinctions": [
+      "The Encounters block explicitly gives a 90-ft. maximum and a 30-ft. minimum speed for Leap. The Maerimydra block has its own wording."
+    ],
+    "appearanceEvidence": "The Encounters edition describes female steeders as large Underdark tarantulas trained as mounts. The portrait depicts that form.",
+    "habitatEvidence": "Appendix C p. 62 describes Underdark steeders trained by duergar.",
+    "artGroup": "female-steeder",
+    "artOwner": "b16_07",
+    "artworkSource": "beast-ready-batch-13/parts/b13_10/portraits/female-steeder.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-13/female-steeder.png",
+    "reuseSha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23"
+  },
+  {
+    "name": "Male Steeder",
+    "publication": "Out of the Abyss - D&D Encounters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceFile": " - 5th Edition (2014)/Adventures/Out of the Abyss - D&D ",
+    "sourceSha256": "2e2d1a6b82eb1c74b2ca8e54a87c4762860cd5c0cd8e5e50cb96e175bbb74239",
+    "copyrightYear": 2015,
+    "printing": "2015 introductory D&D Encounters edition",
+    "sourceUrl": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "url": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "section": "Appendix C: Creatures",
+    "sourceHeading": "Male Steeder",
+    "printedPages": [
+      62,
+      63
+    ],
+    "pdfPages": [
+      62,
+      63
+    ],
+    "encounterPrintedPages": [
+      62
+    ],
+    "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+    "sourceDistinctions": [
+      "The actions continue on p. 63. The printed Bite line gives average 7 and roll 1d8 + 2. Both printed figures are preserved."
+    ],
+    "appearanceEvidence": "Appendix C p. 62 describes males as Underdark tarantulas as big as ponies.",
+    "habitatEvidence": "Appendix C p. 62 describes Underdark steeders trained by duergar.",
+    "artGroup": "male-steeder",
+    "artOwner": "b16_07",
+    "artworkSource": "beast-ready-batch-13/parts/b13_11/portraits/male-steeder.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-13/male-steeder.png",
+    "reuseSha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a"
+  },
+  {
+    "name": "Female Steeder",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX3-16 - Assault on ",
+    "sourceSha256": "a5b3b7bbae1a03e19022a6172eb5cbe9b70689c0d06462c1f6d74f6a49149708",
+    "copyrightYear": 2016,
+    "printing": "March 1, 2016 release",
+    "sourceUrl": "",
+    "url": "",
+    "section": "Monster/NPC Statistics appendix",
+    "sourceHeading": "Female Steeder",
+    "printedPages": [
+      54
+    ],
+    "pdfPages": [
+      54
+    ],
+    "encounterPrintedPages": [
+      23,
+      28
+    ],
+    "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+    "sourceDistinctions": [
+      "Page 54 gives a 120-ft. Leap and gives no minimum speed."
+    ],
+    "appearanceEvidence": "The Encounters edition describes female steeders as large Underdark tarantulas trained as mounts. The portrait depicts that form.",
+    "habitatEvidence": "The adventure places female steeders at the Maerimydra assault and provides two available mounts on p. 28.",
+    "artGroup": "female-steeder",
+    "artOwner": "b16_07",
+    "artworkSource": "beast-ready-batch-13/parts/b13_10/portraits/female-steeder.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-13/female-steeder.png",
+    "reuseSha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23"
+  },
+  {
+    "name": "Spider King",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceFile": " - 5th Edition (2014)/Adventures/Out of the ",
+    "sourceSha256": "1c25226f893f9e71e4504df165dbfbd33f2665855054407726418db7911af0ae",
+    "copyrightYear": 2015,
+    "printing": "2015 hardcover edition",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/oota",
+    "url": "https://www.dndbeyond.com/sources/dnd/oota",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+    "section": "Chapter 4: Gracklstugh",
+    "sourceHeading": "6. Dire Den",
+    "printedPages": [
+      74
+    ],
+    "pdfPages": [
+      75
+    ],
+    "encounterPrintedPages": [
+      74
+    ],
+    "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+    "sourceDistinctions": [
+      "The adventure sets fixed HP to 44 and changes Perception, passive Perception and two saves. It adds the two-head advantages and protection from surprise by intruders in its domain. The base giant spider block has 26 (4d10 + 4) HP. The publisher adventure errata list no change to the Spider King."
+    ],
+    "inheritedStatBlock": {
+      "name": "Giant Spider",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        328
+      ],
+      "pdfPages": [
+        329
+      ],
+      "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+      "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "relatedErrataUrl": ""
+    },
+    "appearanceEvidence": "Page 74 explicitly describes the two heads and vaguely humanoid shape. Chitin and coloration are editorial portrait details.",
+    "habitatEvidence": "The Dire Den encounter is in the Whorlstone Tunnels on p. 74.",
+    "artGroup": "spider-king",
+    "artOwner": "b16_07",
+    "artworkSource": "portraits/spider-king.png",
+    "artworkSha256": "648b76539a7e398f4c5d99cea78d25be03d5ad4fe3668b7675a4a72a05bd0817"
+  },
+  {
+    "name": "Young Bulette",
+    "publication": "Princes of the Apocalypse",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceFile": " - 5th Edition (2014)/Adventures/Princes of the ",
+    "sourceSha256": "34d53a2a8807d06ad02c72499a863ba1299ad6fa599fa730c1552387c5075d30",
+    "copyrightYear": 2015,
+    "printing": "2015 hardcover edition",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/pota",
+    "url": "https://www.dndbeyond.com/sources/dnd/pota",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/princes-of-the-apocalypse",
+    "section": "Chapter 5: Temple of the Elder Elemental Eye",
+    "sourceHeading": "G13. Bulette Kennels",
+    "printedPages": [
+      139
+    ],
+    "pdfPages": [
+      140
+    ],
+    "encounterPrintedPages": [
+      139
+    ],
+    "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+    "sourceDistinctions": [
+      "The publisher adventure errata list no change to the Bulette Kennels.",
+      "Area G13 calls for the Rhinoceros statistics with Bite in place of Gore. The Beast type comes from that proxy. The adventure supplies no separate damage type, so Bite retains the proxy’s bludgeoning damage."
+    ],
+    "inheritedStatBlock": {
+      "name": "Rhinoceros",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        336
+      ],
+      "pdfPages": [
+        337
+      ],
+      "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+      "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "relatedErrataUrl": ""
+    },
+    "appearanceEvidence": "Area G13 identifies the juvenile bulettes. Armored anatomy is an editorial depiction of the juvenile from its reused portrait.",
+    "habitatEvidence": "The three young bulettes are in the northern pens of area G13 on p. 139.",
+    "artGroup": "young-bulette",
+    "artOwner": "b16_07",
+    "artworkSource": "beast-ready-batch-15/parts/b15_01/portraits/young-bulette.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-15/young-bulette.png",
+    "reuseSha256": "3211a9b3d2b38c82a079f553636dfdb551e0dbf66e0729341948d17f569726b6"
+  },
+  {
+    "name": "Golden Stag",
+    "publication": "Hoard of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceFile": " - 5th Edition (2014)/Adventures/Hoard of the Dragon ",
+    "sourceSha256": "84ef3b5f4fb48b6a0f969d1d060fb9b73167c29e36155ac5d4cd461fdd707b55",
+    "copyrightYear": 2014,
+    "printing": "2014 hardcover edition",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/hotdq",
+    "url": "https://www.dndbeyond.com/sources/dnd/hotdq",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/hoard-of-the-dragon-queen",
+    "section": "Episode 4: On the Road",
+    "sourceHeading": "The Golden Stag",
+    "printedPages": [
+      35
+    ],
+    "pdfPages": [
+      36
+    ],
+    "encounterPrintedPages": [
+      35
+    ],
+    "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+    "sourceDistinctions": [
+      "The local adventure text already uses The Golden Stag as the heading. The road-event table retains The Golden Hind.",
+      "The p. 35 encounter directs the DM to use Elk statistics. The publisher errata changes the older table label The Golden Hind to The Golden Stag. The Elk supplement gives no separate damage type for the additional Charge dice."
+    ],
+    "inheritedStatBlock": {
+      "name": "Elk",
+      "publication": "Hoard of the Dragon Queen Online Supplement",
+      "printing": "Version 1, August 8, 2014",
+      "printedPages": [
+        8
+      ],
+      "pdfPages": [
+        8
+      ],
+      "sourceFile": " - 5th Edition (2014)/Reference/Hoard of the Dragon Queen - Online ",
+      "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+      "publicReference": "",
+      "publicReferenceRole": "Wizards v0.3 reprints the same Elk rules on p. 7."
+    },
+    "appearanceEvidence": "The gold coat and platinum-looking antlers are explicitly described on p. 35.",
+    "habitatEvidence": "The p. 35 encounter begins with a deer herd on a hill and leads through woods to a moss-grown ruin.",
+    "artGroup": "golden-stag",
+    "artOwner": "b16_07",
+    "artworkSource": "portraits/golden-stag.png",
+    "artworkSha256": "f08a64bca203c144a7011ce9cea5341d00d832ab4d38707fc99bd6808ff0157c"
+  }
+]

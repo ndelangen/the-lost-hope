@@ -1,0 +1,429 @@
+[
+  {
+    "name": "Meenlock",
+    "statBlock": {
+      "name": "Meenlock",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 178,
+      "classification": "Small fey, typically neutral evil",
+      "ac": 15,
+      "hp": 31,
+      "hitDice": "7d6 + 7",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "Overwhelming fear can bring these crustacean-like fey into being. When several spawn together, a network of moss-lined tunnels may form nearby.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 6,
+        "Survival": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Telepathy 120 ft.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Fear Aura. A Beast or Humanoid that starts its turn within 10 ft. of the meenlock makes a DC 11 Wisdom save. On a failure, it is frightened until the start of its next turn.\nLight Sensitivity. In bright light, the meenlock has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Claw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) slashing damage. The target must pass a DC 11 Constitution save or be paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the paralysis on a success.",
+        "Bonus actions": "Shadow Teleport (Recharge 5–6). Teleport to an unoccupied space within 30 ft. Both the starting space and destination must be in dim light or darkness. The meenlock can teleport to a space it cannot see.",
+        "Telepathic Torment mechanics": "Up to four meenlocks can torment one incapacitated creature with telepathy. They can move, act, and react normally, but cannot use telepathy for another purpose during the torment. A creature immune to being frightened is unaffected.\nIf the target remains incapacitated for 1 hour, it makes a Wisdom save. The DC is 10 plus the number of participating meenlocks that stayed within sight of the target and were never incapacitated during the hour. On a failure, the target takes 10 (3d6) psychic damage. On a success, it takes half damage. The meenlocks can repeat the process.\nA Humanoid reduced to 0 hit points by this damage immediately becomes a full-health meenlock under the DM's control. Wish or divine intervention can reverse the transformation.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 178."
+      }
+    }
+  },
+  {
+    "name": "Merregon",
+    "statBlock": {
+      "name": "Merregon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 179,
+      "classification": "Medium fiend (devil), typically lawful evil",
+      "ac": 16,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "Faceless soldiers of the Nine Hells, merregons wear metal masks marked with the identity of their commander and the layer they serve.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Infernal but cannot speak, telepathy 120 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Frightened, poisoned.",
+        "Traits": "Devil's Sight. The merregon's darkvision works in magical darkness.\nMagic Resistance. The merregon has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Halberd attacks.\nHalberd. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 9 (1d10 + 4) slashing damage.\nHeavy Crossbow. Ranged weapon attack, +4 to hit, range 100/400 ft., one target. A hit deals 7 (1d10 + 2) piercing damage.",
+        "Reactions": "Loyal Bodyguard. When an attack roll hits another Fiend within 5 ft. of the merregon, the merregon can take the hit in its place.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 179."
+      }
+    }
+  },
+  {
+    "name": "Merrenoloth",
+    "statBlock": {
+      "name": "Merrenoloth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 180,
+      "classification": "Medium fiend (yugoloth), typically neutral evil",
+      "ac": 13,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "These grim ferrymasters navigate the River Styx and wield fiery oars against unwelcome boarders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Int": 5
+      },
+      "skills": {
+        "History": 5,
+        "Nature": 5,
+        "Perception": 4,
+        "Survival": 4
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. The merrenoloth has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Oar attack and use Fear Gaze.\nOar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 8 (2d4 + 3) fire damage.\nFear Gaze. Choose one creature the merrenoloth can see within 60 ft. It must pass a DC 13 Wisdom save or be frightened of the merrenoloth for 1 minute. It can repeat the save at the end of each of its turns, ending the fear on a success.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 13). No material components are required.\nAt will. Charm Person, Darkness, Detect Magic, Dispel Magic, Gust of Wind.\n3/day. Control Water.",
+        "Bonus actions": "Teleport. Teleport up to 60 ft. to an unoccupied space the merrenoloth can see, taking any equipment it wears or carries.",
+        "Lair actions": "While captaining a vessel, the merrenoloth can choose one option on initiative count 20, losing ties. It cannot use the same option in consecutive rounds. It must be able to act and, if surprised, must first finish its first turn.\nGale. For one round, the air within 60 ft. of the vessel is difficult terrain. A Medium or smaller creature that flies into the area or starts its turn flying there must pass a DC 13 Strength save or fall prone. The gale ends on initiative count 20 of the next round.\nPropel. Increase the vessel's speed by 30 ft. until initiative count 20 of the next round.\nRepair. The vessel regains 22 (4d10) hit points.",
+        "Regional effects": "Choose one or both effects for the vessel.\nUnerring. The vessel stays on course for the destination the merrenoloth names.\nUnsinkable. The vessel stays afloat even if its hull is breached.\nThe effects fade over 1d6 hours after the merrenoloth dies.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 180."
+      }
+    }
+  },
+  {
+    "name": "Mindwitness",
+    "statBlock": {
+      "name": "Mindwitness",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 181,
+      "classification": "Large aberration, typically lawful neutral",
+      "ac": 15,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 18,
+      "description": "An elder brain can convert a stunned beholder in its brine pool into a mindwitness. The colony uses it to relay messages telepathically.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon, telepathy 600 ft.",
+        "Condition immunities": "Prone.",
+        "Traits": "Telepathic Hub. When the mindwitness receives a telepathic message, it can relay it to up to seven other creatures it can see within 600 ft.",
+        "Actions": "Multiattack. Make one Bite and one Tentacles attack, or use Eye Ray three times.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 16 (4d6 + 2) piercing damage.\nTentacles. Melee weapon attack, +5 to hit, reach 10 ft., one creature. A hit deals 20 (4d8 + 2) psychic damage. A Large or smaller creature is also grappled (escape DC 13) and must pass a DC 13 Intelligence save or be restrained until the grapple ends.\nEye Ray. Roll a d6 to choose a magical ray and reroll any result already used this turn. Choose one target the mindwitness can see within 120 ft.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 181.",
+        "Eye Ray outcomes mechanics": "Aversion Ray (1). On a failed DC 13 Charisma save, the creature has disadvantage on attack rolls for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nFear Ray (2). On a failed DC 13 Wisdom save, the creature is frightened for 1 minute. It can repeat the save at the end of each of its turns, ending the fear on a success.\nPsychic Ray (3). The target takes 27 (6d8) psychic damage on a failed DC 13 Intelligence save.\nSlowing Ray (4). On a failed DC 13 Dexterity save, the creature's speed is halved for 1 minute. During that time, it cannot take reactions and can take at most one action or one bonus action on each turn. It can repeat the save at the end of each of its turns, ending the effect on a success.\nStunning Ray (5). On a failed DC 13 Constitution save, the creature is stunned for 1 minute. It can repeat the save at the end of each of its turns, ending the stun on a success.\nTelekinetic Ray (6). On a failed DC 13 Strength save, move a creature up to 30 ft. in any direction and restrain it until the start of the mindwitness's next turn or until the mindwitness is incapacitated. An unworn and uncarried object of up to 300 lb. can be moved up to 30 ft. in any direction. The ray can also manipulate an object precisely, such as opening a door or using a simple tool."
+      }
+    }
+  },
+  {
+    "name": "Moloch",
+    "statBlock": {
+      "name": "Moloch",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 183,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 19,
+      "hp": 253,
+      "hitDice": "22d10 + 132",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 21,
+      "description": "The former ruler of Malbolge seeks a way to reclaim his title.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 13,
+        "Wis": 11,
+        "Cha": 13
+      },
+      "skills": {
+        "Deception": 13,
+        "Intimidation": 13,
+        "Perception": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/day). After failing a save, Moloch can choose to succeed instead.\nMagic Resistance. Moloch has advantage on saving throws against spells and other magical effects.\nRegeneration. Moloch regains 20 hit points at the start of his turn. Radiant damage prevents this healing at the start of his next turn. He dies only if he starts his turn at 0 hit points and fails to regenerate.",
+        "Actions": "Multiattack. Make one Bite, one Claw, and one Many-Tailed Whip attack.\nBite. Melee weapon attack, +15 to hit, reach 5 ft., one target. A hit deals 26 (4d8 + 8) fire damage.\nClaw. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 17 (2d8 + 8) force damage.\nMany-Tailed Whip. Melee weapon attack, +15 to hit, reach 30 ft., one target. A hit deals 13 (2d4 + 8) lightning damage plus 11 (2d10) thunder damage. On a failed DC 24 Strength save, a creature is pulled up to 30 ft. straight toward Moloch.\nBreath of Despair (Recharge 5–6). Each creature in a 30-ft. cube must pass a DC 21 Wisdom save or take 27 (5d10) psychic damage, drop whatever it is holding, and become frightened of Moloch for 1 minute. On each of its turns while frightened in this way, it must Dash and move away from Moloch by the safest route available. If it has nowhere to move, it can skip the Dash. At the end of its turn, it can repeat the save if it has no line of sight to Moloch, ending the fear on a success.\nTeleport. Teleport up to 120 ft. to an unoccupied space Moloch can see, taking any equipment he wears or carries.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 21). No material components are required.\nAt will. Alter Self (Moloch can become Medium when changing his appearance), Confusion, Detect Magic, Fly, Major Image, Stinking Cloud, Suggestion, Wall of Fire.",
+        "Legendary actions": "Moloch has 3 legendary actions. Spend the listed cost to use one option at the end of another creature's turn. He regains spent actions at the start of his turn. He must be able to act and, if surprised, must first finish his first turn.\nAttack (1 action). Make one Bite, Claw, or Many-Tailed Whip attack.\nTeleport (1 action). Use Teleport.\nCast a Spell (2 actions). Use Spellcasting.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 183.",
+        "Nine Hells transformation mechanics": "When he enters the Nine Hells, he becomes an imp and cannot recover his usual powers until he leaves."
+      }
+    }
+  },
+  {
+    "name": "Molydeus",
+    "statBlock": {
+      "name": "Molydeus",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 184,
+      "classification": "Huge fiend (demon), typically chaotic evil",
+      "ac": 19,
+      "hp": 216,
+      "hitDice": "16d12 + 112",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 22
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 31,
+      "description": "This demon speaks for its lord. Its master can see and speak through its serpent head, and the weapon its master grants it dissolves when the molydeus dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 16,
+        "Con": 14,
+        "Wis": 14,
+        "Cha": 14
+      },
+      "skills": {
+        "Perception": 21
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Blinded, charmed, deafened, frightened, poisoned, stunned.",
+        "Traits": "Legendary Resistance (3/day). After failing a save, the molydeus can choose to succeed instead.\nMagic Resistance. The molydeus has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Demonic Weapon, one Snakebite, and one Wolf Bite attack.\nDemonic Weapon. Melee weapon attack, +16 to hit, reach 15 ft., one target. A hit deals 35 (4d12 + 9) force damage. On a natural 20 against a target with a head, the attack removes one head, killing the target if it cannot survive without it. On that natural 20, if the headed target takes none of the damage, has legendary actions, or is Huge or larger, it instead takes an extra 27 (6d8) force damage.\nSnakebite. Melee weapon attack, +16 to hit, reach 15 ft., one creature. A hit deals 16 (2d6 + 9) poison damage. On a failed DC 22 Constitution save, the target's hit point maximum decreases by the damage taken until it finishes a long rest. If the reduction takes its maximum to 0, it becomes a manes. Only Wish can reverse this transformation.\nWolf Bite. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 25 (3d10 + 9) necrotic damage.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 22). No material components are required.\nAt will. Dispel Magic, Polymorph, Telekinesis, Teleport.\n3/day. Lightning Bolt.",
+        "Legendary actions": "The molydeus has 3 legendary actions. Spend the listed cost to use one option at the end of another creature's turn. It regains spent actions at the start of its turn. It must be able to act and, if surprised, must first finish its first turn.\nAttack (1 action). Make one Demonic Weapon or Snakebite attack.\nMove (1 action). Move without provoking opportunity attacks.\nCast a Spell (2 actions). Use Spellcasting.",
+        "Demon summoning mechanics": "Summon Demon (1/day, optional). As an action, choose 1d6 babaus, 1d4 chasmes, or one marilith. The attempt has a 50% chance to succeed. Each summoned demon appears in an unoccupied space within 60 ft. and acts as the molydeus's ally. It cannot summon other demons. It stays for 1 minute or until it dies, the molydeus dies, or the molydeus dismisses it as an action.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 184."
+      }
+    }
+  },
+  {
+    "name": "Morkoth",
+    "statBlock": {
+      "name": "Morkoth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 186,
+      "classification": "Large aberration, typically chaotic evil",
+      "ac": 17,
+      "hp": 165,
+      "hitDice": "22d10 + 44",
+      "speed": "25 ft., swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 20,
+      "description": "A morkoth collects treasures, secrets, and captives on an island that drifts between the planes. Its prized possessions are kept in the island’s central sanctum.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 9,
+        "Wis": 6
+      },
+      "skills": {
+        "Arcana": 9,
+        "History": 9,
+        "Perception": 10,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Telepathy 120 ft.",
+        "Traits": "Amphibious. The morkoth can breathe air and water.",
+        "Actions": "Multiattack. Make two Bite attacks and one Tentacles attack, or make three Bite attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) slashing damage plus 10 (3d6) psychic damage.\nTentacles. Melee weapon attack, +6 to hit, reach 15 ft., one target. A hit deals 15 (3d8 + 2) bludgeoning damage. A Large or smaller creature is grappled (escape DC 14) and restrained until the grapple ends. It takes 15 (3d8 + 2) bludgeoning damage at the start of each of its turns. The morkoth cannot use Tentacles against another target while it holds this creature.\nHypnosis. Each creature in a 30-ft. cone of magical energy makes a DC 17 Wisdom save. On a failure, it is charmed by the morkoth for 1 minute and must try to get as close to the morkoth as possible, using its actions to Dash until within 5 ft. It can repeat the save at the end of each of its turns and whenever it takes damage, ending the charm on a success. When a creature succeeds on a save or the effect ends for it, it has advantage on saves against this morkoth's Hypnosis for 24 hours.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 17). No material components are required.\nAt will. Detect Magic, Mage Hand.\n3/day each. Darkness, Dimension Door, Dispel Magic, Lightning Bolt, Sending.",
+        "Reactions": "Spell Reflection. When the morkoth succeeds on a save against a spell or a spell attack misses it, choose a different creature the morkoth can see within 120 ft. The chosen creature becomes the target in its place and can be the caster. That creature makes its own save, or the spell's attack roll is rerolled against it, as appropriate.",
+        "Lair actions": "On initiative count 20, losing ties, the morkoth can choose one option while in its lair and able to act. If surprised, it must first finish its first turn. Its lair profile is CR 12 (8,400 XP).\nCast a Spell. Cast Darkness, Dispel Magic, or Misty Step using Intelligence without spending a spell slot.\nHypnotize. Use Hypnosis from a point within 120 ft. of the morkoth. It can use a point it cannot see.",
+        "Regional effects": "The effects below end immediately if the morkoth dies.\nAlter Water. With no action, the morkoth can change the water in its lair. One minute later, it becomes clear and breathable like air or returns to normal water of any clarity.\nLocate Creatures and Objects. The morkoth notices new creatures and objects on the island or in its sanctum. As an action, it can locate one creature or object on the island. Visitors feel watched.\nLost Possessions. A creature that has been on the island for under a year must make a DC 10 Intelligence save after each short or long rest. On a failure, it misplaces a possession. A player chooses what their character loses. A DC 15 Wisdom (Perception) check can recover the concealed item nearby. After 1 hour, any unrecovered item reaches the lair, where its owner easily recognizes it.\nSupernatural Lure. While in its lair and not incapacitated, the morkoth can switch the lure at its entrances on or off at any time. A creature within 30 ft. of an enchanted entrance that can see it must make a DC 15 Wisdom save. On a failure, it must use its movement each turn to enter and head straight toward the morkoth without realizing that it is approaching a creature. It can repeat the save when it first sees the morkoth, at the end of each of its turns, and whenever it takes damage. A success ends the effect.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 186."
+      }
+    }
+  }
+]

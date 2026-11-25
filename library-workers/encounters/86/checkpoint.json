@@ -1,0 +1,30 @@
+{
+  "commit": "450bc3353fc915afc930b14942b91655b65e003a",
+  "publication": "Flee, Mortals!",
+  "edition": "2014 fifth edition compatible",
+  "runnableStatBlocks": 1,
+  "creditedPublisherPortraitsReused": 1,
+  "testsPassed": 898,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/baron-uthrak-before-after.jpg",
+  "browser": {
+    "entry": "monster-df73a62ebede5da5d995bf8c",
+    "version": "1167d5dfd5cc9bca73335f94",
+    "publisherArt": "",
+    "stats": {
+      "Armor class": "16",
+      "Hit points": "144",
+      "Hit dice": "17d8 + 68",
+      "Challenge": "7",
+      "Type": "Humanoid",
+      "Speed": "30 ft.",
+      "XP": "2900",
+      "Str": "19",
+      "Dex": "12",
+      "Con": "19",
+      "Int": "14",
+      "Wis": "14",
+      "Cha": "16"
+    }
+  }
+}

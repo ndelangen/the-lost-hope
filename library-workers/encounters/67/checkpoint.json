@@ -1,0 +1,25 @@
+{
+  "commit": "d55c730d22080dc5dded47abbeaa248083ce59cf",
+  "publication": "Races of the Wild (2005)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "profiles": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/encounters-67-raptoran-species.png",
+  "results": "output/dm-library/encounter-batches/67/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Hobgoblin Smokebinder",
+      "source": "https://www.dndbeyond.com/monsters/4485887-hobgoblin-smokebinder",
+      "challenge": "2"
+    },
+    {
+      "name": "Hobgoblin Recruit",
+      "source": "https://www.dndbeyond.com/monsters/4485886-hobgoblin-recruit",
+      "challenge": "1/2"
+    }
+  ]
+}

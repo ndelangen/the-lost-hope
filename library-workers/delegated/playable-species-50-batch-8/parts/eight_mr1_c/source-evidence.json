@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Helmed Horror",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Tyler Kamstra via DMs Guild",
+    "creatureType": "Construct",
+    "url": "",
+    "printedPages": [
+      118
+    ],
+    "page": "v2 p. 118, Helmed Horror Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The v2 trait block omits size and walking speed. This encounter uses Medium and the explicit 30-ft. flight, with no hover ability.",
+      "The generic non-speaking trait permits writing a known language. The language line lists reading and understanding Common."
+    ]
+  },
+  {
+    "name": "Hippogriff",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Tyler Kamstra via DMs Guild",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      118,
+      119
+    ],
+    "page": "v2 pp. 118–119, Hippogriff Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The player traits continue onto p. 119. The alignment sentence calls the creature a griffon, but the rest of the block is explicitly Hippogriff.",
+      "This build uses fitted leather barding under the 2014 equipment rules. The Defense style applies to that worn armor."
+    ]
+  },
+  {
+    "name": "Homunculus",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Tyler Kamstra via DMs Guild",
+    "creatureType": "Construct",
+    "url": "",
+    "printedPages": [
+      121
+    ],
+    "page": "v2 p. 121, Homunculus Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The player trait block gives Small size and 25-ft. walking speed. Encounter lore and Design Notes mention Tiny size and a different speed. The catalog build uses the v2 trait values.",
+      "The trait block grants understanding, reading and writing but names no speech. The creator bond grants same-plane telepathy and lists shared senses without specifying an action cost. This encounter does not use shared senses in combat."
+    ]
+  },
+  {
+    "name": "Hook Horror",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Tyler Kamstra via DMs Guild",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      121,
+      122
+    ],
+    "page": "v2 pp. 121–122, Hook Horror Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The heading is on printed p. 121. The mechanical block is on p. 122 and specifically gives 10-ft. darkvision."
+    ]
+  },
+  {
+    "name": "Hydra",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Tyler Kamstra via DMs Guild",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      122,
+      123
+    ],
+    "page": "v2 pp. 122–123, Hydra Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Uses the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "At this NPC's second level, proficiency +2 sets its starting head count to two. The live head count can be two or three after regrowth, depending on how many remain.",
+      "The encounter checks the head-loss threshold after applicable damage reductions. Roll the d12 with Constitution as for a resting Hit Die. The trait does not give a separate duration for its temporary HP, so the usual temporary HP duration applies."
+    ]
+  }
+]

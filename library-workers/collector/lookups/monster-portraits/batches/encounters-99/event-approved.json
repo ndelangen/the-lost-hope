@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Diopsid",
+    "slug": "diopsid",
+    "caption": "Rivet · Original Diopsid NPC",
+    "id": "species-8bffa1da844a4c6cfca7379d:7eef816a3f66c4645ee357c5",
+    "entry": "species-8bffa1da844a4c6cfca7379d",
+    "version": "7eef816a3f66c4645ee357c5",
+    "suffix": "encounters-99/diopsid.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-99/diopsid.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-99/event-drafts/diopsid-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 99 2026-11-24/event-drafts/diopsid-event-v1.png",
+    "overrides": [],
+    "sha256": "c95bb4afab74cf25ebc14d043812010690676c733097d0f009b447ecc5a62c97",
+    "bytes": 2280041
+  }
+]

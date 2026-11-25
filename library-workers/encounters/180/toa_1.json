@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Acererak",
+    "statBlock": {
+      "name": "Acererak",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Medium undead, neutral evil",
+      "ac": 21,
+      "hp": 285,
+      "hitDice": "30d8 + 150",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 27
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 22,
+      "description": "The archlich built the Tomb of the Nine Gods under Omu. He traps adventurers to feed on their souls and built the Soulmonger to sustain the Atropal.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 12,
+        "Int": 15,
+        "Wis": 12
+      },
+      "skills": {
+        "Arcana": 22,
+        "History": 22,
+        "Insight": 12,
+        "Perception": 12,
+        "Religion": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, and Undercommon.",
+        "Damage resistances": "Cold and lightning.",
+        "Damage immunities": "Necrotic and poison. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, and stunned.",
+        "Traits": "Special Equipment. Acererak carries the Staff of the Forgotten One, wears the Talisman of the Sphere, and controls a Sphere of Annihilation. The staff has 7 charges and regains 1d4 + 3 spent charges at dawn. Undead of CR 2 or lower leave its bearer alone unless the bearer harms them.\nLegendary Resistance (3/day). Turn a failed saving throw into a success.\nRejuvenation. At 0 HP, Acererak crumbles and leaves his equipment behind. After 1d10 days he re-forms at full HP within 5 feet of his hidden phylactery.\nTurn Resistance. He has advantage on saves against effects that turn undead.",
+        "Actions": "Paralyzing Touch. Melee spell attack, +8 to hit, reach 5 ft., one creature. A hit deals 10 (3d6) cold damage. The target must pass a DC 20 Constitution save or be paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the effect for itself on a success.\nStaff (+3 Quarterstaff). Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) bludgeoning damage one-handed or 8 (1d8 + 4) with two hands. Both grips deal another 10 (3d6) necrotic damage.\nInvoke Curse. Spend 1 charge from the held Staff of the Forgotten One and choose a visible creature within 60 ft. On a failed DC 23 Constitution save, the creature is cursed. It cannot regain HP and has vulnerability to necrotic damage. Greater Restoration, Remove Curse, or similar magic ends the curse.",
+        "Spellcasting": "Acererak prepares wizard spells as a 20th-level caster, using Intelligence (spell save DC 23, +15 to hit with spell attacks).\nCantrips at will. Mage Hand, Ray of Frost, Shocking Grasp.\n1st level at will. Ray of Sickness, Shield.\n2nd level at will. Arcane Lock, Knock.\n3rd level at will. Animate Dead, Counterspell.\n4th level, 3 slots. Blight, Ice Storm, Phantasmal Killer.\n5th level, 3 slots. Cloudkill, Hold Monster, Wall of Force.\n6th level, 3 slots. Chain Lightning, Circle of Death, Disintegrate.\n7th level, 3 slots. Finger of Death, Plane Shift, Teleport.\n8th level, 2 slots. Maze, Mind Blank.\n9th level, 2 slots. Power Word Kill, Time Stop.",
+        "Legendary actions": "Acererak has 3 legendary actions. He can choose one option at the end of another creature’s turn and regains expended uses at the start of his turn.\nAt-Will Spell (1 action). Cast one of the spells listed as at will.\nMelee Attack (1 action). Use Paralyzing Touch or make a staff attack.\nFrightening Gaze (2 actions). Choose one creature Acererak can see within 10 ft. A failed DC 20 Wisdom save against this magic makes it frightened for 1 minute. It can repeat the save at the end of each of its turns to end the effect. Once the creature succeeds or the fear ends, this gaze cannot affect it for 24 hours.\nTalisman of the Sphere (2 actions). Move Acererak’s Sphere of Annihilation up to 90 ft.\nDisrupt Life (3 actions). Each creature within 20 ft. makes a DC 20 Constitution save against this magic, taking 42 (12d6) necrotic damage on a failure or half on a success.",
+        "Tomb encounter": "Area 77, the Death God’s Nursery (p. 186). Acererak arrives when the party kills the Atropal. He has no lair actions in this encounter. If reduced below 100 HP, he tries to escape with Teleport on his next turn.\nWrath of the Trickster Gods. While a character hosting a trickster god can see Acererak, they gain 50 temporary HP at the start of each of their turns and deal an extra 3d6 psychic damage whenever they hit him with an attack roll.",
+        "Source note": "The printed Paralyzing Touch attack bonus is +8. Acererak separately has +15 to hit with prepared wizard spells. The printed skill list includes Religion +15.",
+        "Printed source": "Tomb of Annihilation, p. 209."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Atropal",
+          "terms": [
+            "Atropal"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#atropal_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Albino Dwarf Spirit Warrior",
+    "statBlock": {
+      "name": "Albino Dwarf Spirit Warrior",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 13,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "A Chultan dwarf chosen by a nature spirit. The spirit’s gift helps the warrior defend the jungle from unnatural threats.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Hide Armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and Dwarvish.",
+        "Damage resistances": "Poison.",
+        "Traits": "Dwarven Resilience. The dwarf has advantage on saving throws against poison.",
+        "Actions": "Handaxe. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d6 + 1) slashing damage.",
+        "Innate spellcasting": "Wisdom is the casting ability and no material components are needed. The dwarf can cast Hunter’s Mark, Jump, Pass without Trace, Speak with Animals, and Speak with Plants once each per day.",
+        "Source note": "The printed spirit warrior uses the Albino Dwarf Warrior block with innate spellcasting and challenge 1.",
+        "Printed source": "Tomb of Annihilation, p. 210."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Albino Dwarf Warrior",
+          "terms": [
+            "Albino Dwarf Warrior"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#albino%20dwarf%20warrior_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Albino Dwarf Warrior",
+    "statBlock": {
+      "name": "Albino Dwarf Warrior",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 13,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 14,
+      "description": "A dwarf from Chult whose ancestors left their underground homes after volcanic upheaval. These warriors make equipment from dinosaur hide and bone, stone, and wood.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Hide Armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and Dwarvish.",
+        "Damage resistances": "Poison.",
+        "Traits": "Dwarven Resilience. The dwarf has advantage on saving throws against poison.",
+        "Actions": "Handaxe. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d6 + 1) slashing damage.",
+        "Printed source": "Tomb of Annihilation, p. 210."
+      }
+    }
+  },
+  {
+    "name": "Aldani (Lobsterfolk)",
+    "statBlock": {
+      "name": "Aldani (Lobsterfolk)",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium monstrosity, lawful neutral",
+      "ac": 14,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "20 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "A reclusive lobsterfolk of the Aldani Basin. It walks upright and peers out of its shell on long eyestalks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Traits": "Amphibious. The aldani breathes in air or water.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) slashing damage and leaves the target grappled (escape DC 11). Each claw can hold one target.",
+        "Encounter": "When disturbed, aldani try to scare off visitors without killing them. If threats fail, they may offer a treasure or information in exchange for privacy.",
+        "Printed source": "Tomb of Annihilation, p. 210."
+      }
+    }
+  },
+  {
+    "name": "Ankylosaurus Zombie",
+    "statBlock": {
+      "name": "Ankylosaurus Zombie",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 240,
+      "classification": "Huge undead, unaligned",
+      "ac": 14,
+      "hp": 68,
+      "hitDice": "8d12 + 16",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 8,
+      "description": "A shambling armored dinosaur with a heavy tail. It barely reacts to its surroundings until it closes on prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Undead Fortitude. When damage would drop it to 0 HP, roll a Constitution save with DC 5 + the damage taken. On a success it stays at 1 HP. Radiant damage and critical hits bypass this trait.",
+        "Actions": "Tail. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 18 (4d6 + 4) bludgeoning damage. A creature hit must pass a DC 14 Strength save or fall prone.",
+        "Printed source": "Tomb of Annihilation, p. 240."
+      }
+    }
+  },
+  {
+    "name": "Artus Cimber",
+    "statBlock": {
+      "name": "Artus Cimber",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 212,
+      "classification": "Medium humanoid (human), neutral good",
+      "ac": 14,
+      "hp": 82,
+      "hitDice": "15d8 + 15",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 13,
+      "description": "A former Harper who travels Chult with Dragonbait. He seeks the vanished city of Mezro and his wife Alisanda, keeping the Ring of Winter out of hostile hands.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 7
+      },
+      "skills": {
+        "Deception": 7,
+        "History": 9,
+        "Insight": 6,
+        "Survival": 9
+      },
+      "sections": {
+        "Armor": "Studded Leather Armor.",
+        "Languages": "Common, Draconic, Dwarvish, and Goblin.",
+        "Damage immunities": "Cold, while attuned to and wearing the Ring of Winter.",
+        "Traits": "Special Equipment. Divination cannot target Artus or the Ring of Winter, and magical scrying sensors cannot perceive either. While attuned to and wearing the ring, Artus does not age or suffer extreme cold. Bookmark is his +3 Dagger.",
+        "Actions": "Multiattack. Make three attacks using Bookmark or Longbow.\nBookmark (+3 Dagger). Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 7 (1d4 + 5) piercing damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.\nRing of Winter. With the ring worn and attuned, spend charges to use its powers. It holds 12 charges and restores all at dawn.\nLower Temperature (1 charge). Center a 120-ft.-radius sphere on a visible point within 300 ft. The area cools by 20°F per minute to −30°F. Frost and ice form below 32°F. The change lasts until Artus uses an action with the ring to end it. The area then warms back to its normal temperature at 10°F per minute.\nRing spells (spell save DC 17). Bigby’s Hand (2), Cone of Cold (2), Flesh to Stone (3), Ice Storm (2), Otiluke’s Freezing Sphere (3), Sleet Storm (1), Spike Growth (1), or Wall of Ice (2). Bigby’s Hand is ice, immune to cold, and its Clenched Fist deals bludgeoning damage. Flesh to Stone instead turns the target into solid ice with the properties of stone. The spikes in Spike Growth are ice.\nCreate Ice (2 or 4 charges). For 2 charges, make a nonmoving ice object that fits within a 10-ft. cube and is as durable and dense as metal or stone, as Artus chooses. For 4, make an animated ice creature modeled on a Beast of CR 2 or lower. It uses that creature’s statistics but is a Construct, is vulnerable to fire, is immune to cold and poison damage, and cannot be charmed, frightened, paralyzed, petrified, poisoned, or suffer exhaustion. It follows only Artus’s commands.\nThe ice object or creature appears in an empty space within 60 ft. It becomes water after 24 hours or at 0 HP. In extreme heat it loses 5 (1d10) HP per minute. Use the Dungeon Master’s Guide object rules for the object’s HP.",
+        "Bonus actions": "Bookmark. While attuned and holding the drawn dagger, activate one feature as a bonus action.\nLight. Turn the pommel gem on or off. It sheds bright light to 20 ft. and dim light for another 20 ft.\nCompass. Lay Bookmark on Artus’s palm to make it point north.\nDimension Door. Cast it from Bookmark. This property recharges at dawn.\nCompulsion. Cast it from Bookmark (save DC 15, range 90 ft.). It targets only spiders of the Beast type. This property recharges at dawn.",
+        "Encounter": "Artus is looking for the Guardian Naga Saja N’baza at Orolunga. He does not know where Omu is, but will set aside the search for Mezro to help characters who explain why they seek the Soulmonger.",
+        "Printed source": "Tomb of Annihilation, p. 212."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Dragonbait",
+          "terms": [
+            "Dragonbait"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#dragonbait_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Guardian Naga",
+          "terms": [
+            "Guardian Naga"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#guardian%20naga_mm"
+          }
+        }
+      ]
+    }
+  }
+]

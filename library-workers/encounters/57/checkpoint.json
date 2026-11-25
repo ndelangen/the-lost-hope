@@ -1,0 +1,26 @@
+{
+  "commit": "97b801416433265491b463264b164c00f3c27e33",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "preservedGalleries": 2,
+  "recentProfilesWithGeneratedPortrait": 610,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-57-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/57/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Human Apprentice Mage",
+      "source": "https://www.dndbeyond.com/monsters/4485891-human-apprentice-mage",
+      "challenge": "6"
+    },
+    {
+      "name": "Human Raider",
+      "source": "https://www.dndbeyond.com/monsters/4485897-human-raider",
+      "challenge": "1/2"
+    }
+  ],
+  "nextSourceNote": "Reusable NPCs. Apprentice Mage has a printed minion CR missing from the index. Keep its elemental damage substitutions together."
+}

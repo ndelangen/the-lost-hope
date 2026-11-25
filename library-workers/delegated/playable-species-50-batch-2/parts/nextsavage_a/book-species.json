@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Aranea",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Seven-level monster class. Begins as a Medium spider with +2 Dexterity, +2 Charisma, land speed 30 ft., climb speed 25 ft., darkvision 60 ft., and Common and Sylvan. Gains +8 on Climb checks and can take 10 while threatened. Proficient with simple weapons. Favored class Aranea.",
+      "The bite begins at 1d4 and advances to 1d6 at level 3, adding 1½ times the Strength bonus. Poison is two instances of Strength damage, each 1d3 at level 1, 1d6 at level 4, and 2d6 at level 6. Fortitude DC is 10 + half the Hit Dice from class levels + Constitution modifier.",
+      "Hybrid shape begins at 3/day for 1 hour and becomes at will at level 3. At level 5 choose one fixed Small or Medium humanoid form, usable 3/day for 1 hour and at will by level 7. Humanoid form provides the chosen form's racial abilities while preserving the aranea's ability scores and casting. Bite poison and webbing work in spider or hybrid form.",
+      "Casts as a sorcerer of level 1, 2, or 3 at aranea levels 2, 4, or 6. Web is a standard-action netlike attack starting at level 5 (3/day), increasing to 6/day at level 7.",
+      "At the end of the class the aranea has 3d8 Hit Dice, ECL 7, CR 4, BAB +3, and base saves +3/+3/+1. Its land speed reaches 50 ft."
+    ]
+  },
+  {
+    "name": "Annis Hag",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Twelve-level monster class. Starts with +2 Strength, speed 30 ft., darkvision 60 ft., Common and Giant. Favored class Annis Hag. Steely Skin reduces slashing or piercing weapon damage by 1 per hit and increases bludgeoning weapon damage by 1 per hit. A mixed bludgeoning weapon counts as bludgeoning.",
+      "Starts with two 1d4 claws and +4 natural armor. Adds a secondary bite at level 2. Claws reach 1d6 at level 6 and the bite reaches 1d6 at level 9. Its claws add the full Strength bonus and its bite adds half.",
+      "Change self starts at level 2 and fog cloud at level 6, both 1/day. Change self increases to 3/day at level 11 and fog cloud at level 12. Caster level equals Hit Dice from class levels. Spell resistance begins at level 5 and equals 7 + annis hag class level.",
+      "Large with 10-ft. reach at level 8, speed 40 ft. at level 9. Starts a free grapple after a qualifying claw hit at level 10. Rend starts at level 11 and adds the damage of two claws after both claws hit. Tear at level 12 hits a held foe with all melee attacks each round the hag maintains the hold.",
+      "Finishes at ECL 12, CR 4, 7d8 Hit Dice, BAB +7/+2, and base saves +2/+5/+5."
+    ]
+  },
+  {
+    "name": "Barghest",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Twelve-level monster class. Starts with +2 Strength and +2 Constitution, land speed 30 ft., darkvision 60 ft., and Goblin, Infernal, and Worg. Proficient with simple and martial weapons. Favored class Barghest.",
+      "Begins with a 1d6 bite, +2 natural armor, and Feed. After slaying a humanoid, consume its body and life force as a full-round action for a +2 enhancement bonus to Constitution for one day. Resurrection needing a body fails. Wish, miracle, and true resurrection each have a 50% chance to fail.",
+      "At level 2 gains 1d4 claws and scent 10 ft. A standard action shifts into wolf or goblin form. In wolf form, move at 60 ft., gain +4 circumstance to Hide, and use pass without trace as a free action. Scent increases at levels 5 and 8.",
+      "Levitate, misdirection, and project image each begin at 1/day at level 3, increase to 3/day at level 6, and become at will at level 11. Charm monster, charm person, dimension door, and emotion each are 1/day from level 7. Caster level equals class Hit Dice. Save DC 10 + spell level + Charisma modifier.",
+      "DR 5/+1 begins at level 5 and becomes DR 10/+1 at level 12. Finishes at ECL 12, CR 4, 6d8 Hit Dice, BAB +6/+1, base saves +5/+5/+5, and +6 natural armor."
+    ]
+  },
+  {
+    "name": "Djinni",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Thirteen-level monster class. Begins with +2 Dexterity, +2 Intelligence, land speed 20 ft., perfect flight 30 ft., darkvision 60 ft., and telepathy to 100 ft. with creatures that have a language. Speaks Auran, Celestial, Common, and Ignan. Proficient with simple and martial weapons. Favored class Djinni.",
+      "Acid resistance starts at 5 at level 2, rising to 10 at 5th, 15 at 8th, 20 at 11th, and immunity at 13th. Air Mastery applies a −1 circumstance penalty to airborne foes' attack and damage rolls. Self-only invisibility is at will from level 3.",
+      "At level 4 gains a 1d4 slam that adds 1½ times the Strength bonus and uses iterative BAB attacks, plus whirlwind 1/day. Whirlwind rises to 3/day at level 8 and at will at level 12.",
+      "Plane shift begins at level 5 with two solo trips per day. Passenger capacity grows to one at level 7, three at level 10, and six at level 12 when plane shift becomes at will. Other daily spell-like powers arrive at 6th and 9th level. Their caster level is Hit Dice from class levels +13.",
+      "Flight reaches 60 ft. (perfect) at level 7. Large size with 10-ft. reach starts at level 9. Finishes at ECL 13, CR 5, 7d8 Hit Dice, BAB +7/+2, and base saves +5/+5/+5."
+    ]
+  },
+  {
+    "name": "Drider",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Ten-level monster class. Starts with +2 Dexterity, +2 Intelligence, +2 Charisma, land speed 30 ft., climb speed 15 ft., and darkvision 120 ft. Speaks Common, Elven, and Undercommon. Gains +8 on Climb and may take 10 while threatened. Favored class Drider.",
+      "Choose Cleric, Sorcerer, or Wizard spellcasting and proficiencies at level 1. Cast as a member of that class of the drider's Hit Dice. Clerics of Lolth can choose Chaos, Destruction, Evil, or Trickery domains.",
+      "The bite starts at level 2 and deals 1d4 plus half the Strength bonus. Injury poison deals temporary Strength damage at first exposure and again after 1 minute. Both rolls are 1d3 at level 2, 1d4 at level 5, and 1d6 at level 9. Fortitude DC 10 + half the Hit Dice from class levels + Constitution modifier.",
+      "Daily spell-like abilities start at level 3. The list covers detection and divination, dancing lights, darkness, dispel magic, faerie fire, levitate, and suggestion. Caster level equals Hit Dice from class levels. Save DC 10 + Charisma modifier + spell level.",
+      "Spell resistance begins at level 6 and equals 4 + drider class level. Large size at level 8. Finishes at ECL 10, CR 7, 6d8 Hit Dice, BAB +4, and base saves +2/+2/+5."
+    ]
+  }
+]

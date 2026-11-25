@@ -1,0 +1,42 @@
+[
+  {
+    "artGroup": "batracine",
+    "file": "portraits/batracine.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6c1b809f7ee2406280889d75b41d8d589f59b748ba4a1dd8025d90779bf13344",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "caniquine",
+    "file": "portraits/caniquine.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6c34cb9cd21cd65a03328050d3dcdf8371b79fb3309c08a03a928f47b424f871",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "cinnavixen",
+    "file": "portraits/cinnavixen.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6d44d09c42b4f34c9f4eda925cb58914f3db4ac68b75d73b71efe24a9d848f15",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "echyan",
+    "file": "portraits/echyan.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ab83566d5bc3d712d7c3e555e72e90295c5c370e2923b5da3c617ed2d9a2b2f8",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "feliquine",
+    "file": "portraits/feliquine.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "58aab3d368d394522f56f15e688ac7920f056a34a24a55be71baa01d152b21ec",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

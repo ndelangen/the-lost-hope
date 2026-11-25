@@ -1,0 +1,26 @@
+[
+  {
+    "entry": "beast-79205e6f6ed4aa75fe8e1438",
+    "version": "2f116be171185fb92041fff3",
+    "name": "Giant Bombardier Beetle",
+    "file": "images/adnd2e-monstrous-manual-beetles/giant-bombardier-beetle.png",
+    "sha256": "35fe5912f0a2078f502f3d466b1c38d25f5f8cabc83176103b40cb53058fac0d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-59cf33ee1389332fc671c978",
+    "version": "d6a041ce4b5c84be556aab74",
+    "name": "Giant Boring Beetle",
+    "file": "images/adnd2e-monstrous-manual-beetles/giant-boring-beetle.png",
+    "sha256": "4d9d8a2188ccef844c5924c8170a1ff91954519e82f6ec63c5370a7806547269",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-901b840e24b69c4ac17d622a",
+    "version": "128550d49eb7102ec0b81133",
+    "name": "Giant Fire Beetle",
+    "file": "images/adnd2e-monstrous-manual-beetles/giant-fire-beetle.png",
+    "sha256": "6a2e7df77874482eb3d551f80c67824987ad88000f9bd71cdcb07cf34a891d5c",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Inspired (Hashalaq variant)",
+    "imageKey": "monster:inspired-hashalaq-variant",
+    "kind": "monster",
+    "type": "Humanoid",
+    "publication": "Eberron: Rising from the Last War",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/489163-inspired-hashalaq-variant",
+    "challenge": "2",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/7725/670/1000/1000/637091627747750595.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/489163-inspired-hashalaq-variant",
+    "slug": "inspired-hashalaq-variant",
+    "entry": "monster-f6127dc6ef3f34914c570766",
+    "version": "1a8d963fef0da057b1ad1335",
+    "generated": true,
+    "primaryPortraitSha256": "38557a23517ec3a43594d294e85accaaf4e9e244a98e0aafc13c8c5cd43405d7",
+    "status": "Stat block",
+    "appearance": "An elegant, human quori vessel carrying a crysteel dagger.",
+    "habitats": [
+      "Riedra",
+      "Sarlona",
+      "Khorvaire"
+    ]
+  },
+  {
+    "name": "Inspired (Kalaraq variant)",
+    "imageKey": "monster:inspired-kalaraq-variant",
+    "kind": "monster",
+    "type": "Humanoid",
+    "publication": "Eberron: Rising from the Last War",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/489171-inspired-kalaraq-variant",
+    "challenge": "2",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/7725/666/1000/1000/637091627495250996.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/489171-inspired-kalaraq-variant",
+    "slug": "inspired-kalaraq-variant",
+    "entry": "monster-93e98b283311a7448f95a911",
+    "version": "e405ea4225fdcc97c230c702",
+    "generated": true,
+    "primaryPortraitSha256": "ae6664e8446952baab6fbe91ff2fe12f486184c8cc76e5d49e5804f1c0b86269",
+    "status": "Stat block",
+    "appearance": "A watchful, human quori vessel carrying a crysteel dagger.",
+    "habitats": [
+      "Riedra",
+      "Sarlona",
+      "Khorvaire"
+    ]
+  },
+  {
+    "name": "Inspired (Tsucora variant)",
+    "imageKey": "monster:inspired-tsucora-variant",
+    "kind": "monster",
+    "type": "Humanoid",
+    "publication": "Eberron: Rising from the Last War",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/489176-inspired-tsucora-variant",
+    "challenge": "2",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/7725/662/1000/1000/637091627255239234.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/489176-inspired-tsucora-variant",
+    "slug": "inspired-tsucora-variant",
+    "entry": "monster-65ab34fd5e76dc4800abd51b",
+    "version": "b708d2d558151bfc9dda37bd",
+    "generated": true,
+    "primaryPortraitSha256": "4ba639c11d555f9009f825f045779822c63f521958b4f4391fe305a520c237a7",
+    "status": "Stat block",
+    "appearance": "A severe, human quori vessel carrying a crysteel dagger.",
+    "habitats": [
+      "Riedra",
+      "Sarlona",
+      "Khorvaire"
+    ]
+  }
+]

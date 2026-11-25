@@ -1,0 +1,145 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Beholder (Variant Abilities)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/beholder-variant-abilities/source-base-creature.webp",
+    "artist": "Base creature illustration: Beholder · Monster Manual (2014)",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Beholder.webp",
+    "kind": "illustration",
+    "sha256": "d2a83461b5a51675b2fb20ae05075cdf818b619bd3b93d495165b843a2dcd33a"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Mind Flayer Lich (Illithilich)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/mind-flayer-lich-illithilich/source-base-creature.webp",
+    "artist": "Base creature illustration: Mind Flayer · Monster Manual (2014)",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Mind%20Flayer.webp",
+    "kind": "illustration",
+    "sha256": "df027938945dd850320926f68e4984bbfde3b6b02b159d172071b868d78a4697"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Anathema (Acid Slime)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-anathema-acid-slime/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Anathema · Dave Dorman",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Anathema.webp",
+    "kind": "illustration",
+    "sha256": "7364af4290c385db53ed45bf3cff76ea52b1a3242271e08675ac54f6c4c775d2"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Anathema (Chameleon Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-anathema-chameleon-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Anathema · Dave Dorman",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Anathema.webp",
+    "kind": "illustration",
+    "sha256": "7364af4290c385db53ed45bf3cff76ea52b1a3242271e08675ac54f6c4c775d2"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Anathema (Shed Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-anathema-shed-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Anathema · Dave Dorman",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Anathema.webp",
+    "kind": "illustration",
+    "sha256": "7364af4290c385db53ed45bf3cff76ea52b1a3242271e08675ac54f6c4c775d2"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Broodguard (Chameleon Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-broodguard-chameleon-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Broodguard · Christopher Burdett",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Broodguard.webp",
+    "kind": "illustration",
+    "sha256": "c963f06cf653e53c49cb7fcdf86f8651e22f01bb07e473b6f9a9ba940fa79337"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Broodguard (Shed Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-broodguard-shed-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Broodguard · Christopher Burdett",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Broodguard.webp",
+    "kind": "illustration",
+    "sha256": "c963f06cf653e53c49cb7fcdf86f8651e22f01bb07e473b6f9a9ba940fa79337"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Mind Whisperer (Chameleon Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-mind-whisperer-chameleon-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Mind Whisperer · Daarken",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Mind%20Whisperer.webp",
+    "kind": "illustration",
+    "sha256": "495799f4012dfd5c6f883bce83aabc98fbd753c4dfd2c5c54bbffff0146b5c95"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Mind Whisperer (Shed Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-mind-whisperer-shed-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Mind Whisperer · Daarken",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Mind%20Whisperer.webp",
+    "kind": "illustration",
+    "sha256": "495799f4012dfd5c6f883bce83aabc98fbd753c4dfd2c5c54bbffff0146b5c95"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Nightmare Speaker (Chameleon Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-nightmare-speaker-chameleon-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Nightmare Speaker · Mark Behm",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Nightmare%20Speaker.webp",
+    "kind": "illustration",
+    "sha256": "6374379327c6bdeec1c073ee911fd4d7d7c2a8cef6e532f7d0b522f8c7604090"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Nightmare Speaker (Shed Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-nightmare-speaker-shed-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Nightmare Speaker · Mark Behm",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Nightmare%20Speaker.webp",
+    "kind": "illustration",
+    "sha256": "6374379327c6bdeec1c073ee911fd4d7d7c2a8cef6e532f7d0b522f8c7604090"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Pit Master (Chameleon Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-pit-master-chameleon-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Pit Master · Daarken",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Pit%20Master.webp",
+    "kind": "illustration",
+    "sha256": "b4747691200cc084ee8af95a328aa51ef98059c9dbaf8e0c225bca24158e34af"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yuan-ti Pit Master (Shed Skin)",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yuan-ti-pit-master-shed-skin/source-base-creature.webp",
+    "artist": "Base creature illustration: Yuan-ti Pit Master · Daarken",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Yuan-ti%20Pit%20Master.webp",
+    "kind": "illustration",
+    "sha256": "b4747691200cc084ee8af95a328aa51ef98059c9dbaf8e0c225bca24158e34af"
+  }
+]

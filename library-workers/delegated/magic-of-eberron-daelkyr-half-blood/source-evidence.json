@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Daelkyr Half-Blood",
+    "kind": "species",
+    "publication": "Magic of Eberron (2005)",
+    "edition": "3.5 edition",
+    "book": "Magic of Eberron",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Bruce R. Cordell",
+      "Stephen Schubert",
+      "Chris Thomasson"
+    ],
+    "firstPrinting": "October 2005",
+    "isbn": "978-0-7869-3696-0",
+    "printedPages": {
+      "playableSpecies": [
+        37,
+        38,
+        39
+      ],
+      "illustration": [
+        40
+      ],
+      "symbiontMastery": [
+        51
+      ],
+      "gauntlet": [
+        155,
+        156
+      ],
+      "scarab": [
+        157,
+        158
+      ]
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "7383b2ef364e3783e9ee6376f3692b53e259a0c3d813847b52a21e777810db46",
+    "symbiontTraits": "https://anyflip.com/groks/gypc/basic/301-325",
+    "sourceDistinctions": [
+      "Symbiont Mastery adds 2 host HP per attachment and +4 to conflict saves, with no automatic bypass of Ego.",
+      "The throwing scarab provides one shard per round and no separate attack while attached. The damage dice follow the weapon entry and sample rogue.",
+      "The crawling gauntlet supplies a natural claw using host stats. Its standalone stat block is separate from the attached benefit."
+    ],
+    "entryId": "species-5f505394da743a432b3ba8a5",
+    "versionKey": "5e05b20e2f4320cbd8188d9d",
+    "slug": "daelkyr-half-blood",
+    "portraitSelection": "generated",
+    "portraitForm": "Lysa Fenwick, an original Daelkyr Half-Blood scout with a throwing scarab",
+    "npcExamples": [
+      "Lysa Fenwick",
+      "Deren Valehart"
+    ]
+  }
+]

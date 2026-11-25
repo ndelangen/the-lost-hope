@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Crocodile",
+    "file": "",
+    "selection": "generated",
+    "sha256": "19b6d852094ab83c8a47eb50bb4a30717cecb83aecd3ceaa8e558d96a34cceba",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Crocodile",
+    "file": "",
+    "selection": "generated",
+    "sha256": "e1694e63e4380a8a5cc04f35fd33daa4c4859269fe110b9527d385b669e1fe8c",
+    "width": 1254,
+    "height": 1254
+  }
+]

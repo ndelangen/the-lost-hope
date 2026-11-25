@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Wolf",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 12,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "printedPage": 373,
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 15,
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Darkvision 60 ft.. Languages none.",
+    "appearance": "A gray-brown wolf with pointed ears, a pale muzzle and a thick tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2025), 2024 rules, p. 373. https://www.dndbeyond.com/monsters/4775850-wolf",
+      "Traits": "Pack Tactics. The wolf has Advantage on attacks against a creature when at least one of the wolf's allies is within 5 ft. of that creature and the ally is not Incapacitated.",
+      "Actions": "Bite. Melee attack +4, reach 5 ft. On a hit, deal 5 (1d6 + 2) Piercing damage. A Medium or smaller creature hit by the bite falls Prone."
+    },
+    "skills": {
+      "Perception": 5,
+      "Stealth": 4
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 2,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -2
+    }
+  },
+  {
+    "name": "Brontosaurus",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Gargantuan beast, unaligned",
+    "ac": 15,
+    "hp": 121,
+    "hitDice": "9d20 + 27",
+    "printedPage": 139,
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "appearance": "A massive four-legged dinosaur with a long neck, small head and long tapering tail.",
+    "habitats": [],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo's Guide to Monsters, November 2016 first printing, p. 139.",
+      "Actions": "Stomp. Melee weapon attack +8, reach 20 ft., one target. On a hit, deal 27 (5d8 + 5) bludgeoning damage. The target falls prone on a failed DC 14 Strength saving throw.\nTail. Melee weapon attack +8, reach 20 ft., one target. On a hit, deal 32 (6d8 + 5) bludgeoning damage."
+    },
+    "savingThrows": {
+      "Con": 6
+    }
+  },
+  {
+    "name": "Cranium Rat",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny beast, lawful evil",
+    "ac": 12,
+    "hp": 2,
+    "hitDice": "1d4",
+    "printedPage": 133,
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Darkvision 30 ft.. Languages telepathy 30 ft..",
+    "appearance": "A single dark-furred rat with a bare pink tail and an exposed pink brain.",
+    "habitats": [
+      "Underdark",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo's Guide to Monsters, November 2016 first printing, p. 133.",
+      "Traits": "Telepathic Shroud. The rat is immune to effects that sense its emotions or read its thoughts. It is also immune to all divination spells.",
+      "Bonus actions": "Illumination. Use a bonus action to emit dim light in a 5-ft. radius from the brain or put out the light.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 1 piercing damage.",
+      "Cranium rat lore": "A rat separated from its swarm starts with Intelligence 15 and loses 1 point each day it remains apart, to a minimum of 4. Joining its original swarm or another swarm restores Intelligence to 15. A lone rat of low intelligence uses telepathy to communicate basic emotions and needs."
+    }
+  },
+  {
+    "name": "Deinonychus",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d8 + 8",
+    "printedPage": 139,
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "appearance": "A lean green dinosaur with a stiff tail, narrow jaws and curved claws.",
+    "habitats": [],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo's Guide to Monsters, November 2016 first printing, p. 139.",
+      "Traits": "Pounce. Move at least 20 ft. straight toward a creature and hit it with a claw attack on the same turn. The creature falls prone on a failed DC 12 Strength saving throw. If the target is prone, the deinonychus can make one bite attack against it as a bonus action.",
+      "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage.\nClaw. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) slashing damage."
+    },
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Dimetrodon",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "printedPage": 139,
+    "speed": "30 ft., swim 20 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 12,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "appearance": "A squat, long-tailed reptile with strong jaws and a tall rust-colored sail on its back.",
+    "habitats": [
+      "Coastal"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo's Guide to Monsters, November 2016 first printing, p. 139.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 9 (2d6 + 2) piercing damage."
+    },
+    "skills": {
+      "Perception": 2
+    }
+  }
+]

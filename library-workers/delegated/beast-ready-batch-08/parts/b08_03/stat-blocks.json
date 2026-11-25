@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Herathian Voat",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large (7 ft. tall), neutral",
+    "ac": 5,
+    "hp": null,
+    "hitDice": "7+3",
+    "hpRule": "Roll 7d8 + 3.",
+    "speed": "10 (18 on all fours for up to 3 rounds)",
+    "thac0": 13,
+    "xp": 2000,
+    "xpRule": "2,000 XP, plus 1,000 per Legacy.",
+    "otherStatistics": "Descending AC. Semi-intelligent (2–4). Fearless morale 20. Magic resistance nil. Treasure nil.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A hairless, tailless, large-eyed rodent with loose pale skin, thin clawed arms, and huge feet.",
+    "habitats": [
+      "Forest",
+      "Plains",
+      "Yazak Steppes",
+      "Herath",
+      "Western Hule"
+    ],
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Voat, Herathian, printed pp. 116–117. ",
+      "Attacks": "Three attacks per round at THAC0 13: two claw attacks for 1d6 each and one bite for 2d10.",
+      "Special rules": "Screech. Once per turn, force all opponents within 30 yards to save vs. paralyzation. A failure stuns them for 1d4 rounds and they lose all attacks.\nRegeneration. Recover 1 HP per turn.\nCombat behavior. Its first target is usually the largest opponent. It turns on an opponent who deals repeated heavy damage or deals more than 15 HP of damage in a round. The voat continues fighting until its opponents are dead.",
+      "Red Curse and Legacies": "It gains multiple Region 1 Legacies and does not require cinnabryl. The appendix names Amber Paralysis, War Cry, and Weapon Hand as common, with no fixed selection or number. The general appendix rule allows Legacies three times per day for established powers, with immediate use when activated.\nAmber Paralysis. Choose a target within 10 yards. On a failed save vs. paralyzation, it is immobilized for 2 rounds per level. The save is penalized by 1 per 3 caster HD, per the appendix.\nWar Cry. Instantaneous, 10 yards per caster HD, maximum 150 yards. A failed save vs. paralyzation prevents attacking for 1d4 rounds. Fear immunity offers no protection. This Legacy is separate from the native 30-yard screech.\nWeapon Hand. One hand becomes a melee weapon that deals 1d8 damage, for 1 round per level.",
+      "Encounter ecology": "Rare. Pack, with 1d3 appearing. Active at any time, carnivorous. It feeds on juhrions and neshezu where available. It roosts and mates in Herath in spring before returning to the Yazak Steppes and western Hule."
+    }
+  },
+  {
+    "name": "Jorri",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Small (3–4 ft. long in table), neutral",
+    "ac": 5,
+    "hp": null,
+    "hitDice": "2+1",
+    "hpRule": "Roll 2d8 + 1.",
+    "speed": "10, swim 18",
+    "thac0": 19,
+    "xp": 175,
+    "otherStatistics": "Descending AC. Average intelligence (8–10), average morale 8–10. No special defenses or magic resistance. Treasure (Q). Speaks broken Common.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An otterlike swimmer with gray-black spotted fur, white whiskers, broad webbed hind feet, and a crescent tail.",
+    "habitats": [
+      "Saltwater",
+      "Seashore",
+      "Reefs"
+    ],
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Jorri, printed pp. 57–58. ",
+      "Attacks": "Five attacks per round at THAC0 19: each foreclaw strikes twice for 1d2 per hit, and the bite deals 1d3 on a hit.",
+      "Special rules": "Lock jaws. On a successful bite, the jorri hangs on. The target negates the lock with a successful Bend Bars roll if it can get its hands on the jaws. The bite deals no further damage while locked. The target loses its Dexterity adjustment to AC and the jorri continues its foreclaw attacks.",
+      "Red Curse and Legacies": "Only 10% acquire a Legacy. A jorri with a Legacy needs cinnabryl to avoid Affliction, and most go without it. The entry assigns no default Legacy.",
+      "Encounter ecology": "Rare. Family, 1d4 + 1 appearing. Day active. Eats fish and mollusks, cracks shells with stones, and dens close to the sea. It helps stranded swimmers and warns ships away from dangerous waters. The encounter table lists XP 175."
+    }
+  },
+  {
+    "name": "Juhrion",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large (10+ ft. tall), neutral",
+    "ac": 5,
+    "hp": null,
+    "hitDice": "5+5",
+    "hpRule": "Roll 5d8 + 5.",
+    "speed": "12 (18 for short combat bursts)",
+    "thac0": 15,
+    "xp": 650,
+    "otherStatistics": "Descending AC. Animal intelligence 1. Elite morale 13–14. Special defenses nil in table. Magic resistance nil. Treasure W, X, Y. Immune to vermilia per ecology text.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A huge, hairless bear-shaped animal with thick reddish leatherlike skin, large teeth, and short hooked harpoon-shaped claws.",
+    "habitats": [
+      "Any terrain",
+      "Caves",
+      "Thickets"
+    ],
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Juhrion, printed pp. 58–59. ",
+      "Attacks": "Three attacks per round at THAC0 15: two claw attacks for 1d8 each and a bite for 2d6.",
+      "Special rules": "Rush. When prey is visible and less than 10 yards away, the juhrion drops stealth and charges. Movement rises from 12 to 18 for short fighting bursts.\nMaul. If both claws hit the same creature in a single round, the juhrion pins it under its weight and keeps clawing and biting. The victim loses any Dexterity bonus to AC, can use no weapon larger than a dagger against the juhrion, and has its casting fouled. Legacies still function if they need no movement. A successful Bend Bars roll frees the victim.\nVermilia. A claw attack carries the printed 50% chance of infection. The referenced Parasite entry allows living creatures a save vs. poison to avoid infection. Undead are infected automatically on exposure and can save vs. death magic each day, with a penalty equal to that day’s vermilia damage, to avoid the damage for that day. Apply −1 per Legacy on saves associated with infection. The infection deals 1 HP on day one, then 2, 4, 8 and so on, doubling each day until cured. Cure disease or heal is printed as treatment. It counts as a +2 magical weapon when damaging undead or magical creatures. The juhrion itself is immune.",
+      "Red Curse and Legacies": "It suffers the physical detriment of Armor Legacy without manifesting the power. Cinnabryl could protect it from Affliction but is seldom available to it.",
+      "Encounter ecology": "Uncommon. Family, 1d4 appearing. Day active, omnivorous, prefers rodents, cinnavixens, and voats. Keeps a den in a cave or thicket, seldom ranges more than a few miles from it, and can range over 10 square miles when prey is scarce. Attacks Inheritors on sight and can smell them from up to 1 mile away."
+    }
+  },
+  {
+    "name": "Lupasus",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large (8 ft. long, 16-ft. wingspan), neutral",
+    "ac": 6,
+    "hp": null,
+    "hitDice": "5+5",
+    "hpRule": "Roll 5d8 + 5.",
+    "speed": "18, fly 36 (C, or D mounted)",
+    "thac0": 15,
+    "xp": 420,
+    "xpRule": "420 XP, or 650 XP with a Legacy.",
+    "otherStatistics": "Descending AC. Low intelligence (5–7). Elite morale 13–14. Treasures, special defenses, and magic resistance nil.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A powerful gray winged wolf with a bushy tail, pale underside, and broad furred wings.",
+    "habitats": [
+      "Yazak Steppes",
+      "Steppes",
+      "Prairies",
+      "Forests",
+      "Mountains"
+    ],
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Lupasus, printed pp. 68–69. ",
+      "Attacks": "One attack at THAC0 15 for 2d6 damage.",
+      "Special rules": "Flight. It can carry up to 200 lb. in flight. Unencumbered, save vs. paralyzation after each hour of flight. A failed save forces half an hour of rest per two previous hours of flight. A rider lowers maneuverability from C to D and calls for a save every half hour. After losing 50% or more of its HP, it cannot fly. It can glide until it has lost 75% or more. Wings are covered with fine fur and have the same vulnerability to fire as the rest of the body. Under the appendix’s maneuverability rules, C and D must maintain at least half their speed to stay aloft. C can turn up to 90 degrees per round and attack once every two rounds. D can turn up to 60 degrees and make one pass every three rounds. The lupasus often attacks from the ground.",
+      "Red Curse and Legacies": "Lupasi in cursed areas acquire Legacies and need cinnabryl. Their Affliction is usually mild. The entry assigns no fixed Legacy.",
+      "Encounter ecology": "Uncommon. Pack, 4d4 appearing. Active any time, carnivorous. Native to the Yazak Steppes north of Renardy. Dens in caves, thickets, and holes. An allied lupin knight must live with a pack for one full year to befriend it. Lupasi hunt dangerous prey cooperatively."
+    }
+  },
+  {
+    "name": "Marine Cat",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Small (2 ft. long), neutral",
+    "ac": 6,
+    "hp": null,
+    "hitDice": "2+1",
+    "hpRule": "Roll 2d8 + 1.",
+    "speed": "12",
+    "thac0": 19,
+    "xp": 120,
+    "xpRule": "120 XP, or 175 XP with a Legacy.",
+    "otherStatistics": "Descending AC. Semi-intelligent (2–4). Average morale 8–10. No magic resistance. Treasure nil.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sleek dark shipboard cat with bright green eyes, subtle black-brown stripes, and a long curled tail.",
+    "habitats": [
+      "Shipboard",
+      "Docks",
+      "Sailing vessels"
+    ],
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Cat, Marine, printed pp. 16–17. ",
+      "Attacks": "Three attacks per round at THAC0 19: two foreclaws for 1 HP of damage each and one bite for 1d2.",
+      "Special rules": "Rear claws. If the attacker is holding the cat and both foreclaw attacks hit, the cat may use its two rear claws in that round. Each deals 1d2 damage.\nSurprise. A marine cat is surprised only on a result of 1.",
+      "Red Curse and Legacies": "A rare marine cat is born with a water-oriented Legacy and has no cinnabryl requirement. The appendix names Swim and Breathe Water as examples. Swim, per the Campaign Book, lasts 2 rounds per level and gives swim movement 12 or raises an existing swim rate by 6. It gives neither underwater breathing nor improved underwater vision. Breathe Water lasts 2 rounds per level and allows water breathing. It gives no swim or vision benefit.",
+      "Encounter ecology": "Rare. Solitary, 1d2 appearing. Active any time, carnivorous. Leaves its sailing vessel for short dock trips, and normally avoids boarding a ship with its own marine cat. Feeds on rats, voats, and scraps, and sailors consider it lucky."
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "baseline": "03c17d4c30322aacbf8890975df0c20faa21e7f3",
+  "verifiedBeastVersions": 2,
+  "ruleset": "dnd-4e",
+  "profiles": [
+    {
+      "name": "Ambush Vine",
+      "level": "16",
+      "xp": "2800",
+      "versionKey": "0a667d06bb95857e538b32ff",
+      "existingApprovedPortraitSha256": "7c6fd06f0812896176014e4656437e30d5e0025ca6ad184b0e5b6259a62e9826",
+      "galleryImageCount": 1
+    },
+    {
+      "name": "Pseudodragon",
+      "level": "3",
+      "xp": "150",
+      "versionKey": "51786f0f47b97a643a702309",
+      "existingApprovedPortraitSha256": "41958751cd965326affa7ae34130a0ed4c3699d13bd54c22e310b5c2e8ad17bf",
+      "galleryImageCount": 3
+    }
+  ],
+  "habitatsAndAppearanceSearchable": true,
+  "originalGalleriesPreserved": true,
+  "otherPseudodragonPrintingsUnchanged": true
+}

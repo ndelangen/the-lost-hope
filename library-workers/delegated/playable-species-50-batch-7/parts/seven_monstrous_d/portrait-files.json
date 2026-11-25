@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Chuul",
+    "file": "portraits/chuul.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "6a8ae6191bfbfe63b296def841eec55ff9a1894f1f89016d95f479e7aaf81e5b"
+  },
+  {
+    "name": "Cloaker",
+    "file": "portraits/cloaker.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "bbed99fc71e2e4b301d055ec6a0509f194f4879cc7e615a2949440e1615e18c9"
+  },
+  {
+    "name": "Cockatrice",
+    "file": "portraits/cockatrice.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "7eb4d39f11acf71d537ba59ead1af490021b5bd43230270cc9ae033061bbccbc"
+  },
+  {
+    "name": "Couatl",
+    "file": "portraits/couatl.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "e3085aadd4b05db347488017b0e45ba6a63554d201a084470dcb2c5567bf850c"
+  }
+]

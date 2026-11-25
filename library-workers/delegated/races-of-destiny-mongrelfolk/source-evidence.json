@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Mongrelfolk",
+    "kind": "species",
+    "publication": "Races of Destiny (2004)",
+    "edition": "3.5 edition",
+    "book": "Races of Destiny",
+    "authors": [
+      "David Noonan",
+      "Eric Cagle",
+      "Aaron Rosenberg"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "December 2004",
+    "productCode": "620-17737-001-EN",
+    "isbn": "0-7869-3653-3",
+    "printedPages": {
+      "entryAndAppearance": 98,
+      "playableTraits": [
+        99,
+        100
+      ],
+      "ageAndSizeTables": 110
+    },
+    "pdfPages": {
+      "entryAndAppearance": 99,
+      "playableTraits": [
+        100,
+        101
+      ],
+      "ageAndSizeTables": 111
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "aeef7483692ab3c6495976fcf6e747ad76462aec5443bee33782e0922b7df835",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Eric Polak, p. 98 unnamed Mongrelfolk rogue",
+    "sourceDistinctions": [
+      "The table of contents points to p. 97. The entry starts on p. 98, and the traits span pp. 99–100.",
+      "Emulate Race automatically meets humanoid race restrictions on magic items. Only nonhumanoid emulation through Use Magic Device gets the +4 racial bonus.",
+      "Sound Imitation has a fixed DC 16 Will save. Diffuse Blood applies to eligible race-keyed spells and saves.",
+      "The older 2003 Fiend Folio monster and the 2014 fifth-edition Curse of Strahd monster are separate profiles."
+    ],
+    "entryId": "species-f3f96e7947bfb1b3277b5490",
+    "versionKey": "11814dd076eb175df5c1b492",
+    "slug": "mongrelfolk",
+    "portraitSelection": "generated",
+    "portraitForm": "Mara Fir Vale, an original Mongrelfolk Rogue",
+    "npcExamples": [
+      "Mara Fir Vale",
+      "Tavin Nek Reed"
+    ]
+  }
+]

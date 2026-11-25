@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Elk",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 10,
+    "hp": 15,
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Fixed Perception 10 and Stealth 10. No listed special senses. No listed languages.",
+    "appearance": "A tall, heavy-bodied deer with a shaggy brown neck, pale rump, and long legs. A bull carries branching antlers.",
+    "habitats": [
+      "Forests",
+      "Grasslands",
+      "Hills",
+      "Meadows"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 357. XP comes from the CR table on p. 229. ",
+      "Ability modifiers": "STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −2.",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target, then hit it with Ram on the same turn to deal another 3 (1d6) bludgeoning damage. A creature hit must also pass a DC 12 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit for 5 (1d6 + 2) bludgeoning damage.\nKick. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit for 4 (1d4 + 2) bludgeoning damage. The target makes a DC 12 Strength save or is pushed up to 10 ft. away from the elk."
+    }
+  },
+  {
+    "name": "Elk",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed languages or special senses.",
+    "appearance": "A tall, heavy-bodied deer with a shaggy brown neck, pale rump, and long legs. A bull carries branching antlers.",
+    "habitats": [
+      "Forests",
+      "Grasslands",
+      "Hills",
+      "Meadows"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), printed p. 322. https://www.dndbeyond.com/monsters/16857-elk",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target, then hit it with Ram on the same turn to deal another 7 (2d6) damage. A creature hit must also pass a DC 13 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit, 5-ft. reach, one target. Hit for 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit, 5-ft. reach, one prone creature. Hit for 8 (2d4 + 3) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Owl",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "5 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 13 and Stealth 13. Darkvision 120 ft. No listed languages.",
+    "appearance": "A small barn owl with a pale heart-shaped face, dark eyes, mottled tawny wings, and hooked talons.",
+    "habitats": [
+      "Grasslands",
+      "Farmland",
+      "Woodland edges",
+      "Barns"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 365. XP comes from the CR table on p. 229. ",
+      "Ability modifiers": "STR −4, DEX +1, CON −1, INT −4, WIS +1, CHA −2.",
+      "Traits": "Flyby. The owl can leave an enemy’s reach in flight without provoking an opportunity attack from that enemy.\nHeightened Hearing and Sight. Use Perception 18 when detecting by sight or hearing.\nQuiet Wings. Use Stealth 18 while flying.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit, 5-ft. reach, one creature. Hit for 3 (1d4 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Pony",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 10,
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Fixed Perception 10 and Stealth 10. No listed special senses. No listed languages.",
+    "appearance": "A compact, broad-backed horse with short sturdy legs, a chestnut coat, a pale mane, and a white facial blaze.",
+    "habitats": [
+      "Pastures",
+      "Farms",
+      "Stables"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 366. XP comes from the CR table on p. 229. ",
+      "Ability modifiers": "STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −2.",
+      "Traits": "Draft Animal. Read the trait under Pony as allowing it to push, drag, or lift up to three times its carrying capacity. The printed sentence names a draft horse. The pony’s block supplies no carrying capacity in pounds.",
+      "Actions": "Hooves. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit for 4 (1d4 + 2) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Quipper",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 8,
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 8 and Stealth 10. Darkvision 60 ft. No listed languages.",
+    "appearance": "A small, deep-bodied predatory fish with silvery green scales, a copper belly, and triangular teeth in a jutting lower jaw.",
+    "habitats": [
+      "Underwater",
+      "Rivers",
+      "Lakes",
+      "Subterranean water"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 366. XP comes from the CR table on p. 229. ",
+      "Ability modifiers": "STR −4, DEX +0, CON +0, INT −5, WIS −2, CHA −4.",
+      "Traits": "Blood Frenzy. The quipper has advantage on melee attack rolls against creatures below their maximum HP.\nHeightened Smell. Use Perception 13 when detecting by smell.\nWater Breathing. The quipper breathes only underwater.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one creature. Hit for 2 (1d4) piercing damage."
+    }
+  }
+]

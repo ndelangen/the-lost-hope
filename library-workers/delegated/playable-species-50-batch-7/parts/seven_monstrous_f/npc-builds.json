@@ -1,0 +1,175 @@
+{
+  "builds": [
+    {
+      "id": "mr-kest-ashpad",
+      "title": "Kest Ashpad, Displacer Beast Fighter 5",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 2 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 14,
+      "hp": 44,
+      "hitDice": "5d10+10",
+      "initiative": 2,
+      "speed": "30 ft. walk",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +7",
+        "Insight +4",
+        "Intimidation +2",
+        "Perception +4"
+      ],
+      "senses": "Passive Perception 14",
+      "languages": "Common understood, read, and written. Cannot speak.",
+      "traits": [
+        "Champion fighter. Proficiency +3. Saving throws Strength +7 and Constitution +5. At level 4, increases Strength from 16 to 18.",
+        "Unarmored and carries no gear. Natural AC 12 + Dexterity 2. The Defense fighting style requires worn armor and gives no bonus with this loadout.",
+        "Soldier background. Watches the bridge for an old patrol. Kest can mark Common letters by scratching soft ground. He has no hands and cannot supply verbal spell components or use hand-operated equipment.",
+        "Improved Critical. Tentacle strikes are unarmed melee weapon attacks and score a critical hit on a natural 19 or 20."
+      ],
+      "actions": [
+        "Tentacle. Melee +7 to hit, reach 5 ft., one target. Hit 1d4 + 4 bludgeoning plus 1d4 piercing. Kest attacks twice with the Attack action.",
+        "Displacement. Action, concentration up to 1 minute. Attacks against Kest have disadvantage. Attackers that can fight without sight or see through illusions ignore this effect. Once per short or long rest.",
+        "Action Surge. Take one additional action on Kest's turn. Once per short or long rest.",
+        "Second Wind. Bonus action. Regain 1d10 + 5 HP. Once per short or long rest."
+      ],
+      "tactics": "Kest scratches a warning where travelers can see it. If they press on, he opens with Displacement and saves Action Surge for a turn when he needs to attack twice and still take another action."
+    },
+    {
+      "id": "mr-brack-slatewake",
+      "title": "Brack Slatewake, Dragon Turtle Barbarian 3",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Dragon",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "3d12+6",
+      "initiative": 2,
+      "speed": "20 ft. walk, 40 ft. swim",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13",
+      "languages": "Aquan, Draconic",
+      "traits": [
+        "Path of the Berserker. Proficiency +2. Saving throws Strength +5 and Constitution +4. His shell sets AC at 14 + Dexterity 2. Barbarian Unarmored Defense would give AC 14 as a separate calculation.",
+        "Sailor background. Carries no gear and lacks hands for weapons, shields, or tools. Uses the standard breath-holding rules and can hold his breath for 3 minutes.",
+        "Reckless Attack. On the first attack of the turn, Brack can gain advantage on Strength-based melee weapon attacks that turn and give attackers advantage against him until the start of his next turn.",
+        "Danger Sense. Advantage on Dexterity saves against visible effects while able to see and hear and while not incapacitated."
+      ],
+      "actions": [
+        "Bite. Melee +5 to hit, reach 5 ft., one target. Hit 1d8 + 3 slashing or 1d8 + 5 while raging.",
+        "Steam Breath. Action, 15-ft. cone. Each creature makes a DC 12 Constitution save, taking 2d6 fire on failure or half on success. Constitution is this build's table ruling for the printed omission. Once per short or long rest.",
+        "Rage. Bonus action, up to 1 minute, 3 uses per long rest. Advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Ends early if unconscious or if his turn ends without attacking a hostile creature since his last turn or taking damage since then. He cannot cast or concentrate on spells while raging. He can also end the rage as a bonus action.",
+        "Frenzy. Choose when entering a rage. On later turns during that rage he can make one bite as a bonus action. When that rage ends, gain one level of exhaustion."
+      ],
+      "tactics": "Brack speaks from the shallows before anyone touches the salvage. If challenged, he uses the steam while rivals cluster and closes to bite. He saves frenzy for a fight where retreat would strand the ferry crew."
+    },
+    {
+      "id": "mr-latch-lockbox",
+      "title": "Latch, Mimic Monk 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 2,
+      "speed": "25 ft. walk, including Unarmored Movement",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Deception +1",
+        "Insight +3",
+        "Stealth +4"
+      ],
+      "senses": "Passive Perception 11",
+      "languages": "Common",
+      "traits": [
+        "Monk level 2. Proficiency +2. Saving throws Strength +5 and Dexterity +4. Natural armor 11 + Dexterity 2 and monk Unarmored Defense 10 + Dexterity 2 + Wisdom 1 each give AC 13.",
+        "Criminal background. No carried gear. Its lockbox shape is part of its body. It cannot wield weapons, wear armor, carry shields, or use equipment that needs hands.",
+        "False Appearance. Concentrate for 1 minute while motionless in object form to look ordinary as long as it stays still. Attack rolls against creatures it grapples have advantage.",
+        "Ki. Two points, both return on a short or long rest with at least 30 minutes of meditation. For 1 ki, Patient Defense gives a bonus-action Dodge, or Step of the Wind gives a bonus-action Disengage or Dash and doubles jump distance for the turn."
+      ],
+      "actions": [
+        "Pseudopod. Melee +5 to hit, reach 5 ft., one target. Hit 1d8 + 3 bludgeoning. When it hits with this strike as part of the Attack action, it can spend a bonus action to attempt a normal grapple with Athletics +5 and a target of Large size or smaller.",
+        "Bite. Melee +5 to hit, reach 5 ft., one target. Hit 1d4 + 3 piercing plus 1d4 acid.",
+        "Martial Arts and Flurry of Blows. After an Attack action with an unarmed strike, Latch can make one conventional body check as a bonus action, or spend 1 ki immediately after the Attack action for two body checks instead. They use +5 to hit, 5-ft. reach, and 1d4 + 3 bludgeoning each. The supplement requires conventional unarmed strikes for these bonus attacks. Latch cannot also spend that bonus action to grapple.",
+        "Adhesive. In object form, react when an object or creature of Huge size or smaller touches Latch. It sticks to the target. Checks to escape this grapple have disadvantage. For a creature attempting escape, oppose its Athletics or Acrobatics with Latch's Athletics +5.",
+        "Shapechanger. Use an action to switch between an ordinary lockbox and its true amorphous form. All statistics carry over. Reverts when it dies."
+      ],
+      "tactics": "Latch holds still as the lockbox and waits for someone to touch it. If it needs to keep a creature close, it uses Adhesive or follows a successful pseudopod strike with a grapple. It uses blows only when holding the target matters less."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Displacer Beast",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Kest Ashpad",
+      "size": "Medium",
+      "build": "mr-kest-ashpad",
+      "role": "Silent bridge patrol",
+      "motive": "Find the missing member of his old watch.",
+      "hook": "Kest scratched the same three letters into every bollard along the bridge. The only person who recognizes the initials has just tried to cross."
+    },
+    {
+      "species": "Dragon Turtle",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Brack Slatewake",
+      "size": "Medium",
+      "build": "mr-brack-slatewake",
+      "role": "Ferry recovery diver",
+      "motive": "Reclaim a lost rigging assembly before the spring current moves it.",
+      "hook": "Brack offers to guide the crew to the wreck. He insists they set the ferry crew's wages aside before the salvagers divide the haul."
+    },
+    {
+      "species": "Mimic",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Latch",
+      "size": "Medium",
+      "build": "mr-latch-lockbox",
+      "role": "Former contraband guard",
+      "motive": "Get the smugglers to admit which lockbox held the missing medicine.",
+      "hook": "A dusty lockbox asks for a receipt in a steady voice. It says the owner who taught it that phrase is still owed a favor."
+    }
+  ]
+}

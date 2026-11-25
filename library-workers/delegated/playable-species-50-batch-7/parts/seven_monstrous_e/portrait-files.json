@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Crawling Claw",
+    "file": "portraits/crawling-claw.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c6cb3b63ce3e9e96fc7205db080b3137377e4615345addd489fc6cb1708c0c23",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Cyclops",
+    "file": "portraits/cyclops.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "65a8f4108dce31e1ab249c66933699708ae5a89056c8bd47182206a08865e94e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Darkmantle",
+    "file": "portraits/darkmantle.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "67884a99502369c1d2362aaaa61b2d18017853e214a226e92239c263e8c0a229",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Demilich",
+    "file": "portraits/demilich.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c5875c41cf5a0260f4ceea3959bf6893b5abf91089528696e4ca39a296790a4d",
+    "credit": "OpenAI ImageGen"
+  }
+]

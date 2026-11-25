@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Giant Eagle",
+    "file": "portraits/giant-eagle.png",
+    "sha256": "623493007f80a0e39ef475f9479f9646a51fa0dd251dfc5a056be688115feb04",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Frog",
+    "file": "portraits/giant-frog.png",
+    "sha256": "f7496e48274bd26740a304f6158649779cc977995bd2afe1dab61a4f626dd6b3",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Hyena",
+    "file": "portraits/giant-hyena.png",
+    "sha256": "1db94ba449bc1845cbbeab7cb848072acb5b956485d1fdeb2341e4f2eab5513c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Octopus",
+    "file": "portraits/giant-octopus.png",
+    "sha256": "0610ee160517110cdb777902d4fa4af782588b95382fbc9e81cae2be72b82f79",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

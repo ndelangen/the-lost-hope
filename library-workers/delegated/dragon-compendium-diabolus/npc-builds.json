@@ -1,0 +1,113 @@
+{
+  "builds": [
+    {
+      "id": "diabolus-dry-causeway-keeper-35e",
+      "title": "Diabolus dry causeway keeper, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+      "size": "Medium",
+      "type": "Outsider (Chaotic, Native)",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 6,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Intimidate +4 (+6 against animals or humanoids)",
+        "Jump +5"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Diabolan, Diaboli tail code",
+      "traits": [
+        "Chaotic good. Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +3. Fortitude +4, Reflex +2, Will +1. Against spells and spell-like effects: Fortitude +6, Reflex +4, Will +3. Armor check penalty −1.",
+        "Improved Initiative adds +4. Weapon Focus (trident) adds +1 to melee and thrown trident attacks. Diaboli treat a trident as simple.",
+        "Tail poison has five doses per day from Constitution 14 and is delivered by a successful tail hit. Use the initial save only. The Fortitude save DC is 12."
+      ],
+      "actions": [
+        "Trident +4 melee or +4 thrown, 1d8+2 piercing, critical ×2, 5-ft. melee reach or 10-ft. range increment.",
+        "Tail −2 melee, 1d4+1 piercing, critical ×2, 5-ft. reach. Full attack with trident +4 and tail −2. The tail attack uses the secondary penalty.",
+        "On a tail hit with a dose available, spend it and apply Fortitude DC 12. Failure sickens for 2d4 rounds. The tail still deals its normal damage if there is no dose left."
+      ],
+      "tactics": "Zareth wants to get a loaded handcart across the causeway before the water rises. He can warn another tail-code speaker about a loose stone. If something attacks the cart, he uses his trident from the narrow approach and adds the tail if he can stand and make a full attack."
+    },
+    {
+      "id": "diabolus-echo-stair-interpreter-35e",
+      "title": "Diabolus echo stair interpreter, Sorcerer 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+      "size": "Medium",
+      "type": "Outsider (Chaotic, Native)",
+      "ac": 12,
+      "hp": 5,
+      "hitDice": "1d4+1",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 16
+      },
+      "skills": [
+        "Bluff +7",
+        "Concentration +5",
+        "Spellcraft +5"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Diabolan, Diaboli tail code, Common",
+      "traits": [
+        "Chaotic good. Unarmored, Dexterity +2. Touch 12, flat-footed 10. BAB +0, grapple +0. Fortitude +1, Reflex +2, Will +2. Against spells and spell-like effects: Fortitude +3, Reflex +4, Will +4.",
+        "Spell Focus (Enchantment) adds +1 to enchantment save DCs. Sorcerer caster level 1. Spontaneous casting, five 0-level slots and four 1st-level slots per day. Carries a spell component pouch and has no familiar.",
+        "Tail poison has four doses per day from Constitution 12. Fortitude DC 11 against the initial sickened effect. Vessa can translate tail code into Common."
+      ],
+      "actions": [
+        "Trident +0 melee or +2 thrown, 1d8 piercing, critical ×2, 5-ft. melee reach or 10-ft. range increment. Weapon Familiarity makes the trident simple.",
+        "Tail −5 melee, 1d4 piercing, critical ×2, 5-ft. reach. Full attack with trident +0 and tail −5. A tail hit with a dose spends it and causes 2d4 rounds of sickness unless the target makes Fortitude DC 11.",
+        "Charm person (1st): standard action, one Humanoid within 25 ft., Will DC 15 negates, duration 1 hour. Spell resistance applies. A target threatened or attacked by Vessa or her allies gets +5 on the save.",
+        "Shield (1st): standard action, personal, 1 minute. AC becomes 16 and flat-footed AC 14. Ordinary touch AC remains 12. Stops magic missile and protects against incorporeal touch.",
+        "Cantrips known: daze (one Humanoid up to 4 HD within 25 ft., Will DC 14 negates, spell resistance applies, one round), detect magic, light, and mage hand."
+      ],
+      "tactics": "Vessa is relaying silent warnings along a stair where voices carry. She translates for surface travellers. She casts shield if someone corners her, and would rather persuade a frightened humanoid to let her pass than stay to fight."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Diabolus",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Dragon Compendium, Volume I (2005)",
+      "name": "Zareth Flintmere",
+      "build": "diabolus-dry-causeway-keeper-35e",
+      "role": "Dry causeway keeper and Fighter.",
+      "motive": "Get the cart across before the water covers the loose paving.",
+      "hook": "Zareth waves the party toward the cart while he checks the narrow end of the causeway. Vessa can translate if needed."
+    },
+    {
+      "species": "Diabolus",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Dragon Compendium, Volume I (2005)",
+      "name": "Vessa Nettle",
+      "build": "diabolus-echo-stair-interpreter-35e",
+      "role": "Echo stair interpreter and Sorcerer.",
+      "motive": "Relay warnings without speaking in the passage.",
+      "hook": "Vessa can interpret a warning from the keeper across the landing and show the party which stair is open."
+    }
+  ]
+}

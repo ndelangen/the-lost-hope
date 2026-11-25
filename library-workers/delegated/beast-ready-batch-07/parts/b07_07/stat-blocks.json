@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Bat Swarm",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Diminutive Animal (Swarm), always neutral",
+    "ac": 16,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "5 ft. (1 square), fly 40 ft. (good)",
+    "cr": "2",
+    "initiative": 2,
+    "touchArmorClass": 14,
+    "flatFootedArmorClass": 12,
+    "baseAttackBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Fort": 3,
+      "Ref": 7,
+      "Will": 3
+    },
+    "otherStatistics": "Fortitude +3, Reflex +7, Will +3.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A flight of small brown bats with pointed wings, spread in a loose cluster.",
+    "habitats": [
+      "Temperate deserts"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersS.rtf, BAT SWARM. https://www.d20srd.org/srd/monsters/swarm.htm#batSwarm",
+      "Combat statistics": "Initiative +2. AC 16 (+4 size, +2 Dexterity), touch 14, flat-footed 12. Base attack +2, grapple none. Space 10 ft., reach 0 ft.",
+      "Attack": "Swarm. Automatically deal 1d6 damage to each creature whose space the swarm occupies at the end of its move. There is no attack roll or miss chance from cover or concealment.",
+      "Full attack": "Swarm. Automatically deal 1d6 damage to each creature whose space the swarm occupies at the end of its move. There is no attack roll or miss chance from cover or concealment.",
+      "Special attacks": "Distraction (Ex). A living creature that starts its turn in the swarm’s space must make a DC 11 Fortitude save or be nauseated for 1 round. The general subtype limits this to creatures vulnerable to the swarm’s damage. A nauseated creature can take only one move action per turn. Casting or concentrating on spells in the swarm requires a Concentration check at DC 20 + spell level. Skills demanding concentration require a DC 20 Concentration check.\nWounding (Ex). A living creature damaged by the swarm then loses 1 HP per round from bleeding. Additional wounds do not increase the rate. A DC 10 Heal check, a cure spell, or other healing magic stops it.",
+      "Special qualities": "Blindsense (Ex). Locate creatures within 20 ft. Total concealment still applies unless the swarm can actually see them. Swarm damage ignores concealment.\nLow-light vision. See twice as far as a human in dim light.\nSwarm traits. One pool of HP and one set of saves. Occupy a shared, shapeable 10-ft. space and fit through gaps large enough for one bat. Entering or moving through a hostile space provokes as normal. The swarm never threatens or makes opportunity attacks. It cannot grapple and is unaffected by grappling, trips, bull rushes, critical hits, or flanking. Effects aimed at a fixed number of creatures do not affect it, subject to the hive-mind exception for mind-affecting effects. Area effects deal 50% more damage. At 0 HP it disperses. It does not become staggered or dying. If rendered unconscious by nonlethal damage, it disperses until HP exceed that damage. Resolve strong wind against Diminutive size.\nWeapon damage. Use weapon damage immunity under the shared subtype rule, supported by the 2006 Monster Manual errata. The SRD entry still has the earlier half-damage line.\nShared swarm vulnerabilities. A lit torch used as an improvised weapon deals 1d3 fire damage on a hit. A thrown lit lantern deals 1d4 fire damage to creatures in adjacent squares where it breaks. Energy damage from a weapon can still apply if the weapon’s ordinary damage does not.",
+      "Skills and feats": "Listen +11, Spot +11. Each includes a +4 racial bonus that is lost if blindsense is negated.\nFeats: Alertness, Lightning Reflexes.",
+      "Encounter ecology": "Temperate deserts. Solitary, flight of 2–4 swarms, or colony of 11–20 swarms. No treasure or advancement. Level adjustment —. Nocturnal and never found aboveground in daylight. It tries to surround warm-blooded prey.",
+      "Printing conflicts": "Armor Class. The table prints touch 14 and flat-footed 12. Its listed +4 size and +2 Dexterity would give touch 16 and flat-footed 14 using the standard AC rules.\nWeapon damage. The Bat Swarm table lists half damage from slashing and piercing. The shared Diminutive Swarm subtype grants immunity to all weapon damage, confirmed for the Bat Swarm in the 17 February 2006 Monster Manual v3.5 errata. Use immunity at the table. "
+    }
+  },
+  {
+    "name": "Dire Bat",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 20,
+    "hp": 30,
+    "hitDice": "4d8 + 12",
+    "speed": "20 ft. (4 squares), fly 40 ft. (good)",
+    "cr": "2",
+    "initiative": 6,
+    "touchArmorClass": 15,
+    "flatFootedArmorClass": 14,
+    "baseAttackBonus": 3,
+    "grappleModifier": 10,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fort": 7,
+      "Ref": 10,
+      "Will": 6
+    },
+    "otherStatistics": "Fortitude +7, Reflex +10, Will +6.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A massive brown bat with long ears, spread dark membrane wings, and hooked feet.",
+    "habitats": [
+      "Temperate deserts"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE BAT. https://www.d20srd.org/srd/monsters/direBat.htm",
+      "Combat statistics": "Initiative +6. AC 20 (−1 size, +6 Dexterity, +5 natural armor), touch 15, flat-footed 14. Base attack +3, grapple +10. Space 10 ft., reach 5 ft.",
+      "Attack": "Bite. Melee +5, 1d8 + 4 damage.",
+      "Full attack": "One bite at melee +5 for 1d8 + 4 damage.",
+      "Special qualities": "Blindsense (Ex). Echolocation pinpoints creatures within 40 ft. with line of effect. A foe the bat cannot see retains total concealment against it. Low-light vision comes from the Animal type.",
+      "Skills and feats": "Hide +4, Listen +12, Move Silently +11, Spot +8. The +4 racial bonuses to Listen and Spot are lost if blindsense is negated.\nFeats: Alertness, Stealthy.",
+      "Encounter ecology": "Temperate deserts. Solitary or colony of 5–8. No treasure. Advancement 5–12 HD (Large). Level adjustment —. It dives on unsuspecting prey. Wingspan 15 ft., weight about 200 lb."
+    }
+  },
+  {
+    "name": "Donkey",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "30 ft. (6 squares)",
+    "cr": "1/6",
+    "initiative": 1,
+    "touchArmorClass": 11,
+    "flatFootedArmorClass": 12,
+    "baseAttackBonus": 1,
+    "grappleModifier": 1,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Fort": 4,
+      "Ref": 4,
+      "Will": 0
+    },
+    "otherStatistics": "Fortitude +4, Reflex +4, Will +0.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A short-maned brown donkey with long upright ears, a pale muzzle, and a pale belly.",
+    "habitats": [
+      "Temperate deserts"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, DONKEY. https://www.d20srd.org/srd/monsters/donkey.htm",
+      "Combat statistics": "Initiative +1. AC 13 (+1 Dexterity, +2 natural armor), touch 11, flat-footed 12. Base attack +1, grapple +1. Space 5 ft., reach 5 ft.",
+      "Attack": "Bite. Melee +1, 1d2 damage.",
+      "Full attack": "One bite at melee +1 for 1d2 damage.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim light.\nScent (Ex). Detect normal odors within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. Finding the direction takes a move action. Within 5 ft., pinpoint the source.",
+      "Skills and feats": "Balance +3, Listen +3, Spot +2. The Balance value includes a +2 racial bonus.\nFeats: Endurance.",
+      "Encounter ecology": "Temperate deserts. Solitary. No advancement or level adjustment listed. Use the same statistics for a burro. Bites only when cornered. Light load up to 50 lb., medium 51–100 lb., heavy 101–150 lb. Drag limit 750 lb."
+    }
+  },
+  {
+    "name": "Lion",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 15,
+    "hp": 32,
+    "hitDice": "5d8 + 10",
+    "speed": "40 ft. (8 squares)",
+    "cr": "3",
+    "initiative": 3,
+    "touchArmorClass": 12,
+    "flatFootedArmorClass": 12,
+    "baseAttackBonus": 3,
+    "grappleModifier": 12,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fort": 6,
+      "Ref": 7,
+      "Will": 2
+    },
+    "otherStatistics": "Fortitude +6, Reflex +7, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A tawny lion with a heavy dark mane, broad paws, and a long tufted tail.",
+    "habitats": [
+      "Warm plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, LION. https://www.d20srd.org/srd/monsters/lion.htm",
+      "Combat statistics": "Initiative +3. AC 15 (−1 size, +3 Dexterity, +3 natural armor), touch 12, flat-footed 12. Base attack +3, grapple +12. Space 10 ft., reach 5 ft.",
+      "Attack": "Claw. Melee +7, 1d4 + 5 damage.",
+      "Full attack": "Two claws at melee +7 each for 1d4 + 5 damage apiece and one bite at melee +2 for 1d8 + 2 damage.",
+      "Special attacks": "Pounce (Ex). A charge can end in a full attack plus two rake attacks.\nImproved Grab (Ex). After a bite hit against a smaller foe, attempt to grapple as a free action without a touch attack or opportunity attack. A success pulls the target into the lion’s space and establishes a hold. The lion may grapple normally or hold with only its bite at −20 on grapple checks while remaining free to threaten and use its other attacks. In later rounds, a successful grapple check deals bite damage. The lion’s entry also permits raking after a hold.\nRake (Ex). Each rake is melee +7 for 1d4 + 2 damage. The general Rake rule grants the two additional attacks against a grappled foe and says the lion must start its turn grappling. Rake bypasses the usual −4 natural-weapon penalty in a grapple. Pounce expressly includes its two rakes.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim light.\nScent (Ex). Detect normal odors within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. Finding the direction takes a move action. Within 5 ft., pinpoint the source.",
+      "Skills and feats": "Balance +7, Hide +3, Listen +5, Move Silently +11, Spot +5. Racial bonuses of +4 to Balance, Hide, and Move Silently are included. In tall grass or heavy undergrowth, the Hide racial bonus becomes +12.\nFeats: Alertness, Run.",
+      "Encounter ecology": "Warm plains. Solitary, pair, or pride of 6–10. Advancement 6–8 HD (Large). Level adjustment —. Male African lions are 5–8 ft. long and 330–550 lb. Females are somewhat smaller and use the same statistics.",
+      "Timing note": "The Lion entry permits a rake after winning its Improved Grab check but gives no timing. The general Rake rule requires starting the turn grappling. The charge from Pounce specifically includes the two rake attacks."
+    }
+  },
+  {
+    "name": "Porpoise",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 15,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "Swim 80 ft. (16 squares)",
+    "cr": "1/2",
+    "initiative": 3,
+    "touchArmorClass": 13,
+    "flatFootedArmorClass": 12,
+    "baseAttackBonus": 1,
+    "grappleModifier": 1,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fort": 4,
+      "Ref": 6,
+      "Will": 1
+    },
+    "otherStatistics": "Fortitude +4, Reflex +6, Will +1.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A gray porpoise with a pale underside, rounded blunt snout, low dorsal fin, and horizontal tail flukes.",
+    "habitats": [
+      "Temperate aquatic"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, PORPOISE. https://www.d20srd.org/srd/monsters/porpoise.htm",
+      "Combat statistics": "Initiative +3. AC 15 (+3 Dexterity, +2 natural armor), touch 13, flat-footed 12. Base attack +1, grapple +1. Space 5 ft., reach 5 ft.",
+      "Attack": "Slam. Melee +4, 2d4 damage.",
+      "Full attack": "One slam at melee +4 for 2d4 damage.",
+      "Special qualities": "Blindsight (Ex). High-frequency sound locates objects and creatures within 120 ft. Silence negates it and leaves the porpoise reliant on vision. Unless blocked by the specific rules, blindsight needs line of effect.\nHold Breath (Ex). Hold its breath for six times its Constitution score in rounds before risking drowning. Constitution 13 gives 78 rounds.\nLow-light vision. See twice as far as a human in dim light.",
+      "Skills and feats": "Listen +8, Spot +7, Swim +8. Listen and Spot each include a +4 racial bonus that disappears if blindsight is negated. The porpoise gains +8 on Swim checks for special actions or avoiding hazards, can take 10 even when distracted or endangered, and can run while swimming straight.\nFeats: Weapon Finesse.",
+      "Encounter ecology": "Temperate aquatic. Solitary, pair, or school of 3–20. Advancement 3–4 HD (Medium), then 5–6 HD (Large). Level adjustment —. Its description applies the same rules to similarly sized small whales. It is a mammal, 4–6 ft. long and about 110–160 lb."
+    }
+  }
+]

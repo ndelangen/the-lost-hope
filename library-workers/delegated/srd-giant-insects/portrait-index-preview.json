@@ -1,0 +1,37 @@
+[
+  {
+    "entry": "beast-89cd1b062cb2aba1a35fca42",
+    "name": "Giant Fly",
+    "file": "images/srd-giant-insect-drafts/giant-fly.png",
+    "sha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-26bce7b50d7f5e067749713b",
+    "name": "Giant Insect",
+    "file": "images/srd-giant-insect-drafts/giant-insect.png",
+    "sha256": "e18bf105507255bbc522ad312fc88a62fbbf2241f191902cebe2cd7e7ca98414",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-41e52c86d79da164108bea69",
+    "name": "Giant Insect (Centipede)",
+    "file": "images/beasts/giant-centipede-insect/parchment-portrait.webp",
+    "sha256": "206faa150481684f6231c25608f2637e6518e6a4c921a7c9bee262974f3b03c2",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-d30beaad56215afdbb60cc47",
+    "name": "Giant Insect (Spider)",
+    "file": "images/srd-giant-insect-drafts/spider.png",
+    "sha256": "7fd7182ff9c8441f472cfe981a4304e773c3f950348e81d55d231164700f6efd",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-2689c7b553f2b55cac19c532",
+    "name": "Giant Insect (Wasp)",
+    "file": "images/srd-giant-insect-drafts/wasp.png",
+    "sha256": "c401c2abb5ee459cb96c6de8515e77b29f4d52bfab4afdfc6b87e8224b9c8320",
+    "credit": "OpenAI ImageGen"
+  }
+]

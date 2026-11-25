@@ -1,0 +1,110 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Octopus, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/octopus-giant/kobold-press-octopus.webp",
+    "artist": "Giant Octopus · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "459c77a8b3744d7aacae84155952a6aabd8344f72964abca386c23091ad8ca52",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/octopus.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Octopus, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/octopus-giant/octopus-alejandro-pacheco-related.webp",
+    "artist": "Related Octopus art by Alejandro Pacheco · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "15d94305d63d6379a17f8a911198cb63c16d96668f926ece31689e34e1025f68",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Octopus.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Owl, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/owl-giant/kobold-press-owl-giant.webp",
+    "artist": "Giant Owl · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "0a360388b06e0f8834c09fdd7568898721cc3162cd61a557ddd77d7ddc0c06de",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/owl-giant.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Owl, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/owl-giant/owl-jonathan-kuo-related.webp",
+    "artist": "Related Owl art by Jonathan Kuo · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "802b74a38d05164c4daf1027b20e78254047a4b0b4e74431dd05104cf87fa64d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Owl.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Quipper, Swarm of Quippers",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/quipper-swarm-of-quippers/kobold-press-quipper.webp",
+    "artist": "Quipper · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "33a64f95988cbd6454a7382d9b26a7072a929450b79d6180f5d18b73861506ad",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/quipper.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Quipper, Swarm of Quippers",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/quipper-swarm-of-quippers/quipper-2014-related.webp",
+    "artist": "Related Quipper art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "dfe70daf7166c29a49c5ff7e98b80b3ba750a19c7f9f6c2f3307c66a8b4672c1",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Quipper.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Rat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/rat-giant/kobold-press-giant-rat.webp",
+    "artist": "Giant Rat · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "48b6664adca563eaa9c6ac2e1e8afdc368536843aa5ca5ece099ee9e7441acff",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/giant-rat.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Rat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/rat-giant/rat-katerina-ladon-related.webp",
+    "artist": "Related Rat art by Katerina Ladon · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce5550d20cba5a0c0d7c0be1ec41c4d3f4e0c6e9e0646b9d77f92469abc191c9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Rats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Octopus, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/octopus-giant/giant-octopus-coastal-den.png",
+    "artist": "Giant Octopus emerging from its den · The Lost Hope · OpenAI ImageGen",
+    "kind": "illustration",
+    "sha256": "8a8fcd9570816388317cbc76590e1b24604adb67486e12e726e2b2792b0a5674"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Octopus, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/octopus-giant/giant-octopus-reef.png",
+    "artist": "Giant Octopus among coastal kelp · The Lost Hope · OpenAI ImageGen",
+    "kind": "illustration",
+    "sha256": "83487a5c1e7ddc227c8f0fead6d43a021c27ecab0a9b34849d07d583e1d19195"
+  }
+]

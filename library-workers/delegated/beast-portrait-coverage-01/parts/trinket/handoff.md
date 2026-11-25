@@ -1,0 +1,11 @@
+# Trinket portrait
+
+*Tal'Dorei Campaign Setting Reborn*, p. 266, identifies Trinket as a Large brown bear with plate armor. The original campaign establishes that a blacksmith shaped the armor from a bulette's shell. The licensed armored figure also shows a head guard. Those details informed the original design of the fitted plates and guard. Big Linda was the only image supplied to ImageGen. [Printed source](https://anyflip.com/rjywa/jrgj/basic/251-283) · [Critical Role, Skyward](https://www.youtube.com/watch?v=_dIBh0dGhzI&t=1992s) · [Licensed armored figure](https://funko.com/pop-games-vox-machina--trinketarmoured-fs/49044.html)
+
+The archive's publisher image depicts Trinket resting without armor. The ordinary brown bear portraits and prior stages lacked matching plate. The new 1254 × 1254 PNG shows all four paws, the muzzle, and the fitted plate on plain tan parchment. At 96 pixels in a circle, the nose, feet, and armor remain visible.
+
+## ImageGen prompt
+
+> Create one 1:1 square bestiary portrait of a heavy adult brown grizzly bear wearing fitted fantasy animal plate armor. The attached Big Linda image is solely a style reference. Reproduce its fine colored-pencil natural-history linework, weathered muted brown and ochre tones, matte plain tan parchment, gentle grounding shadow and understated shading, and do not transfer any reptilian anatomy. The bear has dense earth-brown fur, a raised shoulder hump, soft dark eyes, broad muzzle, small rounded ears and large paws. Depict broad dull gray-brown plate shaped from overlapping shell-like segments over shoulder, chest, and back held by discreet leather fittings. A low fitted forehead and cheek guard follows its skull and leaves eyes, snout, and ears readable. No saddle, colored bows, symbols, weapon, people, frame, text, scenery, gradients, or vignette. Provide an original, quietly alert four-paw standing pose with natural bear anatomy facing left in three-quarter profile. Frame the full figure centrally with generous blank margins, roughly 72 percent image width, and keep nose, head guard, paws and rump safely within a centered circular avatar. Plain flat parchment across the whole image.
+
+[Staged portrait](portraits/trinket.png) · [Portrait hash](portrait-files.json)

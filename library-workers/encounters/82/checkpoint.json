@@ -1,0 +1,48 @@
+{
+  "commit": "2a7feae5eaa45bebe8cc9fd64ec9400a5ee52ef7",
+  "publication": "Races of Stone (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "npcLevelAccounting": {
+    "miren": {
+      "racialHD": 2,
+      "totalHD": 3,
+      "ecl": 7,
+      "provisionalCR": 4
+    },
+    "nalin": {
+      "racialHD": 1,
+      "totalHD": 1,
+      "monsterClassLevel": 3,
+      "ecl": 3,
+      "provisionalCR": 1
+    }
+  },
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/encounters-82-stonechild-species.png",
+  "browser": {
+    "name": "Stonechild",
+    "species": "species-207d136f46e06ee441423203",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Stone (2004)"
+    ],
+    "portraitSha256": "c97b45a80d0a47265a86c2a12f19056ff5b1c978b14f4842248a38b406cf5e4a",
+    "caption": "Miren Slatefold · Original Stonechild NPC",
+    "npcReceipts": [
+      {
+        "name": "Miren Slatefold",
+        "id": "npc-f11869fe358b908341704592",
+        "challenge": "Provisional CR 4. ECL 7."
+      },
+      {
+        "name": "Nalin Flintwell",
+        "id": "npc-f765ad752f2263ae28864e87",
+        "challenge": "Provisional CR 1. ECL 3."
+      }
+    ]
+  }
+}

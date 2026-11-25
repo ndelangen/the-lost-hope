@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Helmed Horror",
+    "file": "portraits/helmed-horror.png",
+    "sha256": "8398ee38d8695e1c396c0629fff69040951fd986d5d6a64827cfdcf73426eb14",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hippogriff",
+    "file": "portraits/hippogriff.png",
+    "sha256": "20cc2e832eacbc237c71d86d569ac358a57998d276d159e065469c6ad3fe3a15",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Homunculus",
+    "file": "portraits/homunculus.png",
+    "sha256": "4b94e0361e2f9561783e1fe8324023cf85b79a6b6aed41ba583ab17400a360e8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hook Horror",
+    "file": "portraits/hook-horror.png",
+    "sha256": "0aeb8cc441163e5f0c0e99fd27a8c655cd76b8a0e7b297c7971845b331496d74",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hydra",
+    "file": "portraits/hydra.png",
+    "sha256": "1f347070f94c784f47ba15b2e8db16bf6485f1f0deddbb046f18265bd635817b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

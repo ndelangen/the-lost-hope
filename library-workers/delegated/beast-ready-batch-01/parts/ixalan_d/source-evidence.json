@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Sailback",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 30,
+    "printedPages": [
+      30
+    ],
+    "section": "An Ixalan Bestiary, Teeth and Frills",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "artGroup": "sailback",
+    "reskinReference": {
+      "name": "Giant Crocodile",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printedPage": 324,
+      "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page325.html",
+      "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g"
+    },
+    "appearanceEvidence": "Dan Scott's Snapping Sailback on p. 30 shows the long, toothed snout, dark blue scales, colored head quills, and tall orange-to-blue sail. The full body and subdued palette are editorial choices for the new portrait.",
+    "habitatEvidence": "p. 30 describes Sailbacks as predators that ambush prey in lakes and rivers.",
+    "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+    "creditedArt": "Dan Scott, Snapping Sailback. Retain the existing book image and credit."
+  },
+  {
+    "name": "Swarm of Piranhas",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 40,
+    "printedPages": [
+      40
+    ],
+    "section": "An Ixalan Bestiary, Life of the Waters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "artGroup": "swarm-of-piranhas",
+    "reskinReference": {
+      "name": "Swarm of Quippers",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printedPage": 338,
+      "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page339.html",
+      "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-s"
+    },
+    "appearanceEvidence": "p. 40 describes small biting fish gathering in churning swarms. Silver-grey scales, red bellies, body shape, and forked tails are editorial portrait details based on a recognizable piranha silhouette.",
+    "habitatEvidence": "p. 40 names the Great River and its tributaries. Freshwater is an editorial normalization of those habitats. Underwater follows the inherited Water Breathing trait.",
+    "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+    "errataDate": "2016",
+    "errataUrl": "",
+    "errataEvidence": "Version 1.1 adds immunity to the grappled condition for all swarms. This correction predates the first printing of Plane Shift: Ixalan."
+  },
+  {
+    "name": "Trilobite",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 40,
+    "printedPages": [
+      40
+    ],
+    "section": "An Ixalan Bestiary, Life of the Waters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "artGroup": "ixalan-trilobite",
+    "reskinReference": {
+      "name": "Crab",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printedPage": 320,
+      "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page321.html",
+      "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c"
+    },
+    "appearanceEvidence": "YW Tang's Shore Keeper on p. 40 shows a dark, broad, segmented marine arthropod with rust-red extensions. The three-lobed shell layout and compound eyes are editorial identification details. Both catalog sizes share the portrait.",
+    "habitatEvidence": "p. 40 places trilobites along the shores of rivers and seas. Beaches, riverbanks, and shallow water are search terms drawn from its nearby shoreline description.",
+    "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+    "creditedArt": "YW Tang, Shore Keeper. Preserve credited book art wherever the index links it."
+  },
+  {
+    "name": "Trilobite (Giant)",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 40,
+    "printedPages": [
+      40
+    ],
+    "section": "An Ixalan Bestiary, Life of the Waters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "artGroup": "ixalan-trilobite",
+    "reskinReference": {
+      "name": "Giant Crab",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printedPage": 324,
+      "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page325.html",
+      "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g"
+    },
+    "appearanceEvidence": "YW Tang's Shore Keeper on p. 40 shows a dark, broad, segmented marine arthropod with rust-red extensions. The three-lobed shell layout and compound eyes are editorial identification details. Both catalog sizes share the portrait.",
+    "habitatEvidence": "p. 40 places trilobites along the shores of rivers and seas. Beaches, riverbanks, and shallow water are search terms drawn from its nearby shoreline description.",
+    "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+    "creditedArt": "YW Tang, Shore Keeper. Preserve credited book art wherever the index links it."
+  },
+  {
+    "name": "Tyrant",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 31,
+    "printedPages": [
+      31
+    ],
+    "section": "An Ixalan Bestiary, Dinosaur Tyrants",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "artGroup": "tyrant",
+    "reskinReference": {
+      "name": "Tyrannosaurus Rex",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printedPage": 80,
+      "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page81.html",
+      "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-t"
+    },
+    "appearanceEvidence": "The Dinosaur Tyrants text on p. 31 describes the oversized head, blade-like teeth, and reduced forelimbs. Jonathan Kuo's Regisaur Alpha on that page also informs the palette and feathering. The staged portrait uses a new pose for an ordinary wild tyrant.",
+    "habitatEvidence": "Editorial setting tags inferred from the Dinosaur Tyrants section and the forested terrain in the Regisaur Alpha illustration, p. 31. The printed action block has no formal habitat list.",
+    "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+    "creditedArt": "Jonathan Kuo, Regisaur Alpha. Keep any credited book art and links."
+  }
+]

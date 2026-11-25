@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Giant Squid",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised (v3.5) SRD, original RTF",
+    "archiveFile": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "archiveUrl": "https://archive.org/details/dnd35srd",
+    "shard": "MonstersAnimals.rtf",
+    "heading": "SQUID, GIANT",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/squidGiant.htm",
+    "sourceWitness": "The original RTF controls the rule summary. The Hypertext d20 SRD is a readable view.",
+    "appearanceEvidence": "The SRD describes a squid with a body that can exceed 20 ft. The mantle, club tips, and colors are editorial details in the new portrait.",
+    "habitatEvidence": "The printed Environment row is Temperate aquatic.",
+    "printingNotes": [
+      "The combat table calls all ten appendage attacks tentacles. The portrait distinguishes the eight arms from the two longer feeding tentacles.",
+      "Grapple +29 equals +9 base attack, +8 Strength, +8 Huge size and +4 racial. The creature entry gives no ink-cloud duration."
+    ],
+    "supportingRules": {
+      "Improved Grab": "https://www.d20srd.org/srd/specialAbilities.htm#improvedGrab",
+      "Aquatic subtype": "https://www.d20srd.org/srd/typesSubtypes.htm#aquaticSubtype"
+    }
+  },
+  {
+    "name": "Constrictor Snake",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised (v3.5) SRD, original RTF",
+    "archiveFile": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "archiveUrl": "https://archive.org/details/dnd35srd",
+    "shard": "MonstersAnimals.rtf",
+    "heading": "SNAKE, Constrictor Snake",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/snake.htm#constrictorSnake",
+    "sourceWitness": "The original RTF controls the rule summary. The Hypertext d20 SRD is a readable view.",
+    "appearanceEvidence": "Editorial description of the existing brown-blotched portrait. The SRD describes its hunting behavior.",
+    "habitatEvidence": "The printed Environment row is Warm forests.",
+    "printingNotes": [
+      "The individual table lists scent. The Animal introduction supplies the general low-light vision rule, which the entry does not expressly remove.",
+      "The printed Hit Dice bonus is consistent with +3 Constitution across three HD and +3 from Toughness."
+    ],
+    "supportingRules": {
+      "Improved Grab": "https://www.d20srd.org/srd/specialAbilities.htm#improvedGrab",
+      "Animal type": "https://www.d20srd.org/srd/typesSubtypes.htm#animalType",
+      "Scent": "https://www.d20srd.org/srd/specialAbilities.htm#scent"
+    }
+  },
+  {
+    "name": "Dire Tiger",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised (v3.5) SRD, original RTF",
+    "archiveFile": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "archiveUrl": "https://archive.org/details/dnd35srd",
+    "shard": "MonstersDi-Do.rtf",
+    "heading": "DIRE ANIMAL, DIRE TIGER",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/direTiger.htm",
+    "sourceWitness": "The original RTF controls the rule summary. The Hypertext d20 SRD is a readable view.",
+    "appearanceEvidence": "The SRD describes a massive tiger. The stripe pattern, coat color and posture match the selected existing portrait.",
+    "habitatEvidence": "The printed Environment row is Warm forests.",
+    "printingNotes": [],
+    "supportingRules": {
+      "Improved Grab": "https://www.d20srd.org/srd/specialAbilities.htm#improvedGrab",
+      "Rake": "https://www.d20srd.org/srd/specialAbilities.htm#rake",
+      "Scent": "https://www.d20srd.org/srd/specialAbilities.htm#scent"
+    }
+  },
+  {
+    "name": "Hawk",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised (v3.5) SRD, original RTF",
+    "archiveFile": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "archiveUrl": "https://archive.org/details/dnd35srd",
+    "shard": "MonstersAnimals.rtf",
+    "heading": "HAWK",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/hawk.htm",
+    "sourceWitness": "The original RTF controls the rule summary. The Hypertext d20 SRD is a readable view.",
+    "appearanceEvidence": "The SRD describes a smaller eagle-like bird. Color, streaks, and posture match the selected existing portrait.",
+    "habitatEvidence": "The printed Environment row is Temperate forests.",
+    "printingNotes": [],
+    "supportingRules": {
+      "Minimum damage": "https://www.d20srd.org/srd/combat/combatStatistics.htm#minimumDamage"
+    }
+  },
+  {
+    "name": "Octopus",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised (v3.5) SRD, original RTF",
+    "archiveFile": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "archiveUrl": "https://archive.org/details/dnd35srd",
+    "shard": "MonstersAnimals.rtf",
+    "heading": "OCTOPUS",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/octopus.htm",
+    "sourceWitness": "The original RTF controls the rule summary. The Hypertext d20 SRD is a readable view.",
+    "appearanceEvidence": "The SRD describes a bottom-dwelling octopus. Color and pose match the selected existing portrait.",
+    "habitatEvidence": "The printed Environment row is Warm aquatic.",
+    "printingNotes": [
+      "The table prints Grapple +2. The general formula applied to listed base attack +1, Str +1 and Small size −4 gives −2. Keep +2 because the entry gives no alternate calculation.",
+      "The arms attack prints 0 damage. The creature entry gives no ink-cloud duration."
+    ],
+    "supportingRules": {
+      "Improved Grab": "https://www.d20srd.org/srd/specialAbilities.htm#improvedGrab",
+      "Aquatic subtype": "https://www.d20srd.org/srd/typesSubtypes.htm#aquaticSubtype",
+      "Grapple modifier": "https://www.d20srd.org/srd/combat/specialAttacks.htm#grapple"
+    }
+  }
+]

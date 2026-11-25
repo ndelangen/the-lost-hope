@@ -1,0 +1,262 @@
+{
+  "Derro": {
+    "profiles": [
+      {
+        "name": "Derro",
+        "imageKey": "species:derro",
+        "kind": "species",
+        "type": "Monstrous Humanoid",
+        "publication": "Underdark (2003)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Small Monstrous Humanoid. Land speed 20 ft. Darkvision 60 ft. from the creature type. +2 natural armor.",
+          "+4 Dexterity and +2 Constitution, derived from the Monster Manual’s sample ability scores. Apply the Wisdom and Charisma adjustments from Madness separately.",
+          "Madness (Ex) gives −6 Wisdom and +6 Charisma, uses Charisma in place of Wisdom on Will saves, and grants immunity to confusion and insanity effects. Miracle or wish can restore sanity, reversing those ability adjustments and ending the trait.",
+          "Vulnerability to Sunlight (Ex). Take 1 Constitution damage per hour in sunlight. Constitution 0 is fatal. Recover 1 point per 24 hours spent underground or otherwise sheltered from sunlight.",
+          "+4 racial bonus on Hide and Move Silently checks.",
+          "Racial spell-like abilities, CL 3. At will, darkness and ghost sound. Once per day each, daze and sound burst. Save DCs use Charisma.",
+          "Racial Sneak Attack adds 1d6 to eligible hits under the Rogue rules. Poison Use (Ex) protects the derro from accidentally poisoning itself while handling poison.",
+          "Spell resistance 15.",
+          "Three racial Hit Dice (3d8) grant BAB +3, base Fortitude +1, Reflex +3, Will +3, and two feats. Favored class Sorcerer.",
+          "Underdark lists LA +1 and ECL 4. Its adventurer section includes derro with Madness, which this profile retains. The Monster Manual lists LA +2 specifically for a sane derro, giving ECL 5 before class levels under that rule."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Derro",
+            "size": "Small",
+            "edition": "3.5 edition",
+            "speciesPublication": "Underdark (2003)",
+            "name": "Dorr Palevein",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "size": "Small",
+              "type": "Monstrous Humanoid",
+              "senses": "Darkvision 60 ft.",
+              "speed": "20 ft.",
+              "languages": "Common, Undercommon",
+              "id": "derro-palevein-tunnel-guide-35e",
+              "title": "Derro tunnel guide, racial Hit Dice only",
+              "difficulty": "Provisional CR 3. ECL 4 (3 racial HD, LA +1 under Underdark).",
+              "ac": 18,
+              "hp": 23,
+              "hitDice": "3d8+6",
+              "initiative": 7,
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 16,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 8,
+                "CHA": 16
+              },
+              "skills": [
+                "Bluff +6",
+                "Hide +14",
+                "Listen +1",
+                "Move Silently +9"
+              ],
+              "traits": [
+                "Neutral. Leather armor +2, Dexterity +3, size +1, and natural armor +2. Touch 14, flat-footed 15. BAB +3, grapple +0. Fortitude +3, Reflex +6, Will +6. Spell resistance 15.",
+                "Madness (Ex) gives −6 Wisdom and +6 Charisma, uses Charisma in place of Wisdom on Will saves, and grants immunity to confusion and insanity effects. Miracle or wish can restore sanity, reversing those ability adjustments and ending the trait.",
+                "Vulnerability to Sunlight (Ex). Take 1 Constitution damage per hour in sunlight. Constitution 0 is fatal. Recover 1 point per 24 hours spent underground or otherwise sheltered from sunlight.",
+                "+4 racial bonus on Hide and Move Silently checks.",
+                "Racial Sneak Attack adds 1d6 to eligible hits under the Rogue rules. Poison Use (Ex) protects the derro from accidentally poisoning itself while handling poison.",
+                "Racial spell-like abilities, CL 3. At will, darkness and ghost sound. Once per day each, daze and sound burst. Save DCs use Charisma.",
+                "Improved Initiative adds +4. Blind-Fight allows one reroll of a concealment miss chance on a melee attack."
+              ],
+              "actions": [
+                "Small light crossbow +7 ranged for 1d6 piercing, critical 19–20/×2, range increment 80 ft. Small dagger +5 melee for 1d3+1 piercing or slashing, critical 19–20/×2.",
+                "Ghost sound is Will DC 13 to disbelieve if interacted with. Daze is Will DC 13. Sound burst deals 1d8 sonic damage and has Fortitude DC 15 against its 1-round stun."
+              ],
+              "tactics": "Dorr leads the group through a covered passage and uses ghost sound to draw attention away from the crossing. If forced to travel above ground, he tracks time spent in sunlight and seeks a covered route."
+            },
+            "role": "Tunnel guide and scout.",
+            "motive": "Bring the group through the covered crossing before the passage closes.",
+            "hook": "Dorr knows where the old road reenters the rock below the exposed ridge."
+          },
+          {
+            "species": "Derro",
+            "size": "Small",
+            "edition": "3.5 edition",
+            "speciesPublication": "Underdark (2003)",
+            "name": "Mira Chalkwick",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "size": "Small",
+              "type": "Monstrous Humanoid",
+              "senses": "Darkvision 60 ft.",
+              "speed": "20 ft.",
+              "languages": "Common, Undercommon",
+              "id": "derro-chalkwick-archivist-35e",
+              "title": "Derro gallery archivist, Sorcerer 1",
+              "difficulty": "Provisional CR 4. ECL 5 (3 racial HD, 1 class HD, LA +1 under Underdark).",
+              "ac": 16,
+              "hp": 28,
+              "hitDice": "3d8+1d4+8",
+              "initiative": 7,
+              "abilityScores": {
+                "STR": 8,
+                "DEX": 16,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 8,
+                "CHA": 18
+              },
+              "skills": [
+                "Bluff +7",
+                "Concentration +4",
+                "Hide +15",
+                "Move Silently +10"
+              ],
+              "traits": [
+                "Neutral. Unarmored, Dexterity +3, size +1, and natural armor +2. Touch 14, flat-footed 13. BAB +3, grapple −2. Fortitude +3, Reflex +6, Will +9. Spell resistance 15.",
+                "Madness (Ex) gives −6 Wisdom and +6 Charisma, uses Charisma in place of Wisdom on Will saves, and grants immunity to confusion and insanity effects. Miracle or wish can restore sanity, reversing those ability adjustments and ending the trait.",
+                "Vulnerability to Sunlight (Ex). Take 1 Constitution damage per hour in sunlight. Constitution 0 is fatal. Recover 1 point per 24 hours spent underground or otherwise sheltered from sunlight.",
+                "+4 racial bonus on Hide and Move Silently checks.",
+                "Racial Sneak Attack adds 1d6 to eligible hits under the Rogue rules. Poison Use (Ex) protects the derro from accidentally poisoning itself while handling poison.",
+                "Racial spell-like abilities, CL 3. At will, darkness and ghost sound. Once per day each, daze and sound burst. Save DCs use Charisma.",
+                "Improved Initiative adds +4. Combat Casting adds +4 to Concentration when casting defensively or while grappled or pinned. No familiar is present."
+              ],
+              "actions": [
+                "Small light crossbow +7 ranged for 1d6 piercing, critical 19–20/×2, range increment 80 ft.",
+                "Sorcerer spells known, CL 1. Detect magic, mage hand, message, and prestidigitation share five cantrip slots. Mage armor and color spray share four 1st-level slots. Mage armor raises AC to 20 for 1 hour, touch 14 and flat-footed 17. Color spray has Will DC 15.",
+                "Racial spell-like abilities keep CL 3. Ghost sound is Will DC 14 to disbelieve if interacted with. Daze is Will DC 14. Sound burst deals 1d8 sonic damage and has Fortitude DC 16 against its 1-round stun."
+              ],
+              "tactics": "Mira has mage armor active when she checks the gallery. She uses sound burst to stall pursuers at the entrance and then takes the covered route to the next chamber."
+            },
+            "role": "Gallery archivist and Sorcerer.",
+            "motive": "Get the records out of the gallery while the lower archives are still accessible.",
+            "hook": "Mira is carrying a sealed bundle of passages she copied from old maps."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Derro",
+        "size": "Small",
+        "edition": "3.5 edition",
+        "speciesPublication": "Underdark (2003)",
+        "name": "Dorr Palevein",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "size": "Small",
+          "type": "Monstrous Humanoid",
+          "senses": "Darkvision 60 ft.",
+          "speed": "20 ft.",
+          "languages": "Common, Undercommon",
+          "id": "derro-palevein-tunnel-guide-35e",
+          "title": "Derro tunnel guide, racial Hit Dice only",
+          "difficulty": "Provisional CR 3. ECL 4 (3 racial HD, LA +1 under Underdark).",
+          "ac": 18,
+          "hp": 23,
+          "hitDice": "3d8+6",
+          "initiative": 7,
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 8,
+            "CHA": 16
+          },
+          "skills": [
+            "Bluff +6",
+            "Hide +14",
+            "Listen +1",
+            "Move Silently +9"
+          ],
+          "traits": [
+            "Neutral. Leather armor +2, Dexterity +3, size +1, and natural armor +2. Touch 14, flat-footed 15. BAB +3, grapple +0. Fortitude +3, Reflex +6, Will +6. Spell resistance 15.",
+            "Madness (Ex) gives −6 Wisdom and +6 Charisma, uses Charisma in place of Wisdom on Will saves, and grants immunity to confusion and insanity effects. Miracle or wish can restore sanity, reversing those ability adjustments and ending the trait.",
+            "Vulnerability to Sunlight (Ex). Take 1 Constitution damage per hour in sunlight. Constitution 0 is fatal. Recover 1 point per 24 hours spent underground or otherwise sheltered from sunlight.",
+            "+4 racial bonus on Hide and Move Silently checks.",
+            "Racial Sneak Attack adds 1d6 to eligible hits under the Rogue rules. Poison Use (Ex) protects the derro from accidentally poisoning itself while handling poison.",
+            "Racial spell-like abilities, CL 3. At will, darkness and ghost sound. Once per day each, daze and sound burst. Save DCs use Charisma.",
+            "Improved Initiative adds +4. Blind-Fight allows one reroll of a concealment miss chance on a melee attack."
+          ],
+          "actions": [
+            "Small light crossbow +7 ranged for 1d6 piercing, critical 19–20/×2, range increment 80 ft. Small dagger +5 melee for 1d3+1 piercing or slashing, critical 19–20/×2.",
+            "Ghost sound is Will DC 13 to disbelieve if interacted with. Daze is Will DC 13. Sound burst deals 1d8 sonic damage and has Fortitude DC 15 against its 1-round stun."
+          ],
+          "tactics": "Dorr leads the group through a covered passage and uses ghost sound to draw attention away from the crossing. If forced to travel above ground, he tracks time spent in sunlight and seeks a covered route."
+        },
+        "role": "Tunnel guide and scout.",
+        "motive": "Bring the group through the covered crossing before the passage closes.",
+        "hook": "Dorr knows where the old road reenters the rock below the exposed ridge."
+      },
+      {
+        "species": "Derro",
+        "size": "Small",
+        "edition": "3.5 edition",
+        "speciesPublication": "Underdark (2003)",
+        "name": "Mira Chalkwick",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "size": "Small",
+          "type": "Monstrous Humanoid",
+          "senses": "Darkvision 60 ft.",
+          "speed": "20 ft.",
+          "languages": "Common, Undercommon",
+          "id": "derro-chalkwick-archivist-35e",
+          "title": "Derro gallery archivist, Sorcerer 1",
+          "difficulty": "Provisional CR 4. ECL 5 (3 racial HD, 1 class HD, LA +1 under Underdark).",
+          "ac": 16,
+          "hp": 28,
+          "hitDice": "3d8+1d4+8",
+          "initiative": 7,
+          "abilityScores": {
+            "STR": 8,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 8,
+            "CHA": 18
+          },
+          "skills": [
+            "Bluff +7",
+            "Concentration +4",
+            "Hide +15",
+            "Move Silently +10"
+          ],
+          "traits": [
+            "Neutral. Unarmored, Dexterity +3, size +1, and natural armor +2. Touch 14, flat-footed 13. BAB +3, grapple −2. Fortitude +3, Reflex +6, Will +9. Spell resistance 15.",
+            "Madness (Ex) gives −6 Wisdom and +6 Charisma, uses Charisma in place of Wisdom on Will saves, and grants immunity to confusion and insanity effects. Miracle or wish can restore sanity, reversing those ability adjustments and ending the trait.",
+            "Vulnerability to Sunlight (Ex). Take 1 Constitution damage per hour in sunlight. Constitution 0 is fatal. Recover 1 point per 24 hours spent underground or otherwise sheltered from sunlight.",
+            "+4 racial bonus on Hide and Move Silently checks.",
+            "Racial Sneak Attack adds 1d6 to eligible hits under the Rogue rules. Poison Use (Ex) protects the derro from accidentally poisoning itself while handling poison.",
+            "Racial spell-like abilities, CL 3. At will, darkness and ghost sound. Once per day each, daze and sound burst. Save DCs use Charisma.",
+            "Improved Initiative adds +4. Combat Casting adds +4 to Concentration when casting defensively or while grappled or pinned. No familiar is present."
+          ],
+          "actions": [
+            "Small light crossbow +7 ranged for 1d6 piercing, critical 19–20/×2, range increment 80 ft.",
+            "Sorcerer spells known, CL 1. Detect magic, mage hand, message, and prestidigitation share five cantrip slots. Mage armor and color spray share four 1st-level slots. Mage armor raises AC to 20 for 1 hour, touch 14 and flat-footed 17. Color spray has Will DC 15.",
+            "Racial spell-like abilities keep CL 3. Ghost sound is Will DC 14 to disbelieve if interacted with. Daze is Will DC 14. Sound burst deals 1d8 sonic damage and has Fortitude DC 16 against its 1-round stun."
+          ],
+          "tactics": "Mira has mage armor active when she checks the gallery. She uses sound burst to stall pursuers at the entrance and then takes the covered route to the next chamber."
+        },
+        "role": "Gallery archivist and Sorcerer.",
+        "motive": "Get the records out of the gallery while the lower archives are still accessible.",
+        "hook": "Mira is carrying a sealed bundle of passages she copied from old maps."
+      }
+    ]
+  }
+}

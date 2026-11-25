@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Armored Saber-Toothed Tiger",
+    "kind": "beast",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2016,
+    "printing": "First printing, March 2016",
+    "creditsPdfPage": 3,
+    "section": "Chapter 5, The Town of Vallaki, N5 Arasek Stockyard",
+    "printedPages": [
+      115,
+      116,
+      123,
+      124
+    ],
+    "variantPage": 115,
+    "pdfPage": 116,
+    "viewerPages": [
+      116,
+      117,
+      124,
+      125
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+    "url": "https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+    "officialCreatureUrl": null,
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cos",
+    "sourcePageKind": "The publisher index identifies this chapter section. Its rules require book access.",
+    "sourceWitness": " - 5th Edition (2014)/Adventures/Curse of ",
+    "sourceSha256": "1f898791a2817634848bd194859275e7e6be9fa7bfc0a15b357d61bfda049563",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/curse-of-strahd",
+    "errataEvidence": "Official Curse of Strahd errata v1.1 revises the p. 115 training target to Strahd’s Vistani servants and deletes the description of recognition by smell and clothing. No mechanical stat changes in this erratum.",
+    "habitatEvidence": "Editorial search terms that reflect the encounter on pp. 115, 116, 123, 124.",
+    "appearanceEvidence": "The creature description or equipment in the printed encounter, with details from the new portrait.",
+    "artworkSource": "portraits/armored-saber-toothed-tiger.png",
+    "artworkSha256": "1175b1f8658a85fb9e7d8f2be88846c2874d3acf7cab4d6981b3767bfcc28b3e",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New plain matte tan parchment portrait using Big Linda as the style reference.",
+    "sourceNotes": [
+      "The first printing replaces the base armor, HP, and challenge. It gives 84 HP without a replacement Hit Dice formula.",
+      "The printed base block gives +6 to hit and +5 damage on both attacks. The adventure does not change either value.",
+      "Publisher errata changes p. 115 to target Strahd’s Vistani servants and removes recognition by scent and clothing from that paragraph. Page 116 of the first printing describes broader targeting and is not separately amended in the errata."
+    ],
+    "leadDesigner": "Christopher Perkins",
+    "isbn": "978-0-7869-6598-4",
+    "productCode": "620B6517000001 EN",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "42fa2f4037d662d7f6ac2091c06c4196b1495d70b158d8e25fc291d7b6f388b4",
+    "relatedRules": [
+      {
+        "name": "Saber-Toothed Tiger",
+        "printedPage": 336,
+        "url": "https://www.dndbeyond.com/monsters/17002-saber-toothed-tiger",
+        "publication": "Monster Manual (2014)",
+        "pdfPage": 337,
+        "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "purpose": "Printed base statistics and rules inherited by the named adventure creature.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual"
+      }
+    ]
+  },
+  {
+    "name": "Piccolo",
+    "kind": "beast",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2016,
+    "printing": "First printing, March 2016",
+    "creditsPdfPage": 3,
+    "section": "Chapter 5, The Town of Vallaki, N7 Blinsky Toys",
+    "printedPages": [
+      118
+    ],
+    "variantPage": 118,
+    "pdfPage": 119,
+    "viewerPages": [
+      119
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+    "url": "https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+    "officialCreatureUrl": null,
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cos",
+    "sourcePageKind": "The publisher index identifies this chapter section. Its rules require book access.",
+    "sourceWitness": " - 5th Edition (2014)/Adventures/Curse of ",
+    "sourceSha256": "1f898791a2817634848bd194859275e7e6be9fa7bfc0a15b357d61bfda049563",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/curse-of-strahd",
+    "errataEvidence": "No changes for this entry in the official Curse of Strahd errata v1.1.",
+    "habitatEvidence": "Editorial search terms that reflect the encounter on pp. 118.",
+    "appearanceEvidence": "The creature description or equipment in the printed encounter, with details from the new portrait.",
+    "artworkSource": "portraits/piccolo.png",
+    "artworkSha256": "fccb7aeb181593092509ecc395c07edc75724c5458af013e593d601cc0c598da",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New plain matte tan parchment portrait using Big Linda as the style reference.",
+    "sourceNotes": [
+      "The adventure names Piccolo as a monkey, explicitly using the Baboon rules. The tutu has no rules effect."
+    ],
+    "leadDesigner": "Christopher Perkins",
+    "isbn": "978-0-7869-6598-4",
+    "productCode": "620B6517000001 EN",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "42fa2f4037d662d7f6ac2091c06c4196b1495d70b158d8e25fc291d7b6f388b4",
+    "relatedRules": [
+      {
+        "name": "Baboon",
+        "printedPage": 318,
+        "url": "https://www.dndbeyond.com/monsters/16795-baboon",
+        "publication": "Monster Manual (2014)",
+        "pdfPage": 319,
+        "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "purpose": "Printed base statistics and rules inherited by the named adventure creature.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual"
+      }
+    ]
+  },
+  {
+    "name": "Sangzor",
+    "kind": "beast",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2016,
+    "printing": "First printing, March 2016",
+    "creditsPdfPage": 3,
+    "section": "Chapter 9, Tsolenka Pass, Bloodhorn’s Charge",
+    "printedPages": [
+      160
+    ],
+    "variantPage": 160,
+    "pdfPage": 161,
+    "viewerPages": [
+      161
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/cos/tsolenka-pass#SpecialEvents",
+    "url": "https://www.dndbeyond.com/sources/cos/tsolenka-pass#SpecialEvents",
+    "officialCreatureUrl": "https://www.dndbeyond.com/monsters/299431-sangzor",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cos",
+    "sourcePageKind": "The publisher index identifies this chapter section. Its rules require book access.",
+    "sourceWitness": " - 5th Edition (2014)/Adventures/Curse of ",
+    "sourceSha256": "1f898791a2817634848bd194859275e7e6be9fa7bfc0a15b357d61bfda049563",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/curse-of-strahd",
+    "errataEvidence": "No changes for this entry in the official Curse of Strahd errata v1.1.",
+    "habitatEvidence": "Editorial search terms that reflect the encounter on pp. 160.",
+    "appearanceEvidence": "The creature description or equipment in the printed encounter, with details from the new portrait.",
+    "artworkSource": "portraits/sangzor.png",
+    "artworkSha256": "db04d6d418286a188711bc57d8cab554c6747c75e3e69c68ad3ebe06d220ea00",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New plain matte tan parchment portrait using Big Linda as the style reference.",
+    "sourceNotes": [
+      "The adventure changes Intelligence, alignment, HP, resistances, and challenge. It gives 33 HP without a replacement Hit Dice formula."
+    ],
+    "leadDesigner": "Christopher Perkins",
+    "isbn": "978-0-7869-6598-4",
+    "productCode": "620B6517000001 EN",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "42fa2f4037d662d7f6ac2091c06c4196b1495d70b158d8e25fc291d7b6f388b4",
+    "relatedRules": [
+      {
+        "name": "Giant Goat",
+        "printedPage": 326,
+        "url": "https://www.dndbeyond.com/monsters/16885-giant-goat",
+        "publication": "Monster Manual (2014)",
+        "pdfPage": 327,
+        "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "purpose": "Printed base statistics and rules inherited by the named adventure creature.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual"
+      }
+    ]
+  },
+  {
+    "name": "Lion",
+    "kind": "beast",
+    "publication": "DDEX2-04 - Mayhem in the Earthspur Mines",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2015,
+    "printing": "D&D Expeditions release, April 1, 2015",
+    "creditsPdfPage": 1,
+    "section": "Appendix, Monster/NPC Statistics",
+    "printedPages": [
+      10,
+      23,
+      26
+    ],
+    "statBlockPage": 26,
+    "pdfPage": 26,
+    "viewerPages": [
+      10,
+      23,
+      26
+    ],
+    "sourceUrl": "https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e",
+    "url": "https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e",
+    "officialCreatureUrl": null,
+    "officialSourceIndex": "https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e",
+    "sourcePageKind": "Official marketplace link, unavailable to the browsing session. Rules and credits verified from the original D&D Expeditions .",
+    "sourceWitness": " - 5th Edition (2014)/Adventures/DDEX2-04 - Mayhem in the Earthspur ",
+    "sourceSha256": "91960317f2279b98d6c29b095eb3afcc2c568e3e990009176b8220910f44f2ab",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No applicable official correction located in the publisher errata index or title-specific searches.",
+    "habitatEvidence": "Editorial search terms that reflect the encounter on pp. 10, 23, 26.",
+    "appearanceEvidence": "Editorial description of the reused lion portrait. The printed encounter names the lions and supplies the stat block.",
+    "artworkSource": "beast-ready-batch-02/parts/b02_08/portraits/lion.png",
+    "artworkSha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+    "artworkCredit": "Original portrait generated with OpenAI ImageGen",
+    "artworkNote": "Earlier square plain-parchment Lion portrait reused at its existing runtime path.",
+    "sourceNotes": [
+      "The standalone block on p. 26 gives CR 1 and 200 XP. The adventure’s Combat Awards table on p. 23 lists 100 XP per lion for session rewards."
+    ],
+    "adventureDesigner": "Will Doyle",
+    "adventureCode": "DDEX2-4",
+    "debutDate": "2015-03-20",
+    "releaseDate": "2015-04-01"
+  }
+]

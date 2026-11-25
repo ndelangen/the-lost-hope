@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Nautilid",
+    "file": "portraits/brine-sill.png",
+    "sha256": "5ceb8016f2e64759fe32010fce98f7e2544682de6ec2c6fcdb6e5f39d405f93a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Vect",
+    "file": "portraits/mend-three.png",
+    "sha256": "db1d39c3c60a1897a4b0c150a4649b4d7f7540aec04eec5ae5d512bc856a5ed7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Amoeboid",
+    "file": "portraits/pilcrow.png",
+    "sha256": "b6acacb741dd28f76e879af3c22bb154a2310e0a0a4c4e3d176ae5263f95293c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Skathári",
+    "file": "portraits/ruvash-ledgewalker.png",
+    "sha256": "f033631a2911370de7b5bb8b018e93c44a1f3d21331e23b6f98d3999ce779b5b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Avia-Ra",
+    "file": "portraits/senet-dawnreed.png",
+    "sha256": "178fb2f4eb1c81831190c2880f6b25cfae6969998f1627f0de3b21901432bd92",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with built-in OpenAI ImageGen"
+  }
+]

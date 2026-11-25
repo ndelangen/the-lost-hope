@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Cultist",
+    "statBlock": {
+      "name": "Cultist",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any non-good alignment",
+      "ac": 12,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "A follower of a demon lord, archdevil, or other dark power. Many hide their devotion from neighbors and authorities.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Dark Devotion. It has advantage on saving throws against being Charmed or Frightened.",
+        "Actions": "Scimitar. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 4 (1d6 + 1) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 345."
+      },
+      "passivePerception": 10,
+      "skills": {
+        "Deception": 2,
+        "Religion": 2
+      }
+    }
+  },
+  {
+    "name": "Cult Fanatic",
+    "statBlock": {
+      "name": "Cult Fanatic",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any non-good alignment",
+      "ac": 13,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "description": "A cult leader who uses doctrine and personal influence to recruit followers and build power.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Dark Devotion. It has advantage on saving throws against being Charmed or Frightened.",
+        "Spellcasting": "4th-level cleric spellcaster using Wisdom. Spell save DC 11. Spell attacks +3.\nCantrips (at will): Light, Sacred Flame, Thaumaturgy.\n1st level (4 slots): Command, Inflict Wounds, Shield of Faith.\n2nd level (3 slots): Hold Person, Spiritual Weapon.\nFor magic item use and attunement, treat this NPC as a cleric with access to the cleric spell list.",
+        "Actions": "Multiattack. Make two melee attacks.\nDagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 10 and 345. Includes official passive Perception and spellcasting corrections."
+      },
+      "passivePerception": 11,
+      "skills": {
+        "Deception": 4,
+        "Persuasion": 4,
+        "Religion": 2
+      }
+    }
+  },
+  {
+    "name": "Guard",
+    "statBlock": {
+      "name": "Guard",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 16,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "A watch officer, a fortified gate sentry, or a bodyguard hired by a merchant or noble.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Chain shirt and shield.",
+        "Languages": "Any one language, usually Common.",
+        "Actions": "Spear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing if used with two hands in melee.",
+        "Printed source": "Monster Manual (2014), p. 347. Includes the official addition for a two-handed melee spear strike."
+      },
+      "passivePerception": 12,
+      "skills": {
+        "Perception": 2
+      }
+    }
+  },
+  {
+    "name": "Gladiator",
+    "statBlock": {
+      "name": "Gladiator",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 16,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "An arena fighter. Some are pit fighters who expect every match to turn deadly. Others are prized duelists who rarely kill an opponent.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Studded leather and shield.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Brave. The gladiator has advantage on saves against being Frightened.\nBrute. On a hit with a melee weapon, roll one more die of that weapon's damage. The attack entries already include the extra die.",
+        "Actions": "Multiattack. Make three melee attacks or two ranged attacks.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing if used with two hands in melee.\nShield Bash. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 9 (2d4 + 4) bludgeoning damage. A Medium or smaller creature that fails a DC 15 Strength saving throw falls Prone.",
+        "Reactions": "Parry. When a melee attack would hit the gladiator, it can add 3 to its AC against that attack if it can see the attacker and is wielding a melee weapon.",
+        "Printed source": "Monster Manual (2014), pp. 346–347."
+      },
+      "passivePerception": 11,
+      "skills": {
+        "Athletics": 10,
+        "Intimidation": 5
+      },
+      "savingThrows": {
+        "Str": 7,
+        "Dex": 5,
+        "Con": 6
+      }
+    }
+  },
+  {
+    "name": "Noble",
+    "statBlock": {
+      "name": "Noble",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "A noble or courtier whose money and connections buy influence. Guards and household servants often travel with them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Breastplate.",
+        "Languages": "Any two languages.",
+        "Actions": "Rapier. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 5 (1d8 + 1) piercing damage.",
+        "Reactions": "Parry. When a melee attack would hit the noble, they can add 2 to their AC against that attack if they can see the attacker and are wielding a melee weapon.",
+        "Printed source": "Monster Manual (2014), p. 348. Uses the officially corrected passive Perception."
+      },
+      "passivePerception": 12,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Persuasion": 5
+      }
+    }
+  },
+  {
+    "name": "Priest",
+    "statBlock": {
+      "name": "Priest",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "description": "A temple or shrine leader who teaches the faith and conducts rites. Acolytes often help with ceremonies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Chain shirt.",
+        "Languages": "Any two languages.",
+        "Spellcasting": "5th-level cleric spellcaster using Wisdom. Spell save DC 13. Spell attacks +5.\nCantrips (at will): Light, Sacred Flame, Thaumaturgy.\n1st level (4 slots): Cure Wounds, Guiding Bolt, Sanctuary.\n2nd level (3 slots): Lesser Restoration, Spiritual Weapon.\n3rd level (2 slots): Dispel Magic, Spirit Guardians.\nFor magic item use and attunement, treat this NPC as a cleric with access to the cleric spell list.",
+        "Actions": "Mace. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 3 (1d6) bludgeoning damage.",
+        "Bonus actions": "Divine Eminence. As a bonus action, spend a spell slot to add magical radiant damage to each melee weapon attack that hits until the end of this turn. A 1st-level slot adds 10 (3d6) radiant damage. Add another 1d6 per slot level above 1st.",
+        "Printed source": "Monster Manual (2014), pp. 10 and 348. Includes official corrections to speed, Religion, and spellcasting."
+      },
+      "passivePerception": 13,
+      "skills": {
+        "Medicine": 7,
+        "Persuasion": 3,
+        "Religion": 5
+      }
+    }
+  },
+  {
+    "name": "Veteran",
+    "statBlock": {
+      "name": "Veteran",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 17,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "A professional fighter who takes up arms for pay or for a cause. They might have served in an army or spent years fighting on their own.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Splint armor.",
+        "Languages": "Any one language, usually Common.",
+        "Actions": "Multiattack. Make two Longsword attacks. If the veteran has a shortsword drawn, it can also make one Shortsword attack.\nLongsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing with two hands.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nHeavy Crossbow. Ranged weapon attack, +3 to hit, range 100/400 ft., one target. Hit 6 (1d10 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 350. Uses the officially corrected heavy crossbow damage."
+      },
+      "passivePerception": 12,
+      "skills": {
+        "Athletics": 5,
+        "Perception": 2
+      }
+    }
+  }
+]

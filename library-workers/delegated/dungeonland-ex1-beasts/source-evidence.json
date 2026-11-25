@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Giant Crocodile",
+    "kind": "beast",
+    "publication": "Dungeonland",
+    "edition": "AD&D 1st edition",
+    "printedName": "1 Giant Crocodile",
+    "publisher": "TSR",
+    "author": "Gary Gygax",
+    "productNumber": 9072,
+    "firstPrintYear": 1983,
+    "archivedPdfTitlePageCopyrightYear": 1993,
+    "publisherPreview": "",
+    "archivedPublisherDownload": "https://web.archive.org/web/20030608000000id_/http://www.wizards.com/dnd/files/2/dungeonland.zip",
+    "section": "The Long Hall, changed view",
+    "printedPages": [
+      5
+    ],
+    "pdfPages": [
+      5
+    ],
+    "inspectedPdfSha256": "c7892948e2c62a834125ca99ea384454e780a518da696187db548c02196df34d",
+    "archiveAndLocalBytesMatch": true,
+    "encounterHitPoints": [
+      42
+    ],
+    "entryId": "beast-6343e55b7b181a3b56ac2eed",
+    "versionKey": "f5de7cfdf243f4d3d342e8f7",
+    "slug": "giant-crocodile",
+    "query": "giant crocodile buoyant pool",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "kind": "beast",
+    "publication": "Dungeonland",
+    "edition": "AD&D 1st edition",
+    "printedName": "1 Giant Poisonous Snake",
+    "publisher": "TSR",
+    "author": "Gary Gygax",
+    "productNumber": 9072,
+    "firstPrintYear": 1983,
+    "archivedPdfTitlePageCopyrightYear": 1993,
+    "publisherPreview": "",
+    "archivedPublisherDownload": "https://web.archive.org/web/20030608000000id_/http://www.wizards.com/dnd/files/2/dungeonland.zip",
+    "section": "The Woods of Trees and Giant Fungi, wandering monsters",
+    "printedPages": [
+      12
+    ],
+    "pdfPages": [
+      12
+    ],
+    "inspectedPdfSha256": "c7892948e2c62a834125ca99ea384454e780a518da696187db548c02196df34d",
+    "archiveAndLocalBytesMatch": true,
+    "encounterHitPoints": [
+      26
+    ],
+    "entryId": "beast-3d3e89ddbc50a6648579db8a",
+    "versionKey": "8f9b2c1f9215cca91ad60bd5",
+    "slug": "giant-poisonous-snake",
+    "query": "giant poisonous snake wandering monster",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Dog",
+    "kind": "beast",
+    "publication": "Dungeonland",
+    "edition": "AD&D 1st edition",
+    "printedName": "Giant Dog",
+    "publisher": "TSR",
+    "author": "Gary Gygax",
+    "productNumber": 9072,
+    "firstPrintYear": 1983,
+    "archivedPdfTitlePageCopyrightYear": 1993,
+    "publisherPreview": "",
+    "archivedPublisherDownload": "https://web.archive.org/web/20030608000000id_/http://www.wizards.com/dnd/files/2/dungeonland.zip",
+    "section": "The Wilds of Dungeonland, A. Meadow",
+    "printedPages": [
+      13
+    ],
+    "pdfPages": [
+      13
+    ],
+    "inspectedPdfSha256": "c7892948e2c62a834125ca99ea384454e780a518da696187db548c02196df34d",
+    "archiveAndLocalBytesMatch": true,
+    "encounterHitPoints": [
+      70
+    ],
+    "entryId": "beast-8a9e017b2d43cd4203601e4b",
+    "versionKey": "27d8f835c01ac3d46e6dc605",
+    "slug": "giant-dog",
+    "query": "giant dog iron rations",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Tick",
+    "kind": "beast",
+    "publication": "Dungeonland",
+    "edition": "AD&D 1st edition",
+    "printedName": "Giant Ticks",
+    "publisher": "TSR",
+    "author": "Gary Gygax",
+    "productNumber": 9072,
+    "firstPrintYear": 1983,
+    "archivedPdfTitlePageCopyrightYear": 1993,
+    "publisherPreview": "",
+    "archivedPublisherDownload": "https://web.archive.org/web/20030608000000id_/http://www.wizards.com/dnd/files/2/dungeonland.zip",
+    "section": "The Wilds of Dungeonland, A. Meadow",
+    "printedPages": [
+      13
+    ],
+    "pdfPages": [
+      13
+    ],
+    "inspectedPdfSha256": "c7892948e2c62a834125ca99ea384454e780a518da696187db548c02196df34d",
+    "archiveAndLocalBytesMatch": true,
+    "encounterHitPoints": [
+      19,
+      18,
+      17
+    ],
+    "entryId": "beast-c1cafe68dfc9260ac36389ee",
+    "versionKey": "452ff65b87c2f518736520df",
+    "slug": "giant-tick",
+    "query": "giant tick three ticks giant dog",
+    "portraitSelection": "generated"
+  }
+]

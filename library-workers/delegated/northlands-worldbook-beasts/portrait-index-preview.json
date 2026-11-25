@@ -1,0 +1,17 @@
+[
+  {
+    "entry": "beast-6e84cef3835a51f334a6d4f6",
+    "name": "Reindeer",
+    "file": "images/northlands-worldbook-beast-drafts/reindeer.png",
+    "sha256": "e20ecf6fb5a414890320eecaeed403ac17067559ccd8cfd86f815fe8357e0c96",
+    "credit": "OpenAI ImageGen",
+    "version": "ff655e3a11dcf1e96ef5a86b"
+  },
+  {
+    "entry": "beast-fbc25425387d962b311cbe69",
+    "name": "Sea Serpent",
+    "file": "images/northlands-worldbook-beast-drafts/sea-serpent.png",
+    "sha256": "8f79b68fd73e0353e6823e8628bf841b8149873424e6b96f46bc847c42cb6be3",
+    "credit": "OpenAI ImageGen"
+  }
+]

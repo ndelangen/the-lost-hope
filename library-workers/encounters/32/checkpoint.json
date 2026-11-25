@@ -1,0 +1,40 @@
+{
+  "commit": "7fecb8a26a6144848cc0991a700623a4c3794825",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 1,
+  "fullStatBlocks": 1,
+  "generatedPortraitsInstalled": 1,
+  "creditedGalleriesVerified": 1,
+  "allRecentVersionsWithGeneratedPortrait": 543,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-32-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-32-style-reference.jpg",
+  "styleDirection": "Use campaign event and stage artwork for lighting and materials. Use the Overmind and Xorannox portraits as the reference for subtly textured, light neutral paper. Check creature silhouettes at card size.",
+  "results": "output/dm-library/encounter-batches/32/results.json",
+  "searchResults": "output/dm-library/encounter-batches/32/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Angulotl Blade",
+      "source": "https://www.dndbeyond.com/monsters/4485767-angulotl-blade",
+      "challenge": "1/4"
+    },
+    {
+      "name": "Angulotl Needler",
+      "source": "https://www.dndbeyond.com/monsters/4485768-angulotl-needler",
+      "challenge": "4"
+    },
+    {
+      "name": "Angulotl Seer",
+      "source": "https://www.dndbeyond.com/monsters/4485769-angulotl-seer",
+      "challenge": "6"
+    },
+    {
+      "name": "Angulotl Slink",
+      "source": "https://www.dndbeyond.com/monsters/4485770-angulotl-slink",
+      "challenge": "2"
+    }
+  ],
+  "nextSourceNote": "Check the final Angulotl group and preserve the Blade’s minion mechanics and shared traits."
+}

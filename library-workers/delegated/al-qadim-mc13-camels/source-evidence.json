@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Desert Camel",
+    "kind": "beast",
+    "publication": "Monstrous Compendium Al-Qadim Appendix",
+    "edition": "AD&D 2nd edition",
+    "section": "Camel",
+    "sourceColumn": "Desert",
+    "pdfPages": [
+      11
+    ],
+    "summaryPdfPage": 65,
+    "printedPage": null,
+    "creditsPdfPage": 3,
+    "publisher": "TSR",
+    "year": 1992,
+    "productNumber": 2129,
+    "designers": [
+      "Wolfgang Baur",
+      "Steve Kurtz"
+    ],
+    "sourcePdf": "",
+    "alternateEditionScan": "",
+    "inspectedPdfSha256": "fc85813e03122b95e16a200aa7d006b888ffa664c8a7ad37515703c16cac56f4",
+    "numberAppearing": "1–12",
+    "morale": "Steady (12)",
+    "carryingCapacity": {
+      "unit": "gold-piece weight",
+      "normal": 250,
+      "encumbered": 400,
+      "fullyEncumbered": 520
+    },
+    "entryId": "beast-6feefa4f44f78d3f523c3d11",
+    "versionKey": "84fddb81e21ee223739b340a",
+    "slug": "desert-camel",
+    "query": "desert camel padded feet",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Mountain Camel",
+    "kind": "beast",
+    "publication": "Monstrous Compendium Al-Qadim Appendix",
+    "edition": "AD&D 2nd edition",
+    "section": "Camel",
+    "sourceColumn": "Mountain",
+    "pdfPages": [
+      11
+    ],
+    "summaryPdfPage": 65,
+    "printedPage": null,
+    "creditsPdfPage": 3,
+    "publisher": "TSR",
+    "year": 1992,
+    "productNumber": 2129,
+    "designers": [
+      "Wolfgang Baur",
+      "Steve Kurtz"
+    ],
+    "sourcePdf": "",
+    "alternateEditionScan": "",
+    "inspectedPdfSha256": "fc85813e03122b95e16a200aa7d006b888ffa664c8a7ad37515703c16cac56f4",
+    "numberAppearing": "1–12",
+    "morale": "Steady (12)",
+    "carryingCapacity": {
+      "unit": "gold-piece weight",
+      "normal": 240,
+      "encumbered": 380,
+      "fullyEncumbered": 500
+    },
+    "entryId": "beast-ac603e2d84877be279b739c7",
+    "versionKey": "fe81f712d41889e545d2a2ec",
+    "slug": "mountain-camel",
+    "query": "mountain camel two humps",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Racing Camel",
+    "kind": "beast",
+    "publication": "Monstrous Compendium Al-Qadim Appendix",
+    "edition": "AD&D 2nd edition",
+    "section": "Camel",
+    "sourceColumn": "Racing",
+    "pdfPages": [
+      11
+    ],
+    "summaryPdfPage": 65,
+    "printedPage": null,
+    "creditsPdfPage": 3,
+    "publisher": "TSR",
+    "year": 1992,
+    "productNumber": 2129,
+    "designers": [
+      "Wolfgang Baur",
+      "Steve Kurtz"
+    ],
+    "sourcePdf": "",
+    "alternateEditionScan": "",
+    "inspectedPdfSha256": "fc85813e03122b95e16a200aa7d006b888ffa664c8a7ad37515703c16cac56f4",
+    "numberAppearing": "1–6",
+    "morale": "Unreliable (3)",
+    "carryingCapacity": {
+      "unit": "gold-piece weight",
+      "normal": 150,
+      "encumbered": 280,
+      "fullyEncumbered": 340
+    },
+    "entryId": "beast-29b65c43e8f293bb7eb24cd9",
+    "versionKey": "f5fc71c3fadb233976771118",
+    "slug": "racing-camel",
+    "query": "racing camel small hooves",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "War Camel",
+    "kind": "beast",
+    "publication": "Monstrous Compendium Al-Qadim Appendix",
+    "edition": "AD&D 2nd edition",
+    "section": "Camel",
+    "sourceColumn": "War",
+    "pdfPages": [
+      11
+    ],
+    "summaryPdfPage": 65,
+    "printedPage": null,
+    "creditsPdfPage": 3,
+    "publisher": "TSR",
+    "year": 1992,
+    "productNumber": 2129,
+    "designers": [
+      "Wolfgang Baur",
+      "Steve Kurtz"
+    ],
+    "sourcePdf": "",
+    "alternateEditionScan": "",
+    "inspectedPdfSha256": "fc85813e03122b95e16a200aa7d006b888ffa664c8a7ad37515703c16cac56f4",
+    "numberAppearing": "1–12",
+    "morale": "Elite (13)",
+    "carryingCapacity": {
+      "unit": "gold-piece weight",
+      "normal": 200,
+      "encumbered": 300,
+      "fullyEncumbered": 400
+    },
+    "entryId": "beast-829d7108350a2b63d197f316",
+    "versionKey": "8fa600b0d682a4724465e6b3",
+    "slug": "war-camel",
+    "query": "war camel prone",
+    "portraitSelection": "generated"
+  }
+]

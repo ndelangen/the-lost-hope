@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Drow",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Fey humanoid",
+    "url": "",
+    "page": 276,
+    "printedPages": [
+      276
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "isbn": "978-0-7869-5045-4",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "This racial appendix recommends DM permission for player characters. The Forgotten Realms Player’s Guide prints a separate player profile.",
+      "The printed Monster Manual rule gives Drow Darkvision and lets Lolthtouched fuel either racial power once in each encounter."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Rogue",
+        "url": "",
+        "printedPages": [
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          194,
+          198,
+          200,
+          201,
+          214,
+          218,
+          219
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bugbear",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 276,
+    "printedPages": [
+      276
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "isbn": "978-0-7869-5045-4",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "This is the DM-permission player and NPC profile from the racial appendix. It has player-scale ability adjustments and the racial encounter version of Predatory Eye.",
+      "The encounter build uses a Medium mace. Oversized permits a Large mace, and a larger weapon is optional."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Fighter",
+        "url": "",
+        "printedPages": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          194,
+          198,
+          200,
+          201,
+          214,
+          218,
+          219
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 278,
+    "printedPages": [
+      278
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "isbn": "978-0-7869-5045-4",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "The player and NPC racial traits appear two printed pages after Drow and Bugbear in the same appendix.",
+      "Hobgoblin Resilience is a saving throw as an immediate reaction. It gives no bonus and requires an effect a save can end."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Fighter",
+        "url": "",
+        "printedPages": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          194,
+          198,
+          200,
+          201,
+          214,
+          218,
+          219
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gnome",
+    "publication": "Player's Handbook 2 (4e)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Fey humanoid",
+    "url": "",
+    "page": 10,
+    "printedPages": [
+      10,
+      11
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "eeef56430c1f7d3672cf675ebb1868039033d60269bf35503ff5e32156974dd0",
+    "isbn": "978-0-7869-5016-4",
+    "firstPrinting": "March 2009",
+    "sourceDistinctions": [
+      "This is the Gnome player entry from Player’s Handbook 2. It has its own trait package, distinct from the Monster Manual’s monster stat blocks and other edition-specific gnome lineages.",
+      "Master Trickster is a minor use of Ghost Sound once per encounter. Fade Away is a separate encounter reaction. Page 11 gives the Small character weapon rules."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Wizard",
+        "url": "",
+        "printedPages": [
+          156,
+          157,
+          158,
+          159,
+          160
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          194,
+          198,
+          200,
+          201,
+          214,
+          218,
+          219
+        ]
+      }
+    ]
+  }
+]

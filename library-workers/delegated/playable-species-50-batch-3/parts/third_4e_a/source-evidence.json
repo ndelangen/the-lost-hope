@@ -1,0 +1,253 @@
+[
+  {
+    "name": "Dwarf",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 36,
+    "printedPages": [
+      36,
+      37
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+    "isbn": "978-0-7869-4867-3",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "Uses the core Dwarf from the first-printing player chapter. Constitution and Wisdom are the original pair.",
+      "The August 2012 update offers Strength in place of Wisdom. Bren uses the printed pair. The Combat Challenge summary follows the official p. 76 clarification that the mark must be his."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player's Handbook (4e), Fighter",
+        "url": "",
+        "printedPages": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      {
+        "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+        "url": "",
+        "printedPages": [
+          17,
+          194,
+          212,
+          214,
+          218,
+          219,
+          286,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Eladrin",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Fey humanoid",
+    "url": "",
+    "page": 38,
+    "printedPages": [
+      38,
+      39
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+    "isbn": "978-0-7869-4867-3",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "Uses the first-printing player Eladrin, with Fey Step as a move action and Dexterity and Intelligence increases.",
+      "Ghaele is a distinct 3.0 playable monster progression. The August 2012 update offers Charisma in place of Dexterity. Irian uses the printed pair."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player's Handbook (4e), Wizard",
+        "url": "",
+        "printedPages": [
+          156,
+          157,
+          158,
+          159,
+          160
+        ]
+      },
+      {
+        "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+        "url": "",
+        "printedPages": [
+          17,
+          194,
+          212,
+          214,
+          218,
+          219,
+          286,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Elf",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Fey humanoid",
+    "url": "",
+    "page": 40,
+    "printedPages": [
+      40,
+      41
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+    "isbn": "978-0-7869-4867-3",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "Uses the first-printing Elf's Dexterity and Wisdom increases. Eladrin has its own player profile.",
+      "The August 2012 update adds a visible-quarry restriction and adds the attack ability modifier to Careful Attack damage. These encounter numbers use the first printing."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player's Handbook (4e), Ranger",
+        "url": "",
+        "printedPages": [
+          103,
+          104,
+          105,
+          106
+        ]
+      },
+      {
+        "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+        "url": "",
+        "printedPages": [
+          17,
+          194,
+          212,
+          214,
+          218,
+          219,
+          286,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Half-Elf",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 42,
+    "printedPages": [
+      42,
+      43
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+    "isbn": "978-0-7869-4867-3",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "Dilettante is the first-printing racial trait. Eyebite also meets the August 2012 clarification requiring a 1st-level at-will attack power from another class.",
+      "The character uses the player Half-Elf profile. Later book printings and the Drow Half-Elf lineage are separate."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player's Handbook (4e), Warlord",
+        "url": "",
+        "printedPages": [
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+        "url": "",
+        "printedPages": [
+          17,
+          194,
+          212,
+          214,
+          218,
+          219,
+          286,
+          291
+        ]
+      },
+      {
+        "title": "Player's Handbook (4e), Warlock implements and Eyebite",
+        "url": "",
+        "printedPages": [
+          129,
+          130,
+          132
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Halfling",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 44,
+    "printedPages": [
+      44,
+      45
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+    "isbn": "978-0-7869-4867-3",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "Uses the first-printing Halfling, with the Dexterity and Charisma pair. The August 2012 update offers Constitution in place of Charisma.",
+      "The Rogue uses the printed once-per-round Sneak Attack. The August 2012 update changes the limit to once per turn."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player's Handbook (4e), Rogue",
+        "url": "",
+        "printedPages": [
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      {
+        "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+        "url": "",
+        "printedPages": [
+          17,
+          194,
+          212,
+          214,
+          218,
+          219,
+          286,
+          291
+        ]
+      }
+    ]
+  }
+]

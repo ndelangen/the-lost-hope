@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Chimeric Rat",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+    "isbn": "978-0-7869-6705-6",
+    "section": "Chapter 7, Y16. Menagerie, Chimeric Creations",
+    "printedPages": [
+      246
+    ],
+    "viewerPages": [
+      247
+    ],
+    "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+    "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+    "pageWitnesses": [
+      {
+        "printedPage": 246,
+        "viewerPage": 247,
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+        "sha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123076-chimeric-rat",
+    "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+    "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+    "habitatEvidence": "Printed origin in Ythryn’s Menagerie. The table gives no broader natural habitat.",
+    "artGroup": "chimeric-rat",
+    "portraitSha256": "efbd844c3e31b69b04d2a913f154417c88c75b484917751a15797da298320374",
+    "mechanicsNotes": [
+      "The table gives the amphibious mutation without a separate swim speed. The Rat base block supplies Bite +0 and Keen Smell."
+    ],
+    "relatedRules": [
+      {
+        "section": "Monster Manual Appendix A, Miscellaneous Creatures",
+        "printedPages": [
+          335
+        ],
+        "viewerPages": [
+          336
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "printing": "First printing, September 2014.",
+        "errataUrl": "",
+        "errataEvidence": "The official Monster Manual errata has no change for this base creature."
+      }
+    ]
+  },
+  {
+    "name": "Chimeric Weasel",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+    "isbn": "978-0-7869-6705-6",
+    "section": "Chapter 7, Y16. Menagerie, Chimeric Creations",
+    "printedPages": [
+      246
+    ],
+    "viewerPages": [
+      247
+    ],
+    "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+    "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+    "pageWitnesses": [
+      {
+        "printedPage": 246,
+        "viewerPage": 247,
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+        "sha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123077-chimeric-weasel",
+    "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+    "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+    "habitatEvidence": "Printed origin in Ythryn’s Menagerie. The table gives no broader natural habitat.",
+    "artGroup": "chimeric-weasel",
+    "portraitSha256": "d8407f2ad8def0bc7b685753fec2d0416b8a78295455011dd997e67cc7a821b1",
+    "mechanicsNotes": [
+      "The table gives the eye light radii. The first-print MM Weasel already lists Bite +5 and 1 piercing damage."
+    ],
+    "relatedRules": [
+      {
+        "section": "Monster Manual Appendix A, Miscellaneous Creatures",
+        "printedPages": [
+          340
+        ],
+        "viewerPages": [
+          341
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "printing": "First printing, September 2014.",
+        "errataUrl": "",
+        "errataEvidence": "The official Monster Manual errata has no change for this base creature."
+      }
+    ]
+  },
+  {
+    "name": "Fox",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+    "isbn": "978-0-7869-6705-6",
+    "section": "Appendix C, Creatures",
+    "printedPages": [
+      288
+    ],
+    "viewerPages": [
+      289
+    ],
+    "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=289",
+    "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=289",
+    "pageWitnesses": [
+      {
+        "printedPage": 288,
+        "viewerPage": 289,
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/ba3519f6b09fbb323c34f8ccd3650e83.webp",
+        "sha256": "113c245a8f611d75d3360063e3c4f8d5d814dcf19c4ed9ab1f19db576d1d0c6a"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123082-fox",
+    "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+    "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+    "habitatEvidence": "The printed lore describes local burrows, nearby forest and the edge of Ten-Towns.",
+    "artGroup": "fox",
+    "portraitSha256": "33fb5fe5a708eaffa1bd437b14600ee13745188fe7d6fc88a591694c9ea1774e",
+    "mechanicsNotes": [
+      "The printed block awards 10 XP. This is the unmodified fox in Appendix C."
+    ]
+  },
+  {
+    "name": "Giant Walrus",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+    "isbn": "978-0-7869-6705-6",
+    "section": "Appendix C, Creatures",
+    "printedPages": [
+      312
+    ],
+    "viewerPages": [
+      313
+    ],
+    "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=313",
+    "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=313",
+    "pageWitnesses": [
+      {
+        "printedPage": 312,
+        "viewerPage": 313,
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/da98e5424d9af4cd1a1261218bb33cf4.webp",
+        "sha256": "e0f171a4c39a66840e937e932bae93191d1b60bb867050647d647290e70181a2"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123086-giant-walrus",
+    "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+    "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+    "habitatEvidence": "The shared Walrus description places these creatures around the sea ice. Giant Walrus is the elephant-sized form.",
+    "artGroup": "giant-walrus",
+    "portraitSha256": "00429d9def80d7ac8a646420879704e0fa0e580803f7d1a9de5f5438bd96a132",
+    "mechanicsNotes": [
+      "Body Flop is a regular melee weapon attack against one target, with only its listed damage. Ukuma’s adventure-specific awakening is a separate named scope."
+    ]
+  },
+  {
+    "name": "Hare",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+    "isbn": "978-0-7869-6705-6",
+    "section": "Appendix C, Creatures",
+    "printedPages": [
+      294
+    ],
+    "viewerPages": [
+      295
+    ],
+    "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=295",
+    "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=295",
+    "pageWitnesses": [
+      {
+        "printedPage": 294,
+        "viewerPage": 295,
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/3d26cd4101f63a2e616b29c0344e68ff.webp",
+        "sha256": "c41e49895f7b112cd021cb89fb767d11b37649bc3ddffba61ba92bfae9d24ff2"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123094-hare",
+    "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+    "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+    "habitatEvidence": "The printed lore places snowshoe hares in burrows throughout Icewind Dale.",
+    "artGroup": "hare",
+    "portraitSha256": "ea54892cc8c248509f26caf05605bfad234eb41f98a1719c2e381048c8d3735b",
+    "mechanicsNotes": [
+      "The first printing explicitly gives 0 XP at CR 0. The entry supplies no attack."
+    ]
+  },
+  {
+    "name": "Kingsport",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+    "isbn": "978-0-7869-6705-6",
+    "section": "Chapter 7, Y9. Library",
+    "printedPages": [
+      241,
+      242,
+      243
+    ],
+    "viewerPages": [
+      242,
+      243,
+      244
+    ],
+    "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=244",
+    "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=244",
+    "pageWitnesses": [
+      {
+        "printedPage": 241,
+        "viewerPage": 242,
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/2d2c3242f555f4b9101f3a82fb33b390.webp",
+        "sha256": "0133d6ed64227f400ef28a6b85d894d459faf5304520a7fe325473e655e55f96"
+      },
+      {
+        "printedPage": 242,
+        "viewerPage": 243,
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/1233bbcb484f95a0d2112a6a9295607d.webp",
+        "sha256": "fc01866057b4062eb06582914b50adfaa41570556a69a7755d04a9313f067d7b"
+      },
+      {
+        "printedPage": 243,
+        "viewerPage": 244,
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/d43610cff43824c239de67cab558dcb4.webp",
+        "sha256": "2f4638cc0ae32a83acbb1a6fced4983b29cf2d4c5b590a64f3c3f18de7c6a9e8"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123105-kingsport",
+    "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+    "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+    "habitatEvidence": "The adventure places Kingsport in Ythryn’s library.",
+    "artGroup": "kingsport",
+    "portraitSha256": "36aa5c00f1707f3f3b841c5e964c81a1de2d415128ebbef50eb25f58ce446c25",
+    "mechanicsNotes": [
+      "The standalone stat block is on p. 243. The adventure on pp. 241–242 identifies Kingsport as an awakened, blind albino penguin and describes the leather harness."
+    ]
+  }
+]

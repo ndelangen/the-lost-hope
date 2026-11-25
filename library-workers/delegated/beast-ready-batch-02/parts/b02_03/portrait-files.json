@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "boar",
+    "file": "portraits/boar.png",
+    "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "deer",
+    "file": "portraits/deer.png",
+    "sha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "eagle",
+    "file": "portraits/eagle.png",
+    "sha256": "5afbbb2846bbd876b515e7226034b341d8a78d7f425145451029812c5babc65b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "elephant",
+    "file": "portraits/elephant.png",
+    "sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Dreamlands Cat",
+    "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Petersen Games",
+    "author": "Sandy Petersen, James Jacobs, Arthur Petersen, Ian Starcher, and David N. Ross",
+    "creatureType": "Beast",
+    "url": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+    "rulesReadUrl": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+    "printedPages": [
+      11,
+      12,
+      13
+    ],
+    "heading": "Dreamlands Cat Traits",
+    "version": "Copyright 2018, ISBN 978-0-9995390-4-0. Author text consulted in a reproduction.",
+    "publisherPreview": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Use the 1d3 days from Nine Lives in the actual trait block. The earlier lore text describes a 4d6-hour return for a mundane cat.",
+      "Terran, Martian, Saturnian, and Uranian are printed subraces. The original NPC uses Terran."
+    ]
+  },
+  {
+    "name": "Mythos Ghoul",
+    "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Petersen Games",
+    "author": "Sandy Petersen, James Jacobs, Arthur Petersen, Ian Starcher, and David N. Ross",
+    "creatureType": "Monstrosity",
+    "url": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+    "rulesReadUrl": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+    "printedPages": [
+      19,
+      20
+    ],
+    "heading": "Ghoul Traits",
+    "version": "Copyright 2018, ISBN 978-0-9995390-4-0. Author text consulted in a reproduction.",
+    "publisherPreview": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The chapter heading reads Ghoul and uses Mythos ghoul to identify this living player option. It has a different creature type and traits from the undead Ghoul encounter record.",
+      "The original NPC uses Raised by Ghouls."
+    ]
+  },
+  {
+    "name": "Gnorri",
+    "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Petersen Games",
+    "author": "Sandy Petersen, James Jacobs, Arthur Petersen, Ian Starcher, and David N. Ross",
+    "creatureType": "Monstrosity",
+    "url": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+    "rulesReadUrl": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+    "printedPages": [
+      26,
+      27
+    ],
+    "heading": "Gnorri Traits",
+    "version": "Copyright 2018, ISBN 978-0-9995390-4-0. Author text consulted in a reproduction.",
+    "publisherPreview": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Seln uses the Blue subrace, two arms, and Gnorri Science, with no Builder Magic. The Large creature handles a Medium spear."
+    ]
+  },
+  {
+    "name": "Zoog",
+    "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Petersen Games",
+    "author": "Sandy Petersen, James Jacobs, Arthur Petersen, Ian Starcher, and David N. Ross",
+    "creatureType": "Humanoid",
+    "url": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+    "rulesReadUrl": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+    "printedPages": [
+      34
+    ],
+    "heading": "Zoog Traits",
+    "version": "Copyright 2018, ISBN 978-0-9995390-4-0. Author text consulted in a reproduction.",
+    "publisherPreview": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The printed player build is a Humanoid even though it moves on handlike paws. Only the printed player traits are used."
+    ]
+  }
+]

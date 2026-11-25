@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Centaur",
+    "file": "",
+    "sha256": "e0dac54c92f7f849d248b25c46a4dfeaaf102c5f4203bb4afe2c518a893f0f3f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hound Archon",
+    "file": "",
+    "sha256": "74b100561302bf85e6243f2f68d2373a26d2b9cf3544610e56fe39457b0cfdf1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Janni",
+    "file": "",
+    "sha256": "14d46b297787192a4536324fa3a84fcdb14dc2737aaedcda11840a00dd1868a9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Lizardfolk",
+    "file": "",
+    "sha256": "efae82b14f3e086eb151141ef70b03f56368d18707e4558eb49d2b05e3b93fa8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Pixie",
+    "file": "",
+    "sha256": "780494302ed23e18fd5dff92d697dc0c5f64eba5141bb8d1fb59ea68f7e57007",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

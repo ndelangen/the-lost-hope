@@ -1,0 +1,202 @@
+{
+  "Juiblex": {
+    "sha256": "ba3f1a140cc87a9bb796c67cde02a5deb625993b784548372795bef393ba58ec",
+    "source": "Juiblex"
+  },
+  "Kruthik Hive Lord": {
+    "sha256": "95ddf8f85d03bcbbd23c799f7f71c649492a16447ffddda903ef3a9bb7f88538",
+    "source": "Kruthik Hive Lord"
+  },
+  "Leviathan": {
+    "sha256": "4b619f3503ad0ba9f236e3c689dca35da34461b0230b5c8a6c20acda1a8f8455",
+    "source": "Leviathan"
+  },
+  "Male Steeder": {
+    "sha256": "9bed0dace893d62b67e0257b60c75f11d601b19922f0bce19e6719f1fadf5dad",
+    "source": "Male Steeder"
+  },
+  "Marut": {
+    "sha256": "3dcb75362b179dfc0c019e2a9c72246aa583915e5f0241c40e3def25b6b449cb",
+    "source": "Marut"
+  },
+  "Maurezhi": {
+    "sha256": "67f2208e68993721ee6024a741fdd744af649f3a9be3a787a028300eaca4bda6",
+    "source": "Maurezhi"
+  },
+  "Meazel": {
+    "sha256": "e2b267a66912672853c7162ed92774f239348de8280f71ae0bee05763b99b8fb",
+    "source": "Meazel"
+  },
+  "Merregon": {
+    "sha256": "20fc63cd5b22b96704090c16668bf8f1a599c64ff374791394fa44f926cc5e7c",
+    "source": "Merregon"
+  },
+  "Merrenoloth": {
+    "sha256": "a925573e4582de0fca9b8ef77c8d26273bd19db78e7066a0063faa8c99fe98bd",
+    "source": "Merrenoloth"
+  },
+  "Moloch": {
+    "sha256": "633d77bbad44a1ec99e582236aa3b54c812a4025cfcfe3b5aa2853f44ca79cc2",
+    "source": "Moloch"
+  },
+  "Molydeus": {
+    "sha256": "222721c706dfa9fc8ca36d9c5140737f9247eb05610634ffd67a05215d8a0c29",
+    "source": "Molydeus"
+  },
+  "Nabassu": {
+    "sha256": "072c8128330f3a663b2c4ea0cea0f4e1ca1f1d48ee1c3b31a1a8ff746794d99f",
+    "source": "Nabassu"
+  },
+  "Nagpa": {
+    "sha256": "29c90c19acb86be7b9ad0373a60cc3dd0b3bf844eb2d65573d684d94d8c4c5f4",
+    "source": "Nagpa"
+  },
+  "Narzugon": {
+    "sha256": "e5cb8ccfbc65bb158e6db2b2ecefa8b7813efd718dfdf00ce58eafde0e57bb94",
+    "source": "Narzugon"
+  },
+  "Nightwalker": {
+    "sha256": "b3e866d6f1686d54e6c629cceefbbebda8e89a0cd2497984bc87a6599fc3283e",
+    "source": "Nightwalker"
+  },
+  "Nupperibo": {
+    "sha256": "638a6e6b4518510a80d0183da19f7c4df105a16f655ffdd836827cc5785570a8",
+    "source": "Nupperibo"
+  },
+  "Oaken Bolter": {
+    "sha256": "0a5c796bdef022f78ddd84ee440b3ba79007049d86e5f539ebfe55a842d25ae5",
+    "source": "Clockwork Oaken Bolter"
+  },
+  "Oblex Spawn": {
+    "sha256": "d91265a65b9f554821ad3d46e57cca3d4e364b0f5f8dc05ca2d1c29f5041fa06",
+    "source": "Oblex Spawn"
+  },
+  "Ogre Battering Ram": {
+    "sha256": "e1a8a90e76670d9d9d3906589404736f31b2bad941ac1c47be165ae18cc525c7",
+    "source": "Ogre Battering Ram"
+  },
+  "Ogre Bolt Launcher": {
+    "sha256": "ed09f37d927dcba3527ca20633865da6b3da00f2da066b65df5ba90bc280a952",
+    "source": "Ogre Bolt Launcher"
+  },
+  "Ogre Chain Brute": {
+    "sha256": "a7ccb50480c1402998fb4ec72c33191cd10fa2421c47f6d2573ed6ec3cb7b3ad",
+    "source": "Ogre Chain Brute"
+  },
+  "Ogre Howdah": {
+    "sha256": "035f98cfaa2329760fda9f1c52883f9e29d12f70041744c6acc179e672736d9e",
+    "source": "Ogre Howdah"
+  },
+  "Oinoloth": {
+    "sha256": "1ff2870174dec570718d54d4a8f5bcf3e61d1be7fb06396edeab26ec5b386f4e",
+    "source": "Oinoloth"
+  },
+  "Orcus": {
+    "sha256": "a60cb0af122b79b777e64a0bb601589162c3ac4a4d3d56e45ef6b283911e066a",
+    "source": "Orcus"
+  },
+  "Orthon": {
+    "sha256": "f2210e43e90fb10ae9c9417289feff7d87f6a81639fb5e15f0714f7a82007904",
+    "source": "Orthon"
+  },
+  "Phoenix": {
+    "sha256": "3e5673b2a899950251065c0e6a559eacfc7fb286126c2744aa8a49be311adb70",
+    "source": "Phoenix"
+  },
+  "Red Abishai": {
+    "sha256": "eda1124d29c30b2cfd0066a83037c1a14fef31f4523e9a07cb7cf5cf5540530f",
+    "source": "Red Abishai"
+  },
+  "Retriever": {
+    "sha256": "96e802592434cf9dce70c2cc9f7c4aeecdf256f9dbaf8e6f54676c347a136e39",
+    "source": "Retriever"
+  },
+  "Rot Troll": {
+    "sha256": "2edb7f32b5030398511f59f7d949fca2bfbe04179b156c415f4dc5cf0677fb86",
+    "source": "Rot Troll"
+  },
+  "Rutterkin": {
+    "sha256": "ba0c45b7560d39c3459a75ec43d775ddc88afddf39ef8284ff683f8a68bf72af",
+    "source": "Rutterkin"
+  },
+  "Sacred Statue": {
+    "sha256": "2ba2a333d449778bb908a604e7d67ce29f83958960855d0ddfe9fa7bb5d22325",
+    "source": "Sacred Statue"
+  },
+  "Shadow Dancer": {
+    "sha256": "a7a08f1fad45d01dafb49e8b6aceb0602c624776376534fb1d4a3afd6e00f869",
+    "source": "Shadar-kai Shadow Dancer"
+  },
+  "Sibriex": {
+    "sha256": "8c99347dff288a91892739e931c2f24cc3ccd046b25f17f669c9077fe2a59b25",
+    "source": "Sibriex"
+  },
+  "Skulk": {
+    "sha256": "87ad6e53c87d20640063cde5bb8505635ccbb37d523f187b8d32977b2438d08e",
+    "source": "Skulk"
+  },
+  "Skull Lord": {
+    "sha256": "e85cb3196bd8fde96e64b44fb700913ede2bf55229ef7e38b95bc1bdeee7b157",
+    "source": "Skull Lord"
+  },
+  "Soul Monger": {
+    "sha256": "5ab20afa15c1f22949cf9fcb2d3deab4dc29d4b859601a9b4dd08849e97207b6",
+    "source": "Shadar-kai Soul Monger"
+  },
+  "Spirit Troll": {
+    "sha256": "78b3937544eea5428a12a7023e5a75cae288c05015206bbe9c79ff42f6c220d0",
+    "source": "Spirit Troll"
+  },
+  "Spring Eladrin": {
+    "sha256": "f77b93b70097032d9d71838f4bf227e34bb41800ac983e9f34be1ee5b4f8ebdd",
+    "source": "Spring Eladrin"
+  },
+  "Star Spawn Grue": {
+    "sha256": "7fd8c39cb1b7d2eaf54b1eff47847a7d4904750033891674038ccbb66d73b721",
+    "source": "Star Spawn Grue"
+  },
+  "Star Spawn Hulk": {
+    "sha256": "f597a02379c38de8afc9c6e4fad00f9f9433d1335ad82d1506ee57a5083bd692",
+    "source": "Star Spawn Hulk"
+  },
+  "Star Spawn Larva Mage": {
+    "sha256": "b752b4037dfba2fb201a91dc5091db9a250187800bdd9c03828a79b1e621ab14",
+    "source": "Star Spawn Larva Mage"
+  },
+  "Star Spawn Mangler": {
+    "sha256": "e070585e375cff6a586c033e62cbf7f2956c32c94db88950be86bec56de6f500",
+    "source": "Star Spawn Mangler"
+  },
+  "Star Spawn Seer": {
+    "sha256": "4ad5f92326c9e98d73b1466bd32fa5ffdc46c34b08ca09c719bc5c4cc33dd156",
+    "source": "Star Spawn Seer"
+  },
+  "Steel Predator": {
+    "sha256": "05fa494c82d9b142e237f58995bd68d84f445e7d979cbd743a53d9a0bf05d25a",
+    "source": "Steel Predator"
+  },
+  "Stone Cursed": {
+    "sha256": "4204c4c11d8c8d41674af7eecf6598238f686d21f94984fb237fb08420c918e2",
+    "source": "Stone Cursed"
+  },
+  "Stone Defender": {
+    "sha256": "73eecae04cdd661947eb938e10aa82653b66b5d569d843b7db98abe69a9c841a",
+    "source": "Clockwork Stone Defender"
+  },
+  "Summer Eladrin": {
+    "sha256": "581e6fda837544679b01c17ef82870ffe7a86066a4205daa441d202a272ff355",
+    "source": "Summer Eladrin"
+  },
+  "Sword Wraith Commander": {
+    "sha256": "b20b7b8c0d2a5edb6f2ad59255b994b4b476a22f9eae0227d8e9d819d6939c6c",
+    "source": "Sword Wraith Commander"
+  },
+  "Sword Wraith Warrior": {
+    "sha256": "54d6ceb1272a3ab9e03cf751f8b92609aca81274d9f98e46f3b7db25b55967c2",
+    "source": "Sword Wraith Warrior"
+  },
+  "The Angry": {
+    "sha256": "6d1ed157356cc11dc71728fd7ff1b138bfd30dc3843e6090d84c7499b75bb5d5",
+    "source": "Angry Sorrowsworn"
+  }
+}

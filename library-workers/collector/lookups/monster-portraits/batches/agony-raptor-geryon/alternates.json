@@ -1,0 +1,67 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Agony the Ghost",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/agony-the-ghost/fel-ardra-zuzanna-wuzyk-related.webp",
+    "artist": "Related tiefling sailor Fel Ardra by Zuzanna Wužyk · Light of Xaryxis",
+    "kind": "illustration",
+    "sha256": "453f663ee5706753807b433970653e68e716540cadb6fdbb5129e0fc83a13d96",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/LoX/019-10-003.fel-ardra.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Agony the Ghost",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/agony-the-ghost/ghost-2014-related.webp",
+    "artist": "Related Ghost art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "18fbc9053b72c6c94bdd94a9d08bfeb4b95f2a5a916a06151b875a0d7b835e3d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Ghost.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Anvilwrought Raptor Familiar",
+    "publication": "Mythic Odysseys of Theros",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/anvilwrought-raptor-familiar/anvilwrought-raptor-james-zapata.webp",
+    "artist": "Base Anvilwrought Raptor art by James Zapata · Mythic Odysseys of Theros",
+    "kind": "illustration",
+    "sha256": "537741c8944b429e86db4ebb8e2429daa19d5c62b1412bee342ea176ee37181e",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MOT/Anvilwrought%20Raptor.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Anvilwrought Raptor Familiar",
+    "publication": "Mythic Odysseys of Theros",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/anvilwrought-raptor-familiar/gold-forged-sentinel-james-zapata-related.webp",
+    "artist": "Related Gold-Forged Sentinel art by James Zapata · Mythic Odysseys of Theros",
+    "kind": "illustration",
+    "sha256": "d3c2a228bd41188e19e528a8128526d0059d698b0c1e6beb76e6de10b95260bd",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MOT/Gold-Forged%20Sentinel.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Geryon (Summoner Variant)",
+    "publication": "Mordenkainen’s Tome of Foes",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/geryon-summoner-variant/geryon-claudio-pozas.webp",
+    "artist": "Geryon by Claudio Pozas · Mordenkainen’s Tome of Foes",
+    "kind": "illustration",
+    "sha256": "23c5d1ad06a685de6a221d1ea5a599c83eb1c7a71f384bd5a7e72c70ef0cba03",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MTF/Geryon.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Geryon (Summoner Variant)",
+    "publication": "Mordenkainen’s Tome of Foes",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/geryon-summoner-variant/geryon-yet-more-archfiends-2002.jpg",
+    "artist": "Geryon · Yet More Archfiends (2002) · Wizards of the Coast",
+    "kind": "illustration",
+    "sha256": "16deca681455d49fb0edfffa47b4afa6c24eacdcfcc8a91ec2771ea24a79b5c1"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Azurin",
+    "kind": "species",
+    "publication": "Magic of Incarnum (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Human and Incarnum subtypes. No racial ability score adjustments. Base land speed 30 ft. The Human subtype makes Azurins count as human for applicable effects. The Incarnum subtype supplies no shared abilities or defenses.",
+      "Gain one bonus feat at 1st level. Azurin traits do not grant the human bonus skill points.",
+      "The racial essentia pool increases permanently by 1. This creates a pool of 1 if the character has no other source. An essentia pool supplies points to invest in eligible feats, soulmelds, and abilities.",
+      "Normal capacity per investment is 1 at levels 1–5, 2 at 6–11, 3 at 12–17, and 4 at 18–20. Soulmeld investments can be reallocated as a swift action. Incarnum feat investments are normally set once per day and locked for 24 hours.",
+      "Common is automatic. Bonus languages can be any nonsecret language. Favored class Soulborn. The published examples list LA +0 and use class Hit Dice.",
+      "Azurins resemble their human families. A sky-blue sheen in the whites of the eyes is their distinguishing physical trait."
+    ]
+  }
+]

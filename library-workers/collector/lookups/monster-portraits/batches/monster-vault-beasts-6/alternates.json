@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Hawk, Blood",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/hawk-blood/kobold-press-hawk-blood.webp",
+    "artist": "Blood Hawk · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "37b2e0fe45f423f093a42f403e7429bc83f8b3d1b5c7ad78bc866e37a8105a02",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/hawk-blood.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Hawk, Blood",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/hawk-blood/blood-hawk-2024-rules-related.webp",
+    "artist": "Related Blood Hawk art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "729bd699eccd41921af561b2ec804bb42ac5b12256a88f8552291d55d0120522",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Blood%20Hawk.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Horse, Draft",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/horse-draft/kobold-press-horse.webp",
+    "artist": "Draft Horse · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "1fc1200df67af6b30cabe3b1ac4e260b57aae3a6b3d73f306c94c4cc8b7b928d",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/horse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Horse, Draft",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/horse-draft/draft-horse-2024-rules-related.webp",
+    "artist": "Related Draft Horse art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "edb48833e58e5e2529a2f2442ccd1ec3df50d854cb1e4d14757a717e3e49351a",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Draft%20Horse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Horse, Riding",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/horse-riding/kobold-press-horse-riding.webp",
+    "artist": "Riding Horse · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "5d335b04004553c3c58c9a3cfe53e7b0cf6ff2ab8a294268e40fe7b3b63ff3ea",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/horse-riding.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Horse, Riding",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/horse-riding/riding-horse-2024-rules-related.webp",
+    "artist": "Related Riding Horse art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b2b1ae155641ee362c9625a4626621d4a2eac3535552a548afb4982f8319440f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Riding%20Horse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Horse, War",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/horse-war/kobold-press-horse-war.webp",
+    "artist": "War Horse · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "69f2c507a79005b806979125465a3e00ab4a367c51d6dfd74e79713e41efe544",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/horse-war.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Horse, War",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/horse-war/warhorse-2024-rules-related.webp",
+    "artist": "Related Warhorse art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "d0c9f9badc00637658479611d00a9a0c6853b8c0c5adf5445eaf7d1fa6cb0294",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Warhorse.webp"
+  }
+]

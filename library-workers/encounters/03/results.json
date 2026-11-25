@@ -1,0 +1,737 @@
+[
+  {
+    "name": "Arcanaloth",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "12",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17109-arcanaloth",
+    "index": "https://5e.tools/bestiary.html#arcanaloth_mm",
+    "appearance": "A jackal-headed fiend with hands capable of wielding magic and a taste for fine robes.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Bodak",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17223-bodak",
+    "index": "https://5e.tools/bestiary.html#bodak_vgm",
+    "appearance": "A gaunt undead humanoid with sunken eyes and a long, hollow mouth.",
+    "habitats": "Underdark, swamps and settlements."
+  },
+  {
+    "name": "Bone Naga",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17118-bone-naga",
+    "index": null,
+    "appearance": "The animated skeleton of a naga, with a serpentine spine and a fanged head.",
+    "habitats": null
+  },
+  {
+    "name": "Crawling Claw",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "0",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17139-crawling-claw",
+    "index": "https://5e.tools/bestiary.html#crawling%20claw_mm",
+    "appearance": "A severed hand animated to move on its fingers.",
+    "habitats": null
+  },
+  {
+    "name": "Death Slaad",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "10",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17113-death-slaad",
+    "index": "https://5e.tools/bestiary.html#death%20slaad_mm",
+    "appearance": "A slate-gray, toadlike humanoid with clawed hands. It can assume a humanoid guise.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Deep Scion",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17233-deep-scion",
+    "index": "https://5e.tools/bestiary.html#deep%20scion_vgm",
+    "appearance": "An apparently ordinary humanoid that can take a fishlike form with claws and a biting maw.",
+    "habitats": "Coasts and underwater."
+  },
+  {
+    "name": "Dolphin",
+    "kind": "beast",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17322-dolphin",
+    "index": "https://5e.tools/bestiary.html#dolphin_vgm",
+    "appearance": "A streamlined marine mammal about five to six feet long as an adult.",
+    "habitats": "Coasts and underwater."
+  },
+  {
+    "name": "Drow Mage",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17135-drow-mage",
+    "index": "https://5e.tools/bestiary.html#drow%20mage_mm",
+    "appearance": "A dark elf spellcaster with pointed ears and pale hair.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Fire Snake",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17199-fire-snake",
+    "index": "https://5e.tools/bestiary.html#fire%20snake_mm",
+    "appearance": "A snake-shaped young salamander with a body that radiates intense heat.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Gnoll Pack Lord",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17153-gnoll-pack-lord",
+    "index": "https://5e.tools/bestiary.html#gnoll%20pack%20lord_mm",
+    "appearance": "An upright hyena with a powerful build, a long muzzle and a leader’s gear.",
+    "habitats": [
+      "Grassland",
+      "Forest",
+      "Hill",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Goblin Boss",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17155-goblin-boss",
+    "index": "https://5e.tools/bestiary.html#goblin%20boss_mm",
+    "appearance": "A short, pointed-eared goblin armed with a scimitar and javelins.",
+    "habitats": [
+      "Underdark",
+      "Grassland",
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Goblin Boss",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17155-goblin-boss",
+    "index": "https://5e.tools/bestiary.html#goblin%20boss_mm",
+    "appearance": "A short, pointed-eared goblin armed with a scimitar and javelins.",
+    "habitats": [
+      "Underdark",
+      "Grassland",
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Jackalwere",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17164-jackalwere",
+    "index": "https://5e.tools/bestiary.html#jackalwere_mm",
+    "appearance": "A jackal that can pass as a human or take a jackal-headed hybrid form.",
+    "habitats": [
+      "Grassland",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Kraken Priest",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17336-kraken-priest",
+    "index": "https://5e.tools/bestiary.html#kraken%20priest_vgm",
+    "appearance": "The changes vary by priest. Some have ink-dark eyes and tentacles, such as a suckered tentacle in place of the tongue. Others have eyes and mouths across their body.",
+    "habitats": "Coasts and underwater."
+  },
+  {
+    "name": "Kuo-toa",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17166-kuo-toa",
+    "index": "https://5e.tools/bestiary.html#kuo-toa_mm",
+    "appearance": "A fishlike humanoid with bulging eyes and rubbery skin.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kuo-toa Whip",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17169-kuo-toa-whip",
+    "index": "https://5e.tools/bestiary.html#kuo-toa%20whip_mm",
+    "appearance": "A fishlike kuo-toa devotee that wields a long pincer staff.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Lizardfolk Shaman",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17171-lizardfolk-shaman",
+    "index": "https://5e.tools/bestiary.html#lizardfolk%20shaman_mm",
+    "appearance": "A reptilian humanoid. Its transformation takes the shape of a crocodile.",
+    "habitats": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Lizardfolk Shaman",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17171-lizardfolk-shaman",
+    "index": "https://5e.tools/bestiary.html#lizardfolk%20shaman_mm",
+    "appearance": "A reptilian humanoid. Its transformation takes the shape of a crocodile.",
+    "habitats": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Manes",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17213-manes",
+    "index": "https://5e.tools/bestiary.html#manes_mm",
+    "appearance": "A squat, bloated demon with claws and the remains of a humanoid shape.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Marid",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "11",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17143-marid",
+    "index": "https://5e.tools/bestiary.html#marid_mm",
+    "appearance": "A towering water genie with fishlike features.",
+    "habitats": [
+      "Underwater",
+      "Coastal"
+    ]
+  },
+  {
+    "name": "Maw Demon",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17235-maw-demon",
+    "index": "https://5e.tools/bestiary.html#maw%20demon_vgm",
+    "appearance": "A squat, clawed demon with several bulging eyes and a jagged mouth splitting most of its body.",
+    "habitats": "Underdark."
+  },
+  {
+    "name": "Mezzoloth",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17124-mezzoloth",
+    "index": "https://5e.tools/bestiary.html#mezzoloth_mm",
+    "appearance": "A stocky insectlike fiend armed with claws and a trident.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Monodrone",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17176-monodrone",
+    "index": "https://5e.tools/bestiary.html#monodrone_mm",
+    "appearance": "A spherical modron with one central eye and a pair of wings.",
+    "habitats": [
+      "Mechanus"
+    ]
+  },
+  {
+    "name": "Mud Mephit",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17173-mud-mephit",
+    "index": "https://5e.tools/bestiary.html#mud%20mephit_mm",
+    "appearance": "A winged elemental made of mud that can pass for an ordinary mound when still.",
+    "habitats": [
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Mud Mephit",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17173-mud-mephit",
+    "index": "https://5e.tools/bestiary.html#mud%20mephit_mm",
+    "appearance": "A winged elemental made of mud that can pass for an ordinary mound when still.",
+    "habitats": [
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Myconid Adult",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17183-myconid-adult",
+    "index": "https://5e.tools/bestiary.html#myconid%20adult_mm",
+    "appearance": "A walking fungus with a broad mushroom cap and limbs.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Myconid Sovereign",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17184-myconid-sovereign",
+    "index": "https://5e.tools/bestiary.html#myconid%20sovereign_mm",
+    "appearance": "A towering, broad-capped fungus that stands above the other myconids in its circle.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Needle Blight",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17215-needle-blight",
+    "index": "https://5e.tools/bestiary.html#needle%20blight_mm",
+    "appearance": "A shambling plant creature covered with sharp conifer-like needles.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Nycaloth",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17125-nycaloth",
+    "index": "https://5e.tools/bestiary.html#nycaloth_mm",
+    "appearance": "A muscular, bat-winged fiend with clawed hands and a greataxe.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Orc War Chief",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17187-orc-war-chief",
+    "index": "https://5e.tools/bestiary.html#orc%20war%20chief_mm",
+    "appearance": "An armored orc with a heavy greataxe and a spear.",
+    "habitats": [
+      "Underdark",
+      "Mountain",
+      "Grassland",
+      "Forest",
+      "Swamp",
+      "Hill",
+      "Arctic"
+    ]
+  },
+  {
+    "name": "Orc War Chief",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17187-orc-war-chief",
+    "index": "https://5e.tools/bestiary.html#orc%20war%20chief_mm",
+    "appearance": "An armored orc with a heavy greataxe and a spear.",
+    "habitats": [
+      "Underdark",
+      "Mountain",
+      "Grassland",
+      "Forest",
+      "Swamp",
+      "Hill",
+      "Arctic"
+    ]
+  },
+  {
+    "name": "Orog",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17189-orog",
+    "index": "https://5e.tools/bestiary.html#orog_mm",
+    "appearance": "A heavily built orc in plate armor, armed with a greataxe and javelins.",
+    "habitats": [
+      "Underdark",
+      "Mountain",
+      "Grassland",
+      "Forest",
+      "Hill",
+      "Arctic"
+    ]
+  },
+  {
+    "name": "Pentadrone",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17179-pentadrone",
+    "index": "https://5e.tools/bestiary.html#pentadrone_mm",
+    "appearance": "A five-armed geometric modron with a star-shaped body.",
+    "habitats": [
+      "Mechanus"
+    ]
+  },
+  {
+    "name": "Peryton",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17190-peryton",
+    "index": "https://5e.tools/bestiary.html#peryton_mm",
+    "appearance": "A predatory bird with a stag’s head and branching antlers. Its shadow can look humanoid.",
+    "habitats": [
+      "Mountain",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Quadrone",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17178-quadrone",
+    "index": "https://5e.tools/bestiary.html#quadrone_mm",
+    "appearance": "A cube-bodied modron with wings and four arms.",
+    "habitats": [
+      "Mechanus"
+    ]
+  },
+  {
+    "name": "Red Slaad",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17116-red-slaad",
+    "index": "https://5e.tools/bestiary.html#red%20slaad_mm",
+    "appearance": "A muscular red, toadlike creature with long claws.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Sahuagin Priestess",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17197-sahuagin-priestess",
+    "index": "https://5e.tools/bestiary.html#sahuagin%20priestess_mm",
+    "appearance": "An amphibious fishlike humanoid with a sharklike face and finned features.",
+    "habitats": [
+      "Underwater",
+      "Coastal"
+    ]
+  },
+  {
+    "name": "Scarecrow",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17200-scarecrow",
+    "index": "https://5e.tools/bestiary.html#scarecrow_mm",
+    "appearance": "A straw-stuffed figure animated to stand guard or pursue intruders.",
+    "habitats": [
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Sea Lion",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/22655-sea-lion",
+    "index": "https://5e.tools/bestiary.html#sea%20lion_tftyp",
+    "appearance": "A scaled, catlike face and clawed forelimbs give way to a finned body.",
+    "habitats": "Coastal waters and islands at sea."
+  },
+  {
+    "name": "Shadow Demon",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17131-shadow-demon",
+    "index": "https://5e.tools/bestiary.html#shadow%20demon_mm",
+    "appearance": "A flying demon with the insubstantial shape of a horned shadow.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Smoke Mephit",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17174-smoke-mephit",
+    "index": "https://5e.tools/bestiary.html#smoke%20mephit_mm",
+    "appearance": "A small, winged elemental with a body made of smoke.",
+    "habitats": [
+      "Urban"
+    ]
+  },
+  {
+    "name": "Spined Devil",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17214-spined-devil",
+    "index": "https://5e.tools/bestiary.html#spined%20devil_mm",
+    "appearance": "A small winged devil with sharp spines along its tail.",
+    "habitats": [
+      "Nine Hells"
+    ]
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "16",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17256-storm-giant-quintessent",
+    "index": "https://5e.tools/bestiary.html#storm%20giant%20quintessent_vgm",
+    "appearance": "A giant that can spread its body into a living storm and coalesce again inside its lair.",
+    "habitats": "Mountains, coasts, underwater, deserts and arctic regions. Its lair surrounds a persistent storm."
+  },
+  {
+    "name": "Swarm of Rot Grubs",
+    "kind": "beast",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17323-swarm-of-rot-grubs",
+    "index": "https://5e.tools/bestiary.html#swarm%20of%20rot%20grubs_vgm",
+    "appearance": "A mass of finger-sized maggots that burrow into flesh.",
+    "habitats": "Underdark and swamps, especially corpses and decaying material."
+  },
+  {
+    "name": "Vine Blight",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17216-vine-blight",
+    "index": "https://5e.tools/bestiary.html#vine%20blight_mm",
+    "appearance": "A walking knot of tangled vines. When motionless it looks like a tangle of ordinary plants.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Winged Kobold",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17210-winged-kobold",
+    "index": "https://5e.tools/bestiary.html#winged%20kobold_mm",
+    "appearance": "A small reptilian humanoid with batlike wings. Also called an urd.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Hill",
+      "Urban",
+      "Desert",
+      "Coastal",
+      "Arctic",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Winged Kobold",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17210-winged-kobold",
+    "index": "https://5e.tools/bestiary.html#winged%20kobold_mm",
+    "appearance": "A small reptilian humanoid with batlike wings. Also called an urd.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Hill",
+      "Urban",
+      "Desert",
+      "Coastal",
+      "Arctic",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Abomination",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17121-yuan-ti-abomination",
+    "index": "https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
+    "appearance": "A large serpent-bodied humanoid with scaled arms.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17122-yuan-ti-malison",
+    "index": null,
+    "appearance": "A snake-human hybrid whose serpentine head, arms or lower body depend on its type.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Pureblood",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17123-yuan-ti-pureblood",
+    "index": "https://5e.tools/bestiary.html#yuan-ti%20pureblood_mm",
+    "appearance": "A mostly human-looking yuan-ti with subtle signs such as scales, slit eyes or a forked tongue.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Urban",
+      "Desert"
+    ]
+  }
+]

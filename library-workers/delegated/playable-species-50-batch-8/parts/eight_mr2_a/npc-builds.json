@@ -1,0 +1,281 @@
+{
+  "builds": [
+    {
+      "id": "mr2-banderhobb-mirehook",
+      "title": "Mirehook, Banderhobb Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Understands, reads and writes Common and Undercommon. Cannot speak.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Natural armor and Unarmored Defense each give AC 14. Outlander supplies Athletics, Survival and Undercommon. Barbarian supplies Intimidation and Perception.",
+        "Two rages per long rest. Bonus action to start or end. While raging and outside heavy armor, have advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Rage lasts up to 1 minute and ends early on unconsciousness or when the turn ends without attacking a hostile creature or taking damage since the previous turn.",
+        "Resonant Connection tracks a creature or carried object within 1 mile while Mirehook holds a fragment of it. Hide as a bonus action in dim light or darkness."
+      ],
+      "actions": [
+        "Bite. Unarmed strike +5, reach 5 ft. Hit 1d8 + 3 piercing, or 1d8 + 5 while raging. When it hits as part of the Attack action, Mirehook can attempt Athletics +5 as a bonus action to grapple the target.",
+        "Tongue. Action, melee weapon attack +5, reach 15 ft. Hit 1d8 + 3 necrotic, or 1d8 + 5 while raging. Pull into an adjacent unoccupied space, if available. After a successful pull, Mirehook can use a bonus action to attempt the bite's grapple.",
+        "Grapple. Athletics +5 against the target's Athletics or Acrobatics. A grapple target can be at most Large. Rage gives Mirehook advantage on this Strength check."
+      ],
+      "tactics": "Mirehook writes a warning before a fight. They use the tongue to bring a trespasser within reach. Once they start raging, they use subsequent bonus actions to grapple."
+    },
+    {
+      "id": "mr2-bodak-harrow-pell",
+      "title": "Harrow Pell, Bodak Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Undead",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 9,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +4",
+        "Stealth +7",
+        "Thieves' tools +7"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 14.",
+      "languages": "Abyssal and Thieves' Cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. Natural AC 15 uses Dexterity +3. The leather jerkin is clothing.",
+        "Criminal provides Deception and Stealth. Rogue provides Acrobatics, Insight, Investigation and Perception. Expertise doubles proficiency in Stealth and thieves' tools.",
+        "Lightning resistance. Immune to poison damage and the poisoned condition. Harrow can heal through rests. Four hours of semiconscious rest replace sleep. No air, food or drink required."
+      ],
+      "actions": [
+        "Dagger. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d4 + 3 piercing. Once per turn, add 1d6 Sneak Attack when the attack has advantage, or when another enemy of the target is within 5 ft. of it and is not incapacitated and Harrow has no disadvantage.",
+        "Death Gaze. Action, one mutually visible creature within 120 ft., DC 12 Constitution save or take 1d10 necrotic. An unsurprised target can spend its reaction to look away. Until the end of Harrow's next turn, that target attacks Harrow at disadvantage and Harrow attacks it at advantage. Looking back early triggers the save immediately.",
+        "Fist. Unarmed strike +1, reach 5 ft. Hit 1d4 − 1 bludgeoning."
+      ],
+      "tactics": "Harrow uses Death Gaze to make an armed pursuer look away, then closes in with the dagger."
+    },
+    {
+      "id": "mr2-boggle-puddlepin",
+      "title": "Puddlepin, Boggle Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Small",
+      "type": "Fey",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "speed": "30 ft. walking, 30 ft. climbing",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Sleight of Hand +5",
+        "Stealth +5"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 11.",
+      "languages": "Sylvan.",
+      "traits": [
+        "Proficiency +2. Strength save +1 and Dexterity save +5. Unarmored Defense is 10 + 3 Dexterity + 1 Wisdom. Urchin gives Sleight of Hand and Stealth. Monk gives Acrobatics and Insight.",
+        "Monk Martial Arts permits Dexterity with the shortsword and unarmed strikes. When Puddlepin takes the Attack action and attacks with either, they can make one unarmed strike as a bonus action. No armor or shield.",
+        "Starts with sticky oil, which grants advantage on Strength (Athletics) checks to grapple and checks to maintain a hold. It allows difficult climbs and ceiling movement without a check. Slippery oil gives advantage on Dexterity (Acrobatics) checks to escape bonds or grapples and squeeze. Switching costs a bonus action."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 3 piercing.",
+        "Pummel. Unarmed strike +5, reach 5 ft. Hit 1d4 + 3 bludgeoning. This is also the Martial Arts bonus strike.",
+        "Dimensional Rift. Bonus action, enter a visible immobile enclosed frame within 5 ft. and emerge from a suitable frame within 30 ft. of that first frame.",
+        "Oil Puddle. Action, once per long rest, fill a 10-ft. square for 1 hour. Difficult terrain for creatures other than boggles. On entering or starting there, make a DC 12 Dexterity save or fall prone in slippery oil. Sticky oil calls for a DC 12 Strength save or restraint. Sticky oil permits an action and DC 12 Strength check to escape to the nearest safe empty space."
+      ],
+      "tactics": "Puddlepin leaves sticky oil in the doorway when chased. If they can see a suitable frame, they spend the bonus action on the rift and leave by another opening."
+    },
+    {
+      "id": "mr2-catoblepas-sedge-eye",
+      "title": "Sedge-Eye, Catoblepas Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Animal Handling +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13, or 18 when smell applies.",
+      "languages": "Common and Sylvan.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Natural AC 15 uses Dexterity +2. The Defense fighting style applies only when wearing armor. Sedge-Eye wears none.",
+        "Outlander supplies Athletics, Survival and Sylvan. Fighter supplies Animal Handling and Perception. Perception checks using smell have advantage. No hands to use weapons or shields."
+      ],
+      "actions": [
+        "Tail. Unarmed strike +5, reach 5 ft. Hit 1d8 + 3 bludgeoning.",
+        "Death Ray. Action, one visible target within 30 ft. DC 9 Constitution save or 1d8 necrotic.",
+        "Stench. Bonus action once per short or long rest. Concentrate up to 1 minute. Creatures starting a turn within 5 ft. make a DC 12 Constitution save or are poisoned until the start of their next turn. Ending concentration ends this poison.",
+        "Second Wind. Bonus action once per short or long rest to regain 1d10 + 1 HP."
+      ],
+      "tactics": "Sedge-Eye speaks from beyond tail reach and tries to end the dispute. If surrounded, they start Stench and use their tail. Death Ray reaches a foe who hangs back."
+    },
+    {
+      "id": "mr2-cave-fisher-latchline",
+      "title": "Latchline, Cave Fisher Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 16,
+      "hp": 13,
+      "hitDice": "1d12 + 1",
+      "initiative": 2,
+      "speed": "20 ft. walking, Spider Climb",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +4",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Undercommon and Common.",
+      "traits": [
+        "Proficiency +2. Strength save +4 and Constitution save +3. Natural AC 16 is 14 + 2 Dexterity. Unarmored Defense would give AC 13. At 6 HP or less, fire vulnerability applies. Carrying capacity is 225 lb.",
+        "Outlander supplies Athletics, Survival and Common. Barbarian supplies Nature and Perception. Spider Climb needs no check on difficult surfaces or ceilings. Each foot of climb costs an extra foot of movement.",
+        "Two rages per long rest. Bonus action to start or end. While raging and outside heavy armor, have advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Rage lasts up to 1 minute and ends early on unconsciousness or when the turn ends without attacking a hostile creature or taking damage since the previous turn."
+      ],
+      "actions": [
+        "Claw. Unarmed strike +4, reach 5 ft. Hit 1d8 + 2 piercing or slashing, or 1d8 + 4 while raging.",
+        "Filament. Action, 60-ft. line blocked by total cover. Athletics +4 against each creature's Athletics or Acrobatics. Half or three-quarters cover gives the target advantage on the first check. Latchline grapples each creature that loses. Later escape contests have no cover advantage. Each unattached creature is free to move.",
+        "Filament defense. AC 11, 2 HP, immune to poison and psychic. Strength save +4 and Constitution save +3. Other saves fail. Release as a reaction or automatically on movement, incapacitation or death. Targets remain attached and gain advantage on escape checks and attack rolls against the released line.",
+        "Reel. If holding the line at the start of the turn, use an action to pull one attached object or creature up to 225 lb. Other targets come free. Contest Athletics +4 again for a creature. On a win, pull it into an empty space within 5 ft. The grapple lasts and Latchline can make a claw strike as a bonus action."
+      ],
+      "tactics": "Latchline aims from a fixed position. They reel in a light trespasser next turn and claw only if the pull works. They release the line before retreating."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Banderhobb",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Mirehook",
+      "size": "Medium",
+      "build": "mr2-banderhobb-mirehook",
+      "role": "Sluice warden",
+      "motive": "Keep anyone from opening a damaged gate before the flood drops.",
+      "hook": "Mirehook slides a charcoal note under the gate. It names a missing pulley and where to look for it."
+    },
+    {
+      "species": "Bodak",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Harrow Pell",
+      "size": "Medium",
+      "build": "mr2-bodak-harrow-pell",
+      "role": "Undertaker's night courier",
+      "motive": "Recover the page that lists the names of unclaimed dead.",
+      "hook": "The undertaker can translate Harrow's warning. Someone has bought a blank page from each burial register."
+    },
+    {
+      "species": "Boggle",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Puddlepin",
+      "size": "Small",
+      "build": "mr2-boggle-puddlepin",
+      "role": "Canal message runner",
+      "motive": "Find which lockkeeper has stopped replying to chalk marks.",
+      "hook": "Puddlepin knows a route through the warehouse windows. The party must wait on dry stones to hear it."
+    },
+    {
+      "species": "Catoblepas",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Sedge-Eye",
+      "size": "Medium",
+      "build": "mr2-catoblepas-sedge-eye",
+      "role": "Marsh crossing keeper",
+      "motive": "Close the deep crossing after the old road washes out.",
+      "hook": "Sedge-Eye can smell a safe route through the reeds, but wants a rope line tied to the pillars before anyone steps in."
+    },
+    {
+      "species": "Cave Fisher",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Latchline",
+      "size": "Medium",
+      "build": "mr2-cave-fisher-latchline",
+      "role": "Ceiling tether tender",
+      "motive": "Retrieve the bell that fell down a flooded shaft.",
+      "hook": "Latchline will rig a line for adventurers. They ask everyone to put out their torches before working under the bridge."
+    }
+  ]
+}

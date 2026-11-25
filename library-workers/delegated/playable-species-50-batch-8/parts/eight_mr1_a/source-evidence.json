@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Empyrean",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Celestial",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      76,
+      77
+    ],
+    "page": "pp. 76–77 in v2, Empyrean Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "srd": "",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    },
+    "sourceDistinctions": [
+      "The trait block begins on printed p. 76 and its emotion and language text continues onto p. 77.",
+      "Natural flight applies with the NPC’s leather armor. He carries a few drops of holy water for bless."
+    ]
+  },
+  {
+    "name": "Ettin",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Giant",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      78
+    ],
+    "page": "p. 78 in v2, Ettin Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "srd": "",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    },
+    "sourceDistinctions": [
+      "The player trait box gives no darkvision. The apparent darkvision in the separate design discussion was excluded."
+    ]
+  },
+  {
+    "name": "Faerie Dragon",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Dragon",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      79
+    ],
+    "page": "p. 79 in v2, Faerie Dragon Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "srd": "",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    },
+    "sourceDistinctions": [
+      "The printed player trait expressly makes the bite eligible for finesse-based features. Red is the baseline spell list, not a way to add age-tier monster spells.",
+      "Carries no manufactured weapons or armor. Apply the shared Tiny equipment, carrying, and handless somatic rules on printed p. 8."
+    ]
+  },
+  {
+    "name": "Flameskull",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      80
+    ],
+    "page": "p. 80 in v2, Flameskull Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "srd": "",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    },
+    "sourceDistinctions": [
+      "Printed Rejuvenation is a stabilization rule. It does not activate after destruction or restore full health.",
+      "Warlock spells use Charisma. Recalled Magic uses Intelligence. Armor of Shadows supplies mage armor without material components and the supplement permits this skull’s form-appropriate somatic movements."
+    ]
+  },
+  {
+    "name": "Flumph",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      81,
+      82
+    ],
+    "page": "pp. 81–82 in v2, Flumph Traits.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "srd": "",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    },
+    "sourceDistinctions": [
+      "The existing claim boundary says Tiny. The v2 source explicitly gives Small, applied in both rules data and worked example.",
+      "The handless tendrils expressly count as finesse. Add Dexterity once to the combined strike. Written Common capability does not grant spoken Common."
+    ]
+  }
+]

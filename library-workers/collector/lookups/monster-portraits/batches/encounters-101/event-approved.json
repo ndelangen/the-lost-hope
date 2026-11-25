@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dvati",
+    "slug": "dvati",
+    "caption": "Aven and Iven Threadwell · Original Dvati NPCs",
+    "id": "species-e450d945ed3354e860d811fd:b596f111dcc403979c6312b6",
+    "entry": "species-e450d945ed3354e860d811fd",
+    "version": "b596f111dcc403979c6312b6",
+    "suffix": "encounters-101/dvati.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-101/dvati.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-101/event-drafts/dvati-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 101 2026-11-24/event-drafts/dvati-event-v1.png",
+    "overrides": [],
+    "sha256": "a5c29c22cfc2acc2df6f32c791811472e914d034df718ee4d589f3b29fca87a9",
+    "bytes": 2025183
+  }
+]

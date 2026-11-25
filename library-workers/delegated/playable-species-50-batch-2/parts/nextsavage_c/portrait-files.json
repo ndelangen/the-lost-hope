@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Kyton",
+    "npc": "Veyl Handlink",
+    "file": "",
+    "sha256": "3c982f2ab68af5b70ac063d8e51df6caa6342fca4cfef646bbc612ba90fcc578",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Lillend",
+    "npc": "Sereva Lowstring",
+    "file": "",
+    "sha256": "07d2c84205afb740c59cc6383e602bc44e62790895c24e5edf4c2c5b97536032",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Medusa",
+    "npc": "Mereth Flintmark",
+    "file": "",
+    "sha256": "6c507e006f7340ad6c115d781e0e9b47cad12b0a2a09eab3ba9cfb8e64447813",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Nixie",
+    "npc": "Tivin Reed",
+    "file": "",
+    "sha256": "1aafab9cd72f57296703f9c5fc1524b7bd48f561322be084aa213028739e39fd",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Sea Hag",
+    "npc": "Alda Slackwater",
+    "file": "",
+    "sha256": "93911468c07e9faec75bed0aef64ce27d4c28d751d1950dcda71c6b852e78b04",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

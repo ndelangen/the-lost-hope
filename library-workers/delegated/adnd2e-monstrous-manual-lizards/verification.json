@@ -1,0 +1,26 @@
+{
+  "baseline": "82f9bad621aed1eb3b720d4c469edb9405ac9809",
+  "temporaryCopy": true,
+  "exactProfiles": 4,
+  "printedCombatProfilesVerified": 4,
+  "searchableByNameRuleAppearanceHabitat": 4,
+  "globalSearchResults": 4,
+  "newBaseCatalogEntries": [
+    "Fire Lizard",
+    "Minotaur Lizard",
+    "Subterranean Lizard"
+  ],
+  "fireLizardSharesStardockIdentityWithDistinctVersion": true,
+  "verifiedWithStardockAfterCombiningTsvRows": true,
+  "existingGiantLizardDefault": "Basic Rules (2018)",
+  "existingGiantLizardThumbnailPreserved": true,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "compatibleWithPreviouslyStagedMonstrousManualPatches": true,
+  "fireConeAndJawTriggersVerified": true,
+  "separateSubterraneanVariantsVerified": true,
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

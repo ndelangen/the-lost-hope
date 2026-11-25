@@ -1,0 +1,3194 @@
+{
+  "baseline": "6a3585722e7a9d5b60b4870d103f2085c341b7f6",
+  "profiles": 50,
+  "generatedPortraits": 1,
+  "reusedExistingPortraits": 49,
+  "entries": [
+    {
+      "owner": "b12_01",
+      "name": "Jackal",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "jackal",
+      "reuse_source": "beast-ready-batch-02/parts/b02_05/portraits/jackal.png",
+      "reuse_sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d",
+      "runtime_file": "images/beast-ready-batch-02/jackal.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/jackal.png",
+        "sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Jackal",
+        "kind": "beast",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+        "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+        "spanishHeading": "Chacal",
+        "language": "Spanish",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Official licensed Nosolorol translation",
+        "isbn": "979-13-87882-04-4",
+        "section": "Apéndice: Animales",
+        "printedPage": 339,
+        "printedPages": [
+          339
+        ],
+        "pdfPage": 341,
+        "pdfPages": [
+          341
+        ],
+        "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+        "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.0. The Spanish stat block supplies the exact CR and mechanics.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+        "xpEvidence": "Printed CR 0 awards 10 XP on Cubil de Monstruos p. 17.",
+        "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_05/portraits/jackal.png",
+          "sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d"
+        },
+        "mechanicsNotes": [
+          "The left-column stat line continues at the top of the right column on p. 339.",
+          "The infection save and the long-rest recovery saves each use DC 10 Constitution. The book requires two successful recovery saves without specifying that they must be consecutive."
+        ]
+      }
+    },
+    {
+      "owner": "b12_01",
+      "name": "Lion",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1.0",
+      "art_group": "lion",
+      "reuse_source": "beast-ready-batch-02/parts/b02_08/portraits/lion.png",
+      "reuse_sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+      "runtime_file": "images/beast-ready-batch-02/lion.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/lion.png",
+        "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Lion",
+        "kind": "beast",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+        "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+        "spanishHeading": "León",
+        "language": "Spanish",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Official licensed Nosolorol translation",
+        "isbn": "979-13-87882-04-4",
+        "section": "Apéndice: Animales",
+        "printedPage": 346,
+        "printedPages": [
+          346
+        ],
+        "pdfPage": 348,
+        "pdfPages": [
+          348
+        ],
+        "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+        "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 1.0. The Spanish stat block supplies the exact CR and mechanics.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+        "xpEvidence": "Printed CR 1 awards 200 XP on Cubil de Monstruos p. 17.",
+        "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_08/portraits/lion.png",
+          "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4"
+        },
+        "mechanicsNotes": [
+          "Running Leap, the attacks, and the roar continue in the right column on p. 346.",
+          "Both the Pounce follow-up Bite and Rattling Roar spend a bonus action."
+        ]
+      }
+    },
+    {
+      "owner": "b12_01",
+      "name": "Lizard",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "lizard",
+      "reuse_source": "beast-ready-batch-02/parts/b02_05/portraits/lizard.png",
+      "reuse_sha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782",
+      "runtime_file": "images/beast-ready-batch-02/lizard.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/lizard.png",
+        "sha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Lizard",
+        "kind": "beast",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+        "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+        "spanishHeading": "Lagarto",
+        "language": "Spanish",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Official licensed Nosolorol translation",
+        "isbn": "979-13-87882-04-4",
+        "section": "Apéndice: Animales",
+        "printedPage": 345,
+        "printedPages": [
+          345,
+          346
+        ],
+        "pdfPage": 347,
+        "pdfPages": [
+          347,
+          348
+        ],
+        "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+        "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.0. The Spanish stat block supplies the exact CR and mechanics.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+        "xpEvidence": "Printed CR 0 awards 10 XP on Cubil de Monstruos p. 17.",
+        "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_05/portraits/lizard.png",
+          "sha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782"
+        },
+        "mechanicsNotes": [
+          "The 5 HP threshold appears under Reactions on p. 345. The reduction and immediate movement continue at the top of p. 346."
+        ]
+      }
+    },
+    {
+      "owner": "b12_01",
+      "name": "Lizard, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "lizard-giant",
+      "reuse_source": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+      "reuse_sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+      "runtime_file": "images/beast-ready-batch-04/giant-lizard.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/lizard-giant.png",
+        "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Lizard, Giant",
+        "kind": "beast",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+        "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+        "spanishHeading": "Lagarto, gigante",
+        "language": "Spanish",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Official licensed Nosolorol translation",
+        "isbn": "979-13-87882-04-4",
+        "section": "Apéndice: Animales",
+        "printedPage": 346,
+        "printedPages": [
+          346
+        ],
+        "pdfPage": 348,
+        "pdfPages": [
+          348
+        ],
+        "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+        "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.3. The Spanish stat block supplies the exact CR and mechanics.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+        "xpEvidence": "Printed CR 1/4 awards 50 XP on Cubil de Monstruos p. 17.",
+        "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+          "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09"
+        },
+        "mechanicsNotes": [
+          "The stat block prints fractional CR 1/4. The English index displays 0.3.",
+          "The giant form uses a 9 HP threshold and reduces damage by 4 (1d8) when Detach Tail is available."
+        ],
+        "portraitStyleNote": "The approved replacement depicts a large lizard on muted tan parchment."
+      }
+    },
+    {
+      "owner": "b12_01",
+      "name": "Mammoth",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "6.0",
+      "art_group": "mammoth",
+      "reuse_source": "beast-ready-batch-02/parts/b02_09/portraits/mammoth.png",
+      "reuse_sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+      "runtime_file": "images/beast-ready-batch-02/mammoth.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "6",
+      "portrait": {
+        "file": "reused-portraits/mammoth.png",
+        "sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Mammoth",
+        "kind": "beast",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+        "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+        "spanishHeading": "Mamut",
+        "language": "Spanish",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Official licensed Nosolorol translation",
+        "isbn": "979-13-87882-04-4",
+        "section": "Apéndice: Animales",
+        "printedPage": 347,
+        "printedPages": [
+          347
+        ],
+        "pdfPage": 349,
+        "pdfPages": [
+          349
+        ],
+        "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+        "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 6.0. The Spanish stat block supplies the exact CR and mechanics.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+        "xpEvidence": "Printed CR 6 awards 2,300 XP on Cubil de Monstruos p. 17.",
+        "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_09/portraits/mammoth.png",
+          "sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29"
+        },
+        "mechanicsNotes": [
+          "Trampling Charge continues at the top of the right column on p. 347. That column also lists the actions and Trunk Grab.",
+          "Trunk Grab uses a Strength save and makes the grappled target restrained while the grapple lasts."
+        ]
+      }
+    },
+    {
+      "owner": "b12_02",
+      "name": "Mastiff",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.1",
+      "art_group": "mastiff",
+      "reuse_source": "beast-ready-batch-02/parts/b02_06/portraits/mastiff.png",
+      "reuse_sha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+      "runtime_file": "images/beast-ready-batch-02/mastiff.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/mastiff.png",
+        "sha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Mastiff",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printedHeading": "Mastín",
+        "spanishHeading": "Mastín",
+        "publisher": "Kobold Press and Nosolorol",
+        "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+        "translationLanguage": "Spanish",
+        "isbn": "979-13-87882-04-4",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "printedPages": [
+          347
+        ],
+        "viewerPages": [
+          349
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice, Bestias",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.1. The Spanish print gives exact CR 1/8.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+        "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+        "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "artGroup": "mastiff",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/mastiff.png",
+        "portraitReuseSha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+        "mechanicsNotes": [
+          "Bite uses +4 to hit with the printed 1d4 + 2 damage. Protect Friend requires the attacker to be within 5 ft. of the mastiff and the visible friend to be a Humanoid."
+        ]
+      }
+    },
+    {
+      "owner": "b12_02",
+      "name": "Mule",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.1",
+      "art_group": "mule",
+      "reuse_source": "beast-ready-batch-02/parts/b02_06/portraits/mule.png",
+      "reuse_sha256": "91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b",
+      "runtime_file": "images/beast-ready-batch-02/mule.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/mule.png",
+        "sha256": "91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Mule",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printedHeading": "Mula",
+        "spanishHeading": "Mula",
+        "publisher": "Kobold Press and Nosolorol",
+        "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+        "translationLanguage": "Spanish",
+        "isbn": "979-13-87882-04-4",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "printedPages": [
+          347,
+          348
+        ],
+        "viewerPages": [
+          349,
+          350
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice, Bestias",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.1. The Spanish print gives exact CR 1/8.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+        "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+        "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "artGroup": "mule",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/mule.png",
+        "portraitReuseSha256": "91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b",
+        "mechanicsNotes": [
+          "The entry lists condition resistance to Exhaustion and Prone, with the advantages on rolls to avoid or end those conditions described on printed p. 23. The modifiers and action continue on the next folio."
+        ]
+      }
+    },
+    {
+      "owner": "b12_02",
+      "name": "Octopus",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "octopus",
+      "reuse_source": "beast-ready-batch-02/parts/b02_06/portraits/octopus.png",
+      "reuse_sha256": "ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93",
+      "runtime_file": "images/beast-ready-batch-02/octopus.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/octopus.png",
+        "sha256": "ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Octopus",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printedHeading": "Pulpo",
+        "spanishHeading": "Pulpo",
+        "publisher": "Kobold Press and Nosolorol",
+        "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+        "translationLanguage": "Spanish",
+        "isbn": "979-13-87882-04-4",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "printedPages": [
+          351
+        ],
+        "viewerPages": [
+          353
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice, Bestias",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.0. The Spanish print gives exact CR 0.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+        "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+        "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "artGroup": "octopus",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/octopus.png",
+        "portraitReuseSha256": "ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93",
+        "mechanicsNotes": [
+          "The licensed Spanish printing gives a swim speed of 60 ft. Black Flag Reference Document v0.2 lists 30 ft. for its own entry. The overlay uses this printing’s 60 ft.",
+          "The target is Grappled on the qualifying hit. Taking the optional swim after Ink Dash triggers the immediate release."
+        ]
+      }
+    },
+    {
+      "owner": "b12_02",
+      "name": "Octopus, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1.0",
+      "art_group": "octopus-giant",
+      "reuse_source": "beast-ready-batch-04/parts/b04_09/portraits/giant-octopus.png",
+      "reuse_sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+      "runtime_file": "images/beast-ready-batch-04/giant-octopus.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/octopus-giant.png",
+        "sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Octopus, Giant",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printedHeading": "Pulpo gigante",
+        "spanishHeading": "Pulpo gigante",
+        "publisher": "Kobold Press and Nosolorol",
+        "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+        "translationLanguage": "Spanish",
+        "isbn": "979-13-87882-04-4",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "printedPages": [
+          352
+        ],
+        "viewerPages": [
+          354
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice, Bestias",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 1.0. The Spanish print gives exact CR 1.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+        "xpEvidence": "Printed encounter tables, p. 373, confirm CR-to-XP values.",
+        "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "artGroup": "octopus-giant",
+        "portraitReuseSource": "beast-ready-batch-04/parts/b04_09/portraits/giant-octopus.png",
+        "portraitReuseSha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+        "mechanicsNotes": [
+          "The licensed Spanish printing gives a swim speed of 30 ft. Black Flag Reference Document v0.2 lists 60 ft. for its own entry. The overlay uses this printing’s 30 ft.",
+          "Tentacles can grapple a Huge or smaller creature. Slam works on a grappled Medium or smaller creature and calls for a solid surface."
+        ]
+      }
+    },
+    {
+      "owner": "b12_02",
+      "name": "Orca",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "3.0",
+      "art_group": "orca",
+      "reuse_source": "beast-ready-batch-05/parts/b05_05/portraits/killer-whale.png",
+      "reuse_sha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+      "runtime_file": "images/beast-ready-batch-05/killer-whale.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "reused-portraits/orca.png",
+        "sha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Orca",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printedHeading": "Orca",
+        "spanishHeading": "Orca",
+        "publisher": "Kobold Press and Nosolorol",
+        "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+        "translationLanguage": "Spanish",
+        "isbn": "979-13-87882-04-4",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "printedPages": [
+          348,
+          349
+        ],
+        "viewerPages": [
+          350,
+          351
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice, Bestias",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 3.0. The Spanish print gives exact CR 3.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+        "xpEvidence": "Printed encounter tables, p. 373, confirm CR-to-XP values.",
+        "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "artGroup": "orca",
+        "portraitReuseSource": "beast-ready-batch-05/parts/b05_05/portraits/killer-whale.png",
+        "portraitReuseSha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+        "mechanicsNotes": [
+          "The stat block starts on p. 348 and continues on p. 349. The Spanish Tail Slap wording measures the target’s distance from the tail. Black Flag Reference Document v0.2 measures it from the orca."
+        ]
+      }
+    },
+    {
+      "owner": "b12_03",
+      "name": "Owl",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "owl",
+      "reuse_source": "beast-ready-batch-02/parts/b02_07/portraits/owl.png",
+      "reuse_sha256": "5c3783ed45aacc6ae1c16e0c483f7fac413c03249df01bdea10f732b22d36d37",
+      "runtime_file": "images/beast-ready-batch-02/owl.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/owl.png",
+        "sha256": "5c3783ed45aacc6ae1c16e0c483f7fac413c03249df01bdea10f732b22d36d37",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Owl",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Búho",
+        "printedPages": [
+          335
+        ],
+        "pdfPages": [
+          337
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+        "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 10 XP for CR 0.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_07/portraits/owl.png.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "printingNotes": [
+          "The Spanish block prints fixed HP and six ability modifiers.",
+          "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+          "The print separates baseline Perception and Stealth from the higher values that apply to hearing or sight and to flight."
+        ]
+      }
+    },
+    {
+      "owner": "b12_03",
+      "name": "Owl, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "owl-giant",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-owl.png",
+      "reuse_sha256": "ad9e304223c25c1ab07c12fe55ea9f0e4fc3e3f7337dd73eb24fe1b0751b4f67",
+      "runtime_file": "images/beast-ready-batch-05/giant-owl.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/owl-giant.png",
+        "sha256": "ad9e304223c25c1ab07c12fe55ea9f0e4fc3e3f7337dd73eb24fe1b0751b4f67",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Owl, Giant",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Búho, gigante",
+        "printedPages": [
+          335
+        ],
+        "pdfPages": [
+          337
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+        "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 50 XP for CR 1/4.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-05/parts/b05_01/portraits/giant-owl.png.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "printingNotes": [
+          "The Spanish block prints fixed HP and six ability modifiers.",
+          "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+          "The Spanish block ends after Talons. The next folio turns to vultures. The separate English Black Flag Reference Document v1.0 has a Puffed Up Display reaction absent from this Spanish witness. The English Monster Vault block was unavailable for comparison.",
+          "The English catalog rounds the printed CR 1/4 to 0.3."
+        ],
+        "terminologyComparisonUrl": ""
+      }
+    },
+    {
+      "owner": "b12_03",
+      "name": "Panther",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "panther",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/panther.png",
+      "reuse_sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+      "runtime_file": "images/beast-ready-batch-02/panther.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/panther.png",
+        "sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Panther",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Pantera",
+        "printedPages": [
+          349,
+          350
+        ],
+        "pdfPages": [
+          351,
+          352
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+        "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 50 XP for CR 1/4.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_10/portraits/panther.png.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "printingNotes": [
+          "The Spanish block prints fixed HP and six ability modifiers.",
+          "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+          "The heading and core statistics start on p. 349. The six modifiers, both traits, both attacks and bonus action continue on p. 350.",
+          "The English catalog rounds the printed CR 1/4 to 0.3."
+        ]
+      }
+    },
+    {
+      "owner": "b12_03",
+      "name": "Pony",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.1",
+      "art_group": "pony",
+      "reuse_source": "beast-ready-batch-02/parts/b02_07/portraits/pony.png",
+      "reuse_sha256": "38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444",
+      "runtime_file": "images/beast-ready-batch-02/pony.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/pony.png",
+        "sha256": "38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Pony",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Poni",
+        "printedPages": [
+          351
+        ],
+        "pdfPages": [
+          353
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+        "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 25 XP for CR 1/8.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_07/portraits/pony.png.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "printingNotes": [
+          "The Spanish block prints fixed HP and six ability modifiers.",
+          "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+          "Draft Animal explicitly refers to the pony in the Spanish stat block. The parallel English Black Flag Reference Document v1.0 says draft horse in the Pony entry.",
+          "The English catalog rounds the printed CR 1/8 to 0.1."
+        ],
+        "terminologyComparisonUrl": ""
+      }
+    },
+    {
+      "owner": "b12_03",
+      "name": "Quipper",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "quipper",
+      "reuse_source": "beast-ready-batch-02/parts/b02_07/portraits/quipper.png",
+      "reuse_sha256": "b10ee08895edf0ca1fa8a26c25a82fc0cad37aeffb44ca84127dcceea84bbcd4",
+      "runtime_file": "images/beast-ready-batch-02/quipper.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/quipper.png",
+        "sha256": "b10ee08895edf0ca1fa8a26c25a82fc0cad37aeffb44ca84127dcceea84bbcd4",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Quipper",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Piraña",
+        "printedPages": [
+          350,
+          351
+        ],
+        "pdfPages": [
+          352,
+          353
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+        "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 10 XP for CR 0.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_07/portraits/quipper.png.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "printingNotes": [
+          "The Spanish block prints fixed HP and six ability modifiers.",
+          "Kobold Press’s Monster Vault errata gives no entry-specific correction.",
+          "The individual Piraña starts on p. 350 and its Bite continues at the top of p. 351, immediately above the separate swarm. The English Monster Vault catalog indexes this creature as Quipper."
+        ]
+      }
+    },
+    {
+      "owner": "b12_04",
+      "name": "Quipper, Swarm of Quippers",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1.0",
+      "art_group": "quipper-swarm-of-quippers",
+      "reuse_source": "beast-ready-batch-06/reused-portraits/swarm-of-quippers.webp",
+      "reuse_sha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+      "runtime_file": "images/monsters/swarm-of-quippers/parchment-portrait.webp",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/quipper-swarm-of-quippers.webp",
+        "sha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Quipper, Swarm of Quippers",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish translation Cubil de Monstruos ©2025",
+        "translationPublisher": "Nosolorol",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish edition of the Kobold Press Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Piraña, Enjambre de Pirañas",
+        "printedPages": [
+          351
+        ],
+        "pdfPages": [
+          353
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceAccess": "Printed folios verified in the local licensed Spanish . The linked Nosolorol page identifies the Spanish book.",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/#table_11_row_629",
+        "englishCatalogIndexCr": "1.0",
+        "englishCatalogEvidence": "Kobold Press English catalog confirms the English name, Beast classification, Monster Vault publication and habitats. Exact CR comes from the Spanish stat block.",
+        "experienceEvidence": "Translated book, printed pp. 17–18, Experience Points by Challenge Rating table and award guidance.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The English Monster Vault errata lists no creature-specific correction for this entry.",
+        "operationalEvidence": "The left column covers Swarm Resilience, 0-ft. Bites, the half-HP threshold and a Dexterity save against recurring HP loss, with Medicine or magical healing to end it.",
+        "appearanceEvidence": "Editorial description based on verified reused artwork.",
+        "habitatEvidence": "Habitat tags from the official Kobold Press catalog.",
+        "artGroup": "quipper-swarm-of-quippers",
+        "reuseSha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d"
+      }
+    },
+    {
+      "owner": "b12_04",
+      "name": "Rat",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "rat",
+      "reuse_source": "beast-ready-batch-02/parts/b02_08/portraits/rat.png",
+      "reuse_sha256": "3ecfd8f4bf0d5b6a80a7ee87784606d46b0d414790f550d836a939c56b71be71",
+      "runtime_file": "images/beast-ready-batch-02/rat.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/rat.png",
+        "sha256": "3ecfd8f4bf0d5b6a80a7ee87784606d46b0d414790f550d836a939c56b71be71",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Rat",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish translation Cubil de Monstruos ©2025",
+        "translationPublisher": "Nosolorol",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish edition of the Kobold Press Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Rata",
+        "printedPages": [
+          353
+        ],
+        "pdfPages": [
+          355
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceAccess": "Printed folios verified in the local licensed Spanish . The linked Nosolorol page identifies the Spanish book.",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/#table_11_row_634",
+        "englishCatalogIndexCr": "0.0",
+        "englishCatalogEvidence": "Kobold Press English catalog confirms the English name, Beast classification, Monster Vault publication and habitats. Exact CR comes from the Spanish stat block.",
+        "experienceEvidence": "Translated book, printed pp. 17–18, Experience Points by Challenge Rating table and award guidance.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The English Monster Vault errata lists no creature-specific correction for this entry.",
+        "operationalEvidence": "Rata in the right column of p. 353 has a 20-ft. Swim Speed and Perception 15 when relying on smell. Its Bite lists only damage.",
+        "appearanceEvidence": "Editorial description based on verified reused artwork.",
+        "habitatEvidence": "Habitat tags from the official Kobold Press catalog.",
+        "artGroup": "rat",
+        "reuseSha256": "3ecfd8f4bf0d5b6a80a7ee87784606d46b0d414790f550d836a939c56b71be71"
+      }
+    },
+    {
+      "owner": "b12_04",
+      "name": "Rat, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "rat-giant",
+      "reuse_source": "night-of-the-walking-dead-beasts/portraits/giant-rat-draft.png",
+      "reuse_sha256": "73ea67873e363e85f11687d783e26ee1623cee5e3b183822a2828feff3cabb37",
+      "runtime_file": "images/night-of-the-walking-dead-beasts/giant-rat.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/rat-giant.png",
+        "sha256": "73ea67873e363e85f11687d783e26ee1623cee5e3b183822a2828feff3cabb37",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Rat, Giant",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish translation Cubil de Monstruos ©2025",
+        "translationPublisher": "Nosolorol",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish edition of the Kobold Press Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Rata, Gigante",
+        "printedPages": [
+          354
+        ],
+        "pdfPages": [
+          356
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceAccess": "Printed folios verified in the local licensed Spanish . The linked Nosolorol page identifies the Spanish book.",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/#table_11_row_635",
+        "englishCatalogIndexCr": "0.3",
+        "englishCatalogEvidence": "Kobold Press English catalog confirms the English name, Beast classification, Monster Vault publication and habitats. Exact CR comes from the Spanish stat block.",
+        "experienceEvidence": "Translated book, printed pp. 17–18, Experience Points by Challenge Rating table and award guidance.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The English Monster Vault errata lists no creature-specific correction for this entry.",
+        "operationalEvidence": "Rata, Gigante on p. 354 gives the Pack Tactics trigger and DC 13 Bite save. The Diseased Rats sidebar above it gives transmission, ongoing symptoms, recurrence, cure, and the lethal maximum-HP threshold.",
+        "sourceDiscrepancies": "The Beast overview on p. 33 lists 1/8. The actual Giant Rat stat block on p. 354 gives 1/4, consistent with the English Monster Vault catalog display of 0.3. The profile uses the stat block and 50 XP.",
+        "supportingPrintedPages": [
+          33,
+          354
+        ],
+        "appearanceEvidence": "Editorial description based on verified reused artwork.",
+        "habitatEvidence": "Habitat tags from the official Kobold Press catalog.",
+        "artGroup": "rat-giant",
+        "reuseSha256": "73ea67873e363e85f11687d783e26ee1623cee5e3b183822a2828feff3cabb37"
+      }
+    },
+    {
+      "owner": "b12_04",
+      "name": "Rat, Swarm of Rats",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "rat-swarm-of-rats",
+      "reuse_source": "beast-ready-batch-06/reused-portraits/swarm-of-rats.webp",
+      "reuse_sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+      "runtime_file": "images/monsters/swarm-of-rats/parchment-portrait.webp",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/rat-swarm-of-rats.webp",
+        "sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Rat, Swarm of Rats",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish translation Cubil de Monstruos ©2025",
+        "translationPublisher": "Nosolorol",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish edition of the Kobold Press Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Rata, Enjambre de ratas",
+        "printedPages": [
+          353,
+          354
+        ],
+        "pdfPages": [
+          355,
+          356
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceAccess": "Printed folios verified in the local licensed Spanish . The linked Nosolorol page identifies the Spanish book.",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/#table_11_row_636",
+        "englishCatalogIndexCr": "0.3",
+        "englishCatalogEvidence": "Kobold Press English catalog confirms the English name, Beast classification, Monster Vault publication and habitats. Exact CR comes from the Spanish stat block.",
+        "experienceEvidence": "Translated book, printed pp. 17–18, Experience Points by Challenge Rating table and award guidance.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The English Monster Vault errata lists no creature-specific correction for this entry.",
+        "operationalEvidence": "The swarm’s entire stat block is on p. 353. Bites uses DC 9 and the half-HP breakpoint. The Diseased Rats sidebar on p. 354 supplies the referenced disease and its recovery procedure.",
+        "appearanceEvidence": "Editorial description based on verified reused artwork.",
+        "habitatEvidence": "Habitat tags from the official Kobold Press catalog.",
+        "artGroup": "rat-swarm-of-rats",
+        "reuseSha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5"
+      }
+    },
+    {
+      "owner": "b12_04",
+      "name": "Raven",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "raven",
+      "reuse_source": "beast-ready-batch-02/parts/b02_08/portraits/raven.png",
+      "reuse_sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8",
+      "runtime_file": "images/beast-ready-batch-02/raven.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/raven.png",
+        "sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Raven",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish translation Cubil de Monstruos ©2025",
+        "translationPublisher": "Nosolorol",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish edition of the Kobold Press Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Cuervo",
+        "printedPages": [
+          341
+        ],
+        "pdfPages": [
+          343
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceAccess": "Printed folios verified in the local licensed Spanish . The linked Nosolorol page identifies the Spanish book.",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/#table_11_row_640",
+        "englishCatalogIndexCr": "0.0",
+        "englishCatalogEvidence": "Kobold Press English catalog confirms the English name, Beast classification, Monster Vault publication and habitats. Exact CR comes from the Spanish stat block.",
+        "experienceEvidence": "Translated book, printed pp. 17–18, Experience Points by Challenge Rating table and award guidance.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The English Monster Vault errata lists no creature-specific correction for this entry.",
+        "operationalEvidence": "Cuervo in the left column of p. 341 supplies all three traits, including the Incorporeal Movement exception, and the 20-word Recollection condition. The printed Languages line lists none.",
+        "appearanceEvidence": "Editorial description based on verified reused artwork.",
+        "habitatEvidence": "Habitat tags from the official Kobold Press catalog.",
+        "artGroup": "raven",
+        "reuseSha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8"
+      }
+    },
+    {
+      "owner": "b12_05",
+      "name": "Raven, Swarm of Ravens",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "raven-swarm-of-ravens",
+      "reuse_source": "beast-ready-batch-06/reused-portraits/swarm-of-ravens.webp",
+      "reuse_sha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+      "runtime_file": "images/monsters/swarm-of-ravens/parchment-portrait.webp",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/raven-swarm-of-ravens.webp",
+        "sha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Raven, Swarm of Ravens",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol Ediciones",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Cuervo, Enjambre de Cuervos",
+        "spanishHeading": "Cuervo, Enjambre de Cuervos",
+        "printedPages": [
+          341
+        ],
+        "pdfPages": [
+          343
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice: Animales",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Rules translated and paraphrased from the published Spanish . The English catalog independently confirms the name, book, type, CR and habitat tags.",
+        "xpEvidence": "The challenge-rating table in Cubil de Monstruos p. 17 (p. 19) gives 50 XP for CR 1/4.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The 29 May 2025 Monster Vault errata lists no entry-specific change.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "artGroup": "raven-swarm-of-ravens",
+        "portraitReuseSource": "beast-ready-batch-06/reused-portraits/swarm-of-ravens.webp",
+        "portraitReuseSha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+        "appearanceEvidence": "Editorial description of the reused square parchment portrait.",
+        "printingNotes": [
+          "The lower damage applies at 6 HP or less from the printed 13 HP. The Spanish Monster Vault gives Beaks 0-ft. reach and requires one creature in the swarm’s space. BFRD v1 lists 5-ft. reach and one target in that space.",
+          "Kobold Press’s English catalog displays this printed CR 1/4 as 0.3."
+        ]
+      }
+    },
+    {
+      "owner": "b12_05",
+      "name": "Rhinoceros",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "2.0",
+      "art_group": "rhinoceros",
+      "reuse_source": "beast-ready-batch-02/parts/b02_08/portraits/rhinoceros.png",
+      "reuse_sha256": "52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb",
+      "runtime_file": "images/beast-ready-batch-02/rhinoceros.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/rhinoceros.png",
+        "sha256": "52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Rhinoceros",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol Ediciones",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Rinoceronte",
+        "spanishHeading": "Rinoceronte",
+        "printedPages": [
+          354
+        ],
+        "pdfPages": [
+          356
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice: Animales",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Rules translated and paraphrased from the published Spanish . The English catalog independently confirms the name, book, type, CR and habitat tags.",
+        "xpEvidence": "The challenge-rating table in Cubil de Monstruos p. 17 (p. 19) gives 450 XP for CR 2.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The 29 May 2025 Monster Vault errata lists no entry-specific change.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "artGroup": "rhinoceros",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_08/portraits/rhinoceros.png",
+        "portraitReuseSha256": "52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb",
+        "appearanceEvidence": "Editorial description of the reused square parchment portrait.",
+        "printingNotes": [
+          "The licensed Spanish book prints Large, also listed by BFRD v1. The English catalog reports Huge. Gore’s base damage is bludgeoning and Charge adds piercing. The Spanish book explains resistance to conditions and damage on p. 23."
+        ]
+      }
+    },
+    {
+      "owner": "b12_05",
+      "name": "Seahorse",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "seahorse",
+      "reuse_source": "beast-ready-batch-02/parts/b02_09/portraits/seahorse.png",
+      "reuse_sha256": "52d51a66b31b0494b4cb70ac5c80b2730a9380f04673a18752ce54c7924c3b33",
+      "runtime_file": "images/beast-ready-batch-02/seahorse.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/seahorse.png",
+        "sha256": "52d51a66b31b0494b4cb70ac5c80b2730a9380f04673a18752ce54c7924c3b33",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Seahorse",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol Ediciones",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Caballito de mar",
+        "spanishHeading": "Caballito de mar",
+        "printedPages": [
+          337
+        ],
+        "pdfPages": [
+          339
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice: Animales",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Rules translated and paraphrased from the published Spanish . The English catalog independently confirms the name, book, type, CR and habitat tags.",
+        "xpEvidence": "The challenge-rating table in Cubil de Monstruos p. 17 (p. 19) gives 10 XP for CR 0.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The 29 May 2025 Monster Vault errata lists no entry-specific change.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "artGroup": "seahorse",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_09/portraits/seahorse.png",
+        "portraitReuseSha256": "52d51a66b31b0494b4cb70ac5c80b2730a9380f04673a18752ce54c7924c3b33",
+        "appearanceEvidence": "Editorial description of the reused square parchment portrait.",
+        "printingNotes": [
+          "The base Stealth is 12 and becomes 17 while underwater."
+        ]
+      }
+    },
+    {
+      "owner": "b12_05",
+      "name": "Seahorse, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.5",
+      "art_group": "seahorse-giant",
+      "reuse_source": "beast-ready-batch-05/parts/b05_02/portraits/giant-sea-horse.png",
+      "reuse_sha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+      "runtime_file": "images/beast-ready-batch-05/giant-sea-horse.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/seahorse-giant.png",
+        "sha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Seahorse, Giant",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol Ediciones",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Caballito de mar, gigante",
+        "spanishHeading": "Caballito de mar, gigante",
+        "printedPages": [
+          337
+        ],
+        "pdfPages": [
+          339
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice: Animales",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Rules translated and paraphrased from the published Spanish . The English catalog independently confirms the name, book, type, CR and habitat tags.",
+        "xpEvidence": "The challenge-rating table in Cubil de Monstruos p. 17 (p. 19) gives 100 XP for CR 1/2.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The 29 May 2025 Monster Vault errata lists no entry-specific change.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "artGroup": "seahorse-giant",
+        "portraitReuseSource": "beast-ready-batch-05/parts/b05_02/portraits/giant-sea-horse.png",
+        "portraitReuseSha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+        "appearanceEvidence": "Editorial description of the reused square parchment portrait.",
+        "printingNotes": [
+          "Charge and Grasping Tail have separate DC 12 Strength saves. The escape action is explained in the general rules on Spanish p. 26 and in the official English errata sidebar."
+        ]
+      }
+    },
+    {
+      "owner": "b12_05",
+      "name": "Seal",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "seal",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b12_05/portraits/seal.png",
+        "sha256": "011795b07c390048abd0ced9284abf297b77d250db27639ecbade13a4cde3f1d",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Seal",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+        "sourceTitle": "Cubil de Monstruos",
+        "sourcePublisher": "Nosolorol Ediciones",
+        "sourceLanguage": "Spanish",
+        "sourceTranslator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+        "isbn": "979-13-87882-04-4",
+        "printedHeading": "Foca",
+        "spanishHeading": "Foca",
+        "printedPages": [
+          341,
+          342
+        ],
+        "pdfPages": [
+          343,
+          344
+        ],
+        "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "section": "Apéndice: Animales",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "sourceWitness": "Rules translated and paraphrased from the published Spanish . The English catalog independently confirms the name, book, type, CR and habitat tags.",
+        "xpEvidence": "The challenge-rating table in Cubil de Monstruos p. 17 (p. 19) gives 50 XP for CR 1/4.",
+        "officialErrata": "https://koboldpress.com/errata/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "The 29 May 2025 Monster Vault errata lists no entry-specific change.",
+        "habitatEvidence": "Official English Monster Vault catalog tags.",
+        "artGroup": "seal",
+        "portraitGeneratedFile": "portraits/seal.png",
+        "portraitGeneratedSha256": "011795b07c390048abd0ced9284abf297b77d250db27639ecbade13a4cde3f1d",
+        "appearanceEvidence": "Editorial description of the new square parchment portrait.",
+        "printingNotes": [
+          "The profile begins on p. 341 and continues on p. 342. Charming Escape combines movement with an area Charisma save.",
+          "Kobold Press’s English catalog displays this printed CR 1/4 as 0.3."
+        ]
+      }
+    },
+    {
+      "owner": "b12_06",
+      "name": "Shark, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "5.0",
+      "art_group": "shark-giant",
+      "reuse_source": "adnd2e-monstrous-manual-sharks/portraits/giant-shark-draft.png",
+      "reuse_sha256": "233e1df81e455d8c10ebd956abb8c6dfa4f02682058bf5441b00ebe80b7a61e4",
+      "runtime_file": "images/adnd2e-monstrous-manual-sharks/giant-shark.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "reused-portraits/shark-giant.png",
+        "sha256": "233e1df81e455d8c10ebd956abb8c6dfa4f02682058bf5441b00ebe80b7a61e4",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Shark, Giant",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "rulesWitnessPublisher": "Nosolorol",
+        "rulesWitness": "Cubil de Monstruos",
+        "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+        "language": "Spanish",
+        "translator": "Andrea Iglesias",
+        "license": "Licensed Spanish translation published by Nosolorol.",
+        "isbn": "979-13-87882-04-4",
+        "heading": "Tiburón, Gigante",
+        "printedPages": [
+          358,
+          359
+        ],
+        "viewerPages": [
+          360,
+          361
+        ],
+        "pageNumbering": "Printed folio plus two gives the one-based page.",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogCR": "5.0",
+        "cr": "5",
+        "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+        "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": 6,
+          "DEX": 0,
+          "CON": 5,
+          "INT": -5,
+          "WIS": 0,
+          "CHA": -3
+        },
+        "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+        "xp": 1800,
+        "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+        "supportingPages": [
+          17,
+          23
+        ],
+        "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+        "sourceDistinctions": [
+          "The Actions and Bonus actions begin on printed p. 359 above the Tiger heading. Blood Sense pinpoints creatures below maximum HP within 120 ft. Bite can target a creature or object."
+        ]
+      }
+    },
+    {
+      "owner": "b12_06",
+      "name": "Shark, Hunter",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "2.0",
+      "art_group": "shark-hunter",
+      "reuse_source": "beast-ready-batch-05/parts/b05_05/portraits/hunter-shark.png",
+      "reuse_sha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+      "runtime_file": "images/beast-ready-batch-05/hunter-shark.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/shark-hunter.png",
+        "sha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Shark, Hunter",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "rulesWitnessPublisher": "Nosolorol",
+        "rulesWitness": "Cubil de Monstruos",
+        "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+        "language": "Spanish",
+        "translator": "Andrea Iglesias",
+        "license": "Licensed Spanish translation published by Nosolorol.",
+        "isbn": "979-13-87882-04-4",
+        "heading": "Tiburón, Cazador",
+        "printedPages": [
+          357,
+          358
+        ],
+        "viewerPages": [
+          359,
+          360
+        ],
+        "pageNumbering": "Printed folio plus two gives the one-based page.",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogCR": "2.0",
+        "cr": "2",
+        "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+        "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+        "fixedValues": {
+          "Perception": 12,
+          "Stealth": 11
+        },
+        "abilityModifiers": {
+          "STR": 3,
+          "DEX": 1,
+          "CON": 2,
+          "INT": -5,
+          "WIS": 0,
+          "CHA": -3
+        },
+        "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+        "xp": 450,
+        "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+        "supportingPages": [
+          17,
+          23
+        ],
+        "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+        "sourceDistinctions": [
+          "The block starts on printed p. 357. Blood Sense pinpoints within 60 ft. and the Bite targets one creature."
+        ]
+      }
+    },
+    {
+      "owner": "b12_06",
+      "name": "Shark, Reef",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.5",
+      "art_group": "shark-reef",
+      "reuse_source": "beast-ready-batch-05/parts/b05_07/portraits/reef-shark.png",
+      "reuse_sha256": "6f2fab1af6cf9e06fa2af63260b1c24c042594eec93c1427ea3f181b5b74b812",
+      "runtime_file": "images/beast-ready-batch-05/reef-shark.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/shark-reef.png",
+        "sha256": "6f2fab1af6cf9e06fa2af63260b1c24c042594eec93c1427ea3f181b5b74b812",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Shark, Reef",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "rulesWitnessPublisher": "Nosolorol",
+        "rulesWitness": "Cubil de Monstruos",
+        "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+        "language": "Spanish",
+        "translator": "Andrea Iglesias",
+        "license": "Licensed Spanish translation published by Nosolorol.",
+        "isbn": "979-13-87882-04-4",
+        "heading": "Tiburón, de Arrecife",
+        "printedPages": [
+          358
+        ],
+        "viewerPages": [
+          360
+        ],
+        "pageNumbering": "Printed folio plus two gives the one-based page.",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogCR": "0.5",
+        "cr": "1/2",
+        "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+        "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+        "fixedValues": {
+          "Perception": 12,
+          "Stealth": 11
+        },
+        "abilityModifiers": {
+          "STR": 2,
+          "DEX": 1,
+          "CON": 1,
+          "INT": -5,
+          "WIS": 0,
+          "CHA": -3
+        },
+        "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+        "xp": 100,
+        "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+        "supportingPages": [
+          17,
+          23
+        ],
+        "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+        "sourceDistinctions": [
+          "The reef shark uses Pack Tactics and can Hide as a bonus action. Its Actions list one Bite."
+        ]
+      }
+    },
+    {
+      "owner": "b12_06",
+      "name": "Snake, Constrictor",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "snake-constrictor",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/constrictor-snake.png",
+      "reuse_sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+      "runtime_file": "images/beast-ready-batch-04/constrictor-snake.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/snake-constrictor.png",
+        "sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Snake, Constrictor",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "rulesWitnessPublisher": "Nosolorol",
+        "rulesWitness": "Cubil de Monstruos",
+        "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+        "language": "Spanish",
+        "translator": "Andrea Iglesias",
+        "license": "Licensed Spanish translation published by Nosolorol.",
+        "isbn": "979-13-87882-04-4",
+        "heading": "Serpiente, constrictora",
+        "printedPages": [
+          355
+        ],
+        "viewerPages": [
+          357
+        ],
+        "pageNumbering": "Printed folio plus two gives the one-based page.",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogCR": "0.3",
+        "cr": "1/4",
+        "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+        "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+        "fixedValues": {
+          "Perception": 10,
+          "Stealth": 12
+        },
+        "abilityModifiers": {
+          "STR": 2,
+          "DEX": 2,
+          "CON": 1,
+          "INT": -5,
+          "WIS": 0,
+          "CHA": -4
+        },
+        "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+        "xp": 50,
+        "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+        "supportingPages": [
+          17,
+          23
+        ],
+        "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+        "sourceDistinctions": [
+          "The left-column constrictor uses escape and Crush DC 12. The separate giant constrictor has its own block in the right column. The printed CR is 1/4."
+        ]
+      }
+    },
+    {
+      "owner": "b12_06",
+      "name": "Snake, Flying",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.1",
+      "art_group": "snake-flying",
+      "reuse_source": "beast-ready-batch-04/parts/b04_03/portraits/flying-snake.png",
+      "reuse_sha256": "c18f8bdfa42fff72a1a91f6d5f796d7c9b58d706fa1efea8afe3466c92736160",
+      "runtime_file": "images/beast-ready-batch-04/flying-snake.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/snake-flying.png",
+        "sha256": "c18f8bdfa42fff72a1a91f6d5f796d7c9b58d706fa1efea8afe3466c92736160",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Snake, Flying",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "rulesWitnessPublisher": "Nosolorol",
+        "rulesWitness": "Cubil de Monstruos",
+        "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+        "language": "Spanish",
+        "translator": "Andrea Iglesias",
+        "license": "Licensed Spanish translation published by Nosolorol.",
+        "isbn": "979-13-87882-04-4",
+        "heading": "Serpiente, voladora",
+        "printedPages": [
+          356
+        ],
+        "viewerPages": [
+          358
+        ],
+        "pageNumbering": "Printed folio plus two gives the one-based page.",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogCR": "0.1",
+        "cr": "1/8",
+        "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+        "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+        "fixedValues": {
+          "Perception": 11,
+          "Stealth": 13
+        },
+        "abilityModifiers": {
+          "STR": -3,
+          "DEX": 1,
+          "CON": 0,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -3
+        },
+        "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+        "xp": 25,
+        "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+        "supportingPages": [
+          17,
+          23
+        ],
+        "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+        "sourceDistinctions": [
+          "Reflexive Escape triggers on an attack by a visible creature. The Bite gives a save to avoid poison damage. The printed CR is 1/8."
+        ]
+      }
+    },
+    {
+      "owner": "b12_07",
+      "name": "Snake, Giant Constrictor",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "2.0",
+      "art_group": "snake-giant-constrictor",
+      "reuse_source": "beast-ready-batch-04/parts/b04_05/portraits/giant-constrictor-snake.png",
+      "reuse_sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+      "runtime_file": "images/beast-ready-batch-04/giant-constrictor-snake.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/snake-giant-constrictor.png",
+        "sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Snake, Giant Constrictor",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press (Open Design LLC)",
+        "originalCopyrightYear": 2024,
+        "printing": "Licensed 2025 Spanish edition",
+        "localizedTitle": "Cubil de Monstruos",
+        "translationLanguage": "Spanish",
+        "translationPublisher": "Nosolorol",
+        "translator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish translation",
+        "isbn": "979-13-87882-04-4",
+        "sourceHeading": "Serpiente, constrictora gigante",
+        "printedPages": [
+          355
+        ],
+        "pdfPages": [
+          357
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceRole": "Local licensed Spanish supplies the playing rules. Nosolorol link identifies the translation.",
+        "xpEvidence": "Cubil de Monstruos challenge-rating XP table, p. 17, p. 19.",
+        "conditionResistanceEvidence": null,
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Kobold Press catalog confirms English name, size, CR and terrain. Use the exact printed Spanish fraction for CR.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "Kobold Press Monster Vault errata dated May 29, 2025, list no correction to this profile.",
+        "habitatEvidence": "Terrain tags in the official English Kobold Press catalog.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "artGroup": "snake-giant-constrictor",
+        "artworkSource": "beast-ready-batch-04/parts/b04_05/portraits/giant-constrictor-snake.png",
+        "artworkRuntimeFile": "images/beast-ready-batch-04/giant-constrictor-snake.png",
+        "reuseSha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9"
+      }
+    },
+    {
+      "owner": "b12_07",
+      "name": "Snake, Giant Poisonous",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "snake-giant-poisonous",
+      "reuse_source": "dungeonland-ex1-beasts/portraits/giant-poisonous-snake-draft.png",
+      "reuse_sha256": "a2fdc852584974c6df9d84b54c25b9596bd92b157b1019c98015d5775a1af13e",
+      "runtime_file": "images/dungeonland-ex1-beasts/giant-poisonous-snake.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/snake-giant-poisonous.png",
+        "sha256": "a2fdc852584974c6df9d84b54c25b9596bd92b157b1019c98015d5775a1af13e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Snake, Giant Poisonous",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press (Open Design LLC)",
+        "originalCopyrightYear": 2024,
+        "printing": "Licensed 2025 Spanish edition",
+        "localizedTitle": "Cubil de Monstruos",
+        "translationLanguage": "Spanish",
+        "translationPublisher": "Nosolorol",
+        "translator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish translation",
+        "isbn": "979-13-87882-04-4",
+        "sourceHeading": "Serpiente, Venenosa Gigante",
+        "printedPages": [
+          356
+        ],
+        "pdfPages": [
+          358
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceRole": "Local licensed Spanish supplies the playing rules. Nosolorol link identifies the translation.",
+        "xpEvidence": "Cubil de Monstruos challenge-rating XP table, p. 17, p. 19.",
+        "conditionResistanceEvidence": "Cubil de Monstruos p. 23 defines condition resistance as advantage on rolls and saves to avoid or end the condition.",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Kobold Press catalog confirms English name, size, CR and terrain. Use the exact printed Spanish fraction for CR.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "Kobold Press Monster Vault errata dated May 29, 2025, list no correction to this profile.",
+        "habitatEvidence": "Terrain tags in the official English Kobold Press catalog.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "artGroup": "snake-giant-poisonous",
+        "artworkSource": "dungeonland-ex1-beasts/portraits/giant-poisonous-snake-draft.png",
+        "artworkRuntimeFile": "images/dungeonland-ex1-beasts/giant-poisonous-snake.png",
+        "reuseSha256": "a2fdc852584974c6df9d84b54c25b9596bd92b157b1019c98015d5775a1af13e"
+      }
+    },
+    {
+      "owner": "b12_07",
+      "name": "Snake, Poisonous",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.1",
+      "art_group": "snake-poisonous",
+      "reuse_source": "beast-ready-batch-05/parts/b05_06/portraits/poisonous-snake.png",
+      "reuse_sha256": "0618654cb0d968dc849a9fa9e98e607562be990937f801feb4059362135124e7",
+      "runtime_file": "images/beast-ready-batch-05/poisonous-snake.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/snake-poisonous.png",
+        "sha256": "0618654cb0d968dc849a9fa9e98e607562be990937f801feb4059362135124e7",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Snake, Poisonous",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press (Open Design LLC)",
+        "originalCopyrightYear": 2024,
+        "printing": "Licensed 2025 Spanish edition",
+        "localizedTitle": "Cubil de Monstruos",
+        "translationLanguage": "Spanish",
+        "translationPublisher": "Nosolorol",
+        "translator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish translation",
+        "isbn": "979-13-87882-04-4",
+        "sourceHeading": "Serpiente, venenosa",
+        "printedPages": [
+          355,
+          356
+        ],
+        "pdfPages": [
+          357,
+          358
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceRole": "Local licensed Spanish supplies the playing rules. Nosolorol link identifies the translation.",
+        "xpEvidence": "Cubil de Monstruos challenge-rating XP table, p. 17, p. 19.",
+        "conditionResistanceEvidence": "Cubil de Monstruos p. 23 defines condition resistance as advantage on rolls and saves to avoid or end the condition.",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Kobold Press catalog confirms English name, size, CR and terrain. Use the exact printed Spanish fraction for CR.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "Kobold Press Monster Vault errata dated May 29, 2025, list no correction to this profile.",
+        "habitatEvidence": "Terrain tags in the official English Kobold Press catalog.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "artGroup": "snake-poisonous",
+        "artworkSource": "beast-ready-batch-05/parts/b05_06/portraits/poisonous-snake.png",
+        "artworkRuntimeFile": "images/beast-ready-batch-05/poisonous-snake.png",
+        "reuseSha256": "0618654cb0d968dc849a9fa9e98e607562be990937f801feb4059362135124e7"
+      }
+    },
+    {
+      "owner": "b12_07",
+      "name": "Snake, Swarm of Poisonous Snakes",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "2.0",
+      "art_group": "snake-swarm-of-poisonous-snakes",
+      "reuse_source": "beast-ready-batch-10/reused-portraits/swarm-of-poisonous-snakes.webp",
+      "reuse_sha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+      "runtime_file": "images/monsters/swarm-of-poisonous-snakes/parchment-portrait.webp",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/snake-swarm-of-poisonous-snakes.webp",
+        "sha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Snake, Swarm of Poisonous Snakes",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press (Open Design LLC)",
+        "originalCopyrightYear": 2024,
+        "printing": "Licensed 2025 Spanish edition",
+        "localizedTitle": "Cubil de Monstruos",
+        "translationLanguage": "Spanish",
+        "translationPublisher": "Nosolorol",
+        "translator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish translation",
+        "isbn": "979-13-87882-04-4",
+        "sourceHeading": "Serpiente, Enjambre de Serpientes Venenosas",
+        "printedPages": [
+          355
+        ],
+        "pdfPages": [
+          357
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceRole": "Local licensed Spanish supplies the playing rules. Nosolorol link identifies the translation.",
+        "xpEvidence": "Cubil de Monstruos challenge-rating XP table, p. 17, p. 19.",
+        "conditionResistanceEvidence": "Cubil de Monstruos p. 23 defines condition resistance as advantage on rolls and saves to avoid or end the condition.",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Kobold Press catalog confirms English name, size, CR and terrain. Use the exact printed Spanish fraction for CR.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "Kobold Press Monster Vault errata dated May 29, 2025, list no correction to this profile.",
+        "habitatEvidence": "Terrain tags in the official English Kobold Press catalog.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "artGroup": "snake-swarm-of-poisonous-snakes",
+        "artworkSource": "beast-ready-batch-10/reused-portraits/swarm-of-poisonous-snakes.webp",
+        "artworkRuntimeFile": "images/monsters/swarm-of-poisonous-snakes/parchment-portrait.webp",
+        "reuseSha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe"
+      }
+    },
+    {
+      "owner": "b12_07",
+      "name": "Spider",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "spider",
+      "reuse_source": "beast-ready-batch-02/parts/b02_09/portraits/spider.png",
+      "reuse_sha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+      "runtime_file": "images/beast-ready-batch-02/spider.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/spider.png",
+        "sha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Spider",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press (Open Design LLC)",
+        "originalCopyrightYear": 2024,
+        "printing": "Licensed 2025 Spanish edition",
+        "localizedTitle": "Cubil de Monstruos",
+        "translationLanguage": "Spanish",
+        "translationPublisher": "Nosolorol",
+        "translator": "Andrea Iglesias",
+        "translationLicense": "Licensed Spanish translation",
+        "isbn": "979-13-87882-04-4",
+        "sourceHeading": "Araña",
+        "printedPages": [
+          333,
+          334
+        ],
+        "pdfPages": [
+          335,
+          336
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceRole": "Local licensed Spanish supplies the playing rules. Nosolorol link identifies the translation.",
+        "xpEvidence": "Cubil de Monstruos challenge-rating XP table, p. 17, p. 19.",
+        "conditionResistanceEvidence": null,
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Kobold Press catalog confirms English name, size, CR and terrain. Use the exact printed Spanish fraction for CR.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataEvidence": "Kobold Press Monster Vault errata dated May 29, 2025, list no correction to this profile.",
+        "habitatEvidence": "Terrain tags in the official English Kobold Press catalog.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "artGroup": "spider",
+        "artworkSource": "beast-ready-batch-02/parts/b02_09/portraits/spider.png",
+        "artworkRuntimeFile": "images/beast-ready-batch-02/spider.png",
+        "reuseSha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+        "sourceDistinctions": [
+          "Cubil de Monstruos p. 333 includes nets and webs in Web Walker. The English Black Flag Roleplaying Reference Document v0.4 lists webbing. This profile follows the Spanish Monster Vault printing."
+        ],
+        "referenceDocumentUrl": ""
+      }
+    },
+    {
+      "owner": "b12_08",
+      "name": "Spider, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1.0",
+      "art_group": "spider-giant",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+      "reuse_sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+      "runtime_file": "images/beast-ready-batch-05/giant-spider.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/spider-giant.png",
+        "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Spider, Giant",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+        "spanishHeading": "Araña, Gigante",
+        "witnessTitle": "Cubil de Monstruos",
+        "witnessLanguage": "Spanish",
+        "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+        "translationPublisher": "Nosolorol Ediciones",
+        "translator": "Andrea Iglesias",
+        "isbn": "979-13-87882-04-4",
+        "printedPages": [
+          334
+        ],
+        "pdfPages": [
+          336
+        ],
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "xpTablePrintedPage": 17,
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 1.0. The Spanish print supplies exact CR.",
+        "terminologyUrl": "",
+        "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+        "appearanceSource": "Editorial description of the reused portrait.",
+        "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+        "artGroup": "spider-giant",
+        "portraitSha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+        "sourceDistinctions": [
+          "This block occupies the lower left column of p. 334. The p. 334 upper-left Web Shot belongs to the preceding ordinary spider. The Giant Spider’s own Web is a recharge bonus action that restrains. Spanish Web Walker explicitly refers to both nets and webs.",
+          "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+        ]
+      }
+    },
+    {
+      "owner": "b12_08",
+      "name": "Spider, Giant Wolf",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "spider-giant-wolf",
+      "reuse_source": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+      "reuse_sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+      "runtime_file": "images/beast-ready-batch-05/giant-wolf-spider.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/spider-giant-wolf.png",
+        "sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Spider, Giant Wolf",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+        "spanishHeading": "Araña, lobo gigante",
+        "witnessTitle": "Cubil de Monstruos",
+        "witnessLanguage": "Spanish",
+        "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+        "translationPublisher": "Nosolorol Ediciones",
+        "translator": "Andrea Iglesias",
+        "isbn": "979-13-87882-04-4",
+        "printedPages": [
+          334
+        ],
+        "pdfPages": [
+          336
+        ],
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "xpTablePrintedPage": 17,
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 0.3. The Spanish print supplies exact CR.",
+        "terminologyUrl": "",
+        "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+        "appearanceSource": "Editorial description of the reused portrait.",
+        "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+        "artGroup": "spider-giant-wolf",
+        "portraitSha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+        "sourceDistinctions": [
+          "This block occupies the upper right column of p. 334. The book prints CR 1/4. The catalog rounds it to 0.3. This bite’s poison damage is avoided on a successful save.",
+          "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+        ]
+      }
+    },
+    {
+      "owner": "b12_08",
+      "name": "Stirge",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.1",
+      "art_group": "stirge",
+      "reuse_source": "beast-ready-batch-01/parts/black_flag/portraits/stirge.png",
+      "reuse_sha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+      "runtime_file": "images/beast-ready-batch-01/stirge.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/stirge.png",
+        "sha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Stirge",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+        "spanishHeading": "Estirge",
+        "witnessTitle": "Cubil de Monstruos",
+        "witnessLanguage": "Spanish",
+        "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+        "translationPublisher": "Nosolorol Ediciones",
+        "translator": "Andrea Iglesias",
+        "isbn": "979-13-87882-04-4",
+        "printedPages": [
+          184
+        ],
+        "pdfPages": [
+          186
+        ],
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "xpTablePrintedPage": 17,
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 0.1. The Spanish print supplies exact CR.",
+        "terminologyUrl": "",
+        "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+        "appearanceSource": "Editorial description of the reused portrait.",
+        "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+        "artGroup": "stirge",
+        "portraitSha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+        "sourceDistinctions": [
+          "The Spanish sidebar gives a separate Shadow Stirge option. The standard Blood Drain and Reactive Wiggle are the right-column stat block.",
+          "The book prints CR 1/8. The catalog rounds it to 0.1.",
+          "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+        ]
+      }
+    },
+    {
+      "owner": "b12_08",
+      "name": "Tiger",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1.0",
+      "art_group": "tiger",
+      "reuse_source": "beast-ready-batch-02/parts/b02_09/portraits/tiger.png",
+      "reuse_sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+      "runtime_file": "images/beast-ready-batch-02/tiger.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/tiger.png",
+        "sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Tiger",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+        "spanishHeading": "Tigre",
+        "witnessTitle": "Cubil de Monstruos",
+        "witnessLanguage": "Spanish",
+        "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+        "translationPublisher": "Nosolorol Ediciones",
+        "translator": "Andrea Iglesias",
+        "isbn": "979-13-87882-04-4",
+        "printedPages": [
+          359
+        ],
+        "pdfPages": [
+          361
+        ],
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "xpTablePrintedPage": 17,
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 1.0. The Spanish print supplies exact CR.",
+        "terminologyUrl": "",
+        "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+        "appearanceSource": "Editorial description of the reused portrait.",
+        "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+        "artGroup": "tiger",
+        "portraitSha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+        "sourceDistinctions": [
+          "Both Multiattack attacks must hit the same creature for the single delayed bleeding save. Ordinary tiger Pounce grants a bonus Bite against that prone target.",
+          "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+        ]
+      }
+    },
+    {
+      "owner": "b12_08",
+      "name": "Tiger, Saber-Toothed",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "2.0",
+      "art_group": "tiger-saber-toothed",
+      "reuse_source": "beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp",
+      "reuse_sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+      "runtime_file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/tiger-saber-toothed.webp",
+        "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Tiger, Saber-Toothed",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press / Open Design LLC",
+        "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+        "spanishHeading": "Tigre, dientes de sable",
+        "witnessTitle": "Cubil de Monstruos",
+        "witnessLanguage": "Spanish",
+        "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+        "translationPublisher": "Nosolorol Ediciones",
+        "translator": "Andrea Iglesias",
+        "isbn": "979-13-87882-04-4",
+        "printedPages": [
+          359
+        ],
+        "pdfPages": [
+          361
+        ],
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "xpTablePrintedPage": 17,
+        "url": "https://www.nosolorol.com/talesofthevaliant",
+        "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 2.0. The Spanish print supplies exact CR.",
+        "terminologyUrl": "",
+        "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+        "appearanceSource": "Editorial description of the reused portrait.",
+        "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+        "artGroup": "tiger-saber-toothed",
+        "portraitSha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+        "sourceDistinctions": [
+          "This Pounce grants a bonus Claws attack against the prone target. Its Bite can cause a persistent puncture wound, which a successful Medicine action or magical healing closes.",
+          "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+        ]
+      }
+    },
+    {
+      "owner": "b12_09",
+      "name": "Vulture",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "vulture",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/vulture.png",
+      "reuse_sha256": "91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7",
+      "runtime_file": "images/beast-ready-batch-02/vulture.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/vulture.png",
+        "sha256": "91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Vulture",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Buitre",
+        "printedPages": [
+          336
+        ],
+        "pdfPages": [
+          338
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+        "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+        "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+        "habitatPrintedPages": [
+          377,
+          378
+        ],
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-02/parts/b02_10/portraits/vulture.png",
+        "portraitSha256": "91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7",
+        "sourceDistinctions": [
+          "Beak and Defensive Bile are at the top of the second column on p. 336, before the Giant Vulture stat block."
+        ]
+      }
+    },
+    {
+      "owner": "b12_09",
+      "name": "Vulture, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1.0",
+      "art_group": "vulture-giant",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-vulture.png",
+      "reuse_sha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968",
+      "runtime_file": "images/beast-ready-batch-05/giant-vulture.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/vulture-giant.png",
+        "sha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Vulture, Giant",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Buitre, Gigante",
+        "printedPages": [
+          336
+        ],
+        "pdfPages": [
+          338
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+        "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+        "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+        "habitatPrintedPages": [
+          377,
+          378
+        ],
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-vulture.png",
+        "portraitSha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968",
+        "sourceDistinctions": [
+          "Beak and Talons both retain their printed damage modifier of +2."
+        ]
+      }
+    },
+    {
+      "owner": "b12_09",
+      "name": "Weasel",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.0",
+      "art_group": "weasel",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/weasel.png",
+      "reuse_sha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+      "runtime_file": "images/beast-ready-batch-02/weasel.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/weasel.png",
+        "sha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Weasel",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Comadreja",
+        "printedPages": [
+          340
+        ],
+        "pdfPages": [
+          342
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+        "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+        "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+        "habitatPrintedPages": [
+          377,
+          378
+        ],
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-02/parts/b02_10/portraits/weasel.png",
+        "portraitSha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+        "sourceDistinctions": [
+          "The first column ends after Speed. The remainder of the stat block is at the head of the second column on p. 340."
+        ]
+      }
+    },
+    {
+      "owner": "b12_09",
+      "name": "Weasel, Giant",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "weasel-giant",
+      "reuse_source": "beast-ready-batch-05/parts/b05_04/portraits/giant-weasel.png",
+      "reuse_sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+      "runtime_file": "images/beast-ready-batch-05/giant-weasel.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/weasel-giant.png",
+        "sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Weasel, Giant",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Comadreja, Gigante",
+        "printedPages": [
+          340,
+          341
+        ],
+        "pdfPages": [
+          342,
+          343
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+        "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+        "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+        "habitatPrintedPages": [
+          377,
+          378
+        ],
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-weasel.png",
+        "portraitSha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+        "sourceDistinctions": [
+          "The stat block on p. 340 and the terrain tables set CR 1/4. The Beast index on p. 32 instead lists CR 1/8.",
+          "Repellent Spray continues at the head of p. 341 before the Raven stat block."
+        ]
+      }
+    },
+    {
+      "owner": "b12_09",
+      "name": "Wolf",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0.3",
+      "art_group": "wolf",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/wolf.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wolf",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Lobo",
+        "printedPages": [
+          346,
+          347
+        ],
+        "pdfPages": [
+          348,
+          349
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+        "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+        "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+        "habitatPrintedPages": [
+          377,
+          378
+        ],
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+        "portraitSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "sourceDistinctions": [
+          "The Bite action continues at the top of p. 347. Use the printed DC 12 Strength save."
+        ]
+      }
+    },
+    {
+      "owner": "b12_09",
+      "name": "Wolf, Dire",
+      "kind": "beast",
+      "publication": "Monster Vault",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1.0",
+      "art_group": "wolf-dire",
+      "reuse_source": "beast-ready-batch-04/parts/b04_03/portraits/dire-wolf.png",
+      "reuse_sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+      "runtime_file": "images/beast-ready-batch-04/dire-wolf.png",
+      "rules_url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/wolf-dire.png",
+        "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wolf, Dire",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Kobold Press",
+        "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+        "translationLanguage": "Spanish",
+        "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+        "isbn": "979-13-87882-04-4",
+        "spanishHeading": "Lobo, terrible",
+        "printedPages": [
+          347
+        ],
+        "pdfPages": [
+          349
+        ],
+        "sourceFile": "",
+        "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+        "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+        "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+        "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+        "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+        "errataUrl": "https://koboldpress.com/errata/",
+        "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+        "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+        "habitatPrintedPages": [
+          377,
+          378
+        ],
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-04/parts/b04_03/portraits/dire-wolf.png",
+        "portraitSha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+        "sourceDistinctions": [
+          "Hungry Growl uses a bonus action. The printed effect ends at the end of the target's next turn."
+        ]
+      }
+    },
+    {
+      "owner": "b12_10",
+      "name": "Brontosaurus",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "brontosaurus",
+      "reuse_source": "beast-ready-batch-08/parts/b08_06/portraits/brontosaurus.png",
+      "reuse_sha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+      "runtime_file": "images/beast-ready-batch-08/brontosaurus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560746-brontosaurus",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "reused-portraits/brontosaurus.png",
+        "sha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Brontosaurus",
+        "kind": "beast",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Jeremy Crawford",
+        "copyrightYear": 2021,
+        "printing": "First printing, October 2021",
+        "isbn": "978-0-7869-6743-8",
+        "productCode": "620D0149000003 EN",
+        "creditsPdfPage": 2,
+        "section": "Chapter 2, Bestiary, Dinosaurs",
+        "printedPages": [
+          95
+        ],
+        "statBlockPage": 95,
+        "pdfPage": 95,
+        "viewerPages": [
+          95
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560746-brontosaurus",
+        "url": "https://www.dndbeyond.com/monsters/2560746-brontosaurus",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+        "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary",
+        "sourcePageKind": "The public D&D Beyond source index lists this creature. The chapter and creature pages redirected to the book purchase page when checked without access.",
+        "sourceWitness": "Public scan of the Wizards of the Coast English first printing. pp. 2, 95, and 96 show the credits, creature accounts, and stat blocks.",
+        "sourceWitnessUrl": "",
+        "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "errataEvidence": "No published correction for Brontosaurus located in the official Sage Advice & Errata index or D&D Beyond changelog. The errata index separately lists Volo’s Guide to Monsters and Mordenkainen’s Tome of Foes.",
+        "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+        "habitatEvidence": "Forest and Grassland are listed in the D&D Beyond habitat tooltip for this record.",
+        "appearanceEvidence": "Editorial description of the previously generated, square parchment portrait selected in the roster.",
+        "printedProficiencyBonus": 3,
+        "artworkSource": "beast-ready-batch-08/parts/b08_06/portraits/brontosaurus.png",
+        "artworkSha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Previously staged portrait reused at its existing runtime path.",
+        "sourceNotes": [
+          "Both attacks have a printed reach of 20 ft. Only Stomp can knock the target prone."
+        ]
+      }
+    },
+    {
+      "owner": "b12_10",
+      "name": "Deinonychus",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "deinonychus",
+      "reuse_source": "beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png",
+      "reuse_sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+      "runtime_file": "images/beast-ready-batch-07/deinonychus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560770-deinonychus",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/deinonychus.png",
+        "sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Deinonychus",
+        "kind": "beast",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Jeremy Crawford",
+        "copyrightYear": 2021,
+        "printing": "First printing, October 2021",
+        "isbn": "978-0-7869-6743-8",
+        "productCode": "620D0149000003 EN",
+        "creditsPdfPage": 2,
+        "section": "Chapter 2, Bestiary, Dinosaurs",
+        "printedPages": [
+          95
+        ],
+        "statBlockPage": 95,
+        "pdfPage": 95,
+        "viewerPages": [
+          95
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560770-deinonychus",
+        "url": "https://www.dndbeyond.com/monsters/2560770-deinonychus",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+        "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary",
+        "sourcePageKind": "The public D&D Beyond source index lists this creature. The chapter and creature pages redirected to the book purchase page when checked without access.",
+        "sourceWitness": "Public scan of the Wizards of the Coast English first printing. pp. 2, 95, and 96 show the credits, creature accounts, and stat blocks.",
+        "sourceWitnessUrl": "",
+        "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "errataEvidence": "No published correction for Deinonychus located in the official Sage Advice & Errata index or D&D Beyond changelog. The errata index separately lists Volo’s Guide to Monsters and Mordenkainen’s Tome of Foes.",
+        "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+        "habitatEvidence": "Forest, Grassland, and Hill are listed in the D&D Beyond habitat tooltip for this record.",
+        "appearanceEvidence": "Editorial description of the previously generated, square parchment portrait selected in the roster.",
+        "printedProficiencyBonus": 2,
+        "artworkSource": "beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png",
+        "artworkSha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Previously staged portrait reused at its existing runtime path.",
+        "sourceNotes": [
+          "The bonus-action Bite keys off the target being prone after the Claw trigger. The printed text does not require that the Pounce save caused the prone condition."
+        ]
+      }
+    },
+    {
+      "owner": "b12_10",
+      "name": "Dimetrodon",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "dimetrodon",
+      "reuse_source": "beast-ready-batch-08/parts/b08_06/portraits/dimetrodon.png",
+      "reuse_sha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+      "runtime_file": "images/beast-ready-batch-08/dimetrodon.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560776-dimetrodon",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/dimetrodon.png",
+        "sha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Dimetrodon",
+        "kind": "beast",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Jeremy Crawford",
+        "copyrightYear": 2021,
+        "printing": "First printing, October 2021",
+        "isbn": "978-0-7869-6743-8",
+        "productCode": "620D0149000003 EN",
+        "creditsPdfPage": 2,
+        "section": "Chapter 2, Bestiary, Dinosaurs",
+        "printedPages": [
+          95
+        ],
+        "statBlockPage": 95,
+        "pdfPage": 95,
+        "viewerPages": [
+          95
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560776-dimetrodon",
+        "url": "https://www.dndbeyond.com/monsters/2560776-dimetrodon",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+        "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary",
+        "sourcePageKind": "The public D&D Beyond source index lists this creature. The chapter and creature pages redirected to the book purchase page when checked without access.",
+        "sourceWitness": "Public scan of the Wizards of the Coast English first printing. pp. 2, 95, and 96 show the credits, creature accounts, and stat blocks.",
+        "sourceWitnessUrl": "",
+        "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "errataEvidence": "No published correction for Dimetrodon located in the official Sage Advice & Errata index or D&D Beyond changelog. The errata index separately lists Volo’s Guide to Monsters and Mordenkainen’s Tome of Foes.",
+        "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+        "habitatEvidence": "Coastal and Swamp are listed in the D&D Beyond habitat tooltip for this record. The creature account on p. 95 describes hunting in shallow water.",
+        "appearanceEvidence": "Editorial description of the previously generated, square parchment portrait selected in the roster.",
+        "printedProficiencyBonus": 2,
+        "artworkSource": "beast-ready-batch-08/parts/b08_06/portraits/dimetrodon.png",
+        "artworkSha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Previously staged portrait reused at its existing runtime path.",
+        "sourceNotes": [
+          "The creature account calls it a reptile. The stat block gives it the Dinosaur tag."
+        ]
+      }
+    },
+    {
+      "owner": "b12_10",
+      "name": "Velociraptor",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "velociraptor",
+      "reuse_source": "beast-ready-batch-01/parts/black_flag/portraits/velociraptor.png",
+      "reuse_sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+      "runtime_file": "images/beast-ready-batch-01/velociraptor.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560950-velociraptor",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/velociraptor.png",
+        "sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Velociraptor",
+        "kind": "beast",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Jeremy Crawford",
+        "copyrightYear": 2021,
+        "printing": "First printing, October 2021",
+        "isbn": "978-0-7869-6743-8",
+        "productCode": "620D0149000003 EN",
+        "creditsPdfPage": 2,
+        "section": "Chapter 2, Bestiary, Dinosaurs",
+        "printedPages": [
+          95,
+          96
+        ],
+        "statBlockPage": 96,
+        "pdfPage": 96,
+        "viewerPages": [
+          95,
+          96
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560950-velociraptor",
+        "url": "https://www.dndbeyond.com/monsters/2560950-velociraptor",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+        "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary",
+        "sourcePageKind": "The public D&D Beyond source index lists this creature. The chapter and creature pages redirected to the book purchase page when checked without access.",
+        "sourceWitness": "Public scan of the Wizards of the Coast English first printing. pp. 2, 95, and 96 show the credits, creature accounts, and stat blocks.",
+        "sourceWitnessUrl": "",
+        "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "errataEvidence": "No published correction for Velociraptor located in the official Sage Advice & Errata index or D&D Beyond changelog. The errata index separately lists Volo’s Guide to Monsters and Mordenkainen’s Tome of Foes.",
+        "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+        "habitatEvidence": "Forest and Grassland are listed in the D&D Beyond habitat tooltip for this record.",
+        "appearanceEvidence": "Editorial description of the previously generated, square parchment portrait selected in the roster.",
+        "printedProficiencyBonus": 2,
+        "artworkSource": "beast-ready-batch-01/parts/black_flag/portraits/velociraptor.png",
+        "artworkSha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Previously staged portrait reused at its existing runtime path.",
+        "sourceNotes": [
+          "The creature account begins in the right column of p. 95. The full stat block is in the lower right column of p. 96."
+        ]
+      }
+    }
+  ]
+}

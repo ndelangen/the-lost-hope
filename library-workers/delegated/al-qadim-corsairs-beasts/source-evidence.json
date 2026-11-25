@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Addazahr (Backbiter)",
+    "kind": "beast",
+    "publication": "Corsairs of the Great Sea",
+    "edition": "AD&D 2nd edition",
+    "printedPages": [
+      8,
+      64
+    ],
+    "pdfPages": [
+      9,
+      65,
+      100
+    ],
+    "entryId": "beast-7e564f76bd294776ebfa438c",
+    "versionKey": "1b3a59742fc268118865c73e",
+    "slug": "addazahr-backbiter",
+    "query": "addazahr backbiter straw",
+    "publisher": "TSR",
+    "year": 1994,
+    "productNumber": 9449,
+    "adventureAuthor": "Nicky Rea",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/tsr9449corsairs.zip",
+    "originalPdfSha256": "ec5a773ff0854f876231b7759989af136674ce05238ca003e2a3388211164218",
+    "originalPdfPath": "",
+    "portraitSelection": "generated",
+    "rulesPdfPage": 100,
+    "adventureBookInteriorArtCredit": "Karl Waller",
+    "summaryPdfPage": 65,
+    "archivedPdfMatchesLocal": true,
+    "archivedZipSha256": "6229e02d6e91269fd429081907038af04c4c78f16f639d738ded8eeb0fd76719",
+    "archiveMember": ""
+  },
+  {
+    "name": "Electric Eel",
+    "kind": "beast",
+    "publication": "Corsairs of the Great Sea",
+    "edition": "AD&D 2nd edition",
+    "printedPages": [
+      23,
+      24,
+      64
+    ],
+    "pdfPages": [
+      24,
+      25,
+      65
+    ],
+    "entryId": "beast-d768847856de1b91c493b1c6",
+    "versionKey": "69b36ffc7805df9386137d46",
+    "slug": "electric-eel",
+    "query": "electric eel reception pool",
+    "publisher": "TSR",
+    "year": 1994,
+    "productNumber": 9449,
+    "adventureAuthor": "Nicky Rea",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/tsr9449corsairs.zip",
+    "originalPdfSha256": "ec5a773ff0854f876231b7759989af136674ce05238ca003e2a3388211164218",
+    "originalPdfPath": "",
+    "portraitSelection": "generated",
+    "rulesPrintedPage": 24,
+    "rulesPdfPage": 25,
+    "summaryPdfPage": 65,
+    "archivedPdfMatchesLocal": true,
+    "archivedZipSha256": "6229e02d6e91269fd429081907038af04c4c78f16f639d738ded8eeb0fd76719",
+    "archiveMember": ""
+  },
+  {
+    "name": "Shark",
+    "kind": "beast",
+    "publication": "Corsairs of the Great Sea",
+    "edition": "AD&D 2nd edition",
+    "printedPages": [
+      50,
+      51,
+      52,
+      64
+    ],
+    "pdfPages": [
+      51,
+      52,
+      53,
+      65
+    ],
+    "entryId": "beast-31fc15942b0c47f6c6408dd9",
+    "versionKey": "de5e8db52998edce431e2bbf",
+    "slug": "shark",
+    "query": "shark malenti terrapin isle",
+    "publisher": "TSR",
+    "year": 1994,
+    "productNumber": 9449,
+    "adventureAuthor": "Nicky Rea",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/tsr9449corsairs.zip",
+    "originalPdfSha256": "ec5a773ff0854f876231b7759989af136674ce05238ca003e2a3388211164218",
+    "originalPdfPath": "",
+    "portraitSelection": "reuse",
+    "rulesPrintedPage": 52,
+    "rulesPdfPage": 53,
+    "summaryPdfPage": 65,
+    "archivedPdfMatchesLocal": true,
+    "archivedZipSha256": "6229e02d6e91269fd429081907038af04c4c78f16f639d738ded8eeb0fd76719",
+    "archiveMember": ""
+  },
+  {
+    "name": "Giant Shark",
+    "kind": "beast",
+    "publication": "Corsairs of the Great Sea",
+    "edition": "AD&D 2nd edition",
+    "printedPages": [
+      50,
+      51,
+      52,
+      64
+    ],
+    "pdfPages": [
+      51,
+      52,
+      53,
+      65
+    ],
+    "entryId": "beast-719fa718ae318f8daf6470f2",
+    "versionKey": "f03700aa5f8085905c8291f6",
+    "slug": "giant-shark",
+    "query": "giant shark terrapin isle swallowed",
+    "publisher": "TSR",
+    "year": 1994,
+    "productNumber": 9449,
+    "adventureAuthor": "Nicky Rea",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/tsr9449corsairs.zip",
+    "originalPdfSha256": "ec5a773ff0854f876231b7759989af136674ce05238ca003e2a3388211164218",
+    "originalPdfPath": "",
+    "portraitSelection": "generated",
+    "rulesPrintedPage": 52,
+    "rulesPdfPage": 53,
+    "summaryPdfPage": 65,
+    "archivedPdfMatchesLocal": true,
+    "archivedZipSha256": "6229e02d6e91269fd429081907038af04c4c78f16f639d738ded8eeb0fd76719",
+    "archiveMember": ""
+  }
+]

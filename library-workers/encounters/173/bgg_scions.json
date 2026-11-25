@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Scion of Grolantor",
+    "statBlock": {
+      "name": "Scion of Grolantor",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 165,
+      "classification": "Gargantuan giant (titan), typically chaotic evil",
+      "ac": 18,
+      "hp": 402,
+      "hitDice": "23d20 + 161",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 22,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The hungry, 50-foot scion carries a whole tree as a club. A settlement can prosper for centuries on the slopes of its sleeping cradle.",
+      "savingThrows": {
+        "Wis": 12,
+        "Cha": 11
+      },
+      "skills": {
+        "Perception": 12
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, paralyzed, poisoned.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Legendary Resistance (6/Day). When the scion fails a save, it can choose to succeed.\nMagic Resistance. The scion makes saves against spells and other magical effects with advantage.\nSiege Monster. The scion deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one Great Tree Club attack and two Slam attacks, or make three Boulder attacks.\nGreat Tree Club. Melee weapon attack, +15 to hit, reach 30 ft., one target. A hit deals 30 (4d10 + 8) bludgeoning damage. A creature hit must make a DC 23 Strength save. On a failure, the scion pushes it straight away horizontally by up to 100 ft. and knocks it prone.\nSlam. Melee weapon attack, +15 to hit, reach 20 ft., one target. A hit deals 26 (4d8 + 8) force damage.\nBoulder. Ranged weapon attack, +15 to hit, range 120/480 ft., one target. A hit deals 27 (3d12 + 8) bludgeoning damage.\nInhale (Recharge 5–6). Each Huge or smaller creature in a 120-ft. line that is 15 ft. wide must make a DC 23 Strength save. On a failure, the scion pulls it up to 120 ft. straight toward itself and swallows it. The scion can hold up to two creatures at a time. They are restrained, have total cover against attacks and other effects originating outside the scion, and take 24 (7d6) force damage at the start of each of the scion’s turns. If one creature inside deals at least 60 damage to the scion in a single turn, the scion must pass a DC 17 Constitution save at that turn’s end or regurgitate every swallowed creature. Each lands prone in a space within 10 ft. of the scion. If the scion dies, swallowed creatures cease to be restrained and can spend 15 ft. of movement to escape its corpse, exiting prone.",
+        "Bonus actions": "Earth-Shaking Movement. Move up to the scion’s speed, then send a shock wave through the ground in a 60-ft.-radius circle centered on the scion. Each concentrating creature on the ground there loses concentration unless it makes a DC 23 Constitution save.",
+        "Reactions": "Feed. Immediately after taking damage while it has a creature swallowed, the scion deals 10 (3d6) force damage to each swallowed creature and regains 10 HP.",
+        "Cradle encounter": "The Cradle of the Hill Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.",
+        "Regional effects": "Use one or more of these effects around the scion.\nAbundant Food. Crops and livestock grow and reproduce unusually fast within 6 miles.\nEmpowered Hill Giants. Hill giants within 1,000 ft. gain +7 to attack and damage rolls.\nFarming Weather. Within 6 miles the weather stays warm and sunny, with occasional showers that favor farming.\nOn the scion’s death, all of these effects end immediately.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 164–165. The scion’s stat block is on p. 165."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Cradle of the Hill Scion",
+          "terms": [
+            "Cradle of the Hill Scion"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scion of Memnor",
+    "statBlock": {
+      "name": "Scion of Memnor",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 167,
+      "classification": "Gargantuan giant (titan), typically chaotic neutral",
+      "ac": 20,
+      "hp": 656,
+      "hitDice": "32d20 + 320",
+      "speed": "60 ft., fly 80 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 24
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 26
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 24,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A lanky, 75-foot giant with a weapon made of dense cloud. It turns fighting creatures against one another for its own amusement.",
+      "savingThrows": {
+        "Dex": 12,
+        "Cha": 16
+      },
+      "skills": {
+        "Arcana": 15,
+        "Perception": 14
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Thunder.",
+        "Condition immunities": "Charmed, frightened, paralyzed, petrified.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Flyby. Flying out of an enemy’s reach does not provoke opportunity attacks.\nLegendary Resistance (6/Day). When the scion fails a save, it can choose to succeed.\nMagic Resistance. The scion makes saves against spells and other magical effects with advantage.\nSiege Monster. The scion deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one attack with Cloud Morningstar or Wind Javelin, then two Slam attacks.\nCloud Morningstar. Melee weapon attack, +18 to hit, reach 30 ft., one target. A hit deals 32 (4d10 + 10) force damage plus 22 (4d10) thunder damage.\nWind Javelin. Ranged weapon attack, +18 to hit, range 120/480 ft., one target. A hit deals 42 (5d12 + 10) thunder damage. The target falls prone unless it makes a DC 26 Strength save.\nSlam. Melee weapon attack, +18 to hit, reach 20 ft., one target. A hit deals 28 (4d8 + 10) force damage.\nThunderous Vortex (Recharge 5–6). Center a 60-ft.-radius sphere of magical wind on a visible point within 120 ft. Each creature in it must make a DC 24 Strength save or be pulled straight toward the center, stopping in the nearest unoccupied space to that point. Then the scion releases thunder in a 30-ft.-radius sphere at that same point. Each creature in the smaller sphere takes 52 (8d12) thunder damage and must pass a DC 24 Constitution save or be stunned until the end of its next turn.",
+        "Bonus actions": "Fog of Deception. Center a 30-ft.-radius magical cloud on a visible point within 90 ft. Each creature in the cloud makes a DC 24 Wisdom save. On a failure, it is charmed until the end of its next turn. It must use its action for a melee attack against another creature the scion chooses. If none is within reach, it instead makes a ranged attack against a creature the scion chooses, throwing its weapon if necessary. Success makes the creature immune to this scion’s Fog of Deception for 24 hours.",
+        "Senses": "Truesight 120 ft.",
+        "Cradle encounter": "The Cradle of the Cloud Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.",
+        "Regional effects": "Use one or more of these effects around the scion.\nCompulsory Offering. The first time a sapient creature comes within 6 miles, it makes a DC 15 Wisdom save. On a failure, it feels compelled to hide an offering worth at least 5 gp. Cloud giants within 6 miles of the cradle or scion immediately sense where the gift is. A creature can be affected by the compulsion only once.\nEmpowered Cloud Giants. Cloud giants within 1,000 ft. gain +8 to attack and damage rolls.\nMischievous Whispers. Within 1 mile, the wind carries indistinct whispers. A creature with Intelligence 5 or higher takes them as directions for a prank it can play on someone else.\nOn the scion’s death, all of these effects end immediately.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 166–167. The scion’s stat block is on p. 167."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Cradle of the Cloud Scion",
+          "terms": [
+            "Cradle of the Cloud Scion"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scion of Skoraeus",
+    "statBlock": {
+      "name": "Scion of Skoraeus",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 169,
+      "classification": "Gargantuan giant (titan), typically neutral",
+      "ac": 19,
+      "hp": 444,
+      "hitDice": "24d20 + 192",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 24,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A titan nearly 70 feet tall who shapes stone and deepens the veins of gemstones around its resting place. It carries a great crystal club.",
+      "savingThrows": {
+        "Dex": 12,
+        "Wis": 14
+      },
+      "skills": {
+        "Acrobatics": 12,
+        "Perception": 14
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Acid.",
+        "Condition immunities": "Charmed, frightened, paralyzed, petrified.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Legendary Resistance (6/Day). When the scion fails a save, it can choose to succeed.\nMagic Resistance. The scion makes saves against spells and other magical effects with advantage.\nSiege Monster. The scion deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one Crystal Club attack and two Slam attacks, then use Entombing Grasp if available. Alternatively, make two Runic Boulder attacks.\nCrystal Club. Melee weapon attack, +16 to hit, reach 30 ft., one target. A hit deals 35 (4d12 + 9) bludgeoning damage. Hit or miss, the scion can make its club flash. On a failed DC 22 Constitution save, the target takes 18 (4d8) radiant damage and is blinded until the start of the scion’s next turn.\nSlam. Melee weapon attack, +16 to hit, reach 20 ft., one target. A hit deals 31 (4d10 + 9) force damage.\nRunic Boulder. Ranged weapon attack, +16 to hit, range 120/480 ft., one target. A hit deals 27 (4d8 + 9) bludgeoning damage. Hit or miss, the boulder explodes. The target and each creature within 30 ft. of it make a DC 22 Dexterity save. Failure deals 19 (3d12) force damage and knocks the creature prone. Success halves the force damage and does not knock the creature prone.\nEntombing Grasp (Recharge 6). Touch one visible Huge or smaller creature within 20 ft. On a failed DC 24 Dexterity save, it takes 28 (8d6) force damage and is grappled (escape DC 19). At the start of the scion’s next turn, the target is petrified if still grappled.",
+        "Bonus actions": "Earth-Shaking Movement. Move up to the scion’s speed, then send a shock wave through the ground in a 60-ft.-radius circle centered on the scion. Each concentrating creature on the ground there loses concentration unless it makes a DC 24 Constitution save.",
+        "Senses": "Truesight 120 ft.",
+        "Cradle encounter": "The Cradle of the Stone Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.",
+        "Regional effects": "Use one or more of these effects around the scion.\nAbundant Stone and Minerals. Smooth stone and gemstones grow within 6 miles.\nEdible Moss. Cavern walls within 6 miles grow carpets of golden moss that stone giants enjoy eating.\nEmpowered Stone Giants. Stone giants within 1,000 ft. gain +7 to attack and damage rolls.\nOn the scion’s death, the bonus ends immediately and new moss and minerals stop forming. Existing moss dies in 1d10 days.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 168–169. The scion’s stat block is on p. 169."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Cradle of the Stone Scion",
+          "terms": [
+            "Cradle of the Stone Scion"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scion of Stronmaus",
+    "statBlock": {
+      "name": "Scion of Stronmaus",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 171,
+      "classification": "Gargantuan giant (titan), typically chaotic good",
+      "ac": 20,
+      "hp": 656,
+      "hitDice": "32d20 + 320",
+      "speed": "60 ft., fly 80 ft. (hover), swim 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 26
+        },
+        "Wis": {
+          "score": 28
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "27",
+      "xp": 105000,
+      "passivePerception": 27,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An 80-foot giant who can sleep in the upper sky or the ocean depths. Its storm cradle may rouse in response to nightmares.",
+      "savingThrows": {
+        "Dex": 13,
+        "Int": 16
+      },
+      "skills": {
+        "Arcana": 16,
+        "History": 16,
+        "Perception": 17
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Lightning, thunder.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, prone.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Flyby. Flying out of an enemy’s reach does not provoke opportunity attacks.\nLegendary Resistance (6/Day). When the scion fails a save, it can choose to succeed.\nMagic Resistance. The scion makes saves against spells and other magical effects with advantage.\nSiege Monster. The scion deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one attack with Lightning Sword or Hailstone, then two Slam attacks.\nLightning Sword. Melee weapon attack, +18 to hit, reach 30 ft., one target. A hit deals 36 (4d12 + 10) force damage plus 22 (4d10) lightning damage.\nHailstone. Ranged weapon attack, +18 to hit, range 120/480 ft., one target. A hit deals 32 (4d10 + 10) bludgeoning damage plus 18 (4d8) cold damage. The target falls prone unless it passes a DC 26 Strength save.\nSlam. Melee weapon attack, +18 to hit, reach 20 ft., one target. A hit deals 36 (4d12 + 10) force damage.",
+        "Bonus actions": "Vengeful Storm (Recharge 6). Create a heavily obscuring storm cloud in a 30-ft.-radius, 10-ft.-tall cylinder centered within 120 ft. It lasts 1 minute or until the scion dies or conjures a new cloud. When it appears, and as a bonus action on later turns, the scion can move the cloud up to 30 ft. and cause one effect below in a 30-ft.-radius, 120-ft.-high cylinder directly beneath it. It cannot choose the same effect two rounds in a row.\nAcid Rain. Each creature in the cylinder makes a DC 25 Constitution save. On a failure, acid coats it for 1 minute or until a creature uses an action to remove the acid from itself or another creature. A coated creature takes 26 (4d12) acid damage at the start of each of its turns.\nFreezing Storm. Each creature in the cylinder makes a DC 25 Dexterity save. Failure deals 28 (8d6) cold damage and reduces its speed to 0 for 1 minute. The creature, or another creature within reach, can use an action to break away the ice and end the effect.\nLightning Bolts. Each creature in the cylinder makes a DC 25 Dexterity save. On a failure, it takes 18 (4d8) lightning damage and is stunned until the end of its next turn.",
+        "Senses": "Truesight 120 ft.",
+        "Cradle encounter": "The Cradle of the Storm Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.",
+        "Regional effects": "Use one or more of these effects around the scion.\nElemental Portals. Two-way portals within 1 mile of the cradle or scion admit elemental creatures. They connect to the Elemental Plane of Air if the scion is in the sky, or the Elemental Plane of Water if it is in the ocean.\nEmpowered Storm Giants. Storm giants within 1,000 ft. gain +8 to attack and damage rolls.\nExtreme Weather. Within 1 mile, the weather swings sharply from day to day, from bright sunshine to punishing hail.\nOn the scion’s death, all of these effects end immediately.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 170–171. The scion’s stat block is on p. 171."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Cradle of the Storm Scion",
+          "terms": [
+            "Cradle of the Storm Scion"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scion of Surtur",
+    "statBlock": {
+      "name": "Scion of Surtur",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 173,
+      "classification": "Gargantuan giant (titan), typically lawful evil",
+      "ac": 20,
+      "hp": 546,
+      "hitDice": "28d20 + 252",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 28
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "25",
+      "xp": 75000,
+      "passivePerception": 25,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Ash veils this 60-foot titan, who shapes a weapon from lava and looks for a fire giant army to lead.",
+      "savingThrows": {
+        "Dex": 11,
+        "Cha": 13
+      },
+      "skills": {
+        "Athletics": 18,
+        "Perception": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Fire.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Legendary Resistance (6/Day). When the scion fails a save, it can choose to succeed.\nMagic Resistance. The scion makes saves against spells and other magical effects with advantage.\nSiege Monster. The scion deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one attack with Lava Blade or Lava Ball, then two Slam attacks.\nLava Blade. Melee weapon attack, +18 to hit, reach 30 ft., one target. A hit deals 32 (4d10 + 10) slashing damage plus 18 (4d8) fire damage.\nLava Ball. Ranged weapon attack, +18 to hit, range 120/480 ft., one target. A hit deals 29 (3d12 + 10) bludgeoning damage plus 10 (3d6) fire damage. The target must pass a DC 26 Strength save or fall prone.\nSlam. Melee weapon attack, +18 to hit, reach 20 ft., one target. A hit deals 28 (4d8 + 10) force damage.\nLava Wave (Recharge 5–6). Release lava from the scion’s blade, hands, or mouth in a 90-ft. cone. Each creature there makes a DC 25 Dexterity save. Failure deals 60 (11d10) fire damage and leaves it restrained in hardened rock. Success halves the damage and avoids the restraint. A creature can use an action to attempt a DC 25 Strength (Athletics) check to free itself or a creature within reach. The rock has AC 17 and 40 HP, and is immune to fire, poison, and psychic damage.",
+        "Bonus actions": "Earth-Shaking Movement. Move up to the scion’s speed, then send a shock wave through the ground in a 60-ft.-radius circle centered on the scion. Each concentrating creature on the ground there loses concentration unless it makes a DC 26 Constitution save.\nIncendiary Smoke. The scion creates a 30-ft.-radius sphere of smoke and embers centered on itself that moves with it. Ranged attacks against the scion have disadvantage while it emits smoke. A creature that enters the smoke for the first time on a turn or starts its turn there takes 14 (4d6) fire damage unless it makes a DC 25 Constitution save. The smoke ends after 1 minute, when the scion dies, or when the scion uses this bonus action to stop it.",
+        "Senses": "Truesight 120 ft.",
+        "Cradle encounter": "The Cradle of the Fire Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.",
+        "Regional effects": "Use one or more of these effects around the scion.\nAbundant Ore. Precious metals and ore are unusually common within 6 miles.\nDesertification. Almost no precipitation falls within 6 miles, drying the land and withering most plants.\nEmpowered Fire Giants. Fire giants within 1,000 ft. gain +8 to attack and damage rolls.\nOn the scion’s death, ore veins stop forming and the other effects end immediately. Existing ore remains.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 172–173. The scion’s stat block is on p. 173."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Cradle of the Fire Scion",
+          "terms": [
+            "Cradle of the Fire Scion"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scion of Thrym",
+    "statBlock": {
+      "name": "Scion of Thrym",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 175,
+      "classification": "Gargantuan giant (titan), typically neutral evil",
+      "ac": 19,
+      "hp": 499,
+      "hitDice": "27d20 + 216",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 27
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 22,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A 70-foot giant that slumbers in icebergs or mountain glaciers. It forms a double-bladed ice axe when it wakes.",
+      "savingThrows": {
+        "Wis": 12,
+        "Cha": 12
+      },
+      "skills": {
+        "Athletics": 17,
+        "Perception": 12
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Fire, lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Cold.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Legendary Resistance (6/Day). When the scion fails a save, it can choose to succeed.\nMagic Resistance. The scion makes saves against spells and other magical effects with advantage.\nSiege Monster. The scion deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one Ice Axe attack and two Slam attacks, or make two Glacier Throw attacks.\nIce Axe. Melee weapon attack, +17 to hit, reach 30 ft., one target. A hit deals 36 (4d12 + 10) force damage plus 18 (4d8) cold damage.\nSlam. Melee weapon attack, +17 to hit, reach 20 ft., one target. A hit deals 32 (4d10 + 10) force damage.\nGlacier Throw. Ranged weapon attack, +17 to hit, range 120/480 ft., one target. A hit deals 36 (4d12 + 10) bludgeoning damage plus 14 (4d6) cold damage. The target falls prone unless it makes a DC 25 Strength save.\nGlacial Upheaval (Recharge 5–6). Choose a visible point within 30 ft. The scion digs into the ground and launches conjured ice. Each creature other than the scion in a 30-ft.-radius, 100-ft.-high cylinder centered on the point makes a DC 25 Dexterity save. A failure deals 36 (8d8) bludgeoning damage plus 19 (3d12) cold damage and pushes the creature vertically to the top of the cylinder, from which it falls. Success halves the damage and pushes it to the nearest unoccupied space outside the cylinder. At the start of the scion’s next turn, the ice falls at a visible point within 60 ft. of the original point. Center another 30-ft.-radius, 100-ft.-high cylinder there. Each creature in it makes a DC 25 Dexterity save or takes 18 (4d8) bludgeoning damage plus 18 (4d8) cold damage.",
+        "Bonus actions": "Earth-Shaking Movement. Move up to the scion’s speed, then send a shock wave through the ground in a 60-ft.-radius circle centered on the scion. Each concentrating creature on the ground there loses concentration unless it makes a DC 25 Constitution save.",
+        "Senses": "Truesight 120 ft.",
+        "Cradle encounter": "The Cradle of the Frost Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.",
+        "Regional effects": "Use one or more of these effects around the scion.\nBiting Chill. Extreme cold covers the land within 6 miles. If the region already had extreme cold, creatures without cold resistance or immunity there also have disadvantage on Strength and Dexterity checks.\nEmpowered Frost Giants. Frost giants within 1,000 ft. gain +7 to attack and damage rolls.\nThriving Wildlife. Beasts within 6 miles reproduce quickly and flourish.\nOn the scion’s death, all of these effects end immediately.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 174–175. The scion’s stat block is on p. 175."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Cradle of the Frost Scion",
+          "terms": [
+            "Cradle of the Frost Scion"
+          ]
+        }
+      ]
+    }
+  }
+]

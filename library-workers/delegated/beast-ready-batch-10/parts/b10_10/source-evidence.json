@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Hadrosaurus",
+    "kind": "beast",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "section": "Chapter 3, Dinosaurs",
+    "printedPages": [
+      139,
+      140
+    ],
+    "statBlockPage": 140,
+    "pdfPage": 141,
+    "viewerPages": [
+      140,
+      141
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17241-hadrosaurus",
+    "url": "https://www.dndbeyond.com/monsters/17241-hadrosaurus",
+    "sourceWitness": "Local first-printing facsimile  The publisher creature link is a companion reference.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "No applicable change in official Volo errata v3.0.",
+    "appearanceEvidence": "Editorial description of the selected portrait. The publication’s introduction or illustration supplies the basic creature morphology.",
+    "habitatEvidence": "Editorial placements for the semi-quadrupedal herbivore described on p. 139.",
+    "habitatSourceKind": "Editorial habitat tags informed by the cited first-printing description.",
+    "sourceNotes": [],
+    "relatedRules": null,
+    "artworkSource": "beast-ready-batch-08/parts/b08_07/portraits/hadrosaurus.png",
+    "artworkSha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+    "subjectReference": null,
+    "subjectReferenceSha256": null
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "kind": "beast",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "section": "Chapter 3, Dinosaurs",
+    "printedPages": [
+      139,
+      140
+    ],
+    "statBlockPage": 140,
+    "pdfPage": 141,
+    "viewerPages": [
+      140,
+      141
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17242-quetzalcoatlus",
+    "url": "https://www.dndbeyond.com/monsters/17242-quetzalcoatlus",
+    "sourceWitness": "Local first-printing facsimile  The publisher creature link is a companion reference.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "No applicable change in official Volo errata v3.0.",
+    "appearanceEvidence": "Editorial description of the selected portrait. The publication’s introduction or illustration supplies the basic creature morphology.",
+    "habitatEvidence": "Editorial placements for the large flying animal on p. 139, with room for its printed diving attack.",
+    "habitatSourceKind": "Editorial habitat tags informed by the cited first-printing description.",
+    "sourceNotes": [
+      "The first printing gives the Dive Attack’s extra dice without separately specifying their damage type. The Bite itself deals piercing."
+    ],
+    "relatedRules": null,
+    "artworkSource": "beast-ready-batch-08/parts/b08_07/portraits/quetzalcoatlus.png",
+    "artworkSha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+    "subjectReference": null,
+    "subjectReferenceSha256": null
+  },
+  {
+    "name": "Stegosaurus",
+    "kind": "beast",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "section": "Chapter 3, Dinosaurs",
+    "printedPages": [
+      139,
+      140
+    ],
+    "statBlockPage": 140,
+    "pdfPage": 141,
+    "viewerPages": [
+      140,
+      141
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17244-stegosaurus",
+    "url": "https://www.dndbeyond.com/monsters/17244-stegosaurus",
+    "sourceWitness": "Local first-printing facsimile  The publisher creature link is a companion reference.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "No applicable change in official Volo errata v3.0.",
+    "appearanceEvidence": "Editorial description of the selected portrait. The publication’s introduction or illustration supplies the basic creature morphology.",
+    "habitatEvidence": "Editorial herd habitats for the four-legged dinosaur described on p. 139.",
+    "habitatSourceKind": "Editorial habitat tags informed by the cited first-printing description.",
+    "sourceNotes": [],
+    "relatedRules": null,
+    "artworkSource": "beast-ready-batch-08/parts/b08_08/portraits/stegosaurus.png",
+    "artworkSha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+    "subjectReference": null,
+    "subjectReferenceSha256": null
+  },
+  {
+    "name": "Swarm of Cranium Rats",
+    "kind": "beast",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "section": "Chapter 3, Cranium Rats",
+    "printedPages": [
+      133
+    ],
+    "statBlockPage": 133,
+    "pdfPage": 134,
+    "viewerPages": [
+      134
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17230-swarm-of-cranium-rats",
+    "url": "https://www.dndbeyond.com/monsters/17230-swarm-of-cranium-rats",
+    "sourceWitness": "Local first-printing facsimile  The publisher creature link is a companion reference.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "No applicable change in official Volo errata v3.0.",
+    "appearanceEvidence": "Editorial description of the selected portrait. The publication’s introduction or illustration supplies the basic creature morphology.",
+    "habitatEvidence": "The p. 133 text describes spying in surface communities on behalf of mind flayer colonies. Habitat tags paraphrase that lore.",
+    "habitatSourceKind": "Editorial habitat tags informed by the cited first-printing description.",
+    "sourceNotes": [
+      "The swarm’s Telepathic Shroud covers all divination spells. The same block lists Detect Thoughts and Comprehend Languages, both self-range divinations, with no explicit self-cast exception. Both printed rules are retained.",
+      "The 2014 Command language and harmful-order restrictions still apply. Volo grants component-free casting and separately lists telepathy 30 ft."
+    ],
+    "relatedRules": {
+      "Command": "https://www.dndbeyond.com/spells/2032-command",
+      "Comprehend Languages": "https://www.dndbeyond.com/spells/2035-comprehend-languages",
+      "Detect Thoughts": "https://www.dndbeyond.com/spells/2067-detect-thoughts",
+      "Confusion": "https://www.dndbeyond.com/spells/2038-confusion",
+      "Dominate Monster": "https://www.dndbeyond.com/spells/2077-dominate-monster",
+      "Daily ability recovery": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monsters#LimitedUsage"
+    },
+    "artworkSource": "New original ImageGen portrait",
+    "artworkSha256": "d43b7e7cbf4bdc04425694c3b40a346a9bb9c6e222a4fcebc88d0c31ae2f1dee",
+    "subjectReference": "playable-species-50-batch-8/parts/eight_mr2_b/portraits/cranium-rat.png",
+    "subjectReferenceSha256": "da0e610eda41d06d605999814baa013aef458343829724d63a3a5f046134021c"
+  },
+  {
+    "name": "Velociraptor",
+    "kind": "beast",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "section": "Chapter 3, Dinosaurs",
+    "printedPages": [
+      139,
+      140
+    ],
+    "statBlockPage": 140,
+    "pdfPage": 141,
+    "viewerPages": [
+      140,
+      141
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17243-velociraptor",
+    "url": "https://www.dndbeyond.com/monsters/17243-velociraptor",
+    "sourceWitness": "Local first-printing facsimile  The publisher creature link is a companion reference.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "No applicable change in official Volo errata v3.0.",
+    "appearanceEvidence": "Editorial description of the selected portrait. The publication’s introduction or illustration supplies the basic creature morphology.",
+    "habitatEvidence": "Editorial placements for the turkey-sized pack predator described on p. 139.",
+    "habitatSourceKind": "Editorial habitat tags informed by the cited first-printing description.",
+    "sourceNotes": [],
+    "relatedRules": null,
+    "artworkSource": "beast-ready-batch-01/parts/black_flag/portraits/velociraptor.png",
+    "artworkSha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+    "subjectReference": null,
+    "subjectReferenceSha256": null
+  }
+]

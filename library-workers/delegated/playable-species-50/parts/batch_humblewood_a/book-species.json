@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Corvum",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Crowlike birdfolk with dark, often iridescent feathers.",
+      "Medium humanoid, speed 30 ft., Intelligence +2.",
+      "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+      "Talons. Unarmed strikes deal 1d4 piercing. You have advantage on Strength (Athletics) checks to climb surfaces your talons can grip.",
+      "Learned. Gain proficiency in Arcana, History, Nature, or Religion.",
+      "Appraising Eye. Spend an action examining an object to learn its magical properties, how to activate it, and an estimated market price. Regain the use after a short or long rest.",
+      "Speak, read, and write Birdfolk. Understand spoken Auran.",
+      "Dusk Corvum. Dexterity +1, Insight proficiency, and advantage on Stealth checks in dim light or darkness.",
+      "Kindled Corvum. Charisma +1 and proficiency in Deception or Persuasion. Gain advantage on Charisma checks to convince someone of your expertise in your Learned subject. Learn one language and one tool proficiency, and recall sights and sounds from the last month exactly."
+    ]
+  },
+  {
+    "name": "Gallus",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Landfowl birdfolk with many distinct plumages, including hen, pheasant, and grouse forms.",
+      "Medium humanoid, speed 30 ft., Wisdom +2.",
+      "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+      "Wing Flap. As a bonus action, rise up to half your movement speed. You can combine this with a jump, and use it only outside a glide.",
+      "Communal. Add twice your proficiency bonus to History checks about your people, culture, or community. Gain simple weapon proficiency and proficiency in brewer’s supplies, carpenter’s tools, or smith’s tools.",
+      "Speak, read, and write Birdfolk. Understand spoken Auran.",
+      "Bright Gallus. Charisma +1 and Insight proficiency. Spend an action encouraging an ally who can see and hear you. That ally adds 1d4 to their next ability check, attack roll, or saving throw.",
+      "Huden Gallus. Dexterity +1 and Nature proficiency. Use speech and touch to exchange simple ideas with living plants. Plants report sensations such as touch, temperature, or vibrations."
+    ]
+  },
+  {
+    "name": "Luma",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small pigeon- or dove-like birdfolk, often with an iridescent ruff.",
+      "Small humanoid, speed 25 ft., Charisma +2.",
+      "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+      "Wing Flap. As a bonus action, rise up to half your movement speed. You can combine this with a jump, and use it only outside a glide.",
+      "Touched. Learn one sorcerer cantrip and cast it using Charisma.",
+      "Fated. Once per long rest, reroll an attack, check, or save after rolling and before learning the outcome.",
+      "Speak, read, and write Birdfolk. Understand spoken Auran.",
+      "Sable Luma. Constitution +1. Creatures have disadvantage on Insight checks against you. You have advantage on Deception against non-Lumas. Gain advantage on saves against poison and resistance to poison damage.",
+      "Sera Luma. Wisdom +1 and Performance proficiency. While performing, cast charm person once per long rest using Charisma and without somatic components."
+    ]
+  },
+  {
+    "name": "Raptor",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small hawk- and eagle-like birdfolk with keen eyes and long talons.",
+      "Small humanoid, speed 25 ft., Dexterity +2.",
+      "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+      "Talons. Unarmed strikes deal 1d4 piercing. You have advantage on Strength (Athletics) checks to climb surfaces your talons can grip.",
+      "Keen Senses grants Perception proficiency. Woodland Hunter reduces the target’s three-quarters cover to half cover and half cover to no cover.",
+      "Hunter’s Training grants proficiency with longbows, shortbows, and spears. Longbows lack the heavy property for you.",
+      "Speak, read, and write Birdfolk. Understand spoken Auran.",
+      "Maran Raptor. Intelligence +1 and swim speed 25 ft. When you take a readied action, gain advantage on the first attack, skill check, or ability check made as part of it.",
+      "Mistral Raptor. Wisdom +1 and Acrobatics proficiency. Attacks against you have disadvantage while you are falling, gliding, or jumping."
+    ]
+  },
+  {
+    "name": "Strig",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Stocky owl-like birdfolk with thick mottled feathers and broad feathered arms.",
+      "Medium humanoid, speed 30 ft., Strength +2. Darkvision 60 ft.",
+      "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+      "Talons. Unarmed strikes deal 1d4 piercing. You have advantage on Strength (Athletics) checks to climb surfaces your talons can grip.",
+      "Patterned Feathers grants advantage on Stealth checks made to hide in a forest.",
+      "Speak, read, and write Birdfolk. Understand spoken Auran.",
+      "Stout Strig. Constitution +1 and Intimidation proficiency. After hitting with your talons, you may try to grapple that target as a bonus action.",
+      "Swift Strig. Dexterity +1, walking speed 35 ft., and Survival proficiency."
+    ]
+  }
+]

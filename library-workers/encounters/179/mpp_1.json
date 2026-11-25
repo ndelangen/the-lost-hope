@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Maelephant",
+    "statBlock": {
+      "name": "Maelephant",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 35,
+      "classification": "Large fiend, typically lawful evil",
+      "ac": 15,
+      "hp": 161,
+      "hitDice": "17d10 + 68",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 17,
+      "description": "An elephant-headed fiend hired to guard a place or object. A maelephant honors its contract even if it holds the same post for decades.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 8,
+        "Con": 8
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Half Plate Armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Infernal.",
+        "Damage resistances": "Acid, fire, and lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Frightened and poisoned.",
+        "Traits": "Magic Resistance. Roll saving throws against spells and other magical effects with advantage.",
+        "Actions": "Multiattack. Make one Barbed Trunk attack and two Glaive attacks.\nBarbed Trunk. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) piercing and 13 (2d12) poison damage. A Medium or smaller creature is grappled (escape DC 14) and restrained until the grapple ends. While holding it, the maelephant cannot use Barbed Trunk against anyone else.\nGlaive. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 15 (2d10 + 4) slashing damage.\nMind Poison (Recharge 5–6). Creatures in a 60-ft. cone make a DC 16 Constitution save. A failure deals 39 (6d12) poison damage and leaves the creature poisoned. While poisoned this way, it loses all weapon and skill proficiencies, cannot cast spells or understand language, and has disadvantage on Intelligence saves. It can repeat the save at the end of each of its turns, ending the effect on a success. A success on the initial save deals half damage, causes no condition, and grants immunity to this maelephant’s Mind Poison for 24 hours.",
+        "Proficiency bonus": "+4",
+        "Printed source": "Morte's Planar Parade, p. 35."
+      }
+    }
+  },
+  {
+    "name": "Mercykiller Bloodhound",
+    "statBlock": {
+      "name": "Mercykiller Bloodhound",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 60,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 104,
+      "hitDice": "16d8 + 48",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 18,
+      "description": "A Mercykiller in black plate and clawed gauntlets. Bloodhounds pursue people wanted for serious crimes in Sigil, even after the trail leaves the plane.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8,
+        "Survival": 8
+      },
+      "sections": {
+        "Armor": "Plate Armor.",
+        "Languages": "Common and one other language.",
+        "Traits": "Portal Sense. Detect portals within 30 ft., even when they are inactive, and know where each leads.",
+        "Actions": "Multiattack. Make three Clawed Gauntlet attacks.\nClawed Gauntlet. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing and 10 (3d6) necrotic damage.",
+        "Bonus actions": "Marked for Pursuit (3/Day). One visible creature within 30 ft. makes a DC 13 Charisma save, with disadvantage if it is below its maximum HP. Failure leaves it magically cursed for 24 hours. The bloodhound senses the creature’s direction and distance on the same plane. Across planes, the bloodhound knows only which plane the creature is on.",
+        "Proficiency bonus": "+3",
+        "Printed source": "Morte's Planar Parade, p. 60."
+      }
+    }
+  },
+  {
+    "name": "Musteval Guardinal",
+    "statBlock": {
+      "name": "Musteval Guardinal",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 33,
+      "classification": "Small celestial, typically neutral good",
+      "ac": 13,
+      "hp": 38,
+      "hitDice": "11d6",
+      "speed": "35 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 16,
+      "description": "A mouse-like celestial from Elysium that uses stealth and illusion magic to spy for allies. It carries a blade made of bone.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 4
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 7
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Avoral Guardinal",
+          "terms": [
+            "Avoral Guardinal"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#avoral%20guardinal_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Equinal Guardinal",
+          "terms": [
+            "Equinal Guardinal"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#equinal%20guardinal_mpp"
+          }
+        }
+      ],
+      "sections": {
+        "Languages": "Celestial and Common.",
+        "Damage resistances": "Radiant.",
+        "Condition immunities": "Frightened.",
+        "Actions": "Multiattack. Make two Bone Blade attacks.\nBone Blade. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing and 3 (1d6) radiant damage.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma, without material components.\nAt will. Dancing Lights.\n1/day each. Disguise Self and Invisibility.",
+        "Reactions": "Skirmish Movement. When a creature finishes its turn within 5 ft., the musteval can move up to half its speed without provoking opportunity attacks.",
+        "Guardinals": "Other Elysian guardinals include the Avoral Guardinal and Equinal Guardinal. Guardinals also travel the Outlands, particularly around Ecstasy and Faunel.",
+        "Proficiency bonus": "+2",
+        "Printed source": "Morte's Planar Parade, p. 33."
+      }
+    }
+  },
+  {
+    "name": "Nonaton Modron",
+    "statBlock": {
+      "name": "Nonaton Modron",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 38,
+      "classification": "Large construct, typically lawful neutral",
+      "ac": 16,
+      "hp": 161,
+      "hitDice": "19d10 + 57",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 21,
+      "description": "A worm-shaped inspector with nine mechanical arms. Nonatons bring rogue modrons back in line with the will of Primus and question captives on Mechanus.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 7
+      },
+      "skills": {
+        "Investigation": 7,
+        "Perception": 11
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Octon Modron",
+          "terms": [
+            "Octon Modron"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#octon%20modron_mpp"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Modron and telepathy 120 ft.",
+        "Traits": "Axiomatic Mind. The modron can't be forced to act against its nature or orders.\nCombat Ready. The modron rolls initiative with advantage.\nDisintegration. On death, the body crumbles to dust and leaves its carried belongings behind.",
+        "Actions": "Multiattack. Make three Arm attacks and use either Pillar of Truth or Spellcasting.\nArm. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) piercing damage. A Medium or smaller creature hit by the attack is grappled (escape DC 14). Each of the nine arms can hold one target, and an arm holding a target cannot attack another target.\nPillar of Truth. Choose a visible point on the ground within 60 ft. A magical cylinder of force rises 60 ft. from that point with a radius of 20 ft. Each creature in the cylinder makes a DC 15 Dexterity save. Failure deals 21 (6d6) force damage, returns a creature in an altered form to its original form, and prevents it from taking a different form until the end of its next turn. Success deals only half damage.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 15). No material components are needed.\nAt will. Detect Magic, Dispel Magic, or Mending. Mending takes an action.\n1/day each. Plane Shift (self only) and Protection from Evil and Good.",
+        "Mechanus hierarchy": "See Octon Modron for the administrators who govern individual sectors of Mechanus.",
+        "Proficiency bonus": "+4",
+        "Printed source": "Morte's Planar Parade, p. 38."
+      }
+    }
+  },
+  {
+    "name": "Octon Modron",
+    "statBlock": {
+      "name": "Octon Modron",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 40,
+      "classification": "Large construct, typically lawful neutral",
+      "ac": 18,
+      "hp": 187,
+      "hitDice": "22d10 + 66",
+      "speed": "30 ft., fly 30 ft. (hover), swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 21,
+      "description": "An eight-tentacled hierarch who oversees the daily operation of a sector of Mechanus. It sends productivity reports to septons and diagnostic records to decatons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 7
+      },
+      "skills": {
+        "Perception": 11
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Septon Modron",
+          "terms": [
+            "Septon Modron"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#septon%20modron_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Decaton Modron",
+          "terms": [
+            "Decaton Modron"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#decaton%20modron_mpp"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Modron and telepathy 120 ft.",
+        "Damage resistances": "Psychic.",
+        "Traits": "Axiomatic Mind. The modron can't be forced to act against its nature or orders.\nCombat Ready. The modron rolls initiative with advantage.\nDisintegration. On death, the body crumbles to dust and leaves its carried belongings behind.",
+        "Actions": "Multiattack. Make three Tentacle attacks.\nTentacle. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 14 (3d6 + 4) bludgeoning and 9 (2d8) lightning damage.\nWhirlwind of Tentacles (Recharge 5–6). Each creature within 20 ft. must pass a DC 16 Strength save or be pulled up to 10 ft. straight toward the octon. After resolving the pull, make two Tentacle attacks against every creature within 10 ft. of the octon.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 15). No material components are needed.\nAt will. Detect Magic, Dispel Magic, or Mending. Mending takes an action.\n1/day each. Plane Shift (self only) and Protection from Evil and Good.",
+        "Mechanus hierarchy": "A Septon Modron receives the octon’s sector reports. A Decaton Modron uses its diagnostic records to keep base modrons functioning.",
+        "Proficiency bonus": "+4",
+        "Printed source": "Morte's Planar Parade, p. 40."
+      }
+    }
+  },
+  {
+    "name": "Planar Incarnate",
+    "statBlock": {
+      "name": "Planar Incarnate",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 41,
+      "classification": "Gargantuan celestial or fiend, any alignment",
+      "ac": 20,
+      "hp": 333,
+      "hitDice": "18d20 + 144",
+      "speed": "40 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 22,
+      "description": "A living surge of energy from an Outer Plane. Incarnates arise when their home is threatened and return to the plane after defending it. Upper Planar forms can resemble blooms of brilliant life, while Lower Planar forms can resemble moving walls of flame.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 12
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Modron Planar Incarnate",
+          "terms": [
+            "Modron Planar Incarnate"
+          ],
+          "printing": {
+            "publication": "Turn of Fortune's Wheel",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#modron%20planar%20incarnate_tofw"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages.",
+        "Damage immunities": "Necrotic, poison, and radiant. Also immune to bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, restrained, stunned, and unconscious.",
+        "Traits": "Legendary Resistance (3/Day). Turn a failed saving throw into a success.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage.\nPlanar Form. On the Upper Planes, use the celestial form. On the Lower Planes, use the fiend form. When an incarnate appears elsewhere, choose one of these forms. A unique appearance can still use either form’s mechanics.\nSiege Monster. Double the damage dealt to objects and structures.",
+        "Actions": "Multiattack. Make two attacks, choosing Slam or Energy Bolt for each.\nSlam. Melee weapon attack, +15 to hit, reach 15 ft., one target. A hit deals 27 (3d12 + 8) force damage.\nEnergy Bolt. Ranged spell attack, +12 to hit, range 120 ft., one target. A hit deals 32 (5d12) radiant damage in celestial form or necrotic damage in fiend form.\nPlanar Exhalation (Recharge 5–6). Creatures in a 60-ft. cone make a DC 23 Constitution save. Failure deals 52 (8d12) radiant damage in celestial form or necrotic damage in fiend form. It also leaves the target blinded until the end of the incarnate’s next turn. Success deals only half damage.",
+        "Reactions": "The incarnate can take up to three reactions per round, with a limit of one per turn.\nSearing Gaze. When hit by an attack roll, choose a creature the incarnate can see within 120 ft. The chosen creature must pass a DC 20 Wisdom save or take 16 (3d10) fire damage.\nTeleport. Immediately after a visible creature ends its turn, teleport up to 60 ft. into a visible unoccupied space.",
+        "Adventure variant": "For the fixed fiend form used in Turn of Fortune’s Wheel, see Modron Planar Incarnate.",
+        "Proficiency bonus": "+7",
+        "Printed source": "Morte's Planar Parade, p. 41."
+      }
+    }
+  }
+]

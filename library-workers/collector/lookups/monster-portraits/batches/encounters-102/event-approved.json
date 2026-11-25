@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Buomman",
+    "slug": "buomman",
+    "caption": "Morrow · Original Buomman NPC",
+    "id": "species-c07c47cc07fc5ad1b1bce1f9:dcfc4b3ed8b4630f4b367628",
+    "entry": "species-c07c47cc07fc5ad1b1bce1f9",
+    "version": "dcfc4b3ed8b4630f4b367628",
+    "suffix": "encounters-102/buomman.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-102/buomman.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-102/event-drafts/buomman-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 102 2026-11-24/event-drafts/buomman-event-v1.png",
+    "overrides": [],
+    "sha256": "02c63804f50467fbec4ac85aedfaa5f19f4c6447914c00e58f3202d7f5e9cc1c",
+    "bytes": 2025450
+  }
+]

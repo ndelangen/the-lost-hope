@@ -1,0 +1,194 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -310437,6 +310437,54 @@
+       ]
+     },
+     {
++      "name": "Killoren",
++      "kind": "species",
++      "publication": "Races of the Wild (2005) · Ancient",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
++        "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
++        "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
++        "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
++        "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
++        "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
++        "Aspect of the Ancient: add a racial bonus to Knowledge (nature) equal to Hit Dice. Gain another +2 on saves against enchantments, stacking with the usual +2 for a total racial bonus of +4. Hair is white and eyes sky blue.",
++        "Optional Killoren Ancient feat from p. 151: after 10 minutes of uninterrupted communion over a specific question, make any Knowledge check with +4 insight. On success it yields information as a trained check would, even if you lack ranks."
++      ]
++    },
++    {
++      "name": "Killoren",
++      "kind": "species",
++      "publication": "Races of the Wild (2005) · Destroyer",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
++        "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
++        "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
++        "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
++        "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
++        "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
++        "Aspect of the Destroyer: choose a smite attack at most once per hour, with a daily cap equal to your Charisma bonus (minimum 1). Add the Charisma bonus to the attack and +1 damage per Hit Die. Valid targets are aberrations, constructs, humanoids, oozes, outsiders, and undead. An ineligible target still uses the hourly and daily use. Hair and eyes become lusterless black.",
++        "Optional Killoren Destroyer feat from p. 151: a foe hit by an eligible smite must make a Will save (DC 10 + half character level, rounded down, + Charisma modifier) or become dazed for 1 round."
++      ]
++    },
++    {
++      "name": "Killoren",
++      "kind": "species",
++      "publication": "Races of the Wild (2005) · Hunter",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
++        "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
++        "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
++        "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
++        "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
++        "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
++        "Aspect of the Hunter: +2 racial bonus to Hide, Listen, Move Silently, Spot, and initiative checks. Hair and eyes turn deep forest green and skin takes on a deeper brown tone.",
++        "Optional Killoren Hunter feat from p. 151: use a move action to pinpoint a living creature within 30 ft. if you have line of effect. A creature you cannot see retains total concealment."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Explorer's Guide to Wildemount",
+       "name": "Dragonborn (Draconblood; Bronze)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -306,6 +306,90 @@
+       "tactics": "Protects a door or witness and leaves by a prepared route when challenged in the open."
+     },
+     {
++      "id": "killoren-hunter-trail-ward-35e",
++      "title": "Hunter Killoren trail ward, Rogue 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Fey",
++      "ac": 14,
++      "hp": 7,
++      "hitDice": "1d6+1",
++      "initiative": 4,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 15,
++        "CON": 13,
++        "INT": 12,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": [
++        "Balance +6",
++        "Disable Device +5",
++        "Hide +8",
++        "Listen +6",
++        "Move Silently +8",
++        "Open Lock +6",
++        "Search +5",
++        "Spot +6",
++        "Survival +2",
++        "Tumble +6"
++      ],
++      "senses": "Low-light vision",
++      "languages": "Common, Sylvan, Elven",
++      "traits": [
++        "Leather armor +2 and Dexterity +2. Touch 12, flat-footed 12. BAB +0, grapple +0. Fortitude +1, Reflex +4, Will +0.",
++        "Low-light vision, magical sleep immunity, +2 racial saves against enchantments, +2 racial Handle Animal and Survival. The listed weapons use ordinary materials. Apply −2 to attacks using wholly or partly cold-iron weapons, including cold-iron arrows.",
++        "Hunter is Irimel’s active aspect for this encounter. Initiative, Hide, Listen, Move Silently, and Spot already include the Hunter +2.",
++        "Killoren Hunter feat can pinpoint a living creature within 30 ft. as a move action, with line of effect. An unseen creature keeps total concealment.",
++        "Trapfinding permits searching for traps with a DC above 20 and using Disable Device on magical traps. The kit includes ordinary thieves’ tools. Sneak Attack +1d6 applies to eligible attacks, with a 30-ft. limit for ranged attacks."
++      ],
++      "actions": [
++        "Rapier +0 melee, 1d6 piercing, critical 18–20/×2, reach 5 ft.",
++        "Shortbow +2 ranged, 1d6 piercing, critical ×3, 60-ft. range increment."
++      ],
++      "tactics": "Search the marked path for old alarms and keep travellers off the flooded stretch. If a living creature moves nearby in the fog, pinpoint it before asking anyone to approach."
++    },
++    {
++      "id": "killoren-destroyer-grove-steward-35e",
++      "title": "Destroyer Killoren grove steward, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Fey",
++      "ac": 15,
++      "hp": 11,
++      "hitDice": "1d10+1",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 14,
++        "DEX": 12,
++        "CON": 13,
++        "INT": 10,
++        "WIS": 8,
++        "CHA": 15
++      },
++      "skills": ["Climb +4", "Jump +4", "Survival +1"],
++      "senses": "Low-light vision",
++      "languages": "Common, Sylvan",
++      "traits": [
++        "Chain shirt +4 and Dexterity +1. Touch 11, flat-footed 14. BAB +1, grapple +3. Fortitude +3, Reflex +1, Will −1.",
++        "Low-light vision, magical sleep immunity, +2 racial saves against enchantments, +2 racial Handle Animal and Survival. The listed weapons use ordinary materials. Apply −2 to attacks using wholly or partly cold-iron weapons, including cold-iron arrows.",
++        "Destroyer is Daranvar’s active aspect. Weapon Focus (longspear) is the Fighter bonus feat. The Killoren Destroyer feat can daze a foe hit by an eligible smite."
++      ],
++      "actions": [
++        "Longspear +4 melee, 1d8+3 piercing, critical ×3, reach 10 ft., usable against foes beyond adjacent squares. Club +3 melee adjacent, 1d6+2 bludgeoning one-handed, critical ×2.",
++        "Destroyer smite twice per day, at most once per hour. Smite with longspear +6 for 1d8+4 or club +5 for 1d6+3. Valid targets are aberrations, constructs, humanoids, oozes, outsiders, and undead. An invalid target spends the use.",
++        "On a successful smite against an eligible target, Killoren Destroyer requires Will DC 12 or dazes that target for 1 round."
++      ],
++      "tactics": "Keep the construct on the path and away from the seedlings while the party looks for its control mark. Hold the crossing with the longspear. Save the smite for a clear hit on the construct."
++    },
++    {
+       "id": "korobokuru-pass-rescuer-3e",
+       "title": "Korobokuru pass rescuer, Barbarian 1",
+       "origin": "Original DM Library NPC",
+@@ -842,6 +926,28 @@
+       "hook": "Mina asks the group to serve as reading witnesses after the usual keeper stops answering messages."
+     },
+     {
++      "species": "Killoren",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of the Wild (2005) · Hunter",
++      "name": "Irimel",
++      "build": "killoren-hunter-trail-ward-35e",
++      "role": "Hunter aspect. Fog trail ward and Rogue.",
++      "motive": "Guide the last group of travellers around a flooded stretch before the markers go under.",
++      "hook": "Irimel can find old warning lines and pinpoint someone calling from the fog if the party keeps the trail open."
++    },
++    {
++      "species": "Killoren",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of the Wild (2005) · Destroyer",
++      "name": "Daranvar",
++      "build": "killoren-destroyer-grove-steward-35e",
++      "role": "Destroyer aspect. Grove threshold steward and Fighter.",
++      "motive": "Keep a stray construct out of a seedling grove while a druid finds its control mark.",
++      "hook": "Daranvar can hold the crossing while the party checks the construct for its maker’s mark."
++    },
++    {
+       "species": "Pallid Elf",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -5743,6 +5743,9 @@
+ Killer Whale	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		3
+ Killmoulis	monster	Fey	Mordenkainen's Fiendish Folio Volume 1	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/588967-killmoulis	0
+ Killmoulis	monster	Fey	Mordenkainen's Fiendish Folio	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/588967-killmoulis	0
++Killoren	species	Fey	Races of the Wild (2005) · Ancient	3.5 edition	Wizards of the Coast	https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ	
++Killoren	species	Fey	Races of the Wild (2005) · Destroyer	3.5 edition	Wizards of the Coast	https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ	
++Killoren	species	Fey	Races of the Wild (2005) · Hunter	3.5 edition	Wizards of the Coast	https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ	
+ Killsward	monster	Monstrosity	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	2.0
+ Kindori	monster	Celestial	Spelljammer: Adventures in Space	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2821178-kindori	7
+ Kineater	monster	Aberration	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	6.0

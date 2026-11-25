@@ -1,0 +1,318 @@
+[
+  {
+    "name": "Akikage",
+    "decision": "separate",
+    "pages": "pp. 10–11",
+    "notes": "Use the printed 3.5 encounter mechanics.",
+    "statBlock": {
+      "name": "Akikage",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Incorporeal)",
+      "cr": "7",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An assassin who died before completing a mission can rise as an akikage. It stalks its intended victim in silence, vanishes, then attacks from a new position.",
+      "ac": 14,
+      "hp": 39,
+      "hitDice": "6d12",
+      "speed": "40 ft.",
+      "abilities": {
+        "Dex": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "sections": {
+        "Combat statistics": "Initiative +7. AC 14 (+3 Dex, +1 deflection), touch 14, flat-footed 11. Base attack +3, grapple +3. Space and reach 5 ft.",
+        "Saving throws": "Fort +5, Ref +8, Will +8.",
+        "Skills and feats": "Hide +11, Intimidate +7, Jump +6, Listen +9, Search +7, Sense Motive +9, Spot +9, Tumble +5. Blind-Fight, Improved Initiative.",
+        "Actions": "Incorporeal touch. Melee +6 for 2d6 cold. Full attack makes two touches at +6 each.\nFreezing Strike (Su, 6/day, once per round). Spend a use before the touch attack. A miss spends the use. On a hit, apply the touch damage. A target susceptible to cold makes a DC 14 Fortitude save or is stunned for 1 round, even if it is immune to critical hits. A critical hit also requires a DC 14 Fortitude save against death in 1d3 rounds. Creatures immune to critical hits ignore this death effect.\nInvisibility (Su). On its turn, become invisible as a free action at will. The invisibility ends when it attacks.",
+        "Traits": "Sneak Attack (Ex). Add 2d6 against a flanked target or one denied its Dexterity bonus to AC. This requires a living target with vulnerable anatomy and no concealment. Immunity to critical hits also prevents the extra damage. The akikage can sneak attack other incorporeal creatures.\nIncorporeal and undead traits. Turn resistance +1.",
+        "Encounter": "Any land or underground, solitary. No treasure. Usually lawful evil. Advancement 7–10 HD (Medium). Understands languages it knew in life and never speaks.",
+        "Printed source": "pp. 10–11"
+      }
+    }
+  },
+  {
+    "name": "Animator",
+    "decision": "separate",
+    "pages": "pp. 17–22",
+    "notes": "Use the printed 3.5 encounter mechanics.",
+    "statBlock": {
+      "name": "Animator",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Undead acquired template for a nonmagical object",
+      "cr": "Base object + 1",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An invisible spirit feeds on a ward’s fear, jealousy, or anger. It takes over an object the ward cares about and uses it to keep others away.",
+      "ruleNotes": [
+        "Several sample ACs disagree with their modifiers or the template. The profiles retain the listed totals. The Huge sample gives neither touch nor flat-footed AC.",
+        "The Colossal damage line adds an extra letter to the dice expression. It is presented as 1d3+9, consistent with the other five samples."
+      ],
+      "sections": {
+        "Actions": "Physical attacks use the inhabited object’s attacks, damage, and special attacks. A bodiless animator makes no physical attacks.\nSpell-like abilities (caster level 9). At will: animate objects, crushing despair (DC 16), fear (DC 16), rage (DC 15), scare (DC 14), and telekinesis.\nPowerful Charge (Ex). In samples with this ability, add 4 damage to a charge. The host needs its own means of movement, such as wheels or legs, or must be propelled by telekinesis.\nBlindsight (Ex). In samples with this ability, detect foes within 120 ft. Beyond that range, treat the animator as blinded.",
+        "Template": "Animate a nonmagical base object using the animated object rules and change its type to Undead. Change its Hit Dice to d12s. Keep its speed, attacks, damage, saves, special attacks, qualities, and hardness. Add +2 deflection AC. Increase Strength by 2, with size adjustments as appropriate. Typical mental scores are Int 15, Wis 12, Cha 12. Base skills are Bluff +10, Hide +5, Intimidate +10, Listen +5, Search +7, Sense Motive +10, Spot +5. Apply size and Dexterity to Hide, and adjust skills for size and level as needed. Add Improved Initiative and Iron Will, plus Power Attack for more powerful animators.",
+        "Ward and weaknesses": "Ward (Su). An animator feeds on negative emotions produced by its ward and need not follow the ward’s orders. At more than 60 ft. from the ward, or when the ward goes more than a day without these emotions, it loses 1 Cha per day. Normal recovery resumes after rejoining its ward or finding another.\nOutside an object it is naturally invisible and incorporeal. Invisibility purge does not cancel the natural invisibility. It cannot possess a magical object or an object under a spell. A successful melee touch with dispel evil expels it. Neither expulsion nor ordinary destruction of the host harms it. Soul bind or trap the soul can imprison it indefinitely. Turn or rebuke it as an 8 HD undead. To destroy it, trap it magically in the object, such as in an antimagic field, then destroy the object while it remains trapped.",
+        "Tiny scarf": "1/2 d12 (3 hp). Initiative +6. Speed 40 ft. AC 16 (+2 size, +2 Dex, +2 deflection), touch 14, flat-footed 14. Base attack +0, grapple −8. Attack and full attack are slam +1 melee (1d3). Space 2½ ft., reach 0 ft. Fort +0, Ref +0, Will +1. Str 10, Dex 14, Int 15, Wis 12, Cha 12. Bluff +5, Hide +6, Intimidate +5, Listen +5, Search +6, Sense Motive +5, Spot +5. Improved Initiative (bonus), Iron Will.\nConstrict (Ex). A successful grapple check deals slam damage to targets of Small size or smaller. It can also constrict a Medium victim wearing the scarf around its neck when it strikes.",
+        "Small candelabra": "1d12 (6 hp), CR 3. Initiative +5. Speed 40 ft. AC 13 (+1 size, +1 Dex, +1 deflection), touch 13, flat-footed 12. Base attack +0, grapple −4. Attack and full attack are slam +1 melee (1d3). Space and reach 5 ft. Fort +0, Ref +0, Will +2. Str 10, Dex 12, Int 15, Wis 14, Cha 12. Bluff +4, Hide +5, Intimidate +5, Listen +6, Search +6, Sense Motive +4, Spot +5. Improved Initiative (bonus), Iron Will.\nPowerful charge. A Small host gets surprise against opponents who fail a DC 20 Spot check.",
+        "Medium bed": "2d12 (12 hp). Initiative +6. Speed 40 ft., or 50 ft. with multiple legs. AC 14 (+2 Dex, +2 deflection), touch 14, flat-footed 12. Base attack +1, grapple +1. Attack and full attack are slam +1 melee (1d3). Space and reach 5 ft. Fort +0, Ref +0, Will +3. Str 10, Dex 14, Int 16, Wis 13, Cha 15. Bluff +7, Hide +7, Intimidate +7, Listen +6, Search +8, Sense Motive +6, Spot +6. Improved Initiative (bonus), Iron Will. Blindsight and powerful charge.",
+        "Large cart": "4d12 (24 hp). Initiative +6. Speed 40 ft., or 50 ft. on wheels where the ground permits. AC 14 (−1 size, +3 Dex, +2 deflection), touch 14, flat-footed 11. Base attack +2, grapple +9. Attack and full attack are slam +5 melee (1d3+3). Space and reach 10 ft. for long and tall hosts. Fort +1, Ref +1, Will +4. Str 16, Dex 12, Int 16, Wis 12, Cha 14. Bluff +9, Hide +8, Intimidate +9, Listen +6, Search +10, Sense Motive +8, Spot +6. Blind-Fight, Improved Initiative (bonus), Iron Will. Blindsight and powerful charge.",
+        "Huge carriage": "8d12. Initiative +3. Speed 40 ft., or 60 ft. on wheels. AC 16 (−2 size, −1 Dex, +2 deflection listed). Base attack +8, grapple +16. Attack is slam +4 melee (1d3+4). Full attack is two slams at +4 each (1d3+4). Space 15 ft., reach 10 ft. for long hosts or 15 ft. for tall ones. Fort +2, Ref +2, Will +6. Str 18, Dex 9, Int 18, Wis 14, Cha 14. Bluff +13, Hide +15, Intimidate +13, Jump +14, Listen +13, Search +15, Sense Motive +13, Spot +15. Combat Reflexes, Improved Initiative (bonus), Iron Will, Power Attack. Blindsight and powerful charge.",
+        "Gargantuan cottage": "16d12 (96 hp). Initiative +2. Speed 10 ft. AC 6 (−4 size, −2 Dex, +2 deflection), touch 6, flat-footed 8. Base attack +16, grapple +32. Attack is slam +7 melee (1d3+7). Full attack is two slams at +7 each (1d3+7). Space 20 ft., reach 15 ft. for long hosts or 20 ft. for tall ones. Fort +5, Ref +5, Will +10. Str 24, Dex 7, Int 17, Wis 14, Cha 14. Bluff +21, Hide +17, Intimidate +21, Listen +17, Search +22, Sense Motive +21, Spot +21. Combat Reflexes, Improved Bull Rush, Improved Initiative (bonus), Improved Overrun, Iron Will, Power Attack. Blindsight and powerful charge.",
+        "Colossal mansion": "32d12 (192 hp). Initiative +1. Speed 10 ft. AC 1 (−8 size, −3 Dex, +2 deflection), touch 1, flat-footed 0. Base attack +16, grapple +35. Attack and full attack are slam +2 melee (1d3+9). Space 30 ft., reach 20 ft. for long hosts or 30 ft. for tall ones. Fort +13, Ref +13, Will +17. Str 28, Dex 4, Int 16, Wis 14, Cha 15. Bluff +22, Hide +17, Intimidate +21, Listen +21, Search +23, Sense Motive +22, Spot +27. Awesome Blow, Combat Reflexes, Improved Bull Rush, Improved Feint, Improved Initiative (bonus), Improved Overrun, Improved Sunder, Improved Trip, Iron Will, Lightning Reflexes, Power Attack. Blindsight and powerful charge.",
+        "Encounter": "Use the base object’s CR +1, with CR 3 listed for the Small sample. Every sample has no Constitution score and gains undead traits and Ward while retaining object hardness. Any land or underground, solitary, always chaotic evil, no treasure.",
+        "Printed source": "pp. 17–22"
+      }
+    }
+  },
+  {
+    "name": "Arayashka",
+    "decision": "separate",
+    "pages": "pp. 26–27",
+    "notes": "Use the printed 3.5 encounter mechanics.",
+    "statBlock": {
+      "name": "Arayashka",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Cold, Incorporeal)",
+      "cr": "5",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Snow wraiths appear during blizzards. They drain a traveler’s warmth before moving close enough to strike.",
+      "ac": 11,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "30 ft., fly 30 ft. (good)",
+      "abilities": {
+        "Dex": {
+          "score": 9
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "sections": {
+        "Combat statistics": "Initiative +4. AC 11 (−1 Dex, +2 deflection), touch 11, flat-footed 11. Base attack +2, grapple +2. Space and reach 5 ft.",
+        "Saving throws": "Fort +3, Ref +2, Will +4.",
+        "Skills and feats": "Hide +15, Listen +10, Spot +10. Blind-Fight, Improved Initiative.",
+        "Actions": "Freezing Touch (Ex). Incorporeal touch +5 melee for 1d8 cold damage and 1 Strength damage. The target recovers 1 Strength per hour once the arayashka is driven off or destroyed.\nDrain Heat (Ex). Choose one heat source within 30 ft. A small campfire goes out in 1d4 minutes. A creature makes a DC 25 Fortitude save or takes 1 nonlethal damage each round until the arayashka is driven away or the victim dies. At nonlethal damage equal to half its hit points or more, the victim becomes fatigued. A full attack uses the same single choice.",
+        "Traits": "Create Spawn (Su). A humanoid slain by an arayashka and buried where snowfall can occur rises as one at the next snowstorm. It loses its former abilities.\nIncorporeal and undead traits. Cold subtype.",
+        "Encounter": "Any land in blizzard conditions, solitary or gang of 2–6. Standard treasure. Always neutral evil. Advancement 6–10 HD (Medium).",
+        "Printed source": "pp. 26–27"
+      }
+    }
+  },
+  {
+    "name": "Giant Assassin Bug",
+    "decision": "separate",
+    "pages": "pp. 27–28",
+    "notes": "Use the printed 3.5 encounter mechanics.",
+    "statBlock": {
+      "name": "Giant Assassin Bug",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Vermin",
+      "cr": "2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A nearly transparent insect waits for helpless prey. Its carapace turns opaque and red after it feeds.",
+      "ac": 12,
+      "hp": 26,
+      "hitDice": "4d8+8",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "sections": {
+        "Combat statistics": "Initiative +0. AC 12 (−1 size, +3 natural), touch 9, flat-footed 12. Base attack +6, grapple +13. Space 5 ft., reach 10 ft.",
+        "Saving throws": "Fort +6, Ref +1, Will +1.",
+        "Skills": "Climb +12, Hide +8, Spot +8.",
+        "Actions": "Sting. Melee +6 for 1d8+5 and poison. Its full attack is the same sting.\nPoison (Ex). Injury, Fortitude DC 14. Initial effect paralyzes for 2d6 minutes. No secondary effect.\nBlood Drain (Ex). After paralyzing a victim, deal 1d4 Constitution damage each subsequent round while the proboscis stays attached. Any damage to the bug breaks contact.",
+        "Traits": "Camouflage (Ex). +6 racial bonus to Hide checks. After draining blood, it loses camouflage for 2 hours per point of Constitution damage it dealt. Vermin traits.",
+        "Encounter": "Hills or underground, colony of 2–5. One-tenth coins, half goods and items. Always neutral. Advancement 5–10 HD (Large).",
+        "Printed source": "pp. 27–28"
+      }
+    }
+  },
+  {
+    "name": "Backward Man",
+    "decision": "separate",
+    "pages": "pp. 28–29",
+    "notes": "Use the printed 3.5 encounter mechanics.",
+    "statBlock": {
+      "name": "Backward Man",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Aberration",
+      "cr": "4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This creature makes a household think it is haunted before it attacks. Its backward gait leaves its eyes and mouth pointed at whoever follows.",
+      "ac": 16,
+      "hp": 26,
+      "hitDice": "4d8+8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "sections": {
+        "Combat statistics": "Initiative +3. AC 16 (+3 Dex, +3 natural), touch 13, flat-footed 13. Base attack +3, grapple +5. Space 5 ft., reach 10 ft.",
+        "Saving throws": "Fort +3, Ref +4, Will +6.",
+        "Skills and feats": "Hide +3, Intimidate +6, Listen +8, Move Silently +8, Open Locks +8, Sleight of Hand +8. Combat Reflexes, Improved Grab, Multiattack.",
+        "Actions": "Tentacle. Melee +5 for 2d4+2. Full attack adds one melee +3 attack for 2d4+2 per extra tentacle sprouted before its turn.\nConstrict (Ex). Deal 2d4+2 on a successful grapple check against a Medium or smaller creature.\nSpell-like abilities (caster level 4). Ghost sound 3/day and invisibility 2/day.",
+        "Traits": "Sprout Tentacles (Ex). Each piercing or slashing wound deals damage normally and grows an extra tentacle that can attack on the backward man’s next turn. Each of those attacks is at +3.\nFast Healing (Ex). Recover 2 HP per round while above 0 HP. At 0 HP it bursts into inert tentacles. The burst deals no damage, though a DC 18 Horror save may apply.\nSpider Climb (Su). Climb sheer surfaces as with spider climb.",
+        "Encounter": "Temperate and cold forest or marsh, solitary or pack of 2–5. Standard treasure. Always chaotic evil. Advancement 5–8 HD (Medium), 9–12 HD (Large). Speaks the local domain language.",
+        "Printed source": "pp. 28–29"
+      }
+    }
+  },
+  {
+    "name": "Bakhna Rakhna",
+    "decision": "separate",
+    "pages": "pp. 29–30",
+    "notes": "Use the printed 3.5 encounter mechanics.",
+    "statBlock": {
+      "name": "Bakhna Rakhna",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Monstrous Humanoid",
+      "cr": "1",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "These nocturnal raiders slip into kitchens using phase door. A group scatters if pursued, leaving a few of its number to distract or poison the pursuers.",
+      "ac": 14,
+      "hp": 6,
+      "hitDice": "1d8+2",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "ruleNotes": [
+        "The stat block’s size and size modifiers are Small. The advancement line lists Tiny."
+      ],
+      "sections": {
+        "Combat statistics": "Initiative +7. AC 14 (+1 size, +3 Dex), touch 14, flat-footed 11. Base attack +0, grapple −5. Space and reach 5 ft.",
+        "Saving throws": "Fort +2, Ref +5, Will +2.",
+        "Skills and feats": "Escape Artist +6, Hide +14, Jump +4, Listen +2, Move Silently +8, Search +2. Dodge (bonus), Improved Initiative (bonus), Mobility.",
+        "Actions": "Poisoned arrow. Use an arrow as a dagger, melee +1 for 1d3−1 plus poison. Or fire it from a tiny bow, ranged +5 for 1d3 plus poison. Its full attack uses the same single choice.\nPhase Door (Sp). Three uses per day, caster level 16.",
+        "Traits": "Poison Blood (Ex). Injury, Fortitude DC 13. Initial and secondary damage each deal 1d6 Dexterity damage. The DC is Constitution based.\nLight Sensitivity (Ex). Take −2 on attacks and skill checks in bright sunlight or within daylight. Spell resistance 16.",
+        "Encounter": "Forest, hill, or underground. Gang of 4–9 or tribe of 5–20. Half goods. Always neutral evil. Advancement 1–3 HD (printed as Tiny). Level adjustment +0, cohort.",
+        "Printed source": "pp. 29–30"
+      }
+    }
+  },
+  {
+    "name": "Baobhan Sith",
+    "decision": "separate",
+    "pages": "p. 31",
+    "notes": "Use the printed 3.5 encounter mechanics.",
+    "statBlock": {
+      "name": "Baobhan Sith",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny Fey",
+      "cr": "3",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This black sprite hides behind its invisibility and waits for a fight to leave someone isolated or helpless.",
+      "ac": 17,
+      "hp": 3,
+      "hitDice": "1d6",
+      "speed": "20 ft., fly 60 ft. (good)",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "sections": {
+        "Combat statistics": "Initiative +7. AC 17 (+2 size, +4 Dex, +1 natural), touch 16, flat-footed 13. Base attack +1, grapple −9. Space 2½ ft., reach 0 ft.",
+        "Saving throws": "Fort +0, Ref +5, Will +4.",
+        "Skills and feats": "Bluff +7, Concentration +4, Disable Device +7, Escape Artist +8, Hide +12, Intimidate +6, Listen +6, Move Silently +8, Ride +8, Search +9, Sense Motive +6, Spot +6. Dodge (bonus), Flyby Attack (bonus), Point Blank Shot (bonus), Weapon Finesse.",
+        "Actions": "Dagger or javelin. Dagger +6 melee for 1d4−2 or tiny javelin +6 ranged for 1d4. Its full attack uses the same single choice.\nInfectious Laughter (Su, once per day). Everyone within 30 ft. makes a DC 15 Will save. On a failure, apply Tasha’s hideous laughter for 1d3 rounds at caster level 8. A success grants immunity to any baobhan sith’s laughter for the rest of the day.\nSpell-like abilities (caster level 8). Once per day each: confusion, dancing lights, detect law, detect thoughts, dispel magic, entangle, permanent image (visual and auditory effects only), and polymorph. Save DC 13 + spell level, Charisma based.",
+        "Traits": "Natural Invisibility (Su). Invisible even while attacking. Suppress or resume it as a free action. Spell resistance 16.",
+        "Encounter": "Temperate forest. Gang of 2–4, band of 6–11, or swarm of 20–80. No coins and half goods and items. Always chaotic evil. Advancement 2–3 HD (Tiny). Level adjustment +3, cohort.",
+        "Printed source": "p. 31"
+      }
+    }
+  }
+]

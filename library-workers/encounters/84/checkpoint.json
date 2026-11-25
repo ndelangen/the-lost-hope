@@ -1,0 +1,34 @@
+{
+  "commit": "2a74206642ab0a45362aae176a12a0d0068d4121",
+  "publication": "Flee, Mortals!",
+  "edition": "2014 fifth edition compatible",
+  "runnableStatBlocks": 1,
+  "creditedPublisherPortraitsReused": 1,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/bloodlord-varrox-before-after.jpg",
+  "browser": {
+    "entry": "monster-560b25ada0df2fd61866fb30",
+    "version": "d649fcb3eabe1cf246e365df",
+    "publisherArt": "",
+    "stats": {
+      "Armor class": "18",
+      "Hit points": "119",
+      "Hit dice": "14d8 + 56",
+      "Challenge": "8",
+      "Type": "Humanoid",
+      "Speed": "30 ft.",
+      "XP": "3900",
+      "Str": "18",
+      "Dex": "11",
+      "Con": "18",
+      "Int": "11",
+      "Wis": "14",
+      "Cha": "15"
+    },
+    "recruit": {
+      "entry": "monster-08ca07ce0c35a37bfdc6be22",
+      "version": "f6f796b3e1ac9e7660165f1d"
+    }
+  }
+}

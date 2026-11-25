@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Shoal Halfling",
+    "slug": "shoal-halfling",
+    "caption": "Tess Siltstep · Original Shoal Halfling NPC",
+    "id": "species-c0df72b01a5a35494a99f050:6a96d87ccb0136ed880c6b7d",
+    "entry": "species-c0df72b01a5a35494a99f050",
+    "version": "6a96d87ccb0136ed880c6b7d",
+    "suffix": "encounters-114/shoal-halfling.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-114/shoal-halfling.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-114/event-drafts/shoal-halfling-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 114 2026-11-24/event-drafts/shoal-halfling-event-v1.png",
+    "overrides": [],
+    "sha256": "7088cdb605459cb700cdad2e387b470ca28c6041fd8f17e2f3fad00815ad58cd",
+    "bytes": 1916167
+  }
+]

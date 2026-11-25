@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Razorback",
+    "decision": "separate",
+    "pages": "pp. 174–175",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Razorback",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Animal",
+      "ac": 19,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "50 ft.",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "otherStatistics": "Initiative +3. AC components +1 size, +3 Dex, +5 natural. Touch 14, flat-footed 16. Base attack +1, grapple −2. Space 5 ft., reach 5 ft. Fort +4, Ref +6, Will +1.",
+      "description": "This low-slung plains hunter runs beneath its prey and cuts it with the raised spines along its back.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Rake +3 melee for 1d8 + 1 and wounding.\nFull attack. Use the same rake, or make two claws at −2 melee for 1d4 each and a bite at −2 melee for 1d6 + 1.\nRake on a charge. Target a creature from Medium through Huge (long). Add the usual +2 charge bonus to the printed attack. The razorback can pass through the target’s square without provoking from that movement and can continue up to a total of double its speed.\nWounding (Ex). Each spine wound deals 1 HP of bleeding damage per round. Bleeding from multiple wounds stacks. A DC 15 Heal check or any healing magic stops it. Creatures immune to critical hits are immune to this bleeding.",
+        "Traits": "Scent. Packs usually each choose a target, but they may charge one large foe in succession and follow it while it bleeds.",
+        "Skills": "Hide +8, Listen +5, Move Silently +7, Spot +5. Racial bonuses are +4 to Hide and Move Silently. The Hide racial bonus increases to +8 in tall grass or heavy undergrowth.",
+        "Encounter details": "Temperate or warm plains. Solitary, pair, or pack of 2–8. Always neutral. No treasure. Advancement 3–5 HD Small, then 6–8 HD Medium.",
+        "Printed source": "pp. 174–175"
+      }
+    }
+  },
+  {
+    "name": "Chiang Shi",
+    "decision": "separate",
+    "pages": "pp. 197–200",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Chiang Shi",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid, Vampire)",
+      "ac": 25,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "50 ft.",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "otherStatistics": "Fledgling sample, 5th-level human monk. Initiative +8. AC components +4 Dex, +3 Wis, +1 monk, +6 natural, +1 armor. Touch 18, flat-footed 17. Base attack +5, grapple +10. Space 5 ft., reach 5 ft. Fort +4, Ref +10, Will +7.",
+      "description": "This fledgling was a human monk. It can levitate toward a target, paralyze them with a look, or vanish before approaching.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +10 melee for 1d4 + 5 and energy drain, +1 kama +13 melee for 1d6 + 6, or masterwork sling +8 ranged for 1d4.\nFull attack. Two of the listed claws, one listed kama attack, or one listed sling attack.\nMesmerism (Su). Standard action against one target within 30 ft. who meets its eyes. Will DC 17 or hold monster at caster level 12.\nEnergy Drain (Su). Claw hits bestow one negative level on a living target.\nBlood Drain (Ex). Pin a living creature in a grapple. Each round the pin is maintained, drain 1d4 Constitution and gain 5 temporary HP.\nSpell-like abilities. At will, insect plague and passwall at caster level 12. DC 17 if a save applies.\nChildren of the Night (Su). Once per day as a standard action, call 4d8 cats or 2d6 panthers using leopard statistics. They arrive after 2d6 rounds and serve for up to 1 hour.",
+        "Traits": "DR 10/bamboo and magic. Cold and electricity resistance 10. Turn resistance +4. Undead traits. The sample retains evasion, slow fall, stunning attack, and unarmed strike from monk. At 5th monk level, slow fall reduces the effective distance by 20 ft. when a wall is within reach.\nCorrosion (Su). A nonmagical weapon that hits must make a DC 14 Fortitude save or take 2d8 acid damage, ignoring hardness.\nInvisibility (Su). At will as a standard action, become invisible indefinitely until it makes a direct attack.\nWeightless Step (Su). Levitate at will as a free action at caster level 12. The fledgling can also move horizontally up to 10 ft. in this state.\nAlternate Form (Su). Assume tiger form as a standard action. It remains in that form until it changes again or until sunrise. Apply the ordinary vampire form rules to its native attacks and the tiger’s extraordinary attacks.",
+        "Spawn": "A humanoid or monstrous humanoid killed by energy drain rises as vampire spawn 1d4 days after burial. One reduced to Constitution 0 by blood drain returns as spawn if it had 4 or fewer HD or as a chiang-shi if it had 5 or more. A creator controls its spawn until it dies.",
+        "Repelling and slaying": "It avoids smoke made by burning rosemary and myrrh and cannot touch a creature wearing a rosemary and ivy garland. It cannot cross running water on its own. It can be carried over in a coffin or on a conveyance. It rests by day in a coffin lined with native soil. Scattering rosemary and myrrh on that soil bars it permanently from that coffin.\nDirect sunlight leaves it with a single move or attack action. It is destroyed in the next round if it cannot escape the light. Immersion in running water takes away one-third of its HP each round and destroys it at the end of round 3. A vampire strain whose base creature has a swim speed retains it and escapes the immersion weakness.\nAt 1 HP or more it heals 5 HP per round. At 0 HP or less it turns invisible and intangible and flees without attacking. It is destroyed if it misses the 2-hour deadline to reach its coffin. After 1 hour there it reaches 1 HP and resumes healing.\nA bamboo shaft through the heart kills it while the shaft remains in place. For permanent destruction, bless a rosemary blossom, put it in the vampire’s mouth, then sew its lips and eyes shut with a silver needle and golden thread.",
+        "Skills and feats": "Balance +12, Bluff +10, Concentration +10, Diplomacy +10, Hide +12, Jump +13, Listen +13, Move Silently +12, Search +9, Sense Motive +11, Spot +13, Tumble +12. Alertness, Combat Reflexes, Deflect Arrows, Dodge, Improved Initiative, Lightning Reflexes, Weapon Focus with kama.",
+        "Encounter details": "Any environment, especially Rokushima Táiyoo. Solitary, pair, or gang of 2–5. An organized group can contain 1–2 full vampires and 2–5 vampire spawn. Speaks languages known in life. Always evil. Double standard treasure. The printed monk has a +1 kama, bracers of armor +1, and two potions of cat’s grace.",
+        "Template and age": "Apply the strain to a humanoid or monstrous humanoid using the 3.5 vampire template as the base. Keep its size, base attack, saves, skill points, d12 HD and applicable original powers. Constitution is absent. These age entries give the changes to Str, Dex, Int, Wis, Cha, speed and natural AC. Speed also specifies maximum horizontal movement while levitating. Damage reduction in every tier requires bamboo and magic to bypass. Apply one age row only. The sample above already incorporates its age. For unlisted save DCs use 10 + half HD, rounded down, + Cha modifier. The two spell-like abilities use 15 + Cha modifier instead. Claw damage follows the size table if the base creature has no claw attack. Where the printed example differs, use its own attack line.",
+        "Age modifiers": "Fledgling. Abilities +6/+4/+2/+2/+4. Speed +10 ft., DR 10, fast healing 5, turn resistance +4, natural AC +6, CR +2.\nMature. Abilities +8/+4/+2/+4/+4. Speed +10 ft., DR 15, fast healing 5, turn resistance +4, natural AC +6, CR +2.\nOld. Abilities +8/+6/+4/+4/+6. Speed +10 ft., DR 15, fast healing 6, turn resistance +5, natural AC +7, CR +3.\nAncient. Abilities +10/+6/+4/+6/+6. Speed +20 ft., DR 20, fast healing 6, turn resistance +6, natural AC +7, CR +3.\nEminent. Abilities +10/+8/+6/+6/+8. Speed +20 ft., DR 20, fast healing 8, turn resistance +7, natural AC +8, CR +4.\nPatriarch. Abilities +12/+10/+8/+8/+10. Speed +30 ft., DR 25, fast healing 10, turn resistance +8, natural AC +8, CR +5.",
+        "Printed source": "pp. 197–200"
+      },
+      "ruleNotes": [
+        "Use the printed monk’s flat-footed AC 17 and base attack +5. They differ from values derived from its AC components and standard monk progression. Its Mesmerism DC 17 is explicit and differs from the template’s general save formula. The sample’s claw die is 1d4 even though the strain table gives 1d6 as the default for Medium creatures."
+      ]
+    }
+  },
+  {
+    "name": "Vrykolaka",
+    "decision": "separate",
+    "pages": "pp. 197, 203–206",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Vrykolaka",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid, Vampire)",
+      "ac": 21,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "30 ft.",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Fledgling sample, 5th-level human warrior. Initiative +9. AC components +5 Dex, +5 natural, +1 deflection. Touch 16, flat-footed 16. Base attack +5, grapple +11. Space 5 ft., reach 5 ft. Fort +4, Ref +8, Will +4.",
+      "description": "This fledgling was a human warrior. It puts victims into a fever sleep and can flee as a swarm.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +11 melee for 1d4 + 6 and filth fever.\nFull attack. Two of the listed claws.\nFever Sleep (Su). Standard action against one target within 30 ft. who meets its eyes. Will DC 12 or sleep as the spell at caster level 12 without a Hit Dice limit. Feeding does not awaken the target.\nBlood Drain (Ex). Pin a living creature in a grapple. Each round the pin is maintained, drain 1d4 Constitution and gain 5 temporary HP. A victim must also save against filth fever.\nFilth fever (Ex). Any living victim damaged by a claw or blood drain makes a DC 12 Fortitude save. Incubation is 1d3 days. The disease deals 1d3 Dexterity and 1d3 Constitution damage.\nChildren of the Night (Su). Once per day as a standard action, call 6d10 HD of monstrous vermin. They arrive after 2d6 rounds and serve for up to 1 hour.",
+        "Traits": "DR 5/iron and magic in the sample’s stat line. Cold and electricity resistance 10, turn resistance +3, spider climb, and undead traits.\nDisease (Ex). The strain carries one permanent disease. It also picks up injury- or contact-transmitted diseases when it feeds on an infected victim. Add its Cha modifier to the disease DC. Each secondary disease’s DC falls by 1 each day after acquisition. At DC 0 it loses that disease. A DC 15 Heal check identifies diseases it carries.\nAlternate Form (Su). As a standard action, use polymorph at caster level 12 to change into a dire rat, a rat swarm, or a swarm of Fine vermin until changing again or until sunrise. A swarm has as many 1-HP members as the vampire has total HP. Each member killed costs the vampire 1 HP. The swarm members still carry its diseases.",
+        "Spawn": "A humanoid or monstrous humanoid killed by its disease rises as vampire spawn 1d4 days after burial. A victim drained to Constitution 0 returns as spawn if it had 4 or fewer HD or as a vrykolaka if it had 5 or more. A creator controls its spawn until it dies.",
+        "Repelling and slaying": "Garlic, anise, a continuous line of aniseed, and a strongly brandished holy symbol keep it away. It cannot enter an immaculate room or cross running water unaided. Still or stagnant water does not trouble it.\nDirect sunlight leaves it with a single move or attack action. It is destroyed in the next round if it cannot escape the light. Immersion in running water takes away one-third of its HP each round and destroys it at the end of round 3. A vampire strain whose base creature has a swim speed retains it and escapes the immersion weakness.\nAt 1 HP or more it heals 5 HP per round. At 0 HP or less it flees as a swarm. At least half the swarm must get to its coffin within 2 hours or it is destroyed. After 1 hour there it reaches 1 HP and resumes healing.\nAn iron spike through its skull kills it while the spike remains. Burn the body completely to keep it from returning. A casting of remove disease forces a Fortitude save or bestows two negative levels. While it sleeps in its coffin or is incapacitated it automatically fails this save. It is destroyed permanently at negative levels equal to or greater than its HD. When destroyed, it dissolves into vapors like stinking cloud at caster level 12.",
+        "Skills and feats": "Bluff +8, Handle Animal +4, Hide +13, Intimidate +6, Jump +12, Listen +13, Move Silently +13, Search +6, Sense Motive +11, Spot +13. Alertness, Blind-Fight, Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Power Attack, Run.",
+        "Encounter details": "Any environment in Ravenloft. Solitary, pair, or gang of 2–5. An organized group can contain 1–2 full vampires and 2–5 vampire spawn. Speaks languages known in life. Always evil. Standard treasure. The printed warrior wears a ring of protection +1.",
+        "Template and age": "Apply the strain to a humanoid or monstrous humanoid using the 3.5 vampire template as the base. Keep its size, base attack, saves, skill points, d12 HD and applicable original powers. Constitution is absent. These age entries give the changes to Str, Dex, Int, Wis, Cha, speed, natural AC and Outcast Rating (OR) against non-vrykolakas. Intelligence has a minimum of 3. Every age tier requires cold iron and magic to bypass damage reduction. Apply one age row only. The sample already incorporates its age. For unlisted save DCs use 10 + half HD, rounded down, + Cha modifier. Filth fever uses 12 + Cha modifier instead. Claw damage follows the size table if the base creature has no claw attack. Where the printed example differs, use its own attack line.",
+        "Age modifiers": "Fledgling. Abilities +6/+8/−6/+4/+2. Speed +0 ft., DR 5, fast healing 5, turn resistance +3, natural AC +5, OR +2, CR +1.\nMature. Abilities +6/+10/−4/+4/+2. Speed +0 ft., DR 10, fast healing 5, turn resistance +3, natural AC +5, OR +2, CR +1.\nOld. Abilities +8/+10/−4/+6/+4. Speed +10 ft., DR 10, fast healing 6, turn resistance +4, natural AC +6, OR +3, CR +2.\nAncient. Abilities +8/+12/−2/+6/+4. Speed +10 ft., DR 15, fast healing 6, turn resistance +5, natural AC +6, OR +4, CR +2.\nEminent. Abilities +10/+12/−2/+8/+6. Speed +20 ft., DR 15, fast healing 8, turn resistance +6, natural AC +7, OR +5, CR +3.\nPatriarch. Abilities +12/+14/+0/+10/+8. Speed +30 ft., DR 20, fast healing 10, turn resistance +7, natural AC +7, OR +6, CR +4.",
+        "Printed source": "pp. 197, 203–206"
+      },
+      "ruleNotes": [
+        "The sample says DR 5/iron and magic. The age table specifies cold iron and magic. The sample’s claw die is 1d4 even though the strain table gives 1d6 as the default for Medium creatures. For template use, the p. 204 spawn paragraph says “vampire” before referring to the new vrykolaka."
+      ]
+    }
+  }
+]

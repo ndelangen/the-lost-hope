@@ -1,0 +1,11 @@
+# Batch 13, part b13_05
+
+Staged Hadrosaurus, Quetzalcoatlus, Stegosaurus and Swarm of Rot Grubs. The rules come from the first printing of *Mordenkainen Presents: Monsters of the Multiverse*, October 2021, pp. 95–96 and 237. D&D Beyond confirms the four indexed identities and habitat tags. The direct creature links lead to the store without book access. [Publisher book index](https://www.dndbeyond.com/sources/dnd/motm) · [Official errata index](https://www.dndbeyond.com/sources/dnd/sae)
+
+The Stegosaurus retains the printed proficiency bonus of +2 and Tail attack bonus of +7. Quetzalcoatlus’s printed Bite text drops the word “at” before “least 30 feet,” which the summary restores. The Rot Grubs entry includes the printed fire-triggered poison save, death at 0 HP at the end of the target’s turn, and the separate single-grub procedure.
+
+The three dinosaur portraits match the roster’s subjects and hashes. The new rot-grub portrait is shared with the Volo’s Guide to Monsters entry in part b13_07. The built-in ImageGen original is saved at `portraits/swarm-of-rot-grubs.png`. The grubs remain visible in a 64 px circular crop.
+
+## Rot-grub generation prompt
+
+Use case: illustration-story. Generate a new opaque square fantasy bestiary portrait of a swarm of rot grubs. Use reference 1 (Big Linda) and reference 2 (giant centipede) for the restrained realistic natural-history drawing style, quiet muted matte tan parchment and fine paper grain only. Depict a compact cluster of roughly a dozen finger-sized, legless segmented maggots in a low loose pile, plus a few crawling in different directions near the cluster. Each is fleshy and distinctly ringed, a subdued mottled pale gray-cream with darker minute mouthparts, some tapered and some curled, naturally lit and anatomically legible even in a small icon. Slightly elevated three-quarter view; leave generous blank margins so the whole distinct subject fits comfortably inside a circular crop. The uninterrupted tan paper fills all four corners. A tiny soft contact shadow can anchor the pile. Do not depict a host, person, dead body, exposed flesh, bones, wound, blood, slime, soil, puddle, food, foliage, scenery, vignette, border, lettering or labels. Match the neutral desaturated brown parchment of the first reference, avoiding a strong yellow or orange cast.

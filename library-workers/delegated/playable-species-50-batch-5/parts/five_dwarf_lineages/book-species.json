@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Krugel Orc",
+    "kind": "species",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "parentSpecies": "Orc",
+    "traits": [
+      "Playable race-as-class of the Hollow World. Apply +1 Strength and −1 Dexterity within 3–18. Cap Intelligence and Wisdom at 16. Strength is prime requisite, with +5% XP at 13–15 or +10% at 16–18.",
+      "Begin with 1d8 plus Constitution adjustment at 0 XP. Levels 2–10 begin at 1,000, 2,000, 4,000, 8,000, 16,000, 32,000, 64,000, 130,000 and 260,000 XP. Gain a d8 at levels 2, 3, 5, 6, 7 and 9. Starting at level 10, gain 2 hp per level without a Constitution adjustment. Each level after 10 costs 200,000 more XP, to level 36.",
+      "Use fighter saving throws of the same level. Cultural equipment includes lances, swords, bows, several other weapons, shields and armor through banded mail. The shaman and wokan options have separate gear lists and cap at levels 6 and 4 respectively.",
+      "Speak Krugel Orcish and Neathar. Riding (Horse) is required when using General Skills. The Hollow World Krugels have lost infravision."
+    ]
+  },
+  {
+    "name": "Malpheggi Lizardman",
+    "kind": "species",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "parentSpecies": "Lizardfolk",
+    "traits": [
+      "Playable Hollow World race-as-class. Apply +2 Strength and −2 Dexterity, within 3–18. Require Strength 13 and Constitution 9. Strength is prime requisite, with +5% XP at 15–17 or +10% at 18.",
+      "Begin with 1d8 plus Constitution adjustment at 0 XP. Levels 2–12 begin at 1,500, 3,000, 6,000, 12,000, 25,000, 50,000, 100,000, 200,000, 300,000, 400,000 and 500,000 XP. Gain a d8 at each level except 5 and 10, reaching 10d8 at level 12. Past that cap, every 400,000 additional XP grants another General Skill slot.",
+      "Use cleric saves of the same level. Tough hide gives descending AC 5. A shield improves it by 1 and armor is prohibited. Carry suitable cultural arms such as spear, trident, net or crossbow. Shaman and wokan options cap at levels 6 and 4 respectively.",
+      "Walk 90 ft. (30 ft. in encounters), swim 120 ft. (40 ft. in encounters), and breathe underwater indefinitely. An unarmed attack sequence is two claws for 1d4 base damage each.",
+      "Speak Malpheggi, Dragon and Neathar. Survival (Swamp) is required when using General Skills."
+    ]
+  },
+  {
+    "name": "Kogolor Dwarf",
+    "kind": "species",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "parentSpecies": "Dwarf",
+    "traits": [
+      "Use the standard BECMI Dwarf race-as-class, with Constitution 9 as the minimum, Strength as prime requisite, and a 12th-level cap followed by attack-rank advancement. At 0 XP, begin with 1d8 plus Constitution adjustment. Level 2 begins at 2,200 XP. At Strength 13–15, gain +5% XP, or +10% at 16–18.",
+      "Use dwarf saves and class features. Infravision reaches 60 ft. A deliberate check for a qualifying feature such as a stone trap or sloping passage succeeds on 1–2 on a d6.",
+      "Use the Kogolor cultural equipment list, which includes shields and armor through banded mail. A walking cane uses club statistics.",
+      "Speak Kogolor, Neathar and Krugel Orcish. When using General Skills, take Mountaineering and Signalling (Kogolor Yodelling Code). With the optional Dwarf-Cleric from GAZ6, patrons are Frey, Freyja and Garal Glitterlode."
+    ]
+  },
+  {
+    "name": "Gully Dwarf",
+    "kind": "species",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "parentSpecies": "Dwarf",
+    "traits": [
+      "Aghar racial traits replace the standard dwarf traits. Dexterity +2, Constitution +2, Intelligence −4 and Charisma −4. Scores reduced by these adjustments cannot fall below 3.",
+      "Small humanoid. Land speed 20 ft., +1 size bonus to AC and attack rolls, +4 size bonus to Hide checks, Small weapons, and three-quarters of the carrying capacity of a Medium creature of the same Strength.",
+      "Survival Instinct grants +2 racial on Hide, Move Silently and Survival, and permits urban foraging with Survival. Hardy grants +2 racial on Fortitude saves against poison and disease.",
+      "Pitiable grants +4 racial on Diplomacy when pleading to avoid harm. Cowardly imposes −4 on saves against fear and level checks against Intimidate.",
+      "Speak Gullytalk and Common. No bonus languages. Favored class Rogue. The profile lists no racial Hit Dice or level adjustment."
+    ]
+  }
+]

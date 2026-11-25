@@ -1,0 +1,228 @@
+{
+  "builds": [
+    {
+      "id": "mr18-chuul-keth",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Sluice sentinel, Barbarian 2",
+      "difficulty": "Barbarian 2",
+      "size": "Medium",
+      "type": "Aberration",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 16,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 12.",
+      "languages": "Understands, reads and writes Deep Speech. Cannot speak.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +2",
+        "Athletics +5",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Natural AC 14 + 2 Dexterity beats the alternate barbarian AC 10 + 2 Dexterity + 3 Constitution. HP 15 at 1st level, then 10 at 2nd. No worn armor or carried gear.",
+        "Amphibious. Immune to poison damage and the poisoned condition. The pincer can grapple through No Hands. Keth uses carved marks and gestures to communicate.",
+        "Folk Hero grants Animal Handling, Survival and Rustic Hospitality. Barbarian grants Athletics and Perception. Keth has unused background proficiencies in potter’s tools and land vehicles.",
+        "Danger Sense grants advantage on Dexterity saves against visible effects if Keth can see the danger and is neither blinded, deafened nor incapacitated."
+      ],
+      "actions": [
+        "Pincer. Unarmed strike +5 to hit, reach 5 ft. Hit for 1d8+3 bludgeoning, or 1d8+5 while raging. After a hit made with the Attack action, Keth can use a bonus action to attempt to grapple that target with Athletics +5. It must be within reach and no larger than Large. It opposes with Athletics or Acrobatics.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing, and +2 damage on Strength-based melee weapon attacks, including the pincer unarmed strike. Rage ends early if knocked unconscious or if a turn ends with no attack against a hostile creature since the last turn and no damage taken in that span.",
+        "Reckless Attack. When making the first attack of its turn, Keth can gain advantage on its Strength-based melee weapon attacks that turn. Attack rolls against Keth gain advantage until the start of its next turn."
+      ],
+      "tactics": "Keth blocks the passage with its shell, rages if pressured, then clamps the nearest intruder on a later turn. It tries to drag a grappled creature away from the sluice wheel, keeping to half speed unless the captive is at least two sizes smaller."
+    },
+    {
+      "id": "mr18-cloaker-hush",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Cloaker courier, Monk 1",
+      "difficulty": "Monk 1",
+      "size": "Medium",
+      "type": "Aberration",
+      "speed": "10 ft., fly 30 ft.",
+      "ac": 16,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 12.",
+      "languages": "Deep Speech, Undercommon, Common.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +3",
+        "Insight +4",
+        "Medicine +4",
+        "Religion +1"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +3 and Dexterity save +5. Natural AC 13 + 3 Dexterity beats the alternate monk AC 10 + 3 Dexterity + 2 Wisdom. HP 8 + 1 Constitution. The robe-like mantle is Hush’s body.",
+        "Hermit grants Medicine, Religion, Common and Discovery. Monk grants Athletics and Insight. Hush has unused herbalism kit and flute proficiencies.",
+        "Damage Transfer. While Hush grapples a creature, split damage dealt to Hush between them. At this table, round Hush’s share down and assign the remainder to the grappled creature."
+      ],
+      "actions": [
+        "Bite. Unarmed strike +5 to hit using Martial Arts, reach 5 ft. Hit for 1d8+3 slashing. After a bite hit as part of the Attack action, Hush can make a bonus-action grapple attempt with Athletics +3 against the target’s Athletics or Acrobatics. The target must be within reach and no larger than Large.",
+        "Martial Arts. After using the Attack action to make an unarmed strike, Hush can instead spend its bonus action on one conventional unarmed strike using a body impact. +5 to hit, reach 5 ft., 1d4+3 bludgeoning. The supplement reserves the bite for attacks outside this bonus strike.",
+        "False Appearance. Hush spends 1 minute motionless while concentrating as on a spell. It then resembles a dark leather cloak for as long as it remains motionless."
+      ],
+      "tactics": "Hush hides in plain sight before a meeting. If attacked, it bites and grapples the creature blocking the exit. Damage Transfer buys it time to bargain."
+    },
+    {
+      "id": "mr18-cockatrice-tack",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Rooftop lookout, Rogue 2",
+      "difficulty": "Rogue 2",
+      "size": "Small",
+      "type": "Monstrosity",
+      "speed": "20 ft., fly 40 ft.",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 15.",
+      "languages": "Common, Thieves’ Cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +3",
+        "Insight +3",
+        "Investigation +2",
+        "Perception +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Unarmored AC 10 + 3 Dexterity. HP 10 at 1st level and 7 at 2nd. Tack carries no weapons, armor or tools.",
+        "Criminal grants Deception, Stealth and Criminal Contact. Rogue grants Acrobatics, Insight, Investigation and Perception. Expertise doubles proficiency for Perception and Stealth. Tack has unused thieves’ tools and dice set proficiencies.",
+        "Sneak Attack adds 1d6 once per turn on a bite hit made with advantage. It also works if an active enemy of the target is within 5 ft. of it and Tack lacks disadvantage. In this conversion the bite counts as a finesse weapon for this purpose."
+      ],
+      "actions": [
+        "Bite. Unarmed strike +5 to hit with Dexterity, reach 5 ft. Hit for 1d4+3 slashing, plus Sneak Attack when eligible.",
+        "Petrifying Bite. Bonus action after a bite hits, once per short or long rest. A flesh-bodied creature that is capable of being paralyzed makes a DC 12 Constitution save. On failure, treat it as having one level of exhaustion. It repeats the save at each turn end, gaining one effective level on a failure. On a success one level drops away, then one more per round until clear. On the sixth failure it petrifies until greater restoration or similar magic. The temporary levels do not stack with real exhaustion. Exhaustion immunity does not block the bite. Tack concentrates up to 1 minute. Loss of concentration ends the temporary levels and leaves any completed petrification in place.",
+        "Cunning Action. Dash, Disengage or Hide as a bonus action. This competes with Petrifying Bite."
+      ],
+      "tactics": "Tack circles above the eaves, then drops onto a distracted pursuer. It saves Petrifying Bite for someone who threatens the people under its watch and retreats to cover to maintain concentration."
+    },
+    {
+      "id": "mr18-couatl-iriam",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Wayside healer, Life Cleric 1",
+      "difficulty": "Cleric 1",
+      "size": "Medium",
+      "type": "Celestial",
+      "speed": "30 ft., fly 30 ft.",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Celestial, Elvish, Sylvan. Telepathy 30 ft. with creatures that know a language.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 8
+      },
+      "skills": [
+        "Insight +5",
+        "Medicine +5",
+        "Persuasion +1",
+        "Religion +2"
+      ],
+      "traits": [
+        "Proficiency +2. Wisdom save +5 and Charisma save +1. Unarmored AC 13 + 2 Dexterity. HP 8 + 1 Constitution. Resistant to radiant damage. Iriam cannot wear armor or use items that require hands.",
+        "Acolyte grants Insight, Religion, Elvish, Sylvan and Shelter of the Faithful. Cleric grants Medicine and Persuasion. Iriam chose the Life Domain to fulfill its mandate to tend travelers.",
+        "Spell save DC 13, spell attack +5, two 1st-level slots. Prepared Command, Healing Word, Bane and Detect Magic, with Bless and Cure Wounds always prepared by the domain. Usable cantrips are Light and Thaumaturgy. Spare the Dying and the remaining prepared spells use somatic components, which this build treats as requiring hands. Divine Mandate provides an ordinary focus for Light. Spells that use words are spoken aloud.",
+        "Disciple of Life adds 2 + spell level to hit points restored by a healing spell of 1st level or higher. It adds 3 to Healing Word here."
+      ],
+      "actions": [
+        "Bite. Unarmed strike +3 to hit, reach 5 ft. Hit for 1d6+1 slashing. After a bite hit as part of the Attack action, Iriam can spend a bonus action to grapple the target with an Athletics +1 check opposed by Athletics or Acrobatics. The target must be within reach and no larger than Large.",
+        "Healing Word. Bonus action, one 1st-level slot. A visible creature within 60 ft. regains 1d4+6 HP. Undead and constructs cannot benefit.",
+        "Command. Action, one 1st-level slot. One visible creature within 60 ft. that understands Iriam must pass a DC 13 Wisdom save or obey a safe one-word instruction on its next turn. Undead are unaffected. For example, Halt leaves the creature in place without an action on that turn.",
+        "Light. Cantrip, action, touch. An object up to 10 ft. across shines brightly for 20 ft. and dimly for 20 more, up to 1 hour. A hostile holder or wearer can avoid it on a DC 13 Dexterity save.",
+        "Thaumaturgy. Cantrip, action, 30 ft. Create a small omen such as an ominous sound, a brief tremor or a voice three times louder. Persistent effects last up to 1 minute, with up to three active at once."
+      ],
+      "tactics": "Iriam speaks first and uses Command to interrupt pursuit if needed. It keeps Healing Word ready for a fallen traveler and uses its bite to hold someone only long enough for others to withdraw."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Keth of the Sill",
+      "species": "Chuul",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr18-chuul-keth",
+      "size": "Medium",
+      "role": "Sluice sentinel who interprets orders carved into the gate.",
+      "motive": "Keep the spillway clear until the lower culvert empties.",
+      "hook": "Keth has struck out the sign for closed on the sill. Anyone who knows Deep Speech can ask why without approaching the gate."
+    },
+    {
+      "name": "Hush-in-the-Fold",
+      "species": "Cloaker",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr18-cloaker-hush",
+      "size": "Medium",
+      "role": "Courier who listens from the coat pegs of the underways.",
+      "motive": "Deliver a memorized message without exposing its sender.",
+      "hook": "A cloak hanging by the waystation asks when the next watch takes over. Hush will trade the warning it overheard for a clear route below."
+    },
+    {
+      "name": "Tack",
+      "species": "Cockatrice",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr18-cockatrice-tack",
+      "size": "Small",
+      "role": "Awakened rooftop lookout.",
+      "motive": "Find the missing night watch before her relief arrives.",
+      "hook": "Tack saw the watch bell go silent from above. Follow its calls across the roofs to learn which alley the watchwoman entered."
+    },
+    {
+      "name": "Iriam of the Second Dawn",
+      "species": "Couatl",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr18-couatl-iriam",
+      "size": "Medium",
+      "role": "Wayside healer who shelters travelers at a neglected cairn.",
+      "motive": "Treat the injured without letting raiders trace the refuge.",
+      "hook": "Iriam can call to the party quietly from the cairn. A wounded traveler recognizes the voice of someone searching the road."
+    }
+  ]
+}

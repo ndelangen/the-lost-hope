@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "stegosaurus",
+    "file": "portraits/stegosaurus.png",
+    "sha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "wild-dog",
+    "file": "portraits/wild-dog.png",
+    "sha256": "fbb0c2e35a467b8ca4334eb49263454fab778a0f050356683ac57cadb5f2d187",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "zebra",
+    "file": "portraits/zebra.png",
+    "sha256": "0a79e2ff5d6fe681691f9b51a15a7db405954a54d090609b112c64b9ffcef951",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

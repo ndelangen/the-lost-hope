@@ -1,0 +1,82 @@
+[
+  {
+    "entry": "beast-4048966770801f16dd341807",
+    "name": "Saber-Toothed Tiger",
+    "file": "images/beasts/tiger-saber-toothed/parchment-portrait.webp",
+    "sha256": "aaa36d1e4f31303023f9b194f9b263ab625229962d28424d91326c9de1a3e05e",
+    "credit": "OpenAI ImageGen",
+    "reference": [
+      "",
+      ""
+    ],
+    "appearanceSource": "Identical Black Flag beast form cataloged under Tiger, Saber-Toothed",
+    "subjectPrompt": "A naturalistic tawny saber-toothed cat, Smilodon build with powerfully developed forequarters, shorter muscular rear legs, short bobtail, dark mottling limited to part of the back, and two downward ivory saber teeth clearly protruding from the upper jaw. A full-body low stalking pose from left three-quarter side, face alert, body and all four paws visible, subtle dust color at belly, no rocks or display ring.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-9b10029fdb104074fd926e87",
+    "name": "Swarm of Bats",
+    "file": "images/monsters/swarm-of-bats/parchment-portrait.webp",
+    "sha256": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Bat, Swarm of Bats",
+    "subjectPrompt": "An original square bestiary specimen on warm pale golden parchment, soft detailed muted gouache and sepia ink. Show one loose group of only eight separate, equally small flying common brown BATS, all approximately the same size. Vary wing angles. Ordinary bat anatomy, rounded ears, tiny brown furry bodies and brown membranous wings. All eight bats are small and airborne, with a little blank space between them. No central bat, no large creatures, no mammal standing on the ground, no monster or humanoid, no sky, border, labels, or other subjects. Leave comfortable blank parchment around the complete group.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-3dda0539047e0c2d32d2056b",
+    "name": "Swarm of Insects",
+    "file": "images/monsters/swarm-of-insects/parchment-portrait.webp",
+    "sha256": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Insect, Swarm of Insects",
+    "subjectPrompt": "An isolated compact spiral swarm of little earthy stinging flies, wasps and beetles. A larger near-edge insect provides readable scale, smaller eggshell-dark dots deepen into the center. One colony vignette.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-305b5bd24b513ff9b13296f9",
+    "name": "Swarm of Poisonous Snakes",
+    "file": "images/monsters/swarm-of-poisonous-snakes/parchment-portrait.webp",
+    "sha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Snake, Swarm of Poisonous Snakes",
+    "subjectPrompt": "A single coiled knot of dark brown and olive venomous vipers, with about five distinguishable natural triangular heads and sinuous scales, no blood, open coil boundary.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-437bf30b25850b9c1f2cfc5a",
+    "name": "Swarm of Quippers",
+    "file": "images/monsters/swarm-of-quippers/parchment-portrait.webp",
+    "sha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Quipper, Swarm of Quippers",
+    "subjectPrompt": "One isolated school of short-bodied predatory silver fish with high arched backs, small sharp teeth and flashes of dark crimson along the lower fins. Show the complete tight school on parchment, no water background.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-5941966f457fe4f6c60c3939",
+    "name": "Swarm of Rats",
+    "file": "images/monsters/swarm-of-rats/parchment-portrait.webp",
+    "sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Rat, Swarm of Rats",
+    "subjectPrompt": "One dense bunch of small common grey-brown rats weaving around one another, with several ears, long tails, whiskers and small faces clearly visible around the edges. No background.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-eff4cac94120f8733a73e333",
+    "name": "Swarm of Ravens",
+    "file": "images/monsters/swarm-of-ravens/parchment-portrait.webp",
+    "sha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Raven, Swarm of Ravens",
+    "subjectPrompt": "One coherent knot of dark ravens in coordinated flight, wings in different positions with feathers readable, large curved black bills, subtle indigo-purple highlights. No sky or mountains.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  }
+]

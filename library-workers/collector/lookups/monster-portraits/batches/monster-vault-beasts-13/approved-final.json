@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "spider-giant",
+    "name": "Spider, Giant",
+    "entryId": "beast-ad81505dc737c9ae3950e9d3",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "subjectPrompt": "A tall long-legged fantasy orb weaver with a large rounded wine-purple oval abdomen, subtle dorsal spots, compact forebody, and eight thin curved russet-purple walking legs. Raised body and arching knees with clear gaps. Study at a three-quarter side angle, looking left. Compose so all four leg tips on each side are individually distinguishable. Two small pedipalps close to its jaw, clearly much shorter than the legs. Realistic spider anatomy. No horns. No web.",
+    "prompt": "Make an original square fantasy bestiary portrait. Image one is a style and parchment reference only. Later images show subject anatomy and colors only. Match the style reference's warm amber-gold aged parchment edge to edge, naturalistic fine colored pencil and ink rendering, fine surface detail, and subdued shadows. Show the whole isolated creature, centered with breathing room and no clipped edges. No background scene, floor line, disc, rim, lettering, labels, or watermark. A tall long-legged fantasy orb weaver with a large rounded wine-purple oval abdomen, subtle dorsal spots, compact forebody, and eight thin curved russet-purple walking legs. Raised body and arching knees with clear gaps. Study at a three-quarter side angle, looking left. Compose so all four leg tips on each side are individually distinguishable. Two small pedipalps close to its jaw, clearly much shorter than the legs. Realistic spider anatomy. No horns. No web.",
+    "appearanceSource": "Kobold Press Foundry artwork and related D&D Monster Manual illustration"
+  },
+  {
+    "slug": "spider-giant-wolf",
+    "name": "Spider, Giant Wolf",
+    "entryId": "beast-6c9c36fa56775dc76d09df79",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "subjectPrompt": "A stocky, low-slung dark brown wolf spider, conspicuous coarse hairs, broad charcoal bands on the legs, copper tones and subtle buff stripes on the back. Four short robust walking legs on each side; arrange the eight leg tips so they are easy to count. Centered slightly overhead front three-quarter view, head toward the bottom left, abdomen toward the upper right. Pair of shining large forward-facing eyes, smaller eyes nearby. Two small fuzzy pedipalps held in beside mouth. No rocks or web. Strong spiky silhouette.",
+    "prompt": "Make an original square fantasy bestiary portrait. Image one is a style and parchment reference only. Later images show subject anatomy and colors only. Match the style reference's warm amber-gold aged parchment edge to edge, naturalistic fine colored pencil and ink rendering, fine surface detail, and subdued shadows. Show the whole isolated creature, centered with breathing room and no clipped edges. No background scene, floor line, disc, rim, lettering, labels, or watermark. A stocky, low-slung dark brown wolf spider, conspicuous coarse hairs, broad charcoal bands on the legs, copper tones and subtle buff stripes on the back. Four short robust walking legs on each side; arrange the eight leg tips so they are easy to count. Centered slightly overhead front three-quarter view, head toward the bottom left, abdomen toward the upper right. Pair of shining large forward-facing eyes, smaller eyes nearby. Two small fuzzy pedipalps held in beside mouth. No rocks or web. Strong spiky silhouette.",
+    "appearanceSource": "Kobold Press Foundry artwork and related D&D Monster Manual illustration",
+    "revision": {
+      "prompt": "Make a precise small correction to this original square parchment wolf spider portrait. Preserve its size, perspective, eye pattern, hairy marked brown body, parchment colors, and exact visual style. On the RIGHT side of the image, there are currently three visible walking legs. Add ONE anatomically attached fourth (hindmost) right walking leg to show behind the other right-side legs on the upper right of the image. Its whole knee and tapered tip should be distinct and visible, with parchment between it and the three existing tips. Start that leg under the rear of the head segment at the body overlap, with its knee angled toward upper right and its tip toward the right edge. Keep the four existing left walking legs and the two small pedipalps by the mouth. Eight walking legs total. Preserve the framing and no labels.",
+      "source": "originals/spider-giant-wolf.png"
+    }
+  },
+  {
+    "slug": "tiger-saber-toothed",
+    "name": "Tiger, Saber-Toothed",
+    "entryId": "beast-cf809a48af7b19c7daa14a1b",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "subjectPrompt": "A naturalistic tawny saber-toothed cat, Smilodon build with powerfully developed forequarters, shorter muscular rear legs, short bobtail, dark mottling limited to part of the back, and two downward ivory saber teeth clearly protruding from the upper jaw. A full-body low stalking pose from left three-quarter side, face alert, body and all four paws visible, subtle dust color at belly, no rocks or display ring.",
+    "prompt": "Make an original square fantasy bestiary portrait. Image one is a style and parchment reference only. Later images show subject anatomy and colors only. Match the style reference's warm amber-gold aged parchment edge to edge, naturalistic fine colored pencil and ink rendering, fine surface detail, and subdued shadows. Show the whole isolated creature, centered with breathing room and no clipped edges. No background scene, floor line, disc, rim, lettering, labels, or watermark. A naturalistic tawny saber-toothed cat, Smilodon build with powerfully developed forequarters, shorter muscular rear legs, short bobtail, dark mottling limited to part of the back, and two downward ivory saber teeth clearly protruding from the upper jaw. A full-body low stalking pose from left three-quarter side, face alert, body and all four paws visible, subtle dust color at belly, no rocks or display ring.",
+    "appearanceSource": "Kobold Press Foundry artwork and related D&D Monster Manual illustration"
+  },
+  {
+    "slug": "vulture-giant",
+    "name": "Vulture, Giant",
+    "entryId": "beast-347c1860920a1117ebb8d931",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "subjectPrompt": "A massive dark gray brown vulture with broad raptor wings, long splayed primary tips, a bald dusky red head, curved ivory-gray beak, and cream neck ruff. Flight three-quarter view, slightly banking left with both wings open, dark tapered tail fanned behind and two talons tucked in. Illustrate anatomically coherent shoulder-to-wing connections and readable feather groups. No branch, ground, prey, badge, or extra birds.",
+    "prompt": "Make an original square fantasy bestiary portrait. Image one is a style and parchment reference only. Later images show subject anatomy and colors only. Match the style reference's warm amber-gold aged parchment edge to edge, naturalistic fine colored pencil and ink rendering, fine surface detail, and subdued shadows. Show the whole isolated creature, centered with breathing room and no clipped edges. No background scene, floor line, disc, rim, lettering, labels, or watermark. A massive dark gray brown vulture with broad raptor wings, long splayed primary tips, a bald dusky red head, curved ivory-gray beak, and cream neck ruff. Flight three-quarter view, slightly banking left with both wings open, dark tapered tail fanned behind and two talons tucked in. Illustrate anatomically coherent shoulder-to-wing connections and readable feather groups. No branch, ground, prey, badge, or extra birds.",
+    "appearanceSource": "Kobold Press Foundry artwork and related D&D Monster Manual illustration"
+  }
+]

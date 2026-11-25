@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Spiker",
+    "species": "species-04cebed85eb4d89bc2ced91f",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Planar Handbook (2004)"
+    ],
+    "portraitSha256": "1002bc2fe4327917b0e451022a3e19f9a312de7c9f15a717e414cf555bc508e0",
+    "caption": "Grip Stonebrace · Original Spiker NPC",
+    "npcReceipts": [
+      {
+        "name": "Parry Millguard",
+        "id": "npc-7725f18d35018fe6045a22a0",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Grip Stonebrace",
+        "id": "npc-7843836714d8df9dfd514513",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Triceratops",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-triceratops/kobold-press-dinosaur-triceratops.webp",
+    "artist": "Triceratops · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "df8f87096de77b2945a1daa452e18fa55a4ba6c30d27fcbbba8ea9047a753429",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/dinosaur-triceratops.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Triceratops",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-triceratops/triceratops-2024-rules-related.webp",
+    "artist": "Related Triceratops art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "49c8dfc3d026b01b34cc54022de856cbd805a0ca10bf333a131bb4219dd08146",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Triceratops.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Tyrannosaurus Rex",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-tyrannosaurus-rex/kobold-press-tyrannosaurus-rex.webp",
+    "artist": "Tyrannosaurus Rex · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "f2cb571497677d4d07bad5aa984c724071cfcdc7c1fdd1945cac648db94e8652",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/tyrannosaurus-rex.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Tyrannosaurus Rex",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-tyrannosaurus-rex/tyrannosaurus-rex-april-prime-related.webp",
+    "artist": "Related Tyrannosaurus Rex art by April Prime · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b26a960d6fb4597ccbf375f5ea480872a5c05a6cce239af335372cff26b3a8a3",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Tyrannosaurus%20Rex.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Velociraptor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-velociraptor/kobold-press-velociraptor.webp",
+    "artist": "Velociraptor · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "3e58ea8a6a6a2aeef45dc123b50615f4c9aac68366a7b7d95fbd07e26e5759d0",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/velociraptor.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Velociraptor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-velociraptor/velociraptor-dnd-related.webp",
+    "artist": "Related Velociraptor token · Mordenkainen Presents: Monsters of the Multiverse",
+    "kind": "token",
+    "sha256": "1ccf583d069b526e7e3bc0b73ea2297a35aafafa154aa8d93c8276654368fb8d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/VGM/Velociraptor.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Eagle, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/eagle-giant/kobold-press-eagle-giant.webp",
+    "artist": "Giant Eagle · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "5356a8eeb472f996f47d84a5b01592f777b5f8f76bcb8ab15559519f2fd24dfc",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/eagle-giant.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Eagle, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/eagle-giant/eagle-2024-rules-related.webp",
+    "artist": "Related Eagle art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ee11c5205696a040ec79a449f8feef89702cf472abb75fd85aceca42d0676aab",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Eagle.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Eagle, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/eagle-giant/giant-eagle-mountain-crag.png",
+    "artist": "Giant Eagle on a mountain crag · The Lost Hope · OpenAI ImageGen",
+    "kind": "illustration",
+    "sha256": "0ee7678e7c8db495c8e97f52a580d0e559588e180462fbfcfe38b9726bcfa635"
+  }
+]

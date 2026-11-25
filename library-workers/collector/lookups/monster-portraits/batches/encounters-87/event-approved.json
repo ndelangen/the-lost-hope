@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Kalashtar",
+    "slug": "kalashtar",
+    "caption": "Seravakri · Original Kalashtar NPC",
+    "id": "species-b5ae0cd362fa6223f4be9825:862199e9ca71c110931e9616",
+    "entry": "species-b5ae0cd362fa6223f4be9825",
+    "version": "862199e9ca71c110931e9616",
+    "suffix": "encounters-87/kalashtar.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-87/kalashtar.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-87/event-drafts/kalashtar-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 87 2026-11-24/event-drafts/kalashtar-event-v1.png",
+    "overrides": [],
+    "sha256": "edadfc98ee16f49cab1b65ef782f0967c248e624812bc600068d4d3adcf8a629",
+    "bytes": 2033545
+  }
+]

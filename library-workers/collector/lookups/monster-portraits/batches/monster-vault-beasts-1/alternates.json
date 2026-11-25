@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Ape, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/ape-giant/kobold-press-ape.webp",
+    "artist": "Giant Ape · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "209e97eb801208a69564c58d385b9e1e813ffa19c5cd931da9321373c0efd5a9",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/ape.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Ape, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/ape-giant/giant-ape-dario-jelusic-related.webp",
+    "artist": "Related Giant Ape art by Dario Jelusic · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b553c277be3ef8ff31e0ef94f64de8bd5deaa0edd6d42cdb165b33a7a5d1f71f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Ape%20and%20Giant%20Bat.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Badger, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/badger-giant/kobold-press-badger-giant.webp",
+    "artist": "Giant Badger · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "453de69d60a341469d7dca20d86b5c7d34303cf7e9dc8d175f1268bba72b8a86",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/badger-giant.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Badger, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/badger-giant/giant-badger-2024-rules-related.webp",
+    "artist": "Related Giant Badger art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "5bd1b2eb0a99dcc0dbac7cad250dfa1746981da75c86f6e0f1fc35570af3d0b7",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Badger.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bat-giant/kobold-press-bat-giant.webp",
+    "artist": "Giant Bat · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "3c79c97b6b04b5482693ff8ef5ddd6b7589f2a4203320718603ff1a339d3d341",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/bat-giant.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bat-giant/giant-bat-2014-related.webp",
+    "artist": "Related Giant Bat token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "73a9fc373c161464b80929bb717c5c71b844f2365f642857ef26ff55a0af6c92",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Bat.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bat, Swarm of Bats",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bat-swarm-of-bats/kobold-press-bat-swarm.webp",
+    "artist": "Swarm of Bats · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "d2f7e9151a829bd157771301f98ede564b0c8a3df8c254e8bba240680404b1ff",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/bat-swarm.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bat, Swarm of Bats",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bat-swarm-of-bats/bat-2024-rules-related.webp",
+    "artist": "Related Bat art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "e1ce15f343ac9436ce20677b5ae3dea639c914a434e735034bc7719077c3694f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Bats.webp"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Human Apprentice Mage",
+    "query": "windswept arcane colleges empower patron",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Human Raider",
+    "query": "padded jack woodland roads splinter shield",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

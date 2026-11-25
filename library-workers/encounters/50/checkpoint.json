@@ -1,0 +1,28 @@
+{
+  "commit": "ab0b364d0d0a0e2a461ba6ca2b692e17062cda23",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 3,
+  "fullStatBlocks": 3,
+  "generatedPortraitsInstalled": 3,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 583,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-50-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/50/results.json",
+  "searchResults": "output/dm-library/encounter-batches/50/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Human Brawler",
+      "source": "https://www.dndbeyond.com/monsters/4485892-human-brawler",
+      "challenge": "2"
+    },
+    {
+      "name": "Human Storm Wizard",
+      "source": "https://www.dndbeyond.com/monsters/4485899-human-storm-wizard",
+      "challenge": "6"
+    }
+  ],
+  "nextSourceNote": "Prioritize reusable NPCs and distinct monsters. Keep variants, art, and provenance. Present minor mechanical differences as selectable profiles under the same entry. Playable species are staged separately."
+}

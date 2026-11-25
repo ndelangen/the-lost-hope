@@ -1,0 +1,338 @@
+{
+  "builds": [
+    {
+      "id": "dnd35-armand-bram-shelldrift",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Small",
+      "type": "Monstrous Humanoid",
+      "title": "Armand caravan guard, Fighter 1",
+      "difficulty": "5 racial HD plus Fighter 1, LA +3, ECL 9.",
+      "ac": 19,
+      "hp": 62,
+      "hitDice": "5d8+1d10+30",
+      "initiative": 8,
+      "speed": "20 ft., burrow 10 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Armandish.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 18,
+        "CON": 21,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Jump +1",
+        "Listen +7",
+        "Spot +7",
+        "Survival +9"
+      ],
+      "traits": [
+        "Dex +4, Small +1, natural +4. Touch 15, flat-footed 15. BAB +6, grapple +3. Saves Fort +8, Ref +8, Will +5.",
+        "Weapon Finesse, Alertness, and Improved Initiative are general feats. Fighter bonus feat Weapon Focus applies to the claws. Stability adds +4 to opposed checks resisting a trip or bull rush while Bram is on solid footing or burrowing."
+      ],
+      "actions": [
+        "Claw +12 melee, 1d4+1. Full attack two claws at +12 each. Each claw threatens on 20 and doubles damage on a critical hit.",
+        "Small light crossbow +11 ranged, 1d6 piercing, 19–20/×2, 80-ft. increment. Reload as a move action that provokes.",
+        "Defensive stance (move action). AC 23, touch 19, flat-footed 15. Saves Fort +10, Ref +10, Will +7. Raise claw and crossbow attack bonuses by 2. The stance ends when Bram moves."
+      ],
+      "tactics": "Set the stance where passing foes must enter claw range. Burrow around an obstruction when a route is safer than a fight."
+    },
+    {
+      "id": "dnd35-harssaf-vek-emberglass",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid (Fire)",
+      "title": "Harssaf cistern scout, Fighter 1",
+      "difficulty": "6 racial HD plus Fighter 1, LA +4, ECL 11.",
+      "ac": 21,
+      "hp": 71,
+      "hitDice": "6d8+1d10+35",
+      "initiative": 9,
+      "speed": "30 ft., burrow 10 ft.",
+      "senses": "Blindsense 30 ft.",
+      "languages": "Common, Ignan, Terran.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 20,
+        "CON": 21,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Climb +8",
+        "Hide +8",
+        "Jump +7",
+        "Knowledge (nature) +4",
+        "Listen +6",
+        "Move Silently +8",
+        "Spot +6"
+      ],
+      "traits": [
+        "Studded leather +3, Dex +5, natural +3. Touch 15, flat-footed 16. BAB +7, grapple +10. Saves Fort +9, Ref +12, Will +5.",
+        "Fire and blindness immunity, cold vulnerability (50% extra cold damage), DR 5/bludgeoning, fast healing 3, SR 18.",
+        "Alertness and Lightning Reflexes are racial bonus feats. Racial-HD feats are Weapon Finesse, Two-Weapon Fighting, and Weapon Focus (kukri). Fighter bonus feat Improved Initiative adds +4.",
+        "Flaming Aura can be activated as a free action at will. It deals 1d6 fire to a creature within 5 ft. at first entry each round or at the start of its turn if it remains nearby, at most once per round by table convention. Add 1d6 fire to each kukri hit while the aura is up."
+      ],
+      "actions": [
+        "Kukri +13 melee, 1d4+3 slashing, 18–20/×2. Full attack with one kukri +13/+8. With both, attack +11/+6 for 1d4+3 main hand and +11 for 1d4+1 off hand. Add aura damage when applicable.",
+        "Sand Pulse (standard, 1/day). 30-ft. spread centered on Vek, 3d6 damage and blindness for 5 rounds. Reflex DC 18 halves damage and negates blindness. Sightless creatures cannot be blinded. Other harssafs are immune.",
+        "Sand Form (standard, at will). As gaseous form except Vek moves over the ground at 10 ft. rather than flying and can pass through narrow gaps. Use the spell’s prohibition on attacking, casting, or using supernatural abilities in that form."
+      ],
+      "tactics": "Lead intruders away from the cistern before using the aura or pulse. Retreat through a narrow gap in Sand Form if flanked."
+    },
+    {
+      "id": "dnd35-ibixian-tavra-flintbrow",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "title": "Ibixian outrider, Barbarian 1",
+      "difficulty": "3 racial HD plus Barbarian 1, LA +1, ECL 5.",
+      "ac": 16,
+      "hp": 39,
+      "hitDice": "3d8+1d12+12",
+      "initiative": 1,
+      "speed": "40 ft. in light armor.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Ibixian, Common.",
+      "abilityScores": {
+        "STR": 21,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 8,
+        "CHA": 8
+      },
+      "skills": [
+        "Intimidate +9",
+        "Listen +3",
+        "Spot +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Studded leather +3, Dex +1, natural +2. Touch 11, flat-footed 15. BAB +4, grapple +9. Saves Fort +6, Ref +4, Will +2.",
+        "Weapon Focus (greataxe) and Toughness are general feats. Maximum HP includes 3 from Toughness. Pack Fervor gives +2 morale to attacks and damage and +4 morale on fear saves with another goatfolk within 30 ft."
+      ],
+      "actions": [
+        "Greataxe +10 melee, 1d12+7 slashing, ×3. Head butt +9 melee, 1d6+5 bludgeoning. Full attack combines greataxe +10 with secondary head butt +4 for 1d6+2.",
+        "Rage 1/day, on Tavra’s turn as a free action, for 8 rounds. While raging, AC 14, HP +8, grapple +11, Fort +8, Ref +4, Will +4, greataxe +12 for 1d12+10, head butt +11 for 1d6+7. A combined full attack uses secondary head butt +6 for 1d6+3. Afterward Tavra is fatigued for the encounter. Pack Fervor adds its attack and damage bonuses if an ibixian ally is present."
+      ],
+      "tactics": "Hold the path with the axe and leave room for an allied ibixian. Rage when the threat closes."
+    },
+    {
+      "id": "dnd35-quaraphon-koth-reedbank",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "type": "Aberration",
+      "title": "Quaraphon ford watchman, Fighter 1",
+      "difficulty": "9 racial HD plus Fighter 1, LA +5, ECL 15.",
+      "ac": 20,
+      "hp": 130,
+      "hitDice": "9d8+1d10+80",
+      "initiative": 5,
+      "speed": "30 ft. in hide armor (base 40 ft.).",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Giant.",
+      "abilityScores": {
+        "STR": 26,
+        "DEX": 12,
+        "CON": 27,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Intimidate +3",
+        "Listen +5",
+        "Spot +5",
+        "Survival +5"
+      ],
+      "traits": [
+        "Hide armor +3, Dex +1, Large −1, natural +7. Touch 10, flat-footed 19. BAB +7, grapple +19. Saves Fort +13, Ref +4, Will +10. Space 10 ft., reach 5 ft.",
+        "Power Attack, Cleave, Improved Initiative, and Iron Will are general feats. Fighter bonus feat Weapon Focus applies to the greatclub."
+      ],
+      "actions": [
+        "Large greatclub +15 melee, 2d8+12 bludgeoning, ×2. Full attack greatclub +15/+10, secondary bite +9 for 1d6+4 and two secondary hooves +9 each for 1d6+4.",
+        "Bite +14 melee, 1d6+8. Full attack with natural weapons alone uses bite +14 and two hooves +9, each hoof for 1d6+4.",
+        "Deafening Bellow (standard, 1/day). Creatures within 60 ft. take 2d6 sonic damage. Fortitude DC 23 avoids becoming deafened for 1d6 rounds.",
+        "Power Attack option before attacking. For a −3 melee attack penalty this round, add +6 greatclub damage and +3 damage to natural attacks. Cleave grants one extra melee attack against a foe in reach after dropping a creature, at the same bonus with the same weapon."
+      ],
+      "tactics": "Clear friendly creatures from the bellow radius first. Let foes approach the ford instead of assuming his Large size extends reach."
+    },
+    {
+      "id": "dnd35-witchknife-kesh-redreed",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "title": "Witchknife interpreter, Rogue 1",
+      "difficulty": "9 racial HD plus Rogue 1, LA +3, ECL 13.",
+      "ac": 20,
+      "hp": 58,
+      "hitDice": "9d8+1d6+10",
+      "initiative": 9,
+      "speed": "30 ft.",
+      "senses": "Low-light vision.",
+      "languages": "Common, Undercommon, Dwarven, Goblin.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 21,
+        "CON": 12,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 20
+      },
+      "skills": [
+        "Concentration +13",
+        "Hide +17",
+        "Move Silently +10",
+        "Sense Motive +13",
+        "Spot +13",
+        "Tumble +10"
+      ],
+      "traits": [
+        "Masterwork studded leather +3, masterwork light shield +1, Dex +5, natural +1. Touch 15, flat-footed 15. BAB +9, grapple +9. Saves Fort +6, Ref +13, Will +9.",
+        "Improved Initiative, Great Fortitude, Iron Will, and Ability Focus (command) are general feats. Fire resistance 5. Sonic damage is increased by 50%.",
+        "Sneak attack +3d6 from racial HD and Rogue 1, within 30 ft. for ranged shots, against targets denied Dex to AC or flanked in melee. Trapfinding applies to traps above DC 20 and magic traps."
+      ],
+      "actions": [
+        "Shortspear +9 melee, 1d6 piercing, ×2. Full attack +9/+4. Thrown shortspear +14 ranged, 1d6 piercing, 20-ft. increment.",
+        "Command (standard, at will). One living target within 45 ft. that understands the order. Will DC 18 negates, SR applies. Choose approach, drop, fall, flee, or halt for 1 round.",
+        "Greater command (standard, 1/day). Up to 9 living targets within 45 ft., no two more than 30 ft. apart. Will DC 20 negates, SR applies. Use one command for all affected creatures for up to 9 rounds. Affected creatures retry at the start of each turn after the first.",
+        "Silence (standard, at will). 20-ft. radius centered on Kesh for up to 9 minutes. Sounds cannot enter, leave, or cross the area. End the spell as a free action. Message (standard, at will) reaches 190 ft., up to 9 creatures, for 90 minutes."
+      ],
+      "tactics": "Open with silence for the approach, then dismiss it before issuing an audible command. Use the shortest order a target is likely to understand."
+    },
+    {
+      "id": "dnd35-jaebrin-fenn-copperlaugh",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Fey",
+      "title": "Jaebrin witness and stage magician, Sorcerer 1",
+      "difficulty": "Sorcerer 1, LA +1, ECL 2, caster level 1.",
+      "ac": 13,
+      "hp": 6,
+      "hitDice": "1d4+2",
+      "initiative": 6,
+      "speed": "30 ft.",
+      "senses": "Low-light vision.",
+      "languages": "Common, Sylvan, Elven.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 8,
+        "CHA": 17
+      },
+      "skills": [
+        "Appraise +3 untrained",
+        "Bluff +9",
+        "Concentration +6",
+        "Diplomacy +5 untrained",
+        "Perform +5 untrained",
+        "Spellcraft +5 (+9 for enchantments)"
+      ],
+      "traits": [
+        "Dex +2, racial luck +1. Touch 13, flat-footed 11. Mage armor raises regular and flat-footed AC by 4. BAB +0, grapple −1. Saves Fort +2, Ref +2, Will +1.",
+        "Improved Initiative adds +4. Immune to enchantment, with Feign Enchantment. A viewer contests the displayed enchantment with Sense Motive against Bluff +9.",
+        "Arcane casting. 5 cantrip and 4 first-level casts per day. Component pouch and leather focus for mage armor. Spell DC 13 + spell level, plus 1 for enchantments. Known cantrips are detect magic, ghost sound, message, and prestidigitation. No familiar is present."
+      ],
+      "actions": [
+        "Bite −1 melee, 1d3−1 (minimum 1), ×2. Damaged targets make Will DC 12 or take a nonstacking −4 penalty on Will saves for 1 minute.",
+        "Light crossbow +2 ranged, 1d8 piercing, 19–20/×2, 80-ft. increment. Reload as a move action that provokes.",
+        "Charm person (standard, first-level slot). One humanoid within 25 ft., Will DC 15 negates, SR applies. It regards Fenn as a trusted friend for 1 hour. Add +5 to the save if Fenn or allies are already threatening or attacking it.",
+        "Mage armor (standard, first-level slot). A willing touched creature gains +4 armor AC for 1 hour. Fenn typically casts it on himself when trouble is likely.",
+        "Ghost sound (standard, cantrip slot). Place up to four humans’ worth of sustained sound within 25 ft. for 1 round. An interacting creature may disbelieve with Will DC 13."
+      ],
+      "tactics": "Use the audience and cover before risking the bite. Save charm person for a target who has a reason to pause."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Bram Shelldrift",
+      "species": "Armand",
+      "size": "Small",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-armand-bram-shelldrift",
+      "role": "Caravan rear guard and trail reader.",
+      "motive": "Bring the weight stones for a shared well back before the next caravan leaves.",
+      "hook": "Bram can dig a bypass through loose sand beside a blocked culvert while the party covers the entrance."
+    },
+    {
+      "name": "Vek Emberglass",
+      "species": "Harssaf",
+      "size": "Medium",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-harssaf-vek-emberglass",
+      "role": "Desert scout who watches a broken aqueduct.",
+      "motive": "Learn who diverted the cistern water before the next windstorm.",
+      "hook": "Vek will show the party a route under the wall if they keep witnesses away from his sand pulse."
+    },
+    {
+      "name": "Tavra Flintbrow",
+      "species": "Ibixian",
+      "size": "Medium",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-ibixian-tavra-flintbrow",
+      "role": "Trail outrider who keeps a small herd moving.",
+      "motive": "Get two lost drovers back before their trail goes cold.",
+      "hook": "Tavra challenges a suspected rustler to hold a narrow path and buys the party time to search for tracks."
+    },
+    {
+      "name": "Koth Reedbank",
+      "species": "Quaraphon",
+      "size": "Large",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-quaraphon-koth-reedbank",
+      "role": "Plains watchman who signals with two voices.",
+      "motive": "Get his herd across the river before the low ford floods.",
+      "hook": "Koth will warn the party before bellowing if they use the far side of the ford."
+    },
+    {
+      "name": "Kesh Redreed",
+      "species": "Witchknife",
+      "size": "Medium",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-witchknife-kesh-redreed",
+      "role": "Border interpreter who walks the dry wells.",
+      "motive": "Recover a stolen word list before its captor can barter it.",
+      "hook": "Kesh can listen at a guarded camp but needs the party to relay anything spoken outside the languages Kesh knows."
+    },
+    {
+      "name": "Fenn Copperlaugh",
+      "species": "Jaebrin",
+      "size": "Medium",
+      "speciesPublication": "Monster Manual V (3.5, 2007)",
+      "edition": "3.5 edition",
+      "build": "dnd35-jaebrin-fenn-copperlaugh",
+      "role": "Market illusionist and witness for hire.",
+      "motive": "Get copies of receipts proving that a protection collector never paid the promised ferry tolls.",
+      "hook": "Fenn pretends a compulsion worked, then asks the party to follow where the caster expected him to go."
+    }
+  ]
+}

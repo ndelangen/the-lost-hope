@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Awakened Rat",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2018",
+    "isbn": "978-0-7869-6625-7",
+    "printedPages": [
+      102
+    ],
+    "readerSheets": [
+      103
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "facsimileUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=103",
+    "colophonUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 102,
+        "readerSheet": 103,
+        "url": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=103"
+      }
+    ],
+    "sourceWitness": "Read the printed adventure folio facsimile and the 2014 Monster Manual base stat block. The adventure facsimile’s reader sheet is one greater than its printed folio.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher errata index does not list a Dragon Heist correction for these entries. The 2014 Monster Manual errata has no changes to the referenced base block.",
+    "baseRules": {
+      "publication": "Monster Manual (2014)",
+      "entry": "Rat",
+      "printedPage": 335,
+      "facsimileUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page336.html",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-02/parts/b02_08/portraits/rat.png.",
+    "habitatEvidence": "p. 102 places Jeryth’s guide in the Castle Ward sewers. The tags describe that encounter.",
+    "printingNotes": [
+      "p. 102 sets the guide rat’s Intelligence to 10 and says it speaks Common. The remaining statistics come from the 2014 Rat."
+    ]
+  },
+  {
+    "name": "Diatryma",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2018",
+    "isbn": "978-0-7869-6625-7",
+    "printedPages": [
+      191
+    ],
+    "readerSheets": [
+      192
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "facsimileUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=192",
+    "colophonUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 191,
+        "readerSheet": 192,
+        "url": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=192"
+      }
+    ],
+    "sourceWitness": "Read the printed adventure folio facsimile and the 2014 Monster Manual base stat block. The adventure facsimile’s reader sheet is one greater than its printed folio.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher errata index does not list a Dragon Heist correction for these entries. The 2014 Monster Manual errata has no changes to the referenced base block.",
+    "baseRules": {
+      "publication": "Monster Manual (2014)",
+      "entry": "Axe Beak",
+      "printedPage": 317,
+      "facsimileUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page318.html",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "appearanceEvidence": "Original portrait with a broad prehistoric beak, vestigial wings and subdued colored feathers, based on the printed description of a colorful flightless bird.",
+    "habitatEvidence": "The Feather of Diatryma Summoning on p. 191 identifies the Underdark as the bird’s native range.",
+    "printingNotes": [
+      "The specific item entry changes Beak from slashing to piercing. The creature inherits the other Axe Beak statistics. Allegiance, commands, duration, and language comprehension are the described properties of the summoned bird."
+    ]
+  },
+  {
+    "name": "Falcon",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2018",
+    "isbn": "978-0-7869-6625-7",
+    "printedPages": [
+      53
+    ],
+    "readerSheets": [
+      54
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "facsimileUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=54",
+    "colophonUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 53,
+        "readerSheet": 54,
+        "url": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=54"
+      }
+    ],
+    "sourceWitness": "Read the printed adventure folio facsimile and the 2014 Monster Manual base stat block. The adventure facsimile’s reader sheet is one greater than its printed folio.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher errata index does not list a Dragon Heist correction for these entries. The 2014 Monster Manual errata has no changes to the referenced base block.",
+    "baseRules": {
+      "publication": "Monster Manual (2014)",
+      "entry": "Hawk",
+      "printedPage": 330,
+      "facsimileUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page331.html",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "appearanceEvidence": "Original portrait of a falcon with the falconry hood specified on p. 53.",
+    "habitatEvidence": "Urban describes the Gralhund Villa encounter site on p. 53.",
+    "printingNotes": [
+      "The adventure explicitly calls for Hawk statistics. It describes the hood and cage as part of the scene."
+    ]
+  },
+  {
+    "name": "Maxeene",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2018",
+    "isbn": "978-0-7869-6625-7",
+    "printedPages": [
+      37
+    ],
+    "readerSheets": [
+      38
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "facsimileUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=38",
+    "colophonUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 37,
+        "readerSheet": 38,
+        "url": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=38"
+      }
+    ],
+    "sourceWitness": "Read the printed adventure folio facsimile and the 2014 Monster Manual base stat block. The adventure facsimile’s reader sheet is one greater than its printed folio.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher errata index does not list a Dragon Heist correction for these entries. The 2014 Monster Manual errata has no changes to the referenced base block.",
+    "baseRules": {
+      "publication": "Monster Manual (2014)",
+      "entry": "Draft Horse",
+      "printedPage": 321,
+      "facsimileUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-04/parts/b04_03/portraits/draft-horse.png.",
+    "habitatEvidence": "p. 37 places her in Waterdeep pulling a dray.",
+    "printingNotes": [
+      "The mission identifies Maxeene as a draft horse with Intelligence 10 who speaks Common. Coat color and face markings are editorial portrait details."
+    ]
+  },
+  {
+    "name": "Obliteros",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2018",
+    "isbn": "978-0-7869-6625-7",
+    "printedPages": [
+      66
+    ],
+    "readerSheets": [
+      67
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/285275-obliteros",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "facsimileUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=67",
+    "colophonUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 66,
+        "readerSheet": 67,
+        "url": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=67"
+      }
+    ],
+    "sourceWitness": "Read the printed adventure folio facsimile and the 2014 Monster Manual base stat block. The adventure facsimile’s reader sheet is one greater than its printed folio.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher errata index does not list a Dragon Heist correction for these entries. The 2014 Monster Manual errata has no changes to the referenced base block.",
+    "baseRules": {
+      "publication": "Monster Manual (2014)",
+      "entry": "Giant Shark",
+      "printedPage": 328,
+      "facsimileUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page329.html",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-05/parts/b05_02/portraits/giant-shark.png.",
+    "habitatEvidence": "p. 66 places Obliteros in Waterdeep’s harbor.",
+    "printingNotes": [
+      "Apply the three changes in the adventure to the 2014 Giant Shark. Set alignment to chaotic evil, Intelligence to 10, and add spoken and understood Aquan."
+    ],
+    "publisherAccess": "The public Obliteros link resolves to the adventure purchase page."
+  },
+  {
+    "name": "Sylgar",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2018",
+    "isbn": "978-0-7869-6625-7",
+    "printedPages": [
+      220
+    ],
+    "readerSheets": [
+      221
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/wdh",
+    "facsimileUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=221",
+    "colophonUrl": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 100,
+        "readerSheet": 101,
+        "url": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=101"
+      },
+      {
+        "printedPage": 220,
+        "readerSheet": 221,
+        "url": "https://online.anyflip.com/degf/fwng/mobile/index.html#p=221"
+      }
+    ],
+    "sourceWitness": "Read the printed adventure folio facsimile and the 2014 Monster Manual base stat block. The adventure facsimile’s reader sheet is one greater than its printed folio.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher errata index does not list a Dragon Heist correction for these entries. The 2014 Monster Manual errata has no changes to the referenced base block.",
+    "baseRules": {
+      "publication": "Monster Manual (2014)",
+      "entry": "Quipper",
+      "printedPage": 335,
+      "facsimileUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page336.html",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "appearanceEvidence": "Original goldfish portrait, following the appearance established in Xanathar’s Guide to Everything. Its encounter mechanics follow Dragon Heist p. 220.",
+    "habitatEvidence": "p. 220 places the pet in an aquarium in Xanathar’s underground lair.",
+    "printingNotes": [
+      "p. 220 uses the 2014 Quipper and explicitly removes Blood Frenzy. The pet fish still has the Quipper’s printed Bite."
+    ],
+    "appearanceSourceUrl": "https://www.dndbeyond.com/sources/dnd/xgte"
+  }
+]

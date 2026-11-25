@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Boar",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD original RTF archive",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "printedHeading": "Boar",
+    "sourceUrl": "https://palikhov.github.io/srd-v3.5/monsters/monsters-animals.html#boar",
+    "sourceUrlRole": "Readable rendering of the publisher’s RTF",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "habitatEvidence": "The original RTF Environment row lists temperate forests.",
+    "relatedRules": [
+      "TypesSubtypesAbilities.rtf, Animal Type and Low-Light Vision",
+      "TypesSubtypesAbilities.rtf, Scent"
+    ],
+    "printingDistinction": "The Boar table leaves out an alignment or treasure row. Those defaults come from the SRD Animal type."
+  },
+  {
+    "name": "Dire Boar",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD original RTF archive",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersDi-Do.rtf",
+    "sourceShardSha256": "533b046406006882de5414a4a1067df80fdde4695c6314993d3afbf4eb765141",
+    "printedHeading": "Dire Boar",
+    "sourceUrl": "https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#dire-boar",
+    "sourceUrlRole": "Readable rendering of the publisher’s RTF",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "habitatEvidence": "The original RTF Environment row lists temperate forests.",
+    "relatedRules": [
+      "TypesSubtypesAbilities.rtf, Animal Type and Low-Light Vision",
+      "TypesSubtypesAbilities.rtf, Scent"
+    ]
+  },
+  {
+    "name": "Elasmosaurus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD original RTF archive",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersDi-Do.rtf",
+    "sourceShardSha256": "533b046406006882de5414a4a1067df80fdde4695c6314993d3afbf4eb765141",
+    "printedHeading": "Dinosaur, Elasmosaurus",
+    "sourceUrl": "https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#elasmosaurus",
+    "sourceUrlRole": "Readable rendering of the publisher’s RTF",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "habitatEvidence": "The original RTF Environment row lists warm aquatic.",
+    "relatedRules": [
+      "TypesSubtypesAbilities.rtf, Animal Type and Low-Light Vision",
+      "TypesSubtypesAbilities.rtf, Scent"
+    ]
+  },
+  {
+    "name": "Megaraptor",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD original RTF archive",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersDi-Do.rtf",
+    "sourceShardSha256": "533b046406006882de5414a4a1067df80fdde4695c6314993d3afbf4eb765141",
+    "printedHeading": "Dinosaur, Megaraptor",
+    "sourceUrl": "https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#megaraptor",
+    "sourceUrlRole": "Readable rendering of the publisher’s RTF",
+    "appearanceEvidence": "Editorial description of the reused illustration. Plumage and warm colors belong to the artwork.",
+    "habitatEvidence": "The original RTF Environment row lists warm forests.",
+    "relatedRules": [
+      "TypesSubtypesAbilities.rtf, Animal Type and Low-Light Vision",
+      "TypesSubtypesAbilities.rtf, Scent",
+      "CombatII.rtf, Charge",
+      "Improving Monsters.rtf, hit dice and good saves"
+    ],
+    "printingDistinction": "The publisher’s RTF is the authority for Huge size, AC 16, +19 grapple, 15-ft. space and 10-ft. reach, +9 talons (2d8 + 5), the secondary attacks at +4, Hide +5 and Huge advancement. The Large version displayed on d20srd.org follows the separate February 17, 2006 Monster Manual v.3.5 errata for book p. 60.",
+    "comparableErrata": {
+      "publication": "Monster Manual v.3.5 Errata",
+      "date": "2006-02-17",
+      "errataPrintedPage": 3,
+      "correctedBookPage": 60,
+      "viewerPage": 331,
+      "url": ""
+    },
+    "printedInconsistency": "The original RTF and separate Monster Manual erratum both give Fort +10. The generic Animal progression at 8 HD with Con 21 gives +11."
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD original RTF archive",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "printedHeading": "Rhinoceros",
+    "sourceUrl": "https://palikhov.github.io/srd-v3.5/monsters/monsters-animals.html#rhinoceros",
+    "sourceUrlRole": "Readable rendering of the publisher’s RTF",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "habitatEvidence": "The original RTF Environment row lists warm plains.",
+    "relatedRules": [
+      "TypesSubtypesAbilities.rtf, Animal Type and Low-Light Vision",
+      "CombatII.rtf, Charge"
+    ],
+    "printingDistinction": "The original Rhinoceros lists low-light vision as its special quality. Its charge supplies the stated 4d6 + 24 damage without a knockdown mechanic. Alignment and treasure use Animal-type defaults."
+  }
+]

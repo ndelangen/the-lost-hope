@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Banshee",
+    "statBlock": {
+      "name": "Banshee",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 29,
+      "classification": "Medium undead, chaotic evil",
+      "ac": 12,
+      "hp": 54,
+      "hitDice": "12d8",
+      "speed": "5 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 10,
+      "savingThrows": {
+        "Wis": 2
+      },
+      "skills": {},
+      "description": "A spirit consumed by sorrow or bitterness, the banshee warns of disaster or brings it with a fatal wail.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Damage resistances": "Acid, bludgeoning, fire, lightning, piercing, slashing, thunder.",
+        "Damage immunities": "Cold, necrotic, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Senses": "Darkvision 60 ft..",
+        "Languages": "Common, Elvish.",
+        "Traits": "Detect Life. The banshee magically senses the direction of creatures within 1 mile, except Constructs and Undead.\nIncorporeal Movement. Creatures and objects count as Difficult Terrain for this creature's movement. Ending its turn inside an object deals 5 (1d10) force damage to it.",
+        "Actions": "Multiattack. Make two Corrupting Touch attacks and use Horrify.\nCorrupting Touch. Melee attack, +5 to hit, reach 5 ft. Hit 7 (1d8 + 3) necrotic damage.\nHorrify. Choose a creature within 60 ft. that the banshee can see and that can see it. The target makes a DC 13 Wisdom save. On a failure it is Frightened until the start of the banshee's next turn. A successful save grants immunity to this banshee's Horrify for 24 hours.\nDeathly Wail (1/day). Use only outside sunlight. Each creature within 30 ft. that hears the wail and is neither a Construct nor Undead makes a DC 13 Constitution save. On a failure, a target with 25 HP or fewer drops to 0 HP. A target with more HP takes 10 (3d6) psychic damage.",
+        "Habitat": "Any.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 29."
+      }
+    }
+  },
+  {
+    "name": "Ghost",
+    "statBlock": {
+      "name": "Ghost",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 131,
+      "classification": "Medium undead, neutral",
+      "ac": 11,
+      "hp": 45,
+      "hitDice": "10d8",
+      "speed": "5 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "savingThrows": {},
+      "skills": {},
+      "description": "A restless spirit haunts a meaningful place until its unfinished business is resolved or it is put to rest.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Damage resistances": "Acid, bludgeoning, cold, fire, lightning, piercing, slashing, thunder.",
+        "Damage immunities": "Necrotic, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Senses": "Darkvision 60 ft..",
+        "Languages": "Common plus one other language.",
+        "Traits": "Ethereal Sight. From the Material Plane, the ghost can see 60 ft. into the Ethereal Plane.\nIncorporeal Movement. Creatures and objects count as Difficult Terrain for this creature's movement. Ending its turn inside an object deals 5 (1d10) force damage to it.",
+        "Actions": "Multiattack. Make two Withering Touch attacks.\nWithering Touch. Melee attack, +5 to hit, reach 5 ft. Hit 19 (3d10 + 3) necrotic damage.\nEtherealness. Cast Etherealness using Charisma and no spell components. The ghost is visible from the Material Plane while it is on the Border Ethereal and from the Border Ethereal while it is on the Material Plane. It cannot affect anything on the opposite plane or be affected from there.\nHorrific Visage. Each creature in a 60-ft. cone that can see the ghost and is not Undead makes a DC 13 Wisdom save. On a failure it takes 10 (2d6 + 3) psychic damage and is Frightened until the start of the ghost's next turn. A successful save grants immunity to this ghost's Horrific Visage for 24 hours.\nPossession (Recharge 6). One Humanoid the ghost can see within 5 ft. makes a DC 13 Charisma save. On a failure the ghost vanishes into the target and controls its body. The target remains aware and is Incapacitated. Only effects specifically targeting Undead can target the ghost. It keeps its game statistics apart from using the target's Speed and its Strength, Dexterity, and Constitution modifiers.\nPossession ends when the body drops to 0 HP or the ghost leaves as a bonus action. The ghost reappears in an unoccupied space within 5 ft. of the target. A successful save or the end of possession grants the target immunity to this ghost's Possession for 24 hours.",
+        "Bonus actions": "End Possession. The ghost can leave the host as described in Possession.",
+        "Habitat": "Underdark, urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 131."
+      }
+    }
+  },
+  {
+    "name": "Vampire",
+    "statBlock": {
+      "name": "Vampire",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 317,
+      "classification": "Small or Medium undead, lawful evil",
+      "ac": 16,
+      "hp": 195,
+      "hitDice": "23d8 + 92",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "skills": {
+        "Perception": 7,
+        "Stealth": 9
+      },
+      "description": "An undead predator passes for mortal, feeding for generations and keeping a hidden refuge from daylight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+14 (24).",
+        "Damage resistances": "Necrotic.",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Common plus two other languages.",
+        "Traits": "Legendary Resistance (3/day, 4/day in its lair). Turn a failed saving throw into a success.\nMisty Escape. At 0 HP outside its resting place, the vampire uses Shape-Shift to become mist without taking an action. It is destroyed if it cannot use Shape-Shift. At 0 HP the mist has 2 hours to get home and cannot return to vampire form elsewhere. At the resting place the vampire resumes its true form and is Paralyzed until it has HP again. It regains 1 HP after 1 hour there.\nSpider Climb. The vampire climbs difficult surfaces and ceilings without making ability checks.",
+        "Vampire weaknesses": "Forbiddance. An occupant must invite the vampire before it can enter a residence.\nRunning Water. The vampire takes 20 acid damage if it ends its turn in running water.\nSunlight. The vampire takes 20 radiant damage if its turn starts in sunlight. While there, it has Disadvantage on attack rolls and ability checks.\nStake to the Heart. A piercing weapon driven into the heart while the vampire is Incapacitated in its resting place leaves it Paralyzed until the weapon comes out.",
+        "Actions": "Multiattack (vampire form only). Make two Grave Strike attacks and use Bite.\nGrave Strike (vampire form only). Melee attack, +9 to hit, reach 5 ft. Hit 8 (1d8 + 4) bludgeoning damage plus 7 (2d6) necrotic damage. A Large or smaller creature is also Grappled by one of the vampire's two hands (escape DC 14).\nBite (bat or vampire form only). Choose one creature within 5 ft. that is willing, Grappled, Incapacitated, or Restrained. The target makes a DC 17 Constitution save. On a failure it takes 6 (1d4 + 4) piercing damage plus 13 (3d8) necrotic damage. Reduce its HP maximum by the necrotic damage it took and restore that many HP to the vampire. A Humanoid this damage reduces to 0 HP rises under the vampire's control as a Vampire Spawn at the next sunset if buried first.",
+        "Bonus actions": "Charm (Recharge 5–6). Cast Charm Person using Charisma (DC 17) and no spell components. The spell lasts 24 hours. A target Charmed this way is willing to receive the vampire's Bite, and that Bite's damage does not end the spell. After the spell ends, the target does not know the vampire Charmed it.\nShape-Shift. Outside sunlight and running water, take the form of a Tiny bat or a Medium cloud of mist, or return to vampire form. Worn objects transform. The bat has Speed 5 ft. and Fly Speed 30 ft. and cannot speak. Its other statistics are unchanged apart from size and Speed. The mist has Speed 5 ft. and Fly Speed 20 ft. (hover). It is weightless, cannot take actions, speak, or manipulate objects, and can occupy an enemy's space. It can pass through spaces air can pass through but cannot pass through liquid. It has Resistance to all damage except damage it takes from sunlight.",
+        "Legendary actions": "Three uses, or four in the lair. Spend 1 use to take one of these options at the end of another creature's turn. The creature regains all spent uses at the start of each of its turns.\nBeguile. Cast Command using Charisma (DC 17) and no spell components. The vampire cannot use Beguile again until the start of its next turn.\nDeathless Strike. Move up to half Speed, then make one Grave Strike attack.",
+        "Lair": "In its lair the vampire has four Legendary Resistance uses per day and four legendary action uses. Award 11,500 XP for an encounter in the lair.",
+        "Regional effects": "Children of the Night. From dusk to dawn, Beasts of Medium size or smaller within 1 mile of the lair are Charmed.\nLooming Shadows. Any creature that finishes a Short Rest within 1 mile makes a DC 15 Wisdom save unless it is the vampire or one of its allies. A creature that fails gets no benefit from the rest.\nMists. Persistent fog Lightly Obscures the area within 1 mile. It does not affect the vampire or any creature it chooses.\nThese effects end immediately when the vampire dies or moves its lair.",
+        "Habitat": "Underdark, urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), pp. 316–317. The stat block is on p. 317 and its regional effects are on p. 316."
+      }
+    }
+  },
+  {
+    "name": "Vampire Spawn",
+    "statBlock": {
+      "name": "Vampire Spawn",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 315,
+      "classification": "Small or Medium undead, neutral evil",
+      "ac": 16,
+      "hp": 90,
+      "hitDice": "12d8 + 36",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 13,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 3
+      },
+      "skills": {
+        "Perception": 3,
+        "Stealth": 6
+      },
+      "description": "A recently raised vampire often hunts for its creator, closing on prey with claws before feeding.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Damage resistances": "Necrotic.",
+        "Senses": "Darkvision 60 ft..",
+        "Languages": "Common plus one other language.",
+        "Traits": "Spider Climb. The vampire climbs difficult surfaces and ceilings without making ability checks.",
+        "Vampire weaknesses": "Forbiddance. An occupant must invite the vampire before it can enter a residence.\nRunning Water. The vampire takes 20 acid damage if it ends its turn in running water.\nSunlight. The vampire takes 20 radiant damage if its turn starts in sunlight. While there, it has Disadvantage on attack rolls and ability checks.\nStake to the Heart. Driving a piercing weapon into the spawn's heart while it is Incapacitated destroys it.",
+        "Actions": "Multiattack. Make two Claw attacks and use Bite.\nClaw. Melee attack, +6 to hit, reach 5 ft. Hit 8 (2d4 + 3) slashing damage. A Medium or smaller creature is also Grappled by one of the spawn's two claws (escape DC 13).\nBite. Choose one creature within 5 ft. that is willing, Grappled, Incapacitated, or Restrained. The target makes a DC 14 Constitution save. On a failure it takes 5 (1d4 + 3) piercing damage plus 10 (3d6) necrotic damage. Reduce its HP maximum by the necrotic damage it took and restore that many HP to the spawn.",
+        "Bonus actions": "Deathless Agility. Take the Dash or Disengage action.",
+        "Habitat": "Underdark, urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 315."
+      }
+    }
+  },
+  {
+    "name": "Death Knight",
+    "statBlock": {
+      "name": "Death Knight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 92,
+      "classification": "Small or Medium undead, chaotic evil",
+      "ac": 20,
+      "hp": 199,
+      "hitDice": "21d8 + 105",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 13,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 9
+      },
+      "skills": {},
+      "description": "An armored undead warlord leads legions or broods in a ruined stronghold, bound to undeath by an unatoned past.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+12 (22).",
+        "Damage immunities": "Necrotic, poison.",
+        "Condition immunities": "Exhaustion, frightened, poisoned.",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Abyssal, Common.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nMagic Resistance. The death knight has Advantage on saves against spells and other magical effects.\nMarshal Undead. Chosen Undead in a 60-ft. Emanation around the death knight have Advantage on attack rolls and saves. It cannot choose itself or use this trait while Incapacitated.\nUndead Restoration. If destroyed before it atones for its evil, the death knight returns with full HP in a new body after 1d10 days. The body appears at a place significant to the knight.",
+        "Actions": "Multiattack. Make three Dread Blade attacks.\nDread Blade. Melee attack, +11 to hit, reach 5 ft. Hit 12 (2d6 + 5) slashing damage plus 13 (3d8) necrotic damage.\nHellfire Orb (Recharge 5–6). Choose a point the death knight can see within 120 ft. Each creature in a 20-ft.-radius Sphere centered there makes a DC 18 Dexterity save. A failure deals 35 (10d6) fire damage plus 35 (10d6) necrotic damage. Success halves the damage.",
+        "Spellcasting": "Cast one of these spells as an action using Charisma (DC 18). No material components are needed.\nAt will. Command, Phantom Steed.\n2/day each. Destructive Wave (necrotic), Dispel Magic.",
+        "Reactions": "Parry. When hit by a melee attack roll while holding a weapon, the death knight gains +6 AC against that attack, potentially turning the hit into a miss.",
+        "Legendary actions": "Three uses. Spend 1 use to take one of these options at the end of another creature's turn. The creature regains all spent uses at the start of each of its turns.\nDread Authority. Use Spellcasting to cast Command. The death knight cannot use Dread Authority again until the start of its next turn.\nFell Word. Choose one creature the death knight can see within 120 ft. It makes a DC 18 Constitution save. A failure deals 17 (5d6) necrotic damage and reduces the target's HP maximum by the damage taken. Regardless of the result, the death knight cannot use Fell Word again until the start of its next turn.\nLunge. Move up to half Speed and make one Dread Blade attack.",
+        "Habitat": "Any.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 92."
+      }
+    }
+  },
+  {
+    "name": "Wight",
+    "statBlock": {
+      "name": "Wight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 332,
+      "classification": "Medium undead, neutral evil",
+      "ac": 14,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "savingThrows": {},
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "description": "An undead warrior keeps its old grudges and draws life from victims, turning slain Humanoids into servants.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Senses": "Darkvision 60 ft..",
+        "Languages": "Common plus one other language.",
+        "Gear": "Studded leather armor.",
+        "Traits": "Sunlight Sensitivity. The creature has Disadvantage on ability checks and attack rolls while in sunlight.",
+        "Actions": "Multiattack. Make two attacks using Necrotic Sword or Necrotic Bow in any combination. Replace up to one attack with Life Drain.\nNecrotic Sword. Melee attack, +4 to hit, reach 5 ft. Hit 6 (1d8 + 2) slashing damage plus 4 (1d8) necrotic damage.\nNecrotic Bow. Ranged attack, +4 to hit, range 150/600 ft. Hit 6 (1d8 + 2) piercing damage plus 4 (1d8) necrotic damage.\nLife Drain. One creature within 5 ft. makes a DC 13 Constitution save. On a failure it takes 6 (1d8 + 2) necrotic damage and its HP maximum drops by the damage taken. A Humanoid slain by Life Drain rises as a Zombie under the wight's control 24 hours later unless restored to life or its body is destroyed. The wight can control up to twelve such Zombies at a time.",
+        "Habitat": "Desert, Shadowfell, swamp, Underdark, urban.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 332."
+      }
+    }
+  },
+  {
+    "name": "Wraith",
+    "statBlock": {
+      "name": "Wraith",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 336,
+      "classification": "Small or Medium undead, neutral evil",
+      "ac": 13,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "5 ft., fly 60 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 12,
+      "savingThrows": {},
+      "skills": {},
+      "description": "This embodiment of malice haunts places where cruelty or disaster left a mark, claiming nearby dead as specters.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Damage resistances": "Acid, bludgeoning, cold, fire, piercing, slashing.",
+        "Damage immunities": "Necrotic, poison.",
+        "Condition immunities": "Charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious.",
+        "Senses": "Darkvision 60 ft..",
+        "Languages": "Common plus two other languages.",
+        "Traits": "Incorporeal Movement. Creatures and objects count as Difficult Terrain for this creature's movement. Ending its turn inside an object deals 5 (1d10) force damage to it.\nSunlight Sensitivity. The creature has Disadvantage on ability checks and attack rolls while in sunlight.",
+        "Actions": "Life Drain. Melee attack, +6 to hit, reach 5 ft. Hit 21 (4d8 + 3) necrotic damage. A creature's HP maximum drops by the damage it took.\nCreate Specter. Choose a Humanoid corpse within 10 ft. that has been dead for 1 minute or less. Its spirit rises as a Specter under the wraith's control, in the corpse's space or the nearest unoccupied space. The wraith can control up to seven Specters at a time.",
+        "Habitat": "Shadowfell, Underdark.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 336."
+      }
+    }
+  }
+]

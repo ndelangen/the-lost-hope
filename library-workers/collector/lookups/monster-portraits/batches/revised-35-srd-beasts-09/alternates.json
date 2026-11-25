@@ -1,0 +1,113 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Riding Dog",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/riding-dog/saint-bernard-zagerald.jpg",
+    "artist": "Saint Bernard photograph by ZaGerald · CC BY 3.0",
+    "kind": "photograph",
+    "sha256": "82c603618423d4717316cbf166e53ac52211f29c974b3740103a02716ed42215",
+    "reference": "https://commons.wikimedia.org/wiki/File:Saint-bernard-standing.jpg",
+    "license": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Riding Dog",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/riding-dog/mastiff-2024.webp",
+    "artist": "Related Mastiff illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "a4fdbbef46b255ca6d9af73eb0ed8bb511d87bd4d771d2272a1b84e0cafc5158",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Mastiff.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Roc",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/roc/roc-2014.webp",
+    "artist": "Roc illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "b3ea93f1d75d2dfbda9f5a7d3560eba894d4630a0d30d04358f14dce7f9b4a6d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Roc.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Roc",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/roc/roc-alejandro-pacheco.webp",
+    "artist": "Roc illustration by Alejandro Pacheco · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "d465012c4a362799e3c5e3353d00fb6aa08f75e510ecc803b510f23fefd6968e",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Roc.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Small Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/small-viper-snake/poisonous-snake-2014.webp",
+    "artist": "Related Poisonous Snake token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "f1ff5ecffcbdd53e7bd5e5b353adc21854f3d20f65cf3b5e63709123ec48c9c8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Poisonous%20Snake.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Small Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/small-viper-snake/swarm-of-venomous-snakes-2024.webp",
+    "artist": "Related Swarm of Venomous Snakes illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce2f60ddfaf2569addce62306e3a98b952278d3ae78198ca5661c518d3ae65a9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Venomous%20Snakes.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Rat Swarm",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/rat-swarm/swarm-of-rats-2014.webp",
+    "artist": "Related Swarm of Rats illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "5099164075a75999c377a470f443bc27f94e8832acfba80b79ac92b7741ca8fc",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Swarm%20of%20Rats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Rat Swarm",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/rat-swarm/rats-katerina-ladon.webp",
+    "artist": "Related Rats illustration by Katerina Ladon · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce5550d20cba5a0c0d7c0be1ec41c4d3f4e0c6e9e0646b9d77f92469abc191c9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Rats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Rat Swarm",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "file": "images/monsters/rat-swarm/swarm-of-rats-2014.webp",
+    "artist": "Related Swarm of Rats illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "5099164075a75999c377a470f443bc27f94e8832acfba80b79ac92b7741ca8fc",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Swarm%20of%20Rats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Rat Swarm",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "file": "images/monsters/rat-swarm/rats-katerina-ladon.webp",
+    "artist": "Related Rats illustration by Katerina Ladon · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce5550d20cba5a0c0d7c0be1ec41c4d3f4e0c6e9e0646b9d77f92469abc191c9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Rats.webp"
+  }
+]

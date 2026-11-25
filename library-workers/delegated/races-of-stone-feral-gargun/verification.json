@@ -1,0 +1,20 @@
+{
+  "baseline": "2a7feae5eaa45bebe8cc9fd64ec9400a5ee52ef7",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Feral Gargun"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Stone (2004)",
+  "racialHitDiceMonsterClassClawModesAndEclVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

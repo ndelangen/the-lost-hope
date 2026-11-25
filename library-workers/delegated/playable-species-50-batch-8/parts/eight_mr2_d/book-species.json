@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Ki-rin",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Ki-rin, also spelled Kirin, is a Medium Celestial. Increase one ability score by 1. Walk and fly 30 ft. The Ki-rin can hover. Medium or heavy armor prevents flight. Darkvision extends 60 ft.",
+      "Use horn or hooves for an unarmed strike dealing 1d8 piercing or bludgeoning. The Ki-rin has no hands for weapons, shields or manipulated items. It speaks, reads and writes Common and Celestial.",
+      "Learn one cleric cantrip with Charisma. The trait provides the equivalent of a spellcasting focus. Use the supplement’s form-appropriate somatic components where needed."
+    ]
+  },
+  {
+    "name": "Korred",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Medium Fey, Strength +1, walking speed 25 ft., darkvision 60 ft. Advantage on Dexterity (Stealth) checks to hide in rocky terrain. Languages are Terran and Undercommon.",
+      "After a long rest, spend one hour cutting hair and weaving a single 50-ft. iron rope. A new rope reduces the previous one to rusty shavings. Use an action to move the rope up to 20 ft. If it ends in a visible creature’s space, Dexterity save DC 8 + proficiency + Wisdom or the creature is grappled. A rope ending in empty air falls. Escape uses the monster-grapple procedure at the same DC.",
+      "Release a creature as a bonus action. The grapple also ends if the Korred moves the rope again, is incapacitated or dies. The rope has AC 20 and 20 HP and recovers 1 HP at the start of the Korred’s turn while both survive. Destruction frees the target and leaves rusty shavings.",
+      "Rock makes a 30/60-ft. ranged weapon attack with a rock or similar object, treated as thrown, for a printed 1d4 bludgeoning. Stone’s Strength uses a bonus action while grounded. A hit with the first weapon attack of that turn adds half the proficiency bonus to damage."
+    ]
+  },
+  {
+    "name": "Leucrotta",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Medium Monstrosity, Strength +1, walking speed 40 ft., darkvision 60 ft. Advantage on Wisdom (Perception) checks that rely on smell.",
+      "Unarmored AC equals 12 + Dexterity modifier. A bite or hoof unarmed strike deals 1d8 piercing or bludgeoning. After attacking with the hooves, Disengage as a bonus action on that turn. After reducing a creature to 0 HP with a melee attack on your turn, you may spend the bonus action to move up to half speed and bite.",
+      "Copy sounds and voices you have heard. A listener detects a fake with Insight against DC 8 + the Leucrotta’s Charisma (Deception) bonus. The written Languages line leaves language names unspecified."
+    ]
+  },
+  {
+    "name": "Meenlock",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Small Fey, Dexterity +1, walking speed 30 ft. Darkvision 120 ft. Immune to fear. Bright light imposes disadvantage on attacks and sight-based Wisdom (Perception) checks.",
+      "Use claws as 1d8 slashing unarmed strikes. They explicitly count as finesse weapons for effects such as Sneak Attack. On a successful melee claw attack, once per long rest, attempt 1 minute of paralysis. Constitution DC 8 + proficiency + Constitution. Repeat at the end of each target turn to end it. Elves and undead are immune.",
+      "While in dim light or darkness, take a bonus action to teleport up to 30 ft. to an unoccupied space you can see in dim light or darkness. Telepathy works with language-knowing creatures within 30 ft.",
+      "Starts without languages. A learned language can be understood, read and written. The Meenlock has no voice and cannot supply verbal spell components."
+    ]
+  },
+  {
+    "name": "Mindwitness",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Medium Aberration, Intelligence +1. Walking speed 0 ft. Fly 20 ft. and hover while wearing neither medium nor heavy armor. Immune to being prone. Darkvision 60 ft. Natural AC 12 + Dexterity modifier.",
+      "No hands for weapons, shields or manipulated items. Tentacle unarmed strikes deal 1d4 bludgeoning plus 1d4 psychic.",
+      "Eye Rays grant Mage Hand, Mind Spike and Spook with Intelligence and a built-in focus. Mind Spike is the supplement’s cantrip. It attacks an Intelligence save within 60 ft., ignores cover for that save and starts at 1d6 psychic. Spook imposes fear through the start of your next turn on a failed Wisdom save within 60 ft.",
+      "Telepathy works within 30 ft. with any creature that knows a language. The hub may also let nearby creatures communicate telepathically with each other. Read, speak and write Deep Speech and Undercommon."
+    ]
+  }
+]

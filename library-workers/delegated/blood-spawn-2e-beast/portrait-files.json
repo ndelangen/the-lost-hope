@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Blood Hound",
+    "entryId": "beast-3eb2f1acd3df7fc0a803d5ed",
+    "versionKey": "529b7fd06ca71593a6be0516",
+    "file": "",
+    "sha256": "69a2d95c00afdae37b00aa7d04e99383a6a3d5635e853bf6c16c336112604e7e",
+    "width": 1254,
+    "height": 1254,
+    "previousEntryPortraitSha256": "e3c3baafe7e624002056dee0c2c360e9b17ef60d99360dae9c5fa26362e24a4d",
+    "suggestedRepositoryPath": "assets/images/content/dm-library/beasts-50-03/blood-hound.png"
+  }
+]

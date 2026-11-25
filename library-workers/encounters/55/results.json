@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Human Knave",
+    "source": "https://www.dndbeyond.com/monsters/4485896-human-knave",
+    "challenge": "3",
+    "entry": "monster-2b4fac2793455566d0d8b68c",
+    "version": "60fae585d7228abe70ec5935",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "human-knave",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "a8e0092d0c0f5b46429e16eb30623387554bee9f41a9f722ebf026e104394080",
+    "status": "Stat block",
+    "appearance": "A dark-cloaked soldier with a steel breastplate, broad shield and spiked morningstar.",
+    "habitats": [
+      "Settlements",
+      "Fortified bridges",
+      "Bandit camps"
+    ]
+  },
+  {
+    "name": "Human Trickshot",
+    "source": "https://www.dndbeyond.com/monsters/4485900-human-trickshot",
+    "challenge": "2",
+    "entry": "monster-4b275a042574f8df2d2787c3",
+    "version": "3c44e6c2cddd1c753b4d8126",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "human-trickshot",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "f452521075e43b62ad25cad2a997d4d9bb6bb84c146416d8257f9db4f556de76",
+    "status": "Stat block",
+    "appearance": "A hooded marksman in an olive tunic and worn red-brown cape, carrying a heavy crossbow with a bayonet.",
+    "habitats": [
+      "Settlements",
+      "Rooftops",
+      "Woodland roads"
+    ]
+  }
+]

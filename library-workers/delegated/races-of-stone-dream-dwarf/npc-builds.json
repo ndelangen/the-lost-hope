@@ -1,0 +1,122 @@
+{
+  "builds": [
+    {
+      "id": "dream-dwarf-spring-tender-35e",
+      "title": "Dream Dwarf spring tender, Druid 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Dwarf)",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "1d8+3",
+      "initiative": 0,
+      "speed": "20 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 10,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 10
+      },
+      "skills": [
+        "Concentration +7, or +11 to cast defensively or while grappled or pinned",
+        "Diplomacy +4, or +6 with creatures of the earth subtype",
+        "Knowledge (nature) +6",
+        "Search +0, or +2 for unusual stonework",
+        "Survival +8"
+      ],
+      "senses": "Darkvision 90 ft., Dream Sight.",
+      "languages": "Common, Dwarven, Druidic",
+      "traits": [
+        "Hide armor +3 and heavy wooden shield +2. Touch 10, flat-footed 15. BAB +0, grapple +1. Fortitude +5, Reflex +0, Will +4.",
+        "Dream Sight (Su) sees ethereal creatures as readily as material creatures. Ethereal creatures look translucent and indistinct, so the dwarf can tell them apart.",
+        "Stability adds +4 on ability checks to resist bull rush or trip while standing firmly on the ground.",
+        "Stonecunning checks unusual stonework within 10 ft. and covers stonework traps. Combat Casting grants +4 on qualifying Concentration checks. Nature Sense is included in Knowledge (nature) and Survival. Wild Empathy +1. Animal companion slot open.",
+        "Spell Power adds +1 to effective caster level for divinations or spells with the earth descriptor when in contact with the ground. Apply the increase to level-dependent effects and caster level checks. It stacks with other Spell Power abilities."
+      ],
+      "actions": [
+        "Club +1 melee, 1d6+1 bludgeoning, critical ×2.",
+        "Dagger +0 ranged, 1d4+1 piercing, critical 19–20/×2, 10-ft. increment.",
+        "Prepared 0-level spells are detect magic, detect poison, and light. Prepared 1st-level spells are entangle and speak with animals. Spontaneously convert a prepared spell to summon nature’s ally of the same level when available.",
+        "On the ground, detect magic and detect poison use caster level 2, and speak with animals lasts 2 minutes. At base caster level 1, speak with animals lasts 1 minute. Detect poison has 30-ft. range on the ground and 25-ft. range at caster level 1.",
+        "Entangle uses caster level 1 in either case. Plants in a 40-ft.-radius spread within 440 ft. entangle creatures on a failed Reflex DC 13. Successful saves still limit movement to half speed. The effect lasts 1 minute."
+      ],
+      "tactics": "Maera wants to know why animals have stopped drinking at the spring. She speaks with a badger from the bank and uses detect poison on the spillway. If pursued, she falls back through the reeds and casts entangle to slow the approach."
+    },
+    {
+      "id": "dream-dwarf-seam-reader-35e",
+      "title": "Dream Dwarf seam reader, Expert 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1/2. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Dwarf)",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d6+3",
+      "initiative": 1,
+      "speed": "20 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 13,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Appraise +5",
+        "Craft (stoneworking) +5",
+        "Knowledge (architecture and engineering) +5",
+        "Listen +5",
+        "Search +8, or +10 for unusual stonework",
+        "Sense Motive +5",
+        "Spot +5"
+      ],
+      "senses": "Darkvision 90 ft., Dream Sight.",
+      "languages": "Common, Dwarven, Terran",
+      "traits": [
+        "Leather armor +2 and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +1. Fortitude +3, Reflex +1, Will +3.",
+        "Dream Sight (Su) sees ethereal creatures as readily as material creatures. Ethereal creatures look translucent and indistinct, so the dwarf can tell them apart.",
+        "Stability adds +4 on ability checks to resist bull rush or trip while standing firmly on the ground.",
+        "Each listed Expert class skill has four ranks. Skill Focus (Search) adds +3. Stonecunning adds another +2 when checking unusual stonework, including a stonework trap. A search is possible within 10 ft. even without actively looking."
+      ],
+      "actions": [
+        "Heavy mace +1 melee, 1d8+1 bludgeoning, critical ×2.",
+        "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action."
+      ],
+      "tactics": "Ornek surveys a bricked-up passage after glimpsing an ethereal traveler through its entrance. He marks the seam for the party and uses ordinary tools to check the wall."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dream Dwarf",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Stone (2004)",
+      "name": "Maera Dol-Vel",
+      "build": "dream-dwarf-spring-tender-35e",
+      "role": "Spring tender and Druid.",
+      "motive": "Find out why the animals no longer drink from the uphill spring.",
+      "hook": "Maera can speak with a badger from the bank while the party checks the spillway for what changed."
+    },
+    {
+      "species": "Dream Dwarf",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Stone (2004)",
+      "name": "Ornek Tarn-Iol",
+      "build": "dream-dwarf-seam-reader-35e",
+      "role": "Seam reader and Expert.",
+      "motive": "Identify the old exit an ethereal traveler crossed just before a tunnel was bricked up.",
+      "hook": "Ornek can identify an unusual seam in the new stonework if the party brings the old floor plan."
+    }
+  ]
+}

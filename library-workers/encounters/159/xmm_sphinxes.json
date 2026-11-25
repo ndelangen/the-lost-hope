@@ -1,0 +1,420 @@
+[
+  {
+    "name": "Salamander Fire Snake",
+    "statBlock": {
+      "name": "Salamander Fire Snake",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 266,
+      "classification": "Medium elemental, neutral evil",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A young salamander that hatches from a burning egg and matures by feeding on fuel in extreme heat.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Primordial but cannot speak.",
+        "Damage vulnerabilities": "Cold.",
+        "Damage immunities": "Fire.",
+        "Traits": "Fire Aura. At the end of each of the salamander's turns, choose any creatures in a 5-ft. Emanation centered on it. Each chosen creature takes 3 (1d6) Fire damage.",
+        "Actions": "Bite. Melee attack, +4 to hit, reach 5 ft. A hit deals 6 (1d8 + 2) Piercing damage and 3 (1d6) Fire damage.",
+        "Habitats": "Elemental Plane of Fire, Underdark.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 266."
+      }
+    }
+  },
+  {
+    "name": "Salamander Inferno Master",
+    "statBlock": {
+      "name": "Salamander Inferno Master",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 267,
+      "classification": "Large elemental, neutral evil",
+      "ac": 18,
+      "hp": 256,
+      "hitDice": "27d10 + 108",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "savingThrows": {
+        "Dex": 8,
+        "Wis": 5
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 10,
+      "description": "An ancient salamander that trains apprentices in extreme heat. Its projects can include provoking an eruption or opening a portal to a plane of fire.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+8 (18).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Primordial (Ignan).",
+        "Damage vulnerabilities": "Cold.",
+        "Damage immunities": "Fire.",
+        "Traits": "Fire Aura. At the end of each of the salamander's turns, choose any creatures in a 10-ft. Emanation centered on it. Each chosen creature takes 10 (3d6) Fire damage.\nMagic Resistance. The creature has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Flame Trident attacks.\nFlame Trident. Melee or ranged attack, +12 to hit, reach 5 ft. or range 30/90 ft. A hit deals 16 (2d8 + 7) Piercing damage and 14 (4d6) Fire damage. After a ranged attack, the trident immediately returns to the salamander's hand, even on a miss.\nInferno Blast (Recharge 5–6). Choose a point the salamander can see within 120 ft. Each creature in a 30-ft.-radius Sphere centered there makes a DC 18 Dexterity save. On a failure, it takes 35 (10d6) Fire damage and starts Burning. Replace the normal Burning damage with 5 (1d10) Fire damage at the start of each of its turns. It gains one Exhaustion level every time it takes this Burning damage. A successful save halves the initial damage and avoids Burning.",
+        "Bonus actions": "Blazing Movement. The salamander moves up to its Speed without provoking Opportunity Attacks. A 5-ft. Emanation of fire moves with it. A creature takes 7 (2d6) Fire damage when the Emanation enters its space, at most once per turn.",
+        "Habitats": "Elemental Plane of Fire, Underdark.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 267."
+      }
+    }
+  },
+  {
+    "name": "Satyr Revelmaster",
+    "statBlock": {
+      "name": "Satyr Revelmaster",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 268,
+      "classification": "Medium fey, chaotic neutral",
+      "ac": 17,
+      "hp": 82,
+      "hitDice": "15d8 + 15",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 5
+      },
+      "skills": {
+        "Acrobatics": 7,
+        "Perception": 5,
+        "Performance": 9
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "A satyr whose enchanted songs drive a celebration or scatter enemies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Magic Resistance. The creature has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Prance attacks.\nPrance. Melee attack, +7 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) Bludgeoning damage and leaves the target Charmed until the start of the satyr's next turn.\nFey Melody (Recharge 4–6). Choose a charming or frightening song. Each enemy in a 60-ft. Emanation centered on the satyr makes a DC 14 Wisdom save. A creature that fails suffers the chosen effect.\nCharming. The creature is Charmed for 1 minute. While Charmed by this song, it is Incapacitated and spends all its movement dancing in place. Any damage ends the effect for that creature.\nFrightening. The creature takes 10 (2d6 + 3) Psychic damage and is Frightened for 1 minute. The condition ends early if it finishes its turn out of the satyr's line of sight.",
+        "Habitats": "Forest, Feywild.",
+        "Treasure": "Implements.",
+        "Printed source": "Monster Manual (2024), p. 268."
+      }
+    }
+  },
+  {
+    "name": "Sphinx of Lore",
+    "statBlock": {
+      "name": "Sphinx of Lore",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 293,
+      "classification": "Large celestial, lawful neutral",
+      "ac": 17,
+      "hp": 170,
+      "hitDice": "20d10 + 60",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "skills": {
+        "Arcana": 12,
+        "History": 12,
+        "Perception": 8,
+        "Religion": 12
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 18,
+      "description": "A reclusive oracle that guards one great secret, such as an ancient text or a route to another world.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+10 (20).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Celestial, Common.",
+        "Damage resistances": "Necrotic, Radiant.",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Charmed, Frightened.",
+        "Traits": "Inscrutable. Magic can observe the sphinx remotely or detect its thoughts only with its permission. Wisdom (Insight) checks to judge its intentions or sincerity have Disadvantage.\nLegendary Resistance (3/day, or 4/day in its lair). After failing a saving throw, the sphinx can spend one use to succeed.",
+        "Actions": "Multiattack. Make three Claw attacks.\nClaw. Melee attack, +8 to hit, reach 5 ft. A hit deals 14 (3d6 + 4) Slashing damage.\nMind-Rending Roar (Recharge 5–6). Each enemy in a 300-ft. Emanation centered on the sphinx makes a DC 16 Wisdom save. A creature that fails takes 35 (10d6) Psychic damage and is Incapacitated until the start of the sphinx's next turn.\nSpellcasting. Cast one listed spell without Material components, using Intelligence (spell save DC 16).\nAt will. Detect Magic, Identify, Mage Hand, Minor Illusion, Prestidigitation.\n1/day each. Dispel Magic, Legend Lore, Locate Object, Plane Shift, Remove Curse, Tongues.",
+        "Legendary actions": "3 uses, or 4 in its lair. Immediately after another creature finishes its turn, spend one use on one option. The sphinx regains spent uses at the start of its turn and cannot spend a use while Incapacitated or otherwise unable to act.\nArcane Prowl. The sphinx can teleport up to 30 ft. to an unoccupied space it can see. It makes one Claw attack.\nWeight of Years. Choose one creature the sphinx can see within 120 ft. It must pass a DC 16 Constitution save or gain one Exhaustion level. A target that fails looks 3d10 years older for as long as it has any Exhaustion levels. This option becomes available again at the start of the sphinx's next turn, regardless of the save result.",
+        "In its lair": "8,400 XP. Legendary Resistance increases to 4/day and Legendary Actions increase to 4 uses.",
+        "Regional effects": "Distant Sight. While inside its lair, the sphinx can cast Clairvoyance without spell components, using its Spellcasting ability. The spell has a range of 1 mile when cast this way.\nInfusion of Knowledge. When the sphinx or one of its allies takes the Study action within 1 mile of the lair, it adds 1d6 to any ability check made for that action.\nBoth effects end immediately if the sphinx dies or relocates its lair.",
+        "Habitats": "Desert, Upper Planes.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), pp. 293–294. The stat block is on p. 293 and the regional effects are on p. 294."
+      }
+    }
+  },
+  {
+    "name": "Sphinx of Secrets",
+    "statBlock": {
+      "name": "Sphinx of Secrets",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 292,
+      "classification": "Large celestial, lawful neutral",
+      "ac": 16,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "skills": {
+        "History": 7,
+        "Perception": 7,
+        "Religion": 7
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 17,
+      "description": "An immortal scholar that guards the site of its research, even if the library or sanctuary around it has fallen to ruin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Truesight 60 ft.",
+        "Languages": "Celestial, Common.",
+        "Damage resistances": "Necrotic, Radiant.",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Charmed, Frightened.",
+        "Traits": "Inscrutable. Magic can observe the sphinx remotely or detect its thoughts only with its permission. Wisdom (Insight) checks to judge its intentions or sincerity have Disadvantage.\nMagic Resistance. The creature has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Claw attacks. The sphinx can replace one attack with Curse of the Riddle.\nClaw. Melee attack, +7 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) Slashing damage and 7 (2d6) Radiant damage.\nCurse of the Riddle. Choose one creature the sphinx can see within 60 ft. On a failed DC 15 Intelligence save, it takes 21 (6d6) Psychic damage and is cursed. The curse gives it Disadvantage on ability checks and attack rolls. Whenever it takes the Magic action, it must pass a DC 15 Intelligence save or waste the action. It can take the Study action to try a DC 15 Intelligence check, solving the riddle and ending the curse on a success. The curse also ends if the sphinx curses another target.\nSpellcasting. Cast one listed spell without Material components, using Intelligence (spell save DC 15).\nAt will. Detect Magic, Identify, Prestidigitation.\n1/day each. Locate Object, Remove Curse.",
+        "Habitats": "Desert, Upper Planes.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 292."
+      }
+    }
+  },
+  {
+    "name": "Sphinx of Valor",
+    "statBlock": {
+      "name": "Sphinx of Valor",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 294,
+      "classification": "Large celestial, lawful neutral",
+      "ac": 17,
+      "hp": 199,
+      "hitDice": "19d10 + 95",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 23
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 11,
+        "Int": 9,
+        "Wis": 12
+      },
+      "skills": {
+        "Arcana": 9,
+        "Perception": 12,
+        "Religion": 15
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 22,
+      "description": "The guardian of a dangerous truth or Artifact, often hidden in a remote magical site.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+12 (22).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Celestial, Common.",
+        "Damage resistances": "Necrotic, Radiant.",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Charmed, Frightened.",
+        "Traits": "Inscrutable. Magic can observe the sphinx remotely or detect its thoughts only with its permission. Wisdom (Insight) checks to judge its intentions or sincerity have Disadvantage.\nLegendary Resistance (3/day, or 4/day in its lair). After failing a saving throw, the sphinx can spend one use to succeed.",
+        "Actions": "Multiattack. Make two Claw attacks and use Roar.\nClaw. Melee attack, +12 to hit, reach 5 ft. A hit deals 20 (4d6 + 6) Slashing damage.\nRoar (3/day). Each roar targets all enemies in a 500-ft. Emanation centered on the sphinx. Apply the effects in the order below. A Long Rest resets the sequence.\nFirst Roar. Each target makes a DC 20 Wisdom save. On a failure, it is Frightened for 1 minute.\nSecond Roar. Each target makes a DC 20 Wisdom save. On a failure, it is Paralyzed. It repeats the save at the end of each of its turns, ending the effect on a success. After 1 minute it succeeds automatically.\nThird Roar. Each target makes a DC 20 Constitution save. On a failure, it takes 44 (8d10) Thunder damage and is knocked Prone. On a success, it takes half the damage only.\nSpellcasting. Cast one listed spell without Material components, using Wisdom (spell save DC 20).\nAt will. Detect Evil and Good, Thaumaturgy.\n1/day each. Detect Magic, Dispel Magic, Greater Restoration, Heroes' Feast, Zone of Truth.",
+        "Legendary actions": "3 uses, or 4 in its lair. Immediately after another creature finishes its turn, spend one use on one option. The sphinx regains spent uses at the start of its turn and cannot spend a use while Incapacitated or otherwise unable to act.\nArcane Prowl. The sphinx can teleport up to 30 ft. to an unoccupied space it can see. It makes one Claw attack.\nWeight of Years. Choose one creature the sphinx can see within 120 ft. It must pass a DC 16 Constitution save or gain one Exhaustion level. A target that fails looks 3d10 years older for as long as it has any Exhaustion levels. This option becomes available again at the start of the sphinx's next turn, regardless of the save result.",
+        "In its lair": "20,000 XP. Legendary Resistance increases to 4/day and Legendary Actions increase to 4 uses.",
+        "Regional effects": "Distant Sight. While inside its lair, the sphinx can cast Clairvoyance without spell components, using its Spellcasting ability. The spell has a range of 1 mile when cast this way.\nInfusion of Knowledge. When the sphinx or one of its allies takes the Study action within 1 mile of the lair, it adds 1d6 to any ability check made for that action.\nBoth effects end immediately if the sphinx dies or relocates its lair.",
+        "Habitats": "Desert, Upper Planes.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 294."
+      }
+    }
+  },
+  {
+    "name": "Sphinx of Wonder",
+    "statBlock": {
+      "name": "Sphinx of Wonder",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 291,
+      "classification": "Tiny celestial, lawful good",
+      "ac": 13,
+      "hp": 24,
+      "hitDice": "7d4 + 7",
+      "speed": "20 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "skills": {
+        "Arcana": 4,
+        "Religion": 4,
+        "Stealth": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A bright-feathered sphinx the size of a lion cub. A new sphinx appears when someone on the Material Plane conceives a unique idea. The sphinx's forehead sigil hints at the subject it loves to study.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Celestial, Common.",
+        "Damage resistances": "Necrotic, Psychic, Radiant.",
+        "Traits": "Magic Resistance. The creature has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Rend. Melee attack, +5 to hit, reach 5 ft. A hit deals 5 (1d4 + 3) Slashing damage and 7 (2d6) Radiant damage.",
+        "Reactions": "Burst of Ingenuity (2/day). When the sphinx or another creature within 30 ft. makes an ability check or saving throw, add 2 to the roll.",
+        "Habitats": "Desert, Upper Planes.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 291."
+      }
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Silverbrow Human",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (human, dragonblood)",
+    "url": "",
+    "printedPages": [
+      6
+    ],
+    "heading": "Silverbrow Humans",
+    "supportingSources": {
+      "baseAndCombatRules": ""
+    },
+    "distinction": "Replaces the bonus human skill points. Keeps the human bonus feat.",
+    "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+  },
+  {
+    "name": "Deepwyrm Drow",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (elf, dragonblood)",
+    "url": "",
+    "printedPages": [
+      6,
+      7
+    ],
+    "heading": "Deepwyrm Drow and Half-Drow of Faerûn",
+    "supportingSources": {
+      "baseAndCombatRules": ""
+    },
+    "distinction": "Uses Monster Manual drow traits. Keeps darkness and dancing lights, loses faerie fire and the general racial Will bonus against spells and spell-like abilities.",
+    "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+  },
+  {
+    "name": "Deepwyrm Half-Drow",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (elf, dragonblood)",
+    "url": "",
+    "printedPages": [
+      6,
+      7
+    ],
+    "heading": "Deepwyrm Drow and Half-Drow of Faerûn",
+    "supportingSources": {
+      "baseAndCombatRules": "",
+      "halfDrowBase": ""
+    },
+    "distinction": "Begins with the Races of Faerûn pp. 62–63 half-drow named in Dragon Magic. The Drow Half-Elf UI group includes a fifth-edition Sword Coast Adventurer’s Guide profile. All mechanics here use the earlier half-drow rules. The base +2 Gather Information remains. Dragon Magic removes the +2 Diplomacy bonus.",
+    "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+  },
+  {
+    "name": "Forestlord Elf",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (elf, dragonblood)",
+    "url": "",
+    "printedPages": [
+      8
+    ],
+    "heading": "Forestlord Elves and Half-Elves",
+    "supportingSources": {
+      "baseAndCombatRules": ""
+    },
+    "distinction": "Uses Player’s Handbook elf traits with the forestlord modifications. Sorcerer replaces wizard as favored class. The variant loses free elf weapon proficiency rather than martial-class proficiency.",
+    "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+  },
+  {
+    "name": "Forestlord Half-Elf",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (elf, dragonblood)",
+    "url": "",
+    "printedPages": [
+      8
+    ],
+    "heading": "Forestlord Elves and Half-Elves",
+    "supportingSources": {
+      "baseAndCombatRules": ""
+    },
+    "distinction": "Uses Player’s Handbook half-elf traits with the forestlord modifications. Gains the printed Sorcerer favored class and loses the general half-elf social skill bonuses.",
+    "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+  }
+]

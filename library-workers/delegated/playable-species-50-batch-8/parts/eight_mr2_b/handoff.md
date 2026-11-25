@@ -1,0 +1,11 @@
+# Monstrous Races 2, Cranium Rat to Firenewt
+
+Five playable profiles, five class-built NPCs, and five original parchment portraits. The profiles use Tyler Kamstra's *Monstrous Races 2* for 2014 fifth edition. I checked the printed trait blocks in a full-text mirror and used the 2014 core rules for class mechanics. [Printed rules]() · [DMs Guild publication](https://www.dmsguild.com/en/product/248038/monstrous-races-2) · [2014 Basic Rules](https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes)
+
+- **Cranium Rat, p. 20.** Pinch is one Tiny rat. The source grants finesse for the bite, including Sneak Attack. AC 13 = 10 + 3 Dex. HP 15 = 8 + 1 + 5 + 1. Carrying capacity is 30 lb. after the Tiny reduction. The no-hands restriction still applies.
+- **Darkling, pp. 21 and 86.** Nim uses the base Darkling. AC 15 = 12 + 3 Dex. HP 17 = 8 + 2 + 5 + 2. Death Flash DC 12 = 8 + 2 Con + 2 proficiency. The Elder feat calls the trait Death Burst and gives dice without naming the damage type. The feat remains within the Darkling profile.
+- **Devourer, pp. 26–27.** Vorr's AC is 15 under either the natural armor or Barbarian formula. HP 25 = 12 + 3 + 7 + 3. Soul Rend DC 10 = 8 + 0 Cha + 2 proficiency. The optional Hit Die recovery uses the ordinary 1d12 + 3 Con amount. The area effect names every eligible creature within range.
+- **Draegloth, p. 31.** Ril holds two shortswords and a shield. AC 17 = 12 + 3 Dex + 2 shield. It becomes 15 after the bonus attack until the next turn. Both shortswords deal 1d6+3 piercing because of the Two-Weapon Fighting style. HP 12 = 10 + 2 Con.
+- **Firenewt, p. 32.** Sere uses a Dexterity save and fire damage for Spite Fire because its trait block omits both details. DC 12 = 8 + 2 Con + 2 proficiency. AC 15 = 12 + 3 Dex, and shortbow attack +7 = 3 Dex + 2 proficiency + 2 Archery. HP 20 = 10 + 2 + 6 + 2. The Imix's Blessing reference appears in the play advice, but there is no printed feat entry under that name in the consulted text.
+
+I checked the builds by hand and reviewed the plain parchment and signature anatomy at portrait size and 96 px. [Portrait comparison](portrait-review.jpg) · [Prompts](portrait-prompts.json) · [Source evidence](source-evidence.json)

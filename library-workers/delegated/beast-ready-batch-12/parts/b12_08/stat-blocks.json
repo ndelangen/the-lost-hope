@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Spider, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 15,
+    "hp": 40,
+    "speed": "30 ft., Climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Ability modifiers STR +2, DEX +3, CON +1, INT -4, WIS +0, CHA -3. Fixed Perception 10. Fixed Stealth 17. AC includes natural armor. Keensense 10 ft. Darkvision 60 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-legged brown spider with a broad rounded abdomen marked by two pale chevrons.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underground",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Araña, Gigante, printed p. 334, p. 336. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Spider Climb. The spider can climb difficult surfaces and move upside down across ceilings without an ability check.\n\nWeb Sense. While touching webbing, the spider knows the exact location of every other creature touching that web.\n\nWeb Walker. Webs and nets do not restrict the spider’s movement.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 7 (1d8 + 3) piercing damage. The target makes a DC 13 Constitution save, taking 10 (3d6) poison damage on a failure or half on a success. If that poison damage reduces the target to 0 HP, the target is stable and poisoned for 1 hour, even if it regains HP. It is paralyzed while poisoned this way.",
+      "Bonus actions": "Web (Recharge 4–6). The spider fires webbing at one creature it can see within 30 ft. The target must succeed on a DC 12 Dexterity save or become restrained. Any creature, including the restrained target, can take an action and make a DC 12 Strength check to break the web and free the target. The web can also be attacked and destroyed. It has AC 10, 5 HP, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage."
+    }
+  },
+  {
+    "name": "Spider, Giant Wolf",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 13,
+    "hp": 14,
+    "speed": "40 ft., Climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Ability modifiers STR +2, DEX +2, CON +1, INT -4, WIS +1, CHA -3. Fixed Perception 13. Fixed Stealth 16. AC includes natural armor. Keensense 10 ft. Darkvision 60 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A robust, hairy wolf spider with patterned brown markings, thick legs, and clustered eyes.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Araña, lobo gigante, printed p. 334, p. 336. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Spider Climb. The spider can climb difficult surfaces and move upside down across ceilings without an ability check.\n\nStanding Leap. The spider can jump up to 20 ft. horizontally or 10 ft. vertically, with or without a running start.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) piercing damage. The target must succeed on a DC 12 Constitution save or take 5 (2d4) poison damage. If that poison damage reduces the target to 0 HP, the target is stable and poisoned for 1 hour, even if it regains HP. It is paralyzed while poisoned this way.",
+      "Bonus actions": "Hunter’s Leap. The spider jumps up to 20 ft. horizontally or 10 ft. vertically toward a hostile creature it can see. This movement does not provoke opportunity attacks."
+    }
+  },
+  {
+    "name": "Stirge",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 14,
+    "hp": 7,
+    "speed": "10 ft., Fly 40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Ability modifiers STR -3, DEX +2, CON +0, INT -4, WIS -1, CHA -2. Fixed Perception 9. Fixed Stealth 12. AC includes natural armor. Darkvision 60 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small, brown, bat-winged insectoid with hooked feet and a long pointed proboscis.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Grassland",
+      "Hills",
+      "Swamp",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Estirge, printed p. 184, p. 186. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
+      "Actions": "Blood Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 4 (1d4 + 2) piercing damage and attaches the stirge to the target. While attached, the stirge cannot attack and the target loses 4 (1d4 + 2) HP at the start of each of the stirge’s turns. The stirge moves with the target without spending movement. It can detach by spending 5 ft. of movement on its turn and does so after draining 8 HP of blood or if the target dies. Any creature, including the target, can use an action to detach the stirge.",
+      "Reactions": "Reactive Wiggle. If a creature within 5 ft. of the attached stirge targets it with an attack, the stirge can wiggle to expose the host’s flesh. The attacker must succeed on a DC 12 Dexterity save or the attack targets the host instead."
+    }
+  },
+  {
+    "name": "Tiger",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 38,
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Ability modifiers STR +3, DEX +2, CON +2, INT -4, WIS +1, CHA -1. Fixed Perception 13. Fixed Stealth 16. Darkvision 60 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky orange tiger with black stripes, a pale belly and muzzle, and a long ringed tail.",
+    "habitats": [
+      "Forest",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Tigre, printed p. 359, p. 361. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Smell. The tiger’s Perception is 18 when it relies on smell.\n\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claws on the same turn, the tiger forces a DC 13 Strength save. The target falls prone on a failure. If the target is prone, the tiger can make one Bite attack against it as a bonus action.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack. If both hit the same creature, that creature must succeed on a DC 13 Constitution save at the start of its next turn or lose 5 (2d4) HP to bleeding.\n\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 6 (1d6 + 3) piercing damage.\n\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) slashing damage."
+    }
+  },
+  {
+    "name": "Tiger, Saber-Toothed",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 63,
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Ability modifiers STR +4, DEX +2, CON +2, INT -4, WIS +1, CHA -1. Fixed Perception 13. Fixed Stealth 16. No special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy tawny feline with broad shoulders, a short tail, and two long curved upper canines.",
+    "habitats": [
+      "Arctic",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Tigre, dientes de sable, printed p. 359, p. 361. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Smell. The tiger’s Perception is 18 when it relies on smell.\n\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claws on the same turn, the tiger forces a DC 14 Strength save. The target falls prone on a failure. If the target is prone, the tiger can make one Claws attack against it as a bonus action.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\n\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 9 (1d10 + 4) piercing damage. The target must then succeed on a DC 14 Dexterity save or suffer a puncture wound. The wound causes loss of 5 (1d10) HP at the start of each of the target’s turns. Any creature can use an action and succeed on a DC 12 Wisdom (Medicine) check to close the wound. Magical healing received by the target also closes it.\n\nClaws. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) slashing damage."
+    }
+  }
+]

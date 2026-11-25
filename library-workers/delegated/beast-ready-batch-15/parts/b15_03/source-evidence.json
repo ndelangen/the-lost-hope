@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Blood Hawk",
+    "publication": "DDEX2-01 - City of Danger",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2015 release dated 2015-04-01 on the cover",
+    "adventureCode": "DDEX2-1",
+    "designer": "Shawn Merwin",
+    "debutDate": "2015-03-13",
+    "releaseDate": "2015-04-01",
+    "printedPages": [
+      12
+    ],
+    "pdfPages": [
+      12
+    ],
+    "encounterPages": [
+      10,
+      11
+    ],
+    "sourcePdf": "DDEX2-01 - City of ",
+    "sourcePdfPageCount": 41,
+    "sourcePdfSha256": "7ab992258a5e4deb08b30ed942d06f9a62a693cd71acecdb08e117f3f36494be",
+    "sourceUrl": "",
+    "productListing": "https://www.dmsguild.com/product/170386",
+    "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+    "officialErrata": "",
+    "errataEvidence": "The official Adventurers League FAQ adventure errata does not list this adventure.",
+    "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png.",
+    "habitatEvidence": "The tower and Elemental Plane of Air are explicit on p. 10.",
+    "printingNotes": [
+      "The cover dates the release April 1, 2015.",
+      "The Monster/NPC Statistics appendix gives a complete Beast block. The summoning provenance on p. 10 adds no traits or creature-type changes."
+    ]
+  },
+  {
+    "name": "Giant Badger",
+    "publication": "DDEX2-01 - City of Danger",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2015 release dated 2015-04-01 on the cover",
+    "adventureCode": "DDEX2-1",
+    "designer": "Shawn Merwin",
+    "debutDate": "2015-03-13",
+    "releaseDate": "2015-04-01",
+    "printedPages": [
+      25
+    ],
+    "pdfPages": [
+      25
+    ],
+    "encounterPages": [
+      22,
+      23
+    ],
+    "sourcePdf": "DDEX2-01 - City of ",
+    "sourcePdfPageCount": 41,
+    "sourcePdfSha256": "7ab992258a5e4deb08b30ed942d06f9a62a693cd71acecdb08e117f3f36494be",
+    "sourceUrl": "",
+    "productListing": "https://www.dmsguild.com/product/170386",
+    "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+    "officialErrata": "",
+    "errataEvidence": "The official Adventurers League FAQ adventure errata does not list this adventure.",
+    "appearanceEvidence": "Shared Batch 15 obsidian Giant Badger portrait. The black teeth and claws follow City of Danger p. 22. The shared portrait’s faint opalescent eyes reflect the DDEP2 encounter description.",
+    "habitatEvidence": "p. 22 places the beasts in the mine and its tunnels.",
+    "printingNotes": [
+      "The cover dates the release April 1, 2015.",
+      "The obsidian-like teeth and claws are specific to the encounter and do not change the printed damage or damage types. The temporary attack disadvantage is the p. 22 encounter procedure."
+    ]
+  },
+  {
+    "name": "Giant Frog",
+    "publication": "DDEX2-01 - City of Danger",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2015 release dated 2015-04-01 on the cover",
+    "adventureCode": "DDEX2-1",
+    "designer": "Shawn Merwin",
+    "debutDate": "2015-03-13",
+    "releaseDate": "2015-04-01",
+    "printedPages": [
+      32
+    ],
+    "pdfPages": [
+      32
+    ],
+    "encounterPages": [
+      30,
+      31
+    ],
+    "sourcePdf": "DDEX2-01 - City of ",
+    "sourcePdfPageCount": 41,
+    "sourcePdfSha256": "7ab992258a5e4deb08b30ed942d06f9a62a693cd71acecdb08e117f3f36494be",
+    "sourceUrl": "",
+    "productListing": "https://www.dmsguild.com/product/170386",
+    "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+    "officialErrata": "",
+    "errataEvidence": "The official Adventurers League FAQ adventure errata does not list this adventure.",
+    "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-04/parts/b04_07/portraits/giant-frog.png.",
+    "habitatEvidence": "p. 30 identifies the partially submerged grotto under the bay of Mulmaster.",
+    "printingNotes": [
+      "The cover dates the release April 1, 2015.",
+      "The printed Bite can grapple any target it hits. Small or smaller is the separate Swallow restriction."
+    ]
+  },
+  {
+    "name": "Giant Badger",
+    "publication": "DDEX2-07 - Bounty in the Bog",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2015 release dated 2015-05-01 on the cover",
+    "adventureCode": "DDEX2-7",
+    "designer": "Ken Hart",
+    "debutDate": "2015-04-10",
+    "releaseDate": "2015-05-01",
+    "printedPages": [
+      22
+    ],
+    "pdfPages": [
+      22
+    ],
+    "encounterPages": [
+      14,
+      15,
+      18
+    ],
+    "sourcePdf": "DDEX2-07 - Bounty in the ",
+    "sourcePdfPageCount": 27,
+    "sourcePdfSha256": "d0deb9968a738677134e93e89b0aeb7a820ac5cc806b0b62f0302c05ca6c9e16",
+    "sourceUrl": "",
+    "productListing": "https://www.dmsguild.com/product/170481",
+    "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+    "officialErrata": "",
+    "errataEvidence": "The official Adventurers League FAQ corrects the adventure’s per-character XP minimum and maximum from 450–600 on p. 18 to 900–1,200. Its erratum leaves the printed per-creature XP and creature mechanics intact.",
+    "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-04/parts/b04_04/portraits/giant-badger.png.",
+    "habitatEvidence": "The Flooded Forest and the underground grotto are the adventure locations described on pp. 14–15.",
+    "printingNotes": [
+      "The cover dates the release May 1, 2015. Its level 5–10 cover blurb conflicts with the interior and the official adventure index’s 1–4 scope.",
+      "The p. 22 stat block and p. 18 combat award both give 50 XP. The grotto badger’s tactics appear on p. 15."
+    ]
+  },
+  {
+    "name": "Giant Wasp",
+    "publication": "DDEX2-07 - Bounty in the Bog",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2015 release dated 2015-05-01 on the cover",
+    "adventureCode": "DDEX2-7",
+    "designer": "Ken Hart",
+    "debutDate": "2015-04-10",
+    "releaseDate": "2015-05-01",
+    "printedPages": [
+      21
+    ],
+    "pdfPages": [
+      21
+    ],
+    "encounterPages": [
+      10,
+      11,
+      13,
+      18
+    ],
+    "sourcePdf": "DDEX2-07 - Bounty in the ",
+    "sourcePdfPageCount": 27,
+    "sourcePdfSha256": "d0deb9968a738677134e93e89b0aeb7a820ac5cc806b0b62f0302c05ca6c9e16",
+    "sourceUrl": "",
+    "productListing": "https://www.dmsguild.com/product/170481",
+    "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+    "officialErrata": "",
+    "errataEvidence": "The official Adventurers League FAQ corrects the adventure’s per-character XP minimum and maximum from 450–600 on p. 18 to 900–1,200. Its erratum leaves the printed per-creature XP and creature mechanics intact.",
+    "appearanceEvidence": "Editorial description of the reused portrait at srd-giant-insects/portraits/wasp-draft.png.",
+    "habitatEvidence": "p. 13 places the nest overhead in a tree in the swampy Flooded Forest.",
+    "printingNotes": [
+      "The cover dates the release May 1, 2015. Its level 5–10 cover blurb conflicts with the interior and the official adventure index’s 1–4 scope.",
+      "The p. 21 Sting preserves the full zero-HP poison rule. Carrying paralyzed adventurers and the repellent procedure come from p. 13. The p. 18 combat award confirms 100 XP per wasp."
+    ]
+  }
+]

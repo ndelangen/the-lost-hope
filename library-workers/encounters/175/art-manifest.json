@@ -1,0 +1,856 @@
+{
+  "new": {
+    "Fluxcharger": {
+      "path": "output/dm-library/encounter-batches/175/art/fluxcharger.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d488a0374ae45f8fff0bf62dd55380050f623bd648ac01c8ad13ed753cc06b03",
+      "bytes": 2792707
+    },
+    "Flying Horror": {
+      "path": "output/dm-library/encounter-batches/175/art/flying-horror.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dae0f79ad1c47c38e4cda93fb3b28e1daca3ac84fb39b5fa75c69c57de34918d",
+      "bytes": 2640072
+    },
+    "Frontline Medic": {
+      "path": "output/dm-library/encounter-batches/175/art/frontline-medic.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a82ed230fb773b7e16bde87a73a7996cf15256ca086bd157dd73663527cbb130",
+      "bytes": 2704212
+    },
+    "Galvanice Weird": {
+      "path": "output/dm-library/encounter-batches/175/art/galvanice-weird.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6dd83fa73fb113a52dc30c24bfaf639758515fe23fd6dec09b8be501f5598268",
+      "bytes": 3055132
+    },
+    "Gloamwing": {
+      "path": "output/dm-library/encounter-batches/175/art/gloamwing.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6a0175ae6d3c798b28cf58eeda08f84ee183aee12e436e6724cd6afdb92bf463",
+      "bytes": 2649178
+    },
+    "Golgari Shaman": {
+      "path": "output/dm-library/encounter-batches/175/art/golgari-shaman.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b7025e3f42636563447a6b474e70f8114a2369f30c1c430aad05937dfe937597",
+      "bytes": 2607384
+    },
+    "Guardian Giant": {
+      "path": "output/dm-library/encounter-batches/175/art/guardian-giant.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3170ba2b2bc4b889644409f26585f39e5a557977fb3e3c33bb44a192c1792621",
+      "bytes": 2786383
+    },
+    "Horncaller": {
+      "path": "output/dm-library/encounter-batches/175/art/horncaller.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f6ae9879c1597732f5224ffe223d6c8d5f253ac3c3b88d1edeb7c8fa9a877422",
+      "bytes": 2615216
+    },
+    "Hybrid Brute": {
+      "path": "output/dm-library/encounter-batches/175/art/hybrid-brute.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e5a4189a45d7831bc7d8a6957963ceed1b28836082a1a7ecfca074c15844dc3b",
+      "bytes": 2679613
+    },
+    "Hybrid Flier": {
+      "path": "output/dm-library/encounter-batches/175/art/hybrid-flier.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dfdec56c8595df9db9bc3e779bca4ca25a90c923f08e8e05b64163567f8f8df3",
+      "bytes": 2534750
+    },
+    "Hybrid Poisoner": {
+      "path": "output/dm-library/encounter-batches/175/art/hybrid-poisoner.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "41fff29f65729bfea0f8a7974831e6b17b78991aa6e883304d0d4b876e42007d",
+      "bytes": 2535697
+    },
+    "Hybrid Shocker": {
+      "path": "output/dm-library/encounter-batches/175/art/hybrid-shocker.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b6aa8e34806f522946a58e95bd756961507b82633a036d3c26b346c1b6c48efd",
+      "bytes": 2570285
+    },
+    "Hybrid Spy": {
+      "path": "output/dm-library/encounter-batches/175/art/hybrid-spy.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1547aeb76a2f42087c446300226a0ab6f38f46d6b962f68468d8f8ef575f9f18",
+      "bytes": 2451082
+    },
+    "Indentured Spirit": {
+      "path": "output/dm-library/encounter-batches/175/art/indentured-spirit.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "67a3d64d785ce41b3c18f5d0639953ef5c9e12ba04bf1e9f6cd615c2cf261b49",
+      "bytes": 2518531
+    },
+    "Isperia": {
+      "path": "output/dm-library/encounter-batches/175/art/isperia.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "53ae70553e6a4ddda7806993117566ebda17a14e8ec0d728272bfe966b5fe167",
+      "bytes": 2586171
+    },
+    "Jarad Vod Savo": {
+      "path": "output/dm-library/encounter-batches/175/art/jarad-vod-savo.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "08f52a9968a3c3478613f46393a966d0ab47530583d11197c92e847354eb627a",
+      "bytes": 2542411
+    },
+    "Kraul Death Priest": {
+      "path": "output/dm-library/encounter-batches/175/art/kraul-death-priest.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b052ea6e39a65052689219ec284364726626decd1cbc6b89770456e8d5533fa1",
+      "bytes": 2769223
+    },
+    "Kraul Warrior": {
+      "path": "output/dm-library/encounter-batches/175/art/kraul-warrior.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ed1bf2e4ae04b04bff2a58a2ecfa3ecd32e0f6dd339e4037ef9277333e286fb0",
+      "bytes": 2654141
+    },
+    "Lawmage": {
+      "path": "output/dm-library/encounter-batches/175/art/lawmage.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5157b923daec53b3d05269273a237f5f50023703abf82dee7483bf2050952f1d",
+      "bytes": 2527533
+    },
+    "Lazav": {
+      "path": "output/dm-library/encounter-batches/175/art/lazav.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6cc898e4ed519b5090e933c444d85e26c8e1942f3acd14026edb1faedacb275f",
+      "bytes": 2333036
+    },
+    "Winged Kraul Warrior": {
+      "path": "output/dm-library/encounter-batches/175/art/winged-kraul-warrior.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "207bfbbbaecb81433b81464915d8c37ac71f3826c1af0e19fa21c12a459fbd29",
+      "bytes": 2861127
+    },
+    "Master of Cruelties": {
+      "path": "output/dm-library/encounter-batches/175/art/master-of-cruelties.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8e5f91ad27e3176a321fed994a3565329aaaa18305ac4bf01b9d957bb0016765",
+      "bytes": 2728271
+    },
+    "Mind Drinker Vampire": {
+      "path": "output/dm-library/encounter-batches/175/art/mind-drinker-vampire.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5ed09e667bce44cccf6a9c6c9948970392a0aa98221544ddcd46842bc75986d6",
+      "bytes": 2396140
+    },
+    "Mind Mage": {
+      "path": "output/dm-library/encounter-batches/175/art/mind-mage.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "801ab10456486ecc29f6a56a7e3a5a1f9088b53623c9bb44d2211477b4ce72a9",
+      "bytes": 2314766
+    },
+    "Nightveil Specter": {
+      "path": "output/dm-library/encounter-batches/175/art/nightveil-specter.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4f85dc525a76728d3bcd57a306d333d2ad122033f514b4720a891092abea74f4",
+      "bytes": 2782149
+    },
+    "Niv-Mizzet": {
+      "path": "output/dm-library/encounter-batches/175/art/niv-mizzet.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ed0c809cac553c435cf043354d6b6e865cfbbcd0f3338c243903de5547daab84",
+      "bytes": 2649553
+    },
+    "Nivix Cyclops": {
+      "path": "output/dm-library/encounter-batches/175/art/nivix-cyclops.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b74663d8423d2af1718a4680814903dbb4d44b767c2c3031b2b454ff24558601",
+      "bytes": 2765773
+    },
+    "Obzedat Ghost": {
+      "path": "output/dm-library/encounter-batches/175/art/obzedat-ghost.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "713de696bde32df6df8ab31bd61caf69a8b590bcdcff72abdcf6728364eb971b",
+      "bytes": 2169697
+    },
+    "Orzhov Giant": {
+      "path": "output/dm-library/encounter-batches/175/art/orzhov-giant.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6206e5d335d0d742c21eaed2560e34b78b1a4232d8afa9fbf33dc22cf5bdfe6a",
+      "bytes": 2413485
+    },
+    "Precognitive Mage": {
+      "path": "output/dm-library/encounter-batches/175/art/precognitive-mage.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "73b5fc238b69449d1007c40427882415c7f78669538c045c32be5939b7f61f99",
+      "bytes": 2327982
+    },
+    "Rakdos": {
+      "path": "output/dm-library/encounter-batches/175/art/rakdos.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5a0cbc7d06c57f24bd0df12345754389af3c012385f0e9708e14ce5985a073ce",
+      "bytes": 2768623
+    },
+    "Rakdos Lampooner": {
+      "path": "output/dm-library/encounter-batches/175/art/rakdos-lampooner.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "26936862f9ebd37dc607eb722788d1178bce69216748e5bfe047b4cfd55b43b9",
+      "bytes": 2707368
+    },
+    "Rakdos Performer, Blade Juggler": {
+      "path": "output/dm-library/encounter-batches/175/art/rakdos-performer-blade-juggler.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8abfc09d603948fe1279b8b3c9fbed8b568896bb310997ab03deb78e8893eac1",
+      "bytes": 2312143
+    },
+    "Rakdos Performer, Fire Eater": {
+      "path": "output/dm-library/encounter-batches/175/art/rakdos-performer-fire-eater.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6ce5494b966d5601618b18dc778697f3bcf33c5155c73129d067943fb1c94505",
+      "bytes": 2650947
+    },
+    "Rakdos Performer, High-Wire Acrobat": {
+      "path": "output/dm-library/encounter-batches/175/art/rakdos-performer-high-wire-acrobat.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1ae364e9feba43a8d8e153c294246a2c6321cd2c1f33ae462b8e8925d1a19aad",
+      "bytes": 2560418
+    },
+    "Reckoner": {
+      "path": "output/dm-library/encounter-batches/175/art/reckoner.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "edfeddbdd01f90fa73826241b7359a05a5510858cf98b58d81350ae13c3ff342",
+      "bytes": 2794225
+    },
+    "Rubblebelt Stalker": {
+      "path": "output/dm-library/encounter-batches/175/art/rubblebelt-stalker.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d3c77dfe282b1f21dc1b453aad6c1b4f5e9ab015eb1d607299770a961f58bbc9",
+      "bytes": 2702699
+    },
+    "Scorchbringer Guard": {
+      "path": "output/dm-library/encounter-batches/175/art/scorchbringer-guard.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab1cf2aa296b23c8743d27b3ada2538d090ceb05c90c4b67507aa0364039a8c1",
+      "bytes": 2555867
+    },
+    "Servitor Thrull": {
+      "path": "output/dm-library/encounter-batches/175/art/servitor-thrull.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "15160159f8ce47820d07b8d7212657f0fdcf500c329030725355162ff2014cfb",
+      "bytes": 2604225
+    },
+    "Shadow Horror": {
+      "path": "output/dm-library/encounter-batches/175/art/shadow-horror.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "80a37cac38679b0ce6ad46dfb71e0ce654341e9714fd5b5b58aa230685506f7e",
+      "bytes": 2461585
+    },
+    "Simic Merfolk": {
+      "path": "output/dm-library/encounter-batches/175/art/simic-merfolk.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9a6bd470f44d02059916ce0f052f1b5699df2408f9e105538429254889b50153",
+      "bytes": 2352949
+    },
+    "Sire of Insanity": {
+      "path": "output/dm-library/encounter-batches/175/art/sire-of-insanity.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "80eada20c0d4c4990fc317888989a3abd44a95686b257444b2e340874313b664",
+      "bytes": 2665018
+    },
+    "Skittering Horror": {
+      "path": "output/dm-library/encounter-batches/175/art/skittering-horror.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0ede6ff9e18269cdfde181997dce3b084c8e1eeb8e10a87321f025f9856992fb",
+      "bytes": 2744380
+    },
+    "Skyjek Roc": {
+      "path": "output/dm-library/encounter-batches/175/art/skyjek-roc.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ebc9bd8d563e647892625ceff2897d3efa1cf054f32cb3d6ee74874f3a06c3bc",
+      "bytes": 2550153
+    },
+    "Winged Thrull": {
+      "path": "output/dm-library/encounter-batches/175/art/winged-thrull.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cee137527cb8cc6a7190411b061266493908a6fad2a1ceb3067c07c8169dc409",
+      "bytes": 2563685
+    },
+    "Skyswimmer": {
+      "path": "output/dm-library/encounter-batches/175/art/skyswimmer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8ed17ce8ea6b0205f73ba5d26efc280bd1e6a12a60210e079e6cf3f8fc87eb29",
+      "bytes": 2886514
+    },
+    "Soldier": {
+      "path": "output/dm-library/encounter-batches/175/art/soldier.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9a0f60380224a8f07c5bb09190cdef35181368aefbf63903c924dac1dc9fb39e",
+      "bytes": 2484012
+    },
+    "Sphinx of Judgment": {
+      "path": "output/dm-library/encounter-batches/175/art/sphinx-of-judgment.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9b7c50071beb79dc260132737c243b9db369d3ca5cf67569405e0bb55892c0c5",
+      "bytes": 2688802
+    },
+    "Sunder Shaman": {
+      "path": "output/dm-library/encounter-batches/175/art/sunder-shaman.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4d24808a53bdf4ccf03fa6dc4a6f2b27bc01dc67effda1e4ed05c6a4c5b10d81",
+      "bytes": 2754076
+    },
+    "Winged Felidar": {
+      "path": "output/dm-library/encounter-batches/175/art/winged-felidar.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0243695aaa3f1577d16065d0cea065ccce41dbb8e8c825fd7655fcc33c603e18",
+      "bytes": 2710819
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-593deb5eee1a8c488584632c",
+      "version": "b742dd45df3efbee65000dfc",
+      "name": "Fluxcharger",
+      "file": "images/monsters/fluxcharger/batch-175-portrait.png",
+      "sha256": "d488a0374ae45f8fff0bf62dd55380050f623bd648ac01c8ad13ed753cc06b03",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2d5e75c68fd565cf0c1b0011",
+      "version": "1e51d034a3a5c34c3402e3ba",
+      "name": "Flying Horror",
+      "file": "images/monsters/flying-horror/batch-175-portrait.png",
+      "sha256": "dae0f79ad1c47c38e4cda93fb3b28e1daca3ac84fb39b5fa75c69c57de34918d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-23eeab59f74ab4620c30291c",
+      "version": "a15b92d9d4b34cb1b6c85207",
+      "name": "Frontline Medic",
+      "file": "images/monsters/frontline-medic/batch-175-portrait.png",
+      "sha256": "a82ed230fb773b7e16bde87a73a7996cf15256ca086bd157dd73663527cbb130",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-00410bc3cd8b8dcd5564dcff",
+      "version": "0e1a19ea70139a29d8255b98",
+      "name": "Galvanice Weird",
+      "file": "images/monsters/galvanice-weird/batch-175-portrait.png",
+      "sha256": "6dd83fa73fb113a52dc30c24bfaf639758515fe23fd6dec09b8be501f5598268",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-eb61440f43401a6f1a823853",
+      "version": "3ccf06280632943f8b7fc26b",
+      "name": "Gloamwing",
+      "file": "images/monsters/gloamwing/batch-175-portrait.png",
+      "sha256": "6a0175ae6d3c798b28cf58eeda08f84ee183aee12e436e6724cd6afdb92bf463",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8cb7d6c5e78c92c73b2c583f",
+      "version": "85b73ca7101540646c49b98f",
+      "name": "Golgari Shaman",
+      "file": "images/monsters/golgari-shaman/batch-175-portrait.png",
+      "sha256": "b7025e3f42636563447a6b474e70f8114a2369f30c1c430aad05937dfe937597",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d9130b9d56ec81aaff33f3bc",
+      "version": "6bdb9a42865765e349e97d54",
+      "name": "Guardian Giant",
+      "file": "images/monsters/guardian-giant/batch-175-portrait.png",
+      "sha256": "3170ba2b2bc4b889644409f26585f39e5a557977fb3e3c33bb44a192c1792621",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a5b19f952d4f6fccc37f9bb4",
+      "version": "68e3d80e149aab3d19a54956",
+      "name": "Horncaller",
+      "file": "images/monsters/horncaller/batch-175-portrait.png",
+      "sha256": "f6ae9879c1597732f5224ffe223d6c8d5f253ac3c3b88d1edeb7c8fa9a877422",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5561040b8922dd3af61c031f",
+      "version": "6d8e8df2c4894564c233c867",
+      "name": "Hybrid Brute",
+      "file": "images/monsters/hybrid-brute/batch-175-portrait.png",
+      "sha256": "e5a4189a45d7831bc7d8a6957963ceed1b28836082a1a7ecfca074c15844dc3b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a8fe62e7862cdd93b47f0136",
+      "version": "64d21d536f46407821a3eec4",
+      "name": "Hybrid Flier",
+      "file": "images/monsters/hybrid-flier/batch-175-portrait.png",
+      "sha256": "dfdec56c8595df9db9bc3e779bca4ca25a90c923f08e8e05b64163567f8f8df3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a1e3c89b9ee81747c54a21ca",
+      "version": "43caf3a2d4ddf8edb4e19c73",
+      "name": "Hybrid Poisoner",
+      "file": "images/monsters/hybrid-poisoner/batch-175-portrait.png",
+      "sha256": "41fff29f65729bfea0f8a7974831e6b17b78991aa6e883304d0d4b876e42007d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6aff3ee7e4bd1084bfa3bf62",
+      "version": "fab16a2a5d507b13e0f947b2",
+      "name": "Hybrid Shocker",
+      "file": "images/monsters/hybrid-shocker/batch-175-portrait.png",
+      "sha256": "b6aa8e34806f522946a58e95bd756961507b82633a036d3c26b346c1b6c48efd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-bb2b2396de4a0bc8a7270df8",
+      "version": "0ff65b92cd2e631ba1e7c62c",
+      "name": "Hybrid Spy",
+      "file": "images/monsters/hybrid-spy/batch-175-portrait.png",
+      "sha256": "1547aeb76a2f42087c446300226a0ab6f38f46d6b962f68468d8f8ef575f9f18",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d51fe034adb8ebf06244258f",
+      "version": "9caeec299edfe41de5e16f59",
+      "name": "Indentured Spirit",
+      "file": "images/monsters/indentured-spirit/batch-175-portrait.png",
+      "sha256": "67a3d64d785ce41b3c18f5d0639953ef5c9e12ba04bf1e9f6cd615c2cf261b49",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8470ae6b57df9024aa17b367",
+      "version": "8a483b1d15518b477616daab",
+      "name": "Isperia",
+      "file": "images/monsters/isperia/batch-175-portrait.png",
+      "sha256": "53ae70553e6a4ddda7806993117566ebda17a14e8ec0d728272bfe966b5fe167",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a22a810e0d405b4ae05f7f7d",
+      "version": "645d7dff72ad2fb2839b3d12",
+      "name": "Jarad Vod Savo",
+      "file": "images/monsters/jarad-vod-savo/batch-175-portrait.png",
+      "sha256": "08f52a9968a3c3478613f46393a966d0ab47530583d11197c92e847354eb627a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-76d0d88d68a92e1d76c7ad34",
+      "version": "45adf45395c330fe86ee5827",
+      "name": "Kraul Death Priest",
+      "file": "images/monsters/kraul-death-priest/batch-175-portrait.png",
+      "sha256": "b052ea6e39a65052689219ec284364726626decd1cbc6b89770456e8d5533fa1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-fee61807d3a11466e236e6ab",
+      "version": "250244eac8c4c037e210ba81",
+      "name": "Kraul Warrior",
+      "file": "images/monsters/kraul-warrior/batch-175-portrait.png",
+      "sha256": "ed1bf2e4ae04b04bff2a58a2ecfa3ecd32e0f6dd339e4037ef9277333e286fb0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-cd127572904a5bbd145bdb70",
+      "version": "5955e49c95a8362aa15330b5",
+      "name": "Lawmage",
+      "file": "images/monsters/lawmage/batch-175-portrait.png",
+      "sha256": "5157b923daec53b3d05269273a237f5f50023703abf82dee7483bf2050952f1d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-eae28fa5675a9849d3c85627",
+      "version": "f4646bb9b992acca7f5116e6",
+      "name": "Lazav",
+      "file": "images/monsters/lazav/batch-175-portrait.png",
+      "sha256": "6cc898e4ed519b5090e933c444d85e26c8e1942f3acd14026edb1faedacb275f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-bce89b4c87dec4d78ed85d5b",
+      "version": "a7e4deca4f27b39651bdad03",
+      "name": "Winged Kraul Warrior",
+      "file": "images/monsters/winged-kraul-warrior/batch-175-portrait.png",
+      "sha256": "207bfbbbaecb81433b81464915d8c37ac71f3826c1af0e19fa21c12a459fbd29",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4c2bea33592609ac58295a4f",
+      "version": "549e1d7fdb39af327457e9ce",
+      "name": "Master of Cruelties",
+      "file": "images/monsters/master-of-cruelties/batch-175-portrait.png",
+      "sha256": "8e5f91ad27e3176a321fed994a3565329aaaa18305ac4bf01b9d957bb0016765",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-88de4e524dc03cffccbb2430",
+      "version": "693d836bd0aebef477dd8d21",
+      "name": "Mind Drinker Vampire",
+      "file": "images/monsters/mind-drinker-vampire/batch-175-portrait.png",
+      "sha256": "5ed09e667bce44cccf6a9c6c9948970392a0aa98221544ddcd46842bc75986d6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e94f4e22462d9ea2d63e1622",
+      "version": "bb054c4d6221b8e539e6f1ba",
+      "name": "Mind Mage",
+      "file": "images/monsters/mind-mage/batch-175-portrait.png",
+      "sha256": "801ab10456486ecc29f6a56a7e3a5a1f9088b53623c9bb44d2211477b4ce72a9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6e6be30d30585dd504e20f48",
+      "version": "7c815eb3253c8f2062a7b6db",
+      "name": "Nightveil Specter",
+      "file": "images/monsters/nightveil-specter/batch-175-portrait.png",
+      "sha256": "4f85dc525a76728d3bcd57a306d333d2ad122033f514b4720a891092abea74f4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-79014f8862a4fa9234d2e000",
+      "version": "0164660a3275d7869c77e7f7",
+      "name": "Niv-Mizzet",
+      "file": "images/monsters/niv-mizzet/batch-175-portrait.png",
+      "sha256": "ed0c809cac553c435cf043354d6b6e865cfbbcd0f3338c243903de5547daab84",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-1092dcbccfce355bcdc72193",
+      "version": "ed97114b4ddde204480458c3",
+      "name": "Nivix Cyclops",
+      "file": "images/monsters/nivix-cyclops/batch-175-portrait.png",
+      "sha256": "b74663d8423d2af1718a4680814903dbb4d44b767c2c3031b2b454ff24558601",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-fb3385c3f2aa0deeb8cd4a7d",
+      "version": "c7f9c2490eba0b21d291df6a",
+      "name": "Obzedat Ghost",
+      "file": "images/monsters/obzedat-ghost/batch-175-portrait.png",
+      "sha256": "713de696bde32df6df8ab31bd61caf69a8b590bcdcff72abdcf6728364eb971b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-bc9d36bfb8cb5d46f44cbaf6",
+      "version": "be7699418356b78d83ac2394",
+      "name": "Orzhov Giant",
+      "file": "images/monsters/orzhov-giant/batch-175-portrait.png",
+      "sha256": "6206e5d335d0d742c21eaed2560e34b78b1a4232d8afa9fbf33dc22cf5bdfe6a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-29aa01ad671fe1fa10ead0a7",
+      "version": "7d0d30bcf2fb1e4a0d5d32de",
+      "name": "Precognitive Mage",
+      "file": "images/monsters/precognitive-mage/batch-175-portrait.png",
+      "sha256": "73b5fc238b69449d1007c40427882415c7f78669538c045c32be5939b7f61f99",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f312dfb06972d087ed0ea4c7",
+      "version": "9f0be6d9ba46020e50010668",
+      "name": "Rakdos",
+      "file": "images/monsters/rakdos/batch-175-portrait.png",
+      "sha256": "5a0cbc7d06c57f24bd0df12345754389af3c012385f0e9708e14ce5985a073ce",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b787f1d59eaebfb9e3c5710b",
+      "version": "d6ce893b5e8b0f3f37ec0c67",
+      "name": "Rakdos Lampooner",
+      "file": "images/monsters/rakdos-lampooner/batch-175-portrait.png",
+      "sha256": "26936862f9ebd37dc607eb722788d1178bce69216748e5bfe047b4cfd55b43b9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-28c38f8fd2c20d3d180d8952",
+      "version": "00c8162d1cebdeed1fbec30a",
+      "name": "Rakdos Performer, Blade Juggler",
+      "file": "images/monsters/rakdos-performer-blade-juggler/batch-175-portrait.png",
+      "sha256": "8abfc09d603948fe1279b8b3c9fbed8b568896bb310997ab03deb78e8893eac1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ea8bc41e5c98754f0e6d3896",
+      "version": "563a0d97ac679f37e408951f",
+      "name": "Rakdos Performer, Fire Eater",
+      "file": "images/monsters/rakdos-performer-fire-eater/batch-175-portrait.png",
+      "sha256": "6ce5494b966d5601618b18dc778697f3bcf33c5155c73129d067943fb1c94505",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a9be4632b42f20771e46c54b",
+      "version": "20ec71fea9bbfdbd228761eb",
+      "name": "Rakdos Performer, High-Wire Acrobat",
+      "file": "images/monsters/rakdos-performer-high-wire-acrobat/batch-175-portrait.png",
+      "sha256": "1ae364e9feba43a8d8e153c294246a2c6321cd2c1f33ae462b8e8925d1a19aad",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-52cb04deb48ae626d110f887",
+      "version": "8ee76934d09c22dd8b809c42",
+      "name": "Reckoner",
+      "file": "images/monsters/reckoner/batch-175-portrait.png",
+      "sha256": "edfeddbdd01f90fa73826241b7359a05a5510858cf98b58d81350ae13c3ff342",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-7d78d981930523b0f580c8a0",
+      "version": "d39feae9ab65d7760a5dc34b",
+      "name": "Rubblebelt Stalker",
+      "file": "images/monsters/rubblebelt-stalker/batch-175-portrait.png",
+      "sha256": "d3c77dfe282b1f21dc1b453aad6c1b4f5e9ab015eb1d607299770a961f58bbc9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ae03fe38fdae4cb4e388edf0",
+      "version": "298604eb34fa15fa56d60479",
+      "name": "Scorchbringer Guard",
+      "file": "images/monsters/scorchbringer-guard/batch-175-portrait.png",
+      "sha256": "ab1cf2aa296b23c8743d27b3ada2538d090ceb05c90c4b67507aa0364039a8c1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-791689ff347b851ef7bdb63d",
+      "version": "40088dfa2e09d1d810a97592",
+      "name": "Servitor Thrull",
+      "file": "images/monsters/servitor-thrull/batch-175-portrait.png",
+      "sha256": "15160159f8ce47820d07b8d7212657f0fdcf500c329030725355162ff2014cfb",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-87d1439e38cfda757f7260d9",
+      "version": "9a12bde8da8a42825ae9b038",
+      "name": "Shadow Horror",
+      "file": "images/monsters/shadow-horror/batch-175-portrait.png",
+      "sha256": "80a37cac38679b0ce6ad46dfb71e0ce654341e9714fd5b5b58aa230685506f7e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5baeaccbf6ba59e9a07a01a3",
+      "version": "f7b642dc17356ada74bf8db9",
+      "name": "Simic Merfolk",
+      "file": "images/monsters/simic-merfolk/batch-175-portrait.png",
+      "sha256": "9a6bd470f44d02059916ce0f052f1b5699df2408f9e105538429254889b50153",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e8f50da5b89e4dbd86e2cfc0",
+      "version": "915053eab2e04642d86f9778",
+      "name": "Sire of Insanity",
+      "file": "images/monsters/sire-of-insanity/batch-175-portrait.png",
+      "sha256": "80eada20c0d4c4990fc317888989a3abd44a95686b257444b2e340874313b664",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e8f4d3a981842d332cd015c9",
+      "version": "d8f974bd7ae6c7a75737146f",
+      "name": "Skittering Horror",
+      "file": "images/monsters/skittering-horror/batch-175-portrait.png",
+      "sha256": "0ede6ff9e18269cdfde181997dce3b084c8e1eeb8e10a87321f025f9856992fb",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-7ec7196b20b288b2e94fac99",
+      "version": "56d582370c86cf6eef279c8c",
+      "name": "Skyjek Roc",
+      "file": "images/monsters/skyjek-roc/batch-175-portrait.png",
+      "sha256": "ebc9bd8d563e647892625ceff2897d3efa1cf054f32cb3d6ee74874f3a06c3bc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-33676fe12b980db30c4219cd",
+      "version": "9590d007e47f065ed4dae893",
+      "name": "Winged Thrull",
+      "file": "images/monsters/winged-thrull/batch-175-portrait.png",
+      "sha256": "cee137527cb8cc6a7190411b061266493908a6fad2a1ceb3067c07c8169dc409",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-95658e43590ba1785c2f3323",
+      "version": "18c3de05cf1c3958218a1fe8",
+      "name": "Skyswimmer",
+      "file": "images/monsters/skyswimmer/batch-175-portrait.png",
+      "sha256": "8ed17ce8ea6b0205f73ba5d26efc280bd1e6a12a60210e079e6cf3f8fc87eb29",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e0c08c2b1f538cd00a812dee",
+      "version": "5794f268db6029390d879bbe",
+      "name": "Soldier",
+      "file": "images/monsters/soldier/batch-175-portrait.png",
+      "sha256": "9a0f60380224a8f07c5bb09190cdef35181368aefbf63903c924dac1dc9fb39e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9285cdb271a559a489d3c38c",
+      "version": "166f7bb764b68ff194d7d734",
+      "name": "Sphinx of Judgment",
+      "file": "images/monsters/sphinx-of-judgment/batch-175-portrait.png",
+      "sha256": "9b7c50071beb79dc260132737c243b9db369d3ca5cf67569405e0bb55892c0c5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-cc0786399446ff38f9a3c698",
+      "version": "8ef8b414c994f99bc9cb5211",
+      "name": "Sunder Shaman",
+      "file": "images/monsters/sunder-shaman/batch-175-portrait.png",
+      "sha256": "4d24808a53bdf4ccf03fa6dc4a6f2b27bc01dc67effda1e4ed05c6a4c5b10d81",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a464dc1f867b4b45f4889da5",
+      "version": "3993e50da0c5fbb6f1606e46",
+      "name": "Winged Felidar",
+      "file": "images/monsters/winged-felidar/batch-175-portrait.png",
+      "sha256": "0243695aaa3f1577d16065d0cea065ccce41dbb8e8c825fd7655fcc33c603e18",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

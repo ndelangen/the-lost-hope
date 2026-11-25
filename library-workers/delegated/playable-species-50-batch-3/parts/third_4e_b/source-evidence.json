@@ -1,0 +1,321 @@
+[
+  {
+    "name": "Human",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 46,
+    "printedPages": [
+      46,
+      47
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "sourceDistinctions": [
+      "Uses the original core Human and its extra class at-will. Later setting heritages and Essentials options are separate."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Fighter",
+        "url": "",
+        "printedPages": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), ability scores and character statistics",
+        "url": "",
+        "printedPages": [
+          17,
+          18,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          193,
+          195,
+          198,
+          201,
+          214,
+          218,
+          219
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), combat actions and second wind",
+        "url": "",
+        "printedPages": [
+          268,
+          269,
+          287,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tiefling",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 48,
+    "printedPages": [
+      48,
+      49
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "sourceDistinctions": [
+      "Uses the original encounter minor-action Infernal Wrath, before official errata changed it to a free-action reaction to being hit. Named lineages are separate."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Paladin",
+        "url": "",
+        "printedPages": [
+          89,
+          90,
+          91,
+          92,
+          93
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), ability scores and character statistics",
+        "url": "",
+        "printedPages": [
+          17,
+          18,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          193,
+          195,
+          198,
+          201,
+          214,
+          218,
+          219
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), combat actions and second wind",
+        "url": "",
+        "printedPages": [
+          268,
+          269,
+          287,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Half-Orc",
+    "publication": "Player's Handbook 2 (4e)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 14,
+    "printedPages": [
+      14,
+      15
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "sourceDistinctions": [
+      "Uses the original fixed +2 Strength/+2 Dexterity and encounter Furious Assault from Player’s Handbook 2."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Fighter",
+        "url": "",
+        "printedPages": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), ability scores and character statistics",
+        "url": "",
+        "printedPages": [
+          17,
+          18,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          193,
+          195,
+          198,
+          201,
+          214,
+          218,
+          219
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), combat actions and second wind",
+        "url": "",
+        "printedPages": [
+          268,
+          269,
+          287,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Goblin",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 278,
+    "printedPages": [
+      278
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "sourceDistinctions": [
+      "The Monster Manual recommends DM permission for PC use of this profile. Goblin Tactics uses the printed immediate reaction. This build is separate from the published Goblin monster entries."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Rogue",
+        "url": "",
+        "printedPages": [
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), ability scores and character statistics",
+        "url": "",
+        "printedPages": [
+          17,
+          18,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          193,
+          195,
+          198,
+          201,
+          214,
+          218,
+          219
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), combat actions and second wind",
+        "url": "",
+        "printedPages": [
+          268,
+          269,
+          287,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Orc",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid",
+    "url": "",
+    "page": 278,
+    "printedPages": [
+      278
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "sourceDistinctions": [
+      "The Monster Manual recommends DM permission for PC use of this profile. Warrior’s Surge uses the printed standard melee weapon action and on-hit healing surge. This build is separate from the published Orc monster entries."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (4e), Fighter",
+        "url": "",
+        "printedPages": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), ability scores and character statistics",
+        "url": "",
+        "printedPages": [
+          17,
+          18,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), feats and equipment",
+        "url": "",
+        "printedPages": [
+          193,
+          195,
+          198,
+          201,
+          214,
+          218,
+          219
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), combat actions and second wind",
+        "url": "",
+        "printedPages": [
+          268,
+          269,
+          287,
+          291
+        ]
+      }
+    ]
+  }
+]

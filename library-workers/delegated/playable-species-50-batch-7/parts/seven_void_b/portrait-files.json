@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Keridani",
+    "file": "portraits/keridani.png",
+    "height": 1254,
+    "width": 1254,
+    "sha256": "999ab6b2204b0190817739e6126df90941bb6fe08ef07a9413bfcfb65e549bfa",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Naato",
+    "file": "portraits/naato.png",
+    "height": 1254,
+    "width": 1254,
+    "sha256": "b5bb2353f31763b3a80469ff425836fd7ace648d9bc2d5c443cc8ef0f74105e4",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Sipher",
+    "file": "portraits/sipher.png",
+    "height": 1254,
+    "width": 1254,
+    "sha256": "6d5bd05c3abc2d5f1a8e93042666392faa3111e15dec0c709f28b013a7e5c478",
+    "credit": "OpenAI ImageGen"
+  }
+]

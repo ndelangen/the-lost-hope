@@ -1,0 +1,34 @@
+{
+  "commit": "c77839e",
+  "batch": 92,
+  "verification": {
+    "testsPassed": 902,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Azurin",
+        "species": "species-95aba34cc8388ba29d8118fe",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Magic of Incarnum (2005)"
+        ],
+        "portraitSha256": "6cc7f4205f6be4ed16488051e81c9b42906d2340a4b037ca181517646fa5ba41",
+        "caption": "Lysa Vale · Original Azurin NPC",
+        "npcReceipts": [
+          {
+            "name": "Lysa Vale",
+            "id": "npc-2feab764b6d2dae9d617f747",
+            "challenge": "Provisional CR 1. ECL 1."
+          },
+          {
+            "name": "Rena Marr",
+            "id": "npc-43be826d9ae98dbf8219d190",
+            "challenge": "Provisional CR 1. ECL 1."
+          }
+        ]
+      }
+    ],
+    "browseThumbnail": true,
+    "r2AndBothLocalBackups": true
+  }
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Bear, Brown",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Oso, Pardo",
+    "printedPages": [
+      349
+    ],
+    "pdfPages": [
+      351
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 373 (p. 375) lists 200 XP for CR 1.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-04/parts/b04_02/portraits/brown-bear.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "Visually confirmed on the folio that Multiattack calls for one bite and one claw but phrases the grapple requirement as both claw attacks hitting. Kobold Press errata adds general escape procedure on p. 25 without revising either bear. The separate English Black Flag Reference Document gives a playable comparison requiring both listed attacks to hit the same creature.",
+      "The block starts at bottom left and continues at top right on the same folio."
+    ],
+    "terminologyComparisonUrl": ""
+  },
+  {
+    "name": "Bear, Polar",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Oso, polar",
+    "printedPages": [
+      349
+    ],
+    "pdfPages": [
+      351
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 373 (p. 375) lists 450 XP for CR 2.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-05/parts/b05_06/portraits/polar-bear.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "Visually confirmed on the folio that Multiattack calls for one bite and one claw but phrases the grapple requirement as both claw attacks hitting. Kobold Press errata adds general escape procedure on p. 25 without revising either bear. The separate English Black Flag Reference Document gives a playable comparison requiring both listed attacks to hit the same creature."
+    ],
+    "terminologyComparisonUrl": ""
+  },
+  {
+    "name": "Boar",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Jabalí",
+    "printedPages": [
+      345
+    ],
+    "pdfPages": [
+      347
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 50 XP for CR 1/4.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_03/portraits/boar.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "The Monster Vault errata reviewed here gives no entry-specific correction.",
+      "The English catalog rounds the printed CR 1/4 to 0.3."
+    ]
+  },
+  {
+    "name": "Boar, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Jabalí, Gigante",
+    "printedPages": [
+      345
+    ],
+    "pdfPages": [
+      347
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 373 (p. 375) lists 450 XP for CR 2.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-04/parts/b04_05/portraits/giant-boar.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "The Monster Vault errata reviewed here gives no entry-specific correction.",
+      "The block starts at bottom left and continues at top right on the same folio."
+    ]
+  },
+  {
+    "name": "Camel",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Monster Vault (2024), verified through the 2025 Nosolorol Spanish edition",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourcePublisher": "Nosolorol",
+    "sourceLanguage": "Spanish",
+    "sourceTranslator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition of Kobold Press’s 2024 Monster Vault",
+    "isbn": "979-13-87882-04-4",
+    "printedHeading": "Camello",
+    "printedPages": [
+      338
+    ],
+    "pdfPages": [
+      340
+    ],
+    "sourcePdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourceWitness": "Read the stat block and challenge roster in a local copy of Nosolorol’s published Spanish . The official English catalog independently confirms the indexed name, size, type, CR and habitats.",
+    "xpEvidence": "Cubil de Monstruos p. 372 (p. 374) lists 25 XP for CR 1/8.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-02/parts/b02_04/portraits/camel.png.",
+    "habitatEvidence": "Official English Monster Vault catalog tags.",
+    "printingNotes": [
+      "The Spanish block prints fixed HP and six ability modifiers.",
+      "The Monster Vault errata reviewed here gives no entry-specific correction.",
+      "The English catalog rounds the printed CR 1/8 to 0.1.",
+      "The general condition-resistance rule on Spanish p. 23 (p. 25) explains Camel Resilience."
+    ]
+  }
+]

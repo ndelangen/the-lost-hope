@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "niktoo",
+    "file": "portraits/niktoo.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c41436a38d6ebf71a6b5baeb6122f7e91137f467af21a00f49d09e00ac205566",
+    "credit": "OpenAI ImageGen, based on TSR’s creature description and the campaign’s Big Linda portrait style."
+  },
+  {
+    "artGroup": "succulus",
+    "file": "portraits/succulus.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6fa9bf97689e4aaddd307882ad7fd00a8ae5185ce8a095a6676649309d782acf",
+    "credit": "OpenAI ImageGen, based on TSR’s creature description and the campaign’s Big Linda portrait style."
+  }
+]

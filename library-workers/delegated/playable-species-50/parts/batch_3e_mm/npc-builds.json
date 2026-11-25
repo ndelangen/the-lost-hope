@@ -1,0 +1,290 @@
+{
+  "builds": [
+    {
+      "id": "srd35-centaur-ashrein-trail-envoy",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "type": "Monstrous Humanoid",
+      "title": "Centaur trail envoy, 4 racial HD",
+      "difficulty": "Provisional CR 3. ECL 6.",
+      "ac": 15,
+      "hp": 33,
+      "hitDice": "4d8+12",
+      "initiative": 3,
+      "speed": "50 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Elven, Sylvan",
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 16,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Listen +6",
+        "Move Silently +6",
+        "Spot +6",
+        "Survival +5"
+      ],
+      "traits": [
+        "Neutral good. BAB +4, grapple +13. Fort +4, Ref +7, Will +6. Touch 12, flat-footed 12.",
+        "Natural armor +3, Dexterity +3, Large size −1 to AC and attacks. Space 10 ft., reach 5 ft., or 10 ft. with the lance against distant targets. Feats are Martial Weapon Proficiency (lance) and Weapon Focus (longbow), which also covers composite longbows.",
+        "Racial ranks, Listen 4, Move Silently 3, Spot 4, Survival 3."
+      ],
+      "actions": [
+        "Large composite longbow (+5 Str rating) +7 ranged, 2d6+5 piercing, critical ×3, 110-ft. range increment.",
+        "Large lance +8 melee, 2d6+7 piercing wielded two-handed, critical ×3. A legal charge raises the attack to +10, deals 4d6+14 on an ordinary hit, and costs 2 AC until the next turn.",
+        "In a full attack, add two secondary hooves at +3 for 1d6+2 bludgeoning each against targets in natural reach."
+      ],
+      "tactics": "Myrine uses the bow while the families open a clear path. She lowers her lance only if there is room for a straight charge."
+    },
+    {
+      "id": "srd35-hound-archon-brindle-road-warden",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider (Archon, Good, Lawful)",
+      "title": "Hound Archon road warden, 6 racial HD",
+      "difficulty": "Provisional CR 4. ECL 11.",
+      "ac": 20,
+      "hp": 42,
+      "hitDice": "6d8+12",
+      "initiative": 5,
+      "speed": "40 ft.",
+      "senses": "Darkvision 60 ft., low-light vision, scent.",
+      "languages": "Celestial, plus constant tongues",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 14
+      },
+      "skills": [
+        "Concentration +11",
+        "Hide +10",
+        "Jump +17",
+        "Listen +11",
+        "Move Silently +10",
+        "Sense Motive +11",
+        "Spot +11",
+        "Survival +11"
+      ],
+      "traits": [
+        "Lawful good. BAB +6, grapple +10. Fort +7, Ref +6, Will +7, all +4 against poison. Touch 11, flat-footed 19. Unarmored with natural armor +9 and Dexterity +1.",
+        "DR 10/evil, SR 16, immune to electricity and petrification. His constant CL 6 magic circle against evil gives its situational protection, outside the listed base AC and saves.",
+        "Aura of menace activates in a fight or when angry. Hostiles within 20 ft. save at Will DC 17 or take −2 to attacks, AC, and saves for 24 hours or until they hit him. A successful save or a hit that ends it prevents repeat exposure for 24 hours.",
+        "Nine racial ranks in each listed skill. Improved Initiative, Power Attack, and Track. Creatures with a language can speak with him through tongues."
+      ],
+      "actions": [
+        "Bite +10 melee, 1d8+4 piercing, slashing, and bludgeoning. In a full attack add a secondary slam +5 for 1d4+2 bludgeoning. Greatsword +10/+5 on a full attack, 2d6+6 slashing, critical 19–20/×2.",
+        "Use a canine form to follow a trail. Hide and Survival each gain +4 circumstance in canine form, before adjusting for the form's other statistics. The form supplies its own bite.",
+        "At will CL 6 aid, continual flame, detect evil, and message. Aid grants +1 morale to attacks and fear saves plus 1d8+6 temporary HP for 6 minutes.",
+        "Greater teleport at will, CL 14, carrying only himself and up to 50 lb. of objects."
+      ],
+      "tactics": "Brindle takes canine form to pick up a trail, then speaks to the group before closing. He opens with aid on the ally who has to hold the ford."
+    },
+    {
+      "id": "srd35-janni-sahl-elemental-surveyor",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider (Native)",
+      "title": "Janni elemental surveyor, 6 racial HD",
+      "difficulty": "Provisional CR 4. ECL 11.",
+      "ac": 14,
+      "hp": 42,
+      "hitDice": "6d8+12",
+      "initiative": 7,
+      "speed": "30 ft., fly 20 ft. (perfect)",
+      "senses": "Darkvision 60 ft., telepathy 100 ft.",
+      "languages": "Common, Auran, Celestial",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 16,
+        "CHA": 14
+      },
+      "skills": [
+        "Appraise +11",
+        "Concentration +11",
+        "Craft (glassmaking) +11",
+        "Craft (mapmaking) +11",
+        "Escape Artist +12",
+        "Listen +12",
+        "Move Silently +12",
+        "Ride +12",
+        "Sense Motive +12",
+        "Spot +12"
+      ],
+      "traits": [
+        "Neutral. BAB +6, grapple +10. Fort +7, Ref +8, Will +8. Touch 13, flat-footed 11. Unarmored with natural armor +1 and Dexterity +3.",
+        "Fire resistance 10. She can stay on an Elemental Plane for 48 hours before taking 1 damage per additional hour. She checks the elapsed time before offering another crossing.",
+        "Nine racial ranks in each listed skill. Dodge, Mobility, Weapon Focus (scimitar), and racial Improved Initiative."
+      ],
+      "actions": [
+        "Scimitar +11 melee, 1d6+4 slashing, critical 18–20/×2. Iterative attack at +6 on a full attack.",
+        "Change size 2/day, Fort DC 14 if resisted, as enlarge person or reduce person and can affect Nura despite her type.",
+        "Invisibility (self only) and speak with animals 3/day each, CL 12. Ethereal jaunt 1/day for 1 hour, CL 12. Create food and water 1/day, CL 7.",
+        "Plane shift at CL 13 to the Material, Astral, or Elemental Planes. Nura can bring up to eight other creatures who link hands with her."
+      ],
+      "tactics": "Nura changes size to clear a tight route or uses invisibility to approach a stranded crew. She saves plane shift for the return when everyone can link hands."
+    },
+    {
+      "id": "srd35-lizardfolk-reedcurrent-channel-warden",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (Reptilian)",
+      "title": "Lizardfolk channel warden, 2 racial HD",
+      "difficulty": "Provisional CR 1. ECL 3.",
+      "ac": 16,
+      "hp": 19,
+      "hitDice": "2d8+6",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "senses": "Normal vision.",
+      "languages": "Common, Draconic",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +9",
+        "Jump +10",
+        "Swim +10"
+      ],
+      "traits": [
+        "Neutral. BAB +1, grapple +4. Fort +3, Ref +4, Will +1. Touch 11, flat-footed 15. Dexterity +1 and natural armor +5, with no shield.",
+        "Racial ranks are Balance 4, Jump 3, Swim 3. Each check has the +4 racial bonus. Hold breath up to 64 rounds before drowning checks. Weapon Focus (claw)."
+      ],
+      "actions": [
+        "Claw +5 melee, 1d4+3 piercing and slashing. A full attack adds a second claw at the same bonus and a secondary bite at −1 for 1d4+1 piercing, slashing, and bludgeoning.",
+        "Use Swim +10 to reach and release the ferry line. On a successful full-round Swim check, Vesh can go up to 15 ft."
+      ],
+      "tactics": "Vesh keeps both hands available for the rope and enters the water before the ferry pulls taut."
+    },
+    {
+      "id": "srd35-pixie-hazelwing-screen-courier",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Small",
+      "type": "Fey",
+      "title": "Pixie screen courier, Sorcerer 1",
+      "difficulty": "Provisional CR 5. ECL 5.",
+      "ac": 16,
+      "hp": 5,
+      "hitDice": "1d4+1",
+      "initiative": 8,
+      "speed": "20 ft., fly 60 ft. (good)",
+      "senses": "Low-light vision.",
+      "languages": "Common, Elven, Gnome, Halfling, Sylvan",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 18,
+        "CON": 12,
+        "INT": 16,
+        "WIS": 14,
+        "CHA": 18
+      },
+      "skills": [
+        "Bluff +8",
+        "Concentration +5",
+        "Hide +10",
+        "Knowledge (arcana) +7",
+        "Listen +4",
+        "Search +5",
+        "Spellcraft +7",
+        "Spot +4"
+      ],
+      "traits": [
+        "Neutral good. BAB +0, grapple −5. Fort +1, Ref +4, Will +4. Touch 15, flat-footed 12. Natural armor +1, Dexterity +4, Small size +1. Dodge gives +1 AC against a designated foe.",
+        "DR 10/cold iron and SR 16. Constant greater invisibility, including while attacking. Suppress or resume it as a free action.",
+        "Improved Initiative, racial Dodge and Weapon Finesse. Ranks are 4 each in Bluff, Concentration, Knowledge (arcana), and Spellcraft, with 2 cross-class ranks in Hide. No familiar is present in this encounter."
+      ],
+      "actions": [
+        "Small longbow +5 ranged with ordinary arrows, 1d6−1 piercing (minimum 1), critical ×3, 100-ft. range increment.",
+        "Racial SLAs at CL 8, each 1/day. Lesser confusion DC 15, dancing lights, all four alignment detects, detect thoughts DC 16, dispel magic, entangle DC 15, and permanent image DC 20 for visual and auditory effects only.",
+        "Sorcerer CL 1, five cantrip and four 1st-level castings per day. Known cantrips are detect magic, ghost sound (DC 14), mage hand, and prestidigitation. First-level spells known are mage armor (+4 armor AC for 1 hour) and obscuring mist (1 minute)."
+      ],
+      "tactics": "Bren waits above the path, uses an image or sound to draw attention, and crosses while the patrol is watching the decoy."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Myrine Ashrein",
+      "species": "Centaur",
+      "speciesPublication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "size": "Large",
+      "build": "srd35-centaur-ashrein-trail-envoy",
+      "role": "Trail envoy and outrider.",
+      "motive": "Get the families across the open road before the storm reaches them.",
+      "hook": "Myrine offers to draw attention down the broad trail while the party escorts the wagons."
+    },
+    {
+      "name": "Brother Brindle",
+      "species": "Hound Archon",
+      "speciesPublication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "size": "Medium",
+      "build": "srd35-hound-archon-brindle-road-warden",
+      "role": "Road warden and lost-party tracker.",
+      "motive": "Find the missing travelers before night closes over the ford.",
+      "hook": "A hound follows the party to the milepost and then stands upright to ask whom they are looking for."
+    },
+    {
+      "name": "Nura bint Sahl",
+      "species": "Janni",
+      "speciesPublication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "size": "Medium",
+      "build": "srd35-janni-sahl-elemental-surveyor",
+      "role": "Elemental surveyor and passage broker.",
+      "motive": "Recover the apprentices stranded on the Plane of Air before their guide's endurance expires.",
+      "hook": "Nura can take the party across if everyone keeps the chain of hands intact."
+    },
+    {
+      "name": "Vesh Reedcurrent",
+      "species": "Lizardfolk",
+      "speciesPublication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "size": "Medium",
+      "build": "srd35-lizardfolk-reedcurrent-channel-warden",
+      "role": "Channel warden and submerged rescue guide.",
+      "motive": "Free the snagged ferry rope before the pull of the current tears out the bracket.",
+      "hook": "Vesh offers to reach the rope from underwater while someone watches the ferry's drift."
+    },
+    {
+      "name": "Bren Hazelwing",
+      "species": "Pixie",
+      "speciesPublication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "size": "Small",
+      "build": "srd35-pixie-hazelwing-screen-courier",
+      "role": "Invisible courier and illusion screen.",
+      "motive": "Move the summons across the valley without sending the patrol after its bearer.",
+      "hook": "Bren reveals blue thread tied to a gate latch and asks the party to follow it after the patrol passes."
+    }
+  ]
+}

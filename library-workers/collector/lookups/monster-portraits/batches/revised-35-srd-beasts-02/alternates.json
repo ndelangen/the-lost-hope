@@ -1,0 +1,112 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Dire Bat",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-bat/giant-bat-2014.webp",
+    "artist": "Related Giant Bat token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "73a9fc373c161464b80929bb717c5c71b844f2365f642857ef26ff55a0af6c92",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Bat.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Bat",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-bat/bat-2024.webp",
+    "artist": "Related Bat illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "e1ce15f343ac9436ce20677b5ae3dea639c914a434e735034bc7719077c3694f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Bats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Boar",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-boar/giant-boar-polar-engine.webp",
+    "artist": "Related Giant Boar illustration by Polar Engine · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "261677761fe3a38a6b8ea5979e3f4b2bf00bb6d5b6271f451b7445c6fdf8b960",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Boar.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Boar",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-boar/giant-boar-2014.webp",
+    "artist": "Related Giant Boar token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "902866886cfea0c3083af7bc0179530c37390b4c22472b4206baf95ef847bf32",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Boar.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Lion",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-lion/lion-jonathan-kuo.webp",
+    "artist": "Related Lion illustration by Jonathan Kuo · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "57b1a16a7c06c99bc1da1b7fe921ce133ccfc3844aafe624ead94b5dc04fb356",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Lion.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Lion",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-lion/lion-2014.webp",
+    "artist": "Related Lion token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "e2c5d0dca4e10747bd5f642034b61a1d465219224c241b78845214b6f1b38629",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Lion.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Bear",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-bear/dire-bear-sam-wood.jpg",
+    "artist": "Dire Bear illustration by Sam Wood · Monster Manual v.3.5",
+    "kind": "illustration",
+    "sha256": "43e327bae58608ebae5bc8656f014ccc6c63488107ea5726181f39f6a65a360b",
+    "reference": "https://web.archive.org/web/20161101074216/http://archive.wizards.com/default.asp?x=dnd/ag/20030712a"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Bear",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-bear/brown-bear-2024.webp",
+    "artist": "Related Brown Bear illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "6b47dd1ad52434fd9beb325229cd9dba35457366131f33b31e98615cc5d48dd2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Brown%20Bear.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Bear",
+    "publication": "King of the Trollhaunt Warrens",
+    "edition": "4th edition",
+    "file": "images/monsters/dire-bear/dire-bear-sam-wood.jpg",
+    "artist": "Dire Bear illustration by Sam Wood · Monster Manual v.3.5",
+    "kind": "illustration",
+    "sha256": "43e327bae58608ebae5bc8656f014ccc6c63488107ea5726181f39f6a65a360b",
+    "reference": "https://web.archive.org/web/20161101074216/http://archive.wizards.com/default.asp?x=dnd/ag/20030712a"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Bear",
+    "publication": "King of the Trollhaunt Warrens",
+    "edition": "4th edition",
+    "file": "images/monsters/dire-bear/brown-bear-2024.webp",
+    "artist": "Related Brown Bear illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "6b47dd1ad52434fd9beb325229cd9dba35457366131f33b31e98615cc5d48dd2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Brown%20Bear.webp"
+  }
+]

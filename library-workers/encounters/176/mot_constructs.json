@@ -1,0 +1,417 @@
+[
+  {
+    "name": "Ashen Rider",
+    "statBlock": {
+      "name": "Ashen Rider",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Medium celestial, lawful evil",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "21d8 + 84",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 20,
+      "description": "These fallen archons fled to the Underworld when their empires collapsed. They return on winged mounts and show little mercy to the heroes who stand in their way.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 10,
+        "Con": 9,
+        "Wis": 10,
+        "Cha": 9
+      },
+      "skills": {
+        "History": 7,
+        "Insight": 10,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Plate.",
+        "Damage immunities": "Thunder.",
+        "Condition immunities": "Charmed, exhaustion, frightened.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Traits": "Aura of Silence. When a creature the rider can see starts its turn within 30 ft., the rider can require a DC 18 Wisdom save. On a failure, the creature is deafened and can't speak until the start of its next turn. A creature that succeeds is immune to this aura for 24 hours.\nMount. While mounted and not incapacitated, the rider can't be surprised, and the rider and mount have advantage on Dexterity saves. If the rider drops to 0 HP while mounted, its mount drops to 0 HP too.",
+        "Innate Spellcasting": "Wisdom is the spellcasting ability (save DC 18). No material components are required.\nAt will. Command, Compelled Duel.\n1/day each. Banishment, Blade Barrier.",
+        "Actions": "Multiattack. Make three Ashen Blade attacks or two Bolt of Ash attacks.\nAshen Blade. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 14 (2d8 + 5) slashing damage plus 13 (2d12) radiant damage.\nBolt of Ash. Ranged spell attack, +10 to hit, range 120 ft., one creature. A hit deals 22 (4d10) necrotic damage and prevents the target from regaining HP until the start of the rider's next turn.",
+        "Bonus actions": "Mount. While unmounted and on the same plane as its mount, the rider can magically teleport onto the mount with everything it wears or carries.",
+        "Legendary actions": "The rider has 3 legendary actions and regains them at the start of its turn. It can use just one option at the end of another creature's turn.\nAttack (1 action). Make one Ashen Blade or Bolt of Ash attack.\nCoordinated Assault (2 actions). Make one Ashen Blade or Bolt of Ash attack. Then the mount can use its reaction to make one melee weapon attack.\nReduce to Ash (3 actions). A creature the rider can see within 60 ft. makes a DC 18 Constitution save. On a failure it takes 27 (5d10) necrotic damage, and its HP maximum drops by the necrotic damage taken until it finishes a long rest. At a maximum of 0 HP, the creature and all its worn or carried gear except magic items turn to ash. Only Wish can revive it.",
+        "Archon mounts": "Winged Bull and Winged Lion are the most common archon mounts.",
+        "Printed source": "Mythic Odysseys of Theros, p. 213. Archon mounts appear on p. 214."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Winged Bull"
+        },
+        {
+          "kind": "monster",
+          "name": "Winged Lion"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Blood-Toll Harpy",
+    "statBlock": {
+      "name": "Blood-Toll Harpy",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 227,
+      "classification": "Medium monstrosity, chaotic evil",
+      "ac": 11,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "20 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 10,
+      "description": "Bands of these harpies gather at lonely crossings and caves, where they prey on travelers and pick over the dead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 3
+      },
+      "sections": {
+        "Languages": "Common.",
+        "Traits": "Blood Frenzy. The harpy has advantage on melee attacks against creatures below their HP maximum.\nDark Devotion. The harpy has advantage on saves against being charmed or frightened.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) slashing damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 227."
+      }
+    }
+  },
+  {
+    "name": "Broken King Antigonos",
+    "statBlock": {
+      "name": "Broken King Antigonos",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 189,
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 14,
+      "hp": 38,
+      "hitDice": "9d10 + 27",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 17,
+      "description": "A decrepit minotaur with a dented crown and a clay amphora wanders the Katachthon foothills. He claims Mogis cursed him after he chose his child as his heir, and now tests strangers for the right to succeed him.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal.",
+        "Starting hit points": "Antigonos uses the 2014 Minotaur and begins the encounter with 38 of its usual 76 HP. The listed Hit Dice and most other statistics come from the base creature.",
+        "Traits": "Charge. After moving at least 10 ft. straight toward a target, hitting it with Gore on the same turn deals an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength save or be pushed up to 10 ft. away and knocked prone.\nLabyrinthine Recall. Antigonos remembers every route he has traveled.\nReckless. At the start of his turn he can choose to gain advantage on melee weapon attack rolls that turn. If he does, attacks against him have advantage until the start of his next turn.\nDecrepit State. Antigonos has disadvantage on his attack rolls.",
+        "Actions": "Greataxe. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 17 (2d12 + 4) slashing damage.\nGore. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) piercing damage.\nAmphora. Melee weapon attack, +6 to hit, reach 5 ft., one Medium or smaller creature. A hit deals 8 (1d8 + 4) bludgeoning damage. If the amphora is empty, the target is restrained inside. A restrained creature can use an action to make a DC 14 Dexterity (Acrobatics) check, escaping on a success. Destroying the amphora also ends the restraint. The amphora has AC 8, 20 HP, and immunity to poison and psychic damage.",
+        "Test of the Amphora": "Antigonos invites a Medium creature to climb into the amphora while he steadies it. After the creature enters, roll a d20.\n1–9. He judges the creature too small and pours dirt into the amphora. The creature makes a DC 15 Constitution save. On a failure, it is blinded and restrained and begins suffocating. On a success, apply the effects of a hit from his Amphora attack.\n10–19. He judges the creature too large and attacks it with his greataxe.\n20. He declares the creature his heir, gives it his crown, robes, and belt pouch, and leaves.",
+        "Contending with Antigonos": "He leaves if no one agrees to his test. Insults and theft can provoke him, and in a fight he may switch to random targets with his greataxe or empty amphora. If the party refrains from attacking him, he calms after a few rounds. A character who urges him to turn away from Mogis can make a DC 14 Charisma (Persuasion) check. On a success, he abandons the amphora and leaves to learn about a new deity. On a failure, he still departs in thought. Award experience for overcoming him whether or not the party fights.",
+        "Printed source": "Mythic Odysseys of Theros, pp. 188–189, Broken King Antigonos encounter. Uses the 2014 Monster Manual Minotaur (p. 223) with the printed encounter changes."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Minotaur",
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#minotaur_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bronze Sable",
+    "statBlock": {
+      "name": "Bronze Sable",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium construct, unaligned",
+      "ac": 15,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 12,
+      "description": "Purphoros gave his first bronze sables to Karametra to guard her temples. Others scout places too dangerous for their makers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, exhaustion, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands one language of its creator but can't speak.",
+        "Traits": "Constructed Nature. This construct needs no air, food, drink, or sleep.\nFalse Appearance. While motionless, the sable looks like an ordinary statue.\nPack Tactics. The sable has advantage on attacks against a creature if one of the sable's allies is within 5 ft. of that creature and isn't incapacitated.\nSurprise Attack. If the sable surprises a creature and hits it in the first round, the attack deals 10 (3d6) extra damage.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 210. Shared Anvilwrought rules appear on p. 209."
+      }
+    }
+  },
+  {
+    "name": "Burnished Hart",
+    "statBlock": {
+      "name": "Burnished Hart",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 211,
+      "classification": "Medium construct, unaligned",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "One of the earliest anvilwroughts, the hart leaves Mount Velus to seek sights worth carrying back to Purphoros.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, exhaustion, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands one language of its creator but can't speak.",
+        "Traits": "Constructed Nature. This construct needs no air, food, drink, or sleep.\nCharge. After moving at least 20 ft. straight toward a target, hitting it with Antlers on the same turn deals 7 (2d6) extra fire damage. If the target is a creature, it must succeed on a DC 13 Strength save or fall prone.\nHeated Body. A creature takes 5 (1d10) fire damage if it touches the hart or hits it with a melee attack while within 5 ft.\nSure-Footed. The hart has advantage on Strength and Dexterity saves against effects that would knock it prone.",
+        "Actions": "Multiattack. Make one Antlers attack and one Hooves attack.\nAntlers. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nHooves. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) fire damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 211. Shared Anvilwrought rules appear on p. 209."
+      }
+    }
+  },
+  {
+    "name": "Colossus of Akros",
+    "statBlock": {
+      "name": "Colossus of Akros",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 218,
+      "classification": "Gargantuan construct, unaligned",
+      "ac": 21,
+      "hp": 350,
+      "hitDice": "20d20 + 140",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 17,
+      "description": "A bronze-and-iron golem stands on twin plinths above the road to Akros. In a crisis, priests of Purphoros awaken it to defend the city.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 16,
+        "Con": 14
+      },
+      "skills": {
+        "Athletics": 16,
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire, poison, psychic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned, unconscious.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Common and Celestial but can't speak.",
+        "Traits": "Constructed Nature. This construct needs no air, food, drink, or sleep.\nCrumbling Destruction. At 0 HP, the colossus crumbles and is destroyed. Each creature on the ground within 30 ft. makes a DC 22 Dexterity save. A creature takes 22 (4d10) bludgeoning plus 22 (4d10) fire damage on a failure, or half as much on a success.\nFire Absorption. When fire would damage the colossus, it instead regains HP equal to that fire damage.\nImmutable Form. Spells and effects can't alter its form.\nMagic Weapons. The colossus's weapon attacks are magical.\nSiege Monster. The colossus deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two melee attacks.\nSpear. Melee or ranged weapon attack, +16 to hit, reach 15 ft. or range 200/600 ft., one target. A hit deals 23 (4d6 + 9) piercing damage, or 27 (4d8 + 9) if wielded with two hands for a melee attack. The spear magically returns after a ranged attack.\nSword. Melee weapon attack, +16 to hit, reach 15 ft., one target. A hit deals 36 (6d8 + 9) slashing damage.\nFlames of Akros (Recharge 6). Choose up to three visible creatures within 90 ft. Each makes a DC 24 Dexterity save against the magical flames. On a failure, it takes 36 (8d8) fire damage and catches fire for 1 minute. On a success, it takes half damage and doesn't catch fire. A burning creature repeats the save at the end of each of its turns, taking 18 (4d8) fire damage on a failure or ending the effect on a success.",
+        "Printed source": "Mythic Odysseys of Theros, p. 218."
+      }
+    }
+  },
+  {
+    "name": "Doomwake Giant",
+    "statBlock": {
+      "name": "Doomwake Giant",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 224,
+      "classification": "Huge giant, lawful evil",
+      "ac": 15,
+      "hp": 162,
+      "hitDice": "13d12 + 78",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "description": "A doomwake giant is a Nyxborn creature formed from a community’s fear of destruction. It goes on to wreak the disaster the community dreaded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 10,
+        "Wis": 6
+      },
+      "skills": {
+        "Intimidation": 7,
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Necrotic and poison.",
+        "Condition immunities": "Frightened and poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Giant.",
+        "Traits": "Aura of Erebos. A creature that starts its turn within 10 ft. makes a DC 18 Constitution save. On a failure, it takes 10 (3d6) necrotic damage and can't regain HP until the start of its next turn. On a success, it is immune to this giant's Aura of Erebos for 24 hours.\nMagic Resistance. The giant has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +11 to hit, reach 15 ft., one target. A hit deals 20 (3d8 + 7) bludgeoning damage plus 10 (3d6) necrotic damage.\nNoxious Gust (Recharge 5–6). The giant exhales mist in a line 60 ft. long and 10 ft. wide. Each creature in it makes a DC 18 Constitution save. On a failure, the creature takes 36 (8d8) necrotic damage and falls prone. On a success, it takes half damage and isn’t knocked prone.",
+        "Printed source": "Mythic Odysseys of Theros, p. 224."
+      }
+    }
+  }
+]

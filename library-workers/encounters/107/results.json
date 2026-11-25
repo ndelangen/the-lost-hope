@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Bariaur",
+    "species": "species-cd36ac407a9591da511001b3",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Planar Handbook (2004)"
+    ],
+    "portraitSha256": "ca6fcd618c0aa2479ed0c1ef4fa5e9f75997a7954adc0401fd224db6957ac0c6",
+    "caption": "Mara Sedgehill · Original Bariaur NPC",
+    "npcReceipts": [
+      {
+        "name": "Mara Sedgehill",
+        "id": "npc-56facb3f6b784e1f6084a325",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      },
+      {
+        "name": "Kel Stoneford",
+        "id": "npc-9c25e50ee3c0246e50ec5298",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      }
+    ]
+  }
+]

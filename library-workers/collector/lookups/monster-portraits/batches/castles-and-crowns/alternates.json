@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Animated Artillery",
+    "input": "output/dm-library/monster-portraits/batches/castles-and-crowns/refs/animated-artillery.png",
+    "url": "https://store.steampowered.com/app/3289170/",
+    "filename": "castles-source-1.webp",
+    "artist": "Kobold Press · Animated Artillery illustration, Fantasy Grounds preview"
+  },
+  {
+    "name": "Reanimator",
+    "input": "output/dm-library/monster-portraits/batches/castles-and-crowns/refs/reanimator.png",
+    "url": "https://store.steampowered.com/app/3289170/",
+    "filename": "castles-source-1.webp",
+    "artist": "Kobold Press · Reanimator illustration, Fantasy Grounds preview"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "builds": [
+    {
+      "id": "nezumi-trail-scout-3e",
+      "title": "Nezumi trail scout, Warrior 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "difficulty": "Provisional CR 1/2",
+      "size": "Medium",
+      "type": "Humanoid (Nezumi)",
+      "ac": 13,
+      "hp": 6,
+      "hitDice": "1d8+1",
+      "initiative": 1,
+      "speed": "40 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 13,
+        "CON": 13,
+        "INT": 9,
+        "WIS": 10,
+        "CHA": 6
+      },
+      "skills": [
+        "Climb +3",
+        "Hide +4",
+        "Listen +2",
+        "Move Silently +3",
+        "Spot +2"
+      ],
+      "senses": "Low-light vision",
+      "languages": "Rokugani, Nezumi",
+      "traits": [
+        "Leather armor. Touch AC 11, flat-footed AC 12. Base attack bonus +1. Face 5 by 5 ft., reach 5 ft. unless using the longspear.",
+        "Fortitude +3, Reflex +1, Will +0. Add +2 on saves against poison and disease.",
+        "Alertness is the chosen feat. Scent is an optional species feat and is not part of this build.",
+        "Cannot gain Shadowlands Taint from exposure. Spells and special attacks associated with the Taint still apply."
+      ],
+      "actions": [
+        "Longspear. Melee +2, 10-ft. reach only. Hit 1d8+1 piercing, critical ×3.",
+        "Claw or bite. Melee +2, 5-ft. reach. Hit 1d4+1 normal damage. One such unarmed attack per round.",
+        "Javelin. Ranged +2, 30-ft. range increment. Hit 1d6+1 piercing, critical ×2."
+      ],
+      "tactics": "Warns from cover first. Uses the spear to hold a narrow passage or the javelin to cover a retreat. Falls back if the party agrees to verify the route together."
+    },
+    {
+      "id": "vanara-canopy-guide-3e",
+      "title": "Vanara canopy guide, Expert 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "difficulty": "Provisional CR 1/2",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 13,
+      "hp": 5,
+      "hitDice": "1d6+1",
+      "initiative": 1,
+      "speed": "30 ft., climb 20 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 13,
+        "WIS": 11,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +9",
+        "Climb +13",
+        "Hide +7",
+        "Listen +6",
+        "Move Silently +7",
+        "Spot +6",
+        "Wilderness Lore +4"
+      ],
+      "senses": "Low-light vision",
+      "languages": "Common, Vanara, Sylvan",
+      "traits": [
+        "Leather armor. Touch AC 11, flat-footed AC 12. Base attack bonus +0. Face 5 by 5 ft., reach 5 ft.",
+        "Fortitude +1, Reflex +1, Will +2. Alertness is the chosen feat.",
+        "Climb uses Dexterity and can take 10 under pressure for a result of 23. Accelerated climb 30 ft. with one Climb check per round at +8 after the −5 penalty."
+      ],
+      "actions": [
+        "Club. Melee −1, 5-ft. reach. Hit 1d6−1 bludgeoning, minimum 1, critical ×2.",
+        "Light crossbow. Ranged +1, 80-ft. range increment. Hit 1d8 piercing, critical 19–20/×2. Reload as a move-equivalent action."
+      ],
+      "tactics": "Stays near a climbable route, points out safe handholds, and keeps people moving. Uses a loaded crossbow from cover only if the group is forced to defend itself."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Nezumi",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "name": "Tesk Reedmark",
+      "build": "nezumi-trail-scout-3e",
+      "role": "Trail scout and waystation witness",
+      "motive": "Keep the refuge supplied after travelers stop trusting the road markers.",
+      "hook": "Tesk saw who moved the flood markers and will take the party to the washed-out trail if someone stays to warn incoming travelers."
+    },
+    {
+      "species": "Vanara",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "name": "Nemi",
+      "build": "vanara-canopy-guide-3e",
+      "role": "Canopy guide and rope-bridge keeper",
+      "motive": "Get a repair crew across the ravine before another support gives way.",
+      "hook": "Nemi can lead the party up an old canopy route if they carry a coil of rope and check the upper anchor."
+    }
+  ]
+}

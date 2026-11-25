@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Giant Lizard",
+    "file": "portraits/giant-lizard.png",
+    "sha256": "6b72c755f1578cd03d0187acaf65e9c70291214f37d45fcf01433fad8ea76fde",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Rat",
+    "file": "portraits/giant-rat.png",
+    "sha256": "95c7d02df02ee4fc7b91d21f9b19f9d72776b7ff2d65854c8f78a5501194736b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Scorpion",
+    "file": "portraits/giant-scorpion.png",
+    "sha256": "8d9edb93ffa8870b6e90a8f4260c93758cde673124b7b9af7aca87ff3fde8fd0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Sea Horse",
+    "file": "portraits/giant-sea-horse.png",
+    "sha256": "be4e8e499290bc135e62e45274040de27c2ef78f60336cca514fe499fefd5af6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Vulture",
+    "file": "portraits/giant-vulture.png",
+    "sha256": "7876b3f85625683cbe3d00e2a06879a3f56dd4803be278c0153ff17bb5e1cbbb",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

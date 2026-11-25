@@ -1,0 +1,459 @@
+[
+  {
+    "name": "Syndra Silvane",
+    "statBlock": {
+      "name": "Syndra Silvane",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 8,
+      "description": "A retired Tethyrian adventurer and merchant who hides the ravages of the death curse beneath a silver mask.",
+      "classification": "Medium humanoid (human), lawful neutral",
+      "ac": 12,
+      "hp": 79,
+      "hitDice": "18d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Common, Dwarvish, Elvish, Halfling.",
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Damage resistances": "Damage from spells. While Stoneskin is active, she also resists nonmagical bludgeoning, piercing, and slashing damage.",
+        "Traits": "Magic Resistance. Syndra has advantage on saving throws against spells and other magical effects.\nDeath Curse. Her maximum drops by 1 at midnight each day. She dies if it reaches 0. Destroying the Soulmonger stops the loss and restores her usual maximum. If Syndra has died, she can be raised only after the curse ends and only if her soul was never devoured.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit for 4 (1d4 + 2) piercing damage.",
+        "Spellcasting": "Syndra is an 18th-level wizard spellcaster using Intelligence (spell save DC 17, +9 to hit with spell attacks). She can cast Disguise Self and Invisibility at will.\nCantrips at will. Fire Bolt, Light, Mage Hand, Prestidigitation, Shocking Grasp.\n1st level (4 slots). Detect Magic, Identify, Mage Armor, Magic Missile.\n2nd level (3 slots). Detect Thoughts, Mirror Image, Misty Step.\n3rd level (3 slots). Counterspell, Fly, Lightning Bolt.\n4th level (3 slots). Banishment, Fire Shield, Stoneskin.\n5th level (3 slots). Cone of Cold, Scrying, Wall of Force.\n6th level (1 slot). Globe of Invulnerability.\n7th level (1 slot). Teleport.\n8th level (1 slot). Mind Blank.\n9th level (1 slot). Time Stop.\nShe casts Mage Armor, Stoneskin, and Mind Blank on herself before a fight when able.",
+        "Starting the adventure": "Syndra gives the party a map and takes them to the Harbor Ward of Port Nyanzaru with Teleport if they agree. The adventure puts the group on target near the docks without an accuracy roll. She stays with Wakanga O'tamu. For ending the curse, each character can choose an appropriate uncommon or rare magic item with the DM's approval. If asked for an advance, she gives each character 50 gp.",
+        "Printed source": "Tomb of Annihilation, pp. 8–9. Syndra uses the Archmage from Monster Manual (2014), p. 342, with the adventure's alignment, languages, and reduced hit point maximum."
+      },
+      "hpRule": "At the start of the adventure, 79 is her death curse-adjusted maximum. The Hit Dice come from the Archmage, whose printed average is 99 HP.",
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 6
+      },
+      "skills": {
+        "Arcana": 13,
+        "History": 13
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Archmage",
+          "terms": [
+            "Archmage"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#archmage_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Wakanga O'tamu",
+          "terms": [
+            "Wakanga O'tamu"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#wakanga%20o'tamu_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Atropal",
+          "terms": [
+            "Atropal"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#atropal_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Terracotta Warrior",
+    "statBlock": {
+      "name": "Terracotta Warrior",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 161,
+      "description": "An animated clay guardian standing watch over Shagambi's tomb with a sheathed shortsword.",
+      "classification": "Medium construct, unaligned",
+      "ac": 18,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 6,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft. Beyond that radius it is blind.",
+        "Languages": "None.",
+        "Damage immunities": "Poison and psychic.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, and poisoned.",
+        "Traits": "Antimagic Susceptibility. Inside an Antimagic Field, the warrior is incapacitated. If targeted by Dispel Magic, it must pass a Constitution save against the caster's spell save DC or become unconscious for 1 minute.\nFalse Appearance. A motionless warrior passes for a terracotta statue.\nFragile. A critical hit shatters and destroys it.",
+        "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) piercing damage.",
+        "Shagambi's tomb": "Forty-eight warriors stand guard. Loud noise makes them draw their swords partway as a warning. On any further noise, they attack every creature in the tomb. Moving quietly without magic takes a DC 12 Dexterity (Stealth) check, at disadvantage when crossing pottery shards. Opening Shagambi's coffin can set off a music box that rouses them even if the room was quiet. A DC 14 Wisdom (Perception) check while carefully lifting the lid spots the wire. Cut it with thieves' tools and a successful DC 12 Dexterity check. Failure sets off the music.",
+        "Printed source": "Tomb of Annihilation, p. 161, area 48. The adventure adapts Animated Armor from Monster Manual (2014), p. 19, and gives the warrior two Shortsword strikes and a vulnerability to critical hits."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Animated Armor",
+          "terms": [
+            "Animated Armor"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#animated%20armor_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Volothamp “Volo” Geddarm",
+    "statBlock": {
+      "name": "Volothamp “Volo” Geddarm",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 235,
+      "description": "An author and traveler visiting Port Nyanzaru to promote his monster guide and deliver signed copies to the merchant princes.",
+      "classification": "Medium humanoid (human), chaotic good",
+      "ac": 11,
+      "hp": 31,
+      "hitDice": "7d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Common, Dwarvish, Elvish.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit for 3 (1d4 + 1) piercing damage.",
+        "Spellcasting": "Volo is a 1st-level wizard spellcaster using Intelligence (spell save DC 12, +4 to hit with spell attacks).\nCantrips at will. Friends, Mending, Prestidigitation.\n1st level (2 slots). Comprehend Languages, Detect Magic, Disguise Self.",
+        "Port Nyanzaru": "Look for Volo in a tavern or a merchant prince's villa. He offers credible lore mixed with unreliable tales and refuses to leave the city. The hardcover of Volo's Guide to Monsters costs 50 gp. Give readers useful in-world lore when they consult it. He willingly shares 1d4 + 1 clues from the chapter 1 Jungle Rumors table and might let the party accompany him on visits to the princes.",
+        "Printed source": "Tomb of Annihilation, p. 235 for the stat block, pp. 24 and 236 for Port Nyanzaru and the rumor procedure."
+      },
+      "savingThrows": {
+        "Con": 2,
+        "Wis": 2
+      },
+      "skills": {
+        "Animal Handling": 4,
+        "Arcana": 4,
+        "Deception": 5,
+        "History": 4,
+        "Insight": 2,
+        "Investigation": 4,
+        "Perception": 2,
+        "Performance": 7,
+        "Persuasion": 7,
+        "Sleight of Hand": 3,
+        "Survival": 2
+      }
+    }
+  },
+  {
+    "name": "Wakanga O'tamu",
+    "statBlock": {
+      "name": "Wakanga O'tamu",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 27,
+      "description": "Port Nyanzaru's merchant prince of magic and lore. He shelters the Harpers in his villa and takes in his old friend Syndra.",
+      "classification": "Medium humanoid (human), lawful neutral",
+      "ac": 12,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Any four languages, as for the printed Mage.",
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit for 4 (1d4 + 2) piercing damage.",
+        "Spellcasting": "Wakanga is a 9th-level wizard spellcaster using Intelligence (spell save DC 14, +6 to hit with spell attacks).\nCantrips at will. Fire Bolt, Light, Mage Hand, Prestidigitation.\n1st level (4 slots). Detect Magic, Mage Armor, Magic Missile, Shield.\n2nd level (3 slots). Misty Step, Suggestion.\n3rd level (3 slots). Counterspell, Fireball, Fly.\n4th level (3 slots). Greater Invisibility, Ice Storm.\n5th level (1 slot). Cone of Cold.",
+        "Port Nyanzaru": "Wakanga deals in potions, scrolls, and lost lore. He welcomes adventurers traveling with Syndra Silvane. He may help anyone pursuing the cause of the death curse, including selling magic items for coin, gemstones, or jewelry. He is unlikely to offer credit. Common potions cost 80 gp, uncommon potions 300 gp, 1st-level spell scrolls 100 gp, and 2nd-level spell scrolls 550 gp.",
+        "Waard's journal": "If the party befriends him, Wakanga gives them the journal and marks the hex where Vorn, a Shield Guardian, was found. The journal depicts the control amulet. For recovering Vorn and returning that amulet, Wakanga offers a spellbook with 15 random spells. Roll a d6 for each spell's level.",
+        "Printed source": "Tomb of Annihilation, ch. 1, p. 27. The adventure assigns the Mage from Monster Manual (2014), p. 347."
+      },
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Mage",
+          "terms": [
+            "Mage"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#mage_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Syndra Silvane",
+          "terms": [
+            "Syndra Silvane"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#syndra%20silvane_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Shield Guardian",
+          "terms": [
+            "Shield Guardian"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#shield%20guardian_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wine Weird",
+    "statBlock": {
+      "name": "Wine Weird",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 141,
+      "description": "A liquid elemental that emerges from a wine cistern when the false tomb floods.",
+      "classification": "Large elemental, neutral",
+      "ac": 13,
+      "hp": 58,
+      "hitDice": "9d10 + 9",
+      "speed": "0 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Blindsight 30 ft.",
+        "Languages": "Understands Aquan but cannot speak.",
+        "Damage resistances": "Fire and bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, poisoned, prone, restrained, and unconscious.",
+        "Traits": "Invisible in Wine. The weird becomes invisible while fully submerged in wine.\nWater Bound. The inherited binding applies to the liquid the weird inhabits. It dies if it leaves that liquid or if the liquid is destroyed.",
+        "Actions": "Constrict. Melee weapon attack, +5 to hit, reach 10 ft., one creature. Hit for 13 (3d6 + 3) bludgeoning damage. A Medium or smaller target is grappled (escape DC 13) and pulled 5 ft. toward the weird. The target is restrained until the grapple ends. While holding it, the weird tries to drown the target and cannot constrict another.",
+        "False tomb encounter": "The entrance seals 1 round after the coffin is opened if the illusory sunlight strikes its plaque. Dispel Magic on the light prevents the trigger. Once the entrance seals, the wine rises 1 ft. a round and everyone rolls initiative. On round 3, three wine weirds emerge from the northwest, northeast, and southeast cisterns and attack everyone in the room. On round 12, the room fills. Apply underwater combat with 5 ft. of visibility. Water breathing gives no protection against drowning in wine. The block rises and the wine drains after 10 minutes.",
+        "Printed source": "Tomb of Annihilation, p. 141, area 20. The adventure uses the Water Weird from Monster Manual (2014), p. 299, with invisibility in wine."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Water Weird",
+          "terms": [
+            "Water Weird"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#water%20weird_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Yellow Musk Creeper",
+    "statBlock": {
+      "name": "Yellow Musk Creeper",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 237,
+      "description": "An orchid-like vine that grows on statuary, gravestones, and other shaded surfaces. Its bright petals release an irresistible scent.",
+      "classification": "Medium plant, unaligned",
+      "ac": 6,
+      "hp": 60,
+      "hitDice": "11d8 + 11",
+      "speed": "5 ft., climb 5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 3
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Blindsight 30 ft.",
+        "Languages": "None.",
+        "Condition immunities": "Blinded, deafened, exhaustion, and prone.",
+        "Traits": "False Appearance. A motionless creeper is indistinguishable from an ordinary flowering vine.\nRegeneration. At the start of its turn the creeper recovers 10 HP. Taking fire, necrotic, or radiant damage disables this recovery at the start of its next turn. It dies only if it starts a turn at 0 HP and cannot regenerate.",
+        "Actions": "Touch. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit for 13 (3d8) psychic damage. A humanoid reduced to 0 HP by the damage dies and receives a bulb. Unless the bulb is destroyed, the corpse becomes a Yellow Musk Zombie 24 hours after death. Raising the humanoid, casting Remove Curse on the corpse, or using similar magic destroys the bulb if done before it animates.\nYellow Musk (3/day). All humanoids within 30 ft. make a DC 11 Wisdom save. On a failure they are charmed for 1 minute and spend their turns moving as close to the creeper as they can, doing nothing else. They can repeat the save at the end of each turn to end the effect.",
+        "Hosts": "The vine controls the zombie it animates. In seven days the new creeper grows to full size and emerges from the host, which collapses. If the zombie is destroyed first, the young plant withers and dies. A Small host produces a Small zombie with 27 (6d6 + 6) HP, otherwise using the Yellow Musk Zombie's statistics.",
+        "Wilderness encounter": "Place the creeper deep in a ruin and give it 3d6 Yellow Musk Zombies, scattered or clustered to suit the terrain. At camp, the zombies emerge from a nearby ruin and try to knock the characters unconscious and drag them to the plant.",
+        "Printed source": "Tomb of Annihilation, p. 237 for the stat block and host procedure, p. 203 for the random encounter."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Yellow Musk Zombie",
+          "terms": [
+            "Yellow Musk Zombie",
+            "Yellow Musk Zombies"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#yellow%20musk%20zombie_toa"
+          }
+        }
+      ]
+    }
+  }
+]

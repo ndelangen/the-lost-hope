@@ -1,0 +1,412 @@
+[
+  {
+    "name": "Lowland Loup-Garou",
+    "decision": "separate",
+    "pages": "pp. 137–138, 147–148",
+    "notes": "Encounter summary with the printed form statistics.",
+    "statBlock": {
+      "name": "Lowland Loup-Garou",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium humanoid (Human, Shapechanger) in hybrid form",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "1d4 + 4d10+8",
+      "speed": "50 ft. (10 squares)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Any forest, hill, or plains. Solitary, pair, or pack of 6–11. Standard treasure. Always chaotic evil.",
+      "description": "A lowland loup-garou can pass as human or stalk prey in the shape of a worg.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Trip (Ex). After a bite hits, attempt a free trip at +3. No touch attack or attack of opportunity. Failure allows no countertrip. In worg or hybrid form it fights like a worg and uses the listed curse. It can speak while hybrid. Wolf empathy, low-light vision and scent. Worg and hybrid forms have DR 10/silver and SR 12.",
+        "Human form": "Medium humanoid (Human, Shapechanger). Initiative +4. Speed 30 ft. (6 squares). AC 12, touch 10, flat-footed 12. Base attack/grapple +0/+0. 5 ft. space and reach. Fort +6, Ref +6, Will +3. Str 11, Dex 11, Con 11, Int 10, Wis 12, Cha 10.\nAttack or full attack. Unarmed strike +0 melee (1d3 nonlethal).\nSkills. Craft (leatherworking) +6, Handle Animal +2, Listen +4, Move Silently +4, Search +4, Spot +4. Feats. Alertness, Blind-Fight, Control Shape, Improved Initiative, Iron Will, Stealthy, Track.",
+        "Worg form": "Medium humanoid (Human, Shapechanger). Initiative +6. Speed 50 ft. (10 squares). AC 16, touch 12, flat-footed 14. Base attack/grapple +4/+7. 5 ft. space and reach. Fort +8, Ref +9, Will +5. Str 17, Dex 15, Con 15, Int 10, Wis 14, Cha 10.\nAttack or full attack. Bite +8 melee (1d6+4).\nSkills. Hide +9, Listen +18, Move Silently +8, Search +10, Spot +18, Survival +2 (+6 tracking by scent). Feats. Alertness, Blind-Fight, Control Shape, Improved Initiative, Iron Will, Stealthy, Track. Add Weapon Focus (bite).\nWolf empathy, low-light vision and scent. Worg and hybrid forms have DR 10/silver and SR 12.",
+        "Hybrid form": "Medium humanoid (Human, Shapechanger). Initiative +6. Speed 50 ft. (10 squares). AC 16, touch 12, flat-footed 14. Base attack/grapple +4/+7. 5 ft. space and reach. Fort +8, Ref +9, Will +5. Str 17, Dex 15, Con 15, Int 10, Wis 14, Cha 10.\nAttack. Claw +7 melee (1d4+4). Full attack. Two claws at +7 and bite +3 melee (1d6+4).\nSkills. Hide +9, Listen +18, Move Silently +8, Search +10, Spot +18, Survival +2 (+6 tracking by scent). Feats. Alertness, Blind-Fight, Control Shape, Improved Initiative, Iron Will, Stealthy, Track. Add Weapon Focus (bite).\nWolf empathy, low-light vision and scent. Worg and hybrid forms have DR 10/silver and SR 12.",
+        "Lycanthrope encounter rules": "Alternate Form (Su). Where available, take or leave an animal or hybrid form as a standard action. Equipment does not change. Entering either form heals as a day of rest. A slain lycanthrope returns to humanoid form where it has one, but severed parts keep their animal shape. An afflicted creature normally gains one alternate form and can struggle to control it.\nCurse of Lycanthropy (Su). A qualifying bite to a humanoid within one size category requires Fortitude DC 18 or transmits the curse. Bludgeoning or nonpenetrating attacks cannot transmit it. Afflicted lycanthropes can spread it in Ravenloft. The general text specifies animal form, but a listed hybrid curse also uses this procedure at the table. Use any strain-specific exception below.\nNatural lycanthropes generally have DR 10/silver in animal or hybrid form, while afflicted ones have DR 5/silver. Some strains name a different material. Low-light vision and scent work in any form unless the profile specifies otherwise. Lycanthropic empathy allows simple communication, gives a +4 racial bonus on attitude checks with the corresponding normal or dire animal, and permits simple commands to friendly animals.\nA spellcaster cannot use verbal, somatic, or material components in animal form and cannot use verbal components in hybrid form. Apply the printed encounter stats for each form.",
+        "Printed source": "pp. 137–138, 147–148"
+      }
+    }
+  },
+  {
+    "name": "Mountain Loup-Garou",
+    "decision": "separate",
+    "pages": "pp. 137, 139, 147–148",
+    "notes": "Encounter summary with the printed form statistics.",
+    "statBlock": {
+      "name": "Mountain Loup-Garou",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large humanoid (Human, Shapechanger) in hybrid form",
+      "ac": 16,
+      "hp": 47,
+      "hitDice": "1d4 + 6d8+18",
+      "speed": "50 ft. (10 squares)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Any hill or mountain. Solitary or pack of 5–8. Standard treasure. Always chaotic evil.",
+      "description": "A mountain loup-garou runs down prey as a dire wolf or tears at it from a standing hybrid form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Trip (Ex). After a bite hits, attempt a free trip at +7. No touch attack or attack of opportunity. Failure allows no countertrip. Dire wolf and hybrid forms use the listed curse. The hybrid can speak. Wolf empathy and scent. Dire wolf and hybrid forms have DR 10/gold, fast healing 1 and SR 14.",
+        "Human form": "Medium humanoid (Human, Shapechanger). Initiative +4. Speed 30 ft. (6 squares). AC 12, touch 10, flat-footed 12. Base attack/grapple +4/+4. 5 ft. space and reach. Fort +10, Ref +7, Will +8. Str 11, Dex 11, Con 11, Int 10, Wis 12, Cha 10.\nAttack or full attack. Unarmed strike +0 melee (1d3 nonlethal).\nSkills. Hide +5, Listen +14, Move Silently +5, Profession (tanner) +6, Spot +14, Survival +1. Feats. Alertness, Blind-Fight, Control Shape, Improved Initiative, Iron Will, Run, Track.\nLow-light vision, scent and wolf empathy.",
+        "Dire wolf form": "Large humanoid (Human, Shapechanger). Initiative +6. Speed 50 ft. (10 squares). AC 16, touch 11, flat-footed 14. Base attack/grapple +4/+15. 10 ft. space, 5 ft. reach. Fort +10, Ref +7, Will +8. Str 25, Dex 15, Con 17, Int 10, Wis 12, Cha 10.\nAttack or full attack. Bite +11 melee (1d8+10).\nSkills. Hide +5, Listen +14, Move Silently +5, Spot +14, Survival +1 (+5 tracking by scent). Feats. Alertness, Blind-Fight, Control Shape, Improved Initiative, Iron Will, Run, Track. Add Weapon Focus (bite).\nWolf empathy and scent. Dire wolf and hybrid forms have DR 10/gold, fast healing 1 and SR 14.",
+        "Hybrid form": "Large humanoid (Human, Shapechanger). Initiative +6. Speed 50 ft. (10 squares). AC 16, touch 11, flat-footed 14. Base attack/grapple +4/+15. 10 ft. space, 5 ft. reach. Fort +10, Ref +7, Will +8. Str 25, Dex 15, Con 17, Int 10, Wis 12, Cha 10.\nAttack. Claw +11 melee (1d6+7). Full attack. Two claws at +11 and bite +7 melee (1d8+7).\nSkills. Hide +5, Listen +14, Move Silently +5, Spot +14, Survival +1 (+5 tracking by scent). Feats. Alertness, Blind-Fight, Control Shape, Improved Initiative, Iron Will, Run, Track. Add Weapon Focus (bite).\nWolf empathy and scent. Dire wolf and hybrid forms have DR 10/gold, fast healing 1 and SR 14.",
+        "Lycanthrope encounter rules": "Alternate Form (Su). Where available, take or leave an animal or hybrid form as a standard action. Equipment does not change. Entering either form heals as a day of rest. A slain lycanthrope returns to humanoid form where it has one, but severed parts keep their animal shape. An afflicted creature normally gains one alternate form and can struggle to control it.\nCurse of Lycanthropy (Su). A qualifying bite to a humanoid within one size category requires Fortitude DC 18 or transmits the curse. Bludgeoning or nonpenetrating attacks cannot transmit it. Afflicted lycanthropes can spread it in Ravenloft. The general text specifies animal form, but a listed hybrid curse also uses this procedure at the table. Use any strain-specific exception below.\nNatural lycanthropes generally have DR 10/silver in animal or hybrid form, while afflicted ones have DR 5/silver. Some strains name a different material. Low-light vision and scent work in any form unless the profile specifies otherwise. Lycanthropic empathy allows simple communication, gives a +4 racial bonus on attitude checks with the corresponding normal or dire animal, and permits simple commands to friendly animals.\nA spellcaster cannot use verbal, somatic, or material components in animal form and cannot use verbal components in hybrid form. Apply the printed encounter stats for each form.",
+        "Printed source": "pp. 137, 139, 147–148"
+      },
+      "ruleNotes": [
+        "The human attack is printed at +0 despite its +4 base attack. Keep the printed attack. The dire wolf and hybrid quality lines omit low-light vision, which the general rule grants in every form."
+      ]
+    }
+  },
+  {
+    "name": "Werebadger",
+    "decision": "separate",
+    "pages": "pp. 137, 140, 147–148",
+    "notes": "Encounter summary with the printed form statistics.",
+    "statBlock": {
+      "name": "Werebadger",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium humanoid (Dwarf, Shapechanger) in hybrid form",
+      "ac": 18,
+      "hp": 30,
+      "hitDice": "1d4 + 3d8+15",
+      "speed": "30 ft. (6 squares)",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "otherStatistics": "Temperate forest, hills, or underground. Solitary or cete of 2–5. Standard treasure. Always chaotic evil.",
+      "description": "Werebadgers guard their territory fiercely. Hurt one and it comes back swinging on its next turn.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Rage (Ex). After taking damage in combat, it rages on its next turn. It gains +4 Str, +4 Con and −2 AC, and keeps attacking until either it or its opponent dies. It cannot end the rage voluntarily. Dire badger and hybrid bites can carry the curse. Nondwarves add +4 racial to their save against affliction. Badger empathy applies to all forms. Dire badger and hybrid forms have DR 10/silver.",
+        "Dwarf form": "Medium humanoid (Dwarf, Shapechanger). Initiative +3. Speed 20 ft. (4 squares). AC 12, touch 10, flat-footed 12. Base attack/grapple +3/+3. 5 ft. space and reach. Fort +9, Ref +6, Will +6. Str 11, Dex 11, Con 11, Int 10, Wis 12, Cha 10.\nAttack or full attack. Unarmed strike +0 melee (1d3+3 nonlethal).\nSkills. Handle Animal +4, Listen +8, Knowledge (mining) +4, Spot +8, Survival +1. Feats. Alertness, Control Shape, Iron Will, Toughness, Track.",
+        "Dire badger form": "Medium humanoid (Dwarf, Shapechanger). Initiative +3. Speed 30 ft. (6 squares), burrow 10 ft.. AC 18, touch 13, flat-footed 15. Base attack/grapple +2/+4. 5 ft. space and reach. Fort +9, Ref +6, Will +6. Str 15, Dex 17, Con 19, Int 10, Wis 12, Cha 8.\nAttack. Claw +4 melee (1d4+2). Full attack. Two claws at +4 and bite −1 melee (1d6+1).\nSkills. Handle Animal +4, Listen +14, Spot +14, Survival +1. Feats. Alertness, Control Shape, Iron Will, Toughness, Track.\nDR 10/silver.",
+        "Hybrid form": "Medium humanoid (Dwarf, Shapechanger). Initiative +3. Speed 30 ft. (6 squares). AC 18, touch 13, flat-footed 15. Base attack/grapple +2/+4. 5 ft. space and reach. Fort +9, Ref +6, Will +6. Str 15, Dex 17, Con 19, Int 10, Wis 12, Cha 8.\nAttack. Claw +4 melee (1d4+2). Full attack. Two claws at +4 and bite −1 melee (1d6+1).\nSkills. Handle Animal +4, Listen +14, Spot +14, Survival +1. Feats. Alertness, Control Shape, Iron Will, Toughness, Track.\nDR 10/silver.",
+        "Lycanthrope encounter rules": "Alternate Form (Su). Where available, take or leave an animal or hybrid form as a standard action. Equipment does not change. Entering either form heals as a day of rest. A slain lycanthrope returns to humanoid form where it has one, but severed parts keep their animal shape. An afflicted creature normally gains one alternate form and can struggle to control it.\nCurse of Lycanthropy (Su). A qualifying bite to a humanoid within one size category requires Fortitude DC 18 or transmits the curse. Bludgeoning or nonpenetrating attacks cannot transmit it. Afflicted lycanthropes can spread it in Ravenloft. The general text specifies animal form, but a listed hybrid curse also uses this procedure at the table. Use any strain-specific exception below.\nNatural lycanthropes generally have DR 10/silver in animal or hybrid form, while afflicted ones have DR 5/silver. Some strains name a different material. Low-light vision and scent work in any form unless the profile specifies otherwise. Lycanthropic empathy allows simple communication, gives a +4 racial bonus on attitude checks with the corresponding normal or dire animal, and permits simple commands to friendly animals.\nA spellcaster cannot use verbal, somatic, or material components in animal form and cannot use verbal components in hybrid form. Apply the printed encounter stats for each form.",
+        "Printed source": "pp. 137, 140, 147–148"
+      },
+      "ruleNotes": [
+        "The dwarf combat row prints Con 11, Cha 10, initiative +3 and unarmed damage 1d3+3. The introduction instead gives its dwarf base Con 13 and Cha 8. Keep the specific encounter row."
+      ]
+    }
+  },
+  {
+    "name": "Werejackal",
+    "decision": "separate",
+    "pages": "pp. 137, 141–142, 147–148",
+    "notes": "Encounter summary with the printed form statistics.",
+    "statBlock": {
+      "name": "Werejackal",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small humanoid (Human, Shapechanger) in hybrid form",
+      "ac": 17,
+      "hp": 8,
+      "hitDice": "1d4 + 1d8+2",
+      "speed": "40 ft. (8 squares)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Warm desert or plains of the Amber Wastes. Solitary or pack of 6–11. Standard treasure. Always lawful evil.",
+      "description": "Werejackals scare off weaker foes and flee from anyone visibly stronger.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Jackal and hybrid bites use the listed curse. Jackal empathy applies in every form. Jackal and hybrid forms have DR 10/bronze.\nWerejackal chosen. A devoted cleric of Anubis of at least 6th level adds a domination power. Ordinary werejackals within 100 ft. save Will DC 10 + half the chosen’s HD + its Cha modifier or fall under its sway as charm monster at caster level 10. A successful save grants one day of immunity. The chosen gains Still Spell and Silent Spell, and can cast spells prepared with both feats while in jackal form.",
+        "Human form": "Medium humanoid (Human, Shapechanger). Initiative +4. Speed 30 ft. (6 squares). AC 12, touch 10, flat-footed 12. Base attack/grapple +0/+0. 5 ft. space and reach. Fort +6, Ref +5, Will +3. Str 11, Dex 11, Con 11, Int 10, Wis 12, Cha 10.\nAttack or full attack. Unarmed strike +0 melee (1d3 nonlethal).\nSkills. Craft (pottery) +6, Listen +13, Spot +13, Swim +5, Survival +1. Feats. Alertness, Control Shape, Iron Will, Track.",
+        "Jackal form": "Small humanoid (Human, Shapechanger). Initiative +7. Speed 40 ft. (8 squares). AC 17, touch 14, flat-footed 14. Base attack/grapple +0/−3. 5 ft. space and reach. Fort +6, Ref +5, Will +3. Str 13, Dex 17, Con 15, Int 10, Wis 12, Cha 10.\nAttack. Bite +4 melee (1d4+1). Full attack. Bite +4 and two claws −1 melee (1d4+1 each).\nSkills. Listen +13, Spot +13, Swim +5, Survival +1 (+9 tracking by scent). Feats. Alertness, Control Shape, Iron Will, Track. Add Weapon Finesse.\nDR 10/bronze.",
+        "Hybrid form": "Small humanoid (Human, Shapechanger). Initiative +7. Speed 40 ft. (8 squares). AC 17, touch 14, flat-footed 14. Base attack/grapple +0/−3. 5 ft. space and reach. Fort +6, Ref +5, Will +3. Str 13, Dex 17, Con 15, Int 10, Wis 12, Cha 10.\nAttack. Claw +1 melee (1d4+1). Full attack. Two claws at +1 and bite −1 melee (1d4+1).\nSkills. Listen +13, Spot +13, Swim +5, Survival +1 (+9 tracking by scent). Feats. Alertness, Control Shape, Iron Will, Track. Add Weapon Finesse.\nDR 10/bronze.",
+        "Lycanthrope encounter rules": "Alternate Form (Su). Where available, take or leave an animal or hybrid form as a standard action. Equipment does not change. Entering either form heals as a day of rest. A slain lycanthrope returns to humanoid form where it has one, but severed parts keep their animal shape. An afflicted creature normally gains one alternate form and can struggle to control it.\nCurse of Lycanthropy (Su). A qualifying bite to a humanoid within one size category requires Fortitude DC 18 or transmits the curse. Bludgeoning or nonpenetrating attacks cannot transmit it. Afflicted lycanthropes can spread it in Ravenloft. The general text specifies animal form, but a listed hybrid curse also uses this procedure at the table. Use any strain-specific exception below.\nNatural lycanthropes generally have DR 10/silver in animal or hybrid form, while afflicted ones have DR 5/silver. Some strains name a different material. Low-light vision and scent work in any form unless the profile specifies otherwise. Lycanthropic empathy allows simple communication, gives a +4 racial bonus on attitude checks with the corresponding normal or dire animal, and permits simple commands to friendly animals.\nA spellcaster cannot use verbal, somatic, or material components in animal form and cannot use verbal components in hybrid form. Apply the printed encounter stats for each form.",
+        "Printed source": "pp. 137, 141–142, 147–148"
+      },
+      "ruleNotes": [
+        "The general introduction and the sample's feat row do not account for the human form’s printed +4 initiative. Keep the listed initiative. The chosen is a variation of this encounter, without a separate printed stat block."
+      ]
+    }
+  },
+  {
+    "name": "Werejaguar",
+    "decision": "separate",
+    "pages": "pp. 137, 142–143, 147–148",
+    "notes": "Encounter summary with the printed form statistics.",
+    "statBlock": {
+      "name": "Werejaguar",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium humanoid (Human, Shapechanger) in permanent hybrid form",
+      "ac": 17,
+      "hp": 21,
+      "hitDice": "1d4 + 3d8+6",
+      "speed": "40 ft., climb 20 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Warm forest of the Verdurous Lands. Solitary, group of 5–8, or pride of 5–20 with one 6-HD leader. Standard treasure. Usually lawful neutral.",
+      "description": "Werejaguar packs stalk through jungle cover, wearing down prey before closing in.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Pounce (Ex). Charge and make a full attack with two rake attacks. Each rake is +6 melee for 1d6+3.\nCurse of Lycanthropy (Su). A humanoid that contracts the curse shifts permanently to hybrid form 2d6 hours after the attack. It scarcely remembers its earlier life and keeps this form until cured or slain.\nWhen the pack stalks someone in the jungle, the target can make a Spot check to notice the ambush. An unaware target is flat-footed when the pack attacks.",
+        "Hybrid form": "Medium humanoid (Human, Shapechanger). Initiative +4. Speed 40 ft. (8 squares), climb 20 ft.. AC 17, touch 14, flat-footed 13. Base attack/grapple +2/+5. 5 ft. space and reach. Fort +7, Ref +7, Will +4. Str 17, Dex 19, Con 15, Int 10, Wis 12, Cha 10.\nAttack. Claw +6 melee (1d6+3). Full attack. Two claws at +6 and bite +1 melee (1d3+1).\nSkills. Balance +12, Climb +11, Hide +9, Listen +14, Move Silently +9, Spot +14. In tall grass or heavy undergrowth, the Hide racial bonus rises by 4. Feats. Alertness, Dodge, Improved Initiative, Iron Will, Weapon Finesse.\nDR 10/ebony, jaguar empathy, low-light vision and scent. This is its only form. It has no Alternate Form or Control Shape.",
+        "Lycanthrope encounter rules": "Alternate Form (Su). Where available, take or leave an animal or hybrid form as a standard action. Equipment does not change. Entering either form heals as a day of rest. A slain lycanthrope returns to humanoid form where it has one, but severed parts keep their animal shape. An afflicted creature normally gains one alternate form and can struggle to control it.\nCurse of Lycanthropy (Su). A qualifying bite to a humanoid within one size category requires Fortitude DC 18 or transmits the curse. Bludgeoning or nonpenetrating attacks cannot transmit it. Afflicted lycanthropes can spread it in Ravenloft. The general text specifies animal form, but a listed hybrid curse also uses this procedure at the table. Use any strain-specific exception below.\nNatural lycanthropes generally have DR 10/silver in animal or hybrid form, while afflicted ones have DR 5/silver. Some strains name a different material. Low-light vision and scent work in any form unless the profile specifies otherwise. Lycanthropic empathy allows simple communication, gives a +4 racial bonus on attitude checks with the corresponding normal or dire animal, and permits simple commands to friendly animals.\nA spellcaster cannot use verbal, somatic, or material components in animal form and cannot use verbal components in hybrid form. Apply the printed encounter stats for each form.",
+        "Printed source": "pp. 137, 142–143, 147–148"
+      },
+      "ruleNotes": [
+        "The strain description refers to transmitted attacks but does not identify which wounds carry the curse. Apply the usual qualifying-bite rule to its hybrid bite."
+      ]
+    }
+  },
+  {
+    "name": "Wereleopard",
+    "decision": "separate",
+    "pages": "pp. 137, 143–144, 147–148",
+    "notes": "Encounter summary with the printed form statistics.",
+    "statBlock": {
+      "name": "Wereleopard",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium humanoid (Human, Shapechanger) in hybrid form",
+      "ac": 17,
+      "hp": 21,
+      "hitDice": "1d4 + 3d8+6",
+      "speed": "40 ft. (8 squares), climb 20 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Warm forest, hills, or plains. Solitary, pair, or pride of 5–10. Standard treasure. Usually lawful evil. A pride may serve a paka.",
+      "description": "A wereleopard pride stalks savanna prey and often prolongs an attack to frighten nearby villagers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Pounce (Ex). Charge and make a full attack plus two rake attacks at +1 melee for 1d3+1 each.\nImproved Grab (Ex). After a bite hits a foe of a smaller size, attempt to start a grapple as a free action without provoking an attack of opportunity.\nHobble (Ex). A bite critical halves the target’s speed for one day. A successful DC 15 Heal check or at least 1 HP of magical healing ends the penalty early.\nLightning Phobia (Ex). Witnessing a burst of electricity, including lightning bolt, requires a DC 13 Fear save. Use a Will save and the Ravenloft Fear rules.\nCurse of Lycanthropy (Su). A newly afflicted creature becomes hybrid at the next dawn. It reverts to humanoid form on full-moon nights and remembers what it did in either form. True wereleopards have only hybrid form.",
+        "Afflicted humanoid form": "Medium humanoid (Human, Afflicted Shapechanger). Initiative +0. Speed 30 ft. (6 squares). AC 12, touch 10, flat-footed 12. Base attack/grapple +0/+0. 5 ft. space and reach. Fort +7, Ref +7, Will +4. Str 11, Dex 11, Con 11, Int 10, Wis 12, Cha 10.\nAttack or full attack. Unarmed strike +0 melee (1d3 nonlethal).\nSkills. Balance +12, Climb +6, Hide +9, Listen +6, Move Silently +9, Profession (hunter, score unprinted). Feats. Alertness, Iron Will, Run.\nLeopard empathy, lightning phobia, low-light vision and scent.",
+        "Hybrid form": "Medium humanoid (Human, Shapechanger). Initiative +3. Speed 40 ft. (8 squares), climb 20 ft.. AC 17, touch 14, flat-footed 13. Base attack/grapple +3/+6. 5 ft. space and reach. Fort +7, Ref +7, Will +4. Str 17, Dex 19, Con 15, Int 10, Wis 12, Cha 10.\nAttack. Bite +6 melee (1d6+3). Full attack. Bite +6 and two claws +1 melee (1d3+1 each).\nSkills. Balance +12, Climb +11, Hide +9, Listen +14, Move Silently +9, Spot +14. In tall grass or heavy undergrowth, the Hide racial bonus rises by 4. Feats. Alertness, Control Shape, Dodge, Iron Will, Run, Weapon Finesse.\nDR 10/silver in the printed hybrid sample. Leopard empathy, lightning phobia, low-light vision and scent.",
+        "Lycanthrope encounter rules": "Alternate Form (Su). Where available, take or leave an animal or hybrid form as a standard action. Equipment does not change. Entering either form heals as a day of rest. A slain lycanthrope returns to humanoid form where it has one, but severed parts keep their animal shape. An afflicted creature normally gains one alternate form and can struggle to control it.\nCurse of Lycanthropy (Su). A qualifying bite to a humanoid within one size category requires Fortitude DC 18 or transmits the curse. Bludgeoning or nonpenetrating attacks cannot transmit it. Afflicted lycanthropes can spread it in Ravenloft. The general text specifies animal form, but a listed hybrid curse also uses this procedure at the table. Use any strain-specific exception below.\nNatural lycanthropes generally have DR 10/silver in animal or hybrid form, while afflicted ones have DR 5/silver. Some strains name a different material. Low-light vision and scent work in any form unless the profile specifies otherwise. Lycanthropic empathy allows simple communication, gives a +4 racial bonus on attitude checks with the corresponding normal or dire animal, and permits simple commands to friendly animals.\nA spellcaster cannot use verbal, somatic, or material components in animal form and cannot use verbal components in hybrid form. Apply the printed encounter stats for each form.",
+        "Printed source": "pp. 137, 143–144, 147–148"
+      },
+      "ruleNotes": [
+        "Improved Grab is listed without a trigger. The bite trigger and smaller-target limit use the standard 3.5 procedure. The hybrid entry lists Alternate Form, while the strain text gives true wereleopards no alternate form. Follow the strain text."
+      ]
+    }
+  },
+  {
+    "name": "Wereraven",
+    "decision": "separate",
+    "pages": "pp. 137, 146–148",
+    "notes": "Encounter summary with the printed form statistics.",
+    "statBlock": {
+      "name": "Wereraven",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium humanoid (Human, Shapechanger) in hybrid form",
+      "ac": 19,
+      "hp": 8,
+      "hitDice": "1d4 + 1d8+2",
+      "speed": "20 ft. (4 squares), fly 40 ft. (average)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Forest, hills, plains, or mountains. Solitary, pair, or murder of 4–9. A lair can hold 5d10 normal ravens. Standard treasure in gems and coins. Always neutral good.",
+      "description": "Wereravens spy for allies of the Vistani and avoid a fight when they can. In the air, they go for the eyes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Eye Peck (Ex). On a bite critical, the wereraven blinds one eye. A creature left with one eye takes a −2 competence penalty on Dexterity-modified rolls. Losing the last eye blinds the target. Only heal or regenerate cures this injury. Dire raven and hybrid bites use the listed curse. Once an enemy is blinded, the wereraven may return to human form to fight with a weapon or let the foe go. It can speak in dire raven form.",
+        "Human form": "Medium humanoid (Human, Shapechanger). Initiative +0. Speed 30 ft. (6 squares). AC 12, touch 10, flat-footed 12. Base attack/grapple +0/+0. 5 ft. space and reach. Fort +5, Ref +7, Will +6. Str 11, Dex 11, Con 11, Int 10, Wis 12, Cha 10.\nAttack or full attack. Unarmed strike +0 melee (1d3 nonlethal).\nSkills. Knowledge (local history) +4, Listen +8, Spot +8. Feats. Alertness, Control Shape, Iron Will.\nRaven empathy.",
+        "Dire raven form": "Small humanoid (Human, Shapechanger). Initiative +5. Speed 20 ft. (4 squares), fly 40 ft. (average). AC 19, touch 16, flat-footed 14. Base attack/grapple +1/+0. 5 ft. space and reach. Fort +5, Ref +7, Will +6. Str 9, Dex 21, Con 15, Int 10, Wis 16, Cha 10.\nAttack. Claw +5 melee (1d3−1). Full attack. Two claws at +5 or one bite +0 melee (1d4−1).\nSkills. Listen +16, Spot +16. Feats. Alertness, Control Shape, Dodge, Iron Will, Weapon Finesse.\nDR 10/silver and raven empathy.",
+        "Hybrid form": "Medium humanoid (Human, Shapechanger). Initiative +5. Speed 20 ft. (4 squares), fly 40 ft. (average). AC 19, touch 16, flat-footed 13. Base attack/grapple +1/+0. 5 ft. space and reach. Fort +5, Ref +7, Will +6. Str 9, Dex 21, Con 15, Int 10, Wis 16, Cha 10.\nAttack. Claw +5 melee (1d3−1). Full attack. Two claws at +5 or one bite +0 melee (1d4−1).\nSkills. Listen +16, Spot +16. Feats. Alertness, Control Shape, Dodge, Iron Will, Weapon Finesse.\nDR 10/silver and raven empathy.",
+        "Lycanthrope encounter rules": "Alternate Form (Su). Where available, take or leave an animal or hybrid form as a standard action. Equipment does not change. Entering either form heals as a day of rest. A slain lycanthrope returns to humanoid form where it has one, but severed parts keep their animal shape. An afflicted creature normally gains one alternate form and can struggle to control it.\nCurse of Lycanthropy (Su). A qualifying bite to a humanoid within one size category requires Fortitude DC 18 or transmits the curse. Bludgeoning or nonpenetrating attacks cannot transmit it. Afflicted lycanthropes can spread it in Ravenloft. The general text specifies animal form, but a listed hybrid curse also uses this procedure at the table. Use any strain-specific exception below.\nNatural lycanthropes generally have DR 10/silver in animal or hybrid form, while afflicted ones have DR 5/silver. Some strains name a different material. Low-light vision and scent work in any form unless the profile specifies otherwise. Lycanthropic empathy allows simple communication, gives a +4 racial bonus on attitude checks with the corresponding normal or dire animal, and permits simple commands to friendly animals.\nA spellcaster cannot use verbal, somatic, or material components in animal form and cannot use verbal components in hybrid form. Apply the printed encounter stats for each form.",
+        "Printed source": "pp. 137, 146–148"
+      },
+      "ruleNotes": [
+        "The hybrid prints Medium but includes a +1 size bonus in AC. Retain the printed AC values, including the different flat-footed ACs. The full-attack row gives claws or bite, so do not combine them."
+      ]
+    }
+  },
+  {
+    "name": "Wereray",
+    "decision": "separate",
+    "pages": "pp. 137, 145, 147–148",
+    "notes": "Encounter summary with the printed form statistics.",
+    "statBlock": {
+      "name": "Wereray",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium humanoid (Human, Shapechanger, Aquatic) in hybrid form",
+      "ac": 18,
+      "hp": 24,
+      "hitDice": "1d4 + 3d8+4",
+      "speed": "20 ft. (4 squares), swim 40 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Temperate or warm aquatic terrain. Solitary or school of 5–9. Standard treasure. Always chaotic evil.",
+      "description": "Wererays hide in coastal shallows, sting swimmers and wait for the poison to slow them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Poison (Ex). Tail slam, Fortitude DC 13. The initial and secondary damage are each 1d6 Strength.\nAmphibious (Ex). The hybrid can stay out of salt water for one minute per point of Constitution. After that, apply the 3.5 drowning rules.\nA wereray uses the bite when it wants to pass on the curse. Its tail slam cannot transmit the curse. Stingray and hybrid forms have DR 10/coral.",
+        "Human form": "Medium humanoid (Human, Shapechanger). Initiative +0. Speed 30 ft. (6 squares). AC 13, touch 11, flat-footed 12. Base attack/grapple +0/+0. 5 ft. space and reach. Fort +5, Ref +6, Will +4. Str 11, Dex 13, Con 11, Int 10, Wis 12, Cha 10.\nAttack or full attack. Unarmed strike +0 melee (1d3 nonlethal).\nSkills. Listen +11, Hide +6, Profession (fisherman) +6, Spot +11, Swim +2. Feats. Alertness, Control Shape, Dodge, Iron Will.\nAmphibious and stingray empathy.",
+        "Stingray form": "Medium humanoid (Human, Shapechanger, Aquatic). Initiative +3. Speed 20 ft. (4 squares), swim 40 ft.. AC 18, touch 13, flat-footed 15. Base attack/grapple +3/+5. 5 ft. space and reach. Fort +5, Ref +6, Will +4. Str 15, Dex 17, Con 15, Int 10, Wis 12, Cha 10.\nAttack. Tail slam +4 melee (1d2+2 plus poison). Full attack. Tail slam +4 melee (1d2+2 plus poison) or bite −1 melee (1d4+1).\nSkills. Listen +11, Hide +6, Spot +11. Add a +10 racial bonus to Hide while prone on a sandy seabed. Feats. Alertness, Control Shape, Dodge, Iron Will.\nAmphibious, DR 10/coral and stingray empathy.",
+        "Hybrid form": "Medium humanoid (Human, Shapechanger, Aquatic). Initiative +3. Speed 20 ft. (4 squares), swim 40 ft.. AC 18, touch 13, flat-footed 15. Base attack/grapple +3/+5. 5 ft. space and reach. Fort +5, Ref +6, Will +4. Str 15, Dex 17, Con 15, Int 10, Wis 12, Cha 10.\nAttack. Tail slam +4 melee (1d2+2 plus poison). Full attack. Tail slam +4 melee (1d2+2 plus poison) or bite −1 melee (1d4+1).\nSkills. Listen +11, Hide +6, Spot +11. Add a +10 racial bonus to Hide while prone on a sandy seabed. Feats. Alertness, Control Shape, Dodge, Iron Will.\nAmphibious, DR 10/coral and stingray empathy.",
+        "Lycanthrope encounter rules": "Alternate Form (Su). Where available, take or leave an animal or hybrid form as a standard action. Equipment does not change. Entering either form heals as a day of rest. A slain lycanthrope returns to humanoid form where it has one, but severed parts keep their animal shape. An afflicted creature normally gains one alternate form and can struggle to control it.\nCurse of Lycanthropy (Su). A qualifying bite to a humanoid within one size category requires Fortitude DC 18 or transmits the curse. Bludgeoning or nonpenetrating attacks cannot transmit it. Afflicted lycanthropes can spread it in Ravenloft. The general text specifies animal form, but a listed hybrid curse also uses this procedure at the table. Use any strain-specific exception below.\nNatural lycanthropes generally have DR 10/silver in animal or hybrid form, while afflicted ones have DR 5/silver. Some strains name a different material. Low-light vision and scent work in any form unless the profile specifies otherwise. Lycanthropic empathy allows simple communication, gives a +4 racial bonus on attitude checks with the corresponding normal or dire animal, and permits simple commands to friendly animals.\nA spellcaster cannot use verbal, somatic, or material components in animal form and cannot use verbal components in hybrid form. Apply the printed encounter stats for each form.",
+        "Printed source": "pp. 137, 145, 147–148"
+      },
+      "ruleNotes": [
+        "The tail slam’s poison appears in the full-attack line and the trait, but not in the single-attack row. Apply it to any tail slam."
+      ]
+    }
+  }
+]

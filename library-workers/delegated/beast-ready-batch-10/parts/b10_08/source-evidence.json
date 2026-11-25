@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Tyrannosaurus Rex",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      372
+    ],
+    "section": "Appendix A, Animals",
+    "pageNumbering": "Print folio 372, AnyFlip sheet 375. D&D Beyond byline p. 372.",
+    "printFacsimileUrl": "https://online.anyflip.com/acscv/ypya/files/large/03309d0261b31545e0f0fc188bf99445.webp",
+    "url": "https://www.dndbeyond.com/monsters/5195243-tyrannosaurus-rex",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195243-tyrannosaurus-rex",
+    "byline": "Monster Manual, pg. 372",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line on the scoped D&D Beyond page.",
+    "artGroup": "tyrannosaurus-rex",
+    "portraitSha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+    "sourceDistinctions": [
+      "Multiattack comprises one Bite and one Tail with no stated order. Bite bars Tail targeting only while the target remains grappled by the Bite. Tail imposes prone on a hit against a Huge or smaller creature.",
+      "The reused portrait has warmer yellow parchment than the other four. Its snout and tail sit close to the circular crop edge.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  },
+  {
+    "name": "Venomous Snake",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      372
+    ],
+    "section": "Appendix A, Animals",
+    "pageNumbering": "Print folio 372, AnyFlip sheet 375. D&D Beyond byline p. 372.",
+    "printFacsimileUrl": "https://online.anyflip.com/acscv/ypya/files/large/03309d0261b31545e0f0fc188bf99445.webp",
+    "url": "https://www.dndbeyond.com/monsters/4775847-venomous-snake",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/4775847-venomous-snake",
+    "byline": "Monster Manual, pg. 372",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line on the scoped D&D Beyond page.",
+    "artGroup": "poisonous-snake",
+    "portraitSha256": "0618654cb0d968dc849a9fa9e98e607562be990937f801feb4059362135124e7",
+    "sourceDistinctions": [
+      "Venomous Snake is the heading in this printing. The reused portrait is stored under the older Poisonous Snake name.",
+      "The secondary index also associates this block with Player’s Handbook (2024) p. 358.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  },
+  {
+    "name": "Vulture",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      372
+    ],
+    "section": "Appendix A, Animals",
+    "pageNumbering": "Print folio 372, AnyFlip sheet 375. D&D Beyond byline p. 372.",
+    "printFacsimileUrl": "https://online.anyflip.com/acscv/ypya/files/large/03309d0261b31545e0f0fc188bf99445.webp",
+    "url": "https://www.dndbeyond.com/monsters/5195256-vulture",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195256-vulture",
+    "byline": "Monster Manual, pg. 372",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line on the scoped D&D Beyond page.",
+    "artGroup": "vulture",
+    "portraitSha256": "91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7",
+    "sourceDistinctions": [
+      "Pack Tactics is the sole trait shown in this printing.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  },
+  {
+    "name": "Warhorse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      373
+    ],
+    "section": "Appendix A, Animals",
+    "pageNumbering": "Print folio 373, AnyFlip sheet 376. D&D Beyond byline p. 373.",
+    "printFacsimileUrl": "https://online.anyflip.com/acscv/ypya/files/large/ba0d264c78c8db4d0337e9d3e89a24a4.webp",
+    "url": "https://www.dndbeyond.com/monsters/4775848-warhorse",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/4775848-warhorse",
+    "byline": "Monster Manual, pg. 373",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line on the scoped D&D Beyond page.",
+    "artGroup": "riding-warhorse",
+    "portraitSha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+    "sourceDistinctions": [
+      "The portrait is shared with Riding Horse. Warhorse retains its own statistics and Hooves movement rider.",
+      "The secondary index also associates this block with Player’s Handbook (2024) p. 359.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  },
+  {
+    "name": "Weasel",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      373
+    ],
+    "section": "Appendix A, Animals",
+    "pageNumbering": "Print folio 373, AnyFlip sheet 376. D&D Beyond byline p. 372.",
+    "printFacsimileUrl": "https://online.anyflip.com/acscv/ypya/files/large/ba0d264c78c8db4d0337e9d3e89a24a4.webp",
+    "url": "https://www.dndbeyond.com/monsters/4775849-weasel",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/4775849-weasel",
+    "byline": "Monster Manual, pg. 372",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line on the scoped D&D Beyond page.",
+    "artGroup": "weasel",
+    "portraitSha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+    "sourceDistinctions": [
+      "The inspected print places Weasel below Warhorse on the same p. 373. D&D Beyond labels Weasel p. 372. Its stat block matches the print.",
+      "The secondary index also associates this block with Player’s Handbook (2024) p. 359.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  }
+]

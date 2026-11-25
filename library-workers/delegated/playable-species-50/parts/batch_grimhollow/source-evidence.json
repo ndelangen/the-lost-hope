@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Disembodied",
+    "kind": "species",
+    "slug": "disembodied",
+    "edition": "2014 fifth edition compatible",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "publisher": "Ghostfire Gaming",
+    "book": "Grim Hollow: The Player's Guide",
+    "firstPrinting": "2021",
+    "url": "https://anyflip.com/usqxr/dvib/basic",
+    "printedPages": [
+      15
+    ],
+    "sourceHeading": "Disembodied Traits",
+    "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+    "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+    "existingCatalogSource": "https://www.dndbeyond.com/species/1987213-disembodied",
+    "sourceDistinctions": [
+      "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide.",
+      "The legacy Player Pack separately uses the printed title The Disembodied. The canonical name here follows the revised catalog name and keeps the 2021 book variant distinct."
+    ],
+    "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "portraitSelection": "generated",
+    "portraitForm": "Elian Voss",
+    "npcExamples": [
+      "Elian Voss"
+    ]
+  },
+  {
+    "name": "Dreamer",
+    "kind": "species",
+    "slug": "dreamer",
+    "edition": "2014 fifth edition compatible",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "publisher": "Ghostfire Gaming",
+    "book": "Grim Hollow: The Player's Guide",
+    "firstPrinting": "2021",
+    "url": "https://anyflip.com/gtpst/dzwp/basic",
+    "printedPages": [
+      14
+    ],
+    "sourceHeading": "Dreamer Traits",
+    "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+    "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+    "existingCatalogSource": "https://www.dndbeyond.com/species/1987216-dreamer",
+    "sourceDistinctions": [
+      "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide."
+    ],
+    "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "portraitSelection": "generated",
+    "portraitForm": "Vela Stonewake",
+    "npcExamples": [
+      "Vela Stonewake"
+    ]
+  },
+  {
+    "name": "Laneshi",
+    "kind": "species",
+    "slug": "laneshi",
+    "edition": "2014 fifth edition compatible",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "publisher": "Ghostfire Gaming",
+    "book": "Grim Hollow: The Player's Guide",
+    "firstPrinting": "2021",
+    "url": "https://anyflip.com/gtpst/dzwp/basic",
+    "printedPages": [
+      10,
+      11
+    ],
+    "sourceHeading": "Laneshi Traits",
+    "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+    "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+    "existingCatalogSource": "https://www.dndbeyond.com/species/1987223-laneshi",
+    "sourceDistinctions": [
+      "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide."
+    ],
+    "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "portraitSelection": "generated",
+    "portraitForm": "Teral Brineford",
+    "npcExamples": [
+      "Teral Brineford"
+    ]
+  },
+  {
+    "name": "Ogresh",
+    "kind": "species",
+    "slug": "ogresh",
+    "edition": "2014 fifth edition compatible",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "publisher": "Ghostfire Gaming",
+    "book": "Grim Hollow: The Player's Guide",
+    "firstPrinting": "2021",
+    "url": "https://anyflip.com/aysnx/chqg/basic",
+    "printedPages": [
+      11,
+      12
+    ],
+    "sourceHeading": "Ogresh Traits",
+    "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+    "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+    "existingCatalogSource": "https://www.dndbeyond.com/species/1987224-ogresh",
+    "sourceDistinctions": [
+      "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide."
+    ],
+    "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "portraitSelection": "generated",
+    "portraitForm": "Marel Broadbank",
+    "npcExamples": [
+      "Marel Broadbank"
+    ]
+  },
+  {
+    "name": "Wechselkind",
+    "kind": "species",
+    "slug": "wechselkind",
+    "edition": "2014 fifth edition compatible",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "publisher": "Ghostfire Gaming",
+    "book": "Grim Hollow: The Player's Guide",
+    "firstPrinting": "2021",
+    "url": "https://anyflip.com/lphgc/qpve/basic",
+    "printedPages": [
+      9
+    ],
+    "sourceHeading": "Wechselkind Traits",
+    "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+    "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+    "existingCatalogSource": "https://www.dndbeyond.com/species/1987225-wechselkind",
+    "sourceDistinctions": [
+      "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide.",
+      "The 2021 Artificial Form explicitly uses the Humanoid creature type despite the doll's construction."
+    ],
+    "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "portraitSelection": "generated",
+    "portraitForm": "Pip Cinderbutton",
+    "npcExamples": [
+      "Pip Cinderbutton"
+    ]
+  }
+]

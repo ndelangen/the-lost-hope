@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Giant Shark",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025), 2024 rules",
+    "printedPages": [
+      359
+    ],
+    "byline": "Monster Manual, pg. 359",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195027-giant-shark",
+    "errataUrl": "",
+    "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+    "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_02/portraits/giant-shark.png",
+    "portraitSha256": "56aaba51f1a9c9bf6a038420210db29c8d84f6ef2e97c65a8d548cc0c6a1c0af",
+    "sourceDistinctions": [
+      "Check the Bite Advantage against the target’s current HP for each roll."
+    ]
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025), 2024 rules",
+    "printedPages": [
+      359
+    ],
+    "byline": "Monster Manual, pg. 359",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775821-giant-spider",
+    "errataUrl": "",
+    "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+    "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+    "portraitSha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+    "sourceDistinctions": [
+      "The page cites Monster Manual p. 359. The current Web uses a Dexterity save and lists destroying the web as the way to end the restraint."
+    ]
+  },
+  {
+    "name": "Hunter Shark",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025), 2024 rules",
+    "printedPages": [
+      363
+    ],
+    "byline": "Monster Manual, pg. 363",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195083-hunter-shark",
+    "errataUrl": "",
+    "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+    "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_05/portraits/hunter-shark.png",
+    "portraitSha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+    "sourceDistinctions": [
+      "Bite is its sole printed action. Advantage depends on the target’s current HP."
+    ]
+  },
+  {
+    "name": "Giant Toad",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025), 2024 rules",
+    "printedPages": [
+      360
+    ],
+    "byline": "Monster Manual, pg. 360",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195029-giant-toad",
+    "errataUrl": "",
+    "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+    "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-toad.png",
+    "portraitSha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+    "sourceDistinctions": [
+      "Swallow uses the action printed separately from Bite. The acid damage is timed to the end of the toad’s turn."
+    ]
+  },
+  {
+    "name": "Giant Venomous Snake",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025), 2024 rules",
+    "printedPages": [
+      361
+    ],
+    "byline": "Monster Manual, pg. 361",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195030-giant-venomous-snake",
+    "errataUrl": "",
+    "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+    "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_01/portraits/giant-poisonous-snake.png",
+    "portraitSha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709",
+    "sourceDistinctions": [
+      "The 2024 rules name is Giant Venomous Snake. The scoped portrait reuses the Giant Poisonous Snake art group."
+    ]
+  }
+]

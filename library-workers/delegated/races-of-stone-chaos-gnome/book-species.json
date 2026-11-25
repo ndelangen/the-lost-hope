@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Chaos Gnome",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Humanoid (Gnome), also called imago. Base land speed 20 ft. +2 Dexterity, +2 Constitution, +2 Charisma, −2 Strength.",
+      "Small size gives +1 to AC and attacks and +4 size on Hide. Use Small weapons and three-quarters of Medium lifting and carrying capacity.",
+      "Low-light vision doubles normal human range and preserves color and detail.",
+      "Weapon Familiarity makes the gnome hooked hammer a martial weapon.",
+      "+4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+      "+2 racial bonus on Listen checks and immunity to confusion effects.",
+      "Luck of Chaos (Ex) allows one reroll per day of a roll the gnome just made, before the DM announces success or failure. Keep the new result even if it is worse.",
+      "Spell Power adds +1 effective caster level to spells with the chaos descriptor. It applies to level-dependent spell variables and caster level checks and stacks with other Spell Power abilities.",
+      "Entropic shield is available 1/day regardless of Charisma. At Charisma 10 or higher, daze, flare, and prestidigitation are also available 1/day each. These are caster level 1. Save DC where applicable is 10 + Charisma modifier + spell level.",
+      "Common and Gnome are automatic. Bonus languages are Any. Favored class Sorcerer. Level adjustment +1. The entry grants no racial Hit Dice."
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Cranium Rat",
+    "file": "portraits/cranium-rat.png",
+    "sha256": "da0e610eda41d06d605999814baa013aef458343829724d63a3a5f046134021c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Darkling",
+    "file": "portraits/darkling.png",
+    "sha256": "bf257f2ad85c23e8c3f9974085a93a2c3cb4b5acf282a56307d62ca1d65e6a45",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Devourer",
+    "file": "portraits/devourer.png",
+    "sha256": "8a8cab71977ac77826003d7e17f1c5af0f3453a79560f8778f5457513a10cba2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Draegloth",
+    "file": "portraits/draegloth.png",
+    "sha256": "d3fefe9bc2e1294fef332ad43dd53618c6259e50f3d392028cc7b7892dea0cf4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Firenewt",
+    "file": "portraits/firenewt.png",
+    "sha256": "4fd1cef5029ca37b6c40e2dfa34979d7daacb0accc5678c2c49efc6085b04850",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,535 @@
+[
+  {
+    "name": "Azaka Stormfang",
+    "statBlock": {
+      "name": "Azaka Stormfang",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 33,
+      "classification": "Medium humanoid (human, shapechanger), neutral good",
+      "description": "A Chultan guide in Port Nyanzaru conceals her ability to take tiger form. She wants the pterafolk at Firefinger to return her family’s wooden tiger mask.",
+      "ac": 12,
+      "hp": 120,
+      "hitDice": "16d8 + 48",
+      "speed": "walk 30 ft. (40 ft. in tiger form)",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Common. She cannot speak in tiger form.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered. Her immunity does not prevent falling damage.",
+        "Traits": "Shapechanger. As an action, take tiger form, tiger-humanoid hybrid form, or true human form. Statistics otherwise stay the same apart from size and the listed tiger speed. Gear does not change with her. She returns to human form when she dies.\nKeen Hearing and Smell. She has advantage on Wisdom (Perception) checks using hearing or smell.\nPounce (tiger or hybrid). Move at least 15 ft. directly toward a creature, then hit it with Claw during that turn. The target makes a DC 14 Strength save or falls prone. If prone, it can be the target of one bonus-action Bite.",
+        "Actions": "Multiattack (human or hybrid). In human form, make two Scimitar or two Longbow attacks. The hybrid can do the same or make two Claw attacks.\nBite (tiger or hybrid). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage. A humanoid target must pass a DC 13 Constitution save or contract weretiger lycanthropy.\nClaw (tiger or hybrid). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.\nScimitar (human or hybrid). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.\nLongbow (human or hybrid). Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+        "Adventure encounter": "Azaka guides the party for free if they agree to recover her Mask of the Beast from the pterafolk. She avoids spreading her curse and refuses situations where a fall of more than 60 ft. is likely. At Firefinger she urges an attack under cover of dark or rain. She leaves if the party refuses to attack the pterafolk. See the Firefinger encounter and handout 2.",
+        "Printed source": "Tomb of Annihilation, p. 33. Uses the Weretiger from Monster Manual (2014), p. 210."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Weretiger",
+          "terms": [
+            "Weretiger"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Monster Manual (2014)",
+            "source": "https://5e.tools/bestiary.html#weretiger_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Pterafolk",
+          "terms": [
+            "pterafolk"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Tomb of Annihilation",
+            "source": "https://5e.tools/bestiary.html#pterafolk_toa"
+          }
+        }
+      ],
+      "skills": {
+        "Perception": 5,
+        "Stealth": 4
+      }
+    }
+  },
+  {
+    "name": "Blind Artist",
+    "statBlock": {
+      "name": "Blind Artist",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 164,
+      "classification": "Medium undead, neutral evil",
+      "description": "One of three undead artists in Acererak’s throne room. Its eyes and mouth are stitched shut, yet it can paint scenes of death that took place in the tomb.",
+      "ac": 8,
+      "hp": 22,
+      "hitDice": "3d8 + 9",
+      "speed": "walk 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "0",
+      "xp": 0,
+      "passivePerception": 8,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Understands the languages it spoke in life and cannot speak.",
+        "Senses": "Blindsight 30 ft. The Blind Artist is blind beyond that radius.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Blinded, poisoned.",
+        "Traits": "Undead Fortitude. When damage would drop the artist to 0 HP, make a Constitution save with a DC of 5 + the damage taken. On a success it has 1 HP instead. This cannot prevent a drop to 0 HP from radiant damage or a critical hit.\nUndead Nature. The artist needs no air, food, drink, or sleep.",
+        "Actions": "The printed Zombie variant has no effective attacks and awards 0 XP. It continues painting until disturbed.",
+        "Adventure encounter": "Three Blind Artists paint in area 52 of the Tomb of the Nine Gods. Turning or destroying any of them brings a Tyrannosaurus Zombie up through the floor to attack. It leaves a 20-ft.-wide hole and can use the wide passage east, but cannot fit through 5-ft. corridors.",
+        "Printed source": "Tomb of Annihilation, p. 164. Uses the Zombie from Monster Manual (2014), p. 316."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Zombie",
+          "terms": [
+            "Zombie"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Monster Manual (2014)",
+            "source": "https://5e.tools/bestiary.html#zombie_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Acererak",
+          "terms": [
+            "Acererak"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Tomb of Annihilation",
+            "source": "https://5e.tools/bestiary.html#acererak_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Tyrannosaurus Zombie",
+          "terms": [
+            "Tyrannosaurus Zombie"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Tomb of Annihilation",
+            "source": "https://5e.tools/bestiary.html#tyrannosaurus%20zombie_toa"
+          }
+        }
+      ],
+      "savingThrows": {
+        "Wis": 0
+      }
+    }
+  },
+  {
+    "name": "Bosco Daggerhand",
+    "statBlock": {
+      "name": "Bosco Daggerhand",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 68,
+      "classification": "Medium humanoid (human), neutral evil",
+      "description": "The tavernkeeper at Jahaka Anchorage keeps his hand near his dagger when he greets visitors. His trained guard dinosaur is called Knuckles.",
+      "ac": 11,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "walk 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "One language, usually Common.",
+        "Traits": "Pack Tactics. Bosco has advantage on an attack roll against a creature if an ally within 5 ft. of it is not incapacitated.",
+        "Equipment": "Ring of Animal Influence. It holds 3 charges and regains 1d3 at dawn. While wearing it, Bosco can use an action and spend 1 charge to cast Animal Friendship (DC 13), Fear (DC 13, only against beasts with Intelligence 3 or lower), or Speak with Animals.",
+        "Actions": "Multiattack. Make two melee attacks.\nMace. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) bludgeoning damage.\nHeavy Crossbow. Ranged weapon attack, +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.",
+        "Adventure encounter": "At area 6A, Bosco uses his ring to keep the Deinonychus Knuckles in check. At any time, 2d6 pirates use the Bandit profile while drinking in the tavern. Another 1d6 have passed out.",
+        "Printed source": "Tomb of Annihilation, p. 68. Uses the Thug from Monster Manual (2014), p. 350."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Thug",
+          "terms": [
+            "Thug"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Monster Manual (2014)",
+            "source": "https://5e.tools/bestiary.html#thug_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Deinonychus",
+          "terms": [
+            "Deinonychus",
+            "Knuckles"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Volo's Guide to Monsters",
+            "source": "https://5e.tools/bestiary.html#deinonychus_vgm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Bandit",
+          "terms": [
+            "Bandit",
+            "Bandits"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Monster Manual (2014)",
+            "source": "https://5e.tools/bestiary.html#bandit_mm"
+          }
+        }
+      ],
+      "skills": {
+        "Intimidation": 2
+      }
+    }
+  },
+  {
+    "name": "Drufi",
+    "statBlock": {
+      "name": "Drufi",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 64,
+      "classification": "Huge giant, neutral evil",
+      "description": "Captain of the Hvalspyd, Drufi leads frost giants searching Chult for Artus Cimber and the Ring of Winter.",
+      "ac": 15,
+      "hp": 138,
+      "hitDice": "12d12 + 60",
+      "speed": "walk 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Patchwork armor.",
+        "Languages": "Giant.",
+        "Damage immunities": "Cold.",
+        "Actions": "Multiattack. Make two Greataxe attacks.\nGreataxe. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage.\nRock. Ranged weapon attack, +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.",
+        "Adventure encounter": "Drufi patrols with two other Frost Giants and two Winter Wolves. A DC 10 Wisdom (Survival) check recognizes that the oversized tracks and broken vegetation are foreign to the jungle. Success by 5 or more identifies frost giants. A Chultan guide has advantage but does not infer that frost giants made the trail. Drufi first asks what the group knows about Artus Cimber. A DC 10 Wisdom (Insight) check picks up her interest in his magic item. She may attack if provoked or if she believes the party is withholding its whereabouts.",
+        "Printed source": "Tomb of Annihilation, p. 64. Uses the Frost Giant from Monster Manual (2014), p. 155."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Frost Giant",
+          "terms": [
+            "Frost Giant"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Monster Manual (2014)",
+            "source": "https://5e.tools/bestiary.html#frost%20giant_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Winter Wolf",
+          "terms": [
+            "Winter Wolf",
+            "Winter Wolves"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Monster Manual (2014)",
+            "source": "https://5e.tools/bestiary.html#winter%20wolf_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Artus Cimber",
+          "terms": [
+            "Artus Cimber"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Tomb of Annihilation",
+            "source": "https://5e.tools/bestiary.html#artus%20cimber_toa"
+          }
+        }
+      ],
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 3,
+        "Cha": 4
+      },
+      "skills": {
+        "Athletics": 9,
+        "Perception": 3
+      }
+    }
+  },
+  {
+    "name": "Ekene-Afa",
+    "statBlock": {
+      "name": "Ekene-Afa",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 25,
+      "classification": "Medium humanoid (human), lawful good",
+      "description": "A retired arena champion and one of Port Nyanzaru’s merchant princes. She supplies weapons, shields, canoes, and traveling gear.",
+      "ac": 16,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "walk 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Studded leather armor and shield.",
+        "Languages": "One language, usually Common.",
+        "Traits": "Brave. Ekene-Afa has advantage on saving throws against being frightened.\nBrute. Her melee weapon hits deal an additional weapon damage die, included below.",
+        "Actions": "Multiattack. Make three melee attacks or two ranged attacks.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used two-handed in melee.\nShield Bash. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. A Medium or smaller target must pass a DC 15 Strength save or fall prone.",
+        "Reactions": "Parry. Add 3 to her AC against one melee attack that would hit her. She must see the attacker and be wielding a melee weapon.",
+        "Business": "Wakanga O’tamu enchants selected items for her shop. Listed prices are 50 gp per piece of +1 ammunition, 450 gp for a wooden +1 shield, and 500 gp for a +1 dagger or +1 yklwa. These are shop stock.",
+        "Printed source": "Tomb of Annihilation, p. 25. Uses the Gladiator from Monster Manual (2014), p. 346."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Gladiator",
+          "terms": [
+            "Gladiator"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Monster Manual (2014)",
+            "source": "https://5e.tools/bestiary.html#gladiator_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Wakanga O'tamu",
+          "terms": [
+            "Wakanga O’tamu",
+            "Wakanga O'tamu"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Tomb of Annihilation",
+            "source": "https://5e.tools/bestiary.html#wakanga%20o%27tamu_toa"
+          }
+        }
+      ],
+      "savingThrows": {
+        "Str": 7,
+        "Dex": 5,
+        "Con": 6
+      },
+      "skills": {
+        "Athletics": 10,
+        "Intimidation": 5
+      }
+    }
+  },
+  {
+    "name": "Eku",
+    "statBlock": {
+      "name": "Eku",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 34,
+      "classification": "Medium celestial, lawful good",
+      "description": "A couatl guides travelers while disguised as a Chultan woman in light blue robes. She knows where Omu lies and seeks good-aligned adventurers to help her oppose evil in the jungle.",
+      "ac": 19,
+      "hp": 97,
+      "hitDice": "13d8 + 39",
+      "speed": "walk 30 ft., fly 90 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor in true form.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage resistances": "Radiant.",
+        "Damage immunities": "Psychic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Traits": "Magic Weapons. Eku’s weapon attacks are magical.\nShielded Mind. Scrying cannot affect her. She is immune to effects that would locate her, read her thoughts, or sense her emotions.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage. On a failed DC 13 Constitution save, the target is poisoned for 24 hours and unconscious while poisoned in this way. Another creature can use an action to wake it.\nConstrict. Melee weapon attack, +6 to hit, reach 10 ft., one Medium or smaller creature. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 15) and restrained until that grapple ends. Eku can constrict only one target at a time.\nChange Shape. Magically take the form of a humanoid or beast of CR 4 or lower, or return to true form. Eku resumes true form on death. At her choice, gear is absorbed or carried by the new form. She keeps her game statistics and speech except for AC, movement modes, Strength, Dexterity, and other actions, which the new form supplies. She gains capabilities of the new form she lacks, apart from class features, legendary actions, and lair actions. She can use her own Bite if the new form has a bite attack.",
+        "Spellcasting": "Innate Charisma spellcasting, DC 14, verbal components only.\nAt will: Detect Evil and Good, Detect Magic, Detect Thoughts.\n3/day each: Bless, Create Food and Water, Cure Wounds, Lesser Restoration, Protection from Poison, Sanctuary, Shield.\n1/day each: Dream, Greater Restoration, Scrying.",
+        "Adventure encounter": "Eku begins in her human guise. The printed adventure does not name a separate stat block for that guise. When a group needs direction, she suggests consulting the guardian naga of Orolunga. Near Mbala, she asks the party to help her confront Nanny Pu’pu, who destroyed the community there.",
+        "Printed source": "Tomb of Annihilation, p. 34. Uses the Couatl from Monster Manual (2014), p. 43."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Couatl",
+          "terms": [
+            "Couatl"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Monster Manual (2014)",
+            "source": "https://5e.tools/bestiary.html#couatl_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Nanny Pu'pu",
+          "terms": [
+            "Nanny Pu’pu",
+            "Nanny Pu'pu"
+          ],
+          "printing": {
+            "edition": "2014 fifth edition",
+            "publication": "Tomb of Annihilation",
+            "source": "https://5e.tools/bestiary.html#nanny%20pu%27pu_toa"
+          }
+        }
+      ],
+      "savingThrows": {
+        "Con": 5,
+        "Wis": 7,
+        "Cha": 6
+      }
+    }
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Nautilid",
+    "kind": "species",
+    "publication": "Mage Hand Press: Nautilid (2025)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "traits": [
+      "Medium Humanoid, 30 ft. walking speed. A Nautilid can breathe underwater. Air is uncomfortable without an Aqua Suit.",
+      "Powerful Build gives advantage on ability checks to escape a grapple and treats the Nautilid as one size larger for carrying capacity.",
+      "The self-mending Aqua Suit is normally worn outside a whorl ship. Put on or remove the helmet on your turn without using an action. Putting on or taking off the full suit takes one minute.",
+      "Use AC 13 plus Dexterity modifier while suited, or the AC formula of armor worn around the suit. A shield applies to either formula.",
+      "While suited, resist fire damage. The suit gives a Life Suit’s protection against extreme temperatures and vacuum, with 24 hours of breathable supply and two hours out of the suit to replenish it.",
+      "The Aqua Suit’s embedded Universal Translator is usable at will. It interprets speech and makes your speech or signs understood by creatures that know a language and can hear or see you."
+    ]
+  },
+  {
+    "name": "Vect",
+    "kind": "species",
+    "publication": "Mage Hand Press: Vect (2025)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "traits": [
+      "Medium Construct, speed 30 ft. Food, drink, breathing and sleep are unnecessary. Magic cannot induce sleep. A motionless, conscious four-hour rest completes a long rest.",
+      "Inflexible Mind grants advantage on saves to prevent or end the charmed condition.",
+      "At the end of a long rest, you can exchange two ability scores. The old exchange ends when you use the trait again.",
+      "Thermalsight 60 ft. reveals creatures in heavy obscurement without showing their colors there. It distinguishes living and dead creatures by heat, but fails against invisible creatures and illusions and is blocked by one inch of solid material.",
+      "Use a Utilize action to attach Construct grafts. The first graft in a given slot carries no adverse effects, and attaching a new graft takes no recovery time. The initial External graft is Embedded Armor. Its AC is 13 plus Dexterity modifier, or you can use overlaid armor’s AC instead. A shield works with that AC."
+    ]
+  },
+  {
+    "name": "Amoeboid",
+    "kind": "species",
+    "publication": "Mage Hand Press: Amoeboid (2025)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "traits": [
+      "Small or Medium Ooze, chosen when you take the species, with speed 30 ft. The Amorphous trait lets you move through openings one inch wide.",
+      "Biomimicry uses a Magic action and touch to take a creature’s general shape for one hour or until dismissed without an action. Keep your size and statistics and borrow its burrow, climb and swim speeds, each capped at 40 ft.",
+      "While using Biomimicry, your limbs determine how you can handle objects. Ill-fitting armor and clothes fall off. The description mentions language mimicry, but the 2024 player trait provides no separate language mechanic.",
+      "Flexible Form uses a Magic action to copy a static shape up to eight feet in any dimension at your original volume. It reproduces the basic silhouette only. You cannot move, attack, or cast while in that form.",
+      "Reform uses a reaction after an attack hits for bludgeoning, piercing or slashing damage that leaves you above 0 HP. Recover up to the damage taken, capped by a die roll. Roll 1d4 at level 1, 1d6 at 5, 1d8 at 11, and 1d10 at 17."
+    ]
+  },
+  {
+    "name": "Skathári",
+    "kind": "species",
+    "publication": "Mage Hand Press: Skathári (2024)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium Humanoid with walking and climbing speeds of 30 ft. Choose +2 to one ability and +1 to a different ability, or +1 to three separate abilities.",
+      "Adaptive Metabolism protects against damaging extreme temperatures and allows breath-holding for fifteen minutes.",
+      "While falling, the gliding wings permit ten horizontal feet for each five fallen, up to movement speed. Resist bludgeoning, piercing, and slashing damage from falling.",
+      "Hooked claws can replace the usual unarmed damage with 1d6 plus Strength modifier slashing.",
+      "Natural carapace uses AC 13 plus Dexterity modifier, even if worn armor would give a lower result. A shield still applies.",
+      "A nonfatal amputation regrows fully in 24 hours. Read, write and speak Common and Skathári."
+    ]
+  },
+  {
+    "name": "Avia-Ra",
+    "kind": "species",
+    "publication": "Mage Hand Press: Avia-Ra (2024)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium Humanoid with a 30 ft. walking speed. Choose +2 to one ability and +1 to a different ability, or +1 to three separate abilities.",
+      "Avian Eyes grant Perception proficiency and advantage on saves to prevent or end blindness. Darkvision reaches 60 ft. and shows no color in darkness.",
+      "Blessings of the Sun grant light now, bless from level 3, and lesser restoration from level 5. Choose Intelligence, Wisdom, or Charisma as the ability for all three. Each leveled spell can be cast once per long rest with the trait and can also use suitable spell slots.",
+      "Zealous lets you use a reaction to add 1d4 after failing an Intelligence, Wisdom, or Charisma saving throw, potentially passing it.",
+      "Speak, read and write Common and Avia-Ra. The latter uses the Celestial script. The rules apply across the families with different bird heads."
+    ]
+  }
+]

@@ -1,0 +1,234 @@
+{
+  "builds": [
+    {
+      "id": "karsite-keene-shieldwright-35e",
+      "title": "Karsite shieldwright, Fighter 2",
+      "difficulty": "CR 3 by the Karsite PC-class formula. ECL 4 (2 class HD, LA +2).",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "senses": "Ordinary vision",
+      "languages": "Common",
+      "speed": "30 ft.",
+      "ac": 17,
+      "hp": 21,
+      "hitDice": "2d10+6",
+      "initiative": 1,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Climb +4",
+        "Intimidate +7",
+        "Ride +6"
+      ],
+      "traits": [
+        "Neutral. Chain shirt +4, heavy wooden shield +2, Dexterity +1. Touch 11, flat-footed 16, armor check penalty −4. BAB +2, grapple +5. Fortitude +6, Reflex +1, Will +3.",
+        "Damage reduction 5/magic. Spell resistance 12. A spell blocked by spell resistance heals Ilyra 2 HP per spell level. Cannot cast arcane or divine spells.",
+        "Ability Focus (Magic-Draining Attacks) raises the suppression save DC by 2. Iron Will, Weapon Focus (longsword), and Power Attack."
+      ],
+      "actions": [
+        "Longsword +6 melee, 1d8+3 slashing, 19–20/×2. Power Attack can trade up to 2 attack bonus for equal additional damage with the one-handed sword.",
+        "After each hit, the target makes a DC 14 Will save or one magical weapon, armor, or shield is suppressed for 1 round. If Ilyra can see a known magical item of the right kind, she chooses it. Otherwise, determine the item randomly."
+      ],
+      "tactics": "Ilyra stands between intruders and the apprentices. She uses the sword to suppress equipment when fighting a heavily armored rival.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ]
+    },
+    {
+      "id": "lumi-vell-oath-witness-35e",
+      "title": "Lumi oath witness, racial Hit Dice only",
+      "difficulty": "Provisional CR 2, following the published racial benchmark. ECL 4 (2 racial HD, LA +2).",
+      "size": "Medium",
+      "type": "Outsider (Extraplanar)",
+      "senses": "Darkvision 60 ft.; Clear Vision",
+      "languages": "Common, Lumi",
+      "speed": "30 ft.",
+      "ac": 14,
+      "hp": 21,
+      "hitDice": "2d8+8",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 10,
+        "CON": 18,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 12
+      },
+      "skills": [
+        "Concentration +9",
+        "Diplomacy +6",
+        "Heal +8",
+        "Knowledge (the planes) +5",
+        "Listen +8",
+        "Search +7",
+        "Sense Motive +10",
+        "Spot +10"
+      ],
+      "traits": [
+        "Lawful neutral. Chain shirt +4. Touch 10, flat-footed 14, armor check penalty −2. BAB +2, grapple +4. Fortitude +7, Reflex +3, Will +6. Weapon Focus (morningstar) and racial bonus Improved Initiative.",
+        "Sheds white light to 5 ft. Immune to negative energy, energy drain, magical death effects, blinding, dazzling, and direct light attacks. Concealment still applies.",
+        "Floating Head prevents suffocation, strangulation, and vorpal decapitation. Foes gain no flanking bonus."
+      ],
+      "actions": [
+        "Morningstar +5 melee, 1d8+2 bludgeoning and piercing, ×2.",
+        "Spell-like abilities, caster level 3. Light and disrupt undead at will. Disrupt undead is a +2 ranged touch attack for 1d6 damage to undead, no save.",
+        "Cure light wounds 3/day, 1d8+3 healing. Glitterdust 3/day, DC 13 Will negates blindness only. Both revealed dust and blindness last up to 3 rounds."
+      ],
+      "tactics": "Aurin stands where the witnesses can see both exits. If a concealed intruder interferes, he uses glitterdust and turns back to escort the witnesses.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ]
+    },
+    {
+      "id": "maug-wren-ramp-engineer-35e",
+      "title": "Maug ramp engineer, Fighter 1",
+      "difficulty": "Provisional CR 4. ECL 6 (2 racial HD, 1 class HD, LA +3).",
+      "size": "Large",
+      "type": "Construct (Extraplanar)",
+      "senses": "Darkvision 60 ft., low-light vision",
+      "languages": "Common, Draconic, Giant",
+      "speed": "40 ft. (cannot run)",
+      "ac": 19,
+      "hp": 49,
+      "hitDice": "3d10+30",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 16,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 12
+      },
+      "skills": [
+        "Craft (blacksmithing) +6",
+        "Craft (stonemasonry) +10",
+        "Intimidate +7",
+        "Jump +11",
+        "Knowledge (architecture and engineering) +10",
+        "Listen +7",
+        "Profession (siege engineer) +5",
+        "Profession (soldier) +5",
+        "Spot +7",
+        "Survival +5"
+      ],
+      "traits": [
+        "Lawful neutral. No Constitution score. Large −1, natural armor +7, Dexterity +3. Touch 12, flat-footed 16. BAB +2, grapple +11, space and reach 10 ft. Fortitude +2, Reflex +3, Will +0.",
+        "Spell resistance 15. Construct traits, Rapid Repair 1 HP/hour at 1 HP or more. An assistant with a DC 15 Craft (stonemasonry) check can raise it to 2 HP/hour. No grafts fitted.",
+        "Power Attack, Fighter bonus Improved Sunder, and racial bonus Alertness."
+      ],
+      "actions": [
+        "Large warhammer held in two hands +6 melee, 2d6+7 bludgeoning, ×3. One slam +6 melee, 1d8+7 bludgeoning, ×2.",
+        "Pulverize 3/day, standard action, melee touch +6 against attended objects, no attack of opportunity. On contact remove hardness for 1d4 rounds, Fortitude DC 18 negates. Up to a 10-ft. cube of material. Unattended nonmagical objects get no save.",
+        "With the warhammer, Improved Sunder prevents provoking and grants +4 on opposed attack rolls. Two-handed use grants a further +4 in that contest. Apply the separate size bonus when Basalt is larger than the defender."
+      ],
+      "tactics": "Basalt tests the broken loading ramp before putting weight on it. If the gate jams, he pulverizes its seized fittings and breaks them with the hammer.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ]
+    },
+    {
+      "id": "nerra-sive-threshold-guide-35e",
+      "title": "Varoot Nerra threshold guide, Rogue 2",
+      "difficulty": "Provisional CR 3. ECL 5 (2 class HD, LA +3).",
+      "size": "Medium",
+      "type": "Outsider (Extraplanar)",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, native mirror language",
+      "speed": "30 ft.",
+      "ac": 17,
+      "hp": 14,
+      "hitDice": "2d6+4",
+      "initiative": 8,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 18,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 18
+      },
+      "skills": [
+        "Bluff +9",
+        "Disguise +9 (+11 acting)",
+        "Gather Information +9",
+        "Hide +9",
+        "Listen +7",
+        "Move Silently +9",
+        "Search +6",
+        "Sense Motive +7",
+        "Spot +7"
+      ],
+      "traits": [
+        "Neutral. Natural armor +3, Dexterity +4. Touch 14, flat-footed 13. BAB +1, grapple +2. Fortitude +2, Reflex +7, Will +2. Trapfinding, evasion, and Improved Initiative.",
+        "Reflective spell resistance 14. Reflects targeted spells it successfully resists, and reflects gaze attacks. Cold, electricity, and fire resistance 5. Takes half again as much sonic damage.",
+        "Racial bonus Exotic Weapon Proficiency (shard dagger and shard longsword). Uses revised wounding on the shard dagger."
+      ],
+      "actions": [
+        "+2 wounding shard dagger +4 melee or +7 ranged, 1d4+3 piercing or slashing as a dagger, 19–20/×2, 10-ft. range increment. When wounding applies, the hit also deals 1 Constitution damage. Sneak attack +1d6 when eligible (within 30 ft. at range).",
+        "Disguise self 3/day and mirror image 1/day, caster level 12. Disguise self lasts 120 minutes and adds +10 to the Disguise check, Will DC 15 to disbelieve when interacted with. Mirror image creates 1d4+4 images for up to 12 minutes.",
+        "Mirror Jump at will, standard action. Vanish through a mirror to another mirror at most 1 mile away. A usable reflective non-mirror is a 30% entry chance and never an exit."
+      ],
+      "tactics": "Sive offers a way out through the mirror if the party can bring the missing apprentice. When cornered, Sive makes mirror images and stays close to the exit.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Karsite",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Tome of Magic (2006)",
+      "name": "Ilyra Keene",
+      "build": "karsite-keene-shieldwright-35e",
+      "role": "Shieldwright and ward guard.",
+      "motive": "Keep the apprentices out of a fight over a shield they repaired.",
+      "hook": "Ilyra asks for a name before she opens the workshop door."
+    },
+    {
+      "species": "Lumi",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Monster Manual III (2004)",
+      "name": "Aurin Vell",
+      "build": "lumi-vell-oath-witness-35e",
+      "role": "Oath witness and escort.",
+      "motive": "Bring two frightened witnesses to the hearing.",
+      "hook": "Aurin offers to accompany the party through the unlit gallery."
+    },
+    {
+      "species": "Maug",
+      "size": "Large",
+      "edition": "3.5 edition",
+      "speciesPublication": "Fiend Folio (2003)",
+      "name": "Basalt Wren",
+      "build": "maug-wren-ramp-engineer-35e",
+      "role": "Ramp engineer and gate breaker.",
+      "motive": "Get a trapped cart off a broken loading ramp.",
+      "hook": "Basalt waits for someone to clear the ramp before he breaks the gate fittings."
+    },
+    {
+      "species": "Nerra",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Fiend Folio (2003) · Varoot",
+      "name": "Sive",
+      "build": "nerra-sive-threshold-guide-35e",
+      "role": "Threshold guide and mirror scout.",
+      "motive": "Find a missing apprentice before their mirror route closes.",
+      "hook": "Sive appears in the standing mirror and asks who last saw the apprentice."
+    }
+  ]
+}

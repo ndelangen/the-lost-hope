@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Flind",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "parentSpecies": "Gnoll",
+    "traits": [
+      "Medium Humanoid (Gnoll) with base land speed 30 ft., darkvision 60 ft., and +2 natural armor.",
+      "Ability adjustments are +6 Strength, +2 Dexterity and +4 Constitution.",
+      "Two humanoid Hit Dice give 2d8 HP progression, BAB +1, base saves Fort +3, Ref +0, Will +0, and one racial-HD feat. Racial skill points total 5 × (2 + Int modifier, minimum 1). Listen and Spot are racial class skills.",
+      "A flind gains +2 on Charisma-based checks to influence gnolls. A flind can learn to use a flindbar as a martial weapon.",
+      "A flindbar deals 2d4 bludgeoning in one hand for a Medium wielder, with a 19–20/×2 critical. It adds +2 to disarm rolls. A proficient wielder can attempt a free disarm upon threatening a critical and before confirming it. That attempt does not provoke.",
+      "Starts with Common and Gnoll. Bonus languages are Draconic, Elven, Goblin and Orc. Favored class Ranger. Level adjustment +2."
+    ]
+  },
+  {
+    "name": "Forestkith Goblin",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "parentSpecies": "Goblin",
+    "traits": [
+      "Small Humanoid (Goblinoid) with land speed 30 ft., darkvision 60 ft., and +1 natural armor. Ability adjustments are +2 Dexterity and −2 Intelligence.",
+      "Adds +2 racial to Jump and +8 racial to Climb. Can take 10 on Climb under pressure. In forested terrain gains +4 racial to Hide and Move Silently. Gains +4 racial to Craft (weaving) for nets and treats nets as martial weapons.",
+      "Bright sunlight or daylight magic dazzles the goblin. Tree Shape works as the druid spell at caster level 12 and lets it resemble a small tree, shrub or limb. The form ends at sunset or upon taking damage. The goblin cannot dismiss it early.",
+      "Discordant Frenzy requires at least three attacking forestkith goblins. Within 30 ft. of that melee, creatures with at most 2 HD become shaken for 1d4 rounds unless they pass a Will save based on Charisma. A successful save protects against the same effect for 24 hours.",
+      "Starts with Goblin. Bonus languages are Common, Elven, Giant and Orc. Favored class Barbarian. Level adjustment +1. The class Hit Die replaces the one Hit Die of the printed warrior."
+    ]
+  },
+  {
+    "name": "Poison Dusk Lizardfolk",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "parentSpecies": "Lizardfolk",
+    "traits": [
+      "Small Humanoid (Reptilian) with land speed 30 ft., low-light vision, and +3 natural armor. Ability adjustments are +2 Dexterity, +2 Constitution and −2 Charisma.",
+      "Adds +4 racial to Balance, Jump and Swim. Can apply poison to a weapon without risking accidental exposure. Treats bolas and nets as martial weapons through weapon familiarity.",
+      "Chameleon skin adds +5 racial to Hide while visible scales remain free of armor or other covering clothes. Hold Breath permits 4 × Constitution score in rounds before drowning risk.",
+      "Two claws and one bite each deal 1d3 base damage. Use the natural attack rules to determine primary and secondary attacks.",
+      "Starts with Common and Draconic. Bonus languages are Halfling and Sylvan. Favored class Ranger. Level adjustment +1. The example starts with a class Hit Die and has no added racial Hit Dice."
+    ]
+  },
+  {
+    "name": "Viletooth Lizardfolk",
+    "kind": "species",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "parentSpecies": "Lizardfolk",
+    "traits": [
+      "Medium Humanoid (Reptilian, Dragonblood). Land speed 30 ft. and +5 natural armor carry over from the core lizardfolk. The +2 Constitution adjustment replaces the core ability adjustments.",
+      "Dragonblood makes the humanoid eligible for items and abilities keyed to dragons or that subtype, as applicable, and subject to effects that target dragons. Its creature type remains Humanoid.",
+      "Two humanoid Hit Dice yield 2d8 HP progression, BAB +1, base saves Fort +0, Ref +3, Will +0, and one racial-HD feat. Racial skills get 5 × (2 + Int modifier, minimum 1) points. Balance, Jump, Swim and Move Silently are racial class skills. The first three gain +4 racial each.",
+      "Proficient with simple weapons and shields. Retains two 1d4 claws and a 1d4 bite. A bite also deals 1d6 acid damage as a supernatural effect.",
+      "Breathes underwater without a duration limit, replacing the base lizardfolk breath-holding trait. Swim uses ordinary movement rules and racial skill bonus.",
+      "Starts with Common and Draconic. Bonus languages are Aquan, Goblin, Gnoll and Orc. Favored class Druid. Level adjustment +1."
+    ]
+  },
+  {
+    "name": "Sunscorch Hobgoblin",
+    "kind": "species",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "parentSpecies": "Hobgoblin",
+    "traits": [
+      "Medium Humanoid (Goblinoid, Dragonblood). Ability adjustments are +2 Constitution and +2 Wisdom in place of the core hobgoblin adjustments.",
+      "Dragonblood makes the humanoid eligible for items and abilities keyed to dragons or that subtype, as applicable, and subject to effects that target dragons. Its creature type remains Humanoid.",
+      "Keeps a land speed of 30 ft., darkvision 60 ft., and +4 racial bonus on Move Silently checks from the core hobgoblin.",
+      "Adds +2 racial to Bluff and +2 racial to Fortitude saves against nonlethal heat damage. Use the latter for environmental heat instead of general Fortitude or fire resistance.",
+      "Starts with Common and Goblin. Bonus languages are Draconic, Dwarven, Infernal, Giant and Orc. Favored class Fighter. Level adjustment +1. The first class level takes the place of the one Hit Die in the core warrior stat block."
+    ]
+  }
+]

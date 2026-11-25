@@ -1,0 +1,7 @@
+# Asherati source check
+
+The March 2005 first printing describes Asherati on p. 37 and gives the detailed player traits on pp. 38–39. The page counter runs one ahead of the printed folios. The player profile gives +1 natural armor and no ability adjustments. The separate p. 139 Warrior prints +2 natural armor and Fortitude DC 11 for its flash. Its listed Charisma 8 and one level would yield DC 9 under the playable formula. The staged builds follow the player entry. [Player rules]() · [Warrior]()
+
+Page 38 gives the usual Sandswim rate with light armor or a light load and then explicitly limits heavier armor or a medium load to 5 ft. A heavy load prevents progress. The Warrior’s separate Sandswim text adds a rule for dragging a Medium or larger creature. Page 39 assigns a free action to the flash and leaves the ordinary glow’s action unspecified. Independent review verified the two original builds’ loads, armor, attacks, and save DCs. [Sandswim and glow]() · [Body Lamp flash]()
+
+Wizards’ collected archive has no Sandstorm errata file. The June 2008 FAQ has no Asherati entry. Matt Cavotta illustrated the Asherati on p. 37. Rashen’s close-fitting clothing and idle pose are original. His hairless rust-red skin and ivory eyes come from the book description. [Wizards errata archive](https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP) · [June 2008 FAQ]() · [Book illustration]()

@@ -1,0 +1,1888 @@
+{
+  "baseline": "41d02414d6d2485f6ee5fdd2ec0cff072a50c4cf",
+  "species": 50,
+  "profiles": 50,
+  "canonicalGroups": 50,
+  "groupedLineages": 0,
+  "newCatalogRows": 50,
+  "existingMetadataEnriched": 0,
+  "npcBuilds": 50,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Aurochs",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_c",
+      "parentSpecies": null,
+      "aliases": "Aurochs is singular and plural in the source context. Use its separate awakened player trait block. Cattle has its own package.",
+      "npcs": [
+        "Redbank"
+      ],
+      "portrait": "parts/nine_mr2_c/portraits/aurochs.png",
+      "source": {
+        "name": "Aurochs",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "creatureType": "Beast",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "p. 82, Aurochs Traits",
+        "printedPages": [
+          82
+        ],
+        "heading": "Aurochs Traits",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+        "sourceDistinctions": [
+          "The printed conversion is Medium and has its own page-82 traits, separate from Cattle. Charge works on the Strength-based gore in this build because it is a melee weapon attack even though an unarmed strike is not a weapon."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "adventuring": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Awakened Shrub",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_g",
+      "parentSpecies": null,
+      "aliases": "Awakened Shrub / Awakened Shrubs. Use its dedicated player trait block. Awakened Tree and other plant folk are separate.",
+      "npcs": [
+        "Tanglebud"
+      ],
+      "portrait": "parts/nine_mr1_g/portraits/awakened-shrub.png",
+      "source": {
+        "name": "Awakened Shrub",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 219, Awakened Shrub Traits",
+        "printedPages": [
+          219
+        ],
+        "creatureType": "Plant",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+        "sourceDistinctions": [
+          "Kamstra prints a usable trait block and describes the option as very weak in the play advice and design notes. Tanglebud uses the printed values.",
+          "The trait block has no No Hands line. Tanglebud fights without weapons, shields, or any item that must be manipulated.",
+          "The supplement’s p. 7 rule limits Martial Arts bonus strikes to the class damage die and bludgeoning damage. Tanglebud’s Attack action can still use the printed Rake die."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+        }
+      }
+    },
+    {
+      "name": "Axe Beak",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_g",
+      "parentSpecies": null,
+      "aliases": "Axe Beak / Axebeak. Use the awakened player beast. Keep encounter statistics separate.",
+      "npcs": [
+        "Cleftbill"
+      ],
+      "portrait": "parts/nine_mr1_g/portraits/axe-beak.png",
+      "source": {
+        "name": "Axe Beak",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 220, Axe Beak Traits",
+        "printedPages": [
+          220
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+        "sourceDistinctions": [
+          "The printed Bite deals slashing damage. Cleftbill’s build uses the player conversion as written and carries no hand-dependent gear."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+        }
+      }
+    },
+    {
+      "name": "Blink Dog",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_g",
+      "parentSpecies": null,
+      "aliases": "Blink Dog / Blink Dogs. Use the player creature's own movement. Keep other canid profiles separate.",
+      "npcs": [
+        "Latch"
+      ],
+      "portrait": "parts/nine_mr1_g/portraits/blink-dog.png",
+      "source": {
+        "name": "Blink Dog",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 223, Blink Dog Traits",
+        "printedPages": [
+          223
+        ],
+        "creatureType": "Fey",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+        "sourceDistinctions": [
+          "The player trait block refers to “Blind dogs” in its opening sentence. The title and the rest of the page identify Blink Dog.",
+          "Monk Martial Arts allows Dexterity on the Attack action bite. Under p. 7, bonus strikes use the monk die and deal bludgeoning damage. Teleport consumes the same bonus action as Martial Arts, Patient Defense, or Step of the Wind."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+        }
+      }
+    },
+    {
+      "name": "Bullywug",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_a",
+      "parentSpecies": null,
+      "aliases": "Bullywug / Bullywugs. Use Kamstra's player package. Keep Grung and other amphibian folk separate.",
+      "npcs": [
+        "Quib Reedsocket"
+      ],
+      "portrait": "parts/nine_mr1_a/portraits/bullywug.png",
+      "source": {
+        "name": "Bullywug",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Humanoid",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          28
+        ],
+        "heading": "Bullywug Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The printed traits grant camouflage advantage. The bite and Stealth proficiency mentioned in the design notes do not appear in the trait block. Quib obtains proficiency from the Criminal background."
+        ]
+      }
+    },
+    {
+      "name": "Cattle",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_c",
+      "parentSpecies": null,
+      "aliases": "Cattle / Bovine. Keep Cow, Deep Rothe, Ox, Rothe, and Stench Kow together. The separately published Aurochs traits have their own scope.",
+      "npcs": [
+        "Flintmoss"
+      ],
+      "portrait": "parts/nine_mr2_c/portraits/cattle.png",
+      "source": {
+        "name": "Cattle",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "creatureType": "Beast",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "pp. 82–83, Cattle Traits",
+        "printedPages": [
+          82,
+          83
+        ],
+        "heading": "Cattle Traits",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+        "sourceDistinctions": [
+          "The character uses the Deep Rothe option. All five printed forms are retained, and the Aurochs conversion remains separate.",
+          "Dancing lights has material components under 2014 rules. This stat block records the known cantrip without relying on it, since Flintmoss cannot handle those components or a focus."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "adventuring": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Death Dog",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_g",
+      "parentSpecies": null,
+      "aliases": "Death Dog / Death Dogs. Use the two-headed player creature and its printed traits. Hell Hound keeps its own profile.",
+      "npcs": [
+        "Marl and Soot"
+      ],
+      "portrait": "parts/nine_mr1_g/portraits/death-dog.png",
+      "source": {
+        "name": "Death Dog",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 228, Death Dog Traits",
+        "printedPages": [
+          228
+        ],
+        "creatureType": "Monstrosity",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+        "sourceDistinctions": [
+          "The species traits grant a Bite and the defensive Two Heads trait. The encounter monster’s disease is outside these player traits. A second Bite in this build comes from the Fighter’s Action Surge."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+        }
+      }
+    },
+    {
+      "name": "Dolphin",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_c",
+      "parentSpecies": null,
+      "aliases": "Dolphin / Dolphins. Use the awakened player beast. Its aquatic restrictions belong to this profile.",
+      "npcs": [
+        "Bellcurrent"
+      ],
+      "portrait": "parts/nine_mr2_c/portraits/dolphin.png",
+      "source": {
+        "name": "Dolphin",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "creatureType": "Beast",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "p. 84, Dolphin Traits",
+        "printedPages": [
+          84
+        ],
+        "heading": "Dolphin Traits",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+        "sourceDistinctions": [
+          "Player traits omit the bespoke Hold Breath timer and natural armor from the design discussion. This encounter uses standard breath rules. Charge uses Strength and is separate from choosing Dexterity to make the slam. Finesse lets either score qualify for Sneak Attack with the other conditions met."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "adventuring": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Elder Brain",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_a",
+      "parentSpecies": null,
+      "aliases": "Elder Brain / Elder Brains. It has its own player block. Keep Mind Flayer, Mindwitness, and Neothelid separate.",
+      "npcs": [
+        "Vellum"
+      ],
+      "portrait": "parts/nine_mr2_a/portraits/elder-brain.png",
+      "source": {
+        "name": "Elder Brain",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Aberration",
+        "url": "",
+        "rulesReadUrl": "",
+        "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "officialPreview": "",
+        "printedPages": [
+          51,
+          52
+        ],
+        "page": "pp. 51–52, Elder Brain Traits in the Mind Flayers section",
+        "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+        "sourceDistinctions": [
+          "Mind Blast first specifies a 15-ft. cone and then describes the target as in a line. Vellum uses the explicit cone.",
+          "Vellum relies on blindsight and has no grasping hands. The build stays below the printed psionic spell unlocks. The profile treats the specifically granted psionics as innate exceptions to the prohibition on ordinary verbal components."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Fomorian",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_a",
+      "parentSpecies": null,
+      "aliases": "Fomorian / Fomorians. Scope to this player giant and its printed curse abilities.",
+      "npcs": [
+        "Marn Splitknuckle"
+      ],
+      "portrait": "parts/nine_mr1_a/portraits/fomorian.png",
+      "source": {
+        "name": "Fomorian",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Giant",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          82,
+          83
+        ],
+        "heading": "Fomorian Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The v2 block gives no use limit for Evil Eye or its curse and lists no darkvision. The printed twisted-legs speed adjustment says “for 10 ft.” and is read as a 10-ft. reduction.",
+          "The curse names successful repeat saves as its end condition and supplies no fixed duration."
+        ]
+      }
+    },
+    {
+      "name": "Fungi",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_a",
+      "parentSpecies": null,
+      "aliases": "Fungi / Fungus. Keep Gas Spore, Shrieker, and Violet Fungus in one profile. Myconid and Mycelial have separate rules.",
+      "npcs": [
+        "Siltcap"
+      ],
+      "portrait": "parts/nine_mr1_a/portraits/fungi.png",
+      "source": {
+        "name": "Fungi",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Plant",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          84,
+          85
+        ],
+        "heading": "Fungi Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The three forms share one Fungi profile. Siltcap uses Violet Fungus. The NPC interprets the revival as one day after its own death, from the oldest qualifying kill in the previous day.",
+          "Monstrous Races v2 p. 7 uses a monk’s ordinary bludgeoning damage die for Martial Arts and Flurry of Blows bonus attacks, even for a character with a stronger natural strike."
+        ]
+      }
+    },
+    {
+      "name": "Giant Fire Beetle",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_g",
+      "parentSpecies": null,
+      "aliases": "Giant Fire Beetle / Fire Beetle in context. Use this awakened player beast and its printed body size. Encounter beetles keep their own records.",
+      "npcs": [
+        "Wick"
+      ],
+      "portrait": "parts/nine_mr1_g/portraits/giant-fire-beetle.png",
+      "source": {
+        "name": "Giant Fire Beetle",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 236, Giant Fire Beetle Traits",
+        "printedPages": [
+          236
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+        "sourceDistinctions": [
+          "The playable beetle is Small. Its intact glands use the player Illumination radius. No harvested-gland effect was imported from encounter rules.",
+          "Wick uses natural armor. Barbarian Unarmored Defense gives the same 15 AC in this build and does not stack with it."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+        }
+      }
+    },
+    {
+      "name": "Gorgon",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_a",
+      "parentSpecies": null,
+      "aliases": "Gorgon / Gorgons. The armored bovine creature is separate from Medusa and cattle profiles.",
+      "npcs": [
+        "Brackplate"
+      ],
+      "portrait": "parts/nine_mr1_a/portraits/gorgon.png",
+      "source": {
+        "name": "Gorgon",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          108,
+          109
+        ],
+        "heading": "Gorgon Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The visible trait block supplies restraint, one repeat save and concentration. It never assigns petrification on a second failure. Brackplate leaves a creature that fails the stated repeat restrained for the remaining concentration duration. The design commentary also frames the conversion as restraint only.",
+          "The v2 trait block grants Strength and Constitution increases and does not give the Gorgon petrification immunity or Trampling Charge."
+        ]
+      }
+    },
+    {
+      "name": "Hell Hound",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_a",
+      "parentSpecies": null,
+      "aliases": "Hell Hound / Hellhound. Keep the player fiend separate from Death Dog, Shadow Mastiff, and Yeth Hound.",
+      "npcs": [
+        "Coalwhistle"
+      ],
+      "portrait": "parts/nine_mr1_a/portraits/hell-hound.png",
+      "source": {
+        "name": "Hell Hound",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Fiend",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          117
+        ],
+        "heading": "Hell Hound Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The v2 trait block omits fire resistance even though the design notes discuss it. It uses 6th/11th/16th-level breath increases. Coalwhistle uses the printed traits."
+        ]
+      }
+    },
+    {
+      "name": "Mephit",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_b",
+      "parentSpecies": null,
+      "aliases": "Mephit / Mephits. Keep Dust, Ice, Magma, Mud, Smoke, and Steam together under one player profile.",
+      "npcs": [
+        "Siftglass"
+      ],
+      "portrait": "parts/nine_mr1_b/portraits/mephit.png",
+      "source": {
+        "name": "Mephit",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Elemental",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "pp. 142–144 in v2, Mephit Traits.",
+        "printedPages": [
+          142,
+          143,
+          144
+        ],
+        "heading": "Mephit Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+        "sourceDistinctions": [
+          "Dust Death Burst uses ambiguous fall wording. Siftglass treats dropping to 0 HP as the trigger and repeats the blinding save at the end of each affected turn for table timing.",
+          "The design notes mention fire vulnerability for Dust but the player trait block omits it. Smoke explicitly lists Aquan and Ignan. Steam has a fire burst despite its name."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Modron",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_b",
+      "parentSpecies": null,
+      "aliases": "Modron / Modrons. Keep Monodrone, Duodrone, Tridrone, Quadrone, and Pentadrone together. Use the independents described in the player rules.",
+      "npcs": [
+        "Docket Nine"
+      ],
+      "portrait": "parts/nine_mr1_b/portraits/modron.png",
+      "source": {
+        "name": "Modron",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Construct",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "pp. 149–150 in v2, Modrons Traits.",
+        "printedPages": [
+          149,
+          150
+        ],
+        "heading": "Modrons Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+        "sourceDistinctions": [
+          "The player section labels Monodrone and Quadrone together. The play and design discussion is inconsistent on a few forms. Keep the traits as printed.",
+          "Pentadrone gas specifies a cone, then refers to a line, and imposes restrained despite its name. This summary takes the opening 15-ft. cone and printed restrained effect."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Nightmare",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_b",
+      "parentSpecies": null,
+      "aliases": "Nightmare / Nightmares. Scope to the fiendish steed's player package. Keep other equine profiles separate.",
+      "npcs": [
+        "Sable Cinder"
+      ],
+      "portrait": "parts/nine_mr1_b/portraits/nightmare.png",
+      "source": {
+        "name": "Nightmare",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Fiend",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "p. 158 in v2, Nightmare Traits.",
+        "printedPages": [
+          158
+        ],
+        "heading": "Nightmare Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+        "sourceDistinctions": [
+          "The printed player traits give fiery hooves. Fire resistance or immunity, Confer Fire Resistance, and Ethereal Stride from other versions do not appear in the player block."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Oni",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_b",
+      "parentSpecies": null,
+      "aliases": "Oni / Ogre Mage as an alternate name. Use Kamstra's traits. The encounter shapeshifting and innate spells have their own scope alongside other Ogre profiles.",
+      "npcs": [
+        "Rusk Toll"
+      ],
+      "portrait": "parts/nine_mr1_b/portraits/oni.png",
+      "source": {
+        "name": "Oni",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Giant",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "p. 161 in v2, Oni Traits.",
+        "printedPages": [
+          161
+        ],
+        "heading": "Oni Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+        "sourceDistinctions": [
+          "Printed Oni Traits gives flight and Powerful Build but no shapechanging or innate spellcasting. Rusk Toll sources spells from Warlock. Ogre Mage is an alias for the creature."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Owlbear",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_b",
+      "parentSpecies": null,
+      "aliases": "Owlbear / Owlbears. Use this player conversion and keep encounter stat blocks separate.",
+      "npcs": [
+        "Briarwatch"
+      ],
+      "portrait": "parts/nine_mr1_b/portraits/owlbear.png",
+      "source": {
+        "name": "Owlbear",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "p. 168 in v2, Owlbear Traits.",
+        "printedPages": [
+          168
+        ],
+        "heading": "Owlbear Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+        "sourceDistinctions": [
+          "Use the class-built Medium owlbear, including its speaking trait, and the printed player-form senses. The player block has no monster Multiattack."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Pegasus",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_c",
+      "parentSpecies": null,
+      "aliases": "Pegasus / Pegasi. Use the player version. Pegataur and Hippogriff remain separate.",
+      "npcs": [
+        "Willowbank"
+      ],
+      "portrait": "parts/nine_mr1_c/portraits/pegasus.png",
+      "source": {
+        "name": "Pegasus",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Celestial",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          168
+        ],
+        "page": "p. 168 in v2, Pegasus Traits",
+        "sourceDistinctions": "The player traits sit on printed p. 168. P. 169 contains the play advice and design discussion. Use the 40-ft. walk and 50-ft. flight from the traits. Hooves are Strength-based melee weapon attacks for 2014 Rage and Reckless Attack.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Piercer",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_c",
+      "parentSpecies": null,
+      "aliases": "Piercer / Piercers. Keep its player movement and climbing limits. The related Roper has its own package.",
+      "npcs": [
+        "Flintdrop"
+      ],
+      "portrait": "parts/nine_mr1_c/portraits/piercer.png",
+      "source": {
+        "name": "Piercer",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          170
+        ],
+        "page": "p. 170 in v2, Piercer Traits",
+        "sourceDistinctions": "Drop specifies a melee weapon attack without giving proficiency. The worked NPC treats Drop as an innate, proficient Strength attack. Its landing treatment follows the printed hit and miss branches, with normal fall prone behavior if the miss deals falling damage.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Pseudodragon",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_c",
+      "parentSpecies": null,
+      "aliases": "Pseudodragon / Pseudo-dragon. Keep distinct from Faerie Dragon and familiar rules.",
+      "npcs": [
+        "Needlewing"
+      ],
+      "portrait": "parts/nine_mr1_c/portraits/pseudodragon.png",
+      "source": {
+        "name": "Pseudodragon",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Dragon",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          171,
+          172
+        ],
+        "page": "pp. 171–172 in v2, Pseudodragon Traits",
+        "sourceDistinctions": "Explicit finesse clause allows 2014 Sneak Attack. The player sting has no poison effect. Apply v2 pp. 7–8 for the shared Tiny rules.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Purple Worm",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_c",
+      "parentSpecies": null,
+      "aliases": "Purple Worm / Purple Worms. Use player-scale size and its printed anatomy and attacks. Keep Neothelid separate.",
+      "npcs": [
+        "Gritcoil"
+      ],
+      "portrait": "parts/nine_mr1_c/portraits/purple-worm.png",
+      "source": {
+        "name": "Purple Worm",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          172
+        ],
+        "page": "p. 172 in v2, Purple Worm Traits",
+        "sourceDistinctions": "The Monstrosity line is printed in a different column below the trait heading in the text extraction. The NPC treats blindsight as sight within range for Danger Sense. Add attack and Rage damage modifiers once, to the piercing component of Stinger.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Quickling",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_a",
+      "parentSpecies": null,
+      "aliases": "Quickling / Quicklings. Use the printed player's speed and defensive feature. Separate from sprites and other tiny fey.",
+      "npcs": [
+        "Bram Tallowheel"
+      ],
+      "portrait": "parts/nine_mr2_a/portraits/quickling.png",
+      "source": {
+        "name": "Quickling",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Fey",
+        "url": "",
+        "rulesReadUrl": "",
+        "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "officialPreview": "",
+        "printedPages": [
+          62
+        ],
+        "page": "p. 62, Quickling Traits, and p. 6, Tiny Creatures",
+        "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+        "sourceDistinctions": [
+          "The printed player traits give 60-ft. speed and no darkvision. Design commentary mentions darkvision, which this build omits.",
+          "Bram uses a rapier made for a Tiny creature, applying the p. 6 weapon table (ordinary 1d8 becomes 1d2). It retains finesse."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Remorhaz",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_c",
+      "parentSpecies": null,
+      "aliases": "Remorhaz / Remorhazes. Use this player conversion. The encounter Young Remorhaz stays separate.",
+      "npcs": [
+        "Sleetback"
+      ],
+      "portrait": "parts/nine_mr1_c/portraits/remorhaz.png",
+      "source": {
+        "name": "Remorhaz",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          175
+        ],
+        "page": "p. 175 in v2, Remorhaz Traits",
+        "sourceDistinctions": "The player traits specify both damage types and no ability-score increase. Apply the ability modifier once to the bite’s piercing damage. The p. 7 monk rule makes the bonus Martial Arts strike ordinary bludgeoning.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Roc",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_d",
+      "parentSpecies": null,
+      "aliases": "Roc / Rocs. Scope to the player bird's printed size and flight. Keep the encounter roc and other birds separate.",
+      "npcs": [
+        "Galehook"
+      ],
+      "portrait": "parts/nine_mr1_d/portraits/roc.png",
+      "source": {
+        "name": "Roc",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          178
+        ],
+        "page": "v2 p. 178, Roc Traits.",
+        "heading": "Roc Traits",
+        "creatureType": "Monstrosity",
+        "sourceVersion": "v2 text mirror",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Use the Medium player body, 50-ft. flight, and talon damage. The encounter roc’s attacks and carry-off mechanic do not supply additional player abilities.",
+          "Keen Sight adds 5 to passive Perception for tasks relying on sight under 2014 passive-check rules."
+        ]
+      }
+    },
+    {
+      "name": "Roper",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_d",
+      "parentSpecies": null,
+      "aliases": "Roper / Ropers. Scope to its own player trait block. Piercer and Cave Fisher keep separate profiles.",
+      "npcs": [
+        "Lintel"
+      ],
+      "portrait": "parts/nine_mr1_d/portraits/roper.png",
+      "source": {
+        "name": "Roper",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          178,
+          179
+        ],
+        "page": "v2 pp. 178–179, Roper Traits.",
+        "heading": "Roper Traits",
+        "creatureType": "Monstrosity",
+        "sourceVersion": "v2 text mirror",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Grasp uses ordinary grapple size and opposition. Reel contests Athletics only, as specified by this player trait.",
+          "The bonus strike uses the ordinary 5-ft. reach because Reel specifies no increased bite reach."
+        ]
+      }
+    },
+    {
+      "name": "Rot Grub",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_c",
+      "parentSpecies": null,
+      "aliases": "Rot Grub / Rot Grubs. Use one awakened player creature. A swarm is a separate encounter record.",
+      "npcs": [
+        "Cindercoil"
+      ],
+      "portrait": "parts/nine_mr2_c/portraits/rot-grub.png",
+      "source": {
+        "name": "Rot Grub",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "creatureType": "Beast",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "pp. 84–85, Rot Grub Traits",
+        "printedPages": [
+          84,
+          85
+        ],
+        "heading": "Rot Grub Traits",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+        "sourceDistinctions": [
+          "The authored player trait list has no blindsight. Normal Tiny grapple size limits apply, while Infest provides the specific exception to using a free hand for that grapple.",
+          "The design commentary calls the package exceptionally weak and suggests optional boosts. This encounter uses the printed individual creature without a swarm template or added feats."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "adventuring": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Scarecrow",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_d",
+      "parentSpecies": null,
+      "aliases": "Scarecrow / Scarecrows. Use the player construct and its printed terrors. Keep other animated constructs separate.",
+      "npcs": [
+        "Tatter Reed"
+      ],
+      "portrait": "parts/nine_mr1_d/portraits/scarecrow.png",
+      "source": {
+        "name": "Scarecrow",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          184
+        ],
+        "page": "v2 p. 184, Scarecrow Traits.",
+        "heading": "Scarecrow Traits",
+        "creatureType": "Construct",
+        "sourceVersion": "v2 text mirror",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "The trait line’s reference to a stalagmite conflicts with its normal scarecrow appearance. Run it as an ordinary scarecrow.",
+          "The language continuation appears before the heading in the mirror’s extracted order. Its reading and writing specify no speech, which agrees with the Playing a Scarecrow text. This build chooses Halfling as the second language.",
+          "The supplement’s pp. 7–8 discuss construct recovery and lethal 0 HP for characters immune to unconsciousness."
+        ]
+      }
+    },
+    {
+      "name": "Sea Spawn",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_a",
+      "parentSpecies": null,
+      "aliases": "Sea Spawn / Sea-Spawn. Group the printed piscine adaptations as options. Deep Scion is a separate template.",
+      "npcs": [
+        "Neris Knot"
+      ],
+      "portrait": "parts/nine_mr2_a/portraits/sea-spawn.png",
+      "source": {
+        "name": "Sea Spawn",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Humanoid",
+        "url": "",
+        "rulesReadUrl": "",
+        "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "officialPreview": "",
+        "printedPages": [
+          64,
+          65
+        ],
+        "page": "pp. 64–65, Sea Spawn Traits",
+        "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+        "sourceDistinctions": [
+          "Piscine Anatomy selects two of three options. Neris has bite and tentacle. His ordinary arm stays available, but the worked build relies on its natural attacks.",
+          "The introductory description calls the creature amphibious. The player trait block grants swim speed and omits an Amphibious trait. Neris uses the core breath-holding rule."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Shadow Mastiff",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_a",
+      "parentSpecies": null,
+      "aliases": "Shadow Mastiff / Shadow Mastiffs. Use its player package. Keep Shadow Mastiff Alpha and other encounter canids separate.",
+      "npcs": [
+        "Sable Bell"
+      ],
+      "portrait": "parts/nine_mr2_a/portraits/shadow-mastiff.png",
+      "source": {
+        "name": "Shadow Mastiff",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "officialPreview": "",
+        "printedPages": [
+          66
+        ],
+        "page": "p. 66, Shadow Mastiff Traits",
+        "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+        "sourceDistinctions": [
+          "The printed traits grant Shadow Blend and Sunlight Weakness. The design discussion of an AC boost in darkness does not appear in the printed trait block.",
+          "Sable Bell is quadrupedal and handless. It uses no hand-held gear or shield, and its build uses unarmored AC."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Shield Guardian",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_d",
+      "parentSpecies": null,
+      "aliases": "Shield Guardian / Shield Guardians. The printed player guardian has broken its amulet bond. Helmed Horror remains separate.",
+      "npcs": [
+        "Slate Ward"
+      ],
+      "portrait": "parts/nine_mr1_d/portraits/shield-guardian.png",
+      "source": {
+        "name": "Shield Guardian",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          187
+        ],
+        "page": "v2 p. 187, Shield Guardian Traits.",
+        "heading": "Shield Guardian Traits",
+        "creatureType": "Construct",
+        "sourceVersion": "v2 text mirror",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "The published character is unbound. The player traits omit the monster’s amulet bond, regeneration, spell storing, and the poison immunity mentioned in design notes.",
+          "The NPC’s Dueling style applies to its mace while carrying a shield. Its Shield trait is an independent reaction protecting an adjacent ally."
+        ]
+      }
+    },
+    {
+      "name": "Slaad",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_d",
+      "parentSpecies": null,
+      "aliases": "Slaad / Slaadi. Group Red, Blue, Green/Gray/Death, and Tadpole in one profile. Treat Gray and Death as the printed Green progression, with their shared statistics.",
+      "npcs": [
+        "Lichen Mouth"
+      ],
+      "portrait": "parts/nine_mr1_d/portraits/slaad.png",
+      "source": {
+        "name": "Slaad",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          189,
+          190
+        ],
+        "page": "v2 pp. 189–190, Slaadi Traits.",
+        "heading": "Slaadi Traits",
+        "creatureType": "Aberration",
+        "sourceVersion": "v2 text mirror",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "The source prints fire bold in the innate spell line. The encounter uses the 2014 fire bolt cantrip.",
+          "Green, Gray, and Death share one playable form and can change appearance through the printed progression.",
+          "Lichen Mouth uses the Green form’s statistics. The selected NPC has no Red or Blue infection traits."
+        ]
+      }
+    },
+    {
+      "name": "Slithering Tracker",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_a",
+      "parentSpecies": null,
+      "aliases": "Slithering Tracker / Slithering Trackers. Keep its own ooze profile separate from Oozefolk and other ooze families.",
+      "npcs": [
+        "Fenline"
+      ],
+      "portrait": "parts/nine_mr2_a/portraits/slithering-tracker.png",
+      "source": {
+        "name": "Slithering Tracker",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Ooze",
+        "url": "",
+        "rulesReadUrl": "",
+        "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "officialPreview": "",
+        "printedPages": [
+          67
+        ],
+        "page": "p. 67, Slithering Tracker Traits",
+        "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+        "sourceDistinctions": [
+          "The player trait permits Life Leech grapples despite lack of hands. Size and contest follow the normal grappling rule.",
+          "Damage Transfer does not specify rounding or order with other modifiers. For Fenline, halve the incoming damage first, round down using the core default, then apply each recipient’s applicable modifiers to its share."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Spawn of Kyuss",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_b",
+      "parentSpecies": null,
+      "aliases": "Spawn of Kyuss / Kyuss Spawn. Use the named undead player package. Other undead and encounter versions remain separate.",
+      "npcs": [
+        "Rusk Ditchwatch"
+      ],
+      "portrait": "parts/nine_mr2_b/portraits/spawn-of-kyuss.png",
+      "source": {
+        "name": "Spawn of Kyuss",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Undead",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          68,
+          69
+        ],
+        "page": "pp. 68–69, Spawn of Kyuss Traits",
+        "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "sourceRevision": "Printed text mirror of Monstrous Races 2",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+        "sourceDistinctions": "The player worm has no recharge line. A failed save deals 1 piercing immediately. The worm deals 2d6 necrotic at turn end. It has the delayed damage and removal rules in the player block. The encounter-monster spawn effect is absent.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        ]
+      }
+    },
+    {
+      "name": "Specter",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_e",
+      "parentSpecies": null,
+      "aliases": "Specter / Spectre. Keep the player spirit distinct from Banshee, Wraith, and other incorporeal profiles.",
+      "npcs": [
+        "Sable"
+      ],
+      "portrait": "parts/nine_mr1_e/portraits/specter.png",
+      "source": {
+        "name": "Specter",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publication": "Monstrous Races (2018)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Undead",
+        "url": "",
+        "printedPages": [
+          191,
+          192
+        ],
+        "page": "v2 pp. 191–192, Specter Traits.",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "npcExamples": [
+          "Sable"
+        ],
+        "sourceDistinctions": [
+          "The published trait gives a 30-ft. walk. The game advice and design notes discuss a design with no walk, hovering, or inability to speak. Follow the player trait block for speeds and abilities. Sable communicates in writing.",
+          "The duplicated Sunlight Sensitivity sentence gives one instance of disadvantage. Life Drain is a damage-only melee spell attack here."
+        ]
+      }
+    },
+    {
+      "name": "Stirge",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_e",
+      "parentSpecies": null,
+      "aliases": "Stirge / Stirges. Use the individual player creature and the supplement's Tiny rules. Keep swarms separate.",
+      "npcs": [
+        "Pip"
+      ],
+      "portrait": "parts/nine_mr1_e/portraits/stirge.png",
+      "source": {
+        "name": "Stirge",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publication": "Monstrous Races (2018)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "printedPages": [
+          194,
+          195
+        ],
+        "page": "v2 pp. 194–195, Stirge Traits.",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "npcExamples": [
+          "Pip"
+        ],
+        "sourceDistinctions": [
+          "Blood Drain explicitly counts as finesse for Sneak Attack. A later attached drain uses the normal unarmed-strike damage and lacks an attack roll, so it does not apply Sneak Attack.",
+          "For encounter tracking, count ongoing attached drain toward the Constitution threshold. The source separates the triggering hit from the start-of-turn drain."
+        ]
+      }
+    },
+    {
+      "name": "Tarrasque",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_e",
+      "parentSpecies": null,
+      "aliases": "Tarrasque / Tarrasques. Use Kamstra's player-scale traits. The solo encounter monster has separate rules.",
+      "npcs": [
+        "Crag"
+      ],
+      "portrait": "parts/nine_mr1_e/portraits/tarrasque.png",
+      "source": {
+        "name": "Tarrasque",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publication": "Monstrous Races (2018)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity (titan)",
+        "url": "",
+        "printedPages": [
+          196,
+          197
+        ],
+        "page": "v2 pp. 196–197, Tarrasque Traits.",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "npcExamples": [
+          "Crag"
+        ],
+        "sourceDistinctions": [
+          "The conversion is Medium and has its own strike, defenses, and spell reflection. The encounter Tarrasque has a separate stat block.",
+          "The unarmed hit grants a bonus-action grapple while the same profile bars hand-dependent equipment. This build treats the bite or forelimbs as enough to hold for this specific feature."
+        ]
+      }
+    },
+    {
+      "name": "Trapper",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_b",
+      "parentSpecies": null,
+      "aliases": "Trapper / Trappers. Use the monster-derived player creature, separate from the profession, Cloaker, and Animated Object.",
+      "npcs": [
+        "Lintel"
+      ],
+      "portrait": "parts/nine_mr2_b/portraits/trapper.png",
+      "source": {
+        "name": "Trapper",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          71
+        ],
+        "page": "p. 71, Trapper Traits",
+        "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "sourceRevision": "Printed text mirror of Monstrous Races 2",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+        "sourceDistinctions": "The trait block gives blindsight 30 ft. The design notes mention darkvision, which this build does not grant. Run Smother as the printed unarmed strike followed by a separate bonus-action grapple on a hit.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        ]
+      }
+    },
+    {
+      "name": "Unicorn",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_e",
+      "parentSpecies": null,
+      "aliases": "Unicorn / Unicorns. Keep the player celestial separate from Ki-rin and other equine creatures.",
+      "npcs": [
+        "Lark"
+      ],
+      "portrait": "parts/nine_mr1_e/portraits/unicorn.png",
+      "source": {
+        "name": "Unicorn",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publication": "Monstrous Races (2018)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Celestial",
+        "url": "",
+        "printedPages": [
+          202,
+          203
+        ],
+        "page": "v2 pp. 202–203, Unicorn Traits.",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "npcExamples": [
+          "Lark"
+        ],
+        "sourceDistinctions": [
+          "The book calls the innate spell detect good and evil. The 2014 spell list titles it detect evil and good.",
+          "Healing Touch and darkvision appear in play advice or design notes without a player feature. This build’s healing comes from Paladin 1. The class action requires touch, which Lark delivers with its horn.",
+          "Core unarmed strikes are melee weapon attacks, so a Strength-based horn or hoof strike can trigger Charge."
+        ]
+      }
+    },
+    {
+      "name": "Vargouille",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_b",
+      "parentSpecies": null,
+      "aliases": "Vargouille / Vargouilles. Use the flying fiend's traits. Keep Flameskull and Demilich separate.",
+      "npcs": [
+        "Pip Sablewing"
+      ],
+      "portrait": "parts/nine_mr2_b/portraits/vargouille.png",
+      "source": {
+        "name": "Vargouille",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Fiend",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          71,
+          72
+        ],
+        "page": "pp. 71–72, Vargouille Traits",
+        "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "sourceRevision": "Printed text mirror of Monstrous Races 2",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+        "sourceDistinctions": "The ability increase line is blank. The play advice mentions darkvision but the trait block supplies neither the trait nor a range. The action text of Kiss says visible creature within 5 ft. and does not require humanoid or incapacitated; both narrower limits appear in commentary. The NPC rolls against its own Shriek as a table reading of the unqualified creatures in range. Sneak Attack adds piercing for the mixed-type bite in this build.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        ]
+      }
+    },
+    {
+      "name": "Vegepygmy",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_b",
+      "parentSpecies": null,
+      "aliases": "Vegepygmy / Vegepygmies. Keep the standard and Thorny player forms together, with Chief as its printed feat. Fungi and plant ancestry profiles remain separate.",
+      "npcs": [
+        "Dewcap Reed"
+      ],
+      "portrait": "parts/nine_mr2_b/portraits/vegepygmy.png",
+      "source": {
+        "name": "Vegepygmy",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Plant",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          73,
+          89
+        ],
+        "page": "p. 73, Vegepygmy Traits; p. 89, Vegepygmy Chief feat",
+        "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "sourceRevision": "Printed text mirror of Monstrous Races 2",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+        "sourceDistinctions": "The standard and Thorny forms stay in one profile. The optional Vegepygmy Chief feat is on p. 89 and applies to the standard form. The worked Fighter 1 uses the standard form without the feat.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        ]
+      }
+    },
+    {
+      "name": "Water Weird",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_e",
+      "parentSpecies": null,
+      "aliases": "Water Weird / Water Weirds. Keep its printed environmental dependence. Other elementals remain separate.",
+      "npcs": [
+        "Undertow"
+      ],
+      "portrait": "parts/nine_mr1_e/portraits/water-weird.png",
+      "source": {
+        "name": "Water Weird",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publication": "Monstrous Races (2018)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Elemental",
+        "url": "",
+        "printedPages": [
+          207
+        ],
+        "page": "v2 p. 207, Water Weird Traits.",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "npcExamples": [
+          "Undertow"
+        ],
+        "sourceDistinctions": [
+          "The player block gives a walking speed of 30 ft. and no swimming speed. Design commentary instead discusses 0 ft. walking and 50 ft. swimming. This build uses the printed speed and ordinary core swimming costs inside the bound water.",
+          "The profile supplies no racial ability adjustments or fire resistance. The build uses a conservative reading of the p. 8 immunity-at-0-HP rule."
+        ]
+      }
+    },
+    {
+      "name": "Will-o’-Wisp",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_f",
+      "parentSpecies": null,
+      "aliases": "Will-o’-Wisp / Will-o'-Wisp / Will o' Wisp. Keep the player undead separate from lights, spells, and Wraith.",
+      "npcs": [
+        "Tallow of Siltford"
+      ],
+      "portrait": "parts/nine_mr1_f/portraits/will-o-wisp.png",
+      "source": {
+        "name": "Will-o’-Wisp",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Undead",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          208,
+          209
+        ],
+        "page": "pp. 208–209 in v2. Will-o’-Wisp Traits",
+        "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "Uses the printed Small size and 40-ft. flight. The block grants no hover or Incorporeal Movement.",
+          "The supplement's p. 8 handless somatic and unconsciousness rules apply. Ephemeral prevents the use of material components and carried foci. Shock uses ordinary 5-ft. reach for the worked encounter."
+        ],
+        "npcExamples": [
+          "Tallow of Siltford"
+        ]
+      }
+    },
+    {
+      "name": "Wraith",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_f",
+      "parentSpecies": null,
+      "aliases": "Wraith / Wraiths. Use the player incorporeal undead. Specter and any encounter-created servants retain their own scopes.",
+      "npcs": [
+        "Mara Moorwake"
+      ],
+      "portrait": "parts/nine_mr1_f/portraits/wraith.png",
+      "source": {
+        "name": "Wraith",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Undead",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          210
+        ],
+        "page": "p. 210 in v2. Wraith Traits",
+        "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The trait box repeats Sunlight Sensitivity. The profile applies it once. Printed Life Drain is a necrotic unarmed attack, with no encounter-monster drain rider. Bereft of Body permits a shield."
+        ],
+        "npcExamples": [
+          "Mara Moorwake"
+        ]
+      }
+    },
+    {
+      "name": "Wyvern",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_f",
+      "parentSpecies": null,
+      "aliases": "Wyvern / Wyverns. Use the player's anatomy and venom. Keep Dragon Turtle, Faerie Dragon, and other draconic entries separate.",
+      "npcs": [
+        "Brackenwake"
+      ],
+      "portrait": "parts/nine_mr1_f/portraits/wyvern.png",
+      "source": {
+        "name": "Wyvern",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Dragon",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          211
+        ],
+        "page": "p. 211 in v2. Wyvern Traits",
+        "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The printed Stinger rolls piercing and poison. The Strength modifier and Rage apply to the weapon attack once. The portrait uses two walking legs and two winged forelimbs."
+        ],
+        "npcExamples": [
+          "Brackenwake"
+        ]
+      }
+    },
+    {
+      "name": "Xorn",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_f",
+      "parentSpecies": null,
+      "aliases": "Xorn / Xorns. Keep the stone traversal and other player traits together. Galeb Duhr and Rockborn stay separate.",
+      "npcs": [
+        "Pinch-of-Tin"
+      ],
+      "portrait": "parts/nine_mr1_f/portraits/xorn.png",
+      "source": {
+        "name": "Xorn",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Elemental",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          211,
+          212
+        ],
+        "page": "pp. 211–212 in v2. Xorn Traits",
+        "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "Each printed eye, arm and leg is represented in the portrait. Fighter's style adds Strength to the second sword. Three Arms withdraws the shield benefit exactly when the bonus attack is used."
+        ],
+        "npcExamples": [
+          "Pinch-of-Tin"
+        ]
+      }
+    },
+    {
+      "name": "Xvart",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_b",
+      "parentSpecies": null,
+      "aliases": "Xvart / Xvarts. Use the player package. The Warlock of Raxivort reference is class guidance within the same profile.",
+      "npcs": [
+        "Tiv Ragpocket"
+      ],
+      "portrait": "parts/nine_mr2_b/portraits/xvart.png",
+      "source": {
+        "name": "Xvart",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Humanoid (Xvart)",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          76
+        ],
+        "page": "p. 76, Xvart Traits",
+        "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+        "sourceRevision": "Printed text mirror of Monstrous Races 2",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+        "sourceDistinctions": "The supplement describes the Warlock of Raxivort as ordinary warlock advancement with suggested invocations and no selected patron. The NPC uses Rogue 1 and keeps the species bonus-action Disengage.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        ]
+      }
+    },
+    {
+      "name": "Yeth Hound",
+      "publication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr2_c",
+      "parentSpecies": null,
+      "aliases": "Yeth Hound / Yeth Hounds. Scope to the player fey canine with the printed sunlight limits. Keep Hell Hound and Shadow Mastiff separate.",
+      "npcs": [
+        "Ashwhistle"
+      ],
+      "portrait": "parts/nine_mr2_c/portraits/yeth-hound.png",
+      "source": {
+        "name": "Yeth Hound",
+        "publication": "Monstrous Races 2",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "creatureType": "Fey",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "pp. 77–78, Yeth Hound Traits",
+        "printedPages": [
+          77,
+          78
+        ],
+        "heading": "Yeth Hound Traits",
+        "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+        "sourceDistinctions": [
+          "The printed traits cross from p. 77 to p. 78 at Telepathic Bond. The design notes describe a handless body, which the worked encounter respects.",
+          "No armor or held equipment. The encounter treats the hound as nonspeaking, so it uses body language with strangers and same-plane telepathy with its master. The source gives no precise deadline for finding a replacement master."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "adventuring": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Yeti",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "nine_mr1_f",
+      "parentSpecies": null,
+      "aliases": "Yeti / Yetis. Use the printed player package. Keep the Abominable Yeti encounter version separate.",
+      "npcs": [
+        "Rusk Palecrag"
+      ],
+      "portrait": "parts/nine_mr1_f/portraits/yeti.png",
+      "source": {
+        "name": "Yeti",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          212,
+          213
+        ],
+        "page": "pp. 212–213 in v2. Yeti Traits",
+        "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The v2 trait line cuts off before naming an ability for the DC. This encounter uses Constitution, with no damage progression or paralysis imported from elsewhere."
+        ],
+        "npcExamples": [
+          "Rusk Palecrag"
+        ]
+      }
+    }
+  ]
+}

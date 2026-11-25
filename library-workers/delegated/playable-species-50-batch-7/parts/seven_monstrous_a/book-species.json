@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Aboleth",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through the Dungeon Masters Guild for the 2014 fifth-edition rules. This summary follows the publisher preview.",
+      "Medium aberration. Increase Intelligence and Charisma by 1. Land speed 10 ft., swim speed 40 ft. It breathes both air and water and has darkvision out to 120 ft.",
+      "When unarmored, natural AC is 12 + Dexterity modifier. Tentacles replace the ordinary unarmed strike damage die with 1d6 bludgeoning.",
+      "It can speak, read, and write Deep Speech. It can communicate telepathically with a creature that knows a language within 30 ft.",
+      "From 3rd level it can cast Charm Person once per day using Intelligence."
+    ]
+  },
+  {
+    "name": "Animated Object",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through the Dungeon Masters Guild for the 2014 fifth-edition rules. This summary follows the publisher preview.",
+      "Construct. It needs no air, food, water, or sleep. Four hours of semiconscious rest give it the benefit a human gets from eight hours of sleep. Normal resting works under the supplement's healing guidance. Cure Wounds, Healing Word, and Heal exclude constructs under 2014 rules.",
+      "It has no eyes, has 60-ft. blindsight, and is immune to the blinded, deafened, exhaustion, paralyzed, petrified, and poisoned conditions and to poison damage. It reads and understands Common. It cannot speak or provide verbal spell components.",
+      "In an Antimagic Field it is incapacitated. If Dispel Magic targets it, it makes a Constitution save against the caster's spell save DC. On a failure it falls unconscious for one minute.",
+      "False Appearance lets it pass for the mundane object it resembles after staying still and concentrating for one minute. It remains disguised while motionless.",
+      "Animated Armor. Medium, speed 25 ft., and fixed natural AC 18 before any shield. It can wield weapons and use a shield. It cannot wear separate armor. Its fist deals 1d6 bludgeoning in place of ordinary unarmed strike damage.",
+      "Flying Sword. Small, speed 0 ft., fly 50 ft. It lacks hover and hands and cannot wear armor, use shields, or work handheld items. Its blade strike uses 1d8 slashing. Natural AC is 15 + Dexterity modifier in the publisher preview.",
+      "Rug of Smothering. Medium, speed 20 ft., +1 Strength, and proficiency in Athletics. It has no hands, shield, or worn armor. Natural AC is 12 + Dexterity modifier. A 1d8 bludgeoning unarmed hit made as part of the Attack action lets it attempt a grapple as a bonus action despite having no hands. While it grapples a creature, each takes half of the damage dealt to the rug."
+    ]
+  },
+  {
+    "name": "Ankheg",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through the Dungeon Masters Guild for the 2014 fifth-edition rules. This summary follows the publisher preview.",
+      "Medium monstrosity. Speed 30 ft., burrow 10 ft. It can speak, read, and write Common. Natural AC is 12 + Dexterity modifier.",
+      "Darkvision 60 ft. Its 30-ft. tremorsense locates vibrations in the same surface or substance it is touching. It cannot locate flying or incorporeal creatures this way.",
+      "Its bite is an unarmed strike with a 1d4 slashing and 1d4 acid damage roll.",
+      "Acid Spray uses an action and fills a 30-ft. line 5 ft. wide. Every creature in the line makes a Dexterity save against 8 + proficiency bonus + Constitution modifier. It deals 2d6 acid on a failed save or half as much on a success. The publisher preview scales the spray to 3d6 at level 5, 4d6 at 11, and 5d6 at 17. It recharges after a short or long rest."
+    ]
+  },
+  {
+    "name": "Banshee",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through the Dungeon Masters Guild for the 2014 fifth-edition rules. This summary follows the publisher preview.",
+      "Medium undead. Increase Charisma by 1. It needs no air, food, water, or sleep. It enters a semiconscious rest for four hours to gain the benefits a human gains from eight hours of sleep. It can heal by resting. Cure Wounds, Healing Word, and Heal exclude undead under 2014 rules.",
+      "The flying form has 0 ft. land speed, a 30-ft. fly speed with hover while out of medium or heavy armor, and necrotic resistance. It speaks, reads, and writes Common and Elvish.",
+      "Both forms have darkvision 60 ft. and magically sense the presence and general direction of living creatures within five miles. Sorrow Bound keeps them within five miles of the place they died.",
+      "Using an action, Corrupting Touch makes a Charisma-based melee spell attack that deals 1d8 necrotic on a hit. It increases to 2d8 at level 5, 3d8 at 11, and 4d8 at 17. Wail casts Dissonant Whispers once per day using Charisma.",
+      "Corpse-body variant. Replace the flying form's speed, flight, resistance, and languages. It walks 30 ft., resists cold, necrotic, and poison damage, has advantage on poison saves, and knows Common and the racial language of its former mortal ancestry."
+    ]
+  }
+]

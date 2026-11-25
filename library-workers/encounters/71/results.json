@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Sea Kin",
+    "species": "species-52d0c649b3c1a6c386ba17a9",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Destiny (2004)"
+    ],
+    "portraitSha256": "9dad55e7d83dc6220b1ccb7b983540699d461c94b89335f934c67ebf5eab0da0",
+    "caption": "Neressa · Original Sea Kin NPC",
+    "npcReceipts": [
+      {
+        "name": "Neressa",
+        "id": "npc-14f994b501b848bb73539c99",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Emmoran",
+        "id": "npc-74257e3e3723c52ba46cd154",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+]

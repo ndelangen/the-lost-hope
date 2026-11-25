@@ -1,0 +1,328 @@
+[
+  {
+    "name": "Yuan-ti Abomination",
+    "statBlock": {
+      "name": "Yuan-ti Abomination",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "15d10 + 45",
+      "speed": "40 ft.",
+      "cr": "7",
+      "xp": 2900,
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 6
+      },
+      "passivePerception": 15,
+      "description": "A powerful serpent with a humanoid upper torso and arms. An abomination directs rituals and schemes from the highest yuan-ti caste.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Armor": "Natural armor.",
+        "Traits": "Shapechanger. The abomination spends an action to become a Large snake or to return to its true form. Its statistics and equipment stay the same. Death does not revert the transformation.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage.",
+        "Innate spellcasting": "Abomination form only. Charisma, save DC 15, no material components.\nAt will: Animal Friendship (snakes only).\n3/day: Suggestion.\n1/day: Fear.",
+        "Actions": "Multiattack (abomination form only). Make two ranged attacks or three melee attacks. Use Bite and Constrict at most once each.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 7 (1d6 + 4) piercing plus 10 (3d6) poison damage.\nConstrict. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 11 (2d6 + 4) bludgeoning. The target is Grappled (escape DC 14) and remains Restrained until this grapple ends. The abomination cannot constrict a second target while this grapple lasts.\nScimitar (abomination form only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.\nLongbow (abomination form only). Ranged weapon attack, +6 to hit, range 150/600 ft., one target. Hit 12 (2d8 + 3) piercing plus 10 (3d6) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 308."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison",
+    "statBlock": {
+      "name": "Yuan-ti Malison",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "passivePerception": 11,
+      "description": "A snake-human hybrid of the yuan-ti middle caste. Choose one of the three printed forms before running the encounter.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Traits": "Shapechanger. The malison spends an action to become a Medium snake or to return to its true form. Its statistics and equipment stay the same. Death does not revert the transformation.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage.",
+        "Innate spellcasting": "Yuan-ti form only. Charisma, save DC 13, no material components.\nAt will: Animal Friendship (snakes only).\n3/day: Suggestion.",
+        "Actions": "Choose one type and use only its action list. Changing into a snake does not change the malison’s type.\nType 1. A human-shaped body with a serpent head.\nMultiattack (yuan-ti form only). Make two ranged attacks or two melee attacks. Use Bite at most once.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing plus 7 (2d6) poison damage.\nScimitar (yuan-ti form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nLongbow (yuan-ti form only). Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing plus 7 (2d6) poison damage.\n\nType 2. A human head and torso with a snake in place of each arm.\nMultiattack (yuan-ti form only). Make two Bite attacks with the snake arms.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing plus 7 (2d6) poison damage.\n\nType 3. A human head and upper body with a serpentine lower body.\nMultiattack (yuan-ti form only). Make two ranged attacks or two melee attacks. Use Constrict at most once.\nBite (snake form only). Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing plus 7 (2d6) poison damage.\nConstrict. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) bludgeoning. The target is Grappled (escape DC 13) and remains Restrained until this grapple ends. The malison cannot constrict a second target while this grapple lasts.\nScimitar (yuan-ti form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nLongbow (yuan-ti form only). Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 309."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison (Type 1)",
+    "statBlock": {
+      "name": "Yuan-ti Malison (Type 1)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "passivePerception": 11,
+      "description": "A human-shaped body with a serpent head.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Traits": "Shapechanger. The malison spends an action to become a Medium snake or to return to its true form. Its statistics and equipment stay the same. Death does not revert the transformation.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage.",
+        "Innate spellcasting": "Yuan-ti form only. Charisma, save DC 13, no material components.\nAt will: Animal Friendship (snakes only).\n3/day: Suggestion.",
+        "Actions": "Multiattack (yuan-ti form only). Make two ranged attacks or two melee attacks. Use Bite at most once.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing plus 7 (2d6) poison damage.\nScimitar (yuan-ti form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nLongbow (yuan-ti form only). Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing plus 7 (2d6) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 309."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison (Type 2)",
+    "statBlock": {
+      "name": "Yuan-ti Malison (Type 2)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "passivePerception": 11,
+      "description": "A human head and torso with a snake in place of each arm.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Traits": "Shapechanger. The malison spends an action to become a Medium snake or to return to its true form. Its statistics and equipment stay the same. Death does not revert the transformation.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage.",
+        "Innate spellcasting": "Yuan-ti form only. Charisma, save DC 13, no material components.\nAt will: Animal Friendship (snakes only).\n3/day: Suggestion.",
+        "Actions": "Multiattack (yuan-ti form only). Make two Bite attacks with the snake arms.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing plus 7 (2d6) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 309."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison (Type 3)",
+    "statBlock": {
+      "name": "Yuan-ti Malison (Type 3)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "passivePerception": 11,
+      "description": "A human head and upper body with a serpentine lower body.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Traits": "Shapechanger. The malison spends an action to become a Medium snake or to return to its true form. Its statistics and equipment stay the same. Death does not revert the transformation.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage.",
+        "Innate spellcasting": "Yuan-ti form only. Charisma, save DC 13, no material components.\nAt will: Animal Friendship (snakes only).\n3/day: Suggestion.",
+        "Actions": "Multiattack (yuan-ti form only). Make two ranged attacks or two melee attacks. Use Constrict at most once.\nBite (snake form only). Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing plus 7 (2d6) poison damage.\nConstrict. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) bludgeoning. The target is Grappled (escape DC 13) and remains Restrained until this grapple ends. The malison cannot constrict a second target while this grapple lasts.\nScimitar (yuan-ti form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nLongbow (yuan-ti form only). Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 309."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Pureblood",
+    "statBlock": {
+      "name": "Yuan-ti Pureblood",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (yuan-ti), neutral evil",
+      "ac": 11,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "cr": "1",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "skills": {
+        "Deception": 6,
+        "Perception": 3,
+        "Stealth": 3
+      },
+      "passivePerception": 13,
+      "description": "An infiltrator who can pass for human at a glance. A forked tongue, slitted pupils, or scattered scales may give away the disguise.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Traits": "Magic Resistance. Roll saving throws against spells and other magical effects with advantage.",
+        "Innate spellcasting": "Charisma, save DC 12, no material components.\nAt will: Animal Friendship (snakes only).\n3/day each: Poison Spray, Suggestion.",
+        "Actions": "Multiattack. Make two melee attacks.\nScimitar. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) slashing damage.\nShortbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. Hit 4 (1d6 + 1) piercing plus 7 (2d6) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 310."
+      }
+    }
+  }
+]

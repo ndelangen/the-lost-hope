@@ -1,0 +1,267 @@
+[
+  {
+    "name": "Giant Octopus",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 52,
+    "hitDice": "8d10 + 8",
+    "speed": "10 ft., swim 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "passivePerception": 14,
+    "otherStatistics": "Perception +4, Stealth +5. Darkvision 60 ft. Passive Perception 14. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "appearance": "A green octopus with a rounded mantle and eight curling arms lined with pale suckers.",
+    "habitats": [
+      "River",
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX1-11, Dark Pyramid of Sorcerer's Isle, Appendix 1: Monster/NPC Statistics, p. 36. ",
+      "Traits": "Hold Breath. Out of water, the octopus can hold its breath for 1 hour.\nUnderwater Camouflage. It has advantage on Dexterity (Stealth) checks made underwater.\nWater Breathing. It can breathe only underwater.",
+      "Actions": "Tentacles. Melee weapon attack, +5 to hit, reach 15 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage. A creature hit is grappled (escape DC 16) and remains restrained while grappled. The octopus cannot use Tentacles on another target until the grapple ends.\nInk Cloud (recharges after a short or long rest). While underwater, release a 20-ft.-radius cloud centered on the octopus. The cloud heavily obscures its area for 1 minute, and a strong current can disperse it. After releasing the ink, the octopus can take the Dash action as a bonus action.",
+      "Encounter variant": "Two giant octopuses try to pull people from a boat into the river. Two swarms of quippers attack anyone pulled into the water and leave the octopuses alone. The waist-deep river is difficult terrain and does not hinder attacks. The boat has AC 15 and 50 HP. A very weak party faces one octopus and one swarm. A weak party faces two octopuses and one swarm. A strong party faces two octopuses and three swarms. A very strong party faces three of each."
+    }
+  },
+  {
+    "name": "Crocodile",
+    "publication": "DDEX1-07 - Drums in the Marsh",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "20 ft., swim 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Stealth +2. Passive Perception 10. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "appearance": "An olive-brown crocodile with a long tooth-lined snout, scutes and a powerful tail.",
+    "habitats": [
+      "Swamp"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX1-07, Drums in the Marsh, Appendix: Monster/NPC Statistics, p. 21. ",
+      "Traits": "Hold Breath. The crocodile can hold its breath for 15 minutes.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 7 (1d10 + 2) piercing damage and grapples the target (escape DC 12). The target is restrained while grappled, and the crocodile cannot Bite another target until the grapple ends."
+    }
+  },
+  {
+    "name": "Boar",
+    "publication": "DDEX3-02 - Shackles of Blood",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "passivePerception": 9,
+    "otherStatistics": "Natural armor. Passive Perception 9. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "appearance": "A dark brown boar with coarse bristles and short curved tusks.",
+    "habitats": [
+      "Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX3-02, Shackles of Blood, Appendix: Monster/NPC Statistics, p. 28. ",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Tusk on the same turn to deal another 3 (1d6) slashing damage. A creature hit this way must pass a DC 11 Strength saving throw or fall prone.\nRelentless (recharges after a short or long rest). If damage of 7 or less would reduce the boar to 0 HP, it drops to 1 HP instead.",
+      "Actions": "Tusk. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) slashing damage.",
+      "Encounter variant": "At the Red Plumes’ camp, a successful DC 15 Dexterity check using thieves’ tools unlocks the cage. If released, the boar attacks a random target and runs into the woods. If combat starts while it is still caged, it breaks free at the end of round two. It attacks the nearest creature with a +5 melee attack that deals 10 (2d6 + 3) slashing damage on a hit, then flees into the forest."
+    }
+  },
+  {
+    "name": "Giant Boar",
+    "publication": "DDEX3-07 - Herald of the Moon",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 42,
+    "hitDice": "5d10 + 15",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "passivePerception": 8,
+    "otherStatistics": "Natural armor. Passive Perception 8. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "appearance": "A large bristly boar with a tall dark mane and heavy ivory tusks.",
+    "habitats": [
+      "Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX3-07, Herald of the Moon, Appendix: Monster/NPC Statistics, p. 28. ",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Tusk on the same turn to deal another 7 (2d6) slashing damage. A creature hit this way must pass a DC 13 Strength saving throw or fall prone.\nRelentless (recharges after a short or long rest). If damage of 10 or less would reduce the boar to 0 HP, it drops to 1 HP instead.",
+      "Actions": "Tusk. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) slashing damage.",
+      "Encounter variant": "One giant boar and two hill giants emerge from the Cormanthor forest shortly after the party arrives. Neither side is surprised. A very weak party faces only the two giants. A weak party faces one giant and three giant boars. A strong party faces two giants and three giant boars. A very strong party faces three giants and one giant boar."
+    }
+  },
+  {
+    "name": "Mastiff",
+    "publication": "DDEX2-02 - Embers of Elmwood",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "passivePerception": 13,
+    "otherStatistics": "Perception +3. Passive Perception 13. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "appearance": "A fawn guard mastiff with folded ears, a dark muzzle and stitched brown leather barding.",
+    "habitats": [
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX2-02, Embers of Elmwood, Appendix: Monster/NPC Statistics, p. 22. ",
+      "Traits": "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks that depend on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage. If the target is a creature, it must pass a DC 11 Strength saving throw or fall prone.",
+      "Encounter variant": "Two mastiffs accompany a thug in the manor’s Grand Room. Their leather barding raises their AC to 13."
+    }
+  }
+]

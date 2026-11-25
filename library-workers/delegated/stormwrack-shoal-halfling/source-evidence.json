@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Shoal Halfling",
+    "kind": "species",
+    "publication": "Stormwrack (2005)",
+    "edition": "3.5 edition",
+    "book": "Stormwrack",
+    "authors": [
+      "Richard Baker",
+      "Joseph D. Carriker Jr.",
+      "Jennifer Clarke Wilkes"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2005",
+    "productCode": "620-17867000-001-EN",
+    "isbn": "0-7869-3689-4",
+    "printedPages": {
+      "playableSpecies": [
+        45,
+        46
+      ],
+      "racialTraits": 46,
+      "illustration": 45,
+      "levelAdjustment": 34,
+      "patrol": [
+        213,
+        217
+      ]
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "53d29c7c6ed20da69c3ddd8474c64c88a59b572834e0bfc56900cf422e9d2511",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Drew Baker, Seacliff dwarf and shoal halfling, p. 45.",
+    "baseHalfling": "https://www.d20srd.org/srd/races.htm#halflings",
+    "sourceDistinctions": [
+      "Page 46 inherits the Player’s Handbook Halfling except for listed changes. The all-saves bonus, fear bonus, and Listen bonus remain.",
+      "The variant loses the racial attack bonus with thrown weapons and slings and racial Climb, Jump, and Move Silently bonuses. The separate Small size attack bonus remains.",
+      "The Shoal Halfling Patrol has a group encounter level rather than an individual challenge rating.",
+      "Wizards’ collected archive has no Stormwrack errata file. The official FAQ has no Shoal Halfling entry."
+    ],
+    "entryId": "species-255f108bc2591ec32154daf8",
+    "versionKey": "6a96d87ccb0136ed880c6b7d",
+    "slug": "shoal-halfling",
+    "portraitSelection": "generated",
+    "portraitForm": "Tess Siltstep, an original Shoal Halfling Rogue",
+    "npcExamples": [
+      "Tess Siltstep",
+      "Nerin Reefbrace"
+    ]
+  }
+]

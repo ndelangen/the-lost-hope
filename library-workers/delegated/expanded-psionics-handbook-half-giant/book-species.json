@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Half-Giant",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Giant with the Psionic subtype. Strength +2, Constitution +2, Dexterity −2. Base land speed 30 ft. Low-light vision extends human vision in dim light to twice the distance and retains color and detail. Humanoid-only effects such as charm person do not apply.",
+      "Fire Acclimated grants +2 racial bonus on saving throws against fire spells and effects.",
+      "Powerful Build treats a Half-Giant as one size category larger when a size modifier to an opposed check is advantageous, such as grapple, bull rush, or trip. Use the larger category when determining whether a size-based special attack, such as improved grab or swallow whole, can affect the Half-Giant.",
+      "Powerful Build allows weapons designed for creatures one size larger. Actual size determines space and reach. A Medium Half-Giant normally has 5-ft. space and reach. Powerful Build stacks with effects such as Expansion that change actual size.",
+      "Naturally Psionic grants 2 bonus power points at 1st level. Manifesting powers requires an additional source, such as a psionic class.",
+      "Racial Stomp is a psi-like ability usable once per day at half Hit Dice in manifester levels, rounded down, minimum 1. Standard action, 20-ft. cone-shaped spread along the ground. A grounded creature that fails its Reflex save falls prone and takes 1d4 nonlethal damage per racial manifester level. A success negates both effects. Save DC 11 + Charisma modifier. Power resistance does not apply. Automatic psi-like augmentation spends no PP.",
+      "Automatic language Common. Bonus languages Draconic, Giant, Gnoll, Ignan. Favored class Psychic Warrior. Level adjustment +1."
+    ]
+  }
+]

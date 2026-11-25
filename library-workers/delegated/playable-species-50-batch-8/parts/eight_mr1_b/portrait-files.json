@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Galeb Duhr",
+    "file": "portraits/galeb-duhr.png",
+    "sha256": "3bdde4b0f8fb40d7a67b0e6d7da0ef2fd17aed4e1bf94f3380126d7e1e09431f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Gargoyle",
+    "file": "portraits/gargoyle.png",
+    "sha256": "eccfb676305befd95ebfe3cf212256a2c19c4d59993293de6d85ce451f5a2784",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Gibbering Mouther",
+    "file": "portraits/gibbering-mouther.png",
+    "sha256": "b54199377871c382559fd289de9bb4c1e23517df11a086bd79466df0fe61022b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Grell",
+    "file": "portraits/grell.png",
+    "sha256": "edd55f0ae9435a8846dc6be501fd0e2909b3678b9d28dc85fc15cc10849ec2e2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Grick",
+    "file": "portraits/grick.png",
+    "sha256": "cff28ca3a04ed7f3f87d54c295f3fbe36dcbe01dd843725d01e143de7766dd2e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

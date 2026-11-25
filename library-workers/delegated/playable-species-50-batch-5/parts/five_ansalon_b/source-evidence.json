@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Thanoi",
+    "kind": "species",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "publisher": "Margaret Weis Productions",
+    "creatureType": "Monstrous humanoid (cold)",
+    "url": "",
+    "pages": "pp. 214–217, Thanoi racial traits and racial class table",
+    "evidence": "Viewer pages 215–218. The five racial levels culminate in three racial Hit Dice. The example preserves the printed Primary Tusks damage modifiers and the racial class’s CR 2.",
+    "additionalSources": [
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, creature statistics and natural weapons",
+        "url": "https://www.d20srd.org/srd/monsters/intro.htm"
+      },
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, special attacks and grappling",
+        "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+      },
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, weapon statistics",
+        "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+      }
+    ]
+  },
+  {
+    "name": "Ursoi",
+    "kind": "species",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "publisher": "Margaret Weis Productions",
+    "creatureType": "Monstrous humanoid",
+    "url": "",
+    "pages": "pp. 217–221, Ursoi racial traits and racial class table",
+    "evidence": "Viewer pages 218–222. The stat block takes scent range from the table. The scent paragraph contains an inconsistent reference to 7th level alongside the 4th-level unlock. The table grants 10 ft. at level 4 and 20 ft. at level 6, with no further range increase at level 7.",
+    "additionalSources": [
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, creature statistics and natural weapons",
+        "url": "https://www.d20srd.org/srd/monsters/intro.htm"
+      },
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, special attacks and grappling",
+        "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+      },
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, weapon statistics",
+        "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+      }
+    ]
+  },
+  {
+    "name": "Draconian",
+    "kind": "species",
+    "publication": "Dragonlance Campaign Setting (2003)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Dragon",
+    "url": "",
+    "pages": "pp. 33–37, Baaz and Kapak Racial Traits, and p. 217 for the Baaz CR benchmark",
+    "evidence": "Viewer pages 34–38 and 218. One profile covers the two playable options from Chapter 1. Bress uses the Baaz option and the 3.5 fighter class. His CR is an estimate based on the printed Baaz benchmark.",
+    "additionalSources": [
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, creature statistics and natural weapons",
+        "url": "https://www.d20srd.org/srd/monsters/intro.htm"
+      },
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, special attacks and grappling",
+        "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+      },
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, weapon statistics",
+        "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+      },
+      {
+        "name": "Wizards of the Coast revised 3.5 SRD, Fighter",
+        "url": "https://www.d20srd.org/srd/classes/fighter.htm"
+      }
+    ]
+  }
+]

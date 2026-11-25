@@ -1,0 +1,393 @@
+[
+  {
+    "name": "Bloodrose",
+    "decision": "separate",
+    "pages": "pp. 159–161",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Bloodrose",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Plant",
+      "ac": 11,
+      "hp": 4,
+      "hitDice": "1d8",
+      "cr": "1/2",
+      "speed": "0 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A patch of white roses lashes at passersby. Its petals turn red as its roots feed.",
+      "otherStatistics": "Any temperate land. Patch of 3–10, one bush per 5-ft. square. Always neutral. Standard treasure.",
+      "sections": {
+        "Combat statistics": "Initiative +0. AC includes +1 size, touch 11, flat-footed 11. Base attack and grapple +0. Space and reach 5 ft. each. Fort +2, Ref +0, Will +2.",
+        "Traits": "Plant traits and DR 10/bludgeoning or magic. Tremorsense locates creatures and objects touching the ground within 30 ft.\nCamouflage (Ex). Spot, Survival, or Knowledge (plants or herbs) DC 20 to notice it before it attacks.\nVulnerability to Salt (Ex). A gallon of salt water deals 1d10 damage. After it hits a salt-coated target, the bush recognizes the salt and leaves that target alone.",
+        "Actions": "Attack or full attack. One thorny lash +0 melee (1d3) per bush.\nEntangle (Ex). As a free action, the bush entangles foes in every square it can reach, as entangle at caster level 3rd. Reflex DC 12 resists.",
+        "Printed source": "pp. 159–161"
+      }
+    }
+  },
+  {
+    "name": "Fearweed",
+    "decision": "separate",
+    "pages": "pp. 159, 166–167",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Fearweed",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny Plant",
+      "ac": 12,
+      "hp": 4,
+      "hitDice": "1d8",
+      "cr": "1",
+      "speed": "0 ft.",
+      "abilities": {
+        "Con": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This milkweed look-alike feeds when its hallucination-inducing pollen turns travelers against one another.",
+      "otherStatistics": "Any land. Patch of 11–20. Always neutral. Standard treasure.",
+      "sections": {
+        "Combat statistics": "Initiative +0. AC includes +2 size, touch and flat-footed 12. Base attack and grapple +0. Space 2½ ft., reach 0 ft. Fort +5, Ref +0, Will −1.",
+        "Traits": "Plant traits. Tremorsense locates creatures and objects touching the ground within 60 ft. Camouflage (Ex). Spot, Survival, or Knowledge (plants or herbs) DC 20 to identify the plant before it attacks.",
+        "Actions": "No ordinary attack.\nFear Pollen (Su, 1/day). Movement within 20 ft. triggers a 20-ft.-radius cloud centered on the plant. It lasts 1d3 minutes. Each round in the cloud, make a DC 13 Fortitude save or suffer paranoia and threatening hallucinations for 1d4 minutes. If an affected victim dies or falls unconscious, each of that victim's companions can make another Fortitude save. Success restores control, with a −2 penalty on attacks, checks, and saves for the remaining duration. Immunity to poison or mind-affecting effects prevents this effect. Neutralize poison ends it.",
+        "Printed source": "pp. 159, 166–167"
+      },
+      "ruleNotes": [
+        "The second Fortitude save has no separate DC in print. Use the initial DC 13 for that save."
+      ]
+    }
+  },
+  {
+    "name": "Lashweed",
+    "decision": "separate",
+    "pages": "pp. 159, 167–168",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Lashweed",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Plant",
+      "ac": 13,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "cr": "4",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This black-stemmed hunter uses a low drumming sound to find prey and draw other lashweeds into the fight.",
+      "otherStatistics": "Temperate and warm plains, forests, hills, and marshes. Patch of 5–20, usually spaced 20–30 ft. apart. Usually neutral. Standard treasure. Advancement 5–8 HD (Huge).",
+      "sections": {
+        "Combat statistics": "Initiative +1. AC components −1 size, +1 Dex, and +4 natural. Touch 10, flat-footed 14. Base attack +3, grapple +11. Space 5 ft., reach 10 ft. Fort +7, Ref +2, Will +3.",
+        "Traits": "Plant traits. Tremorsense 20 ft., or 60 ft. while thrumming. Woodland Stride (Ex). Ordinary overgrowth, thorns, and briars do not impede or injure it. Magically altered growth still affects it.",
+        "Skills": "Hide −3, Move Silently +1. Add +10 racial to Hide in overgrowth and apply −10 racial to Move Silently while thrumming.",
+        "Actions": "Attack. Whip +7 melee (1d4 + 4). Full attack. Four whips +7, each for 1d4 + 4.\nEntangle (Sp, 3/day). As entangle at caster level 3rd. Reflex DC 13 avoids entanglement.\nSpray Poison (Ex). Once every 3 hours, a 10-ft. cone delivers contact poison, Fort DC 15. Both its initial and secondary effects blind for 1d4 days.",
+        "Printed source": "pp. 159, 167–168"
+      },
+      "ruleNotes": [
+        "The AC 13, flat-footed AC 14, and 5-ft. space are printed as shown, despite the listed AC modifiers and Large size."
+      ]
+    }
+  },
+  {
+    "name": "Quickwood",
+    "decision": "separate",
+    "pages": "pp. 159, 168–169",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Quickwood",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Huge Plant",
+      "ac": 19,
+      "hp": 68,
+      "hitDice": "8d8 + 36",
+      "cr": "10",
+      "speed": "5 ft. (trunk), burrow 30 ft. (roots)",
+      "abilities": {
+        "Str": {
+          "score": 32
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An oak with a face in its bark can spy through the surrounding grove. It drags prey toward its trunk with roots that reach far beyond its branches.",
+      "otherStatistics": "Any forest. Solitary or pair. Usually neutral. Standard treasure. Speaks Sylvan and may know other languages. Advancement 9–16 HD (Huge), 17–21 HD (Gargantuan).",
+      "sections": {
+        "Combat statistics": "Initiative −2. AC components −2 size, −2 Dex, and +13 natural. Touch 6, flat-footed 21. Base attack +6, grapple +17. Space 10 ft., reach 5 ft. or up to 90 ft. with roots. Fort +11, Ref +0, Will +4.",
+        "Traits": "Plant traits, DR 10/bludgeoning or slashing, electricity resistance 20, and fire resistance 20. Camouflage (Ex). Spot, Survival, or Knowledge (plants or herbs) DC 16 to identify it before it attacks. The stat line lists blindsight 120 ft. The dedicated trait gives 60 ft. for sensing corporeal objects and creatures, in addition to normal sight.\nA distressed quickwood can drum loudly enough to be heard a mile or farther.",
+        "Skills": "Hide −8, Intimidate +10, Listen +12, Sense Motive +11, Spot +12, Survival +12. Add +18 racial to Hide in a forest.",
+        "Actions": "Attack. Slam +17 melee (1d6 + 11). Full attack. Eight slams +17, each for 1d6 + 11. It can attack with one root per HD. Roots extend 30 ft. each round, to a maximum of 90 ft. Each root is Medium, AC 15, with 8 HP tracked separately. It withdraws every root when half are severed.\nImproved Grab and Constrict (Ex). A root slam hit allows a grapple. A successful grapple check deals 1d6 + 11 constriction damage to a Medium or smaller foe. Pull grappled foes 30 ft. per round toward the trunk. It can bite an adjacent grappled target once each round at +10 melee (1d4 + 5).\nAnimate Trees (Sp, at will). Control up to four normal oaks within 180 ft. Each spends a full round uprooting itself, then moves at speed 10 ft. and fights as a 3.5 treant. A tree stops moving if the quickwood is incapacitated or leaves range. As a standard action it can scry through oaks out to 1 mile. Otherwise use liveoak at caster level 12th.\nChannel Fear (Su). As a free action when directly targeted by a spell, the quickwood can force all creatures within 45 ft. to make a DC 15 Ravenloft Fear save or become panicked. The spell is lost if its caster fails this save. It resolves normally if the caster succeeds or is outside the radius.",
+        "Printed source": "pp. 159, 168–169"
+      },
+      "ruleNotes": [
+        "The printed blindsight distances conflict. Use the dedicated trait's 60-ft. range for corporeal detection. Printed hit points and grapple bonus are retained."
+      ]
+    }
+  },
+  {
+    "name": "Moor Man",
+    "decision": "separate",
+    "pages": "pp. 154–155",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Moor Man",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Monstrous Humanoid",
+      "ac": 13,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "cr": "3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A marsh hunter lies under the mud until dark. The first glimpse of one is often the tattoo that helps it spring the ambush.",
+      "otherStatistics": "Temperate marsh. Gang of 4–9, hunting party of 5–12, or tribe of 10–30 with a 4th-level shaman and 4th–6th-level leader. Usually chaotic evil. Standard treasure.",
+      "sections": {
+        "Combat statistics": "Initiative +5. AC includes +1 Dex and +2 natural, touch 11, flat-footed 12. Base attack +4, grapple +6. Space and reach 5 ft. each. Fort +6, Ref +2, Will +2.",
+        "Traits": "Darkvision 150 ft. Light Blindness (Ex). Bright sunlight or daylight blinds it. Abrupt exposure to bright light also triggers a DC 14 Ravenloft Fear save.",
+        "Skills and feats": "Hide +4, Listen +2, Move Silently +3, Spot +4. Dodge and Improved Initiative.",
+        "Actions": "Attack or full attack. Short sword +6 melee (1d6 + 2) or shortbow +1 ranged (1d6, critical ×3).",
+        "Tattoos (Su)": "Wear one magical tattoo at a time, effective for one day before reapplication.\nAxe and sword. Frenzy grants one extra attack each round and temporary HP equal to current HP. These disappear when combat ends. If it took more damage than its ordinary HP, it is mortally wounded and only realizes it at the end of the fight.\nBedazzlement. A creature within 30 ft. that sees the design makes a DC 12 Will save or is affected by hypnotic pattern at caster level 6th. Moor men are immune.\nDeath mask. Ignore the first successful attack against it each round.\nFlower. Reroll one die roll per round.\nShield. +2 luck to AC and all saves.\nVeil of darkness. Ignore bright-light effects, including Light Blindness.",
+        "Fear save": "Use Will against DC 14 with applicable modifiers. Failure by 1–5 leaves the target shaken, 6–10 frightened, and 11 or more panicked. The fear lasts 5d6 rounds. Failure by 16 or more also calls for a Horror save at DC 9. A new failed Fear save escalates an existing fear effect one step. See Ravenloft Player’s Handbook, pp. 77–79.",
+        "Printed source": "pp. 154–155"
+      },
+      "ruleNotes": [
+        "The source prints the shortbow at +1 in both attack lines. Use the printed bonus."
+      ]
+    }
+  },
+  {
+    "name": "Paka",
+    "decision": "separate",
+    "pages": "pp. 158–159",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Paka",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Monstrous Humanoid (Shapechanger)",
+      "ac": 16,
+      "hp": 13,
+      "hitDice": "3d8",
+      "cr": "5",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A paka passes for human and can use a nearby cat as its eyes and ears. Its true form has slit pupils, whiskers, and a long tail.",
+      "otherStatistics": "Temperate forests and hills. Solitary, pair, or pride of 4–12. Always chaotic evil. Double standard treasure. Speaks Aumes and often local domain languages.",
+      "sections": {
+        "Combat statistics": "Initiative +5. AC includes +5 Dex and +1 natural, touch 15, flat-footed 11. Base attack +3, grapple +2. Space and reach 5 ft. each. Fort +3, Ref +10, Will +3.",
+        "Traits": "Scent and SR 14. Canine Antipathy (Su). Apply a −5 racial penalty to Charisma-based skill checks involving canines, including werewolves and wolfweres, in any form.",
+        "Skills and feats": "Balance +14, Bluff +7, Climb +10, Jump +8, Listen +6, Move Silently +14, Tumble +6. This includes +4 racial on Balance and Move Silently. Use Dex for Climb. Dodge, Lightning Reflexes, Mobility, and bonus Weapon Finesse.",
+        "Actions": "Attack. Claw or rapier +7 melee (1d6 − 1). Full attack. Two claws +7 melee or one rapier +7 melee (1d6 − 1). See the note for full-attack claw damage.\nFeline Allies (Su). As a standard action, bond telepathically with a feline animal within 50 ft. As a free action, perceive through it and direct its actions. The bond breaks beyond 50 ft.\nLick Wounds (Ex). Heal 1 HP as a full-round action that provokes attacks of opportunity. The daily pool is 2 HP per HD, split among recipients.\nPounce (Ex). A charge allows a full attack.",
+        "Printed source": "pp. 158–159"
+      },
+      "ruleNotes": [
+        "The full-attack claw damage reads 1d6 − 6, while the single claw and rapier do 1d6 − 1. Use 1d6 − 1 for both claws as a table ruling. The stat line lists Feline Empathy without a separate procedure. Use Feline Allies for its defined feline interaction."
+      ]
+    }
+  },
+  {
+    "name": "Quevari",
+    "decision": "separate",
+    "pages": "p. 171",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Quevari",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Humanoid",
+      "ac": 10,
+      "hp": 5,
+      "hitDice": "1d8 + 1",
+      "cr": "1",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A village may offer weary travelers a bed for the night. The three nights of the full moon bring a change most Quevari forget afterward.",
+      "otherStatistics": "Any land. Solitary, pair, family of 2–5, or village of 20–40 plus as many noncombatants and a 3rd-level adept. Usually lawful good outside the bloodmoon and always lawful evil during it. Standard treasure. Speaks Quevari and usually one or two additional languages.",
+      "sections": {
+        "Combat statistics": "Pacifistic form. Initiative +4, touch and flat-footed AC 10. Base attack and grapple +0. Space and reach 5 ft. each. Fort +1, Ref +2, Will +0.",
+        "Skills and feats": "Climb +14, Hide +10, Listen +8, Move Silently +10. Improved Initiative. During the bloodmoon also use Blind-Fight and Weapon Finesse with familiar melee weapons.",
+        "Actions": "Attack or full attack in pacifistic form. Unarmed strike +0 melee (1d3 nonlethal) before the −2 morale penalty that applies to all attack rolls in this form. The Quevari fights only to defend itself.\nAttack or full attack during the bloodmoon. Sickle +2 melee (1d6) or sling +5 ranged (1d4).",
+        "Bloodmoon (Ex)": "On the three nights of the full moon, set Dex to 16 and Ref to +5. Use the bracketed printed AC 15, touch 13, flat-footed 12. Witnesses to the change may require a DC 15 Ravenloft Horror save. Unfamiliar melee weapons such as polearms and warhammers do not benefit from Weapon Finesse.",
+        "Horror save": "Use Will against DC 15 with applicable modifiers. Failure by 1–5 gives a minor Horror effect, 6–10 a moderate one, and 11 or more a major one. Roll 1d4 on the corresponding Horror table. Failure by 16 or more also calls for an immediate DC 10 Madness save. See Ravenloft Player’s Handbook, pp. 77–83.",
+        "Printed source": "p. 171"
+      },
+      "ruleNotes": [
+        "The Bloodmoon prose says natural armor increases by +3. The printed bracketed stat line shows +2 natural armor. This profile uses the bracketed total and derived printed ACs."
+      ]
+    }
+  },
+  {
+    "name": "Subdweller",
+    "decision": "separate",
+    "pages": "p. 191",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Subdweller",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Humanoid",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "cr": "1",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Packs of clawed tunnel dwellers charge intruders on sight. Bright light is the easiest way to interrupt an ambush.",
+      "otherStatistics": "Any underground. Gang of 4–10. Usually chaotic evil. Standard treasure. Advancement 3–4 HD (Medium).",
+      "sections": {
+        "Combat statistics": "Initiative +2. AC includes +2 Dex, touch 12, flat-footed 10. Base attack +1, grapple +3. Space and reach 5 ft. each. Fort +4, Ref +2, Will −1.",
+        "Traits": "Darkvision 60 ft. Sensitivity to Light (Ex). Bright sunlight or daylight blinds it.",
+        "Skills": "Listen +6, Spot +4.",
+        "Actions": "Attack. Claw +3 melee (1d3 + 2). Full attack. Two claws +3, each dealing 1d3 + 2.\nRage (Ex). Immediately on first contact with opponents, gain +2 Str, +2 Con, and −2 AC. The frenzy lasts a number of rounds equal to the improved Con modifier, 3 rounds in this profile. Then the ability scores and AC return to normal.",
+        "Printed source": "p. 191"
+      }
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "artGroup": "awakened-white-moose",
+    "file": "portraits/awakened-white-moose.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "8f1d93629cbda13c8b5c5140aa2d66de1182a502ff30539b0e6cce5cf1aff59b",
+    "credit": "OpenAI ImageGen",
+    "depiction": "White coat, broad palmate antlers, and dark muzzle."
+  },
+  {
+    "artGroup": "chimeric-baboon",
+    "file": "portraits/chimeric-baboon.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "7d5b281a535eac98e634aed4c61e517f2b3f120cdfcce25af97ef9755d9497d3",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Venomous bite suggested by visible natural canines."
+  },
+  {
+    "artGroup": "chimeric-cat",
+    "file": "portraits/chimeric-cat.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1f74d47bd239c26d22e7f7f6e138fa84edcc6a39e11496406d6735929d8b3b8d",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Pair of sensory antennae."
+  },
+  {
+    "artGroup": "chimeric-fox",
+    "file": "portraits/chimeric-fox.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "2730def9de283410cd05e0859fad60c8bfacca172595d056a48c37da23969eab",
+    "credit": "OpenAI ImageGen",
+    "depiction": "White arctic fox with patches shifting toward the surrounding tan."
+  },
+  {
+    "artGroup": "chimeric-hare",
+    "file": "portraits/chimeric-hare.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a146ff14899ba6ddb738d04507b296728f1d0cb87ffdec6470a1451fad9c11be",
+    "credit": "OpenAI ImageGen",
+    "depiction": "White snowshoe hare with one pair of feathered wings."
+  }
+]

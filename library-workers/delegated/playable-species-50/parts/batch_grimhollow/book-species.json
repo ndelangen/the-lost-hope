@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Disembodied",
+    "kind": "species",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "edition": "2014 fifth edition compatible",
+    "traits": [
+      "+2 Intelligence and +1 Dexterity. Choose the appearance and size of the humanoid you were before the accident. You weigh one-quarter of your former weight and have a 30-ft. walking speed. The origin grants no other traits.",
+      "Fade Away. As an action, enter the Ethereal Plane for up to 1 minute. You can move, hear, and see in grayscale. The Material Plane and anything on it cannot affect you and you cannot affect them. End the effect early as a bonus action. On return, use the nearest unoccupied space to the point where you disappeared. Recharges on a long rest.",
+      "Planar Outcast. Cast feather fall on yourself once per day. At level 3, cast blur once per day. At level 5, cast blink once per day. Intelligence governs these spells.",
+      "Arcane Origins grants Arcana proficiency. Speak, read, and write two languages of your choice."
+    ]
+  },
+  {
+    "name": "Dreamer",
+    "kind": "species",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "edition": "2014 fifth edition compatible",
+    "traits": [
+      "+2 Intelligence and +1 Constitution. Medium. Walking speed 30 ft. Darkvision 60 ft.",
+      "Dreamwalking. While asleep you can touch the dreams of others within 1 mile. After a long rest that included sleep, choose one skill or tool. Add your proficiency bonus to rolls using that choice until your next long rest.",
+      "Even in Sleep. Sleep imposes no penalty on Perception checks that rely on senses other than sight.",
+      "Power Nap. Sleep for 1 hour during a short rest to reduce exhaustion by one level and regain one Hit Die in addition to the usual rest benefits.",
+      "Speak, read, and write Dreamspeak, Dwarvish, and one other language."
+    ]
+  },
+  {
+    "name": "Laneshi",
+    "kind": "species",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "edition": "2014 fifth edition compatible",
+    "traits": [
+      "+1 Strength and +1 Wisdom. Medium. Walking and swimming speeds 30 ft., darkvision 60 ft., and can breathe air and water.",
+      "Beast Whisperers. Know speak with animals. Cast it once per day through this trait and regain that use after a long rest. Speak, read, and write Laneshi and one other language.",
+      "Warrior caste. Another +1 Strength, for +2 total. Gain proficiency with spears, tridents, javelins, light armor, and Animal Handling. After you hit a hostile creature with a weapon attack, you can Disengage as a bonus action before the end of that turn.",
+      "Mystic caste. Another +1 Wisdom, for +2 total. Resist psychic damage and roll Intelligence, Wisdom, and Charisma saves against magic with advantage. The first time Duality of Spirit activates after a long rest, also make a DC 12 Wisdom save or become stunned through the end of your next turn.",
+      "Laneshi Magic, available to the Mystic caste. Learn a necromancy cantrip and another necromancy cantrip at level 5. Wisdom governs both."
+    ]
+  },
+  {
+    "name": "Ogresh",
+    "kind": "species",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "edition": "2014 fifth edition compatible",
+    "traits": [
+      "+2 Charisma, +1 Constitution, and +1 Wisdom. Medium. Walking speed 30 ft.",
+      "Takes One to Know One. Advantage on saves against being charmed.",
+      "Powerful Build. Count as one size larger for carrying capacity and the weight you can push, drag, or lift.",
+      "Gift of Gab. Choose proficiency in two of Persuasion, Insight, Deception, or Performance.",
+      "A Friendly Ear. After speaking with a nonhostile creature for at least 1 minute, you can ask for a Wisdom save at DC 8 + proficiency bonus + Charisma modifier. On failure the creature is charmed by you for 1 hour and you learn one fact it knows about the topic, chosen by the DM. The creature remains unaware of the attempt either way. Recharges on a short rest.",
+      "Speak, read, and write three languages of your choice."
+    ]
+  },
+  {
+    "name": "Wechselkind",
+    "kind": "species",
+    "publication": "Grim Hollow: The Player’s Guide (2021)",
+    "edition": "2014 fifth edition compatible",
+    "traits": [
+      "+2 Constitution and +1 Charisma. Small Humanoid, despite its artificial construction. Walking speed 25 ft. Immune to magical aging.",
+      "Artificial Form. Advantage on saves against being poisoned, resistance to poison damage, and immunity to disease. You have no need to eat, drink, sleep, or breathe.",
+      "Faerie Glamour. Once per long rest, cast disguise self using Charisma. Your only available guise is the specific child you were made to replace.",
+      "Childish Agility. Proficiency in Acrobatics. You can move through the space of any creature larger than you.",
+      "Speak, read, and write Sylvan and one other language."
+    ]
+  }
+]

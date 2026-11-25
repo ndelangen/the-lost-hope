@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Giant Octopus",
+    "publication": "DDEX3-09 - The Waydown",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 52,
+    "hitDice": "8d10 + 8",
+    "speed": "10 ft., Swim 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +4. Stealth +5. Darkvision 60 ft. Passive Perception 14. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large ivory octopus with a rounded mantle, eight arms, and pale pink suckers.",
+    "habitats": [
+      "Underground",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Cole Kronewitter, The Waydown, November 1, 2015 release, Appendix: Monster/NPC Statistics, printed and p. 30. https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+      "Traits": "Hold Breath. The octopus can hold its breath for 1 hour outside water.\n\nUnderwater Camouflage. The octopus has advantage on Dexterity (Stealth) checks while underwater.\n\nWater Breathing. The octopus can breathe only underwater.",
+      "Actions": "Tentacles. Melee weapon attack, +5 to hit, reach 15 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). It remains restrained while that grapple lasts, and the octopus cannot use its tentacles on a different target until the grapple ends.\n\nInk Cloud (Recharges after a Short or Long Rest). While underwater, the octopus releases a 20-ft.-radius cloud around itself. The cloud heavily obscures the area for 1 minute unless a significant current disperses it earlier. After releasing the ink, the octopus can Dash as a bonus action.",
+      "Encounter notes": "The Octopus Den contains three albino specimens if an eligible rank 2 Lords’ Alliance member is present. They attack in a group if the coin is disturbed, each targeting one character and trying to drag them away."
+    }
+  },
+  {
+    "name": "Guard Dog (Wolf)",
+    "publication": "DDEX3-09 - The Waydown",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "AC includes natural armor. Perception +3. Stealth +4. Passive Perception 13. No languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A wolf-like guard dog with a thick gray-brown coat, upright ears, and a long muzzle.",
+    "habitats": [
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Cole Kronewitter, The Waydown, November 1, 2015 release, Appendix: Monster/NPC Statistics, printed and p. 26. https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+      "Traits": "Keen Hearing and Smell. The guard dog has advantage on Wisdom (Perception) checks relying on hearing or smell.\n\nPack Tactics. The guard dog has advantage when attacking a creature within 5 ft. of one of its allies, provided that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength save or fall prone.",
+      "Encounter notes": "Eight guard dogs sleep in a cage. If roused, they bark and howl and draw two nearby Red Plume sergeants after five rounds. The Red Plumes also include a guard dog in each patrol."
+    }
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "publication": "DDAL04-11 - The Donjon",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 14,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "30 ft., Swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC includes natural armor. Perception +2. Blindsight 10 ft. Passive Perception 12. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A coiled olive-brown snake with dark blotches, a pale underside, and a narrow tapering tail.",
+    "habitats": [
+      "Swamp",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Ash Law, The Donjon, version 1.0, ©2016, Appendix: Monster/NPC Statistics, printed and p. 33. https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 10 ft., one creature. A hit deals 6 (1d4 + 4) piercing damage. The target makes a DC 11 Constitution save, taking 10 (3d6) poison damage on a failure or half as much on a success.",
+      "Encounter notes": "The Rat-Bone Corridor contains 4d4 giant poisonous snakes. The separate swamp encounter entry uses 2d4 − 1."
+    }
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "DDAL04-11 - The Donjon",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "30 ft., Climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC includes natural armor. Stealth +7. Blindsight 10 ft. Darkvision 60 ft. Passive Perception 10. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-legged brown spider with a round abdomen and pale chevrons.",
+    "habitats": [
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Ash Law, The Donjon, version 1.0, ©2016, Appendix: Monster/NPC Statistics, printed and p. 33. https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+      "Traits": "Spider Climb. The spider can climb difficult surfaces and move upside down on ceilings without an ability check.\n\nWeb Sense. While touching a web, it knows the exact location of any other creature touching that web.\n\nWeb Walker. Webbing does not restrict the spider’s movement.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 7 (1d8 + 3) piercing damage. The creature makes a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure or half as much on a success. If this poison damage reduces it to 0 HP, it remains stable and is poisoned for 1 hour even if it regains HP. It is paralyzed while poisoned this way.\n\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one creature. The webbing restrains the target on a hit. The restrained target can take an action and succeed on a DC 12 Strength check to break it. The web can also be attacked and destroyed. It has AC 10, 5 HP, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage.",
+      "Encounter notes": "The ceiling hatches in area H were once stocked with live giant spiders. They now drop dead, mold-covered specimens."
+    }
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "DDEX3-06 - No Foolish Matter",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An oversized brown rat with thick fur, fine whiskers, and a long bare tail.",
+    "habitats": [
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Ash Law, No Foolish Matter, October 1, 2015 release, Appendix: Monster/NPC Statistics, printed and p. 18. https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e",
+      "Traits": "Keen Smell. The rat has advantage on Wisdom (Perception) checks relying on smell.\n\nPack Tactics. The rat has advantage when attacking a creature within 5 ft. of one of its allies, provided that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+      "Encounter notes": "Two giant rats attack alongside the carnival thugs and rat swarms."
+    }
+  }
+]

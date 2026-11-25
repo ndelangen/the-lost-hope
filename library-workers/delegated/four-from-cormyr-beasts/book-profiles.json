@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Pernicon",
+    "kind": "beast",
+    "publication": "Four from Cormyr",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A one-inch grasshopper-like insect with gripping pincers at the rear of its abdomen.",
+    "combat": {
+      "armorClass": 3,
+      "movement": 12,
+      "hitDice": "1 hp",
+      "hitPoints": 1,
+      "xp": 15,
+      "size": "T, 1 in. long",
+      "habitats": [
+        "Organic debris in Adzerak’s ruined corridor"
+      ]
+    },
+    "mechanics": {
+      "Special attacks and weaknesses": [
+        {
+          "name": "Swarm attack",
+          "effectNote": "Only the swarm attacks. The encounter lists one attack at THAC0 20. Each swarm hit deals 1d10 damage and drains 1 point of Constitution."
+        },
+        {
+          "name": "Constitution loss",
+          "effectNote": "At Constitution 2 the victim falls unconscious. At 0 the victim dies. Lost Constitution returns at 1 point per day."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Ruined corridor",
+          "effectNote": "While characters search or handle the rubbish in area 12, there is a cumulative 10% chance per turn of an encounter. Each such encounter has an equal chance of being ten Rot Grubs or fifty Pernicons."
+        }
+      ]
+    },
+    "notes": [
+      "50 appearing in this encounter. 1 HP and 15 XP per individual. Unreliable (4) morale. Nonintelligent (0). Neutral.",
+      "John Terra, Four from Cormyr (TSR, 1997), The Bibliophile, area 12, p. 16."
+    ]
+  },
+  {
+    "name": "Rot Grub",
+    "kind": "beast",
+    "publication": "Four from Cormyr",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A one-inch, maggot-like grub found in refuse.",
+    "combat": {
+      "armorClass": 9,
+      "movement": "1, Br 0",
+      "hitDice": "1 hp",
+      "hitPoints": 1,
+      "xp": 15,
+      "size": "T, 1 in. long",
+      "habitats": [
+        "Organic debris in Adzerak’s ruined corridor"
+      ]
+    },
+    "mechanics": {
+      "Special attacks and weaknesses": [
+        {
+          "name": "Burrow into exposed flesh",
+          "effectNote": "A grub has a percentage chance equal to the target’s base AC to burrow into exposed flesh. The encounter gives no THAC0 or standard attack or damage. If untreated, the grubs reach the heart and kill the victim in 1d3 turns."
+        },
+        {
+          "name": "Fire and cure disease",
+          "effectNote": "Fire kills 2d10 grubs if applied before 1d6 rounds of burrowing. A cure disease spell kills all the grubs outright."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Ruined corridor",
+          "effectNote": "While characters search or handle the rubbish in area 12, there is a cumulative 10% chance per turn of an encounter. Each such encounter has an equal chance of being ten Rot Grubs or fifty Pernicons."
+        }
+      ]
+    },
+    "notes": [
+      "10 appearing in this encounter. 1 HP and 15 XP per individual. Unsteady (5) morale. Nonintelligent (0). Neutral.",
+      "John Terra, Four from Cormyr (TSR, 1997), The Bibliophile, area 12, p. 16."
+    ]
+  }
+]

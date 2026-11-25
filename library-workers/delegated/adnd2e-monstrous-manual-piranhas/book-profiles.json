@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Piranha",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A deep-bodied fish with tight scales and triangular cutting teeth. The portrait uses a silver flank and copper-red throat. The book describes the school’s behavior.",
+    "combat": {
+      "habitats": [
+        "Fresh water and salt water (aquatic summoning tables, p. 378)"
+      ],
+      "creatureType": "Animal",
+      "armorClass": 8,
+      "movement": "Sw 9",
+      "hitDice": "½",
+      "thac0": 20,
+      "numberOfAttacks": 1,
+      "damageDice": "1–2",
+      "xp": 7
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Bite",
+          "effectNote": "A bite deals 1–2 damage."
+        },
+        {
+          "name": "Approaching the school",
+          "effectNote": "When a creature swims or wades near the school, there is a 75% chance that at least one piranha attacks."
+        },
+        {
+          "name": "Feeding frenzy",
+          "effectNote": "If the piranhas attack and draw blood, the whole school frenzies. Each piranha attacks twice per melee round."
+        },
+        {
+          "name": "School attack limit",
+          "effectNote": "Up to 20 piranhas can attack one man-sized target simultaneously."
+        }
+      ]
+    },
+    "notes": [
+      "5–50 appearing. Unsteady (6) morale.",
+      "Fresh Water I and Salt Water I each summon 3d4 piranhas on p. 378. Roll the Fish table’s 5–50 for a natural school.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118."
+    ]
+  },
+  {
+    "name": "Giant Piranha",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A deep-bodied piranha with a heavy jaw and forked tail. The portrait shows the rising posture of a sky-eater. The book describes its leap rather than a specific color or length.",
+    "combat": {
+      "habitats": [
+        "Fresh water (aquatic summoning table, p. 378)"
+      ],
+      "creatureType": "Animal",
+      "armorClass": 7,
+      "movement": "Sw 15",
+      "hitDice": "2+2",
+      "thac0": 19,
+      "numberOfAttacks": 1,
+      "damageDice": "1–6",
+      "xp": 65
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Bite",
+          "effectNote": "A bite deals 1–6 damage."
+        },
+        {
+          "name": "Approaching the school",
+          "effectNote": "When a creature swims or wades near the school, there is a 75% chance that at least one piranha attacks."
+        },
+        {
+          "name": "Feeding frenzy",
+          "effectNote": "If the piranhas attack and draw blood, the whole school frenzies. Each piranha attacks twice per melee round."
+        },
+        {
+          "name": "School attack limit",
+          "effectNote": "Up to 10 giant piranhas can attack one man-sized target simultaneously."
+        },
+        {
+          "name": "Sky-eater leap",
+          "effectNote": "Once per round, a giant piranha can charge at full speed and leap up to 10 feet above the water. It often strikes at low-flying waterfowl and sometimes at people."
+        }
+      ]
+    },
+    "notes": [
+      "2–20 appearing. Average (10) morale.",
+      "The Giant Piranha shares the ordinary school’s attack behavior. Use its own number appearing and simultaneous attack limit.",
+      "Giant Piranha appears in Fresh Water II on p. 378.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118."
+    ]
+  },
+  {
+    "name": "Quipper",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A cold-water piranha. The portrait uses silver-blue scales and a compact piranha silhouette.",
+    "combat": {
+      "habitats": [
+        "Cold freshwater"
+      ],
+      "creatureType": "Animal",
+      "armorClass": 8,
+      "movement": "Sw 9",
+      "hitDice": "½",
+      "thac0": 20,
+      "numberOfAttacks": 1,
+      "damageDice": "1–2",
+      "xp": 7
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Bite",
+          "effectNote": "A bite deals 1–2 damage."
+        }
+      ]
+    },
+    "notes": [
+      "5–50 appearing. Unsteady (6) morale.",
+      "The Quipper paragraph identifies it as a cold-water freshwater piranha. The standard Piranha paragraph supplies the family’s frenzy procedure. The Quipper entry does not explicitly apply that procedure.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118."
+    ]
+  }
+]

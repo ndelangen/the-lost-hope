@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Korobokuru",
+    "slug": "korobokuru",
+    "id": "species-c30d205349fb891cfe798500:fd38e6d3870f8234fe6feef7",
+    "entry": "species-c30d205349fb891cfe798500",
+    "version": "fd38e6d3870f8234fe6feef7",
+    "suffix": "encounters-53/korobokuru.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-53/korobokuru.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-53/event-drafts/korobokuru-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 53 2026-11-23/event-drafts/korobokuru-event-v1.png",
+    "overrides": [],
+    "sha256": "7bd5f6a8f76c4368160063039c000b112b3d82344a07e3c7329d5a4e78e2d416",
+    "bytes": 2575740
+  },
+  {
+    "name": "Spirit Folk",
+    "slug": "spirit-folk",
+    "id": "species-ba0648bd0ae47c6c914578ac",
+    "entry": "species-ba0648bd0ae47c6c914578ac",
+    "version": "",
+    "suffix": "encounters-53/spirit-folk.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-53/spirit-folk.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-53/event-drafts/spirit-folk-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 53 2026-11-23/event-drafts/spirit-folk-event-v1.png",
+    "overrides": [],
+    "sha256": "8770955fdcb01bd01b6eab373c6e7de1454597f48dea07e96fbcf8c17ebd32ea",
+    "bytes": 2356962
+  }
+]

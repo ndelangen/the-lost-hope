@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Monodrone",
+    "pages": "p. 224",
+    "statBlock": {
+      "name": "Monodrone",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium construct, lawful neutral",
+      "ac": 15,
+      "hp": 5,
+      "hitDice": "1d8 + 1",
+      "speed": "30 ft., fly 30 ft.",
+      "xp": 25,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/8",
+      "description": "A winged Mechanus worker that can perform one simple task at a time and relay a message of at most 48 words.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Mechanus"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 10.",
+        "Languages": "Modron.",
+        "Traits": "Axiomatic Mind. No effect can compel the modron to go against its nature or instructions.\nDisintegration. At death, the modron crumbles into dust. Its weapons and other possessions remain.",
+        "Actions": "Dagger. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit 3 (1d4 + 1) piercing damage.\nJavelin. Melee or ranged weapon attack, +2 to hit, 5-ft. reach or 30/120-ft. range, one target. Hit 3 (1d6) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 224."
+      },
+      "ruleNotes": [
+        "The 2014 errata corrects the monodrone's Javelin to +2 to hit and 3 (1d6) damage. The first printing has +3 to hit and 4 (1d6 + 1)."
+      ]
+    }
+  },
+  {
+    "name": "Pentadrone",
+    "pages": "p. 226",
+    "statBlock": {
+      "name": "Pentadrone",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large construct, lawful neutral",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "5d10 + 5",
+      "speed": "40 ft.",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "description": "A five-armed supervisor of Mechanus's laborers. It can improvise when a situation changes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Mechanus"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 14.",
+        "Languages": "Modron.",
+        "Skills": "Perception +4.",
+        "Traits": "Axiomatic Mind. No effect can compel the modron to go against its nature or instructions.\nDisintegration. At death, the modron crumbles into dust. Its weapons and other possessions remain.",
+        "Actions": "Multiattack. Make five Arm attacks.\nArm. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit 5 (1d6 + 2) bludgeoning damage.\nParalysis Gas (recharge 5–6). Each creature in a 30-ft. cone makes a DC 11 Constitution save. On a failure it is Paralyzed for 1 minute. It repeats the save at the end of each of its turns and ends the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 226."
+      }
+    }
+  },
+  {
+    "name": "Quadrone",
+    "pages": "p. 226",
+    "statBlock": {
+      "name": "Quadrone",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium construct, lawful neutral",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., fly 30 ft.",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "description": "A winged Mechanus field officer that can fire four arrows in a turn.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Mechanus"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 12.",
+        "Languages": "Modron.",
+        "Skills": "Perception +2.",
+        "Traits": "Axiomatic Mind. No effect can compel the modron to go against its nature or instructions.\nDisintegration. At death, the modron crumbles into dust. Its weapons and other possessions remain.",
+        "Actions": "Multiattack. Make two Fist attacks or four Shortbow attacks.\nFist. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit 3 (1d4 + 1) bludgeoning damage.\nShortbow. Ranged weapon attack, +4 to hit, 80/320-ft. range, one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 226."
+      }
+    }
+  },
+  {
+    "name": "Rogue Modron",
+    "pages": "pp. 224–226",
+    "statBlock": {
+      "name": "Rogue Modron",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Construct, any alignment except lawful neutral",
+      "cr": "",
+      "description": "A modron cut off from Primus's directives. Other modrons hunt rogues.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Running the encounter": "Choose one rank below. Use that rank's size, stats, challenge, senses, and attacks. The rogue loses Axiomatic Mind and has an alignment other than lawful neutral. All ranks have natural armor, truesight 120 ft., and the Modron language. Ability scores below are listed in Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma order.",
+        "Traits": "Disintegration. At death, the modron crumbles into dust. Its weapons and other possessions remain.",
+        "Actions": "Use the attacks and special actions of the chosen rank below.",
+        "Monodrone": "Medium, AC 15, HP 5 (1d8 + 1), speed 30 ft., fly 30 ft., CR 1/8 (25 XP). Scores 10, 13, 12, 4, 10, 5. Passive Perception 10.\nDagger. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit 3 (1d4 + 1) piercing damage.\nJavelin. Melee or ranged weapon attack, +2 to hit, 5-ft. reach or 30/120-ft. range, one target. Hit 3 (1d6) piercing damage.",
+        "Duodrone": "Medium, AC 15, HP 11 (2d8 + 2), speed 30 ft., CR 1/4 (50 XP). Scores 11, 13, 12, 6, 10, 7. Passive Perception 10.\nMultiattack. Make two Fist attacks or two Javelin attacks.\nFist. Melee weapon attack, +2 to hit, 5-ft. reach, one target. Hit 2 (1d4) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +3 to hit, 5-ft. reach or 30/120-ft. range, one target. Hit 4 (1d6 + 1) piercing damage.",
+        "Tridrone": "Medium, AC 15, HP 16 (3d8 + 3), speed 30 ft., CR 1/2 (100 XP). Scores 12, 13, 12, 9, 10, 9. Passive Perception 10.\nMultiattack. Make three Fist attacks or three Javelin attacks.\nFist. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit 3 (1d4 + 1) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +3 to hit, 5-ft. reach or 30/120-ft. range, one target. Hit 4 (1d6 + 1) piercing damage.",
+        "Quadrone": "Medium, AC 16, HP 22 (4d8 + 4), speed 30 ft., fly 30 ft., CR 1 (200 XP). Scores 12, 14, 12, 10, 10, 11. Perception +2, passive Perception 12.\nMultiattack. Make two Fist attacks or four Shortbow attacks.\nFist. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit 3 (1d4 + 1) bludgeoning damage.\nShortbow. Ranged weapon attack, +4 to hit, 80/320-ft. range, one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Pentadrone": "Large, AC 16, HP 32 (5d10 + 5), speed 40 ft., CR 2 (450 XP). Scores 15, 14, 12, 10, 10, 13. Perception +4, passive Perception 14.\nMultiattack. Make five Arm attacks.\nArm. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit 5 (1d6 + 2) bludgeoning damage.\nParalysis Gas (recharge 5–6). Each creature in a 30-ft. cone makes a DC 11 Constitution save. On a failure it is Paralyzed for 1 minute. It repeats the save at the end of each of its turns and ends the effect on a success.",
+        "Printed source": "Monster Manual (2014), pp. 224–226."
+      },
+      "ruleNotes": [
+        "The 2014 errata corrects the monodrone's Javelin to +2 to hit and 3 (1d6) damage. The first printing has +3 to hit and 4 (1d6 + 1)."
+      ]
+    }
+  },
+  {
+    "name": "Myconid Adult",
+    "pages": "pp. 230, 232",
+    "statBlock": {
+      "name": "Myconid Adult",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium plant, lawful neutral",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "20 ft.",
+      "xp": 100,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "description": "An Underdark fungus that lives in a myconid circle. These creatures usually welcome peaceful visitors.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Underdark"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., passive Perception 11.",
+        "Languages": "None. Rapport Spores allow telepathic communication.",
+        "Traits": "Distress Spores. When the myconid takes damage, other myconids within 240 ft. sense its pain.\nSun Sickness. Sunlight gives it disadvantage on ability checks, attack rolls, and saves. More than 1 hour in direct sunlight kills it.",
+        "Actions": "Fist. Melee weapon attack, +2 to hit, 5-ft. reach, one target. Hit 5 (2d4) bludgeoning damage plus 5 (2d4) poison damage.\nPacifying Spores (3/day). Choose one visible creature within 5 ft. It makes a DC 11 Constitution save. On a failure it is Stunned for 1 minute. It repeats the save at the end of each of its turns and ends the effect on a success.\nRapport Spores. Release spores in a 20-ft. radius. They spread around corners and affect creatures with Intelligence 2 or higher, excluding constructs, elementals, and undead. For 1 hour, affected creatures can speak telepathically to each other within 30 ft.",
+        "Printed source": "Monster Manual (2014), pp. 230, 232."
+      }
+    }
+  },
+  {
+    "name": "Myconid Sovereign",
+    "pages": "pp. 230, 232",
+    "statBlock": {
+      "name": "Myconid Sovereign",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large plant, lawful neutral",
+      "ac": 13,
+      "hp": 60,
+      "hitDice": "8d10 + 16",
+      "speed": "30 ft.",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "description": "The largest myconid in a colony leads its circles and can animate corpses as spore servants.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Underdark"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., passive Perception 12.",
+        "Languages": "None. Rapport Spores allow telepathic communication.",
+        "Traits": "Distress Spores. When the myconid takes damage, other myconids within 240 ft. sense its pain.\nSun Sickness. Sunlight gives it disadvantage on ability checks, attack rolls, and saves. More than 1 hour in direct sunlight kills it.",
+        "Actions": "Multiattack. Use either Hallucination Spores or Pacifying Spores, then make a Fist attack.\nFist. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage.\nAnimating Spores (3/day). Release spores at one humanoid corpse or one corpse of a Large or smaller beast within 5 ft. After 24 hours it rises as a spore servant. It remains animated for 1d4 + 1 weeks or until destroyed. This action cannot animate the same corpse again.\nHallucination Spores. Choose one visible creature within 5 ft. It makes a DC 12 Constitution save. On a failure it is Poisoned and Incapacitated by hallucinations for 1 minute. It repeats the save at the end of each of its turns and ends the effect on a success.\nPacifying Spores. Choose one visible creature within 5 ft. It makes a DC 12 Constitution save. On a failure it is Stunned for 1 minute. It repeats the save at the end of each of its turns and ends the effect on a success.\nRapport Spores. Release spores in a 30-ft. radius. They spread around corners and affect creatures with Intelligence 2 or higher, excluding constructs, elementals, and undead. For 1 hour, affected creatures can speak telepathically to each other within 30 ft.",
+        "Spore servant template": "Use the template for a Large or smaller creature that once had flesh and blood. Keep its AC, HP, Hit Dice, Strength, Dexterity, Constitution, vulnerabilities, resistances, and immunities. Its type becomes Plant, its tags fall away, and its alignment becomes unaligned. Reduce each speed by 10 ft., to a minimum of 5 ft. Set Intelligence to 2, Wisdom to 6, and Charisma to 1.\nRemove the creature's original saving throw and skill bonuses, special senses, traits, and languages. Give it blindsight 30 ft., with blindness beyond that range, and immunity to Blinded, Charmed, Frightened, and Paralyzed. It takes orders through a myconid's Rapport Spores and prioritizes orders from the most powerful myconid.\nKeep Multiattack and melee weapon attacks that deal bludgeoning, piercing, or slashing damage. Drop any other damage types unless they come from equipment. If the servant cannot otherwise deal damage, it can make an unarmed strike for 1d4 + its Strength modifier bludgeoning damage, or 2d4 + its Strength modifier if Large.",
+        "Printed source": "Monster Manual (2014), pp. 230, 232."
+      }
+    }
+  },
+  {
+    "name": "Myconid Sprout",
+    "pages": "p. 230",
+    "statBlock": {
+      "name": "Myconid Sprout",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small plant, lawful neutral",
+      "ac": 10,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "10 ft.",
+      "xp": 10,
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "0",
+      "description": "A young myconid with enough rapport spores to let nearby creatures speak mind to mind.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Underdark"
+      ],
+      "sections": {
+        "Senses": "Darkvision 120 ft., passive Perception 10.",
+        "Languages": "None. Rapport Spores allow telepathic communication.",
+        "Traits": "Distress Spores. When the myconid takes damage, other myconids within 240 ft. sense its pain.\nSun Sickness. Sunlight gives it disadvantage on ability checks, attack rolls, and saves. More than 1 hour in direct sunlight kills it.",
+        "Actions": "Fist. Melee weapon attack, +1 to hit, 5-ft. reach, one target. Hit 1 (1d4 − 1) bludgeoning damage plus 2 (1d4) poison damage.\nRapport Spores (3/day). Release spores in a 10-ft. radius. They spread around corners and affect creatures with Intelligence 2 or higher, excluding constructs, elementals, and undead. For 1 hour, affected creatures can speak telepathically to each other within 30 ft.",
+        "Printed source": "Monster Manual (2014), p. 230."
+      }
+    }
+  },
+  {
+    "name": "Quaggoth Spore Servant",
+    "pages": "p. 230",
+    "statBlock": {
+      "name": "Quaggoth Spore Servant",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium plant, unaligned",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "20 ft., climb 20 ft.",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1",
+      "description": "A dead quaggoth animated by a myconid sovereign's spores. Its main weapons are its claws.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Underdark"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Blinded, Charmed, Frightened, Paralyzed, and Poisoned.",
+        "Senses": "Blindsight 30 ft., blind beyond that radius. Passive Perception 8.",
+        "Languages": "None. The servant follows orders received through myconid Rapport Spores and prioritizes the most powerful myconid.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +5 to hit, 5-ft. reach, one target. Hit 6 (1d6 + 3) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 230."
+      }
+    }
+  }
+]

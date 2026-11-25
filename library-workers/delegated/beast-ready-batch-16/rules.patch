@@ -1,0 +1,2134 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index a82a010..cbb4b35 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -5003,6 +5003,1660 @@
+     },
+     "publication": "SRD 5.1"
+   },
++  {
++    "name": "Mastiff",
++    "publication": "DDEX3-14 - Death on the Wall",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, Unaligned",
++    "ac": 12,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A fawn mastiff with a broad black muzzle, dropped ears, and a heavy chest.",
++    "habitats": ["Urban"],
++    "sections": {
++      "Printed source": "DDEX3-14 Death on the Wall, March 1, 2016 release , p. 23. Patrol and kennel context on pp. 11–12. ",
++      "Traits": "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. A hit deals 4 (1d6 + 1) piercing damage. A creature hit must succeed on a DC 11 Strength saving throw or fall prone.",
++      "Patrols and kennels": "The Yûlash camp keeps four mastiffs. One accompanies two guards on a patrol that moves through the camp. The patrol calls to unidentified people and demands identification before taking hostile action. The dogs at the kennel are tethered to a rail and cannot move more than 10 ft. from the kennel."
++    }
++  },
++  {
++    "publication": "DDAL04-12 - The Raven",
++    "edition": "2014 fifth edition",
++    "name": "Winter Wolf",
++    "classification": "Large Beast, unaligned",
++    "ac": 13,
++    "hp": 75,
++    "hitDice": "10d10 + 20",
++    "speed": "50 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "skills": {
++      "Perception": 5,
++      "Stealth": 3
++    },
++    "passivePerception": 15,
++    "otherStatistics": "Natural armor. Passive Perception 15. Languages Common, Giant and Winter Wolf.",
++    "appearance": "A great shaggy wolf with a heavy white-gray coat and a broad muzzle. The encounter describes burning red eyes.",
++    "habitats": ["Barovia", "Vanishing Hills", "Trank River", "Snowy terrain", "Icy woodland"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "DDAL04-12 The Raven, version 1.0, p. 22. The encounter and party adjustments are on pp. 11–12.",
++      "Damage immunities": "Cold.",
++      "Traits": "Keen Hearing and Smell. Advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. It has advantage on attack rolls against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.\nSnow Camouflage. It has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
++      "Actions": "Bite. Make a +6 melee weapon attack against one target within 5 ft. A hit deals 11 piercing damage. The printed dice expression is 2d6 + 3. A creature hit must succeed on a DC 14 Strength save or fall Prone.\nCold Breath. Each creature in a 15-ft. cone makes a DC 12 Dexterity save. On a failure it takes 18 (4d8) cold damage. On a success it takes half as much.",
++      "Encounter": "Six winter wolves attack from the mist. They retreat into cover between attacks and focus on prone characters. The icy ground is difficult terrain and imposes disadvantage on saves to avoid falling prone. The wolves circle a fortified camp, harry sentries and prevent sleep. Characters who cannot sleep gain one level of exhaustion. If any reach two levels of exhaustion, the wolves attack. The pack gives up if the party gets 8 miles from the campsite. To run for it, count the party as having traveled 8 hours. At the end of each additional hour, each character makes a Constitution save at DC 10 plus hours traveled past 8 or gains one exhaustion level. Eluding the wolves awards 250 XP per character.",
++      "Party strength": "The encounter adjustments do not stack. Weak removes one Winter Wolf. Strong increases Cold Breath to a DC 13 save and 27 cold damage. Very Strong makes the same breath change and adds one Winter Wolf. The Very Weak line says to remove two Dire Wolves even though the main encounter lists six Winter Wolves.",
++      "Treasure": "A successful DC 11 Dexterity (Survival) check skins a killed wolf without ruining its pelt. Each intact pelt is worth 50 gp. If the party skins every killed wolf in the encounter, see p. 16 for Larga’s barter terms for a full set of pelts.",
++      "Source notes": "The appendix calls this a Beast. Bite’s printed fixed damage and dice expression disagree, so this profile uses the fixed 11 and records the printed roll. Cold Breath has no printed recharge. The Strong and Very Strong breath adjustments give a fixed damage number without dice."
++    }
++  },
++  {
++    "name": "Deathjump Spider",
++    "publication": "Scepter Tower of Spellgard",
++    "edition": "4th edition",
++    "classification": "Medium natural beast (spider), unaligned",
++    "ac": 20,
++    "hp": 55,
++    "speed": "6 squares, climb 6 (spider climb)",
++    "xp": 175,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 18,
++        "modifier": 6
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 4
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": 1
++      }
++    },
++    "otherStatistics": "Level 4 Skirmisher. Initiative +8. Fortitude 17, Reflex 18, Will 16. Bloodied 27. Perception +9, tremorsense 5 squares. Resist 5 poison. Languages —.",
++    "appearance": "A human-sized, patterned brown spider with eight dark eyes, prominent fangs and eight jointed legs.",
++    "habitats": ["Spellgard", "Tower Stores", "Battlements", "Secure Storerooms"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Scepter Tower of Spellgard, Adventure Book Two, pp. 41, 59, 60, 63. T1, Tower Stores. T12, Battlement. T13, Secure Storerooms. T15, Rooftop Battlement.",
++      "Printed ability modifiers": "Str +5, Dex +6, Con +4, Int -3, Wis +4, Cha +1.",
++      "Printed powers": "Bite. Melee basic, standard, at-will, Poison. +6 vs. AC. On a hit, deal 2d6 + 3 damage. The target takes ongoing 5 poison damage and is slowed. One save ends both.\nDeath from Above. Melee, standard, at-will, Poison. Shift 6 squares and make a Bite attack. A hit deals 1d6 extra damage and also knocks the target prone.\nProdigious Leap. Move, encounter. Shift 10 squares.",
++      "Traits and skills": "Spider climb. Athletics +10 (+20 when jumping). Stealth +11.",
++      "Encounter checks": "T1 uses three spiders with ettercaps. They use tremorsense to detect approaches at the southeast door and alert the webspinner. If entry takes 3 or more rounds, the webspinner has time to warn the fang guards through the southwest door. If the party enters the southern chamber promptly, the two closest spiders attack.\nT12 uses two spiders. They stay out of combat until attackers reach the battlement level. On hearing battle they climb around the tower exterior and attack with Death from Above.\nT13 uses four spiders. On the ceiling in darkness they have total concealment. A light directed at the webs reduces that to concealment and characters can compare Perception with the spiders’ Stealth +11 to see them. They attack if intruders investigate the northeast corner or try to open the vault doors. They flank and leap after characters who break away.\nT15 uses a trained spider clinging 10 ft. above the lookouts on the spire. Its tremorsense detects approaches the lookouts cannot see. It drops on the party and fights to the death."
++    }
++  },
++  {
++    "name": "Fire Beetles",
++    "publication": "Scepter Tower of Spellgard",
++    "edition": "4th edition",
++    "classification": "Small natural beast, unaligned",
++    "ac": 13,
++    "hp": 32,
++    "speed": "6 squares",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Level 1 Brute. Initiative +1. Fortitude 13, Reflex 12, Will 11. Bloodied 16. Perception +0. Resist 10 fire. Languages —.",
++    "appearance": "Five dog-sized beetles with dark carapaces, dark orange patches and ember-bright eyes.",
++    "habitats": ["Spellgard", "Lookout", "Ruins"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Scepter Tower of Spellgard, Adventure Book Two, p. 7. R2, Lookout.",
++      "Printed ability modifiers": "Str +2, Dex +1, Con +1, Int -5, Wis +0, Cha -1.",
++      "Printed powers": "Bite. Melee basic, standard, at-will. +5 vs. AC. On a hit, deal 2d4 + 2 damage.\nFire Spray. Close, standard, recharge 5–6, Fire. Close blast 3. +4 vs. Reflex. On a hit, deal 3d6 fire damage.",
++      "Encounter checks": "Franco Darano’s five trained beetles occupy the second floor. DC 16 Perception notices the faint red glow from the stairs. The beetles provide bright, torchlike illumination on the second level. If they leave or die, daylight through the arrow slits gives dim illumination. They use Fire Spray against groups and flank lone targets for Bite. On attack Franco calls for help and the R1 wererats arrive in 5 rounds. The beetles fight to the death."
++    }
++  },
++  {
++    "name": "Gray Wolves",
++    "publication": "Scepter Tower of Spellgard",
++    "edition": "4th edition",
++    "classification": "Medium natural beast, unaligned",
++    "ac": 16,
++    "hp": 38,
++    "speed": "8 squares",
++    "xp": 125,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 1
++      }
++    },
++    "otherStatistics": "Level 2 Skirmisher. Initiative +5. Fortitude 14, Reflex 14, Will 13. Bloodied 19. Perception +7, low-light vision. Languages —.",
++    "appearance": "A pack of lean gray wolves with mottled coats, narrow flanks and low stalking postures.",
++    "habitats": ["Spellgard", "Kennel", "Fallen Lands"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Scepter Tower of Spellgard, Adventure Book Two, p. 11. R6, Kennel.",
++      "Printed ability modifiers": "Str +2, Dex +3, Con +3, Int -3, Wis +2, Cha +1.",
++      "Printed powers": "Bite. Melee basic, standard, at-will. +7 vs. AC. On a hit, deal 1d6 + 2 damage, or 2d6 + 2 against a prone target.",
++      "Traits and skills": "Combat Advantage. When the wolf hits a target it has combat advantage against, the target also falls prone.",
++      "Encounter checks": "Five hungry gray wolves are chained to the south wall by 20-ft. leashes. They cannot leave the room. The leash squares between wolf and anchor are difficult terrain, and the wolves ignore each other’s leashes. The kennel is dark. The wolves leave wererats and goblins alone and prefer fresh meat to trail rations. Their howls put occupants of R7 and R8 on alert for 1 hour. They flank and pile onto prone targets.\nThe first time a wolf knocks a PC prone in a chain square, describe the chain looping around the PC’s leg as the PC gets up. This first incident has no mechanical effect. On the next such knockdown, an adjacent wolf can move through at least three squares adjacent to the prone PC, provoking opportunity attacks normally. The attacking wolf can do this if it still has a move action. The chain entangles the prone PC, who is grabbed by that wolf. Other wolves attack the PC normally."
++    }
++  },
++  {
++    "name": "Spitting Drake",
++    "publication": "Scepter Tower of Spellgard",
++    "edition": "4th edition",
++    "classification": "Medium natural beast (reptile), unaligned",
++    "ac": 17,
++    "hp": 38,
++    "speed": "7 squares",
++    "xp": 150,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 18,
++        "modifier": 5
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 3
++      },
++      "Cha": {
++        "score": 12,
++        "modifier": 2
++      }
++    },
++    "otherStatistics": "Level 3 Artillery. Initiative +5. Fortitude 14, Reflex 16, Will 14. Bloodied 19. Perception +3. Resist 10 acid. Languages —.",
++    "appearance": "A wingless bronze drake with four clawed feet, an angular head, a plated spine and a long tapering tail.",
++    "habitats": ["Spellgard", "Bunkroom", "Ruins"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Scepter Tower of Spellgard, Adventure Book Two, p. 8. R4, Bunkroom.",
++      "Printed ability modifiers": "Str +3, Dex +5, Con +3, Int -3, Wis +3, Cha +2.",
++      "Printed powers": "Bite. Melee basic, standard, at-will. +6 vs. AC. On a hit, deal 1d6 + 2 damage.\nCaustic Spit. Ranged, standard, at-will, Acid. Ranged 10 squares. +8 vs. Reflex. On a hit, deal 1d10 + 4 acid damage.",
++      "Encounter checks": "Two trained drakes join three human guards in the frontal defense of the bunkroom while a shadowhunter bat and Borlem Darano take their positions. The guards press the party while the drakes use Caustic Spit on the back ranks. The drakes fight to the death. Fighting alerts Kalmo at R5, who sends two gravehounds in round 4 and two more in round 5, then joins in round 6."
++    }
++  },
++  {
++    "name": "Dire Bear",
++    "publication": "King of the Trollhaunt Warrens",
++    "edition": "4th edition",
++    "classification": "Large natural beast, unaligned",
++    "ac": 25,
++    "hp": 276,
++    "xp": 1200,
++    "speed": "8 squares",
++    "abilities": {
++      "Str": {
++        "score": 23,
++        "modifier": 11
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 8
++      },
++      "Con": {
++        "score": 18,
++        "modifier": 9
++      },
++      "Int": {
++        "score": 2,
++        "modifier": 1
++      },
++      "Wis": {
++        "score": 18,
++        "modifier": 9
++      },
++      "Cha": {
++        "score": 16,
++        "modifier": 8
++      }
++    },
++    "printedPage": 17,
++    "otherStatistics": "Level 11 Elite Brute. Initiative +8. Fortitude 25, Reflex 22, Will 23. Bloodied 138. Perception +9. Saving throws +2. 1 action point. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A massive tawny brown bear with a heavy shoulder hump, broad paws and small ivory projections along its upper back.",
++    "habitats": ["Great Warren", "Mound of Skulls", "Cavern"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, King of the Trollhaunt Warrens, first printing, October 2008, Adventure Book Two, Encounter W4, Mound of Skulls, stat block p. 17 and encounter pp. 16–17. ",
++      "Printed powers": "Claw. Melee basic attack, standard, at-will. Reach 2. +15 vs. AC. Hit for 2d8 + 6 damage.\nMaul. Melee, standard, at-will. Make two Claw attacks. If both hit the same target, make a secondary attack against it at +13 vs. AC. A hit grabs the target until escape.\nUrsine Crush. Melee, standard, at-will. Deal 4d8 + 6 damage to a grabbed creature without an attack roll.",
++      "Encounter": "Norgg’s bear lies below the ledge and gnaws on bones. In combat it attacks the closest target, using Maul to establish a grab before Ursine Crush. Norgg and the bear stay in the chamber if the party flees."
++    }
++  },
++  {
++    "name": "Redspawn Firebelcher",
++    "publication": "King of the Trollhaunt Warrens",
++    "edition": "4th edition",
++    "classification": "Large natural beast (reptile), unaligned",
++    "ac": 25,
++    "hp": 97,
++    "xp": 700,
++    "speed": "4 squares",
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 10
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 7
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 10
++      },
++      "Int": {
++        "score": 2,
++        "modifier": 2
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 6
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": 5
++      }
++    },
++    "printedPage": 25,
++    "otherStatistics": "Level 12 Artillery. Initiative +7. Fortitude 25, Reflex 22, Will 21. Bloodied 48. Perception +6, low-light vision. Resist 20 fire. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A squat, wingless russet reptile with a broad jaw, heavy legs, spined back and long curved tail.",
++    "habitats": ["Great Warren", "Foundry", "Lower cavern"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, King of the Trollhaunt Warrens, first printing, October 2008, Adventure Book Two, Encounter W7, The Foundry, stat block p. 25 and encounter pp. 24–25. ",
++      "Aura": "Fire Within, Fire, aura 5. Allies inside the aura gain resist 10 fire.",
++      "Printed powers": "Bite. Melee basic attack, standard, at-will, Fire. +16 vs. AC. Hit for 1d10 + 4 damage and ongoing 5 fire damage (save ends).\nFire Belch. Ranged, standard, at-will, Fire. Range 12. +15 vs. Reflex. Hit for 2d6 + 1 damage and ongoing 5 fire damage (save ends).\nFire Burst. Area, standard, recharge 5–6, Fire. Area burst 2 within 10. +15 vs. Reflex. Hit for 3d6 + 1 damage and ongoing 5 fire damage (save ends). On a miss, deal half damage and no ongoing fire damage.",
++      "Encounter": "The firebelcher starts out of sight below the escarpment. If battle alerts it, it rolls initiative and enters in round two. It fires from near the top of the steps. Thurk stays close enough to gain its aura’s protection. The firebelcher flees if it is bloodied and Thurk falls."
++    }
++  },
++  {
++    "name": "Wyverns",
++    "publication": "King of the Trollhaunt Warrens",
++    "edition": "4th edition",
++    "classification": "Large natural beast (mount, reptile), unaligned",
++    "ac": 24,
++    "hp": 106,
++    "xp": 500,
++    "speed": "4 squares, fly 8 (hover)",
++    "abilities": {
++      "Str": {
++        "score": 24,
++        "modifier": 12
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 8
++      },
++      "Con": {
++        "score": 18,
++        "modifier": 9
++      },
++      "Int": {
++        "score": 2,
++        "modifier": 1
++      },
++      "Wis": {
++        "score": 15,
++        "modifier": 7
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": 4
++      }
++    },
++    "printedPage": 42,
++    "otherStatistics": "Level 10 Skirmisher. Initiative +10. Fortitude 24, Reflex 20, Will 19. Bloodied 53. Perception +12, low-light vision. No listed languages. The encounter fields three wyverns worth 500 XP each.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "Two studies of a brown, two-legged wyvern with leathery wings, a narrow head and a long tail ending in a curved stinger.",
++    "habitats": ["Moonstair", "Old Troll Wall"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, King of the Trollhaunt Warrens, first printing, October 2008, Adventure Book Two, Encounter R3, Airborne Assault, stat block p. 42 and encounter pp. 42–43. ",
++      "Printed powers": "Bite. Melee basic attack, standard, at-will. Reach 2. +15 vs. AC. Hit for 1d8 + 7 damage.\nClaws. Melee basic attack, standard, at-will. Only while flying. +15 vs. AC. Hit for 1d6 + 7 damage and knock the target prone.\nSting. Melee, standard, at-will, Poison. Reach 2. +15 vs. AC. Hit for 1d6 + 4 damage, then make a secondary attack against the same target at +13 vs. Fortitude. A secondary hit deals ongoing 10 poison damage (save ends).\nFlyby Attack. Melee, standard, at-will. Fly up to 8 squares and make one melee basic attack at any point during the movement. It provokes no opportunity attacks while moving away from the target of that attack.",
++      "Mount": "Aerial Agility +2, at-will, Mount. While the wyvern is flying with a rider of level 10 or higher, that rider gains +2 to all defenses.",
++      "Encounter": "All three wyverns fly over the Old Troll Wall. They go after the adventurers once the adventurers attack. They use Claws from the air and land to help the other attackers if those allies are engaged in melee, alternating Bite and Sting. The troglodyte remounts a wyvern if its manticore is killed first."
++    }
++  },
++  {
++    "name": "Female Steeder",
++    "publication": "Out of the Abyss - D&D Encounters",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 14,
++    "hp": 30,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "skills": {
++      "Stealth": 7
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Natural armor. Darkvision 120 ft., passive Perception 10. No languages.",
++    "appearance": "A large tarantula-like steeder with a broad body and thick hairy legs.",
++    "habitats": ["Underdark", "Duergar settlements"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Out of the Abyss - D&D Encounters, Appendix C: Creatures, p. 62.",
++      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement on its turn to jump up to 90 ft. vertically or horizontally.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The target makes a DC 12 Constitution save and takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg (recharges when no creatures are grappled by the steeder). Melee weapon attack, +5 to hit, reach 5 ft., one Medium or smaller creature. On a hit, the target sticks to its leg and is grappled until it escapes (escape DC 12).",
++      "Encounter ecology": "Duergar train these larger steeders as mounts. They do not spin webs. Their legs secrete the adhesive used to climb and catch prey."
++    },
++    "hitDice": "4d10 + 8",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Male Steeder",
++    "publication": "Out of the Abyss - D&D Encounters",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 13,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "skills": {
++      "Stealth": 5
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Natural armor. Darkvision 120 ft., passive Perception 10. No languages.",
++    "appearance": "A pony-sized tarantula-like steeder with compact body and long, bristled legs.",
++    "habitats": ["Underdark", "Duergar settlements"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Out of the Abyss - D&D Encounters, Appendix C: Creatures, pp. 62–63.",
++      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement on its turn to jump up to 60 ft. vertically or horizontally.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 2) piercing damage. The target makes a DC 12 Constitution save and takes 4 (1d8) acid damage on a failure or half on a success.\nSticky Leg (recharges when no creatures are grappled by the steeder). Melee weapon attack, +4 to hit, reach 5 ft., one Small or Tiny creature. On a hit, the target sticks to its leg and is grappled until it escapes (escape DC 12).",
++      "Encounter ecology": "Duergar use these pony-sized steeders as beasts of burden. Their leg secretions allow climbing and capture."
++    },
++    "hitDice": "2d8 + 4",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Female Steeder",
++    "publication": "DDEX3-16 - Assault on Maerimydra",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 14,
++    "hp": 30,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "skills": {
++      "Stealth": 7
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Natural armor. Darkvision 120 ft., passive Perception 10. No languages.",
++    "appearance": "A large tarantula-like steeder with a broad body and thick hairy legs.",
++    "habitats": ["Maerimydra", "Underdark"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, DDEX3-16 - Assault on Maerimydra, Monster/NPC Statistics appendix, p. 54.",
++      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nLeap. The steeder can use all its movement to jump up to 120 ft. vertically or horizontally.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The target makes a DC 12 Constitution save and takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg (recharges when no creatures are grappled by the steeder). Melee weapon attack, +5 to hit, reach 5 ft., one Medium or smaller creature. On a hit, the target sticks to its leg and is grappled until it escapes (escape DC 12).",
++      "Encounter ecology": "A quaggoth rider joins the fight on a female steeder, and the adventure also provides two female steeder mounts."
++    },
++    "hitDice": "4d10 + 8",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Spider King",
++    "publication": "Out of the Abyss",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 14,
++    "hp": 44,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "skills": {
++      "Perception": 4,
++      "Stealth": 7
++    },
++    "passivePerception": 14,
++    "otherStatistics": "Natural armor. Blindsight 10 ft., darkvision 60 ft., passive Perception 14. No languages. The HP is fixed at 44 by the adventure.",
++    "appearance": "A demonic mutation has given this giant spider two heads and raised its front into a vaguely humanoid posture.",
++    "habitats": ["Underdark", "Whorlstone Tunnels", "Dire Den"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Out of the Abyss, Chapter 4: Gracklstugh, p. 74.",
++      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nWeb Sense. While touching a web, it knows the exact location of any other creature touching the same web.\nWeb Walker. It ignores movement restrictions caused by webs.\nTwo heads. It has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.\nDire Den awareness. It senses intruders who enter its domain and cannot be surprised by them.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The target makes a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure or half on a success. If the poison damage reduces it to 0 HP, it is stable and poisoned for 1 hour even after regaining HP. It is paralyzed while poisoned this way.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one creature. A hit restrains the target in webbing. The target can use its action to make a DC 12 Strength check and break the web on a success. The web can also be attacked to destroy it. It has AC 10 and 5 HP, is vulnerable to fire, and is immune to bludgeoning, poison, and psychic damage.",
++      "Encounter ecology": "It waits with two ordinary giant spiders. It blocks the chamber entrance while they approach along the walls or ceiling. They fight to the death and do not follow fleeing prey."
++    },
++    "savingThrows": {
++      "Constitution": 3,
++      "Wisdom": 2
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Young Bulette",
++    "publication": "Princes of the Apocalypse",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 45,
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "skills": {},
++    "passivePerception": 11,
++    "otherStatistics": "Natural armor. Passive Perception 11. No listed skills, special senses, or languages.",
++    "appearance": "A juvenile bulette with a low armored body, powerful forelimbs, and a broad toothed mouth.",
++    "habitats": ["Bulette Kennels", "Temple of the Elder Elemental Eye"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Princes of the Apocalypse, Chapter 5: Temple of the Elder Elemental Eye, p. 139.",
++      "Traits": "Charge. If it moves at least 20 ft. straight toward a target and hits it with Bite on the same turn, the hit deals 9 (2d8) extra bludgeoning damage. A creature hit also makes a DC 15 Strength save or falls prone.",
++      "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 14 (2d8 + 5) bludgeoning damage.",
++      "Encounter ecology": "Three young bulettes occupy the north kennels. They sleep if Rorgrin is absent. A character sneaking past them makes a DC 11 Dexterity (Stealth) check. They awaken on a failed check or if attacked and hiss at strangers to alert Rorgrin.",
++      "Printing note": "Area G13 calls for the Rhinoceros statistics with Bite in place of Gore. The Beast type comes from that proxy. The adventure supplies no separate damage type, so Bite retains the proxy’s bludgeoning damage."
++    },
++    "hitDice": "6d10 + 12",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Golden Stag",
++    "publication": "Hoard of the Dragon Queen",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 13,
++    "speed": "50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "skills": {},
++    "passivePerception": 10,
++    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages in the normal stag branch.",
++    "appearance": "A tall stag with a coat that shines like spun gold and pale branching antlers that look plated with platinum.",
++    "habitats": ["Roadside hills", "Forest near the caravan route"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen, Episode 4: On the Road, p. 35.",
++      "Traits": "Charge. If the stag moves at least 20 ft. straight toward a target and hits it with Ram on the same turn, the hit deals 7 (2d6) extra damage. A creature hit must also succeed on a DC 13 Strength save or fall prone.",
++      "Actions": "Ram. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit, reach 5 ft., one prone creature. On a hit, deal 8 (2d4 + 3) bludgeoning damage.",
++      "Encounter ecology": "In the normal stag branch, the hunters can corner and fight the animal. In two other branches it speaks a prophecy or is discovered to be a cursed elf prince. The Beast profile uses the adventure’s Elk instructions.",
++      "Printing note": "The p. 35 encounter directs the DM to use Elk statistics. The publisher errata changes the older table label The Golden Hind to The Golden Stag. The Elk supplement gives no separate damage type for the additional Charge dice."
++    },
++    "hitDice": "2d10 + 2",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Giant Fly",
++    "publication": "Dungeon Master's Guide (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "30 ft., Fly 60 ft.",
++    "cr": "Not listed",
++    "passivePerception": 10,
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. No languages in the creature block. The block gives no XP or specific attack.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A dark horsefly with large compound eyes, short antennae, and veined wings.",
++    "habitats": [],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Dungeon Master's Guide (2014), Chapter 7, Figurine of Wondrous Power, p. 169. https://www.dndbeyond.com/magic-items/4831-figurine-of-wondrous-power-ebony-fly",
++      "Figurine use": "As an action, speak the command word. Throw the figurine to a point on the ground within 60 ft. It becomes a living Giant Fly if there is space and the destination is clear of creatures and objects. The fly can carry a rider and remains for up to 12 hours. The fly is friendly to you and your companions, understands your languages, and follows spoken commands. Without a command, the fly defends itself and takes no other actions. It returns to figurine form when time expires or it drops to 0 HP. The figurine can be used again after 2 days. It also reverts if you spend an action speaking the command word while touching it."
++    },
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    }
++  },
++  {
++    "name": "Giant Fly",
++    "publication": "Dungeon Master's Guide (2024)",
++    "edition": "2024 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "30 ft., Fly 60 ft.",
++    "cr": "0",
++    "xp": 0,
++    "initiative": 1,
++    "initiativeScore": 11,
++    "proficiencyBonus": 2,
++    "passivePerception": 10,
++    "savingThrows": {
++      "Str": 2,
++      "Dex": 1,
++      "Con": 1,
++      "Int": -4,
++      "Wis": 0,
++      "Cha": -4
++    },
++    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Darkvision 60 ft. Passive Perception 10. No languages in the creature block.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A dark horsefly with large compound eyes, short antennae, and veined wings.",
++    "habitats": [],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Dungeon Master's Guide (2024), Chapter 7, Figurine of Wondrous Power, p. 261. https://www.dndbeyond.com/magic-items/9228613-figurine-of-wondrous-power-ebony-fly",
++      "Figurine use": "Take a Magic action. Throw the figurine to a point on the ground within 60 ft. It becomes a living Giant Fly if there is space and the destination is clear of creatures and objects. The fly can carry a rider and remains for up to 12 hours. The fly is friendly to you and your allies, understands your languages, and obeys your commands. It acts immediately after you on the same initiative count. Without a command, the fly defends itself and takes no other actions. It returns to figurine form when time expires or it drops to 0 HP. The figurine can be used again after 2 days. It also reverts if you take a Magic action to make it revert while touching it."
++    },
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    }
++  },
++  {
++    "name": "Wolf of the Overworld",
++    "publication": "Monstrous Compendium Vol. 3: Minecraft Creatures",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "proficiencyBonus": 2,
++    "passivePerception": 15,
++    "otherStatistics": "AC includes natural armor. Perception +5. Stealth +4. Passive Perception 15. Proficiency bonus +2. No languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A gray-furred wolf with a thick coat, pointed ears, and a bushy tail.",
++    "habitats": ["Forest", "Taiga"],
++    "sections": {
++      "Printed source": "Wizards of the Coast with Mojang Studios, Monstrous Compendium Vol. 3: Minecraft Creatures, Wolf of the Overworld, p. 7. ",
++      "Traits": "Pack Tactics. The wolf has advantage on attack rolls against a creature within 5 ft. of one of its allies, provided that ally is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) piercing damage. A creature hit must succeed on a DC 11 Strength save or fall prone.",
++      "Encounter notes": "Wild wolves usually ignore humanoids but their pack turns hostile if someone hurts a pack member. Adventurers can tame one by feeding and caring for it. Even tame wolves instinctively attack animated skeletons unless told to sit."
++    },
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    }
++  },
++  {
++    "name": "Hippocampus",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 11,
++    "hp": 42,
++    "speed": "10 ft., Swim 60 ft.",
++    "cr": "1",
++    "xp": 200,
++    "otherStatistics": "Ability modifiers STR +4, DEX +1, CON +1, INT -4, WIS +1, CHA -1. Fixed Perception 13. Fixed Stealth 11. Cold damage resistance. Darkvision 60 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A blue-green creature with horse forequarters, coral-pink fins, and a curving fish tail.",
++    "habitats": ["Coastal", "Underwater"],
++    "sections": {
++      "Printed source": "Open Design LLC d/b/a Kobold Press, Black Flag Roleplaying Reference Document v0.2, Monsters, pp. 305–306. ",
++      "Traits": "Amphibious. The hippocampus can breathe air and water.\n\nShared Breath. Its gills release extra air as bubbles along its neck and back. An air-breathing rider can use the bubbles for fresh air while the hippocampus is neither fighting nor traveling at a fast pace.",
++      "Actions": "Multiattack. Make one Bite and one Tail Slap.\n\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 7 (1d6 + 4) piercing damage.\n\nTail Slap. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 8 (1d8 + 4) bludgeoning damage.",
++      "Bonus actions": "Rearing Kick. The hippocampus rears and kicks with its forelegs at one creature it can see within 5 ft. The target makes a DC 14 Strength save. On a failure, the hippocampus chooses whether to knock it prone or push it up to 10 ft. away."
++    }
++  },
++  {
++    "name": "Orca",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 12,
++    "hp": 80,
++    "speed": "0 ft., Swim 60 ft.",
++    "cr": "3",
++    "xp": 700,
++    "otherStatistics": "Ability modifiers STR +4, DEX +0, CON +1, INT -4, WIS +1, CHA -2. AC includes natural armor. Fixed Perception 13. Fixed Stealth 10. Cold damage resistance. Keensense 120 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A black-and-white orca with a tall dorsal fin, pale eye patches, and a broad fluked tail.",
++    "habitats": ["Arctic", "Coastal", "Underwater"],
++    "sections": {
++      "Printed source": "Open Design LLC d/b/a Kobold Press, Black Flag Roleplaying Reference Document v0.2, Monsters, p. 365. ",
++      "Traits": "Echolocation. The orca loses use of its keensense while deafened.\n\nHeightened Hearing. Its Perception is 18 when it relies on hearing.\n\nHold Breath. The orca can hold its breath for 30 minutes.",
++      "Actions": "Multiattack. Make two Bite attacks.\n\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 14 (3d6 + 4) piercing damage.",
++      "Bonus actions": "Tail Slap. The orca slaps one creature it can see within 15 ft. The target makes a DC 14 Strength save. On a failure, the target is pushed up to 15 ft. away and knocked prone. If it fails by 5 or more, it is also stunned through the end of its next turn."
++    }
++  },
++  {
++    "name": "Birdsquirrel",
++    "publication": "Adventure with Muk",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny beast, unaligned",
++    "ac": 13,
++    "hp": 10,
++    "hitDice": "",
++    "speed": "20 ft., fly 30 ft., climb 20 ft.",
++    "cr": "1/4",
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "appearance": "A tiny brown bird with clawed feet and a large, curling squirrel tail.",
++    "habitats": ["Dankwood", "Gob-Town"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Adventure with Muk, Monsters, unnumbered sheet 30.",
++      "Traits": "Pack Tactics. The birdsquirrel has advantage on an attack roll against a creature if an ally of the birdsquirrel is within 5 ft. of that creature and the ally is not incapacitated.",
++      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Attack +4. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaws. Attack +4. On a hit, deal 4 (1d4 + 2) slashing damage.",
++      "Ecology": "Birdsquirrel is devoted to Muk. It may be a one-of-a-kind creation of the wizard Doonwaggle."
++    },
++    "initiative": -3,
++    "otherStatistics": "Initiative -3."
++  },
++  {
++    "name": "Boontu Monkey",
++    "publication": "Adventure with Muk",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "",
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 5,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "appearance": "A tiny chestnut monkey with pale cheeks, gripping fingers and a curling tail.",
++    "habitats": ["Dankwood", "Boontu tree"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Adventure with Muk, Monsters, unnumbered sheet 30.",
++      "Traits": "Pack Tactics. The Boontu monkey has advantage on an attack roll against a creature if an ally of the Boontu monkey is within 5 ft. of that creature and the ally is not incapacitated.",
++      "Actions": "Bite. Attack +1. On a hit, deal 1 (1d4 - 1) piercing damage.",
++      "Ecology": "These wary monkeys search constantly for food and leave the sacred golden nuts on their home tree alone. A local story says a dryad transformed thieves into the monkeys after catching them stealing her nuts."
++    },
++    "initiative": 2,
++    "otherStatistics": "Initiative +2."
++  },
++  {
++    "name": "Two-Headed Plesiosaurus",
++    "publication": "The Tortle Package",
++    "edition": "2014 fifth edition",
++    "classification": "Large beast, unaligned",
++    "ac": 13,
++    "hp": 100,
++    "hitDice": "",
++    "speed": "20 ft., swim 40 ft.",
++    "cr": "4",
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "appearance": "A gray-blue marine reptile with two long necks, four broad flippers and a short tail.",
++    "habitats": ["Snout of Omgar", "High Horn", "Coastal waters"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, The Tortle Package, High Horn, pp. 18, 19.",
++      "Traits": "Hold Breath. It can hold its breath for 1 hour.\nTwo heads. It has advantage on Wisdom (Perception) checks and saves against being blinded, charmed, deafened, frightened, stunned or knocked unconscious.",
++      "Actions": "Multiattack. Use its action to make two Bite attacks, one per head.\nBite. Melee weapon attack +6, reach 10 ft., one target. On a hit, deal 14 (3d6 + 4) piercing damage.",
++      "Encounter": "It hunts around the High Horn shipwrecks at high tide and retreats to the northern strait as the tide falls."
++    },
++    "printedPage": 18,
++    "otherStatistics": "AC includes natural armor. Languages none.",
++    "xp": 1100,
++    "skills": {
++      "Perception": 3,
++      "Stealth": 4
++    },
++    "passivePerception": 13
++  },
++  {
++    "name": "Wolf",
++    "publication": "DDEX1-01 - Defiance in Phlan",
++    "edition": "2014 fifth edition",
++    "classification": "Medium beast, unaligned",
++    "ac": 13,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "appearance": "A gray-brown wolf with pointed ears, a pale muzzle and a thick tail.",
++    "habitats": ["Foulwater goblin caves", "Phlan guard room"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, DDEX1-01 - Defiance in Phlan, Missions 2 and 5, Monster/NPC Statistics, pp. 15, 31.",
++      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if an ally of the wolf is within 5 ft. of that creature and the ally is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) piercing damage. A creature hit this way falls prone on a failed DC 11 Strength save.",
++      "Encounter": "Mission 2, area 2C. Three goblins guard two caged wolves. A goblin can unlock a cage as an action. For a weak party, remove one goblin and one wolf. For a strong party, replace one wolf with a worg. For a very strong party, replace both with uncaged worgs.\nMission 5, area 3B. The guard room has a large dog using these Wolf statistics. Add one wolf for a very strong party."
++    },
++    "printedPage": 15,
++    "otherStatistics": "AC includes natural armor. Languages none.",
++    "xp": 50,
++    "skills": {
++      "Perception": 3,
++      "Stealth": 4
++    },
++    "passivePerception": 13
++  },
++  {
++    "name": "Clawfoot",
++    "publication": "Eberron: Rising from the Last War",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "printedPage": 289,
++    "ac": 13,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "speed": "40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Perception +3, Stealth +5. Passive Perception 13. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tall-human-sized bipedal dinosaur with sharp teeth, a stiff tail, and large sickle-shaped toe claws.",
++    "habitats": ["Grassland", "Talenta Plains", "Q’barra"],
++    "sections": {
++      "Printed source": "Eberron: Rising from the Last War, Chapter 6, Friends and Foes, Dinosaurs, p. 289. https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
++      "Traits": "Pack Tactics. The clawfoot has advantage on an attack roll against a creature if an ally is within 5 ft. of that target and the ally is not incapacitated.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claws on the same turn. It falls prone if it fails a DC 11 Strength save. The clawfoot can then Bite that target once as a bonus action if it is prone.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 7 (1d8 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 7 (1d8 + 3) slashing damage.",
++      "Encounter ecology": "Clawfoots hunt larger prey, often in packs. Talenta halflings train these dinosaurs as war mounts.",
++      "Source notes": "Charisma is 6 (−2) in the printed block. The indexed summary gives 10."
++    },
++    "skills": {
++      "Perception": 3,
++      "Stealth": 5
++    }
++  },
++  {
++    "name": "Fastieth",
++    "publication": "Eberron: Rising from the Last War",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "printedPage": 289,
++    "ac": 14,
++    "hp": 9,
++    "hitDice": "2d8",
++    "speed": "50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Passive Perception 10. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A human-sized bipedal plant-eater with large eyes, strong hindlegs, and brightly patterned scales.",
++    "habitats": ["Grassland", "Talenta Plains", "Q’barra"],
++    "sections": {
++      "Printed source": "Eberron: Rising from the Last War, Chapter 6, Friends and Foes, Dinosaurs, p. 289. https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
++      "Traits": "Quickness (Recharge 5–6). The fastieth can take Dodge as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 8 (1d8 + 4) piercing damage.",
++      "Encounter ecology": "Fastieths prefer to flee when threatened. Talenta halflings breed them for speed and favor even-tempered animals as riding mounts. A fastieth can carry a halfling with light gear but is too small for larger riders.",
++      "Source notes": "The p. 289 block prints Quickness under traits. It uses a bonus action and recharges on 5–6."
++    }
++  },
++  {
++    "name": "Two-Headed Crocodile",
++    "publication": "Infernal Machine Rebuild",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "printedPage": 89,
++    "ac": 12,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "20 ft., swim 30 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "passivePerception": 12,
++    "otherStatistics": "Natural armor. Perception +2, Stealth +2. Passive Perception 12. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, armored crocodile with two independent heads and one long tail.",
++    "habitats": ["Swamp", "Temple guardroom"],
++    "sections": {
++      "Printed source": "Infernal Machine Rebuild, Appendix B, NPCs and Monsters, p. 89. https://www.dndbeyond.com/sources/imr/npcs-and-monsters",
++      "Traits": "Hold Breath. The crocodile holds its breath for up to 15 minutes.\nTwo Heads. It has advantage on Wisdom (Perception) checks and on saves against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.\nWakeful. If one head falls asleep, the other stays awake.",
++      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +4 to hit, 5 ft. reach, one creature. A hit deals 7 (1d10 + 2) piercing damage and grapples the creature, escape DC 12. The captive is restrained while grappled. The head holding it cannot bite another target until the grapple ends.",
++      "Encounter ecology": "One crocodile accompanies the lizardfolk shaman in the Temple of Moloch guardroom. If guards in area 5 warn them about intruders, the guardroom group goes to area 1 to intercept them.",
++      "Source notes": "The appendix gives a standalone Large Beast block. The bite restriction applies to the head maintaining the grapple."
++    },
++    "skills": {
++      "Perception": 2,
++      "Stealth": 2
++    }
++  },
++  {
++    "name": "Chimeric Fox",
++    "publication": "NERDS Restoring Harmony: A Voice in the Wilderness",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "printedPage": 8,
++    "ac": 13,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "30 ft., burrow 5 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Perception +3, Stealth +5. Darkvision 60 ft. Proficiency bonus +2. Passive Perception 13. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small fox with pale fur that shifts to the tan of its surroundings.",
++    "habitats": ["Forest", "Wilderness"],
++    "sections": {
++      "Printed source": "NERDS Restoring Harmony: A Voice in the Wilderness, Adventure 2, Monster/NPC Statistics, p. 8. ",
++      "Traits": "Chimeric Creation. The fox’s coat changes color to match its surroundings, granting advantage on Dexterity (Stealth) checks.\nKeen Hearing. The fox has advantage on Wisdom (Perception) checks that depend on hearing.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, 5 ft. reach, one creature. A hit deals 1 piercing damage.",
++      "Encounter ecology": "A skittish fox follows Red and Elowen on the trip to Lemondrop Ledges. If Red treats it kindly, it tags along and may bark to warn them or distract a foe.",
++      "Source notes": "The supplies a complete Tiny Beast block on unnumbered sheet 8. The NERDS encounter on sheet 5 describes the fox choosing to follow Red after kind treatment."
++    },
++    "skills": {
++      "Perception": 3,
++      "Stealth": 5
++    }
++  },
++  {
++    "name": "Panther",
++    "publication": "DDEX1-08 - Tales Trees Tell",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "50 ft., climb 40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "passivePerception": 14,
++    "otherStatistics": "Perception +4. Stealth +6. Passive Perception 14. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low-set black cat with rounded ears, broad paws and a long tail. Faint spotting shows through its coat.",
++    "habitats": ["Forest"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, DDEX1-08 - Tales Trees Tell, November 1, 2014 release, Appendix, Monster/NPC Statistics, p. 26. ",
++      "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that use smell.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claw on the same turn. The creature falls prone unless it passes a DC 12 Strength save. If the creature is prone, the panther can make a Bite attack against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
++      "Encounter ecology": "The adventure places the panthers in the Quivering Forest as a weaker-party adjustment to the displacer beast encounter. It calls for three panthers in that adjustment.",
++      "Source notes": "The appendix contains the complete Panther stat block. The printed adventure code is DDEX1-8. Its catalog name retains the roster’s DDEX1-08 spelling. The pounce attack requires the same-turn approach and Claw hit. The bonus-action Bite checks whether the target is prone."
++    },
++    "skills": {
++      "Perception": 4,
++      "Stealth": 6
++    }
++  },
++  {
++    "name": "Relic Sloth",
++    "publication": "Strixhaven: A Curriculum of Chaos",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 76,
++    "hitDice": "8d12 + 24",
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A hulking, shaggy gray-brown beast with a long neck, strong forelimbs and inward-curving sickle claws.",
++    "habitats": ["Ruins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Strixhaven: A Curriculum of Chaos, first printing, November 2021, chapter 7, Friends and Foes, p. 210. https://online.anyflip.com/usqxr/xjis/files/large/4b4ebc7af65997f4196bafa5ebd13056.webp",
++      "Actions": "Claws. Melee weapon attack, +7 to hit, reach 10 ft., one target. On a hit, deal 14 (2d8 + 5) slashing damage and grapple the target (escape DC 15). The sloth can hold up to two targets at once.",
++      "Reactions": "Slow but Sturdy. When something would force the sloth out of its space or knock it prone, it can use its reaction to stay in place and upright.",
++      "Encounter ecology": "Lorehold mages use relic sloths to carry gear and artifacts. Their slow, deliberate movement suits unstable ruins, and their long foreclaws help them climb.",
++      "Source notes": "Slow but Sturdy is a reaction. Claws is one attack against one target, with a maximum of two simultaneous grapples."
++    },
++    "skills": {
++      "Perception": 3
++    }
++  },
++  {
++    "name": "Swarm of Maggots",
++    "publication": "Van Richten’s Guide to Ravenloft",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Swarm of Tiny Beasts",
++    "ac": 11,
++    "hp": 22,
++    "hitDice": "5d8",
++    "speed": "20 ft., swim 20 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 1,
++        "modifier": -5
++      }
++    },
++    "passivePerception": 8,
++    "otherStatistics": "Blindsight 10 ft. Passive Perception 8. Proficiency bonus +2. Resist bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low heap of soft, pale segmented larvae with small tapered ends.",
++    "habitats": ["Domains of Dread"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Van Richten’s Guide to Ravenloft, first printing, May 2021, chapter 5, Monsters of Ravenloft, Swarms, p. 247. https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
++      "Traits": "Swarm. It and another creature can share space. It passes through any opening big enough for a Tiny maggot. It cannot recover HP or gain temporary HP.",
++      "Actions": "Infestation. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or less. A creature the swarm damages makes a DC 12 Constitution save or contracts a disease. At the end of each long rest, roll a d6 for the effect.\n1–2. Blinded until the creature finishes a long rest.\n3–4. Reduce its HP maximum by 5 (2d4). That reduction lasts until the disease ends. The creature dies if its maximum drops to 0.\n5–6. Disadvantage on ability checks and attack rolls until it finishes its next long rest.\nThe disease ends when magic removes it or when the creature rolls the same result band on two consecutive long rests.",
++      "Encounter ecology": "The book presents these maggots as scavenging larvae whose numbers and aggression increase as sinister forces take hold.",
++      "Source notes": "The original stat block omits an alignment. It uses blindsight 10 ft. and grants swim speed 20 ft. Disease onset is a Constitution save after the swarm deals damage. Its symptom roll is made at the end of a long rest."
++    },
++    "damageResistances": ["bludgeoning", "piercing", "slashing"],
++    "conditionImmunities": [
++      "charmed",
++      "frightened",
++      "grappled",
++      "paralyzed",
++      "petrified",
++      "prone",
++      "restrained",
++      "stunned"
++    ]
++  },
++  {
++    "name": "Swarm of Scarabs",
++    "publication": "Van Richten’s Guide to Ravenloft",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Swarm of Tiny Beasts",
++    "ac": 13,
++    "hp": 27,
++    "hitDice": "5d8 + 5",
++    "speed": "30 ft., burrow 30 ft., climb 30 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 1,
++        "modifier": -5
++      }
++    },
++    "passivePerception": 11,
++    "otherStatistics": "Natural armor. Tremorsense 60 ft. Passive Perception 11. Proficiency bonus +2. Resist bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A clustered mass of dark oval scarab beetles with ridged wing cases and short legs.",
++    "habitats": ["Domains of Dread"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Van Richten’s Guide to Ravenloft, first printing, May 2021, chapter 5, Monsters of Ravenloft, Swarms, p. 247. https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
++      "Traits": "Swarm. It and another creature can share space. It passes through any opening big enough for a Tiny scarab. It cannot recover HP or gain temporary HP.\nSkeletonize. If it starts its turn in the same space as a dead creature of Large size or smaller, it destroys the corpse and leaves its equipment and bones or exoskeleton.\nSpider Climb. It crosses difficult surfaces, including the underside of ceilings, without an ability check.",
++      "Actions": "Ravenous Bites. Melee weapon attack, +4 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 14 (4d6) piercing damage, or 7 (2d6) when the swarm has half its HP or less. If the target is a creature, the scarabs burrow into it and deal 3 (1d6) piercing damage at the start of each of its turns. Any creature can use an action to remove or kill the scarabs with fire or a piercing weapon. The target takes 1 damage of the corresponding type. A creature the swarm’s piercing damage reduces to 0 HP dies.",
++      "Encounter ecology": "These scavenging beetles form predatory swarms where malign forces take hold. A swarm can overwhelm a corpse at the start of its turn.",
++      "Source notes": "The original stat block omits an alignment. It uses tremorsense 60 ft. and has separate walking, burrowing and climbing speeds. The printed attack gives no saving throw against its continuing damage. Any creature can spend an action to remove the scarabs."
++    },
++    "damageResistances": ["bludgeoning", "piercing", "slashing"],
++    "conditionImmunities": [
++      "charmed",
++      "frightened",
++      "grappled",
++      "paralyzed",
++      "petrified",
++      "prone",
++      "restrained",
++      "stunned"
++    ]
++  },
+   {
+     "name": "Bugbear",
+     "classification": "Medium humanoid (goblinoid), chaotic evil",
+diff --git a/dm-library/bestiary/scalable-encounters.json b/dm-library/bestiary/scalable-encounters.json
+index c957a41..2b6efe1 100644
+--- a/dm-library/bestiary/scalable-encounters.json
++++ b/dm-library/bestiary/scalable-encounters.json
+@@ -1311,6 +1311,17 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 61,
++      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion.",
++      "sections": {
++        "Primal Companion": "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies.",
++        "Scaling": "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Medium Beast. HP equals 5 + 5 × ranger level, with one d8 Hit Die per ranger level. Walk and climb 40 ft. each. STR 14, DEX 14, CON 15, INT 8, WIS 14, CHA 11.",
++        "Traits": "Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws. Charge adds 1d6 slashing damage if the beast moves at least 20 ft. straight toward a target and hits it with Maul that turn. A creature hit this way makes a Strength save against the ranger’s spell save DC or falls prone.",
++        "Action": "Maul is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d8 + 2 + PB slashing damage.",
++        "Appearance": "The ranger selects an appropriate land animal with primal markings. This portrait depicts a marked wolf."
++      }
+     }
+   },
+   {
+@@ -1436,6 +1447,17 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 61,
++      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion.",
++      "sections": {
++        "Primal Companion": "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies.",
++        "Scaling": "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Medium Beast. HP equals 5 + 5 × ranger level, with one d8 Hit Die per ranger level. Walk 5 ft., swim 60 ft. STR 14, DEX 14, CON 15, INT 8, WIS 14, CHA 11.",
++        "Traits": "Amphibious lets it breathe air and water. Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws.",
++        "Action": "Binding Strike is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d6 + 2 + PB as piercing or bludgeoning damage, chosen by the ranger, and grapple the target. The escape DC equals the ranger’s spell save DC. Until the grapple ends, the beast can use Binding Strike only on the current target.",
++        "Appearance": "The ranger selects an appropriate aquatic animal with primal markings. This portrait depicts a marked crocodilian."
++      }
+     }
+   },
+   {
+@@ -1545,6 +1567,17 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 61,
++      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion.",
++      "sections": {
++        "Primal Companion": "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies.",
++        "Scaling": "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Small Beast. HP equals 4 + 4 × ranger level, with one d6 Hit Die per ranger level. Walk 10 ft., fly 60 ft. STR 6, DEX 16, CON 13, INT 8, WIS 14, CHA 11.",
++        "Traits": "Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks. Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws.",
++        "Action": "Shred is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d4 + 3 + PB slashing damage.",
++        "Appearance": "The ranger selects an appropriate flying animal with primal markings. This portrait depicts a marked hawk."
++      }
+     }
+   },
+   {
+@@ -1639,7 +1672,20 @@
+         }
+       ]
+     },
+-    "forms": ["Bestial Spirit (Air)", "Bestial Spirit (Land)", "Bestial Spirit (Water)"]
++    "forms": ["Bestial Spirit (Air)", "Bestial Spirit (Land)", "Bestial Spirit (Water)"],
++    "printedRules": {
++      "page": 109,
++      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit.",
++      "sections": {
++        "Summon Beast": "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger.",
++        "Scaling": "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. The three modes share a 30-ft. walking speed. See the forms for additional speeds and starting HP. A higher slot counts as the spell level throughout the profile.",
++        "Air": "At 2nd level it has 20 HP, increasing by 5 for every slot level above 2nd. It walks 30 ft. and flies 60 ft. Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks.",
++        "Land": "At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and climbs 30 ft. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature.",
++        "Water": "At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and swims 30 ft. Water Breathing limits it to breathing underwater. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature.",
++        "Actions": "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage.",
++        "Appearance": "The caster chooses the shape of one native animal when casting. The wolf portrait gives one example. The Air, Land, and Water profiles are choices within the same printed block."
++      }
++    }
+   },
+   {
+     "edition": "2014 fifth edition",
+@@ -1739,7 +1785,18 @@
+       ]
+     },
+     "summonSource": "Summon Beast",
+-    "minSpellLevel": 2
++    "minSpellLevel": 2,
++    "printedRules": {
++      "page": 109,
++      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit.",
++      "sections": {
++        "Summon Beast": "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger.",
++        "Scaling": "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 20 HP, increasing by 5 for every slot level above 2nd. It walks 30 ft. and flies 60 ft.",
++        "Traits": "Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks.",
++        "Actions": "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage.",
++        "Appearance": "The caster selects a flying animal native to the chosen air environment. This portrait depicts an eagle."
++      }
++    }
+   },
+   {
+     "edition": "2014 fifth edition",
+@@ -1840,7 +1897,18 @@
+       ]
+     },
+     "summonSource": "Summon Beast",
+-    "minSpellLevel": 2
++    "minSpellLevel": 2,
++    "printedRules": {
++      "page": 109,
++      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit.",
++      "sections": {
++        "Summon Beast": "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger.",
++        "Scaling": "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and climbs 30 ft.",
++        "Traits": "Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature.",
++        "Actions": "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage.",
++        "Appearance": "The caster selects an animal native to the chosen land environment. This portrait depicts a wolf."
++      }
++    }
+   },
+   {
+     "edition": "2014 fifth edition",
+@@ -1944,7 +2012,18 @@
+       ]
+     },
+     "summonSource": "Summon Beast",
+-    "minSpellLevel": 2
++    "minSpellLevel": 2,
++    "printedRules": {
++      "page": 109,
++      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit.",
++      "sections": {
++        "Summon Beast": "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger.",
++        "Scaling": "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and swims 30 ft.",
++        "Traits": "Water Breathing limits it to breathing underwater. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature.",
++        "Actions": "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage.",
++        "Appearance": "The caster selects an animal native to the chosen water environment. This portrait depicts a crocodile. The spell’s Water Breathing trait governs how the spirit breathes."
++      }
++    }
+   },
+   {
+     "edition": "2014 fifth edition",
+@@ -9158,6 +9237,19 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 123,
++      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 123. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=124",
++      "sections": {
++        "Primal Companion": "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast.",
++        "Scaling": "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 5 + five times the ranger level. The beast has one d8 Hit Die per ranger level.",
++        "Statistics": "Medium neutral Beast. Walk and climb 40 ft. Darkvision 60 ft. Str 14, Dex 14, Con 15, Int 8, Wis 14, Cha 11. Base save modifiers in that order are +2, +2, +2, −1, +2 and +0.",
++        "Traits": "Primal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws.",
++        "Actions": "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 2 + the ranger’s Wisdom modifier. Choose Bludgeoning, Piercing, or Slashing on summoning. If the beast moved 20 ft. or more in a straight line toward the target before hitting, add 1d6 of that type. A Large or smaller creature hit under that movement condition also falls Prone.",
++        "Higher-level Beast Master features": "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft.",
++        "Appearance": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a wolf."
++      }
+     }
+   },
+   {
+@@ -9221,8 +9313,8 @@
+                   }
+                 ]
+               },
+-              "damageType": "piercing",
+-              "trigger": "hit"
++              "trigger": "hit",
++              "damageTypes": ["bludgeoning", "piercing"]
+             }
+           ],
+           "conditionsMentioned": ["grappled"]
+@@ -9268,6 +9360,19 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 124,
++      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 124. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
++      "sections": {
++        "Primal Companion": "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast.",
++        "Scaling": "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 5 + five times the ranger level. The beast has one d8 Hit Die per ranger level.",
++        "Statistics": "Medium neutral Beast. Walk 5 ft. and swim 60 ft. Darkvision 90 ft. Str 14, Dex 14, Con 15, Int 8, Wis 14, Cha 11. Base save modifiers in that order are +2, +2, +2, −1, +2 and +0.",
++        "Traits": "Amphibious. The beast breathes air and water.\nPrimal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws.",
++        "Actions": "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d6 + 2 + the ranger’s Wisdom modifier in Bludgeoning or Piercing damage, chosen on summoning. It gives the target the Grappled condition. Use the ranger’s spell save DC as the escape DC.",
++        "Higher-level Beast Master features": "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft.",
++        "Appearance": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a crocodile."
++      }
+     }
+   },
+   {
+@@ -9377,6 +9482,19 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 124,
++      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 124. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
++      "sections": {
++        "Primal Companion": "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast.",
++        "Scaling": "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 4 + four times the ranger level. The beast has one d6 Hit Die per ranger level.",
++        "Statistics": "Small neutral Beast. Walk 10 ft. and fly 60 ft. Darkvision 60 ft. Str 6, Dex 16, Con 13, Int 8, Wis 14, Cha 11. Base save modifiers in that order are −2, +3, +1, −1, +2 and +0.",
++        "Traits": "Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the beast.\nPrimal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws.",
++        "Actions": "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d4 + 3 + the ranger’s Wisdom modifier in Slashing damage.",
++        "Higher-level Beast Master features": "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft.",
++        "Appearance": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a hawk."
++      }
+     }
+   },
+   {
+@@ -9471,7 +9589,21 @@
+         }
+       ]
+     },
+-    "forms": ["Bestial Spirit (Air)", "Bestial Spirit (Land)", "Bestial Spirit (Water)"]
++    "forms": ["Bestial Spirit (Air)", "Bestial Spirit (Land)", "Bestial Spirit (Water)"],
++    "printedRules": {
++      "page": 323,
++      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
++      "sections": {
++        "Summon Beast": "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends.",
++        "Initiative and commands": "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger.",
++        "Statistics": "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s.",
++        "Actions": "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage.",
++        "Scaling": "AC is 11 + the spell slot level. Start with 20 for Air, or 30 for Land and Water HP and add 5 HP per slot level above 2.",
++        "Movement": "Walk 30 ft. Add climb 30 ft. for Land, fly 60 ft. for Air, or swim 30 ft. for Water.",
++        "Traits": "Air only. Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the spirit.\nLand or Water only. Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition.\nWater only. Water Breathing. The spirit breathes only underwater.",
++        "Appearance": "The caster chooses a native animal for the selected environment. The portrait shows a wolf as one Land example."
++      }
++    }
+   },
+   {
+     "edition": "2024 fifth edition",
+@@ -9580,6 +9712,20 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 323,
++      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
++      "sections": {
++        "Summon Beast": "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends.",
++        "Initiative and commands": "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger.",
++        "Statistics": "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s.",
++        "Actions": "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage.",
++        "Scaling": "AC is 11 + the spell slot level. Start with 20 HP and add 5 HP per slot level above 2.",
++        "Movement": "Walk 30 ft. and fly 60 ft.",
++        "Traits": "Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the spirit.",
++        "Appearance": "The caster chooses a native air animal. The portrait shows an eagle."
++      }
+     }
+   },
+   {
+@@ -9690,6 +9836,20 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 323,
++      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
++      "sections": {
++        "Summon Beast": "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends.",
++        "Initiative and commands": "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger.",
++        "Statistics": "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s.",
++        "Actions": "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage.",
++        "Scaling": "AC is 11 + the spell slot level. Start with 30 HP and add 5 HP per slot level above 2.",
++        "Movement": "Walk 30 ft. and climb 30 ft.",
++        "Traits": "Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition.",
++        "Appearance": "The caster chooses a native land animal. The portrait shows a wolf."
++      }
+     }
+   },
+   {
+@@ -9803,6 +9963,20 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 323,
++      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
++      "sections": {
++        "Summon Beast": "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends.",
++        "Initiative and commands": "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger.",
++        "Statistics": "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s.",
++        "Actions": "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage.",
++        "Scaling": "AC is 11 + the spell slot level. Start with 30 HP and add 5 HP per slot level above 2.",
++        "Movement": "Walk 30 ft. and swim 30 ft.",
++        "Traits": "Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition.\nWater Breathing. The spirit breathes only underwater.",
++        "Appearance": "The caster chooses a native water animal. The portrait shows a crocodile."
++      }
+     }
+   },
+   {
+@@ -13057,7 +13231,22 @@
+         }
+       ]
+     },
+-    "forms": ["Giant Insect (Centipede)", "Giant Insect (Spider)", "Giant Insect (Wasp)"]
++    "forms": ["Giant Insect (Centipede)", "Giant Insect (Spider)", "Giant Insect (Wasp)"],
++    "printedRules": {
++      "page": 279,
++      "citation": "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect",
++      "sections": {
++        "Summoning": "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends.",
++        "Initiative and commands": "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger.",
++        "Scaling": "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP.",
++        "Statistics": "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages.",
++        "Movement": "Walk 40 ft. and climb 40 ft. The wasp form also flies 40 ft.",
++        "Traits": "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check.",
++        "Actions": "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.\nWeb Bolt (Spider only). Ranged attack roll using the caster’s spell attack modifier, with 60-ft. range. A hit deals 1d10 + 3 + spell level bludgeoning damage and reduces the target’s Speed to 0 until the start of the insect’s next turn.",
++        "Bonus actions": "Venomous Spew (Centipede only). One creature the centipede can see within 10 ft. makes a Constitution saving throw against the caster’s spell save DC. On a failure it is Poisoned until the start of the insect’s next turn.",
++        "Printing note": "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
++      }
++    }
+   },
+   {
+     "edition": "2024 fifth edition",
+@@ -13179,6 +13368,21 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 279,
++      "citation": "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect",
++      "sections": {
++        "Summoning": "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends.",
++        "Initiative and commands": "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger.",
++        "Scaling": "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP.",
++        "Statistics": "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages.",
++        "Movement": "Walk 40 ft. and climb 40 ft.",
++        "Traits": "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check.",
++        "Actions": "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.",
++        "Bonus actions": "Venomous Spew (Centipede only). One creature the centipede can see within 10 ft. makes a Constitution saving throw against the caster’s spell save DC. On a failure it is Poisoned until the start of the insect’s next turn.",
++        "Printing note": "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
++      }
+     }
+   },
+   {
+@@ -13326,6 +13530,20 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 279,
++      "citation": "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect",
++      "sections": {
++        "Summoning": "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends.",
++        "Initiative and commands": "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger.",
++        "Scaling": "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP.",
++        "Statistics": "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages.",
++        "Movement": "Walk 40 ft. and climb 40 ft.",
++        "Traits": "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check.",
++        "Actions": "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.\nWeb Bolt (Spider only). Ranged attack roll using the caster’s spell attack modifier, with 60-ft. range. A hit deals 1d10 + 3 + spell level bludgeoning damage and reduces the target’s Speed to 0 until the start of the insect’s next turn.",
++        "Printing note": "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
++      }
+     }
+   },
+   {
+@@ -13443,6 +13661,20 @@
+           "factor": 1
+         }
+       ]
++    },
++    "printedRules": {
++      "page": 279,
++      "citation": "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect",
++      "sections": {
++        "Summoning": "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends.",
++        "Initiative and commands": "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger.",
++        "Scaling": "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP.",
++        "Statistics": "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages.",
++        "Movement": "Walk 40 ft. and climb 40 ft. The wasp also flies 40 ft.",
++        "Traits": "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check.",
++        "Actions": "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.",
++        "Printing note": "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
++      }
+     }
+   },
+   {
+diff --git a/dm-library/bestiary/scalable-encounters.ts b/dm-library/bestiary/scalable-encounters.ts
+index d4bf49c..5d13d4a 100644
+--- a/dm-library/bestiary/scalable-encounters.ts
++++ b/dm-library/bestiary/scalable-encounters.ts
+@@ -25,6 +25,11 @@ type Formula = {
+ 
+ type Recipe = Identity & {
+   forms?: string[]
++  printedRules?: {
++    page?: number
++    citation: string
++    sections: Record<string, string>
++  }
+   summonSource?: string
+   minSpellLevel?: number
+   armorClass?: number | Formula
+@@ -150,8 +155,9 @@ export async function loadScalableEncounters(rows: Identity[]) {
+     describe(row: Identity) {
+       const recipe = byEntry.get(recipeKey(row))
+       if (!recipe) return undefined
+-      if (!recipe.forms) return describeInputs(recipe)
++      if (!recipe.forms) return { ...describeInputs(recipe), printedRules: recipe.printedRules }
+       return {
++        printedRules: recipe.printedRules,
+         forms: recipe.forms.map((name) => {
+           const form = byEntry.get(recipeKey({ ...recipe, name }))
+           if (!form) throw new Error(`Missing creature form ${name}.`)
+@@ -243,6 +249,7 @@ export async function loadScalableEncounters(rows: Identity[]) {
+           proficiencyBonus: evaluate(recipe.proficiency, values),
+         },
+         mechanics: evaluate(recipe.mechanics, values),
++        printedRules: recipe.printedRules,
+       }
+     },
+   }
+diff --git a/scripts/dm-library-content.ts b/scripts/dm-library-content.ts
+index a4acf29..d8e3beb 100644
+--- a/scripts/dm-library-content.ts
++++ b/scripts/dm-library-content.ts
+@@ -207,6 +207,7 @@ type StatBlock = {
+   }[]
+ }
+ type Scaling = {
++  printedRules?: { page?: number; citation: string; sections: Record<string, string> }
+   summonSource?: string
+   minimumSpellLevel?: number
+   inputs?: string[]
+@@ -418,7 +419,8 @@ function makeVersion(row: Creature, images: LibraryImage[]): LibraryVersion {
+   for (const [ability, score] of Object.entries(full?.abilities ?? combat?.abilities ?? {})) {
+     stat(ability, typeof score === 'number' ? score : score.score)
+   }
+-  add('Printed source', row.sourceLocator ? [row.sourceLocator] : undefined)
++  const printedSource = row.scaling?.printedRules?.citation ?? row.sourceLocator
++  add('Printed source', printedSource ? [printedSource] : undefined)
+   add('Species traits', row.speciesTraits)
+   for (const { name, size, role, motive, hook, build } of row.npcBuilds ?? []) {
+     add(
+@@ -558,6 +560,9 @@ function makeVersion(row: Creature, images: LibraryImage[]): LibraryVersion {
+     }
+   }
+   if (row.scaling) {
++    for (const [title, text] of Object.entries(row.scaling.printedRules?.sections ?? {})) {
++      add(title, [text])
++    }
+     add(
+       'Scaling inputs',
+       (row.scaling.forms ?? [{ ...row.scaling, name: row.name }]).map((form) =>
+@@ -582,7 +587,7 @@ function makeVersion(row: Creature, images: LibraryImage[]): LibraryVersion {
+     variantName: row.parentSpecies || full?.variantGroup ? row.name : undefined,
+     publication: row.publication,
+     edition: row.edition,
+-    page: full?.printedPage,
++    page: full?.printedPage ?? row.scaling?.printedRules?.page,
+     description: full?.description,
+     source: asSource(row.bookReference?.pageUrl ?? row.source),
+     artwork: asSource(row.publisherArtwork ?? row.illustrationReference),
+@@ -810,6 +815,7 @@ export async function loadDmLibrary(root: string) {
+       version.stats = [...knownFacts]
+       version.sections = mergeSections(version.sections, sections)
+       Object.assign(version, details, {
++        page: row.scaling?.printedRules?.page ?? details.page,
+         source: version.source ?? details.source,
+         description: version.description || details.description,
+       })

@@ -1,0 +1,19 @@
+{
+  "baseline": "33aa6511d0715a59281bf35f3d894770d6a9355a",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 5,
+  "testedConditionalRuleProfiles": 5,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 5,
+  "portraitCoverage": {
+    "Young Wakewyrm": "generated",
+    "Wakewyrm": "reuse",
+    "Hunter Shark": "generated",
+    "Boar": "generated",
+    "Weasel": "generated"
+  },
+  "versionPortraitsVerified": 5,
+  "newPortraitDrafts": 4,
+  "reusedPortraits": 1
+}

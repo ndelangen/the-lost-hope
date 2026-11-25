@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Warforged",
+    "species": "species-d134547c8d2f6c127fa441f6",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Eberron Campaign Setting (2004)"
+    ],
+    "portraitSha256": "f8668d371b8b9fe02d02a2bc5bce274b5236318931f7b8d5ec12acc66cb517a4",
+    "caption": "Swage · Original Warforged NPC",
+    "npcReceipts": [
+      {
+        "name": "Swage",
+        "id": "npc-aa4ae39c97374d1f9ae06422",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Keel",
+        "id": "npc-d6dba7e8a54d32d2cf8eef5b",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+]

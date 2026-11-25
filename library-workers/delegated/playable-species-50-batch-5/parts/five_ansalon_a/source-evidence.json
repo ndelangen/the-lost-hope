@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Kender",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "publisher": "Margaret Weis Productions",
+    "creatureType": "Humanoid (kender)",
+    "url": "",
+    "printedPages": [
+      144,
+      145,
+      146
+    ],
+    "pdfPageOffset": 1,
+    "heading": "Kender Racial Traits and Afflicted Kender Racial Traits",
+    "distinction": "This one player profile includes both true and afflicted kender. Half-kender and fifth-edition Kender have separate rules. The NPC is a true kender.",
+    "supportingSources": {
+      "coreClassEquipmentFeatsAndCombat": ""
+    }
+  },
+  {
+    "name": "Tarmak",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "publisher": "Margaret Weis Productions",
+    "creatureType": "Humanoid (human)",
+    "url": "",
+    "printedPages": [
+      18,
+      19,
+      20
+    ],
+    "pdfPageOffset": 1,
+    "heading": "Ithin’carthian Racial Traits, Tarmaks",
+    "distinction": "Uses the Tarmak traits of this chapter. Damjatts and Keena are separate Ithin’carthian options. The NPC does not take Hulking Brute.",
+    "supportingSources": {
+      "coreClassEquipmentFeatsAndCombat": ""
+    }
+  },
+  {
+    "name": "Kyrie",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "publisher": "Margaret Weis Productions",
+    "creatureType": "Monstrous humanoid",
+    "url": "",
+    "printedPages": [
+      207,
+      208,
+      209,
+      210
+    ],
+    "pdfPageOffset": 1,
+    "heading": "Kyrie Racial Traits and Kyrie Racial Class",
+    "distinction": "Kyrie of Krynn, with human faces and feathered arm-wings. The worked NPC uses the first racial-class tier and the Animal domain. It retains the common Kyrie size, land speed and darkvision from the full species entry. Treat the racial domain power as caster level 1 for its duration.",
+    "supportingSources": {
+      "coreClassEquipmentFeatsAndCombat": ""
+    }
+  },
+  {
+    "name": "Phaethon",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "publisher": "Margaret Weis Productions",
+    "creatureType": "Humanoid (elf, fire)",
+    "url": "",
+    "printedPages": [
+      210,
+      211
+    ],
+    "pdfPageOffset": 1,
+    "heading": "Phaethon Racial Traits",
+    "distinction": "Uses base player traits. The NPC uses the core monk without Phaethon alternative class features or the Elder Phaethon prestige class.",
+    "supportingSources": {
+      "coreClassEquipmentFeatsAndCombat": ""
+    }
+  }
+]

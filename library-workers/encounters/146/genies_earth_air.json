@@ -1,0 +1,336 @@
+[
+  {
+    "name": "Dao",
+    "statBlock": {
+      "name": "Dao",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Large elemental, neutral evil",
+      "ac": 18,
+      "hp": 187,
+      "hitDice": "15d10 + 105",
+      "speed": "30 ft., burrow 30 ft., fly 30 ft.",
+      "passivePerception": 11,
+      "description": "A dao is a genie from the Elemental Plane of Earth. It reshapes rock into winding halls and bargains for treasure. When it flies, swirling sand takes the place of its legs.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Petrified.",
+        "Senses": "Darkvision 120 ft., passive Perception 11.",
+        "Languages": "Terran.",
+        "Traits": "Earth Glide. The dao can burrow through unworked nonmagical earth and stone without disturbing either.\nElemental Demise. When the dao dies, its body becomes crystalline powder. Its worn and carried equipment remains.\nSure-Footed. The dao rolls Strength and Dexterity saves against being knocked Prone with advantage.",
+        "Innate spellcasting": "The dao uses Charisma, with save DC 14 and +6 to hit with spell attacks. Its spells require no material components.\nAt will. Detect Evil and Good, Detect Magic, Stone Shape.\n3/day each. Passwall, Move Earth, Tongues.\n1/day each. Conjure Elemental (Earth Elemental only), Gaseous Form, Invisibility, Phantasmal Killer, Plane Shift, Wall of Stone.",
+        "Actions": "Multiattack. Make two Fist attacks or two Maul attacks.\nFist. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 15 (2d8 + 6) bludgeoning damage.\nMaul. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 20 (4d6 + 6) bludgeoning damage. A Huge or smaller creature hit by the attack falls Prone unless it succeeds on a DC 18 Strength check.",
+        "Printed source": "Monster Manual (2014), p. 143."
+      }
+    }
+  },
+  {
+    "name": "Dao (Disguises)",
+    "statBlock": {
+      "name": "Dao (Disguises)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Large elemental, neutral evil",
+      "ac": 18,
+      "hp": 187,
+      "hitDice": "15d10 + 105",
+      "speed": "30 ft., burrow 30 ft., fly 30 ft.",
+      "passivePerception": 11,
+      "description": "A dao is a genie from the Elemental Plane of Earth. It reshapes rock into winding halls and bargains for treasure. When it flies, swirling sand takes the place of its legs.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Petrified.",
+        "Senses": "Darkvision 120 ft., passive Perception 11.",
+        "Languages": "Terran.",
+        "Traits": "Earth Glide. The dao can burrow through unworked nonmagical earth and stone without disturbing either.\nElemental Demise. When the dao dies, its body becomes crystalline powder. Its worn and carried equipment remains.\nSure-Footed. The dao rolls Strength and Dexterity saves against being knocked Prone with advantage.",
+        "Innate spellcasting": "The dao uses Charisma, with save DC 14 and +6 to hit with spell attacks. Its spells require no material components.\nAt will. Detect Evil and Good, Detect Magic, Stone Shape.\n3/day each. Passwall, Move Earth, Tongues.\n1/day each. Conjure Elemental (Earth Elemental only), Gaseous Form, Invisibility, Phantasmal Killer, Plane Shift, Wall of Stone.",
+        "Actions": "Multiattack. Make two Fist attacks or two Maul attacks.\nFist. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 15 (2d8 + 6) bludgeoning damage.\nMaul. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 20 (4d6 + 6) bludgeoning damage. A Huge or smaller creature hit by the attack falls Prone unless it succeeds on a DC 18 Strength check.",
+        "Variant": "Disguises. The genie can cast Disguise Self innately at will to pass for a similarly shaped creature. For a mightier genie, choose whether it can also cast True Polymorph and choose 1 to 3 uses per day. A genie with this spell normally changes only its own shape. A rare genie can also target other creatures and objects. The DM can lengthen the duration of either spell for this genie.",
+        "Printed source": "Monster Manual (2014), p. 143. The Genie Powers sidebar on p. 144 supplies the variant. It gives no separate challenge rating for this option."
+      }
+    }
+  },
+  {
+    "name": "Dao (Wishes)",
+    "statBlock": {
+      "name": "Dao (Wishes)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Large elemental, neutral evil",
+      "ac": 18,
+      "hp": 187,
+      "hitDice": "15d10 + 105",
+      "speed": "30 ft., burrow 30 ft., fly 30 ft.",
+      "passivePerception": 11,
+      "description": "A dao is a genie from the Elemental Plane of Earth. It reshapes rock into winding halls and bargains for treasure. When it flies, swirling sand takes the place of its legs.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Petrified.",
+        "Senses": "Darkvision 120 ft., passive Perception 11.",
+        "Languages": "Terran.",
+        "Traits": "Earth Glide. The dao can burrow through unworked nonmagical earth and stone without disturbing either.\nElemental Demise. When the dao dies, its body becomes crystalline powder. Its worn and carried equipment remains.\nSure-Footed. The dao rolls Strength and Dexterity saves against being knocked Prone with advantage.",
+        "Innate spellcasting": "The dao uses Charisma, with save DC 14 and +6 to hit with spell attacks. Its spells require no material components.\nAt will. Detect Evil and Good, Detect Magic, Stone Shape.\n3/day each. Passwall, Move Earth, Tongues.\n1/day each. Conjure Elemental (Earth Elemental only), Gaseous Form, Invisibility, Phantasmal Killer, Plane Shift, Wall of Stone.",
+        "Actions": "Multiattack. Make two Fist attacks or two Maul attacks.\nFist. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 15 (2d8 + 6) bludgeoning damage.\nMaul. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 20 (4d6 + 6) bludgeoning damage. A Huge or smaller creature hit by the attack falls Prone unless it succeeds on a DC 18 Strength check.",
+        "Variant": "Wishes are a power of exceptionally potent genies. Choose a limit of one to three wishes for this genie. The requester must be a non-genie creature within 60 ft. and state the desired effect to the genie. The genie can cast Wish on that creature's behalf. Once it grants its limit, choose how long before it can grant wishes again. A year is typical. The same genie can spend its entire allotment on a particular creature only once in that creature's lifetime. A genie may exploit loose wording to its own benefit.",
+        "Printed source": "Monster Manual (2014), p. 143. The Genie Powers sidebar on p. 144 supplies the variant. It gives no separate challenge rating for this option."
+      }
+    }
+  },
+  {
+    "name": "Djinni",
+    "statBlock": {
+      "name": "Djinni",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Large elemental, chaotic good",
+      "ac": 17,
+      "hp": 161,
+      "hitDice": "14d10 + 84",
+      "speed": "30 ft., fly 90 ft.",
+      "passivePerception": 13,
+      "description": "A djinni is a genie from the Elemental Plane of Air. Djinn keep floating palaces, prize music and wine, and may trade a brief service for a fine gift. In flight, a djinni rides a column of wind.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Lightning, thunder.",
+        "Senses": "Darkvision 120 ft., passive Perception 13.",
+        "Languages": "Auran.",
+        "Traits": "Elemental Demise. When the djinni dies, its body dissolves into a warm breeze. Its worn and carried equipment remains.",
+        "Innate spellcasting": "The djinni uses Charisma, with save DC 17 and +9 to hit with spell attacks. Its spells require no material components.\nAt will. Detect Evil and Good, Detect Magic, Thunderwave.\n3/day each. Create Food and Water (may create wine in place of water), Tongues, Wind Walk.\n1/day each. Conjure Elemental (Air Elemental only), Creation, Gaseous Form, Invisibility, Major Image, Plane Shift.",
+        "Actions": "Multiattack. Make three Scimitar attacks.\nScimitar. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing damage plus 3 (1d6) lightning or thunder damage, chosen by the djinni.\nCreate Whirlwind. Center a magical cylinder of wind on a visible point within 120 ft. It is 5 ft. in radius and 30 ft. tall. Maintain it with Concentration as for a spell. Any other creature that enters it must make a DC 18 Strength save. On a failure, the creature is Restrained by the whirlwind. The djinni can use its action to move the cylinder up to 60 ft., carrying its captives with it. The effect also ends when the djinni loses sight of it. A creature can use its action to free a creature held by the wind, including itself, with a DC 18 Strength check. On a success, the captive stops being Restrained and moves to the nearest space outside the wind.",
+        "Printed source": "Monster Manual (2014), p. 144."
+      }
+    }
+  },
+  {
+    "name": "Djinni (Disguises)",
+    "statBlock": {
+      "name": "Djinni (Disguises)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Large elemental, chaotic good",
+      "ac": 17,
+      "hp": 161,
+      "hitDice": "14d10 + 84",
+      "speed": "30 ft., fly 90 ft.",
+      "passivePerception": 13,
+      "description": "A djinni is a genie from the Elemental Plane of Air. Djinn keep floating palaces, prize music and wine, and may trade a brief service for a fine gift. In flight, a djinni rides a column of wind.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Lightning, thunder.",
+        "Senses": "Darkvision 120 ft., passive Perception 13.",
+        "Languages": "Auran.",
+        "Traits": "Elemental Demise. When the djinni dies, its body dissolves into a warm breeze. Its worn and carried equipment remains.",
+        "Innate spellcasting": "The djinni uses Charisma, with save DC 17 and +9 to hit with spell attacks. Its spells require no material components.\nAt will. Detect Evil and Good, Detect Magic, Thunderwave.\n3/day each. Create Food and Water (may create wine in place of water), Tongues, Wind Walk.\n1/day each. Conjure Elemental (Air Elemental only), Creation, Gaseous Form, Invisibility, Major Image, Plane Shift.",
+        "Actions": "Multiattack. Make three Scimitar attacks.\nScimitar. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing damage plus 3 (1d6) lightning or thunder damage, chosen by the djinni.\nCreate Whirlwind. Center a magical cylinder of wind on a visible point within 120 ft. It is 5 ft. in radius and 30 ft. tall. Maintain it with Concentration as for a spell. Any other creature that enters it must make a DC 18 Strength save. On a failure, the creature is Restrained by the whirlwind. The djinni can use its action to move the cylinder up to 60 ft., carrying its captives with it. The effect also ends when the djinni loses sight of it. A creature can use its action to free a creature held by the wind, including itself, with a DC 18 Strength check. On a success, the captive stops being Restrained and moves to the nearest space outside the wind.",
+        "Variant": "Disguises. The genie can cast Disguise Self innately at will to pass for a similarly shaped creature. For a mightier genie, choose whether it can also cast True Polymorph and choose 1 to 3 uses per day. A genie with this spell normally changes only its own shape. A rare genie can also target other creatures and objects. The DM can lengthen the duration of either spell for this genie.",
+        "Printed source": "Monster Manual (2014), p. 144. The Genie Powers sidebar on p. 144 supplies the variant. It gives no separate challenge rating for this option."
+      }
+    }
+  },
+  {
+    "name": "Djinni (Wishes)",
+    "statBlock": {
+      "name": "Djinni (Wishes)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Large elemental, chaotic good",
+      "ac": 17,
+      "hp": 161,
+      "hitDice": "14d10 + 84",
+      "speed": "30 ft., fly 90 ft.",
+      "passivePerception": 13,
+      "description": "A djinni is a genie from the Elemental Plane of Air. Djinn keep floating palaces, prize music and wine, and may trade a brief service for a fine gift. In flight, a djinni rides a column of wind.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Lightning, thunder.",
+        "Senses": "Darkvision 120 ft., passive Perception 13.",
+        "Languages": "Auran.",
+        "Traits": "Elemental Demise. When the djinni dies, its body dissolves into a warm breeze. Its worn and carried equipment remains.",
+        "Innate spellcasting": "The djinni uses Charisma, with save DC 17 and +9 to hit with spell attacks. Its spells require no material components.\nAt will. Detect Evil and Good, Detect Magic, Thunderwave.\n3/day each. Create Food and Water (may create wine in place of water), Tongues, Wind Walk.\n1/day each. Conjure Elemental (Air Elemental only), Creation, Gaseous Form, Invisibility, Major Image, Plane Shift.",
+        "Actions": "Multiattack. Make three Scimitar attacks.\nScimitar. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing damage plus 3 (1d6) lightning or thunder damage, chosen by the djinni.\nCreate Whirlwind. Center a magical cylinder of wind on a visible point within 120 ft. It is 5 ft. in radius and 30 ft. tall. Maintain it with Concentration as for a spell. Any other creature that enters it must make a DC 18 Strength save. On a failure, the creature is Restrained by the whirlwind. The djinni can use its action to move the cylinder up to 60 ft., carrying its captives with it. The effect also ends when the djinni loses sight of it. A creature can use its action to free a creature held by the wind, including itself, with a DC 18 Strength check. On a success, the captive stops being Restrained and moves to the nearest space outside the wind.",
+        "Variant": "Wishes are a power of exceptionally potent genies. Choose a limit of one to three wishes for this genie. The requester must be a non-genie creature within 60 ft. and state the desired effect to the genie. The genie can cast Wish on that creature's behalf. Once it grants its limit, choose how long before it can grant wishes again. A year is typical. The same genie can spend its entire allotment on a particular creature only once in that creature's lifetime. A genie may exploit loose wording to its own benefit.",
+        "Printed source": "Monster Manual (2014), p. 144. The Genie Powers sidebar on p. 144 supplies the variant. It gives no separate challenge rating for this option."
+      }
+    }
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Giant Frog",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 18,
+    "hitDice": "4d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2, Stealth +3. Darkvision 30 ft. Passive Perception 12. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A broad-headed, mottled frog with thick folded hind legs and webbed toes.",
+    "habitats": [
+      "Wetlands",
+      "Ponds",
+      "Marshes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen Online Supplement, August 8, 2014 release, version 1, Monsters p. 10. ",
+      "Traits": "Amphibious. The frog can breathe air and water.\nStanding Leap. The frog can long jump up to 20 ft. or high jump up to 10 ft. from standing or with a running start.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d6 + 1) piercing damage and grapple the target (escape DC 11). The target is restrained until the grapple ends. During that grapple, the frog cannot Bite another target.\nSwallow. Make one Bite attack against a Small or smaller target that the frog is grappling. A hit swallows the target and ends the grapple. Inside, the target is blinded and restrained and has total cover against attacks and effects from outside the frog. It takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can hold one swallowed target at a time. If the frog dies, the swallowed creature is no longer restrained by the frog and may spend 5 ft. of movement to exit the corpse prone.",
+      "At the table": "Bite imposes the grapple on a hit. DC 11 applies to escaping it. Use the frog’s turn to time the swallowed target’s acid damage."
+    }
+  },
+  {
+    "name": "Giant Lizard",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Darkvision 30 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A low, mount-sized lizard with pebbled olive-gray scales, four clawed limbs, a wedge-shaped head and a long tapering tail.",
+    "habitats": [
+      "Underdark",
+      "Caverns",
+      "Woodland",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen Online Supplement, August 8, 2014 release, version 1, Monsters p. 10. ",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 6 (1d8 + 2) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +7. Blindsight 10 ft., darkvision 60 ft. Passive Perception 10. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A dark orb-weaver with a round chestnut abdomen, muted gold markings and eight long slender legs.",
+    "habitats": [
+      "Underground",
+      "Caves",
+      "Underdark",
+      "Forest",
+      "Swamp",
+      "Urban",
+      "Desert"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen Online Supplement, August 8, 2014 release, version 1, Monsters p. 10. ",
+      "Traits": "Spider Climb. Climb difficult surfaces, including ceiling undersides, without an ability check.\nWeb Sense. While touching a web, the spider knows the exact location of other creatures touching that web.\nWeb Walker. Webbing does not restrict the spider’s movement.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. On a hit, deal 7 (1d8 + 3) piercing damage and require a DC 11 Constitution save. The creature takes 9 (2d8) poison damage on a failure or half on a success. If this poison damage reduces the creature to 0 HP, it becomes stable and poisoned for 1 hour. It is paralyzed while poisoned this way. Regaining hit points during that hour does not end the poison.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one creature. A hit restrains the target in webbing. The target can use an action to burst the web with a successful DC 12 Strength check. The web can also be attacked and destroyed. It has AC 10, 5 HP, vulnerability to fire and immunity to bludgeoning, poison and psychic damage."
+    }
+  },
+  {
+    "name": "Stirge",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 14,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "10 ft., fly 40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 9. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A tiny batlike blood feeder with dusty brown fur, leathery wings, hooked feet and a long needle-shaped proboscis.",
+    "habitats": [
+      "Caves",
+      "Marshes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen Online Supplement, August 8, 2014 release, version 1, Monsters p. 17. ",
+      "Actions": "Blood Drain. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. On a hit, deal 5 (1d4 + 3) piercing damage and attach to the target. The attached stirge stops attacking. At the start of each of its turns, the target loses 5 (1d4 + 3) hit points from blood loss. The stirge can detach by spending 5 ft. of its movement. It does so after draining 10 hit points of blood from the target or when the target dies. Any creature, including the target, can detach the stirge as an action.",
+      "At the table": "Resolve piercing damage on the initial attack, then track the later blood loss at the start of the stirge’s turns."
+    }
+  }
+]

@@ -1,0 +1,162 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315021,6 +315021,24 @@
+       ]
+     },
+     {
++      "name": "Grimlock",
++      "kind": "species",
++      "publication": "Underdark (2003)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Monstrous Humanoid. +4 Strength, +2 Dexterity, +2 Constitution, −2 Wisdom, −4 Charisma. Land speed 30 ft.",
++        "Eyeless, with +4 natural armor.",
++        "Blindsight (Ex) locates foes within 40 ft. with line of effect. Foes beyond 40 ft. have total concealment. Blindsight does not reveal color or visual detail.",
++        "Losing either hearing or smell negates blindsight. With one sense remaining, the grimlock functions as if it had Blind-Fight. Losing both leaves it effectively blinded.",
++        "Scent (Ex) detects opponents within 30 ft. under ordinary conditions. Spend a move action to determine the direction. Pinpoint the source within 5 ft.",
++        "Immune to gaze attacks, visual effects, and illusions or other attacks that rely on sight. Sound- and scent-based effects can still affect a grimlock.",
++        "+10 racial bonus on Hide checks in mountains or underground.",
++        "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Racial skill points are 5 × (2 + Intelligence modifier). Racial class skills are Climb, Hide, Listen, and Spot.",
++        "Martial Weapon Proficiency (battleaxe) is a racial bonus feat. LA +2, so ECL 4 before class levels. Favored class Barbarian.",
++        "Common and Undercommon are automatic. The Grimlock region also grants Terran and lists Abyssal, Elven (drow dialect), Kuo-Toan, and Orc as bonus languages."
++      ]
++    },
++    {
+       "edition": "2024 fifth edition",
+       "publication": "Player’s Handbook",
+       "name": "Dragonborn (Bronze)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -4787,6 +4787,90 @@
+     {
+       "origin": "Original DM Library NPC",
+       "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Monstrous Humanoid",
++      "senses": "Blindsight 40 ft. and scent. Eyeless.",
++      "id": "grimlock-diamond-hand-passage-guardian-35e",
++      "title": "Grimlock passage guardian, Barbarian 1",
++      "difficulty": "Provisional CR 2. ECL 5 (2 racial HD, 1 class HD, LA +2).",
++      "ac": 16,
++      "hp": 29,
++      "hitDice": "2d8+1d12+9",
++      "initiative": 6,
++      "speed": "40 ft. with fast movement; base 30 ft.",
++      "languages": "Common, Terran, Undercommon",
++      "abilityScores": {
++        "STR": 18,
++        "DEX": 14,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 10,
++        "CHA": 6
++      },
++      "skills": ["Climb +9", "Hide +5 (+15 in mountains or underground)", "Listen +6"],
++      "traits": [
++        "Chaotic neutral. Unarmored, Dexterity +2 and natural armor +4. Touch 12, flat-footed 14. BAB +3, grapple +7. Fortitude +5, Reflex +5, Will +3. Improved Initiative adds +4. Fast Movement and illiteracy.",
++        "Blindsight (Ex) locates foes within 40 ft. with line of effect. Foes beyond 40 ft. have total concealment. Blindsight does not reveal color or visual detail.",
++        "Losing either hearing or smell negates blindsight. With one sense remaining, the grimlock functions as if it had Blind-Fight. Losing both leaves it effectively blinded.",
++        "Scent (Ex) detects opponents within 30 ft. under ordinary conditions. Spend a move action to determine the direction. Pinpoint the source within 5 ft.",
++        "Immune to gaze attacks, visual effects, and illusions or other attacks that rely on sight. Sound- and scent-based effects can still affect a grimlock.",
++        "+10 racial bonus on Hide checks in mountains or underground.",
++        "Martial Weapon Proficiency (battleaxe) is the racial bonus feat. Power Attack can trade up to 3 points of melee attack bonus for twice that amount of damage when wielding the battleaxe in two hands."
++      ],
++      "actions": [
++        "Battleaxe +7 melee in two hands for 1d8+6 slashing, critical ×3.",
++        "Rage 1/day for up to 8 rounds. During rage, AC 14, HP 35 at full health, grapple +9, Fortitude +7, Reflex +5, Will +5, and two-handed battleaxe +9 for 1d8+9. When rage ends, lose the 6 HP from increased Constitution and become fatigued for the rest of the encounter.",
++        "If a silence effect takes away hearing, use scent to find the direction of a creature within 30 ft. or pinpoint it within 5 ft. Without blindsight, Blind-Fight allows a reroll of a melee miss chance from concealment when attacking a located creature."
++      ],
++      "tactics": "Diamond Hand waits where the passage bends within 40 ft. When a silence spell breaks her blindsight, she backs toward her hunt-bonded companion and uses scent to locate anyone close enough to threaten them."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Monstrous Humanoid",
++      "senses": "Blindsight 40 ft. and scent. Eyeless.",
++      "id": "grimlock-cold-water-fissure-tracker-35e",
++      "title": "Grimlock fissure tracker, racial Hit Dice only",
++      "difficulty": "Provisional CR 1. ECL 4 (2 racial HD, LA +2).",
++      "ac": 16,
++      "hp": 16,
++      "hitDice": "2d8+4",
++      "initiative": 2,
++      "speed": "30 ft.",
++      "languages": "Common, Terran, Undercommon, Kuo-Toan",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 14,
++        "CON": 14,
++        "INT": 12,
++        "WIS": 10,
++        "CHA": 6
++      },
++      "skills": [
++        "Climb +8",
++        "Hide +7 (+17 in mountains or underground)",
++        "Listen +5",
++        "Survival +0"
++      ],
++      "traits": [
++        "Neutral. Unarmored, Dexterity +2 and natural armor +4. Touch 12, flat-footed 14. BAB +2, grapple +5. Fortitude +2, Reflex +5, Will +3.",
++        "Blindsight (Ex) locates foes within 40 ft. with line of effect. Foes beyond 40 ft. have total concealment. Blindsight does not reveal color or visual detail.",
++        "Losing either hearing or smell negates blindsight. With one sense remaining, the grimlock functions as if it had Blind-Fight. Losing both leaves it effectively blinded.",
++        "Scent (Ex) detects opponents within 30 ft. under ordinary conditions. Spend a move action to determine the direction. Pinpoint the source within 5 ft.",
++        "Immune to gaze attacks, visual effects, and illusions or other attacks that rely on sight. Sound- and scent-based effects can still affect a grimlock.",
++        "+10 racial bonus on Hide checks in mountains or underground.",
++        "Track is the chosen racial Hit Die feat. Martial Weapon Proficiency (battleaxe) is the racial bonus feat."
++      ],
++      "actions": [
++        "Battleaxe +5 melee in two hands for 1d8+4 slashing, critical ×3.",
++        "Use Track with scent to follow a fresh trail. Roll Survival +0 against a typical DC of 10. Travel at half speed while tracking unless taking the penalty for moving faster."
++      ],
++      "tactics": "Cold Water follows a fresh scent trail up the fissure. At the fork, he uses a move action to determine a nearby scent’s direction. If an overpowering odor spoils the trail, he falls back to familiar ground."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
+       "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+       "size": "Medium",
+       "type": "Outsider (Native)",
+@@ -5905,6 +5989,28 @@
+       "hook": "Verren needs someone to lead the last workers to the cross-passage."
+     },
+     {
++      "species": "Grimlock",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Underdark (2003)",
++      "name": "Diamond Hand",
++      "build": "grimlock-diamond-hand-passage-guardian-35e",
++      "role": "Passage guardian and Barbarian.",
++      "motive": "Cover the retreat of her hunt-bonded companion.",
++      "hook": "Diamond Hand guards the bend that leads to the pack’s water cistern."
++    },
++    {
++      "species": "Grimlock",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Underdark (2003)",
++      "name": "Cold Water",
++      "build": "grimlock-cold-water-fissure-tracker-35e",
++      "role": "Fissure tracker and guide.",
++      "motive": "Find a missing climber before the culvert floods.",
++      "hook": "Cold Water catches a fresh scent at the foot of the fissure."
++    },
++    {
+       "species": "Catfolk",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -4690,6 +4690,7 @@
+ Grimlock	monster	Humanoid	SRD 5.1	2014 fifth edition	Wizards of the Coast		1/4
+ Grimlock	monster	Aberration	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		1/4
+ Grimlock	monster	Medium Humanoid	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		1/4
++Grimlock	species	Monstrous Humanoid	Underdark (2003)	3.5 edition	Wizards of the Coast	https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531	
+ Grimlock Berserkers	monster	Medium natural humanoid (blind)	King of the Trollhaunt Warrens	4th edition	Wizards of the Coast		Level 13 Brute
+ Grimlock Minion	monster	Medium natural humanoid (blind)	King of the Trollhaunt Warrens	4th edition	Wizards of the Coast		Level 14 Minion
+ Grimlock, Morlock	monster	Humanoid	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	2.0

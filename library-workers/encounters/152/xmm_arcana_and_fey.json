@@ -1,0 +1,466 @@
+[
+  {
+    "name": "Archmage",
+    "statBlock": {
+      "name": "Archmage",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 199,
+      "classification": "Small or Medium humanoid (wizard), neutral",
+      "ac": 17,
+      "hp": 170,
+      "hitDice": "31d8 + 31",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 6
+      },
+      "skills": {
+        "Arcana": 13,
+        "History": 9,
+        "Perception": 6
+      },
+      "description": "A veteran wizard who can control distance with teleportation and counter incoming magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+6 to the roll. Initiative score 16.",
+        "Languages": "Common plus five other languages.",
+        "Gear": "Wand.",
+        "Armor": "AC includes Mage Armor.",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Immune to Charmed while under Mind Blank.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make four Arcane Burst attacks.\nArcane Burst. Melee or ranged attack roll, +9 to hit, reach 5 ft. or range 150 ft.. On a hit, deal 27 (4d10 + 5) force damage.",
+        "Spellcasting": "Cast one listed spell as an action using Intelligence and spell save DC 17.\nAt will. Detect Magic, Detect Thoughts, Disguise Self, Invisibility, Light, Mage Armor (included in AC), Mage Hand, and Prestidigitation.\n2/day each. Fly and Lightning Bolt (7th-level version).\n1/day each. Cone of Cold (9th-level version), Mind Blank (cast before combat), Scrying, and Teleport.",
+        "Bonus actions": "Misty Step (3/day). The archmage casts Misty Step using its Spellcasting ability.",
+        "Reactions": "Protective Magic (3/day). The archmage uses its Spellcasting ability to cast Counterspell or Shield when the chosen spell's trigger occurs. Both spells draw from the same three uses.",
+        "Printed source": "Monster Manual (2024), p. 199."
+      }
+    }
+  },
+  {
+    "name": "Assassin",
+    "statBlock": {
+      "name": "Assassin",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 22,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 16,
+      "hp": 97,
+      "hitDice": "15d8 + 30",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Dex": 7,
+        "Int": 6
+      },
+      "skills": {
+        "Acrobatics": 7,
+        "Perception": 6,
+        "Stealth": 10
+      },
+      "description": "A killer who can poison targets with a blade and keep pressure on them with a crossbow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+10 to the roll. Initiative score 20.",
+        "Languages": "Common, Thieves' Cant.",
+        "Gear": "Light crossbow, shortsword, and studded leather armor.",
+        "Damage resistances": "Poison.",
+        "Traits": "Evasion. For an effect that allows a Dexterity save for half damage, take 0 damage on a success or half on a failure. This trait is unavailable while Incapacitated.",
+        "Actions": "Multiattack. Make three attacks in any combination of Shortsword and Light Crossbow.\nShortsword. Melee attack roll, +7 to hit, reach 5 ft.. On a hit, deal 7 (1d6 + 4) piercing damage plus 17 (5d6) poison damage. The target is also Poisoned until the start of the assassin's next turn.\nLight Crossbow. Ranged attack roll, +7 to hit, range 80/320 ft.. On a hit, deal 8 (1d8 + 4) piercing damage plus 21 (6d6) poison damage.",
+        "Bonus actions": "Cunning Action. Take the Dash, Disengage, or Hide action.",
+        "Printed source": "Monster Manual (2024), p. 22."
+      }
+    }
+  },
+  {
+    "name": "Mage",
+    "statBlock": {
+      "name": "Mage",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 199,
+      "classification": "Small or Medium humanoid (wizard), neutral",
+      "ac": 15,
+      "hp": 81,
+      "hitDice": "18d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6,
+        "Perception": 4
+      },
+      "description": "A practiced wizard with a ranged arcane attack and spells for covering a retreat.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+2 to the roll. Initiative score 12.",
+        "Languages": "Common plus three other languages.",
+        "Gear": "Wand.",
+        "Armor": "AC includes Mage Armor.",
+        "Actions": "Multiattack. Make three Arcane Burst attacks.\nArcane Burst. Melee or ranged attack roll, +6 to hit, reach 5 ft. or range 120 ft.. On a hit, deal 16 (3d8 + 3) force damage.",
+        "Spellcasting": "Cast one listed spell as an action using Intelligence and spell save DC 14.\nAt will. Detect Magic, Light, Mage Armor (included in AC), Mage Hand, and Prestidigitation.\n2/day each. Fireball (4th-level version) and Invisibility.\n1/day each. Cone of Cold and Fly.",
+        "Bonus actions": "Misty Step (3/day). The mage casts Misty Step using its Spellcasting ability.",
+        "Reactions": "Protective Magic (3/day). The mage uses its Spellcasting ability to cast Counterspell or Shield when the chosen spell's trigger occurs. Both spells draw from the same three uses.",
+        "Printed source": "Monster Manual (2024), p. 199."
+      }
+    }
+  },
+  {
+    "name": "Dryad",
+    "statBlock": {
+      "name": "Dryad",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 107,
+      "classification": "Medium fey, neutral",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "description": "A woodland fey who slips between trees and can charm an intruder while attacking.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+1 to the roll. Initiative score 11.",
+        "Senses": "Darkvision 60 ft..",
+        "Languages": "Elvish, Sylvan.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.\nSpeak with Beasts and Plants. Communicate with Beasts and Plants as though they share a language.",
+        "Actions": "Multiattack. Make one Vine Lash or Thorn Burst attack. The dryad can also use Spellcasting to cast Charm Monster as part of this action.\nVine Lash. Melee attack roll, +6 to hit, reach 10 ft.. On a hit, deal 8 (1d8 + 4) slashing damage.\nThorn Burst. Ranged attack roll, +6 to hit, range 60 ft.. On a hit, deal 7 (1d6 + 4) piercing damage.",
+        "Spellcasting": "Cast one listed spell as an action. Use Charisma and spell save DC 14. The spells require no Material components.\nAt will. Animal Friendship, Charm Monster, and Druidcraft. Charm Monster lasts up to 24 hours and ends early if the dryad casts it again.\n1/day each. Entangle and Pass without Trace.",
+        "Bonus actions": "Tree Stride. From within 5 ft. of a Large or larger tree, teleport to an unoccupied space within 5 ft. of another Large or larger tree that is within 60 ft. of the first.",
+        "Printed source": "Monster Manual (2024), p. 107."
+      }
+    }
+  },
+  {
+    "name": "Green Hag",
+    "statBlock": {
+      "name": "Green Hag",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 156,
+      "classification": "Medium fey, neutral evil",
+      "ac": 17,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "skills": {
+        "Arcana": 5,
+        "Deception": 4,
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "description": "A hag who uses imitations, illusions, and invisibility to draw prey into reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+1 to the roll. Initiative score 11.",
+        "Senses": "Darkvision 60 ft..",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Amphibious. Breathe air and water.\nMimicry. Imitate animal sounds or humanoid voices. A listener can recognize an imitation with a successful DC 14 Wisdom (Insight) check.",
+        "Coven Magic": "While within 30 ft. of two or more hag allies, the hag can cast any of these spells at its usual casting time. Use Intelligence and save DC 11. The spells require no Material components. After casting a spell this way, the hag must finish a Long Rest to cast that same spell through Coven Magic again.\nAugury, Find Familiar, Identify, Locate Object, Scrying, and Unseen Servant.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee attack roll, +6 to hit, reach 5 ft.. On a hit, deal 8 (1d8 + 4) slashing damage plus 3 (1d6) poison damage.",
+        "Spellcasting": "Cast one listed spell as an action. Use Wisdom, spell save DC 12, and +4 to hit with spell attacks. The spells require no Material components.\nAt will. Dancing Lights, Disguise Self (24 hours), Invisibility (self only), Minor Illusion, and Ray of Sickness (3rd-level version).\nThe hag leaves no tracks while Invisible from this casting of Invisibility.",
+        "Printed source": "Monster Manual (2024), p. 156."
+      }
+    }
+  },
+  {
+    "name": "Night Hag",
+    "statBlock": {
+      "name": "Night Hag",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 225,
+      "classification": "Medium fiend, neutral evil",
+      "ac": 17,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "skills": {
+        "Deception": 6,
+        "Insight": 5,
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "description": "A fiend who can cross to the Ethereal Plane and trap the souls of creatures killed by her nightmares.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+5 to the roll. Initiative score 15.",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Abyssal, Common, Infernal, Primordial.",
+        "Damage resistances": "Cold and fire.",
+        "Condition immunities": "Charmed.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.\nSoul Bag. The hag must carry or hold this bag to use Nightmare Haunting. The bag has AC 15, 20 HP, and Resistance to all damage. At 0 HP it crumbles to dust and frees every soul inside. The hag can make another bag after 7 days.",
+        "Coven Magic": "While within 30 ft. of two or more hag allies, the hag can cast any of these spells at its usual casting time. Use Intelligence and save DC 14. The spells require no Material components. After casting a spell this way, the hag must finish a Long Rest to cast that same spell through Coven Magic again.\nAugury, Find Familiar, Identify, Locate Object, Scrying, and Unseen Servant.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee attack roll, +7 to hit, reach 5 ft.. On a hit, deal 13 (2d8 + 4) slashing damage.\nNightmare Haunting (1/day). While carrying or holding the soul bag on the Ethereal Plane, cast Dream using the Spellcasting ability. Only the hag can be the messenger. The target must be a creature the hag can see on the Material Plane. The use is spent and the spell fails if the target is protected by Protection from Evil and Good or is inside Magic Circle. Any Dream damage reduces the target's HP maximum by the damage it took. If Dream kills the target, its soul enters the soul bag and it can't return from the dead until its soul is released.",
+        "Spellcasting": "Cast one listed spell as an action. Use Intelligence and spell save DC 14. The spells require no Material components.\nAt will. Detect Magic, Etherealness, and Magic Missile (4th-level version).\n2/day each. Phantasmal Killer and Plane Shift (self only).",
+        "Bonus actions": "Shape-Shift. Become a Small or Medium Humanoid or return to true form. Only size changes among game statistics. Worn and carried equipment keeps its form.",
+        "Printed source": "Monster Manual (2024), p. 225."
+      }
+    }
+  },
+  {
+    "name": "Sea Hag",
+    "statBlock": {
+      "name": "Sea Hag",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 271,
+      "classification": "Medium fey, chaotic evil",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 11,
+      "description": "A coastal hag whose exposed true form can frighten victims and set up a lethal glare.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+1 to the roll. Initiative score 11.",
+        "Senses": "Darkvision 60 ft..",
+        "Languages": "Common, Giant, Primordial (Aquan).",
+        "Traits": "Amphibious. Breathe air and water.\nVile Appearance. A Beast or Humanoid that starts its turn within 30 ft. and can see the true form makes a DC 11 Wisdom save. On a failure, it is Frightened until the start of its next turn. On a success, it is immune to this hag's Vile Appearance for 24 hours.",
+        "Coven Magic": "While within 30 ft. of two or more hag allies, the hag can cast any of these spells at its usual casting time. Use Intelligence and save DC 11. The spells require no Material components. After casting a spell this way, the hag must finish a Long Rest to cast that same spell through Coven Magic again.\nAugury, Find Familiar, Identify, Locate Object, Scrying, and Unseen Servant.",
+        "Actions": "Claw. Melee attack roll, +5 to hit, reach 5 ft.. On a hit, deal 10 (2d6 + 3) slashing damage.\nDeath Glare (recharge 5–6). Pick one visible Frightened creature within 30 ft. It makes a DC 11 Wisdom save. On a failure, a target with 20 HP or fewer drops to 0 HP. A target with more than 20 HP instead takes 13 (3d8) psychic damage.\nIllusory Appearance. Cast Disguise Self using Constitution and spell save DC 13. The spell lasts 24 hours.",
+        "Printed source": "Monster Manual (2024), p. 271."
+      }
+    }
+  },
+  {
+    "name": "Medusa",
+    "statBlock": {
+      "name": "Medusa",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 205,
+      "classification": "Medium monstrosity, lawful evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 4,
+        "Stealth": 6
+      },
+      "description": "A snake-haired hunter whose gaze can petrify creatures in front of it, including itself if it catches its own reflection.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+6 to the roll. Initiative score 16.",
+        "Senses": "Darkvision 150 ft..",
+        "Languages": "Common plus one other language.",
+        "Actions": "Multiattack. Make two Claw attacks and one Snake Hair attack, or make three Poison Ray attacks.\nClaw. Melee attack roll, +6 to hit, reach 5 ft.. On a hit, deal 10 (2d6 + 3) slashing damage.\nSnake Hair. Melee attack roll, +6 to hit, reach 5 ft.. On a hit, deal 5 (1d4 + 3) piercing damage plus 14 (4d6) poison damage.\nPoison Ray. Ranged attack roll, +5 to hit, range 150 ft.. On a hit, deal 11 (2d8 + 2) poison damage.",
+        "Bonus actions": "Petrifying Gaze (recharge 5–6). Each creature in a 30-ft. cone makes a DC 13 Constitution save. The medusa also saves if it sees its reflection in the cone. On a first failure, the target is Restrained. If it is still Restrained at the end of its next turn, it repeats the save. Success ends the effect. A second failure replaces Restrained with Petrified.",
+        "Printed source": "Monster Manual (2024), p. 205."
+      }
+    }
+  }
+]

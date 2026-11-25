@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Shifter",
+    "slug": "shifter",
+    "caption": "Iona Fernridge · Original Shifter NPC",
+    "id": "species-eafeb6ad20d21c0b52c44806:1d115a0b4620e6bd6b651752",
+    "entry": "species-eafeb6ad20d21c0b52c44806",
+    "version": "1d115a0b4620e6bd6b651752",
+    "suffix": "encounters-88/shifter.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-88/shifter.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-88/event-drafts/shifter-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 88 2026-11-24/event-drafts/shifter-event-v1.png",
+    "overrides": [],
+    "sha256": "742b99f9636d1bdba9d082e3b83861c8bede901c22bb11a8e18440075507e233",
+    "bytes": 2213160
+  }
+]

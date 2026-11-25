@@ -1,0 +1,14 @@
+[
+  {
+    "id": "beast-7ef043eee926c87af56e47bb",
+    "name": "Dinosaur, Ankylosaurus",
+    "base": "monster-229fa275bac248af537e0ad4",
+    "slug": "ankylosaurus"
+  },
+  {
+    "id": "beast-f6fc4044146d3286e4326b71",
+    "name": "Dinosaur, Plesiosaurus",
+    "base": "monster-8cd2c129eb50bc4a0ec508ec",
+    "slug": "plesiosaurus"
+  }
+]

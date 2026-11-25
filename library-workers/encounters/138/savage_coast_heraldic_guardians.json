@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Griffon Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–47, 49",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Griffon Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 3,
+      "hp": null,
+      "speed": "12, fly 30 class C in natural form. Fly 15 class D with a rider. Humanoid form 16, fly 30 class C.",
+      "cr": "",
+      "hitDice": "7+2",
+      "thac0": 13,
+      "xp": 4000,
+      "otherStatistics": "Magic resistance 25%. Exceptional intelligence 15–16. Fearless morale 19–20.",
+      "description": "A yellow-furred griffon with an eagle's head and wings. Its upright humanoid form is lighter and keeps its wings.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Keen senses. By sight and smell, it can usually identify creatures up to one mile away.\nEnchanted defense. Only a magical weapon of +1 or better can harm it. Once fighting, it stays in the fight until it or its foe dies or its bearer calls it back.",
+        "Actions": "Raking pass. The griffon usually opens with a flying pass to rake with its claws, then lands. Its usual attack routine is two claws for 1d4+1 each and one beak strike for 2d8.\nEnlarge. Apply the wizard spell with double its usual duration. The enlarged griffon can carry a rider at full movement.\nWhispering wind and gust of wind. Use each spell up to three times per day. The griffon has all three spell effects in either active form.",
+        "Bearer benefits": "The Margrave of Zvornik and the Duke of Pachester ride theirs for ceremonies. The duke's magical saddle and harness improve flight maneuverability to B or C depending on the circumstances. While in telepathic contact, only magical weapons can hit the bearer.",
+        "Printed source": "pp. 44–47, 49"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Phoenix Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 49–50",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Phoenix Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": -3,
+      "hp": null,
+      "speed": "8, fly 48 class C in natural form. Humanoid form 18, fly 24 class B.",
+      "cr": "",
+      "hitDice": "8+3",
+      "thac0": 11,
+      "xp": 7000,
+      "otherStatistics": "Magic resistance 20%. High intelligence 13–14. Fearless morale 19–20.",
+      "description": "A five-foot bird with violet and red-orange plumage, ruby eyes, and a sapphire-blue beak. Its humanoid form still has feathers, claws and wings.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Regeneration. Restore 3 HP per round using the troll regeneration rule, including after death. Fire-based attacks have no effect. If other damage kills the phoenix, it turns to ash. A limited wish or destruct spell cast within one turn can prevent its return. Otherwise it rises as a bird of living flame with whatever HP it has recovered. This rebirth does not use any of the five daily immolations.",
+        "Actions": "Talons and beak. Two talon attacks deal 1d10 apiece and the beak deals 2d8. The bird uses only its beak while on the ground. The humanoid form can use all three attacks.\nImmolation, five times per day. Give up all attacks to burn for one round in either form. Anyone within 10 feet takes 8d6 fire damage, halved by a successful save vs. breath weapon.",
+        "Bearer benefits": "The Priest-King of Eshu gains the benefits of two extra experience levels while in contact with the phoenix. If the phoenix is killed and prevented from returning, the bearer loses four experience levels permanently.",
+        "Printed source": "pp. 44–46, 49–50"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Ram Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 49–51",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Ram Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 6,
+      "hp": null,
+      "speed": "16 in either form. Rough or broken ground does not slow the servant.",
+      "cr": "",
+      "hitDice": "5+4",
+      "thac0": 15,
+      "xp": 2000,
+      "otherStatistics": "Magic resistance 30%. Exceptional intelligence 15–16. Fanatic morale 17–18.",
+      "description": "A shaggy mountain ram with oversized horns. Its upright form keeps the horns, hooves and coat.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "The ram switches to humanoid form to fight unless its bearer directs otherwise. In that form it can use armor supplied by its bearer and absorb it when changing back. Both forms are immune to blunt weapons, magical or otherwise.",
+        "Actions": "Head-butt, ram form. One strike for 1d8 damage, inferred from the stated double-damage running head-butt of 2d8.\nMaces, humanoid form. The ram produces a double-headed mace in each hand and makes four attacks for 2d4 damage each. It reabsorbs the weapons on changing back.",
+        "Bearer benefits": "The Baron of Sedhuen gains immunity to blunt weapons while in contact with the ram or carrying the coat of arms with the inactive servant.",
+        "Printed source": "pp. 44–46, 49–51"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ],
+      "ruleNotes": [
+        "The table lists four 2d4 attacks for the humanoid mace routine. The natural-form prose gives a charging head-butt for 2d8 and calls it double damage."
+      ]
+    }
+  },
+  {
+    "name": "Sea Lion Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 51–52",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Sea Lion Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 3,
+      "hp": null,
+      "speed": "8 out of water, swim 18 in natural form. Humanoid form 12, swim 8.",
+      "cr": "",
+      "hitDice": "6+6",
+      "thac0": 13,
+      "xp": 3000,
+      "otherStatistics": "Natural AC 3 on the scaled body, where most attacks land, and AC 5 on the head. Humanoid AC 5 before armor. Magic resistance 20%. High intelligence 13–14. Fanatic morale 17–18.",
+      "description": "A lion-headed swimmer with a fish's tail. On land its tail can propel it a few feet above the ground. Its humanoid form still has gills and webbed rear feet.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Its magical field supports movement out of water. The humanoid form can wear armor.",
+        "Actions": "Claws and bite. Two claws deal 2d4 each and the bite deals 2d6. If both claws hit the same target in the round, the target loses its attack if it has yet to act. The bite against that mauled target gets +4 on the attack roll and deals double damage.\nRoar, three times per day. Declare the roar in place of the bite before any attack rolls. Enemies within 20 yards save vs. spell or suffer the effects of fear.",
+        "Bearer benefits": "The Lord Governor of Da Presa can breathe water and gains the combat benefits of a potion of heroism while in contact with the servant or carrying the coat of arms with it inactive.",
+        "Printed source": "pp. 44–46, 51–52"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Unicorn Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 53–55",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Unicorn Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 2,
+      "hp": null,
+      "speed": "24 printed movement.",
+      "cr": "",
+      "hitDice": "6+6",
+      "thac0": 13,
+      "xp": 5000,
+      "otherStatistics": "Natural AC 2. In humanoid form the chain mail gives AC 3. Magic resistance 15%. Exceptional intelligence 15–16. Fearless morale 19–20.",
+      "description": "A white unicorn with golden strands in its mane and tail. Its humanoid form is a young knight in white chain mail.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Sense true enemies within 240 yards. Both forms are immune to charm, hold and poison, and make other saves as an 11th-level wizard. The white mail vanishes if taken off. The servant must spend one full turn in natural form before the armor can reappear.",
+        "Actions": "Hooves and horn, natural form. Make two hoof attacks at 1d6 damage each and a horn attack at 1d12. The horn attack gets +2 to hit. If the unicorn has 30 feet to build up speed, it can charge with only the horn for 3d12 damage. The horn's touch dispels magic as an 11th-level wizard.\nLongsword, humanoid form. Make two attacks per round with a +2 longsword that dispels magic as the horn does.",
+        "Bearer benefits": "No bearer is named. Tradition says the servant is granted to a fair and just human or elven maiden. The bearer can sense true enemies and gains the servant's spell immunities while in contact with it.",
+        "Printed source": "pp. 44–46, 53–55"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Wyvern Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 53–55",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Wyvern Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 3,
+      "hp": null,
+      "speed": "6, fly 24 class D in natural form. Humanoid form 18 on land.",
+      "cr": "",
+      "hitDice": "7+7",
+      "thac0": 13,
+      "xp": 4000,
+      "otherStatistics": "Magic resistance 20%. High intelligence 13–14. Champion morale 15–16.",
+      "description": "A gray, two-legged reptile with broad wings and a stinging tail. Its humanoid form resembles a wingless lizardfolk.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "It cannot speak in either form. In natural form it uses hisses and growls, and both forms retain the telepathic link with its bearer.",
+        "Actions": "Bite and sting, natural form. The bite deals 2d8 damage. On a sting hit the target must save vs. type F poison or die. A successful save still leaves 2d3 damage. The wyvern favors a gliding approach that gives its victim a −2 surprise penalty.\nClaws, humanoid form. Two claw attacks deal 1d6 damage apiece.",
+        "Bearer benefits": "The Margrave of Slagovich can use poison three times per day as the reverse of the priest spell neutralize poison. This power works regardless of telepathic contact or whether the bearer carries the coat of arms.",
+        "Printed source": "pp. 44–46, 53–55"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  }
+]

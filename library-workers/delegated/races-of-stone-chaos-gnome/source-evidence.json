@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Chaos Gnome",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "book": "Races of Stone",
+    "authors": [
+      "David Noonan",
+      "Jesse Decker",
+      "Michelle Lyons"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2004",
+    "productCode": "620-96567000-001",
+    "isbn": "0-7869-3278-3",
+    "printedPages": {
+      "entryAndAppearance": 86,
+      "artAndTraits": 87,
+      "traitsContinued": 88
+    },
+    "pdfPages": {
+      "entryAndAppearance": 86,
+      "artAndTraits": 87,
+      "traitsContinued": 88
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "116ee9b23da70166a7c726a51bd2c1b0087882d92a8a1376088f9ce256a5992c",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Ron Spencer, unnamed Chaos Gnome, p. 87.",
+    "sourceDistinctions": [
+      "Luck of Chaos is one reroll of the gnome’s own roll, before the DM announces its result. The gnome keeps the reroll.",
+      "Spell Power applies to chaos-descriptor spells. The encounter cards distinguish the racial bonus from the Chaos domain bonus.",
+      "Entropic shield is available at any Charisma and stays at caster level 1. The other three daily spell-like abilities require Charisma 10 or higher.",
+      "The playable entry gives level adjustment +1 and supplies no racial Hit Dice. The staged NPCs and provisional CRs are original."
+    ],
+    "entryId": "species-23ac77eaf86ffaa392422132",
+    "versionKey": "bc9b9e779337bebf6b5b3d0c",
+    "slug": "chaos-gnome",
+    "portraitSelection": "generated",
+    "portraitForm": "Orrin Redwick, an original Chaos Gnome Sorcerer",
+    "npcExamples": [
+      "Orrin Redwick",
+      "Pella Reedchime"
+    ]
+  }
+]

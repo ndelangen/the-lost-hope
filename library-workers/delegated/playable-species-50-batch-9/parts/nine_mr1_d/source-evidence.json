@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Roc",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      178
+    ],
+    "page": "v2 p. 178, Roc Traits.",
+    "heading": "Roc Traits",
+    "creatureType": "Monstrosity",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Use the Medium player body, 50-ft. flight, and talon damage. The encounter roc’s attacks and carry-off mechanic do not supply additional player abilities.",
+      "Keen Sight adds 5 to passive Perception for tasks relying on sight under 2014 passive-check rules."
+    ]
+  },
+  {
+    "name": "Roper",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      178,
+      179
+    ],
+    "page": "v2 pp. 178–179, Roper Traits.",
+    "heading": "Roper Traits",
+    "creatureType": "Monstrosity",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Grasp uses ordinary grapple size and opposition. Reel contests Athletics only, as specified by this player trait.",
+      "The bonus strike uses the ordinary 5-ft. reach because Reel specifies no increased bite reach."
+    ]
+  },
+  {
+    "name": "Scarecrow",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      184
+    ],
+    "page": "v2 p. 184, Scarecrow Traits.",
+    "heading": "Scarecrow Traits",
+    "creatureType": "Construct",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The trait line’s reference to a stalagmite conflicts with its normal scarecrow appearance. Run it as an ordinary scarecrow.",
+      "The language continuation appears before the heading in the mirror’s extracted order. Its reading and writing specify no speech, which agrees with the Playing a Scarecrow text. This build chooses Halfling as the second language.",
+      "The supplement’s pp. 7–8 discuss construct recovery and lethal 0 HP for characters immune to unconsciousness."
+    ]
+  },
+  {
+    "name": "Shield Guardian",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      187
+    ],
+    "page": "v2 p. 187, Shield Guardian Traits.",
+    "heading": "Shield Guardian Traits",
+    "creatureType": "Construct",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The published character is unbound. The player traits omit the monster’s amulet bond, regeneration, spell storing, and the poison immunity mentioned in design notes.",
+      "The NPC’s Dueling style applies to its mace while carrying a shield. Its Shield trait is an independent reaction protecting an adjacent ally."
+    ]
+  },
+  {
+    "name": "Slaad",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      189,
+      190
+    ],
+    "page": "v2 pp. 189–190, Slaadi Traits.",
+    "heading": "Slaadi Traits",
+    "creatureType": "Aberration",
+    "sourceVersion": "v2 text mirror",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The source prints fire bold in the innate spell line. The encounter uses the 2014 fire bolt cantrip.",
+      "Green, Gray, and Death share one playable form and can change appearance through the printed progression.",
+      "Lichen Mouth uses the Green form’s statistics. The selected NPC has no Red or Blue infection traits."
+    ]
+  }
+]

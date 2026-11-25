@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Brownie",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "traits": [
+      "Small household fairy, about 2½ feet tall. Dexterity is the prime requisite. Starts at −2,000 XP with 1d8 HD, reaches 2d8 at 0 XP, and reaches level 1 and 3d8 at 2,000 XP. Attacks on the monster row for its HD and saves on the halfling row for that many levels, capped at halfling level 8.",
+      "Uses appropriately sized arms, armor and shields. The book lists human-sized weapons a brownie can handle and those it must wield two-handed. Uses fighter, dwarf and halfling magic items. From level 1, roll on Table 9 when trying magic-user, elf or fairy caster items. Outcomes are success, no effect, backfire or a DM-determined unusual effect.",
+      "Can hide from mortal sight at will, even before 0 XP. Fairies and others with second sight can see it. Suggested languages are Fairy, the local tongue, Halfling and the alignment language. Brownies can communicate with animals.",
+      "The Chaotic Redcap is a brownie option with shared underlying statistics and abilities. A redcap can use a pikestaff for 1d6 or a knife for 1d4. If disarmed, it can claw twice for 1d2 each and bite for 1 point. A struck flask of holy water inflicts 2d4 damage, and holy symbols or prayers can deter the creature."
+    ]
+  },
+  {
+    "name": "Dryad",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "traits": [
+      "An unattached dryad can adventure as a woodland creature class. Begins at −3,000 XP with 1d8 HD, reaches 2d8 at 0 XP, and keeps 2d8 at level 1 (3,000 XP). Natural descending AC 7 before Dexterity. Wisdom and Charisma are prime requisites, and saves follow the cleric table at the same level.",
+      "Uses magic-user weapon and armor restrictions and cleric non-weapon magic items. Communicates with plants. The suggested tongues are Dryad, local language, Elvish, Fairy, Treant and alignment language.",
+      "From 0 XP an unattached dryad can use charm person three times per day with a normal save. A dryad with a soul-tree can use the charm once per round and imposes −2 on the save, but suffers the tether to her tree. A dryad cannot gain XP or levels while bound. Hamadryads always have a soul-tree.",
+      "Druid spellcasting follows dryad level, with the first spell at level 2 and no Neutral alignment requirement. Plant shape starts at level 3. Odd levels thereafter add a form and daily use, and a change-and-return restores 1d4 HP per level, limited to half the damage suffered. At level 10 the dryad can invoke a monthly famine curse against a creature that harmed her soul-tree."
+    ]
+  },
+  {
+    "name": "Faun",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "traits": [
+      "Woodland creature class with a humanlike upper body and varied animal features. Dexterity is the prime requisite, and natural descending AC is 8 before Dexterity. Starts at 0 XP with 1d4 HD. Level 1 begins at 1,000 XP with 2d4, and level 5 begins at 16,000 XP with 6d4.",
+      "PC1 also uses satyr for a faun and sileni for older fauns. Uses weapons and armor that fit its body. Most magic items are available except those restricted to magic-users. Magical food, drink or instruments are allowed. Saves as a thief of the same level. Suggested languages are Dryad, the local tongue and alignment language. Fauns can communicate with animals.",
+      "From level 5, an instrument the faun knows how to play can amplify a listener’s existing impulse after at least a full round. A spell save starts at +4, drops a point per uninterrupted round and bottoms at −4 in round 9. Deaf or silenced listeners are immune. From round 5 each round also risks the faun falling under the same impulse.",
+      "At level 10 the spell save gains an additional −1, with another −1 each five levels. Five uninterrupted rounds of playing can also accelerate plant growth from level 10."
+    ],
+    "parentSpecies": "Satyr"
+  },
+  {
+    "name": "Hsiao",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "traits": [
+      "Owl-like woodland creature class with broad wings and golden eyes. Wisdom is the prime requisite. Progresses from 1d8 HD at −8,000 XP to 2d8 at −6,000 and 3d8 at −4,000, with natural descending AC 8, 7 and 6. At 0 XP its normal monster tier has 4d8 and AC 5. Level 1 starts at 8,000 XP and 5d8.",
+      "Saves as a cleric of the same level. Spellcasting advances four cleric levels ahead once at numbered levels, up to the level-15 cleric allotment. Use Table 5 for the younger and mature tiers. The mature tier has two first-circle and one second-circle spells.",
+      "Has two claws and one bite for three attack rolls. At 0 XP each claw deals 1d6 and the bite deals 1d4. The creature cannot wield weapons or use ordinary armor. Tailored armor and cleric non-weapon, non-armor magic items are possible when physically suitable.",
+      "With at most 20 coins of encumbrance it flies 210 ft. per turn and 70 ft. per round. With at most 100 coins it walks 90 ft. per turn and 30 ft. per round. Suggested languages are Hsiao, local language, Centaur, Dryad, Elvish, Fairy, Treant and alignment language. Hsiao can communicate with birds."
+    ]
+  },
+  {
+    "name": "Leprechaun",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "traits": [
+      "Fairy about nine inches tall. Intelligence and Dexterity are prime requisites. Has ¼ HD (1–2 HP before Constitution) at 0 XP. At 2,000 XP, level 1 adds a second 1–2 HP roll and one first-circle fairy spell. Table 10 gives 2d4 HD at 4,000 XP and caps the spell allotment at level 12.",
+      "Can become invisible to mortals, but a mortal already watching the leprechaun must look away before the leprechaun can vanish from that observer’s sight. Fairies and others with second sight can see it. The cellar-keeping clurachaun is a variety within this entry.",
+      "Can wield suitably miniature weapons and wear miniature armor without limiting its spells. The example miniature sword deals 1d3. Uses magic items other than cleric-only items. Saves as elf level 1 at 0 XP, as elf of the same level at levels 1–9 and as elf level 10 thereafter.",
+      "Suggested languages are Fairy, the local tongue, Elvish, Gnome and alignment language. Leprechauns can communicate with animals. The book offers optional Fairy Charms substitutions centered on creating or finding objects."
+    ]
+  }
+]

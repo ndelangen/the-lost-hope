@@ -1,0 +1,353 @@
+[
+  {
+    "name": "Aquatic Remnant",
+    "decision": "separate",
+    "pages": "p. 178",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Aquatic Remnant",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Aquatic, Incorporeal)",
+      "ac": 15,
+      "hp": 19,
+      "hitDice": "3d12",
+      "cr": "3",
+      "speed": "Swim 40 ft. (8 squares)",
+      "abilities": {
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The spirit of a laborer buried in water lingers above the site where its body was discarded.",
+      "otherStatistics": "Any aquatic environment. Solitary, gang of 2–5, or swarm of 6–11. Usually chaotic neutral. No treasure. Advancement 4–8 HD (Medium). No level adjustment. Knows its languages from life and needs magic to communicate.",
+      "sections": {
+        "Combat statistics": "Initiative +2. AC +2 Dex, +2 deflection, +1 natural. Touch 14, flat-footed 13. Base attack +1, printed grapple +1. Space and reach 5 ft. each. Fort +1, Ref +3, Will +4.",
+        "Skills and feats": "Hide +10, Listen +12, Search +5, Sense Motive +4, Spot +8. Blind-Fight.",
+        "Traits": "Undead traits and incorporeal subtype. The remnant stays in the body of water that holds its remains. Burial of those remains on consecrated ground puts it to rest.",
+        "Actions": "Attack or full attack. Incorporeal touch +3 melee for 1d4 Dexterity drain. A living target reduced to Dexterity 0 by this attack cannot move because of hypothermia and drowns unless helped.\nGift of Breath (Sp, 1/day). Breathe into one living creature’s mouth to grant water breathing while contact continues.\nManifestation (Su). The remnant normally cannot interact with the Material Plane. When it manifests, it becomes visible and can use its touch attack while remaining incorporeal. Creatures on either the Ethereal or Material Plane can attack it while it is manifested.",
+        "Printed source": "p. 178"
+      },
+      "ruleNotes": [
+        "The printed block includes natural armor and a grapple modifier despite the incorporeal subtype. Use the printed AC and apply the normal incorporeal restriction on grappling."
+      ]
+    }
+  },
+  {
+    "name": "Sea Spawn Master",
+    "decision": "separate",
+    "pages": "pp. 182–183",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Sea Spawn Master",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Aberration (Aquatic)",
+      "ac": 16,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "cr": "5",
+      "speed": "20 ft. (4 squares), swim 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A mucus-coated sea spawn waits offshore while its minions infiltrate fishing villages and bring it prey.",
+      "otherStatistics": "Any aquatic environment. Solitary. Usually lawful evil. Standard treasure, usually in its underwater lair. Advancement 11–16 HD (Large). No level adjustment or spoken language.",
+      "sections": {
+        "Combat statistics": "Initiative +5. AC −1 size, +1 Dex, +6 natural. Touch 10, flat-footed 15. Base attack +7, grapple +11. Space 5 ft. and reach 10 ft. as printed. Fort +6, Ref +4, Will +9.",
+        "Skills and feats": "Escape Artist +4, Listen +7, Move Silently +10, Search +9, Spot +9, Survival +9. Improved Initiative, Iron Will, Multiattack.",
+        "Traits": "The master drowns in air as a human does underwater.\nSlime (Ex). Its coating works like oil of slipperiness. It also has a printed +10 racial bonus on Escape Artist checks against webs, nets, and similar restraints.\nTelepathy (Su). It stays in telepathic contact with its own minions and aquatic allies. If a minion or host is threatened, the master can call on the others nearby.",
+        "Actions": "Attack. Claw +11 melee for 1d6 + 4. The attack line omits damage. The full-attack line supplies it.\nFull attack. Two claws +11 melee (1d6 + 4 each) and bite +9 melee (2d6 + 2 plus disease).\nDisease (Ex). A bitten target makes a DC 18 Fortitude save. On failure, the wound becomes infected immediately. HP lost to infected wounds cannot heal naturally before remove disease or equivalent magic.\nAquatic Allies (Su, 2/day). As summon nature’s ally IV at caster level 10th, limited to aquatic creatures. Summoned creatures arrive in 1d4 rounds.",
+        "Tactics": "A master targeting a coastal community releases 3d6 minions near shore each night until they have taken it over. Roughly one in ten reaches shore. During the day, the master coordinates its minions from a trance in its lair. It sends allies to fight for it and tries to get back into water if forced out.",
+        "Printed source": "pp. 182–183"
+      },
+      "ruleNotes": [
+        "The printed space is 5 ft. despite the Large classification. The single-target claw uses damage from the full-attack line."
+      ]
+    }
+  },
+  {
+    "name": "Red Widow",
+    "decision": "separate",
+    "pages": "pp. 176–177",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Red Widow",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Aberration (Shapechanger)",
+      "ac": 18,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "cr": "6",
+      "speed": "30 ft. (6 squares), climb 20 ft. in spider form",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A red-haired stranger lures prey into a webbed hideout, then drops the disguise and reveals a red-and-black spider.",
+      "otherStatistics": "Any temperate or cold land. Solitary or pair. Usually neutral evil. Standard treasure. Advancement 7–9 HD (Medium) or 10–12 HD (Large). No level adjustment. Speaks its homeland’s domain languages.",
+      "sections": {
+        "Combat statistics": "Initiative +6 in either form. Base attack +4, grapple +6. Space and reach 5 ft. each. Fort +7, Ref +7, Will +6 in both forms.",
+        "Humanoid form": "AC 12 (+2 Dex), touch 12, flat-footed 10. Speed 30 ft. Attack or full attack is one unarmed strike +6 melee (1d3 + 2).",
+        "Spider form": "AC 18 (+2 Dex, +6 natural), touch 12, flat-footed 16. Speed 30 ft., climb 20 ft. Attack or full attack is one bite +6 melee (1d4 + 2 plus poison). The widow’s special attacks are limited to this form.",
+        "Skills and feats": "Bluff +14, Climb +10, Diplomacy +12, Listen +3, Sense Motive +10 in either form. Humanoid Jump +4 and Spot +3. Spider Hide +6, Jump +10, Move Silently +6, and Spot +11. The listed skill totals include racial bonuses to Bluff, Diplomacy, and Sense Motive and, in spider form, to Jump and Spot. The widow also gains a +8 competence bonus to Hide and Move Silently around its webs. Alertness, Improved Initiative (bonus), Skill Focus (Bluff).",
+        "Traits": "Darkvision 60 ft.\nAlternate Form (Su). As a standard action, assume its one specific humanoid form as if using polymorph. Gear stays as it is. Death restores spider form. A widow can switch forms while maintaining a pin.",
+        "Actions": "Use the attack listed for the current form.\nPoison (Ex). On a bite hit, Fortitude DC 15. Initial damage 1d6 Strength, secondary damage 2d6 Strength.\nFluid Drain (Ex). In spider form, pin a living creature using a successful grapple check to drain 1d4 Constitution per round the pin holds. Each Constitution point consumed sustains the widow for a day.\nWeb (Ex). Use the 3.5 Medium monstrous spider rules. Throw a web up to eight times per day as a net-like ranged touch attack (10-ft. range increment, 50-ft. maximum) against a target up to Large. A trapped creature can spend a standard action to attempt DC 12 Escape Artist or DC 16 Strength. A Medium web has 6 HP. A widow that wins an opposed Strength check against a webbed victim can pull it 10 ft. closer as a standard action.\nInfest (Ex). A widow can implant 2d4 eggs in a paralyzed mate once a year and wrap the target in webbing. Remove the eggs before they hatch in 1d6 days. After hatching each young deals 1 HP of damage to the host per day. Immature young use monstrous spider statistics until they mature at one year.",
+        "Printed source": "pp. 176–177"
+      },
+      "ruleNotes": [
+        "The habitat and combat prose describe paralysis during infestation, but the Poison entry specifies Strength damage and supplies no separate paralysis rules."
+      ]
+    }
+  },
+  {
+    "name": "Reaver",
+    "decision": "separate",
+    "pages": "pp. 175–176",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Reaver",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Monstrous Humanoid (Aquatic)",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "cr": "4",
+      "speed": "20 ft. (4 squares), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A fishlike raider uses its blade-edged scales to cut creatures it gets hold of. In groups, reavers strike boats or houses after dark.",
+      "otherStatistics": "Temperate or warm aquatic environments, notably the Sea of Sorrows. Solitary or school of 10–15. Always chaotic evil. Standard treasure. Advances by character class, level adjustment +3. Communicates with hisses and ultrasonic calls.",
+      "sections": {
+        "Combat statistics": "Initiative +0. AC +6 natural. Touch 10, flat-footed 16. Base attack +4, grapple +8. Space and reach 5 ft. each. Fort +2, Ref +4, Will +6.",
+        "Skills and feats": "Hide +6, Listen +5, Move Silently +4, Profession (hunter) +4, Spot +5, Survival +4. Add a +4 racial bonus to each of those underwater. Cleave and Power Attack.",
+        "Traits": "Amphibious (Ex). It breathes air and water. After 1 hour per point of Constitution out of water, apply the drowning rules.",
+        "Actions": "Attack. Claw +8 melee (1d6 + 4).\nFull attack. Two claws +8 melee (1d6 + 4 each) and bite +3 melee (1d4 + 2).\nImproved Grab (Ex). A single claw hit can start a grapple against a target up to Small. Both claws must hit the same target to grab an opponent up to Medium.\nCutting Scales (Ex). A creature grappling the reaver takes 1d6 slashing damage automatically, regardless of which creature began the grapple.",
+        "Printed source": "pp. 175–176"
+      }
+    }
+  },
+  {
+    "name": "Ravenkin",
+    "decision": "separate",
+    "pages": "pp. 173–174",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Ravenkin",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Monstrous Humanoid",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d8",
+      "cr": "2",
+      "speed": "Fly 60 ft. (good, 12 squares)",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An oversized black bird with a taste for bright trinkets. A ravenkin shares magic with ordinary ravens and may trade information with someone it trusts.",
+      "otherStatistics": "Any temperate land. Solitary, murder of 5–20, or community of 100–200 plus 10% noncombatants and 200–300 ravens. Always good, usually neutral good. Standard treasure. Advances by character class, level adjustment +2. Speaks Ravenkin and usually at least one domain language.",
+      "sections": {
+        "Combat statistics": "Initiative +8. AC +1 size and +4 Dex. Touch 15, flat-footed 11. Base attack +2, grapple +1 as printed. Space and reach 5 ft. each. Fort +1, Ref +7, Will +5.",
+        "Skills and feats": "Appraise +12, Concentration +7, Gather Information +10, Knowledge (arcana) +12, Listen +10, Sense Motive +10, Spot +12. +8 racial bonus on Appraise, Gather Information, Survival, and Spot. Improved Critical (bite), Improved Initiative, Flyby Attack, Still Spell, and Weapon Finesse. All listed except Flyby Attack are bonus feats.",
+        "Traits": "Ravenlink (Su). Can share spells with an ordinary raven within 5 ft. At 3 HD or more, can deliver touch spells through an ordinary raven within 60 ft. At 13 HD or more, it can touch an ordinary raven once per day to scry through it as a spellcaster would through a familiar.",
+        "Actions": "Attack or full attack. Bite +7 melee (1d3 − 1), threat range 19–20.\nEye Peck (Ex). A confirmed critical hit with the bite removes one eye. A target left with only one eye takes a −2 competence penalty to Dexterity-modified rolls. A creature that loses all eyes is blinded. Only regenerate or heal can reverse this blindness.\nSpells. Casts as a 1st-level sorcerer. Choose the spells when preparing the encounter, since the printing does not give a spells-known list. It uses Still Spell to cast while flying.",
+        "Printed source": "pp. 173–174"
+      },
+      "ruleNotes": [
+        "The printed grapple modifier is +1, although base attack +2, Strength 9 and Small size ordinarily total −3. The encounter retains the printed number."
+      ]
+    }
+  },
+  {
+    "name": "Witchbane Leech",
+    "decision": "separate",
+    "pages": "p. 126",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Witchbane Leech",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Fine Vermin",
+      "ac": 16,
+      "hp": 1,
+      "hitDice": "1/8 d8",
+      "cr": "1/4",
+      "speed": "1 ft. (1/5 square), climb 1/2 ft., swim 2 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 6
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 2
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A purple leech slips under clothing and interferes with a host’s magic. Its anesthetic coating makes a bite easy to miss.",
+      "otherStatistics": "Any marsh. No listed organization. Always neutral. No treasure, advancement or level adjustment.",
+      "sections": {
+        "Combat statistics": "Initiative −2. AC 16, listed as +8 size and −2 Dex. Touch 8 and flat-footed 16 as printed. Base attack +0, grapple −16. Space 1/2 ft., reach 0 ft. Fort −2, Ref −2, Will −4.",
+        "Skills and feats": "Hide +14. No feats listed.",
+        "Actions": "Attack or full attack. Bite +0 melee, attaching on a hit without dealing damage. Roll 1d10 bite attacks against each suitable host for each hour in an infested area. A host has to be alive and have a circulatory system. The leeches favor creatures with magical abilities.\nMagical Interference (Su). Add 5 percentage points of spell failure per attached leech. This can also cause divine spells and supernatural or spell-like abilities to fail even if they normally have no spell failure chance. An infested host cannot regain expended spells or uses of limited-use supernatural or spell-like abilities.\nRemoval. DC 11 Heal check, or DC 13 Dexterity check with hands or a suitable appendage. The Dexterity DC increases to 23 without one.",
+        "Printed source": "p. 126"
+      },
+      "ruleNotes": [
+        "The printed regular and touch AC do not agree with the listed size and Dexterity modifiers. Both values are retained."
+      ]
+    }
+  },
+  {
+    "name": "Shadow Asp",
+    "decision": "separate",
+    "pages": "p. 184",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Shadow Asp",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny Magical Beast",
+      "ac": 17,
+      "hp": 4,
+      "hitDice": "1/2 d10 − 1",
+      "cr": "2",
+      "speed": "20 ft. (4 squares)",
+      "abilities": {
+        "Str": {
+          "score": 4
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A cobra made of shadow wards tombs in Har’Akir. It strikes anyone alive who enters its assigned chamber.",
+      "otherStatistics": "Any land or underground in the Amber Wastes. Brood of 5–30. Always neutral. No treasure. Advancement 1–2 HD (Small) or 3–4 HD (Medium). No level adjustment.",
+      "sections": {
+        "Combat statistics": "Initiative +8. AC +2 size, +4 Dex as printed, +1 natural. Touch 16, flat-footed 13. Base attack +0, grapple −11. Space 2-1/2 ft., reach 0 ft. Fort +2, Ref +7, Will +1.",
+        "Skills and feats": "Balance +13, Climb +13, Hide +24, Listen +6, Spot +6. Weapon Finesse. Gets skills as an animal. Gains +4 racial Listen and Spot and +8 racial Balance and Hide. It can use Dexterity for Climb.",
+        "Traits": "DR 5/slashing or magic. Darkvision 60 ft. and low-light vision.\nSilent (Ex). Its movement never makes a sound.\nVulnerability to Light (Su). Light, continual light, or daylight kills an asp instantly if the spell targets the asp. No saving throw.",
+        "Actions": "Attack or full attack. Bite +3 melee (1d2 − 3 plus poison, minimum 1 point of bite damage under the standard damage rule).\nShadow Poison (Su). Fortitude DC 15 after a bite. Initial damage 1 Strength, secondary damage 2d6 Strength. The victim’s skin darkens while affected. At Strength 0, the victim dies and makes a second DC 15 Fortitude save. On success the body fades into shadow. On failure the victim becomes a shadow bound to the asp’s warded area, otherwise free-willed.",
+        "Summoning": "Summon monster III can summon a shadow asp. A lost Akiri spell could summon 5d6 and bind them to a tomb permanently.",
+        "Printed source": "p. 184"
+      },
+      "ruleNotes": [
+        "The printing gives Dexterity 20 alongside +4 Dex to AC. The attack and defense numbers use the printed values."
+      ]
+    }
+  }
+]

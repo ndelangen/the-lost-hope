@@ -1,0 +1,544 @@
+{
+  "entries": [
+    "Aberrant Zealot (Tentacled)\tmonster\tAberration\tPhandelver and Below: The Shattered Obelisk\t2014 fifth edition\tWizards of the Coast\t\t8\n",
+    "Goblin Boss Archer\tmonster\tHumanoid\tPhandelver and Below: The Shattered Obelisk\t2014 fifth edition\tWizards of the Coast\t\t1\n"
+  ],
+  "profiles": [
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "name": "Aberrant Zealot (Tentacled)",
+      "kind": "monster",
+      "ruleset": "dnd-5e-2014",
+      "combat": {
+        "armorClass": 16,
+        "hitPoints": 93,
+        "hitDice": "17d8 + 17",
+        "challenge": "8",
+        "creatureType": "Aberration",
+        "size": "Medium",
+        "speed": {
+          "walk": 30
+        },
+        "abilities": {
+          "Str": 15,
+          "Dex": 18,
+          "Con": 12,
+          "Int": 13,
+          "Wis": 8,
+          "Cha": 19
+        },
+        "passivePerception": 15,
+        "savingThrows": {
+          "Dex": 7,
+          "Cha": 7
+        },
+        "traitNames": [
+          "Aberrant Form",
+          "Weirdly Pliable"
+        ],
+        "actionNames": [
+          "Multiattack",
+          "Psychic Rend",
+          "Shortsword",
+          "Mind Blast (Recharge 5–6)"
+        ],
+        "bonusActionNames": [
+          "Void Warp (Recharge 5–6)"
+        ],
+        "attacks": [
+          {
+            "name": "Shortsword",
+            "hitBonus": 7,
+            "mode": "melee",
+            "damage": [
+              {
+                "average": 7,
+                "dice": "1d6 + 4",
+                "type": "piercing"
+              },
+              {
+                "average": 7,
+                "dice": "2d6",
+                "type": "psychic"
+              }
+            ],
+            "reach": 15
+          }
+        ]
+      }
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "name": "Goblin Boss Archer",
+      "kind": "monster",
+      "ruleset": "dnd-5e-2014",
+      "combat": {
+        "armorClass": 17,
+        "hitPoints": 21,
+        "hitDice": "6d6",
+        "challenge": "1",
+        "creatureType": "Humanoid",
+        "size": "Small",
+        "speed": {
+          "walk": 30
+        },
+        "abilities": {
+          "Str": 10,
+          "Dex": 14,
+          "Con": 10,
+          "Int": 10,
+          "Wis": 8,
+          "Cha": 10
+        },
+        "passivePerception": 9,
+        "habitats": [
+          "underdark",
+          "grassland",
+          "forest",
+          "hill"
+        ],
+        "traitNames": [
+          "Nimble Escape"
+        ],
+        "actionNames": [
+          "Multiattack",
+          "Scimitar",
+          "Shortbow"
+        ],
+        "reactionNames": [
+          "Redirect Attack"
+        ],
+        "attacks": [
+          {
+            "name": "Scimitar",
+            "hitBonus": 4,
+            "mode": "melee",
+            "damage": [
+              {
+                "average": 5,
+                "dice": "1d6 + 2",
+                "type": "slashing"
+              }
+            ],
+            "reach": 5
+          },
+          {
+            "name": "Shortbow",
+            "hitBonus": 4,
+            "mode": "ranged",
+            "damage": [
+              {
+                "average": 5,
+                "dice": "1d6 + 2",
+                "type": "piercing"
+              }
+            ],
+            "range": [
+              80
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "references": [
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "name": "Aberrant Zealot (Tentacled)",
+      "kind": "monster",
+      "pageUrl": "https://5e.tools/bestiary.html#aberrant%20zealot%20(tentacled)_pabtso",
+      "artwork": [
+        {
+          "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/PaBTSO/Aberrant%20Zealot%20%28Tentacled%29.webp",
+          "kind": "token"
+        }
+      ]
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "name": "Goblin Boss Archer",
+      "kind": "monster",
+      "pageUrl": "https://5e.tools/bestiary.html#goblin%20boss%20archer_pabtso",
+      "artwork": [
+        {
+          "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/PaBTSO/Goblin%20Boss%20Archer.webp",
+          "kind": "token"
+        }
+      ]
+    }
+  ],
+  "monster-context.json": [
+    {
+      "name": "Aberrant Zealot (Tentacled)",
+      "group": "Creatures",
+      "source": "PaBTSO",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "edition": "2014 fifth edition",
+      "page": 181,
+      "url": "https://5e.tools/bestiary.html#aberrant%20zealot%20(tentacled)_pabtso",
+      "description": "A Medium aberration with challenge rating 8. Named abilities include Aberrant Form, Weirdly Pliable, Psychic Rend.",
+      "facts": [
+        [
+          "Type",
+          "aberration"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Alignment",
+          "chaotic evil"
+        ],
+        [
+          "Armor class",
+          "16 · studded leather armor"
+        ],
+        [
+          "Hit points",
+          "93"
+        ],
+        [
+          "Hit dice",
+          "17d8 + 17"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Challenge",
+          "8"
+        ],
+        [
+          "Strength",
+          "15"
+        ],
+        [
+          "Dexterity",
+          "18"
+        ],
+        [
+          "Constitution",
+          "12"
+        ],
+        [
+          "Intelligence",
+          "13"
+        ],
+        [
+          "Wisdom",
+          "8"
+        ],
+        [
+          "Charisma",
+          "19"
+        ],
+        [
+          "Passive Perception",
+          "15"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Saving throws",
+          "lines": [
+            "Dexterity +7, Charisma +7"
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Perception +5"
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "darkvision 60 ft., truesight 10 ft."
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "Common, Deep Speech"
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "psychic"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "blinded, charmed, frightened, grappled, restrained"
+          ]
+        },
+        {
+          "title": "Traits reference",
+          "lines": [
+            "Aberrant Form · DC 15 Wisdom save · 2d6 psychic damage · within 5 feet",
+            "Weirdly Pliable"
+          ]
+        },
+        {
+          "title": "Actions reference",
+          "lines": [
+            "Multiattack",
+            "Psychic Rend · Melee or ranged attack · +7 to hit · 3d6 + 4 psychic damage · DC 15 Wisdom save · reach 15 ft. · range 120 ft. · Stunned",
+            "Shortsword · Melee attack · +7 to hit · 1d6 + 4 piercing damage · 2d6 psychic damage · reach 15 ft.",
+            "Mind Blast (Recharge 5–6) · DC 15 Intelligence save · 4d8 + 4 psychic damage · 60-foot cone · 1 minute · Repeat the save at the end of each turn · Stunned"
+          ]
+        },
+        {
+          "title": "Bonus actions reference",
+          "lines": [
+            "Void Warp (Recharge 5–6) · DC 15 Strength save · 4d8 force damage · within 120 feet · within 30 feet"
+          ]
+        },
+        {
+          "title": "Spellcasting reference",
+          "lines": [
+            "Spellcasting (Psionics) · Charisma · DC 15 · Detect thoughts · Minor illusion · Arcane gate · Hunger of Hadar",
+            "At will · detect thoughts, minor illusion",
+            "1/day each · arcane gate, hunger of Hadar"
+          ]
+        },
+        {
+          "title": "Adapted from",
+          "lines": [
+            "Aberrant Zealot"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "Studded leather armor (item)",
+          "url": "https://5e.tools/items.html#studded%20leather%20armor_phb"
+        },
+        {
+          "label": "Detect thoughts (spell)",
+          "url": "https://5e.tools/spells.html#detect%20thoughts_phb"
+        },
+        {
+          "label": "Minor illusion (spell)",
+          "url": "https://5e.tools/spells.html#minor%20illusion_phb"
+        },
+        {
+          "label": "Arcane gate (spell)",
+          "url": "https://5e.tools/spells.html#arcane%20gate_phb"
+        },
+        {
+          "label": "Hunger of Hadar (spell)",
+          "url": "https://5e.tools/spells.html#hunger%20of%20hadar_phb"
+        },
+        {
+          "label": "Stunned (condition)",
+          "url": "https://5e.tools/conditionsdiseases.html#stunned_phb"
+        },
+        {
+          "label": "Aberrant Zealot (creature)",
+          "url": "https://5e.tools/bestiary.html#aberrant%20zealot_pabtso"
+        }
+      ],
+      "status": "Encounter reference"
+    },
+    {
+      "name": "Goblin Boss Archer",
+      "group": "Creatures",
+      "source": "PaBTSO",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "edition": "2014 fifth edition",
+      "page": 60,
+      "url": "https://5e.tools/bestiary.html#goblin%20boss%20archer_pabtso",
+      "description": "A Small humanoid with challenge rating 1. Named abilities include Nimble Escape, Scimitar, Shortbow.",
+      "facts": [
+        [
+          "Type",
+          "humanoid"
+        ],
+        [
+          "Creature tags",
+          "goblinoid"
+        ],
+        [
+          "Size",
+          "Small"
+        ],
+        [
+          "Alignment",
+          "neutral evil"
+        ],
+        [
+          "Armor class",
+          "17 · chain shirt, shield"
+        ],
+        [
+          "Hit points",
+          "21"
+        ],
+        [
+          "Hit dice",
+          "6d6"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Challenge",
+          "1"
+        ],
+        [
+          "Strength",
+          "10"
+        ],
+        [
+          "Dexterity",
+          "14"
+        ],
+        [
+          "Constitution",
+          "10"
+        ],
+        [
+          "Intelligence",
+          "10"
+        ],
+        [
+          "Wisdom",
+          "8"
+        ],
+        [
+          "Charisma",
+          "10"
+        ],
+        [
+          "Passive Perception",
+          "9"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Skills",
+          "lines": [
+            "Stealth +6"
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "Common, Goblin"
+          ]
+        },
+        {
+          "title": "Traits reference",
+          "lines": [
+            "Nimble Escape · Disengage · Hide"
+          ]
+        },
+        {
+          "title": "Actions reference",
+          "lines": [
+            "Multiattack",
+            "Scimitar · Melee attack · +4 to hit · 1d6 + 2 slashing damage · reach 5 ft.",
+            "Shortbow · Ranged attack · +4 to hit · 1d6 + 2 piercing damage · range 80 ft."
+          ]
+        },
+        {
+          "title": "Reactions reference",
+          "lines": [
+            "Redirect Attack · within 5 feet"
+          ]
+        },
+        {
+          "title": "Adapted from",
+          "lines": [
+            "Goblin Boss"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "Chain shirt (item)",
+          "url": "https://5e.tools/items.html#chain%20shirt_phb"
+        },
+        {
+          "label": "Shield (item)",
+          "url": "https://5e.tools/items.html#shield_phb"
+        },
+        {
+          "label": "Disengage (action)",
+          "url": "https://5e.tools/actions.html#disengage_phb"
+        },
+        {
+          "label": "Hide (action)",
+          "url": "https://5e.tools/actions.html#hide_phb"
+        },
+        {
+          "label": "Goblin Boss (creature)",
+          "url": "https://5e.tools/bestiary.html#goblin%20boss_mm"
+        }
+      ],
+      "status": "Encounter reference"
+    }
+  ],
+  "image-credits.json": [
+    {
+      "name": "Aberrant Zealot (Tentacled)",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "edition": "2014 fifth edition",
+      "entityKind": "monster",
+      "file": "images/monsters/aberrant-zealot-tentacled/pabtso-1.webp",
+      "sha256": "b3f9faf4cadc9cab8f8b9c7986689f4ab01f15856a63b3b00086cc33eebf2789",
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/PaBTSO/Aberrant%20Zealot%20%28Tentacled%29.webp",
+      "kind": "token"
+    },
+    {
+      "name": "Goblin Boss Archer",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "edition": "2014 fifth edition",
+      "entityKind": "monster",
+      "file": "images/monsters/goblin-boss-archer/pabtso-1.webp",
+      "sha256": "c1fa8591de1358e5ebf9a555ee3b9c158416322b02583f80375d5ba139720935",
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/PaBTSO/Goblin%20Boss%20Archer.webp",
+      "kind": "token"
+    }
+  ],
+  "compendium-index.json": [
+    {
+      "name": "Aberrant Zealot (Tentacled)",
+      "group": "Creatures",
+      "source": "PaBTSO",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "page": 181,
+      "url": "https://5e.tools/bestiary.html#aberrant%20zealot%20(tentacled)_pabtso",
+      "facts": [],
+      "sections": [],
+      "references": []
+    },
+    {
+      "name": "Goblin Boss Archer",
+      "group": "Creatures",
+      "source": "PaBTSO",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "page": 60,
+      "url": "https://5e.tools/bestiary.html#goblin%20boss%20archer_pabtso",
+      "facts": [],
+      "sections": [],
+      "references": []
+    }
+  ]
+}

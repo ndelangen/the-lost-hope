@@ -1,0 +1,145 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -313499,6 +313499,19 @@
+       ]
+     },
+     {
++      "name": "Aasimar",
++      "kind": "species",
++      "publication": "Planar Handbook (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Outsider (Native) from the Material Plane. The book gives the Extraplanar subtype away from the Material Plane. Under the core rules, creatures lack the Extraplanar subtype on transitive planes. Humanoid-only effects such as charm person do not affect an Aasimar.",
++        "+2 Wisdom and +2 Charisma. Land speed 30 ft., darkvision 60 ft., and +2 racial bonuses on Listen and Spot.",
++        "Acid resistance 5, cold resistance 5, and electricity resistance 5.",
++        "Daylight (Sp) once per day. Caster level equals character level, excluding level adjustment. The effect sheds bright light, applies bright-light penalties, and does not damage or destroy creatures that require actual sunlight to be harmed.",
++        "Automatic languages are Common and Celestial. Bonus languages are Draconic, Dwarven, Elven, Gnome, Halfling, and Sylvan. Favored class Paladin. LA +1. No racial Hit Dice are listed."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Sword Coast Adventurer's Guide",
+       "name": "Half-Elf (Variant; Drow Descent; Skill Versatility)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -2927,6 +2927,78 @@
+       "tactics": "Kethan asks the party to check the downhill anchors before he crosses to rig a line. He takes a standing jump across the break and can climb at half speed while attaching the line. If cornered on the path, he uses the longspear at 10 ft. and the club up close."
+     },
+     {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Celestial",
++      "speed": "20 ft. in armor (base land speed 30 ft.)",
++      "id": "aasimar-vale-lantern-escort-35e",
++      "title": "Aasimar lantern escort, Paladin 1",
++      "ac": 16,
++      "hp": 12,
++      "hitDice": "1d10+2",
++      "initiative": 1,
++      "type": "Outsider (Native)",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 12,
++        "CON": 14,
++        "INT": 10,
++        "WIS": 14,
++        "CHA": 16
++      },
++      "skills": ["Diplomacy +7", "Heal +6", "Listen +4", "Spot +4"],
++      "traits": [
++        "Lawful good. Material Plane. Scale mail +4, light wooden shield +1, Dexterity +1. Touch 11, flat-footed 15. BAB +1, grapple +4. Fortitude +4, Reflex +1, Will +2.",
++        "Acid resistance 5, cold resistance 5, and electricity resistance 5.",
++        "Aura of good. Detect evil at will as the spell. Weapon Focus (longsword) adds +1 to longsword attack rolls."
++      ],
++      "actions": [
++        "Longsword +5 melee, 1d8+3 slashing, critical 19–20/×2. Smite Evil 1/day with a normal melee attack. With the longsword against an evil target, attack at +8 for 1d8+4. An attempt against a non-evil target has no smite effect and uses the daily use.",
++        "Daylight (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Bright light in a 60-ft. radius and dim light for another 60 ft. Lasts 10 minutes and can be dismissed. It applies bright-light penalties. Creatures damaged or destroyed by actual sunlight take no such damage from daylight."
++      ],
++      "tactics": "Iona leads the last ferrymen out of a dark quay passage. She puts daylight on a lantern and gives it to a ferryman so she can defend the group. Save Smite Evil for a confirmed evil foe."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Celestial",
++      "speed": "20 ft. in armor (base land speed 30 ft.)",
++      "id": "aasimar-mere-ysgard-stair-keeper-35e",
++      "title": "Aasimar Ysgard stair keeper, Cleric 1",
++      "ac": 16,
++      "hp": 10,
++      "hitDice": "1d8+2",
++      "initiative": 4,
++      "type": "Outsider (Native, Extraplanar)",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 10,
++        "CON": 14,
++        "INT": 10,
++        "WIS": 16,
++        "CHA": 14
++      },
++      "skills": ["Concentration +6", "Heal +7", "Listen +5", "Spot +5"],
++      "traits": [
++        "Neutral good, cleric of Pelor. This encounter takes place on Ysgard. Chainmail +5 and light wooden shield +1. Touch 10, flat-footed 16. BAB +0, grapple +1. Fortitude +4, Reflex +0, Will +5. Improved Initiative adds +4 initiative.",
++        "Acid resistance 5, cold resistance 5, and electricity resistance 5.",
++        "Healing and Sun domains. Healing adds +1 caster level to spells of the Healing subschool, including spontaneous cures. Once per day use greater turning in place of a regular turning attempt. Undead that would be turned by that attempt are destroyed instead."
++      ],
++      "actions": [
++        "Heavy mace +1 melee, 1d8+1 bludgeoning, critical ×2.",
++        "Turn undead 5/day. Turning check 1d20+2 determines the highest individual HD affected. Turning damage is 2d6+3 total HD. One attempt may be greater turning.",
++        "Prepared cleric spells, CL 1 unless stated. Cantrips are detect magic, guidance, and light. First-level spells are bless and protection from evil. Domain slot is cure light wounds at CL 2 for 1d8+2 healing.",
++        "Daylight (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Bright light in a 60-ft. radius and dim light for another 60 ft. Lasts 10 minutes and can be dismissed. It applies bright-light penalties. Creatures damaged or destroyed by actual sunlight take no such damage from daylight."
++      ],
++      "tactics": "Teren keeps watch at a stair in Ysgard where travelers lost their lanterns. He lights the handrail and helps them reach the upper landing. If undead block the stair, he uses turning and saves healing for the injured."
++    },
++    {
+       "id": "goliath-rockfall-lookout-35e",
+       "title": "Goliath rockfall lookout, Barbarian 1",
+       "origin": "Original DM Library NPC",
+@@ -3597,6 +3669,28 @@
+       "hook": "Avilli can glide a messenger line down from the upper landing if someone holds the near anchor."
+     },
+     {
++      "species": "Aasimar",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Iona Vale",
++      "build": "aasimar-vale-lantern-escort-35e",
++      "role": "Lantern escort and Paladin.",
++      "motive": "Bring the last ferrymen out of the quay passage.",
++      "hook": "Iona needs help clearing the quay before the next ferry arrives."
++    },
++    {
++      "species": "Aasimar",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Teren Mere",
++      "build": "aasimar-mere-ysgard-stair-keeper-35e",
++      "role": "Ysgard stair keeper and Cleric.",
++      "motive": "Guide the stranded travelers to the upper landing.",
++      "hook": "Teren has heard footsteps from below the dark stair."
++    },
++    {
+       "species": "Raptoran",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -17,6 +17,7 @@
+ Aasimar	species		Mordenkainen Presents: Monsters of the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/1026378-aasimar	
+ Aasimar	species		Player’s Handbook	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/1751434-aasimar	
+ Aasimar	species		Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/24-aasimar	
++Aasimar	species	Outsider (Native)	Planar Handbook (2004)	3.5 edition	Wizards of the Coast	https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes	
+ Aasimar (Fallen)	species		Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast		
+ Aasimar (Protector)	species		Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast		
+ Aasimar (Scourge)	species		Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast		

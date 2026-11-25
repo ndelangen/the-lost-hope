@@ -1,0 +1,5 @@
+# Hadozee from Stormwrack
+
+This batch adds the D&D 3.5 Hadozee from the August 2005 first printing and two original encounters. Both builds use the p. 41 player entry, which gives a 40-ft. glide with average maneuverability. The later encounter section gives poor maneuverability and lists two extra benefits. The source notes record the differences. [Original player rules, p. 41]() · [Source notes](independent-source-notes.md) · [Encounter cards](encounter-cards.md) · [Rules patch](rules.patch)
+
+Renn’s portrait uses the approved plain tan parchment. It appears when the 2005 profile is selected. Search, both catalog commands, and portrait resolution passed in a temporary copy. The fifth-edition Spelljammer version still opens by default, and the list thumbnail and three Spelljammer monster entries match their before snapshots. [Style comparison](portrait-comparison.jpg) · [96 px thumbnail](portrait-thumbnails.jpg) · [ImageGen prompt](portrait-prompts.json) · [Verification](verification.json) · [Before](catalog-before.json) · [After](catalog-after.json)

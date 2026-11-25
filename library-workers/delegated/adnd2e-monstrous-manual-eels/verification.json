@@ -1,0 +1,24 @@
+{
+  "baseline": "7b5ba6ab404b3875dcb3f4b669af4984301f69b4",
+  "temporaryCopy": true,
+  "exactProfiles": 4,
+  "printedCombatProfilesVerified": 4,
+  "searchableByNameRuleAppearanceHabitat": 4,
+  "globalSearchResults": 4,
+  "newBaseCatalogEntries": [
+    "Electric Eel",
+    "Giant Eel",
+    "Marine Eel",
+    "Weed Eel"
+  ],
+  "distinctCorsairsElectricEelVersion": true,
+  "verifiedWithCorsairsAfterCombiningProfilesAndTsvRows": true,
+  "compatibleWithPreviouslyStagedMonstrousManualPatches": true,
+  "separateDischargeRulesVerified": true,
+  "marineHitDiceBranchesVerified": 3,
+  "habitatAppendixVerified": true,
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

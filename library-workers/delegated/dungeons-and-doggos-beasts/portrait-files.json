@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Kamrat",
+    "file": "",
+    "selection": "generated",
+    "sha256": "024209f671238f4ada731cef24fd288569734b35c40582817921f786616c9cc8",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Olhund",
+    "file": "",
+    "selection": "generated",
+    "sha256": "7e07570b91e35991bb8237bd24503923749726bde110dfbf3762bf0b14776385",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Storgin",
+    "file": "",
+    "selection": "generated",
+    "sha256": "80d858f0538b8698e41e50f12acc159146931e36326cc0a94342a6acda16985a",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Pennig",
+    "file": "",
+    "selection": "generated",
+    "sha256": "059669c29d917d326f3010c775defcb2256dd74f2c4fe71b81b4acde19186666",
+    "width": 1254,
+    "height": 1254
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Skeleton, Sharkjaw",
+    "publication": "The Sunken Pyramid",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/skeleton-sharkjaw/sharkjaw-mz4250.jpg",
+    "artist": "Miniature render by mz4250",
+    "kind": "miniature",
+    "sha256": "a010435b80686499fca2a52017463807d350ae1baf951086eb3e65384f0fa23c",
+    "reference": "https://theminiindex.com/Minis/Details?id=70237"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Skeleton, Sharkjaw",
+    "publication": "The Sunken Pyramid",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/skeleton-sharkjaw/sharkjaw-david-north.png",
+    "artist": "Roll20 token preview by David North",
+    "kind": "token",
+    "sha256": "55f82c1aae50d2634aa0df965e927e254328ef7a85dfed5a995276bbe315e14b",
+    "reference": "https://marketplace.roll20.net/browse/set/4180/boss-%E2%80%8Bmonster-token-set-13"
+  }
+]

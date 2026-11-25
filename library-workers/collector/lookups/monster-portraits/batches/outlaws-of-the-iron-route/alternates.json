@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Grimshackle Jailer",
+    "publication": "DDEX1-09 - Outlaws of the Iron Route",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/grimshackle-jailer/guard-2014-base-token.webp",
+    "artist": "Base creature token: Guard · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "ca8164a7383dda75e4ed42522483a535b28dcb72d47e2b71532e65393671dac2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Guard.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Grimshackle Jailer",
+    "publication": "DDEX1-09 - Outlaws of the Iron Route",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/grimshackle-jailer/guards-2024-riccardo-moscatello.webp",
+    "artist": "Related Guard art by Riccardo Moscatello · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "afff9225f6f48fabf80cc09755a1972b209c770dda74a61db2dec98bd51333c9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Guards.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Halfling Bandits",
+    "publication": "DDEX1-09 - Outlaws of the Iron Route",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/halfling-bandits/bandit-2014-related-token.webp",
+    "artist": "Related Bandit token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "215fc9918f54bb0d3fc14884dd7761357a5f0b2402c94694c54758835bce7cec",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Bandit.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Halfling Bandits",
+    "publication": "DDEX1-09 - Outlaws of the Iron Route",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/halfling-bandits/halfling-2014-related.webp",
+    "artist": "Related Halfling art · Player’s Handbook (2014)",
+    "kind": "illustration",
+    "sha256": "a84a981312f79bc6a5b7995a79cbaa16415ff8104f0fc12aa7c09eae872d50b9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/PHB/Halfling.webp"
+  }
+]

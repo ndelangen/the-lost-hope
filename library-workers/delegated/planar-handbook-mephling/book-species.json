@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Mephling",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Humanoid with −2 Intelligence, +2 Charisma, and a 30-ft. land speed. A Mephling gains the Extraplanar subtype away from its own ancestral Elemental Plane. It has no elemental subtype.",
+      "Small size gives +1 AC and attack rolls, +4 Hide, and three-quarters of the normal lifting and carrying limits for its Strength. It uses Small weapons.",
+      "Breath Weapon. A 15-ft. cone deals 1d8 damage to each target, Reflex half (DC 10 + half the Mephling’s Hit Dice + its Constitution modifier). One use per day, plus one per four levels attained. With multiple daily uses, wait 1d4 rounds between uses. The core breath weapon rules supply a standard action and no attack roll.",
+      "A Mephling casts spells with its ancestry’s matching elemental descriptor at +1 caster level. Common and its matching elemental language are automatic. Bonus languages are Aquan, Auran, Ignan, and Terran.",
+      "Air. +2 Dexterity, fly 10 ft. (perfect), dust-and-grit breath deals piercing damage. Automatic Auran. Favored class Bard.",
+      "Earth. +2 Strength and −2 Dexterity, burrow 10 ft., rock-shard breath deals bludgeoning damage. Automatic Terran. Favored class Druid.",
+      "Fire. +2 Dexterity, no additional movement mode, flame breath deals fire damage. Automatic Ignan. Favored class Sorcerer.",
+      "Water. +2 Constitution, swim 30 ft., caustic breath deals acid damage. Automatic Aquan. Favored class Monk. The traits give no water breathing.",
+      "LA +1, no racial Hit Dice. The sidebar mentions reduced fast healing but supplies no rate or conditions, and the playable traits give no fast healing ability."
+    ]
+  }
+]

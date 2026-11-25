@@ -1,0 +1,160 @@
+[
+  {
+    "name": "Giant Bumblebee",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "kind": "beast",
+    "classification": "Large insect, neutral, Low+ intelligence",
+    "ac": 5,
+    "hp": null,
+    "hpRule": "Roll 6d8 + 4 for a general specimen. Each of the garden defenders on p. 9 has a fixed 36 HP.",
+    "hitDice": "6+4",
+    "speed": "6″ ground, 24″ fly",
+    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Rare. One appearing outside the lair; 10% in lair. No treasure or psionics. Standard magic resistance, with no special defenses listed. Monster Level V.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Round, shaggy, black-and-yellow bumblebee with transparent veined wings and a prominent sting. The color and fur details follow the selected portrait and ordinary bumblebee appearance.",
+    "habitats": [
+      "Garden of Colossal Flowers",
+      "Burrows and nests"
+    ],
+    "sections": {
+      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, pp. 9, 27. B. Garden of Colossal Flowers and New Monsters, Bee, Giant, Bumble-bee column. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+      "Sting": "One attack, 1–6 damage per hit. On a sting hit, save vs. Poison at −1. The poison procedure gives 2–8 damage on a success and 5–20 on a failure plus 1 for poison intensity. For play, resolve the listed sting’s physical damage separately from the poison result. The appendix does not expressly settle whether its poison result includes the wound damage.",
+      "Nest": "A nest or burrow holds 7–12 bumblebees. The combative queen has 8+6 HD and a sting for 1–8 damage. Her poison save is at −2. On a failed save her poison deals 5–20 + 2, while success gives 2–8. The bees store honey in proportion to the colony’s size. Bee bread can stand in for iron rations. Royal jelly is present on a 20% chance and provides the equivalent of 2–5 potions of extra-healing, each with an added cure disease effect.",
+      "Garden defense": "Intrusion into a bed, about 5 ft. from a flower, starts the cries. One bee arrives the next round and attacks characters who harm or attempt to harm the flowers. Add one bee each round until 16 total have appeared. In addition, the first three Giant Ants arrive with the fourth bee. The bees pursue offenders within the garden only. Here the ground movement is 3″ instead of 6″.",
+      "XP and morale": "The generic XP entry is printed as 400 + /hp and leaves the per-HP coefficient blank. EX2 gives no numeric morale. The garden boundary supplies the encounter’s pursuit limit."
+    },
+    "ruleNotes": [
+      "Printed p. 27 has “String” in the bumblebee special attack row. The surrounding bee prose and the garden poison block establish that the attack is a sting. No garden sting-use limit is printed and the general column does not say “Sting once” as workers and soldiers do.",
+      "The printed garden block has movement 3″/24″ and HP 36; the general bee table has 6″/24″ and no fixed HP.",
+      "The generic bumblebee level/XP field is incomplete. Do not infer a coefficient from the honey bees."
+    ]
+  },
+  {
+    "name": "Giant Dragonfly",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "kind": "beast",
+    "classification": "Medium insect, neutral, Low intelligence",
+    "ac": 3,
+    "hp": null,
+    "hpRule": "Roll 7d8 for a regular dragonfly and 8d8 + 8 for the tropical form. EX2 prints no fixed HP.",
+    "hitDice": "7 (tropical 8+8)",
+    "speed": "1″ ground, 36″ fly with hover",
+    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Rare. 1–6 appearing, no lair or treasure. No psionics. Save as a 16th-level magic-user. Monster Level VI, 525 + 8 XP per HP.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Glittering giant dragonfly with large compound eyes, a long segmented abdomen, and four transparent, veined wings. The blue form appears in the first forest-road group.",
+    "habitats": [
+      "Temperate and subtropical regions",
+      "Tropical regions for the larger form",
+      "Forest roadway"
+    ],
+    "sections": {
+      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, pp. 22, 27. Forest-road Giant Dragonfly encounter and New Monsters, Dragonfly, Giant. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+      "Attack": "One attack for 3–12 damage. The larger tropical specimen has 8+8 HD and deals 4–16 damage with its one attack.",
+      "Initiative and aerial defense": "Apply +2 on initiative checks. When the dragonfly has initiative, hand-held weapons cannot hit it and missile fire takes −4. Without initiative, hand-held attacks work normally and missile fire still takes −2.",
+      "Forest-road encounter": "A group of 2–5 attacks unless a golem escorts the party. These dragonflies have 25% magic resistance in addition to the specified saving throws. A group withdraws if one member dies or all have lost at least a quarter of their total HP. First group colors include silver-white, blue, and yellow. The second group is red, purple, and green. The third is orange, maroon, and black. Attacks stop when adventurers leave the road’s 100-ft.-wide hex band.",
+      "Ecology and salvage": "Hunts insects as well as warm-blooded prey, including people. Ordinary specimens can yield about six square feet of skin. Magical preservation makes the material worth up to 600 gp per square foot."
+    },
+    "ruleNotes": [
+      "The appendix line reads “x2 on initiative.” The explanatory paragraph and encounter block each specify +2 on initiative. Use the explained +2 modifier with the stated one attack.",
+      "The general appendix places “save as 16th level magic-user” in its magic-resistance column. The actual 25% resistance appears in the road encounter and is scoped there.",
+      "The appendix gives no numeric morale. Use the printed casualty and damage thresholds for the road encounter."
+    ]
+  },
+  {
+    "name": "Giant Honey Bee (Soldier)",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "kind": "beast",
+    "classification": "Medium insect, neutral, Low intelligence",
+    "ac": 5,
+    "hp": null,
+    "hpRule": "Roll 4d8 + 2. EX2 prints no fixed HP.",
+    "hitDice": "4+2",
+    "speed": "12″ ground, 30″ fly",
+    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Very rare. One appearing outside the lair; 90% in lair. No treasure or psionics. Standard magic resistance, with no special defenses listed. Monster Level IV, 200 + 5 XP per HP.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Giant striped honey bee. The selected soldier portrait shows a pointed abdomen and a prominent sting.",
+    "habitats": [
+      "Honey bee hives"
+    ],
+    "sections": {
+      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, p. 27. New Monsters, Bee, Giant, Honey soldier column. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+      "Attacks": "The table lists one or two attacks and one sting. Use the first damage entry of 2–8 for the ordinary attack and the second entry of 1–4 for the sting. The sting can be used only once. On a sting hit, save vs. Poison at −1. The poison procedure gives 2–8 damage on a success and 5–20 on a failure plus 1 for poison intensity. For play, resolve the listed sting’s physical damage separately from the poison result. The appendix does not expressly settle whether its poison result includes the wound damage.",
+      "Hive": "A hive contains 20 times the worker die roll, plus 3–12 soldiers, a noncombatant queen, and 2–5 drones. The bees store honey in proportion to the colony’s size. Bee bread can stand in for iron rations. Royal jelly is present on a 20% chance and provides the equivalent of 2–5 potions of extra-healing, each with an added cure disease effect.",
+      "Morale": "EX2 gives no numeric morale for soldiers."
+    },
+    "ruleNotes": [
+      "The table does not name the 2–8 damage attack. The second damage entry is assigned to the sting based on the layout and the attack-count note. No later bee rules are imported."
+    ]
+  },
+  {
+    "name": "Giant Honey Bee (Worker)",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "kind": "beast",
+    "classification": "Medium insect, neutral, Low intelligence",
+    "ac": 6,
+    "hp": null,
+    "hpRule": "Roll 3d8 + 1. EX2 prints no fixed HP.",
+    "hitDice": "3+1",
+    "speed": "9″ ground, 30″ fly",
+    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Rare. 1–10 appearing outside the lair; 20% in lair. No treasure or psionics. Standard magic resistance, with no special defenses listed. Monster Level III, 150 + 4 XP per HP.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Giant striped honey bee. The selected worker portrait shows enlarged, rounded pollen-carrying areas on the hind legs.",
+    "habitats": [
+      "Honey bee hives"
+    ],
+    "sections": {
+      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, p. 27. New Monsters, Bee, Giant, Honey worker column. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+      "Sting": "One sting, 1–3 damage on a hit. It can be used only once. On a sting hit, save vs. Poison with no numerical penalty. The poison procedure gives 2–8 damage on a success and 5–20 damage on a failure. For play, resolve the listed sting’s physical damage separately from the poison result. The appendix does not expressly settle whether its poison result includes the wound damage.",
+      "Hive": "A hive contains 20 times the worker die roll, plus 3–12 soldiers, a noncombatant queen, and 2–5 drones. The bees store honey in proportion to the colony’s size. Bee bread can stand in for iron rations. Royal jelly is present on a 20% chance and provides the equivalent of 2–5 potions of extra-healing, each with an added cure disease effect.",
+      "Morale": "EX2 gives no numeric morale for workers."
+    },
+    "ruleNotes": [
+      "The table’s attack-count parenthesis says “string”; the following “Sting once” and poison text identify the attack as a sting."
+    ]
+  },
+  {
+    "name": "Oliphant",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "kind": "beast",
+    "classification": "Large mammal, neutral, Low intelligence",
+    "ac": 4,
+    "hp": null,
+    "hpRule": "Roll 8d8 + 4 for a typical specimen or 10d8 + 5 for a larger one. The Chessboard Rook has a fixed 65 HP.",
+    "hitDice": "8+4 (larger 10+5)",
+    "speed": "15″ ground",
+    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Rare. 1–8 appearing, no lair or treasure. Standard magic resistance and no special defenses in the generic block. No psionics. The Appendix leaves Level/XP blank.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Shaggy mastodon-like beast with heavy forelegs, downward-curving tusks and a trunk too short to fight with. The reused portrait is an unarmored specimen.",
+    "habitats": [
+      "Cool temperate regions",
+      "Subarctic regions",
+      "Chessboard encounter"
+    ],
+    "sections": {
+      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, pp. 11, 30. Chessboard Rook and New Monsters, Oliphant. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+      "Tusks and forelegs": "Four attacks, each for 3–12 damage, using tusks and forelegs. The trunk cannot be used to fight. The oliphant can engage up to four man-sized foes, two ogre-sized foes, or one giant-sized foe simultaneously.",
+      "Chessboard Rook": "Use the p. 11 preset for the Rook. Leather armor gives AC 2. Speed 15″, 10+5 HD, 65 HP and four attacks of 3–12 each. The Rook also has 25% magic resistance.",
+      "Encounter ecology": "Avoids inhabited areas when solitary. A young specimen can be captured and trained, with mature trained males especially effective. War animals can wear reinforced armor and spikes and carry archers or pikemen in howdahs. Regular fire does not scare the animal unless the fire directly threatens it. When threatened an oliphant generally fights instead of fleeing.",
+      "Groups and value": "When three or more appear, check each animal beyond the first two. The module gives a 25% chance of a calf and 75% for a half-grown animal. Young are split evenly between the sexes. A solitary animal is male, and any group has at most one mature male. Tusks are worth 100–400 gp each. Ivory is worth about 4 gp per pound."
+    },
+    "ruleNotes": [
+      "The generic oliphant and Chessboard Rook share the profile. The armor, fixed HP and 25% magic resistance are encounter-specific.",
+      "Generic oliphant level and XP are blank on p. 30. No numeric morale is printed."
+    ]
+  }
+]

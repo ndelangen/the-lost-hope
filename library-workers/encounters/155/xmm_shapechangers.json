@@ -1,0 +1,396 @@
+[
+  {
+    "name": "Werebear",
+    "statBlock": {
+      "name": "Werebear",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 324,
+      "classification": "Small or Medium monstrosity (lycanthrope), neutral good",
+      "ac": 15,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "30 ft. (40 ft. in bear form), climb 30 ft. (bear form only)",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 17,
+      "description": "Werebears take the shape of bears native to their region. Some help druids and Fey protect the wilderness.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common (can't speak in bear form).",
+        "Gear": "Four Handaxes.",
+        "Actions": "Multiattack. Make two attacks using Handaxe or Rend in any combination. The werebear can replace one with Bite. Follow the form restrictions for each attack.\nBite (bear or hybrid form only). Melee attack, +7 to hit, reach 5 ft. A hit deals 17 (2d12 + 4) Piercing damage. A Humanoid hit by this attack makes a DC 14 Constitution save. On a failure, it is cursed. If a cursed target drops to 0 HP, it becomes a Werebear with 10 HP under the DM's control instead. On a success, the target is immune to this werebear's curse for 24 hours.\nHandaxe (Humanoid or hybrid form only). Melee or ranged attack, +7 to hit, reach 5 ft. or range 20/60 ft. A hit deals 14 (3d6 + 4) Slashing damage.\nRend (bear or hybrid form only). Melee attack, +7 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) Slashing damage.",
+        "Bonus actions": "Shape-Shift. Take the shape of a Large bear-humanoid hybrid or a Large bear, or return to its true Humanoid form. Game statistics are shared across forms except for the listed differences. Worn and carried gear keeps its original form.",
+        "Habitats": "Arctic, Forest, Hill.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 324."
+      }
+    }
+  },
+  {
+    "name": "Wereboar",
+    "statBlock": {
+      "name": "Wereboar",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 325,
+      "classification": "Small or Medium monstrosity (lycanthrope), neutral evil",
+      "ac": 15,
+      "hp": 97,
+      "hitDice": "15d8 + 30",
+      "speed": "30 ft. (40 ft. in boar form)",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "Some wereboars change involuntarily when they give in to greed.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Languages": "Common (can't speak in boar form).",
+        "Gear": "Six Javelins.",
+        "Actions": "Multiattack. Make two attacks using Javelin or Tusk in any combination. The wereboar can replace one with Gore. Follow the form restrictions for each attack.\nGore (boar or hybrid form only). Melee attack, +5 to hit, reach 5 ft. A hit deals 12 (2d8 + 3) Piercing damage. A Humanoid hit by this attack makes a DC 12 Constitution save. On a failure, it is cursed. If a cursed target drops to 0 HP, it becomes a Wereboar with 10 HP under the DM's control instead. On a success, the target is immune to this wereboar's curse for 24 hours.\nJavelin (Humanoid or hybrid form only). Melee or ranged attack, +5 to hit, reach 5 ft. or range 30/120 ft. A hit deals 13 (3d6 + 3) Piercing damage.\nTusk (boar or hybrid form only). Melee attack, +5 to hit, reach 5 ft. A hit deals 10 (2d6 + 3) Piercing damage. If the wereboar moved at least 20 ft. straight toward a Medium or smaller creature immediately before hitting it, the target takes an extra 7 (2d6) Piercing damage and falls Prone.",
+        "Bonus actions": "Shape-Shift. Take the shape of a Medium boar-humanoid hybrid or a Small boar, or return to its true Humanoid form. Game statistics are shared across forms except for the listed differences. Worn and carried gear keeps its original form.",
+        "Habitats": "Forest, Grassland, Hill.",
+        "Treasure": "Individual.",
+        "Printed source": "Monster Manual (2024), p. 325."
+      }
+    }
+  },
+  {
+    "name": "Wererat",
+    "statBlock": {
+      "name": "Wererat",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 325,
+      "classification": "Small or Medium monstrosity (lycanthrope), lawful evil",
+      "ac": 13,
+      "hp": 60,
+      "hitDice": "11d8 + 11",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "Wererats often form gangs or thieves' guilds. Darkness or a new moon can force some of them to change form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common (can't speak in rat form).",
+        "Gear": "Hand Crossbow.",
+        "Actions": "Multiattack. Make two attacks using Scratch or Hand Crossbow in any combination. The wererat can replace one with Bite. Follow the form restrictions for each attack.\nBite (rat or hybrid form only). Melee attack, +5 to hit, reach 5 ft. A hit deals 8 (2d4 + 3) Piercing damage. A Humanoid hit by this attack makes a DC 11 Constitution save. On a failure, it is cursed. If a cursed target drops to 0 HP, it becomes a Wererat with 10 HP under the DM's control instead. On a success, the target is immune to this wererat's curse for 24 hours.\nScratch. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) Slashing damage.\nHand Crossbow (Humanoid or hybrid form only). Ranged attack, +5 to hit, range 30/120 ft. A hit deals 6 (1d6 + 3) Piercing damage.",
+        "Bonus actions": "Shape-Shift. Take the shape of a Medium rat-humanoid hybrid or a Small rat, or return to its true Humanoid form. Game statistics are shared across forms except for the listed differences. Worn and carried gear keeps its original form.",
+        "Habitats": "Forest, Urban.",
+        "Treasure": "Individual.",
+        "Printed source": "Monster Manual (2024), p. 325."
+      }
+    }
+  },
+  {
+    "name": "Weretiger",
+    "statBlock": {
+      "name": "Weretiger",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 326,
+      "classification": "Small or Medium monstrosity (lycanthrope), neutral",
+      "ac": 12,
+      "hp": 120,
+      "hitDice": "16d8 + 48",
+      "speed": "30 ft. (40 ft. in tiger form)",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "description": "Some weretigers treat changing form as a family honor. They use that power to defend something of historical importance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common (can't speak in tiger form).",
+        "Gear": "Longbow.",
+        "Actions": "Multiattack. Make two attacks using Scratch or Longbow in any combination. The weretiger can replace one with Bite. Follow the form restrictions for each attack.\nBite (tiger or hybrid form only). Melee attack, +5 to hit, reach 5 ft. A hit deals 12 (2d8 + 3) Piercing damage. A Humanoid hit by this attack makes a DC 13 Constitution save. On a failure, it is cursed. If a cursed target drops to 0 HP, it becomes a Weretiger with 10 HP under the DM's control instead. On a success, the target is immune to this weretiger's curse for 24 hours.\nScratch. Melee attack, +5 to hit, reach 5 ft. A hit deals 10 (2d6 + 3) Slashing damage.\nLongbow (Humanoid or hybrid form only). Ranged attack, +4 to hit, range 150/600 ft. A hit deals 11 (2d8 + 2) Piercing damage.",
+        "Bonus actions": "Prowl (tiger or hybrid form only). Move up to its Speed without provoking Opportunity Attacks. At the end of this movement, the weretiger can take the Hide action.\nShape-Shift. Take the shape of a Large tiger-humanoid hybrid or a Large tiger, or return to its true Humanoid form. Game statistics are shared across forms except for the listed differences. Worn and carried gear keeps its original form.",
+        "Habitats": "Desert, Forest, Grassland.",
+        "Treasure": "Armaments.",
+        "Weretiger wards": "Roll 1d4 or choose what it protects.\n1. A storied weapon or royal emblem.\n2. A site where foretold heroes must prove themselves.\n3. A rare magical plant or animal.\n4. A sacred spring with magical water.",
+        "Printed source": "Monster Manual (2024), p. 326."
+      }
+    }
+  },
+  {
+    "name": "Werewolf",
+    "statBlock": {
+      "name": "Werewolf",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 327,
+      "classification": "Small or Medium monstrosity (lycanthrope), chaotic evil",
+      "ac": 15,
+      "hp": 71,
+      "hitDice": "11d8 + 22",
+      "speed": "30 ft. (40 ft. in wolf form)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "Werewolves can change shape by choice, though many are forced to transform under a full moon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common (can't speak in wolf form).",
+        "Traits": "Pack Tactics. The werewolf has Advantage on an attack roll if at least one ally without the Incapacitated condition is within 5 ft. of the target.",
+        "Gear": "Longbow.",
+        "Actions": "Multiattack. Make two attacks using Scratch or Longbow in any combination. The werewolf can replace one with Bite. Follow the form restrictions for each attack.\nBite (wolf or hybrid form only). Melee attack, +5 to hit, reach 5 ft. A hit deals 12 (2d8 + 3) Piercing damage. A Humanoid hit by this attack makes a DC 12 Constitution save. On a failure, it is cursed. If a cursed target drops to 0 HP, it becomes a Werewolf with 10 HP under the DM's control instead. On a success, the target is immune to this werewolf's curse for 24 hours.\nScratch. Melee attack, +5 to hit, reach 5 ft. A hit deals 10 (2d6 + 3) Slashing damage.\nLongbow (Humanoid or hybrid form only). Ranged attack, +4 to hit, range 150/600 ft. A hit deals 11 (2d8 + 2) Piercing damage.",
+        "Bonus actions": "Shape-Shift. Take the shape of a Large wolf-humanoid hybrid or a Medium wolf, or return to its true Humanoid form. Game statistics are shared across forms except for the listed differences. Worn and carried gear keeps its original form.",
+        "Habitats": "Forest, Hill.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 327."
+      }
+    }
+  },
+  {
+    "name": "Jackalwere",
+    "statBlock": {
+      "name": "Jackalwere",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 182,
+      "classification": "Small fiend, chaotic evil",
+      "ac": 12,
+      "hp": 18,
+      "hitDice": "4d6 + 4",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 14,
+      "description": "A jackal is the fiend's natural form. It uses a human disguise and a sleep-inducing gaze to trick or rob travelers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 4,
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 90 ft.",
+        "Languages": "Common.",
+        "Traits": "Pack Tactics. The jackalwere has Advantage on an attack roll if at least one ally without the Incapacitated condition is within 5 ft. of the target.",
+        "Actions": "Multiattack. Make two Rend or Slam attacks, following each attack's form restriction.\nRend (jackal or hybrid form only). Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) Piercing damage.\nSlam (human or hybrid form only). Melee attack, +4 to hit, reach 5 ft. A hit deals 4 (1d4 + 2) Bludgeoning damage.\nSleep Gaze (recharge 5–6). Choose one visible creature within 30 ft. It makes a DC 10 Wisdom save. Constructs and Undead succeed automatically. On a failure, the target is Unconscious for up to 10 minutes. Taking damage wakes it, as does a creature within 5 ft. spending an action to wake it. Success gives immunity to this jackalwere's Sleep Gaze for 24 hours.",
+        "Bonus actions": "Shape-Shift. Take the shape of a Medium human or a Medium jackal-humanoid hybrid, or return to its true Small jackal form. Game statistics are shared across forms except for the listed differences. Worn and carried gear keeps its original form.",
+        "Habitats": "Desert, Grassland.",
+        "Treasure": "Implements.",
+        "Jackalwere tricks": "Roll 1d4 or choose a trick.\n1. Lead travelers into the wilds and leave them stranded.\n2. Sketch a shortcut through a monster lair.\n3. Put travelers to sleep and steal their mounts or supplies.\n4. Promise treasure where sunlight glints off sand or water.",
+        "Printed source": "Monster Manual (2024), p. 182."
+      }
+    }
+  },
+  {
+    "name": "Doppelganger",
+    "statBlock": {
+      "name": "Doppelganger",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 100,
+      "classification": "Medium monstrosity, neutral",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A doppelganger reads minds to impersonate people and uncover secrets. It can also take a disturbing appearance to scare away a threat.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 6,
+        "Insight": 3
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common plus three other languages.",
+        "Condition immunities": "Charmed.",
+        "Actions": "Multiattack. Make two Slam attacks and use Unsettling Visage if it is available.\nSlam. Melee attack, +6 to hit, reach 5 ft. A hit deals 11 (2d6 + 4) Bludgeoning damage. The attack roll has Advantage in the first round of combat.\nUnsettling Visage (recharge 6). Each creature in a 15-ft. Emanation from the doppelganger that can see it makes a DC 12 Wisdom save. On a failure, it is Frightened and repeats the save at the end of each of its turns. Success ends the effect on that creature. After 1 minute, the save succeeds automatically.\nRead Thoughts. Cast Detect Thoughts using Charisma, with spell save DC 12 and no components.",
+        "Bonus actions": "Shape-Shift. Become a Medium or Small Humanoid, or return to its true form. Only its size can change among its game statistics. Worn and carried gear keeps its original form.",
+        "Habitats": "Underdark, Urban.",
+        "Treasure": "Individual.",
+        "Doppelganger deceptions": "Roll 1d6 or choose an agenda.\n1. Sow chaos in the temple of the deity that took away its true form.\n2. Hide evidence of a widespread conspiracy.\n3. Pose as a local bogeyman and rule by fear.\n4. Usurp a noble to live in luxury.\n5. Spy on wizards for a way to finish the magic that created it.\n6. Infiltrate a position of power ahead of an invasion.",
+        "Printed source": "Monster Manual (2024), p. 100."
+      }
+    }
+  }
+]

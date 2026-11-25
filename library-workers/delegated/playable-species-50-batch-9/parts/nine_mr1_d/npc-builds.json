@@ -1,0 +1,278 @@
+{
+  "builds": [
+    {
+      "id": "mr-galehook",
+      "title": "Galehook, Roc Barbarian 1",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "speed": "20 ft. walk, 50 ft. fly.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13, or 18 for sight. Advantage on sight-based Perception checks.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Unarmored. Natural armor gives 15 AC. Barbarian Unarmored Defense would give 14 AC.",
+        "Counts as Large for carrying and lifting. Cannot use hand-held equipment, shields, or weapons."
+      ],
+      "actions": [
+        "Talons. Melee unarmed strike +5 to hit, reach 5 ft., one target. Hit for 1d8 + 3 piercing, or 1d8 + 5 while raging.",
+        "Rage. Bonus action, 2 per long rest, up to 1 minute. Advantage on Strength checks and saves, +2 damage to Strength-based melee attacks, and resistance to bludgeoning, piercing, and slashing. Ends early if knocked unconscious or if the turn ends without an attack against a hostile creature or taking damage since the previous turn. Can also end it as a bonus action. Cannot cast or concentrate while raging."
+      ],
+      "tactics": "Galehook circles above the trail before landing to parley. If attacked, Galehook rages and strikes from a clear approach. Leaving an enemy’s reach still provokes normally.",
+      "type": "Monstrosity",
+      "size": "Medium",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "mr-lintel-roper",
+      "title": "Lintel, Roper Barbarian 1",
+      "ac": 16,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 1,
+      "speed": "20 ft. walk.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Medicine +3",
+        "Perception +3",
+        "Religion +2"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Understands and reads Common. Uses gestures to answer.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Natural armor 15 + Dexterity 1. No hands.",
+        "After a motionless minute concentrating, Lintel passes for a stalagmite. Rage ends the concentration if the minute is still in progress.",
+        "Up to six tendrils, each AC 20 and 10 HP with poison and psychic immunity. A creature can spend its action breaking one with a DC 12 Strength check. Destruction leaves Lintel unharmed. Regrow one as a bonus action."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +5 to hit, reach 5 ft., one target. Hit for 1d8 + 3 piercing, or 1d8 + 5 while raging.",
+        "Grasping Tendrils. Replace the Attack action’s single attack with a grapple at up to 50 ft. against a creature no more than one size larger. Contest Athletics +5 against the target’s Athletics or Acrobatics. The grapple ends when separation exceeds 50 ft. or the gripping tendril is destroyed.",
+        "Reel. Replace the Attack action’s single attack. Roll Athletics +5 once against Athletics from each tendril-grappled creature. Pull each one Lintel beats up to 25 ft. directly closer. Spend a bonus action for one bite against a pulled creature within 5 ft.",
+        "Rage. Bonus action, 2 per long rest, up to 1 minute. Advantage on Strength checks and saves, +2 Strength melee damage, and resistance to bludgeoning, piercing, and slashing. Ends on unconsciousness or when a turn passes without attacking a hostile creature or taking damage since the previous turn. Can end it as a bonus action."
+      ],
+      "tactics": "Lintel holds a narrow ledge and separates intruders from the ladder. Start with a grasp, reel on a later turn, and bite only when the target reaches the mouth.",
+      "type": "Monstrosity",
+      "size": "Medium",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "mr-tatter-reed",
+      "title": "Tatter Reed, Scarecrow Rogue 1",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "speed": "30 ft. walk.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 15
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +4",
+        "Investigation +3",
+        "Perception +2",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Understands, reads, and writes Common and Halfling. Cannot speak.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. Leather armor AC 11 + Dexterity 3. Expertise in Stealth and thieves’ tools.",
+        "Fire vulnerability. Immune to exhaustion, paralysis, poisoning, unconsciousness, and poison damage. Dies immediately at 0 HP under the supplement’s rule. Can recover by resting.",
+        "A motionless minute concentrating makes Tatter look like an ordinary scarecrow while it holds still.",
+        "Sneak Attack. Once per turn, add 1d6 to a hit with the rapier if Tatter has advantage, or if an enemy of the target that is not incapacitated is within 5 ft. of it and Tatter has no disadvantage."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit for 1d8 + 3 piercing.",
+        "Claw. Melee unarmed strike +1 to hit, reach 5 ft., one target. Hit for 1d4 − 1 slashing, minimum 0. This strike does not qualify for Sneak Attack.",
+        "Terrifying Gaze. Action, 1 per short or long rest. One mutually visible creature within 60 ft. makes a DC 12 Wisdom save. Failure frightens it through the end of Tatter’s next turn."
+      ],
+      "tactics": "Tatter posts written warnings along the path. It opens with its gaze if a trespasser reaches for fire, then uses cover or an ally’s position to land a rapier strike.",
+      "type": "Construct",
+      "size": "Medium",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "mr-slate-ward",
+      "title": "Slate Ward, Shield Guardian Fighter 1",
+      "ac": 20,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "speed": "30 ft. walk.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Perception +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Understands spoken commands in any language. Reads and writes Common. Cannot speak.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. AC 18 from its body plus 2 from the equipped shield. Dueling adds 2 damage to its one-handed mace.",
+        "Immune to charm, exhaustion, fear, and paralysis. Construct recovery by resting. Slate Ward has no controlling amulet."
+      ],
+      "actions": [
+        "Mace. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit for 1d6 + 5 bludgeoning.",
+        "Fist. Melee unarmed strike +5 to hit, reach 5 ft., one target. Hit for 1d8 + 3 bludgeoning.",
+        "Second Wind. Bonus action, 1 per short or long rest. Regain 1d10 + 1 HP.",
+        "Shield. Reaction when an attacker targets an ally within 5 ft. of Slate Ward. The ally gains +2 AC against that attack."
+      ],
+      "tactics": "Slate Ward stays beside its ward, saves its reaction for an incoming attack against that person, and raises the shield to mark the way out.",
+      "type": "Construct",
+      "size": "Medium",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "mr-lichen-mouth",
+      "title": "Lichen Mouth, Green Slaad Fighter 1",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "1d10+1",
+      "initiative": 2,
+      "speed": "30 ft. walk.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 15
+      },
+      "skills": [
+        "Arcana +1",
+        "Athletics +4",
+        "History +1",
+        "Perception +2"
+      ],
+      "senses": "Passive Perception 12.",
+      "languages": "Slaad, Common, and Primordial. Telepathy 30 ft. with creatures that know a language.",
+      "traits": [
+        "Proficiency +2. Strength save +4, Constitution save +3. Leather AC 11 + Dexterity 2, plus 2 from the equipped shield. Keeps the claw hand free for casting.",
+        "Protection fighting style. When a creature Lichen Mouth can see attacks a target other than him within 5 ft. of him, he can use his reaction to impose disadvantage while wielding a shield.",
+        "Green variant. One fixed humanoid form and one true form. No darkvision or detect magic listed for this 1st-level Green build."
+      ],
+      "actions": [
+        "Claw. In true form, melee unarmed strike +4 to hit, reach 5 ft., one target. Hit for 1d6 + 2 slashing.",
+        "Fire Bolt. Action, ranged spell attack +4 to hit against a creature or object within 120 ft. Hit for 1d10 fire. Unattended flammable objects can ignite.",
+        "Mage Hand. Action. Create a spectral hand within 30 ft. for 1 minute. Use an action to manipulate one object or carry up to 10 pounds. The hand cannot attack or activate magic items.",
+        "Shapechanger. Action. Become a specific Medium humanoid pottery seller or return to true form. No change to numbers in this Medium disguise. Equipment stays as it was. Death ends the disguise.",
+        "Second Wind. Bonus action, 1 per short or long rest. Regain 1d10 + 1 HP."
+      ],
+      "tactics": "Lichen Mouth tries to keep order in his pottery stall, uses the shield to cover a nearby customer, and moves away before throwing fire across an open space.",
+      "type": "Aberration",
+      "size": "Medium",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Galehook",
+      "role": "Ridge guide",
+      "motive": "Retrieve the cairn markers a rockslide scattered across the valley.",
+      "hook": "Galehook offers to spot a safe route from above in return for help recovering the markers.",
+      "species": "Roc",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr-galehook"
+    },
+    {
+      "name": "Lintel",
+      "role": "Keeper of an underground toll gate",
+      "motive": "Keep the rope ladder steady and get travelers to repair the cracked approach.",
+      "hook": "A tendril points from the buckled rock to an old maintenance diagram. Lintel will guide anyone who can restore the approach.",
+      "species": "Roper",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr-lintel-roper"
+    },
+    {
+      "name": "Tatter Reed",
+      "role": "Field sentinel",
+      "motive": "Keep the apple cellar stocked for the farmhands who patched its ruined body.",
+      "hook": "A chalk sign in Tatter’s hand asks the party to recover the harvest cart without burning the orchard.",
+      "species": "Scarecrow",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr-tatter-reed"
+    },
+    {
+      "name": "Slate Ward",
+      "role": "Independent escort",
+      "motive": "Get the courier who removed its amulet across the abandoned canal locks.",
+      "hook": "Slate Ward writes about a safe culvert entrance on its slate and asks the party to carry the courier’s heavy satchel.",
+      "species": "Shield Guardian",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr-slate-ward"
+    },
+    {
+      "name": "Lichen Mouth",
+      "role": "Stallholder and market guard",
+      "motive": "Get back the clay tablet that lists his favorite glazes.",
+      "hook": "The pottery seller drops the disguise when a thief flees with the tablet and recruits the party to help chase them.",
+      "species": "Slaad",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr-lichen-mouth"
+    }
+  ]
+}

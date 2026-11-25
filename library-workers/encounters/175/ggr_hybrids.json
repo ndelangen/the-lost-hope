@@ -1,0 +1,316 @@
+[
+  {
+    "name": "Hybrid Brute",
+    "statBlock": {
+      "name": "Hybrid Brute",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 217,
+      "classification": "Medium humanoid (Simic hybrid), neutral good",
+      "ac": 18,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Guardian Project volunteer with thick natural armor and claws suited to close combat on land or underwater.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common and one other language.",
+        "Traits": "Amphibious. The hybrid breathes air and water.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) slashing damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 217."
+      }
+    }
+  },
+  {
+    "name": "Hybrid Flier",
+    "statBlock": {
+      "name": "Hybrid Flier",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 217,
+      "classification": "Medium humanoid (Simic hybrid), neutral good",
+      "ac": 13,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Simic guardian who fights from the air with javelins and jets of acid.",
+      "sections": {
+        "Damage resistances": "Acid.",
+        "Languages": "Common and one other language.",
+        "Actions": "Multiattack. Make two Javelin attacks. You can replace one with Spit Acid.\nJavelin. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.\nSpit Acid. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. A hit deals 10 (4d4) acid damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 217."
+      }
+    }
+  },
+  {
+    "name": "Hybrid Poisoner",
+    "statBlock": {
+      "name": "Hybrid Poisoner",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 217,
+      "classification": "Medium humanoid (Simic hybrid), neutral good",
+      "ac": 14,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Simic guardian whose poison punishes attackers who close to melee range.",
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 4
+      },
+      "skills": {
+        "Athletics": 3,
+        "Perception": 3,
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "Common and one other language.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Assassinate. On the hybrid’s first turn, it has advantage on attacks against creatures that have yet to take a turn. A hit against a surprised creature is a critical hit.\nPoisonous Skin. A creature takes 3 (1d6) poison damage if it touches the hybrid or hits it with a melee attack from within 5 ft.",
+        "Actions": "Toxic Touch. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (2d6) bludgeoning damage. The target must pass a DC 12 Constitution save or become poisoned for 1 minute. At the end of each of its turns while poisoned this way, it must repeat the save. On a failure it takes 3 (1d6) poison damage. On a success the poison ends.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 217."
+      }
+    }
+  },
+  {
+    "name": "Hybrid Shocker",
+    "statBlock": {
+      "name": "Hybrid Shocker",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 218,
+      "classification": "Medium humanoid (Simic hybrid), neutral good",
+      "ac": 12,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An electrically charged Simic guardian that pulls enemies into reach with its tentacles.",
+      "sections": {
+        "Damage immunities": "Lightning.",
+        "Languages": "Common and one other language.",
+        "Traits": "Electrified Body. A creature takes 5 (1d10) lightning damage if it touches the hybrid or hits it with a melee attack from within 5 ft.\nIllumination. The hybrid gives off bright light within 10 ft. and dim light for another 10 ft.",
+        "Actions": "Multiattack. Make one Shocking Touch attack and one Tentacles attack.\nShocking Touch. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d8) lightning damage.\nTentacles. Melee weapon attack, +4 to hit, reach 15 ft., one creature. A hit grapples the creature (escape DC 11) and pulls it up to 15 ft. straight toward the hybrid. The creature takes 5 (1d10) lightning damage at the start of each of its turns while this grapple lasts. Until the grapple ends, the hybrid cannot use Tentacles on another creature.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 218."
+      }
+    }
+  },
+  {
+    "name": "Hybrid Spy",
+    "statBlock": {
+      "name": "Hybrid Spy",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 218,
+      "classification": "Medium humanoid (Simic hybrid), neutral good",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Simic scout who can blend into a wall and cross a ceiling.",
+      "skills": {
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and one other language.",
+        "Traits": "Chameleon Skin. The hybrid has advantage on Dexterity (Stealth) checks to hide.\nSpider Climb. The hybrid can climb difficult surfaces, including ceilings, without an ability check.",
+        "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 218."
+      }
+    }
+  },
+  {
+    "name": "Indentured Spirit",
+    "statBlock": {
+      "name": "Indentured Spirit",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 206,
+      "classification": "Medium undead, any alignment",
+      "ac": 11,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An Orzhov debtor bound to serve after death, with chains draped across its ghostly robes.",
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Deathpact Angel",
+          "terms": [
+            "Deathpact Angel"
+          ]
+        }
+      ],
+      "sections": {
+        "Damage resistances": "Acid, fire, lightning, and thunder. Also bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Cold, necrotic, and poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, and restrained.",
+        "Languages": "The languages it knew while alive.",
+        "Traits": "Incorporeal Movement. Treat other creatures and objects as difficult terrain when moving through them. The spirit takes 5 (1d10) force damage if it ends its turn inside an object.",
+        "Actions": "Withering Touch. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 10 (3d6) necrotic damage.",
+        "Debts Paid": "If a Deathpact Angel has granted the spirit this clause, the spirit can destroy itself when it sees that angel drop to 0 HP. This clears the debt and restores the angel to life with 1 HP. This optional pact appears on p. 191.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 206."
+      }
+    }
+  }
+]

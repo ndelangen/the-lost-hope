@@ -1,0 +1,375 @@
+[
+  {
+    "name": "Ancient Red Dragon",
+    "statBlock": {
+      "name": "Ancient Red Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan dragon, chaotic evil",
+      "ac": 22,
+      "hp": 546,
+      "hitDice": "28d20 + 252",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 26,
+      "description": "An ancient red dragon watches its territory from mountain heights and prizes volcanic caverns for their heat and natural defenses.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 16,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 16,
+        "Wis": 9,
+        "Cha": 13
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Fire.",
+        "Traits": "Legendary Resistance (3/day). When the dragon fails a saving throw, it can choose to succeed.",
+        "Actions": "Multiattack. The dragon may use Frightful Presence before making one Bite and two Claw attacks.\nBite. Melee weapon attack, +17 to hit, reach 15 ft., one target. Hit 21 (2d10 + 10) piercing damage plus 14 (4d6) fire damage.\nClaw. Melee weapon attack, +17 to hit, reach 10 ft., one target. Hit 17 (2d6 + 10) slashing damage.\nTail. Melee weapon attack, +17 to hit, reach 20 ft., one target. Hit 19 (2d8 + 10) bludgeoning damage.\nFrightful Presence. The dragon chooses creatures within 120 ft. that are aware of it. They must pass a DC 21 Wisdom save or become Frightened for 1 minute, repeating the save at the end of each of their turns to end the effect. A successful initial or repeat save or any other end to the effect grants immunity to this dragon’s Frightful Presence for 24 hours.\nFire Breath (recharge 5–6). Creatures in a 90-ft. cone make a DC 24 Dexterity save, taking 91 (26d6) fire damage on a failure or half on a success.",
+        "Legendary actions": "The dragon has 3 legendary actions. It can use one option at the end of another creature’s turn. Spent actions return at the start of the dragon’s turn. It cannot use these options while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make one Tail attack.\nWing Attack (2 actions). Creatures within 15 ft. must pass a DC 25 Dexterity save or take 17 (2d6 + 10) bludgeoning damage and fall Prone. The dragon can then fly up to half its flying speed.",
+        "Lair actions": "On initiative count 20, losing ties, choose one effect. The dragon cannot repeat the previous round’s effect. It cannot use a lair action while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nMagma Geyser. Choose a spot on the ground the dragon can see within 120 ft. Magma erupts in a 20-ft.-high column with a 5-ft. radius. Creatures in it make a DC 15 Dexterity save, taking 21 (6d6) fire damage on a failure or half on a success.\nTremor. Other creatures on the ground within 60 ft. of the dragon must make a DC 15 Dexterity save or fall Prone.\nVolcanic Gas. Choose a point the dragon can see within 120 ft. Gas fills a 20-ft.-radius sphere, spreads around corners, and lightly obscures the area until initiative count 20 next round. A creature starting its turn there must pass a DC 13 Constitution save or become Poisoned until the end of that turn. It is also Incapacitated while Poisoned in this way.",
+        "Regional effects": "Choose one or more of these effects around a legendary dragon’s lair. Minor earthquakes are common within 6 miles. Water within 1 mile is unnaturally warm and sulfurous. Fissures within 1 mile form portals to the Elemental Plane of Fire, letting elemental creatures through. These effects fade over 1d10 days after the dragon dies.",
+        "Variant spellcasting": "If using the optional dragon rule, choose 6 spells of level 8 or lower. The dragon can cast each once per day without material components. Its Charisma spell save DC is 21, and its spell attack bonus is +13. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 86, 97 and 99. The official errata corrects the XP award to 62,000 and updates legendary and lair action timing."
+      }
+    }
+  },
+  {
+    "name": "Young Red Dragon",
+    "statBlock": {
+      "name": "Young Red Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large dragon, chaotic evil",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 18,
+      "description": "A young red dragon covets treasure and favors high ground where it can survey its territory.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8,
+        "Stealth": 4
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 9,
+        "Wis": 4,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Fire.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 17 (2d10 + 6) piercing damage plus 3 (1d6) fire damage.\nClaw. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing damage.\nFire Breath (recharge 5–6). Creatures in a 30-ft. cone make a DC 17 Dexterity save, taking 56 (16d6) fire damage on a failure or half on a success.",
+        "Variant spellcasting": "If using the optional dragon rule, choose 4 spells of level 3 or lower. The dragon can cast each once per day without material components. Its Charisma spell save DC is 16, and its spell attack bonus is +8. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 86 and 98–99."
+      }
+    }
+  },
+  {
+    "name": "Young Red Shadow Dragon",
+    "statBlock": {
+      "name": "Young Red Shadow Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large dragon, chaotic evil",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 18,
+      "description": "Exposure to the Shadowfell leaves this young red dragon charcoal-scaled, with translucent wings. It fights most effectively in dim light or darkness.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8,
+        "Stealth": 8
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 9,
+        "Wis": 4,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Fire.",
+        "Damage resistances": "Necrotic.",
+        "Traits": "Living Shadow. In dim light or darkness, the dragon resists all damage except force, psychic and radiant.\nSunlight Sensitivity. In sunlight, its attack rolls and sight-based Wisdom (Perception) checks have disadvantage.",
+        "Bonus actions": "Shadow Stealth. In dim light or darkness, the dragon can take the Hide action.",
+        "Shadow Dragon template": "The printed sample has fire immunity and no lair actions. The broader template lets the DM retain, replace or drop lair actions when converting a true dragon. It also grants necrotic resistance, doubles its Stealth proficiency bonus, adds the three shadow traits, and converts elemental Bite damage and damaging breath weapons to necrotic. Only a true dragon born in the Shadowfell or exposed to it for several years qualifies. A dracolich cannot use this template.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 17 (2d10 + 6) piercing damage plus 3 (1d6) necrotic damage.\nClaw. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing damage.\nShadow Breath (recharge 5–6). Creatures in a 30-ft. cone make a DC 18 Dexterity save, taking 56 (16d6) necrotic damage on a failure or half on a success. A humanoid this damage reduces to 0 HP dies. A Shadow rises from the corpse under the dragon’s control and acts immediately after it in initiative.",
+        "Variant spellcasting": "If using the optional dragon rule, choose 4 spells of level 4 or lower. The dragon can cast each once per day without material components. Its Charisma spell save DC is 16, and its spell attack bonus is +8. The DM chooses the spells. These numbers use the +4 proficiency implied by the printed attacks and saving throws.",
+        "Printed source": "Monster Manual (2014), pp. 84–86. Page 85 provides this exact example."
+      }
+    }
+  },
+  {
+    "name": "Adult Copper Dragon",
+    "statBlock": {
+      "name": "Adult Copper Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge dragon, chaotic good",
+      "ac": 18,
+      "hp": 184,
+      "hitDice": "16d12 + 80",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 22,
+      "description": "An adult copper dragon enjoys riddles and uses false walls and decoy treasures to guard its hoard.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 8,
+        "Perception": 12,
+        "Stealth": 6
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 10,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Acid.",
+        "Traits": "Legendary Resistance (3/day). When the dragon fails a saving throw, it can choose to succeed.",
+        "Actions": "Multiattack. The dragon may use Frightful Presence before making one Bite and two Claw attacks.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one target. Hit 17 (2d10 + 6) piercing damage.\nClaw. Melee weapon attack, +11 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing damage.\nTail. Melee weapon attack, +11 to hit, reach 15 ft., one target. Hit 15 (2d8 + 6) bludgeoning damage.\nFrightful Presence. The dragon chooses creatures within 120 ft. that are aware of it. They must pass a DC 16 Wisdom save or become Frightened for 1 minute, repeating the save at the end of each of their turns to end the effect. A successful initial or repeat save or any other end to the effect grants immunity to this dragon’s Frightful Presence for 24 hours.\nBreath Weapons (recharge 5–6). Choose Acid Breath or Slowing Breath.\nAcid Breath. Creatures in a 60-ft. line, 5 ft. wide, make a DC 18 Dexterity save. They take 54 (12d8) acid damage on a failure or half on a success.\nSlowing Breath. Creatures in a 60-ft. cone must pass a DC 18 Constitution save. On a failure, a creature has half speed, cannot take reactions, and can make at most one attack on its turn. It may take an action or a bonus action on its turn, not both. The effects last 1 minute and end early on a successful repeat save at the end of any of the creature’s turns.",
+        "Legendary actions": "The dragon has 3 legendary actions. It can use one option at the end of another creature’s turn. Spent actions return at the start of the dragon’s turn. It cannot use these options while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make one Tail attack.\nWing Attack (2 actions). Creatures within 10 ft. must pass a DC 19 Dexterity save or take 13 (2d6 + 6) bludgeoning damage and fall Prone. The dragon can then fly up to half its flying speed.",
+        "Lair actions": "On initiative count 20, losing ties, choose one effect. The dragon cannot use a lair action while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nStone Spikes. Choose a visible ground point within 120 ft. Spikes appear in a 20-ft. radius and work as Spike Growth. The area is difficult terrain. A creature moving into or within it takes 2d4 piercing damage per 5 ft. traveled. The spikes persist until the dragon uses this option again or dies.\nMud. Choose a visible 10-ft. square of ground within 120 ft. that turns into mud 3 ft. deep. Creatures on that ground when the mud appears must pass a DC 15 Dexterity save or sink and become Restrained. A creature can use its action to make a DC 15 Strength check to free itself or a creature it can reach. Moving 1 ft. through the mud costs 2 ft. of movement. On initiative count 20 next round, the mud hardens and the Strength check DC becomes 20.",
+        "Regional effects": "Choose one or more of these effects around a legendary dragon’s lair. Stone terrain and objects within 6 miles can display magical carvings of the dragon smiling. Within 1 mile, Tiny beasts that cannot normally speak can magically speak and understand Draconic. They praise the dragon and cannot reveal its whereabouts. Intelligent creatures within 1 mile are prone to giggling even at serious things. When the dragon dies, carvings fade over 1d10 days and the other effects end immediately.",
+        "Variant spellcasting": "If using the optional dragon rule, choose 3 spells of level 4 or lower. The dragon can cast each once per day without material components. Its Charisma spell save DC is 16, and its spell attack bonus is +8. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 86 and 111–112. Legendary and lair action timing follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Ancient Copper Dragon",
+    "statBlock": {
+      "name": "Ancient Copper Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan dragon, chaotic good",
+      "ac": 21,
+      "hp": 350,
+      "hitDice": "20d20 + 140",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 27,
+      "description": "An ancient copper dragon may keep a bard as a guest and foil treasure hunters with false rooms and elaborate jokes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 11,
+        "Perception": 17,
+        "Stealth": 8
+      },
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 14,
+        "Wis": 10,
+        "Cha": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Acid.",
+        "Traits": "Legendary Resistance (3/day). When the dragon fails a saving throw, it can choose to succeed.",
+        "Actions": "Multiattack. The dragon may use Frightful Presence before making one Bite and two Claw attacks.\nBite. Melee weapon attack, +15 to hit, reach 15 ft., one target. Hit 19 (2d10 + 8) piercing damage.\nClaw. Melee weapon attack, +15 to hit, reach 10 ft., one target. Hit 15 (2d6 + 8) slashing damage.\nTail. Melee weapon attack, +15 to hit, reach 20 ft., one target. Hit 17 (2d8 + 8) bludgeoning damage.\nFrightful Presence. The dragon chooses creatures within 120 ft. that are aware of it. They must pass a DC 19 Wisdom save or become Frightened for 1 minute, repeating the save at the end of each of their turns to end the effect. A successful initial or repeat save or any other end to the effect grants immunity to this dragon’s Frightful Presence for 24 hours.\nBreath Weapons (recharge 5–6). Choose Acid Breath or Slowing Breath.\nAcid Breath. Creatures in a 90-ft. line, 10 ft. wide, make a DC 22 Dexterity save. They take 63 (14d8) acid damage on a failure or half on a success.\nSlowing Breath. Creatures in a 90-ft. cone must pass a DC 22 Constitution save. On a failure, a creature has half speed, cannot take reactions, and can make at most one attack on its turn. It may take an action or a bonus action on its turn, not both. The effects last 1 minute and end early on a successful repeat save at the end of any of the creature’s turns.\nChange Shape. Magically take the form of a Beast or Humanoid of no higher CR, or return to dragon form. Death restores its dragon form. The dragon chooses whether gear merges into the form or remains worn or carried. The dragon keeps its alignment, HP, Hit Dice, speech, proficiencies, Legendary Resistance, lair actions, Intelligence, Wisdom, Charisma and this action. Otherwise use the new form’s statistics and capabilities, excluding its class features, legendary actions, lair actions, and regional effects.",
+        "Legendary actions": "The dragon has 3 legendary actions. It can use one option at the end of another creature’s turn. Spent actions return at the start of the dragon’s turn. It cannot use these options while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make one Tail attack.\nWing Attack (2 actions). Creatures within 15 ft. must pass a DC 23 Dexterity save or take 15 (2d6 + 8) bludgeoning damage and fall Prone. The dragon can then fly up to half its flying speed.",
+        "Lair actions": "On initiative count 20, losing ties, choose one effect. The dragon cannot use a lair action while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nStone Spikes. Choose a visible ground point within 120 ft. Spikes appear in a 20-ft. radius and work as Spike Growth. The area is difficult terrain. A creature moving into or within it takes 2d4 piercing damage per 5 ft. traveled. The spikes persist until the dragon uses this option again or dies.\nMud. Choose a visible 10-ft. square of ground within 120 ft. that turns into mud 3 ft. deep. Creatures on that ground when the mud appears must pass a DC 15 Dexterity save or sink and become Restrained. A creature can use its action to make a DC 15 Strength check to free itself or a creature it can reach. Moving 1 ft. through the mud costs 2 ft. of movement. On initiative count 20 next round, the mud hardens and the Strength check DC becomes 20.",
+        "Regional effects": "Choose one or more of these effects around a legendary dragon’s lair. Stone terrain and objects within 6 miles can display magical carvings of the dragon smiling. Within 1 mile, Tiny beasts that cannot normally speak can magically speak and understand Draconic. They praise the dragon and cannot reveal its whereabouts. Intelligent creatures within 1 mile are prone to giggling even at serious things. When the dragon dies, carvings fade over 1d10 days and the other effects end immediately.",
+        "Variant spellcasting": "If using the optional dragon rule, choose 4 spells of level 7 or lower. The dragon can cast each once per day without material components. Its Charisma spell save DC is 19, and its spell attack bonus is +11. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 86, 110 and 112. The official errata corrects the XP award to 33,000 and updates legendary and lair action timing."
+      }
+    }
+  },
+  {
+    "name": "Young Copper Dragon",
+    "statBlock": {
+      "name": "Young Copper Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large dragon, chaotic good",
+      "ac": 17,
+      "hp": 119,
+      "hitDice": "14d10 + 42",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 17,
+      "description": "A young copper dragon haunts rocky uplands and readily challenges visitors to a riddle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Perception": 7,
+        "Stealth": 4
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 6,
+        "Wis": 4,
+        "Cha": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Acid.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.\nBreath Weapons (recharge 5–6). Choose Acid Breath or Slowing Breath.\nAcid Breath. Creatures in a 40-ft. line, 5 ft. wide, make a DC 14 Dexterity save. They take 40 (9d8) acid damage on a failure or half on a success.\nSlowing Breath. Creatures in a 30-ft. cone must pass a DC 14 Constitution save. On a failure, a creature has half speed, cannot take reactions, and can make at most one attack on its turn. It may take an action or a bonus action on its turn, not both. The effects last 1 minute and end early on a successful repeat save at the end of any of the creature’s turns.",
+        "Variant spellcasting": "If using the optional dragon rule, choose 2 spells of level 2 or lower. The dragon can cast each once per day without material components. Its Charisma spell save DC is 13, and its spell attack bonus is +5. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 86 and 111–112."
+      }
+    }
+  }
+]

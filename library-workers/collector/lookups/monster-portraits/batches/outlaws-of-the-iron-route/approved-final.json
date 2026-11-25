@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "grimshackle-jailer",
+    "name": "Grimshackle Jailer",
+    "entryId": "monster-a5b4cd652f56df9a8bdcf1d8",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "An adult dwarf jailer inspired by Iorg Brokenjaw in a ramshackle riverside gaol. Stocky figure with once-broken jaw hinted at in the outline of his beard, cropped brown hair, dark practical boots, weathered steel chain shirt over muted cold green wool, and a small wooden shield at the side. One sheathed shortsword and a little iron ring of jail keys prominent at his belt. Arms and shoulders sturdy, a wary guarded face and a tired working stance. One adult figure only.",
+    "prompt": "Use attachment strictly as a reference for color and painting technique. One square original fantasy bestiary illustration. Detailed muted gouache, fine sepia ink, and colored pencil on warm mottled golden parchment from edge to edge. Whole described figure or figures centered, enough blank margins to read at small size. Gentle diffuse light and little grounding shadow. All four corners empty parchment, no insets, no lettering, watermark, border, floor grid, or scene. An adult dwarf jailer inspired by Iorg Brokenjaw in a ramshackle riverside gaol. Stocky figure with once-broken jaw hinted at in the outline of his beard, cropped brown hair, dark practical boots, weathered steel chain shirt over muted cold green wool, and a small wooden shield at the side. One sheathed shortsword and a little iron ring of jail keys prominent at his belt. Arms and shoulders sturdy, a wary guarded face and a tired working stance. One adult figure only.",
+    "appearanceSource": "DDEX1-09 - Outlaws of the Iron Route"
+  },
+  {
+    "slug": "halfling-bandits",
+    "name": "Halfling Bandits",
+    "entryId": "monster-9b4279de8eb93107b571e4e4",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Two adult lightfoot halfling brothers, Bhevek and Ukharim Grimshackle, small in stature but visibly mature men, with different faces. Both wear bedraggled simple leather armor and old fabric. One is slim and scowls, with dark wind-disordered curls and a faded slate-blue scarf, carrying an old modest unlit hand lantern at his side. The other is stout and calculating with graying brown hair and a worn olive wool scarf, weighing a little purse jingling with coins in one hand. Sheathed shortswords, one visible leather sling on a belt, practical unadorned shoes. Stand naturally side by side with two distinct silhouettes. No third person or weapons drawn.",
+    "prompt": "Use attachment strictly as a reference for color and painting technique. One square original fantasy bestiary illustration. Detailed muted gouache, fine sepia ink, and colored pencil on warm mottled golden parchment from edge to edge. Whole described figure or figures centered, enough blank margins to read at small size. Gentle diffuse light and little grounding shadow. All four corners empty parchment, no insets, no lettering, watermark, border, floor grid, or scene. Two adult lightfoot halfling brothers, Bhevek and Ukharim Grimshackle, small in stature but visibly mature men, with different faces. Both wear bedraggled simple leather armor and old fabric. One is slim and scowls, with dark wind-disordered curls and a faded slate-blue scarf, carrying an old modest unlit hand lantern at his side. The other is stout and calculating with graying brown hair and a worn olive wool scarf, weighing a little purse jingling with coins in one hand. Sheathed shortswords, one visible leather sling on a belt, practical unadorned shoes. Stand naturally side by side with two distinct silhouettes. No third person or weapons drawn.",
+    "appearanceSource": "DDEX1-09 - Outlaws of the Iron Route"
+  }
+]

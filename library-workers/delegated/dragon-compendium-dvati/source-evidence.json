@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Dvati",
+    "kind": "species",
+    "publication": "Dragon Compendium, Volume I (2005)",
+    "edition": "3.5 edition",
+    "book": "Dragon Compendium, Volume I",
+    "authors": [
+      "Talon Dunning (Dvati article)"
+    ],
+    "editor": "Mike McArtor",
+    "publisher": "Paizo Publishing",
+    "firstPrinting": "October 2005",
+    "isbn": "0-9770071-4-6",
+    "printedPages": {
+      "playableSpecies": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "racialTraits": [
+        15,
+        16,
+        17
+      ],
+      "illustration": [
+        14,
+        16
+      ],
+      "portraitCredits": [
+        15,
+        17
+      ]
+    },
+    "pdfPageOffset": 4,
+    "primaryBookScan": "",
+    "primaryBookSha256": "58d2b16e59dd48778cdc8367ae6f87fbd42aab66e76870010a7d8f32597d9d15",
+    "earlierPlayablePrinting": {
+      "publication": "Dragon #271",
+      "author": "Talon Dunning",
+      "release": "May 2000",
+      "printedPage": 81,
+      "pdfPage": 85,
+      "url": "",
+      "sha256": "a484137a7a2723f0bc62743817aa21cc68141f2dcdc2ee9bd9856a11caade6ba"
+    },
+    "officialErrataArchive": "",
+    "errataSha256": "464458b024d0c68ae2d38bcb328bb67f3a5ef7a93a050cf7822f9770f2c77900",
+    "printedArtCredit": "Tom Fowler, Dvati portraits on pp. 14 and 16, credited on pp. 15 and 17.",
+    "sourceDistinctions": [
+      "The 2000 AD&D issue has earlier player options and different echo-voice and surviving-twin rules. The 2005 rules and original builds in this batch use D&D 3.5.",
+      "Roll each Hit Die once, split the die result and add the full Constitution contribution to each body. Class progression and per-day uses are a single shared resource.",
+      "One twin casting alone requires the other to take no actions during the casting. The encounter cards use one shared initiative count as a table ruling.",
+      "Pair Link and Echo Attack are distinct. The former requires the twins to flank together or aid one another. The latter spends both move actions and requires a failed Will save."
+    ],
+    "entryId": "species-e450d945ed3354e860d811fd",
+    "versionKey": "b596f111dcc403979c6312b6",
+    "slug": "dvati",
+    "portraitSelection": "generated",
+    "portraitForm": "Aven and Iven Threadwell, an original Dvati Bard pair",
+    "npcExamples": [
+      "Aven and Iven Threadwell",
+      "Mara and Sera Reedbank"
+    ]
+  }
+]

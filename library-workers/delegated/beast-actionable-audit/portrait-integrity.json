@@ -1,0 +1,1871 @@
+{
+  "stagedPortraitMappings": 952,
+  "verified": [
+    {
+      "file": "images/adnd2e-monstrous-manual-bears/cave-bear.png",
+      "sha256": "f6d3312c593e7399bb0049f2e241485cdda38696d81a6874823e4fe32e65bfef",
+      "source": ""
+    },
+    {
+      "file": "images/adnd2e-monstrous-manual-eels/giant-eel.png",
+      "sha256": "ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74",
+      "source": ""
+    },
+    {
+      "file": "images/adnd2e-monstrous-manual-lizards/subterranean-lizard.png",
+      "sha256": "1cb387f2b1e49530b47bdd4d1ec9187b7d38bc9b20002eb996e4c5aaa2e0dc01",
+      "source": ""
+    },
+    {
+      "file": "images/adnd2e-monstrous-manual-sharks/giant-shark.png",
+      "sha256": "233e1df81e455d8c10ebd956abb8c6dfa4f02682058bf5441b00ebe80b7a61e4",
+      "source": ""
+    },
+    {
+      "file": "images/beast-portrait-coverage-01/dinosaur-spirit-ankylosaur.png",
+      "sha256": "d9a6dc2eed0f1e497a578ca81afdd36c90353ecad2303c35ecff0414d313ed94",
+      "source": ""
+    },
+    {
+      "file": "images/beast-portrait-coverage-01/dinosaur-spirit-triceratops.png",
+      "sha256": "046d92d9efd0e06be7db46c4a31f217bfb8528b6dcf9701e2e361a320f432347",
+      "source": ""
+    },
+    {
+      "file": "images/beast-portrait-coverage-01/dinosaur-spirit-tyrannosaur.png",
+      "sha256": "b4e218fb42376bbff8c6cac7cecdea704088c543749f12038cbf2f104eae9daa",
+      "source": ""
+    },
+    {
+      "file": "images/beast-portrait-coverage-01/mohler.png",
+      "sha256": "04b635f652487a6d184d635da013aeb059a0906df4b4904fdff99c8edde70b8c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-portrait-coverage-01/rotbeast.png",
+      "sha256": "e58c6f5a6fb68db3f148b38e62cb7aa3d4e71b7663032f1bf49f52de0a043328",
+      "source": ""
+    },
+    {
+      "file": "images/beast-portrait-coverage-01/stoneback-isopod.png",
+      "sha256": "e55547d92f9d3e8649627e79faa9746c35296a7086f1fa35c308679202dda2bb",
+      "source": ""
+    },
+    {
+      "file": "images/beast-portrait-coverage-01/trinket.png",
+      "sha256": "a915bbe0663be6a88f6399b068fd06d46b2686ecccd59ec19f34ec71bdf5c935",
+      "source": ""
+    },
+    {
+      "file": "images/beast-portrait-coverage-01/yumgrub.png",
+      "sha256": "dc3914ba595b8b7997e7c68c17dde7d46ceb366a4a1c4280e4ef11771831394a",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/aegisaur.png",
+      "sha256": "54247adaabf3b13f89d6c05c49b7465bb59ae6f98d4a705f65ee7935b35979ba",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/altisaur.png",
+      "sha256": "125f11553e6a19d2af0f2d0bf02cabf5cf6ee392cc8b07766f1d8eca48462e3e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/ammit.png",
+      "sha256": "bbe5700e86d19e311d27029799ac123fd305abea43b755a092a58e08234cfda0",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/amonkhet-drake.png",
+      "sha256": "92c677ba863e254425324c44ca59a2425c051ee223eeb44129128e7de7ad85db",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/armasaur.png",
+      "sha256": "31554131022aca36342f6a0c9815261aa7e7cb67fadfc51f635c4f5d32d96930",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/baloth.png",
+      "sha256": "c74b6b4a727b99fec6348d86cbf7d088004698c7107d2e8ef91a887f6b6349c9",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/brontodon.png",
+      "sha256": "c8b574189947b866f03bcdeb570873e8887f4d18507be309cf5480505827e0ad",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/ceratops.png",
+      "sha256": "6dfc38218f876e1adb5bac54bfe18c3d64d73dbce0d2a3098cd0bf66ecb937e8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/cerodon.png",
+      "sha256": "31cf6434c41e3a28ac4b73c97c2e13a442f76b39f37d108a0f3e4b7c01df6005",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/ferocidon.png",
+      "sha256": "f69cff654030d127b4473c18ea66b94f8caa8d91bd0e658600d01d7f75292753",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/gishath-suns-avatar.png",
+      "sha256": "9165ee1c4111c8e74e6628990ce57d313381c4e4db4b8c79c8e4bea572d362e0",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/gnarlid.png",
+      "sha256": "ceb5c1cdaa7937e00b0c811ff7a37d81bcca2d5d4fccb233eac45bcc36bd06d8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/great-cat.png",
+      "sha256": "517b7591ffcf480f2c97e65611e0a28289b672d28d92bf92407abaa03c8a0ec4",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/gremlin.png",
+      "sha256": "ed51d32dc7fe44e635b83e44d84d2cf76039bc941f6284203d41d3d1e79158a7",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/hadrosaur.png",
+      "sha256": "355da53aacf6b3acedd5d204b6e430f3876b71572385bd8dd2178f49c0c080e3",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/hammerskull.png",
+      "sha256": "ed6ff28ed30a36c49c8ff045ed0bc214cfb23688b99104b2e0cd34a33bca759a",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/heartstabber-mosquito.png",
+      "sha256": "050c8e54c8dd7d7858338f152bd5ae1b52c2b1ed75ff91fd281e7332d9fc04b8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/hippopotamus.png",
+      "sha256": "3fa9d0349cf6e1b26cc5add91546b65abe8860ba0e9b9fb945a0e2dab3d417ca",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/horned-frog.png",
+      "sha256": "b771e8e84024129c51d2a456466bc544ef8a0d5d7887ce0d97a681f7d613ea1f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/ixalan-aerosaur.png",
+      "sha256": "9094c2520aae2cc567b577c9c1aec66561774bd3f4b363a0cc432eaa88543559",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/ixalan-parrot.png",
+      "sha256": "96a65a32c6831e96ba18ce89791885ac23240fae073e6eb8448e00136fd2ef3c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/ixalan-trilobite.png",
+      "sha256": "b9ee7c98a90b38fdc4fa0f6caa51dd3fbe250315528442c335a63f9fd9cafb6f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/kaladesh-drake.png",
+      "sha256": "9525a7ed36c8130cb110deb69aa6dfe4792a169cd6fd2ba74039e2d963b090f8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/kavu-predator.png",
+      "sha256": "3c4f82dd602ce3475d72322c604ffdb0fda1b66bb4fad9e72b6a5445231b02a2",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/oxen.png",
+      "sha256": "c234a6978ab4a541978d6d13f06c6cb0a72c33eb0471fe5e09cd6353cbea7f3e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/piranha.png",
+      "sha256": "45f9c014c3a37d14423a5213437b9879dc5df7c7e4f676dcd364cfc6839be4c5",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/river-serpent.png",
+      "sha256": "fa791ce7e078ce4a611172262b4a2f901aeca96bedc771a7ca69adb50126493f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/sailback.png",
+      "sha256": "0c058d344baae7ee05fcb3348f3bf1e79ac2c1a9833e13233adb23cb5a9d2292",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/serpopard.png",
+      "sha256": "08f35683bba08308ce5cc01f22b65a7343c8c4104dacb032c7c0853c20520ad5",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/shoal-serpent.png",
+      "sha256": "9b1e19418963062e768d25db55ee86373e94ac39b3957a4a8e513db7b66f2fd7",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/sky-leviathan.png",
+      "sha256": "25ca7eac068bfdb5d5c15e8fa3d29773ee11a50e511273178858f885d4431c8c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/sky-whale.png",
+      "sha256": "ffee91221c1338b89ed2dcd75e3249d5159d99a30686476ee116a7147401a32d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/steel-leaf-kavu.png",
+      "sha256": "06705c758d6020b762746ade48840047d6b143cc062be7d8c636e8207ec72596",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/stirge.png",
+      "sha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/swarm-of-piranhas.png",
+      "sha256": "63f0f1c375ee051724b8343df8fee238c0a96a5f12227887fc74290c81d743ce",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/terastodon.png",
+      "sha256": "518cd810912cc35cb568f9779e78caa7f410205133fb46fbff6cadca2571bb17",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/terra-stomper.png",
+      "sha256": "2255de9f2322af778d0e5d4ebfd9341a33c0554046349d9475ebc95b15ead1b5",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/tyrant.png",
+      "sha256": "fd1181a105719dafa1ee47afe5a88fbc85bb009b8aa229c01048bf7936c408ac",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/velociraptor.png",
+      "sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/woodcrasher-baloth.png",
+      "sha256": "1a04ed8499f67dc0b1036c3dcddedc395f017e7f7cea1127b2e585087cbe1b61",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-01/zendikar-drake.png",
+      "sha256": "5c37ceb0d8ddd13add24a6d61b21da7cb774f4019f1ed18653c011017a916b00",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/ape.png",
+      "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/axe-beak.png",
+      "sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/baboon.png",
+      "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/badger.png",
+      "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/bat.png",
+      "sha256": "166fc642f25c5e161871ef22d9c1575aa8c20d306d23f3528e0da795e7286ac0",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/boar.png",
+      "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/camel.png",
+      "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/cat.png",
+      "sha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/crab.png",
+      "sha256": "69ff170a4280d382c521c0b2e631ef0563dad74e9046fc30929e8f992d5d5b8f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/crocodile.png",
+      "sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/deer.png",
+      "sha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/eagle.png",
+      "sha256": "5afbbb2846bbd876b515e7226034b341d8a78d7f425145451029812c5babc65b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/elephant.png",
+      "sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/elk.png",
+      "sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/frog.png",
+      "sha256": "2d8bb529958ace2d23046d6f813e49205cd13da686988305fee08900411ca0a5",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/goat.png",
+      "sha256": "3d9ebe807d3471a32e50e0516f6439b7f34340af62f545da120602096372ad39",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/hawk.png",
+      "sha256": "1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/hyena.png",
+      "sha256": "e24a6fe211e6b15c7caccbc705b80719b31e8f4008842f1d4f1048c7dc1da118",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/jackal.png",
+      "sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/lion.png",
+      "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/lizard.png",
+      "sha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/mammoth.png",
+      "sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/mastiff.png",
+      "sha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/mule.png",
+      "sha256": "91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/octopus.png",
+      "sha256": "ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/owl.png",
+      "sha256": "5c3783ed45aacc6ae1c16e0c483f7fac413c03249df01bdea10f732b22d36d37",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/panther.png",
+      "sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/pony.png",
+      "sha256": "38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/quipper.png",
+      "sha256": "b10ee08895edf0ca1fa8a26c25a82fc0cad37aeffb44ca84127dcceea84bbcd4",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/rat.png",
+      "sha256": "3ecfd8f4bf0d5b6a80a7ee87784606d46b0d414790f550d836a939c56b71be71",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/raven.png",
+      "sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/rhinoceros.png",
+      "sha256": "52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/seahorse.png",
+      "sha256": "52d51a66b31b0494b4cb70ac5c80b2730a9380f04673a18752ce54c7924c3b33",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/spider.png",
+      "sha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/tiger.png",
+      "sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/vulture.png",
+      "sha256": "91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/weasel.png",
+      "sha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-02/wolf.png",
+      "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/allosaurus.png",
+      "sha256": "bfd45c756e4462c0cb89ab8a54f979592b9dd7fa3a276313976d48994bc322f8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/ankylosaurus.png",
+      "sha256": "12e17f9424f85b5b94a6a614b0a2a967e54f34f1ac5b23ad1c732c391733dc89",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/black-bear.png",
+      "sha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/blood-hawk.png",
+      "sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/brown-bear.png",
+      "sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/constrictor-snake.png",
+      "sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/dire-wolf.png",
+      "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/draft-horse.png",
+      "sha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/flying-snake.png",
+      "sha256": "c18f8bdfa42fff72a1a91f6d5f796d7c9b58d706fa1efea8afe3466c92736160",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-ape.png",
+      "sha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-badger.png",
+      "sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-bat.png",
+      "sha256": "c50887fca84051934f81adda8f1fc1424fbc769e860eb76a1d4024502f95b045",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-boar.png",
+      "sha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-centipede.png",
+      "sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-constrictor-snake.png",
+      "sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-crab.png",
+      "sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-crocodile.png",
+      "sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-eagle.png",
+      "sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-elk.png",
+      "sha256": "7c4d9668b327a21ce3b19ebb2f822f2d59f574ec743deb242a13eacc6ef84670",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-fire-beetle.png",
+      "sha256": "47a8ac3d770c6807dbce160373c8b7dc38a34c6cb8a9d053572da11e72767006",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-frog.png",
+      "sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-goat.png",
+      "sha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-hyena.png",
+      "sha256": "e79074ef555e40476e5421598c04d12275d705c347c1d518118f1db43eb7e59b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-lizard.png",
+      "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-04/giant-octopus.png",
+      "sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-owl.png",
+      "sha256": "ad9e304223c25c1ab07c12fe55ea9f0e4fc3e3f7337dd73eb24fe1b0751b4f67",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-poisonous-snake.png",
+      "sha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-rat.png",
+      "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-scorpion.png",
+      "sha256": "0c4e3729b267cfc056248992f31fea7df9529c6c7f37f5b33b20713c9e270492",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-sea-horse.png",
+      "sha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-shark.png",
+      "sha256": "56aaba51f1a9c9bf6a038420210db29c8d84f6ef2e97c65a8d548cc0c6a1c0af",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-spider.png",
+      "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-toad.png",
+      "sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-vulture.png",
+      "sha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-weasel.png",
+      "sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/giant-wolf-spider.png",
+      "sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/hunter-shark.png",
+      "sha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/killer-whale.png",
+      "sha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/poisonous-snake.png",
+      "sha256": "0618654cb0d968dc849a9fa9e98e607562be990937f801feb4059362135124e7",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/polar-bear.png",
+      "sha256": "ea58cc6437d6177f689a0f7f2202fb4a102a0d79b7470b0bf21cba879f4083b4",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/reef-shark.png",
+      "sha256": "6f2fab1af6cf9e06fa2af63260b1c24c042594eec93c1427ea3f181b5b74b812",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/scorpion.png",
+      "sha256": "c93a0150b8dc71654dd0fcfa019a65001bdc5eec5d3a65dc2eccd49427ac64bb",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-05/sea-horse.png",
+      "sha256": "b945b89924ea71d69b00f16c39853f9e304556f5730d730a6f80cef6affcc009",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-07/bison.png",
+      "sha256": "b84cd8f63b58308abcd17859fd64e308e931ef668393f02a0f27843a796a6869",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-07/deinonychus.png",
+      "sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-07/giant-squid.png",
+      "sha256": "9adef0cbd548d35a0ece1d137c4d5b42ce16e85c2662edbc0763ad8ec1f7ec86",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-07/striped-hyena.png",
+      "sha256": "de6073effa6bbc3dcec9cc99dd282e642d950f4aa4f7b1a7eab070932c0ce8a5",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/almiraj.png",
+      "sha256": "b8bc228dad2a7fe595ce9de19a3c1024dbe14a0054b23c19a59d03fa5d238c53",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/batracine.png",
+      "sha256": "6c1b809f7ee2406280889d75b41d8d589f59b748ba4a1dd8025d90779bf13344",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/brontosaurus.png",
+      "sha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/caniquine.png",
+      "sha256": "6c34cb9cd21cd65a03328050d3dcdf8371b79fb3309c08a03a928f47b424f871",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/cinnavixen.png",
+      "sha256": "6d44d09c42b4f34c9f4eda925cb58914f3db4ac68b75d73b71efe24a9d848f15",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/dimetrodon.png",
+      "sha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/echyan.png",
+      "sha256": "ab83566d5bc3d712d7c3e555e72e90295c5c370e2923b5da3c617ed2d9a2b2f8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/feliquine.png",
+      "sha256": "58aab3d368d394522f56f15e688ac7920f056a34a24a55be71baa01d152b21ec",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/flying-monkey.png",
+      "sha256": "3154dcbc49c9d07e425980718ce0d9e694327d349cd697d3e77b6878397ce57c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/giant-dragonfly.png",
+      "sha256": "bf7e624f93e2e8b70203ca79976e58e0f12b276dea68deea8795e68095997426",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/giant-snapping-turtle.png",
+      "sha256": "c0052ecb2b70097da1ec1c6a831942a5a3af746b7f339633631eba7bb275a927",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/hadrosaurus.png",
+      "sha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/jaculi.png",
+      "sha256": "1b053afe35438d32c9a31c7bb377e4ebff72beafb60812735f4c8f91ee4a9685",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/juhrion.png",
+      "sha256": "9b8afecceb7ad3063d0d964323cb24ff7d69a5ba443e704994118b02ace56b3f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/niktoo.png",
+      "sha256": "c41436a38d6ebf71a6b5baeb6122f7e91137f467af21a00f49d09e00ac205566",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/quetzalcoatlus.png",
+      "sha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/stegosaurus.png",
+      "sha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/succulus.png",
+      "sha256": "6fa9bf97689e4aaddd307882ad7fd00a8ae5185ce8a095a6676649309d782acf",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/wild-dog.png",
+      "sha256": "fbb0c2e35a467b8ca4334eb49263454fab778a0f050356683ac57cadb5f2d187",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-08/zebra.png",
+      "sha256": "0a79e2ff5d6fe681691f9b51a15a7db405954a54d090609b112c64b9ffcef951",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-10/swarm-of-cranium-rats.png",
+      "sha256": "d43b7e7cbf4bdc04425694c3b40a346a9bb9c6e222a4fcebc88d0c31ae2f1dee",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-12/seal.png",
+      "sha256": "011795b07c390048abd0ced9284abf297b77d250db27639ecbade13a4cde3f1d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/amphisbaena.png",
+      "sha256": "66433e363a8622d407759f29537ac955de2a5b5b62931a4d2a7d74c6767d478a",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/awakened-white-moose.png",
+      "sha256": "8f1d93629cbda13c8b5c5140aa2d66de1182a502ff30539b0e6cce5cf1aff59b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/chimeric-baboon.png",
+      "sha256": "7d5b281a535eac98e634aed4c61e517f2b3f120cdfcce25af97ef9755d9497d3",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/chimeric-cat.png",
+      "sha256": "1f74d47bd239c26d22e7f7f6e138fa84edcc6a39e11496406d6735929d8b3b8d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/chimeric-fox.png",
+      "sha256": "2730def9de283410cd05e0859fad60c8bfacca172595d056a48c37da23969eab",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/chimeric-hare.png",
+      "sha256": "a146ff14899ba6ddb738d04507b296728f1d0cb87ffdec6470a1451fad9c11be",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/chimeric-rat.png",
+      "sha256": "efbd844c3e31b69b04d2a913f154417c88c75b484917751a15797da298320374",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/chimeric-weasel.png",
+      "sha256": "d8407f2ad8def0bc7b685753fec2d0416b8a78295455011dd997e67cc7a821b1",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/cow.png",
+      "sha256": "e6b6f184622ea2a6770ae532845441a482af8b38de31877172854966f897f10d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/deep-rothe.png",
+      "sha256": "c295a1c3bb90af78ac2b296b88b941ac84f4fca931142bf284432bc39bd199bb",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/female-steeder.png",
+      "sha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/fox.png",
+      "sha256": "33fb5fe5a708eaffa1bd437b14600ee13745188fe7d6fc88a591694c9ea1774e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/giant-crayfish.png",
+      "sha256": "afb3e7d796c0ad594d681bc237aa1d195b5e6b1f97b7fa02c1126de303bc4e34",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/giant-walrus.png",
+      "sha256": "00429d9def80d7ac8a646420879704e0fa0e580803f7d1a9de5f5438bd96a132",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/hare.png",
+      "sha256": "ea54892cc8c248509f26caf05605bfad234eb41f98a1719c2e381048c8d3735b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/kingsport.png",
+      "sha256": "36aa5c00f1707f3f3b841c5e964c81a1de2d415128ebbef50eb25f58ce446c25",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/knucklehead-trout.png",
+      "sha256": "a7f4af50cac8153b121a1bdd23a77c6e119f76447d3268f0c1b20470e736e146",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/male-steeder.png",
+      "sha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/mountain-goat.png",
+      "sha256": "03616702362837fc41e1b82c393f5fc3b57d4915d7a9c4d2877e01a0e8430d7f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/ox.png",
+      "sha256": "c3ff960383a3750a5b7cbe757b377b49600121849de47efb9ecce5c190f8f456",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/rothe.png",
+      "sha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/snow-leopard.png",
+      "sha256": "bc5529680d4428cf6acc8e9b11f302fcd48d8bc3d7f8ee6158f26f18c93afa31",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/sperm-whale.png",
+      "sha256": "fe12e531a0f009f4fa18851b8f43dc9e1a58454abf76a6dedd3b39cde5316f7d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/stench-kow.png",
+      "sha256": "3220893e5100a3e39c78e296f80c933830b66d3a95d70b79a483a99331942cd8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/swarm-of-rot-grubs.png",
+      "sha256": "2e70b81f3e479a10a9b0302989664f545494915e68512d0143ee3717910a3cad",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-13/young-winter-wolf.png",
+      "sha256": "0aaa450103737fc435d7be5b53de20fba7a0c5ccbe24a083e4374506a6812012",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/barnacle-bess.png",
+      "sha256": "4ada12f899ca3cabe46f7b6dda820313bb4cc32c2583dad9d992a204023505da",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/bristled-moorbounder.png",
+      "sha256": "30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/diatryma.png",
+      "sha256": "06baf714aa1a045652bb3e5750d38174c25fac38c404959b0586cff8fc1f0f38",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/falcon.png",
+      "sha256": "619a21c311b996b7242810390f5d3f90253f6c5d60259be26e0585e235fa499c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/fish.png",
+      "sha256": "eb61d1765250b9c69e1f18a806f7a5949a5bb3c93d38c6a8d7f2c4cb140bed11",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/giant-coral-snake.png",
+      "sha256": "766274e34d67e209f7e5dae19c127e9013109b018fbd3ca5a1bfb32c36662c9f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/giant-flying-spider.png",
+      "sha256": "aecc41d9327a73f2f199116ee721fb900718460c3524e12211f79eb50b2447f3",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/giant-sea-eel.png",
+      "sha256": "74741b49df46b52cf487bcbe92d851a035472d297a50a9219df242bb1532ea1f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/giant-snail.png",
+      "sha256": "1ef5c2e1dd40b167689a96996ebe6b80ef277b7eaf6dff4d7d0912508a9c699d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/giant-space-hamster.png",
+      "sha256": "352dd13b0bbe8c73b2e8c1e1f6a39b5b19efaec0fafcc8efd15b2602af827820",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/giant-swan.png",
+      "sha256": "0db71079a06d7ad7d94ad7ceb73bb3b749d7a4824bcb277f35577a72da775eda",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/giant-two-headed-goat.png",
+      "sha256": "b7466292a68336d9a1d26cf0d04f2d8ec4dcb72359fc8eac4a818058ae3d07de",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/giant-white-moray-eel.png",
+      "sha256": "c66f342177e7cefdbaa84762e4202fdc402a11936a20ccc29d58a0a74e44c3f8",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/haungharassk.png",
+      "sha256": "b050838094122f2a89ff8943d384642be2e3fe7131dbe882921581ff7baf089b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/ice-spider.png",
+      "sha256": "4422ce415581e93f257ddcb79982725b56b66279766c6ad372f8737ee321561e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/moonshark.png",
+      "sha256": "4e3205d21ccd266ee5b03f3cac67e70bf9e47534be0a1278c6d29db29b43bd3f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/moorbounder.png",
+      "sha256": "6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/pig.png",
+      "sha256": "789f965913cfee4e504f09b79277f083c197e58b5f3742b42b747e198a535083",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/pollenella-the-honeybee.png",
+      "sha256": "a0680f2d80584d77976a9d0b58fb74c564a6db5603c846e79eea220735620d32",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/sahuagin-hatchling-swarm.png",
+      "sha256": "3ea2e45e53bc79e192ae725d182a7d0f30f6ff3ce3a96b8aa309f380721058eb",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/space-eel.png",
+      "sha256": "34602dcd100284de9879534275f25d34908bae456b94684234bb1e84e72bd8e1",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/space-guppy.png",
+      "sha256": "2c67cb4af7db11ec1d2740396a3e9a3fdab8bb47e37483bbbab3938050a22aa2",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/space-mollymawk.png",
+      "sha256": "c95343b40beba601bea562705eb2ffcd239a4ff01a091bddab84632c77bb10cf",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/space-swine.png",
+      "sha256": "6bbc3baacb1becf9221255c0b5fc9b267a891a423ed5b771a931e45e8808ffb1",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/sylgar.png",
+      "sha256": "cd92c056b54c6dfaa6c6f45706cbf7c2c0e33a2ff5d5a23de62508a34e478644",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/yak.png",
+      "sha256": "a14d759892999b7ed8cfbfbd18f0d4ae9d6a55571ce669572e173f4f2a600d33",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-14/young-horizonback-tortoise.png",
+      "sha256": "c0476e776f50836b78ff74123f36633a937614add2ffbb398ce7e774ba9e471e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/albino-giant-octopus.png",
+      "sha256": "365a84d443b2a653f30dae45ffe3205409f5d1ed711a16a3fab96366a1b1543c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/armored-saber-toothed-tiger.png",
+      "sha256": "1175b1f8658a85fb9e7d8f2be88846c2874d3acf7cab4d6981b3767bfcc28b3e",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/barded-mastiff.png",
+      "sha256": "0f57b73c2f6ff540a45d16d74c503e8e4625fac755248b8dd449d4dc500a951f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/barded-wolf.png",
+      "sha256": "ab89fbdbf7d834b70454094925c9bedfb708a59937198f1412be413f086dd31f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/cooshee.png",
+      "sha256": "00e313bb36a771a427b14c8590cc46e165bb5cd30639c977cf1b76670477db40",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/executioner-black-bear.png",
+      "sha256": "9b7699396b96d41b36d0234ac44623711e55fc9f95b89a45e443c2e38c9ea9b0",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/frederick.png",
+      "sha256": "1ec9284dbeb4d765349b28a0a956bbe24b40189010e32c832b8e9607e4d4c70b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/green-giant-octopus.png",
+      "sha256": "42ca7fdcd1f3cd93c50825f09d6c7b278f5c9abed232c2dc73be13a21272e3aa",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/kryptgarden-giant-eagle.png",
+      "sha256": "d2e302ad06847383fe3b03957c16417d8128dbc1225857c73d4b4eeeaa3cd49b",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/kryptgarden-giant-owl.png",
+      "sha256": "5a986cd463741a04c04c707fb1e58443a989b1dd6337d5a89ad5b9ee5a083dbd",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/kryptgarden-wolf.png",
+      "sha256": "daa18511ed1ba746492017ed57118d5e3fbcdd1fd1897f51139203570792e737",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/obsidian-giant-badger.png",
+      "sha256": "dfc95d54d9735103e1fa16074abc9d6ef8b42aee1ed3b69d03368003fa9d6e77",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/piccolo.png",
+      "sha256": "fccb7aeb181593092509ecc395c07edc75724c5458af013e593d601cc0c598da",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/sangzor.png",
+      "sha256": "db04d6d418286a188711bc57d8cab554c6747c75e3e69c68ad3ebe06d220ea00",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-15/young-bulette.png",
+      "sha256": "3211a9b3d2b38c82a079f553636dfdb551e0dbf66e0729341948d17f569726b6",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/birdsquirrel.png",
+      "sha256": "15d056f509371ea34333f5402ef01d423934993b2cdcaf40d06a1b93c83a0d18",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/boontu-monkey.png",
+      "sha256": "ecf4f857363ddc93c741f02ce3dc80868fc0c3d1029e5b1c464b9a3ebed68823",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/dire-bear.png",
+      "sha256": "a2923e488874b6d31babed448320cb03ec551657c25e7620f02dc496698d7707",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/fastieth.png",
+      "sha256": "a3017c0bafb6606006e3e6079478eeb08f5af725cb66e15b298e532c3157e070",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/golden-stag.png",
+      "sha256": "f08a64bca203c144a7011ce9cea5341d00d832ab4d38707fc99bd6808ff0157c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/primal-beast-land.png",
+      "sha256": "329a28cbf2547515866c413063347fbc44315724de50ed00171459375fc79912",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/primal-beast-sea.png",
+      "sha256": "549b1e7112dc8d87a83e74eb5f58cb760e591b7e38b5cb7097e9d390209b9ab5",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/primal-beast-sky.png",
+      "sha256": "a78e800e108aa4c1b1892405dc35414c82005e26784294d1208ee3ae7584a8ad",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/relic-sloth.png",
+      "sha256": "87cb1fa8a4008a51e758589e83b0c81319fd51b6b95ed65c03bd6e107fc28761",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/spider-king.png",
+      "sha256": "648b76539a7e398f4c5d99cea78d25be03d5ad4fe3668b7675a4a72a05bd0817",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/spitting-drake.png",
+      "sha256": "9ce1393db9b988c23426a919f6ecadec3e85dbf5706428e9547a691daf8e2860",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/swarm-of-maggots.png",
+      "sha256": "d19fb3c7ea9f4ef60addea7ab5c0ec45d64c04f2bd48075ef3412bffec5500a0",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/swarm-of-scarabs.png",
+      "sha256": "04b51cb17df12b1349fdadf1e0bd2c63ff92ed8130db37a853bd9635f6e9ffa6",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/two-headed-crocodile.png",
+      "sha256": "feac625a082ac879c0308ec69f5c5f5f90e5a371183502fbd7388924aea820dc",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/two-headed-plesiosaurus.png",
+      "sha256": "78a611a91b6f63bfb1e6376e9128f3a00325841ec4193560b3c4aaf5c72fa5d7",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-16/winter-wolf.png",
+      "sha256": "d77ef8deffb11436cb78444442932a8c7657588bfe8a92d7b15782b0a8893543",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/bhaal-ravager.png",
+      "sha256": "43b589aa5f43c3e28e1a32c1560157160e849fe49488b0e77ea9234165925945",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/enormous-tentacle.png",
+      "sha256": "5b76fb826348852978163ce64ec82f84522fab00a530b12fb601f84d82f930ca",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/giant-canary.png",
+      "sha256": "895b42de5408c1d35cb84d2fe23ee9f2465971a2bb184c517dbb1bc205a4302c",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/hellwasp-grub.png",
+      "sha256": "b14e0af8ce6f486bd9a3fa8d3dd2f7372f8ffaa4638f1b46130d7256a069a1f6",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/koi-prawn.png",
+      "sha256": "bb33da9e443f4ac1a4db1ea665c715174e837fe5f067abe3ea307250e5393f05",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/onyx.png",
+      "sha256": "32946c10ee166fb7d0e8b77f5c3aa476b974941b10b38185cc6676f23b4a6ed9",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/parvaz.png",
+      "sha256": "bbd6d899124580c806b2aa07ee7304aa784fc59d51790606c644d73ebe30093f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/peacock.png",
+      "sha256": "5e62e359197c21e0d557160df2b5b0aef3e3ec130cb9f9c4192b9dd903f6ccd2",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/ravenloft-insect-swarms.png",
+      "sha256": "03ed76717ac5fccc47412e9aa957a28865b2e91957ee49d1204663cdde5b580a",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/sled-dog.png",
+      "sha256": "c32c3de43fc9ff7bb9504413b55684bd576455308cbe0d57e2bc6036ba610adf",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/spotted-lion.png",
+      "sha256": "74a7b744511d2bcb17e5f586be2960052f7f492525d98b66cd2c318b0efe1d5d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/sword-spider.png",
+      "sha256": "f699c94cf67afc29e3091f364d831b5df0e8669a7b861ebdb2d2cf8ac106d723",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/szikzith.png",
+      "sha256": "4e20eea3c7b1c137fb6ce293e6cdbd81b33ceb51d0c7fa6061573c31e749e391",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/titanothere.png",
+      "sha256": "7c1ebd4ac96666e11ab9c317d8787514980696d7a800ea8b86508a381a44d0ac",
+      "source": ""
+    },
+    {
+      "file": "images/beast-ready-batch-17/traxigor.png",
+      "sha256": "b8fecd819074b2c0027cad495f0d9e0e64e9568dc5274b741e4df0d9337150fa",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/cheetah/parchment-portrait.webp",
+      "sha256": "253a3782fe008ff5bda0d1051c2e165148c1d4a738c809bb89de16716407e833",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/crab-giant/parchment-portrait.webp",
+      "sha256": "e4793e097140b0dd2ce7385db8566bec0f115ecb0ece56f09286229b58481564",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/crocodile-giant/parchment-portrait.webp",
+      "sha256": "e4d6edea0beb5fefb23b7c8de138325b07a0d62a00edf70f3ddac72e4e9a3580",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/deathjump-spider/parchment-portrait.webp",
+      "sha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dinosaur-velociraptor/parchment-portrait.webp",
+      "sha256": "4a5f84fff3f12fe2c7fd391e1038db1b5cad1887b1e81abcf0aa010dc90d8bc6",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-ape/parchment-portrait.webp",
+      "sha256": "129fb4d7249a6a78c5583dc60e4db690b775a8bc0643c059b7cf46bea31fdf46",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-badger/parchment-portrait.webp",
+      "sha256": "32a67b10a55ed6aa9dc9cca46d61387aba778cd572330d33c878f18ab0e1896a",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-bat/parchment-portrait.webp",
+      "sha256": "cf197320afdbe323a8bf9cc99035ead1e0f87c95805d0434f605daee7bf997f5",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-bear/parchment-portrait.webp",
+      "sha256": "2cfb04880a3e62b70030dbccec1ade6e4035da5275b80f17a6f2258814bdfa08",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-boar/parchment-portrait.webp",
+      "sha256": "a7128942891a5e2597400a6c8e37ee472cf4b166a53fd48b6e2226d7b80812f2",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-lion/parchment-portrait.webp",
+      "sha256": "721cca6d4953ce7f76df6b9d2486a4e07123eaa9bfc1bc1458e2420d45d85fc3",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-rat/parchment-portrait.webp",
+      "sha256": "b760bc30296688082fdebb8b1c388d18ae5f48132689485a3b2c560fce2cb04b",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-shark/parchment-portrait.webp",
+      "sha256": "1209bda61c6524eefc1559f4c1ecce589ec010f223f6ad783a78d583f17241a8",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-tiger/parchment-portrait.webp",
+      "sha256": "a27de36b5fc3cf870645a78a4aab54d5db578a8898e152f7191cfc555360edf0",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/dire-wolverine/parchment-portrait.webp",
+      "sha256": "9f193036f14876ad8eeea4a8d088fafdef157f89dccb9b559301b21a8e08803a",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/donkey/parchment-portrait.webp",
+      "sha256": "f10a084216e4f77366b0b2d5b705b5536decd37a054b050d605167e0865be2ec",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/eagle-giant/parchment-portrait.webp",
+      "sha256": "4e2e41e58b04feb5c8eb7579a6d2a1e37e8db3812c322134a6eb4c3d910a1ac6",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/elasmosaurus/parchment-portrait.webp",
+      "sha256": "6a90b8f752c662273e5034c0c110ac0df117610941b1c1efab1d5eba6dac1455",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/elk-giant/parchment-portrait.webp",
+      "sha256": "61e93218ed82625c7214db58216662d779248974870152cc5085a0f34cf60429",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/fire-beetles/parchment-portrait.webp",
+      "sha256": "69935e2171f2c5a2383cd46f334911bd711eda4dc60cd3f1b16c6f56fc59bccd",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/fire-stirge/parchment-portrait.webp",
+      "sha256": "81dcd954b965016ada33db49428c1e9d55152f78d3aece178612c7a08922b701",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/frog-giant-poisonous/parchment-portrait.webp",
+      "sha256": "7751179636ae562d85206b929fbc2407b9edbc0537eca73534378cc888629d9f",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/frog-giant/parchment-portrait.webp",
+      "sha256": "dc1c59560c0df21c88afb6cfc16c0318c915786a2cd62a8814b46155ca1cf2e3",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/giant-bumblebee/parchment-portrait.webp",
+      "sha256": "65a717519a628b5b71df378ee582abeb66d41140c9bc91354ef555e18772f8f3",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/giant-honey-bee-soldier/parchment-portrait.webp",
+      "sha256": "a7ee4c181b196dedb320a82cf2c3db15eb977f02025e8a4a581e2d96ec3a26f1",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/giant-honey-bee-worker/parchment-portrait.webp",
+      "sha256": "bd0d63cdfd57ecc5e151194d8c7743e90720b7ab85abac51723373c6720fe865",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/giant-lizard-variant/parchment-portrait.webp",
+      "sha256": "d337638b8b6b403f290348ae39435f166fa423ee09ded386411630f34a2abbd5",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/gray-wolves/parchment-portrait.webp",
+      "sha256": "665be0ad0fbc644e52f14152ed72b358ca1f8d40480d6a2114e537409474c63c",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/guard-dog-wolf/parchment-portrait.webp",
+      "sha256": "55b5fbe4a9c23452a552735a203dad9341d9bd0de8707ea8184ebb44a5352889",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/guard-drake/parchment-portrait.webp",
+      "sha256": "1c2e141487aad507b22fe28a130661997cce62e84565d5625b843663852e266c",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/herathian-voat/parchment-portrait.webp",
+      "sha256": "3dcbb4ef9a9ad4a0844822421756d34eb34a3c7c5a0039e2c25d411e0159a65c",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/hippocampus/parchment-portrait.webp",
+      "sha256": "92d835bad956a8a6f483042f9a70f1acfd5fbc14e46106c439960a0a53f5fdbd",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/huge-shark/parchment-portrait.webp",
+      "sha256": "66b340e9ff068327ace5eebbd78c07eeb5a6a2ad0554dcdee10c437a3309e521",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/ice-cat/parchment-portrait.webp",
+      "sha256": "b792f018d221ce3ce890e246e5876c627079e9407ac58614b64c2abd4fe67cdc",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/insect-giant-scorpion/parchment-portrait.webp",
+      "sha256": "860f597874ee224daa52db3872d70659c971b4d562d2effc4599d51a25263e43",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/insect-scorpion/parchment-portrait.webp",
+      "sha256": "6997e27e56ec82a2ab5e782331ab55a6bb0da6035841b12543ac124098ea1d57",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/jorri/parchment-portrait.webp",
+      "sha256": "e77650da26cab97e9cd0a47ca65cbf7a93a299fb9a00f79e4985368b1d6a0605",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/kruthik-adult/parchment-portrait.webp",
+      "sha256": "b6c76c4a1c5348a1a1e53cdfcc5e3537b453dd8374e2356b43a020ea1fdb22df",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/kruthik-hatchling/parchment-portrait.webp",
+      "sha256": "cd06c7118ae734ffed5a18103dc8c105ce6f85c73f88bebbf4bfec36d99607b4",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/kruthik-young/parchment-portrait.webp",
+      "sha256": "d0c0f1ab6c4adde5beb22052640a2f6bb90bac8293a9a1f734c4e53373176cc5",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/leopard/parchment-portrait.webp",
+      "sha256": "9646d6a7c1611b6e20c022d150f1d9b1010e9fa6debf70025ad7d38d7254c69e",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/lightning-eel/parchment-portrait.webp",
+      "sha256": "6861b14702b7b25d03538cb35d4539770e48d79cb89768cdec40f76ef80b6e9d",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/lupasus/parchment-portrait.webp",
+      "sha256": "51744344fa8e3a3d9105eba8a4d11d9f868b9df38e1c254d029a8f507a9a1aae",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/manta-ray/parchment-portrait.webp",
+      "sha256": "530cc0a70fd264e533d905db53fd7a5fbe7b54cbec7a1d6cd8be620bf9621616",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/marine-cat/parchment-portrait.webp",
+      "sha256": "79b713a311443f1ea3dac63c05035bf2a61efb5cfd8a26f5c244c5bd97376f7b",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/megaraptor/parchment-portrait.webp",
+      "sha256": "f6edf380dce6f8d97563b06804673449a36c59a36232be540c35f9ce897b4cc1",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/monitor-lizard/parchment-portrait.webp",
+      "sha256": "d3ae5a0f3e60edfc22a6176ffc724abdc3053378cf27e2d25025f44fb1aa7d75",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/monkey/parchment-portrait.webp",
+      "sha256": "3c8e2379babcd62969f9a60e8345d13ef2e3840dda75a046a0fbfd40c8034112",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/oliphant/parchment-portrait.webp",
+      "sha256": "daa6992b4877a413ef9aadb19d07705e94469dd3893f74a25a475559da527b08",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/omm-wa/parchment-portrait.webp",
+      "sha256": "d43d52b53f64e9c1b0a1815757c683144c0c9b0d5c59ccc99589233c9ab4455a",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/pandarian-dragon-turtle/parchment-portrait.webp",
+      "sha256": "20affe480c6e61cdff25b306d617d3cbbfe12461d68e70de904dbeabb9186567",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/porpoise/parchment-portrait.webp",
+      "sha256": "9146ea9b0010a1a86d62c13bb51031610f3ec38b62eaf304924f08385b5ababa",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/redspawn-firebelcher/parchment-portrait.webp",
+      "sha256": "a9ecfc55941a4b3840f7bf2f213123c504c33a542c0a914d8b0cad1585a35f1d",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/riding-dog/parchment-portrait.webp",
+      "sha256": "8881f86a90d7acfc143a24eaca968490000fc5dd9b950be452be417b8cdc8ce2",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/squid/parchment-portrait.webp",
+      "sha256": "8dcb2884bc0e384f0427cf3971550803d7047daeafa0d3008177588af680f6e5",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/swampmare/parchment-portrait.webp",
+      "sha256": "e91fbf1ed393b3fc787d28c23a50aaaa948ef3bf903621774978af3803b4ecb5",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/swarm-of-insects-beetles/parchment-portrait.webp",
+      "sha256": "02360d39e5f8cff68fc1959ad5afa92ab5bcbb00d52256844a558efe9cd2298d",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/swarm-of-insects-centipedes/parchment-portrait.webp",
+      "sha256": "577be40222026ec883a92e61e5c7f13947b096f5d177015dd8eb10e48cd0d60d",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/swarm-of-insects-spiders/parchment-portrait.webp",
+      "sha256": "f2e8a398cbb454682ca58b718c263e40e80d2e060252487dffc0270d073866af",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/swarm-of-insects-wasps/parchment-portrait.webp",
+      "sha256": "13329a234d1710e75c3a727e4b84a923266134f8cd7bf941a9360d0c7962aae6",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/trosip/parchment-portrait.webp",
+      "sha256": "c1e136bef79480466c4d5d094105c55b598a8598ded85cdd5c3650de66fee008",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/voat/parchment-portrait.webp",
+      "sha256": "7818ff5599db53331a679988dd1b4dc95e611b48dd8d694a7918309615139f8b",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/vulturehound/parchment-portrait.webp",
+      "sha256": "d804139e1e1b3b5cd28fdc9eae5ea6647cc320bbb6a54d00afbd2be613d25b33",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/war-pony/parchment-portrait.webp",
+      "sha256": "b564a87e30cecf28608a31b4677e40119a2e929b2b55da1f75aac539ce901a35",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/wild-dog-alpha/parchment-portrait.webp",
+      "sha256": "d19643d63a07e4004727ba685ae045d53b7a0fa27d004dc28d4b6627d2580e7c",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/wolverine/parchment-portrait.webp",
+      "sha256": "696bfc4e9a3dc67069266eb71d8757fdb5c6072ce2f6e210902fcbfbf483f975",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/wynzet/parchment-portrait.webp",
+      "sha256": "46ca43296a4dd52670d1f94e0f539aeaa96971751fbe896dedbd9fc6f7c94298",
+      "source": ""
+    },
+    {
+      "file": "images/beasts/wyverns/parchment-portrait.webp",
+      "sha256": "84dea5d07f564fa43767526ba1560c29a76d56171d44f41fc6f5051e58c8e8bf",
+      "source": ""
+    },
+    {
+      "file": "images/black-flag-ebony-fly/giant-fly.png",
+      "sha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+      "source": ""
+    },
+    {
+      "file": "images/dungeonland-ex1-beasts/giant-poisonous-snake.png",
+      "sha256": "a2fdc852584974c6df9d84b54c25b9596bd92b157b1019c98015d5775a1af13e",
+      "source": ""
+    },
+    {
+      "file": "images/frilled-deathspitter-beast-pilot/frilled-deathspitter.png",
+      "sha256": "159e14474330fbeec8145ada218c6183b8b60a64a3aed14a469f5ebfcf8f129a",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/ankylosaurus/parchment-portrait.webp",
+      "sha256": "44b936cdb1d2066bf9b17dc59e39476be97574879de899dc59e6ccc652900eaa",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/archelon/parchment-portrait.webp",
+      "sha256": "5d765deaf5a395bd20a1e156250dc3d88290cd29393019cf8b143e92b2c046ee",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/cat/parchment-portrait.webp",
+      "sha256": "f5931b59d47a2719402053c0e91fde2b60b6ae056ce18bccb64eb2d0488d78de",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/giant-fire-beetle/parchment-portrait.webp",
+      "sha256": "b389d8b02dd5ff2d035ac1a16f7e747a032ed04acf911a9182ad820fb873f1fd",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/giant-wasp/parchment-portrait.webp",
+      "sha256": "d77df7b6ef57ca884369c3c516c9897a50c9a4fadb566de1476ed2685489eecf",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/plesiosaurus/parchment-portrait.webp",
+      "sha256": "c1ccf37963e1f9ea88fa45b872eb1c9d5874a3d184a98ad52f88b86a4df356a5",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/pteranodon/parchment-portrait.webp",
+      "sha256": "d10ee191c86381786fb29907a84c92bad322e85eaba1c0b2bf647366e0d3e239",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/rooster-heraldic-servant/parchment-portrait.webp",
+      "sha256": "087b257409671181ede0f79e176aa1f2c7b987f9f25dfb02cd2af2717191bc0e",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/swarm-of-bats/parchment-portrait.webp",
+      "sha256": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/swarm-of-insects/parchment-portrait.webp",
+      "sha256": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/swarm-of-poisonous-snakes/parchment-portrait.webp",
+      "sha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/swarm-of-quippers/parchment-portrait.webp",
+      "sha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/swarm-of-rats/parchment-portrait.webp",
+      "sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/swarm-of-ravens/parchment-portrait.webp",
+      "sha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/triceratops/parchment-portrait.webp",
+      "sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789",
+      "source": ""
+    },
+    {
+      "file": "images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+      "sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+      "source": ""
+    },
+    {
+      "file": "images/night-of-the-walking-dead-beasts/giant-rat.png",
+      "sha256": "73ea67873e363e85f11687d783e26ee1623cee5e3b183822a2828feff3cabb37",
+      "source": ""
+    },
+    {
+      "file": "images/northlands-worldbook-beast-drafts/reindeer.png",
+      "sha256": "e20ecf6fb5a414890320eecaeed403ac17067559ccd8cfd86f815fe8357e0c96",
+      "source": ""
+    },
+    {
+      "file": "images/playable-species-50-batch-11/crocodile.png",
+      "sha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6",
+      "source": ""
+    },
+    {
+      "file": "images/playable-species-50-batch-3/griffon.png",
+      "sha256": "7a700ff016a101d307086ca7d7b82314da0982a4b402bd0cff4aab6ba62c5699",
+      "source": ""
+    },
+    {
+      "file": "images/playable-species-50-batch-8/cranium-rat.png",
+      "sha256": "da0e610eda41d06d605999814baa013aef458343829724d63a3a5f046134021c",
+      "source": ""
+    },
+    {
+      "file": "images/playable-species-50-batch-9/aurochs.png",
+      "sha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61",
+      "source": ""
+    },
+    {
+      "file": "images/playable-species-50-batch-9/dolphin.png",
+      "sha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86",
+      "source": ""
+    },
+    {
+      "file": "images/srd-giant-insect-drafts/giant-insect.png",
+      "sha256": "e18bf105507255bbc522ad312fc88a62fbbf2241f191902cebe2cd7e7ca98414",
+      "source": ""
+    },
+    {
+      "file": "images/srd-giant-insect-drafts/spider.png",
+      "sha256": "7fd7182ff9c8441f472cfe981a4304e773c3f950348e81d55d231164700f6efd",
+      "source": ""
+    },
+    {
+      "file": "images/srd-giant-insect-drafts/wasp.png",
+      "sha256": "c401c2abb5ee459cb96c6de8515e77b29f4d52bfab4afdfc6b87e8224b9c8320",
+      "source": ""
+    },
+    {
+      "file": "images/the-burning-plague-beasts/dire-weasel.png",
+      "sha256": "6c2ffd11e1190753029b54b1de6b2bda2feac4862e39a52d2f6fbc85939048de",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/dark-pyramid-boar.png",
+      "sha256": "4a1f9b8cfaa7dd21b7b5d7241621793773ab7d2b3961d8829b2fe6f6fb7c6d0d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/cosmoth.png",
+      "sha256": "97f939787c5ef5004f2bcf6c9362dad8577ae0d19f63ca4eadedaf128dad7553",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/dusktail-group.png",
+      "sha256": "296644d6d334b91ad69943b8f2a7733e24328596bcbb6d4ef14fc5d27887983d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/emberbat-draft.png",
+      "sha256": "43a3071cd52b0902129bf274b7463ae666b0126e606a866aca5bfe0613111b6a",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/everbug.png",
+      "sha256": "07d339f120c7c7b742febebf9cb4917d028ff3f47a2b65bc73089248adc84904",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/firelance.png",
+      "sha256": "1421999eb4fdbdc75f27fa250f699a2ecf8b4142a88de70cd318289b1dc175ea",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/forest-prowler-draft.png",
+      "sha256": "1c380787e815f435ddab9496ba60256246c69cd8435345fc001d5a14d595f831",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/gargath.png",
+      "sha256": "0fbc30014fec7bbfcbac0343f13ee8e9846a01a9986b2e9659740754721637a1",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/slicar.png",
+      "sha256": "bb12c5915875d22679c6ec568fc00d70bb68967853cd58c4a7f75f1c57e8d8c1",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/swarm-of-bluebees.png",
+      "sha256": "c1511111a92e7bbd055a474048cb731f22ff1deace8022f3d4ca422ca9f00630",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/swarm-of-gimlets.png",
+      "sha256": "ab2637d6a500a4d319489a5f47e9a06220c2f7a7cf9dd59053d53148d07a8e8f",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/wakewyrm-draft.png",
+      "sha256": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/young-wakewyrm-draft.png",
+      "sha256": "3757dcde638316bdafaf29dc734cf69391b5527abe9661974964376a05d65eed",
+      "source": ""
+    },
+    {
+      "file": "images/beast-next-roster/spiderfrog.png",
+      "sha256": "2c3e68cd240672c38787215fe1750945c2d000e662905db271a362cf676a3362",
+      "source": ""
+    }
+  ],
+  "failures": []
+}

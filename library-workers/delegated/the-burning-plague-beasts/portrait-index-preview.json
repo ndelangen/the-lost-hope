@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-829c3e06ec6372ec4546e391",
+    "version": "aaac2c2ba5d74e43353fd29f",
+    "name": "Dire Weasel",
+    "file": "images/the-burning-plague-beasts/dire-weasel.png",
+    "sha256": "6c2ffd11e1190753029b54b1de6b2bda2feac4862e39a52d2f6fbc85939048de",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9950cec246ece55e46c9929e",
+    "version": "206a942e610691e71f664853",
+    "name": "Rat",
+    "file": "images/the-burning-plague-beasts/rat.png",
+    "sha256": "4af352551aa491247d71691c0943300a20201bc30b15d10b9562026eaea88790",
+    "credit": "OpenAI ImageGen"
+  }
+]

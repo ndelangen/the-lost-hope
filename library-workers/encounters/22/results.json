@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Gazer Familiar",
+    "imageKey": "monster:gazer-familiar",
+    "kind": "monster",
+    "type": "Aberration",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/17222-gazer-familiar",
+    "challenge": "1/2",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/77/614/1000/1000/636473160566414886.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/17222-gazer-familiar",
+    "slug": "gazer-familiar",
+    "entry": "monster-ed04c8eb08110711ac5a7d75",
+    "version": "08000063b0cb9ab6b935ca7d",
+    "generated": true,
+    "primaryPortraitSha256": "d547dc1bb36ec331395c69616f7887efcc04439b5c3d52ecf054e4d671449745",
+    "status": "Stat block",
+    "appearance": "A floating sphere with one large central eye, four small eyestalks, and sharp teeth.",
+    "habitats": [
+      "Underdark",
+      "Beholder lairs",
+      "underdark"
+    ]
+  },
+  {
+    "name": "Guard Drake",
+    "imageKey": "monster:guard-drake",
+    "kind": "monster",
+    "type": "Dragon",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/17265-guard-drake",
+    "challenge": "2",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/9/690/1000/1000/636330448954774698.jpeg",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/17265-guard-drake",
+    "slug": "guard-drake",
+    "entry": "monster-bb774307b671c4a54d0d2fd4",
+    "version": "4a42c09b940d22b3aeae594f",
+    "generated": true,
+    "primaryPortraitSha256": "bafb78f8161a9e9a5f6642647c879cb26c43b61cd80fc9bbea117e79f02ff63e",
+    "status": "Stat block",
+    "appearance": "A muscular, wingless dragon with armored scales, a blunt head, and a heavy tail.",
+    "habitats": [
+      "Strongholds",
+      "Guard posts",
+      "Dragon lairs"
+    ]
+  },
+  {
+    "name": "Mind Flayer Lich (Illithilich)",
+    "imageKey": "monster:mind-flayer-lich-illithilich",
+    "kind": "monster",
+    "type": "Undead",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/17283-mind-flayer-lich-illithilich",
+    "challenge": "22",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/17283-mind-flayer-lich-illithilich",
+    "slug": "mind-flayer-lich-illithilich",
+    "entry": "monster-4eb2b6e4a26849f1a28e94c6",
+    "version": "0f2d0084d80a4923ae9ede65",
+    "generated": true,
+    "primaryPortraitSha256": "da3a5b85d7190a108094cee51950557d4495f94941bccbd3222e5b00fc6b4c49",
+    "status": "Stat block",
+    "appearance": "A mummified mind flayer with a gaunt, tentacled face and decaying wizard robes.",
+    "habitats": [
+      "Underdark",
+      "Illithid enclaves",
+      "Lich lairs"
+    ]
+  }
+]

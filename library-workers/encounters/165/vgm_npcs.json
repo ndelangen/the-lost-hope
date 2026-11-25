@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Apprentice Wizard",
+    "statBlock": {
+      "name": "Apprentice Wizard",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 10,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "A student of arcane magic who takes on chores for a tutor or attends a school.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Actions": "Dagger. Melee or ranged weapon attack, +2 to hit, reach 5 ft. or range 20/60 ft., one target. On a hit, deal 2 (1d4) piercing damage.",
+        "Spellcasting": "The apprentice is a 1st-level wizard spellcaster using Intelligence (spell save DC 12, +4 to hit with spell attacks).\nCantrips (at will). Fire Bolt, Mending, Prestidigitation.\n1st level (2 slots). Burning Hands, Disguise Self, Shield.",
+        "Printed source": "Volo's Guide to Monsters, p. 209."
+      }
+    }
+  },
+  {
+    "name": "Archdruid",
+    "statBlock": {
+      "name": "Archdruid",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 16,
+      "hp": 132,
+      "hitDice": "24d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 19,
+      "description": "A guardian of the natural wonders in its domain, often supported by druidic students and loyal beasts or fey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 9
+      },
+      "skills": {
+        "Medicine": 9,
+        "Nature": 5,
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Hide armor and shield.",
+        "Languages": "Druidic plus any two languages.",
+        "Actions": "Scimitar. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) slashing damage.\nChange Shape (2/day). The archdruid magically takes the form of a Beast or Elemental of CR 6 or lower for up to 9 hours. Choose whether its gear drops, merges with the form, or remains worn. It reverts if it dies or falls unconscious, and it can revert as a bonus action on its turn.\nIn the new form, replace its AC, movement modes, Strength, and Dexterity with the form's values. It retains its other statistics and can still speak. Add the form's special senses, proficiencies, traits, actions, and reactions that the archdruid lacks. Exclude class features, legendary actions, and lair actions. It can cast spells with verbal or somatic components in the form, and the form's attacks count as magical for overcoming resistance and immunity to nonmagical attacks.",
+        "Spellcasting": "The archdruid is an 18th-level druid spellcaster using Wisdom (spell save DC 17, +9 to hit with spell attacks).\nCantrips (at will). Druidcraft, Mending, Poison Spray, Produce Flame.\n1st level (4 slots). Cure Wounds, Entangle, Faerie Fire, Speak with Animals.\n2nd level (3 slots). Animal Messenger, Beast Sense, Hold Person.\n3rd level (3 slots). Conjure Animals, Meld into Stone, Water Breathing.\n4th level (3 slots). Dominate Beast, Locate Creature, Stoneskin, Wall of Fire.\n5th level (3 slots). Commune with Nature, Mass Cure Wounds, Tree Stride.\n6th level (1 slot). Heal, Heroes' Feast, Sunbeam.\n7th level (1 slot). Fire Storm.\n8th level (1 slot). Animal Shapes.\n9th level (1 slot). Foresight.",
+        "Printed source": "Volo's Guide to Monsters, p. 210."
+      }
+    }
+  },
+  {
+    "name": "Archer",
+    "statBlock": {
+      "name": "Archer",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 16,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "description": "A bow specialist who might defend a castle, guard a caravan, or provide long-range support for a military unit.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 6,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Studded leather armor.",
+        "Languages": "Any one language (usually Common).",
+        "Actions": "Multiattack. Make two Longbow attacks.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 7 (1d6 + 4) piercing damage.\nLongbow. Ranged weapon attack, +6 to hit, range 150/600 ft., one target. On a hit, deal 8 (1d8 + 4) piercing damage.",
+        "Bonus actions": "Archer's Eye (3/day). Add 1d10 to the next attack or damage roll with a longbow or shortbow.",
+        "Printed source": "Volo's Guide to Monsters, p. 210."
+      }
+    }
+  },
+  {
+    "name": "Babau",
+    "statBlock": {
+      "name": "Babau",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 136,
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 16,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "description": "A spear-wielding demon whose gaze weakens foes who rely on strength.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Actions": "Multiattack. Make two melee attacks. The babau can also use Weakening Gaze before or after those attacks.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 8 (1d8 + 4) slashing damage.\nSpear. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. On a hit, deal 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used two-handed in melee.\nWeakening Gaze. One creature the babau can see within 20 ft. makes a DC 13 Constitution save. On a failure, its Strength-based weapon attacks deal half damage for 1 minute. The creature repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Innate Spellcasting": "The babau casts innately using Wisdom (spell save DC 11) and needs no material components.\nAt will. Darkness, Dispel Magic, Fear, Heat Metal, Levitate.",
+        "Printed source": "Volo's Guide to Monsters, p. 136."
+      }
+    }
+  },
+  {
+    "name": "Banderhobb",
+    "statBlock": {
+      "name": "Banderhobb",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 122,
+      "classification": "Large monstrosity, neutral evil",
+      "ac": 15,
+      "hp": 84,
+      "hitDice": "8d10 + 40",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 12,
+      "description": "A giant, toadlike servant made of flesh and shadow. Its creator can send it after a target using a small piece of the target or a related object. It typically lasts only a few days before dissolving into tar and shadow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 8,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Common and its creator’s languages but cannot speak.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Resonant Connection. If the banderhobb carries even a small piece of a creature or object, it knows the most direct route to that target while within 1 mile of it.\nShadow Stealth. In dim light or darkness, the banderhobb can Hide as a bonus action.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 5 ft., one target. On a hit, deal 22 (5d6 + 5) piercing damage. A Large or smaller creature is grappled (escape DC 15) and restrained until the grapple ends. While that grapple lasts, the banderhobb can use Bite and Tongue only against the grappled target.\nTongue. Melee weapon attack, +8 to hit, reach 15 ft., one target. On a hit, deal 10 (3d6) necrotic damage. The target makes a DC 15 Strength save. On a failure, pull it into a space within 5 ft. of the banderhobb, which can then Bite it as a bonus action.\nSwallow. Make a Bite attack against a Medium or smaller creature already grappled by the banderhobb. On a hit, swallow the creature and end the grapple. The creature is blinded and restrained, has total cover from outside attacks and effects, and takes 10 (3d6) necrotic damage at the start of each of the banderhobb's turns. If that damage reduces it to 0 HP, it stabilizes and stops taking the necrotic damage.\nThe banderhobb can hold only one swallowed creature. It can expel that creature at any time without an action while free of the incapacitated condition. It also expels the creature if it dies. The creature lands prone in a space within 5 ft. of the banderhobb.\nShadow Step. Magically teleport up to 30 ft. to a visible unoccupied space in dim light or darkness. It can make one Bite or Tongue attack before or after teleporting.",
+        "Printed source": "Volo's Guide to Monsters, p. 122."
+      }
+    }
+  },
+  {
+    "name": "Bard",
+    "statBlock": {
+      "name": "Bard",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 211,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 15,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "description": "A traveling entertainer and storyteller found among adventurers, mercenaries, and wealthy patrons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 3
+      },
+      "skills": {
+        "Acrobatics": 4,
+        "Perception": 5,
+        "Performance": 6
+      },
+      "sections": {
+        "Armor": "Chain shirt.",
+        "Languages": "Any two languages.",
+        "Traits": "Song of Rest. During a short rest, the bard can perform for its allies. An ally who hears the song and spends Hit Dice to heal at the end of the rest regains an extra 1d6 HP. The bard can also benefit.",
+        "Actions": "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage.",
+        "Bonus actions": "Taunt (2/day). On its turn, the bard chooses one creature within 30 ft. that can hear the bard. It makes a DC 12 Charisma save. On a failure, it has disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.",
+        "Spellcasting": "The bard is a 4th-level bard spellcaster using Charisma (spell save DC 12, +4 to hit with spell attacks).\nCantrips (at will). Friends, Mage Hand, Vicious Mockery.\n1st level (4 slots). Charm Person, Healing Word, Heroism, Sleep, Thunderwave.\n2nd level (3 slots). Invisibility, Shatter.",
+        "Printed source": "Volo's Guide to Monsters, p. 211."
+      }
+    }
+  },
+  {
+    "name": "Barghest",
+    "statBlock": {
+      "name": "Barghest",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 123,
+      "classification": "Large fiend (shapechanger), neutral evil",
+      "ac": 17,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "60 ft. (30 ft. in goblin form)",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "description": "A goblin-born fiend sent by the General of Gehenna to consume seventeen goblinoid souls. It can hide among goblins while seeking powerful victims.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 4,
+        "Intimidation": 4,
+        "Perception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Goblin, Infernal, telepathy 60 ft.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Shapechanger. As an action, the barghest can take the form of a Small goblin or return to its true form. Only its size and speed change. Its gear stays in its original form. The barghest reverts when it dies.\nFire Banishment. If the barghest starts its turn engulfed by flames at least 10 ft. high or wide, it must pass a DC 15 Charisma save or immediately return to Gehenna. Instantaneous flames, such as Fireball or a red dragon's breath, cannot banish it.\nKeen Smell. The barghest has advantage on Wisdom (Perception) checks based on smell.\nSoul Feeding. The barghest can take at least 1 minute to devour the body and soul of a Humanoid it killed less than 10 minutes ago. This destroys the body. Its soul remains trapped for 24 hours and is released if the barghest dies in that time. A revival that would otherwise work has a 50 percent chance while the soul is trapped and frees the soul on success. Once the soul is digested, mortal magic cannot revive the victim.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 13 (2d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 8 (1d8 + 4) slashing damage.",
+        "Innate Spellcasting": "The barghest casts innately using Charisma (spell save DC 12) and needs no material components.\nAt will. Levitate, Minor Illusion, Pass without Trace.\n1/day each. Charm Person, Dimension Door, Suggestion.",
+        "Printed source": "Volo's Guide to Monsters, p. 123."
+      }
+    }
+  }
+]

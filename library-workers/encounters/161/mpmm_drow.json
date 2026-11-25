@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Diviner Wizard",
+    "statBlock": {
+      "name": "Diviner Wizard",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 261,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 90,
+      "hitDice": "20d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 11,
+      "description": "A wizard trained to see hidden things and glimpse possible outcomes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 7,
+        "History": 7
+      },
+      "sections": {
+        "Languages": "Any four languages.",
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Actions": "Multiattack. Make three Arcane Burst attacks.\nArcane Burst. Melee or ranged spell attack, +7 to hit, reach 5 ft. or range 120 ft., one target. A hit deals 20 (3d10 + 4) radiant damage.\nOverwhelming Revelation (recharge 5–6). Magically light up a sphere with a 10-foot radius centered on a point within 120 ft. Each creature in the sphere makes a DC 15 Wisdom save. On a failure, it takes 45 (10d8) psychic damage and is stunned until the end of the diviner’s next turn. On a success, it takes half damage and avoids the stun.",
+        "Spellcasting": "As an action, cast one spell using Intelligence (spell save DC 15).\nAt will. Mage Hand, Message, Prestidigitation.\n2/day each. Arcane Eye, Detect Magic, Detect Thoughts, Fly, Lightning Bolt, Locate Object, Mage Armor, Rary’s Telepathic Bond.\n1/day. True Seeing.",
+        "Reactions": "Portent (3/day). When the diviner or a creature the diviner can see makes an attack roll, saving throw, or ability check, roll a d20. The diviner may substitute this result for the d20 rolled for that attack, save, or check.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 261."
+      }
+    }
+  },
+  {
+    "name": "Dolphin Delighter",
+    "statBlock": {
+      "name": "Dolphin Delighter",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 97,
+      "classification": "Medium fey, typically chaotic good",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "0 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "A fey dolphin that shares protective light and can carry a companion along when it teleports.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 5
+      },
+      "skills": {
+        "Perception": 3,
+        "Performance": 5
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft.",
+        "Languages": "Aquan, telepathy 120 ft..",
+        "Armor": "Natural armor.",
+        "Traits": "Hold Breath. The dolphin can go without breathing for 20 minutes by holding its breath.",
+        "Actions": "Multiattack. Make two Dazzling Slam attacks.\nDazzling Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage and 7 (2d6) psychic damage. The target is blinded until the start of the dolphin’s next turn.",
+        "Bonus actions": "Delightful Light (recharge 5–6). The dolphin briefly fills a 10-foot radius around itself with magical light. It and each creature it chooses in that light gain 11 (2d10) temporary hit points.\nFey Leap. Teleport up to 30 ft. to an unoccupied space the dolphin can see. Just before teleporting, the dolphin can choose one creature within 5 ft. That creature may teleport with it and appears in an unoccupied space within 5 ft. of the dolphin’s destination.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 97."
+      }
+    }
+  },
+  {
+    "name": "Draegloth",
+    "statBlock": {
+      "name": "Draegloth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 98,
+      "classification": "Large fiend (demon), typically chaotic evil",
+      "ac": 15,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 13,
+      "description": "A four-armed demon that an elf priest of Lolth creates through a rare ritual that draws on a glabrezu’s fiendish essence. It usually serves its creator.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Elvish, Undercommon.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Traits": "Fey Ancestry. The creature has advantage on saves to avoid being charmed. Magic cannot put it to sleep.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one creature. A hit deals 16 (2d10 + 5) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) slashing damage.",
+        "Spellcasting": "As an action, cast one spell without material components using Charisma (spell save DC 11).\nAt will. Dancing Lights, Darkness.\n1/day each. Confusion, Faerie Fire.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 98."
+      }
+    }
+  },
+  {
+    "name": "Drow Arachnomancer",
+    "statBlock": {
+      "name": "Drow Arachnomancer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 99,
+      "classification": "Medium humanoid (elf), typically chaotic evil",
+      "ac": 15,
+      "hp": 162,
+      "hitDice": "25d8 + 50",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 17,
+      "description": "A devotee of Lolth who draws magic from the Demonweb Pits and can take the form of a large spider.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Int": 9,
+        "Cha": 8
+      },
+      "skills": {
+        "Arcana": 9,
+        "Nature": 9,
+        "Perception": 7,
+        "Stealth": 8
+      },
+      "sections": {
+        "Senses": "Blindsight 10 ft., darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon, can speak with spiders.",
+        "Damage resistances": "Poison.",
+        "Armor": "Studded leather armor.",
+        "Traits": "Fey Ancestry. The creature has advantage on saves to avoid being charmed. Magic cannot put it to sleep.\nSpider Climb. The drow climbs difficult surfaces, including ceilings while upside down, without making an ability check.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.\nWeb Walker. Webbing does not restrict the drow’s movement.",
+        "Actions": "Multiattack. Make three attacks using any combination of Bite, Poisonous Touch, and Web that the current form allows. Spellcasting can replace one of those attacks.\nBite (spider form only). Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 12 (2d8 + 3) piercing damage. The target makes a DC 15 Constitution save, taking 31 (7d8) poison damage on a failure or half on a success. If this poison damage drops the target to 0 hit points, it is stable and poisoned for 1 hour, even if it regains hit points. While poisoned this way, it is also paralyzed.\nPoisonous Touch (humanoid form only). Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 35 (10d6) poison damage.\nWeb (spider form only, recharge 5–6). Ranged weapon attack, +8 to hit, range 30/60 ft., one target. A hit restrains the target in webbing. The target can spend an action to break the webbing with a successful DC 15 Strength check. The webbing can also be attacked and destroyed (AC 10, 5 hit points, vulnerable to fire damage and immune to bludgeoning, poison, and psychic damage).",
+        "Spellcasting": "As an action, cast one spell without material components using Intelligence (spell save DC 17).\nAt will. Dancing Lights, Mage Hand.\n1/day each. Darkness, Dispel Magic, Etherealness, Faerie Fire, Fly, Insect Plague, Invisibility.",
+        "Bonus actions": "Change Shape (recharges after a short or long rest). Magically become a Large spider for up to 1 hour or return to true form. Only size changes. The drow can speak and cast spells as a spider. Anything worn or carried in humanoid form merges into the spider, and the drow cannot use or benefit from it in that form. Death restores the drow’s humanoid form.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 99."
+      }
+    }
+  },
+  {
+    "name": "Drow Favored Consort",
+    "statBlock": {
+      "name": "Drow Favored Consort",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 100,
+      "classification": "Medium humanoid (elf, wizard), any alignment",
+      "ac": 15,
+      "hp": 240,
+      "hitDice": "32d8 + 96",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 18,
+      "description": "A powerful spellcaster who advises and protects a drow priestess. Some use that position to challenge Lolth’s influence.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 9,
+        "Cha": 10
+      },
+      "skills": {
+        "Acrobatics": 11,
+        "Athletics": 8,
+        "Perception": 8,
+        "Stealth": 11
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Traits": "Fey Ancestry. The creature has advantage on saves to avoid being charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make three attacks using Scimitar or Arcane Eruption. Spellcasting can replace one of those attacks.\nScimitar. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) slashing damage and 27 (6d8) poison damage.\nArcane Eruption. Ranged spell attack, +10 to hit, range 120 ft., one target. A hit deals 36 (8d8) force damage. If the target is a Large or smaller creature, the drow can push it up to 10 ft. away.",
+        "Spellcasting": "As an action, cast one spell without material components using Intelligence (spell save DC 18).\nAt will. Dancing Lights, Mage Armor, Mage Hand, Message.\n3/day each. Dimension Door, Fireball, Invisibility.\n1/day each. Darkness, Faerie Fire, Levitate (self only).",
+        "Reactions": "Protective Shield (3/day). When an attack roll hits the drow or a creature within 10 ft. of it, give the target +5 AC until the start of the drow’s next turn. The extra AC can turn the triggering hit into a miss.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 100."
+      }
+    }
+  },
+  {
+    "name": "Drow House Captain",
+    "statBlock": {
+      "name": "Drow House Captain",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 101,
+      "classification": "Medium humanoid (elf), any alignment",
+      "ac": 16,
+      "hp": 162,
+      "hitDice": "25d8 + 50",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 16,
+      "description": "An officer who leads the troops of an Underdark faction. Some defend noble houses, while others fight against Lolth.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 6,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 8
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Armor": "Chain mail.",
+        "Traits": "Fey Ancestry. The creature has advantage on saves to avoid being charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make two Scimitar attacks and one attack with Whip or Hand Crossbow.\nScimitar. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) slashing damage and 14 (4d6) poison damage.\nWhip. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 6 (1d4 + 4) slashing damage.\nHand Crossbow. Ranged weapon attack, +8 to hit, range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage. On a failed DC 13 Constitution save, the target is poisoned for 1 hour. If it fails by 5 or more, it is also unconscious while poisoned in this way. Taking damage or being shaken by another creature as an action wakes it.",
+        "Spellcasting": "As an action, cast one spell without material components using Charisma (spell save DC 13).\nAt will. Dancing Lights.\n1/day each. Darkness, Faerie Fire, Levitate (self only).",
+        "Bonus actions": "Battle Command. Choose one creature the captain can see within 30 ft. If it can see or hear the captain, it can use its reaction to make one melee attack or take the Dodge or Hide action.",
+        "Reactions": "Parry. If a melee attack roll would hit the captain, add +3 AC against that roll. The captain must see the attacker and wield a melee weapon.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 101."
+      }
+    }
+  },
+  {
+    "name": "Drow Inquisitor",
+    "statBlock": {
+      "name": "Drow Inquisitor",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 102,
+      "classification": "Medium humanoid (cleric, elf), typically neutral evil",
+      "ac": 16,
+      "hp": 149,
+      "hitDice": "23d8 + 46",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 20,
+      "description": "A priest of Lolth appointed to uncover treachery. Within the noble houses, drow matron mothers are the inquisitor’s only equals in authority.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 10,
+        "Cha": 10
+      },
+      "skills": {
+        "Insight": 10,
+        "Perception": 10,
+        "Religion": 8,
+        "Stealth": 7
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Condition immunities": "Frightened.",
+        "Armor": "Breastplate.",
+        "Traits": "Discern Lie. The drow recognizes a spoken lie from a creature in earshot if the drow knows the language.\nFey Ancestry. The creature has advantage on saves to avoid being charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make three Death Lance attacks.\nDeath Lance. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) piercing damage and 18 (4d8) necrotic damage. Reduce the target’s hit point maximum by the necrotic damage it actually took. The reduction lasts until the target finishes a long rest. The target dies if its maximum drops to 0.",
+        "Spellcasting": "As an action, cast one spell without material components using Charisma (spell save DC 18).\nAt will. Dancing Lights, Detect Magic, Message, Thaumaturgy.\n1/day each. Clairvoyance, Darkness, Detect Thoughts, Dispel Magic, Faerie Fire, Levitate (self only), Silence, Suggestion, True Seeing.",
+        "Bonus actions": "Spectral Dagger (recharges after a short or long rest). Conjure a floating dagger within 60 ft. The drow can make a melee spell attack, +10 to hit, against one creature within 5 ft. of the dagger. A hit deals 9 (1d8 + 5) force damage. The dagger lasts 1 minute. On later turns, the drow can use a bonus action to move it up to 20 ft. and repeat the attack against one creature within 5 ft. of it.",
+        "Variant action": "Summon Demon (1/day). The inquisitor magically attempts to summon a yochlol with a 50 percent chance of success. On a failure, the inquisitor takes 5 (1d10) psychic damage. On a success, the yochlol appears in an unoccupied space within 60 ft., acts as the inquisitor’s ally, and cannot summon other demons. It remains for 10 minutes or until either creature dies or the inquisitor dismisses it as an action.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 102."
+      }
+    }
+  }
+]

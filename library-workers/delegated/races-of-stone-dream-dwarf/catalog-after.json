@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Dream Dwarf",
+    "kind": "species",
+    "group": "3.5 edition",
+    "global": true,
+    "version": {
+      "key": "5ed3cce1a272c1d73d7dbe78",
+      "publication": "Races of Stone (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144379M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Dwarf)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid (Dwarf). +2 Constitution and −2 Dexterity. Base land speed 20 ft., retained in medium or heavy armor and under a medium or heavy load.",
+            "Darkvision sees in black and white out to 90 ft.",
+            "Stonecunning gives +2 racial on Search checks for unusual stonework, including material disguised as stone. A Dream Dwarf who comes within 10 ft. of unusual stonework can make a Search check as if actively looking.",
+            "Stonecunning also lets the dwarf Search for stonework traps as a rogue can and estimate approximate depth underground.",
+            "Weapon Familiarity treats dwarven waraxes and dwarven urgroshes as martial weapons.",
+            "Stability adds +4 on ability checks to resist bull rush or trip while standing firmly on the ground.",
+            "+2 racial bonus on Diplomacy checks with creatures of the earth subtype.",
+            "Dream Sight (Su) sees ethereal creatures as readily as material creatures. Ethereal creatures look translucent and indistinct, so the dwarf can tell them apart.",
+            "Spell Power adds +1 to effective caster level for divinations or spells with the earth descriptor when in contact with the ground. Apply the increase to level-dependent effects and caster level checks. It stacks with other Spell Power abilities.",
+            "Common and Dwarven are automatic. Bonus languages are Draconic, Elven, Gnome, Terran, and Undercommon. Favored class Druid. The entry lists no racial Hit Dice or level adjustment."
+          ]
+        },
+        {
+          "title": "Original NPC · Maera Dol-Vel",
+          "lines": [
+            "Spring tender and Druid.",
+            "Motive. Find out why the animals no longer drink from the uphill spring.",
+            "Hook. Maera can speak with a badger from the bank while the party checks the spillway for what changed.",
+            "Dream Dwarf spring tender, Druid 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Dwarf)",
+            "AC 15 · HP 11 (1d8+3) · Speed 20 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Ornek Tarn-Iol",
+          "lines": [
+            "Seam reader and Expert.",
+            "Motive. Identify the old exit an ethereal traveler crossed just before a tunnel was bricked up.",
+            "Hook. Ornek can identify an unusual seam in the new stonework if the party brings the old floor plan.",
+            "Dream Dwarf seam reader, Expert 1 · Provisional CR 1/2. ECL 1. · Medium Humanoid (Dwarf)",
+            "AC 13 · HP 9 (1d6+3) · Speed 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Maera Dol-Vel": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Maera Dol-Vel",
+              "group": "Dream Dwarf",
+              "publication": "Dream Dwarf spring tender, Druid 1",
+              "local": {
+                "entry": "npc-9cec00f549035a2f6b422793",
+                "version": "ff8c170fd9b2837d26a1aa12"
+              }
+            }
+          }
+        ],
+        "Original NPC · Ornek Tarn-Iol": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Ornek Tarn-Iol",
+              "group": "Dream Dwarf",
+              "publication": "Dream Dwarf seam reader, Expert 1",
+              "local": {
+                "entry": "npc-d1c8841460114869e6d155f9",
+                "version": "37f48006ad0eca764e7291a2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Dream Dwarf": true,
+      "dream dwarf dream sight": true,
+      "dream dwarf darkvision": true,
+      "dream dwarf stonecunning": true,
+      "dream dwarf spell power": true,
+      "dream dwarf spring tender": true,
+      "dream dwarf seam reader": true
+    },
+    "hash": "4c6e66faf607227fb85c7dac33dc9ec8d09462cb931a3641294cb9bd89257d4d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Stone (2004)",
+    "defaultVersionKey": "5ed3cce1a272c1d73d7dbe78",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

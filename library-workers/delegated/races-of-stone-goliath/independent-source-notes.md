@@ -1,0 +1,9 @@
+# Independent Goliath reviews
+
+The source reviewer checked the August 2004 first printing of *Races of Stone*. The printed traits are on p. 56. The 3.5 FAQ confirms 60-ft. darkvision from the Monstrous Humanoid type. It also clarifies that Powerful Build leaves space, reach, unarmed and natural damage, and ordinary size prerequisites keyed to actual size. The reviewer found no title-specific errata file in Wizards’ collection. [Printed traits]() · [Wizards FAQ archive](https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP)
+
+Page 56 expressly exempts Goliaths from the altitude penalties in the *Dungeon Master’s Guide*, p. 90. This goes beyond ordinary acclimation above 15,000 ft. The optional first Barbarian substitution on pp. 150–151 gives actual Large space and reach during Mountain Rage. That class feature keeps equipment fitting and adds no further weapon-size or grapple benefit. [Mountain Rage]() · [*Dungeon Master’s Guide*, mountain travel]()
+
+Chuck Lukacs drew the chapter opener. Jeremy Jarvis drew the Goliath on p. 54 with natural gray skin mottling and raised lithoderms. William O’Connor drew the trade scene on p. 56. The original playable profile is separate from the Feral Gargun entry. *Races of Stone* includes published Hunter CR 2 and Warrior CR 1 blocks on pp. 181 and 183. The optional 2004 adventure *Raiders of the High Citadel* has different Goliath encounters. [Appearance and art]() · [Published examples]() · [Original adventure]()
+
+The second reviewer checked the skill budgets, Large weapon dice, reach, defenses, Grapple, and the Mountain Rage totals. Kethan uses 28 skill points. Rova uses 16 and applies her species’ Sense Motive bonus untrained. The reviewer also confirmed the separate version and the original fifth-edition default. [Rules patch](rules.patch) · [Verification](verification.json)

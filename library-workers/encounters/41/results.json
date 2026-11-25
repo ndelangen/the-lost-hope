@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Basilisk Companion",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "monster-51f63ea6fff7e54dd258c6aa",
+    "version": "4bc5db785f990c9069525f7f",
+    "slug": "basilisk-companion",
+    "parent": "Basilisk (MCDM)",
+    "mode": "new",
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "5a482c411acc5ca750c3f528f8848bb172b41aafd96894cbb3de37417ccca1e7",
+    "encounterStatus": "local-stat-block",
+    "role": "Companion",
+    "query": "eight-legged rocky dens companion heavy glare",
+    "alternate": {
+      "credit": "Related Basilisk (MCDM) illustration · D&D Beyond publisher art · Flee, Mortals!",
+      "url": ""
+    },
+    "appearance": "A low-slung, eight-legged reptile with rough slate-green scales and watchful eyes.",
+    "habitats": [
+      "Damp caves",
+      "Rocky dens"
+    ]
+  },
+  {
+    "name": "Lightbender Companion",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "monster-4ad6c1c2be302027bd054aae",
+    "version": "1c33c0b393b9f2285db6cf40",
+    "slug": "lightbender-companion",
+    "parent": "Lightbender",
+    "mode": "new",
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "37cfa6f857743ff8648429378d30767c1199e04c564a2cc88684e3b4146ca71f",
+    "encounterStatus": "local-stat-block",
+    "role": "Companion",
+    "query": "lionlike sunlit deserts companion silent pounce",
+    "alternate": {
+      "credit": "Related Lightbender illustration · D&D Beyond publisher art · Flee, Mortals!",
+      "url": ""
+    },
+    "appearance": "A pale lionlike creature with an iridescent silver mane and two separate whip-like tails.",
+    "habitats": [
+      "Sunlit deserts",
+      "Plains",
+      "Forests"
+    ]
+  }
+]

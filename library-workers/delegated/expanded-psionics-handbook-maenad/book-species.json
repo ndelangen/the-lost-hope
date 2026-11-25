@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Maenad",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Maenad and Psionic subtypes. Base land speed 30 ft. No racial ability-score adjustments.",
+      "Naturally Psionic grants 2 bonus power points at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
+      "Racial Energy Ray is a sonic-only psi-like ability, usable once per day and accompanied by a scream. Manifester level is half the Maenad’s Hit Dice, rounded down, minimum 1. It costs no power points.",
+      "The ray takes a standard action and hits with a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level and subtract 1 per die. The sonic ray ignores object hardness.",
+      "Outburst (Ex) is usable once per day for up to 4 rounds. Add +2 Strength and apply −2 Intelligence and Wisdom while it lasts. The entry leaves the activation action unstated. The example NPCs use a standard action, following the original 3.5 default for activated extraordinary abilities.",
+      "Automatic languages Common and Maenad. Bonus languages Aquan, Draconic, Dwarven, Elven, Goblin. Favored class Wilder. Level adjustment +0."
+    ]
+  }
+]

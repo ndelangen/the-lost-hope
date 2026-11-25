@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Mephit",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Elemental",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "pp. 142–144 in v2, Mephit Traits.",
+    "printedPages": [
+      142,
+      143,
+      144
+    ],
+    "heading": "Mephit Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+    "sourceDistinctions": [
+      "Dust Death Burst uses ambiguous fall wording. Siftglass treats dropping to 0 HP as the trigger and repeats the blinding save at the end of each affected turn for table timing.",
+      "The design notes mention fire vulnerability for Dust but the player trait block omits it. Smoke explicitly lists Aquan and Ignan. Steam has a fire burst despite its name."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  },
+  {
+    "name": "Modron",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Construct",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "pp. 149–150 in v2, Modrons Traits.",
+    "printedPages": [
+      149,
+      150
+    ],
+    "heading": "Modrons Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+    "sourceDistinctions": [
+      "The player section labels Monodrone and Quadrone together. The play and design discussion is inconsistent on a few forms. Keep the traits as printed.",
+      "Pentadrone gas specifies a cone, then refers to a line, and imposes restrained despite its name. This summary takes the opening 15-ft. cone and printed restrained effect."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  },
+  {
+    "name": "Nightmare",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Fiend",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "p. 158 in v2, Nightmare Traits.",
+    "printedPages": [
+      158
+    ],
+    "heading": "Nightmare Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+    "sourceDistinctions": [
+      "The printed player traits give fiery hooves. Fire resistance or immunity, Confer Fire Resistance, and Ethereal Stride from other versions do not appear in the player block."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  },
+  {
+    "name": "Oni",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Giant",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "p. 161 in v2, Oni Traits.",
+    "printedPages": [
+      161
+    ],
+    "heading": "Oni Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+    "sourceDistinctions": [
+      "Printed Oni Traits gives flight and Powerful Build but no shapechanging or innate spellcasting. Rusk Toll sources spells from Warlock. Ogre Mage is an alias for the creature."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  },
+  {
+    "name": "Owlbear",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "p. 168 in v2, Owlbear Traits.",
+    "printedPages": [
+      168
+    ],
+    "heading": "Owlbear Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+    "sourceDistinctions": [
+      "Use the class-built Medium owlbear, including its speaking trait, and the printed player-form senses. The player block has no monster Multiattack."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  }
+]

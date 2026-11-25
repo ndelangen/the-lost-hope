@@ -1,0 +1,294 @@
+{
+  "builds": [
+    {
+      "id": "heliana-1e-cnidaran-senn-brinecord",
+      "title": "Senn Brinecord, Nematocyst Cnidaran Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 17,
+      "hp": 13,
+      "hitDice": "1d10 + 3",
+      "initiative": 3,
+      "speed": "30 ft. walking and swimming",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +2",
+        "Intimidation +3",
+        "Perception +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Aquan.",
+      "traits": [
+        "Proficiency +2. Strength save +2, Constitution save +5. AC 17 is leather 11 + Dexterity 3 + shield 2 + Defense 1. HP 13 is 10 + Constitution 3.",
+        "Fighter grants Acrobatics and Perception. Soldier grants Athletics, Intimidation, land vehicles, and dice.",
+        "Nematocyst morph. Amphibious. Advantage on saves against being poisoned and resistance to poison damage."
+      ],
+      "actions": [
+        "Rapier. +5 to hit, reach 5 ft. Hit for 1d8 + 3 piercing.",
+        "Barbed appendage. +5 to hit, reach 5 ft. Hit for 1d4 + 3 piercing.",
+        "Neurotoxin. Bonus action on a barbed appendage hit or use a bonus action to coat the rapier for up to an hour. The first rapier hit against a creature while coated injects the toxin. The target makes a DC 13 Constitution save or is paralyzed until the start of its next turn. Two uses per long rest.",
+        "Second Wind. Bonus action to regain 1d10 + 1 HP. Recharge on a short or long rest."
+      ],
+      "tactics": "Senn warns a thief once and then cuts off the way back to the boat. They reserve their toxin for someone who can still harm the crew. An appendage hit lets them decide whether to spend it."
+    },
+    {
+      "id": "heliana-1e-cyclopian-avel-pagehook",
+      "title": "Avel Pagehook, Cyclopian Wizard 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 12,
+      "hp": 8,
+      "hitDice": "1d6 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking, 20 ft. climbing",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 17,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Arcana +5",
+        "History +5",
+        "Insight +3",
+        "Investigation +5",
+        "Perception +3",
+        "Religion +5"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13, or 18 during cyclotrance when advantage applies.",
+      "languages": "Common, Undercommon, Dwarvish, Elvish, and Draconic.",
+      "traits": [
+        "Proficiency +2. Intelligence save +5, Wisdom save +3. AC 12 is 10 + Dexterity 2, or AC 15 with mage armor. HP 8 is 6 + Constitution 2.",
+        "Sage grants Arcana, History, Elvish, and Draconic. Wizard grants Insight and Religion. Knowledge Seeker grants Investigation and Perception.",
+        "Humanoid that also meets Aberration prerequisites and effects. Advantage on Constitution saves and half rations until a long rest after a discovery the GM considers significant.",
+        "Wizard spell attack +5, spell save DC 13. Component pouch and spellbook. Two 1st-level slots per long rest. Cantrips are fire bolt, mage hand, and mending. Prepared spells are mage armor, magic missile, shield, and sleep. Comprehend languages and detect magic are the two other spellbook entries and can be cast as unprepared rituals.",
+        "Arcane Recovery. Once per day after a short rest, recover one expended 1st-level slot."
+      ],
+      "actions": [
+        "Dagger. +4 to hit, 5-ft. reach or 20/60-ft. thrown range. Hit for 1d4 + 2 piercing.",
+        "Fire bolt. +5 spell attack, 120 ft. Hit for 1d10 fire. An unattended flammable object hit by it ignites.",
+        "Magic missile. 120 ft., three darts to visible creatures. Each deals 1d4 + 1 force. Darts strike simultaneously.",
+        "Sleep. 90-ft. range. Roll 5d8 HP, then apply to creatures within 20 ft. of the chosen point, lowest current HP first. Affected creatures fall unconscious for up to 1 minute. Damage or an action spent waking one ends its sleep. Undead and creatures immune to charm are unaffected.",
+        "Mage armor. Spend a slot to make unarmored AC 13 + Dexterity for 8 hours. Shield. Reaction when hit or targeted by magic missile. Spend a slot for +5 AC through the start of the next turn, including against the triggering attack, and immunity to that spell.",
+        "Savant of Secrets. Action to gain advantage on Insight, Investigation, and Perception for 1 minute. Recharge on a long rest."
+      ],
+      "tactics": "Avel uses the trance before touching an unfamiliar cabinet. If startled by a living threat, he tries sleep first when it will clear allies. Once the threat passes, he checks the books for water damage."
+    },
+    {
+      "id": "heliana-1e-gobboc-pip-clattercomb",
+      "title": "Pip Clattercomb, Gobboc Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8 + 1",
+      "initiative": 3,
+      "speed": "25 ft. walking",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 14
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +4",
+        "Insight +3",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Halfling.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +2. AC 14 is leather 11 + Dexterity 3. HP 9 is 8 + Constitution 1.",
+        "Rogue grants Acrobatics, Insight, Perception, Sleight of Hand, and thieves’ tools. Criminal grants Deception, Stealth, and dice. Its duplicate thieves’ tools proficiency is exchanged for disguise kit proficiency. Expertise in Stealth and thieves’ tools.",
+        "Sneak Attack adds 1d6 damage once per turn on a ranged or finesse weapon hit with advantage, or when a non-incapacitated enemy of the target is within 5 ft. of it and Pip has no disadvantage.",
+        "Feathered beasts and monstrosities understand Pip and checks to influence them have advantage. Falls deal half damage. When reduced to 0 HP in Gobboc form without dying outright, Pip can immediately move up to 25 ft. without opportunity attacks before falling unconscious.",
+        "Knows thieves’ cant and carries a caterpillar cocoon for Gallus Domesticus."
+      ],
+      "actions": [
+        "Rapier. +5 to hit, reach 5 ft. Hit for 1d8 + 3 piercing.",
+        "Shortbow. +5 to hit, range 80/320 ft. Hit for 1d6 + 3 piercing.",
+        "Coward’s Creed. After Pip hits in melee, Disengage as a bonus action.",
+        "Gallus Domesticus. Action, verbal, somatic, and a caterpillar cocoon, concentration up to 1 hour. Once per long rest Pip becomes a Tiny Chicken using the book’s stat block. AC 12, 1 HP, 40-ft. walk, passive Perception 11. STR 3, DEX 14, CON 8, INT 1, WIS 12, CHA 7. Peck is +4 to hit, reach 5 ft., for 1 piercing. As a bonus action the chicken can Hide or Disengage. Gear melds into the form. Revert when the effect ends or chicken HP reaches 0. Restore Pip’s earlier HP and apply any excess damage that took the chicken to 0 HP."
+      ],
+      "tactics": "Pip shoots from behind a cart if she has cover. In melee she hits, then Disengages if the blow lands. She uses the chicken form to slip away while bystanders are looking up at the road."
+    },
+    {
+      "id": "heliana-1e-golynn-daro-flintdrum",
+      "title": "Daro Flintdrum, Golynn Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking, 15 ft. burrowing in soft earth or loose stone",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Tremorsense 5 ft., or 20 ft. with Focus Tremorsense. Passive Perception 13.",
+      "languages": "Common and Dwarvish.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. AC 17 is natural armor 13 + Dexterity 2 + shield 2. HP 12 is 10 + Constitution 2.",
+        "Fighter grants Athletics and Perception. Folk Hero grants Animal Handling, Survival, mason’s tools, and land vehicles. Dueling adds 2 damage to a one-handed warhammer attack while Daro carries no other weapon.",
+        "Powerful Build gives 480 lb. carrying capacity and a 960 lb. push, drag, or lift limit. Can burrow through soft earth and loose stone."
+      ],
+      "actions": [
+        "Warhammer. +5 to hit, reach 5 ft. Hit for 1d8 + 5 bludgeoning with a one-handed grip.",
+        "Drill Dervish. As part of burrowing directly beneath a Large or smaller grounded creature, force it to make a DC 13 Strength save. On a failure it falls prone.",
+        "Focus Tremorsense. Action to increase tremorsense to 20 ft. until the end of Daro’s next turn.",
+        "Second Wind. Bonus action to regain 1d10 + 1 HP. Recharge on a short or long rest."
+      ],
+      "tactics": "Daro braces the unstable bank before attempting a rescue. In a fight, he moves through loose soil to trip a pursuer. He beats a short warning on his drum before traversing a crowded dig."
+    },
+    {
+      "id": "heliana-1e-lotol-tavi-ripplegill",
+      "title": "Tavi Ripplegill, Lotol Life Cleric 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 17,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 1,
+      "speed": "30 ft. walking and swimming",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 12,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 17,
+        "CHA": 10
+      },
+      "skills": [
+        "Insight +5",
+        "Medicine +5",
+        "Persuasion +2",
+        "Religion +1"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Aquan, Celestial, and Halfling.",
+      "traits": [
+        "Proficiency +2. Wisdom save +5 with advantage, Charisma save +2. AC 17 is scale mail 14 + Dexterity 1 + shield 2. Scale mail imposes disadvantage on Stealth. HP 10 is 8 + Constitution 2.",
+        "Acolyte grants Insight, Religion, Celestial, and Halfling. Cleric grants Medicine and Persuasion.",
+        "Chooses Aqueous Adaptation and Prehensile Tongue. Breathes air and water. Advantage on checks and saves to avoid or end grappled or restrained on themself.",
+        "Spell save DC 13 and spell attack +5. Two 1st-level slots per long rest. Cantrips are guidance, light, and sacred flame. Prepared spells are create or destroy water, detect magic, healing word, and sanctuary. Life domain adds the always-prepared bless and cure wounds.",
+        "Disciple of Life adds 2 + spell level to HP restored to a creature by a spell of 1st level or higher. The shield bears a holy symbol. Stow the mace when a spell with somatic components and no material component requires a free hand. Carries a pouch for materials such as the drop of water or sand needed for create or destroy water."
+      ],
+      "actions": [
+        "Mace. +3 to hit, reach 5 ft. Hit for 1d6 + 1 bludgeoning.",
+        "Sacred flame. One visible target within 60 ft. makes a DC 13 Dexterity save or takes 1d8 radiant. The target gains no cover benefit on the save.",
+        "Healing word. Bonus action, 60-ft. range, expend a 1st-level slot to heal one visible creature for 1d4 + 6 HP. Cure wounds. Action, touch, 1st-level slot, restore 1d8 + 6 HP. Neither heals undead or constructs.",
+        "Bless. Expend a 1st-level slot and choose up to three creatures within 30 ft. Each adds 1d4 to attacks and saves. Concentration up to 1 minute. Sanctuary. Bonus action, a 1st-level slot to ward a creature in 30 ft. for 1 minute. A creature targeting the ward with an attack or harmful spell must make a DC 13 Wisdom save or choose a different target or lose the attack or spell. Area effects ignore the ward. The ward ends if its target attacks, casts a spell affecting an enemy, or deals damage to another creature.",
+        "Prehensile Tongue. Bonus action to pull in a Tiny, loose, unattended object weighing less than 10 lb. from up to 20 ft. away."
+      ],
+      "tactics": "Tavi holds a spell slot for the first injured swimmer. They rescue equipment with their tongue and keep the shield up while ushering people onto dry ground."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Cnidaran",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Senn Brinecord",
+      "size": "Medium",
+      "build": "heliana-1e-cnidaran-senn-brinecord",
+      "role": "Shipwreck salvage guard",
+      "motive": "Recover a missing diver’s brass weight belt before the salvage license expires.",
+      "hook": "Senn recognizes one of the merchant’s new belt buckles as a weight taken from the wreck. They want to know who brought it up."
+    },
+    {
+      "species": "Cyclopian",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Avel Pagehook",
+      "size": "Medium",
+      "build": "heliana-1e-cyclopian-avel-pagehook",
+      "role": "Book conservator",
+      "motive": "Find the return record of a waterlogged book before its paper dries beyond repair.",
+      "hook": "Avel is missing the small ledger that tracks wet returns. The most recent bookmark is part of a broken door latch."
+    },
+    {
+      "species": "Gobboc",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Pip Clattercomb",
+      "size": "Small",
+      "build": "heliana-1e-gobboc-pip-clattercomb",
+      "role": "Night courier",
+      "motive": "Keep one unsigned parcel out of the county mail sack.",
+      "hook": "A chicken keeper insists he has seen Pip’s sealed parcel twice. She carries it now and wants someone to identify the other package."
+    },
+    {
+      "species": "Golynn",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Daro Flintdrum",
+      "size": "Medium",
+      "build": "heliana-1e-golynn-daro-flintdrum",
+      "role": "Excavation foreman",
+      "motive": "Keep the new sluice trench open until he can prove why the soil keeps giving way.",
+      "hook": "Daro has heard the same underground tapping on three successive nights. He wants someone else to listen from the surface while he digs."
+    },
+    {
+      "species": "Lotol",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Tavi Ripplegill",
+      "size": "Medium",
+      "build": "heliana-1e-lotol-tavi-ripplegill",
+      "role": "Flood-rescue cleric",
+      "motive": "Return every borrowed rope before the water rises again.",
+      "hook": "Tavi found one dry stretch of rope in the middle of a submerged house. The end they touched moved against the current."
+    }
+  ]
+}

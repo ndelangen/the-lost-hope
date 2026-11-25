@@ -1,0 +1,439 @@
+[
+  {
+    "name": "Bugbear Stalker",
+    "statBlock": {
+      "name": "Bugbear Stalker",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 62,
+      "classification": "Medium fey (goblinoid), chaotic evil",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A long-limbed goblinoid that grabs creatures and carries them away.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 3
+      },
+      "skills": {
+        "Stealth": 6,
+        "Survival": 3
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Gear": "Chain Shirt, six Javelins, Morningstar.",
+        "Traits": "Abduct. The bugbear can move a creature it has Grappled without spending extra movement.",
+        "Actions": "Multiattack. Make two attacks. Choose Javelin or Morningstar for each.\nJavelin. Melee or ranged attack, +5 to hit, reach 10 ft. or range 30/120 ft. A hit deals 13 (3d6 + 3) piercing damage.\nMorningstar. Melee attack, +5 to hit, reach 10 ft. The bugbear has Advantage if it has the target Grappled. A hit deals 12 (2d8 + 3) piercing damage.",
+        "Bonus actions": "Quick Grapple. Choose one Medium or smaller creature the bugbear can see within 10 ft. The target must pass a DC 13 Dexterity saving throw or become Grappled (escape DC 13).",
+        "Habitats": "Forest, Grassland, Planar (Feywild), Underdark.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 62."
+      }
+    }
+  },
+  {
+    "name": "Bugbear Warrior",
+    "statBlock": {
+      "name": "Bugbear Warrior",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 62,
+      "classification": "Medium fey (goblinoid), chaotic evil",
+      "ac": 14,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A goblinoid that grabs and drags opponents within reach of its hammer.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6,
+        "Survival": 2
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Gear": "Hide Armor, three Light Hammers.",
+        "Traits": "Abduct. The bugbear can move a creature it has Grappled without spending extra movement.",
+        "Actions": "Grab. Melee attack, +4 to hit, reach 10 ft. A hit deals 9 (2d6 + 2) bludgeoning damage. On a hit, a Medium or smaller creature also becomes Grappled (escape DC 12).\nLight Hammer. Melee or ranged attack, +4 to hit, reach 10 ft. or range 20/60 ft. The bugbear has Advantage if it has the target Grappled. A hit deals 9 (3d4 + 2) bludgeoning damage.",
+        "Habitats": "Forest, Grassland, Planar (Feywild), Underdark.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 62."
+      }
+    }
+  },
+  {
+    "name": "Centaur Trooper",
+    "statBlock": {
+      "name": "Centaur Trooper",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 67,
+      "classification": "Large fey, neutral good",
+      "ac": 16,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "description": "A fast centaur that fights with a pike and longbow and can trample creatures in its path.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 6,
+        "Perception": 3
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Languages": "Elvish, Sylvan.",
+        "Gear": "Breastplate, Longbow, Pike.",
+        "Actions": "Multiattack. Make two attacks. Choose Pike or Longbow for each.\nPike. Melee attack, +6 to hit, reach 10 ft. A hit deals 9 (1d10 + 4) piercing damage.\nLongbow. Ranged attack, +4 to hit, range 150/600 ft. A hit deals 6 (1d8 + 2) piercing damage.",
+        "Bonus actions": "Trampling Charge (Recharge 5–6). Move up to the centaur's Speed. This movement does not provoke Opportunity Attacks and can pass through the spaces of Medium or smaller creatures. Each creature whose space the centaur enters makes one DC 14 Strength saving throw. On a failure, it takes 7 (1d6 + 4) bludgeoning damage and falls Prone.",
+        "Habitats": "Forest, Grassland, Planar (Feywild).",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 67."
+      }
+    }
+  },
+  {
+    "name": "Gnoll Warrior",
+    "statBlock": {
+      "name": "Gnoll Warrior",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 140,
+      "classification": "Medium fiend, chaotic evil",
+      "ac": 15,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "A hyena-like fiend that closes in after landing a blow on an already wounded creature.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Gnoll.",
+        "Actions": "Rend. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) piercing damage.\nBone Bow. Ranged attack, +3 to hit, range 150/600 ft. A hit deals 6 (1d10 + 1) piercing damage.",
+        "Bonus actions": "Rampage (1/Day). Immediately after the gnoll damages a creature that was already Bloodied, it can move up to half its Speed and make one Rend attack.",
+        "Habitats": "Desert, Forest, Grassland, Hill.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 140."
+      }
+    }
+  },
+  {
+    "name": "Goblin Minion",
+    "statBlock": {
+      "name": "Goblin Minion",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 142,
+      "classification": "Small fey (goblinoid), chaotic neutral",
+      "ac": 12,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 9,
+      "description": "A light-footed goblinoid armed with daggers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Gear": "Three Daggers.",
+        "Actions": "Dagger. Melee or ranged attack, +4 to hit, reach 5 ft. or range 20/60 ft. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Bonus actions": "Nimble Escape. Take the Disengage or Hide action.",
+        "Habitats": "Forest, Grassland, Hill, Planar (Acheron), Planar (Feywild), Underdark.",
+        "Treasure": "Implements, Individual.",
+        "Printed source": "Monster Manual (2024), p. 142."
+      }
+    }
+  },
+  {
+    "name": "Goblin Warrior",
+    "statBlock": {
+      "name": "Goblin Warrior",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 142,
+      "classification": "Small fey (goblinoid), chaotic neutral",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "3d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "A goblinoid skirmisher with a scimitar, shortbow, and shield.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Gear": "Leather Armor, Scimitar, Shield, Shortbow.",
+        "Actions": "Scimitar. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) slashing damage. Add 2 (1d4) slashing damage if the roll had Advantage.\nShortbow. Ranged attack, +4 to hit, range 80/320 ft. A hit deals 5 (1d6 + 2) piercing damage. Add 2 (1d4) piercing damage if the roll had Advantage.",
+        "Bonus actions": "Nimble Escape. Take the Disengage or Hide action.",
+        "Habitats": "Forest, Grassland, Hill, Planar (Acheron), Planar (Feywild), Underdark.",
+        "Treasure": "Implements, Individual.",
+        "Printed source": "Monster Manual (2024), p. 142."
+      }
+    }
+  },
+  {
+    "name": "Hobgoblin Warrior",
+    "statBlock": {
+      "name": "Hobgoblin Warrior",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 170,
+      "classification": "Medium fey (goblinoid), lawful evil",
+      "ac": 18,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "An armored goblinoid that fights alongside allies and fires poisoned arrows.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Gear": "Half Plate Armor, Longbow, Longsword, Shield.",
+        "Traits": "Pack Tactics. The hobgoblin has Advantage on an attack against a target with one or more of the hobgoblin's allies within 5 ft. of it. At least one of those allies must be free of the Incapacitated condition.",
+        "Actions": "Longsword. Melee attack, +3 to hit, reach 5 ft. A hit deals 12 (2d10 + 1) slashing damage.\nLongbow. Ranged attack, +3 to hit, range 150/600 ft. A hit deals 5 (1d8 + 1) piercing damage plus 7 (3d4) poison damage.",
+        "Habitats": "Desert, Forest, Grassland, Hill, Mountain, Planar (Acheron), Underdark.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 170."
+      }
+    }
+  },
+  {
+    "name": "Kobold Warrior",
+    "statBlock": {
+      "name": "Kobold Warrior",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 185,
+      "classification": "Small dragon, neutral",
+      "ac": 14,
+      "hp": 7,
+      "hitDice": "3d6 - 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 8,
+      "description": "A small draconic fighter that closes in with allies and falters in sunlight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Gear": "Three Daggers.",
+        "Traits": "Pack Tactics. The kobold has Advantage on an attack against a target with one or more of the kobold's allies within 5 ft. of it. At least one of those allies must be free of the Incapacitated condition.\nSunlight Sensitivity. Sunlight imposes Disadvantage on the kobold's attack rolls and ability checks.",
+        "Actions": "Dagger. Melee or ranged attack, +4 to hit, reach 5 ft. or range 20/60 ft. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Habitats": "Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 185."
+      }
+    }
+  }
+]

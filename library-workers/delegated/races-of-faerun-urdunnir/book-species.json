@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Urdunnir",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Orecutter dwarf. Medium Humanoid (Dwarf). +2 Constitution, −2 Charisma. Darkvision 60 ft.",
+      "Dwarf stability gives +4 on ability checks to resist bull rush or trip when firmly grounded. Speed stays 20 ft. in medium or heavy armor or under a medium or heavy load.",
+      "Stonecunning grants +2 on Search for unusual stonework, including a reactive check within 10 ft. An Urdunnir can sense approximate depth and find stonework traps as a rogue can.",
+      "+4 racial bonus on saves against poison and +2 racial bonus on saves against spells and spell-like abilities.",
+      "Treat dwarven waraxes and urgroshes as martial weapons. +1 racial attack bonus against orcs and goblinoids, +4 dodge AC against giants, and +2 racial Appraise and Craft bonuses for stone or metal.",
+      "Stone Walk (Su) allows passage through stone and earth as though through air. The Urdunnir can bring up to twice their body weight. The Urdunnir and any passengers must hold their breath within the material.",
+      "Stone Shape (Sp), at will, caster level 8. Standard action, touch, up to 18 cu. ft. of stone, instantaneous, no save or spell resistance. Makes rough forms. A shape with moving parts has a 30% failure chance.",
+      "Shape Metal (Sp), at will once per round, caster level 8. Full-round action, touch, up to 5 cu. ft. of metal, instantaneous, Fortitude negates and spell resistance applies.",
+      "Shape Metal can reduce a touched armor’s protection by 1d6 (half for mostly nonmetal armor). Against a shield, weapon, or metallic creature it instead deals 4d6, bypassing hardness or damage reduction. Touching an unwilling creature or an item it holds requires a melee touch attack and normally provokes from that defender.",
+      "Automatic Dwarven and Undercommon. The Urdunnir region offers Alzhedo, Beholder, Common, Draconic, Elven, Giant, Gnome, or Terran as bonus languages.",
+      "In the 3.5 Realms, PCs also speak Common. Oldonnar lists Dwarven as its regional automatic language and Draconic, Giant, Terran, and Undercommon as regional bonus choices. This profile keeps the original racial Undercommon grant.",
+      "Favored class Expert. No racial Hit Dice. Level adjustment +4 gives ECL 5 at one class level.",
+      "This profile uses the 2003 player entry over the 3.5 core Dwarf and Stone Shape rules. Shape Metal keeps the player entry’s own full-round activation and the appendix’s combat effects."
+    ]
+  }
+]

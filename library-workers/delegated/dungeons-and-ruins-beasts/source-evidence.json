@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Beetle, Giant Round",
+    "printedName": "Round Beetle, Giant",
+    "entryId": "beast-b92bd8c43b4031887bd02580",
+    "versionKey": "16eccb9a793bf514def14421",
+    "publication": "Dungeons and Ruins",
+    "edition": "Black Flag Roleplaying",
+    "sourceUrl": "https://www.scribd.com/document/850759299/Campaign-Builder-Dungeons-and-Ruins",
+    "sourceMedium": "2025 first-printing publisher text via third-party web mirror",
+    "sourceIdentity": "ISBN 978-1-964506-04-3",
+    "printedStatBlockPage": 29,
+    "mountPages": [
+      28,
+      29
+    ],
+    "publisherUrl": "",
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/#:~:text=Dungeons%20and%20Ruins",
+    "printedChallenge": "1/4",
+    "publisherIndexChallenge": "0.3",
+    "habitatTags": [
+      "Underground"
+    ],
+    "searchAppearance": "domed carapace",
+    "appearanceBasis": "General anatomy implied by the named animal. The stat block gives no color description."
+  },
+  {
+    "name": "Earthworm, Giant",
+    "printedName": "Earthworm, Giant",
+    "entryId": "beast-5a3396513a1e3f718e9eaf0b",
+    "versionKey": "bdfa48f5c6c5f3a0bde1aff5",
+    "publication": "Dungeons and Ruins",
+    "edition": "Black Flag Roleplaying",
+    "sourceUrl": "https://www.scribd.com/document/850759299/Campaign-Builder-Dungeons-and-Ruins",
+    "sourceMedium": "2025 first-printing publisher text via third-party web mirror",
+    "sourceIdentity": "ISBN 978-1-964506-04-3",
+    "printedStatBlockPage": 28,
+    "mountPages": [
+      28,
+      29
+    ],
+    "publisherUrl": "",
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/#:~:text=Dungeons%20and%20Ruins",
+    "printedChallenge": "1/2",
+    "publisherIndexChallenge": "0.5",
+    "habitatTags": [
+      "Underground"
+    ],
+    "searchAppearance": "segmented body",
+    "appearanceBasis": "General anatomy implied by the named animal. The stat block gives no color description."
+  }
+]

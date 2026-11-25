@@ -1,0 +1,125 @@
+{
+  "builds": [
+    {
+      "id": "illumian-lock-surveyor-35e",
+      "title": "Illumian lock surveyor, Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2.",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "ac": 14,
+      "hp": 12,
+      "hitDice": "2d6+2",
+      "initiative": 4,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +9",
+        "Disable Device +6",
+        "Hide +9",
+        "Listen +7",
+        "Move Silently +9",
+        "Open Lock +9",
+        "Search +6",
+        "Spot +7",
+        "Tumble +9"
+      ],
+      "languages": "Common, Illumian, Dwarven",
+      "traits": [
+        "Leather armor +2 and Dexterity +2. Touch 12, flat-footed 12. BAB +1, grapple +3. Fortitude +1, Reflex +5, Will +0.",
+        "Luminous Sigils (Su) orbit the head and give candlelight. Douse them as a standard action to suspend power sigil bonuses and word abilities. Restore them as a free action.",
+        "Aesh and Uur add +2 to Strength and Dexterity checks and related skill checks. Bonuses are already included. With sigils doused, initiative drops to +2 and Climb, Hide, Move Silently, Open Lock, and Tumble drop to +7.",
+        "Glyphic Resonance (Ex) applies when a spell’s name includes glyph, rune, sigil, or symbol. If the Illumian’s character level is below the spell’s caster level, take a −4 racial penalty on its saves. At or above that caster level, gain immunity to the spell.",
+        "+2 racial bonus on saves against spells with the shadow descriptor.",
+        "Final Utterance lasts 2 rounds. Trapfinding allows Search checks for traps above DC 20 and Disable Device checks against magic traps. Evasion negates damage on a successful Reflex save for half while in light or no armor. Alertness adds +2 to Listen and Spot."
+      ],
+      "actions": [
+        "Rapier +3 melee, 1d6+2 piercing, critical 18–20/×2.",
+        "Shortbow +3 ranged, 1d6 piercing, critical ×3, 60-ft. increment.",
+        "Sneak attack adds 1d6 when the target is flanked or denied its Dexterity bonus to AC. A ranged sneak attack requires a target within 30 ft.",
+        "Aeshuur gives +2 dodge AC against a creature Eshara damages with a sneak attack or critical hit. The bonus lasts until the start of Eshara’s next turn and requires lit sigils."
+      ],
+      "tactics": "Eshara will survey the lock chamber if the party keeps the winch still. She douses her sigils before hiding and relights them to work at the lock. In a fight she flanks an opponent with an ally to trigger Aeshuur."
+    },
+    {
+      "id": "illumian-inscription-reader-35e",
+      "title": "Illumian inscription reader, Wizard 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "ac": 11,
+      "hp": 5,
+      "hitDice": "1d4+1",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Concentration +5",
+        "Decipher Script +7",
+        "Knowledge (arcana) +7",
+        "Spellcraft +10"
+      ],
+      "languages": "Common, Illumian, Draconic, Dwarven",
+      "traits": [
+        "Unarmored. Touch 11, flat-footed 10. With mage armor, AC 15 and flat-footed 14. BAB +0, grapple −1. Fortitude +1, Reflex +1, Will +3.",
+        "Luminous Sigils (Su) orbit the head and give candlelight. Douse them as a standard action to suspend power sigil bonuses and word abilities. Restore them as a free action.",
+        "At 1st level, Naen adds +1 to Intelligence checks and Intelligence-based skill checks. With sigils doused, Decipher Script and Knowledge (arcana) drop to +6 and Spellcraft to +9.",
+        "Glyphic Resonance (Ex) applies when a spell’s name includes glyph, rune, sigil, or symbol. If the Illumian’s character level is below the spell’s caster level, take a −4 racial penalty on its saves. At or above that caster level, gain immunity to the spell.",
+        "+2 racial bonus on saves against spells with the shadow descriptor.",
+        "Final Utterance lasts 1 round. Feats are Scribe Scroll and Skill Focus (Spellcraft). Familiar slot is unfilled. Prepared spells use caster level 1 and save DC 12 + spell level."
+      ],
+      "actions": [
+        "Dagger −1 melee, 1d4−1 piercing or slashing, critical 19–20/×2. Minimum 1 damage on a hit.",
+        "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+        "Prepared 0-level spells are detect magic, light, and read magic. Prepared 1st-level spells are grease and mage armor.",
+        "Mage armor gives +4 armor AC for 1 hour. Grease makes a 10-ft. square slippery within 25 ft. for 1 round, Reflex DC 13 or fall. Moving through the area requires a DC 10 Balance check at half speed."
+      ],
+      "tactics": "Veyric asks the party to search for the missing rubbing before anyone touches the inscribed threshold. He examines the marks by sigil light and uses grease to hinder pursuit if the group has to retreat."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Illumian",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Destiny (2004)",
+      "name": "Glassweir Eshara",
+      "build": "illumian-lock-surveyor-35e",
+      "role": "Lock surveyor and Rogue.",
+      "motive": "Map the bypass gate before the weighmaster orders the chamber flooded.",
+      "hook": "Eshara can open the bypass hatch if the party prevents the inspection winch from moving."
+    },
+    {
+      "species": "Illumian",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Destiny (2004)",
+      "name": "Latchwater Veyric",
+      "build": "illumian-inscription-reader-35e",
+      "role": "Inscription reader and Wizard.",
+      "motive": "Recover a missing rubbing of an inscribed threshold before the crew tries to clear it.",
+      "hook": "Veyric can examine the rubbing from the far side of the threshold and tell the party which mark the crew covered."
+    }
+  ]
+}

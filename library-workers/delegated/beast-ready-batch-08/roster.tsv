@@ -1,0 +1,51 @@
+owner	name	kind	publication	edition	indexed_cr	art_group	reuse_source	reuse_sha256	runtime_file
+b08_01	Squid	beast	Revised v3.5 SRD (Monsters)	3.5 edition	1	squid	indexed:images/beasts/squid/parchment-portrait.webp	8dcb2884bc0e384f0427cf3971550803d7047daeafa0d3008177588af680f6e5	images/beasts/squid/parchment-portrait.webp
+b08_01	Tiger	beast	Revised v3.5 SRD (Monsters)	3.5 edition	4	tiger	beast-ready-batch-02/parts/b02_09/portraits/tiger.png	18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5	images/beast-ready-batch-02/tiger.png
+b08_01	Triceratops	beast	Revised v3.5 SRD (Monsters)	3.5 edition	9	triceratops	beast-ready-batch-05/reused-portraits/triceratops.webp	7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789	images/monsters/triceratops/parchment-portrait.webp
+b08_01	Tyrannosaurus	beast	Revised v3.5 SRD (Monsters)	3.5 edition	8	tyrannosaurus	indexed:images/monsters/tyrannosaurus-rex/parchment-portrait.webp	379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316	images/monsters/tyrannosaurus-rex/parchment-portrait.webp
+b08_01	War Pony	beast	Revised v3.5 SRD (Monsters)	3.5 edition	1/2	war-pony	indexed:images/beasts/war-pony/parchment-portrait.webp	b564a87e30cecf28608a31b4677e40119a2e929b2b55da1f75aac539ce901a35	images/beasts/war-pony/parchment-portrait.webp
+b08_01	Wolf	beast	Revised v3.5 SRD (Monsters)	3.5 edition	1	wolf	beast-ready-batch-02/parts/b02_10/portraits/wolf.png	aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135	images/beast-ready-batch-02/wolf.png
+b08_01	Wolverine	beast	Revised v3.5 SRD (Monsters)	3.5 edition	2	wolverine	indexed:images/beasts/wolverine/parchment-portrait.webp	696bfc4e9a3dc67069266eb71d8757fdb5c6072ce2f6e210902fcbfbf483f975	images/beasts/wolverine/parchment-portrait.webp
+b08_02	Batracine	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		batracine			
+b08_02	Caniquine	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		caniquine			
+b08_02	Cinnavixen	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		cinnavixen			
+b08_02	Echyan	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		echyan			
+b08_02	Feliquine	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		feliquine			
+b08_03	Herathian Voat	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		herathian-voat	indexed:images/beasts/herathian-voat/parchment-portrait.webp	3dcbb4ef9a9ad4a0844822421756d34eb34a3c7c5a0039e2c25d411e0159a65c	images/beasts/herathian-voat/parchment-portrait.webp
+b08_03	Jorri	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		jorri	indexed:images/beasts/jorri/parchment-portrait.webp	e77650da26cab97e9cd0a47ca65cbf7a93a299fb9a00f79e4985368b1d6a0605	images/beasts/jorri/parchment-portrait.webp
+b08_03	Juhrion	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		juhrion			
+b08_03	Lupasus	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		lupasus	indexed:images/beasts/lupasus/parchment-portrait.webp	51744344fa8e3a3d9105eba8a4d11d9f868b9df38e1c254d029a8f507a9a1aae	images/beasts/lupasus/parchment-portrait.webp
+b08_03	Marine Cat	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		marine-cat	indexed:images/beasts/marine-cat/parchment-portrait.webp	79b713a311443f1ea3dac63c05035bf2a61efb5cfd8a26f5c244c5bd97376f7b	images/beasts/marine-cat/parchment-portrait.webp
+b08_04	Nikt’oo	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		niktoo			
+b08_04	Omm-wa	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		omm-wa	indexed:images/beasts/omm-wa/parchment-portrait.webp	d43d52b53f64e9c1b0a1815757c683144c0c9b0d5c59ccc99589233c9ab4455a	images/beasts/omm-wa/parchment-portrait.webp
+b08_04	Succulus	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		succulus			
+b08_04	Swampmare	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		swampmare	indexed:images/beasts/swampmare/parchment-portrait.webp	e91fbf1ed393b3fc787d28c23a50aaaa948ef3bf903621774978af3803b4ecb5	images/beasts/swampmare/parchment-portrait.webp
+b08_05	Trosip	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		trosip	indexed:images/beasts/trosip/parchment-portrait.webp	c1e136bef79480466c4d5d094105c55b598a8598ded85cdd5c3650de66fee008	images/beasts/trosip/parchment-portrait.webp
+b08_05	Voat	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		voat	indexed:images/beasts/voat/parchment-portrait.webp	7818ff5599db53331a679988dd1b4dc95e611b48dd8d694a7918309615139f8b	images/beasts/voat/parchment-portrait.webp
+b08_05	Vulturehound	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		vulturehound	indexed:images/beasts/vulturehound/parchment-portrait.webp	d804139e1e1b3b5cd28fdc9eae5ea6647cc320bbb6a54d00afbd2be613d25b33	images/beasts/vulturehound/parchment-portrait.webp
+b08_05	Wynzet	beast	Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition		wynzet	indexed:images/beasts/wynzet/parchment-portrait.webp	46ca43296a4dd52670d1f94e0f539aeaa96971751fbe896dedbd9fc6f7c94298	images/beasts/wynzet/parchment-portrait.webp
+b08_06	Almiraj	beast	Tomb of Annihilation	2014 fifth edition	0	almiraj			
+b08_06	Brontosaurus	beast	Tomb of Annihilation	2014 fifth edition	5	brontosaurus			
+b08_06	Deinonychus	beast	Tomb of Annihilation	2014 fifth edition	1	deinonychus	beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png	906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d	images/beast-ready-batch-07/deinonychus.png
+b08_06	Dimetrodon	beast	Tomb of Annihilation	2014 fifth edition	1/4	dimetrodon			
+b08_06	Flying Monkey	beast	Tomb of Annihilation	2014 fifth edition	0	flying-monkey			
+b08_07	Giant Snapping Turtle	beast	Tomb of Annihilation	2014 fifth edition	3	giant-snapping-turtle			
+b08_07	Hadrosaurus	beast	Tomb of Annihilation	2014 fifth edition	1/4	hadrosaurus			
+b08_07	Jaculi	beast	Tomb of Annihilation	2014 fifth edition	1/2	jaculi			
+b08_07	Quetzalcoatlus	beast	Tomb of Annihilation	2014 fifth edition	2	quetzalcoatlus			
+b08_08	Stegosaurus	beast	Tomb of Annihilation	2014 fifth edition	4	stegosaurus			
+b08_08	Velociraptor	beast	Tomb of Annihilation	2014 fifth edition	1/4	velociraptor	beast-ready-batch-01/parts/black_flag/portraits/velociraptor.png	921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747	images/beast-ready-batch-01/velociraptor.png
+b08_08	Wild Dog	beast	Tomb of Annihilation	2014 fifth edition	0	wild-dog			
+b08_08	Zebra	beast	Tomb of Annihilation	2014 fifth edition	1/4	zebra			
+b08_09	Deathjump Spider	beast	Keep on the Shadowfell (2009 revision)	4th edition	Level 4 Skirmisher (175 XP)	deathjump-spider	indexed:images/beasts/deathjump-spider/parchment-portrait.webp	033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593	images/beasts/deathjump-spider/parchment-portrait.webp
+b08_09	Giant Rat	beast	Keep on the Shadowfell (2009 revision)	4th edition	Level 1 Minion (25 XP)	giant-rat	beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png	5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73	images/beast-ready-batch-05/giant-rat.png
+b08_09	Guard Drake	beast	Keep on the Shadowfell (2009 revision)	4th edition	Level 2 Brute (125 XP)	guard-drake	indexed:images/beasts/guard-drake/parchment-portrait.webp	1c2e141487aad507b22fe28a130661997cce62e84565d5625b843663852e266c	images/beasts/guard-drake/parchment-portrait.webp
+b08_09	Kruthik Adult	beast	Keep on the Shadowfell (2009 revision)	4th edition	Level 4 Brute (175 XP)	kruthik-adult	indexed:images/beasts/kruthik-adult/parchment-portrait.webp	b6c76c4a1c5348a1a1e53cdfcc5e3537b453dd8374e2356b43a020ea1fdb22df	images/beasts/kruthik-adult/parchment-portrait.webp
+b08_10	Kruthik Hatchling	beast	Keep on the Shadowfell (2009 revision)	4th edition	Level 2 Minion (31 XP)	kruthik-hatchling	indexed:images/beasts/kruthik-hatchling/parchment-portrait.webp	cd06c7118ae734ffed5a18103dc8c105ce6f85c73f88bebbf4bfec36d99607b4	images/beasts/kruthik-hatchling/parchment-portrait.webp
+b08_10	Kruthik Young	beast	Keep on the Shadowfell (2009 revision)	4th edition	Level 2 Brute (125 XP)	kruthik-young	indexed:images/beasts/kruthik-young/parchment-portrait.webp	d0c0f1ab6c4adde5beb22052640a2f6bb90bac8293a9a1f734c4e53373176cc5	images/beasts/kruthik-young/parchment-portrait.webp
+b08_10	Rat Swarm	beast	Keep on the Shadowfell (2009 revision)	4th edition	Level 2 Skirmisher (125 XP)	rat-swarm	beast-ready-batch-07/reused-portraits/rat-swarm.webp	5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5	images/monsters/swarm-of-rats/parchment-portrait.webp
+b08_11	Giant Bumblebee	beast	The Land Beyond the Magic Mirror	AD&D 1st edition		giant-bumblebee	indexed:images/beasts/giant-bumblebee/parchment-portrait.webp	65a717519a628b5b71df378ee582abeb66d41140c9bc91354ef555e18772f8f3	images/beasts/giant-bumblebee/parchment-portrait.webp
+b08_11	Giant Dragonfly	beast	The Land Beyond the Magic Mirror	AD&D 1st edition		giant-dragonfly			
+b08_11	Giant Honey Bee (Soldier)	beast	The Land Beyond the Magic Mirror	AD&D 1st edition		giant-honey-bee-soldier	indexed:images/beasts/giant-honey-bee-soldier/parchment-portrait.webp	a7ee4c181b196dedb320a82cf2c3db15eb977f02025e8a4a581e2d96ec3a26f1	images/beasts/giant-honey-bee-soldier/parchment-portrait.webp
+b08_11	Giant Honey Bee (Worker)	beast	The Land Beyond the Magic Mirror	AD&D 1st edition		giant-honey-bee-worker	indexed:images/beasts/giant-honey-bee-worker/parchment-portrait.webp	bd0d63cdfd57ecc5e151194d8c7743e90720b7ab85abac51723373c6720fe865	images/beasts/giant-honey-bee-worker/parchment-portrait.webp
+b08_11	Oliphant	beast	The Land Beyond the Magic Mirror	AD&D 1st edition		oliphant	indexed:images/beasts/oliphant/parchment-portrait.webp	daa6992b4877a413ef9aadb19d07705e94469dd3893f74a25a475559da527b08	images/beasts/oliphant/parchment-portrait.webp

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Swarm of Bats",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing with official errata v2.0",
+    "printedPages": [
+      337
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/17028-swarm-of-bats",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/17028-swarm-of-bats",
+    "errataUrl": "",
+    "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+    "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+    "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+    "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+  },
+  {
+    "name": "Swarm of Poisonous Snakes",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing with official errata v2.0",
+    "printedPages": [
+      338
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/17030-swarm-of-poisonous-snakes",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/17030-swarm-of-poisonous-snakes",
+    "errataUrl": "",
+    "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+    "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+    "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+    "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+  },
+  {
+    "name": "Swarm of Quippers",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing with official errata v2.0",
+    "printedPages": [
+      338
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/17031-swarm-of-quippers",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/17031-swarm-of-quippers",
+    "errataUrl": "",
+    "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+    "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+    "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+    "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+  },
+  {
+    "name": "Swarm of Rats",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing with official errata v2.0",
+    "printedPages": [
+      339
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/17032-swarm-of-rats",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/17032-swarm-of-rats",
+    "errataUrl": "",
+    "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+    "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+    "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+    "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+  },
+  {
+    "name": "Swarm of Ravens",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing with official errata v2.0",
+    "printedPages": [
+      339
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/17033-swarm-of-ravens",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/17033-swarm-of-ravens",
+    "errataUrl": "",
+    "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+    "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+    "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+    "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+  }
+]

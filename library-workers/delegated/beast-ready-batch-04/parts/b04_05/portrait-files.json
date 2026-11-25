@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "giant-boar",
+    "file": "portraits/giant-boar.png",
+    "sha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-centipede",
+    "file": "portraits/giant-centipede.png",
+    "sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-constrictor-snake",
+    "file": "portraits/giant-constrictor-snake.png",
+    "sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

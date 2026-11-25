@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Canomorph",
+    "file": "portraits/canomorph.png",
+    "sha256": "9f1bf87e3611a7706c2376748de3232d5bcc314a963b107b1403082b43d3e670",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-generated portrait for The Lost Hope, OpenAI ImageGen"
+  },
+  {
+    "name": "Dark Creeper",
+    "file": "portraits/dark-creeper.png",
+    "sha256": "4511fea0c8206211519ccc8612362ea0318b1d8e54bb098c04333c18593c53b1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-generated portrait for The Lost Hope, OpenAI ImageGen"
+  },
+  {
+    "name": "Ethergaunt",
+    "file": "portraits/ethergaunt.png",
+    "sha256": "182333cc178aa485b98caa5a8cccf96d833f215ecc2072d5158c6638017febf3",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-generated portrait for The Lost Hope, OpenAI ImageGen"
+  },
+  {
+    "name": "Fensir",
+    "file": "portraits/fensir.png",
+    "sha256": "266969726f4f74da708b6f00fc0b7e56d7e476a8944939b9812e03f7691cf72f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-generated portrait for The Lost Hope, OpenAI ImageGen"
+  }
+]

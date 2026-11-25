@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Satarre",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Unbound Satarre are Medium, walk 30 ft., and have darkvision to 60 ft. Constitution +2 and Wisdom +1.",
+      "Keeper of Secrets grants Arcana proficiency, advantage on Intelligence (Arcana) checks about planes or planar travel, and proficiency in History, Insight, or Religion.",
+      "Portal Sense reveals the direction and distance to the nearest nonmagical entrance or exit while in a confined area. It grants advantage on Investigation or Perception checks to find hidden or invisible doors and magical portals.",
+      "Unraveling Touch is an action once per long rest, targeting one creature you can see within 30 ft. It makes a Constitution save against DC 8 + your Constitution modifier + proficiency bonus. On a failure it spends its action each turn repeating the save until it succeeds.",
+      "Speak, read, and write Umbral plus one of Abyssal, Infernal, or Void Speech."
+    ]
+  },
+  {
+    "name": "Lamia",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium Monstrosity. Strength +2, Charisma +1, walk 30 ft., climb 20 ft., swim 20 ft., and darkvision to 60 ft.",
+      "Dangerous Beauty grants proficiency in Deception and Intimidation.",
+      "Serpent Strike gives advantage on attacks against creatures you surprised or creatures charmed by you or an ally.",
+      "Snake Body gives advantage on checks and saves against being knocked prone. Effects and equipment that require legs or feet confer no benefit.",
+      "Speak, read, and write Abyssal and Common."
+    ]
+  },
+  {
+    "name": "Mushroomfolk",
+    "kind": "species",
+    "publication": "Underworld Player’s Guide (2020)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Humanoid. Wisdom +2, walk 30 ft., and darkvision to 60 ft. Choose Acid Cap, Favored, or Morel to determine size and additional traits.",
+      "Fungoid Form grants advantage on saves against poison, resistance to poison damage, and immunity to disease. Hardy Survivor grants proficiency in Survival.",
+      "Speak, read, and write Mushroomfolk and either Common or Undercommon.",
+      "Acid Cap is Medium, adds Strength +1, and grants acid resistance and Athletics proficiency. When a melee weapon attack hits you from within 5 ft., you can react to deal acid damage equal to half your level rounded up to the attacker. Uses equal your Constitution modifier, minimum one, per long rest.",
+      "Favored is Medium, adds Charisma +1, and grants Persuasion proficiency. You know Spare the Dying and can cast Bless from level 3 once per long rest. Both use Charisma. Restful Spores add your proficiency bonus to HP recovered with Hit Dice at the end of a short rest by you and friendly creatures within 30 ft. Each beneficiary can receive that bonus once per long rest.",
+      "Morel is Small, adds Dexterity +1, walks 35 ft., and gains Stealth proficiency. After adjusting coloration for at least a minute in a setting rich in naturally occurring plants or fungi, you have advantage on Dexterity (Stealth) checks there for 24 hours."
+    ]
+  }
+]

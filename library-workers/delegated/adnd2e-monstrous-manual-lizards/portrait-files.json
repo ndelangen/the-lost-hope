@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Fire Lizard",
+    "file": "",
+    "selection": "generated",
+    "sha256": "b6ef88a35d815e44ae1f452ce323faf4adc88fd9d7f9d98ed75b84f508f320ad",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Lizard",
+    "file": "",
+    "selection": "generated",
+    "sha256": "0a484d2d5a73289ab2340f297153b919d87bc430000059a12b1945a14a380a1b",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Minotaur Lizard",
+    "file": "",
+    "selection": "generated",
+    "sha256": "a8bd73549f9cd5d2818d8cf81a68c3c8a56e189f6cb469417440adeef84c2d81",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Subterranean Lizard",
+    "file": "",
+    "selection": "generated",
+    "sha256": "1cb387f2b1e49530b47bdd4d1ec9187b7d38bc9b20002eb996e4c5aaa2e0dc01",
+    "width": 1254,
+    "height": 1254
+  }
+]

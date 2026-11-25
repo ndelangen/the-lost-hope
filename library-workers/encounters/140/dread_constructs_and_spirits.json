@@ -1,0 +1,419 @@
+[
+  {
+    "name": "Living Wall",
+    "decision": "separate",
+    "pages": "pp. 135–136",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Living Wall",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Construct",
+      "ac": 14,
+      "hp": 44,
+      "hitDice": "8d10",
+      "speed": "0 ft.",
+      "cr": "8",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "otherStatistics": "Initiative +0. AC −1 size, +5 natural. Touch AC 9, flat-footed AC 14. Base attack +6, grapple +10. Space 10 ft., reach 5 ft. Fort +2, Ref +2, Will +4.",
+      "description": "Muffled pleading comes from behind apparent masonry. Get within reach and the voices turn into grasping hands.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +10 melee (1d3 + 4) or short sword +10/+5 melee (1d6 + 4) in the printed examples. Full attack. Eight slams or eight short swords at the listed bonuses. Use the absorbed occupants to choose the wall’s real attacks.\nImproved Grab (Ex) and Absorption (Su). Hit with an unarmed attack to attempt a grab, then pull the victim in. The victim must succeed on a Fortitude save, DC 10 + half the wall’s HD + its Strength modifier (DC 18 here), or be absorbed. Repeat each round the grapple continues. If the victim fails the save, allies trying to break the pin make the same save or are also absorbed. A creature killed or knocked unconscious within reach is absorbed on the wall’s next turn. True resurrection is the only way to restore an absorbed victim.\nAnimate Dead (Su). A corpse left within 300 ft. for a month becomes a zombie and walks into the wall. It never fights.\nSpell-like abilities. An absorbed caster’s remaining spells become spell-like abilities, each usable once per day. The caster takes the wall’s alignment, which may remove class abilities.",
+        "Gestalt Attacks (Ex)": "Each occupant adds its primary attack and keeps its base attack bonus. Use the higher of its Strength modifier and the wall’s, with no Dexterity modifier. Use +5 natural armor or the highest natural armor bonus among the occupants, whichever is higher. Magic equipment remains active, but bonuses of the same type do not stack. Magic weapons remain usable until their ammunition runs out. Ordinary objects fall to the foot of the wall.",
+        "Traits": "Construct traits, spell resistance 14. Detect magic reveals its aura, true seeing pierces the false masonry, and seeing the true wall calls for a DC 20 Horror save. Within 15 ft., creatures can hear the voices. It speaks the languages of its occupants.\nInsane (Ex). Mental contact calls for a Madness save, DC 10 + half the wall’s HD + its Wisdom modifier (DC 16 here). On a failure the DM chooses the derangement.\nMagic Immunity (Su). Immune to flesh to stone and similar effects. Passwall and stone shape fail against its flesh. A caster using meld into stone on it is absorbed automatically.",
+        "Encounter details": "Solitary, on land or underground. Always chaotic evil. Double standard treasure. Feat: Multidexterity. The wall tries to absorb its creator. If it succeeds, it becomes ordinary stone and releases its souls.\nIt can absorb living creatures at least one size smaller. Add 1 HD for each Medium, two Small, four Tiny, or eight Diminutive creatures. Add 2 HD for a Large, 4 for a Huge, 8 for a Gargantuan, or 16 for a Colossal creature. It fills one 5-ft. cube per 3 HD, rounding down. The advancement lines give 9–15 HD (Large), 13–18 HD (Huge), and 19–26 HD (Gargantuan).",
+        "Construction": "A 14th-level arcane caster needs at least three intact Medium humanoid corpses cemented into a 5-ft. cube, a DC 12 Craft (stoneworking) or Knowledge (engineering) check, 50,000 gp including 500 gp for the body, and 1,100 XP. The spells are animate dead, flesh to stone, limited wish, meld into stone, and stone to flesh. Prolonged deaths in a walled-up niche can also create one spontaneously.",
+        "Printed source": "pp. 135–136"
+      },
+      "ruleNotes": [
+        "The example attack profile depends on the occupants. The printed advancement ranges overlap at 13–15 HD.",
+        "The entry describes both absorption on the next turn within reach and the separate month-long animation of corpses within 300 ft."
+      ]
+    }
+  },
+  {
+    "name": "Dread Scarecrow",
+    "decision": "separate",
+    "pages": "p. 180",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Dread Scarecrow",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Construct",
+      "ac": 12,
+      "hp": 20,
+      "hitDice": "3d10",
+      "speed": "30 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "otherStatistics": "Initiative +0. AC +2 natural. Touch AC 10, flat-footed AC 12. Base attack +2, grapple +3. Space and reach 5 ft. Fort +1, Ref +1, Will +3.",
+      "description": "A wronged spirit wears straw and a pumpkin head to hunt down the people it blames.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +3 melee (1d4 + 1). Full attack. Two slams +3 melee (1d4 + 1 each) or one scythe +3 melee (2d4 + 1, ×4 critical).\nStinging Curse (Ex). A creature hit in melee must pass a DC 13 Fortitude save or attract a swarm of insects. Stings automatically deal 1d4 damage in round one, with another 1d4 added to the damage each round. Each round of stings also adds a cumulative −1 circumstance penalty to attack and damage rolls. The stings continue until remove curse or death.",
+        "Traits": "Construct traits, damage reduction 5/magic, cold immunity, electricity resistance 5, and fire vulnerability. It understands languages known in life but cannot speak. Someone who knew the living spirit can recognize its changing face with a DC 20 Spot check.",
+        "Skills and tactics": "Listen +2, Spot +2. It usually pursues its chosen victims and never retreats. Solitary, usually neutral evil, and found on temperate or warm farmland. No treasure.",
+        "Printed source": "p. 180"
+      },
+      "ruleNotes": [
+        "T",
+        "h",
+        "e",
+        " ",
+        "s",
+        "c",
+        "y",
+        "t",
+        "h",
+        "e",
+        " ",
+        "l",
+        "i",
+        "n",
+        "e",
+        " ",
+        "l",
+        "i",
+        "s",
+        "t",
+        "s",
+        " ",
+        "t",
+        "h",
+        "e",
+        " ",
+        "c",
+        "u",
+        "r",
+        "s",
+        "e",
+        " ",
+        "e",
+        "x",
+        "p",
+        "l",
+        "i",
+        "c",
+        "i",
+        "t",
+        "l",
+        "y",
+        ".",
+        " ",
+        "T",
+        "h",
+        "e",
+        " ",
+        "a",
+        "b",
+        "i",
+        "l",
+        "i",
+        "t",
+        "y",
+        " ",
+        "t",
+        "e",
+        "x",
+        "t",
+        " ",
+        "a",
+        "p",
+        "p",
+        "l",
+        "i",
+        "e",
+        "s",
+        " ",
+        "i",
+        "t",
+        " ",
+        "t",
+        "o",
+        " ",
+        "a",
+        "n",
+        "y",
+        " ",
+        "m",
+        "e",
+        "l",
+        "e",
+        "e",
+        " ",
+        "h",
+        "i",
+        "t",
+        "."
+      ]
+    }
+  },
+  {
+    "name": "Mechanical Golem",
+    "decision": "separate",
+    "pages": "pp. 93, 98–99",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Mechanical Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Construct",
+      "ac": 21,
+      "hp": 77,
+      "hitDice": "14d10",
+      "speed": "30 ft.",
+      "cr": "11",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "otherStatistics": "Initiative +0. AC −1 size, +12 natural. Touch AC 9, flat-footed AC 21. Base attack +10, grapple +15. Printed space 5 ft., reach 10 ft. Fort +4, Ref +4, Will +4.",
+      "description": "Steam hisses from a metal frame whose sparking arm ends in a keen blade.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Built-in weapon. Use the listed keen greatsword at +17 melee (2d6 + 7), with a second +12 attack on a full attack. Other built-in weapons vary and the blade is always keen.\nLightning Burst (Ex). Once per 1d4 rounds, creatures within 20 ft. take 3d6 electricity damage, Reflex DC 17 for half.\nShocking Strike (Ex). On a critical hit, add 3d6 electricity damage and require a DC 17 Fortitude save to avoid being stunned for 2d4 rounds. A melee attack against the golem that would otherwise score a critical hit also exposes the attacker to the 3d6 electricity damage.",
+        "Traits": "Construct traits and damage reduction 10/magic.\nMagic Immunity (Ex). Immune to spells, spell-like abilities, and supernatural effects except for the listed vulnerabilities. Rust effects such as rusting grasp work normally. Targeted dispel magic against DC 14 shuts it down for a number of rounds equal to the dispel check result minus 10. A result at least 10 over the DC destroys it. Detect magic reveals the suppressed aura building back up.",
+        "Dread golem commands": "The creator can give orders within 60 ft. while the golem can see and hear them. The golem follows the last command and defends itself if attacked. Some grow independent of their creators.",
+        "Skills and feats": "Climb +14, Listen +7, Spot +7. Cleave, Combat Reflexes, Power Attack.",
+        "Encounter details": "Any land or underground. Solitary, usually chaotic evil. No treasure. Advances to 15–22 HD (Large) or 23–35 HD (Huge).",
+        "Printed source": "pp. 93, 98–99"
+      },
+      "ruleNotes": [
+        "Both printed attack lines show +17/+12. For a single attack, use +17. The printed space is 5 ft. even though its size is Large.",
+        "The retaliation clause specifies damage to the attacker and does not repeat the stun."
+      ]
+    }
+  },
+  {
+    "name": "Ceramic Figurine",
+    "decision": "separate",
+    "pages": "p. 75",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Ceramic Figurine",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny Construct",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "2d10",
+      "speed": "10 ft.",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "otherStatistics": "Initiative +2. AC +2 size, +2 Dex, +1 natural. Touch AC 14, flat-footed AC 13. Base attack +1, grapple −8. Space 2½ ft., reach 0 ft. Fort +1, Ref +3, Will +1.",
+      "description": "A bright pottery animal hides two flasks in its hollow body. An assassin can send one after a named victim.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. One claw +2 melee (1d2 − 1), only on the master’s orders, or fluid spray +5 ranged touch.\nFluid Spray (Ex). Load up to two flasks of liquid such as alchemist’s fire, holy water, acid, or poison. Spray one flask at one creature within 10 ft. without splash damage. When a physical attack destroys it, any remaining liquid bursts at its location as a splash weapon.",
+        "Traits": "Construct traits, damage reduction 5/—, and immunity to fire, cold, and electricity. The stat block lists vulnerability to bludgeoning but gives no multiplier.\nVulnerability to Sonic Effects (Ex). A damaging sonic effect destroys the figurine unless it makes a Fortitude save, DC 10 + spell level + caster’s Intelligence modifier. It still takes the effect’s damage on a success.",
+        "Figurine loyalty": "Once a month the figurine and its master roll opposed Will saves. If the figurine wins, it breaks free, becomes evil, and seeks to kill its master. It understands its creator’s language and detailed commands but cannot speak.",
+        "Encounter details": "Hide +10. Any land in Sri Raji. Solitary, always neutral before breaking free, with no treasure. Advances to 5–8 HD (Small) or 9–12 HD (Medium).",
+        "Printed source": "p. 75"
+      }
+    }
+  },
+  {
+    "name": "Undead Treant",
+    "decision": "separate",
+    "pages": "pp. 169–170",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Undead Treant",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Huge Undead",
+      "ac": 20,
+      "hp": 52,
+      "hitDice": "8d12",
+      "speed": "30 ft.",
+      "cr": "9",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Initiative −2. Printed AC components −2 size, −1 Dex, +13 natural. Touch AC 7, flat-footed AC 21. Base attack +4, grapple +21. Space 10 ft., reach 15 ft. Fort +0, Ref +1, Will +4.",
+      "description": "The leafless ruler of a corrupt grove pins travelers under its branches to feed through its roots.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +21 melee (1d6 + 9). Full attack. Two slams +2 melee (1d6 + 9 each) as printed. A full attack deals double damage to an object or structure.\nTrample (Ex). 2d12 + 5 damage, Reflex DC 23 for half.\nBlood Drain (Ex). On its next turn after pinning a living foe, 1d3 roots attach. Each root drains 1 Constitution each round it maintains the grapple. It cannot move while feeding and takes a full-round action to become mobile again. Break the pin normally or sever every attached root. Each root has AC 15 and 4 HP independent of the treant. Use Ravenloft vampire feeding rules from chapter 5 of the Ravenloft Player’s Handbook for its feeding needs.\nSpells. It casts as a 6th-level druid and chooses no spells that employ fire.",
+        "Traits": "Undead traits, damage reduction 10/slashing, and fire vulnerability. It has lost the living treant’s ability to animate trees.",
+        "Skills and feats": "Hide −10, Intimidate +8, one Knowledge skill +8, Listen +9, Sense Motive +9, Spot +9, Survival +9. Hide has a +16 racial bonus in dead or dying forest. Feats: Cleave, Improved Sunder, Iron Will, Power Attack.",
+        "Encounter details": "Any forest. Solitary or with 4–7 dread treants. Always neutral evil. Standard treasure. Advances to 9–17 HD (Huge) or 18–22 HD (Gargantuan).",
+        "Printed source": "pp. 169–170"
+      },
+      "ruleNotes": [
+        "The printed full attack is +2 while its single slam is +21. For a consistent table ruling, use +21 for both slams.",
+        "The printed AC components do not add to AC 20, and Dexterity 6 gives a −2 modifier rather than the printed −1 in those components. Use the listed total, touch, and flat-footed values."
+      ]
+    }
+  },
+  {
+    "name": "Tenebris",
+    "decision": "separate",
+    "pages": "p. 192",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Tenebris",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Outsider (Evil, Incorporeal)",
+      "ac": 15,
+      "hp": 40,
+      "hitDice": "8d8 + 8",
+      "speed": "40 ft., fly 60 ft. (good)",
+      "cr": "9",
+      "abilities": {
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "otherStatistics": "Initiative +3. AC +3 Dex, +2 deflection. Touch AC 15, flat-footed AC 12. Printed base attack +8, grapple +8. Space and reach 5 ft. Fort +6, Ref +6, Will +6.",
+      "description": "A second shadow follows its host by day. At night the outsider uses the sleeping host’s body to act on grudges that the host mistakes for dreams.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack and full attack. Use the host’s attacks.\nMalevolent Possession (Su). Once a night, enter a sleeping creature on the Material Plane unless it passes a DC 20 Will save. Use magic jar at caster level 10 without a receptacle. It takes over the body and controls dreams as a 10th-level sorcerer using dream. A success grants immunity to its possession that night.\nWisdom Drain (Su). Once per night the possessed creature takes 1d4 Wisdom drain unless it passes a DC 29 Will save.\nSpell-like abilities. Twice per day each: bane, charm person, command, confusion, crushing despair, mind fog, and undetectable alignment. Caster level 10, save DC 15 + spell level. Detect thoughts is listed separately without a specified frequency.",
+        "Traits": "Incorporeal. It is dormant during the day and uses the host’s skills while in control at night. A DC 20 Spot check reveals the extra shadow. Otherwise, detection requires telepathic contact. Dispel evil or an ethereal opponent can drive it out of its host.",
+        "Skills and feats": "Bluff +12, Concentration +8, Diplomacy +12, Gather Information +12, Hide +20, Intimidate +10, Knowledge (the planes) +12, Listen +12, Sense Motive +12, Spot +12. Alertness, Blind-Fight, Combat Reflexes.",
+        "Encounter details": "Any land or underground. Solitary, always neutral evil, no treasure. Advances to 9–12 HD (Medium). Printed level adjustment +7.",
+        "Printed source": "p. 192"
+      },
+      "ruleNotes": [
+        "The special attacks line says “Will drain.” The detailed ability drains Wisdom and uses a Will save."
+      ]
+    }
+  },
+  {
+    "name": "Radiant Spirit",
+    "decision": "separate",
+    "pages": "p. 172",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Radiant Spirit",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Incorporeal)",
+      "ac": 15,
+      "hp": 69,
+      "hitDice": "10d12 + 4",
+      "speed": "Fly 30 ft. (perfect)",
+      "cr": "10",
+      "abilities": {
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "otherStatistics": "Initiative +6. AC +2 Dex, +3 deflection. Touch AC 15, flat-footed AC 13. Printed base attack +6, grapple +6. Space and reach 5 ft. Fort +3, Ref +7, Will +13.",
+      "description": "The ghost of a cleric or paladin keeps vigil over the spot where its quest failed. Its light can blind a traveler before they see the figure inside.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +6 melee (1d6). Full attack. Two slams +6 melee (1d6 each).\nBlinding Pulse (Su). Once per minute, use a gaze attack. A failed DC 18 Fortitude save deals 1d10 damage and permanently blinds as the blindness spell at caster level 10. The victim’s corneas bear skull-shaped scars that add 1 to Outcast Rating when visible.\nFrightful Moan (Su). As a standard action, force living creatures within 30 ft. to make a DC 18 Fear save. Evil creatures take a −5 morale penalty. A success grants immunity to this spirit’s moan for one day.\nSunbeam (Su). Three times per day, use sunbeam at caster level 10.",
+        "Traits": "Incorporeal and undead traits, +4 turn resistance.\nRadiant Aura (Su). The spirit sheds light as bright as daylight. Its continuous 30-ft. gaze blinds for 1d4 rounds on a failed DC 18 Fortitude save. It cannot suppress the aura.\nRejuvenation (Su). If destroyed, it reforms in 2d4 days. Completing its unfinished quest lays it to rest permanently.",
+        "Skills and feats": "Diplomacy +18, Knowledge (religion) +20, Listen +17, Search +20, Sense Motive +18, Spot +17. Alertness, Improved Initiative, Iron Will, Lightning Reflexes, Toughness.",
+        "Encounter details": "Any land or underground, within 1 mile of the site of its death. Solitary, always lawful evil, no treasure. Advances to 11–20 HD (Medium). Speaks languages it knew in life. It may let sympathetic travelers pass and refuses to speak to evil creatures.",
+        "Printed source": "p. 172"
+      },
+      "ruleNotes": [
+        "Blinding Pulse gives no separate range. Use the standard 30-ft. gaze range.",
+        "The text both says it immediately attacks disrespectful intruders and describes its intended victims as evil. Its continuous gaze cannot be suppressed."
+      ]
+    }
+  }
+]

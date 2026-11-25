@@ -1,0 +1,11 @@
+# Beast batch 07
+
+Staged 50 encounter records from the revised 3.5 System Reference Document against catalog commit `1274013`. Each profile cites the original RTF shard and heading. The rules preserve native 3.5 concepts such as separate touch and flat-footed AC, base attack, grapple, full attacks, and Fortitude, Reflex and Will saves. [Roster](roster.tsv) · [Source and portrait manifest](manifest.json) · [Rules patch](rules.patch) · [Portrait index](portrait-index-preview.json)
+
+The archived SRD gives Dire Ape two different Rend values and prints Rat Swarm at 13 HP with 4d8. The entries retain those readings and call out the conflicts. The Bat Swarm keeps its printed AC values and documents the 2006 *Monster Manual* correction for weapon immunity. The Deinonychus and Megaraptor entries preserve the original archived sizes and list the later *Monster Manual* replacements separately. [Dire Ape evidence](parts/b07_05/source-evidence.json) · [Rat Swarm evidence](parts/b07_08/source-evidence.json) · [2006 Monster Manual errata]()
+
+The batch reuses 46 portraits and adds four uncompressed square PNGs for Bison, Deinonychus, Giant Squid and striped Hyena. The SRD specifies a striped hyena, so this version has its own portrait. Some reused art retains a brighter orange paper tone. [Comparison with Big Linda](portrait-comparison.jpg) · [Portrait sheet 1](portraits-1.jpg) · [Portrait sheet 2](portraits-2.jpg) · [Striped and spotted hyena comparison](parts/b07_05/portrait-comparison.jpg)
+
+In a temporary Library copy, I found Bison by name and by “shoulder hump,” then checked its portrait, touch AC, grapple and Stampede. Dire Ape displayed both Rend values and the reused portrait. The 3.5 Hyena loaded the striped portrait and its Trip rule. Giant Squid loaded its portrait and showed the 30-ft. tentacle reach and 320-ft. jet. The browser console showed no warnings or errors. The independent catalog review matched all 50 runtime lookup keys and portrait hashes. [Bison before and after](bison-before-after.jpg) · [Striped Hyena preview](striped-hyena-preview.jpg) · [Giant Squid preview](giant-squid-preview.jpg)
+
+To use the local bundle, apply the rules patch to a compatible catalog and append the preview index rows. The paths in the index are relative to `output/dm-library/5etools`. The manifest lists the packaged file and SHA-256 for each path.

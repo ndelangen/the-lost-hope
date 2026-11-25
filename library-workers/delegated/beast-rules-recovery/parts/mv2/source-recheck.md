@@ -1,0 +1,16 @@
+# Monster Vault 2 rules recovery
+
+All 21 Black Flag Roleplaying records in the frozen Beast roster still need the final publication or an entitled digital edition. The Animals appendix spans pp. 322–329 and covers 17 records. The main bestiary covers the two Death Butterfly Swarm forms and the two Rattus Eel forms. The sources checked here leave their individual print folios unconfirmed. The Fantasy Grounds adapter uploaded a hotfix for the Animals appendix in October 2025. [Adapter and appendix page report](https://www.fantasygrounds.com/forums/archive/index.php/t-83064.html) · [Licensed module](https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2)
+
+The publisher's 25-sheet preview lists 16 Animals appendix entries and three of the four main bestiary names. Its contents omit a separate entry for the Swarm of Bees and the Rattus Eel swarm. The final publisher index lists both swarms. No roster entry has a complete stat block in the preview. [Publisher preview]() · [Final publisher index](https://koboldpress.com/tools/search-tov-kobold-press-monsters/)
+
+The 414-page publisher named `` identifies itself on p. 1 as Black Flag Reference Document 1.1. The text contains no stat blocks for any of the 21. Its two uses of “skunk” are in spell descriptions. Kobold Press's errata page has no *Monster Vault 2* section. Its Death Butterfly Swarm references apply to older publications. [BFRD 1.1]() · [Publisher errata](https://koboldpress.com/errata/)
+
+Fantasy Grounds' public library lists Giant Hedgehog at AC 12 and HP 40 and Wooly Hippopotamus at AC 13 and HP 100 under this exact product. Their full rules require source access. The same library lists two War Pigs under the module name. The publisher index identifies the roster's War Pig as Medium, CR 1/2, which matches the public row with AC 10 and HP 27. The second War Pig row is Large and CR 3. Greater Death Butterfly Swarm is CR 7 in the publisher index. Fantasy Grounds' merged results surface the older CR 6 *Book of Ebon Tides* record and backlink to *Monster Vault 2*. These partial matches leave the complete rules unverified. [Giant Hedgehog](https://www.fantasygrounds.com/library/dnd5e/npcs/hedgehog/) · [Wooly Hippopotamus](https://www.fantasygrounds.com/library/dnd5e/npcs/hippopotamus/) · [War Pig](https://www.fantasygrounds.com/library/dnd5e/npcs/pig/) · [Death Butterfly Swarms](https://www.fantasygrounds.com/library/dnd5e/npcs/butterfly/)
+
+No final or VTT module appeared in the local book and project file search. The public Fantasy Grounds product screenshots show creatures outside this roster. Shard lists its licensed edition and 321 monsters on the product page. The DriveThruRPG listing identifies product 536449. Its public sample endpoint did not return a . [Fantasy Grounds](https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2) · [Shard](https://marketplace.shardtabletop.com/m/product?id=c60rr1ap9b8sfava) · [Foundry](https://foundryvtt.com/packages/kp-tov-monster-vault-2) · [DriveThruRPG](https://www.drivethrurpg.com/en/product/536449/monster-vault-2)
+
+Verified public SHA-256 values.
+
+- Publisher preview `bb49659b4edf097e827a3f308ec8701bfd08470beb3ea3465cdc03b12e9711c5`
+- BFRD 1.1 `fbfcfb6e2b316919fc6a1f5e59408398ff48640d178e9b69290896cdc7260b9d`

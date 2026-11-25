@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "hyena-giant",
+    "name": "Hyena, Giant",
+    "entryId": "beast-ec0d556bf66e73cd403a6555",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One very large naturalistic spotted hyena. Characteristic sloping back, conspicuously high muscular shoulders and powerful forequarters, rounded ears, brown-gray coarse fur with sparse dark brown spots, a short rough crest and a low shaggy tail. Heavy neck and wide black muzzle, realistic canine-like paws anatomically coherent and all visible. Slightly open mouth suggesting curiosity and powerful jaw, low wary three-quarter standing pose. Overall taupe brown and dark gray. Use second reference for the sloping silhouette and head shape only. No scars, gore, prey, scene or circular frame.",
+    "prompt": "One original square 1254×1254 tabletop bestiary illustration. Copy the first reference's rendering approach: warm golden amber mottled parchment edge to edge, fine sepia ink, restrained soft colored pencil grain, detailed matte gouache and gentle contact shadow. One animal with a complete silhouette and comfortable breathing room on every side against otherwise plain parchment. No words, scenery, labels, border or signature. One very large naturalistic spotted hyena. Characteristic sloping back, conspicuously high muscular shoulders and powerful forequarters, rounded ears, brown-gray coarse fur with sparse dark brown spots, a short rough crest and a low shaggy tail. Heavy neck and wide black muzzle, realistic canine-like paws anatomically coherent and all visible. Slightly open mouth suggesting curiosity and powerful jaw, low wary three-quarter standing pose. Overall taupe brown and dark gray. Use second reference for the sloping silhouette and head shape only. No scars, gore, prey, scene or circular frame.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry artwork"
+  },
+  {
+    "slug": "insect-giant-centipede",
+    "name": "Insect, Giant Centipede",
+    "entryId": "beast-089351477299a22cf6d17335",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One oversized naturalistic giant centipede, a single elongate articulate russet and amber invertebrate with clearly separated flattened segments, repeated paired ochre legs down the sides, dark reddish-brown chitinous plates, two tapering red-brown antennae and two reddish prominent venom claws underneath the small flattish head. Chain of body segments winds in a broad low S-curve across the parchment and lifts only slightly at head to show antennae. Distinguishable heavy flattened body and fast-alert posture. Close enough to see veinlike texture and correct leg attachments while preserving the full tail, feet and antennae with margins. No human, no scene or rocks, no large prey, no token frame. Use the second image for centipede traits only.",
+    "prompt": "One original square 1254×1254 tabletop bestiary illustration. Copy the first reference's rendering approach: warm golden amber mottled parchment edge to edge, fine sepia ink, restrained soft colored pencil grain, detailed matte gouache and gentle contact shadow. One animal with a complete silhouette and comfortable breathing room on every side against otherwise plain parchment. No words, scenery, labels, border or signature. One oversized naturalistic giant centipede, a single elongate articulate russet and amber invertebrate with clearly separated flattened segments, repeated paired ochre legs down the sides, dark reddish-brown chitinous plates, two tapering red-brown antennae and two reddish prominent venom claws underneath the small flattish head. Chain of body segments winds in a broad low S-curve across the parchment and lifts only slightly at head to show antennae. Distinguishable heavy flattened body and fast-alert posture. Close enough to see veinlike texture and correct leg attachments while preserving the full tail, feet and antennae with margins. No human, no scene or rocks, no large prey, no token frame. Use the second image for centipede traits only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry artwork"
+  },
+  {
+    "slug": "insect-giant-scorpion",
+    "name": "Insect, Giant Scorpion",
+    "entryId": "beast-c90f64480ddea86b9d54e0d7",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One massive naturalistic charcoal purple-black scorpion, matte chitin in dusty plum and slate with muted dark brown armored ribs. Full-body dynamic three-quarter still stance with exactly two big articulate pincers projecting forward, eight slim jointed walking legs emerging from the main body, and one segmented muscular tail curving clearly upward over back, visible distinctive hooked stinger. Large clear silhouette, all claws and stinger comfortably inside canvas. Grounded closely to the empty parchment, restrained diffuse highlights reveal armored joints. Use second reference for scorpion color and build only. No environment, magic effects, crabs, eyes on long stems, symbols, or token frame.",
+    "prompt": "One original square 1254×1254 tabletop bestiary illustration. Copy the first reference's rendering approach: warm golden amber mottled parchment edge to edge, fine sepia ink, restrained soft colored pencil grain, detailed matte gouache and gentle contact shadow. One animal with a complete silhouette and comfortable breathing room on every side against otherwise plain parchment. No words, scenery, labels, border or signature. One massive naturalistic charcoal purple-black scorpion, matte chitin in dusty plum and slate with muted dark brown armored ribs. Full-body dynamic three-quarter still stance with exactly two big articulate pincers projecting forward, eight slim jointed walking legs emerging from the main body, and one segmented muscular tail curving clearly upward over back, visible distinctive hooked stinger. Large clear silhouette, all claws and stinger comfortably inside canvas. Grounded closely to the empty parchment, restrained diffuse highlights reveal armored joints. Use second reference for scorpion color and build only. No environment, magic effects, crabs, eyes on long stems, symbols, or token frame.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry artwork"
+  }
+]

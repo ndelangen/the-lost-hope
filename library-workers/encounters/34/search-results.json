@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Angulotl Tadpole",
+    "query": "frogfolk larva freshwater marshes minion noxious skin",
+    "condition": "Poisoned",
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Clawfish",
+    "query": "moray eight reptilian legs riverbanks electrocute",
+    "condition": "Grappled",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

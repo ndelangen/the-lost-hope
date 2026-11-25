@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Barbed Devil",
+    "statBlock": {
+      "name": "Barbed Devil",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 30,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 15,
+      "hp": 110,
+      "hitDice": "13d8 + 52",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 18,
+      "savingThrows": {
+        "Str": 6,
+        "Con": 7,
+        "Wis": 5,
+        "Cha": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Insight": 5,
+        "Perception": 8
+      },
+      "description": "The spines of this devil bite into creatures that grapple it or get caught in its claws.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 120 ft. Magical Darkness does not block this vision.",
+        "Languages": "Infernal and telepathy 120 ft.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire, Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Barbed Hide. At the start of its turn, the devil deals 5 (1d10) Piercing damage to each creature it is grappling or that is grappling it.\nDiabolical Restoration. If this devil dies outside the Nine Hells, its body vanishes in sulfurous smoke. It returns immediately in a new body at full HP somewhere in the Nine Hells.\nMagic Resistance. The fiend has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Claws attack and one Tail attack, or use Hurl Flame twice.\nClaws. Melee attack, +6 to hit, reach 5 ft. On a hit, deal 10 (2d6 + 3) Piercing damage. A Large or smaller creature hit is Grappled by both claws (escape DC 13).\nTail. Melee attack, +6 to hit, reach 10 ft. On a hit, deal 14 (2d10 + 3) Slashing damage.\nHurl Flame. Ranged attack, +5 to hit, range 150 ft. On a hit, deal 17 (5d6) Fire damage. A flammable target object starts Burning if nobody is wearing or carrying it.",
+        "Habitats": "Nine Hells.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 30."
+      }
+    }
+  },
+  {
+    "name": "Bearded Devil",
+    "statBlock": {
+      "name": "Bearded Devil",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 33,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 13,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "savingThrows": {
+        "Str": 5,
+        "Con": 4,
+        "Cha": 4
+      },
+      "description": "This devil's spiny beard prevents healing, and its glaive leaves a wound that has to be stanched or healed by a spell.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft. Magical Darkness does not block this vision.",
+        "Languages": "Infernal and telepathy 120 ft.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire, Poison.",
+        "Condition immunities": "Frightened, Poisoned.",
+        "Traits": "Magic Resistance. The fiend has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Beard attack and one Infernal Glaive attack.\nBeard. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 7 (1d8 + 3) Piercing damage. The target is Poisoned until the start of the devil's next turn and cannot regain HP while this poison lasts.\nInfernal Glaive. Melee attack, +5 to hit, reach 10 ft. On a hit, deal 8 (1d10 + 3) Slashing damage. A creature hit that has no infernal wound makes a DC 12 Constitution save. On a failure it suffers an infernal wound and loses 5 (1d10) HP at the start of each of its turns. The wound closes after 1 minute, when a spell restores any HP to the target, or when the target or a creature within 5 ft. of it takes an action and succeeds on a DC 12 Wisdom (Medicine) check to stanch the wound.",
+        "Habitats": "Nine Hells.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 33."
+      }
+    }
+  },
+  {
+    "name": "Chain Devil",
+    "statBlock": {
+      "name": "Chain Devil",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 68,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 15,
+      "hp": 85,
+      "hitDice": "10d8 + 40",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 11,
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 4
+      },
+      "description": "A chain devil holds opponents in its chains and conjures another to drag distant targets closer.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 120 ft. Magical Darkness does not block this vision.",
+        "Languages": "Infernal and telepathy 120 ft.",
+        "Damage resistances": "Bludgeoning, Cold, Piercing, Slashing.",
+        "Damage immunities": "Fire, Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Diabolical Restoration. If this devil dies outside the Nine Hells, its body vanishes in sulfurous smoke. It returns immediately in a new body at full HP somewhere in the Nine Hells.\nMagic Resistance. The fiend has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Chain attacks and use Conjure Infernal Chain.\nChain. Melee attack, +7 to hit, reach 10 ft. On a hit, deal 11 (2d6 + 4) Slashing damage. A Large or smaller creature hit is Grappled by one of the devil's two chains (escape DC 14) and Restrained until the grapple ends.\nConjure Infernal Chain. One visible creature within 60 ft. makes a DC 15 Dexterity save. On a failure, it takes 9 (2d4 + 4) Fire damage and is Restrained until the end of the devil's next turn, when the chain vanishes. If the target is Large or smaller, the devil moves it up to 30 ft. straight toward itself. On a success, the chain vanishes without effects.",
+        "Reactions": "Unnerving Gaze. When a creature the devil can see starts its turn within 30 ft. and can see the devil, the devil can force that creature to make a DC 15 Wisdom save. On a failure, the creature is Frightened until the end of its turn. On a success, it is immune to this devil's Unnerving Gaze for 24 hours.",
+        "Habitats": "Nine Hells.",
+        "Treasure": "Implements.",
+        "Printed source": "Monster Manual (2024), p. 68."
+      }
+    }
+  },
+  {
+    "name": "Arcanaloth",
+    "statBlock": {
+      "name": "Arcanaloth",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 19,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 18,
+      "hp": 175,
+      "hitDice": "27d8 + 54",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 6,
+        "Int": 9,
+        "Wis": 7
+      },
+      "skills": {
+        "Arcana": 9,
+        "Deception": 7,
+        "Insight": 7,
+        "Perception": 7
+      },
+      "description": "A fox-headed yugoloth mage uses a magic tome to imprison creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages and telepathy 120 ft.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Acid, Poison.",
+        "Condition immunities": "Charmed, Poisoned.",
+        "Traits": "Fiendish Restoration. If this yugoloth dies outside Gehenna, its body dissolves into ichor. It returns immediately in a new body at full HP in Gehenna.\nMagic Resistance. The fiend has Advantage on saving throws against spells and other magical effects.\nSoul Tome. Holding or carrying this book allows the arcanaloth to use Banishing Claw. The tome has AC 17 and 35 HP, and is immune to Necrotic, Poison, and Psychic damage. It recovers all HP at the end of every turn, and crumbles to dust at 0 HP or when the arcanaloth dies. If destroyed, the arcanaloth can make a replacement when it finishes a Short or Long Rest.",
+        "Actions": "Multiattack. Make three Fiendish Burst attacks. The arcanaloth can replace one attack with Banishing Claw.\nFiendish Burst. Melee or ranged attack, +9 to hit, reach 5 ft. or range 120 ft. On a hit, deal 31 (4d12 + 5) Necrotic damage.\nBanishing Claw (requires Soul Tome). Melee attack, +9 to hit, reach 5 ft. On a hit, deal 10 (2d4 + 5) Slashing plus 19 (3d12) Psychic damage. A creature hit makes a DC 17 Charisma save. On a failure, the tome traps the target in a demiplane and it is Incapacitated there. It repeats the save at the end of each of its turns. A success frees it into its former space or the nearest unoccupied space if that spot is occupied. If it fails three saves while inside the demiplane, escape requires reducing the tome to 0 HP.",
+        "Spellcasting": "As an action, cast one of the following spells without Material components. Intelligence is the spellcasting ability (save DC 17).\nAt will. Alter Self, Detect Magic, Identify, Mage Hand, Prestidigitation.\n1/day each. Contact Other Plane, Detect Thoughts, Dimension Door, Mind Blank.",
+        "Bonus actions": "Teleport. Teleport up to 30 ft. to a visible unoccupied space.",
+        "Reactions": "Counterspell. Cast Counterspell when the spell's trigger occurs, using Intelligence as in Spellcasting (save DC 17).",
+        "Habitats": "Lower Planes.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 19."
+      }
+    }
+  },
+  {
+    "name": "Mezzoloth",
+    "statBlock": {
+      "name": "Mezzoloth",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 211,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 18,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "skills": {
+        "Perception": 5
+      },
+      "description": "This four-clawed yugoloth pins foes and throws a trident that returns to its grasp.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Blindsight 60 ft. Darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, and telepathy 60 ft.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Acid, Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Fiendish Restoration. If this yugoloth dies outside Gehenna, its body dissolves into ichor. It returns immediately in a new body at full HP in Gehenna.\nMagic Resistance. The fiend has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks using Claws, Mercurial Trident, or one of each.\nClaws. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 9 (2d4 + 4) Slashing damage. A Large or smaller creature hit is Grappled by two of the mezzoloth's four claws (escape DC 14) and Restrained until the grapple ends.\nMercurial Trident. Melee or ranged attack, +7 to hit, reach 5 ft. or range 20/60 ft. On a hit, deal 8 (1d8 + 4) Piercing plus 10 (3d6) Force damage. The trident returns magically to the mezzoloth's claw immediately after a ranged attack.",
+        "Spellcasting": "As an action, cast one of the following spells without Material components. Wisdom is the spellcasting ability (save DC 13).\n1/day each. Cloudkill, Darkness, Dispel Magic.",
+        "Bonus actions": "Teleport (recharge 5–6). Teleport up to 60 ft. to a visible unoccupied space. The mezzoloth can bring one creature it is grappling and place it in an unoccupied space within 5 ft. of the destination.",
+        "Habitats": "Gehenna.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 211."
+      }
+    }
+  },
+  {
+    "name": "Nycaloth",
+    "statBlock": {
+      "name": "Nycaloth",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 229,
+      "classification": "Large fiend (yugoloth), neutral evil",
+      "ac": 18,
+      "hp": 152,
+      "hitDice": "16d10 + 64",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "description": "A winged yugoloth that turns Invisible when it teleports and carries an axe that returns after each throw.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Blindsight 60 ft.",
+        "Languages": "Abyssal, Infernal, and telepathy 60 ft.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Acid, Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Fiendish Restoration. If this yugoloth dies outside Gehenna, its body dissolves into ichor. It returns immediately in a new body at full HP in Gehenna.\nMagic Resistance. The fiend has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Mercurial Axe attacks.\nMercurial Axe. Melee or ranged attack, +9 to hit, reach 10 ft. or range 30/90 ft. On a hit, deal 18 (2d12 + 5) Slashing plus 10 (3d6) Force damage. The axe returns magically to the nycaloth's hand immediately after a ranged attack.",
+        "Bonus actions": "Shadowy Teleport. The nycaloth becomes Invisible for 1 minute and teleports up to 30 ft. to a visible unoccupied space. The Invisible condition ends immediately after it deals damage.",
+        "Habitats": "Gehenna.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 229."
+      }
+    }
+  },
+  {
+    "name": "Ultroloth",
+    "statBlock": {
+      "name": "Ultroloth",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 311,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 19,
+      "hp": 221,
+      "hitDice": "26d8 + 104",
+      "speed": "30 ft., fly 60 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 17,
+      "skills": {
+        "Deception": 9,
+        "Perception": 7,
+        "Stealth": 8
+      },
+      "description": "An ultroloth can stun a group with its gaze and use its whip to move targets around the battlefield.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+8 (18).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, Infernal, and telepathy 120 ft.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Acid, Poison.",
+        "Condition immunities": "Charmed, Frightened, Poisoned.",
+        "Traits": "Fiendish Restoration. If this yugoloth dies outside Gehenna, its body dissolves into ichor. It returns immediately in a new body at full HP in Gehenna.\nMagic Resistance. The fiend has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Use Hypnotic Gaze and make two Mercurial Whip attacks.\nMercurial Whip. Melee attack, +9 to hit, reach 15 ft. On a hit, deal 25 (6d6 + 4) Force damage. The ultroloth can teleport the target up to 10 ft. to an unoccupied space it can see. The destination cannot be in the air.\nHypnotic Gaze. Each creature in a 30-ft. Cone makes a DC 17 Wisdom save. On a failure, take 10 (3d6) Psychic damage and become Stunned until the start of the ultroloth's next turn. On a success, the creature is immune to this ultroloth's Hypnotic Gaze for 24 hours.",
+        "Spellcasting": "As an action, cast one of the following spells without Material components. Intelligence is the spellcasting ability (save DC 17).\nAt will. Alter Self, Clairvoyance, Detect Magic.\n1/day each. Dimension Door, Fireball (level 5), Wall of Fire.",
+        "Bonus actions": "Fiendish Guile (recharge 4–6). Cast Dispel Magic, Invisibility (self only), Misty Step, or Suggestion. None requires Material components. Use Intelligence as in Spellcasting (save DC 17).",
+        "Habitats": "Lower Planes.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 311."
+      }
+    }
+  }
+]

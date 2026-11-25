@@ -1,0 +1,151 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315836,6 +315836,23 @@
+       ]
+     },
+     {
++      "name": "Wemic",
++      "kind": "species",
++      "publication": "Races of Faerûn (2003)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Large Monstrous Humanoid. +8 Strength, +2 Dexterity, +2 Constitution, −2 Charisma. Land speed 40 ft. Darkvision 60 ft. and +4 natural armor.",
++        "Large size imposes −1 on attacks and AC, −4 to Hide, and grants +4 on grapple checks. Space 10 ft., reach 5 ft. The player entry specifies twice Medium lifting and carrying limits.",
++        "+8 racial bonus on Jump. A 40-ft. land speed adds another +4 under the core Jump rule. Jumping is part of movement. A running jump needs 20 ft. of run-up, or the DC doubles.",
++        "Two front claws are natural weapons that deal 1d6 piercing and slashing damage each before Strength. With a one-handed weapon, the player entry allows one secondary claw at −5 on the attack roll and half the Strength bonus to damage.",
++        "Proficient with all simple weapons and shields.",
++        "Five racial Hit Dice (5d8) grant BAB +5, base Fortitude +1, Reflex +4, Will +4, and two feats. Racial skill points are eight times (2 + Intelligence modifier), minimum 1 point per Hit Die before the first-Hit-Die multiplier. Racial class skills are Hide, Jump, Listen, Move Silently, Spot, and Survival.",
++        "A wemic can select Spirited Charge or Trample without meeting the normal prerequisites and apply the feat to its own melee attacks, as the player entry describes.",
++        "Common and Sylvan are automatic. Bonus languages are by region. Favored class Barbarian. LA +3 gives ECL 8 before class levels.",
++        "This profile uses the 2003 player rules and the 2004 conversion’s space and reach. The earlier monster entry has a different weapon-and-claw routine."
++      ]
++    },
++    {
+       "edition": "Black Flag Roleplaying",
+       "publication": "Black Flag Roleplaying Reference Document v0.2",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -5705,6 +5705,80 @@
+       "tactics": "Mira has mage armor active when she checks the gallery. She uses sound burst to stall pursuers at the entrance and then takes the covered route to the next chamber."
+     },
+     {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Large",
++      "type": "Monstrous Humanoid",
++      "senses": "Darkvision 60 ft.",
++      "id": "wemic-sunmane-gully-guide-35e",
++      "title": "Wemic gully guide, racial Hit Dice only",
++      "difficulty": "Provisional CR 3. ECL 8 (5 racial HD, LA +3).",
++      "ac": 15,
++      "hp": 41,
++      "hitDice": "5d8+15",
++      "initiative": 2,
++      "speed": "40 ft.",
++      "languages": "Common, Sylvan",
++      "abilityScores": {
++        "STR": 22,
++        "DEX": 14,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Jump +26", "Listen +7", "Spot +3", "Survival +5"],
++      "traits": [
++        "Neutral. Unarmored, Dexterity +2, size −1, and natural armor +4. Touch 11, flat-footed 13. BAB +5, grapple +15. Fortitude +6, Reflex +6, Will +5.",
++        "Large size imposes −1 on attacks and AC, −4 to Hide, and grants +4 on grapple checks. Space 10 ft., reach 5 ft. The player entry specifies twice Medium lifting and carrying limits.",
++        "+8 racial bonus on Jump. A 40-ft. land speed adds another +4 under the core Jump rule. Jumping is part of movement. A running jump needs 20 ft. of run-up, or the DC doubles.",
++        "Two front claws are natural weapons that deal 1d6 piercing and slashing damage each before Strength. With a one-handed weapon, the player entry allows one secondary claw at −5 on the attack roll and half the Strength bonus to damage.",
++        "Alertness adds +2 to Listen and Spot. Great Fortitude adds +2 to Fortitude saves."
++      ],
++      "actions": [
++        "One claw +10 melee for 1d6+6. On a full attack, two claws at +10 for 1d6+6 each. Critical ×2 on both.",
++        "With 20 ft. of run-up, use Jump +26 against DC 20 to cross a 20-ft. gap. The run-up and jump together use 40 ft. of movement."
++      ],
++      "tactics": "Tavaro crosses the gully first to reach the rope anchor. He checks the approach and keeps enough open ground for a running jump."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Large",
++      "type": "Monstrous Humanoid",
++      "senses": "Darkvision 60 ft.",
++      "id": "wemic-reedstep-ford-guard-35e",
++      "title": "Wemic ford guard, Barbarian 1",
++      "difficulty": "Provisional CR 4. ECL 9 (5 racial HD, 1 class HD, LA +3).",
++      "ac": 19,
++      "hp": 51,
++      "hitDice": "5d8+1d12+18",
++      "initiative": 6,
++      "speed": "50 ft. with fast movement; base 40 ft.",
++      "languages": "Common, Shaaran, Sylvan",
++      "abilityScores": {
++        "STR": 24,
++        "DEX": 14,
++        "CON": 16,
++        "INT": 12,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Jump +30", "Listen +10", "Spot +7", "Survival +10"],
++      "traits": [
++        "Neutral. Leather armor +2, heavy wooden shield +2, Dexterity +2, size −1, and natural armor +4. Touch 11, flat-footed 17. Armor check penalty −2. BAB +6, grapple +17. Fortitude +6, Reflex +6, Will +5.",
++        "Large size imposes −1 on attacks and AC, −4 to Hide, and grants +4 on grapple checks. Space 10 ft., reach 5 ft. The player entry specifies twice Medium lifting and carrying limits.",
++        "+8 racial bonus on Jump. A 40-ft. land speed adds another +4 under the core Jump rule. Jumping is part of movement. A running jump needs 20 ft. of run-up, or the DC doubles.",
++        "Two front claws are natural weapons that deal 1d6 piercing and slashing damage each before Strength. With a one-handed weapon, the player entry allows one secondary claw at −5 on the attack roll and half the Strength bonus to damage.",
++        "Fast Movement raises land speed to 50 ft. and the speed bonus to Jump to +8. Alertness adds +2 to Listen and Spot. Improved Initiative adds +4. Power Attack and illiteracy."
++      ],
++      "actions": [
++        "Large battleaxe +12 melee one-handed for 2d6+7 slashing, critical ×3. Full attack with the axe at +12/+7 plus one secondary claw at +7 for 1d6+3.",
++        "Rage 1/day for up to 8 rounds. AC 17, HP 63 at full health, grapple +19, Fortitude +8, Reflex +6, Will +7. Full attack with the battleaxe at +14/+9 for 2d6+9 and one claw at +9 for 1d6+4. When rage ends, lose the 12 HP from increased Constitution and become fatigued for the rest of the encounter."
++      ],
++      "tactics": "Nasha guards the broad approach while the crew crosses. She uses the battleaxe alone while moving and adds the secondary claw when she can make a full attack."
++    },
++    {
+       "id": "maenad-repair-shipwright-35e",
+       "title": "Maenad drydock shipwright, Expert 1",
+       "origin": "Original DM Library NPC",
+@@ -7209,6 +7283,28 @@
+       "hook": "Mara and Sera can coordinate through the stone while the party watches the crossing."
+     },
+     {
++      "species": "Wemic",
++      "size": "Large",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Tavaro Sunmane",
++      "build": "wemic-sunmane-gully-guide-35e",
++      "role": "Gully guide and scout.",
++      "motive": "Secure a rope across the gap before the water rises.",
++      "hook": "Tavaro points out a flat approach to the far-side anchor."
++    },
++    {
++      "species": "Wemic",
++      "size": "Large",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Nasha Reedstep",
++      "build": "wemic-reedstep-ford-guard-35e",
++      "role": "Ford guard and Barbarian.",
++      "motive": "Keep the approach clear until the crew reaches the other bank.",
++      "hook": "Nasha waits on the wider bank where there is room to turn."
++    },
++    {
+       "species": "Ravenite Dragonborn",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -10254,6 +10254,7 @@
+ Weeping Willow	monster	Plant	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4486043-weeping-willow	4
+ Wei Feng Ying	monster	Humanoid	Journeys through the Radiant Citadel	2014 fifth edition	Wizards of the Coast		12
+ Weirwood Sower	monster	Aberration	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	1.0
++Wemic	species	Monstrous Humanoid	Races of Faerûn (2003)	3.5 edition	Wizards of the Coast	https://books.google.com/books?id=yjoCAAAACAAJ	
+ Werebadger	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
+ Werebat	monster	Humanoid	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/183864-werebat	2
+ Werebat	monster		Monstrous Compendium, Appendices I & II (1996)	AD&D 2nd edition	TSR		

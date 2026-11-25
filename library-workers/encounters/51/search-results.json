@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Human Brawler",
+    "query": "scarred forearms taverns fighting pits meat shield",
+    "condition": "Grappled",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Human Storm Wizard",
+    "query": "indigo coastal towers arcane colleges storm wizard",
+    "condition": "Lightning Bolt",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

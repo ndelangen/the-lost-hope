@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Mephling",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "mephit": {
+      "id": "monster-b490670c5b1ba68045320564",
+      "name": "Fire Mephit",
+      "kind": "monster",
+      "group": "Outsider",
+      "groups": [
+        "Outsider"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        }
+      ],
+      "versions": [
+        {
+          "key": "9873b296b33fb425866b418b",
+          "publication": "Revised v3.5 SRD (Monsters)",
+          "edition": "3.5 edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "16"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "3d8"
+            ],
+            [
+              "Challenge",
+              "3"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Outsider"
+            ],
+            [
+              "Speed",
+              "0 3 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 f ft., 9 l ft., 10 y ft., 11   ft., 12 5 ft., 13 0 ft., 14   ft., 15 f ft., 16 t ft., 17 . ft."
+            ],
+            [
+              "Initiative",
+              "5"
+            ],
+            [
+              "Touch armor class",
+              "12"
+            ],
+            [
+              "Flat-footed armor class",
+              "15"
+            ],
+            [
+              "Base attack bonus",
+              "3"
+            ],
+            [
+              "Grapple modifier",
+              "-1"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Fort +3",
+                "Ref +4",
+                "Will +3"
+              ]
+            }
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "668a5b46851a1f114dd2faf2",
+      "publication": "Planar Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Extraplanar)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Small Humanoid with −2 Intelligence, +2 Charisma, and a 30-ft. land speed. A Mephling gains the Extraplanar subtype away from its own ancestral Elemental Plane. It has no elemental subtype.",
+            "Small size gives +1 AC and attack rolls, +4 Hide, and three-quarters of the normal lifting and carrying limits for its Strength. It uses Small weapons.",
+            "Breath Weapon. A 15-ft. cone deals 1d8 damage to each target, Reflex half (DC 10 + half the Mephling’s Hit Dice + its Constitution modifier). One use per day, plus one per four levels attained. With multiple daily uses, wait 1d4 rounds between uses. The core breath weapon rules supply a standard action and no attack roll.",
+            "A Mephling casts spells with its ancestry’s matching elemental descriptor at +1 caster level. Common and its matching elemental language are automatic. Bonus languages are Aquan, Auran, Ignan, and Terran.",
+            "Air. +2 Dexterity, fly 10 ft. (perfect), dust-and-grit breath deals piercing damage. Automatic Auran. Favored class Bard.",
+            "Earth. +2 Strength and −2 Dexterity, burrow 10 ft., rock-shard breath deals bludgeoning damage. Automatic Terran. Favored class Druid.",
+            "Fire. +2 Dexterity, no additional movement mode, flame breath deals fire damage. Automatic Ignan. Favored class Sorcerer.",
+            "Water. +2 Constitution, swim 30 ft., caustic breath deals acid damage. Automatic Aquan. Favored class Monk. The traits give no water breathing.",
+            "LA +1, no racial Hit Dice. The sidebar mentions reduced fast healing but supplies no rate or conditions, and the playable traits give no fast healing ability."
+          ]
+        },
+        {
+          "title": "Original NPC · Pip Reedwhistle",
+          "lines": [
+            "Air mephling bell loft guide and Bard.",
+            "Motive. Get the party past a collapsed stair.",
+            "Hook. Pip can fly through the hatch and mark the safe route.",
+            "Air mephling bell loft guide, Bard 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Small Humanoid (Extraplanar)",
+            "AC 17 · HP 7 (1d6+1) · Speed 30 ft., fly 10 ft. (perfect)"
+          ]
+        },
+        {
+          "title": "Original NPC · Flint Cutwall",
+          "lines": [
+            "Earth mephling cutwall digger and Druid.",
+            "Motive. Find a way to the trapped cellar keeper.",
+            "Hook. Flint has found a stretch of loose earth beside the fallen wall.",
+            "Earth mephling cutwall digger, Druid 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Small Humanoid (Extraplanar)",
+            "AC 15 · HP 10 (1d8+2) · Speed 30 ft., burrow 10 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Cinder Kilnwatch",
+          "lines": [
+            "Fire mephling kiln watch and Sorcerer.",
+            "Motive. Keep the kiln hands from being cut off.",
+            "Hook. Cinder knows which passage bypasses the damaged flue.",
+            "Fire mephling kiln watch, Sorcerer 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Small Humanoid (Extraplanar)",
+            "AC 14 · HP 5 (1d4+1) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Ripple Lockreach",
+          "lines": [
+            "Water mephling sluice rescuer and Monk.",
+            "Motive. Get a rope across the flooded sluice.",
+            "Hook. Ripple can reach the far ladder and signal when the line is ready.",
+            "Water mephling sluice rescuer, Monk 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Small Humanoid (Extraplanar)",
+            "AC 15 · HP 11 (1d8+3) · Speed 30 ft., swim 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Pip Reedwhistle": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Pip Reedwhistle",
+              "group": "Mephling",
+              "publication": "Air mephling bell loft guide, Bard 1",
+              "local": {
+                "entry": "npc-62e658b5bf7c626dff5f769f",
+                "version": "923aa7c4c915d4de147ba55c"
+              }
+            }
+          }
+        ],
+        "Original NPC · Flint Cutwall": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Flint Cutwall",
+              "group": "Mephling",
+              "publication": "Earth mephling cutwall digger, Druid 1",
+              "local": {
+                "entry": "npc-4bb2ddc372dd006ec41a98a3",
+                "version": "326fed40b9d43e4d7fffa3d1"
+              }
+            }
+          }
+        ],
+        "Original NPC · Cinder Kilnwatch": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Cinder Kilnwatch",
+              "group": "Mephling",
+              "publication": "Fire mephling kiln watch, Sorcerer 1",
+              "local": {
+                "entry": "npc-743be588be0d44c75dafe8df",
+                "version": "899bd47803f14ead263ff1db"
+              }
+            }
+          }
+        ],
+        "Original NPC · Ripple Lockreach": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Ripple Lockreach",
+              "group": "Mephling",
+              "publication": "Water mephling sluice rescuer, Monk 1",
+              "local": {
+                "entry": "npc-b55368b7f087f0ea02fa1861",
+                "version": "8a860e9291014d476a729b52"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Mephling": true,
+      "mephling perfect": true,
+      "mephling rock-shard breath": true,
+      "mephling kiln watch": true,
+      "mephling sluice rescuer": true,
+      "mephling elemental descriptor": true
+    },
+    "hash": "7e94ef2de1b4d3ff232774e5b15fce7eebfc7a0dc01418a779eca242704084b9",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Planar Handbook (2004)",
+    "defaultVersionKey": "668a5b46851a1f114dd2faf2",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

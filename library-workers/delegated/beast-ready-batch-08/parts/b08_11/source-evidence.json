@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Giant Bumblebee",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "author": "Gary Gygax",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "printing": "EX2 original 1983 release",
+    "sourceFile": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "sourceHeading": "B. Garden of Colossal Flowers and New Monsters, Bee, Giant, Bumble-bee column",
+    "sourceLocator": "Printed pp. 9, 27",
+    "printedPages": [
+      9,
+      27
+    ],
+    "pdfPages": [
+      9,
+      27
+    ],
+    "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+    "publisherPreview": "",
+    "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+    "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+    "artworkSource": "indexed:images/beasts/giant-bumblebee/parchment-portrait.webp",
+    "artworkSha256": "65a717519a628b5b71df378ee582abeb66d41140c9bc91354ef555e18772f8f3",
+    "sourceNotes": [
+      "Printed p. 27 has “String” in the bumblebee special attack row. The surrounding bee prose and the garden poison block establish that the attack is a sting. No garden sting-use limit is printed and the general column does not say “Sting once” as workers and soldiers do.",
+      "The printed garden block has movement 3″/24″ and HP 36; the general bee table has 6″/24″ and no fixed HP.",
+      "The generic bumblebee level/XP field is incomplete. Do not infer a coefficient from the honey bees."
+    ]
+  },
+  {
+    "name": "Giant Dragonfly",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "author": "Gary Gygax",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "printing": "EX2 original 1983 release",
+    "sourceFile": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "sourceHeading": "Forest-road Giant Dragonfly encounter and New Monsters, Dragonfly, Giant",
+    "sourceLocator": "Printed pp. 22, 27",
+    "printedPages": [
+      22,
+      27
+    ],
+    "pdfPages": [
+      22,
+      27
+    ],
+    "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+    "publisherPreview": "",
+    "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+    "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+    "artworkSource": "Original OpenAI ImageGen portrait in this part",
+    "artworkSha256": "bf7e624f93e2e8b70203ca79976e58e0f12b276dea68deea8795e68095997426",
+    "sourceNotes": [
+      "The appendix line reads “x2 on initiative.” The explanatory paragraph and encounter block each specify +2 on initiative. Use the explained +2 modifier with the stated one attack.",
+      "The general appendix places “save as 16th level magic-user” in its magic-resistance column. The actual 25% resistance appears in the road encounter and is scoped there.",
+      "The appendix gives no numeric morale. Use the printed casualty and damage thresholds for the road encounter."
+    ]
+  },
+  {
+    "name": "Giant Honey Bee (Soldier)",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "author": "Gary Gygax",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "printing": "EX2 original 1983 release",
+    "sourceFile": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "sourceHeading": "New Monsters, Bee, Giant, Honey soldier column",
+    "sourceLocator": "Printed p. 27",
+    "printedPages": [
+      27
+    ],
+    "pdfPages": [
+      27
+    ],
+    "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+    "publisherPreview": "",
+    "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+    "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+    "artworkSource": "indexed:images/beasts/giant-honey-bee-soldier/parchment-portrait.webp",
+    "artworkSha256": "a7ee4c181b196dedb320a82cf2c3db15eb977f02025e8a4a581e2d96ec3a26f1",
+    "sourceNotes": [
+      "The table does not name the 2–8 damage attack. The second damage entry is assigned to the sting based on the layout and the attack-count note. No later bee rules are imported."
+    ]
+  },
+  {
+    "name": "Giant Honey Bee (Worker)",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "author": "Gary Gygax",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "printing": "EX2 original 1983 release",
+    "sourceFile": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "sourceHeading": "New Monsters, Bee, Giant, Honey worker column",
+    "sourceLocator": "Printed p. 27",
+    "printedPages": [
+      27
+    ],
+    "pdfPages": [
+      27
+    ],
+    "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+    "publisherPreview": "",
+    "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+    "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+    "artworkSource": "indexed:images/beasts/giant-honey-bee-worker/parchment-portrait.webp",
+    "artworkSha256": "bd0d63cdfd57ecc5e151194d8c7743e90720b7ab85abac51723373c6720fe865",
+    "sourceNotes": [
+      "The table’s attack-count parenthesis says “string”; the following “Sting once” and poison text identify the attack as a sting."
+    ]
+  },
+  {
+    "name": "Oliphant",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "author": "Gary Gygax",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "printing": "EX2 original 1983 release",
+    "sourceFile": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "sourceHeading": "Chessboard Rook and New Monsters, Oliphant",
+    "sourceLocator": "Printed pp. 11, 30",
+    "printedPages": [
+      11,
+      30
+    ],
+    "pdfPages": [
+      11,
+      30
+    ],
+    "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+    "publisherPreview": "",
+    "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+    "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+    "artworkSource": "indexed:images/beasts/oliphant/parchment-portrait.webp",
+    "artworkSha256": "daa6992b4877a413ef9aadb19d07705e94469dd3893f74a25a475559da527b08",
+    "sourceNotes": [
+      "The generic oliphant and Chessboard Rook share the profile. The armor, fixed HP and 25% magic resistance are encounter-specific.",
+      "Generic oliphant level and XP are blank on p. 30. No numeric morale is printed."
+    ]
+  }
+]

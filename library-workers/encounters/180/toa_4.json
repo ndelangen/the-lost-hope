@@ -1,0 +1,387 @@
+[
+  {
+    "name": "King of Feathers",
+    "statBlock": {
+      "name": "King of Feathers",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 106,
+      "classification": "Huge monstrosity, unaligned",
+      "ac": 13,
+      "hp": 200,
+      "description": "This feathered tyrannosaur hunts the ruins of Omu. Huge tracks and long scarlet, orange, and green feathers mark its amphitheater lair.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "hitDice": "",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4
+      },
+      "hpRule": "The adventure fixes the King of Feathers at 200 hit points and gives no replacement Hit Dice expression.",
+      "relatedCreatures": [
+        {
+          "kind": "beast",
+          "name": "Tyrannosaurus Rex",
+          "terms": [
+            "Tyrannosaurus Rex"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#tyrannosaurus%20rex_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Swarm of Wasps",
+          "terms": [
+            "Swarm of Wasps"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#swarm%20of%20wasps_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Deinonychus",
+          "terms": [
+            "Deinonychus",
+            "Deinonychuses"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#deinonychus_vgm"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Detect Invisibility. The king sees invisible creatures and objects as though they were visible.\nLegendary Resistance (3/Day). When the king fails a saving throw, it can choose to succeed instead.",
+        "Innate spellcasting": "The king can cast Misty Step at will as a bonus action. It uses Wisdom and needs no components.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 33 (4d12 + 7) piercing damage. A Medium or smaller creature hit is grappled (escape DC 17) and restrained until the grapple ends. The king cannot bite another target while it holds that creature.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 20 (3d8 + 7) bludgeoning damage.\nSummon Swarm (Recharge 5–6). If its jaws are free of grappled creatures, the king exhales a Swarm of Wasps into a space within 20 feet. The swarm is an ally, takes its turn immediately after the king, and disperses after 1 minute.",
+        "Amphitheater": "When the party arrives, the king is home on a 50% roll by day or 25% at night. If it is out hunting, the chance it returns increases by 20 percentage points per hour. Five Deinonychuses prowl the ruin and attack on sight while the king is away. The king can also appear elsewhere in Omu, including during a rest or an ongoing fight.",
+        "Printed source": "Tomb of Annihilation, chapter 3, p. 106 (area 13). Use the Tyrannosaurus Rex baseline in Monster Manual (2014), p. 80, with the printed changes above."
+      }
+    }
+  },
+  {
+    "name": "Liara Portyr",
+    "statBlock": {
+      "name": "Liara Portyr",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 227,
+      "classification": "Medium humanoid (human), lawful evil",
+      "ac": 15,
+      "hp": 84,
+      "description": "Liara commands the Flaming Fist garrison at Fort Beluarian. She helps adventurers who serve the fort's interests and takes a share of the Jahaka pirates' profits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "hitDice": "13d8 + 26",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 4
+      },
+      "skills": {
+        "Athletics": 5,
+        "Deception": 5,
+        "Insight": 4,
+        "Intimidation": 5
+      },
+      "sections": {
+        "Armor": "Studded leather armor and shield.",
+        "Languages": "Common, Draconic, Dwarvish.",
+        "Traits": "Brave. Liara has advantage on saving throws against being frightened.\nFlaming Fury. Once per turn, when Liara hits with a melee weapon, she can add 10 (3d6) fire damage to the hit.",
+        "Actions": "Multiattack. Make three melee attacks.\nBattleaxe. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) if wielded in two hands.\nHeavy Crossbow. Ranged weapon attack, +3 to hit, range 100/400 ft., one target. A hit deals 6 (1d10 + 1) piercing damage.",
+        "Fort Beluarian": "An exploration charter costs 50 gp, credited toward the Flaming Fist's claim on half the expedition's proceeds and discoveries. Charter holders can hire up to six guards at 1 gp per guard per tenday. Liara uses a Sending Stone to pass ship manifests and sailing schedules to Zaroum Al-Saryak. In exchange, the Jahaka pirates leave Baldur's Gate ships alone.",
+        "Roleplaying": "She values obedience, has sworn to hold the fort for Grand Duke Ulder Ravengard, and has little pity for those unable to defend themselves.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 227, and chapter 2, pp. 54–56 (Fort Beluarian)."
+      }
+    }
+  },
+  {
+    "name": "Mantrap",
+    "statBlock": {
+      "name": "Mantrap",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 227,
+      "classification": "Large plant, unaligned",
+      "ac": 12,
+      "hp": 45,
+      "description": "A giant carnivorous flytrap releases pollen that draws prey within reach of its leafy jaws.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "hitDice": "7d10 + 7",
+      "speed": "5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "sections": {
+        "Senses": "Tremorsense 30 ft.",
+        "Condition immunities": "Blinded, deafened, exhaustion, prone.",
+        "Traits": "False Appearance. While still, the mantrap looks like an ordinary tropical plant.",
+        "Reactions": "Attractive Pollen (1/Day). When it detects a nearby creature, the mantrap can release pollen in a 30-ft. radius. Each beast or humanoid in the area must make a DC 11 Wisdom save. On a failure, the creature uses all its movement on each of its turns to get as close as it can to the mantrap. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Actions": "Engulf. Melee weapon attack, +4 to hit, reach 5 ft., one Medium or smaller creature. On a hit the target is caught in the jaws, blinded and restrained. It has total cover against attacks and other effects from outside the mantrap and takes 14 (4d6) acid damage at the start of each of its turns. The mantrap can engulf one creature at a time. Its death ends the restraint.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 227."
+      }
+    }
+  },
+  {
+    "name": "Mwaxanaré",
+    "statBlock": {
+      "name": "Mwaxanaré",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 228,
+      "classification": "Medium humanoid (human), lawful neutral",
+      "ac": 10,
+      "hp": 13,
+      "description": "The eldest living heir to Omu's royal families is a seventeen-year-old warlock under aarakocra protection in Kir Sabal. She wants to reclaim Omu and restore its royal line.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "hitDice": "3d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 11,
+      "skills": {
+        "Deception": 5,
+        "Nature": 3,
+        "Persuasion": 5,
+        "Religion": 3
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Na",
+          "terms": [
+            "Na"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#na_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Asharra",
+          "terms": [
+            "Asharra"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#asharra_toa"
+          }
+        }
+      ],
+      "sections": {
+        "Languages": "Auran, Common, telepathy 30 ft.",
+        "Spellcasting": "A 2nd-level warlock who uses Charisma (spell save DC 13, +5 to hit with spell attacks). She regains expended slots on a short or long rest.\nAt will. Eldritch Blast and Mage Hand.\n1st level (2 slots). Charm Person, Protection from Evil and Good, and Unseen Servant.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +2 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 2 (1d4) piercing damage.",
+        "Kir Sabal": "Mwaxanaré made a pact with the Wind Dukes of Aaqa against Asharra's wishes. She believes retrieving the Skull Chalice of Ch'gakare will rally support to rebuild Omu. If the party is headed there, she asks them to recover it and can offer 250 gp worth of pieces from her treasury if pressed for a reward.",
+        "Roleplaying": "She insists on the respect due her station and sees her pact as a way to protect Na and the aarakocra who sheltered them.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 228, and chapter 2, pp. 69–70 (Kir Sabal)."
+      }
+    }
+  },
+  {
+    "name": "Na",
+    "statBlock": {
+      "name": "Na",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 228,
+      "classification": "Human prince, noncombatant",
+      "ac": 10,
+      "hp": 3,
+      "description": "Mwaxanaré's six-year-old brother lives among the aarakocra of Kir Sabal. He made himself a birdfolk costume and sends homemade gliders out his window above the jungle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "encounterProcedure": true,
+      "hpRule": "The adventure provides a fixed 3 hit points and gives no Hit Dice.",
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Mwaxanaré",
+          "terms": [
+            "Mwaxanaré"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#mwaxanar%c3%a9_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Asharra",
+          "terms": [
+            "Asharra"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#asharra_toa"
+          }
+        }
+      ],
+      "sections": {
+        "Languages": "Auran and Common. Na prefers Auran.",
+        "Actions": "Na is a noncombatant and has no listed attacks or combat actions. Use AC 10 and 3 HP if he is caught in an encounter.",
+        "Roleplaying": "He wants to fly like the aarakocra, loves his sister, and is curious about the plants and insects in the monastery gardens.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 228, and chapter 2, pp. 69–70 (Kir Sabal)."
+      }
+    }
+  },
+  {
+    "name": "Pterafolk",
+    "statBlock": {
+      "name": "Pterafolk",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 229,
+      "classification": "Large monstrosity, neutral evil",
+      "ac": 12,
+      "hp": 26,
+      "description": "These winged reptilian hunters dive on travelers in Chult and carry prey and plunder to high roosts. Firefinger is one of their strongholds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "hitDice": "4d10 + 4",
+      "speed": "30 ft., fly 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 12,
+      "skills": {
+        "Perception": 2,
+        "Survival": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common.",
+        "Traits": "Terror Dive. After flying at least 30 feet straight toward a target in a dive, a hit with a melee weapon attack leaves that target frightened until the end of its next turn.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks, or make two melee Javelin attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nJavelin. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 9 (2d6 + 2) piercing damage.",
+        "Firefinger": "Four elders in the level 3 nest have 13 hit points each. Six pterafolk occupy the pinnacle, including Nrak with 40 hit points. The flock can shove foes near the edge or circle the tower to set up a Terror Dive.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 229, and chapter 2, pp. 53–54 (Firefinger)."
+      }
+    }
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "name": "Bristled Moorbounder",
+    "kind": "beast",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "collaborator": "Critical Role",
+    "projectLeads": [
+      "James J. Haeck",
+      "Matthew Mercer",
+      "Christopher Perkins"
+    ],
+    "copyrightYear": 2022,
+    "printing": "First printing, March 2022",
+    "isbn": "978-0-7869-6786-5",
+    "productCode": "620D0867000001 EN",
+    "creditsPdfPage": 3,
+    "section": "Appendix A, Creatures, Moorbounders",
+    "printedPages": [
+      43,
+      203
+    ],
+    "statBlockPage": 203,
+    "pdfPage": 204,
+    "viewerPages": [
+      44,
+      204
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/cotn/creatures#Moorbounders",
+    "url": "https://www.dndbeyond.com/sources/cotn/creatures#Moorbounders",
+    "officialCreatureUrl": "https://www.dndbeyond.com/monsters/744304-bristled-moorbounder",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cotn",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/critical-role-presents-call-of-the-netherdeep-dandd-adventure-book",
+    "sourcePageKind": "The public Call of the Netherdeep index links to this appendix section. The section redirects to the adventure purchase page. The D&D Beyond creature endpoint redirects to the earlier Explorer’s Guide to Wildemount, whose page and action wording differ.",
+    "sourceWitness": "English first-printing facsimile. Rules checked on the rendered folios.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "4e279b84db03be5b9c1b7e31bebb7e0f3dbb4febcd211cf13f17a6ce47a709ac",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog",
+    "errataEvidence": "No title entry in the official Sage Advice & Errata index and no published correction covering this entry found in the D&D Beyond changelog.",
+    "habitatEvidence": "Editorial search terms from the encounter or creature account on p. 203.",
+    "appearanceEvidence": "Editorial description of the new parchment illustration and details from the printed encounter or creature account.",
+    "artworkSource": "portraits/bristled-moorbounder.png",
+    "artworkSha256": "30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New square portrait on flat tan parchment. Big Linda supplied the style reference.",
+    "sourceNotes": [
+      "The adventure prints a standalone Beast block on p. 203. The attack is Claw in this printing."
+    ]
+  },
+  {
+    "name": "Moonshark",
+    "kind": "beast",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "collaborator": "Critical Role",
+    "projectLeads": [
+      "James J. Haeck",
+      "Matthew Mercer",
+      "Christopher Perkins"
+    ],
+    "copyrightYear": 2022,
+    "printing": "First printing, March 2022",
+    "isbn": "978-0-7869-6786-5",
+    "productCode": "620D0867000001 EN",
+    "creditsPdfPage": 3,
+    "section": "Chapter 1, A Fateful Competition, E10 Moonshark Lair",
+    "printedPages": [
+      33,
+      34
+    ],
+    "variantPage": 33,
+    "pdfPage": 34,
+    "viewerPages": [
+      34,
+      35
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/cotn/a-fateful-competition#TheEmeraldGrotto",
+    "url": "https://www.dndbeyond.com/sources/cotn/a-fateful-competition#TheEmeraldGrotto",
+    "officialCreatureUrl": "https://www.dndbeyond.com/monsters/2407555-moonshark",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cotn",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/critical-role-presents-call-of-the-netherdeep-dandd-adventure-book",
+    "sourcePageKind": "The public Call of the Netherdeep index links to Chapter 1. The adventure section and the official named creature endpoint redirect to the purchase page when checked without access.",
+    "sourceWitness": "English first-printing facsimile. Rules checked on the rendered folios.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "4e279b84db03be5b9c1b7e31bebb7e0f3dbb4febcd211cf13f17a6ce47a709ac",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog",
+    "errataEvidence": "No title entry in the official Sage Advice & Errata index and no published correction covering this entry found in the D&D Beyond changelog.",
+    "habitatEvidence": "Editorial search terms from the encounter or creature account on p. 33.",
+    "appearanceEvidence": "Editorial description of the new parchment illustration and details from the printed encounter or creature account.",
+    "artworkSource": "portraits/moonshark.png",
+    "artworkSha256": "4e3205d21ccd266ee5b03f3cac67e70bf9e47534be0a1278c6d29db29b43bd3f",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New square portrait on flat tan parchment. Big Linda supplied the style reference.",
+    "sourceNotes": [
+      "The adventure inherits the Giant Shark block and gives effects tied to a removable spear. The Huge Beast classification comes from the 2014 parent block."
+    ],
+    "relatedRules": [
+      {
+        "name": "Giant Shark",
+        "printedPage": 328,
+        "pdfPage": 329,
+        "url": "https://www.dndbeyond.com/monsters/16894-giant-shark",
+        "publication": "Monster Manual (2014)",
+        "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "purpose": "Base creature statistics and rules inherited by this adventure entry.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataEvidence": "No entry for this base creature in the official 2014 Monster Manual errata."
+      }
+    ]
+  },
+  {
+    "name": "Moorbounder",
+    "kind": "beast",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "collaborator": "Critical Role",
+    "projectLeads": [
+      "James J. Haeck",
+      "Matthew Mercer",
+      "Christopher Perkins"
+    ],
+    "copyrightYear": 2022,
+    "printing": "First printing, March 2022",
+    "isbn": "978-0-7869-6786-5",
+    "productCode": "620D0867000001 EN",
+    "creditsPdfPage": 3,
+    "section": "Appendix A, Creatures, Moorbounders",
+    "printedPages": [
+      43,
+      203
+    ],
+    "statBlockPage": 203,
+    "pdfPage": 204,
+    "viewerPages": [
+      44,
+      204
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/cotn/creatures#Moorbounders",
+    "url": "https://www.dndbeyond.com/sources/cotn/creatures#Moorbounders",
+    "officialCreatureUrl": "https://www.dndbeyond.com/monsters/744323-moorbounder",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cotn",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/critical-role-presents-call-of-the-netherdeep-dandd-adventure-book",
+    "sourcePageKind": "The public Call of the Netherdeep index links to this appendix section. The section redirects to the adventure purchase page. The D&D Beyond creature endpoint redirects to the earlier Explorer’s Guide to Wildemount, whose page and action wording differ.",
+    "sourceWitness": "English first-printing facsimile. Rules checked on the rendered folios.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "4e279b84db03be5b9c1b7e31bebb7e0f3dbb4febcd211cf13f17a6ce47a709ac",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog",
+    "errataEvidence": "No title entry in the official Sage Advice & Errata index and no published correction covering this entry found in the D&D Beyond changelog.",
+    "habitatEvidence": "Editorial search terms from the encounter or creature account on p. 203.",
+    "appearanceEvidence": "Editorial description of the new parchment illustration and details from the printed encounter or creature account.",
+    "artworkSource": "portraits/moorbounder.png",
+    "artworkSha256": "6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New square portrait on flat tan parchment. Big Linda supplied the style reference.",
+    "sourceNotes": [
+      "The adventure prints a standalone Beast block on p. 203. The attack is Claw in this printing."
+    ]
+  },
+  {
+    "name": "Young Horizonback Tortoise",
+    "kind": "beast",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "collaborator": "Critical Role",
+    "projectLeads": [
+      "James J. Haeck",
+      "Matthew Mercer",
+      "Christopher Perkins"
+    ],
+    "copyrightYear": 2022,
+    "printing": "First printing, March 2022",
+    "isbn": "978-0-7869-6786-5",
+    "productCode": "620D0867000001 EN",
+    "creditsPdfPage": 3,
+    "section": "Chapter 1, A Fateful Competition, J6 Herding the Horizonbacks",
+    "printedPages": [
+      26
+    ],
+    "variantPage": 26,
+    "pdfPage": 27,
+    "viewerPages": [
+      27
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/cotn/a-fateful-competition#AdventureStart",
+    "url": "https://www.dndbeyond.com/sources/cotn/a-fateful-competition#AdventureStart",
+    "officialCreatureUrl": "https://www.dndbeyond.com/monsters/2407573-young-horizonback-tortoise",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cotn",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/critical-role-presents-call-of-the-netherdeep-dandd-adventure-book",
+    "sourcePageKind": "The public Call of the Netherdeep index links to Chapter 1. The adventure section and the official named creature endpoint redirect to the purchase page when checked without access.",
+    "sourceWitness": "English first-printing facsimile. Rules checked on the rendered folios.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "4e279b84db03be5b9c1b7e31bebb7e0f3dbb4febcd211cf13f17a6ce47a709ac",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog",
+    "errataEvidence": "No title entry in the official Sage Advice & Errata index and no published correction covering this entry found in the D&D Beyond changelog.",
+    "habitatEvidence": "Editorial search terms from the encounter or creature account on p. 26.",
+    "appearanceEvidence": "Editorial description of the new parchment illustration and details from the printed encounter or creature account.",
+    "artworkSource": "portraits/young-horizonback-tortoise.png",
+    "artworkSha256": "c0476e776f50836b78ff74123f36633a937614add2ffbb398ce7e774ba9e471e",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New square portrait on flat tan parchment. Big Linda supplied the style reference.",
+    "sourceNotes": [
+      "The printed variant gives the tortoise a Bite modeled on the 2014 Ankylosaurus Tail. The adventure describes use of Bite and never expressly removes Tail. The indexed summary presents Bite alone. The Huge Beast classification comes from the parent block."
+    ],
+    "relatedRules": [
+      {
+        "name": "Ankylosaurus",
+        "printedPage": 79,
+        "pdfPage": 80,
+        "url": "https://www.dndbeyond.com/monsters/17088-ankylosaurus",
+        "publication": "Monster Manual (2014)",
+        "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "purpose": "Base creature statistics and rules inherited by this adventure entry.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataEvidence": "No entry for this base creature in the official 2014 Monster Manual errata."
+      }
+    ]
+  }
+]

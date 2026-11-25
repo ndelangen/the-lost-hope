@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Pantheran",
+    "file": "portraits/pantheran.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6e39d798e09e93a09f1979661750c7aded1fa7754832fbe1709c9f7ccaa7cc4b",
+    "credit": "OpenAI ImageGen · The Lost Hope"
+  },
+  {
+    "name": "Pode",
+    "file": "portraits/pode.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "8489e76806b147a75cedc15cf66bf1fdd1251daf44ef38860958955952e5a395",
+    "credit": "OpenAI ImageGen · The Lost Hope"
+  },
+  {
+    "name": "Shadowcast",
+    "file": "portraits/shadowcast.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "39d7cdf2f63a688535505b4b0c25157bfe5d88e450e58c05abe3abe798a89c3a",
+    "credit": "OpenAI ImageGen · The Lost Hope"
+  },
+  {
+    "name": "Spiderfolk",
+    "file": "portraits/spiderfolk.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "fc33b5c11bd7fa05d8f94bc5020473072119305a49474e8ff24aaa6e28eb810c",
+    "credit": "OpenAI ImageGen · The Lost Hope"
+  },
+  {
+    "name": "Zevite",
+    "file": "portraits/zevite.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "df3c6b58c949c2ef6e97abe92e277b16ecdbbb6e4d8e0aae592bb1200e93b812",
+    "credit": "OpenAI ImageGen · The Lost Hope"
+  }
+]

@@ -1,0 +1,7 @@
+# Ravenloft insect swarms
+
+Chapter 5 of *Ravenloft: The Horrors Within* gives each swarm a separate Beast stat block. I checked the published rules in the digital export at sheets 400–401. The available witness shows the export's sheet numbers. A secondary index gives hardcover p. 271 for both swarms. [Publisher contents](https://www.dndbeyond.com/sources/dnd/rthw) · [Digital export](https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1) · [Source notes](source-evidence.json)
+
+Infestation applies Poisoned on the hit, with a DC 11 Constitution save an hour later if the poison persists. On a failure, a d6 determines the additional effect. Ravenous Bites applies a one-minute poison that ends early if the target regains HP from a spell or effect. The ongoing damage can kill a target it reduces to 0 HP. Skeletonize checks for Large or smaller corpses at the start of the swarm's turn. [Rules](stat-blocks.json)
+
+Both swarms share one new portrait. The published art shows the same green larvae, rust-colored heads, and winged adults in a tall room scene. I used built-in ImageGen and Big Linda's parchment as the visual reference for a square specimen study. The 96-pixel round crop keeps both life stages clear. [Portrait](portraits/ravenloft-insect-swarms.png) · [Square and round review](portrait-review.jpg) · [Image details and prompt](portrait-files.json)

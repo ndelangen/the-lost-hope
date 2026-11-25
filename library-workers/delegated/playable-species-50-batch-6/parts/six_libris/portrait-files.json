@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Mohrg",
+    "file": "",
+    "sha256": "7e7a52ece1e528d8d930826104ea2ecaed2afad27c76e09ec8e88fd64084f6c4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Orven Glassjaw"
+  },
+  {
+    "name": "Vampire Spawn",
+    "file": "",
+    "sha256": "bd62b31f9435f08f05cf7b6b9b6f840fb3b8e33047cb4abe68025f2fc9ee77d7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Vessa Dain"
+  },
+  {
+    "name": "Wight",
+    "file": "",
+    "sha256": "7d841f459360f5bbdc69f145554f7b204fed85b3540c1cd294b1f3ce9f5f5e13",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Harl Fenmark"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Neraph",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider from Limbo. The species entry gives the Extraplanar subtype when away from Limbo. Land speed 30 ft., darkvision 60 ft., no racial ability adjustments. Humanoid-only effects such as charm person and dominate person cannot target a Neraph.",
+      "Neraph Camouflage is an extraordinary ability. Declare it on one charge attack or thrown-weapon attack per enemy per encounter. Those options share the one use against that enemy. The target loses its Dexterity bonus to AC against that attack, with ordinary consequences such as eligibility for sneak attack.",
+      "Leap gives +5 racial on Jump. Chitinous skin gives +2 natural armor. Gain +2 racial on Spot and Search.",
+      "Weapon Familiarity treats the annulat as a martial weapon. A proficient thrower reduces a target’s existing cover bonus to AC by 2. The annulat has a 30-ft. range increment, 1d6 slashing at Medium or 1d4 at Small, and critical 19–20/×2. A Medium annulat costs 30 gp and weighs ½ lb.",
+      "Automatic languages are Neraph and Slaad. Bonus languages are Common, Celestial, and Abyssal. Favored class Ranger. LA +0. The playable profile adds no racial Hit Dice.",
+      "Neraphim are distinct from slaadi. They have coarse red skin, a broad toadlike head, and chitinlike patches. The optional Neraph Charge and Neraph Throw feats are separate from the racial ability."
+    ]
+  }
+]

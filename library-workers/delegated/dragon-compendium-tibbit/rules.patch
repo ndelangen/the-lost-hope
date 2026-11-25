@@ -1,0 +1,161 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -312341,6 +312341,23 @@
+       ]
+     },
+     {
++      "name": "Tibbit",
++      "kind": "species",
++      "publication": "Dragon Compendium, Volume I (2005)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Small Monstrous Humanoid with the Shapechanger subtype, as corrected by Paizo’s errata. +2 Dexterity, −2 Strength, 20-ft. land speed, darkvision 60 ft., and +2 racial to Spot, Jump, and Escape Artist.",
++        "Small size gives +1 AC and attack, +4 Hide, Small weapon sizes, and three quarters of Medium carrying capacity. Humanoid-only spells such as charm person do not affect Tibbits. Class levels supply their Hit Dice, with no added level adjustment.",
++        "Feline Transformation lets a Tibbit become a house cat at will as a standard action. The rules give no duration limit. Returning to humanoid form takes a full-round action. Wait one hour after returning before transforming again.",
++        "Cat form is Tiny and has 30-ft. land speed, +2 size AC and attack, +8 size Hide, −8 Strength to a minimum of 3, and +2 Dexterity on top of humanoid-form scores. It gains scent and keeps its creature type and otherwise unchanged abilities.",
++        "Cat form gains two primary claws (1d2 base damage) and a secondary bite (1d3 base damage). A full attack uses both claws and the bite at −5. Base attack bonus gives no additional natural attacks.",
++        "Equipment generally melds into the cat. Armor, shields, weapons, and robes stop providing benefits. Items with a suitable worn shape may continue giving passive benefits when they reshape into something a cat can wear.",
++        "Cat form cannot speak, manipulate fine objects, cast spells with verbal or somatic components, use scrolls, or activate magic items.",
++        "Death in cat form causes reversion after one round. Effects that see through polymorph reveal the Tibbit. Magic aura detection alone does not reveal the disguise.",
++        "Common and Feline are automatic, with any bonus language and Rogue as the favored class. Feline is shared with cats of Intelligence 3 or higher, permitting Diplomacy with them. Other races cannot learn it or bridge it with tongues."
++      ]
++    },
++    {
+       "name": "Skarn",
+       "kind": "species",
+       "publication": "Magic of Incarnum (2005)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1296,6 +1296,90 @@
+       "tactics": "Ornek surveys a bricked-up passage after glimpsing an ethereal traveler through its entrance. He marks the seam for the party and uses ordinary tools to check the wall."
+     },
+     {
++      "id": "tibbit-mews-courier-35e",
++      "title": "Tibbit mews courier, Rogue 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Small",
++      "type": "Monstrous Humanoid (Shapechanger)",
++      "ac": 17,
++      "hp": 8,
++      "hitDice": "1d6+2",
++      "initiative": 7,
++      "speed": "20 ft. (cat 30 ft.)",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 16,
++        "CON": 14,
++        "INT": 12,
++        "WIS": 12,
++        "CHA": 10
++      },
++      "skills": [
++        "Disable Device +5",
++        "Escape Artist +8 (cat +10)",
++        "Hide +10 (cat +16)",
++        "Listen +5",
++        "Move Silently +6 (cat +8)",
++        "Open Lock +7",
++        "Search +5",
++        "Spot +7",
++        "Tumble +6 (cat +8)"
++      ],
++      "senses": "Darkvision 60 ft. Cat form also has scent.",
++      "languages": "Common, Feline, Halfling",
++      "traits": [
++        "Chaotic good. Humanoid form uses studded leather +3, Dexterity +3, and size +1. Touch 14, flat-footed 14. BAB +0, grapple −4. Fortitude +2, Reflex +5, Will +1. Armor check penalty −1. Improved Initiative adds +4.",
++        "Cat form: Tiny, STR 3, DEX 18, HP 8, AC 16, touch 16, flat-footed 12, initiative +8, grapple −12, Fortitude +2, Reflex +6, Will +1. Space 2½ ft., reach 0 ft. Worn armor and thieves’ tools meld.",
++        "Trapfinding and sneak attack +1d6. Search can locate traps with DC above 20. Magical traps can be disarmed with Disable Device. Pell returns to humanoid form to manipulate his tools.",
++        "Cat form cannot speak, manipulate fine objects, cast spells with verbal or somatic components, use scrolls, or activate magic items."
++      ],
++      "actions": [
++        "Small dagger +1 melee, 1d3 piercing or slashing, critical 19–20/×2, 5-ft. reach. Small light crossbow +4 ranged, 1d6 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
++        "Cat form: claw −2 melee, 1 piercing and slashing. Full attack: two claws at −2 and bite −7 for 1 piercing, slashing, and bludgeoning. All critical hits are ×2. Tiny reach requires entering the target’s space and normally provokes. The listed damage includes the minimum 1 before damage reduction.",
++        "Add 1d6 sneak attack to a qualifying attack against a target denied Dexterity to AC or when flanking with melee. Ranged sneak attack requires a target within 30 ft. The cat’s 0-ft. reach cannot flank, but it can still sneak attack a target denied Dexterity to AC.",
++        "Feline Transformation lets a Tibbit become a house cat at will as a standard action. The rules give no duration limit. Returning to humanoid form takes a full-round action. Wait one hour after returning before transforming again."
++      ],
++      "tactics": "Pell scouts the mews in cat form while the porter makes his rounds. He returns to humanoid form in an alcove and uses his tools to open the tack-room lock. The party can warn him if the porter returns during the change."
++    },
++    {
++      "id": "tibbit-grain-loft-watch-35e",
++      "title": "Tibbit grain loft watch, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Small",
++      "type": "Monstrous Humanoid (Shapechanger)",
++      "ac": 19,
++      "hp": 11,
++      "hitDice": "1d10+1",
++      "initiative": 7,
++      "speed": "20 ft. (cat 30 ft.)",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 16,
++        "CON": 12,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Climb +4 (cat +3)", "Jump +0 (cat +5)", "Spot +3"],
++      "senses": "Darkvision 60 ft. Cat form also has scent.",
++      "languages": "Common, Feline",
++      "traits": [
++        "Chaotic neutral. Studded leather +3, heavy wooden shield +2, Dexterity +3, and size +1. Touch 14, flat-footed 16. BAB +1, grapple +0. Fortitude +3, Reflex +3, Will +1. Armor check penalty −3. Improved Initiative adds +4.",
++        "Cat form: Tiny, STR 8, DEX 18, HP 11, AC 16, touch 16, flat-footed 12, initiative +8, grapple −8, Fortitude +3, Reflex +4, Will +1. Space 2½ ft., reach 0 ft. Worn armor, shield, and weapons meld. Weapon Finesse uses Dexterity to hit with natural weapons.",
++        "Cat form cannot speak, manipulate fine objects, cast spells with verbal or somatic components, use scrolls, or activate magic items."
++      ],
++      "actions": [
++        "Small longsword +5 melee, 1d6+3 slashing, critical 19–20/×2, 5-ft. reach. Small javelin +5 ranged, 1d4+3 piercing, critical ×2, 30-ft. increment.",
++        "Cat form: claw +7 melee, 1 piercing and slashing. Full attack: two claws at +7 and bite +2 for 1d3−1 piercing, slashing, and bludgeoning (minimum 1). All critical hits are ×2. The cat normally provokes when entering an enemy’s space to attack.",
++        "Feline Transformation lets a Tibbit become a house cat at will as a standard action. The rules give no duration limit. Returning to humanoid form takes a full-round action. Wait one hour after returning before transforming again."
++      ],
++      "tactics": "Rusk waits in cat form near the loft opening. He listens for movement and can use scent to pinpoint a creature within 5 ft. in the dark. If someone threatens the storekeeper, he retreats behind the sacks to spend a full round returning to humanoid form, then uses his shield and longsword."
++    },
++    {
+       "id": "killoren-destroyer-grove-steward-35e",
+       "title": "Destroyer Killoren grove steward, Fighter 1",
+       "origin": "Original DM Library NPC",
+@@ -3614,6 +3698,28 @@
+       "hook": "Keel can hold the gate below the waterline while the party leads the crew to the landing."
+     },
+     {
++      "species": "Tibbit",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Dragon Compendium, Volume I (2005)",
++      "name": "Pell Fenwick",
++      "build": "tibbit-mews-courier-35e",
++      "role": "Mews courier and Rogue.",
++      "motive": "Retrieve a misdelivered letter before the porter locks up.",
++      "hook": "Pell can scout as a cat and get the tack-room door open if the party watches the mews."
++    },
++    {
++      "species": "Tibbit",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Dragon Compendium, Volume I (2005)",
++      "name": "Rusk Brindle",
++      "build": "tibbit-grain-loft-watch-35e",
++      "role": "Grain loft watch and Fighter.",
++      "motive": "Find out what is moving between the sacks after the shop closes.",
++      "hook": "Rusk will check the dark loft while the party keeps watch on the storekeeper."
++    },
++    {
+       "species": "Dragonborn (Draconblood; Brass)",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -9460,6 +9460,7 @@
+ Thwad Underbrew	monster	Humanoid	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/275607-thwad-underbrew	9
+ Tiamat	monster	Fiend	Rise of Tiamat	2014 fifth edition	Wizards of the Coast		30
+ Tiax	monster	Humanoid	Chains of Asmodeus	2014 fifth edition	Wizards of the Coast		9
++Tibbit	species	Monstrous Humanoid (Shapechanger)	Dragon Compendium, Volume I (2005)	3.5 edition	Paizo Publishing	https://books.google.com/books/about/Dragon_Compendium.html?id=zeQhAAAACAAJ	
+ Tiberius Inuus	monster	Humanoid	Minsc and Boo's Journal of Villainy	2014 fifth edition	Wizards of the Coast		9
+ Tiefling	species		Basic Rules (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/7-tiefling	
+ Tiefling	species		Player’s Handbook	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/1751443-tiefling	

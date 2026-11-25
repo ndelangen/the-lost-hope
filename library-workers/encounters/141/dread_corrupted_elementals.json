@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Blood Elemental",
+    "decision": "separate",
+    "pages": "pp. 63–65",
+    "notes": "The header shows the Medium encounter. The other five printed tiers have their own statistics.",
+    "statBlock": {
+      "name": "Blood Elemental",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Elemental (Water, Mists). Medium size tier shown in header.",
+      "ac": 19,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "20 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "A red mass lashes with its tentacles and leaves a twisting trail that dries in patterns. If it breaks free, it stalks its conjurer and destroys things along the way.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Medium size tier": "Medium elemental (Water, Mists). CR 3. 30 HP (4d8 + 12). Initiative +1. Speed 20 ft..\nAC 19, touch 11, flat-footed 18. Base attack +3, grapple +6. Space 5 ft., reach 5 ft.\nAttack Slam +6 melee (1d8 + 4 plus Blood Drain). Full attack Slam +6 melee (1d8 + 4 plus Blood Drain).\nFort +7, Ref +2, Will +1. Str 16, Dex 12, Con 17, Int 5, Wis 11, Cha 11. Listen +7, Spot +7.\nFeats include Power Attack. Advancement 5–7 HD, Medium.",
+        "Actions": "Slam. Make one melee slam, or use the full-attack count in the chosen tier. Blood Drain applies to every successful slam against a living creature.\nBlood Drain (Ex). After a slam hits a living creature, the elemental attempts to drain its blood as a free action. Fortitude DC equals its HD plus its Constitution modifier. Failure deals 1d4 Constitution damage. The elemental gains 1 HP for each point of Constitution damage actually dealt.\nDrench (Ex). Touch extinguishes an exposed nonmagical flame at least one size category smaller than the elemental. Touching magical fire can dispel it as dispel magic at caster level equal to the elemental’s HD.\nEngulf (Ex). The elemental can engulf a foe at least one size smaller in a round when it makes no slams. The target can make an attack of opportunity and forgo the save, or decline the attack and attempt a DC 16 Reflex save. An engulfed creature is subject to the 3.5 drowning rules. When an attack hits the elemental, split the damage evenly between it and the engulfed target on a 50% roll if the elemental is one size larger, or 10% if it is two sizes larger. With a gap of three or more categories, only the elemental takes damage.",
+        "Traits": "Darkvision 60 ft. Immune to poison, sleep, paralysis, stunning, critical hits, and flanking. Does not eat, sleep, or breathe. It cannot be raised or resurrected, though limited wish, wish, miracle, or true resurrection can restore it. Drawn from blood or from water taken from drowned lungs. Exceptionally evil blood can increase its HD. It cannot enter or cross a large body of water. Forced contact with a body of water at least as large as itself deals 1d10 damage each round until it escapes.",
+        "Other size tiers": "Small, Large, Huge, Greater, and Elder are listed below. Each uses the same actions and traits with its own statistics.",
+        "Small tier": "Small elemental (Water, Mists). CR 1. 11 HP (2d8 + 2). Initiative +0. Speed 20 ft..\nAC 17, touch 11, flat-footed 17. Base attack +1, grapple −1. Space 5 ft., reach 5 ft.\nAttack Slam +4 melee (1d6 + 3 plus Blood Drain). Full attack Slam +4 melee (1d6 + 3 plus Blood Drain).\nFort +4, Ref +0, Will +0. Str 14, Dex 10, Con 13, Int 5, Wis 11, Cha 11. Listen +5, Spot +5.\nFeats include Power Attack. Advancement 3 HD, Small.",
+        "Large tier": "Large elemental (Water, Mists). CR 5. 68 HP (8d8 + 32). Initiative +2. Speed 20 ft..\nAC 20, touch 11, flat-footed 18. Base attack +6, grapple +15. Space 5 ft., reach 10 ft. DR 10/—.\nAttack Slam +10 melee (2d8 + 5 plus Blood Drain). Full attack 2 slams +10 melee (2d8 + 5 plus Blood Drain each).\nFort +10, Ref +4, Will +2. Str 20, Dex 14, Con 19, Int 7, Wis 11, Cha 11. Listen +11, Spot +11.\nFeats include Cleave, Power Attack. Advancement 9–15 HD, Large.",
+        "Huge tier": "Huge elemental (Water, Mists). CR 7. 152 HP (16d8 + 80). Initiative +4. Speed 30 ft..\nAC 21, touch 12, flat-footed 17. Base attack +12, grapple +27. Space 15 ft., reach 15 ft. DR 5/—.\nAttack Slam +17 melee (2d10 + 7 plus Blood Drain). Full attack 2 slams +17 melee (2d10 + 7 plus Blood Drain each).\nFort +15, Ref +9, Will +5. Str 24, Dex 18, Con 21, Int 7, Wis 11, Cha 11. Listen +18, Spot +18.\nFeats include Alertness, Cleave, Great Cleave, Improved Sunder, Power Attack, Improved Bull Rush. Advancement 17–20 HD, Huge.",
+        "Greater tier": "Huge elemental (Water, Mists). CR 9. 199 HP (21d8 + 105). Initiative +5. Speed 30 ft..\nAC 22, touch 13, flat-footed 17. Base attack +15, grapple +31. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +21 melee (2d10 + 8 plus Blood Drain). Full attack 2 slams +21 melee (2d10 + 8 plus Blood Drain each).\nFort +17, Ref +12, Will +7. Str 26, Dex 20, Con 21, Int 7, Wis 11, Cha 11. Listen +23, Spot +23.\nFeats include Alertness, Cleave, Great Cleave, Improved Critical, Power Attack, Improved Sunder, Improved Bull Rush, Lightning Reflexes. Advancement 22–23 HD, Huge.",
+        "Elder tier": "Huge elemental (Water, Mists). CR 11. 228 HP (24d8 + 120). Initiative +6. Speed 30 ft..\nAC 23, touch 14, flat-footed 17. Base attack +18, grapple +35. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +25 melee (2d10 + 9 plus Blood Drain). Full attack 2 slams +25 melee (2d10 + 9 plus Blood Drain each).\nFort +19, Ref +14, Will +8. Str 28, Dex 22, Con 21, Int 6, Wis 11, Cha 11. Listen +26, Spot +26.\nFeats include Alertness, Cleave, Great Cleave, Improved Critical (slam), Power Attack, Improved Sunder, Improved Bull Rush, Iron Will, Lightning Reflexes. Advancement 25+ HD, Huge.",
+        "Dread elemental rules": "Dread elementals understand speech and do not communicate. In Ravenloft, calling a standard elemental has a 20% chance to call a dread elemental instead. Summoning magic always produces the dread forms. An accidental dread elemental is uncontrolled and the Dark Powers supply its materials. Deliberate conjuring uses the matching material and the usual chance to break control. A dismissed dread elemental returns to the fabric of Ravenloft. Its Mists subtype lets it be summoned in any domain and makes it native throughout Ravenloft. The realm’s restrictions on calling do not break the calling pact for these elementals.",
+        "Encounter details": "Solitary, always neutral evil, no treasure. May appear in any environment.",
+        "Printed source": "pp. 63–65. Mists subtype on p. 7.",
+        "Drowning": "In 3.5, a creature can hold its breath for twice its Constitution score in rounds. Each standard or full-round action uses an additional round of that reserve. Once it runs out, make a DC 10 Constitution check each round, increasing the DC by 1 each round. On a failure it falls unconscious at 0 HP, drops to −1 HP in the following round, and dies in the third."
+      },
+      "ruleNotes": [
+        "Blood Drain uses HD plus Constitution modifier as printed. The DCs in printed tier order are 3, 7, 12, 21, 26, and 29.",
+        "The Large block gives a space of 5 ft. and DR 10/—. Its Huge tier has DR 5/—. These are the printed values."
+      ]
+    }
+  },
+  {
+    "name": "Grave Elemental",
+    "decision": "separate",
+    "pages": "pp. 63, 65–67",
+    "notes": "The header shows the Medium encounter. The other five printed tiers have their own statistics.",
+    "statBlock": {
+      "name": "Grave Elemental",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Elemental (Earth, Mists). Medium size tier shown in header.",
+      "ac": 18,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "20 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "A figure of grave soil carries fragments of coffins and headstones. It waits below the ground to strike at footsteps.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Medium size tier": "Medium elemental (Earth, Mists). CR 3. 30 HP (4d8 + 12). Initiative −1. Speed 20 ft..\nAC 18, touch 9, flat-footed 18. Base attack +3, grapple +8. Space 5 ft., reach 5 ft.\nAttack Slam +8 melee (1d8 + 7). Full attack Slam +8 melee (1d8 + 7).\nFort +7, Ref +0, Will +1. Str 21, Dex 8, Con 17, Int 5, Wis 11, Cha 11. Listen +4, Spot +3.\nFeats include Cleave, Power Attack. Advancement 5–7 HD, Medium.",
+        "Actions": "Slam. Make one melee slam, or use the full-attack count in the chosen tier.\nEarth Mastery (Ex). Gain +1 to attack and damage while both the elemental and its opponent touch the ground. Against a foe in the air or water, apply −4 instead. The attack lines do not include these modifiers.\nSink (Su, once per hour). Choose one opponent within 60 ft. who is standing on earth or stone. The target makes an opposed grapple check against the elemental. On failure, spectral arms hold it in place. A Medium target sinks to its knees in round 1 and cannot leave its square. If the elemental keeps concentrating, the target sinks to its waist in round 2 and loses its Dexterity bonus to AC. In round 3 it is pulled 6 ft. underground and stays in suspended animation until unearthed. Allies can attempt the 3.5 break another’s pin action to free it before burial.",
+        "Traits": "Darkvision 60 ft. Immune to poison, sleep, paralysis, stunning, critical hits, and flanking. Does not eat, sleep, or breathe. It cannot be raised or resurrected, though limited wish, wish, miracle, or true resurrection can restore it. Moves through earth and stone and senses groundborne movement with tremorsense. It cannot travel through or across water.",
+        "Other size tiers": "Small, Large, Huge, Greater, and Elder are listed below. Each uses the same actions and traits with its own statistics.",
+        "Small tier": "Small elemental (Earth, Mists). CR 1. 11 HP (2d8 + 2). Initiative −1. Speed 20 ft..\nAC 17, touch 10, flat-footed 17. Base attack +1, grapple +0. Space 5 ft., reach 5 ft.\nAttack Slam +5 melee (1d6 + 4). Full attack Slam +5 melee (1d6 + 4).\nFort +4, Ref −1, Will +0. Str 17, Dex 8, Con 13, Int 5, Wis 11, Cha 11. Listen +3, Spot +2.\nFeats include Power Attack. Advancement 3 HD, Small.",
+        "Large tier": "Large elemental (Earth, Mists). CR 5. 68 HP (8d8 + 32). Initiative −1. Speed 20 ft..\nAC 18, touch 8, flat-footed 18. Base attack +6, grapple +17. Space 10 ft., reach 10 ft. DR 10/+1.\nAttack Slam +12 melee (2d8 + 7). Full attack 2 slams +12 melee (2d8 + 7 each).\nFort +10, Ref +1, Will +2. Str 25, Dex 8, Con 19, Int 7, Wis 11, Cha 11. Listen +6, Spot +5.\nFeats include Cleave, Great Cleave, Power Attack. Advancement 9–15 HD, Large.",
+        "Huge tier": "Huge elemental (Earth, Mists). CR 7. 152 HP (16d8 + 80). Initiative −1. Speed 30 ft..\nAC 18, touch 7, flat-footed 18. Base attack +12, grapple +29. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +19 melee (2d10 + 9). Full attack 2 slams +19 melee (2d10 + 9 each).\nFort +15, Ref +4, Will +5. Str 29, Dex 8, Con 21, Int 7, Wis 11, Cha 11. Listen +10, Spot +9.\nFeats include Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Sunder, Power Attack. Advancement 17–20 HD, Huge.",
+        "Greater tier": "Huge elemental (Earth, Mists). CR 9. 199 HP (21d8 + 105). Initiative −1. Speed 30 ft..\nAC 20, touch 7, flat-footed 20. Base attack +15, grapple +33. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +23 melee (2d10 + 10). Full attack 2 slams +23 melee (2d10 + 10 each).\nFort +17, Ref +6, Will +7. Str 31, Dex 8, Con 21, Int 7, Wis 11, Cha 11. Listen +12, Spot +12.\nFeats include Alertness, Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Sunder, Iron Will, Power Attack. Advancement 22–23 HD, Huge.",
+        "Elder tier": "Huge elemental (Earth, Mists). CR 11. 228 HP (24d8 + 120). Initiative −1. Speed 30 ft..\nAC 22, touch 7, flat-footed 22. Base attack +18, grapple +37. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +27 melee (2d10 + 11, threat 19–20). Full attack 2 slams +27 melee (2d10 + 11, threat 19–20 each).\nFort +19, Ref +7, Will +8. Str 33, Dex 8, Con 21, Int 7, Wis 11, Cha 11. Listen +26, Spot +26.\nFeats include Alertness, Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Critical (slam), Improved Sunder, Iron Will, Power Attack. Advancement 25+ HD, Huge.",
+        "Dread elemental rules": "Dread elementals understand speech and do not communicate. In Ravenloft, calling a standard elemental has a 20% chance to call a dread elemental instead. Summoning magic always produces the dread forms. An accidental dread elemental is uncontrolled and the Dark Powers supply its materials. Deliberate conjuring uses the matching material and the usual chance to break control. A dismissed dread elemental returns to the fabric of Ravenloft. Its Mists subtype lets it be summoned in any domain and makes it native throughout Ravenloft. The realm’s restrictions on calling do not break the calling pact for these elementals.",
+        "Encounter details": "Solitary, always neutral evil, no treasure. May appear in any environment.",
+        "Printed source": "pp. 63, 65–67. Mists subtype on p. 7."
+      },
+      "ruleNotes": [
+        "The Large table prints DR 10/+1. A weapon with at least a +1 enhancement bypasses it. Huge, Greater, and Elder use the printed DR 10/—.",
+        "The book gives no tremorsense distance. Use 60 ft. as a table default. Sink explicitly gives its round-by-round effects for a Medium target only."
+      ]
+    }
+  },
+  {
+    "name": "Mist Elemental",
+    "decision": "separate",
+    "pages": "pp. 63, 67–68",
+    "notes": "The header shows the Medium encounter. The other five printed tiers have their own statistics.",
+    "statBlock": {
+      "name": "Mist Elemental",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Elemental (Air, Mists). Medium size tier shown in header.",
+      "ac": 18,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "Fly 100 ft. (perfect)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "description": "Ravenloft’s own fog gathers into an elemental. It hides in banks of mist and pursues prey through the air.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Medium size tier": "Medium elemental (Air, Mists). CR 3. 26 HP (4d8 + 8). Initiative +9. Speed Fly 100 ft. (perfect).\nAC 18, touch 15, flat-footed 13. Base attack +3, grapple +4. Space 5 ft., reach 5 ft.\nAttack Slam +8 melee (1d6 + 1). Full attack Slam +8 melee (1d6 + 1).\nFort +3, Ref +9, Will +1. Str 12, Dex 21, Con 14, Int 5, Wis 11, Cha 13. Listen +7, Spot +7.\nFeats include Dodge, Flyby Attack, Improved Initiative (bonus), Weapon Finesse (bonus). Advancement 5–7 HD, Medium.",
+        "Actions": "Slam. Make one melee slam, or use the full-attack count in the chosen tier.\nAir Mastery (Ex). Airborne attackers take −1 on attack and damage rolls against the elemental.\nInfuse Evil (Su). As a standard action, the elemental tries to enter the target’s lungs. On a failed DC 15 Fortitude save, the target attempts a Will save at DC equal to half the elemental’s HD plus its Charisma modifier. A failed Will save makes the target neutral evil for 2d8 minutes. The target attempts the same Will save when the duration ends. Success restores the original alignment. Failure leaves the new alignment in place until reversed by atonement.",
+        "Traits": "Darkvision 60 ft. Immune to poison, sleep, paralysis, stunning, critical hits, and flanking. Does not eat, sleep, or breathe. It cannot be raised or resurrected, though limited wish, wish, miracle, or true resurrection can restore it. Misty Appearance (Ex). In fog it can hide as though invisible.",
+        "Other size tiers": "Small, Large, Huge, Greater, and Elder are listed below. Each uses the same actions and traits with its own statistics.",
+        "Small tier": "Small elemental (Air, Mists). CR 1. 9 HP (2d8). Initiative +7. Speed Fly 100 ft. (perfect).\nAC 17, touch 14, flat-footed 14. Base attack +1, grapple −3. Space 5 ft., reach 5 ft.\nAttack Slam +5 melee (1d4). Full attack Slam +5 melee (1d4).\nFort +0, Ref +6, Will +0. Str 10, Dex 17, Con 10, Int 5, Wis 11, Cha 11. Listen +5, Spot +5.\nFeats include Flyby Attack, Improved Initiative (bonus), Weapon Finesse (bonus). Advancement 3 HD, Small.",
+        "Large tier": "Large elemental (Air, Mists). CR 5. 60 HP (8d8 + 24). Initiative +11. Speed Fly 100 ft. (perfect).\nAC 20, touch 16, flat-footed 13. Base attack +6, grapple +12. Space 10 ft., reach 10 ft. DR 5/—.\nAttack Slam +12 melee (2d6 + 3). Full attack 2 slams +12 melee (2d6 + 3 each).\nFort +5, Ref +13, Will +2. Str 14, Dex 25, Con 16, Int 7, Wis 11, Cha 15. Listen +11, Spot +11.\nFeats include Combat Reflexes, Dodge, Flyby Attack, Improved Initiative (bonus), Weapon Finesse (bonus). Advancement 9–15 HD, Large.",
+        "Huge tier": "Huge elemental (Air, Mists). CR 7. 136 HP (16d8 + 64). Initiative +13. Speed Fly 100 ft. (perfect).\nAC 21, touch 17, flat-footed 12. Base attack +12, grapple +24. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +19 melee (2d8 + 4). Full attack 2 slams +19 melee (2d8 + 4 each).\nFort +9, Ref +19, Will +5. Str 18, Dex 29, Con 18, Int 6, Wis 11, Cha 17. Listen +18, Spot +18.\nFeats include Alertness, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative (bonus), Mobility, Spring Attack, Weapon Finesse (bonus). Advancement 17–20 HD, Huge.",
+        "Greater tier": "Huge elemental (Air, Mists). CR 9. 178 HP (21d8 + 84). Initiative +14. Speed Fly 100 ft. (perfect).\nAC 26, touch 18, flat-footed 16. Base attack +15, grapple +28. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +23 melee (2d8 + 5). Full attack 2 slams +23 melee (2d8 + 5 each).\nFort +11, Ref +22, Will +9. Str 20, Dex 31, Con 18, Int 7, Wis 11, Cha 19. Listen +23, Spot +23.\nFeats include Alertness, Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative (bonus), Iron Will, Mobility, Power Attack, Weapon Finesse (bonus). Advancement 22–23 HD, Huge.",
+        "Elder tier": "Huge elemental (Air, Mists). CR 11. 204 HP (24d8 + 96). Initiative +15. Speed Fly 100 ft. (perfect).\nAC 27, touch 19, flat-footed 16. Base attack +18, grapple +32. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +27 melee (2d8 + 6). Full attack 2 slams +27 melee (2d8 + 6 each).\nFort +12, Ref +25, Will +8. Str 22, Dex 33, Con 18, Int 6, Wis 11, Cha 21. Listen +26, Spot +26.\nFeats include Alertness, Blind-Fight, Cleave, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative (bonus), Mobility, Power Attack, Spring Attack, Weapon Finesse (bonus). Advancement 25–40 HD, Huge.",
+        "Dread elemental rules": "Dread elementals understand speech and do not communicate. In Ravenloft, calling a standard elemental has a 20% chance to call a dread elemental instead. Summoning magic always produces the dread forms. An accidental dread elemental is uncontrolled and the Dark Powers supply its materials. Deliberate conjuring uses the matching material and the usual chance to break control. A dismissed dread elemental returns to the fabric of Ravenloft. Its Mists subtype lets it be summoned in any domain and makes it native throughout Ravenloft. The realm’s restrictions on calling do not break the calling pact for these elementals.",
+        "Encounter details": "Solitary, always neutral evil, no treasure. May appear in any environment.",
+        "Printed source": "pp. 63, 67–68. Mists subtype on p. 7."
+      },
+      "ruleNotes": [
+        "Infuse Evil prints the Will DC without a base 10. Using its printed formula, the tier DCs are 1, 3, 6, 11, 14, and 17. Its printed Fortitude DC stays 15."
+      ]
+    }
+  },
+  {
+    "name": "Pyre Elemental",
+    "decision": "separate",
+    "pages": "pp. 63, 68–69",
+    "notes": "The header shows the Medium encounter. The other five printed tiers have their own statistics.",
+    "statBlock": {
+      "name": "Pyre Elemental",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Elemental (Fire, Mists). Medium size tier shown in header.",
+      "ac": 16,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "50 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "A column of funeral flame scatters sparks from charred bones. It sets corpses alight and sends them careening through the fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Medium size tier": "Medium elemental (Fire, Mists). CR 3. 26 HP (4d8 + 8). Initiative +7. Speed 50 ft..\nAC 16, touch 13, flat-footed 13. Base attack +3, grapple +4. Space 5 ft., reach 5 ft.\nAttack Slam +6 melee (1d6 + 1 plus 1d6 fire). Full attack Slam +6 melee (1d6 + 1 plus 1d6 fire).\nFort +3, Ref +7, Will +1. Str 12, Dex 17, Con 14, Int 5, Wis 11, Cha 11. Listen +5, Spot +5.\nFeats include Improved Initiative, Weapon Finesse. Advancement 5–7 HD, Medium.",
+        "Actions": "Slam. Make one melee slam, or use the full-attack count in the chosen tier. Each slam deals the indicated bludgeoning and fire damage.\nBurn (Ex). A creature hit by the slam makes a Reflex save or burns for 1d4 rounds. Use DC 10 + half the elemental’s HD + its Dexterity modifier. A burning creature can put out the fire with a move action. A creature that hits the elemental with a natural weapon or unarmed strike first takes the slam’s fire damage, then makes the same save to avoid catching fire.\nDance of Death (Su). As a free action, touch a corpse of a formerly living corporeal creature within reach. It rises as a skeleton or zombie according to the corpse’s condition, rushes about attacking creatures and setting fires at random, and adds the effect of a direct hit with alchemist’s fire to its own attacks. That adds 1d6 fire on impact and another 1d6 the following round. A burning target can use a full-round action and a DC 15 Reflex save to extinguish it before that second damage roll. The animated body itself takes 1d3 fire each round until consumed.",
+        "Traits": "Darkvision 60 ft. Immune to poison, sleep, paralysis, stunning, critical hits, and flanking. Does not eat, sleep, or breathe. It cannot be raised or resurrected, though limited wish, wish, miracle, or true resurrection can restore it. The fire subtype grants fire immunity and cold vulnerability, increasing cold damage by 50%. A pyre belonging to an exceptionally evil person can bring forth an elemental of the next larger size tier even if the caster cannot control it.",
+        "Other size tiers": "Small, Large, Huge, Greater, and Elder are listed below. Each uses the same actions and traits with its own statistics.",
+        "Small tier": "Small elemental (Fire, Mists). CR 1. 9 HP (2d8). Initiative +5. Speed 50 ft..\nAC 15, touch 12, flat-footed 14. Base attack +1, grapple −4. Space 5 ft., reach 5 ft.\nAttack Slam +3 melee (1d4 plus 1d4 fire). Full attack Slam +3 melee (1d4 plus 1d4 fire).\nFort +0, Ref +4, Will +0. Str 10, Dex 13, Con 10, Int 5, Wis 11, Cha 11. Listen +5, Spot +5.\nFeats include Improved Initiative, Weapon Finesse (bonus). Advancement 3 HD, Small.",
+        "Large tier": "Large elemental (Fire, Mists). CR 5. 60 HP (8d8 + 24). Initiative +9. Speed 50 ft..\nAC 18, touch 14, flat-footed 13. Base attack +6, grapple +12. Space 10 ft., reach 10 ft. DR 10/—.\nAttack Slam +10 melee (2d6 + 2 plus 2d6 fire). Full attack 2 slams +10 melee (2d6 + 2 plus 2d6 fire each).\nFort +5, Ref +11, Will +2. Str 14, Dex 21, Con 16, Int 7, Wis 11, Cha 11. Listen +11, Spot +11.\nFeats include Dodge, Improved Initiative, Weapon Finesse. Advancement 9–15 HD, Large.",
+        "Huge tier": "Huge elemental (Fire, Mists). CR 7. 136 HP (16d8 + 64). Initiative +11. Speed 60 ft..\nAC 19, touch 15, flat-footed 12. Base attack +12, grapple +24. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +17 melee (2d8 + 4 plus 2d8 fire). Full attack 2 slams +17 melee (2d8 + 4 plus 2d8 fire each).\nFort +9, Ref +17, Will +5. Str 18, Dex 25, Con 18, Int 7, Wis 11, Cha 11. Listen +18, Spot +18.\nFeats include Alertness, Dodge, Combat Reflexes, Improved Initiative, Mobility, Weapon Finesse. Advancement 17–20 HD, Huge.",
+        "Greater tier": "Huge elemental (Fire, Mists). CR 9. 178 HP (21d8 + 84). Initiative +12. Speed 60 ft..\nAC 24, touch 16, flat-footed 16. Base attack +15, grapple +28. Space 15 ft., reach 15 ft. DR 10/—.\nAttack Slam +22 melee (1d8 + 7 plus 2d8 fire). Full attack 2 slams +22 melee (1d8 + 7 plus 2d8 fire each).\nFort +11, Ref +20, Will +7. Str 20, Dex 27, Con 18, Int 7, Wis 11, Cha 11. Listen +23, Spot +23.\nFeats include Alertness, Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Finesse, Weapon Focus (slam). Advancement 22–23 HD, Huge.",
+        "Elder tier": "Huge elemental (Fire, Mists). CR 11. 204 HP (24d8 + 96). Initiative +13. Speed 60 ft..\nAC 25, touch 17, flat-footed 16. Base attack +18, grapple +32. Space 15 ft., reach 15 ft. DR 15/—.\nAttack Slam +26 melee (2d8 + 6 plus 2d8 fire). Full attack 2 slams +26 melee (2d8 + 6 plus 2d8 fire each).\nFort +12, Ref +23, Will +8. Str 22, Dex 29, Con 18, Int 7, Wis 11, Cha 11. Listen +26, Spot +26.\nFeats include Combat Reflexes, Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Finesse. Advancement 25–48 HD, Huge.",
+        "Dread elemental rules": "Dread elementals understand speech and do not communicate. In Ravenloft, calling a standard elemental has a 20% chance to call a dread elemental instead. Summoning magic always produces the dread forms. An accidental dread elemental is uncontrolled and the Dark Powers supply its materials. Deliberate conjuring uses the matching material and the usual chance to break control. A dismissed dread elemental returns to the fabric of Ravenloft. Its Mists subtype lets it be summoned in any domain and makes it native throughout Ravenloft. The realm’s restrictions on calling do not break the calling pact for these elementals.",
+        "Encounter details": "Solitary, always neutral evil, no treasure. May appear in any environment.",
+        "Printed source": "pp. 63, 68–69. Mists subtype on p. 7."
+      },
+      "ruleNotes": [
+        "Burn’s explicit DC formula uses Dexterity. The next sentence calls it Constitution-based. Use the explicit formula at the table. The DCs are 12, 15, 19, 25, 28, and 31 in size-tier order. Using Constitution instead gives 11, 14, 17, 22, 24, and 26.",
+        "Burn does not state ongoing damage. Use the core 3.5 catching-on-fire damage of 1d6 fire per round until the printed 1d4-round duration ends or the victim extinguishes it. The listed Greater slam damage of 1d8 + 7 is intentional here."
+      ]
+    }
+  }
+]

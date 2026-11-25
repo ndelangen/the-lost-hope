@@ -1,0 +1,24 @@
+{
+  "baseline": "60f34159cf4c608b586e243bd30c40f7c18b2684",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Dvati"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Dragon Compendium, Volume I (2005)",
+  "twinHitPointsActionsAndSharedCastingVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Dragon Compendium, Volume I (2005)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

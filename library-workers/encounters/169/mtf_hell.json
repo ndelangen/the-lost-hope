@@ -1,0 +1,483 @@
+[
+  {
+    "name": "Graz’zt",
+    "statBlock": {
+      "name": "Graz’zt",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Large fiend (demon, shapechanger), chaotic evil",
+      "ac": 20,
+      "hp": 346,
+      "hitDice": "33d10 + 165",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 23
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 26
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 22,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The Dark Prince rules from his Argent Palace in Zelatar. His cultists hide behind ornate masks, gather secrets, and turn other people’s appetites against them. He carries the acid-slick greatsword Angdrelve, also called Wave of Sorrow.",
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 12,
+        "Wis": 12
+      },
+      "skills": {
+        "Deception": 15,
+        "Insight": 12,
+        "Perception": 12,
+        "Persuasion": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison. Bludgeoning, piercing, slashing that is nonmagical.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Traits": "Shapechanger. As an action, Graz’zt takes the form of a Medium humanoid or returns to his true form. Only his size changes. Worn and carried equipment keeps its form.\nLegendary Resistance (3/day). Graz’zt can turn a failed saving throw into a success.\nMagic Resistance. He has advantage on saves against spells and other magical effects.\nMagic Weapons. His weapon attacks are magical.",
+        "Innate Spellcasting": "Graz’zt casts with Charisma (spell save DC 23) without material components.\nAt will. Charm Person, Crown of Madness, Detect Magic, Dispel Magic, Dissonant Whispers.\n3/day each. Counterspell, Darkness, Dominate Person, Sanctuary, Telekinesis, Teleport.\n1/day each. Dominate Monster, Greater Invisibility.",
+        "Actions": "Multiattack. Make two Wave of Sorrow attacks.\nWave of Sorrow (Greatsword). Melee weapon attack, +13 to hit, reach 10 ft., one target. A hit deals 20 (4d6 + 6) slashing damage plus 10 (3d6) acid damage.\nTeleport. Graz’zt and his worn or carried equipment magically move up to 120 ft. to an unoccupied space he can see.",
+        "Legendary actions": "Graz’zt has 3 legendary actions and regains spent actions at the start of his turn. Use one option at a time at the end of another creature’s turn. Each option costs 1 action unless stated otherwise.\nAttack. Make one Wave of Sorrow attack.\nDance, My Puppet! One creature Graz’zt can see that he has charmed must spend its reaction to move up to its speed as he directs.\nSow Discord. Cast Crown of Madness or Dissonant Whispers.\nTeleport. Use the Teleport action.",
+        "Lair actions": "On initiative count 20, after all creatures tied at that count, Graz’zt can choose one option. He cannot choose the same option two rounds in a row.\nCommand. He casts Command on any number of creatures he knows are in his lair, whether or not he can see them. All targets receive the same command.\nMirrored surfaces. Smooth surfaces in the lair turn mirrorlike. Creatures there have disadvantage on Dexterity (Stealth) checks to hide until Graz’zt uses a different lair action.",
+        "Regional effects": "Flat stone or metal surfaces within 1 mile of the lair become smooth enough to give mirrorlike reflections.\nWild beasts within 6 miles fight and mate more often, as in their mating season.\nA humanoid who spends at least 1 hour within 1 mile of the lair makes a DC 23 Wisdom save. On a failure, roll on the Madness of Graz’zt table. A success grants 24 hours of immunity to this regional effect.\nThe effects fade over 1d10 days after Graz’zt dies.",
+        "Madness of Graz’zt": "If a creature goes mad in the lair or within sight of Graz’zt, roll d100. The resulting flaw lasts until cured.\n01–20. Obsesses over their reflection and looks down on anyone who fails to admire them.\n21–40. Treats sex as the answer to every problem and cannot see why others disagree.\n41–60. Craves pleasurable food and other substances and will do anything to get more.\n61–80. Passes along rumors without caring if they are true.\n81–90. Feels compelled to devise elaborate rites of debauchery to honor Graz’zt.\n91–100. Believes that anyone who defies their orders deserves misery.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 148–149."
+      }
+    }
+  },
+  {
+    "name": "Green Abishai",
+    "statBlock": {
+      "name": "Green Abishai",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 162,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 187,
+      "hitDice": "25d8 + 75",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A green abishai uses illusion and charm to put rivals at odds. It works on behalf of Tiamat and can hide its influence behind a different face.",
+      "savingThrows": {
+        "Int": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Deception": 9,
+        "Insight": 6,
+        "Perception": 6,
+        "Persuasion": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic, Infernal, telepathy 120 ft.",
+        "Traits": "Devil’s Sight. Magical darkness does not block the abishai’s darkvision.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.",
+        "Innate Spellcasting": "The abishai casts with Charisma (spell save DC 17) without material components.\nAt will. Alter Self, Major Image.\n3/day each. Charm Person, Detect Thoughts, Fear.\n1/day each. Confusion, Dominate Person, Mass Suggestion.",
+        "Actions": "Multiattack. Make one Claws and one Longsword attack, or cast one innate spell and make one Claws attack.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) with two hands.\nClaws. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 12 (2d8 + 3) piercing damage. A creature hit makes a DC 16 Constitution save. On a failure, it also takes 11 (2d10) poison damage and is poisoned for 1 minute. It can repeat the save at the end of each of its turns and ends the condition on a success.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 162."
+      }
+    }
+  },
+  {
+    "name": "Hellfire Engine",
+    "statBlock": {
+      "name": "Hellfire Engine",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 165,
+      "classification": "Huge construct, lawful evil",
+      "ac": 18,
+      "hp": 216,
+      "hitDice": "16d12 + 112",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Infernal generals hold these siege engines in reserve for large incursions. An engine that breaks loose attacks until it runs out of targets.",
+      "savingThrows": {
+        "Dex": 8,
+        "Wis": 5,
+        "Cha": 0
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, psychic. Bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, deafened, exhaustion, frightened, paralyzed, poisoned, unconscious.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Infernal but cannot speak.",
+        "Traits": "Immutable Form. Spells and effects cannot change the engine’s form.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nConstructed Nature. The engine needs no air, food, drink, or sleep.",
+        "Actions": "Flesh-Crushing Stride. The engine moves up to its speed in a straight line and can cross the spaces of Large or smaller creatures. Each creature whose space it enters makes a DC 18 Dexterity save. A success pushes the creature to the nearest space outside the engine’s path. A failure deals 28 (8d6) bludgeoning damage and knocks the creature prone. If the engine stays in the prone creature’s space, the creature is restrained until they no longer share that space. The restrained creature or somebody within 5 ft. of it can make a DC 18 Strength check. On a success, the creature moves to an open space it chooses within 5 ft. of the engine and is no longer restrained.\nHellfire Weapons. Choose one weapon option below. If it kills a creature, that creature’s soul rises from the River Styx as a lemure in Avernus in 1d4 hours. After that, restoring the victim to life requires Wish, or killing the lemure and casting True Resurrection on the original body. Constructs and devils are immune to the soul effect.\nBonemelt Sprayer. Each creature in a 60-ft. cone makes a DC 20 Dexterity save, taking 11 (2d10) fire damage plus 18 (4d8) acid damage on a failure or half as much on a success. On a failure, burning residue also deals 5 (1d10) fire damage plus 9 (2d8) acid damage at the end of each of its turns until it or another creature within 5 ft. uses an action to scrape the residue off.\nLightning Flail. Melee weapon attack, +11 to hit, reach 15 ft., one creature. A hit deals 18 (3d8 + 5) bludgeoning damage plus 22 (5d8) lightning damage. Up to three other creatures the engine can see within 30 ft. of the target make DC 20 Dexterity saves, each taking 22 (5d8) lightning damage on a failure or half as much on a success.\nThunder Cannon. Choose a visible point within 120 ft. Each creature within 30 ft. of that point makes a DC 20 Dexterity save, taking 27 (5d10) bludgeoning damage plus 13 (2d12) thunder damage on a failure or half as much on a success.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 165, with the official Flesh-Crushing Stride erratum."
+      }
+    }
+  },
+  {
+    "name": "Howler",
+    "statBlock": {
+      "name": "Howler",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Large fiend, chaotic evil",
+      "ac": 16,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Howlers come from Pandemonium. Fiends train them as war hounds, then loose the pack to pin down enemies with a howl before closing in.",
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Condition immunities": "Frightened.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Abyssal but cannot speak.",
+        "Traits": "Pack Tactics. The howler has advantage on attacks against a creature if an ally that is not incapacitated is within 5 ft. of that creature.",
+        "Actions": "Multiattack. Make two Rending Bite attacks.\nRending Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) piercing damage plus 22 (4d10) psychic damage if the target is frightened. The attack ignores damage resistance.\nMind-Breaking Howl (Recharge 6). Each creature in a 60-ft. cone that is not deafened makes a DC 16 Wisdom save. On a failure, it is frightened until the end of the howler’s next turn. While frightened by this howl, it moves at half speed and is incapacitated. A successful save grants immunity to Mind-Breaking Howl from all howlers for 24 hours.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 210."
+      }
+    }
+  },
+  {
+    "name": "Hutijin",
+    "statBlock": {
+      "name": "Hutijin",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 175,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 19,
+      "hp": 200,
+      "hitDice": "16d10 + 112",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 23
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 21,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Hutijin commands Mephistopheles’s pit fiends in Cania. He resents mortals who summon him and may come after a summoner once their bargain ends.",
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 14,
+        "Wis": 11
+      },
+      "skills": {
+        "Intimidation": 14,
+        "Perception": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Traits": "Infernal Despair. Creatures within 15 ft. of Hutijin have disadvantage on saving throws. Devils are exempt.\nLegendary Resistance (3/day). Hutijin can turn a failed saving throw into a success.\nMagic Resistance. He has advantage on saves against spells and other magical effects.\nMagic Weapons. His weapon attacks are magical.\nRegeneration. Hutijin recovers 20 HP at the start of his turn. Taking radiant damage prevents this recovery at the start of his next turn. He dies only if he starts his turn at 0 HP and fails to regenerate.",
+        "Innate Spellcasting": "Hutijin casts with Charisma (spell save DC 22) without material components.\nAt will. Alter Self (may become Medium when changing appearance), Animate Dead, Detect Magic, Hold Monster, Invisibility (self only), Lightning Bolt, Suggestion, Wall of Fire.\n3/day. Dispel Magic.\n1/day each. Heal, Symbol (hopelessness only).",
+        "Actions": "Multiattack. Make one Bite, one Claw, one Mace, and one Tail attack.\nBite. Melee weapon attack, +15 to hit, reach 5 ft., one target. A hit deals 15 (2d6 + 8) piercing damage. The target makes a DC 22 Constitution save. On a failure, it is poisoned and cannot regain HP. It takes 10 (3d6) poison damage at the start of each of its turns and can repeat the save at the end of each of its turns to end the effect.\nClaw. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 17 (2d8 + 8) slashing damage.\nMace. Melee weapon attack, +15 to hit, reach 5 ft., one target. A hit deals 15 (2d6 + 8) bludgeoning damage.\nTail. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 19 (2d10 + 8) bludgeoning damage.\nTeleport. Hutijin and his equipment magically move up to 120 ft. to an unoccupied space he can see.",
+        "Reactions": "Fearful Voice (Recharge 5–6). When Hutijin takes damage, each creature within 30 ft. of him other than a devil makes a DC 22 Wisdom save. On a failure, it is frightened of him for 1 minute. An affected creature can repeat the save at the end of each of its turns, ending the effect on a success. A successful save grants immunity to Hutijin’s Fearful Voice for 24 hours.",
+        "Legendary actions": "Hutijin has 3 legendary actions and regains spent actions at the start of his turn. Use one option at a time at the end of another creature’s turn. Each option costs 1 action unless stated otherwise.\nAttack. Make one Mace attack.\nLightning Storm (2 actions). Each other creature within 20 ft. of Hutijin makes a DC 22 Dexterity save, taking 18 (4d8) lightning damage on a failure or half as much on a success.\nTeleport. Use the Teleport action.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 175."
+      }
+    }
+  },
+  {
+    "name": "Hydroloth",
+    "statBlock": {
+      "name": "Hydroloth",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 249,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 15,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "20 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Hydroloths make their home in the River Styx. They steal memories for their employers and take contracts to recover sunken objects, sink ships, or raid coastlines.",
+      "skills": {
+        "Insight": 4,
+        "Perception": 4
+      },
+      "sections": {
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Cold, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Traits": "Amphibious. The hydroloth breathes air and water.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nSecure Memory. The hydroloth is immune to the River Styx and to effects that steal or change memories or detect or read its thoughts.\nWatery Advantage. It has advantage on attack rolls while submerged in liquid.",
+        "Innate Spellcasting": "The hydroloth casts with Intelligence (spell save DC 16) without material components.\nAt will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Water Walk.\n3/day each. Control Water, Crown of Madness, Fear, Phantasmal Killer, Suggestion.",
+        "Actions": "Multiattack. Make two melee attacks. The hydroloth can replace one attack with an innate spell that takes one action to cast.\nClaws. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) slashing damage.\nBite. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 16 (2d10 + 5) piercing damage.\nSteal Memory (1/day). Choose one visible creature within 60 ft. The target takes 4d6 psychic damage and makes a DC 16 Intelligence save. A success grants immunity to this hydroloth’s Steal Memory for 24 hours. On a failure, the target loses all proficiencies and the ability to cast spells or understand language. If both its Intelligence and Charisma scores are above 5, both become 5. The target can repeat the save at the end of each long rest, ending the effect on a success. Greater Restoration or Remove Curse also ends it.\nTeleport. The hydroloth and its equipment magically move up to 60 ft. to an unoccupied space it can see.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 249."
+      }
+    }
+  },
+  {
+    "name": "Infernal Cambion",
+    "statBlock": {
+      "name": "Infernal Cambion",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 21,
+      "classification": "Medium fiend, any evil alignment",
+      "ac": 19,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Zariel and Geryon sometimes spawn cambions to lead their followers in battle. This variant can direct an ally to strike harder and hold its ground.",
+      "savingThrows": {
+        "Str": 7,
+        "Con": 6,
+        "Int": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Deception": 6,
+        "Intimidation": 6,
+        "Perception": 4,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Scale mail. The listed AC includes Fiendish Blessing.",
+        "Damage resistances": "Cold, fire, lightning and poison. Also bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Infernal.",
+        "Traits": "Fiendish Blessing. The cambion adds its Charisma bonus to AC. The bonus is already included in its listed AC.",
+        "Innate Spellcasting": "The cambion casts with Charisma (spell save DC 14) without material components.\n3/day each. Alter Self, Command, Detect Magic.\n1/day. Plane Shift (self only).",
+        "Actions": "Multiattack. Make two melee attacks or use Fire Ray twice.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) when wielded in two hands for a melee attack. Add 3 (1d6) fire damage either way.\nFire Ray. Ranged spell attack, +7 to hit, range 120 ft., one target. A hit deals 10 (3d6) fire damage.",
+        "Bonus actions": "Fury of the Nine. Choose another creature within 120 ft. that can see or hear the cambion. It has advantage on attack rolls and saving throws for up to 1 minute. The effect ends early if the cambion uses Fury of the Nine again.",
+        "Infernal patron options": "Use the listed spells for the standard Fury of the Nine profile. To customize an infernal cambion, the DM can replace an innate spell with a same-level signature spell from the parent’s cult. The cambion can cast each replacement once per day. A cambion tied to a specific archdevil typically also gains the traits that devil gives its cultists. Fury of the Nine replaces Fiendish Charm for the Zariel and Geryon examples.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 21, Infernal Cambions, using the base Cambion from Monster Manual (2014), p. 36."
+      }
+    }
+  },
+  {
+    "name": "Iron Cobra",
+    "statBlock": {
+      "name": "Iron Cobra",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 125,
+      "classification": "Medium construct, unaligned",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The cobra slips ahead of other clockworks. Its bite can poison an intruder, freeze them in place, or turn them against their companions.",
+      "skills": {
+        "Stealth": 7
+      },
+      "sections": {
+        "Damage immunities": "Poison. Bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands one language of its creator but cannot speak.",
+        "Traits": "Magic Resistance. The cobra has advantage on saves against spells and other magical effects.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. A creature hit makes a DC 13 Constitution save. Roll 1d3 for the poison effect on a failure.\n1. Poison Damage. The target takes 13 (3d8) poison damage.\n2. Confusion. On its next turn, the target uses its action for one weapon attack against a random creature it can see within 30 ft. It uses the weapon it is holding and moves into range if necessary. If it has no weapon in hand, it makes an unarmed strike. If it sees no creature within 30 ft., it uses Dash and moves toward the nearest creature.\n3. Paralysis. The target is paralyzed until the end of its next turn.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 125."
+      }
+    }
+  }
+]

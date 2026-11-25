@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Dinosaur, Velociraptor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 13,
+    "hp": 25,
+    "speed": "30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Fixed Perception 13, Stealth 14. Modifiers STR −2, DEX +4, CON +1, INT −3, WIS +1, CHA −2. Natural armor. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small feathered predator with tawny plumage, a pointed snout, splayed forelimb feathers and a long stiff tail.",
+    "habitats": [
+      "Forest",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 111, Velociraptor. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Hardy. A critical hit against the velociraptor counts as a normal hit.\nPack Tactics. It has advantage on attacks against a creature when one of its non-incapacitated allies is within 5 ft. of that creature.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) piercing damage. A Medium or smaller creature hit this way becomes grappled, escape DC 12. It is restrained for the duration of the grapple. The velociraptor cannot Bite another target while this grapple lasts.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) slashing damage.\nMaul. A creature the velociraptor is grappling makes a DC 12 Strength save. It takes 10 (4d4) slashing damage on failure or half on success."
+    }
+  },
+  {
+    "name": "Eagle",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 14, Stealth 11. Modifiers STR −2, DEX +1, CON +0, INT −4, WIS +2, CHA −2. Vulnerable to blinded. Disadvantage on checks and saves to avoid or end that condition. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact white-headed eagle with dark brown wings, a strongly hooked beak and golden grasping feet.",
+    "habitats": [
+      "Coastal",
+      "Grassland",
+      "Hills",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 332, Águila. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Sight. Perception is 19 when using sight.\nSeabird. The eagle can swim up to 30 ft. on its turn. It must begin and end its movement in flight or on a solid surface, such as a ship or shore. If still swimming at the end of its turn, it makes a DC 10 Constitution save. On a failure it starts sinking and suffocates immediately. While suffocating, it must pass a DC 8 Strength check to fly out of the substance it is sinking in.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit for 3 (1d4 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Eagle, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 13,
+    "hp": 40,
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Fixed Perception 14, Stealth 13. Modifiers STR +3, DEX +3, CON +1, INT −1, WIS +2, CHA +0. Vulnerable to blinded. Disadvantage on checks and saves to avoid or end that condition. No listed special senses. Speaks Giant Eagle and understands Common and Auran without speaking them.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large brown-and-cream raptor with outspread dark wings, a pale head and strong yellow talons.",
+    "habitats": [
+      "Coastal",
+      "Grassland",
+      "Hills",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 332–333, Águila Gigante. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Sight. Perception is 19 when using sight.\nSeabird. The eagle can swim up to 40 ft. on its turn. It must begin and end its movement in flight or on a solid surface, such as a ship or shore. If still swimming at the end of its turn, it makes a DC 11 Constitution save. On a failure it starts sinking and suffocates immediately. While suffocating, it must pass a DC 13 Strength check to fly out of the substance it is sinking in.",
+      "Actions": "Multiattack. Make one Beak and two Talons attacks.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 10 (2d6 + 3) slashing damage. A Medium or smaller creature hit this way becomes grappled, escape DC 13. It is restrained for the duration of the grapple. The eagle cannot use Talons against another target while this grapple lasts."
+    }
+  },
+  {
+    "name": "Elephant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 12,
+    "hp": 105,
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "otherStatistics": "Fixed Perception 12, Stealth 9. Modifiers STR +5, DEX −1, CON +3, INT −4, WIS +0, CHA −2. Natural armor. Resistant to prone, granting advantage on checks and saves to avoid or end it. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A gray elephant with wide ears, a wrinkled trunk, curved ivory tusks and broad feet.",
+    "habitats": [
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 341, Elefante. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore on that turn. The creature must pass a DC 15 Strength save or fall prone. If the target is prone, the elephant can make one Stomp against it as a bonus action.",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit for 16 (2d10 + 5) piercing damage.\nStomp. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit for 14 (2d8 + 5) bludgeoning damage.",
+      "Bonus actions": "Trunk Grab. One Large or smaller creature within 10 ft. must pass a DC 15 Strength save or become grappled, escape DC 15. The elephant can grapple one creature at a time."
+    }
+  },
+  {
+    "name": "Elk",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 10,
+    "hp": 15,
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Fixed Perception 10, Stealth 10. Modifiers STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −2. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tall tawny elk with a dark neck and a broad set of branching antlers.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 333, Alce. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on that turn. The target takes an extra 3 (1d6) bludgeoning damage. A creature hit this way must pass a DC 12 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) bludgeoning damage.\nKick. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) bludgeoning damage. The target must pass a DC 12 Strength save or be pushed up to 10 ft. away from the elk."
+    }
+  }
+]

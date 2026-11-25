@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Wemic",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "monsterSearch": false,
+    "global": true,
+    "version": {
+      "key": "aa6e65d3c64e48a910ce4df9",
+      "publication": "Races of Faerûn (2003)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books?id=yjoCAAAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Monstrous Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Large Monstrous Humanoid. +8 Strength, +2 Dexterity, +2 Constitution, −2 Charisma. Land speed 40 ft. Darkvision 60 ft. and +4 natural armor.",
+            "Large size imposes −1 on attacks and AC, −4 to Hide, and grants +4 on grapple checks. Space 10 ft., reach 5 ft. The player entry specifies twice Medium lifting and carrying limits.",
+            "+8 racial bonus on Jump. A 40-ft. land speed adds another +4 under the core Jump rule. Jumping is part of movement. A running jump needs 20 ft. of run-up, or the DC doubles.",
+            "Two front claws are natural weapons that deal 1d6 piercing and slashing damage each before Strength. With a one-handed weapon, the player entry allows one secondary claw at −5 on the attack roll and half the Strength bonus to damage.",
+            "Proficient with all simple weapons and shields.",
+            "Five racial Hit Dice (5d8) grant BAB +5, base Fortitude +1, Reflex +4, Will +4, and two feats. Racial skill points are eight times (2 + Intelligence modifier), minimum 1 point per Hit Die before the first-Hit-Die multiplier. Racial class skills are Hide, Jump, Listen, Move Silently, Spot, and Survival.",
+            "A wemic can select Spirited Charge or Trample without meeting the normal prerequisites and apply the feat to its own melee attacks, as the player entry describes.",
+            "Common and Sylvan are automatic. Bonus languages are by region. Favored class Barbarian. LA +3 gives ECL 8 before class levels.",
+            "This profile uses the 2003 player rules and the 2004 conversion’s space and reach. The earlier monster entry has a different weapon-and-claw routine."
+          ]
+        },
+        {
+          "title": "Original NPC · Tavaro Sunmane",
+          "lines": [
+            "Gully guide and scout.",
+            "Motive. Secure a rope across the gap before the water rises.",
+            "Hook. Tavaro points out a flat approach to the far-side anchor.",
+            "Wemic gully guide, racial Hit Dice only · Provisional CR 3. ECL 8 (5 racial HD, LA +3). · Large Monstrous Humanoid",
+            "AC 15 · HP 41 (5d8+15) · Speed 40 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Nasha Reedstep",
+          "lines": [
+            "Ford guard and Barbarian.",
+            "Motive. Keep the approach clear until the crew reaches the other bank.",
+            "Hook. Nasha waits on the wider bank where there is room to turn.",
+            "Wemic ford guard, Barbarian 1 · Provisional CR 4. ECL 9 (5 racial HD, 1 class HD, LA +3). · Large Monstrous Humanoid",
+            "AC 19 · HP 51 (5d8+1d12+18) · Speed 50 ft. with fast movement; base 40 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Tavaro Sunmane": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Tavaro Sunmane",
+              "group": "Wemic",
+              "publication": "Wemic gully guide, racial Hit Dice only",
+              "local": {
+                "entry": "npc-1e58137f4a19d74efdd39b22",
+                "version": "4751ed80dda7ff245399c8ab"
+              }
+            }
+          }
+        ],
+        "Original NPC · Nasha Reedstep": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Nasha Reedstep",
+              "group": "Wemic",
+              "publication": "Wemic ford guard, Barbarian 1",
+              "local": {
+                "entry": "npc-3eaf6a72593c2948e5153065",
+                "version": "56cef495936bdbc997f13aa5"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Wemic": true,
+      "wemic jump": true,
+      "wemic secondary claw": true,
+      "wemic gully guide": true,
+      "wemic ford guard": true
+    },
+    "hash": "ba9995652ada33c488c4e5adbf2e505c2a232a8d6cd8803e170b068c7d336018",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Faerûn (2003)",
+    "defaultVersionKey": "aa6e65d3c64e48a910ce4df9",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

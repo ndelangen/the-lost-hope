@@ -1,0 +1,2508 @@
+{
+  "baseline": "e1116fb5d00c140701d3e80980034189ecb054fd",
+  "species": 50,
+  "profiles": 50,
+  "canonicalGroups": 49,
+  "groupedLineages": 7,
+  "newCatalogRows": 50,
+  "existingMetadataEnriched": 0,
+  "npcBuilds": 50,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Brownie",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_a",
+      "parentSpecies": null,
+      "aliases": "PC1 woodland Brownie, with its Redcap option under the same claim. Keep unrelated Redcap monsters separate.",
+      "npcs": [
+        "Hob Reedstitch"
+      ],
+      "portrait": "parts/five_wee_a/portraits/brownie.png",
+      "source": {
+        "name": "Brownie",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "kind": "species",
+        "publisher": "TSR, Inc.",
+        "type": "Fairy",
+        "url": "",
+        "page": "DM’s booklet pp. 4, 5, 6, 25, 27, 28, 29, 47, 48, 49",
+        "printedPages": [
+          4,
+          5,
+          6,
+          25,
+          27,
+          28,
+          29,
+          47,
+          48,
+          49
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 2,
+        "foldoutPdfPages": [
+          101
+        ],
+        "sourceDistinctions": [
+          "The Redcap section belongs to Brownie. The sample is an ordinary brownie and carries no restricted magic item.",
+          "Use Table 9 in the foldout to confirm the level-1 XP, Hit Dice and item odds."
+        ],
+        "supportingSources": [
+          {
+            "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+            "url": ""
+          },
+          {
+            "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brute-Man",
+      "publication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_hollow_a",
+      "parentSpecies": null,
+      "aliases": "Brute-Man / Brute-Men of Hollow World. Separate from PHBR10 Beastman.",
+      "npcs": [
+        "Gat-Kor"
+      ],
+      "portrait": "parts/five_hollow_a/portraits/brute-man.png",
+      "source": {
+        "name": "Brute-Man",
+        "publication": "Hollow World Campaign Set (1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          31,
+          32
+        ],
+        "pdfPages": [
+          33,
+          34
+        ],
+        "primaryBook": "Hollow World Campaign Set, Book Two, Player’s Guide, TSR 1054, 1990",
+        "supportingSources": {
+          "boxedSetRules": {
+            "url": "",
+            "rules": "Player’s Guide pp. 6–8, 10–20. Warrior-elf and optional shaman or wokan apprenticeship, common language, arms, technology, and General Skills."
+          },
+          "coreRules": {
+            "url": "",
+            "rules": "Ability modifiers p. 9, weapons pp. 62–63 and 65–66, armor p. 67, movement pp. 87–88, initiative pp. 102–103, attack matrix p. 106, missile modifiers p. 108, saving throws p. 109."
+          }
+        },
+        "sourceDistinctions": [
+          "This is the Hollow World Neanderthal race-class.",
+          "The Player’s Guide provides Brute-Man saves and does not print an attack matrix. The worked 1st-level NPC uses the standard 1st-level character attack values.",
+          "Natural-looking concealed construction qualifies for the 1–3 on d6 detection. The example’s flaked stone spear uses the standard spear damage. Player’s Guide p. 11 gives equal damage for weapons of stone, bronze, iron and steel."
+        ]
+      }
+    },
+    {
+      "name": "Dark Stalker",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "five_fiend",
+      "parentSpecies": null,
+      "aliases": "Dark Stalker. Dark One is a family heading. Dark Creeper stays outside this claim.",
+      "npcs": [
+        "Venn Ashveil"
+      ],
+      "portrait": "parts/five_fiend/portraits/dark-stalker.png",
+      "source": {
+        "name": "Dark Stalker",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid",
+        "url": "",
+        "page": "pp. 37–39",
+        "printedPages": [
+          37,
+          38,
+          39
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "Dark One is the family heading. This profile uses the Dark Stalker rules and excludes Dark Creeper.",
+          "The NPC uses the dedicated p. 39 PC example for ECL and retains all three racial Hit Dice. The stat-block label yields a different result under p. 11. The build records Dark One as the spoken language and Undercommon as understood only.",
+          "The cloak has a listed daily frequency and miss chances. The example uses a standard action and a ten-round duration because the entry supplies neither an activation action nor a duration."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), building a monster character, pp. 5–13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Rogue",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+          },
+          {
+            "name": "3.0 SRD, Fog Cloud",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Fog_Cloud"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Draconian",
+      "publication": "Dragonlance Campaign Setting (2003)",
+      "edition": "3.5 edition",
+      "owner": "five_ansalon_b",
+      "parentSpecies": null,
+      "aliases": "One Draconian profile with Baaz and Kapak options. Separate from Spelljammer Dracon, Dracotaur and Dragonborn.",
+      "npcs": [
+        "Bress Tarn"
+      ],
+      "portrait": "parts/five_ansalon_b/portraits/draconian.png",
+      "source": {
+        "name": "Draconian",
+        "kind": "species",
+        "publication": "Dragonlance Campaign Setting (2003)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Dragon",
+        "url": "",
+        "pages": "pp. 33–37, Baaz and Kapak Racial Traits, and p. 217 for the Baaz CR benchmark",
+        "evidence": "Viewer pages 34–38 and 218. One profile covers the two playable options from Chapter 1. Bress uses the Baaz option and the 3.5 fighter class. His CR is an estimate based on the printed Baaz benchmark.",
+        "additionalSources": [
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, creature statistics and natural weapons",
+            "url": "https://www.d20srd.org/srd/monsters/intro.htm"
+          },
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, special attacks and grappling",
+            "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+          },
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, weapon statistics",
+            "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+          },
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, Fighter",
+            "url": "https://www.d20srd.org/srd/classes/fighter.htm"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dragonkin",
+      "publication": "Midgard Heroes (2015)",
+      "edition": "Fifth edition compatible",
+      "owner": "five_kobold",
+      "parentSpecies": null,
+      "aliases": "One Midgard Dragonkin profile across printed Elemental Kinds. Distinct from Dragonborn.",
+      "npcs": [
+        "Karrash Emberseal"
+      ],
+      "portrait": "parts/five_kobold/portraits/dragonkin.png",
+      "source": {
+        "name": "Dragonkin",
+        "kind": "species",
+        "publication": "Midgard Heroes (2015)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press / Open Design",
+        "heading": "Dragonkin Traits and the five subrace entries",
+        "printedPages": [
+          5,
+          6
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "The 2015 Open Design original has four elemental kinds and the mixed-heritage Edjet option in one player profile.",
+          "Karrash uses Flame. The profile is distinct from the core Dragonborn ancestry and the Pathfinder Advanced Races printing."
+        ],
+        "year": 2015,
+        "authors": [
+          "Dan Dillon"
+        ],
+        "url": "https://anyflip.com/usqxr/igmp/basic/",
+        "primaryBookText": "https://anyflip.com/usqxr/igmp/basic/",
+        "publisherSample": "",
+        "publisherPage": "https://koboldpress.com/kpstore/product/midgard-heroes-for-5th-edition/",
+        "npcExamples": [
+          "Karrash Emberseal"
+        ]
+      }
+    },
+    {
+      "name": "Dryad",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_a",
+      "parentSpecies": null,
+      "aliases": "PC1 dryad. Keep Hamadryad and later Dryad monster printings separate.",
+      "npcs": [
+        "Linden Veil"
+      ],
+      "portrait": "parts/five_wee_a/portraits/dryad.png",
+      "source": {
+        "name": "Dryad",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "kind": "species",
+        "publisher": "TSR, Inc.",
+        "type": "Woodland spirit",
+        "url": "",
+        "page": "DM’s booklet pp. 4, 5, 6, 9, 10, 47, 48",
+        "printedPages": [
+          4,
+          5,
+          6,
+          9,
+          10,
+          47,
+          48
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 2,
+        "foldoutPdfPages": [
+          101
+        ],
+        "sourceDistinctions": [
+          "Use the player dryad. The hamadryad and an attached or retired dryad use the soul-tree provisions.",
+          "A dash for the level-1 Hit Dice retains the 2d8 from the mature tier."
+        ],
+        "supportingSources": [
+          {
+            "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+            "url": ""
+          },
+          {
+            "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dust Goblin",
+      "publication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "five_kobold",
+      "parentSpecies": "Goblin",
+      "aliases": "Dust Goblin / dust goblins. Group under Goblin with its exact rules.",
+      "npcs": [
+        "Kethrek Flintstep"
+      ],
+      "portrait": "parts/five_kobold/portraits/dust-goblin.png",
+      "source": {
+        "name": "Dust Goblin",
+        "kind": "species",
+        "publication": "Unlikely Heroes (2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press / Open Design",
+        "heading": "Dust Goblin, Dust Goblin Traits and Twisted continuation",
+        "printedPages": [
+          8,
+          9,
+          10
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "This is the 2016 player ancestry. Group it under Goblin while keeping its own playable version and edition link.",
+          "Twisted uses the attack trigger, so Kethrek applies the save even when the attack misses. The trait has no printed use limit.",
+          "The 2014 duplicate proficiency rule lets Kethrek replace the overlap between racial Survival and background Survival with Nature."
+        ],
+        "year": 2016,
+        "authors": [
+          "Dan Dillon",
+          "Wolfgang Baur"
+        ],
+        "url": "https://anyflip.com/lphgc/hojw/basic",
+        "primaryBookText": "https://www.scribd.com/document/424641862/Unlikely-Heroes",
+        "publisherPage": "https://koboldpress.com/kpstore/product/unlikely-heroes-for-5th-edition/",
+        "npcExamples": [
+          "Kethrek Flintstep"
+        ]
+      }
+    },
+    {
+      "name": "Faenare",
+      "publication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_ballista_a",
+      "parentSpecies": null,
+      "aliases": "Serraine’s singing birdfolk. Faenare is unchanged in the plural.",
+      "npcs": [
+        "Teren Amberwake"
+      ],
+      "portrait": "parts/five_ballista_a/portraits/faenare.png",
+      "source": {
+        "name": "Faenare",
+        "edition": "Basic D&D (BECMI)",
+        "publication": "Top Ballista (PC2, 1989)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "page": "Background Booklet pp. 6–10, Table 3 and the Faenare combat and windsinger rules",
+        "pdfPages": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "notes": [
+          "Background Booklet p. 6 supplies 120 ft (40 ft) ground and 360 ft (120 ft) flight, natural attacks and the mature racial defenses. Table 3 sets Teren at 0 XP with 2d8, natural AC 6 and two first-level slots.",
+          "P. 5 uses actual Hit Dice for a low-level creature hero’s save bracket. The ordinary p. 6 monster listing uses Elf 3. Both Elf 2 and Elf 3 have the same target numbers in Mentzer Basic.",
+          "PC2 calls the lightning protection permanent but leaves the Companion spell’s level-based damage allowance and refresh unspecified. Use a continuing ward that absorbs two dice per separate lightning attack for this 2 HD NPC. Treat a continuing lightning effect as the same attack.",
+          "The windsinger prepares one windsong and one clerical healing spell in the two first-level slots. The double Singing skill allocation applies when using general skills."
+        ],
+        "supportingSources": [
+          {
+            "title": "D&D Set 1 Basic Rules, Frank Mentzer revision (TSR, 1983)",
+            "url": "",
+            "locator": "Players Manual pp. 23–26, 39–50 and 59–61; Dungeon Masters Rulebook, Combat, Saving Throws and Gnome entry"
+          },
+          {
+            "title": "D&D Expert Rules, Frank Mentzer revision (TSR, 1983)",
+            "url": "https://anyflip.com/cmjgl/slsb/basic",
+            "locator": "Monster Hit Rolls and character saving throw tables; reversible spells and missile ranges"
+          },
+          {
+            "title": "D&D Rules Cyclopedia (TSR, 1991)",
+            "url": "",
+            "locator": "Equipment, Weapons Table, for base weapon dice and indoor ranges"
+          },
+          {
+            "title": "D&D Companion Rules (TSR, 1984)",
+            "url": "https://anyflip.com/myubd/trdu/basic",
+            "locator": "Players Companion, Druid spell access and Protection from Lightning"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Faun",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_a",
+      "parentSpecies": "Satyr",
+      "aliases": "PC1 calls fauns satyrs and older fauns sileni. Link the exact Faun printing under Satyr.",
+      "npcs": [
+        "Fen Alderpipe"
+      ],
+      "portrait": "parts/five_wee_a/portraits/faun.png",
+      "source": {
+        "name": "Faun",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "kind": "species",
+        "publisher": "TSR, Inc.",
+        "type": "Woodland being",
+        "url": "",
+        "page": "DM’s booklet pp. 4, 5, 6, 11, 12, 13, 47, 48",
+        "printedPages": [
+          4,
+          5,
+          6,
+          11,
+          12,
+          13,
+          47,
+          48
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 2,
+        "foldoutPdfPages": [
+          2
+        ],
+        "sourceDistinctions": [
+          "The printed Faun creature class and Table 4 stay linked by their exact name. PC1 p. 11 also calls fauns satyrs and the oldest ones sileni. This edition-specific profile is grouped under the catalog’s Satyr species.",
+          "PC1 gives no numeric range or lingering duration for impulse music. The sample adjudicates audibility at the table and uses the Rod/Staff/Spell saving throw for both participants."
+        ],
+        "supportingSources": [
+          {
+            "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+            "url": ""
+          },
+          {
+            "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gremlin",
+      "publication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_ballista_a",
+      "parentSpecies": null,
+      "aliases": "PC2 gremlin, separate from PHBR10 Fremlin.",
+      "npcs": [
+        "Pip Tonguetack"
+      ],
+      "portrait": "parts/five_ballista_a/portraits/gremlin.png",
+      "source": {
+        "name": "Gremlin",
+        "edition": "Basic D&D (BECMI)",
+        "publication": "Top Ballista (PC2, 1989)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16
+        ],
+        "page": "Background Booklet pp. 13–16, Table 5 and the chaotic-aura, hiding, fumble and Leg Whip rules",
+        "pdfPages": [
+          6,
+          7,
+          8,
+          16,
+          17,
+          18,
+          19
+        ],
+        "notes": [
+          "Table 5 level 3 at 21,000 XP has 2d8+2, 14 ft aura, +1 enemy saves, −2 foe fumbles, 50% Hide in Crannies, +2 defense against mental/illusion magic and ability VI (Leg Whip). PC2’s Beazley combat notes supply ground move at 120 ft (40 ft per round).",
+          "Expert’s monster chart puts 2d8+2 in the 2+ to 3 bracket. Use two dice for Elf save progression, following PC2 p. 5 and the distinction between dice and flat HP.",
+          "Ability V lists the shorter jump distances as horizontal a second time. The paired horizontal and vertical labels in ability III support reading the second pair as vertical. Big and strong targets receive the ability’s +2 save bonus in addition to the normal tier bonus.",
+          "For the example unattended prop, 75% is the table’s simple-outcome benchmark. Interpret PC2’s natural-01 failure with an upper successful percentile interval."
+        ],
+        "supportingSources": [
+          {
+            "title": "D&D Set 1 Basic Rules, Frank Mentzer revision (TSR, 1983)",
+            "url": "",
+            "locator": "Players Manual pp. 23–26, 39–50 and 59–61; Dungeon Masters Rulebook, Combat, Saving Throws and Gnome entry"
+          },
+          {
+            "title": "D&D Expert Rules, Frank Mentzer revision (TSR, 1983)",
+            "url": "https://anyflip.com/cmjgl/slsb/basic",
+            "locator": "Monster Hit Rolls and character saving throw tables; reversible spells and missile ranges"
+          },
+          {
+            "title": "D&D Rules Cyclopedia (TSR, 1991)",
+            "url": "",
+            "locator": "Equipment, Weapons Table, for base weapon dice and indoor ranges"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gully Dwarf",
+      "publication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "owner": "five_dwarf_lineages",
+      "parentSpecies": "Dwarf",
+      "aliases": "Aghar / Gully Dwarf. Group under Dwarf with its exact Krynn profile.",
+      "npcs": [
+        "Nib Patchfoot"
+      ],
+      "portrait": "parts/five_dwarf_lineages/portraits/gully-dwarf.png",
+      "source": {
+        "name": "Gully Dwarf",
+        "publication": "Races of Ansalon (2007)",
+        "edition": "3.5 edition",
+        "publisher": "Margaret Weis Productions, Ltd.",
+        "url": "",
+        "heading": "Gully dwarves and Gully Dwarf Racial Traits",
+        "printedPages": [
+          42,
+          43,
+          44,
+          45
+        ],
+        "pdfPages": [
+          43,
+          44,
+          45,
+          46
+        ],
+        "creatureType": "Humanoid (Dwarf)",
+        "previousCatalogCoverage": "No exact-name catalog entry.",
+        "distinction": "The printed Aghar traits replace ordinary dwarf traits. Page 45 lists no level adjustment or racial Hit Dice. The build starts at Rogue 1 and uses the 3.5 general Small size rules, including +1 size AC.",
+        "supportingSources": [
+          {
+            "title": "3.5 SRD, Rogue",
+            "url": "https://www.d20srd.org/srd/classes/rogue.htm"
+          },
+          {
+            "title": "3.5 SRD, Armor",
+            "url": "https://www.d20srd.org/srd/equipment/armor.htm"
+          },
+          {
+            "title": "3.5 SRD, Weapons",
+            "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+          },
+          {
+            "title": "3.5 SRD, Combat Statistics",
+            "url": "https://www.d20srd.org/srd/combat/combatStatistics.htm"
+          },
+          {
+            "title": "3.5 SRD, Feats",
+            "url": "https://www.d20srd.org/srd/feats.htm#improvedInitiative"
+          },
+          {
+            "title": "3.5 SRD, Monsters and Class Levels",
+            "url": "https://www.d20srd.org/srd/improvingMonsters.htm#monstersAndClassLevels"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hagborn",
+      "publication": "Book of Heroic Races: Player Races 1 (2015)",
+      "edition": "Fifth edition compatible",
+      "owner": "five_heroic",
+      "parentSpecies": null,
+      "aliases": "Keep Green, Night and Sea Hagborn options together. Separate from the hag monster classes.",
+      "npcs": [
+        "Tessa Brack"
+      ],
+      "portrait": "parts/five_heroic/portraits/hagborn.png",
+      "source": {
+        "name": "Hagborn",
+        "publication": "Book of Heroic Races: Player Races 1 (2015)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Jon Brazer Enterprises",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [],
+        "heading": "Hagborn Racial Traits and Green, Night, and Sea Hagborn",
+        "sourceLocator": "Hagborn Racial Traits and Green, Night, and Sea Hagborn",
+        "primaryBookPreview": "",
+        "supportingSources": {
+          "openContentRules": "https://www.5esrd.com/database/race/hagborn",
+          "originalPublisherListing": "https://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-player-races-1-5e?lshst=collection",
+          "licensedConversion": "https://www.fantasygrounds.com/store/product.php?id=JBE04035E",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        },
+        "sourceDistinctions": "The 2015 publisher preview confirms publication and names, and declares racial traits open content. The Open Gaming Network reprint names and credits the same publication and gives the three subtypes and complete traits. The source pages themselves were outside the preview, so printed folios are unverified. The linked NPC is Sea Hagborn. It uses one claw attack per Attack action with a shield equipped, resolving the free-hand wording without inferring an extra attack."
+      }
+    },
+    {
+      "name": "Hsiao",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_a",
+      "parentSpecies": null,
+      "aliases": "Mystaran owl-like Hsiao, distinct from Aarakocra.",
+      "npcs": [
+        "Sedge of the Quiet Branch"
+      ],
+      "portrait": "parts/five_wee_a/portraits/hsiao.png",
+      "source": {
+        "name": "Hsiao",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "kind": "species",
+        "publisher": "TSR, Inc.",
+        "type": "Intelligent avian",
+        "url": "",
+        "page": "DM’s booklet pp. 4, 5, 6, 14, 15, 47, 48, 49, 59",
+        "printedPages": [
+          4,
+          5,
+          6,
+          14,
+          15,
+          47,
+          48,
+          49,
+          59
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 2,
+        "foldoutPdfPages": [
+          2
+        ],
+        "sourceDistinctions": [
+          "The PC1 page 15 table is the spell allotment. The level-1 sample keeps level-1 cleric saves regardless of its higher spellcasting progression."
+        ],
+        "supportingSources": [
+          {
+            "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+            "url": ""
+          },
+          {
+            "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hutaakan",
+      "publication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_hollow_a",
+      "parentSpecies": null,
+      "aliases": "Hutaakan / Hutaakans. Distinct from Lupin.",
+      "npcs": [
+        "Kisita"
+      ],
+      "portrait": "parts/five_hollow_a/portraits/hutaakan.png",
+      "source": {
+        "name": "Hutaakan",
+        "publication": "Hollow World Campaign Set (1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          36,
+          37
+        ],
+        "pdfPages": [
+          38,
+          39
+        ],
+        "primaryBook": "Hollow World Campaign Set, Book Two, Player’s Guide, TSR 1054, 1990",
+        "supportingSources": {
+          "boxedSetRules": {
+            "url": "",
+            "rules": "Player’s Guide pp. 6–8, 10–20. Warrior-elf and optional shaman or wokan apprenticeship, common language, arms, technology, and General Skills."
+          },
+          "coreRules": {
+            "url": "",
+            "rules": "Ability modifiers p. 9, weapons pp. 62–63 and 65–66, armor p. 67, movement pp. 87–88, initiative pp. 102–103, attack matrix p. 106, missile modifiers p. 108, saving throws p. 109. Thief skill table p. 22."
+          }
+        },
+        "sourceDistinctions": [
+          "The Player’s Guide gives Hutaakan class progression. The entry ends at printed p. 37.",
+          "The Hutaakan entry has its own saves and gives no attack matrix. The worked 1st-level NPC uses the standard 1st-level character attack values, including 19 against AC 0.",
+          "The racial stealth abilities use the first-level thief percentages. The staff is wielded two-handed."
+        ]
+      }
+    },
+    {
+      "name": "Kaorti",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "five_fiend",
+      "parentSpecies": null,
+      "aliases": "April 2003 player entry, including documented material-plane restrictions.",
+      "npcs": [
+        "Irix Vell"
+      ],
+      "portrait": "parts/five_fiend/portraits/kaorti.png",
+      "source": {
+        "name": "Kaorti",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Outsider (Evil, Extraplanar)",
+        "url": "",
+        "page": "pp. 108–110",
+        "printedPages": [
+          108,
+          109,
+          110
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "The example deliberately uses 2 outsider HD plus +2 adjustment, as supported by the p. 110 PC example, despite the resin-suit sidebar’s passing reference to ordinary 1-HD kaorti.",
+          "The April book prints an appearance-disguise name that differs from the 3.0 change self heading. This build uses the equivalent 3.0 visual-disguise operation.",
+          "Irix buys Light Armor Proficiency with the racial feat and takes the printed ribbon-dagger bonus proficiency. He keeps armor spell failure and has no animal familiar."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), building a monster character, pp. 5–13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Sorcerer",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Sorcerer"
+          },
+          {
+            "name": "3.0 SRD, Color Spray",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Color_Spray"
+          },
+          {
+            "name": "3.0 SRD, Ray of Enfeeblement",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Ray_of_Enfeeblement"
+          },
+          {
+            "name": "3.0 SRD, Change Self",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Change_Self"
+          },
+          {
+            "name": "3.0 SRD, Feather Fall",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Feather_Fall"
+          },
+          {
+            "name": "3.0 SRD, Reduce",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Reduce"
+          },
+          {
+            "name": "3.0 SRD, Spider Climb",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Spider_Climb"
+          },
+          {
+            "name": "3.0 SRD, Magic Missile",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Magic_Missile"
+          },
+          {
+            "name": "3.0 SRD, True Strike",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:True_Strike"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kender",
+      "publication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "owner": "five_ansalon_a",
+      "parentSpecies": null,
+      "aliases": "Keep true and afflicted options together under Kender. The separate Half-Kender is outside this claim.",
+      "npcs": [
+        "Nim Alderloop"
+      ],
+      "portrait": "parts/five_ansalon_a/portraits/kender.png",
+      "source": {
+        "name": "Kender",
+        "publication": "Races of Ansalon (2007)",
+        "edition": "3.5 edition",
+        "publisher": "Margaret Weis Productions",
+        "creatureType": "Humanoid (kender)",
+        "url": "",
+        "printedPages": [
+          144,
+          145,
+          146
+        ],
+        "pdfPageOffset": 1,
+        "heading": "Kender Racial Traits and Afflicted Kender Racial Traits",
+        "distinction": "This one player profile includes both true and afflicted kender. Half-kender and fifth-edition Kender have separate rules. The NPC is a true kender.",
+        "supportingSources": {
+          "coreClassEquipmentFeatsAndCombat": ""
+        }
+      }
+    },
+    {
+      "name": "Khaasta",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "five_fiend",
+      "parentSpecies": null,
+      "aliases": "Khaasta have their own player entry. Keep baseline Lizardfolk and other reptilian species separate.",
+      "npcs": [
+        "Keth Marr"
+      ],
+      "portrait": "parts/five_fiend/portraits/khaasta.png",
+      "source": {
+        "name": "Khaasta",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Monstrous Humanoid (Extraplanar, Reptilian)",
+        "url": "",
+        "page": "pp. 115–116",
+        "printedPages": [
+          115,
+          116
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "Khaasta is a standalone player profile. The combat paragraph explicitly allows a secondary bite while wielding a manufactured weapon.",
+          "The PC paragraph gives ECL 4 for a 1st-level fighter. Using the three printed racial Hit Dice leaves no additional adjustment for this example."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), building a monster character, pp. 5–13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Fighter",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Fighter"
+          },
+          {
+            "name": "3.0 SRD, Weapons",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapons"
+          },
+          {
+            "name": "3.0 SRD, Feats",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Feats"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kna",
+      "publication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_sea",
+      "parentSpecies": null,
+      "aliases": "Kna / knas. Use the merchant folk’s own player rules.",
+      "npcs": [
+        "Brasscrest Driftledger"
+      ],
+      "portrait": "parts/five_sea/portraits/kna.png",
+      "source": {
+        "name": "Kna",
+        "publication": "The Sea People (PC3, 1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "url": "",
+        "heading": "Kna, Creature Heroes",
+        "printedPages": [
+          4,
+          5,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          36
+        ],
+        "pdfViewerPages": [
+          35,
+          36,
+          47,
+          48,
+          49,
+          50,
+          51,
+          53,
+          67
+        ],
+        "distinction": "PC3 overrides standard heavy-crossbow damage and explicitly adds Strength to its damage. The ordinary Rules Cyclopedia attack modifier and reload cadence supply the rest.",
+        "supportingRules": [
+          {
+            "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+            "publisher": "TSR",
+            "url": "",
+            "printedPages": [
+              9,
+              32,
+              62,
+              63,
+              64,
+              65,
+              102,
+              107,
+              108,
+              109
+            ],
+            "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kogolor Dwarf",
+      "publication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_dwarf_lineages",
+      "parentSpecies": "Dwarf",
+      "aliases": "Kogolor Dwarf / Dwarves. Group under Dwarf with the Hollow World version.",
+      "npcs": [
+        "Korin Switchback"
+      ],
+      "portrait": "parts/five_dwarf_lineages/portraits/kogolor-dwarf.png",
+      "source": {
+        "name": "Kogolor Dwarf",
+        "publication": "Hollow World Campaign Set (1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR, Inc.",
+        "url": "https://online.anyflip.com/vjcbu/nhmz/#p=41",
+        "heading": "Kogolor Dwarves",
+        "printedPages": [
+          39,
+          40
+        ],
+        "viewerPages": [
+          41,
+          42
+        ],
+        "pdfPages": [
+          41,
+          42
+        ],
+        "creatureType": "Humanoid (Dwarf)",
+        "previousCatalogCoverage": "No exact-name catalog entry.",
+        "distinction": "The player profile explicitly uses the standard Dwarf class. The NPC follows the printed Kogolor cultural gear and languages. The walking cane uses base club damage.",
+        "supportingSources": [
+          {
+            "title": "Hollow World Campaign Set, complete set facsimile",
+            "url": "",
+            "pdfPages": [
+              41,
+              42
+            ]
+          },
+          {
+            "title": "Dungeons & Dragons Rules Cyclopedia",
+            "url": "",
+            "printedPages": [
+              10,
+              23,
+              24,
+              62,
+              67,
+              81,
+              82,
+              83,
+              84,
+              87,
+              102,
+              103,
+              106
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kopru",
+      "publication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_sea",
+      "parentSpecies": null,
+      "aliases": "Kopru / koprus. Keep the Isle of Dread and later monster profiles separate.",
+      "npcs": [
+        "Terazz Cindercoil"
+      ],
+      "portrait": "parts/five_sea/portraits/kopru.png",
+      "source": {
+        "name": "Kopru",
+        "publication": "The Sea People (PC3, 1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "url": "",
+        "heading": "Kopru, Creature Heroes",
+        "printedPages": [
+          4,
+          5,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          36
+        ],
+        "pdfViewerPages": [
+          35,
+          36,
+          47,
+          48,
+          49,
+          50,
+          51,
+          53,
+          54,
+          67
+        ],
+        "distinction": "Treat the three tails as one damage entry because the printed table lists one tail-damage expression per tier. Resist Fire and the adult general magical save bonus apply together when both apply. Read the final sentences of the domination rule as distinguishing a successful save against a new attempt from breaking existing control. The immunity applies to Kopru domination generally.",
+        "supportingRules": [
+          {
+            "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+            "publisher": "TSR",
+            "url": "",
+            "printedPages": [
+              9,
+              32,
+              62,
+              63,
+              64,
+              65,
+              102,
+              107,
+              108,
+              109
+            ],
+            "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Krugel Orc",
+      "publication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_dwarf_lineages",
+      "parentSpecies": "Orc",
+      "aliases": "Krugel Orc / Krügel Orc. Group under Orc with its Hollow World version.",
+      "npcs": [
+        "Khar Amberrein"
+      ],
+      "portrait": "parts/five_dwarf_lineages/portraits/krugel-orc.png",
+      "source": {
+        "name": "Krugel Orc",
+        "publication": "Hollow World Campaign Set (1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR, Inc.",
+        "url": "https://online.anyflip.com/vjcbu/nhmz/#p=43",
+        "heading": "Krugel Orcs and New Character Race: Krugel Orcs",
+        "printedPages": [
+          41,
+          42
+        ],
+        "viewerPages": [
+          43,
+          44
+        ],
+        "pdfPages": [
+          43,
+          44
+        ],
+        "creatureType": "Humanoid (Orc)",
+        "previousCatalogCoverage": "No exact-name catalog entry.",
+        "distinction": "The player profile sets the advancement and saves and supplies no separate to-hit table. The NPC uses the Rules Cyclopedia level-1 character attack row, with ordinary spear damage, standard side initiative and coin-weight encumbrance.",
+        "supportingSources": [
+          {
+            "title": "Hollow World Campaign Set, complete set facsimile",
+            "url": "",
+            "pdfPages": [
+              43,
+              44
+            ]
+          },
+          {
+            "title": "Dungeons & Dragons Rules Cyclopedia",
+            "url": "",
+            "printedPages": [
+              10,
+              62,
+              67,
+              81,
+              82,
+              84,
+              87,
+              102,
+              103,
+              104,
+              106
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kubitt",
+      "publication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_hollow_a",
+      "parentSpecies": null,
+      "aliases": "Kubitt / Kubitts. Use the player option rather than the Valley’s encounter statistics.",
+      "npcs": [
+        "Vanorva"
+      ],
+      "portrait": "parts/five_hollow_a/portraits/kubitt.png",
+      "source": {
+        "name": "Kubitt",
+        "publication": "Hollow World Campaign Set (1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          43,
+          44
+        ],
+        "pdfPages": [
+          45,
+          46
+        ],
+        "primaryBook": "Hollow World Campaign Set, Book Two, Player’s Guide, TSR 1054, 1990",
+        "supportingSources": {
+          "boxedSetRules": {
+            "url": "",
+            "rules": "Player’s Guide pp. 6–8, 10–20. Warrior-elf and optional shaman or wokan apprenticeship, common language, arms, technology, and General Skills."
+          },
+          "coreRules": {
+            "url": "",
+            "rules": "Ability modifiers p. 9, weapons pp. 62–63 and 65–66, armor p. 67, movement pp. 87–88, initiative pp. 102–103, attack matrix p. 106, missile modifiers p. 108, saving throws p. 109. Fighter class pp. 15–17 and thief skill table p. 22."
+          }
+        },
+        "sourceDistinctions": [
+          "The Player’s Guide is the optional player option. The valley’s encounter profile uses creature statistics.",
+          "The stat line uses the Kubitt short sword table row. That row gives a d3 realized by halving 1d6 and rounding up. Miniature chain and shield yield base AC 4 before Dexterity.",
+          "The Player’s Guide preserves human movement at equal encumbrance and gives no miniature armor weights. The NPC uses the ordinary detailed chain, shield and short sword encumbrance values for combat pacing."
+        ]
+      }
+    },
+    {
+      "name": "Kyrie",
+      "publication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "owner": "five_ansalon_a",
+      "parentSpecies": null,
+      "aliases": "Kyrie of Krynn, not Mystaran Kyrie or Aarakocra.",
+      "npcs": [
+        "Rill Cliffcall"
+      ],
+      "portrait": "parts/five_ansalon_a/portraits/kyrie.png",
+      "source": {
+        "name": "Kyrie",
+        "publication": "Races of Ansalon (2007)",
+        "edition": "3.5 edition",
+        "publisher": "Margaret Weis Productions",
+        "creatureType": "Monstrous humanoid",
+        "url": "",
+        "printedPages": [
+          207,
+          208,
+          209,
+          210
+        ],
+        "pdfPageOffset": 1,
+        "heading": "Kyrie Racial Traits and Kyrie Racial Class",
+        "distinction": "Kyrie of Krynn, with human faces and feathered arm-wings. The worked NPC uses the first racial-class tier and the Animal domain. It retains the common Kyrie size, land speed and darkvision from the full species entry. Treat the racial domain power as caster level 1 for its duration.",
+        "supportingSources": {
+          "coreClassEquipmentFeatsAndCombat": ""
+        }
+      }
+    },
+    {
+      "name": "Leprechaun",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_a",
+      "parentSpecies": null,
+      "aliases": "PC1 leprechaun, distinct from Brownie.",
+      "npcs": [
+        "Niall Quickgold"
+      ],
+      "portrait": "parts/five_wee_a/portraits/leprechaun.png",
+      "source": {
+        "name": "Leprechaun",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "kind": "species",
+        "publisher": "TSR, Inc.",
+        "type": "Fairy",
+        "url": "",
+        "page": "DM’s booklet pp. 4, 5, 6, 25, 29, 30, 47, 48",
+        "printedPages": [
+          4,
+          5,
+          6,
+          25,
+          29,
+          30,
+          47,
+          48
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 2,
+        "foldoutPdfPages": [
+          101
+        ],
+        "sourceDistinctions": [
+          "The clurachaun is a variety within Leprechaun. Table 10 separates the 0 XP HP roll from numbered levels.",
+          "The normal tier has a 1–2 HP roll, no spell slots and the express THAC0 19 example."
+        ],
+        "supportingSources": [
+          {
+            "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+            "url": ""
+          },
+          {
+            "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Malpheggi Lizardman",
+      "publication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_dwarf_lineages",
+      "parentSpecies": "Lizardfolk",
+      "aliases": "Malpheggi Lizard Man / Lizardfolk. Group under Lizardfolk. Keep Savage Coast Shazak separate.",
+      "npcs": [
+        "Sseth Reedwake"
+      ],
+      "portrait": "parts/five_dwarf_lineages/portraits/malpheggi-lizardman.png",
+      "source": {
+        "name": "Malpheggi Lizardman",
+        "publication": "Hollow World Campaign Set (1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR, Inc.",
+        "url": "https://online.anyflip.com/vjcbu/nhmz/#p=47",
+        "heading": "Malpheggi Lizard Men and New Character Race: Malpheggi Lizard Men",
+        "printedPages": [
+          45,
+          46
+        ],
+        "viewerPages": [
+          47,
+          48
+        ],
+        "pdfPages": [
+          47,
+          48
+        ],
+        "creatureType": "Humanoid (Lizardfolk)",
+        "previousCatalogCoverage": "No exact-name catalog entry.",
+        "distinction": "The player profile sets cleric saves and supplies no separate to-hit table. The NPC uses the Rules Cyclopedia level-1 character attack row and the published Strength adjustment for each unarmed damage roll.",
+        "supportingSources": [
+          {
+            "title": "Hollow World Campaign Set, complete set facsimile",
+            "url": "",
+            "pdfPages": [
+              47,
+              48
+            ]
+          },
+          {
+            "title": "Dungeons & Dragons Rules Cyclopedia",
+            "url": "",
+            "printedPages": [
+              10,
+              62,
+              81,
+              82,
+              84,
+              87,
+              102,
+              103,
+              106
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Merrow",
+      "publication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_sea",
+      "parentSpecies": null,
+      "aliases": "Mystaran merrow, called mermen in cover copy. Distinct from later ogre-like Merrow and Plane Shift Merfolk.",
+      "npcs": [
+        "Mareva Greenwake"
+      ],
+      "portrait": "parts/five_sea/portraits/merrow.png",
+      "source": {
+        "name": "Merrow",
+        "publication": "The Sea People (PC3, 1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "url": "",
+        "heading": "Merrow, Creature Heroes",
+        "printedPages": [
+          4,
+          5,
+          8,
+          16,
+          17,
+          18,
+          19,
+          20,
+          24,
+          36
+        ],
+        "pdfViewerPages": [
+          35,
+          36,
+          39,
+          47,
+          48,
+          49,
+          50,
+          51,
+          55,
+          67
+        ],
+        "distinction": "Use the PC3 playable mermaid/merman. Water and air breathing are explained by the merrow speaker on printed p.8. The level 1 NPC demonstrates the 1,000 XP step.",
+        "supportingRules": [
+          {
+            "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+            "publisher": "TSR",
+            "url": "",
+            "printedPages": [
+              9,
+              32,
+              62,
+              63,
+              64,
+              65,
+              102,
+              107,
+              108,
+              109
+            ],
+            "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nagpa",
+      "publication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_ballista_a",
+      "parentSpecies": null,
+      "aliases": "PC2 nagpa, separate from later monster-only entries and avian player species.",
+      "npcs": [
+        "Avar Foldquill"
+      ],
+      "portrait": "parts/five_ballista_a/portraits/nagpa.png",
+      "source": {
+        "name": "Nagpa",
+        "edition": "Basic D&D (BECMI)",
+        "publication": "Top Ballista (PC2, 1989)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          3,
+          4,
+          5,
+          20,
+          21,
+          22
+        ],
+        "page": "Background Booklet pp. 20–22, Table 7, kariwa, special abilities and Languages and Knowledge Skills",
+        "pdfPages": [
+          6,
+          7,
+          8,
+          23,
+          24,
+          25
+        ],
+        "notes": [
+          "Level 1 at 300,000 XP has 10d8, AC 4 and +2 on its saves. PC2 Background Booklet p. 5 directly gives THAC0 10 for that creature-hero tier. Match its save bracket to Magic-User 10.",
+          "PC2 Adventure Booklet’s Horrobin combat notes confirm the standard 120 ft (40 ft) move, bite option and 1d8 damage. Unlike that NPC, Avar is Neutral, so corruption does not apply.",
+          "P. 22 refers back to the Mentzer Basic clerical Light reversal and second-level Magic-User Phantasmal Force. Each innate effect has its own three-use daily limit at this tier."
+        ],
+        "supportingSources": [
+          {
+            "title": "D&D Set 1 Basic Rules, Frank Mentzer revision (TSR, 1983)",
+            "url": "",
+            "locator": "Players Manual pp. 23–26, 39–50 and 59–61; Dungeon Masters Rulebook, Combat, Saving Throws and Gnome entry"
+          },
+          {
+            "title": "D&D Expert Rules, Frank Mentzer revision (TSR, 1983)",
+            "url": "https://anyflip.com/cmjgl/slsb/basic",
+            "locator": "Monster Hit Rolls and character saving throw tables; reversible spells and missile ranges"
+          },
+          {
+            "title": "D&D Rules Cyclopedia (TSR, 1991)",
+            "url": "",
+            "locator": "Equipment, Weapons Table, for base weapon dice and indoor ranges"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ophidian",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "five_fiend",
+      "parentSpecies": null,
+      "aliases": "Keep this species separate from Yuan-ti and Scarred Lands Asaatthi.",
+      "npcs": [
+        "Sesis Coilwater"
+      ],
+      "portrait": "parts/five_fiend/portraits/ophidian.png",
+      "source": {
+        "name": "Ophidian",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Monstrous Humanoid (Reptilian)",
+        "url": "",
+        "page": "pp. 133–134",
+        "printedPages": [
+          133,
+          134
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "The example derives an NPC’s combat rolls from the three printed racial Hit Dice and Fighter 1. The entry explicitly discusses ophidian characters but prints no numeric level adjustment or ECL formula.",
+          "Sesis uses printed curse DC 11 with Constitution 10. The art shows the source’s legless serpent body with two humanoid arms."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), building a monster character, pp. 5–13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Fighter",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Fighter"
+          },
+          {
+            "name": "3.0 SRD, Swim",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Swim"
+          },
+          {
+            "name": "3.0 SRD, Weapons",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapons"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pegataur",
+      "publication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_ballista_b",
+      "parentSpecies": null,
+      "aliases": "Winged centaur-like folk, distinct from Centaur and Pegasus.",
+      "npcs": [
+        "Beryl Tailwind"
+      ],
+      "portrait": "parts/five_ballista_b/portraits/pegataur.png",
+      "source": {
+        "name": "Pegataur",
+        "publication": "Top Ballista (PC2, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "url": "",
+        "creatureType": "Winged centaur",
+        "printedPages": "DM’s Booklet pp. 3–5 and 23–24, including Table 8. pp. 6–8 and 26–27.",
+        "sourceDistinctions": [
+          "Separate player-creature class from Centaur and Pegasus.",
+          "Shared Table 2 gives AC 6. The species chapter calls AC 5 natural and says to retain it even in inferior armor. The NPC follows that more specific text.",
+          "The original monster entry supplies ground speed and the option to attack with a pair of hooves. The NPC uses the PC2 spell progression and saves."
+        ],
+        "primaryBookScan": "",
+        "supportingSources": [
+          {
+            "title": "Creature Catalogue (AC9, 1986)",
+            "url": "",
+            "pages": "Printed p. 74, p. 75."
+          },
+          {
+            "title": "Rules Cyclopedia (1991)",
+            "url": "",
+            "pages": "Printed pp. 9, 22–23, 44, 62, 102 and 106–109."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phaethon",
+      "publication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "owner": "five_ansalon_a",
+      "parentSpecies": null,
+      "aliases": "Phaethon / Phaethons. Base player ancestry only.",
+      "npcs": [
+        "Sera Cinderstep"
+      ],
+      "portrait": "parts/five_ansalon_a/portraits/phaethon.png",
+      "source": {
+        "name": "Phaethon",
+        "publication": "Races of Ansalon (2007)",
+        "edition": "3.5 edition",
+        "publisher": "Margaret Weis Productions",
+        "creatureType": "Humanoid (elf, fire)",
+        "url": "",
+        "printedPages": [
+          210,
+          211
+        ],
+        "pdfPageOffset": 1,
+        "heading": "Phaethon Racial Traits",
+        "distinction": "Uses base player traits. The NPC uses the core monk without Phaethon alternative class features or the Elder Phaethon prestige class.",
+        "supportingSources": {
+          "coreClassEquipmentFeatsAndCombat": ""
+        }
+      }
+    },
+    {
+      "name": "Pooka",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_b",
+      "parentSpecies": null,
+      "aliases": "Púca is a spelling variant. Keep alternate forms together.",
+      "npcs": [
+        "Brindlewake"
+      ],
+      "portrait": "parts/five_wee_b/portraits/pooka.png",
+      "source": {
+        "name": "Pooka",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Fairy",
+        "url": "",
+        "printedPages": [
+          4,
+          5,
+          6,
+          24,
+          25,
+          34,
+          35,
+          36
+        ],
+        "pdfPages": [
+          6,
+          7,
+          8,
+          26,
+          27,
+          36,
+          37,
+          38,
+          99
+        ],
+        "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+        "supportingSources": {
+          "rulesCyclopedia": {
+            "url": "",
+            "rules": "Thief saves p. 22, monster attacks p. 107."
+          },
+          "archivedFacsimile": {
+            "url": ""
+          }
+        },
+        "sourceDistinctions": [
+          "Table 14 and the playable equipment text give the model for the worked NPC. The separately printed general monster stat block has average AC 4, and the playable profile starts from AC 7.",
+          "The book gives rabbits and a wide variety of other animal forms as examples. This NPC uses a quadrupedal hare, with no default combat attack or wearable gear. No damage or condition is assigned to the NPC’s dreams.",
+          "The printed time stop heading gives a use formula but omits its unlock level. The profile leaves the unlock unspecified."
+        ]
+      }
+    },
+    {
+      "name": "Pterran",
+      "publication": "Dark Sun Campaign Setting, Expanded and Revised (1995)",
+      "edition": "AD&D 2nd edition",
+      "owner": "five_ballista_b",
+      "parentSpecies": null,
+      "aliases": "Pterran / Pterrans. Keep Saurial and the pterrax creature separate.",
+      "npcs": [
+        "Othakk"
+      ],
+      "portrait": "parts/five_ballista_b/portraits/pterran.png",
+      "source": {
+        "name": "Pterran",
+        "publication": "Dark Sun Campaign Setting, Expanded and Revised (1995)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "creatureType": "Reptilian humanoid",
+        "printedPages": "The Age of Heroes pp. 7–8, 17–20, 42 and 54. pp. 139–140, 149–152, 174 and 186. The Way of the Psionicist pp. 18–19 (pp. 248–249).",
+        "sourceDistinctions": [
+          "Uses the 1995 expanded and revised character profile. Separate from Saurial and the pterrax creature.",
+          "The metaplot and PC paths come from The Age of Heroes. The NPC uses a standard third-level fighter with no specialization. The book indicates many NPCs have a wild talent and leaves room for an NPC without one."
+        ],
+        "primaryBookScan": "",
+        "supportingSources": [
+          {
+            "title": "AD&D 2e Player’s Handbook, revised (1995)",
+            "url": "",
+            "pages": "Tables 1, 2, 3, 5, 14, 15, 34, 44, 45, 53 and 60."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sahuagin",
+      "publication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "five_kobold",
+      "parentSpecies": null,
+      "aliases": "Sahuagin / sea devil in this publication. Keep monster entries separate.",
+      "npcs": [
+        "Vekatal Saltmark"
+      ],
+      "portrait": "parts/five_kobold/portraits/sahuagin.png",
+      "source": {
+        "name": "Sahuagin",
+        "kind": "species",
+        "publication": "Unlikely Heroes (2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press / Open Design",
+        "heading": "Sahuagin and Sahuagin Traits",
+        "printedPages": [
+          17,
+          18,
+          19
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Use the player character entry. Sea devil names this species. The player frenzy spends a bonus action and has a long-rest limit.",
+          "Vekatal is a standard two-armed Sahuagin with legs. The book discusses malenti and other mutations without granting them separate player trait packages here.",
+          "The natural attack entry provides a damage die. Vekatal applies the standard melee Strength modifier. AC uses the natural formula and a shield."
+        ],
+        "year": 2016,
+        "authors": [
+          "Dan Dillon",
+          "Wolfgang Baur"
+        ],
+        "url": "https://anyflip.com/lphgc/hojw/basic",
+        "primaryBookText": "https://www.scribd.com/document/424641862/Unlikely-Heroes",
+        "publisherPage": "https://koboldpress.com/kpstore/product/unlikely-heroes-for-5th-edition/",
+        "npcExamples": [
+          "Vekatal Saltmark"
+        ]
+      }
+    },
+    {
+      "name": "Samsaran",
+      "publication": "Book of Heroic Races: Player Races 1 (2015)",
+      "edition": "Fifth edition compatible",
+      "owner": "five_heroic",
+      "parentSpecies": null,
+      "aliases": "Jon Brazer’s fifth-edition Samsaran, separate from Pathfinder printings.",
+      "npcs": [
+        "Nerin Reed"
+      ],
+      "portrait": "parts/five_heroic/portraits/samsaran.png",
+      "source": {
+        "name": "Samsaran",
+        "publication": "Book of Heroic Races: Player Races 1 (2015)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Jon Brazer Enterprises",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          5,
+          6
+        ],
+        "heading": "Everborn Racial Traits, Companion Everborn and Dreaming Everborn",
+        "sourceLocator": "pp. 5–6, Everborn (Samsaran)",
+        "primaryBookPreview": "",
+        "supportingSources": {
+          "openContentRules": "https://www.5esrd.com/database/race/samsarans/",
+          "originalPublisherListing": "https://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-player-races-1-5e?lshst=collection",
+          "licensedConversion": "https://www.fantasygrounds.com/store/product.php?id=JBE04035E",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        },
+        "sourceDistinctions": "The 2015 publisher preview introduction (p. 1) and original retail listing name Samsaran. The actual playable traits (printed and p. 5) use Everborn as the lineage and language name, and give 60-ft. darkvision. Page 6 describes pale-blue skin and nearly white eyes. The OGN reprint and licensed 2018 conversion also use Everborn. The approved catalog and NPC species keys remain Samsaran. The NPC uses the printed Everborn language name and the Dreaming option."
+      }
+    },
+    {
+      "name": "Schattenalfen",
+      "publication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_hollow_a",
+      "parentSpecies": null,
+      "aliases": "Hollow World Schattenalfen. Separate from generic Shadow Elf and Shadar-kai.",
+      "npcs": [
+        "Elthir"
+      ],
+      "portrait": "parts/five_hollow_a/portraits/schattenalfen.png",
+      "source": {
+        "name": "Schattenalfen",
+        "publication": "Hollow World Campaign Set (1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          56,
+          57
+        ],
+        "pdfPages": [
+          58,
+          59
+        ],
+        "primaryBook": "Hollow World Campaign Set, Book Two, Player’s Guide, TSR 1054, 1990",
+        "supportingSources": {
+          "boxedSetRules": {
+            "url": "",
+            "rules": "Player’s Guide pp. 6–8, 10–20. Warrior-elf and optional shaman or wokan apprenticeship, common language, arms, technology, and General Skills."
+          },
+          "coreRules": {
+            "url": "",
+            "rules": "Ability modifiers p. 9, weapons pp. 62–63 and 65–66, armor p. 67, movement pp. 87–88, initiative pp. 102–103, attack matrix p. 106, missile modifiers p. 108, saving throws p. 109. Core elf class pp. 23–26."
+          }
+        },
+        "sourceDistinctions": [
+          "Player’s Guide pp. 56–57 provide the culture and sunlight rule. The warrior-elf chassis is in pp. 6–8.",
+          "The setting lists a local language package. The NPC uses those languages and the warrior-elf’s standard elven saves, dark vision, search and immunity.",
+          "The worked warrior-elf has no spellcasting. Its cloak and hood are open in the portrait and cover exposed skin before entering direct sunlight."
+        ]
+      }
+    },
+    {
+      "name": "Sea Giant",
+      "publication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_sea",
+      "parentSpecies": null,
+      "aliases": "Mystaran Sea Giant, distinct from other giants and later monster printings.",
+      "npcs": [
+        "Tavar Deepstep"
+      ],
+      "portrait": "parts/five_sea/portraits/sea-giant.png",
+      "source": {
+        "name": "Sea Giant",
+        "publication": "The Sea People (PC3, 1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "url": "",
+        "heading": "Sea Giant, Creature Heroes",
+        "printedPages": [
+          4,
+          5,
+          16,
+          17,
+          18,
+          19,
+          20,
+          25,
+          26,
+          36
+        ],
+        "pdfViewerPages": [
+          35,
+          36,
+          47,
+          48,
+          49,
+          50,
+          51,
+          56,
+          57,
+          67
+        ],
+        "distinction": "Use the species’ actual XP tables on printed pp.25–26. The teaching example on p.18 uses different sample XP thresholds. Apply both Strength and mature damage to bare hands as its species text specifies.",
+        "supportingRules": [
+          {
+            "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+            "publisher": "TSR",
+            "url": "",
+            "printedPages": [
+              9,
+              32,
+              62,
+              63,
+              64,
+              65,
+              102,
+              107,
+              108,
+              109
+            ],
+            "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Selkie",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "five_fiend",
+      "parentSpecies": null,
+      "aliases": "Keep both forms together. Distinct from a lycanthropic wereseal.",
+      "npcs": [
+        "Mara Kelplight"
+      ],
+      "portrait": "parts/five_fiend/portraits/selkie.png",
+      "source": {
+        "name": "Selkie",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Aquatic, Shapechanger)",
+        "url": "",
+        "page": "pp. 148–149",
+        "printedPages": [
+          148,
+          149
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "One entry covers both published forms. The worked NPC uses land form for the portrait and includes separate combat and AC notes for the sea form.",
+          "The stat block lists one shared speed line. This example assigns the printed swift swim rate to seal form, uses ordinary swimming in humanoid form, and keeps the listed land speed in humanoid form. Land form receives armor AC whereas seal form receives the printed +5 natural armor."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), building a monster character, pp. 5–13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Bard",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Bard"
+          },
+          {
+            "name": "3.0 SRD, Bard Spell List",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Bard_Spell_List"
+          },
+          {
+            "name": "3.0 SRD, Weapons",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapons"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shadow Fey",
+      "publication": "Midgard Heroes (2015)",
+      "edition": "Fifth edition compatible",
+      "owner": "five_kobold",
+      "parentSpecies": null,
+      "aliases": "Shadow Fey / shadowfey of Midgard. Distinct from Shadar-kai and Shade.",
+      "npcs": [
+        "Vesha Gloamchart"
+      ],
+      "portrait": "parts/five_kobold/portraits/shadow-fey.png",
+      "source": {
+        "name": "Shadow Fey",
+        "kind": "species",
+        "publication": "Midgard Heroes (2015)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press / Open Design",
+        "heading": "Shadow Fey and Shadow Fey Traits",
+        "printedPages": [
+          15,
+          16
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Midgard Heroes (2015) is the original booklet, distinct from the 2018 Midgard Heroes Handbook. The 2015 Traveler in Darkness text covers both fey roads and shadow roads.",
+          "The source calls this an elf subrace and uses the 2014 elf base traits. The catalog recognizes Shadow Fey as its own exact publication entry.",
+          "Shade and Shadar-kai refer to separate playable profiles."
+        ],
+        "year": 2015,
+        "authors": [
+          "Dan Dillon"
+        ],
+        "url": "https://anyflip.com/usqxr/igmp/basic/",
+        "primaryBookText": "https://anyflip.com/usqxr/igmp/basic/",
+        "publisherSample": "",
+        "publisherPage": "https://koboldpress.com/kpstore/product/midgard-heroes-for-5th-edition/",
+        "npcExamples": [
+          "Vesha Gloamchart"
+        ]
+      }
+    },
+    {
+      "name": "Shark-Kin",
+      "publication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_sea",
+      "parentSpecies": null,
+      "aliases": "Shark kin is a spelling variant. Keep separate from were-sharks.",
+      "npcs": [
+        "Ssekk Gutterfin"
+      ],
+      "portrait": "parts/five_sea/portraits/shark-kin.png",
+      "source": {
+        "name": "Shark-Kin",
+        "publication": "The Sea People (PC3, 1990)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "url": "",
+        "heading": "Shark-Kin, Creature Heroes",
+        "printedPages": [
+          4,
+          5,
+          16,
+          17,
+          18,
+          19,
+          20,
+          26,
+          27,
+          36
+        ],
+        "pdfViewerPages": [
+          35,
+          36,
+          47,
+          48,
+          49,
+          50,
+          51,
+          57,
+          58,
+          67
+        ],
+        "distinction": "Use the printed outcast form. Bloodlust and shark empathy stay shared with legless shark-kin. The check at +4 is applied as a four-point increase to the Wisdom-check target.",
+        "supportingRules": [
+          {
+            "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+            "publisher": "TSR",
+            "url": "",
+            "printedPages": [
+              9,
+              32,
+              62,
+              63,
+              64,
+              65,
+              102,
+              107,
+              108,
+              109
+            ],
+            "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sidhe",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_b",
+      "parentSpecies": null,
+      "aliases": "Sidhe / sídhe. Keep rogue and warrior sidhe under this profile.",
+      "npcs": [
+        "Ivara Reedglass"
+      ],
+      "portrait": "parts/five_wee_b/portraits/sidhe.png",
+      "source": {
+        "name": "Sidhe",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Fairy",
+        "url": "",
+        "printedPages": [
+          4,
+          5,
+          6,
+          24,
+          25,
+          37,
+          38,
+          41,
+          49
+        ],
+        "pdfPages": [
+          6,
+          7,
+          8,
+          26,
+          27,
+          39,
+          40,
+          43,
+          51,
+          99
+        ],
+        "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+        "supportingSources": {
+          "rulesCyclopedia": {
+            "url": "",
+            "rules": "Fighter saves p. 17, Detect Magic pp. 44–45, sword statistics pp. 62–63, chain armor p. 65, monster attacks p. 107."
+          },
+          "archivedFacsimile": {
+            "url": ""
+          }
+        },
+        "sourceDistinctions": [
+          "Tables 15–16 govern both paths. The warrior’s two d4 rolls at level 1 are one effective Hit Die for the attack matrix. Only the warrior was instantiated.",
+          "PC1 permits fighters’ armor made without iron. For Ivara’s bronze chain shirt, use standard chain mail AC 5 and 400 coin weight. Table 19 assigns separate statistics to bronze plate."
+        ]
+      }
+    },
+    {
+      "name": "Skygnome",
+      "publication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_ballista_a",
+      "parentSpecies": "Gnome",
+      "aliases": "Sky gnome / Serraine gnome. Group under Gnome with the exact PC2 profile.",
+      "npcs": [
+        "Nell Springline"
+      ],
+      "portrait": "parts/five_ballista_a/portraits/skygnome.png",
+      "source": {
+        "name": "Skygnome",
+        "edition": "Basic D&D (BECMI)",
+        "publication": "Top Ballista (PC2, 1989)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          12
+        ],
+        "page": "Background Booklet pp. 10–12, Table 4 and skygnome abilities I–VI, IX and XII",
+        "pdfPages": [
+          6,
+          7,
+          8,
+          13,
+          14,
+          15
+        ],
+        "notes": [
+          "Table 4 level 2 at 4,000 XP gives 3d8 and ability IV for skygnomes. The air-based save remains +1 and the first sky-sense increase occurs at level 3.",
+          "Mentzer Basic gives leather AC 7 and Dexterity 16 gives a −2 AC adjustment. With no shield, Nell has AC 5, or AC 4 against a larger-than-human opponent.",
+          "PC2’s Dunbar example also lists the 3 HD attack bracket and gnome movement at 60 ft (20 ft), with the 90 ft infravision, basic aerial sense and accidental fall save.",
+          "The portrait shows Nell’s wrench. She also keeps a mundane war hammer in her toolkit."
+        ],
+        "supportingSources": [
+          {
+            "title": "D&D Set 1 Basic Rules, Frank Mentzer revision (TSR, 1983)",
+            "url": "",
+            "locator": "Players Manual pp. 23–26, 39–50 and 59–61; Dungeon Masters Rulebook, Combat, Saving Throws and Gnome entry"
+          },
+          {
+            "title": "D&D Expert Rules, Frank Mentzer revision (TSR, 1983)",
+            "url": "https://anyflip.com/cmjgl/slsb/basic",
+            "locator": "Monster Hit Rolls and character saving throw tables; reversible spells and missile ranges"
+          },
+          {
+            "title": "D&D Rules Cyclopedia (TSR, 1991)",
+            "url": "",
+            "locator": "Equipment, Weapons Table, for base weapon dice and indoor ranges"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sphinx",
+      "publication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_ballista_b",
+      "parentSpecies": null,
+      "aliases": "PC2 playable sphinx, separate from monster sphinx printings.",
+      "npcs": [
+        "Istran the Riddlekeeper"
+      ],
+      "portrait": "parts/five_ballista_b/portraits/sphinx.png",
+      "source": {
+        "name": "Sphinx",
+        "publication": "Top Ballista (PC2, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "url": "",
+        "creatureType": "Winged leonine creature",
+        "printedPages": "DM’s Booklet pp. 3–5 and 25–27, including Table 9. pp. 6–8 and 28–30.",
+        "sourceDistinctions": [
+          "Uses the playable PC2 progression. Rules Cyclopedia contributes ground movement and core attack/saving tables.",
+          "Table 9 gives AC 0 at the normal-monster tier, superseding general Table 2’s AC 2.",
+          "For the NPC’s 4-HD tier, Table 9 prints fear as 1d8 rounds, although the preceding prose groups that tier with 1d4 rounds. The build follows the explicit row."
+        ],
+        "primaryBookScan": "",
+        "supportingSources": [
+          {
+            "title": "Rules Cyclopedia (1991)",
+            "url": "",
+            "pages": "Printed pp. 9, 17, 102, 107–109, 150 and 205."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sprite",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_b",
+      "parentSpecies": null,
+      "aliases": "PC1 Sprite. Grig, Nixie and Pixie keep their own scopes.",
+      "npcs": [
+        "Tansy Duskwick"
+      ],
+      "portrait": "parts/five_wee_b/portraits/sprite.png",
+      "source": {
+        "name": "Sprite",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Fairy",
+        "url": "",
+        "printedPages": [
+          4,
+          5,
+          6,
+          24,
+          25,
+          31,
+          32,
+          33,
+          41
+        ],
+        "pdfPages": [
+          6,
+          7,
+          8,
+          26,
+          27,
+          33,
+          34,
+          35,
+          43,
+          99,
+          101
+        ],
+        "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+        "supportingSources": {
+          "rulesCyclopedia": {
+            "url": "",
+            "rules": "Elf saves p. 26, Magic Missile p. 45, monster attacks p. 107, cooperative curse p. 208."
+          },
+          "archivedFacsimile": {
+            "url": ""
+          }
+        },
+        "sourceDistinctions": [
+          "Uses the playable natural AC 8 with Dexterity. The standard encounter Sprite has AC 5. The 1st-level spell comes from Table 13.",
+          "Ruling handles the five-Sprite curse as the same harmless effect described in the Rules Cyclopedia, with removal by Remove Curse. The caster cannot perform it alone at the selected tier."
+        ]
+      }
+    },
+    {
+      "name": "Tabi",
+      "publication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_ballista_b",
+      "parentSpecies": null,
+      "aliases": "Serraine’s winged monkey-like folk, distinct from Phanaton and Gremlin.",
+      "npcs": [
+        "Neri Inkthumb"
+      ],
+      "portrait": "parts/five_ballista_b/portraits/tabi.png",
+      "source": {
+        "name": "Tabi",
+        "publication": "Top Ballista (PC2, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "url": "",
+        "creatureType": "Winged ape-like creature",
+        "printedPages": "DM’s Booklet pp. 3–5 and 28–30, including Tables 10–11. pp. 6–8 and 31–33.",
+        "sourceDistinctions": [
+          "Separate from Phanaton and Gremlin. Creature Catalogue supplies land movement, while PC2 supplies the playable AC, venom and abilities.",
+          "The level-one row has 45%/50%/50% skills and one spell in the first level band. The corresponding normal-monster Hide in Shadows entry appears to have a missing zero."
+        ],
+        "primaryBookScan": "",
+        "supportingSources": [
+          {
+            "title": "Creature Catalogue (AC9, 1986)",
+            "url": "",
+            "pages": "Printed p. 79, p. 80."
+          },
+          {
+            "title": "Rules Cyclopedia (1991)",
+            "url": "",
+            "pages": "Printed pp. 9, 19, 44–45, 102 and 107–109."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tarmak",
+      "publication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "owner": "five_ansalon_a",
+      "parentSpecies": null,
+      "aliases": "Tarmak / Tarmak Brute. Keep Damjatt and Keena outside the claim, and distinguish from Hollow World Brute-Men.",
+      "npcs": [
+        "Kered Vann"
+      ],
+      "portrait": "parts/five_ansalon_a/portraits/tarmak.png",
+      "source": {
+        "name": "Tarmak",
+        "publication": "Races of Ansalon (2007)",
+        "edition": "3.5 edition",
+        "publisher": "Margaret Weis Productions",
+        "creatureType": "Humanoid (human)",
+        "url": "",
+        "printedPages": [
+          18,
+          19,
+          20
+        ],
+        "pdfPageOffset": 1,
+        "heading": "Ithin’carthian Racial Traits, Tarmaks",
+        "distinction": "Uses the Tarmak traits of this chapter. Damjatts and Keena are separate Ithin’carthian options. The NPC does not take Hulking Brute.",
+        "supportingSources": {
+          "coreClassEquipmentFeatsAndCombat": ""
+        }
+      }
+    },
+    {
+      "name": "Thanoi",
+      "publication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "owner": "five_ansalon_b",
+      "parentSpecies": null,
+      "aliases": "Thanoi / walrus-folk. Keep the racial class with the same profile.",
+      "npcs": [
+        "Orruk Hollowtusk"
+      ],
+      "portrait": "parts/five_ansalon_b/portraits/thanoi.png",
+      "source": {
+        "name": "Thanoi",
+        "kind": "species",
+        "publication": "Races of Ansalon (2007)",
+        "edition": "3.5 edition",
+        "publisher": "Margaret Weis Productions",
+        "creatureType": "Monstrous humanoid (cold)",
+        "url": "",
+        "pages": "pp. 214–217, Thanoi racial traits and racial class table",
+        "evidence": "Viewer pages 215–218. The five racial levels culminate in three racial Hit Dice. The example preserves the printed Primary Tusks damage modifiers and the racial class’s CR 2.",
+        "additionalSources": [
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, creature statistics and natural weapons",
+            "url": "https://www.d20srd.org/srd/monsters/intro.htm"
+          },
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, special attacks and grappling",
+            "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+          },
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, weapon statistics",
+            "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ursoi",
+      "publication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "owner": "five_ansalon_b",
+      "parentSpecies": null,
+      "aliases": "Ursoi of Krynn, distinct from Bearfolk.",
+      "npcs": [
+        "Saltlistener"
+      ],
+      "portrait": "parts/five_ansalon_b/portraits/ursoi.png",
+      "source": {
+        "name": "Ursoi",
+        "kind": "species",
+        "publication": "Races of Ansalon (2007)",
+        "edition": "3.5 edition",
+        "publisher": "Margaret Weis Productions",
+        "creatureType": "Monstrous humanoid",
+        "url": "",
+        "pages": "pp. 217–221, Ursoi racial traits and racial class table",
+        "evidence": "Viewer pages 218–222. The stat block takes scent range from the table. The scent paragraph contains an inconsistent reference to 7th level alongside the 4th-level unlock. The table grants 10 ft. at level 4 and 20 ft. at level 6, with no further range increase at level 7.",
+        "additionalSources": [
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, creature statistics and natural weapons",
+            "url": "https://www.d20srd.org/srd/monsters/intro.htm"
+          },
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, special attacks and grappling",
+            "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+          },
+          {
+            "name": "Wizards of the Coast revised 3.5 SRD, weapon statistics",
+            "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wood Imp",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_b",
+      "parentSpecies": null,
+      "aliases": "PC1 Wood Imp, separate from the devil Imp.",
+      "npcs": [
+        "Nettle Bracken"
+      ],
+      "portrait": "parts/five_wee_b/portraits/wood-imp.png",
+      "source": {
+        "name": "Wood Imp",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          4,
+          5,
+          6,
+          18,
+          19,
+          20,
+          21,
+          22,
+          49
+        ],
+        "pdfPages": [
+          6,
+          7,
+          8,
+          20,
+          21,
+          22,
+          23,
+          24,
+          51,
+          99
+        ],
+        "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+        "supportingSources": {
+          "rulesCyclopedia": {
+            "url": "",
+            "rules": "Fighter saves p. 17, shortbow p. 62, missile attack adjustments pp. 105–107."
+          },
+          "archivedFacsimile": {
+            "url": ""
+          }
+        },
+        "sourceDistinctions": [
+          "Playable Table 7 gives 1d4 at 0 XP. Its footnote identifies the different Creature Catalogue monster Hit Dice. The worked build is beyond that tier at 1st level with 2d4.",
+          "Apply p. 49’s miniature weapon adjustment by dropping shortbow damage from 1d6 to 1d4. The bow uses standard range bands because the miniature guidelines do not specify alternatives. Its fitted bow, six arrows and light kit weigh at most 25 cn as permitted by the DM-assigned miniature gear weight guidance."
+        ]
+      }
+    },
+    {
+      "name": "Woodrake",
+      "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "owner": "five_wee_b",
+      "parentSpecies": null,
+      "aliases": "Wooddrake is a spelling variant. Keep wyrmling and unrelated drakes separate.",
+      "npcs": [
+        "Clove Barrow"
+      ],
+      "portrait": "parts/five_wee_b/portraits/woodrake.png",
+      "source": {
+        "name": "Woodrake",
+        "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+        "edition": "Basic D&D (BECMI)",
+        "publisher": "TSR",
+        "creatureType": "Fairy",
+        "url": "",
+        "printedPages": [
+          4,
+          5,
+          6,
+          24,
+          25,
+          39,
+          40
+        ],
+        "pdfPages": [
+          6,
+          7,
+          8,
+          26,
+          27,
+          41,
+          42,
+          99
+        ],
+        "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+        "supportingSources": {
+          "rulesCyclopedia": {
+            "url": "",
+            "rules": "Magic-user saves p. 19, thief table and backstab pp. 22–23, dagger pp. 62–63, character movement pp. 87–88, monster attack table p. 107, Wooddrake description p. 173."
+          },
+          "archivedFacsimile": {
+            "url": ""
+          }
+        },
+        "sourceDistinctions": [
+          "Table 17 gives negative XP tiers of −16,000, −12,000, and −8,000. The adjacent natural weapon and thief descriptions start their three stages at −8,000, −6,000, and −4,000. The 0 XP tier is clear in both, so the worked NPC needs no reconciliation of the juvenile milestones.",
+          "Uses optional PC1 round-based immunity and PC1 playable Armor Class. Allows one round to shapechange and has Clove set down gear, since the ability specifies neither timing nor gear treatment.",
+          "The Rules Cyclopedia’s Wooddrake supplies dark-green pigmentation and medium size. PC1 describes the true form as resembling a small red dragon. The selected art uses the original shape comparison and the explicitly printed dark-green coloring."
+        ]
+      }
+    },
+    {
+      "name": "Yurian",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "five_fiend",
+      "parentSpecies": null,
+      "aliases": "Yurian / crabfolk in this printing, separate from other crustacean ancestries.",
+      "npcs": [
+        "Brakk Shellmark"
+      ],
+      "portrait": "parts/five_fiend/portraits/yurian.png",
+      "source": {
+        "name": "Yurian",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Monstrous Humanoid (Aquatic)",
+        "url": "",
+        "page": "pp. 198–199",
+        "printedPages": [
+          198,
+          199
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "The example uses the dedicated p. 199 PC ECL and retains the three printed racial Hit Dice. The printed racial save bases are inferred by subtracting the printed ability modifiers, per Savage Species character creation.",
+          "The small pair of pincers is represented as manipulators. The example uses the ordinary matched claws, so the optional enlarged claw never changes its damage."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), building a monster character, pp. 5–13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Barbarian",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Barbarian"
+          },
+          {
+            "name": "3.0 SRD, Feats",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Feats"
+          },
+          {
+            "name": "3.0 SRD, Swim",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Swim"
+          }
+        ]
+      }
+    }
+  ]
+}

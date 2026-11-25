@@ -1,0 +1,57 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Cult Prison Guard",
+    "publication": "DDEX1-10 - Tyranny in Phlan",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cult-prison-guard/source-related-langdedrosa-cyanwrath.webp",
+    "artist": "Base stat block art: Langdedrosa Cyanwrath · Hoard of the Dragon Queen",
+    "kind": "illustration",
+    "sha256": "68ca69fb0e2077a1f958e74bdd5c006c4ff9f3b1872b19176665b600582e0ce7",
+    "reference": "images/monsters/langdedrosa-cyanwrath/hotdq-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Farvnik the Venomous",
+    "publication": "DDEX1-10 - Tyranny in Phlan",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/farvnik-the-venomous/source-related-cult-fanatic.webp",
+    "artist": "Related character art: Cult Fanatic · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "b31e3372b373d7c59e966794be789593b351976857711dee579cfc384794e58c",
+    "reference": "images/monsters/cult-fanatic/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Half-Dragon Ettin",
+    "publication": "DDEX1-10 - Tyranny in Phlan",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/half-dragon-ettin/source-related-ettin.webp",
+    "artist": "Base creature art: Ettin · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "f1b377054b58d420cd3ee4b9da15e9994761dce19e26493a1613a14e4fa0c3ec",
+    "reference": "images/monsters/ettin/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Half-Elf Priest",
+    "publication": "DDEX1-10 - Tyranny in Phlan",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/half-elf-priest/source-related-priest.webp",
+    "artist": "Base stat block token: Priest · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "6a74230ee6b499294c6f28d99c5ade02f25d932b7b026b4c1d812d939d7c4757",
+    "reference": "images/monsters/priest/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Kobold Cult Fanatic",
+    "publication": "DDEX1-10 - Tyranny in Phlan",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/kobold-cult-fanatic/source-related-kobold.webp",
+    "artist": "Base creature art: Kobold by Conceptopolis · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "2750ec6cde1e0a2db1e5dfeed12bb136d5308d4a73214b6ddab854a9fd704d8d",
+    "reference": "images/monsters/kobold/mm-1.webp"
+  }
+]

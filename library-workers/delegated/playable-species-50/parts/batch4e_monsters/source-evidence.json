@@ -1,0 +1,195 @@
+[
+  {
+    "name": "Doppelganger",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural Humanoid (Shapechanger)",
+    "url": "",
+    "page": 276,
+    "printedPages": [
+      276,
+      280
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "isbn": "978-0-7869-5045-4",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "The Monster Manual prints this option under Doppelganger. The Eberron Player’s Guide identifies it as the related Changeling and gives that later profile its own rules. The January 2010 updates use Changeling for the player race in Eberron feat references.",
+      "The gloss on p. 280 supplies the duration, equipment, and opposed impersonation rules."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class and equipment rules",
+        "url": ""
+      },
+      {
+        "title": "Eberron Player’s Guide, Changeling",
+        "url": "",
+        "printedPages": [
+          28,
+          29
+        ]
+      },
+      {
+        "title": "January 2010 official rules update, Eberron Player’s Guide",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Githyanki",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural Humanoid",
+    "url": "",
+    "page": 277,
+    "printedPages": [
+      277
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "isbn": "978-0-7869-5045-4",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "This is the playable-with-permission trait on p. 277. The Warrior’s encounter statistics and powers in the monster entry are separate."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class and equipment rules",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Gnoll",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural Humanoid",
+    "url": "",
+    "page": 277,
+    "printedPages": [
+      277
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "isbn": "978-0-7869-5045-4",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "The source is the original p. 277 player option, with Blood Fury. Dragon 367 presents a separate, later Gnoll player profile."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class and equipment rules",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Kobold",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural Humanoid (Reptile)",
+    "url": "",
+    "page": 278,
+    "printedPages": [
+      278
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "isbn": "978-0-7869-5045-4",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "This is the original Shifty at-will action on p. 278. Later Kobold player options use their own powers and are separate publications."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class and equipment rules",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Warforged",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural Humanoid (Living Construct)",
+    "url": "",
+    "page": 279,
+    "printedPages": [
+      279
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "isbn": "978-0-7869-5045-4",
+    "firstPrinting": "June 2008",
+    "sourceDistinctions": [
+      "Use the p. 279 player text. The p. 261 Warforged Soldier has a different Resolve amount, and the Eberron Player’s Guide uses a different racial power.",
+      "The death-save bullet allows taking a 10. Its negative-HP wording is read alongside the general negative-bloodied rule in the Player’s Handbook, p. 295, if the DM uses dying rules for this NPC."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class and equipment rules",
+        "url": ""
+      },
+      {
+        "title": "Eberron Player’s Guide, Warforged",
+        "url": "",
+        "printedPages": [
+          32,
+          33
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Asaatthi",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Onyx Path Publishing and Nocturnal Media",
+    "year": 2016,
+    "url": "",
+    "source": "",
+    "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+    "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+    "classRules": "",
+    "printedPages": [
+      20,
+      21
+    ],
+    "heading": "Asaatth Racial Traits",
+    "supportingPrintedPages": [],
+    "sourceDistinctions": [
+      "The contents use Asaatthi for the people and the trait heading uses singular Asaatth. This follows the approved species key Asaatthi.",
+      "Kethsar uses the 2016 player traits. His blade and bite are separate attack choices, and the build uses no venom effect.",
+      "Fighter 2 and the Soldier background supply the class and background proficiencies."
+    ],
+    "slug": "asaatthi",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Kethsar Dunecoil"
+    ]
+  },
+  {
+    "name": "Hollow Legionnaire",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Onyx Path Publishing and Nocturnal Media",
+    "year": 2016,
+    "url": "",
+    "source": "",
+    "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+    "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+    "classRules": "",
+    "printedPages": [
+      30,
+      31
+    ],
+    "heading": "Hollow Legionnaire Racial Traits",
+    "supportingPrintedPages": [],
+    "sourceDistinctions": [
+      "The bound suit is proficient starting chain mail chosen through the Fighter class. Spirit matter and inherited armor pattern are appearance details on p. 30.",
+      "Past-Life Knowledge expands the fighter’s class skill choices to Arcana and does not grant a third class skill.",
+      "The NPC uses Humanoid as the book specifies. The Soldier background supplies Athletics and Intimidation."
+    ],
+    "slug": "hollow-legionnaire",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Merel Ironwake"
+    ]
+  },
+  {
+    "name": "Ironbred",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Onyx Path Publishing and Nocturnal Media",
+    "year": 2016,
+    "url": "",
+    "source": "",
+    "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+    "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+    "classRules": "",
+    "printedPages": [
+      34,
+      35
+    ],
+    "heading": "Ironbred Racial Traits",
+    "supportingPrintedPages": [],
+    "sourceDistinctions": [
+      "Ironbred are the Redeemed branch of the sutak. The source distinguishes them from the unredeemed sutak despite their shared descent and language.",
+      "The NPC uses Fire Born for hot travel and Tough Hide at every level. Horse legs are descriptive, with no mounted movement or additional walking speed.",
+      "The Outlander supplies Survival and an additional language. Its duplicate Athletics proficiency is replaced with Nature using the 2014 background rule."
+    ],
+    "slug": "ironbred",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Umber Kesh"
+    ]
+  },
+  {
+    "name": "Manticora",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Onyx Path Publishing and Nocturnal Media",
+    "year": 2016,
+    "url": "",
+    "source": "",
+    "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+    "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+    "classRules": "",
+    "printedPages": [
+      36,
+      37
+    ],
+    "heading": "Manticora Racial Traits",
+    "supportingPrintedPages": [
+      116,
+      117
+    ],
+    "sourceDistinctions": [
+      "The Manticora is the humanoid lionfolk player species.",
+      "The source gives 40 ft. all-fours movement with both hands empty. The example conservatively treats a worn claw gauntlet as an occupied hand and can start with it stowed.",
+      "The claw gauntlet’s damage die and properties are in the Chapter Seven weapons table. The Soldier background supplies Athletics and Intimidation."
+    ],
+    "slug": "manticora",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Tessu Claypaw"
+    ]
+  },
+  {
+    "name": "Slitherin",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Onyx Path Publishing and Nocturnal Media",
+    "year": 2016,
+    "url": "",
+    "source": "",
+    "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+    "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+    "classRules": "",
+    "printedPages": [
+      40,
+      41
+    ],
+    "heading": "Slitherin Racial Traits",
+    "supportingPrintedPages": [],
+    "sourceDistinctions": [
+      "The 2016 player rules give a single Medium Slitherin profile and a Dexterity or Intelligence choice. The NPC selects Dexterity.",
+      "Veshki uses the printed finesse bite with 1d3 piercing damage, a climb speed equal to walking speed, and only the Dexterity checks covered by Contortionist.",
+      "The 2014 Urchin background duplicates Stealth and thieves’ tools. Replace those with Investigation and cobbler’s tools under the duplicate proficiency rule."
+    ],
+    "slug": "slitherin",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Veshki Reed-Ring"
+    ]
+  }
+]

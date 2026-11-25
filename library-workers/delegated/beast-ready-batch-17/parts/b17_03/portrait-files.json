@@ -1,0 +1,47 @@
+[
+  {
+    "artGroup": "hellwasp-grub",
+    "file": "portraits/hellwasp-grub.png",
+    "sha256": "b14e0af8ce6f486bd9a3fa8d3dd2f7372f8ffaa4638f1b46130d7256a069a1f6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "prompt": "Paint a single crawling fantasy hellwasp larva. Make the body clearly grub-shaped: short, plump and broad, wingless, tapered segmented chitin of faded rusty red and reddish brown, a distinct rugged wide head with small dark eyes and a pair of low sharp dark mandibles, two thin short curved antennae, and three compact pairs of tiny insect thoracic legs clustered near the head. Natural pale intersegment folds and a low menacing insect posture. Three-quarter side view. Keep it visibly a wasp larva, without a wasp adult narrow waist and without a long row of centipede legs. The reference is for medium, lighting and paper only. Original realistic fantasy natural-history painting with restrained hand-rendered detail like the specimen in the reference. Match its plain matte warm tan parchment, uniform fine grain edge to edge, softly diffused neutral light and very subtle contact shadow. Wide blank margin, square canvas, one centered subject kept entirely in the central 62–66 percent of both axes so all details fit the centered circular thumbnail. No composition involving scenery, foreground, objects, panels, vintage stains, border, text, logos, extreme closeups, visible glowing effects, or dramatic hard shadow."
+  },
+  {
+    "artGroup": "peacock",
+    "file": "portraits/peacock.png",
+    "sha256": "5e62e359197c21e0d557160df2b5b0aef3e3ec130cb9f9c4192b9dd903f6ccd2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "prompt": "Paint one complete Indian peacock, a male peafowl. Realistic cobalt-blue head and long blue neck, darker greenish blue body and modest crest, pale eye markings, two slender bird legs and long green-bronze train with recognizable small colored eyespots. The train is partly raised in a shallow compact fan so the silhouette and body are both clear and the plumage fits in a round thumbnail. Original gentle profile-angled pose. Rich natural feather hues toned to blend with a restrained field-guide illustration; no iridescent light emissions. The reference is for medium, lighting and paper only. Original realistic fantasy natural-history painting with restrained hand-rendered detail like the specimen in the reference. Match its plain matte warm tan parchment, uniform fine grain edge to edge, softly diffused neutral light and very subtle contact shadow. Wide blank margin, square canvas, one centered subject kept entirely in the central 62–66 percent of both axes so all details fit the centered circular thumbnail. No composition involving scenery, foreground, objects, panels, vintage stains, border, text, logos, extreme closeups, visible glowing effects, or dramatic hard shadow."
+  },
+  {
+    "artGroup": "traxigor",
+    "file": "portraits/traxigor.png",
+    "sha256": "b8fecd819074b2c0027cad495f0d9e0e64e9568dc5274b741e4df0d9337150fa",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "prompt": "Paint one entire realistic small river otter in a simple muted brick-red miniature cassock. The high-neck plain red cloth robe gently follows its real animal anatomy, has a small row of buttons, and leaves paws and long natural tapering otter tail plainly visible. Alert upright seated otter posture with central body slightly turned, recognizable dark wet muzzle, small rounded ears, warm dense brown fur, pale throat and short front paws held loosely at chest height. Innocently inquisitive, anatomically realistic, no human hand or face, eyeglasses, hat, magic effect, wand, shoes or any prop. The reference is for medium, lighting and paper only. Original realistic fantasy natural-history painting with restrained hand-rendered detail like the specimen in the reference. Match its plain matte warm tan parchment, uniform fine grain edge to edge, softly diffused neutral light and very subtle contact shadow. Wide blank margin, square canvas, one centered subject kept entirely in the central 62–66 percent of both axes so all details fit the centered circular thumbnail. No composition involving scenery, foreground, objects, panels, vintage stains, border, text, logos, extreme closeups, visible glowing effects, or dramatic hard shadow."
+  },
+  {
+    "artGroup": "enormous-tentacle",
+    "file": "portraits/enormous-tentacle.png",
+    "sha256": "5b76fb826348852978163ce64ec82f84522fab00a530b12fb601f84d82f930ca",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "prompt": "Paint one large olive-green tapering fantasy tentacle curling upward in a compact open S, with subdued mottling and restrained cephalopod-like muscle and skin texture. The broad low base coils just slightly, with the back side of the mass naturally hiding what it connects to; terminus at the top tapers to a distinct narrow curved tip. Hint at a few small round suction disks along the inside curve, natural and subtle. Only one connected organic appendage, no animal body, face, head, eyes, mouth, limbs, pool, water, drops, gore, portal, architectural cross-section or ambient glow. Organic biological study, not a snake. The reference is for medium, lighting and paper only. Original realistic fantasy natural-history painting with restrained hand-rendered detail like the specimen in the reference. Match its plain matte warm tan parchment, uniform fine grain edge to edge, softly diffused neutral light and very subtle contact shadow. Wide blank margin, square canvas, one centered subject kept entirely in the central 62–66 percent of both axes so all details fit the centered circular thumbnail. No composition involving scenery, foreground, objects, panels, vintage stains, border, text, logos, extreme closeups, visible glowing effects, or dramatic hard shadow."
+  },
+  {
+    "artGroup": "onyx",
+    "file": "portraits/onyx.png",
+    "sha256": "32946c10ee166fb7d0e8b77f5c3aa476b974941b10b38185cc6676f23b4a6ed9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "prompt": "Edit this original square parchment cat portrait. Keep exactly the composition, position, domestic cat anatomy, stance, centered silhouette, lighting, subtle contact shadow, and edge-to-edge plain tan paper. Change the yellow-green irises to clear icy sky blue with natural pupils and subdued catchlights. Render the coat as deeper warm chocolate brown with an understated muted tabby pattern, soft cream only around the chin, and no white tip on the tail. Keep the fine realistic hair detail, existing pose and wide circular crop margin. This is a targeted recolor of the same neutral parchment illustration, with only the listed visual differences. No environment, text, border, framing changes, effects or added objects."
+  }
+]

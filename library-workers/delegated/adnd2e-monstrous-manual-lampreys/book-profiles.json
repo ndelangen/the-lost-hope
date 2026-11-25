@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Lamprey",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "An elongated jawless fish with a circular suction mouth that fastens onto prey. The print gives no color or body length.",
+    "combat": {
+      "habitats": [
+        "Fresh water and salt water (common lamprey listed in both summoning tables)"
+      ],
+      "creatureType": "Animal",
+      "armorClass": 7,
+      "movement": "Sw 12",
+      "hitDice": "1+2",
+      "thac0": 19,
+      "numberOfAttacks": 1,
+      "damageDice": "1–2",
+      "xp": 65
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Bite and attachment",
+          "effectNote": "A bite deals 1–2 damage. The lamprey fastens on with its round mouth and starts draining on the next round. The shared aquatic text gives 2 HP per Hit Die each round thereafter."
+        },
+        {
+          "name": "Drain at the table",
+          "effectNote": "The 1994 paragraph leaves whose Hit Dice unstated. The original Monster Manual uses the lamprey’s Hit Dice, which gives this 1+2 HD form 2 HP per round."
+        },
+        {
+          "name": "Sea lamprey saving throws",
+          "effectNote": "The −2 penalty to saving throws against fire-based attacks applies to sea lampreys in the prose."
+        }
+      ]
+    },
+    "notes": [
+      "1–2 appearing. Unsteady (7) morale.",
+      "Common Lamprey appears in both aquatic summoning tables on p. 378. Salt Water V also lists a Sea Lamprey.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and summoning pp. 377–378."
+    ]
+  },
+  {
+    "name": "Giant Lamprey",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A large lamprey with a long, thick body and circular attaching mouth. The proportions are an illustration choice. The print gives no size category or palette.",
+    "combat": {
+      "habitats": [
+        "Aquatic swimming habitat, salinity unspecified"
+      ],
+      "creatureType": "Animal",
+      "armorClass": 6,
+      "movement": "Sw 9",
+      "hitDice": "5",
+      "thac0": 15,
+      "numberOfAttacks": 1,
+      "damageDice": "1–6",
+      "xp": 270
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Bite and attachment",
+          "effectNote": "A bite deals 1–6 damage. The shared aquatic Lamprey text starts the drain on the next round after attachment and gives a rate of 2 HP per Hit Die each round."
+        },
+        {
+          "name": "Drain at the table",
+          "effectNote": "The original Monster Manual explicitly gives the Giant Lamprey 10 HP of drain damage per round for its own 5 Hit Dice. This follows the shared 1994 rate, which does not spell out whose HD are used."
+        }
+      ]
+    },
+    "notes": [
+      "1–4 appearing. Average (9) morale.",
+      "The 1994 Fish entry gives Giant Lamprey its own table row and shared aquatic Lamprey prose. The summoning table names Sea Lamprey separately.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and summoning pp. 377–378."
+    ]
+  },
+  {
+    "name": "Land Lamprey",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A slender terrestrial lamprey with a circular attaching mouth. The portrait shows it with a long flexible body and reduced-looking fins. The text gives no color.",
+    "combat": {
+      "habitats": [
+        "Terrestrial environments"
+      ],
+      "creatureType": "Animal",
+      "armorClass": 7,
+      "movement": "12",
+      "hitDice": "1+2",
+      "thac0": 19,
+      "numberOfAttacks": 2,
+      "damageDice": "1 HP/round",
+      "xp": 120
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Initial attachment",
+          "effectNote": "A hit for 1 point of damage attaches the lamprey."
+        },
+        {
+          "name": "Drain",
+          "effectNote": "An attached lamprey drains 1 HP per round for three rounds unless killed or removed. Each attached lamprey imposes the equivalent of a −1 Dexterity penalty."
+        }
+      ]
+    },
+    "notes": [
+      "2–12 appearing. Unsteady (7) morale.",
+      "The table lists two attacks and 1 HP/round. The description gives the attachment hit and ongoing drain without explaining the second attack or a removal check.",
+      "The Land Lamprey appears under general Monster Summoning II on p. 377.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and summoning pp. 377–378."
+    ]
+  }
+]

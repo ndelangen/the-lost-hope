@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Goliath",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "book": "Races of Stone",
+    "authors": [
+      "David Noonan",
+      "Jesse Decker",
+      "Michelle Lyons"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2004",
+    "productCode": "620-96567000-001",
+    "isbn": "0-7869-3278-3",
+    "printedPages": {
+      "chapterArt": 53,
+      "appearanceAndArt": 54,
+      "playableTraits": 56,
+      "optionalMountainRage": [
+        150,
+        151
+      ],
+      "publishedEncounterExamples": [
+        181,
+        182,
+        183
+      ]
+    },
+    "pdfPages": {
+      "chapterArt": 53,
+      "appearanceAndArt": 54,
+      "playableTraits": 56,
+      "optionalMountainRage": [
+        150,
+        151
+      ],
+      "publishedEncounterExamples": [
+        181,
+        182,
+        183
+      ]
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "116ee9b23da70166a7c726a51bd2c1b0087882d92a8a1376088f9ce256a5992c",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "officialFaq": {
+      "file": "",
+      "printedPage": 5
+    },
+    "printedArtCredit": "Chuck Lukacs, chapter opener p. 53. Jeremy Jarvis, appearance study p. 54. William O’Connor, trade scene p. 56.",
+    "sourceDistinctions": [
+      "Printed p. 56 separates actual Medium size from Powerful Build. The official 3.5 FAQ confirms the type supplies 60-ft. darkvision.",
+      "Mountain Rage is optional Barbarian substitution, increases actual size and reach and expressly keeps the same weapon size and grapple size modifier.",
+      "The two staged NPCs are original. The book gives published Hunter CR 2 and Warrior CR 1 profiles on pp. 181 and 183."
+    ],
+    "entryId": "species-71aaca2df6978aba4c91b4be",
+    "versionKey": "7e4cecfcc881bceb834ec37b",
+    "slug": "goliath",
+    "portraitSelection": "generated",
+    "portraitForm": "Kethan Linekeeper Varukutai, an original Goliath Expert",
+    "npcExamples": [
+      "Kethan Linekeeper Varukutai",
+      "Rova Stonecaller Athamavi"
+    ]
+  }
+]

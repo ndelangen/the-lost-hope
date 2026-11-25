@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Keridani",
+    "kind": "species",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Medium, Speed 30 ft. Speak one-way telepathically to a creature you can see within 60 ft. if you share a language. Adhesive Pads grant an expertise die on climbing checks and saves against disarming.",
+      "Venomous Mandibles are a natural weapon for unarmed strikes that deal 1d4 + Strength piercing damage. After damaging a target, you can force a Constitution save against DC 8 + proficiency + Constitution. The poison deals 2d4 on failure, with proficiency bonus uses per long rest.",
+      "Choose one gift. Ancestral Walking lets you select a skill, tool, or language after each long rest and gain proficiency until the next, or an expertise die if already proficient. Empathic Sense reads the emotions of creatures you see. A creature can conceal them with Deception against your passive Insight.",
+      "Stronger Poison gives the mandible poison save disadvantage and slows on failure. The target repeats the save at the end of each turn to end the condition. If you lack Venomous Mandibles, the gift grants that trait instead. Telepathic Bond links you with up to proficiency bonus willing creatures you touch for one hour. It allows two-way communication across any distance on the same plane, once per long rest.",
+      "At level 10 choose Ancestral Awakening, Inscrutable Mind, or Telepathic Intrusion. Ancestral Awakening requires Ancestral Walking and gives an expertise die on rolls with two chosen abilities for one minute as a bonus action, proficiency bonus times per long rest. Inscrutable Mind blocks thought and emotion reading, grants advantage against charmed, confused, frightened, or rattled and to maintain concentration, and removes one strife after a long rest even outside a haven. With Empathic Sense, Telepathic Intrusion gives read mind once per long rest without spending points, with a permanent choice of Intelligence, Wisdom, or Charisma. It can also be manifested with points if you have a reservoir and can use powers."
+    ]
+  },
+  {
+    "name": "Naato",
+    "kind": "species",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Medium, Speed 30 ft. Cold damage slows you until the end of your next turn. The balancing tail gives advantage on checks and saves to balance or avoid falling prone. While unarmored, AC is 13 + Dexterity and can include a shield bonus.",
+      "Choose one gift. Amphibious gives water breathing in addition to air breathing and a 30-ft. swim speed. Camouflage gives advantage on Stealth for up to one minute as a bonus action, once per long rest. Spiky deals 1d6 piercing to a creature when it grabs you and again each turn it maintains the grab.",
+      "Tail Swipe gives a 5-ft. natural weapon attack as a bonus action for 1d4 + Strength piercing. If you instead use the tail with the knockdown basic maneuver, the target has disadvantage on its save.",
+      "At level 10 choose Perfect Camouflage or Poison Breath. Perfect Camouflage requires Camouflage and turns you invisible as a bonus action, sustained each turn by a bonus action. Damage requires a Wisdom save at DC 10 + damage taken to keep it. Once per long rest. Poison Breath is an action, proficiency bonus times per long rest. The 15-ft. cone excludes yourself and other Naato. Each other creature saves with Constitution against DC 8 + proficiency + Constitution or takes 3d8 + Constitution poison damage."
+    ]
+  },
+  {
+    "name": "Sipher",
+    "kind": "species",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Small, Speed 25 ft., darkvision 60 ft. Add an expertise die to Insight checks. Once per long rest Hiveminded adds an expertise die to an Intelligence, Wisdom, or Charisma save.",
+      "Choose one gift. Core Child gives fire resistance and lets you superheat as a bonus action for one minute, once per long rest. Your unarmed attacks deal fire damage while heated. Taking a natural weapon or unarmed hit, or being touched, deals 1d6 fire to the creature that touched or hit you.",
+      "Earthmeld gives 10-ft. burrowing through loose earth, sand, loam or mud that has not been manipulated with psionics. It leaves no tunnel by default. Shoring up a 5-ft.-square tunnel slows your progress to 5 ft. per 15 minutes. Energy Bolt gives a 30-ft. ranged natural weapon attack as an action for 1d8 + Dexterity damage of a chosen type, acid, cold, fire, or lightning.",
+      "Hivebound gives advantage on one Intelligence, Wisdom, or Charisma save per long rest. The publisher's web text also places Planetary Invocation here. As an action touch a creature to heal hit points equal to your level, proficiency bonus times per long rest. Tremorsense pinpoints moving creatures and objects in contact with the ground within 30 ft. while you touch the same ground.",
+      "At level 10 choose Planetary Connection, Hivemind Expertise, or Warded Mind. Planetary Connection requires Core Child and grants fire immunity. Hivemind Expertise requires Hivebound and grants an expertise die on an ability check proficiency bonus times per long rest, plus Intelligence save proficiency or an expertise die if already proficient. Warded Mind gives Wisdom save proficiency or an expertise die if already proficient, plus an expertise die on Intelligence, Wisdom, and Charisma saves against psionics."
+    ]
+  }
+]

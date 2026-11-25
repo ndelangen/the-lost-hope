@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Chitine",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Underdark",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel",
+      "Jeff Quick"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "October 2003",
+    "productCode": "620-88581-001-EN",
+    "isbn": "0-7869-3053-5",
+    "printedPages": {
+      "playableSpecies": [
+        7,
+        8
+      ],
+      "racialTraits": 8,
+      "illustration": 8,
+      "region": 23
+    },
+    "pdfPageOffset": 1,
+    "revisionNote": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Vance Kovacs, p. 8.",
+    "sourceDistinctions": [
+      "The 3.5 monster update directs readers to Underdark for the revised Chitine. The older Monsters of Faerûn monster has a different three-weapon routine and sunlight penalty.",
+      "The Chitine racial entry grants Multiweapon Fighting. Resolve a full attack with the revised core multiweapon and light off-hand penalties.",
+      "Darkvision 60 ft. comes from the Monstrous Humanoid type. Sunlight and bright magical light impose the core dazzled penalties.",
+      "Wizards’ collected archive has no Underdark errata file. The official FAQ has no Chitine entry."
+    ],
+    "entryId": "species-009f4e0abe9c5354d91eefb3",
+    "versionKey": "07b60ac450c92253dbb00dd9",
+    "slug": "chitine",
+    "portraitSelection": "generated",
+    "portraitForm": "Qid Lowweb, an original Chitine Rogue",
+    "npcExamples": [
+      "Qid Lowweb",
+      "Awa Spinner"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Troglodyte",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Monster Manual, v.3.5",
+    "publisher": "Wizards of the Coast",
+    "printedPages": {
+      "playableSpecies": [
+        246,
+        247
+      ],
+      "racialTraits": 247,
+      "illustration": 246,
+      "underdarkReference": [
+        19,
+        20
+      ]
+    },
+    "primaryBookPdfPageOffset": 0,
+    "underdarkPdfPageOffset": 1,
+    "editionReference": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "f6c17365945be3ac504ea2660932b0f4ee9804db2f3443234ebe7464fd29c621",
+    "editionReferenceSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "ad0182470b2706542bf3faa9ab75bc225dd3abd93b7d6794a473d19629f4aa0f",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "p. 246; signed SW, consistent with Sam Wood in the interior art credits.",
+    "sourceDistinctions": [
+      "Underdark points to the 3.5 Monster Manual racial traits and confirms 2 racial Hit Dice, LA +2, favored class Cleric, and ECL 4.",
+      "The printed monster uses Fortitude DC 13 with Constitution 14. The character builds recalculate the DC from Constitution using the core racial special ability formula.",
+      "A successful save protects against the specific troglodyte for 24 hours. Poison immunity and resistance apply, and the entry names delay poison and neutralize poison as remedies.",
+      "The playable entry gives bonus Multiattack and one racial-Hit-Die feat to choose. Weapon Focus (javelin) is a feat on the printed monster, rather than a separate racial grant.",
+      "No relevant correction appears in the core errata or official FAQ."
+    ],
+    "entryId": "species-842bd4ed27d41a82770be39e",
+    "versionKey": "356f856e0cacb4ad5ea4cde7",
+    "slug": "troglodyte",
+    "portraitSelection": "generated",
+    "portraitForm": "Sethrik Chalkscale, an original Troglodyte cistern guide",
+    "npcExamples": [
+      "Sethrik Chalkscale",
+      "Vess Siltcrest"
+    ]
+  }
+]

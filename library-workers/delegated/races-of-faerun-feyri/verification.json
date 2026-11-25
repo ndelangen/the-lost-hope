@@ -1,0 +1,27 @@
+{
+  "baseline": "d2b69db40ece1fdd9f7214454d95c2fca938a048",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Fey’ri"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Faerûn (2003)",
+  "distinctOriginalAndAdaptedShapeRulesVerified": true,
+  "powerSelectionAndLevelAdjustmentVerified": true,
+  "editionSpecificRulesAndSourcesVerified": true,
+  "separateSpeciesScopeVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Races of Faerûn (2003)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

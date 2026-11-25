@@ -1,0 +1,3264 @@
+{
+  "baseline": "eaeee0b66b19f423ab92e9417c4ee0472c1e9cde",
+  "profiles": 50,
+  "generatedPortraits": 15,
+  "reusedExistingPortraits": 30,
+  "entries": [
+    {
+      "owner": "b15_01",
+      "name": "Giant Badger",
+      "kind": "beast",
+      "publication": "DDEP2 - Mulmaster Undone V2",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "obsidian-giant-badger",
+      "art_owner": "b15_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b15_01/portraits/obsidian-giant-badger.png",
+        "sha256": "dfc95d54d9735103e1fa16074abc9d6ef8b42aee1ed3b69d03368003fa9d6e77",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Badger",
+        "publication": "DDEP2 - Mulmaster Undone V2",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "DDEP2 V2, 2015 limited release",
+        "version": "V2",
+        "adventureCode": "DDEP2",
+        "section": "Track 2, Appendix NPC/Monster Statistics Part 1 and Luck Runs Out",
+        "printedPage": 55,
+        "printedPages": [
+          55,
+          42,
+          52
+        ],
+        "pdfPage": 55,
+        "pdfPages": [
+          55,
+          42,
+          52
+        ],
+        "pdfSha256": "ae042f19f6ff864d942eb4d5df86f53bda656b4fc82eae4030ebad10decb7ca7",
+        "sourceUrl": "",
+        "url": "",
+        "officialAdventureIndex": "",
+        "sourceWitness": "Local Wizards of the Coast V2 with printed folios. The publisher index confirms the adventure code and title.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialAdaptationGuide": "",
+        "errataEvidence": "No correction for this block was located in the publisher’s errata index or Adventurers League adaptation guide.",
+        "habitatEvidence": "Tags follow the encounter setting and are editorial.",
+        "appearanceEvidence": "Printed p. 42 gives pony size, teeth and claws that look like obsidian, and opal-like eyes.",
+        "mechanicsNotes": [
+          "The p. 55 block says CR 1/4 and 50 XP. The p. 52 Combat Awards table lists 100 XP per foe. Both values appear in the V2 .",
+          "The p. 55 Bite line repeats the word damage. Its damage amount and type are clear."
+        ],
+        "variant": "Black Earth encounter phenotype with the adventure’s full Beast stat block."
+      }
+    },
+    {
+      "owner": "b15_01",
+      "name": "Giant Shark",
+      "kind": "beast",
+      "publication": "DDEP2 - Mulmaster Undone V2",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "giant-shark",
+      "art_owner": "b15_01",
+      "reuse_source": "beast-ready-batch-05/parts/b05_02/portraits/giant-shark.png",
+      "reuse_sha256": "56aaba51f1a9c9bf6a038420210db29c8d84f6ef2e97c65a8d548cc0c6a1c0af",
+      "runtime_file": "images/beast-ready-batch-05/giant-shark.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "reused-portraits/giant-shark.png",
+        "sha256": "56aaba51f1a9c9bf6a038420210db29c8d84f6ef2e97c65a8d548cc0c6a1c0af",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Shark",
+        "publication": "DDEP2 - Mulmaster Undone V2",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "DDEP2 V2, 2015 limited release",
+        "version": "V2",
+        "adventureCode": "DDEP2",
+        "section": "Track 4, DM Appendix and Predators From Below",
+        "printedPage": 92,
+        "printedPages": [
+          92,
+          83,
+          89
+        ],
+        "pdfPage": 92,
+        "pdfPages": [
+          92,
+          83,
+          89
+        ],
+        "pdfSha256": "ae042f19f6ff864d942eb4d5df86f53bda656b4fc82eae4030ebad10decb7ca7",
+        "sourceUrl": "",
+        "url": "",
+        "officialAdventureIndex": "",
+        "sourceWitness": "Local Wizards of the Coast V2 with printed folios. The publisher index confirms the adventure code and title.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialAdaptationGuide": "",
+        "errataEvidence": "No correction for this block was located in the publisher’s errata index or Adventurers League adaptation guide.",
+        "habitatEvidence": "Tags follow the encounter setting and are editorial.",
+        "appearanceEvidence": "Editorial description of the selected portrait.",
+        "mechanicsNotes": [
+          "T",
+          "h",
+          "e",
+          " ",
+          "e",
+          "x",
+          "a",
+          "c",
+          "t",
+          " ",
+          "n",
+          "u",
+          "m",
+          "b",
+          "e",
+          "r",
+          "s",
+          " ",
+          "c",
+          "o",
+          "m",
+          "e",
+          " ",
+          "f",
+          "r",
+          "o",
+          "m",
+          " ",
+          "t",
+          "h",
+          "e",
+          " ",
+          "a",
+          "d",
+          "v",
+          "e",
+          "n",
+          "t",
+          "u",
+          "r",
+          "e",
+          "’",
+          "s",
+          " ",
+          "f",
+          "u",
+          "l",
+          "l",
+          " ",
+          "p",
+          ".",
+          " ",
+          "9",
+          "2",
+          " ",
+          "b",
+          "l",
+          "o",
+          "c",
+          "k",
+          ".",
+          " ",
+          "T",
+          "h",
+          "e",
+          " ",
+          "e",
+          "n",
+          "c",
+          "o",
+          "u",
+          "n",
+          "t",
+          "e",
+          "r",
+          " ",
+          "a",
+          "p",
+          "p",
+          "e",
+          "a",
+          "r",
+          "s",
+          " ",
+          "o",
+          "n",
+          " ",
+          "p",
+          ".",
+          " ",
+          "8",
+          "3",
+          ",",
+          " ",
+          "a",
+          "n",
+          "d",
+          " ",
+          "p",
+          ".",
+          " ",
+          "8",
+          "9",
+          " ",
+          "l",
+          "i",
+          "s",
+          "t",
+          "s",
+          " ",
+          "1",
+          ",",
+          "8",
+          "0",
+          "0",
+          " ",
+          "X",
+          "P",
+          "."
+        ],
+        "reusedPortrait": {
+          "source": "beast-ready-batch-05/parts/b05_02/portraits/giant-shark.png",
+          "sha256": "56aaba51f1a9c9bf6a038420210db29c8d84f6ef2e97c65a8d548cc0c6a1c0af"
+        }
+      }
+    },
+    {
+      "owner": "b15_01",
+      "name": "Giant Vulture",
+      "kind": "beast",
+      "publication": "DDEP2 - Mulmaster Undone V2",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-vulture",
+      "art_owner": "b15_01",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-vulture.png",
+      "reuse_sha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968",
+      "runtime_file": "images/beast-ready-batch-05/giant-vulture.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-vulture.png",
+        "sha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Vulture",
+        "publication": "DDEP2 - Mulmaster Undone V2",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "DDEP2 V2, 2015 limited release",
+        "version": "V2",
+        "adventureCode": "DDEP2",
+        "section": "Track 3, DM Appendix and The Aerie",
+        "printedPage": 75,
+        "printedPages": [
+          75,
+          76,
+          63
+        ],
+        "pdfPage": 75,
+        "pdfPages": [
+          75,
+          76,
+          63
+        ],
+        "pdfSha256": "ae042f19f6ff864d942eb4d5df86f53bda656b4fc82eae4030ebad10decb7ca7",
+        "sourceUrl": "",
+        "url": "",
+        "officialAdventureIndex": "",
+        "sourceWitness": "Local Wizards of the Coast V2 with printed folios. The publisher index confirms the adventure code and title.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialAdaptationGuide": "",
+        "errataEvidence": "No correction for this block was located in the publisher’s errata index or Adventurers League adaptation guide.",
+        "habitatEvidence": "Tags follow the encounter setting and are editorial.",
+        "appearanceEvidence": "Editorial description of the selected portrait.",
+        "mechanicsNotes": [
+          "The attack entries continue onto p. 76.",
+          "The aerie’s two saddles are encounter equipment. The reused species portrait shows the bird without tack."
+        ],
+        "reusedPortrait": {
+          "source": "beast-ready-batch-05/parts/b05_03/portraits/giant-vulture.png",
+          "sha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968"
+        }
+      }
+    },
+    {
+      "owner": "b15_01",
+      "name": "Wolf",
+      "kind": "beast",
+      "publication": "DDEP2 - Mulmaster Undone V2",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "barded-wolf",
+      "art_owner": "b15_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b15_01/portraits/barded-wolf.png",
+        "sha256": "ab89fbdbf7d834b70454094925c9bedfb708a59937198f1412be413f086dd31f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Wolf",
+        "publication": "DDEP2 - Mulmaster Undone V2",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "DDEP2 V2, 2015 limited release",
+        "version": "V2",
+        "adventureCode": "DDEP2",
+        "section": "Track 1, DM Appendix and Emerald Enclave reinforcement",
+        "printedPage": 37,
+        "printedPages": [
+          37,
+          13,
+          23,
+          24
+        ],
+        "pdfPage": 37,
+        "pdfPages": [
+          37,
+          13,
+          23,
+          24
+        ],
+        "pdfSha256": "ae042f19f6ff864d942eb4d5df86f53bda656b4fc82eae4030ebad10decb7ca7",
+        "sourceUrl": "",
+        "url": "",
+        "officialAdventureIndex": "",
+        "sourceWitness": "Local Wizards of the Coast V2 with printed folios. The publisher index confirms the adventure code and title.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialAdaptationGuide": "",
+        "errataEvidence": "No correction for this block was located in the publisher’s errata index or Adventurers League adaptation guide.",
+        "habitatEvidence": "Tags follow the encounter setting and are editorial.",
+        "appearanceEvidence": "Printed p. 37 specifies studded leather barding. The portrait depicts the armor and leaves the printed weapon anomaly to the rules notes.",
+        "mechanicsNotes": [
+          "The visually verified Wolf column on p. 37 contains Scimitar as its only action. This appears to be a copying error, since the adventure calls it a wolf mount and gives it no weapon. The staged stat block retains the printed action.",
+          "The standard 2014 Monster Manual Wolf p. 341 has Bite. That separate source does not revise this adventure."
+        ],
+        "variant": "Adventure Wolf mount with studded leather barding, AC 14."
+      }
+    },
+    {
+      "owner": "b15_01",
+      "name": "Young Bulette (Rhinoceros)",
+      "kind": "beast",
+      "publication": "DDEP2 - Mulmaster Undone V2",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "young-bulette",
+      "art_owner": "b15_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b15_01/portraits/young-bulette.png",
+        "sha256": "3211a9b3d2b38c82a079f553636dfdb551e0dbf66e0729341948d17f569726b6",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Young Bulette (Rhinoceros)",
+        "publication": "DDEP2 - Mulmaster Undone V2",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "DDEP2 V2, 2015 limited release",
+        "version": "V2",
+        "adventureCode": "DDEP2",
+        "section": "Track 2, Appendix NPC/Monster Statistics Part 2 and Staging Area",
+        "printedPage": 57,
+        "printedPages": [
+          57,
+          46,
+          47,
+          52
+        ],
+        "pdfPage": 57,
+        "pdfPages": [
+          57,
+          46,
+          47,
+          52
+        ],
+        "pdfSha256": "ae042f19f6ff864d942eb4d5df86f53bda656b4fc82eae4030ebad10decb7ca7",
+        "sourceUrl": "",
+        "url": "",
+        "officialAdventureIndex": "",
+        "sourceWitness": "Local Wizards of the Coast V2 with printed folios. The publisher index confirms the adventure code and title.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialAdaptationGuide": "",
+        "errataEvidence": "No correction for this block was located in the publisher’s errata index or Adventurers League adaptation guide.",
+        "habitatEvidence": "Tags follow the encounter setting and are editorial.",
+        "appearanceEvidence": "The encounter on p. 47 calls them young bulettes with opalescent eyes. The portrait uses a juvenile bulette silhouette.",
+        "mechanicsNotes": [
+          "The full p. 57 block gives an unaligned Large Beast with 30-ft. burrow, 30-ft. tremorsense, and a slashing Claw and Charge. The encounter treats it as a young bulette.",
+          "Rhinoceros is part of the printed heading. The adventure supplies its own statistics."
+        ],
+        "variant": "Printed adventure-specific Large Beast, with Rhinoceros in the heading and customized movement, sense, and attack."
+      }
+    },
+    {
+      "owner": "b15_02",
+      "name": "Black Bear",
+      "kind": "beast",
+      "publication": "DDAL04-03 - The Executioner",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "executioner-black-bear",
+      "art_owner": "b15_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b15_02/portraits/executioner-black-bear.png",
+        "sha256": "9b7699396b96d41b36d0234ac44623711e55fc9f95b89a45e443c2e38c9ea9b0",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Black Bear",
+        "publication": "DDAL04-03 - The Executioner",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "designer": "Jerry LeNeave",
+        "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+        "adventureCode": "DDAL04-03",
+        "section": "Appendix. NPC/Monster Statistics",
+        "printedPages": [
+          23
+        ],
+        "viewerPages": [
+          23
+        ],
+        "relatedPrintedPages": [
+          16,
+          20
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-03 - The ",
+        "localPrintSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+        "sourceSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+        "errataUrl": "",
+        "errataEvidence": "The official organized-play FAQ changes the adventure’s minimum and maximum character XP to 450 and 600. It gives no adjustment to this creature’s statistics or individual award.",
+        "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+        "appearanceEvidence": "The printed encounter on p. 16 describes an emaciated black bear. The portrait depicts that individual.",
+        "artGroup": "executioner-black-bear",
+        "mechanicsNotes": [
+          "P. 23 shows 100 XP in the creature block. P. 20 lists 200 XP per foe in the combat rewards. The overlay XP is the creature block value."
+        ],
+        "portraitSha256": "9b7699396b96d41b36d0234ac44623711e55fc9f95b89a45e443c2e38c9ea9b0"
+      }
+    },
+    {
+      "owner": "b15_02",
+      "name": "Blood Hawk",
+      "kind": "beast",
+      "publication": "DDAL04-03 - The Executioner",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "blood-hawk",
+      "art_owner": "b15_02",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+      "reuse_sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+      "runtime_file": "images/beast-ready-batch-04/blood-hawk.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/blood-hawk.png",
+        "sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Blood Hawk",
+        "publication": "DDAL04-03 - The Executioner",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "designer": "Jerry LeNeave",
+        "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+        "adventureCode": "DDAL04-03",
+        "section": "Appendix. NPC/Monster Statistics",
+        "printedPages": [
+          23
+        ],
+        "viewerPages": [
+          23
+        ],
+        "relatedPrintedPages": [
+          16,
+          20
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-03 - The ",
+        "localPrintSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+        "sourceSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+        "errataUrl": "",
+        "errataEvidence": "The official organized-play FAQ changes the adventure’s minimum and maximum character XP to 450 and 600. It gives no adjustment to this creature’s statistics or individual award.",
+        "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+        "appearanceEvidence": "Editorial description of the reused stock portrait.",
+        "artGroup": "blood-hawk",
+        "mechanicsNotes": [
+          "The printed trait heading says Keen Hearing and Smell, but the rule explicitly grants advantage on sight checks. Beak is +4."
+        ],
+        "portraitReuseSource": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+        "portraitReuseSha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f"
+      }
+    },
+    {
+      "owner": "b15_02",
+      "name": "Raven",
+      "kind": "beast",
+      "publication": "DDAL04-03 - The Executioner",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "raven",
+      "art_owner": "b15_02",
+      "reuse_source": "beast-ready-batch-02/parts/b02_08/portraits/raven.png",
+      "reuse_sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8",
+      "runtime_file": "images/beast-ready-batch-02/raven.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/raven.png",
+        "sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Raven",
+        "publication": "DDAL04-03 - The Executioner",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "designer": "Jerry LeNeave",
+        "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+        "adventureCode": "DDAL04-03",
+        "section": "Appendix. NPC/Monster Statistics",
+        "printedPages": [
+          24
+        ],
+        "viewerPages": [
+          24
+        ],
+        "relatedPrintedPages": [
+          16,
+          20
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-03 - The ",
+        "localPrintSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+        "sourceSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+        "errataUrl": "",
+        "errataEvidence": "The official organized-play FAQ changes the adventure’s minimum and maximum character XP to 450 and 600. It gives no adjustment to this creature’s statistics or individual award.",
+        "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+        "appearanceEvidence": "Editorial description of the reused stock portrait.",
+        "artGroup": "raven",
+        "mechanicsNotes": [
+          "Raven has its own Tiny Beast block. The named Wereraven in the module has separate statistics."
+        ],
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_08/portraits/raven.png",
+        "portraitReuseSha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8"
+      }
+    },
+    {
+      "owner": "b15_02",
+      "name": "Blood Hawk",
+      "kind": "beast",
+      "publication": "DDAL04-02 - The Beast",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "blood-hawk",
+      "art_owner": "b15_02",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+      "reuse_sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+      "runtime_file": "images/beast-ready-batch-04/blood-hawk.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/blood-hawk.png",
+        "sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Blood Hawk",
+        "publication": "DDAL04-02 - The Beast",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "designer": "Alan Patrick",
+        "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+        "adventureCode": "DDAL04-02",
+        "section": "Appendix. NPC/Monster Statistics",
+        "printedPages": [
+          27
+        ],
+        "viewerPages": [
+          27
+        ],
+        "relatedPrintedPages": [
+          12,
+          24
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-02 - The ",
+        "localPrintSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+        "sourceSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+        "errataUrl": "",
+        "errataEvidence": "The official organized-play FAQ lists no change to these creature statistics.",
+        "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+        "appearanceEvidence": "Editorial description of the reused stock portrait.",
+        "artGroup": "blood-hawk",
+        "mechanicsNotes": [
+          "The printed trait heading says Keen Hearing and Smell, but the rule explicitly grants advantage on sight checks. Beak is +4."
+        ],
+        "portraitReuseSource": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+        "portraitReuseSha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f"
+      }
+    },
+    {
+      "owner": "b15_02",
+      "name": "Dire Wolf",
+      "kind": "beast",
+      "publication": "DDAL04-02 - The Beast",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "dire-wolf",
+      "art_owner": "b15_02",
+      "reuse_source": "beast-ready-batch-04/parts/b04_03/portraits/dire-wolf.png",
+      "reuse_sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+      "runtime_file": "images/beast-ready-batch-04/dire-wolf.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/dire-wolf.png",
+        "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Dire Wolf",
+        "publication": "DDAL04-02 - The Beast",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "designer": "Alan Patrick",
+        "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+        "adventureCode": "DDAL04-02",
+        "section": "Appendix. NPC/Monster Statistics",
+        "printedPages": [
+          29
+        ],
+        "viewerPages": [
+          29
+        ],
+        "relatedPrintedPages": [
+          21,
+          22,
+          24
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-02 - The ",
+        "localPrintSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+        "sourceSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+        "errataUrl": "",
+        "errataEvidence": "The official organized-play FAQ lists no change to these creature statistics.",
+        "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+        "appearanceEvidence": "Editorial description of the reused stock portrait.",
+        "artGroup": "dire-wolf",
+        "mechanicsNotes": [
+          "The block prints Bite +4 and Perception advantage for sight or smell. Pack Tactics names a vulture in the ally clause. The table-ready reading uses the dire wolf’s ally and preserves the wording discrepancy."
+        ],
+        "portraitReuseSource": "beast-ready-batch-04/parts/b04_03/portraits/dire-wolf.png",
+        "portraitReuseSha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c"
+      }
+    },
+    {
+      "owner": "b15_02",
+      "name": "Elk",
+      "kind": "beast",
+      "publication": "DDAL04-02 - The Beast",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "elk",
+      "art_owner": "b15_02",
+      "reuse_source": "beast-ready-batch-02/parts/b02_07/portraits/elk.png",
+      "reuse_sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+      "runtime_file": "images/beast-ready-batch-02/elk.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/elk.png",
+        "sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Elk",
+        "publication": "DDAL04-02 - The Beast",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "designer": "Alan Patrick",
+        "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+        "adventureCode": "DDAL04-02",
+        "section": "Appendix. NPC/Monster Statistics",
+        "printedPages": [
+          29
+        ],
+        "viewerPages": [
+          29
+        ],
+        "relatedPrintedPages": [
+          18,
+          24
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-02 - The ",
+        "localPrintSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+        "sourceSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+        "errataUrl": "",
+        "errataEvidence": "The official organized-play FAQ lists no change to these creature statistics.",
+        "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+        "appearanceEvidence": "Editorial description of the reused stock portrait.",
+        "artGroup": "elk",
+        "mechanicsNotes": [
+          "Hooves says one target without a Prone requirement. Charge gives extra damage without naming a separate damage type."
+        ],
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_07/portraits/elk.png",
+        "portraitReuseSha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab"
+      }
+    },
+    {
+      "owner": "b15_03",
+      "name": "Blood Hawk",
+      "kind": "beast",
+      "publication": "DDEX2-01 - City of Danger",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "blood-hawk",
+      "art_owner": "b15_03",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+      "reuse_sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+      "runtime_file": "images/beast-ready-batch-04/blood-hawk.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/blood-hawk.png",
+        "sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Blood Hawk",
+        "publication": "DDEX2-01 - City of Danger",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2015 release dated 2015-04-01 on the cover",
+        "adventureCode": "DDEX2-1",
+        "designer": "Shawn Merwin",
+        "debutDate": "2015-03-13",
+        "releaseDate": "2015-04-01",
+        "printedPages": [
+          12
+        ],
+        "pdfPages": [
+          12
+        ],
+        "encounterPages": [
+          10,
+          11
+        ],
+        "sourcePdf": "DDEX2-01 - City of ",
+        "sourcePdfPageCount": 41,
+        "sourcePdfSha256": "7ab992258a5e4deb08b30ed942d06f9a62a693cd71acecdb08e117f3f36494be",
+        "sourceUrl": "",
+        "productListing": "https://www.dmsguild.com/product/170386",
+        "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+        "officialErrata": "",
+        "errataEvidence": "The official Adventurers League FAQ adventure errata does not list this adventure.",
+        "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png.",
+        "habitatEvidence": "The tower and Elemental Plane of Air are explicit on p. 10.",
+        "printingNotes": [
+          "The cover dates the release April 1, 2015.",
+          "The Monster/NPC Statistics appendix gives a complete Beast block. The summoning provenance on p. 10 adds no traits or creature-type changes."
+        ]
+      }
+    },
+    {
+      "owner": "b15_03",
+      "name": "Giant Badger",
+      "kind": "beast",
+      "publication": "DDEX2-01 - City of Danger",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "obsidian-giant-badger",
+      "art_owner": "b15_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b15_01/portraits/obsidian-giant-badger.png",
+        "sha256": "dfc95d54d9735103e1fa16074abc9d6ef8b42aee1ed3b69d03368003fa9d6e77",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Badger",
+        "publication": "DDEX2-01 - City of Danger",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2015 release dated 2015-04-01 on the cover",
+        "adventureCode": "DDEX2-1",
+        "designer": "Shawn Merwin",
+        "debutDate": "2015-03-13",
+        "releaseDate": "2015-04-01",
+        "printedPages": [
+          25
+        ],
+        "pdfPages": [
+          25
+        ],
+        "encounterPages": [
+          22,
+          23
+        ],
+        "sourcePdf": "DDEX2-01 - City of ",
+        "sourcePdfPageCount": 41,
+        "sourcePdfSha256": "7ab992258a5e4deb08b30ed942d06f9a62a693cd71acecdb08e117f3f36494be",
+        "sourceUrl": "",
+        "productListing": "https://www.dmsguild.com/product/170386",
+        "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+        "officialErrata": "",
+        "errataEvidence": "The official Adventurers League FAQ adventure errata does not list this adventure.",
+        "appearanceEvidence": "Shared Batch 15 obsidian Giant Badger portrait. The black teeth and claws follow City of Danger p. 22. The shared portrait’s faint opalescent eyes reflect the DDEP2 encounter description.",
+        "habitatEvidence": "p. 22 places the beasts in the mine and its tunnels.",
+        "printingNotes": [
+          "The cover dates the release April 1, 2015.",
+          "The obsidian-like teeth and claws are specific to the encounter and do not change the printed damage or damage types. The temporary attack disadvantage is the p. 22 encounter procedure."
+        ]
+      }
+    },
+    {
+      "owner": "b15_03",
+      "name": "Giant Frog",
+      "kind": "beast",
+      "publication": "DDEX2-01 - City of Danger",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-frog",
+      "art_owner": "b15_03",
+      "reuse_source": "beast-ready-batch-04/parts/b04_07/portraits/giant-frog.png",
+      "reuse_sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+      "runtime_file": "images/beast-ready-batch-04/giant-frog.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-frog.png",
+        "sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Frog",
+        "publication": "DDEX2-01 - City of Danger",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2015 release dated 2015-04-01 on the cover",
+        "adventureCode": "DDEX2-1",
+        "designer": "Shawn Merwin",
+        "debutDate": "2015-03-13",
+        "releaseDate": "2015-04-01",
+        "printedPages": [
+          32
+        ],
+        "pdfPages": [
+          32
+        ],
+        "encounterPages": [
+          30,
+          31
+        ],
+        "sourcePdf": "DDEX2-01 - City of ",
+        "sourcePdfPageCount": 41,
+        "sourcePdfSha256": "7ab992258a5e4deb08b30ed942d06f9a62a693cd71acecdb08e117f3f36494be",
+        "sourceUrl": "",
+        "productListing": "https://www.dmsguild.com/product/170386",
+        "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+        "officialErrata": "",
+        "errataEvidence": "The official Adventurers League FAQ adventure errata does not list this adventure.",
+        "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-04/parts/b04_07/portraits/giant-frog.png.",
+        "habitatEvidence": "p. 30 identifies the partially submerged grotto under the bay of Mulmaster.",
+        "printingNotes": [
+          "The cover dates the release April 1, 2015.",
+          "The printed Bite can grapple any target it hits. Small or smaller is the separate Swallow restriction."
+        ]
+      }
+    },
+    {
+      "owner": "b15_03",
+      "name": "Giant Badger",
+      "kind": "beast",
+      "publication": "DDEX2-07 - Bounty in the Bog",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-badger",
+      "art_owner": "b15_03",
+      "reuse_source": "beast-ready-batch-04/parts/b04_04/portraits/giant-badger.png",
+      "reuse_sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+      "runtime_file": "images/beast-ready-batch-04/giant-badger.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-badger.png",
+        "sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Badger",
+        "publication": "DDEX2-07 - Bounty in the Bog",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2015 release dated 2015-05-01 on the cover",
+        "adventureCode": "DDEX2-7",
+        "designer": "Ken Hart",
+        "debutDate": "2015-04-10",
+        "releaseDate": "2015-05-01",
+        "printedPages": [
+          22
+        ],
+        "pdfPages": [
+          22
+        ],
+        "encounterPages": [
+          14,
+          15,
+          18
+        ],
+        "sourcePdf": "DDEX2-07 - Bounty in the ",
+        "sourcePdfPageCount": 27,
+        "sourcePdfSha256": "d0deb9968a738677134e93e89b0aeb7a820ac5cc806b0b62f0302c05ca6c9e16",
+        "sourceUrl": "",
+        "productListing": "https://www.dmsguild.com/product/170481",
+        "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+        "officialErrata": "",
+        "errataEvidence": "The official Adventurers League FAQ corrects the adventure’s per-character XP minimum and maximum from 450–600 on p. 18 to 900–1,200. Its erratum leaves the printed per-creature XP and creature mechanics intact.",
+        "appearanceEvidence": "Editorial description of the reused portrait at beast-ready-batch-04/parts/b04_04/portraits/giant-badger.png.",
+        "habitatEvidence": "The Flooded Forest and the underground grotto are the adventure locations described on pp. 14–15.",
+        "printingNotes": [
+          "The cover dates the release May 1, 2015. Its level 5–10 cover blurb conflicts with the interior and the official adventure index’s 1–4 scope.",
+          "The p. 22 stat block and p. 18 combat award both give 50 XP. The grotto badger’s tactics appear on p. 15."
+        ]
+      }
+    },
+    {
+      "owner": "b15_03",
+      "name": "Giant Wasp",
+      "kind": "beast",
+      "publication": "DDEX2-07 - Bounty in the Bog",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "giant-wasp",
+      "art_owner": "b15_03",
+      "reuse_source": "srd-giant-insects/portraits/wasp-draft.png",
+      "reuse_sha256": "c401c2abb5ee459cb96c6de8515e77b29f4d52bfab4afdfc6b87e8224b9c8320",
+      "runtime_file": "images/srd-giant-insect-drafts/wasp.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/giant-wasp.png",
+        "sha256": "c401c2abb5ee459cb96c6de8515e77b29f4d52bfab4afdfc6b87e8224b9c8320",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Wasp",
+        "publication": "DDEX2-07 - Bounty in the Bog",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2015 release dated 2015-05-01 on the cover",
+        "adventureCode": "DDEX2-7",
+        "designer": "Ken Hart",
+        "debutDate": "2015-04-10",
+        "releaseDate": "2015-05-01",
+        "printedPages": [
+          21
+        ],
+        "pdfPages": [
+          21
+        ],
+        "encounterPages": [
+          10,
+          11,
+          13,
+          18
+        ],
+        "sourcePdf": "DDEX2-07 - Bounty in the ",
+        "sourcePdfPageCount": 27,
+        "sourcePdfSha256": "d0deb9968a738677134e93e89b0aeb7a820ac5cc806b0b62f0302c05ca6c9e16",
+        "sourceUrl": "",
+        "productListing": "https://www.dmsguild.com/product/170481",
+        "sourceWitness": "Read the local original Wizards of the Coast Adventurers League module . The and printed folio numbers match for these pages. The publisher’s adventure index confirms the title and adventure code.",
+        "officialErrata": "",
+        "errataEvidence": "The official Adventurers League FAQ corrects the adventure’s per-character XP minimum and maximum from 450–600 on p. 18 to 900–1,200. Its erratum leaves the printed per-creature XP and creature mechanics intact.",
+        "appearanceEvidence": "Editorial description of the reused portrait at srd-giant-insects/portraits/wasp-draft.png.",
+        "habitatEvidence": "p. 13 places the nest overhead in a tree in the swampy Flooded Forest.",
+        "printingNotes": [
+          "The cover dates the release May 1, 2015. Its level 5–10 cover blurb conflicts with the interior and the official adventure index’s 1–4 scope.",
+          "The p. 21 Sting preserves the full zero-HP poison rule. Carrying paralyzed adventurers and the repellent procedure come from p. 13. The p. 18 combat award confirms 100 XP per wasp."
+        ]
+      }
+    },
+    {
+      "owner": "b15_04",
+      "name": "Brown Bear",
+      "kind": "beast",
+      "publication": "DDAL04-14 - The Darklord",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "brown-bear",
+      "art_owner": "b15_04",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/brown-bear.png",
+      "reuse_sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+      "runtime_file": "images/beast-ready-batch-04/brown-bear.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/brown-bear.png",
+        "sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Brown Bear",
+        "publication": "DDAL04-14 - The Darklord",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, D&D Adventurers League",
+        "printedTitle": "The Dark Lord",
+        "printing": "2016 , version 1.0 on the cover",
+        "author": "Greg Marks",
+        "section": "Appendix monster statistics, Brown Bear",
+        "encounterHeading": "Part 2, Do You Have Any Candy?",
+        "printedPages": [
+          30
+        ],
+        "pdfPages": [
+          30
+        ],
+        "supportingPrintedPages": [
+          14
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "encounterWitnessUrls": [
+          ""
+        ],
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-14 - The ",
+        "localPrintSha256": "4713759b735ff9d13280b1330045d61812505766d320ec928f5ba3e30e9367d9",
+        "publisherCatalogUrl": "",
+        "productUrl": "https://www.dmsguild.com/product/186787/DDAL0414-The-Darklord-5e",
+        "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No official correction for this standalone adventure block was located.",
+        "separateMonsterManualErrataUrl": "",
+        "operationalEvidence": "Printed p. 30 gives both Bite figures and +5 to hit for each attack. The encounter sidebar on p. 14 specifies both uses of the bear.",
+        "sourceDiscrepancies": "The Bite line prints 8 (1d8 + 8). The average and the dice expression disagree. Use the printed fixed 8 for a direct reading and retain the recorded dice wording. The 2014 Monster Manual errata changes that book’s Brown Bear to +6 to hit. This adventure prints +5.",
+        "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+        "habitatEvidence": "Tags from the printed encounter location.",
+        "artGroup": "brown-bear",
+        "reuseSha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953"
+      }
+    },
+    {
+      "owner": "b15_04",
+      "name": "Giant Ape",
+      "kind": "beast",
+      "publication": "DDAL04-14 - The Darklord",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "7",
+      "art_group": "giant-ape",
+      "art_owner": "b15_04",
+      "reuse_source": "beast-ready-batch-04/parts/b04_04/portraits/giant-ape.png",
+      "reuse_sha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024",
+      "runtime_file": "images/beast-ready-batch-04/giant-ape.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "7",
+      "portrait": {
+        "file": "reused-portraits/giant-ape.png",
+        "sha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Ape",
+        "publication": "DDAL04-14 - The Darklord",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, D&D Adventurers League",
+        "printedTitle": "The Dark Lord",
+        "printing": "2016 , version 1.0 on the cover",
+        "author": "Greg Marks",
+        "section": "Appendix monster statistics, Giant Ape",
+        "encounterHeading": "Part 2, Do You Have Any Candy?",
+        "printedPages": [
+          32
+        ],
+        "pdfPages": [
+          32
+        ],
+        "supportingPrintedPages": [
+          14
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "encounterWitnessUrls": [
+          ""
+        ],
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-14 - The ",
+        "localPrintSha256": "4713759b735ff9d13280b1330045d61812505766d320ec928f5ba3e30e9367d9",
+        "publisherCatalogUrl": "",
+        "productUrl": "https://www.dmsguild.com/product/186787/DDAL0414-The-Darklord-5e",
+        "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No official correction for this standalone adventure block was located.",
+        "operationalEvidence": "The Giant Ape stand-alone block supplies Fist, Rock and its two-Fist Multiattack. The encounter supplies the toy transformation, behavior and party-strength changes.",
+        "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+        "habitatEvidence": "Tags from the printed encounter location.",
+        "artGroup": "giant-ape",
+        "reuseSha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024"
+      }
+    },
+    {
+      "owner": "b15_04",
+      "name": "Giant Crocodile",
+      "kind": "beast",
+      "publication": "DDAL04-14 - The Darklord",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "giant-crocodile",
+      "art_owner": "b15_04",
+      "reuse_source": "beast-ready-batch-04/parts/b04_06/portraits/giant-crocodile.png",
+      "reuse_sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b",
+      "runtime_file": "images/beast-ready-batch-04/giant-crocodile.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "reused-portraits/giant-crocodile.png",
+        "sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Crocodile",
+        "publication": "DDAL04-14 - The Darklord",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, D&D Adventurers League",
+        "printedTitle": "The Dark Lord",
+        "printing": "2016 , version 1.0 on the cover",
+        "author": "Greg Marks",
+        "section": "Appendix monster statistics, Giant Crocodile",
+        "encounterHeading": "Part 2, Do You Have Any Candy?",
+        "printedPages": [
+          32
+        ],
+        "pdfPages": [
+          32
+        ],
+        "supportingPrintedPages": [
+          14
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "encounterWitnessUrls": [
+          ""
+        ],
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-14 - The ",
+        "localPrintSha256": "4713759b735ff9d13280b1330045d61812505766d320ec928f5ba3e30e9367d9",
+        "publisherCatalogUrl": "",
+        "productUrl": "https://www.dmsguild.com/product/186787/DDAL0414-The-Darklord-5e",
+        "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No official correction for this standalone adventure block was located.",
+        "operationalEvidence": "Folio 32 prints walk 40 ft. and swim 50 ft. Bite and Tail continue across both columns. Tail cannot target a creature held in the crocodile’s Bite grapple.",
+        "sourceDiscrepancies": "The adventure gives a 40-ft. walking speed. The 2014 Monster Manual p. 324 gives 30 ft. This encounter uses the adventure’s speed.",
+        "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+        "habitatEvidence": "Tags from the printed encounter location.",
+        "artGroup": "giant-crocodile",
+        "reuseSha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b"
+      }
+    },
+    {
+      "owner": "b15_04",
+      "name": "Brown Bear",
+      "kind": "beast",
+      "publication": "DDAL04-05 - The Seer",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "brown-bear",
+      "art_owner": "b15_04",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/brown-bear.png",
+      "reuse_sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+      "runtime_file": "images/beast-ready-batch-04/brown-bear.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/brown-bear.png",
+        "sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Brown Bear",
+        "publication": "DDAL04-05 - The Seer",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, D&D Adventurers League",
+        "printedTitle": "The Seer",
+        "printing": "2016 English , with no version number on the cover",
+        "author": "Ron Lundeen",
+        "section": "Appendix monster statistics, Brown Bear",
+        "encounterHeading": "Part 1, Snow Falling Upon the Cedars and Mysterious Drumming",
+        "printedPages": [
+          18
+        ],
+        "pdfPages": [
+          18
+        ],
+        "supportingPrintedPages": [
+          9
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "encounterWitnessUrls": [
+          ""
+        ],
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-05 - The ",
+        "localPrintSha256": "7996064702776bddb88afd06656ebf629e4593013e70e355e9ea3dd0573d75e0",
+        "publisherCatalogUrl": "",
+        "productUrl": "https://www.drivethrurpg.com/product/178796/DDAL0405-The-Seer-5e",
+        "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No official correction for this standalone adventure block was located.",
+        "separateMonsterManualErrataUrl": "",
+        "operationalEvidence": "Folio 9 supplies the original wilderness encounter, surprise exceptions, noncumulative adjustments and drumming. The Bear’s statistics and attacks are on p. 18.",
+        "sourceDiscrepancies": "The adventure prints +5 to hit for both attacks. The 2014 Monster Manual errata changes that book’s Brown Bear to +6.",
+        "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+        "habitatEvidence": "Tags from the printed encounter location.",
+        "artGroup": "brown-bear",
+        "reuseSha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953"
+      }
+    },
+    {
+      "owner": "b15_04",
+      "name": "Dire Wolf",
+      "kind": "beast",
+      "publication": "DDAL04-05 - The Seer",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "dire-wolf",
+      "art_owner": "b15_04",
+      "reuse_source": "beast-ready-batch-04/parts/b04_03/portraits/dire-wolf.png",
+      "reuse_sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+      "runtime_file": "images/beast-ready-batch-04/dire-wolf.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/dire-wolf.png",
+        "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Dire Wolf",
+        "publication": "DDAL04-05 - The Seer",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, D&D Adventurers League",
+        "printedTitle": "The Seer",
+        "printing": "2016 English , with no version number on the cover",
+        "author": "Ron Lundeen",
+        "section": "Appendix monster statistics, Dire Wolf",
+        "encounterHeading": "Part 3, The Standing Stones, and Combat Awards",
+        "printedPages": [
+          18
+        ],
+        "pdfPages": [
+          18
+        ],
+        "supportingPrintedPages": [
+          14,
+          16
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "encounterWitnessUrls": [
+          "",
+          ""
+        ],
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-05 - The ",
+        "localPrintSha256": "7996064702776bddb88afd06656ebf629e4593013e70e355e9ea3dd0573d75e0",
+        "publisherCatalogUrl": "",
+        "productUrl": "https://www.drivethrurpg.com/product/178796/DDAL0405-The-Seer-5e",
+        "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No official correction for this standalone adventure block was located.",
+        "operationalEvidence": "Folio 18 prints the full Dire Wolf stat block across its two columns. It is also in the combat award table on p. 16. Folio 14 mentions lurking wolves and wolf tracks but gives no encounter roster.",
+        "sourceDiscrepancies": "The adventure references lurking wolves but gives no exact group size or placement for the Dire Wolf.",
+        "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+        "habitatEvidence": "Editorial tags from the adventure’s forest route and its reference to lurking wolves and wolf tracks.",
+        "artGroup": "dire-wolf",
+        "reuseSha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c"
+      }
+    },
+    {
+      "owner": "b15_05",
+      "name": "Giant Octopus",
+      "kind": "beast",
+      "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "green-giant-octopus",
+      "art_owner": "b15_05",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b15_05/portraits/green-giant-octopus.png",
+        "sha256": "42ca7fdcd1f3cd93c50825f09d6c7b278f5c9abed232c2dc73be13a21272e3aa",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Octopus",
+        "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceTitle": "Dark Pyramid of Sorcerer's Isle",
+        "adventureCode": "DDEX1-11",
+        "printedAdventureCode": "DDEX1-11",
+        "adventureDesigner": "Claire Hoffman",
+        "releaseDate": "March 1, 2015",
+        "printedHeading": "Giant Octopus",
+        "section": "Appendix 1: Monster/NPC Statistics",
+        "printedPages": [
+          11,
+          36
+        ],
+        "pdfPages": [
+          11,
+          36
+        ],
+        "statBlockPage": 36,
+        "creditsPdfPage": 1,
+        "sourceSha256": "18edc7399ddea0f747c18b6488969a7100476d41db7eb937147bdb39cd4a8043",
+        "sourceUrl": "",
+        "url": "",
+        "officialSourceIndex": "",
+        "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+        "habitatEvidence": "The p. 11 encounter places two octopuses in the river below the boat.",
+        "artGroup": "green-giant-octopus",
+        "artworkSource": "portraits/green-giant-octopus.png",
+        "artworkSha256": "42ca7fdcd1f3cd93c50825f09d6c7b278f5c9abed232c2dc73be13a21272e3aa",
+        "artworkCredit": "OpenAI ImageGen",
+        "appearanceEvidence": "Editorial description of the new matte parchment portrait informed by the printed encounter.",
+        "sourceNotes": [
+          "The p. 11 read-aloud calls the attacking tentacle bright green. The p. 36 appendix provides the base profile and no separate mutation mechanic."
+        ],
+        "productUrl": "https://www.dmsguild.com/product/170470/DDEX111-Dark-Pyramid-of-Sorcerers-Isle-5e"
+      }
+    },
+    {
+      "owner": "b15_05",
+      "name": "Crocodile",
+      "kind": "beast",
+      "publication": "DDEX1-07 - Drums in the Marsh",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "crocodile",
+      "art_owner": "b15_05",
+      "reuse_source": "beast-ready-batch-02/parts/b02_06/portraits/crocodile.png",
+      "reuse_sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+      "runtime_file": "images/beast-ready-batch-02/crocodile.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/crocodile.png",
+        "sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Crocodile",
+        "publication": "DDEX1-07 - Drums in the Marsh",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceTitle": "Drums in the Marsh",
+        "adventureCode": "DDEX1-07",
+        "printedAdventureCode": "DDEX1-7",
+        "adventureDesigner": "Sterling Hershey",
+        "releaseDate": "November 1, 2014",
+        "printedHeading": "Crocodile",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          19,
+          21
+        ],
+        "pdfPages": [
+          19,
+          21
+        ],
+        "statBlockPage": 21,
+        "creditsPdfPage": 1,
+        "sourceSha256": "a2284a04b7e2a8726ef70097afc432d9f6bb08963578712d3d934e4c85a7ecd7",
+        "sourceUrl": "",
+        "url": "",
+        "officialSourceIndex": "",
+        "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+        "habitatEvidence": "Swamp is a contextual tag from the Twilight Marsh setting. The standalone Crocodile profile is printed in the appendix.",
+        "artGroup": "crocodile",
+        "artworkSource": "beast-ready-batch-02/parts/b02_06/portraits/crocodile.png",
+        "artworkSha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+        "artworkCredit": "Original portrait generated with OpenAI ImageGen",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/crocodile.png",
+        "portraitReuseSha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+        "appearanceEvidence": "Editorial description of the reused matte parchment portrait.",
+        "sourceNotes": [
+          "The XP table lists Crocodile separately on p. 19. The p. 22 lizardfolk shaman has its own crocodile shape rules. The printed appendix Beast on p. 21 provides this profile."
+        ],
+        "officialPdfMatch": "Publisher-hosted and local original have the same SHA-256."
+      }
+    },
+    {
+      "owner": "b15_05",
+      "name": "Boar",
+      "kind": "beast",
+      "publication": "DDEX3-02 - Shackles of Blood",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "boar",
+      "art_owner": "b15_05",
+      "reuse_source": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+      "reuse_sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+      "runtime_file": "images/beast-ready-batch-02/boar.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/boar.png",
+        "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Boar",
+        "publication": "DDEX3-02 - Shackles of Blood",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceTitle": "Shackles of Blood",
+        "adventureCode": "DDEX3-02",
+        "printedAdventureCode": "DDEX3-2",
+        "adventureDesigner": "Joshua Kelly",
+        "releaseDate": "September 1, 2015",
+        "printedHeading": "Boar",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          12,
+          28
+        ],
+        "pdfPages": [
+          12,
+          28
+        ],
+        "statBlockPage": 28,
+        "creditsPdfPage": 1,
+        "sourceSha256": "2bc7d4be5a779d86b402d8eee65f36a3d77d0ecf849014c4e7d44eda6944dd42",
+        "sourceUrl": "",
+        "url": "",
+        "officialSourceIndex": "",
+        "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+        "habitatEvidence": "The Red Plumes’ camp lies within Cormanthor Forest. The p. 12 boar runs into the woods after attacking.",
+        "artGroup": "boar",
+        "artworkSource": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+        "artworkSha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+        "artworkCredit": "Original portrait generated with OpenAI ImageGen",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+        "portraitReuseSha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+        "appearanceEvidence": "Editorial description of the reused matte parchment portrait.",
+        "sourceNotes": [
+          "The p. 12 breakout attack is printed separately from the p. 28 Boar’s ordinary Tusk. The enhanced attack applies in the stated breakout sequence. The adventure describes an ordinary boar without distinctive anatomy."
+        ]
+      }
+    },
+    {
+      "owner": "b15_05",
+      "name": "Giant Boar",
+      "kind": "beast",
+      "publication": "DDEX3-07 - Herald of the Moon",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-boar",
+      "art_owner": "b15_05",
+      "reuse_source": "beast-ready-batch-04/parts/b04_05/portraits/giant-boar.png",
+      "reuse_sha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+      "runtime_file": "images/beast-ready-batch-04/giant-boar.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/giant-boar.png",
+        "sha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Boar",
+        "publication": "DDEX3-07 - Herald of the Moon",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceTitle": "Herald of the Moon",
+        "adventureCode": "DDEX3-07",
+        "printedAdventureCode": "DDEX3-7",
+        "adventureDesigner": "Matt Hudson",
+        "releaseDate": "October 1, 2015",
+        "printedHeading": "Giant Boar",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          14,
+          28
+        ],
+        "pdfPages": [
+          14,
+          28
+        ],
+        "statBlockPage": 28,
+        "creditsPdfPage": 1,
+        "sourceSha256": "8507a7906d23756f3fdf3aa15f7664e42c3fe31ad35e374f9d976effc4da5f96",
+        "sourceUrl": "",
+        "url": "",
+        "officialSourceIndex": "",
+        "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+        "habitatEvidence": "The p. 14 encounter places the boar in a Cormanthor forest clearing with two hill giants.",
+        "artGroup": "giant-boar",
+        "artworkSource": "beast-ready-batch-04/parts/b04_05/portraits/giant-boar.png",
+        "artworkSha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+        "artworkCredit": "OpenAI ImageGen",
+        "portraitReuseSource": "beast-ready-batch-04/parts/b04_05/portraits/giant-boar.png",
+        "portraitReuseSha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+        "appearanceEvidence": "Editorial description of the reused matte parchment portrait.",
+        "sourceNotes": [
+          "The first column of p. 28 gives the Giant Boar’s heading and base numbers. Its traits and Tusk continue in the right column above Hill Giant. No distinctive markings are described."
+        ]
+      }
+    },
+    {
+      "owner": "b15_05",
+      "name": "Mastiff",
+      "kind": "beast",
+      "publication": "DDEX2-02 - Embers of Elmwood",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "barded-mastiff",
+      "art_owner": "b15_05",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b15_05/portraits/barded-mastiff.png",
+        "sha256": "0f57b73c2f6ff540a45d16d74c503e8e4625fac755248b8dd449d4dc500a951f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Mastiff",
+        "publication": "DDEX2-02 - Embers of Elmwood",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceTitle": "Embers of Elmwood",
+        "adventureCode": "DDEX2-02",
+        "printedAdventureCode": "DDEX2-2",
+        "adventureDesigner": "Daniel Helmick",
+        "releaseDate": "April 1, 2015",
+        "printedHeading": "Mastiff",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          13,
+          22
+        ],
+        "pdfPages": [
+          13,
+          22
+        ],
+        "statBlockPage": 22,
+        "creditsPdfPage": 1,
+        "sourceSha256": "ac1084a0733923de19ffc4b4fc8ca9d2f358b10a905bbd0fd8b53e74ab059c98",
+        "sourceUrl": "",
+        "url": "",
+        "officialSourceIndex": "",
+        "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+        "habitatEvidence": "Urban is a contextual tag for the p. 13 grand-room encounter during an attack on a manor in Mulmaster.",
+        "artGroup": "barded-mastiff",
+        "artworkSource": "portraits/barded-mastiff.png",
+        "artworkSha256": "0f57b73c2f6ff540a45d16d74c503e8e4625fac755248b8dd449d4dc500a951f",
+        "artworkCredit": "OpenAI ImageGen",
+        "appearanceEvidence": "Editorial description of the new matte parchment portrait informed by the printed encounter.",
+        "sourceNotes": [
+          "The p. 22 Mastiff has base AC 12. The portrait depicts leather barding for the p. 13 encounter, which uses AC 13. The module does not specify coat markings."
+        ],
+        "productUrl": "https://www.dmsguild.com/product/170476/DDEX202-Embers-of-Elmwood-5e"
+      }
+    },
+    {
+      "owner": "b15_06",
+      "name": "Draft Horse",
+      "kind": "beast",
+      "publication": "DDEX3-05 - Bane of the Tradeways",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "draft-horse",
+      "art_owner": "b15_06",
+      "reuse_source": "beast-ready-batch-04/parts/b04_03/portraits/draft-horse.png",
+      "reuse_sha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+      "runtime_file": "images/beast-ready-batch-04/draft-horse.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/draft-horse.png",
+        "sha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Draft Horse",
+        "publication": "DDEX3-05 - Bane of the Tradeways",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast / D&D Adventurers League",
+        "printing": "September 1, 2015 release",
+        "author": "Robert Alaniz",
+        "adventureCode": "DDEX3-05",
+        "heading": "Draft Horse",
+        "printedPages": [
+          26
+        ],
+        "viewerPages": [
+          26
+        ],
+        "supportingPages": [
+          11
+        ],
+        "supportingViewerPages": [
+          11
+        ],
+        "sourceWitness": " - 5th Edition (2014)/Adventures/DDEX3-05 - Bane of the ",
+        "sourceSha256": "b9bbe59af36bcec1d891acdc1cd00dafae3f73f24a2eb34aac80d749572782ad",
+        "url": "",
+        "sourceUrl": "",
+        "officialAdventureIndex": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+        "habitatEvidence": "This adventure places its draft horses at the front of a fortified trade caravan on p. 11.",
+        "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+        "artworkSource": "beast-ready-batch-04/parts/b04_03/portraits/draft-horse.png",
+        "artworkSha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+        "sourceNotes": [
+          "The p. 26 stat block gives Large size and AC 10. P. 11 uses “huge” descriptively and explicitly calls the horses Large. Barding, cover and the narrow formation are chase details.",
+          "The p. 11 chase uses an end-of-turn Constitution check starting in round five, DC 10 and increasing by 1 each later round. Roll once per wagon team. This is encounter procedure."
+        ]
+      }
+    },
+    {
+      "owner": "b15_06",
+      "name": "Riding Horse",
+      "kind": "beast",
+      "publication": "DDEX3-05 - Bane of the Tradeways",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "riding-horse",
+      "art_owner": "b15_06",
+      "reuse_source": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+      "reuse_sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "runtime_file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/riding-horse.png",
+        "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Riding Horse",
+        "publication": "DDEX3-05 - Bane of the Tradeways",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast / D&D Adventurers League",
+        "printing": "September 1, 2015 release",
+        "author": "Robert Alaniz",
+        "adventureCode": "DDEX3-05",
+        "heading": "Riding Horse",
+        "printedPages": [
+          26
+        ],
+        "viewerPages": [
+          26
+        ],
+        "supportingPages": [
+          7
+        ],
+        "supportingViewerPages": [
+          7
+        ],
+        "sourceWitness": " - 5th Edition (2014)/Adventures/DDEX3-05 - Bane of the ",
+        "sourceSha256": "b9bbe59af36bcec1d891acdc1cd00dafae3f73f24a2eb34aac80d749572782ad",
+        "url": "",
+        "sourceUrl": "",
+        "officialAdventureIndex": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+        "habitatEvidence": "Riding horses with tack and saddles are available near the wooded roadside encounter on p. 7.",
+        "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+        "artworkSource": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+        "artworkSha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "sourceNotes": [
+          "The p. 26 block specifies +2 to hit for Hooves. This entry keeps that value."
+        ]
+      }
+    },
+    {
+      "owner": "b15_06",
+      "name": "Cooshee (Mastiff)",
+      "kind": "beast",
+      "publication": "DDAL04-06 - The Ghost",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "cooshee",
+      "art_owner": "b15_06",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b15_06/portraits/cooshee.png",
+        "sha256": "00e313bb36a771a427b14c8590cc46e165bb5cd30639c977cf1b76670477db40",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Cooshee (Mastiff)",
+        "publication": "DDAL04-06 - The Ghost",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast / D&D Adventurers League",
+        "printing": "Version 1.0, 2016",
+        "author": "Ken Hart",
+        "adventureCode": "DDAL04-06",
+        "heading": "Cooshee (Mastiff)",
+        "printedPages": [
+          24
+        ],
+        "viewerPages": [
+          24
+        ],
+        "supportingPages": [
+          11
+        ],
+        "supportingViewerPages": [
+          11
+        ],
+        "sourceWitness": " - 5th Edition (2014)/Adventures/DDAL04-06 - The ",
+        "sourceSha256": "790138dd92c48be2d140945cb5288feeb71a4514b965c0e164a903af6745fda6",
+        "url": "",
+        "sourceUrl": "",
+        "officialAdventureIndex": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+        "habitatEvidence": "P. 11 places two elven hounds with Derali’s party in the forest near Greenhall.",
+        "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+        "artworkSource": "beast-ready-batch-15/parts/b15_06/portraits/cooshee.png",
+        "artworkSha256": "00e313bb36a771a427b14c8590cc46e165bb5cd30639c977cf1b76670477db40",
+        "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+        "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da",
+        "sourceNotes": [
+          "The p. 11 description calls cooshees big elven hounds. The p. 24 Cooshee (Mastiff) rule block gives Medium size and both keen senses.",
+          "P. 11 depicts Derali giving commands in Elvish. The p. 24 language entry gives no language."
+        ]
+      }
+    },
+    {
+      "owner": "b15_06",
+      "name": "Giant Wolf Spider",
+      "kind": "beast",
+      "publication": "DDAL04-06 - The Ghost",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-wolf-spider",
+      "art_owner": "b15_06",
+      "reuse_source": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+      "reuse_sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+      "runtime_file": "images/beast-ready-batch-05/giant-wolf-spider.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-wolf-spider.png",
+        "sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Wolf Spider",
+        "publication": "DDAL04-06 - The Ghost",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast / D&D Adventurers League",
+        "printing": "Version 1.0, 2016",
+        "author": "Ken Hart",
+        "adventureCode": "DDAL04-06",
+        "heading": "Giant Wolf Spider",
+        "printedPages": [
+          26
+        ],
+        "viewerPages": [
+          26
+        ],
+        "supportingPages": [
+          12,
+          13,
+          27,
+          28
+        ],
+        "supportingViewerPages": [
+          12,
+          13,
+          27,
+          28
+        ],
+        "sourceWitness": " - 5th Edition (2014)/Adventures/DDAL04-06 - The ",
+        "sourceSha256": "790138dd92c48be2d140945cb5288feeb71a4514b965c0e164a903af6745fda6",
+        "url": "",
+        "sourceUrl": "",
+        "officialAdventureIndex": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+        "habitatEvidence": "The A Sticky Situation encounter on pp. 12–13 uses this spider as a weaker alternative to an ettercap.",
+        "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+        "artworkSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+        "artworkSha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+        "relatedRules": {
+          "2014 Basic Rules comparison block": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g#GiantWolfSpider"
+        },
+        "sourceNotes": [
+          "The Giant Wolf Spider statistics end the left column of p. 26. Its traits and Bites continue at the top of the right column before Needle Blight.",
+          "The continuation calls the subject “the swarm” in its traits and titles the action Bites. The summary uses the named spider as the subject and preserves the printed action title and numbers. The 2014 Giant Wolf Spider is a comparison witness and gives the same trait and attack mechanics.",
+          "The Swarm of Spiders has a separate stat block on pp. 27–28. Its Bites attack has 0-ft. reach and damage that depends on its remaining hit points."
+        ]
+      }
+    },
+    {
+      "owner": "b15_06",
+      "name": "Frederick (Mastiff)",
+      "kind": "beast",
+      "publication": "DDAL04-08 - The Broken One",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "frederick",
+      "art_owner": "b15_06",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b15_06/portraits/frederick.png",
+        "sha256": "1ec9284dbeb4d765349b28a0a956bbe24b40189010e32c832b8e9607e4d4c70b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Frederick (Mastiff)",
+        "publication": "DDAL04-08 - The Broken One",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast / D&D Adventurers League",
+        "printing": "Version 1.0, 2016",
+        "author": "Joshua Kelly",
+        "adventureCode": "DDAL04-08",
+        "heading": "Frederick (Mastiff)",
+        "printedPages": [
+          22
+        ],
+        "viewerPages": [
+          22
+        ],
+        "supportingPages": [
+          9,
+          21
+        ],
+        "supportingViewerPages": [
+          9,
+          21
+        ],
+        "sourceWitness": " - 5th Edition (2014)/Adventures/DDAL04-08 - The Broken ",
+        "sourceSha256": "89260263ea21f5cbba27a48affedbb29db78cfe5e81c1fbcc607f7e1703e4f05",
+        "url": "",
+        "sourceUrl": "",
+        "officialAdventureIndex": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+        "habitatEvidence": "The p. 9 dinner in Orașnou introduces Frederick alongside his owner, tax collector Scartia Krutz.",
+        "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+        "artworkSource": "beast-ready-batch-15/parts/b15_06/portraits/frederick.png",
+        "artworkSha256": "1ec9284dbeb4d765349b28a0a956bbe24b40189010e32c832b8e9607e4d4c70b",
+        "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+        "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da",
+        "sourceNotes": [
+          "The p. 22 Frederick block uses the mastiff statistics with the printed Keen Smell trait. The scene on p. 9 and the NPC appendix on p. 21 identify the dog as a basset hound."
+        ]
+      }
+    },
+    {
+      "owner": "b15_07",
+      "name": "Giant Eagle",
+      "kind": "beast",
+      "publication": "DDEP1 - Corruption in Kryptgarden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "kryptgarden-giant-eagle",
+      "art_owner": "b15_07",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b15_07/portraits/kryptgarden-giant-eagle.png",
+        "sha256": "d2e302ad06847383fe3b03957c16417d8128dbc1225857c73d4b4eeeaa3cd49b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Eagle",
+        "publication": "DDEP1 - Corruption in Kryptgarden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "adventureCode": "DDEP1-1",
+        "printing": "limited release, debut August 16, 2014",
+        "copyrightYear": 2014,
+        "section": "Appendix Track 3: Monster/NPC Statistics",
+        "sourceHeading": "Giant Eagle",
+        "printedPages": [
+          46
+        ],
+        "pdfPages": [
+          46
+        ],
+        "encounterPrintedPages": [
+          39
+        ],
+        "encounterPdfPages": [
+          39
+        ],
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEP1 - Corruption in ",
+        "sourceSha256": "048950702c9b6c4e93b4adedcfa38db58b68d49b783f7739dda7bbc22d9639d2",
+        "sourceUrl": "",
+        "url": "",
+        "publisherListing": "",
+        "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+        "sourceDistinctions": [
+          "The appendix prints neutral good. The encounter identifies a corrupted specimen and supplies the aerial tactics."
+        ],
+        "appearanceEvidence": "The Aerial Battle on p. 39 describes emaciated flying forms and identifies the corrupted giant eagle among the foes.",
+        "habitatEvidence": "The Aerial Battle on p. 39 takes place above the treeline near the forest stronghold.",
+        "artGroup": "kryptgarden-giant-eagle",
+        "artOwner": "b15_07",
+        "artworkSource": "portraits/kryptgarden-giant-eagle.png",
+        "artworkSha256": "d2e302ad06847383fe3b03957c16417d8128dbc1225857c73d4b4eeeaa3cd49b"
+      }
+    },
+    {
+      "owner": "b15_07",
+      "name": "Giant Owl",
+      "kind": "beast",
+      "publication": "DDEP1 - Corruption in Kryptgarden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "kryptgarden-giant-owl",
+      "art_owner": "b15_07",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b15_07/portraits/kryptgarden-giant-owl.png",
+        "sha256": "5a986cd463741a04c04c707fb1e58443a989b1dd6337d5a89ad5b9ee5a083dbd",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Owl",
+        "publication": "DDEP1 - Corruption in Kryptgarden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "adventureCode": "DDEP1-1",
+        "printing": "limited release, debut August 16, 2014",
+        "copyrightYear": 2014,
+        "section": "Appendix Track 3: Monster/NPC Statistics",
+        "sourceHeading": "Giant Owl",
+        "printedPages": [
+          46
+        ],
+        "pdfPages": [
+          46
+        ],
+        "encounterPrintedPages": [
+          39
+        ],
+        "encounterPdfPages": [
+          39
+        ],
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEP1 - Corruption in ",
+        "sourceSha256": "048950702c9b6c4e93b4adedcfa38db58b68d49b783f7739dda7bbc22d9639d2",
+        "sourceUrl": "",
+        "url": "",
+        "publisherListing": "",
+        "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+        "sourceDistinctions": [
+          "The appendix gives the Giant Owl the same p. 46 folio as the Giant Eagle."
+        ],
+        "appearanceEvidence": "Page 39 describes the aerial interceptors as emaciated and identifies two as giant owls.",
+        "habitatEvidence": "The Aerial Battle on p. 39 places the giant owls over the forest near the stronghold.",
+        "artGroup": "kryptgarden-giant-owl",
+        "artOwner": "b15_07",
+        "artworkSource": "portraits/kryptgarden-giant-owl.png",
+        "artworkSha256": "5a986cd463741a04c04c707fb1e58443a989b1dd6337d5a89ad5b9ee5a083dbd"
+      }
+    },
+    {
+      "owner": "b15_07",
+      "name": "Wolf",
+      "kind": "beast",
+      "publication": "DDEP1 - Corruption in Kryptgarden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "kryptgarden-wolf",
+      "art_owner": "b15_07",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b15_07/portraits/kryptgarden-wolf.png",
+        "sha256": "daa18511ed1ba746492017ed57118d5e3fbcdd1fd1897f51139203570792e737",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Wolf",
+        "publication": "DDEP1 - Corruption in Kryptgarden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "adventureCode": "DDEP1-1",
+        "printing": "limited release, debut August 16, 2014",
+        "copyrightYear": 2014,
+        "section": "Appendix Track 3: Monster/NPC Statistics",
+        "sourceHeading": "Wolf",
+        "printedPages": [
+          48
+        ],
+        "pdfPages": [
+          48
+        ],
+        "encounterPrintedPages": [
+          36,
+          37
+        ],
+        "encounterPdfPages": [
+          36,
+          37
+        ],
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEP1 - Corruption in ",
+        "sourceSha256": "048950702c9b6c4e93b4adedcfa38db58b68d49b783f7739dda7bbc22d9639d2",
+        "sourceUrl": "",
+        "url": "",
+        "publisherListing": "",
+        "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+        "sourceDistinctions": [
+          "The adventure gives a corrupted appearance for the encounter and prints the Wolf block with its ordinary abilities."
+        ],
+        "appearanceEvidence": "The Foes and Tactics text across pp. 36–37 gives the details of the corrupted pack’s appearance.",
+        "habitatEvidence": "The Corrupted Hills encounter on pp. 36–37 places the pack in forest underbrush.",
+        "artGroup": "kryptgarden-wolf",
+        "artOwner": "b15_07",
+        "artworkSource": "portraits/kryptgarden-wolf.png",
+        "artworkSha256": "daa18511ed1ba746492017ed57118d5e3fbcdd1fd1897f51139203570792e737"
+      }
+    },
+    {
+      "owner": "b15_07",
+      "name": "Giant Goat",
+      "kind": "beast",
+      "publication": "DDEX1-13 - Pool of Radiance Resurgent",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "giant-goat",
+      "art_owner": "b15_07",
+      "reuse_source": "beast-ready-batch-04/parts/b04_08/portraits/giant-goat.png",
+      "reuse_sha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+      "runtime_file": "images/beast-ready-batch-04/giant-goat.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/giant-goat.png",
+        "sha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Goat",
+        "publication": "DDEX1-13 - Pool of Radiance Resurgent",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "adventureCode": "DDEX1-13",
+        "printing": "March 1, 2015 release",
+        "copyrightYear": 2015,
+        "section": "Appendix 1: Monster/NPC Statistics",
+        "sourceHeading": "Giant Goat",
+        "printedPages": [
+          26
+        ],
+        "pdfPages": [
+          26
+        ],
+        "encounterPrintedPages": [
+          12
+        ],
+        "encounterPdfPages": [
+          12
+        ],
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-13 - Pool of Radiance ",
+        "sourceSha256": "dacb6a3ec15cff2c14afea440c74e42c055781ffba031783a5ced5dfc13f7038",
+        "sourceUrl": "",
+        "url": "",
+        "publisherListing": "",
+        "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+        "sourceDistinctions": [
+          "The rules identity is Giant Goat. The travel encounter substitutes bison appearance and herd behavior."
+        ],
+        "appearanceEvidence": "The p. 26 stat block names Giant Goat. The p. 12 encounter explicitly uses it for bison. Goat anatomy is editorial for the base stat block.",
+        "habitatEvidence": "The bison entry in the p. 12 travel table uses the Giant Goat block in the hills toward Kranun’s Crater.",
+        "artGroup": "giant-goat",
+        "artOwner": "b15_07",
+        "artworkSource": "beast-ready-batch-04/parts/b04_08/portraits/giant-goat.png",
+        "artworkRuntimeFile": "images/beast-ready-batch-04/giant-goat.png",
+        "reuseSha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce"
+      }
+    },
+    {
+      "owner": "b15_07",
+      "name": "Saber-­‐Toothed Tiger",
+      "kind": "beast",
+      "publication": "DDEX1-13 - Pool of Radiance Resurgent",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "saber-toothed-tiger",
+      "art_owner": "b15_07",
+      "reuse_source": "beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp",
+      "reuse_sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+      "runtime_file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/saber-toothed-tiger.webp",
+        "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Saber-­‐Toothed Tiger",
+        "publication": "DDEX1-13 - Pool of Radiance Resurgent",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "adventureCode": "DDEX1-13",
+        "printing": "March 1, 2015 release",
+        "copyrightYear": 2015,
+        "section": "Appendix 1: Monster/NPC Statistics",
+        "sourceHeading": "Saber-Toothed Tiger",
+        "printedPages": [
+          29
+        ],
+        "pdfPages": [
+          29
+        ],
+        "encounterPrintedPages": [
+          12
+        ],
+        "encounterPdfPages": [
+          12
+        ],
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-13 - Pool of Radiance ",
+        "sourceSha256": "dacb6a3ec15cff2c14afea440c74e42c055781ffba031783a5ced5dfc13f7038",
+        "sourceUrl": "",
+        "url": "",
+        "publisherListing": "",
+        "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+        "sourceDistinctions": [
+          "The printed heading uses an ordinary hyphen. The indexed identity retains the roster’s distinct Unicode punctuation.",
+          "Page 29 prints STR 18 (+4) and +6 to hit, with +5 in the damage formula for both attacks. This profile uses the printed formulas."
+        ],
+        "appearanceEvidence": "The printed heading names a saber-toothed tiger. The cat’s build and fang shape are editorial portrait details.",
+        "habitatEvidence": "The p. 12 travel table places the saber-toothed tigers with stone giants on the way to Kranun’s Crater.",
+        "artGroup": "saber-toothed-tiger",
+        "artOwner": "b15_07",
+        "artworkSource": "beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp",
+        "artworkRuntimeFile": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+        "reuseSha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+        "searchAliases": [
+          "Saber-Toothed Tiger"
+        ]
+      }
+    },
+    {
+      "owner": "b15_08",
+      "name": "Giant Octopus",
+      "kind": "beast",
+      "publication": "DDEX3-09 - The Waydown",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "albino-giant-octopus",
+      "art_owner": "b15_08",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b15_08/portraits/albino-giant-octopus.png",
+        "sha256": "365a84d443b2a653f30dae45ffe3205409f5d1ed711a16a3fab96366a1b1543c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Octopus",
+        "publication": "DDEX3-09 - The Waydown",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "November 1, 2015 release",
+        "author": "Cole Kronewitter",
+        "adventureCodeInPdf": "DDEX3-9",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          30
+        ],
+        "pdfPages": [
+          30
+        ],
+        "contextPrintedPages": [
+          5,
+          22,
+          24
+        ],
+        "sourceSha256": "e4a415cacc3766dd65a4f47ed0bf458fb7852a47d105b1aed45115b1e04df38f",
+        "url": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+        "rulesUrl": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+        "printWitness": "Local original publisher . Printed and viewer folios agree.",
+        "organizedPlayUrl": "",
+        "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+        "appearanceEvidence": "The p. 22 Octopus Den explicitly houses three albino giant octopuses. Specific skin shading and pose come from the generated portrait.",
+        "habitatEvidence": "Editorial tags based on the submerged Underdark den on p. 22.",
+        "artGroup": "albino-giant-octopus",
+        "sourceDistinctions": [
+          "The separately printed p. 30 block provides the numbers and attack procedures. The encounter on p. 22 supplies the albino coloration."
+        ],
+        "portraitSha256": "365a84d443b2a653f30dae45ffe3205409f5d1ed711a16a3fab96366a1b1543c",
+        "portraitGeneration": {
+          "mode": "Built-in OpenAI ImageGen",
+          "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+          "prompt": "Create a square original natural history bestiary specimen portrait. Big Linda attachment is a style and flat parchment tone reference only. One albino giant octopus from The Waydown. An authentic octopus only, with a soft rounded mantle, eye on each side of the head, and exactly eight muscular tapering arms with clearly rendered underside suckers on several arms. No fins and no long specialized tentacles. Show the full animal obliquely from above, a few arms gracefully curled around rather than across the body, legible at 96 pixels. Skintone primarily ivory cream and soft warm off-white, slight muted blush on suctions and shadowed skin, subtle grayed shadows and natural dark eyes. Match Big Linda's painterly realism, restrained gouache brush detail, soft natural light. Plain matte neutral tan parchment with very fine even grain, neither orange nor golden, edge-to-edge without a horizon, scenery, water or any bubbles, props, vignette, hard cast shadow, text, frame, flare, fog, particles, or additional creatures. Center the octopus with clear ample margin around the complete arm silhouette so all eight tips fit a centered circular crop."
+        }
+      }
+    },
+    {
+      "owner": "b15_08",
+      "name": "Guard Dog (Wolf)",
+      "kind": "beast",
+      "publication": "DDEX3-09 - The Waydown",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "guard-dog-wolf",
+      "art_owner": "b15_08",
+      "reuse_source": "indexed:images/beasts/guard-dog-wolf/parchment-portrait.webp",
+      "reuse_sha256": "55b5fbe4a9c23452a552735a203dad9341d9bd0de8707ea8184ebb44a5352889",
+      "runtime_file": "images/beasts/guard-dog-wolf/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/guard-dog-wolf.webp",
+        "sha256": "55b5fbe4a9c23452a552735a203dad9341d9bd0de8707ea8184ebb44a5352889",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Guard Dog (Wolf)",
+        "publication": "DDEX3-09 - The Waydown",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "November 1, 2015 release",
+        "author": "Cole Kronewitter",
+        "adventureCodeInPdf": "DDEX3-9",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          26
+        ],
+        "pdfPages": [
+          26
+        ],
+        "contextPrintedPages": [
+          14,
+          16,
+          24
+        ],
+        "sourceSha256": "e4a415cacc3766dd65a4f47ed0bf458fb7852a47d105b1aed45115b1e04df38f",
+        "url": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+        "rulesUrl": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+        "printWitness": "Local original publisher . Printed and viewer folios agree.",
+        "organizedPlayUrl": "",
+        "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+        "appearanceEvidence": "The adventure encounters identify guard dogs. The block calls the animal a wolf in its traits. Coat and type details are from the reused portrait.",
+        "habitatEvidence": "Editorial tag based on the fortress kennels and patrols described on pp. 14 and 16.",
+        "artGroup": "guard-dog-wolf",
+        "sourceDistinctions": [
+          "The p. 26 title is Guard Dog (Wolf), and the printed trait prose calls the creature a wolf. The block is explicitly Medium Beast, unaligned."
+        ],
+        "portraitSha256": "55b5fbe4a9c23452a552735a203dad9341d9bd0de8707ea8184ebb44a5352889"
+      }
+    },
+    {
+      "owner": "b15_08",
+      "name": "Giant Poisonous Snake",
+      "kind": "beast",
+      "publication": "DDAL04-11 - The Donjon",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-poisonous-snake",
+      "art_owner": "b15_08",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-poisonous-snake.png",
+      "reuse_sha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709",
+      "runtime_file": "images/beast-ready-batch-05/giant-poisonous-snake.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-poisonous-snake.png",
+        "sha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Poisonous Snake",
+        "publication": "DDAL04-11 - The Donjon",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "version 1.0, ©2016",
+        "author": "Ash Law",
+        "adventureCodeInPdf": "DDEX4-11",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          33
+        ],
+        "pdfPages": [
+          33
+        ],
+        "contextPrintedPages": [
+          25,
+          27,
+          29
+        ],
+        "sourceSha256": "5c36559b299d00becd806008c1af99c8ce22f92fd205632113a3be3360308594",
+        "url": "https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+        "rulesUrl": "https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+        "printWitness": "Local original publisher . Printed and viewer folios agree.",
+        "organizedPlayUrl": "",
+        "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+        "appearanceEvidence": "The encounter assigns no coloration or distinctive morphology. The description uses the reused portrait.",
+        "habitatEvidence": "Editorial tags based on the Rat-Bone Corridor in the flooded temple level and the nearby swamp encounter table.",
+        "artGroup": "giant-poisonous-snake",
+        "sourceDistinctions": [
+          "The p. 33 block prints Bite at +5 to hit despite Dexterity 18 (+4). The overlay retains +5. Fire Snake is separately printed as an elemental on the same folio."
+        ],
+        "portraitSha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709"
+      }
+    },
+    {
+      "owner": "b15_08",
+      "name": "Giant Spider",
+      "kind": "beast",
+      "publication": "DDAL04-11 - The Donjon",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-spider",
+      "art_owner": "b15_08",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+      "reuse_sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+      "runtime_file": "images/beast-ready-batch-05/giant-spider.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-spider.png",
+        "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Spider",
+        "publication": "DDAL04-11 - The Donjon",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "version 1.0, ©2016",
+        "author": "Ash Law",
+        "adventureCodeInPdf": "DDEX4-11",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          33
+        ],
+        "pdfPages": [
+          33
+        ],
+        "contextPrintedPages": [
+          26,
+          29
+        ],
+        "sourceSha256": "5c36559b299d00becd806008c1af99c8ce22f92fd205632113a3be3360308594",
+        "url": "https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+        "rulesUrl": "https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+        "printWitness": "Local original publisher . Printed and viewer folios agree.",
+        "organizedPlayUrl": "",
+        "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+        "appearanceEvidence": "The adventure describes desiccated, mold-covered remains in the trap. Color, proportions and markings describe the reused portrait of a live spider.",
+        "habitatEvidence": "Editorial tag based on the underground Trap-Filled Corridor on p. 26.",
+        "artGroup": "giant-spider",
+        "sourceDistinctions": [
+          "The complete living spider profile appears on p. 33 across the two columns. Area H on p. 26 explicitly describes dead spiders in the trap."
+        ],
+        "portraitSha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570"
+      }
+    },
+    {
+      "owner": "b15_08",
+      "name": "Giant Rat",
+      "kind": "beast",
+      "publication": "DDEX3-06 - No Foolish Matter",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-rat",
+      "art_owner": "b15_08",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png",
+      "reuse_sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+      "runtime_file": "images/beast-ready-batch-05/giant-rat.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/giant-rat.png",
+        "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Rat",
+        "publication": "DDEX3-06 - No Foolish Matter",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "October 1, 2015 release",
+        "author": "Ash Law",
+        "adventureCodeInPdf": "DDEX3-6",
+        "section": "Appendix: Monster/NPC Statistics",
+        "printedPages": [
+          18
+        ],
+        "pdfPages": [
+          18
+        ],
+        "contextPrintedPages": [
+          13,
+          17
+        ],
+        "sourceSha256": "5673e4ff70d9fe0fc1cf2c98179077c4ed2b0c58f122cd56cf588b5106c94fea",
+        "url": "https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e",
+        "rulesUrl": "https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e",
+        "printWitness": "Local original publisher . Printed and viewer folios agree.",
+        "organizedPlayUrl": "",
+        "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+        "appearanceEvidence": "The appendix identifies a giant rat. Color and body details describe the reused portrait.",
+        "habitatEvidence": "Editorial tag based on the carnival stalls and tents in the p. 13 encounter.",
+        "artGroup": "giant-rat",
+        "sourceDistinctions": [
+          "The Giant Rat block is separate from Swarm of Rats on the same folio. The module prints Keen Smell and ordinary piercing Bite."
+        ],
+        "portraitSha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73"
+      }
+    },
+    {
+      "owner": "b15_09",
+      "name": "Black Bear",
+      "kind": "beast",
+      "publication": "Player's Handbook (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "black-bear",
+      "art_owner": "b15_09",
+      "reuse_source": "beast-ready-batch-04/parts/b04_01/portraits/black-bear.png",
+      "reuse_sha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+      "runtime_file": "images/beast-ready-batch-04/black-bear.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/black-bear.png",
+        "sha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Black Bear",
+        "publication": "Player's Handbook (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          304
+        ],
+        "printing": "First printing, August 2014",
+        "pdfPages": [
+          305
+        ],
+        "sourceFile": " - 5th Edition (2014)/Rules/Player's ",
+        "sourceSha256": "ea22df5f9618570bdeee54a18592b0fd2e754bd5742920b339c3b5f360e5f466",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2014",
+        "sourceUrlRole": "Official product contents. The local first-printing facsimile supplies the verified rules.",
+        "section": "Appendix D, Creature Statistics",
+        "errataUrl": "",
+        "errataResult": "Version 3.0 changes Bite and Claws from +3 to +4 to hit. The exact first-printing attack bonuses are +3.",
+        "habitatEvidence": "The Appendix D stat block gives no habitat.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-04/parts/b04_01/portraits/black-bear.png",
+        "portraitSha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+        "sourceDistinctions": [
+          "The first printing has +3 to hit for both attacks. The official errata sets both to +4."
+        ]
+      }
+    },
+    {
+      "owner": "b15_09",
+      "name": "Cat",
+      "kind": "beast",
+      "publication": "Player's Handbook (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "cat",
+      "art_owner": "b15_09",
+      "reuse_source": "beast-ready-batch-02/parts/b02_05/portraits/cat.png",
+      "reuse_sha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+      "runtime_file": "images/beast-ready-batch-02/cat.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/cat.png",
+        "sha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Cat",
+        "publication": "Player's Handbook (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          305
+        ],
+        "printing": "First printing, August 2014",
+        "pdfPages": [
+          306
+        ],
+        "sourceFile": " - 5th Edition (2014)/Rules/Player's ",
+        "sourceSha256": "ea22df5f9618570bdeee54a18592b0fd2e754bd5742920b339c3b5f360e5f466",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2014",
+        "sourceUrlRole": "Official product contents. The local first-printing facsimile supplies the verified rules.",
+        "section": "Appendix D, Creature Statistics",
+        "errataUrl": "",
+        "errataResult": "Version 3.0 lists no stat block change for this creature.",
+        "habitatEvidence": "The Appendix D stat block gives no habitat.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-02/parts/b02_05/portraits/cat.png",
+        "portraitSha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+        "sourceDistinctions": [
+          "The first printing lists passive Perception 13 and has no darkvision entry."
+        ]
+      }
+    },
+    {
+      "owner": "b15_09",
+      "name": "Constrictor Snake",
+      "kind": "beast",
+      "publication": "Player's Handbook (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "constrictor-snake",
+      "art_owner": "b15_09",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/constrictor-snake.png",
+      "reuse_sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+      "runtime_file": "images/beast-ready-batch-04/constrictor-snake.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/constrictor-snake.png",
+        "sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Constrictor Snake",
+        "publication": "Player's Handbook (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          305
+        ],
+        "printing": "First printing, August 2014",
+        "pdfPages": [
+          306
+        ],
+        "sourceFile": " - 5th Edition (2014)/Rules/Player's ",
+        "sourceSha256": "ea22df5f9618570bdeee54a18592b0fd2e754bd5742920b339c3b5f360e5f466",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2014",
+        "sourceUrlRole": "Official product contents. The local first-printing facsimile supplies the verified rules.",
+        "section": "Appendix D, Creature Statistics",
+        "errataUrl": "",
+        "errataResult": "Version 3.0 lists no stat block change for this creature.",
+        "habitatEvidence": "The Appendix D stat block gives no habitat.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-04/parts/b04_02/portraits/constrictor-snake.png",
+        "portraitSha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+        "sourceDistinctions": [
+          "Constrict in this Player's Handbook printing gives no fixed escape DC."
+        ]
+      }
+    },
+    {
+      "owner": "b15_09",
+      "name": "Giant Weasel",
+      "kind": "beast",
+      "publication": "DDEX1-09 - Outlaws of the Iron Route",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-weasel",
+      "art_owner": "b15_09",
+      "reuse_source": "beast-ready-batch-05/parts/b05_04/portraits/giant-weasel.png",
+      "reuse_sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+      "runtime_file": "images/beast-ready-batch-05/giant-weasel.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/giant-weasel.png",
+        "sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Weasel",
+        "publication": "DDEX1-09 - Outlaws of the Iron Route",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          26
+        ],
+        "author": "Will Doyle",
+        "printing": "Original Adventurers League release, December 1, 2014",
+        "printedAdventureCode": "DDEX1-9",
+        "pdfPages": [
+          26
+        ],
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-09 - Outlaws of the Iron ",
+        "sourceSha256": "be5f9c8aa3e73b95c515ec8a7c7c15709974f2d1c4ece8e010525bec75d363e3",
+        "sourceUrl": "",
+        "sourceUrlRole": "The official Wizards matches the local byte for byte.",
+        "officialIndexUrl": "",
+        "section": "Appendix 1, Monster/NPC Statistics",
+        "encounterPrintedPages": [
+          15,
+          24
+        ],
+        "habitatEvidence": "Encounter placement in area 2, Kobold Caverns, on p. 15.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-weasel.png",
+        "portraitSha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+        "sourceDistinctions": [
+          "The appendix gives 25 XP. The adventure's Combat Awards table on p. 24 agrees."
+        ]
+      }
+    },
+    {
+      "owner": "b15_09",
+      "name": "Spider",
+      "kind": "beast",
+      "publication": "DDEX1-09 - Outlaws of the Iron Route",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "spider",
+      "art_owner": "b15_09",
+      "reuse_source": "beast-ready-batch-02/parts/b02_09/portraits/spider.png",
+      "reuse_sha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+      "runtime_file": "images/beast-ready-batch-02/spider.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/spider.png",
+        "sha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Spider",
+        "publication": "DDEX1-09 - Outlaws of the Iron Route",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          31
+        ],
+        "author": "Will Doyle",
+        "printing": "Original Adventurers League release, December 1, 2014",
+        "printedAdventureCode": "DDEX1-9",
+        "pdfPages": [
+          31
+        ],
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-09 - Outlaws of the Iron ",
+        "sourceSha256": "be5f9c8aa3e73b95c515ec8a7c7c15709974f2d1c4ece8e010525bec75d363e3",
+        "sourceUrl": "",
+        "sourceUrlRole": "The official Wizards matches the local byte for byte.",
+        "officialIndexUrl": "",
+        "section": "Appendix 1, Monster/NPC Statistics",
+        "encounterPrintedPages": [
+          15,
+          24
+        ],
+        "habitatEvidence": "Encounter placement in area 2, Kobold Caverns, on p. 15.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-02/parts/b02_09/portraits/spider.png",
+        "portraitSha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+        "sourceDistinctions": [
+          "The appendix gives 10 XP. The adventure's Combat Awards table on p. 24 agrees."
+        ]
+      }
+    },
+    {
+      "owner": "b15_10",
+      "name": "Armored Saber-Toothed Tiger",
+      "kind": "beast",
+      "publication": "Curse of Strahd",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "armored-saber-toothed-tiger",
+      "art_owner": "b15_10",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b15_10/portraits/armored-saber-toothed-tiger.png",
+        "sha256": "1175b1f8658a85fb9e7d8f2be88846c2874d3acf7cab4d6981b3767bfcc28b3e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Armored Saber-Toothed Tiger",
+        "kind": "beast",
+        "publication": "Curse of Strahd",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2016,
+        "printing": "First printing, March 2016",
+        "creditsPdfPage": 3,
+        "section": "Chapter 5, The Town of Vallaki, N5 Arasek Stockyard",
+        "printedPages": [
+          115,
+          116,
+          123,
+          124
+        ],
+        "variantPage": 115,
+        "pdfPage": 116,
+        "viewerPages": [
+          116,
+          117,
+          124,
+          125
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+        "url": "https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+        "officialCreatureUrl": null,
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cos",
+        "sourcePageKind": "The publisher index identifies this chapter section. Its rules require book access.",
+        "sourceWitness": " - 5th Edition (2014)/Adventures/Curse of ",
+        "sourceSha256": "1f898791a2817634848bd194859275e7e6be9fa7bfc0a15b357d61bfda049563",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/curse-of-strahd",
+        "errataEvidence": "Official Curse of Strahd errata v1.1 revises the p. 115 training target to Strahd’s Vistani servants and deletes the description of recognition by smell and clothing. No mechanical stat changes in this erratum.",
+        "habitatEvidence": "Editorial search terms that reflect the encounter on pp. 115, 116, 123, 124.",
+        "appearanceEvidence": "The creature description or equipment in the printed encounter, with details from the new portrait.",
+        "artworkSource": "portraits/armored-saber-toothed-tiger.png",
+        "artworkSha256": "1175b1f8658a85fb9e7d8f2be88846c2874d3acf7cab4d6981b3767bfcc28b3e",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "New plain matte tan parchment portrait using Big Linda as the style reference.",
+        "sourceNotes": [
+          "The first printing replaces the base armor, HP, and challenge. It gives 84 HP without a replacement Hit Dice formula.",
+          "The printed base block gives +6 to hit and +5 damage on both attacks. The adventure does not change either value.",
+          "Publisher errata changes p. 115 to target Strahd’s Vistani servants and removes recognition by scent and clothing from that paragraph. Page 116 of the first printing describes broader targeting and is not separately amended in the errata."
+        ],
+        "leadDesigner": "Christopher Perkins",
+        "isbn": "978-0-7869-6598-4",
+        "productCode": "620B6517000001 EN",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "42fa2f4037d662d7f6ac2091c06c4196b1495d70b158d8e25fc291d7b6f388b4",
+        "relatedRules": [
+          {
+            "name": "Saber-Toothed Tiger",
+            "printedPage": 336,
+            "url": "https://www.dndbeyond.com/monsters/17002-saber-toothed-tiger",
+            "publication": "Monster Manual (2014)",
+            "pdfPage": 337,
+            "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+            "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+            "purpose": "Printed base statistics and rules inherited by the named adventure creature.",
+            "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual"
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b15_10",
+      "name": "Piccolo",
+      "kind": "beast",
+      "publication": "Curse of Strahd",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "piccolo",
+      "art_owner": "b15_10",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b15_10/portraits/piccolo.png",
+        "sha256": "fccb7aeb181593092509ecc395c07edc75724c5458af013e593d601cc0c598da",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Piccolo",
+        "kind": "beast",
+        "publication": "Curse of Strahd",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2016,
+        "printing": "First printing, March 2016",
+        "creditsPdfPage": 3,
+        "section": "Chapter 5, The Town of Vallaki, N7 Blinsky Toys",
+        "printedPages": [
+          118
+        ],
+        "variantPage": 118,
+        "pdfPage": 119,
+        "viewerPages": [
+          119
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+        "url": "https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+        "officialCreatureUrl": null,
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cos",
+        "sourcePageKind": "The publisher index identifies this chapter section. Its rules require book access.",
+        "sourceWitness": " - 5th Edition (2014)/Adventures/Curse of ",
+        "sourceSha256": "1f898791a2817634848bd194859275e7e6be9fa7bfc0a15b357d61bfda049563",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/curse-of-strahd",
+        "errataEvidence": "No changes for this entry in the official Curse of Strahd errata v1.1.",
+        "habitatEvidence": "Editorial search terms that reflect the encounter on pp. 118.",
+        "appearanceEvidence": "The creature description or equipment in the printed encounter, with details from the new portrait.",
+        "artworkSource": "portraits/piccolo.png",
+        "artworkSha256": "fccb7aeb181593092509ecc395c07edc75724c5458af013e593d601cc0c598da",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "New plain matte tan parchment portrait using Big Linda as the style reference.",
+        "sourceNotes": [
+          "The adventure names Piccolo as a monkey, explicitly using the Baboon rules. The tutu has no rules effect."
+        ],
+        "leadDesigner": "Christopher Perkins",
+        "isbn": "978-0-7869-6598-4",
+        "productCode": "620B6517000001 EN",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "42fa2f4037d662d7f6ac2091c06c4196b1495d70b158d8e25fc291d7b6f388b4",
+        "relatedRules": [
+          {
+            "name": "Baboon",
+            "printedPage": 318,
+            "url": "https://www.dndbeyond.com/monsters/16795-baboon",
+            "publication": "Monster Manual (2014)",
+            "pdfPage": 319,
+            "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+            "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+            "purpose": "Printed base statistics and rules inherited by the named adventure creature.",
+            "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual"
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b15_10",
+      "name": "Sangzor",
+      "kind": "beast",
+      "publication": "Curse of Strahd",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "sangzor",
+      "art_owner": "b15_10",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/299431-sangzor",
+      "credit": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b15_10/portraits/sangzor.png",
+        "sha256": "db04d6d418286a188711bc57d8cab554c6747c75e3e69c68ad3ebe06d220ea00",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Sangzor",
+        "kind": "beast",
+        "publication": "Curse of Strahd",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2016,
+        "printing": "First printing, March 2016",
+        "creditsPdfPage": 3,
+        "section": "Chapter 9, Tsolenka Pass, Bloodhorn’s Charge",
+        "printedPages": [
+          160
+        ],
+        "variantPage": 160,
+        "pdfPage": 161,
+        "viewerPages": [
+          161
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/cos/tsolenka-pass#SpecialEvents",
+        "url": "https://www.dndbeyond.com/sources/cos/tsolenka-pass#SpecialEvents",
+        "officialCreatureUrl": "https://www.dndbeyond.com/monsters/299431-sangzor",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/cos",
+        "sourcePageKind": "The publisher index identifies this chapter section. Its rules require book access.",
+        "sourceWitness": " - 5th Edition (2014)/Adventures/Curse of ",
+        "sourceSha256": "1f898791a2817634848bd194859275e7e6be9fa7bfc0a15b357d61bfda049563",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/curse-of-strahd",
+        "errataEvidence": "No changes for this entry in the official Curse of Strahd errata v1.1.",
+        "habitatEvidence": "Editorial search terms that reflect the encounter on pp. 160.",
+        "appearanceEvidence": "The creature description or equipment in the printed encounter, with details from the new portrait.",
+        "artworkSource": "portraits/sangzor.png",
+        "artworkSha256": "db04d6d418286a188711bc57d8cab554c6747c75e3e69c68ad3ebe06d220ea00",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "New plain matte tan parchment portrait using Big Linda as the style reference.",
+        "sourceNotes": [
+          "The adventure changes Intelligence, alignment, HP, resistances, and challenge. It gives 33 HP without a replacement Hit Dice formula."
+        ],
+        "leadDesigner": "Christopher Perkins",
+        "isbn": "978-0-7869-6598-4",
+        "productCode": "620B6517000001 EN",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "42fa2f4037d662d7f6ac2091c06c4196b1495d70b158d8e25fc291d7b6f388b4",
+        "relatedRules": [
+          {
+            "name": "Giant Goat",
+            "printedPage": 326,
+            "url": "https://www.dndbeyond.com/monsters/16885-giant-goat",
+            "publication": "Monster Manual (2014)",
+            "pdfPage": 327,
+            "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+            "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+            "purpose": "Printed base statistics and rules inherited by the named adventure creature.",
+            "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual"
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b15_10",
+      "name": "Lion",
+      "kind": "beast",
+      "publication": "DDEX2-04 - Mayhem in the Earthspur Mines",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "lion",
+      "art_owner": "b15_10",
+      "reuse_source": "beast-ready-batch-02/parts/b02_08/portraits/lion.png",
+      "reuse_sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+      "runtime_file": "images/beast-ready-batch-02/lion.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/lion.png",
+        "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Lion",
+        "kind": "beast",
+        "publication": "DDEX2-04 - Mayhem in the Earthspur Mines",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2015,
+        "printing": "D&D Expeditions release, April 1, 2015",
+        "creditsPdfPage": 1,
+        "section": "Appendix, Monster/NPC Statistics",
+        "printedPages": [
+          10,
+          23,
+          26
+        ],
+        "statBlockPage": 26,
+        "pdfPage": 26,
+        "viewerPages": [
+          10,
+          23,
+          26
+        ],
+        "sourceUrl": "https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e",
+        "url": "https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e",
+        "officialCreatureUrl": null,
+        "officialSourceIndex": "https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e",
+        "sourcePageKind": "Official marketplace link, unavailable to the browsing session. Rules and credits verified from the original D&D Expeditions .",
+        "sourceWitness": " - 5th Edition (2014)/Adventures/DDEX2-04 - Mayhem in the Earthspur ",
+        "sourceSha256": "91960317f2279b98d6c29b095eb3afcc2c568e3e990009176b8220910f44f2ab",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No applicable official correction located in the publisher errata index or title-specific searches.",
+        "habitatEvidence": "Editorial search terms that reflect the encounter on pp. 10, 23, 26.",
+        "appearanceEvidence": "Editorial description of the reused lion portrait. The printed encounter names the lions and supplies the stat block.",
+        "artworkSource": "beast-ready-batch-02/parts/b02_08/portraits/lion.png",
+        "artworkSha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+        "artworkCredit": "Original portrait generated with OpenAI ImageGen",
+        "artworkNote": "Earlier square plain-parchment Lion portrait reused at its existing runtime path.",
+        "sourceNotes": [
+          "The standalone block on p. 26 gives CR 1 and 200 XP. The adventure’s Combat Awards table on p. 23 lists 100 XP per lion for session rewards."
+        ],
+        "adventureDesigner": "Will Doyle",
+        "adventureCode": "DDEX2-4",
+        "debutDate": "2015-03-20",
+        "releaseDate": "2015-04-01"
+      }
+    }
+  ]
+}

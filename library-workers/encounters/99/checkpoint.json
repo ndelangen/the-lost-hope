@@ -1,0 +1,35 @@
+{
+  "commit": "53a336b",
+  "batch": 99,
+  "verification": {
+    "testsPassed": 902,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Diopsid",
+        "species": "species-8bffa1da844a4c6cfca7379d",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Dragon Compendium, Volume I (2005)"
+        ],
+        "portraitSha256": "c95bb4afab74cf25ebc14d043812010690676c733097d0f009b447ecc5a62c97",
+        "caption": "Rivet · Original Diopsid NPC",
+        "npcReceipts": [
+          {
+            "name": "Rivet",
+            "id": "npc-992952a966f8868f05a7d9aa",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          },
+          {
+            "name": "Tongs",
+            "id": "npc-9cd1cba6c85cb4045e8d524f",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          }
+        ]
+      }
+    ],
+    "browseThumbnail": true,
+    "existingCatProfilesAndArtMatchBaseline": true,
+    "r2AndBothLocalBackups": true
+  }
+}

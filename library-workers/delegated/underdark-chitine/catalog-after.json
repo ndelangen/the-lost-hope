@@ -1,0 +1,854 @@
+[
+  {
+    "name": "Chitine",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-009f4e0abe9c5354d91eefb3",
+      "name": "Chitine",
+      "kind": "monster",
+      "group": "Monstrosity",
+      "groups": [
+        "Monstrosity"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Shawn Wood · Mordenkainen Presents: Monsters of the Multiverse"
+        },
+        {
+          "url": "",
+          "credit": "Shawn Wood · Volo's Guide to Monsters"
+        }
+      ],
+      "versions": [
+        {
+          "key": "9c664e1420a6f0aadebfaa20",
+          "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+          "edition": "2014 fifth edition",
+          "description": "A Small monstrosity with challenge rating 1/2. Listed habitats: underdark. Named abilities include Fey Ancestry, Sunlight Sensitivity, Web Sense.",
+          "source": "https://5e.tools/bestiary.html#chitine_mpmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/214/1000/1000/637880557265066323.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Shawn Wood · Mordenkainen Presents: Monsters of the Multiverse"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "14"
+            ],
+            [
+              "Hit points",
+              "18"
+            ],
+            [
+              "Hit dice",
+              "4d6 + 4"
+            ],
+            [
+              "Challenge",
+              "1/2"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Monstrosity"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Strength",
+              "10"
+            ],
+            [
+              "Dexterity",
+              "14"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "10"
+            ],
+            [
+              "Wisdom",
+              "10"
+            ],
+            [
+              "Charisma",
+              "7"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Dagger · melee or ranged · +4 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Athletics +4, Stealth +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Undercommon"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Fey Ancestry · Charmed",
+                "Sunlight Sensitivity · Perception",
+                "Web Sense",
+                "Web Walker"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Dagger · Melee or ranged attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft."
+              ]
+            }
+          ],
+          "sourceCode": "MPMM",
+          "page": 75,
+          "references": [
+            {
+              "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 75",
+              "url": "https://5e.tools/bestiary.html#chitine_mpmm"
+            },
+            {
+              "label": "Hide armor (item)",
+              "url": "https://5e.tools/items.html#hide%20armor_phb",
+              "local": {
+                "entry": "item-c04062b7a541795e4f36366c",
+                "version": "PHB:144:https://5e.tools/items.html#hide%20armor_phb"
+              },
+              "preview": {
+                "name": "Hide armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A medium armor.",
+                "local": {
+                  "entry": "item-c04062b7a541795e4f36366c",
+                  "version": "PHB:144:https://5e.tools/items.html#hide%20armor_phb"
+                }
+              }
+            },
+            {
+              "label": "Charmed (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#charmed_phb",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              },
+              "preview": {
+                "name": "Charmed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                "local": {
+                  "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                }
+              }
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Small monstrosity with challenge rating 1/2. Listed habitats: underdark. Named abilities include Fey Ancestry, Sunlight Sensitivity, Web Sense.": [
+              {
+                "start": 135,
+                "end": 138,
+                "target": {
+                  "name": "Web",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 287,
+                  "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+                  "local": {
+                    "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                    "version": "PHB:287:https://5e.tools/spells.html#web_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Athletics +4, Stealth +4": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              },
+              {
+                "start": 14,
+                "end": 21,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Fey Ancestry · Charmed": [
+              {
+                "start": 15,
+                "end": 22,
+                "target": {
+                  "name": "Charmed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                  "local": {
+                    "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                  }
+                }
+              }
+            ],
+            "Sunlight Sensitivity · Perception": [
+              {
+                "start": 23,
+                "end": 33,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "7ed9a1dd1e82062f7ba6245a",
+          "publication": "Volo's Guide to Monsters",
+          "edition": "2014 fifth edition",
+          "description": "A Small monstrosity with challenge rating 1/2. Listed habitats: underdark. Named abilities include Fey Ancestry, Sunlight Sensitivity, Web Sense.",
+          "source": "https://5e.tools/bestiary.html#chitine_vgm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/9/588/1000/1000/636329508222056035.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Shawn Wood · Volo's Guide to Monsters"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "14"
+            ],
+            [
+              "Hit points",
+              "18"
+            ],
+            [
+              "Hit dice",
+              "4d6 + 4"
+            ],
+            [
+              "Challenge",
+              "1/2"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Monstrosity"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Strength",
+              "10"
+            ],
+            [
+              "Dexterity",
+              "14"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "10"
+            ],
+            [
+              "Wisdom",
+              "10"
+            ],
+            [
+              "Charisma",
+              "7"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Dagger · melee or ranged · +4 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Athletics +4, Stealth +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Undercommon"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Fey Ancestry · Charmed",
+                "Sunlight Sensitivity · Perception",
+                "Web Sense",
+                "Web Walker"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Dagger · Melee or ranged attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Unnatural Origin",
+                "Lolth's Revenge",
+                "Lolth's Chosen",
+                "Communal Spiders"
+              ]
+            }
+          ],
+          "sourceCode": "VGM",
+          "page": 131,
+          "references": [
+            {
+              "label": "Volo's Guide to Monsters, p. 131",
+              "url": "https://5e.tools/bestiary.html#chitine_vgm"
+            },
+            {
+              "label": "Hide armor (item)",
+              "url": "https://5e.tools/items.html#hide%20armor_phb",
+              "local": {
+                "entry": "item-c04062b7a541795e4f36366c",
+                "version": "PHB:144:https://5e.tools/items.html#hide%20armor_phb"
+              },
+              "preview": {
+                "name": "Hide armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A medium armor.",
+                "local": {
+                  "entry": "item-c04062b7a541795e4f36366c",
+                  "version": "PHB:144:https://5e.tools/items.html#hide%20armor_phb"
+                }
+              }
+            },
+            {
+              "label": "Charmed (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#charmed_phb",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              },
+              "preview": {
+                "name": "Charmed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                "local": {
+                  "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                }
+              }
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Small monstrosity with challenge rating 1/2. Listed habitats: underdark. Named abilities include Fey Ancestry, Sunlight Sensitivity, Web Sense.": [
+              {
+                "start": 135,
+                "end": 138,
+                "target": {
+                  "name": "Web",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 287,
+                  "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+                  "local": {
+                    "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                    "version": "PHB:287:https://5e.tools/spells.html#web_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Athletics +4, Stealth +4": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              },
+              {
+                "start": 14,
+                "end": 21,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Fey Ancestry · Charmed": [
+              {
+                "start": 15,
+                "end": 22,
+                "target": {
+                  "name": "Charmed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                  "local": {
+                    "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                  }
+                }
+              }
+            ],
+            "Sunlight Sensitivity · Perception": [
+              {
+                "start": 23,
+                "end": 33,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Shawn Wood · Mordenkainen Presents: Monsters of the Multiverse"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "07b60ac450c92253dbb00dd9",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Monstrous Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Small Monstrous Humanoid. +2 Dexterity, +2 Constitution, +2 Intelligence, −4 Charisma. Land speed 30 ft. Darkvision 60 ft. from the creature type.",
+            "Small size gives +1 on attack rolls and to AC, +4 on Hide checks, and three-quarters the carrying capacity of a Medium creature.",
+            "Climb 20 ft. with a +8 racial bonus on Climb checks. Can take 10 even when rushed or threatened. Hooked palms and feet allow climbing walls and ceilings as with spider climb.",
+            "Grappling Bonus (Ex) gives +4 on grapple checks, offsetting the −4 Small size modifier. Difficult to Disarm (Ex) gives +4 on the opposed check to keep hold of a weapon.",
+            "Sensitive to Sunlight (Ex). Sunlight and bright magical light such as daylight dazzle a chitine, imposing −1 on attack rolls, Search checks, and Spot checks.",
+            "Multiweapon Fighting is a racial bonus feat. Short swords count as simple weapons for weapon familiarity.",
+            "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Racial skill points are 5 × (2 + Intelligence modifier). Racial class skills are Balance, Climb, Craft (trapmaking), Hide, Jump, and Move Silently.",
+            "LA +2. A chitine with only racial Hit Dice is ECL 4. One class level gives ECL 5.",
+            "Undercommon is automatic. The Chitine region also grants Common and lists Drow Sign, Elven (drow dialect), Kuo-Toan, and Orc as bonus languages. Favored class Rogue.",
+            "Chitines spin silk and use hardened webbing for building and equipment. Their racial traits give no combat web attack."
+          ]
+        },
+        {
+          "title": "Original NPC · Qid Lowweb",
+          "lines": [
+            "Gallery scout and Rogue.",
+            "Motive. Find a way past the blocked gallery without alerting the guards.",
+            "Hook. Qid spots a ledge above the sentries where her four blades can reach them.",
+            "Chitine gallery scout, Rogue 1 · Provisional CR 2. ECL 5 (2 racial HD, 1 class HD, LA +2). · Small Monstrous Humanoid",
+            "AC 17 · HP 23 (2d8+1d6+6) · Speed 30 ft.; climb 20 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Awa Spinner",
+          "lines": [
+            "Silk rigger and crossing guide.",
+            "Motive. Keep the damaged gangway open until everyone reaches the near side.",
+            "Hook. Awa can reach the damaged silk stays from the ceiling.",
+            "Chitine silk rigger, racial Hit Dice only · Provisional CR 1. ECL 4 (2 racial HD, LA +2). · Small Monstrous Humanoid",
+            "AC 14 · HP 16 (2d8+4) · Speed 30 ft.; climb 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Qid Lowweb": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Qid Lowweb",
+              "group": "Chitine",
+              "publication": "Chitine gallery scout, Rogue 1",
+              "local": {
+                "entry": "npc-a009c9597d4f48634385460d",
+                "version": "17146fe281291feac70037c5"
+              }
+            }
+          }
+        ],
+        "Original NPC · Awa Spinner": [
+          {
+            "start": 15,
+            "end": 26,
+            "target": {
+              "name": "Awa Spinner",
+              "group": "Chitine",
+              "publication": "Chitine silk rigger, racial Hit Dice only",
+              "local": {
+                "entry": "npc-ceaae2cf70ac1f7affd5cf20",
+                "version": "5a981327b56aee9ae48e5a95"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Chitine": true,
+      "chitine multiweapon fighting": true,
+      "chitine sunlight": true,
+      "chitine gallery scout": true,
+      "chitine silk rigger": true
+    },
+    "hash": "846efbe15b43ab66dcf1475bbfc3a51ea74fba83f7765b9938df24d3508c8492",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "07b60ac450c92253dbb00dd9",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

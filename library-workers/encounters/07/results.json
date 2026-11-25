@@ -1,0 +1,790 @@
+[
+  {
+    "name": "Apprentice Wizard",
+    "kind": "monster",
+    "publication": "Spelljammer Academy",
+    "original": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2560723-apprentice-wizard",
+    "index": "https://5e.tools/bestiary.html#apprentice%20wizard_mpmm",
+    "appearance": "A novice arcane spellcaster who studies under a tutor or at a school.",
+    "habitats": [
+      "urban"
+    ]
+  },
+  {
+    "name": "Archdruid",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "12",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17326-archdruid",
+    "index": "https://5e.tools/bestiary.html#archdruid_vgm",
+    "appearance": "A practiced nature spellcaster, often shown with simple traveling gear and a scimitar.",
+    "habitats": [
+      "forest",
+      "mountain",
+      "swamp"
+    ]
+  },
+  {
+    "name": "Bone Devil (Polearm Variant)",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301694-bone-devil-polearm-variant",
+    "index": null,
+    "appearance": "A skeletal, skull-faced devil with wings, a scorpion tail and a hooked polearm made of bone.",
+    "habitats": [
+      "Nine Hells"
+    ]
+  },
+  {
+    "name": "Cave Bear",
+    "kind": "beast",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17141-cave-bear",
+    "index": "https://5e.tools/bestiary.html#cave%20bear_mm",
+    "appearance": "A large, heavy-shouldered bear with coarse dark fur.",
+    "habitats": [
+      "Underground caverns"
+    ]
+  },
+  {
+    "name": "Champion",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17330-champion",
+    "index": "https://5e.tools/bestiary.html#champion_vgm",
+    "appearance": "An experienced armored warrior armed with a greatsword and shortbow.",
+    "habitats": [
+      "desert",
+      "urban"
+    ]
+  },
+  {
+    "name": "Champion",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17330-champion",
+    "index": "https://5e.tools/bestiary.html#champion_vgm",
+    "appearance": "An experienced armored warrior armed with a greatsword and shortbow.",
+    "habitats": [
+      "desert",
+      "urban"
+    ]
+  },
+  {
+    "name": "Clockwork Horror",
+    "kind": "monster",
+    "publication": "Spelljammer Academy",
+    "original": "Monstrous Compendium Vol. 1: Spelljammer Creatures",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2506149-clockwork-horror",
+    "index": "https://5e.tools/bestiary.html#clockwork%20horror_mcv1sc",
+    "appearance": "A small metallic insect with a crystal eye, sharp mandibles and rotating saws on its forelimbs.",
+    "habitats": [
+      "Wildspace",
+      "Spelljamming ships"
+    ]
+  },
+  {
+    "name": "Drider (variant)",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/272279-drider-variant",
+    "index": null,
+    "appearance": "A drow spellcaster’s upper body joined to the body of a giant spider.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Duergar Mind Master",
+    "kind": "monster",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "original": "Mordenkainen’s Tome of Foes",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/96485-duergar-mind-master",
+    "index": "https://5e.tools/bestiary.html#duergar%20mind%20master_mtf",
+    "appearance": "A deep dwarf infiltrator with a poisoned dagger who can shrink to a tiny size.",
+    "habitats": [
+      "mountain",
+      "underdark"
+    ]
+  },
+  {
+    "name": "Faerie Dragon (Older)",
+    "kind": "monster",
+    "publication": "Explorer's Guide to Wildemount",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17108-faerie-dragon-older",
+    "index": null,
+    "appearance": "A cat-sized dragon with butterfly wings. Older forms range from green through blue and indigo to violet.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Faerie Dragon (Older)",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17108-faerie-dragon-older",
+    "index": null,
+    "appearance": "A cat-sized dragon with butterfly wings. Older forms range from green through blue and indigo to violet.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Faerie Dragon (Older)",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17108-faerie-dragon-older",
+    "index": null,
+    "appearance": "A cat-sized dragon with butterfly wings. Older forms range from green through blue and indigo to violet.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Gazer",
+    "kind": "monster",
+    "publication": "Spelljammer Academy",
+    "original": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2560821-gazer",
+    "index": "https://5e.tools/bestiary.html#gazer_mpmm",
+    "appearance": "A tiny, floating sphere with one central eye, a toothy mouth and four smaller eyes on stalks.",
+    "habitats": [
+      "underdark"
+    ]
+  },
+  {
+    "name": "Gazer",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17221-gazer",
+    "index": "https://5e.tools/bestiary.html#gazer_vgm",
+    "appearance": "A tiny, floating sphere with one central eye, a toothy mouth and four smaller eyes on stalks.",
+    "habitats": [
+      "underdark"
+    ]
+  },
+  {
+    "name": "Giant Lizard (variant)",
+    "kind": "beast",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/275699-giant-lizard-variant",
+    "index": null,
+    "appearance": "A large, low-slung lizard with a scaly hide and clawed toes. Some can cling to ceilings or swim.",
+    "habitats": [
+      "Underdark",
+      "Forest",
+      "Swamp",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Giff",
+    "kind": "monster",
+    "publication": "Spelljammer Academy",
+    "original": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2560826-giff",
+    "index": "https://5e.tools/bestiary.html#giff_mpmm",
+    "appearance": "A broad hippo-headed humanoid who fights with a sword and firearms.",
+    "habitats": [
+      "Urban",
+      "Wildspace"
+    ]
+  },
+  {
+    "name": "Giff Shipmate",
+    "kind": "monster",
+    "publication": "Spelljammer Academy",
+    "original": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2771399-giff-shipmate",
+    "index": "https://5e.tools/bestiary.html#giff%20shipmate_bam",
+    "appearance": "A hippo-headed sailor armed with a sword and musket.",
+    "habitats": [
+      "Wildspace",
+      "Spelljamming ships"
+    ]
+  },
+  {
+    "name": "Githyanki Gish",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Mordenkainen’s Tome of Foes",
+    "edition": "2014 fifth edition",
+    "challenge": "10",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/97386-githyanki-gish",
+    "index": "https://5e.tools/bestiary.html#githyanki%20gish_mtf",
+    "appearance": "A lean, angular githyanki who combines swordplay with spellcasting.",
+    "habitats": [
+      "Desert",
+      "Mountain",
+      "Urban",
+      "Astral Plane"
+    ]
+  },
+  {
+    "name": "Gray Slaad (control gem variant)",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301511-gray-slaad-control-gem-variant",
+    "index": null,
+    "appearance": "A gray, toadlike shapeshifter that can adopt a humanoid guise. Its control gem is hidden in its head.",
+    "habitats": [
+      "Limbo",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Gray Slaad (control gem variant)",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301511-gray-slaad-control-gem-variant",
+    "index": null,
+    "appearance": "A gray, toadlike shapeshifter that can adopt a humanoid guise. Its control gem is hidden in its head.",
+    "habitats": [
+      "Limbo",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Grung Elite Warrior",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17263-grung-elite-warrior",
+    "index": "https://5e.tools/bestiary.html#grung%20elite%20warrior_vgm",
+    "appearance": "A small frog-like humanoid with bright golden skin, a bow and a poisoned dagger.",
+    "habitats": [
+      "forest"
+    ]
+  },
+  {
+    "name": "Kobold Inventor",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17277-kobold-inventor",
+    "index": "https://5e.tools/bestiary.html#kobold%20inventor_vgm",
+    "appearance": "A small reptilian humanoid carrying improvised weapons and tools.",
+    "habitats": [
+      "underdark",
+      "mountain",
+      "forest",
+      "hill",
+      "urban"
+    ]
+  },
+  {
+    "name": "Mind Flayer Arcanist",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17175-mind-flayer-arcanist",
+    "index": "https://5e.tools/bestiary.html#mind%20flayer%20arcanist_mm",
+    "appearance": "A robed aberration with an octopus-like head and four facial tentacles, trained in wizard magic.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Neogi Hatchling",
+    "kind": "monster",
+    "publication": "Spelljammer Academy",
+    "original": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2560884-neogi-hatchling",
+    "index": "https://5e.tools/bestiary.html#neogi%20hatchling_mpmm",
+    "appearance": "A tiny spider-like creature with a long, eel-like neck and sharp fangs.",
+    "habitats": [
+      "hill",
+      "underdark"
+    ]
+  },
+  {
+    "name": "Neothelid",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "13",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17291-neothelid",
+    "index": "https://5e.tools/bestiary.html#neothelid_vgm",
+    "appearance": "A gigantic worm with a ring of tentacles around its mouth.",
+    "habitats": [
+      "underdark"
+    ]
+  },
+  {
+    "name": "Night Hag (Coven Variant)",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
+    "index": null,
+    "appearance": "An old-looking fiend with purplish skin, long fingers and dark horns. A member of a three-hag coven.",
+    "habitats": [
+      "Lower Planes"
+    ]
+  },
+  {
+    "name": "Night Hag (Coven Variant)",
+    "kind": "monster",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
+    "index": null,
+    "appearance": "An old-looking fiend with purplish skin, long fingers and dark horns. A member of a three-hag coven.",
+    "habitats": [
+      "Lower Planes"
+    ]
+  },
+  {
+    "name": "Night Hag (Coven Variant)",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
+    "index": null,
+    "appearance": "An old-looking fiend with purplish skin, long fingers and dark horns. A member of a three-hag coven.",
+    "habitats": [
+      "Lower Planes"
+    ]
+  },
+  {
+    "name": "Night Hag (Coven Variant)",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
+    "index": null,
+    "appearance": "An old-looking fiend with purplish skin, long fingers and dark horns. A member of a three-hag coven.",
+    "habitats": [
+      "Lower Planes"
+    ]
+  },
+  {
+    "name": "Nycaloth (summoner variant)",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/277215-nycaloth-summoner-variant",
+    "index": null,
+    "appearance": "A muscular bat-winged fiend with claws and a heavy greataxe.",
+    "habitats": [
+      "Gehenna",
+      "Lower Planes"
+    ]
+  },
+  {
+    "name": "Poltergeist",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17202-poltergeist",
+    "index": "https://5e.tools/bestiary.html#poltergeist_mm",
+    "appearance": "An Invisible, incorporeal spirit. Its presence may be revealed by furniture or objects moving on their own.",
+    "habitats": [
+      "Haunted sites"
+    ]
+  },
+  {
+    "name": "Poltergeist",
+    "kind": "monster",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17202-poltergeist",
+    "index": "https://5e.tools/bestiary.html#poltergeist_mm",
+    "appearance": "An Invisible, incorporeal spirit. Its presence may be revealed by furniture or objects moving on their own.",
+    "habitats": [
+      "Haunted sites"
+    ]
+  },
+  {
+    "name": "Poltergeist",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17202-poltergeist",
+    "index": "https://5e.tools/bestiary.html#poltergeist_mm",
+    "appearance": "An Invisible, incorporeal spirit. Its presence may be revealed by furniture or objects moving on their own.",
+    "habitats": [
+      "Haunted sites"
+    ]
+  },
+  {
+    "name": "Psychic Gray Ooze",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17186-psychic-gray-ooze",
+    "index": null,
+    "appearance": "A gray, liquid creature easily mistaken for wet stone. This variety can attack with its mind.",
+    "habitats": [
+      "Underground sites near psionic creatures"
+    ]
+  },
+  {
+    "name": "Psychic Gray Ooze",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17186-psychic-gray-ooze",
+    "index": null,
+    "appearance": "A gray, liquid creature easily mistaken for wet stone. This variety can attack with its mind.",
+    "habitats": [
+      "Underground sites near psionic creatures"
+    ]
+  },
+  {
+    "name": "Quaggoth Thonot",
+    "kind": "monster",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17194-quaggoth-thonot",
+    "index": "https://5e.tools/bestiary.html#quaggoth%20thonot_mm",
+    "appearance": "A pale, shaggy cave humanoid with powerful arms and claws, distinguished by its psionic abilities.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Quaggoth Thonot",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/17194-quaggoth-thonot",
+    "index": "https://5e.tools/bestiary.html#quaggoth%20thonot_mm",
+    "appearance": "A pale, shaggy cave humanoid with powerful arms and claws, distinguished by its psionic abilities.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Sea Hag (Coven Variant)",
+    "kind": "monster",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301760-sea-hag-coven-variant",
+    "index": null,
+    "appearance": "An amphibious hag with a gaunt, hideous true face who can disguise herself with an illusion.",
+    "habitats": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sea Hag (Coven Variant)",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301760-sea-hag-coven-variant",
+    "index": null,
+    "appearance": "An amphibious hag with a gaunt, hideous true face who can disguise herself with an illusion.",
+    "habitats": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sea Hag (Coven Variant)",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301760-sea-hag-coven-variant",
+    "index": null,
+    "appearance": "An amphibious hag with a gaunt, hideous true face who can disguise herself with an illusion.",
+    "habitats": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Star Lancer",
+    "kind": "monster",
+    "publication": "Spelljammer Academy",
+    "original": "Monstrous Compendium Vol. 1: Spelljammer Creatures",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2506150-star-lancer",
+    "index": "https://5e.tools/bestiary.html#star%20lancer_mcv1sc",
+    "appearance": "A shark-like creature with four wings, a long tail and a sharp projection on its head.",
+    "habitats": [
+      "Astral Sea"
+    ]
+  },
+  {
+    "name": "Sword Wraith Commander",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2407570-sword-wraith-commander",
+    "index": "https://5e.tools/bestiary.html#sword%20wraith%20commander_mpmm",
+    "appearance": "The ghost of an armored warrior with a longsword and longbow.",
+    "habitats": [
+      "grassland",
+      "swamp"
+    ]
+  },
+  {
+    "name": "Sword Wraith Warrior",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/2407571-sword-wraith-warrior",
+    "index": "https://5e.tools/bestiary.html#sword%20wraith%20warrior_mpmm",
+    "appearance": "An undead soldier carrying a battleaxe and longbow.",
+    "habitats": [
+      "grassland",
+      "swamp"
+    ]
+  },
+  {
+    "name": "Troll (variant)",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301476-troll-variant",
+    "index": null,
+    "appearance": "A lanky, long-nosed giant. Even separated limbs remain active while they can regenerate.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Ulitharid",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17285-ulitharid",
+    "index": "https://5e.tools/bestiary.html#ulitharid_vgm",
+    "appearance": "A tall mind flayer with six facial tentacles, two noticeably longer than the others.",
+    "habitats": [
+      "underdark"
+    ]
+  },
+  {
+    "name": "Ultroloth (summoner variant)",
+    "kind": "monster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "13",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301447-ultroloth-summoner-variant",
+    "index": null,
+    "appearance": "A slender, gray-skinned fiend with an elongated head and two oval eyes in an otherwise blank face.",
+    "habitats": [
+      "Gehenna",
+      "Lower Planes"
+    ]
+  },
+  {
+    "name": "Volothamp “Volo” Geddarm",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "original": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/33269-volothamp-volo-geddarm",
+    "index": "https://5e.tools/bestiary.html#volothamp%20%22volo%22%20geddarm_toa",
+    "appearance": "A bearded, flamboyantly dressed human traveler and author.",
+    "habitats": [
+      "Port Nyanzaru",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison (Type 1)",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301418-yuan-ti-malison-type-1",
+    "index": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%201)_mm",
+    "appearance": "A humanoid body with a snake’s head.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison (Type 2)",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301421-yuan-ti-malison-type-2",
+    "index": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%202)_mm",
+    "appearance": "A humanoid whose arms end in snake heads instead of hands.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison (Type 3)",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-variant",
+    "source": "https://www.dndbeyond.com/monsters/301425-yuan-ti-malison-type-3",
+    "index": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%203)_mm",
+    "appearance": "A humanoid torso and arms above a long snake tail in place of legs.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  }
+]

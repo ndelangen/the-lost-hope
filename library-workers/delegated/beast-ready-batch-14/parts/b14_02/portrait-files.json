@@ -1,0 +1,50 @@
+[
+  {
+    "artGroup": "barnacle-bess",
+    "file": "portraits/barnacle-bess.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4ada12f899ca3cabe46f7b6dda820313bb4cc32c2583dad9d992a204023505da",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "fish",
+    "file": "portraits/fish.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "eb61d1765250b9c69e1f18a806f7a5949a5bb3c93d38c6a8d7f2c4cb140bed11",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-coral-snake",
+    "file": "portraits/giant-coral-snake.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "766274e34d67e209f7e5dae19c127e9013109b018fbd3ca5a1bfb32c36662c9f",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-sea-eel",
+    "file": "portraits/giant-sea-eel.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "74741b49df46b52cf487bcbe92d851a035472d297a50a9219df242bb1532ea1f",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-white-moray-eel",
+    "file": "portraits/giant-white-moray-eel.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c66f342177e7cefdbaa84762e4202fdc402a11936a20ccc29d58a0a74e44c3f8",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "sahuagin-hatchling-swarm",
+    "file": "portraits/sahuagin-hatchling-swarm.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3ea2e45e53bc79e192ae725d182a7d0f30f6ff3ce3a96b8aa309f380721058eb",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

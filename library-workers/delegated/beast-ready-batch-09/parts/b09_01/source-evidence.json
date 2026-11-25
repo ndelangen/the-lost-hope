@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Allosaurus",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 348,
+    "printedPages": [
+      348
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5194879-allosaurus",
+    "url": "https://www.dndbeyond.com/monsters/5194879-allosaurus",
+    "publisherByline": "Monster Manual, pg. 348",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [
+      "The extra Bite is part of the qualifying Claws attack resolution. The publisher provides no saving throw for Prone and no Bonus Action cost."
+    ],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-04/parts/b04_01/portraits/allosaurus.png",
+      "sha256": "bfd45c756e4462c0cb89ab8a54f979592b9dd7fa3a276313976d48994bc322f8"
+    }
+  },
+  {
+    "name": "Ankylosaurus",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 348,
+    "printedPages": [
+      348
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5194898-ankylosaurus",
+    "url": "https://www.dndbeyond.com/monsters/5194898-ankylosaurus",
+    "publisherByline": "Monster Manual, pg. 348",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [
+      "Strength’s printed save is +6. A qualifying Tail hit applies Prone without a saving throw."
+    ],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-04/parts/b04_01/portraits/ankylosaurus.png",
+      "sha256": "12e17f9424f85b5b94a6a614b0a2a967e54f34f1ac5b23ad1c732c391733dc89"
+    }
+  },
+  {
+    "name": "Ape",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 348,
+    "printedPages": [
+      348
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775801-ape",
+    "url": "https://www.dndbeyond.com/monsters/4775801-ape",
+    "publisherByline": "Monster Manual, pg. 348",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [
+      "D&D Beyond gives Monster Manual p. 348 for this public entry. The Rock recharge and damage belong to this modern block."
+    ],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_01/portraits/ape.png",
+      "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2"
+    },
+    "rechargeRulesUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster#LimitedUsage",
+    "sharedPublicationCrossCheck": "The secondary 5etools index cross-references Player’s Handbook (2024) p. 346. The official handbook table of contents lists Appendix B, Creature Stat Blocks, and the linked chapter requires access. The verified source for this entry is the public Monster Manual p. 348 stat block.",
+    "playerHandbookContents": "https://www.dndbeyond.com/sources/dnd/phb-2024"
+  },
+  {
+    "name": "Archelon",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 349,
+    "printedPages": [
+      349
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5194901-archelon",
+    "url": "https://www.dndbeyond.com/monsters/5194901-archelon",
+    "publisherByline": "Monster Manual, pg. 349",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [
+      "The updated book classifies the archelon as a Beast with the Dinosaur tag."
+    ],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "indexed:images/monsters/archelon/parchment-portrait.webp",
+      "sha256": "5d765deaf5a395bd20a1e156250dc3d88290cd29393019cf8b143e92b2c046ee"
+    }
+  },
+  {
+    "name": "Baboon",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 349,
+    "printedPages": [
+      349
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5194910-baboon",
+    "url": "https://www.dndbeyond.com/monsters/5194910-baboon",
+    "publisherByline": "Monster Manual, pg. 349",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_02/portraits/baboon.png",
+      "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd"
+    }
+  }
+]

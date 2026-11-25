@@ -1,0 +1,24 @@
+{
+  "baseline": "0634d6bfea5845a6321fe425b83de869bc4c41d2",
+  "temporaryCopy": true,
+  "exactProfiles": 3,
+  "printedCombatProfilesVerified": 3,
+  "searchableByNameRuleAppearanceHabitat": 3,
+  "globalSearchResults": 3,
+  "newBaseCatalogEntries": [
+    "Giant Piranha"
+  ],
+  "historicalVersionsOnExistingEntries": [
+    "Piranha",
+    "Quipper"
+  ],
+  "compatibleWithPreviouslyStagedMonstrousManualPatches": true,
+  "printedGiantThac0": 19,
+  "frenzyAndAttackLimitsVerified": true,
+  "naturalAndMagicallySummonedSchoolSizesDistinguished": true,
+  "quipperFrenzyLeftUnspecified": true,
+  "versionPortraitsVerified": 3,
+  "newPortraitDrafts": 3,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

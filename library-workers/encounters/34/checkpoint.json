@@ -1,0 +1,30 @@
+{
+  "commit": "fa674129b4035142dfae5034597f35aa4035699a",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 549,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-34-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-34-style-reference.jpg",
+  "styleDirection": "Use the event and stage paintings for lighting and painted material. Keep light neutral textured parchment. The adult Angulotl and Tadpole portraits set the look for related creatures.",
+  "results": "output/dm-library/encounter-batches/34/results.json",
+  "searchResults": "output/dm-library/encounter-batches/34/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Angulotl Yegg",
+      "kind": "monster",
+      "role": "Retainer"
+    },
+    {
+      "name": "Clawfish Companion",
+      "kind": "beast",
+      "role": "Companion"
+    }
+  ],
+  "nextSourceNote": "Verify the separate retainer and companion printings, including mentor or caregiver scaling. Keep them distinct from ordinary encounter stat blocks and avoid assigning a CR they do not have."
+}

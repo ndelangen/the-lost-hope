@@ -1,0 +1,1255 @@
+[
+  {
+    "name": "Pernicon",
+    "version": {
+      "key": "56cdce808524632c6063b89c",
+      "publication": "Four from Cormyr",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit points",
+          "1"
+        ],
+        [
+          "Hit dice",
+          "1 hp"
+        ],
+        [
+          "Size",
+          "T, 1 in. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12"
+        ],
+        [
+          "XP",
+          "15"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Organic debris in Adzerak’s ruined corridor"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A one-inch grasshopper-like insect with gripping pincers at the rear of its abdomen."
+          ]
+        },
+        {
+          "title": "Special attacks and weaknesses mechanics",
+          "lines": [
+            "Swarm attack · Only the swarm attacks. The encounter lists one attack at THAC0 20. Each swarm hit deals 1d10 damage and drains 1 point of Constitution.",
+            "Constitution loss · At Constitution 2 the victim falls unconscious. At 0 the victim dies. Lost Constitution returns at 1 point per day."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Ruined corridor · While characters search or handle the rubbish in area 12, there is a cumulative 10% chance per turn of an encounter. Each such encounter has an equal chance of being ten Rot Grubs or fifty Pernicons."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "50 appearing in this encounter. 1 HP and 15 XP per individual. Unreliable (4) morale. Nonintelligent (0). Neutral.",
+            "John Terra, Four from Cormyr (TSR, 1997), The Bibliophile, area 12, p. 16."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Pernicon": true,
+      "pernicon ruined corridor constitution": true
+    },
+    "hash": "ce218369b75c26fdb35d8cd3e62dba89db8ca246f28921cd518a534fb9e342ea",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Rot Grub",
+    "version": {
+      "key": "b12d3646d75617ddac8bfb8d",
+      "publication": "Four from Cormyr",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "9"
+        ],
+        [
+          "Hit points",
+          "1"
+        ],
+        [
+          "Hit dice",
+          "1 hp"
+        ],
+        [
+          "Size",
+          "T, 1 in. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "1, Br 0"
+        ],
+        [
+          "XP",
+          "15"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Organic debris in Adzerak’s ruined corridor"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A one-inch, maggot-like grub found in refuse."
+          ]
+        },
+        {
+          "title": "Special attacks and weaknesses mechanics",
+          "lines": [
+            "Burrow into exposed flesh · A grub has a percentage chance equal to the target’s base AC to burrow into exposed flesh. The encounter gives no THAC0 or standard attack or damage. If untreated, the grubs reach the heart and kill the victim in 1d3 turns.",
+            "Fire and cure disease · Fire kills 2d10 grubs if applied before 1d6 rounds of burrowing. A cure disease spell kills all the grubs outright."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Ruined corridor · While characters search or handle the rubbish in area 12, there is a cumulative 10% chance per turn of an encounter. Each such encounter has an equal chance of being ten Rot Grubs or fifty Pernicons."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "10 appearing in this encounter. 1 HP and 15 XP per individual. Unsteady (5) morale. Nonintelligent (0). Neutral.",
+            "John Terra, Four from Cormyr (TSR, 1997), The Bibliophile, area 12, p. 16."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Rot Grub": true,
+      "rot grub exposed flesh burrowing": true
+    },
+    "hash": "2b8bfafc9b9f401c6dd1d6d6747b76d2c1973d8fb0baac077b4f98b42d52dc1e",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "existingSwarm": {
+      "id": "beast-e2560704d77b5c4aa03ef4ad",
+      "name": "Swarm of Rot Grubs",
+      "kind": "beast",
+      "group": "Beast",
+      "groups": [
+        "Beast"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Jason Felix · Mordenkainen Presents: Monsters of the Multiverse"
+        },
+        {
+          "url": "",
+          "credit": "Volo's Guide to Monsters"
+        }
+      ],
+      "versions": [
+        {
+          "key": "687840d6ddd234a910a2bf42",
+          "publication": "Ghosts of Saltmarsh",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17323-swarm-of-rot-grubs",
+          "status": "Stat block",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "8"
+            ],
+            [
+              "Hit points",
+              "22"
+            ],
+            [
+              "Hit dice",
+              "5d8"
+            ],
+            [
+              "Challenge",
+              "1/2"
+            ],
+            [
+              "Type",
+              "Beast"
+            ],
+            [
+              "Speed",
+              "5 ft., climb 5 ft."
+            ],
+            [
+              "XP",
+              "100"
+            ],
+            [
+              "Str",
+              "2"
+            ],
+            [
+              "Dex",
+              "7"
+            ],
+            [
+              "Con",
+              "10"
+            ],
+            [
+              "Int",
+              "1"
+            ],
+            [
+              "Wis",
+              "2"
+            ],
+            [
+              "Cha",
+              "1"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Classification",
+              "lines": [
+                "Medium Swarm of Tiny Beasts, unaligned"
+              ]
+            },
+            {
+              "title": "Other statistics",
+              "lines": [
+                "Resists piercing and slashing. Immune to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone and Restrained. Blindsight 10 ft., passive Perception 6. No languages."
+              ]
+            },
+            {
+              "title": "Traits",
+              "lines": [
+                "Swarm. It can share a space with creatures and fit through an opening that admits a Tiny maggot. It cannot regain HP or gain temporary HP."
+              ]
+            },
+            {
+              "title": "Actions",
+              "lines": [
+                "Bites. Melee weapon attack +0, reach 0 ft., one creature sharing its space. On a hit, 1d4 grubs infest the creature. At the start of each of its turns it takes 1d6 piercing per grub. Before the end of the creature’s next turn, fire applied to the wound inflicts 1 fire damage and kills those grubs. After that they have burrowed too far for fire. Disease-curing effects kill all infesting grubs. An infested creature that ends its turn at 0 HP dies."
+              ]
+            },
+            {
+              "title": "Encounter context",
+              "lines": [
+                "Single rot grub. On contact, a DC 10 Dexterity save avoids infestation. On a failure, use the swarm’s infestation rules for one grub, including 3 (1d6) piercing damage at the start of each host turn. Burning an infested corpse kills the grubs inside."
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark and swamps, especially corpses and decaying material."
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A mass of finger-sized maggots that burrow into flesh."
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "Rules source: Volo's Guide to Monsters, p. 208."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Volo's Guide to Monsters index",
+              "url": "https://5e.tools/bestiary.html#swarm%20of%20rot%20grubs_vgm"
+            }
+          ],
+          "inline": {
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Resists piercing and slashing. Immune to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone and Restrained. Blindsight 10 ft., passive Perception 6. No languages.": [
+              {
+                "start": 41,
+                "end": 48,
+                "target": {
+                  "name": "Charmed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                  "local": {
+                    "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                  }
+                }
+              },
+              {
+                "start": 50,
+                "end": 60,
+                "target": {
+                  "name": "Frightened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                  "local": {
+                    "entry": "compendium-879f347e29c83a95483201f4",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                  }
+                }
+              },
+              {
+                "start": 62,
+                "end": 70,
+                "target": {
+                  "name": "Grappled",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                  "local": {
+                    "entry": "compendium-e9c29509e4a14efaf316630f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                  }
+                }
+              },
+              {
+                "start": 72,
+                "end": 81,
+                "target": {
+                  "name": "Paralyzed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 291,
+                  "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                  "local": {
+                    "entry": "compendium-138ba975047a1242ea1c34b0",
+                    "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                  }
+                }
+              },
+              {
+                "start": 83,
+                "end": 92,
+                "target": {
+                  "name": "Petrified",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 291,
+                  "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+                  "local": {
+                    "entry": "compendium-48610e3ace37764a7f7e9029",
+                    "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+                  }
+                }
+              },
+              {
+                "start": 94,
+                "end": 99,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              },
+              {
+                "start": 104,
+                "end": 114,
+                "target": {
+                  "name": "Restrained",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                  "local": {
+                    "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                  }
+                }
+              },
+              {
+                "start": 116,
+                "end": 126,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                  }
+                }
+              },
+              {
+                "start": 143,
+                "end": 153,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "Encounter context": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Encounter",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 366,
+                  "local": {
+                    "entry": "compendium-174bae67209d62a4c0653d38",
+                    "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "46bd96368c4b3384f04d14f1",
+          "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+          "edition": "2014 fifth edition",
+          "description": "A Medium beast with challenge rating 1/2. Listed habitats: swamp, underdark. Named abilities include Swarm, Bites.",
+          "source": "https://5e.tools/bestiary.html#swarm%20of%20rot%20grubs_mpmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/702/1000/1000/637880558079549568.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Jason Felix · Mordenkainen Presents: Monsters of the Multiverse"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "8"
+            ],
+            [
+              "Hit points",
+              "22"
+            ],
+            [
+              "Hit dice",
+              "5d8"
+            ],
+            [
+              "Challenge",
+              "1/2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Beast"
+            ],
+            [
+              "Speed",
+              "walk 5 ft., climb 5 ft."
+            ],
+            [
+              "Passive Perception",
+              "6"
+            ],
+            [
+              "Strength",
+              "2"
+            ],
+            [
+              "Dexterity",
+              "7"
+            ],
+            [
+              "Constitution",
+              "10"
+            ],
+            [
+              "Intelligence",
+              "1"
+            ],
+            [
+              "Wisdom",
+              "2"
+            ],
+            [
+              "Charisma",
+              "1"
+            ],
+            [
+              "Alignment",
+              "unaligned"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "swamp",
+                "underdark",
+                "swamp, underdark"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "blindsight 10 ft."
+              ]
+            },
+            {
+              "title": "Damage vulnerabilities",
+              "lines": [
+                "fire"
+              ]
+            },
+            {
+              "title": "Damage resistances",
+              "lines": [
+                "piercing, slashing"
+              ]
+            },
+            {
+              "title": "Condition immunities",
+              "lines": [
+                "charmed, frightened, grappled, paralyzed, petrified, prone, restrained"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Swarm"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Bites · Melee attack · +0 to hit · 2d6 piercing damage · DC 10 Constitution save · 1d6 poison damage · reach 0 ft. · 0 hit points · Poisoned"
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Single Rot Grub"
+              ]
+            }
+          ],
+          "sourceCode": "MPMM",
+          "page": 237,
+          "references": [
+            {
+              "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 237",
+              "url": "https://5e.tools/bestiary.html#swarm%20of%20rot%20grubs_mpmm"
+            },
+            {
+              "label": "Poisoned (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#poisoned_phb",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              },
+              "preview": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "blindsight 10 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                  }
+                }
+              }
+            ],
+            "Damage vulnerabilities": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Damage resistances": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Condition immunities": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Condition",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 363,
+                  "local": {
+                    "entry": "compendium-7ec713220a1ab631931f9618",
+                    "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                  }
+                }
+              }
+            ],
+            "charmed, frightened, grappled, paralyzed, petrified, prone, restrained": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Charmed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                  "local": {
+                    "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                  }
+                }
+              },
+              {
+                "start": 9,
+                "end": 19,
+                "target": {
+                  "name": "Frightened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                  "local": {
+                    "entry": "compendium-879f347e29c83a95483201f4",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                  }
+                }
+              },
+              {
+                "start": 21,
+                "end": 29,
+                "target": {
+                  "name": "Grappled",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                  "local": {
+                    "entry": "compendium-e9c29509e4a14efaf316630f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                  }
+                }
+              },
+              {
+                "start": 31,
+                "end": 40,
+                "target": {
+                  "name": "Paralyzed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 291,
+                  "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                  "local": {
+                    "entry": "compendium-138ba975047a1242ea1c34b0",
+                    "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                  }
+                }
+              },
+              {
+                "start": 42,
+                "end": 51,
+                "target": {
+                  "name": "Petrified",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 291,
+                  "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+                  "local": {
+                    "entry": "compendium-48610e3ace37764a7f7e9029",
+                    "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+                  }
+                }
+              },
+              {
+                "start": 53,
+                "end": 58,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              },
+              {
+                "start": 60,
+                "end": 70,
+                "target": {
+                  "name": "Restrained",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                  "local": {
+                    "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                  }
+                }
+              }
+            ],
+            "Bites · Melee attack · +0 to hit · 2d6 piercing damage · DC 10 Constitution save · 1d6 poison damage · reach 0 ft. · 0 hit points · Poisoned": [
+              {
+                "start": 132,
+                "end": 140,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "003ad885a77b02b5babdbabe",
+          "publication": "Volo's Guide to Monsters",
+          "edition": "2014 fifth edition",
+          "description": "A Medium beast with challenge rating 1/2. Listed habitats: underdark, swamp. Named abilities include Swarm, Bites.",
+          "source": "https://5e.tools/bestiary.html#swarm%20of%20rot%20grubs_vgm",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Volo's Guide to Monsters"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "8"
+            ],
+            [
+              "Hit points",
+              "22"
+            ],
+            [
+              "Hit dice",
+              "5d8"
+            ],
+            [
+              "Challenge",
+              "1/2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Beast"
+            ],
+            [
+              "Speed",
+              "walk 5 ft., climb 5 ft."
+            ],
+            [
+              "Passive Perception",
+              "6"
+            ],
+            [
+              "Strength",
+              "2"
+            ],
+            [
+              "Dexterity",
+              "7"
+            ],
+            [
+              "Constitution",
+              "10"
+            ],
+            [
+              "Intelligence",
+              "1"
+            ],
+            [
+              "Wisdom",
+              "2"
+            ],
+            [
+              "Charisma",
+              "1"
+            ],
+            [
+              "Alignment",
+              "unaligned"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark",
+                "swamp",
+                "underdark, swamp"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "blindsight 10 ft."
+              ]
+            },
+            {
+              "title": "Damage resistances",
+              "lines": [
+                "piercing, slashing"
+              ]
+            },
+            {
+              "title": "Condition immunities",
+              "lines": [
+                "charmed, frightened, grappled, paralyzed, petrified, prone, restrained"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Swarm"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Bites · Melee attack · +0 to hit · 1d4 · 1d6 piercing damage · 1 fire damage · reach 0 ft. · 0 hit points · end of the target's next turn"
+              ]
+            }
+          ],
+          "sourceCode": "VGM",
+          "page": 208,
+          "references": [
+            {
+              "label": "Volo's Guide to Monsters, p. 208",
+              "url": "https://5e.tools/bestiary.html#swarm%20of%20rot%20grubs_vgm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "blindsight 10 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Blindsight",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-07dd97e41872842acf1183db",
+                    "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                  }
+                }
+              }
+            ],
+            "Damage resistances": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Condition immunities": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Condition",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 363,
+                  "local": {
+                    "entry": "compendium-7ec713220a1ab631931f9618",
+                    "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                  }
+                }
+              }
+            ],
+            "charmed, frightened, grappled, paralyzed, petrified, prone, restrained": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Charmed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                  "local": {
+                    "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                  }
+                }
+              },
+              {
+                "start": 9,
+                "end": 19,
+                "target": {
+                  "name": "Frightened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                  "local": {
+                    "entry": "compendium-879f347e29c83a95483201f4",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                  }
+                }
+              },
+              {
+                "start": 21,
+                "end": 29,
+                "target": {
+                  "name": "Grappled",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                  "local": {
+                    "entry": "compendium-e9c29509e4a14efaf316630f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                  }
+                }
+              },
+              {
+                "start": 31,
+                "end": 40,
+                "target": {
+                  "name": "Paralyzed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 291,
+                  "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                  "local": {
+                    "entry": "compendium-138ba975047a1242ea1c34b0",
+                    "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                  }
+                }
+              },
+              {
+                "start": 42,
+                "end": 51,
+                "target": {
+                  "name": "Petrified",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 291,
+                  "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+                  "local": {
+                    "entry": "compendium-48610e3ace37764a7f7e9029",
+                    "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+                  }
+                }
+              },
+              {
+                "start": 53,
+                "end": 58,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              },
+              {
+                "start": 60,
+                "end": 70,
+                "target": {
+                  "name": "Restrained",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                  "local": {
+                    "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    }
+  }
+]

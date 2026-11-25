@@ -1,0 +1,248 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "id": "voidrunner-axon-tovin-breakwire",
+      "title": "Axon salvage scout, Scout 1",
+      "difficulty": "Tier 1 class-built NPC, no assigned CR",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 12, or 15 when relying on hearing or smell.",
+      "languages": "Common, Dwarvish, Goblin.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 8,
+        "WIS": 11,
+        "CHA": 14
+      },
+      "skills": [
+        "Athletics +4",
+        "Engineering +1",
+        "Investigation +1",
+        "Perception +2",
+        "Stealth +4",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +2, Dex +4, Con +1, Int −1, Wis +0, Cha +4. Maneuver DC 12 and clever trick DC 12.",
+        "Unarmored Artful Defense sets AC at 10 + 2 Dex + 2 Cha. Olive work jacket, boots and harness are clothes. Max first-level HP is 8 + 1 Con.",
+        "Extendable Claws gift. Cold resistance, Arctic Survival expertise, hearing and smell skill expertise, and Large carrying capacity.",
+        "Drifter culture. Can use thieves’ tools as a bonus action when they would normally take a Use an Object action. Familiar Operations gives Engineering expertise on familiar ship or station systems and expertise to resist rattled or strife. Zero-g is ordinary terrain. Treat Dexterity checks to maneuver in low or zero gravity as rolling at least 10. Three times per long rest, Tovin can reduce a system maneuver cost through a hangar or operations center by 1, to a minimum of 0.",
+        "Salvager background adds +1 Wis and +1 Dex. Multitasker lets Tovin take two journey activities if one is Salvaging. His overlapping Engineering proficiency is assigned to Survival. Duplicate tool proficiencies are assigned to air vehicles, a computer technician kit, cartographer’s tools, and a sewing kit. His Scout gaming set is cards.",
+        "Exploration destiny. A significant discovery earns inspiration. Spend it on Veteran Traveler for an hour of expertise on saves to resist environmental effects and encounter elements."
+      ],
+      "actions": [
+        "Extendable claws. Melee unarmed strike +4 to hit, 5-ft. reach, 1d8+2 slashing.",
+        "Dastardly Gambit, reaction. Twice per long rest, subtract 1d6 from an ability check, attack roll, or saving throw just rolled by a creature that can see or hear Tovin or a device he pilots.",
+        "Coin Biter, action. Examine an object Tovin can see and touch to tell whether it is authentic or a replica and estimate its value."
+      ],
+      "tactics": "He puts the crew through the hatch first and banks his Gambit for the check that decides whether the rescue works."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Small",
+      "type": "Humanoid",
+      "id": "voidrunner-grey-iri-vale",
+      "title": "Grey diplomatic observer, Psion 1",
+      "difficulty": "Tier 1 class-built NPC, no assigned CR",
+      "ac": 14,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 15.",
+      "languages": "Common, Celestial, Deep Speech, Draconic, Dwarvish, Elvish, Gnomish.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 13
+      },
+      "skills": [
+        "Arcana +2",
+        "History +2",
+        "Insight +5",
+        "Investigation +2",
+        "Perception +5",
+        "Persuasion +3",
+        "Science +2",
+        "Stealth +4"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str −1, Dex +2, Con +3, Int +2, Wis +3, Cha +1. Wisdom is Iri’s psionic ability. Attack +5, power DC 13, maneuver DC 12.",
+        "Unshielded synthweave has AC 12 + 2 Dex. The diplomatic garment uses unsealed synthweave. Max first-level HP is 6 + 1 Con.",
+        "Telekinetic Shield gift and Grey Telekinesis. Move one visible object up to 3 lb. within 30 ft. up to 30 ft. Object holders can resist with DC 13 Strength. Substitute Wisdom for Strength where the load normally calls for a check. Iri uses the trait outside combat unless the Narrator sets a turn cost.",
+        "Enlightened culture gives History and Science, woodcarver’s tools, and Student of the Mind with the Bolster reflex. Natural Psionics gives Emote and Farsight. Psion supplies Empathic Sense and Binding.",
+        "Diplomat background adds +1 Cha and +1 Wis. An hour spent listening to or engaging with a new language lets Iri understand simple meanings and reply in approximate affirmatives or negatives.",
+        "Four psionic points, maximum power Rating I. Recharge all on a long rest or spend and roll Hit Dice during a short rest to recover psionic points up to maximum. A crystal focus allows one extra concentration power if the levels total no more than I. Roll concentration checks separately.",
+        "Reason destiny. Earn inspiration for a critical Intelligence check success or a successful save against charmed, confused, frightened, or rattled. Spend it for an hour of expertise on Intelligence checks."
+      ],
+      "actions": [
+        "Psionic Blast, action. Ranged psionic attack +5 to hit against one visible target within 30 ft., 1d8+3 psychic.",
+        "Binding, action, 1 psionic point. One creature within 60 ft. makes a DC 13 Strength save or is restrained. Concentrate up to 1 minute. It repeats the save at the end of each turn. The surge is beyond Iri’s power rating.",
+        "Telekinetic Shield, bonus action, twice per long rest. Gain 6 temporary HP for 1 minute while using no physical shield.",
+        "Emote, free reflex, action. Convey a simple idea as emotion to an Int 6+ target within 120 ft. without sharing a language. Concentrate up to 1 round.",
+        "Farsight, free reflex, action. Choose a visible distant point and see its surroundings as if standing there, with concentration for up to 1 minute. Spend 1 point to target a willing creature instead.",
+        "Empathic Sense, free reflex, action. Gain expertise on checks for concealed emotions, imminent danger, or supernatural activity for up to 10 minutes of concentration. Spend 1 point to give the reflex to a willing target at touch instead.",
+        "Bolster, free reflex, action. Touch a willing living creature and choose +1 AC, twice normal breath-holding, or advantage on poison saves. Concentrate up to 1 hour."
+      ],
+      "tactics": "Iri favors Emote before a confrontation and keeps Binding for the first person who makes a move against the delegates."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Small",
+      "type": "Humanoid",
+      "id": "voidrunner-houseki-sorel-wellglass",
+      "title": "Houseki survey engineer, Scientist 1",
+      "difficulty": "Tier 1 class-built NPC, no assigned CR",
+      "ac": 12,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 1,
+      "speed": "25 ft.",
+      "senses": "Passive Perception 11.",
+      "languages": "Common, Dwarvish.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 12,
+        "CON": 15,
+        "INT": 16,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Culture +5",
+        "Engineering +5 plus 1d4",
+        "History +5",
+        "Insight +3",
+        "Investigation +5",
+        "Nature +5",
+        "Science +5 plus 1d4",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str −1, Dex +1, Con +2, Int +5, Wis +3, Cha +0. Int-based attack +5 and praxis DC 13. Dex-based maneuver DC 11.",
+        "Engineer’s Metallurgist’s Mettle replaces Scientist’s usual d6 with a d8, for max first-level HP 8 + 2 Con. The canvas work apron is light canvas armor, AC 11 + 1 Dex.",
+        "Tier 1 Houseki, normally about 100 lb. Sorel breathes no air, suffers no vacuum effects, and is immune to poisons and poison damage. After thunder damage, make a DC 10 Con save or become rattled through the next turn. Moving Stealth checks have disadvantage. A small charged device can provide 1 Supply. The blue Color-change gift gives cold resistance and may switch at a long rest.",
+        "Belter culture gives Engineering and space vehicles, with duplicate skill proficiencies assigned to Culture and Investigation and duplicate space vehicles proficiency assigned to air vehicles. Vent-Rat lets Sorel squeeze at full speed and gives cramped-space Stealth expertise. On the Repair journey activity, raise the outcome by one grade. A rolled critical success removes one extra critical malfunction.",
+        "Miner background adds +1 Con and +1 Int. Danger Sense adds expertise to checks to detect traps or hazards. Sorel’s engineer’s toolbox maintains both praxes. The Scientist’s extra tool is a cybernetics kit. Duplicate multi-scanner proficiency is assigned to a computer technician kit. Engineer weapon selections are the dueling sword, plasma sword, and electro halberd. Encyclopedic Knowledge gives Science expertise and can use an action with a connected database to set a floor of 10 on the d20 of a scientific knowledge skill check.",
+        "Reason destiny. A critical Intelligence check success or a successful save against charmed, confused, frightened, or rattled earns inspiration. Spend it for 1 hour of expertise on Intelligence checks."
+      ],
+      "actions": [
+        "Custom Blaster praxis. Ranged attack +5 to hit, 100/300 ft., 2d4+3 force, no ammunition. Use a bonus action to switch to cold, fire, or lightning. Revert to force with an action.",
+        "Scrutinize, bonus action once per short or long rest. Study one visible target up to 30 ft. away, learn its vulnerabilities, and choose a damage type. The target takes 2 additional damage of that type whenever it takes that damage for 1 minute.",
+        "Analytical Attack, action. Attack a Construct with the held blaster at the normal +5. A hit deals no damage and forces a DC 11 Constitution save. Choose blinded, deafened, or slowed until the end of the target’s next turn on a failure. If choosing charmed, confused, or restrained instead, the target has advantage on the save.",
+        "Devise Contraption praxis, bonus action, twice per long rest. Assemble a short-lived tool, such as a chemical detector, Geiger counter, or chemical light stick. The item stops working after 1 hour.",
+        "Gauge Threat, action. Roll Insight against the passive Deception of a visible creature within 60 ft., or Engineering against a construct’s passive Deception. Learn its CR or level on a success."
+      ],
+      "tactics": "Sorel reads the danger before taking a shot. For hostile Constructs he tries to slow them so the miners can escape."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "id": "voidrunner-hurroc-dara-hitch",
+      "title": "Hurroc convoy shield guard, Trooper 1",
+      "difficulty": "Tier 1 class-built NPC, no assigned CR",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "senses": "Darkvision 30 ft., passive Perception 13.",
+      "languages": "Common, Orc, Dwarvish.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "History +1",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5, Dex +1, Con +4, Int −1, Wis +1, Cha +0. Maneuver DC 13.",
+        "Aramid vest meets Str 11 and gives 14 + 1 Dex. The medium duranium shield gives +2, with AC 15 without it. Max first-level HP is 10 + 2 Con.",
+        "Deadly Horns gift. No Use for Doubt provides an expertise die on fear saves. Adrenal Burst gives advantage on one physical ability check, one attack roll, or one death save per short or long rest.",
+        "Militant culture grants History and military history specialty. If an opponent accepts her Dueling Challenge, Dara has an expertise die on attacks against them until another creature attacks them or assists her. She can gauge an item’s value after a minute of examination.",
+        "Soldier background adds +1 Str and +1 Con, with Athletics, Intimidation, and an extra language. Military Bearing helps Dara trade information with soldiers. She is trained with weapon and armor maintenance tools, air and land vehicles, and dice. Victory destiny gives inspiration for beating a worthy opponent and lets her spend it for 1 hour of opposed-check expertise."
+      ],
+      "actions": [
+        "Deadly Horns. Melee natural weapon attack +5 to hit, 5-ft. reach, 1d6+3 piercing. A Medium or smaller target hit makes a DC 13 Strength save or falls prone.",
+        "Slugger. Ranged attack +3 to hit, 50/150 ft., 2d4+1 piercing, 20 shots before reloading. Favored Ordnance adds 1d4 piercing to a light firearm hit. After it applies, she regains its use at the start of her next turn.",
+        "Indomitable Soul, bonus action, once per short or long rest and while at 6 HP or fewer. Gain 1d10+1 temporary HP for 1 minute and immunity to frightened and rattled while these temporary HP remain. Suspend either condition if she already has it, with its duration still running.",
+        "Combat Medic drill, action, twice per short or long rest. Restore 4 HP to an ally within reach."
+      ],
+      "tactics": "Dara holds the doorway with the shield, knocks down the first attacker with her horns, and keeps a Combat Medic use for the convoy driver."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Tovin Breakwire",
+      "species": "Axon",
+      "speciesPublication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "voidrunner-axon-tovin-breakwire",
+      "role": "Independent salvage scout",
+      "motive": "Bring a stranded salvage crew home before their claim company seals the wreck.",
+      "hook": "Tovin offers a share of his claim to anyone who will help him cross a failing airlock to the stranded crew."
+    },
+    {
+      "name": "Iri Vale",
+      "species": "Grey",
+      "speciesPublication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "voidrunner-grey-iri-vale",
+      "role": "Neutral interpreter on a station delegation",
+      "motive": "Get both delegations out alive if the talks collapse.",
+      "hook": "Iri asks the party to identify why the other delegation’s technician is so frightened by a routine airlock inspection."
+    },
+    {
+      "name": "Sorel Wellglass",
+      "species": "Houseki",
+      "speciesPublication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "voidrunner-houseki-sorel-wellglass",
+      "role": "Belter engineer and former miner",
+      "motive": "Find the source of the false pressure readings before the shift starts.",
+      "hook": "Sorel has tagged three valves with matching readings. Only one is connected to the occupied shaft."
+    },
+    {
+      "name": "Dara Hitch",
+      "species": "Hurroc",
+      "speciesPublication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "voidrunner-hurroc-dara-hitch",
+      "role": "Convoy defense and first aid",
+      "motive": "Get a relief shipment through the toll blockade without civilian casualties.",
+      "hook": "Dara asks the party to stand with her at the checkpoint while she treats the injured driver."
+    }
+  ]
+}

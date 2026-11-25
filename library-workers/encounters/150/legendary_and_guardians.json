@@ -1,0 +1,461 @@
+[
+  {
+    "name": "Androsphinx",
+    "statBlock": {
+      "name": "Androsphinx",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, lawful neutral",
+      "ac": 17,
+      "hp": 199,
+      "hitDice": "19d10 + 95",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "17",
+      "xp": 18000,
+      "description": "A winged guardian watches over divine secrets and challenges those who seek them.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "skills": {
+        "Arcana": 9,
+        "Perception": 10,
+        "Religion": 15
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 11,
+        "Int": 9,
+        "Wis": 10
+      },
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Charmed, Frightened.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Sphinx.",
+        "Traits": "Inscrutable. Effects cannot read the sphinx's thoughts or sense its emotions. It can refuse any divination spell and is immune to that spell if it does. Wisdom (Insight) checks to judge its intentions or sincerity have disadvantage.\nMagic Weapons. Its weapon attacks are magical.\nDivine Vigil. The sphinx needs neither sleep nor food while it keeps watch.",
+        "Legendary actions": "The sphinx has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at the end of another creature's turn. It can pass, and it cannot act while Incapacitated or otherwise unable to take actions. If surprised, it must finish its first turn before using these options.\nClaw Attack. Make one Claw attack.\nTeleport (2 actions). Magically teleport up to 120 ft. to a visible, unoccupied space. Worn and carried equipment goes along.\nCast a Spell (3 actions). Cast one of its prepared spells and spend a spell slot as usual.",
+        "Lair actions": "On initiative count 20, losing ties, choose one magical effect. Each option is available once per short or long rest. The sphinx cannot use its lair actions while outside its lair, Incapacitated, or otherwise unable to take actions. If surprised, it must finish its first turn before using an option.\nReroll initiative. Every creature in the lair rolls initiative again. The sphinx may keep its current roll.\nChange age. Each creature in the lair makes a DC 15 Constitution save. On a failure, it ages or grows younger by 1d20 years, as the sphinx chooses. No creature becomes younger than 1 year old. Greater Restoration can return a creature to its normal age.\nShift time. Move everything in the lair up to 10 years ahead or back, as the sphinx chooses. The sphinx alone notices the change immediately. Wish can restore its caster and up to seven creatures the caster designates to their normal time.\nShift planes. Move the sphinx and up to seven other creatures it can see in the lair to another plane. On its turn, the sphinx can return to its lair as a bonus action and take up to seven creatures with it.",
+        "Damage immunities": "Psychic. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Spellcasting": "12th-level cleric. Wisdom is the spellcasting ability, with save DC 18 and +10 to hit. It requires no material components.\nCantrips, at will. Sacred Flame, Spare the Dying, Thaumaturgy.\n1st level, 4 slots. Command, Detect Evil and Good, Detect Magic.\n2nd level, 3 slots. Lesser Restoration, Zone of Truth.\n3rd level, 3 slots. Dispel Magic, Tongues.\n4th level, 3 slots. Banishment, Freedom of Movement.\n5th level, 2 slots. Flame Strike, Greater Restoration.\n6th level, 1 slot. Heroes' Feast.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +12 to hit, reach 5 ft., one target. Hit 17 (2d10 + 6) slashing damage.\nRoar (3/day). Each creature within 500 ft. that can hear this magical roar makes the save for its place in the sequence. Count roars since the sphinx's last long rest.\nFirst roar. Make a DC 18 Wisdom save. On a failure, the creature is Frightened for 1 minute. It can repeat the save at the end of each of its turns and end the effect on a success.\nSecond roar. Make a DC 18 Wisdom save. On a failure, the creature is Deafened and Frightened for 1 minute. It is Paralyzed while Frightened this way and can repeat the save at the end of each of its turns to end the effect.\nThird roar. Make a DC 18 Constitution save. On a failure, the creature takes 44 (8d10) thunder damage and falls Prone. On a success, it takes half damage and stays upright.",
+        "Printed source": "Monster Manual (2014), pp. 280–281. Legendary and lair action timing and immunity wording follow the official errata."
+      }
+    }
+  },
+  {
+    "name": "Gynosphinx",
+    "statBlock": {
+      "name": "Gynosphinx",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, lawful neutral",
+      "ac": 17,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "11",
+      "xp": 7200,
+      "description": "A sphinx that guards divine knowledge with riddles and may trade what she knows for treasure or service.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "skills": {
+        "Arcana": 12,
+        "History": 12,
+        "Perception": 8,
+        "Religion": 8
+      },
+      "savingThrows": {},
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Charmed, Frightened.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Sphinx.",
+        "Traits": "Inscrutable. Effects cannot read the sphinx's thoughts or sense its emotions. It can refuse any divination spell and is immune to that spell if it does. Wisdom (Insight) checks to judge its intentions or sincerity have disadvantage.\nMagic Weapons. Its weapon attacks are magical.\nDivine Vigil. The sphinx needs neither sleep nor food while it keeps watch.",
+        "Legendary actions": "The sphinx has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at the end of another creature's turn. It can pass, and it cannot act while Incapacitated or otherwise unable to take actions. If surprised, it must finish its first turn before using these options.\nClaw Attack. Make one Claw attack.\nTeleport (2 actions). Magically teleport up to 120 ft. to a visible, unoccupied space. Worn and carried equipment goes along.\nCast a Spell (3 actions). Cast one of its prepared spells and spend a spell slot as usual.",
+        "Lair actions": "On initiative count 20, losing ties, choose one magical effect. Each option is available once per short or long rest. The sphinx cannot use its lair actions while outside its lair, Incapacitated, or otherwise unable to take actions. If surprised, it must finish its first turn before using an option.\nReroll initiative. Every creature in the lair rolls initiative again. The sphinx may keep its current roll.\nChange age. Each creature in the lair makes a DC 15 Constitution save. On a failure, it ages or grows younger by 1d20 years, as the sphinx chooses. No creature becomes younger than 1 year old. Greater Restoration can return a creature to its normal age.\nShift time. Move everything in the lair up to 10 years ahead or back, as the sphinx chooses. The sphinx alone notices the change immediately. Wish can restore its caster and up to seven creatures the caster designates to their normal time.\nShift planes. Move the sphinx and up to seven other creatures it can see in the lair to another plane. On its turn, the sphinx can return to its lair as a bonus action and take up to seven creatures with it.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Psychic.",
+        "Spellcasting": "9th-level wizard. Intelligence is the spellcasting ability, with save DC 16 and +8 to hit. It requires no material components.\nCantrips, at will. Mage Hand, Minor Illusion, Prestidigitation.\n1st level, 4 slots. Detect Magic, Identify, Shield.\n2nd level, 3 slots. Darkness, Locate Object, Suggestion.\n3rd level, 3 slots. Dispel Magic, Remove Curse, Tongues.\n4th level, 3 slots. Banishment, Greater Invisibility.\n5th level, 1 slot. Legend Lore.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) slashing damage.",
+        "Printed source": "Monster Manual (2014), pp. 280 and 282. Skills, passive Perception, spellcasting, Claw, Teleport, resistance wording, and legendary and lair action timing follow the official errata."
+      }
+    }
+  },
+  {
+    "name": "Guardian Naga",
+    "statBlock": {
+      "name": "Guardian Naga",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, lawful good",
+      "ac": 18,
+      "hp": 127,
+      "hitDice": "15d10 + 45",
+      "speed": "40 ft.",
+      "cr": "10",
+      "xp": 5900,
+      "description": "An immortal serpent protects sacred sites and magical relics, usually warning intruders before attacking.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 7,
+        "Int": 7,
+        "Wis": 8,
+        "Cha": 8
+      },
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Rejuvenation. After dying, the naga returns to life with full HP in 1d6 days. Only Wish can stop this trait.\nImmortal Nature. Nagas need no air, food, drink, or sleep.",
+        "Languages": "Celestial, Common.",
+        "Spellcasting": "11th-level cleric. Wisdom is the spellcasting ability, with save DC 16 and +8 to hit. Only verbal components are needed.\nCantrips, at will. Mending, Sacred Flame, Thaumaturgy.\n1st level, 4 slots. Command, Cure Wounds, Shield of Faith.\n2nd level, 3 slots. Calm Emotions, Hold Person.\n3rd level, 3 slots. Bestow Curse, Clairvoyance.\n4th level, 3 slots. Banishment, Freedom of Movement.\n5th level, 2 slots. Flame Strike, Geas.\n6th level, 1 slot. True Seeing.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 10 ft., one creature. Hit 8 (1d8 + 4) piercing damage. The target makes a DC 15 Constitution save, taking 45 (10d8) poison damage on a failure or half damage on a success.\nSpit Poison. Ranged weapon attack, +8 to hit, range 15/30 ft., one creature. On a hit, the target makes a DC 15 Constitution save, taking 45 (10d8) poison damage on a failure or half damage on a success.",
+        "Printed source": "Monster Manual (2014), pp. 233–234."
+      }
+    }
+  },
+  {
+    "name": "Spirit Naga",
+    "statBlock": {
+      "name": "Spirit Naga",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 15,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "40 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "description": "A cave-dwelling serpent works on new spells and uses enchantment to draw prey within reach.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 5,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Rejuvenation. After dying, the naga returns to life with full HP in 1d6 days. Only Wish can stop this trait.\nImmortal Nature. Nagas need no air, food, drink, or sleep.",
+        "Languages": "Abyssal, Common.",
+        "Spellcasting": "10th-level wizard. Intelligence is the spellcasting ability, with save DC 14 and +6 to hit. Only verbal components are needed.\nCantrips, at will. Mage Hand, Minor Illusion, Ray of Frost.\n1st level, 4 slots. Charm Person, Detect Magic, Sleep.\n2nd level, 3 slots. Detect Thoughts, Hold Person.\n3rd level, 3 slots. Lightning Bolt, Water Breathing.\n4th level, 3 slots. Blight, Dimension Door.\n5th level, 2 slots. Dominate Person.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 10 ft., one creature. Hit 7 (1d6 + 4) piercing damage. The target makes a DC 13 Constitution save, taking 31 (7d8) poison damage on a failure or half damage on a success.",
+        "Printed source": "Monster Manual (2014), pp. 233–234."
+      }
+    }
+  },
+  {
+    "name": "Couatl",
+    "statBlock": {
+      "name": "Couatl",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium celestial, lawful good",
+      "ac": 19,
+      "hp": 97,
+      "hitDice": "13d8 + 39",
+      "speed": "30 ft., fly 90 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "description": "A winged serpent keeps an ancient charge in secret and may appear in another shape to guide those it protects.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Con": 5,
+        "Wis": 7,
+        "Cha": 6
+      },
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Radiant.",
+        "Damage immunities": "Psychic. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages. Telepathy 120 ft.",
+        "Traits": "Magic Weapons. Its weapon attacks are magical.\nShielded Mind. The couatl is immune to scrying and to effects that sense its emotions, read its thoughts, or find its location.\nTruth Tellers. A couatl can omit details, but cannot lie.",
+        "Innate spellcasting": "Charisma is the spellcasting ability, with save DC 14. Spells require only verbal components.\nAt will. Detect Evil and Good, Detect Magic, Detect Thoughts.\n3/day each. Bless, Create Food and Water, Cure Wounds, Lesser Restoration, Protection from Poison, Sanctuary, Shield.\n1/day each. Dream, Greater Restoration, Scrying.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 5 ft., one creature. Hit 8 (1d6 + 5) piercing damage. The target must pass a DC 13 Constitution save or be Poisoned for 24 hours. It becomes Unconscious while the poison lasts. Another creature can use an action to shake it awake.\nConstrict. Melee weapon attack, +6 to hit, reach 10 ft., one Medium or smaller creature. Hit 10 (2d6 + 3) bludgeoning damage and Grapple the target, escape DC 15. The target is Restrained during the grapple, and the couatl cannot constrict another target until this grapple ends.\nChange Shape. Magically take the form of a Beast or Humanoid whose CR is no higher than the couatl's, or return to its true form. It reverts to its true form on death. It chooses whether the new form absorbs its equipment or wears or carries it. It keeps its statistics and speech except for AC, movement modes, Strength, Dexterity, and its other actions, which come from the new form. It also gains statistics and capabilities it lacks, excluding class features, legendary actions, lair actions, and regional effects. If the form has a bite attack, the couatl can use its own Bite while in that form.",
+        "Printed source": "Monster Manual (2014), p. 43. Immunity wording and the limits on gaining a legendary form's abilities follow the official errata."
+      }
+    }
+  },
+  {
+    "name": "Dragon Turtle",
+    "statBlock": {
+      "name": "Dragon Turtle",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan dragon, neutral",
+      "ac": 20,
+      "hp": 341,
+      "hitDice": "22d20 + 110",
+      "speed": "20 ft., swim 40 ft.",
+      "cr": "17",
+      "xp": 18000,
+      "description": "This ocean dragon hoards treasure from wrecks and may bargain with sailors for safe passage.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 11,
+        "Wis": 7
+      },
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Fire.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Aquan, Draconic.",
+        "Traits": "Amphibious. It breathes both air and water.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks. It can replace the two Claw attacks with one Tail attack.\nBite. Melee weapon attack, +13 to hit, reach 15 ft., one target. Hit 26 (3d12 + 7) piercing damage.\nClaw. Melee weapon attack, +13 to hit, reach 10 ft., one target. Hit 16 (2d8 + 7) slashing damage.\nTail. Melee weapon attack, +13 to hit, reach 15 ft., one target. Hit 26 (3d12 + 7) bludgeoning damage. A creature hit must pass a DC 20 Strength save or be pushed up to 10 ft. away and fall Prone.\nSteam Breath (recharge 5–6). Creatures in a 60-ft. cone make a DC 18 Constitution save. On a failure they take 52 (15d6) fire damage. On a success they take half damage. Being underwater gives no resistance against this damage.",
+        "Printed source": "Monster Manual (2014), p. 119. Saving throws and weapon attack bonuses follow the official errata."
+      }
+    }
+  },
+  {
+    "name": "Hydra",
+    "statBlock": {
+      "name": "Hydra",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge monstrosity, unaligned",
+      "ac": 15,
+      "hp": 172,
+      "hitDice": "15d12 + 75",
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "description": "A many-headed swamp predator grows new heads when its wounds escape burning.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "savingThrows": {},
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Hold Breath. It can hold its breath for 1 hour.\nMultiple Heads. It starts with five heads. While it has more than one, it has advantage on saves against being Blinded, Charmed, Deafened, Frightened, Stunned, or knocked Unconscious. Whenever it takes at least 25 total damage in one turn, one head dies. It dies if it loses all its heads. At the end of its turn, it grows two heads for each one lost since its last turn, unless it took fire damage in that interval. It regains 10 HP per head regrown this way.\nReactive Heads. Beyond its first head, each head grants one extra reaction that it can use only for opportunity attacks.\nWakeful. At least one head remains awake when the hydra sleeps.",
+        "Actions": "Multiattack. Make one Bite attack for each head the hydra currently has.\nBite. Melee weapon attack, +8 to hit, reach 10 ft., one target. Hit 10 (1d10 + 5) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 190."
+      }
+    }
+  },
+  {
+    "name": "Purple Worm",
+    "statBlock": {
+      "name": "Purple Worm",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 18,
+      "hp": 247,
+      "hitDice": "15d20 + 90",
+      "speed": "50 ft., burrow 30 ft.",
+      "cr": "15",
+      "xp": 13000,
+      "description": "An enormous tunneler follows vibrations and can swallow prey whole.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Con": 11,
+        "Wis": 4
+      },
+      "passivePerception": 9,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., tremorsense 60 ft.",
+        "Languages": "None.",
+        "Traits": "Tunneler. The worm can bore through solid rock at half its burrow speed, leaving a tunnel 10 ft. wide.",
+        "Actions": "Multiattack. Make one Bite and one Tail Stinger attack.\nBite. Melee weapon attack, +14 to hit, reach 10 ft., one target. Hit 22 (3d8 + 9) piercing damage. A Large or smaller creature hit must pass a DC 19 Dexterity save or the worm swallows it. Inside, the creature is Blinded and Restrained, has total cover against attacks and effects from outside, and takes 21 (6d6) acid damage at the start of each of the worm's turns. If a creature inside deals at least 30 damage to the worm in one turn, the worm must pass a DC 21 Constitution save at that turn's end or regurgitate every swallowed creature. They fall Prone within 10 ft. of the worm. If the worm dies, swallowed creatures cease to be Restrained by it and can spend 20 ft. of movement to escape the corpse, emerging Prone.\nTail Stinger. Melee weapon attack, +14 to hit, reach 10 ft., one creature. Hit 19 (3d6 + 9) piercing damage. The target makes a DC 19 Constitution save, taking 42 (12d6) poison damage on a failure or half damage on a success.",
+        "Printed source": "Monster Manual (2014), p. 255. Bite and Tail Stinger attack bonuses follow the official errata."
+      }
+    }
+  }
+]

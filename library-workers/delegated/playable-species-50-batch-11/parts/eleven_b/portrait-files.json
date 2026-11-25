@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Black Bear",
+    "file": "portraits/black-bear.png",
+    "sha256": "59c4fa0796155081e74d915450a662d267e63b1ff0901c63c22d88ce3e8c466b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Boar",
+    "file": "portraits/boar.png",
+    "sha256": "b86da06981ae01e1f87403459fa65d275a5bc34506cea91f208a39269619a8a4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Camel",
+    "file": "portraits/camel.png",
+    "sha256": "45561785c3cadda84582b1155ecee176f4cadccff22371c9f4be2434ede91816",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Cat",
+    "file": "portraits/cat.png",
+    "sha256": "9b9fa46c70e76a77629d31260e5c1fe9d59f2bf5ae85f352a6de531d6147902b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Constrictor Snake",
+    "file": "portraits/constrictor-snake.png",
+    "sha256": "e9794d7e2566adf4c32ab47595308116cea1f7f6c58317dd6d10805c310ed6dc",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

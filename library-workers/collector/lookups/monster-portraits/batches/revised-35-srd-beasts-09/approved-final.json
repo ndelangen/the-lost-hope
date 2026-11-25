@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "riding-dog",
+    "name": "Riding Dog",
+    "entryId": "beast-fbbdf58b42669334ae0d7573",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One robust giant working dog modeled on a Saint Bernard, white chest and blaze, warm russet patches, dark eye mask, big pendant ears and powerful short legs and paws. It wears a sensibly small empty leather riding saddle seated properly just behind the shoulders on a dark olive quilted saddle pad and a simple chest strap, for a small fantasy rider. Show the full animal in alert three-quarter side view, standing facing left, its fluffy tail visible. Four attached paws, no person, rider, armor, text, barrel or equipment outside the animal.",
+    "prompt": "Create one square bestiary illustration. The FIRST reference sets the exact muted tan shop item parchment, a soft matte buff-beige handmade grain with restrained warm mottling. Do not reproduce the sword. The second reference shows the restrained animal rendering and muted paper to match. Following images are only for subject identity or anatomy. Finely drawn naturalistic colored pencil and ink detail, entire subject and its extremities comfortably in frame, with a faint diffuse shadow. No saturated orange or bright yellow color cast, border, lettering, scenery or watermark. One robust giant working dog modeled on a Saint Bernard, white chest and blaze, warm russet patches, dark eye mask, big pendant ears and powerful short legs and paws. It wears a sensibly small empty leather riding saddle seated properly just behind the shoulders on a dark olive quilted saddle pad and a simple chest strap, for a small fantasy rider. Show the full animal in alert three-quarter side view, standing facing left, its fluffy tail visible. Four attached paws, no person, rider, armor, text, barrel or equipment outside the animal.",
+    "appearanceSource": "Saint Bernard photograph by ZaGerald and related D&D Mastiff illustration"
+  },
+  {
+    "slug": "roc",
+    "name": "Roc",
+    "entryId": "beast-95199d6f9614f0ee7847afae",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One gigantic golden-brown eagle-like roc. Broad powerful feathered head and neck, deep amber eyes, large ebony-tipped curved beak, huge broad wings with separated extreme feathers, layered bronze and dark chocolate feathers, fanned tail and two sturdy golden talons poised below. Dynamic full body frontal three-quarter dive with asymmetrical broad wings, complete silhouette and generous margin around the fullest span. Its whole head is feathered like an eagle, no bald vulture head, no flames or extra wings. No lightning, sea, landscape, prey or other objects.",
+    "prompt": "Create one square bestiary illustration. The FIRST reference sets the exact muted tan shop item parchment, a soft matte buff-beige handmade grain with restrained warm mottling. Do not reproduce the sword. The second reference shows the restrained animal rendering and muted paper to match. Following images are only for subject identity or anatomy. Finely drawn naturalistic colored pencil and ink detail, entire subject and its extremities comfortably in frame, with a faint diffuse shadow. No saturated orange or bright yellow color cast, border, lettering, scenery or watermark. One gigantic golden-brown eagle-like roc. Broad powerful feathered head and neck, deep amber eyes, large ebony-tipped curved beak, huge broad wings with separated extreme feathers, layered bronze and dark chocolate feathers, fanned tail and two sturdy golden talons poised below. Dynamic full body frontal three-quarter dive with asymmetrical broad wings, complete silhouette and generous margin around the fullest span. Its whole head is feathered like an eagle, no bald vulture head, no flames or extra wings. No lightning, sea, landscape, prey or other objects.",
+    "appearanceSource": "Related D&D Roc illustrations from the 2014 and 2024 rules Monster Manuals, including Alejandro Pacheco's artwork"
+  },
+  {
+    "slug": "small-viper-snake",
+    "name": "Small Viper Snake",
+    "entryId": "beast-b0d6ad3ff0c46ddc5176705c",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One small slender ash-gray viper, pale silver-brown near belly and dark charcoal zigzag down its delicate body, little compact triangular head and dark amber eye. Full body on a simple open gently sinuous diagonal of one continuous animal, with the head near upper left, a gentle U curve toward the lower middle and one fine tip of a visibly thinning tail towards upper right. Keep only those two ends and no overlapping or ambiguous crossings. The head is alert and mouth closed. No rattle, cobra hood, extras, props or scene. Render small and graceful without reducing thumbnail legibility.",
+    "prompt": "Create one square bestiary illustration. The FIRST reference sets the exact muted tan shop item parchment, a soft matte buff-beige handmade grain with restrained warm mottling. Do not reproduce the sword. The second reference shows the restrained animal rendering and muted paper to match. Following images are only for subject identity or anatomy. Finely drawn naturalistic colored pencil and ink detail, entire subject and its extremities comfortably in frame, with a faint diffuse shadow. No saturated orange or bright yellow color cast, border, lettering, scenery or watermark. One small slender ash-gray viper, pale silver-brown near belly and dark charcoal zigzag down its delicate body, little compact triangular head and dark amber eye. Full body on a simple open gently sinuous diagonal of one continuous animal, with the head near upper left, a gentle U curve toward the lower middle and one fine tip of a visibly thinning tail towards upper right. Keep only those two ends and no overlapping or ambiguous crossings. The head is alert and mouth closed. No rattle, cobra hood, extras, props or scene. Render small and graceful without reducing thumbnail legibility.",
+    "appearanceSource": "Related D&D Poisonous Snake token and Swarm of Venomous Snakes illustration"
+  }
+]

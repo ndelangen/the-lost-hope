@@ -1,0 +1,291 @@
+[
+  {
+    "name": "Guthash",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 12,
+    "hp": 16,
+    "printedPage": 21,
+    "speed": "30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Darkvision 60 ft. Languages none.",
+    "appearance": "A swollen, six-foot female giant rat with coarse brown fur, pink ears and a bare tail.",
+    "habitats": [
+      "Sunless Citadel",
+      "Underground"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 21, The Sunless Citadel, area 30, Mama Rat. Base rules from Monster Manual (2014), Giant Rat, Diseased Giant Rat variant, p. 327.",
+      "Traits": "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell.\nPack Tactics. The rat has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) piercing damage. A creature hit this way contracts a disease on a failed DC 10 Constitution save. Until cured, the creature can regain HP only by magical means and its HP maximum decreases by 3 (1d6) every 24 hours. It dies if the disease reduces its HP maximum to 0.",
+      "Encounter": "Three other giant rats occupy the nest with Guthash. The giant rats of the citadel descend from her. The group attacks intruders."
+    },
+    "hitDice": ""
+  },
+  {
+    "name": "Huge Giant Crab",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "classification": "Huge beast, unaligned",
+    "ac": 15,
+    "hp": 161,
+    "printedPage": 103,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "passivePerception": 9,
+    "otherStatistics": "AC includes natural armor. Blindsight 30 ft. Languages none.",
+    "appearance": "A huge rust-brown crab with a spiny shell and two heavy claws. The adventure puts a copper band on one claw.",
+    "habitats": [
+      "White Plume Mountain",
+      "Boiling Bubble"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 103, White Plume Mountain, area 17, The Boiling Bubble. Base rules from Monster Manual (2014), Giant Crab, p. 324.",
+      "Traits": "Amphibious. Breathe air and water.\nA rune-covered copper band on one claw makes this crab immune to being charmed, frightened or paralyzed. The magic works only for this crab and the band has no treasure value.",
+      "Actions": "Claw. Melee weapon attack +9, reach 10 ft., one target. On a hit, deal 27 (4d10 + 5) bludgeoning damage and grapple the target (escape DC 14). Each of the two claws can hold only one target.",
+      "Encounter": "The crab guards the treasure and fights without striking the elastic skin. A piercing puncture creates a jet that deals 2 (1d4) fire damage when it first breaks through and to creatures that enter or start a turn in its space. The puncture does not seal. Major damage collapses the bubble in 1d6 rounds."
+    },
+    "hitDice": "14d12 + 70",
+    "skills": {
+      "Stealth": 4
+    }
+  },
+  {
+    "name": "Huge Polar Bear",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "classification": "Huge beast, unaligned",
+    "ac": 12,
+    "hp": 65,
+    "printedPage": 187,
+    "speed": "40 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "appearance": "A huge white bear with heavy shoulders, small ears and a black nose.",
+    "habitats": [
+      "Glacial Rift of the Frost Giant Jarl",
+      "Ice caves"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 187, Against the Giants, Glacial Rift lower level, area 17, Kennel Cave. Base rules from Monster Manual (2014), Polar Bear, p. 334.",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack +7, reach 5 ft., one target. On a hit, deal 9 (1d8 + 5) piercing damage.\nClaws. Melee weapon attack +7, reach 5 ft., one target. On a hit, deal 12 (2d6 + 5) slashing damage.",
+      "Encounter": "Four bears form the jarl's hunting pack. Each wears a jeweled collar worth 200 gp."
+    },
+    "hitDice": "",
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Snow Leopard",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "classification": "Large beast, unaligned",
+    "ac": 12,
+    "hp": 37,
+    "printedPage": 183,
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Darkvision 60 ft. Languages none.",
+    "appearance": "A pale gray snow leopard with charcoal rosettes, broad paws and a long, thick tail.",
+    "habitats": [
+      "Glacial Rift of the Frost Giant Jarl",
+      "Ice caves"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 183, Against the Giants, Glacial Rift upper level, area 15, Ice Cave. Base rules from Monster Manual (2014), Tiger, p. 339.",
+      "Traits": "Keen Smell. The leopard has advantage on Wisdom (Perception) checks that rely on smell.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claw on the same turn. On a failed DC 13 Strength save, it falls prone. If the target is prone, make one Bite attack against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 8 (1d10 + 3) piercing damage.\nClaw. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 7 (1d8 + 3) slashing damage.",
+      "Encounter": "Two snow leopards serve as pets of the yetis in area 13. They lair on a high ledge and try to surprise intruders."
+    },
+    "hitDice": "5d10 + 10",
+    "skills": {
+      "Perception": 3,
+      "Stealth": 6
+    }
+  },
+  {
+    "name": "Young Winter Wolf",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "classification": "Large beast, unaligned",
+    "ac": 14,
+    "hp": 37,
+    "printedPage": 181,
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "appearance": "A half-grown wolf with a dense snow-white coat, a bushy tail and pale blue eyes.",
+    "habitats": [
+      "Glacial Rift of the Frost Giant Jarl",
+      "Ice caves"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 181, Against the Giants, Glacial Rift upper level, area 4, Small Ice Cave. Base rules from Monster Manual (2014), Dire Wolf, p. 321.",
+      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) piercing damage. A creature hit this way falls prone on a failed DC 13 Strength save.",
+      "Encounter": "Three half-grown pups share a bone-strewn cave with two adult winter wolves. If the pups are harmed, the adults accept the risk of opportunity attacks and group up to kill quickly."
+    },
+    "hitDice": "5d10 + 10",
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    }
+  }
+]

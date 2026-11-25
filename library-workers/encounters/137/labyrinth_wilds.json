@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Ahu-Nixta",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 244–245",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Ahu-Nixta",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Aberration (Outsider)",
+      "ac": 14,
+      "hp": 72,
+      "speed": "30 ft., fly 30 ft. (hover), swim 30 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "modifier": 3
+        },
+        "Dex": {
+          "modifier": 2
+        },
+        "Con": {
+          "modifier": 2
+        },
+        "Int": {
+          "modifier": 6
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Clockwork armor. Perception 13, Stealth 12. Resistant to psychic damage, Exhaustion, Charmed, Frightened, Paralyzed, and Stunned. Immune to Prone. Darkvision 60 ft. Languages Deep Speech and Void Speech.",
+      "description": "A shapeless aberration travels between stars inside clockwork armor. Its quiet prayers fall into unison when others of its kind gather.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +2, Con +2, Int +6, Wis +1, Cha +0",
+        "Traits": "Aberrant Resilience. Resistance to Charmed, Frightened, Paralyzed, and Stunned. Advantage on saves against spells or effects that change its form.\nClockwork Armor. At 18 HP or fewer, its armor breaks and ejects it into the same space. Outside the armor its AC falls by 2, Str becomes +0, each speed drops by 15 ft., and Psychic Burst is its only attack option. Its flesh can form eyes, mouths, and appendages that manipulate objects and have no combat use. Opening or closing an armor port to handle objects outside takes no action. It can enter or exit the armor as a bonus action.\nTelekinetic Manipulation. As part of an action, manipulate or move an unworn, uncarried object weighing up to 150 lb. within 30 ft. Move it up to 30 ft. This otherwise follows Telekinesis with Intelligence and an indefinite duration.",
+        "Actions": "Multiattack. Make three melee attacks or three Psychic Burst attacks.\nWhirring Blades. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 8 (2d4 + 3) slashing damage.\nPronged Scepter. Melee weapon attack, +5 to hit, reach 10 ft., one target. Hit 10 (2d6 + 3) piercing damage.\nBashing Rod. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 8 (1d10 + 3) bludgeoning damage.\nPsychic Burst. Melee or ranged spell attack, +6 to hit, reach 5 ft. or range 60 ft., one creature. Hit 8 (1d8 + 4) psychic damage.",
+        "Bonus Actions": "Frightening Murmurs. One creature the ahu-nixta can see within 30 ft. makes a DC 14 Charisma save. On failure it is Frightened until the end of its next turn.",
+        "Printed source": "Chapter 8, pp. 244–245"
+      }
+    }
+  },
+  {
+    "name": "Celebrun",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 252–253",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Celebrun",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Celestial (Outsider)",
+      "ac": 16,
+      "hp": 92,
+      "speed": "30 ft., fly 40 ft. (hover)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "modifier": 3
+        },
+        "Dex": {
+          "modifier": 7
+        },
+        "Con": {
+          "modifier": 2
+        },
+        "Int": {
+          "modifier": 1
+        },
+        "Wis": {
+          "modifier": 6
+        },
+        "Cha": {
+          "modifier": 3
+        }
+      },
+      "otherStatistics": "Studded leather. Perception 16, Stealth 17. Resistant to radiant damage and bludgeoning, piercing, and slashing damage from nonmagical attacks. Immune to Blinded. Darkvision 60 ft. Languages Celestial and Common. Telepathy 60 ft.",
+      "description": "Owl-eyed celestial bounty hunters judge whether the punishment a petitioner seeks fits the injury. A celebrun that takes a contract pursues its quarry with immortal patience.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +7, Con +2, Int +1, Wis +6, Cha +3",
+        "Traits": "Celestial Resilience. Resistance to radiant damage and bludgeoning, piercing, and slashing damage from nonmagical attacks.\nFlyby. Flying out of an enemy’s reach provokes no opportunity attack.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks count as magical.\nSeekers Sign. On hitting a creature with Talons or Golden Helm, the celebrun can mark it. It knows the target’s exact location whenever they share a plane. The mark ends when either dies or it marks a different creature.",
+        "Actions": "Multiattack. Make two Greatsword and one Talons attack, or two Golden Helm attacks.\nGreatsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing damage.\nTalons. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing plus 9 (2d8) radiant damage. A creature hit must pass a DC 14 Dexterity save or be Blinded until the end of its next turn.\nGolden Helm. Ranged weapon attack, +7 to hit, range 20/60 ft., one target. Hit 9 (2d4 + 4) slashing plus 9 (2d8) radiant damage.\nWhirling Wheel (recharge 5–6). Every creature within 10 ft. makes a DC 14 Dexterity save. Failure deals 14 (4d6) slashing plus 18 (4d8) radiant damage. Success halves both.",
+        "Bonus Actions": "Horn of Heaven. Choose a visible non-Celestial creature within 60 ft. that hears the horn. On a failed DC 14 Charisma save, golden light outlines it for 1 minute, negating the benefits of Invisible and granting advantage to attacks against it. Repeat the save at the end of each of its turns to end the effect.",
+        "Printed source": "Chapter 8, pp. 252–253"
+      }
+    }
+  },
+  {
+    "name": "Mucosette",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 271–272",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Mucosette",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Undead",
+      "ac": 13,
+      "hp": 25,
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "modifier": -3
+        },
+        "Dex": {
+          "modifier": 5
+        },
+        "Con": {
+          "modifier": 0
+        },
+        "Int": {
+          "modifier": -1
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Perception 12, Stealth 15. Resistant to cold, fire, lightning, thunder, and bludgeoning, piercing, and slashing damage from nonmagical attacks. Immune to acid, necrotic, and poison damage, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, and Unconscious. Darkvision 60 ft. Understands languages it knew in life and cannot speak.",
+      "description": "Arcane corruption can strand a poltergeist away from the Ethereal Plane. Its old memories fade as it takes on a dripping waxlike form and a taste for pranks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str -3, Dex +5, Con +0, Int -1, Wis +2, Cha -1",
+        "Traits": "Ethereal Sight. See 60 ft. into the Ethereal Plane from the Material Plane and vice versa.\nIncorporeal Movement. Move through creatures and objects as difficult terrain. Ending a turn inside an object deals 5 (1d10) force damage to the mucosette.\nUndead Nature. Needs no air, food, drink, or sleep.\nUndead Resilience. Immune to poison damage, Exhaustion, and Poisoned.",
+        "Actions": "Corrosive Slam. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) bludgeoning plus 7 (2d6) acid damage.\nSlime Rocket. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. Hit 12 (2d8 + 3) acid damage. A creature hit must pass a DC 13 Dexterity save or be Restrained until the end of its next turn.",
+        "Bonus Actions": "Slime Trail. Move up to 20 ft. in a straight line, passing through creatures’ spaces without provoking opportunity attacks. Each space along the line stays slimy until the start of the mucosette’s next turn. A creature moving through one of those spaces or starting its turn there falls Prone unless it passes a DC 13 Dexterity save.",
+        "Reactions": "Gooey Weapon. When a visible creature within 10 ft. hits it with a melee weapon attack, coat the weapon with slime. After damage, the attacker drops its weapon unless it passes a DC 13 Dexterity save.",
+        "Printed source": "Chapter 8, pp. 271–272"
+      }
+    }
+  },
+  {
+    "name": "Portal Eater",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 272–273",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Portal Eater",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Monstrosity",
+      "ac": 16,
+      "hp": 136,
+      "speed": "50 ft., climb 40 ft.",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "modifier": 4
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": -3
+        },
+        "Wis": {
+          "modifier": 7
+        },
+        "Cha": {
+          "modifier": -2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 17, Stealth 13. Resistant to force damage, Exhaustion, Frightened, and Prone. Darkvision 60 ft. Language Abyssal.",
+      "description": "This six-legged predator nests where magic is plentiful. Void cultists lure one to a new gateway to attack travelers, knowing its feeding can destabilize the crossing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +0, Con +3, Int -3, Wis +7, Cha -2",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMonstrosity Resilience. Resistance to Exhaustion and Frightened.\nSense Magic. Detect and locate magic within 120 ft. A visible creature or object bearing detectable magic appears outlined by a faint aura.\nShimmering Sail. The sail shimmers within 120 ft. of a magic source. A creature starting its turn within 30 ft. that can see the sail makes a DC 15 Charisma save. On failure it is mesmerized until the start of its next turn. While mesmerized, its speed is halved and it has disadvantage on attack rolls and sight-based Wisdom (Perception) checks. Unless Surprised, a creature can avert its eyes at the start of its turn to avoid the save. It cannot see the portal eater until the start of its next turn. Looking at it before then triggers the save immediately.",
+        "Actions": "Multiattack. Make one Gore and two Claw attacks, or three Force Bolt attacks.\nClaw. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 17 (3d8 + 4) slashing damage.\nGore. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 18 (4d6 + 4) piercing damage.\nForce Bolt. Ranged spell attack, +7 to hit, range 60 ft., one target. Hit 17 (3d8 + 4) force damage.",
+        "Bonus Actions": "Consume Magic (recharge 4–6). Choose a visible spellcaster or magic item within 30 ft. Exclude sentient items and artifacts. A spellcaster loses a slot of the highest circle it can cast unless it passes a DC 15 Charisma save. An item loses 2 (1d4) charges or cannot be activated until it recharges or 24 hours pass, whichever comes first. After draining a target, the portal eater gains 5 temporary HP per circle of the slot or per charge lost, with a minimum of 5 temporary HP.",
+        "Printed source": "Chapter 8, pp. 272–273"
+      }
+    }
+  },
+  {
+    "name": "Satakree",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 277",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Satakree",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 14,
+      "hp": 48,
+      "speed": "30 ft.",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "modifier": 6
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": -3
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 12, Stealth 10. Resistant to necrotic damage and to Blinded, Charmed, Deafened, Frightened, Stunned, and Unconscious. Darkvision 60 ft. Language Void Speech.",
+      "description": "A chitin-plated shock trooper bred by the satarre. Each brood obeys the officer it imprinted on at hatching and may lash out indiscriminately if that officer dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +6, Dex +0, Con +3, Int -3, Wis +2, Cha -1",
+        "Traits": "Void Strength. Resistance to Blinded, Charmed, Deafened, Frightened, Stunned, and Unconscious.\nVoid Weapons. Its weapon attacks count as magical and deal an additional 1d6 necrotic damage, already included below.",
+        "Actions": "Multiattack. Make two Claw or Necrotic Bolt attacks.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) piercing plus 3 (1d6) necrotic damage.\nGreataxe. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 17 (2d12 + 4) slashing plus 3 (1d6) necrotic damage.\nNecrotic Bolt. Ranged spell attack, +4 to hit, range 60 ft., one target. Hit 9 (2d6 + 2) necrotic damage.",
+        "Bonus Actions": "Feral Strike (27 HP or fewer). Move up to half speed and make one Claw attack against a visible creature within reach.",
+        "Reactions": "Force Armor. While conscious, gain +2 AC against a melee attack that would otherwise hit.",
+        "Printed source": "Chapter 8, p. 277"
+      }
+    }
+  },
+  {
+    "name": "Tollinvardo",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 280–281",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Tollinvardo",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fey (Void)",
+      "ac": 14,
+      "hp": 81,
+      "speed": "30 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "modifier": 3
+        },
+        "Dex": {
+          "modifier": 2
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": 1
+        },
+        "Wis": {
+          "modifier": 3
+        },
+        "Cha": {
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Ring Shield. Perception 13, Stealth 14. Vulnerable to radiant, slashing, and thunder damage. Resistant to bludgeoning and necrotic damage, Charmed, and Unconscious. Darkvision 60 ft. Languages Common and Void Speech. Telepathy 60 ft.",
+      "description": "The Void hollows out this fey until little remains but ribbonlike skin. A metal ring bound to the creature shields it and conducts the energy inside it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +2, Con +3, Int +1, Wis +3, Cha +4",
+        "Traits": "Fey Resilience. Resistance to Charmed and Unconscious.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nRing Shield. The bound ring works as a standard shield. If dropped or taken, it teleports back at the start of the tollinvardo’s next turn. When the tollinvardo dies, the ring is destroyed in a burst of sparks. Each creature within 10 ft. of the ring must pass a DC 14 Dexterity save or be Blinded until the end of its next turn.",
+        "Actions": "Multiattack. Use Ring Shield, then make two Voidstaff attacks.\nVoidstaff. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) bludgeoning plus 4 (1d8) necrotic damage.\nRing Shield. Throw the ring at up to two visible creatures within 60 ft. before it vanishes and returns. Each makes a DC 14 Dexterity save, taking 7 (2d6) necrotic damage on a failure or half on a success.",
+        "Bonus Actions": "Glimpse Between. One visible creature within 10 ft. must pass a DC 14 Wisdom save or be Frightened until the end of its next turn.\nRestrictive Shroud. One visible creature within 60 ft. makes a DC 14 Strength save. Failure halves its speed and imposes disadvantage on attack rolls and Strength and Dexterity checks and saves for 1 minute. Repeat the save at the end of each of its turns to end the effect. The tollinvardo can bind only one creature at a time.",
+        "Reactions": "Unravel. When a source the tollinvardo can see damages it, it can unravel into strands to halve the damage.",
+        "Printed source": "Chapter 8, pp. 280–281"
+      }
+    }
+  },
+  {
+    "name": "Trail Snail",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 281–282",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Trail Snail",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Monstrosity",
+      "ac": 14,
+      "hp": 54,
+      "speed": "20 ft., climb 20 ft.",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "modifier": 3
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": -3
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 11, Stealth 10. Resistant to Exhaustion and Frightened. Immune to force damage. Keensense 60 ft. No languages.",
+      "description": "An opalescent snail chews through barriers and leaves false paths in the Labyrinth. Skilled handlers sometimes train one as a mount for passing through magical wards.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +0, Con +3, Int -3, Wis +1, Cha -1",
+        "Traits": "Dispelling Slime. When the snail deals force damage to a creature under a magical effect, there is a 25% chance to end that effect as Dispel Magic without an ability check. Standing on or chewing a magic item other than an artifact for 1 minute gives a 10% chance of suppressing the item’s magic for 24 hours, disabling activation. A sentient item keeps its awareness and normal means of communication.\nMonstrosity Resilience. Resistance to Exhaustion and Frightened.\nRainbow Ward. A creature within 30 ft. that relies on sight has disadvantage on attack rolls against the snail.\nPath Maker. At the end of its turn, the snail can deal 9 (2d8) force damage to an object or structure sharing its space, ignoring any damage threshold. Magical barriers such as Wall of Force count as difficult terrain for it. It suffers no other penalties from moving through or starting its turn in a magical barrier’s space.",
+        "Actions": "Multiattack. Make two Slam or Force Spit attacks.\nSlam. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) bludgeoning plus 4 (1d8) force damage.\nForce Spit. Ranged weapon attack, +2 to hit, range 30/120 ft., one target. Hit 9 (2d8) force damage.",
+        "Reactions": "Energy Absorption. When the snail takes acid, cold, fire, lightning, or thunder damage, it can halve it and deal force damage equal to the resulting amount to each creature it chooses within 5 ft.",
+        "Printed source": "Chapter 8, pp. 281–282"
+      }
+    }
+  },
+  {
+    "name": "Ripper",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 276",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Ripper",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Aberration (Void)",
+      "ac": 17,
+      "hp": 193,
+      "speed": "30 ft.",
+      "cr": "10",
+      "abilities": {
+        "Str": {
+          "modifier": 8
+        },
+        "Dex": {
+          "modifier": 3
+        },
+        "Con": {
+          "modifier": 5
+        },
+        "Int": {
+          "modifier": 3
+        },
+        "Wis": {
+          "modifier": 7
+        },
+        "Cha": {
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 17, Stealth 13. Resistant to necrotic damage and to Charmed, Frightened, Paralyzed, and Stunned. Darkvision 60 ft. Languages Common and Void Speech.",
+      "description": "A Void predator opens unstable rifts with its oversized claws. It looks for vulnerable worlds and may open a rift for someone whose aims it shares.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +8, Dex +3, Con +5, Int +3, Wis +7, Cha +2",
+        "Traits": "Aberrant Resilience. Resistance to Charmed, Frightened, Paralyzed, and Stunned. Advantage on saves against spells or effects that change its form.",
+        "Actions": "Multiattack. Make three Void Claw or four Void Bolt attacks. Replace two attacks with Black Gate if it is available. After two Void Claw hits on the same creature, it has disadvantage on its next save against this ripper’s Black Gate within 1 minute.\nVoid Claw. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) piercing plus 10 (3d6) necrotic damage. A Medium or smaller creature is Grappled (escape DC 16). Each of the two claws can hold one target.\nVoid Bolt. Ranged spell attack, +7 to hit, range 60 ft., one target. Hit 17 (4d6 + 3) necrotic damage.\nBlack Gate (recharge 6). Open a rift in an unoccupied visible space within 120 ft. It lasts 1 minute or until the ripper dies or spends an action closing it. Any other creature starting its turn within 20 ft. must pass a DC 16 Strength save or be drawn into a Void demiplane. A banished creature can spend its action to make a DC 16 Intelligence save. On success it reappears in an unoccupied space within 5 ft. of the gate.",
+        "Bonus Actions": "Reality Skip. The ripper teleports itself or one visible creature within 30 ft., along with worn or carried equipment, up to 30 ft. to an unoccupied space the ripper can see. An unwilling target can avoid this with a DC 16 Wisdom save.",
+        "Printed source": "Chapter 8, p. 276"
+      }
+    }
+  }
+]

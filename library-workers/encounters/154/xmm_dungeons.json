@@ -1,0 +1,376 @@
+[
+  {
+    "name": "Carrion Crawler",
+    "statBlock": {
+      "name": "Carrion Crawler",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 66,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 51,
+      "hitDice": "6d10 + 18",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "skills": {
+        "Perception": 5
+      },
+      "description": "A segmented scavenger that clings to ceilings above carrion. It uses the tentacles around its jaws to paralyze prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Spider Climb. The crawler needs no ability check to cross difficult climbing surfaces or move along ceilings.",
+        "Actions": "Multiattack. Use Paralyzing Tentacles once and make one Bite attack.\nBite. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 7 (2d4 + 2) piercing damage plus 3 (1d6) poison damage.\nParalyzing Tentacles. Choose one visible creature within 10 ft. It makes a DC 12 Constitution save. On a failure, the creature is Poisoned and remains Paralyzed while this Poisoned condition lasts. It repeats the save at the end of each of its turns, ending the effect on a success. The save automatically succeeds after 1 minute.",
+        "Habitats": "Underdark, Urban.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 66."
+      }
+    }
+  },
+  {
+    "name": "Displacer Beast",
+    "statBlock": {
+      "name": "Displacer Beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 98,
+      "classification": "Large monstrosity, lawful evil",
+      "ac": 13,
+      "hp": 76,
+      "hitDice": "9d10 + 27",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A six-legged feline stalker with a barbed tentacle at each shoulder. Its projected image makes enemies strike at the wrong spot.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Sylvan and cannot speak.",
+        "Traits": "Avoidance. If an effect normally deals half damage on a successful save, the beast takes no damage on a success and half on a failure. The trait is inactive while the beast is Incapacitated.\nDisplacement. Its projected image gives attacks against it Disadvantage. The trait is inactive while the beast is Incapacitated.",
+        "Actions": "Multiattack. Make one Rend and one Tentacle attack.\nRend. Melee attack, +6 to hit, reach 5 ft. On a hit, deal 9 (1d10 + 4) slashing damage. A Large or smaller creature hit by Rend falls Prone.\nTentacle. Melee attack, +6 to hit, reach 10 ft. On a hit, deal 11 (2d6 + 4) piercing damage.",
+        "Habitats": "Forest.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 98."
+      }
+    }
+  },
+  {
+    "name": "Hook Horror",
+    "statBlock": {
+      "name": "Hook Horror",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 173,
+      "classification": "Large monstrosity, neutral",
+      "ac": 15,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "savingThrows": {
+        "Con": 4
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "description": "A beaked Underdark predator with hooked forelimbs. It uses echoes to navigate caves and crosses ceilings in search of food.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Hook Horror.",
+        "Actions": "Multiattack. Make two Hook attacks.\nHook. Melee attack, +6 to hit, reach 10 ft. On a hit, deal 11 (2d6 + 4) piercing damage. If the target is a Large or smaller creature, move it 5 ft. straight toward or away from the hook horror.",
+        "Habitats": "Underdark.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 173."
+      }
+    }
+  },
+  {
+    "name": "Grick",
+    "statBlock": {
+      "name": "Grick",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 158,
+      "classification": "Medium aberration, unaligned",
+      "ac": 14,
+      "hp": 54,
+      "hitDice": "12d8",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "skills": {
+        "Stealth": 4
+      },
+      "description": "A solitary hunter whose four tentacles seize prey and draw it close to a hard beak.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Actions": "Multiattack. Make one Beak and one Tentacles attack.\nBeak. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 9 (2d6 + 2) piercing damage.\nTentacles. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 7 (1d10 + 2) slashing damage. A Medium or smaller creature hit by the attack is Grappled by all four tentacles, escape DC 12.",
+        "Habitats": "Forest, Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 158."
+      }
+    }
+  },
+  {
+    "name": "Phase Spider",
+    "statBlock": {
+      "name": "Phase Spider",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 239,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "7d10 + 7",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "skills": {
+        "Stealth": 7
+      },
+      "description": "A horse-sized Ethereal Plane spider that watches the Material Plane for prey and shifts across to attack.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Ethereal Sight. It sees up to 60 ft. into the Ethereal Plane from the Material Plane and up to 60 ft. into the Material Plane from the Ethereal Plane.\nSpider Climb. It can cross difficult climbing surfaces and move along ceilings without an ability check.\nWeb Walker. Webs impose no movement restrictions on the spider. It knows the location of any other creature touching the same web.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 8 (1d10 + 3) piercing damage plus 9 (2d8) poison damage. If the Bite damage drops the target to 0 HP, the target becomes Stable and is Poisoned for 1 hour. It is also Paralyzed while this Poisoned condition lasts.",
+        "Bonus actions": "Ethereal Jaunt. Teleport to the Ethereal Plane from the Material Plane or to the Material Plane from the Ethereal Plane.",
+        "Habitats": "Desert, Forest, Grassland, Hill, Planar (Ethereal Plane), Underdark, Urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 239."
+      }
+    }
+  },
+  {
+    "name": "Roper",
+    "statBlock": {
+      "name": "Roper",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 262,
+      "classification": "Large aberration, neutral evil",
+      "ac": 20,
+      "hp": 93,
+      "hitDice": "11d10 + 33",
+      "speed": "10 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 16,
+      "skills": {
+        "Perception": 6,
+        "Stealth": 5
+      },
+      "description": "A subterranean hunter that looks like a rock formation. It uses long tentacles to reel creatures into biting range.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Spider Climb. The roper climbs difficult surfaces and traverses ceilings without an ability check.",
+        "Actions": "Multiattack. Make two Tentacle attacks, use Reel, and make two Bite attacks.\nBite. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 17 (3d8 + 4) piercing damage.\nTentacle. Melee attack, +7 to hit, reach 60 ft. On a hit, one of its six tentacles Grapples the target, escape DC 14. The target is Poisoned until the grapple ends. Each tentacle has AC 20, 10 HP, and immunity to poison and psychic damage. Damage to a tentacle does not harm the roper. Destroying a tentacle frees its captive. The tentacle regrows at the start of the roper's next turn.\nReel. Pull each creature the roper has Grappled up to 30 ft. straight toward it.",
+        "Roper hazards": "Roll 1d8 or choose a hazard for its ambush.\n1. A route that trips a trap.\n2. A cavern full of smoke or gas.\n3. A dead magic or wild magic zone.\n4. A creature's lair, where the prey may draw the occupant out.\n5. A nest of vermin.\n6. Brown mold or green slime.\n7. A pool of magma or boiling water.\n8. Razorvine or another dangerous plant.",
+        "Habitats": "Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 262."
+      }
+    }
+  },
+  {
+    "name": "Darkmantle",
+    "statBlock": {
+      "name": "Darkmantle",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 90,
+      "classification": "Small aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d6 + 5",
+      "speed": "10 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "skills": {
+        "Stealth": 3
+      },
+      "description": "This ceiling hunter resembles a stalactite until it drops and spreads its webbed tentacles over its prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Blindsight 60 ft.",
+        "Actions": "Crush. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 6 (1d6 + 3) bludgeoning damage and attach to the target. If the target is a Medium or smaller creature and the darkmantle had Advantage on the attack roll, it covers the target. The covered creature is Blinded and suffocates until the darkmantle detaches. While attached, the darkmantle can attack only the target and has Advantage on its attacks. Its Speed becomes 0, and bonuses cannot increase it. It moves with the target. A creature can take an action to detach the darkmantle from itself with a successful DC 13 Strength (Athletics) check. The darkmantle can spend 5 ft. of movement on its own turn to detach.\nDarkness Aura (1/day). Magical Darkness fills a 15-ft. Emanation centered on the darkmantle. The aura lasts for as long as it maintains Concentration, up to 10 minutes. Darkvision cannot see through the darkness, and no light can illuminate the area.",
+        "Suffocation hazard": "A creature suffocating under the darkmantle gains 1 level of Exhaustion at the end of each of its turns. Once it can breathe again, remove the levels it gained from suffocation.",
+        "Habitats": "Underdark.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 90. Suffocation follows the 2024 rules glossary."
+      }
+    }
+  }
+]

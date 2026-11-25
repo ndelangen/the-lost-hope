@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Changeling",
+    "slug": "changeling",
+    "caption": "Rem · Original Changeling NPC",
+    "id": "species-2d1d83250720679fb609f8fc:4dbc55abd304587b2e3bad7f",
+    "entry": "species-2d1d83250720679fb609f8fc",
+    "version": "4dbc55abd304587b2e3bad7f",
+    "suffix": "encounters-85/changeling.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-85/changeling.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-85/event-drafts/changeling-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 85 2026-11-24/event-drafts/changeling-event-v1.png",
+    "overrides": [],
+    "sha256": "6b7a4fb452519d165bbba8f62a95be55566eb19df8aaf6414ef276115a031f35",
+    "bytes": 1896876
+  }
+]

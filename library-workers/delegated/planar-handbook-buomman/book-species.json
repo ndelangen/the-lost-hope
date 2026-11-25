@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Buomman",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid. The Astral Plane is the Buomman homeland. The species entry gives the Extraplanar subtype when away from the Astral Plane. Land speed 30 ft. +2 Wisdom, −2 Charisma.",
+      "Low-light vision with twice the human range in dim light, retaining color and detail. +2 racial on Listen and Perform (sing).",
+      "The racial vow is against speech. A breach deals 1 Wisdom damage and applies −2 on attack rolls, saves, and checks for 24 hours. A further breach before expiry deals another point of Wisdom damage and extends the same penalty for another 24 hours.",
+      "Buommans speak Buommi as low ritual songs and understand Common. The vow allows Buommi singing. Bonus languages are Aquan, Githzerai, and Terran.",
+      "To cast a spell with a verbal component while keeping the vow, use Silent Spell or Nonverbal Spell. Silent Spell removes the verbal component using a slot one level higher and cannot modify Bard spells. Nonverbal Spell substitutes another sound, such as song, and still fails within magical silence. Spells without verbal components are unaffected by Nonverbal Spell.",
+      "Favored class Monk. LA +0. The playable profile adds no racial Hit Dice."
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+{
+  "builds": [
+    {
+      "id": "mmiii-skullcrusher-ogre-brann-gatewright",
+      "type": "Giant",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "title": "Dam guard with 8 giant HD",
+      "difficulty": "CR 5 as the racial-only printed benchmark. ECL 11 with level adjustment +3.",
+      "speed": "40 ft. base, 30 ft. in half-plate",
+      "senses": "Darkvision 60 ft., low-light vision",
+      "languages": "Common, Giant",
+      "ac": 20,
+      "hp": 76,
+      "hitDice": "8d8+40",
+      "initiative": 1,
+      "abilityScores": {
+        "STR": 28,
+        "DEX": 12,
+        "CON": 20,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 6
+      },
+      "skills": [
+        "Craft (stonemasonry) +7",
+        "Handle Animal +2",
+        "Knowledge (architecture and engineering) +4",
+        "Ride +8"
+      ],
+      "traits": [
+        "Lawful neutral. BAB +6, grapple +23 with Improved Grapple, 10-ft. space/reach. Fort +11, Ref +3, Will +3.",
+        "Touch 9, flat-footed 20. Spiked half-plate +7, spiked heavy shield +2, natural armor +2, Large −1. Half-plate has a +0 Dexterity cap.",
+        "Weapon Focus (morningstar), Power Attack, Improved Shield Bash, Improved Grapple (bonus), Two-Weapon Fighting (bonus). Armor spikes add 1d8 piercing to a successful grapple check to deal damage."
+      ],
+      "actions": [
+        "Morningstar +15 melee, 2d6+9 piercing and bludgeoning. Full attack +15/+10.",
+        "Shield spike +14 melee, 1d8+9 piercing as the sole weapon. When he full-attacks with both weapons, morningstar +11/+6 and shield spike +10 with 1d8+4 off-hand damage. Improved Shield Bash retains his shield bonus.",
+        "Rock +7 ranged, 2d6+9 bludgeoning. Increment 100 ft., maximum 500 ft."
+      ],
+      "tactics": "Brann stays behind the gate and uses his reach to stop anyone forcing their way in. He throws from cover if someone crosses the exposed dam."
+    },
+    {
+      "id": "mmiii-naztharune-rakshasa-sahir",
+      "type": "Outsider (native)",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Shadow broker with 11 outsider HD",
+      "difficulty": "CR 11 as the racial-only printed benchmark. ECL 16 with level adjustment +5.",
+      "speed": "40 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Infernal, Sylvan, Undercommon",
+      "ac": 25,
+      "hp": 104,
+      "hitDice": "11d8+55",
+      "initiative": 11,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 24,
+        "CON": 20,
+        "INT": 16,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Balance +23",
+        "Bluff +19",
+        "Disguise +19",
+        "Escape Artist +21",
+        "Hide +21",
+        "Listen +15",
+        "Move Silently +21",
+        "Search +17",
+        "Sense Motive +8",
+        "Spot +15",
+        "Tumble +21"
+      ],
+      "traits": [
+        "Lawful evil. BAB +11, grapple +13, 5-ft. space/reach. Fort +12, Ref +14, Will +8.",
+        "Touch 16. Normally retains AC 25 when flat-footed because of uncanny dodge. AC 19 when Dexterity is denied. Mithral shirt contributes +4 armor and caps the AC bonus at +6 Dexterity. It has no armor check penalty.",
+        "Improved evasion gives half damage on a failed Reflex save against an effect that allows half damage. Cannot be flanked except by a rogue of level 15 or higher.",
+        "DR 15/good and piercing. SR 21. Weapon Finesse, Weapon Focus (claw), Improved Initiative, Blind-Fight.",
+        "Sneak Attack +6d6 on hits against a target who is denied Dexterity to AC or flanked by Sahir. No bonus against targets with concealment or immune to critical hits."
+      ],
+      "actions": [
+        "Claw +19 melee, 1d4+2 slashing. Full attack makes two claws at +19 each. Racial sneak attack can apply to both.",
+        "Detect Thoughts (Su), continuous, CL 18. Suppress or resume as a free action. At stage 3, read surface thoughts within a 60-ft. cone on a failed Will DC 16. A successful save blocks that target for this use.",
+        "Change Shape (Su), standard action. His preferred disguise is a Medium human clerk. He loses the claw attacks, keeps his other defenses, and can maintain the guise indefinitely. Disguise is +29 with the form or +33 while reading the observer’s mind. Add +2 from Bluff synergy when acting in character.",
+        "Shadow Jump (Su), standard action like dimension door. One 20-ft. or two 10-ft. jumps per day, starting and ending in shadow. No more actions after a jump that turn.",
+        "Hide in Plain Sight (Su). Hide while observed within 10 ft. of a shadow other than his own. Use the normal action rules for Hide."
+      ],
+      "tactics": "Sahir listens in a human guise. If cornered, he changes back, waits until the strongest guard is distracted, and withdraws into shadow after getting what he came for."
+    },
+    {
+      "id": "mmiii-crystalline-troll-hrak-shard",
+      "type": "Giant",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "title": "Quarry watch with 10 giant HD",
+      "difficulty": "CR 7 as the racial-only printed benchmark. ECL 15 with level adjustment +5.",
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft., low-light vision, scent",
+      "languages": "Giant",
+      "ac": 19,
+      "hp": 115,
+      "hitDice": "10d8+70",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 25,
+        "DEX": 16,
+        "CON": 24,
+        "INT": 6,
+        "WIS": 11,
+        "CHA": 8
+      },
+      "skills": [
+        "Listen +8",
+        "Spot +9"
+      ],
+      "traits": [
+        "Chaotic neutral. Touch 12, flat-footed 16. BAB +7, grapple +18, 10-ft. space/reach. Fort +14, Ref +6, Will +5.",
+        "Immune to acid. Regeneration 5 converts damage except sonic to nonlethal. Sonic damage deals 150% of the rolled amount and remains lethal. Scent detects nearby creatures, with wind affecting its range.",
+        "Weapon Focus (claw), Multiattack, Iron Will, Alertness."
+      ],
+      "actions": [
+        "Claw +14 melee, 1d6+7 slashing.",
+        "Full attack. Two claws +14 melee, 1d6+7 each, and bite +11 melee, 1d6+3 piercing. If both claws hit the same target, rend that target for 2d6+10 additional damage."
+      ],
+      "tactics": "Hrak uses his reach to keep intruders off the ledge. He backs away from direct sonic damage and closes on anyone who stays within reach."
+    },
+    {
+      "id": "savage-species-ogre-mage-novak-30e",
+      "type": "Giant",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "title": "Toll keeper, Ogre Mage class tier 4",
+      "difficulty": "CR 2 by Table A–39. ECL 4 with 3 HD.",
+      "speed": "40 ft., fly 40 ft. (good)",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Giant",
+      "ac": 16,
+      "hp": 19,
+      "hitDice": "3d8+6",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 17
+      },
+      "skills": [
+        "Concentration +8",
+        "Listen +4",
+        "Spot +4"
+      ],
+      "traits": [
+        "Lawful neutral. Touch 11, flat-footed 15. Studded leather +3, natural armor +2, Dex +1. BAB +2, grapple +6, 5-ft. face and reach. Fort +5, Ref +2, Will +2.",
+        "Improved Initiative and Weapon Focus (shortspear). Original 3.0 shortspear is a Medium weapon. Holding it in both hands gives 1½ × Strength damage.",
+        "Spell-like abilities are CL 7, one use of each per day. Target spell resistance applies to charm person and sleep. Novak has neither regeneration nor spell resistance at this tier."
+      ],
+      "actions": [
+        "Shortspear +7 melee, 1d8+6 piercing when used two-handed, critical ×3. Thrown +4 ranged, 1d8+4 piercing, 20-ft. increment.",
+        "Charm person (Sp), standard action. One humanoid of Medium size or smaller within 40 ft., Will DC 14. Treats Novak as a trusted friend for 7 hours. +5 on the save if Novak or his allies threaten the target. Threats by Novak or his allies end the charm.",
+        "Sleep (Sp), standard action. Choose a point within 170 ft. Roll 2d4 total HD, and affect living creatures in its 15-ft. radius, lowest HD first and closest among ties. Affected creatures must have fewer than 5 HD. Will DC 14 or helpless sleep for 7 minutes, ending if slapped awake or wounded.",
+        "Darkness (Sp), standard action. An object touched radiates magical darkness in a 20-ft. radius for 70 minutes. Standard illumination and darkvision fail inside.",
+        "Invisibility (Sp), standard action, touch. Target and its gear turn invisible for 70 minutes or until the target attacks. Novak normally uses it on himself.",
+        "Flight (Su). Resume or stop flight as a free action. Use ordinary movement for flying at 40 ft. with good maneuverability."
+      ],
+      "tactics": "Novak first tries to bargain. When attacked, he uses sleep on the weakest opponents and flies away from the rest. He keeps darkness for blocking pursuit."
+    },
+    {
+      "id": "dlcs-irda-serein-ix",
+      "type": "Humanoid (shapechanger)",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Courier, Sorcerer 1",
+      "difficulty": "CR 1 by class as a baseline, with Change Shape and racial spell-like abilities. ECL 3 with level adjustment +2.",
+      "speed": "30 ft.",
+      "senses": "Low-light vision",
+      "languages": "Common, High Ogre, Elven, Sylvan",
+      "ac": 12,
+      "hp": 4,
+      "hitDice": "1d4, first die maximum",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 10,
+        "INT": 15,
+        "WIS": 10,
+        "CHA": 17
+      },
+      "skills": [
+        "Bluff +7",
+        "Concentration +4",
+        "Disguise +5",
+        "Spellcraft +6"
+      ],
+      "traits": [
+        "Lawful good. Touch 12, flat-footed 10. BAB +0, grapple −1, 5-ft. space and reach. Fort +0, Ref +2, Will +2. Improved Initiative.",
+        "Sorcerer 1, caster level 1. Spells per day: five 0-level, four 1st-level (including one bonus slot). Known cantrips are message, prestidigitation, ray of frost, and read magic. Known 1st-level spells are mage armor and magic missile. No familiar is present."
+      ],
+      "actions": [
+        "Dagger −1 melee or +2 thrown, 1d4−1 damage (minimum 1), 19–20/×2, 10-ft. range increment.",
+        "Mage Armor. Standard action, touch, duration 1 hour. In true or borrowed form it adds +4 armor to Serein’s AC, giving AC 16.",
+        "Magic Missile. Standard action. One dart for 1d4+1 force damage within 110 ft. No save. Spell resistance applies.",
+        "Ray of Frost. Standard action. +2 ranged touch out to 25 ft., 1d3 cold damage. No save. Spell resistance applies.",
+        "Change Shape (Su). Standard action, three uses per day. Her favorite form is a Medium human clerk, keeping the same scores, HP, saves, land speed and AC. She has Disguise +15 in this form. Revert freely in terms of uses.",
+        "Racial spell-like abilities. Each once per day at CL 1, DC 13 where a save applies: dancing lights, detect magic, flare, ghost sound, light, mage hand. Flare dazzles one living creature within 25 ft. for 1 minute on a failed Fortitude save. Ghost sound makes about four humans’ worth of noise within 25 ft., Will disbelief if interacted with."
+      ],
+      "tactics": "Serein keeps mage armor up during a risky delivery. She uses ghost sound to divert observers and leaves before her disguise is challenged."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Brann Gatewright",
+      "species": "Skullcrusher Ogre",
+      "size": "Large",
+      "edition": "3.5 edition",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "build": "mmiii-skullcrusher-ogre-brann-gatewright",
+      "role": "Gate engineer who guards a half-built dam.",
+      "motive": "Keep the floodgates safe until the last stone is seated.",
+      "hook": "One buttress lists in the rain. Brann has blocked the bridge, but will admit someone who can examine the masonry."
+    },
+    {
+      "name": "Sahir Inkveil",
+      "species": "Naztharune Rakshasa",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "build": "mmiii-naztharune-rakshasa-sahir",
+      "role": "Broker who buys clues from the lighthouse watch.",
+      "motive": "Learn who has altered the lights used as route signals.",
+      "hook": "Sahir offers the party a harmless false lead to see where they take it."
+    },
+    {
+      "name": "Hrak Shard",
+      "species": "Crystalline Troll",
+      "size": "Large",
+      "edition": "3.5 edition",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "build": "mmiii-crystalline-troll-hrak-shard",
+      "role": "Quarry watch who guards a sound-sensitive crossing.",
+      "motive": "Drive off the people who keep testing their bells inside his home.",
+      "hook": "A quarry bell lies smashed. Hrak wants the party to carry its clapper out of the valley."
+    },
+    {
+      "name": "Novak Siltspur",
+      "species": "Ogre Mage",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-ogre-mage-novak-30e",
+      "role": "Toll keeper who guards a river crossing from above.",
+      "motive": "Recover gate money a former partner hid upstream.",
+      "hook": "Novak will waive a toll for anyone who helps trace two receipts signed by someone now missing."
+    },
+    {
+      "name": "Serein Ix",
+      "species": "Irda",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Dragonlance Campaign Setting (2003)",
+      "build": "dlcs-irda-serein-ix",
+      "role": "A quiet sorcerer who carries sealed letters under a borrowed face.",
+      "motive": "Return a set of letters to their author while preserving the author’s privacy.",
+      "hook": "Two people named in the letters claim to be the same person. Serein asks the party to witness a meeting."
+    }
+  ]
+}

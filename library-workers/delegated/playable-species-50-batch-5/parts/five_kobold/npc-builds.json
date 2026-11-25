@@ -1,0 +1,245 @@
+{
+  "builds": [
+    {
+      "id": "midgard-heroes-dragonkin",
+      "title": "Karrash Emberseal, Flame Dragonkin Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 18,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 0,
+      "speed": "25 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 10,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 15
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +4",
+        "Perception +3",
+        "Persuasion +4"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Draconic, Trade Tongue",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Chain mail AC 16 plus a shield.",
+        "Flame Dragonkin. Karrash has fire resistance and casts produce flame using Charisma.",
+        "Soldier. Karrash is proficient with dice and land vehicles. Rank grants standing with soldiers loyal to his former unit.",
+        "Dueling. Spear damage includes +2 when he holds the spear in one hand and wields no other weapon. The bonus applies when he throws it."
+      ],
+      "actions": [
+        "Spear. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 5 piercing. Thrown spear +5, range 20/60 ft. Hit 1d6 + 5 piercing.",
+        "Produce Flame. With one hand free, cast as an action. It sheds bright light 10 ft. and another 10 ft. of dim light for up to 10 minutes. On casting or as an action later, hurl it at a creature within 30 ft. with a +4 ranged spell attack. Hit 1d8 fire. Hurling it ends the light.",
+        "Second Wind. Bonus action to regain 1d10 + 1 HP. One use per short or long rest."
+      ],
+      "tactics": "Karrash holds the end of a gangplank with his shield. He can stow his spear before casting produce flame."
+    },
+    {
+      "id": "midgard-heroes-shadow-fey",
+      "title": "Vesha Gloamchart, Shadow Fey Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 15
+      },
+      "skills": [
+        "Arcana +2",
+        "Deception +4",
+        "History +2",
+        "Insight +3",
+        "Investigation +2",
+        "Perception +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 15 (10 in sunlight when sight-based disadvantage applies)",
+      "languages": "Common, Elvish, Umbral, Draconic, Sylvan, Thieves’ Cant",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Leather armor gives AC 11 + 3.",
+        "Expertise doubles proficiency in Perception and Stealth. Vesha is proficient with thieves’ tools.",
+        "Fey Ancestry grants advantage on saves against charm and prevents magical sleep. Trance replaces sleep with four hours of meditation.",
+        "Sunlight Sensitivity gives disadvantage on attacks and visual Perception when the source trait’s sunlight condition applies. Traveler in Darkness gives advantage on Arcana about a particular fey road or shadow road.",
+        "Sneak Attack adds 1d6 once per turn on a hit with a finesse or ranged weapon if she has advantage or another enemy of the target is within 5 ft. of it and can still act. She must have no disadvantage on that attack.",
+        "Sage. If she does not know a fact, Vesha usually knows where or from whom to look it up."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5, reach 5 ft. Hit 1d8 + 3 piercing.",
+        "Shortbow. Ranged weapon attack +5, range 80/320 ft. Hit 1d6 + 3 piercing.",
+        "Dagger. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d4 + 3 piercing.",
+        "Path of Shadows. Bonus action, from qualifying darkness, dim light, or a covering shadow. Use misty step to teleport up to 30 ft. to a visible empty space. Two uses per long rest.",
+        "Cunning Action. Take Dash, Disengage, or Hide as a bonus action."
+      ],
+      "tactics": "Vesha surveys routes at dusk. If cornered, she teleports from cover and uses her bow from the far side of an obstacle."
+    },
+    {
+      "id": "unlikely-heroes-dust-goblin",
+      "title": "Kethrek Flintstep, Dust Goblin Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Deception +3",
+        "Investigation +2",
+        "Nature +2",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 16",
+      "languages": "Common, Goblin, Orc, Thieves’ Cant",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Leather armor gives AC 11 + 3.",
+        "Expertise doubles proficiency in Perception and Stealth. Kethrek is proficient with thieves’ tools and the flute.",
+        "Alien Mind gives advantage on saves against charm and fear.",
+        "Twisted. When Kethrek attacks a creature from hiding, it must pass a DC 13 Wisdom save or be frightened of him until the end of its next turn.",
+        "Sneak Attack adds 1d6 once per turn on a hit with a finesse or ranged weapon if he has advantage or another enemy of the target is within 5 ft. of it and can still act. He must have no disadvantage on that attack.",
+        "Outlander. Kethrek can recall the layout of terrain he has seen and forage for himself plus five others where the land provides suitable food and water."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +5, range 80/320 ft. Hit 1d6 + 3 piercing.",
+        "Shortsword. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 3 piercing.",
+        "Dagger. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d4 + 3 piercing.",
+        "Cunning Action. Take Dash, Disengage, or Hide as a bonus action."
+      ],
+      "tactics": "Kethrek leads through cover. In a fight he hides before using the shortbow, then moves to avoid giving opponents an easy route to him."
+    },
+    {
+      "id": "unlikely-heroes-sahuagin",
+      "title": "Vekatal Saltmark, Sahuagin Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 1,
+      "speed": "30 ft., swim 40 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 120 ft., passive Perception 13",
+      "languages": "Aquan, Common",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Natural AC 12 + 1 Dexterity + 2 shield.",
+        "Limited Amphibiousness. Vekatal breathes air and water. He starts suffocating if he goes four hours without submerging.",
+        "Shark Telepathy. He can give one shark within 120 ft. a simple magical command, such as to come closer or defend him.",
+        "Dueling. Spear damage includes +2 when he holds the spear in one hand and wields no other weapon. The bonus applies when he throws it. His claws and bite use their ordinary damage.",
+        "Sailor. He is proficient with navigator’s tools and water vehicles."
+      ],
+      "actions": [
+        "Spear. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 5 piercing. Thrown spear +5, range 20/60 ft. Hit 1d6 + 5 piercing. Underwater throws beyond 20 ft. miss.",
+        "Claw. Melee attack +5, reach 5 ft. Hit 1d4 + 3 slashing.",
+        "Bite. Melee attack +5, reach 5 ft. Hit 1d4 + 3 piercing.",
+        "Blood Frenzy. Bonus action. Until the end of his turn, he has advantage on melee attack rolls against creatures below their HP maximum. Two uses per long rest.",
+        "Second Wind. Bonus action to regain 1d10 + 2 HP. One use per short or long rest.",
+        "Action Surge. Take one additional action on his turn. One use per short or long rest."
+      ],
+      "tactics": "Vekatal uses his swim speed and spear to keep intruders away from the lock mechanism. He saves Blood Frenzy for an already wounded target and can use Action Surge to make two attacks while it lasts."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dragonkin",
+      "speciesPublication": "Midgard Heroes (2015)",
+      "edition": "Fifth edition compatible",
+      "name": "Karrash Emberseal",
+      "size": "Medium",
+      "build": "midgard-heroes-dragonkin",
+      "role": "Quay captain",
+      "motive": "Keep the loading pier open until the last ship departs.",
+      "hook": "Karrash asks the party to walk the pier before the tide turns and find the crate that is warm to the touch."
+    },
+    {
+      "species": "Shadow Fey",
+      "speciesPublication": "Midgard Heroes (2015)",
+      "edition": "Fifth edition compatible",
+      "name": "Vesha Gloamchart",
+      "size": "Medium",
+      "build": "midgard-heroes-shadow-fey",
+      "role": "Road surveyor",
+      "motive": "Identify which track still leads back to the road she came in on.",
+      "hook": "Vesha offers a field sketch of two paths that appear to meet at the same gate at different times of day."
+    },
+    {
+      "species": "Dust Goblin",
+      "speciesPublication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "name": "Kethrek Flintstep",
+      "size": "Small",
+      "build": "unlikely-heroes-dust-goblin",
+      "role": "Wasteland route guide",
+      "motive": "Recover the trail markers before the next dust storm buries them.",
+      "hook": "Kethrek asks the party to help carry a fallen trail marker and offers passage through a sheltered ravine."
+    },
+    {
+      "species": "Sahuagin",
+      "speciesPublication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "name": "Vekatal Saltmark",
+      "size": "Medium",
+      "build": "unlikely-heroes-sahuagin",
+      "role": "Tide-gate soldier",
+      "motive": "Keep salvagers from jamming the tide gate while his crew repairs it.",
+      "hook": "Vekatal surfaces into the lock chamber holding a broken gear. He asks for a replacement before the gate floods the quay."
+    }
+  ]
+}

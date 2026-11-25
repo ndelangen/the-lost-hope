@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Grimlock",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Monstrous Humanoid. +4 Strength, +2 Dexterity, +2 Constitution, −2 Wisdom, −4 Charisma. Land speed 30 ft.",
+      "Eyeless, with +4 natural armor.",
+      "Blindsight (Ex) locates foes within 40 ft. with line of effect. Foes beyond 40 ft. have total concealment. Blindsight does not reveal color or visual detail.",
+      "Losing either hearing or smell negates blindsight. With one sense remaining, the grimlock functions as if it had Blind-Fight. Losing both leaves it effectively blinded.",
+      "Scent (Ex) detects opponents within 30 ft. under ordinary conditions. Spend a move action to determine the direction. Pinpoint the source within 5 ft.",
+      "Immune to gaze attacks, visual effects, and illusions or other attacks that rely on sight. Sound- and scent-based effects can still affect a grimlock.",
+      "+10 racial bonus on Hide checks in mountains or underground.",
+      "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Racial skill points are 5 × (2 + Intelligence modifier). Racial class skills are Climb, Hide, Listen, and Spot.",
+      "Martial Weapon Proficiency (battleaxe) is a racial bonus feat. LA +2, so ECL 4 before class levels. Favored class Barbarian.",
+      "Common and Undercommon are automatic. The Grimlock region also grants Terran and lists Abyssal, Elven (drow dialect), Kuo-Toan, and Orc as bonus languages."
+    ]
+  }
+]

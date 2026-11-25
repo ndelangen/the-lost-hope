@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Gnarlborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Plant",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "p. 8 in 2024 Player v1.1, Gnarlborn Traits.",
+    "printedPages": [
+      8
+    ],
+    "heading": "Gnarlborn Traits",
+    "provenance": "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+  },
+  {
+    "name": "Graveborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Undead",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "p. 9 in 2024 Player v1.1, Graveborn Traits.",
+    "printedPages": [
+      9
+    ],
+    "heading": "Graveborn Traits",
+    "provenance": "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+  },
+  {
+    "name": "Harvestborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Construct",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "p. 10 in 2024 Player v1.1, Harvestborn Traits.",
+    "printedPages": [
+      10
+    ],
+    "heading": "Harvestborn Traits",
+    "provenance": "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+  },
+  {
+    "name": "Plagueborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Humanoid",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "p. 11 in 2024 Player v1.1, Plagueborn Traits.",
+    "printedPages": [
+      11
+    ],
+    "heading": "Plagueborn Traits",
+    "provenance": "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+  }
+]

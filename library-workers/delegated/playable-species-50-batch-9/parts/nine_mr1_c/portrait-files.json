@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Pegasus",
+    "file": "portraits/pegasus.png",
+    "sha256": "50f14c10e85b3d590b7fb93a507b61b1c24abe099a545d87addb3be7b3aef06e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Piercer",
+    "file": "portraits/piercer.png",
+    "sha256": "6834839f43b8e5c8787c243947f8d52902749499e52aba82338f14267ac57e01",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Pseudodragon",
+    "file": "portraits/pseudodragon.png",
+    "sha256": "5367dd3e7c92165f3304f1d25eb8e54b011ccd40288783d01c71d7361c787568",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Purple Worm",
+    "file": "portraits/purple-worm.png",
+    "sha256": "004364f6581414a5ee8017e1df7d8f72e5e8d9a31e75a1965d7f84ba446320f6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Remorhaz",
+    "file": "portraits/remorhaz.png",
+    "sha256": "ffacdb62eac8c1ff86902bafa5a3f2276a328cdd4eb50bb13128ebbf32024403",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

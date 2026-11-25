@@ -1,0 +1,611 @@
+{
+  "new": {
+    "Shield Guardian": {
+      "path": "output/dm-library/encounter-batches/150/art/shield-guardian.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dd35d9feff88eb8882fd3e6a9778550db50fc03223ae259c3824fb22a858323a",
+      "bytes": 2441438
+    },
+    "Knight": {
+      "path": "output/dm-library/encounter-batches/150/art/knight.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b8cc94c34dc986ac7f4296060d1a036fbaa1725ae46305437eb68963d69bf9e8",
+      "bytes": 2340120
+    },
+    "Thug": {
+      "path": "output/dm-library/encounter-batches/150/art/thug.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2259f690225b19784ece8caa34a16d590a7d8b4e73f623eebd40067d26743b8f",
+      "bytes": 2350260
+    },
+    "Guardian Naga": {
+      "path": "output/dm-library/encounter-batches/150/art/guardian-naga.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4e21a9a253f699bddaabd4d49abe76a50154b9c7451d492556c0858ddc2ad6fd",
+      "bytes": 2683419
+    },
+    "Couatl": {
+      "path": "output/dm-library/encounter-batches/150/art/couatl.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "980566f3d484d168ebb8eb0e8a9dd26cff7291e8d79b64c8355583f415aa9470",
+      "bytes": 2854413
+    },
+    "Purple Worm": {
+      "path": "output/dm-library/encounter-batches/150/art/purple-worm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6598c8cf0521e66d2affec34c95492157326f3610cd03469a1315bf86d1e8126",
+      "bytes": 2841963
+    },
+    "Cambion": {
+      "path": "output/dm-library/encounter-batches/150/art/cambion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0900be2b9700a5cf6ac4bd4f6ae9088e5566d710c723fe7e5dac937e14f679af",
+      "bytes": 2580506
+    },
+    "Chain Devil": {
+      "path": "output/dm-library/encounter-batches/150/art/chain-devil.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "950bf75fd35420435648ecae3f63521fede067561862a21259acb6c8279d68a4",
+      "bytes": 2520852
+    },
+    "Hell Hound": {
+      "path": "output/dm-library/encounter-batches/150/art/hell-hound.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fdff6d0c54a4853f1d3465c67fba528d9af20b48f8e104218ae8b8fb014d30bc",
+      "bytes": 2422879
+    },
+    "Magmin": {
+      "path": "output/dm-library/encounter-batches/150/art/magmin.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e55c57f02ff9785e15d63ab16f11852a7ca8bcfde6a4e0978e82d0bc13abcb9a",
+      "bytes": 2568812
+    },
+    "Behir": {
+      "path": "output/dm-library/encounter-batches/150/art/behir.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cac0691f3c7833024998bce2d3460806b55088711350581fd12de84b9cad8d4a",
+      "bytes": 2962131
+    },
+    "Hippogriff": {
+      "path": "output/dm-library/encounter-batches/150/art/hippogriff.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "533711d3e78a8037279702eef7fad9b596605f711b444e0af7fa07e95c17ad79",
+      "bytes": 2765413
+    },
+    "Pegasus": {
+      "path": "output/dm-library/encounter-batches/150/art/pegasus.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c4b302cb7ae7b92bab06150973c5fa61f211f0b8e4176ecc2f40537779b1a335",
+      "bytes": 2680337
+    },
+    "Xorn": {
+      "path": "output/dm-library/encounter-batches/150/art/xorn.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "987d3bc769226ccd5ee69e17499d910dd3abdc775b9274b7ee5d7f68895c4da2",
+      "bytes": 2757742
+    },
+    "Roper": {
+      "path": "output/dm-library/encounter-batches/150/art/roper.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8a332f9b2a89586b135a5c46ca3d15a0b30ac3ea114e3aba34db268db0323d63",
+      "bytes": 2793060
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-8154af337c1dc1714c68fbb0",
+      "version": "c54d5581253293e43dce40e1",
+      "name": "Black Dragon Wyrmling",
+      "file": "images/monsters/dragon-black-wyrmling/parchment-portrait.webp",
+      "sha256": "1a664b5069e6ed875ff531115f8d56fec6eb022a6cb2700fc3d15aecc684ac5c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Black, Wyrmling"
+    },
+    {
+      "entry": "monster-f3cd60ce5b477fff11cf94b8",
+      "version": "dfe4bc9e7ea437ea0e77519c",
+      "name": "Blue Dragon Wyrmling",
+      "file": "images/monsters/dragon-blue-wyrmling/parchment-portrait.webp",
+      "sha256": "6e7877bc24c162460af0f6f4024623cb9bb8c5da7fa217ea78b760cefea04efa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Blue, Wyrmling"
+    },
+    {
+      "entry": "monster-58d2a106bb6538459b4eb3b7",
+      "version": "9207a4438300e4f63aece1ad",
+      "name": "Green Dragon Wyrmling",
+      "file": "images/monsters/dragon-green-wyrmling/parchment-portrait.webp",
+      "sha256": "ba9395edea7b96bb1a623184fcf272d0a5fa630068322e10e0f1fa3a3f325a8c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Green, Wyrmling"
+    },
+    {
+      "entry": "monster-7050b1b545afecd5fed44ef6",
+      "version": "a8a08e412c5fb88ec0307a88",
+      "name": "Red Dragon Wyrmling",
+      "file": "images/monsters/dragon-red-wyrmling/parchment-portrait.webp",
+      "sha256": "ba68735463688fd8f002790990edeca717f0e36d58f7268a9793166f4d3ba2c9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Red, Wyrmling"
+    },
+    {
+      "entry": "monster-a4dcf70b9bd8a8a1ebdeed8b",
+      "version": "f394a25e13b8d0bf4783eaf4",
+      "name": "White Dragon Wyrmling",
+      "file": "images/monsters/dragon-white-wyrmling/parchment-portrait.webp",
+      "sha256": "a8954fb92e6f016a2bf50fde2b973a3c217c9b0f1945b19aa9fe91d3a084e470",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, White, Wyrmling"
+    },
+    {
+      "entry": "monster-85a94a247d902bf6c3b947d4",
+      "version": "cf40107b51f7edcdf9b60fdd",
+      "name": "Brass Dragon Wyrmling",
+      "file": "images/monsters/dragon-brass-wyrmling/parchment-portrait.webp",
+      "sha256": "8576dc60db4f2a27f2acafb5501729be3c7f047af09746f3605431c344047017",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Brass, Wyrmling"
+    },
+    {
+      "entry": "monster-596a9dd8dfe32cb8b3e49175",
+      "version": "0b7f3e5a99567143c2cbccaa",
+      "name": "Bronze Dragon Wyrmling",
+      "file": "images/monsters/dragon-bronze-wyrmling/parchment-portrait.webp",
+      "sha256": "82478072a57959a16ab873241c0faa50d0fb5ec1c63eb097a7431322ced442b3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Bronze, Wyrmling"
+    },
+    {
+      "entry": "monster-8844e84de09f78760d1de0d2",
+      "version": "7f22fdbb53439d0cb4e52123",
+      "name": "Copper Dragon Wyrmling",
+      "file": "images/monsters/dragon-copper-wyrmling/parchment-portrait.webp",
+      "sha256": "645ca5d131f569d27a759c5264b1a8a9477c05212b035fd05d4196559d130131",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Copper, Wyrmling"
+    },
+    {
+      "entry": "monster-dc7b1a0ab78a6cd5c2e9f185",
+      "version": "fdc1540db48b858387e01bc3",
+      "name": "Gold Dragon Wyrmling",
+      "file": "images/monsters/dragon-gold-wyrmling/parchment-portrait.webp",
+      "sha256": "1f87c93d2cf968c0716eeaac2545bfd68626258fda49634224427ecbe674c15a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Gold, Wyrmling"
+    },
+    {
+      "entry": "monster-2ec480dd8a32a01aa1905474",
+      "version": "6173a9fbd53b33d5b282fa37",
+      "name": "Silver Dragon Wyrmling",
+      "file": "images/monsters/dragon-silver-wyrmling/parchment-portrait.webp",
+      "sha256": "07e74ad6be4005d88d3ab6de74476f3bfa63a2c0b79da2dd5d52abdb7f33741e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dragon, Silver, Wyrmling"
+    },
+    {
+      "entry": "monster-8f8e905888dd924a333dcd5b",
+      "version": "8d6d0faf4c95b9df69049760",
+      "name": "Animated Armor",
+      "file": "images/monsters/animated-objects-animated-armor/parchment-portrait.webp",
+      "sha256": "d36eb6372438659a6c3255898185afcaa6feaa98024695c05de2e38196d52bca",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Animated Objects, Animated Armor"
+    },
+    {
+      "entry": "monster-89711569027f3d6cb13ecd7d",
+      "version": "b0177e419546cfa5eacbda91",
+      "name": "Clay Golem",
+      "file": "images/monsters/golem-clay/parchment-portrait.webp",
+      "sha256": "1dccbf2f4cf500357429abd09cb249dcbe776f527fcd1dca7aa2a722c2cd6372",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Golem, Clay"
+    },
+    {
+      "entry": "monster-c7a36297b7fa27cd78ff537e",
+      "version": "c350e4b24d168f92efa7fb02",
+      "name": "Flesh Golem",
+      "file": "images/monsters/golem-flesh/parchment-portrait.webp",
+      "sha256": "5b5d7a1cfc988f89693db03970c9acb449f0bfdf6338d697c7b568479f6d5556",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Golem, Flesh"
+    },
+    {
+      "entry": "monster-f3554ce17682faec830213e5",
+      "version": "f7de56145cc9a449ecd29618",
+      "name": "Iron Golem",
+      "file": "images/monsters/golem-iron/parchment-portrait.webp",
+      "sha256": "30c8484f799e9817a560d6a6ba281912dae2385c1c0303ad83329cd95680b1fd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Golem, Iron"
+    },
+    {
+      "entry": "monster-c4525531daf228bcc3125be0",
+      "version": "dfaf9502aa64e048ab719618",
+      "name": "Stone Golem",
+      "file": "images/monsters/golem-stone/parchment-portrait-v2.webp",
+      "sha256": "947ca8c3251e3345e1393f29ef592ee19c08047d3d118bb8b1ca4525c72543cb",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Golem, Stone"
+    },
+    {
+      "entry": "monster-e763d668dce9a3a0ea83d778",
+      "version": "383ffe73ac0e8884b982eaa2",
+      "name": "Flying Sword",
+      "file": "images/monsters/animated-objects-flying-sword/parchment-portrait.webp",
+      "sha256": "eb2544f1b09296911ce6e6549df2a4baeedd9766c9f8cdf5ea8403a462a1d9f5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Animated Objects, Flying Sword"
+    },
+    {
+      "entry": "monster-a65d950ef45a40765e4fb56b",
+      "version": "3c3bbb75afd513f71102b4bf",
+      "name": "Rug of Smothering",
+      "file": "images/monsters/animated-objects-rug-of-smothering/parchment-portrait.webp",
+      "sha256": "678f94c1ea9e0fafaa5062d445af85a716df381c6f4ab6bfbe3ab9fbf99527ff",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Animated Objects, Rug of Smothering"
+    },
+    {
+      "entry": "monster-31b78c50bb7af14aff17e5f6",
+      "version": "19670ee101029fe4ce56e6c1",
+      "name": "Shield Guardian",
+      "file": "images/monsters/shield-guardian/batch-150-portrait.png",
+      "sha256": "dd35d9feff88eb8882fd3e6a9778550db50fc03223ae259c3824fb22a858323a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-461fdec7a43de0a3f2b2c863",
+      "version": "8c5827c38425fd76a439c742",
+      "name": "Berserker",
+      "file": "images/monsters/orcus-berserkers/parchment-portrait.webp",
+      "sha256": "42a7da215f3e0276b93e0d514b3147b60fe52b0e130c060248ef282684f2644a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Orcus Berserkers"
+    },
+    {
+      "entry": "monster-7ff2b4df6b7f9bf6253c3ea4",
+      "version": "567571b29793d91b2e9acaaf",
+      "name": "Druid",
+      "file": "images/monsters/wandering-druid/parchment-portrait.webp",
+      "sha256": "e19407f8f280de604e19bcfb208ce8e8432522bc22b7d08159d709e8a851ef90",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Wandering Druid"
+    },
+    {
+      "entry": "monster-ce1d801d152db837c0fc85ec",
+      "version": "71c29a99f49368aac0a60650",
+      "name": "Knight",
+      "file": "images/monsters/knight/batch-150-portrait.png",
+      "sha256": "b8cc94c34dc986ac7f4296060d1a036fbaa1725ae46305437eb68963d69bf9e8",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3608e4bd0e693177369e17f4",
+      "version": "301a11bbbe91e0882f048c2c",
+      "name": "Scout",
+      "file": "images/monsters/shared-portraits-150/elf-scout-809b9705a742.png",
+      "sha256": "809b9705a7429e0acb9025c82bf6d724a91d97db599d4e47b4bc14142485bfa5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "elf-scout"
+    },
+    {
+      "entry": "monster-57d4aa377250296d19d9f55f",
+      "version": "fd754965996e2c119a9f7009",
+      "name": "Spy",
+      "file": "images/monsters/vulpin-spy/parchment-portrait.webp",
+      "sha256": "ecfd15eaf4755cf04361725e28adeb275868e37a6d07cd08a77c3dc4951396cd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Vulpin Spy"
+    },
+    {
+      "entry": "monster-377cf2178a4a69fd169ee11a",
+      "version": "72173228fd4e313edb81d4bf",
+      "name": "Thug",
+      "file": "images/monsters/thug/batch-150-portrait.png",
+      "sha256": "2259f690225b19784ece8caa34a16d590a7d8b4e73f623eebd40067d26743b8f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b721da4b7c33cb0e4cd2c26d",
+      "version": "de27f575b9953b78f7dc92f4",
+      "name": "Lizard King/Queen",
+      "file": "images/monsters/lizardfolk-ruler/parchment-portrait.webp",
+      "sha256": "d5c1dbb9ee472c07f33d126ffeb50d38ba5ead93746ca715d07cbfb490b9e87b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Lizardfolk Ruler"
+    },
+    {
+      "entry": "monster-45db8f389465f6c27f63d0eb",
+      "version": "af72011cc9581e25d2028901",
+      "name": "Githzerai Monk",
+      "file": "images/monsters/shared-portraits-150/githzerai-zerth-8acb00557188.png",
+      "sha256": "8acb00557188f062c25ca12542ccc822eb5d82384320b4858a3146c16d3121a5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "githzerai-zerth"
+    },
+    {
+      "entry": "monster-3d99f860c288e9aff80d696c",
+      "version": "e4eb2f184354551db7e20b1d",
+      "name": "Androsphinx",
+      "file": "images/monsters/sphinx-androsphinx/parchment-portrait.webp",
+      "sha256": "4d245003520fedc3b4fe5dfbab135d0f4a2a1ad9deff4b3f8a64a1aff19f74f2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Sphinx, Androsphinx"
+    },
+    {
+      "entry": "monster-5b92c23cd15cc6ea6480f1f2",
+      "version": "7b366012a2e46ecf3ddd598d",
+      "name": "Gynosphinx",
+      "file": "images/monsters/sphinx-gynosphinx/parchment-portrait.webp",
+      "sha256": "3d607fd3f362734ef82be5c4646a9a60a831cf70b940209b17aa7e58db950827",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Sphinx, Gynosphinx"
+    },
+    {
+      "entry": "monster-c3340663f74c381efa85b4bb",
+      "version": "08800051fb26397a00531b6b",
+      "name": "Guardian Naga",
+      "file": "images/monsters/guardian-naga/batch-150-portrait.png",
+      "sha256": "4e21a9a253f699bddaabd4d49abe76a50154b9c7451d492556c0858ddc2ad6fd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c84971b12fa34f33118ea34f",
+      "version": "d7b306482ae70117b8031ed0",
+      "name": "Spirit Naga",
+      "file": "images/monsters/naga-spirit/parchment-portrait.webp",
+      "sha256": "48b537a7637ce89c8d993ba299a248018b092d2ae6e4a9acffcbf0f02f3c9ffa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Naga, Spirit"
+    },
+    {
+      "entry": "monster-07115d1906068aef73df4b39",
+      "version": "93f5239eff036a16cf833b23",
+      "name": "Couatl",
+      "file": "images/monsters/couatl/batch-150-portrait.png",
+      "sha256": "980566f3d484d168ebb8eb0e8a9dd26cff7291e8d79b64c8355583f415aa9470",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0eda8014d46f5002ba371869",
+      "version": "93cb8f6856b0ddfc2a4cab97",
+      "name": "Dragon Turtle",
+      "file": "images/beasts/pandarian-dragon-turtle/parchment-portrait.webp",
+      "sha256": "20affe480c6e61cdff25b306d617d3cbbfe12461d68e70de904dbeabb9186567",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Pandarian Dragon Turtle"
+    },
+    {
+      "entry": "monster-517ffce87ad701f071040b32",
+      "version": "ff0cf5b5bb95ed87dc9fbcf1",
+      "name": "Hydra",
+      "file": "images/monsters/marsh-hydra/parchment-portrait.webp",
+      "sha256": "6592becd429d8561afdc8c94cd1f5d7d63d046c0ddbd29556f1375e3887093c7",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Marsh Hydra"
+    },
+    {
+      "entry": "monster-d7d4ca7fa444b693b2454d6e",
+      "version": "637bff30fb7061f32040663d",
+      "name": "Purple Worm",
+      "file": "images/monsters/purple-worm/batch-150-portrait.png",
+      "sha256": "6598c8cf0521e66d2affec34c95492157326f3610cd03469a1315bf86d1e8126",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-fbbfc1d8e1780e6d65924d0c",
+      "version": "4602679a107ced66c8e9fe20",
+      "name": "Cambion",
+      "file": "images/monsters/cambion/batch-150-portrait.png",
+      "sha256": "0900be2b9700a5cf6ac4bd4f6ae9088e5566d710c723fe7e5dac937e14f679af",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6f9864083a3241d7d0e5451c",
+      "version": "d70f63837a6e020e274a3a06",
+      "name": "Chain Devil",
+      "file": "images/monsters/chain-devil/batch-150-portrait.png",
+      "sha256": "950bf75fd35420435648ecae3f63521fede067561862a21259acb6c8279d68a4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0ff5c9205810788073ecfcbb",
+      "version": "7a35734db6fce1e5445ad0b6",
+      "name": "Hell Hound",
+      "file": "images/monsters/hell-hound/batch-150-portrait.png",
+      "sha256": "fdff6d0c54a4853f1d3465c67fba528d9af20b48f8e104218ae8b8fb014d30bc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5565d1121045ae915c356ca5",
+      "version": "f9b4f4d2e3247dc3daa29a0f",
+      "name": "Lemure",
+      "file": "images/monsters/devil-lemure/parchment-portrait.webp",
+      "sha256": "4bd4c5be7e22881bc9e1edd537918d7bf070dc045f62d2a9dc9c09c7c760c4fe",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Devil, Lemure"
+    },
+    {
+      "entry": "monster-f22b0405238b4d3e8d09eb53",
+      "version": "de4afb427d53467de63b25c3",
+      "name": "Magmin",
+      "file": "images/monsters/magmin/batch-150-portrait.png",
+      "sha256": "e55c57f02ff9785e15d63ab16f11852a7ca8bcfde6a4e0978e82d0bc13abcb9a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6dfa5ed997611337144a0c79",
+      "version": "c6df074171b30203d07978ea",
+      "name": "Nightmare",
+      "file": "images/monsters/dread-nightmare/parchment-portrait.webp",
+      "sha256": "9f6afd90281587f0ce4513b11b65bb0a39c74f0a07bab4de084e8556533e7a27",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dread Nightmare"
+    },
+    {
+      "entry": "monster-49ade121dfc3d0c0e22b8362",
+      "version": "6ab5b247d013177dd7245d0c",
+      "name": "Planetar",
+      "file": "images/monsters/angel-planetar/parchment-portrait.webp",
+      "sha256": "0aec234946a01e192a90eae621614c952d5c3160fde2be8deb45d3096b40ce7c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Angel, Planetar"
+    },
+    {
+      "entry": "monster-2bfbc118abcafe8c53ee6a46",
+      "version": "5cd934b497fc148fa40116d3",
+      "name": "Solar",
+      "file": "images/monsters/angel-solar/parchment-portrait.webp",
+      "sha256": "a926a8fe325430b4c6bdb6c6357f2613515a30444bccb613b7b571bf52c70094",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Angel, Solar"
+    },
+    {
+      "entry": "monster-a82502c8f6e339e979275785",
+      "version": "0b1b7a7469775c39138b5340",
+      "name": "Behir",
+      "file": "images/monsters/behir/batch-150-portrait.png",
+      "sha256": "cac0691f3c7833024998bce2d3460806b55088711350581fd12de84b9cad8d4a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b4fda7356009b6b6ebcf7670",
+      "version": "423b54ce1b3929896dc1e040",
+      "name": "Bulette",
+      "file": "images/monsters/shared-portraits-150/young-bulette-rhinoceros-a382667e5bb7.png",
+      "sha256": "a382667e5bb733168cd504dcec5771f0679611857bdf45ea63e9a572fc464ce4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "young-bulette-rhinoceros"
+    },
+    {
+      "entry": "monster-ea2590fa037e34eab983a16f",
+      "version": "6dcd3d64269f8e78cc113f01",
+      "name": "Dryad",
+      "file": "images/monsters/deep-dryad/parchment-portrait.webp",
+      "sha256": "775a2e05466f03ab4e5f84fe67db57c76b506ef9d8c73fa3448a1a3f98e77e0b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Deep Dryad"
+    },
+    {
+      "entry": "monster-f18e58d62dfc5aa99b1e9228",
+      "version": "4323b77f251a67bbc428cb3d",
+      "name": "Hippogriff",
+      "file": "images/monsters/hippogriff/batch-150-portrait.png",
+      "sha256": "533711d3e78a8037279702eef7fad9b596605f711b444e0af7fa07e95c17ad79",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a9d1e780687ac78d0eff2fc9",
+      "version": "65e5b52e6259f882d7c13524",
+      "name": "Pegasus",
+      "file": "images/monsters/pegasus/batch-150-portrait.png",
+      "sha256": "c4b302cb7ae7b92bab06150973c5fa61f211f0b8e4176ecc2f40537779b1a335",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5a1270b5c77dfbd0c1b147f8",
+      "version": "b88b738e56c6f2766547a962",
+      "name": "Xorn",
+      "file": "images/monsters/xorn/batch-150-portrait.png",
+      "sha256": "987d3bc769226ccd5ee69e17499d910dd3abdc775b9274b7ee5d7f68895c4da2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-65178e49c41be7e165cd56b0",
+      "version": "8b7fae2a380d663a22045315",
+      "name": "Remorhaz",
+      "file": "images/monsters/shared-portraits-150/young-remorhaz-13f4566f4f92.png",
+      "sha256": "13f4566f4f9228dcbd0a73c3d94ded31f017ee51338c8cb9eb8c57e37d85b4c7",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "young-remorhaz"
+    },
+    {
+      "entry": "monster-fa9e5b754f074d8894497110",
+      "version": "0951f5ebf97f78be1c890de4",
+      "name": "Roper",
+      "file": "images/monsters/roper/batch-150-portrait.png",
+      "sha256": "8a332f9b2a89586b135a5c46ca3d15a0b30ac3ea114e3aba34db268db0323d63",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

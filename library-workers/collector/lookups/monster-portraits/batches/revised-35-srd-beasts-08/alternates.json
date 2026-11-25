@@ -1,0 +1,96 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Megaraptor",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/megaraptor/deinonychus-volo.webp",
+    "artist": "Related Deinonychus token · Volo's Guide to Monsters",
+    "kind": "token",
+    "sha256": "186b333a26eee0f5663926521caabab80f9a0a26c29555d2673ed6a91b56e435",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/VGM/Deinonychus.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Monitor Lizard",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/monitor-lizard/lizard-jonathan-kuo.webp",
+    "artist": "Related Lizard illustration by Jonathan Kuo · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "a8527332acd4d413a22dc78fe9becd6e0377a711b560f574cbe2ee286bcc289c",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Lizard.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Megaraptor",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/megaraptor/megaraptor-lovegrove.jpg",
+    "artist": "Modern Megaraptor reconstruction by Alexander Thomas Lovegrove · CC BY-SA 4.0",
+    "kind": "illustration",
+    "sha256": "0424a92730a7db5159c7dd4daa8f04bc56763fd3b6990c6192e3e5e320d96eef",
+    "reference": "https://commons.wikimedia.org/wiki/File:Megaraptor_namunhuaiquii.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Monitor Lizard",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/monitor-lizard/monitor-rob-stephanie-levy.jpg",
+    "artist": "Water monitor photograph by Rob and Stephanie Levy · CC BY 2.0",
+    "kind": "photograph",
+    "sha256": "9fff51db1d92c9ed2cfa81ba51c3b4ee43084748f16b52e9e0cf95320b45f04f",
+    "reference": "https://commons.wikimedia.org/wiki/File:Water_Monitor_(about_1.5m_long).jpg",
+    "license": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Monkey",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/monkey/capuchin-white-faced.jpg",
+    "artist": "White-faced capuchin photograph by Joseph C Boone · CC BY-SA 3.0",
+    "kind": "photograph",
+    "sha256": "e0e0a7872290e1084ab7c2c525f81082fb224e319b14549cd060ee831c0437e6",
+    "reference": "https://commons.wikimedia.org/wiki/File:White_faced_Capuchin.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Monkey",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/monkey/capuchin-siddarth-machado.jpg",
+    "artist": "White-faced capuchin photograph by Siddarth Machado · CC BY 4.0",
+    "kind": "photograph",
+    "sha256": "c667f61b6771c983b954543a76778722c4bd9db7ce9acaf422fd3eb50982d03c",
+    "reference": "https://commons.wikimedia.org/wiki/File:Cebus_imitator_464175425.jpg",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Porpoise",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/porpoise/porpoise-erik-christensen.jpg",
+    "artist": "Harbor porpoise photograph by Erik Christensen · CC BY-SA 3.0",
+    "kind": "photograph",
+    "sha256": "62b4b5d6fa048f4a837e1c044fa41aa22c460a873e781877fab836d5255ac805",
+    "reference": "https://commons.wikimedia.org/wiki/File:Phocoena_phocoena.2.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Porpoise",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/porpoise/porpoise-noaa.jpg",
+    "artist": "Harbor porpoise photograph · NOAA Fisheries · Public domain",
+    "kind": "photograph",
+    "sha256": "c4ede4ce64aab42eb72bafe1ce4d4e6d33918466ef717184e4cbbbe1a2d25104",
+    "reference": "https://commons.wikimedia.org/wiki/File:Harbor_porpoise_at_surface.jpg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+  }
+]

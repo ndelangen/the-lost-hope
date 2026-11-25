@@ -1,0 +1,24 @@
+{
+  "baseline": "4c7663a9927069b4a62397016d64b1c37e2d64ac",
+  "temporaryCopy": true,
+  "exactProfiles": 4,
+  "printedCombatProfilesVerified": 4,
+  "searchableByNameRuleAppearanceHabitat": 4,
+  "globalSearchResults": 4,
+  "newBeastIdentities": [
+    "Huge Centipede",
+    "Megalo-centipede",
+    "Tunnel Worm"
+  ],
+  "existingGiantCentipedeDefault": "Basic Rules (2018)",
+  "existingGiantCentipedeThumbnailPreserved": true,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "compatibleWithPreviouslyStagedBatAndScorpionPatches": true,
+  "fixedHPProfiles": 2,
+  "tableAndProseDiscrepanciesVerified": true,
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

@@ -1,0 +1,26 @@
+{
+  "commit": "f3eb64d12a5392c2baf5320e920bcdab695b2141",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "preservedGalleries": 2,
+  "recentProfilesWithGeneratedPortrait": 620,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-61-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/61/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Hobgoblin Firerunner",
+      "source": "https://www.dndbeyond.com/monsters/4485884-hobgoblin-firerunner",
+      "challenge": "4"
+    },
+    {
+      "name": "Hobgoblin Trooper",
+      "source": "https://www.dndbeyond.com/monsters/4485888-hobgoblin-trooper",
+      "challenge": "1/2"
+    }
+  ],
+  "nextSourceNote": "Check the Firerunner’s Jumpfire movement and the Trooper’s hex. Both are reusable encounter roles distinct from the Death Captain and War Mage."
+}

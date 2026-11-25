@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Dust Mephit",
+    "statBlock": {
+      "name": "Dust Mephit",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Small elemental, neutral evil",
+      "ac": 12,
+      "hp": 17,
+      "hitDice": "5d6",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 12,
+      "description": "An elemental of earth and air drawn to tombs by its fascination with death.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "sections": {
+        "Damage vulnerabilities": "Fire.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "Auran, Terran.",
+        "Traits": "Death Burst. When the mephit dies, dust bursts out in a 5-ft. radius around it. Each creature in that radius makes a DC 10 Constitution save. On a failure it is Blinded for 1 minute. It may repeat the save on each of its turns and ends the blindness on a success.\nElemental Nature. The mephit can go without food, drink, and sleep.",
+        "Innate spellcasting": "Charisma. Once per day, the mephit can cast Sleep without material components.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) slashing damage.\nBlinding Breath (Recharge 6). Each creature in a 15-ft. cone of dust makes a DC 10 Dexterity save. On a failure it is Blinded for 1 minute. The affected creature can repeat the save at the end of each of its turns and end the blindness on a success.",
+        "Printed source": "Monster Manual (2014), p. 215."
+      }
+    }
+  },
+  {
+    "name": "Dust Mephit (Summoner Variant)",
+    "statBlock": {
+      "name": "Dust Mephit (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Small elemental, neutral evil",
+      "ac": 12,
+      "hp": 17,
+      "hitDice": "5d6",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 12,
+      "description": "An elemental of earth and air drawn to tombs by its fascination with death.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "sections": {
+        "Damage vulnerabilities": "Fire.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "Auran, Terran.",
+        "Traits": "Death Burst. When the mephit dies, dust bursts out in a 5-ft. radius around it. Each creature in that radius makes a DC 10 Constitution save. On a failure it is Blinded for 1 minute. It may repeat the save on each of its turns and ends the blindness on a success.\nElemental Nature. The mephit can go without food, drink, and sleep.",
+        "Innate spellcasting": "Charisma. Once per day, the mephit can cast Sleep without material components.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) slashing damage.\nBlinding Breath (Recharge 6). Each creature in a 15-ft. cone of dust makes a DC 10 Dexterity save. On a failure it is Blinded for 1 minute. The affected creature can repeat the save at the end of each of its turns and end the blindness on a success.\nSummon Mephits (1/day). The mephit has a 25 percent chance to summon 1d4 dust mephits. Each appears in an unoccupied space within 60 ft. of the summoner and fights on its side. A summoned mephit cannot summon others. It vanishes after 1 minute, when either it or the summoner dies, or when the summoner spends an action to dismiss it.",
+        "Printed source": "Monster Manual (2014), p. 215. Mephit Summoning variant, p. 217."
+      }
+    }
+  },
+  {
+    "name": "Ice Mephit",
+    "statBlock": {
+      "name": "Ice Mephit",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Small elemental, neutral evil",
+      "ac": 11,
+      "hp": 21,
+      "hitDice": "6d6",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 12,
+      "description": "A merciless elemental of frigid air and water that hides among shards of ice.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {
+        "Perception": 2,
+        "Stealth": 3
+      },
+      "sections": {
+        "Damage vulnerabilities": "Bludgeoning and fire.",
+        "Damage immunities": "Cold and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "Aquan, Auran.",
+        "Traits": "Death Burst. When the mephit dies, each creature within 5 ft. makes a DC 10 Dexterity save against flying ice shards. The burst deals 4 (1d8) slashing damage on a failure or half damage on a success.\nFalse Appearance. A motionless mephit looks exactly like an ordinary shard of ice.\nElemental Nature. The mephit can go without food, drink, and sleep.",
+        "Innate spellcasting": "Charisma. Once per day, the mephit can cast Fog Cloud without material components.",
+        "Actions": "Claws. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.\nFrost Breath (Recharge 6). Each creature in a 15-ft. cone makes a DC 10 Dexterity save. The breath deals 5 (2d4) cold damage on a failure or half damage on a success.",
+        "Printed source": "Monster Manual (2014), p. 215."
+      }
+    }
+  },
+  {
+    "name": "Ice Mephit (Summoner Variant)",
+    "statBlock": {
+      "name": "Ice Mephit (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Small elemental, neutral evil",
+      "ac": 11,
+      "hp": 21,
+      "hitDice": "6d6",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 12,
+      "description": "A merciless elemental of frigid air and water that hides among shards of ice.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {
+        "Perception": 2,
+        "Stealth": 3
+      },
+      "sections": {
+        "Damage vulnerabilities": "Bludgeoning and fire.",
+        "Damage immunities": "Cold and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "Aquan, Auran.",
+        "Traits": "Death Burst. When the mephit dies, each creature within 5 ft. makes a DC 10 Dexterity save against flying ice shards. The burst deals 4 (1d8) slashing damage on a failure or half damage on a success.\nFalse Appearance. A motionless mephit looks exactly like an ordinary shard of ice.\nElemental Nature. The mephit can go without food, drink, and sleep.",
+        "Innate spellcasting": "Charisma. Once per day, the mephit can cast Fog Cloud without material components.",
+        "Actions": "Claws. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.\nFrost Breath (Recharge 6). Each creature in a 15-ft. cone makes a DC 10 Dexterity save. The breath deals 5 (2d4) cold damage on a failure or half damage on a success.\nSummon Mephits (1/day). The mephit has a 25 percent chance to summon 1d4 ice mephits. Each appears in an unoccupied space within 60 ft. of the summoner and fights on its side. A summoned mephit cannot summon others. It vanishes after 1 minute, when either it or the summoner dies, or when the summoner spends an action to dismiss it.",
+        "Printed source": "Monster Manual (2014), p. 215. Mephit Summoning variant, p. 217."
+      }
+    }
+  },
+  {
+    "name": "Magma Mephit",
+    "statBlock": {
+      "name": "Magma Mephit",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Small elemental, neutral evil",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d6 + 5",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "An elemental of earth and fire that glows red and sweats droplets of lava.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "skills": {
+        "Stealth": 3
+      },
+      "sections": {
+        "Damage vulnerabilities": "Cold.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Ignan, Terran.",
+        "Traits": "Death Burst. When the mephit dies, each creature within 5 ft. makes a DC 11 Dexterity save against the lava burst. It deals 7 (2d6) fire damage on a failure or half damage on a success.\nFalse Appearance. A motionless mephit looks exactly like an ordinary mound of magma.\nElemental Nature. The mephit can go without food, drink, and sleep.",
+        "Innate spellcasting": "Charisma, spell save DC 10. Once per day, the mephit can cast Heat Metal without material components.",
+        "Actions": "Claws. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.\nFire Breath (Recharge 6). Each creature in a 15-ft. cone makes a DC 11 Dexterity save. The breath deals 7 (2d6) fire damage on a failure or half damage on a success.",
+        "Printed source": "Monster Manual (2014), p. 216. Elemental Nature, p. 215."
+      }
+    }
+  },
+  {
+    "name": "Magma Mephit (Summoner Variant)",
+    "statBlock": {
+      "name": "Magma Mephit (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Small elemental, neutral evil",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d6 + 5",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "An elemental of earth and fire that glows red and sweats droplets of lava.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "skills": {
+        "Stealth": 3
+      },
+      "sections": {
+        "Damage vulnerabilities": "Cold.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Ignan, Terran.",
+        "Traits": "Death Burst. When the mephit dies, each creature within 5 ft. makes a DC 11 Dexterity save against the lava burst. It deals 7 (2d6) fire damage on a failure or half damage on a success.\nFalse Appearance. A motionless mephit looks exactly like an ordinary mound of magma.\nElemental Nature. The mephit can go without food, drink, and sleep.",
+        "Innate spellcasting": "Charisma, spell save DC 10. Once per day, the mephit can cast Heat Metal without material components.",
+        "Actions": "Claws. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.\nFire Breath (Recharge 6). Each creature in a 15-ft. cone makes a DC 11 Dexterity save. The breath deals 7 (2d6) fire damage on a failure or half damage on a success.\nSummon Mephits (1/day). The mephit has a 25 percent chance to summon 1d4 magma mephits. Each appears in an unoccupied space within 60 ft. of the summoner and fights on its side. A summoned mephit cannot summon others. It vanishes after 1 minute, when either it or the summoner dies, or when the summoner spends an action to dismiss it.",
+        "Printed source": "Monster Manual (2014), p. 216. Elemental Nature, p. 215. Mephit Summoning variant, p. 217."
+      }
+    }
+  },
+  {
+    "name": "Steam Mephit",
+    "statBlock": {
+      "name": "Steam Mephit",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Small elemental, neutral evil",
+      "ac": 10,
+      "hp": 21,
+      "hitDice": "6d6",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "A bossy elemental of fire and water that hisses when offended and leaves hot puddles in its wake.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {},
+      "sections": {
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Aquan, Ignan.",
+        "Traits": "Death Burst. When the mephit dies, steam erupts around it. Each creature within 5 ft. takes 4 (1d8) fire damage unless it succeeds on a DC 10 Dexterity save.\nElemental Nature. The mephit can go without food, drink, and sleep.",
+        "Innate spellcasting": "Charisma. Once per day, the mephit can cast Blur without material components.",
+        "Actions": "Claws. Melee weapon attack, +2 to hit, reach 5 ft., one creature. Hit 2 (1d4) slashing damage plus 2 (1d4) fire damage.\nSteam Breath (Recharge 6). Each creature in a 15-ft. cone makes a DC 10 Dexterity save. The breath deals 4 (1d8) fire damage on a failure or half damage on a success.",
+        "Printed source": "Monster Manual (2014), p. 217. Elemental Nature, p. 215."
+      }
+    }
+  },
+  {
+    "name": "Steam Mephit (Summoner Variant)",
+    "statBlock": {
+      "name": "Steam Mephit (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "classification": "Small elemental, neutral evil",
+      "ac": 10,
+      "hp": 21,
+      "hitDice": "6d6",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "A bossy elemental of fire and water that hisses when offended and leaves hot puddles in its wake.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {},
+      "sections": {
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Aquan, Ignan.",
+        "Traits": "Death Burst. When the mephit dies, steam erupts around it. Each creature within 5 ft. takes 4 (1d8) fire damage unless it succeeds on a DC 10 Dexterity save.\nElemental Nature. The mephit can go without food, drink, and sleep.",
+        "Innate spellcasting": "Charisma. Once per day, the mephit can cast Blur without material components.",
+        "Actions": "Claws. Melee weapon attack, +2 to hit, reach 5 ft., one creature. Hit 2 (1d4) slashing damage plus 2 (1d4) fire damage.\nSteam Breath (Recharge 6). Each creature in a 15-ft. cone makes a DC 10 Dexterity save. The breath deals 4 (1d8) fire damage on a failure or half damage on a success.\nSummon Mephits (1/day). The mephit has a 25 percent chance to summon 1d4 steam mephits. Each appears in an unoccupied space within 60 ft. of the summoner and fights on its side. A summoned mephit cannot summon others. It vanishes after 1 minute, when either it or the summoner dies, or when the summoner spends an action to dismiss it.",
+        "Printed source": "Monster Manual (2014), p. 217, including the Mephit Summoning variant. Elemental Nature, p. 215."
+      }
+    }
+  }
+]

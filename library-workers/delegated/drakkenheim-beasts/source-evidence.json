@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Big Linda",
+    "kind": "beast",
+    "publication": "Dungeons of Drakkenheim",
+    "edition": "2014 fifth edition compatible",
+    "slug": "big-linda",
+    "entryId": "beast-65c1e9669993c8532194d10d",
+    "versionKey": "7f57e9827f61fb1d4b85080d",
+    "printedPage": 163,
+    "sourceUrl": "",
+    "digitalIndex": "https://www.dndbeyond.com/sources/dnd/dodr",
+    "licensedListing": "https://www.dndbeyond.com/monsters/4086095-big-linda",
+    "baseProfileUrl": "",
+    "query": "court of thieves",
+    "portraitReference": "images/beasts/big-linda/publisher-f6df8085eea92c06.webp",
+    "portraitSelection": "generated",
+    "printing": "English v1.1",
+    "viewerPage": 167,
+    "scanImage": "https://online.anyflip.com/wuzfu/tkrx/files/large/83da799e4554cb327ae575969f9fd9e7.webp",
+    "scanImageSha256": "49129be4d5e2fa600bebaea2258e7eafc86713ddb7d5c6244e1bd1b4526c1b05",
+    "scanVisuallyChecked": true
+  }
+]

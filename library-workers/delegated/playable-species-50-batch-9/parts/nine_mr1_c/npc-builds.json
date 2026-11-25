@@ -1,0 +1,264 @@
+{
+  "builds": [
+    {
+      "id": "mr-pegasus-willowbank",
+      "title": "Willowbank, Pegasus Barbarian 2",
+      "ac": 14,
+      "hp": 23,
+      "hitDice": "2d12+4",
+      "initiative": 2,
+      "speed": "40 ft. walk, 50 ft. fly",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Perception +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Reads and understands Common, Elvish, and Sylvan. Cannot speak.",
+      "traits": [
+        "Proficiency +2. Saves Strength +5 and Constitution +4. Unarmored Defense gives 10 + 2 Dex + 2 Con. No armor, shield, tools, or manufactured weapons.",
+        "Rage twice per long rest as a bonus action. For up to 1 minute, Strength checks and saves have advantage, Strength-based melee weapon attacks deal +2 damage, and Willowbank resists bludgeoning, piercing, and slashing. Rage ends if Willowbank falls unconscious, or at the end of a turn if it has neither attacked a hostile creature since its last turn nor taken damage since then. Willowbank can also end Rage as a bonus action.",
+        "Danger Sense grants advantage on Dexterity saves against effects Willowbank can see unless blinded, deafened, or incapacitated. On the first attack of a turn, Reckless Attack can grant advantage to Strength-based melee weapon attacks that turn, with advantage against Willowbank until the next turn."
+      ],
+      "actions": [
+        "Hooves. Melee weapon attack +5, reach 5 ft. Hit 1d8 + 3 bludgeoning, or 1d8 + 5 while raging."
+      ],
+      "tactics": "Willowbank lands between a trapped traveler and danger. It fights on foot when protecting someone and uses flight to leave once the crossing is clear.",
+      "size": "Medium",
+      "type": "Celestial",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR."
+    },
+    {
+      "id": "mr-piercer-flintdrop",
+      "title": "Flintdrop, Piercer Monk 1",
+      "ac": 17,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "speed": "5 ft. walk, 5 ft. climb",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Insight +4"
+      ],
+      "senses": "Blindsight 30 ft., darkvision 60 ft., passive Perception 12.",
+      "languages": "Reads and understands Common. Uses floor marks or body movement to respond.",
+      "traits": [
+        "Proficiency +2. Saves Strength +4 and Dexterity +4. Racial natural armor gives AC 17. Monk Unarmored Defense would give AC 14. Use one calculation. Flintdrop wears no armor or shield and carries no hand-dependent items.",
+        "False Appearance works after one minute motionless while concentrating as for a spell. Flintdrop typically starts with it in effect.",
+        "Martial Arts allows an unarmed bonus strike after an unarmed Attack action while unarmored and shieldless. Drop is its own action, so it does not trigger the bonus strike."
+      ],
+      "actions": [
+        "Drop. Melee weapon attack +4 against one creature directly below Flintdrop. A 30-ft. drop deals 3d6 piercing on a hit. A miss deals half the normal 3d6 falling damage to Flintdrop, rounded down. It lands prone if it takes that damage. Use 1d6 per 10 ft., up to 6d6 dealt to the target.",
+        "Shell bump. Unarmed melee +4, reach 5 ft. Hit 1d4 + 2 bludgeoning. A qualifying Attack action also allows one such strike as a bonus action."
+      ],
+      "tactics": "Flintdrop masks a 30-ft. drop above an unstable plank, waits until people cross clear of the weak board, and drops only on a threatening follower. Once grounded, it pushes toward the nearest wall and signals for room.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR."
+    },
+    {
+      "id": "mr-pseudodragon-needlewing",
+      "title": "Needlewing, Pseudodragon Rogue 2",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "15 ft. walk, 40 ft. fly",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +5",
+        "Stealth +7"
+      ],
+      "senses": "Blindsight 10 ft., darkvision 60 ft., passive Perception 15.",
+      "languages": "Reads and understands Common and Draconic. Cannot speak. Simple images and feelings through telepathy out to 100 ft. to a creature that understands a language.",
+      "traits": [
+        "Proficiency +2. Saves Dexterity +5 and Intelligence +3. Expertise in Perception and Stealth doubles their proficiency bonus. No armor, shield, weapons, or tools.",
+        "As a Tiny creature, Needlewing has one-quarter the normal lifting and carrying limits. It uses its own printed natural damage dice. Its telepathy does not grant verbal spell components.",
+        "Sneak Attack adds 1d6 once per turn on a qualifying finesse bite or sting. Require advantage, or another enemy of the target within 5 ft. of it who is not incapacitated, with no disadvantage on Needlewing’s attack."
+      ],
+      "actions": [
+        "Bite or sting. Finesse unarmed melee +5, reach 5 ft. Hit 1d4 + 3 piercing.",
+        "Cunning Action. Bonus action to Dash, Disengage, or Hide."
+      ],
+      "tactics": "Needlewing sends a mental image of the missing signal bell. If cornered, it approaches a distracted threat from the air, stings, and uses Cunning Action to Disengage.",
+      "size": "Tiny",
+      "type": "Dragon",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR."
+    },
+    {
+      "id": "mr-purple-worm-gritcoil",
+      "title": "Gritcoil, Purple Worm Barbarian 2",
+      "ac": 17,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "speed": "35 ft. walk, 20 ft. burrow, 10 ft. through solid rock",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Survival +3"
+      ],
+      "senses": "Blindsight 30 ft., blind beyond that range, immune to blinded. Passive Perception 11.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Saves Strength +5, Constitution +5. Natural armor gives AC 17. Barbarian Unarmored Defense would give AC 15. Gritcoil cannot wear armor or shields, wield weapons, or use tools requiring hands.",
+        "Rage twice per long rest as a bonus action. In a rage, Strength checks and saves have advantage, Strength-based melee weapon attacks deal +2 damage, and Gritcoil resists bludgeoning, piercing, and slashing. Rage lasts at most 1 minute and can end early under the class rules.",
+        "On its first attack each turn, Gritcoil can choose Reckless Attack for advantage on Strength-based melee weapon attacks that turn. Attacks against it then have advantage until its next turn. Danger Sense applies only to Dexterity-save effects it can perceive with blindsight, subject to the class limits.",
+        "Solid rock halves burrow speed and leaves a 16-inch tunnel. No encounter-stat-block swallow feature is used."
+      ],
+      "actions": [
+        "Bite. Unarmed melee weapon attack +5, reach 5 ft. Hit 1d8 + 3 piercing, or 1d8 + 5 while raging.",
+        "Stinger. Unarmed melee weapon attack +5, reach 5 ft. Hit 1d4 + 3 piercing plus 1d4 poison. While raging, use 1d4 + 5 piercing plus 1d4 poison."
+      ],
+      "tactics": "Gritcoil calls directions from its fresh shaft. If threatened, it approaches within blindsight range and bites to clear a retreat. It only uses Reckless Attack if it needs to stop a pursuer quickly.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR."
+    },
+    {
+      "id": "mr-remorhaz-sleetback",
+      "title": "Sleetback, Remorhaz Monk 1",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "speed": "30 ft. walk, 10 ft. burrow",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 15,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Insight +4"
+      ],
+      "senses": "Darkvision 120 ft., passive Perception 12.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Saves Strength +2, Dexterity +4. Natural armor gives AC 15. Monk Unarmored Defense would give AC 14. Sleetback carries no weapons, armor, or shield.",
+        "Resists cold and fire. Martial Arts allows Dexterity for unarmed attacks. Keep the printed damage for a bite and apply the ordinary bludgeoning Martial Arts die to the bonus strike."
+      ],
+      "actions": [
+        "Bite. Unarmed melee +4, reach 5 ft. Hit 1d4 + 2 piercing plus 1d4 fire.",
+        "Martial Arts. After taking the Attack action with an unarmed strike, make one bonus unarmed body strike at +4. Hit 1d4 + 2 bludgeoning.",
+        "Heated Body. Reaction after an attacker hits Sleetback with a melee attack. The attacker makes a DC 12 Dexterity save, taking 2d10 fire on a failure or half on a success. Once per long rest."
+      ],
+      "tactics": "Sleetback backs away from travelers and keeps watch on the ice above them. If attacked, it retaliates once with Heated Body and tries to dive into the snow.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Willowbank",
+      "role": "Ferry crossing sentinel",
+      "motive": "Keep the riverside rescue routes open in bad weather.",
+      "hook": "A winged horse paws twice at the ford and turns toward the upstream shallows. It waits for the party to follow.",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "species": "Pegasus",
+      "speciesPublication": "Monstrous Races (2018)",
+      "build": "mr-pegasus-willowbank"
+    },
+    {
+      "name": "Flintdrop",
+      "role": "Ceiling ambusher and passage keeper",
+      "motive": "Keep heavy-footed traffic off a weakened plank bridge.",
+      "hook": "Pebbles fall in a clear line just before the plank. A pointed shell on the ceiling turns a little every time someone nears it.",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "species": "Piercer",
+      "speciesPublication": "Monstrous Races (2018)",
+      "build": "mr-piercer-flintdrop"
+    },
+    {
+      "name": "Needlewing",
+      "role": "Signal tower scout",
+      "motive": "Recover the bell so the night watch can warn the ferries.",
+      "hook": "A palm-sized dragon meets the ferrymaster at the window, sending an image of a torn cord and wet bootprints.",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Tiny",
+      "species": "Pseudodragon",
+      "speciesPublication": "Monstrous Races (2018)",
+      "build": "mr-pseudodragon-needlewing"
+    },
+    {
+      "name": "Gritcoil",
+      "role": "Tunnel foreman",
+      "motive": "Cut an emergency air shaft before the lower passage closes.",
+      "hook": "A voice rises from a narrow bore in the stone. It asks the party to count the returning workers before it punches through the last wall.",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "species": "Purple Worm",
+      "speciesPublication": "Monstrous Races (2018)",
+      "build": "mr-purple-worm-gritcoil"
+    },
+    {
+      "name": "Sleetback",
+      "role": "Glacier path guide",
+      "motive": "Get a stranded sled team past a fragile patch of ice.",
+      "hook": "A narrow furrow cuts through the snow to an exposed ridge. The creature making it calls back in Common to follow the trench.",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "species": "Remorhaz",
+      "speciesPublication": "Monstrous Races (2018)",
+      "build": "mr-remorhaz-sleetback"
+    }
+  ]
+}

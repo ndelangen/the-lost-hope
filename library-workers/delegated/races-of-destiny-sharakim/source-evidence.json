@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Sharakim",
+    "kind": "species",
+    "publication": "Races of Destiny (2004)",
+    "edition": "3.5 edition",
+    "book": "Races of Destiny",
+    "authors": [
+      "David Noonan",
+      "Eric Cagle",
+      "Aaron Rosenberg"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "December 2004",
+    "productCode": "620-17737-001-EN",
+    "isbn": "0-7869-3653-3",
+    "printedPages": {
+      "originLegend": 23,
+      "sharakimOrigins": 102,
+      "appearanceAndArt": 103,
+      "playableTraits": [
+        104,
+        105
+      ],
+      "ageTable": 110
+    },
+    "pdfPages": {
+      "appearanceAndArt": 104,
+      "playableTraits": [
+        105,
+        106
+      ]
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "aeef7483692ab3c6495976fcf6e747ad76462aec5443bee33782e0922b7df835",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Eric Polak, p. 103 Sharakim",
+    "sourceDistinctions": [
+      "The original labels the subtype Human and gives darkvision 60 ft.",
+      "Light Sensitivity is a penalty to attack rolls, without a broader dazzled condition.",
+      "The named hunter Sharak is a creation-legend figure. Maren and Oswin are original builds."
+    ],
+    "entryId": "species-5f1a01e8275c1c24ebe4eed5",
+    "versionKey": "147a198619387751d088ede1",
+    "slug": "sharakim",
+    "portraitSelection": "generated",
+    "portraitForm": "Maren Eldermere, an original Sharakim Wizard",
+    "npcExamples": [
+      "Maren Eldermere",
+      "Oswin Fenlock"
+    ]
+  }
+]

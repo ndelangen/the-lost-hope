@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Giant Frog",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Frog",
+    "printedColumn": "Giant",
+    "printedPages": [
+      119
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 119,
+        "viewerPage": 122,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/eb733e29de9e9cd310bd83dcba021125.webp",
+        "sha256": "4d6898e846b17a8437f2ba4957bfc56db75c3ed55f50abcc5b5844d690e0ec40"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "5–40",
+    "organization": "Pack",
+    "printedFamilyArtwork": {
+      "printedPage": 119,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-9eac7a553c5f1cd52724dc6f",
+    "versionKey": "834b0fb66bb150294bb5469d",
+    "slug": "giant-frog",
+    "query": "giant frog swallowed tongue 33%",
+    "appearanceQuery": "giant frog larger ordinary camouflage",
+    "habitatQuery": "giant frog fresh water aquatic predators",
+    "portraitSelection": "generated",
+    "printedHitDiceField": "1+3",
+    "digitalHitDiceField": "1–3",
+    "proseHitDiceVariants": [
+      1,
+      2,
+      3
+    ],
+    "printedThac0ByHitDice": {
+      "1": 19,
+      "2": 16,
+      "3": 16
+    },
+    "printedXpByHitDice": {
+      "1": 120,
+      "2": 175,
+      "3": 270
+    },
+    "stagedOverlap": {
+      "publication": "Night of the Walking Dead",
+      "edition": "AD&D 2nd edition"
+    },
+    "portraitEvidence": "An ordinary frog enlarged, with camouflage. Green-olive coloring and leg markings take inspiration from the unlabelled family illustration."
+  },
+  {
+    "name": "Killer Frog",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Frog",
+    "printedColumn": "Killer",
+    "printedPages": [
+      119
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 119,
+        "viewerPage": 122,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/eb733e29de9e9cd310bd83dcba021125.webp",
+        "sha256": "4d6898e846b17a8437f2ba4957bfc56db75c3ed55f50abcc5b5844d690e0ec40"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "3–18",
+    "organization": "Pack",
+    "printedFamilyArtwork": {
+      "printedPage": 119,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-c9b999baeb9447ce7391aa0a",
+    "versionKey": "5d1775a2168b7cda6484f90b",
+    "slug": "killer-frog",
+    "query": "killer frog sharp teeth front talons",
+    "appearanceQuery": "killer frog smaller sharp teeth",
+    "habitatQuery": "killer frog fresh water aquatic habitat",
+    "portraitSelection": "generated",
+    "portraitEvidence": "The teeth and forefoot talons are printed details. The olive-brown color and crouch are illustration choices."
+  },
+  {
+    "name": "Poisonous Frog",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Frog",
+    "printedColumn": "Poisonous",
+    "printedPages": [
+      119
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 119,
+        "viewerPage": 122,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/eb733e29de9e9cd310bd83dcba021125.webp",
+        "sha256": "4d6898e846b17a8437f2ba4957bfc56db75c3ed55f50abcc5b5844d690e0ec40"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "2–12",
+    "organization": "Pack",
+    "printedFamilyArtwork": {
+      "printedPage": 119,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-a35dc1daea10c2221b4c5d6a",
+    "versionKey": "611fde8ca21e1e859ff5cd07",
+    "slug": "poisonous-frog",
+    "query": "poisonous frog contact poison +4 save",
+    "appearanceQuery": "poisonous frog ordinary small frog",
+    "habitatQuery": "poisonous frog fresh water waterways",
+    "portraitSelection": "generated",
+    "printedSizeField": "T (6′–1′ long)",
+    "poisonSaveBonus": 4,
+    "failedPoisonSaveOutcomePrinted": false,
+    "portraitEvidence": "The ordinary frog outline follows the prose. Brown-ochre colors and dark spots are illustration choices."
+  }
+]

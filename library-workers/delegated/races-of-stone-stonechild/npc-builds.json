@@ -1,0 +1,131 @@
+{
+  "builds": [
+    {
+      "id": "stonechild-cartwright-35e",
+      "title": "Stonechild cartwright, 2 Outsider HD and Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 4. ECL 7.",
+      "size": "Medium",
+      "type": "Outsider (Earth, Extraplanar)",
+      "ac": 21,
+      "hp": 37,
+      "hitDice": "2d8+1d10+18",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 23,
+        "DEX": 12,
+        "CON": 22,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Appraise +6, or +8 on related stonework",
+        "Climb +8",
+        "Craft (stoneworking) +10",
+        "Intimidate +0",
+        "Knowledge (history) +6",
+        "Knowledge (the planes) +6",
+        "Listen +6",
+        "Search +6",
+        "Spot +6",
+        "Survival +6"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Terran, Dwarven",
+      "traits": [
+        "Chain shirt +4, heavy wooden shield +2, natural armor +4, and Dexterity +1. Touch 11, flat-footed 20. Armor check penalty −4. BAB +3, grapple +9. Fortitude +11, Reflex +4, Will +4.",
+        "Immune to acid and poison.",
+        "Blind-Fight is racial. The other feats are Skill Focus (Craft [stoneworking]), Power Attack, and Weapon Focus (warhammer). Weapon Focus and Skill Focus are included in the totals.",
+        "Search gives +2 synergy on Survival to follow tracks. Knowledge (the planes) gives +2 synergy on Survival on other planes. Apply both when both conditions hold.",
+        "Miren is on the Material Plane. She has two racial Hit Dice, one Fighter Hit Die, and +4 level adjustment."
+      ],
+      "actions": [
+        "Warhammer +10 melee, 1d8+6 bludgeoning, critical ×3, 5-ft. reach. For Power Attack, subtract up to 3 from melee attack rolls and add the same number to damage with the one-handed warhammer.",
+        "Javelin +4 ranged, 1d6+6 piercing, critical ×2, 30-ft. increment.",
+        "Magic Stone 3/day, caster level 3. Miren can throw an enchanted pebble at +5.",
+        "Each use of Magic Stone (Sp) enchants up to three touched pebbles for 30 minutes or until discharged. The printed spell lists 1d6+1 damage on a hit, or 2d6+2 against undead. Use a normal ranged attack with a +1 enhancement bonus, at a 20-ft. increment if thrown or 50 ft. if slung."
+      ],
+      "tactics": "Miren checks the cracked axle before anyone pulls the cart across the ford. She asks the party to bring the two stone bearing blocks from upstream. If the disturbance reaches the bank, she uses her shield to cover the crew and saves enchanted pebbles for undead."
+    },
+    {
+      "id": "stonechild-quarry-marker-35e",
+      "title": "Stonechild quarry marker, Stonechild monster class 3",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 3.",
+      "size": "Medium",
+      "type": "Outsider (Earth, Extraplanar)",
+      "ac": 16,
+      "hp": 13,
+      "hitDice": "1d8+5",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 12,
+        "CON": 20,
+        "INT": 14,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Appraise +6",
+        "Climb +6",
+        "Craft (stoneworking) +6",
+        "Intimidate +3",
+        "Knowledge (history) +6",
+        "Knowledge (the planes) +6",
+        "Listen +6",
+        "Search +6",
+        "Spot +6",
+        "Survival +4"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Terran, Dwarven, Ignan",
+      "traits": [
+        "Studded leather +3, natural armor +2, Dexterity +1. Touch 11, flat-footed 15. Armor check penalty −1. BAB +1, grapple +4. Fortitude +7, Reflex +3, Will +2.",
+        "Immune to acid and poison.",
+        "At monster-class level 3, Nalin has one racial Hit Die and +4 Strength, +6 Constitution, +2 Intelligence, and −2 Charisma from the progression. The second Hit Die and Blind-Fight arrive at level 4.",
+        "Each listed class skill has four ranks. Alertness adds +2 to Listen and Spot, already included. Nalin is on the Material Plane."
+      ],
+      "actions": [
+        "Longspear +4 melee, 1d8+4 piercing, critical ×3, hits at 10 ft.",
+        "Heavy mace +4 melee, 1d8+3 bludgeoning, critical ×2, 5-ft. reach.",
+        "Magic Stone 1/day, caster level 3. Nalin can throw an enchanted pebble at +3.",
+        "Each use of Magic Stone (Sp) enchants up to three touched pebbles for 30 minutes or until discharged. The printed spell lists 1d6+1 damage on a hit, or 2d6+2 against undead. Use a normal ranged attack with a +1 enhancement bonus, at a 20-ft. increment if thrown or 50 ft. if slung."
+      ],
+      "tactics": "Nalin is replacing chipped boundary markers before the quarry crews change shifts. He asks the party to walk the new line with him and find the marker that moved overnight. If threatened, he keeps watch from behind the boundary wall with three enchanted pebbles at hand."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Stonechild",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Stone (2004)",
+      "name": "Miren Slatefold",
+      "build": "stonechild-cartwright-35e",
+      "role": "Cartwright and Fighter.",
+      "motive": "Repair the cracked axle before a wagon and its crew have to ford the river.",
+      "hook": "Miren can replace the bearing blocks if the party carries them down from the old landing."
+    },
+    {
+      "species": "Stonechild",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Stone (2004)",
+      "name": "Nalin Flintwell",
+      "build": "stonechild-quarry-marker-35e",
+      "role": "Quarry marker and Stonechild monster class 3.",
+      "motive": "Determine why one boundary marker is out of line before the next shift begins.",
+      "hook": "Nalin asks the party to follow the quarry line and check the stone that moved overnight."
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Addazahr (Backbiter)",
+    "kind": "beast",
+    "publication": "Corsairs of the Great Sea",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A slender pale-amber flying insect about 2 inches long, with a straw-like body and nearly transparent wings.",
+    "combat": {
+      "armorClass": 4,
+      "hitDice": "1 hp",
+      "movement": "6, Fl 18 (B)",
+      "thac0": 20,
+      "size": "T, 2 inches long",
+      "numberOfAttacks": 1,
+      "damageDice": "1 + disease",
+      "xp": 15,
+      "hitPoints": 1,
+      "habitats": [
+        "Desert",
+        "Hills",
+        "Plains",
+        "Seasonal grasslands of Zakhara"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Bite",
+          "effectNote": "Deals 1 damage. A human or non-burden animal saves vs. paralyzation or develops sore, swollen joints. The separate beast-of-burden rule causes back pain and weakness that prevents carrying loads or traveling far."
+        },
+        {
+          "name": "Recovery",
+          "effectNote": "A cure disease spell cures the effect. Without magical treatment it lasts about two weeks."
+        }
+      ],
+      "Traits": [
+        {
+          "name": "Fragile",
+          "effectNote": "Any hit destroys an individual. Normal or magical cold and fire can harm it. It drowns if submerged and prevented from getting out."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Arrival at Adhal",
+          "effectNote": "The affected camels show symptoms on the second night of travel. A successful Desert Survival or Healing proficiency check identifies the cause. See Adventure Book p. 8."
+        }
+      ]
+    },
+    "notes": [
+      "Neutral, animal intelligence 1, morale 6. Uncommon, daytime, omnivorous, and encountered in groups of 6–60. The block gives each insect 1 HP.",
+      "The source gives a paralyzation save for people and other animals and gives no separate save in the beast-of-burden paragraph.",
+      "The second-night timing belongs to the camel encounter. The animal entry gives no general onset time.",
+      "TSR, Corsairs of the Great Sea (1994), unnumbered Monstrous Compendium leaf, p. 100."
+    ]
+  },
+  {
+    "name": "Electric Eel",
+    "kind": "beast",
+    "publication": "Corsairs of the Great Sea",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A long-bodied electric eel, 9 ft. long in the printed encounter.",
+    "combat": {
+      "armorClass": 9,
+      "hitDice": "2",
+      "movement": "Sw 12",
+      "thac0": 16,
+      "size": "L, 9 ft. long",
+      "numberOfAttacks": 1,
+      "damageDice": "1d3",
+      "xp": 65,
+      "hitPoints": 16
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Electric discharge",
+          "effectNote": "Once an hour, the eel releases a shock in a 15-ft. radius. It deals 3d8 electrical damage within 5 ft., 2d8 from 5 to 10 ft., and 1d8 to everyone else within range."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Reception Pool",
+          "effectNote": "The eel attacks disturbances in area 4’s water-filled pit. A character who falls in begins within 5 ft. unless they flee as soon as they spot the eel."
+        }
+      ]
+    },
+    "notes": [
+      "Neutral, nonintelligent, morale 7. The encounter fixes this eel at 16 HP.",
+      "The printed distance bands overlap at exactly 5 ft. The source gives no saving throw for the discharge.",
+      "TSR, Corsairs of the Great Sea (1994), Adventure Book p. 24."
+    ]
+  },
+  {
+    "name": "Shark",
+    "kind": "beast",
+    "publication": "Corsairs of the Great Sea",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A shark about 12 ft. long in the Terrapin Isle encounter.",
+    "combat": {
+      "armorClass": 6,
+      "hitDice": "7",
+      "movement": "Sw 24",
+      "thac0": 13,
+      "size": "L, 12 ft. long",
+      "numberOfAttacks": 1,
+      "damageDice": "3d4",
+      "xp": 420,
+      "hitPoints": 40,
+      "habitats": [
+        "Waters around Terrapin Isle"
+      ]
+    },
+    "mechanics": {
+      "Encounters": [
+        {
+          "name": "Terrapin Isle",
+          "effectNote": "Six sharks accompany the malenti in the water and attack characters forced into it. They are listed at 40 HP and 420 XP each."
+        }
+      ]
+    },
+    "notes": [
+      "Neutral, nonintelligent, morale 10.",
+      "TSR, Corsairs of the Great Sea (1994), Adventure Book p. 52."
+    ]
+  },
+  {
+    "name": "Giant Shark",
+    "kind": "beast",
+    "publication": "Corsairs of the Great Sea",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A gargantuan shark, about 30 ft. long in the Terrapin Isle encounter.",
+    "combat": {
+      "armorClass": 5,
+      "hitDice": "11",
+      "movement": "Sw 18",
+      "thac0": 9,
+      "size": "G, 30 ft. long",
+      "numberOfAttacks": 1,
+      "damageDice": "4d4",
+      "xp": 3000,
+      "hitPoints": 68,
+      "habitats": [
+        "Waters around Terrapin Isle"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Swallow whole",
+          "effectNote": "The giant shark can swallow prey when its attack roll is at least 4 above the minimum needed to hit. Swallowed creatures take 20 damage each round. They can attack from within at a cumulative −1 penalty per round. Killing the shark is the only printed escape."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Terrapin Isle",
+          "effectNote": "Two giant sharks are listed in the malenti encounter, with 68 HP and 3,000 XP each."
+        }
+      ]
+    },
+    "notes": [
+      "Neutral, nonintelligent, morale 11.",
+      "TSR, Corsairs of the Great Sea (1994), Adventure Book p. 52."
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "artGroup": "kryptgarden-giant-eagle",
+    "file": "portraits/kryptgarden-giant-eagle.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d2e302ad06847383fe3b03957c16417d8128dbc1225857c73d4b4eeeaa3cd49b",
+    "credit": "OpenAI ImageGen",
+    "prompt": "Create one square fantasy bestiary portrait of the corrupted Giant Eagle from Corruption in Kryptgarden. The adventure describes a gaunt, emaciated flying form with large feathered wings. Paint the eagle banked slightly toward the viewer with both wings held partly spread in an upward open posture, its compact wing arrangement contained safely within a circular framing. A lean raptor body with a bony head and narrow feathered breast, large hooked yellow-gray beak, a penetrating amber eye, powerful talons, and irregular ruffled smoky brown and dusty ochre plumage. The wings remain fully feathered and plausible. Use slightly uneven feathers and gaunt silhouette for its corruption, without glow, rot or wounds. Let the soft matte parchment meet only the animal; a very faint shadow under its talons is optional. Use the attached image only as an exact stylistic reference for natural-history painting, lighting, and its muted matte tan parchment. Plain, evenly lit warm tan paper with subtle fine grain from edge to edge. One isolated full-body specimen, readable at thumbnail size, generous margins for a centered circular crop. Realistic anatomy and finely rendered textures, restrained colors and gentle tonal modeling. No scenery, landscape, vegetation outside the body, paper stain, border, frame, vignette, text, lettering, props, guilt shadows, strong atmospheric effects, or gore."
+  },
+  {
+    "artGroup": "kryptgarden-giant-owl",
+    "file": "portraits/kryptgarden-giant-owl.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "5a986cd463741a04c04c707fb1e58443a989b1dd6337d5a89ad5b9ee5a083dbd",
+    "credit": "OpenAI ImageGen",
+    "prompt": "Create one square fantasy bestiary portrait of the Giant Owl from Corruption in Kryptgarden. The aerial interceptors are described as gaunt and feathered. Paint a very large, lean barn-owl-like bird with tall forward-facing facial disc and deep dark eyes, a sharp beak, an emaciated chest visible through narrowly layered feathers and gray-brown mottled plumage with a pale face. One entire owl seen in three-quarter frontal angle, crouched with both wings partly raised and bowed in, talons visible near a subtle contact shadow on the blank paper. Keep both feathered wing tips and feet well inside the centered circle. Keep convincingly owlish rounded facial structure, distinctive gray and cream markings, and tattered-looking feather edges without gore, moss or magical effects. Use the attached image only as an exact stylistic reference for natural-history painting, lighting, and its muted matte tan parchment. Plain, evenly lit warm tan paper with subtle fine grain from edge to edge. One isolated full-body specimen, readable at thumbnail size, generous margins for a centered circular crop. Realistic anatomy and finely rendered textures, restrained colors and gentle tonal modeling. No scenery, landscape, vegetation outside the body, paper stain, border, frame, vignette, text, lettering, props, guilt shadows, strong atmospheric effects, or gore."
+  },
+  {
+    "artGroup": "kryptgarden-wolf",
+    "file": "portraits/kryptgarden-wolf.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "daa18511ed1ba746492017ed57118d5e3fbcdd1fd1897f51139203570792e737",
+    "credit": "OpenAI ImageGen",
+    "prompt": "Create one square fantasy bestiary portrait of the corrupted Wolf from Corruption in Kryptgarden, faithfully depicting a living wolf with mangy fur, green moss growing from its skin, and dark green drool. Paint one entire lean wolf in three-quarter side view, alert, head slightly turned toward the viewer. Clear long wolf muzzle, pointed ears, gray-brown ragged fur thin or patchy at the shoulder and flank, concentrated natural moss growth in muted deep green along a few exposed patches, some irregular green moss on the shoulder and spine. A short, dark green strand of drool hangs from one side of the mouth. Green is non-luminous. Realistic quadrupedal wolf anatomy, only a faint contact shadow below grounded paws, whole body and bushy tail contained safely within a centered circular crop. No injuries or visible blood. Use the attached image only as an exact stylistic reference for natural-history painting, lighting, and its muted matte tan parchment. Plain, evenly lit warm tan paper with subtle fine grain from edge to edge. One isolated full-body specimen, readable at thumbnail size, generous margins for a centered circular crop. Realistic anatomy and finely rendered textures, restrained colors and gentle tonal modeling. No scenery, landscape, vegetation outside the body, paper stain, border, frame, vignette, text, lettering, props, guilt shadows, strong atmospheric effects, or gore."
+  }
+]

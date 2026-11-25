@@ -1,0 +1,79 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Birdfolk Farmer",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/birdfolk-farmer/source-related-birdfolk-dockmaster.webp",
+    "artist": "Related creature art: Birdfolk Dockmaster",
+    "kind": "illustration",
+    "sha256": "3392343fe6d3f941fd7100cd5f512c2538a71fc81f73dc72c3ef8667f96616a7",
+    "reference": "images/monsters/birdfolk-dockmaster/publisher-aa26d37c68740211.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Birdfolk Guard",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/birdfolk-guard/source-related-birdfolk-skirmisher.webp",
+    "artist": "Related creature art: Birdfolk Skirmisher",
+    "kind": "illustration",
+    "sha256": "4f932f69935a5ee3c6c7e8b0f91047f9ad78828597f07120e85cac5c495ec78d",
+    "reference": "images/monsters/birdfolk-skirmisher/publisher-1a246fc68fa9f435.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Birdfolk Militia",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/birdfolk-militia/source-related-birdfolk-skirmisher.webp",
+    "artist": "Related creature art: Birdfolk Skirmisher",
+    "kind": "illustration",
+    "sha256": "4f932f69935a5ee3c6c7e8b0f91047f9ad78828597f07120e85cac5c495ec78d",
+    "reference": "images/monsters/birdfolk-skirmisher/publisher-1a246fc68fa9f435.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Birdfolk Sailor",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/birdfolk-sailor/source-related-birdfolk-dockmaster.webp",
+    "artist": "Related creature art: Birdfolk Dockmaster",
+    "kind": "illustration",
+    "sha256": "3392343fe6d3f941fd7100cd5f512c2538a71fc81f73dc72c3ef8667f96616a7",
+    "reference": "images/monsters/birdfolk-dockmaster/publisher-aa26d37c68740211.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Cervan Priest",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/cervan-priest/source-related-cervan-bandit-general.webp",
+    "artist": "Related creature art: Cervan Bandit General",
+    "kind": "illustration",
+    "sha256": "bb68391bfe0fd896e9ff4d10a3b9c7ce7d9e44c18332db5f89d66460a63fd9b8",
+    "reference": "images/monsters/cervan-bandit-general/publisher-2f53db3a207a4279.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Corvum Assassin",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/corvum-assassin/source-related-corvum-diviner.webp",
+    "artist": "Related creature art: Corvum Diviner",
+    "kind": "illustration",
+    "sha256": "424cde1aa744312919ea85ccaac52714cd587a4d7bb55e256c0388ecc7c543f5",
+    "reference": "images/monsters/corvum-diviner/publisher-b9895dd646a672d9.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Gallus Druid",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "file": "images/monsters/gallus-druid/source-related-gallus-monk.webp",
+    "artist": "Related creature art: Gallus Monk",
+    "kind": "illustration",
+    "sha256": "4d737cd01c11ad0b5de4d18c6b8d53a8c89ca7f1c2c8ee3c9f04117041e39982",
+    "reference": "images/monsters/gallus-monk/publisher-05581dfcc09efc06.webp"
+  }
+]

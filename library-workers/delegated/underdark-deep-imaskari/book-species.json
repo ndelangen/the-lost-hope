@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Deep Imaskari",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium human subrace. +2 Intelligence and −2 Dexterity. Land speed 30 ft. No racial Hit Dice or positive level adjustment listed.",
+      "Low-light vision doubles human sight distance in poor illumination and preserves color and detail.",
+      "Spell Clutch (Su). Once per day, use a standard action to prepare again one 1st-level spell you previously prepared and cast. Cast the spell separately when needed. The supernatural activation does not provoke an attack of opportunity.",
+      "+4 on Hide checks while underground.",
+      "Common and Roushoum are automatic. Bonus languages are Aquan, Dwarven, Elven, Terran, and Undercommon, or by region. The Deep Imaskar region lists Abyssal, Aquan, Celestial, Draconic, Terran, and Undercommon. Favored class Wizard.",
+      "Ability scores follow the racial traits on p. 9. The summary table on p. 6 instead lists a Strength penalty."
+    ]
+  }
+]

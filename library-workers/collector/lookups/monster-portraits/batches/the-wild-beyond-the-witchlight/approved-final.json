@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "shadow-variant",
+    "name": "Shadow (Variant)",
+    "entryId": "monster-4569d45d312c3f9483623a09",
+    "input": "",
+    "reference": "/shadow/mm-1.webp",
+    "subjectPrompt": "The detached Fey shadow of a high elf carnival acrobat, shown in its own right. Slender evocative dark purple-black contoured silhouette in a light dancing pose, knees slightly bent and one hand pointed upwards. Subtle long pointed ears and a visibly crescent-shaped theatrical face mask picked in pale aged moon-silver, following the outline of her face. Streamlined costume and cape suggested only by shape, nearly flattened smoke-like darkness and a little trailing ink at feet. No human standing beside it, no skull face, no extra silhouettes.",
+    "prompt": "Use the first attachment only for warm parchment tone and fine rendering style. One original square fantasy bestiary painting, muted detailed gouache and fine sepia ink on plain golden parchment from edge to edge. Isolated entire subject in comfortable blank margins, composition and face legible at small thumbnail size. All corners entirely blank parchment. No inset silhouettes, identifiers, frame, watermark, letters or landscape. Follow any extra attachments only as reference for contextual visual traits, without copying pose or likeness. The detached Fey shadow of a high elf carnival acrobat, shown in its own right. Slender evocative dark purple-black contoured silhouette in a light dancing pose, knees slightly bent and one hand pointed upwards. Subtle long pointed ears and a visibly crescent-shaped theatrical face mask picked in pale aged moon-silver, following the outline of her face. Streamlined costume and cape suggested only by shape, nearly flattened smoke-like darkness and a little trailing ink at feet. No human standing beside it, no skull face, no extra silhouettes.",
+    "appearanceSource": "The Wild Beyond the Witchlight"
+  },
+  {
+    "slug": "will-o-wisp-variant",
+    "name": "Will-o’-Wisp (Variant)",
+    "entryId": "monster-4b8c6677d2143a18f663d39e",
+    "input": "",
+    "reference": "/will-o-wisp/mm-1.webp",
+    "subjectPrompt": "A single kindly drowned-spirit will-o'-wisp from Hither in the Feywild, a small hovering round pale pale mint-teal light with a pearl-white core. Its faint and gentle outer glow looks like spreading water ripples and thin mist caught in a breeze. An almost imperceptible impression of a kind expression near the core, abstract and minimal. A few old grey-green well stones directly below at the bottom of the composition are a subtle reference to its origin. No skeleton or visible scene. Leave most of the canvas softly blank.",
+    "prompt": "Use the first attachment only for warm parchment tone and fine rendering style. One original square fantasy bestiary painting, muted detailed gouache and fine sepia ink on plain golden parchment from edge to edge. Isolated entire subject in comfortable blank margins, composition and face legible at small thumbnail size. All corners entirely blank parchment. No inset silhouettes, identifiers, frame, watermark, letters or landscape. Follow any extra attachments only as reference for contextual visual traits, without copying pose or likeness. A single kindly drowned-spirit will-o'-wisp from Hither in the Feywild, a small hovering round pale pale mint-teal light with a pearl-white core. Its faint and gentle outer glow looks like spreading water ripples and thin mist caught in a breeze. An almost imperceptible impression of a kind expression near the core, abstract and minimal. A few old grey-green well stones directly below at the bottom of the composition are a subtle reference to its origin. No skeleton or visible scene. Leave most of the canvas softly blank.",
+    "appearanceSource": "The Wild Beyond the Witchlight"
+  },
+  {
+    "slug": "witchlight-hand",
+    "name": "Witchlight Hand",
+    "entryId": "monster-dc9e799be547bdbeed9973e8",
+    "input": "",
+    "reference": "/witchlight-hand-medium/wbtw-1.webp, /witchlight-hand-small/wbtw-1.webp",
+    "subjectPrompt": "One adult representative Witchlight Carnival worker with a practical but theatrical costume, human with warm brown skin, cheery crooked grin, painted brow accents, curly black hair and whimsical patterned purple and teal wool cap. A working vest in muted marigold and violet, pale simple ruff, practical dark trousers, little cloth butterfly-wing costume folded at the shoulder blades. A small copper lantern in one hand and a simple pouch of stage tools belted low. Performer and stagehand feel, full figure, grounded textured costume. Use attached staff tokens only for family resemblance of costume colors and material. No other people.",
+    "prompt": "Use the first attachment only for warm parchment tone and fine rendering style. One original square fantasy bestiary painting, muted detailed gouache and fine sepia ink on plain golden parchment from edge to edge. Isolated entire subject in comfortable blank margins, composition and face legible at small thumbnail size. All corners entirely blank parchment. No inset silhouettes, identifiers, frame, watermark, letters or landscape. Follow any extra attachments only as reference for contextual visual traits, without copying pose or likeness. One adult representative Witchlight Carnival worker with a practical but theatrical costume, human with warm brown skin, cheery crooked grin, painted brow accents, curly black hair and whimsical patterned purple and teal wool cap. A working vest in muted marigold and violet, pale simple ruff, practical dark trousers, little cloth butterfly-wing costume folded at the shoulder blades. A small copper lantern in one hand and a simple pouch of stage tools belted low. Performer and stagehand feel, full figure, grounded textured costume. Use attached staff tokens only for family resemblance of costume colors and material. No other people.",
+    "appearanceSource": "The Wild Beyond the Witchlight"
+  }
+]

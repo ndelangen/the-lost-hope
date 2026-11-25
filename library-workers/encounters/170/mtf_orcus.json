@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Orcus",
+    "statBlock": {
+      "name": "Orcus",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 153,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 17,
+      "hp": 405,
+      "hitDice": "30d12 + 210",
+      "speed": "40 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 22,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The Demon Prince of Undeath rules from Naratyr, a fortress city on Thanatos. He rewards cultists who raise the dead and keeps an undead army under his command.",
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 15,
+        "Wis": 13
+      },
+      "skills": {
+        "Arcana": 12,
+        "Perception": 12
+      },
+      "sections": {
+        "Armor": "Natural armor. AC 20 while holding the Wand of Orcus.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Necrotic, poison. Bludgeoning, piercing, and slashing from nonmagical sources.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Traits": "Wand of Orcus. The wand holds up to 7 charges and regains 1d4 + 3 at dawn. Its abilities that call for a save use DC 18. While holding it, Orcus can use an action to cast Animate Dead, Blight, or Speak with Dead. He can also cast Circle of Death or Finger of Death for 1 charge each, or Power Word Kill for 2 charges.\nLegendary Resistance (3/day). If Orcus fails a saving throw, he can choose to succeed.\nMagic Resistance. Orcus has advantage on saves against spells and other magical effects.\nMagic Weapons. Orcus’s weapon attacks are magical.\nMaster of Undeath. Orcus chooses the spell level when he casts Animate Dead or Create Undead. The creatures they create remain under his control indefinitely. He can cast Create Undead at any time of day.",
+        "Innate Spellcasting": "Orcus uses Charisma (spell save DC 23, +15 to hit with spell attacks). He needs no material components.\nAt will. Chill Touch (17th level), Detect Magic.\n3/day each. Create Undead, Dispel Magic.\n1/day. Time Stop.",
+        "Actions": "Multiattack. Make two Wand of Orcus attacks.\nWand of Orcus. Melee weapon attack, +19 to hit, reach 10 ft., one target. A hit deals 21 (3d8 + 8) bludgeoning damage plus 13 (2d12) necrotic damage.\nTail. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 21 (3d8 + 8) piercing damage plus 9 (2d8) poison damage.\nConjure Undead (Wand of Orcus, once per dawn). While holding the wand, Orcus creates undead creatures with no more than 500 combined average hit points. They appear in unoccupied spaces within 300 ft. and obey him until destroyed or dismissed. Dismissing them takes an action.",
+        "Legendary actions": "Orcus has 3 legendary actions and regains spent actions at the start of his turn. He can use one option at the end of another creature’s turn.\nTail (1 action). Make one Tail attack.\nA Taste of Undeath (1 action). Cast Chill Touch at 17th level.\nCreeping Death (2 actions). Choose a point on the ground Orcus can see within 100 ft. A cylinder 60 ft. high with a 10-ft. radius appears there until the end of Orcus’s next turn. Creatures inside have vulnerability to necrotic damage.",
+        "Lair actions": "On initiative count 20, losing initiative ties, Orcus can use one option. He cannot pick the same option two rounds in a row.\nPower Word Kill. One creature Orcus knows is in the lair is subject to Power Word Kill. He can choose it without seeing it. The spell uses its normal hit-point threshold.\nAnimate Corpses. Raise up to six corpses in the lair as skeletons, zombies, or ghouls. They obey Orcus by telepathy from anywhere in the lair.\nSkeletal Arms. Choose a 20-ft. square on the ground Orcus can see. Each creature in the square when the arms appear must succeed on a DC 23 Strength save or be restrained. The arms vanish at the next initiative count 20. Orcus can release their grasp before then without taking an action.",
+        "Regional effects": "Dead beasts sometimes animate, and skeletal or zombified local wildlife roam the area.\nThe air reeks of decay and swarms with flies, even without carrion.\nA humanoid who spends at least 1 hour within 1 mile of the lair must make a DC 23 Wisdom save. On a failure, roll on the Madness of Orcus table. A success grants immunity to this regional effect for 24 hours.\nAfter Orcus dies, these effects fade over 1d10 days.",
+        "Madness of Orcus": "Roll d100 when a creature succumbs to this madness in the lair or within Orcus’s sight. The resulting flaw lasts until cured.\n01–20. Withdraws into bitter thoughts about living.\n21–40. Feels driven to torment the weak.\n41–60. Disturbs the dead freely while trying to understand death.\n61–80. Seeks to become undead and endure forever.\n81–100. Dwells on the futility of life.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 152–153. Official errata removes the listed saving throw from the first lair action."
+      }
+    }
+  },
+  {
+    "name": "Orthon",
+    "statBlock": {
+      "name": "Orthon",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 169,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 17,
+      "hp": 105,
+      "hitDice": "10d10 + 50",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This infernal bounty hunter turns invisible to stalk prey. Its specialized crossbow bolts can disable or track a quarry.",
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 10,
+        "Stealth": 11,
+        "Survival": 10
+      },
+      "sections": {
+        "Armor": "Half plate armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, poisoned.",
+        "Senses": "Darkvision 120 ft., truesight 30 ft.",
+        "Languages": "Common, Infernal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. The orthon has advantage on saves against spells and other magical effects.",
+        "Bonus actions": "Invisibility Field. The orthon and the gear it wears or carries become invisible. The effect ends as soon as the orthon makes an attack roll or an attack hits it.",
+        "Actions": "Infernal Dagger. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 11 (2d4 + 6) slashing damage. The target must make a DC 17 Constitution save. On a failure, it takes 22 (4d10) poison damage and is poisoned for 1 minute. On a success, it takes half the poison damage. A poisoned target can repeat the save at the end of each of its turns to end the effect.\nBrass Crossbow. Ranged weapon attack, +7 to hit, range 100/400 ft., one target. A hit deals 14 (2d10 + 3) piercing damage and one of the following effects.\nAcid. The target makes a DC 17 Constitution save, taking 17 (5d6) extra acid damage on a failure or half on a success.\nBlindness (1/day). The target takes 5 (1d10) radiant damage. The target and each other creature within 20 ft. of it must make a DC 17 Dexterity save or be blinded until the end of the orthon’s next turn.\nConcussion. The target and each other creature within 20 ft. of it make a DC 17 Constitution save, taking 13 (2d12) thunder damage on a failure or half on a success.\nEntanglement. The target must make a DC 17 Dexterity save or be restrained by webbing for 1 hour. A restrained creature can use an action to escape with a successful DC 17 Dexterity or Strength check. Other than an orthon, a creature that touches a restrained creature must make the same Dexterity save or also become restrained.\nParalysis (1/day). The target takes 22 (4d10) lightning damage and must make a DC 17 Constitution save or be paralyzed for 1 minute. It can repeat the save at the end of each of its turns to end the effect.\nTracking. For 24 hours, the orthon knows the target’s distance and direction while they share a plane. If they are on different planes, the orthon knows which plane the target is on.",
+        "Reactions": "Explosive Retribution. When reduced to 15 hit points or fewer, the orthon can explode. Each other creature within 30 ft. makes a DC 17 Dexterity save. On a failure, it takes 9 (2d8) fire damage plus 9 (2d8) thunder damage. On a success, halve both amounts. The explosion destroys the orthon, its dagger, and its crossbow.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 169."
+      }
+    }
+  },
+  {
+    "name": "Phoenix",
+    "statBlock": {
+      "name": "Phoenix",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 199,
+      "classification": "Gargantuan elemental, neutral",
+      "ac": 18,
+      "hp": 175,
+      "hitDice": "10d20 + 70",
+      "speed": "20 ft., fly 120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 26
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This elder elemental sweeps across the sky as a giant bird of fire. A phoenix’s last blaze leaves behind a cinder that hatches into a new phoenix.",
+      "savingThrows": {
+        "Wis": 10,
+        "Cha": 9
+      },
+      "sections": {
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Fiery Death and Rebirth. When the phoenix dies, each creature within 60 ft. makes a DC 20 Dexterity save, taking 22 (4d10) fire damage on a failure or half on a success. The blast ignites flammable objects in the area that nobody wears or carries. The body is destroyed, leaving a 5-lb. egg-shaped cinder. A creature touching the cinder takes 21 (6d6) fire damage, at most once per round. The cinder is immune to all damage and hatches a new phoenix after 1d6 days.\nFire Form. The phoenix can pass through openings as narrow as 1 inch without squeezing. A creature takes 5 (1d10) fire damage when it touches the phoenix or hits it with a melee attack from within 5 ft. The phoenix can enter and stop in a hostile creature’s space. The first time on a turn it enters a creature’s space, that creature takes 5 (1d10) fire damage. The phoenix can also ignite unattended flammable objects by touching them without spending an action.\nFlyby. Flying out of an enemy’s reach does not provoke an opportunity attack.\nIllumination. The phoenix sheds bright light within 60 ft. and dim light for another 30 ft.\nLegendary Resistance (3/day). If the phoenix fails a saving throw, it can choose to succeed.\nSiege Monster. The phoenix deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one Beak attack and one Fiery Talons attack.\nBeak. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 15 (2d6 + 8) fire damage. A creature or flammable object hit by the attack ignites and takes 5 (1d10) fire damage at the start of each of its turns until a creature takes an action to douse the flames.\nFiery Talons. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 17 (2d8 + 8) fire damage.",
+        "Legendary actions": "The phoenix has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at the end of another creature’s turn.\nPeck (1 action). Make one Beak attack.\nMove (1 action). Move up to its speed.\nSwoop (2 actions). Move up to its speed and make one Fiery Talons attack.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 199."
+      }
+    }
+  },
+  {
+    "name": "Red Abishai",
+    "statBlock": {
+      "name": "Red Abishai",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 162,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 22,
+      "hp": 255,
+      "hitDice": "30d8 + 120",
+      "speed": "30 ft., fly 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A commander among Tiamat’s abishai, it rallies followers and can turn dragons into allies.",
+      "savingThrows": {
+        "Str": 12,
+        "Con": 10,
+        "Wis": 8
+      },
+      "skills": {
+        "Intimidation": 10,
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic, Infernal, telepathy 120 ft.",
+        "Traits": "Devil’s Sight. Magical darkness does not interfere with the abishai’s darkvision.\nMagic Resistance. The abishai has advantage on saves against spells and other magical effects.\nMagic Weapons. The abishai’s weapon attacks are magical.",
+        "Actions": "Multiattack. The abishai may use Frightful Presence, then makes one Morningstar attack, one Claw attack, and one Bite attack.\nMorningstar. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 10 (1d8 + 6) piercing damage.\nClaw. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 17 (2d10 + 6) slashing damage.\nBite. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 22 (3d10 + 6) piercing damage plus 38 (7d10) fire damage.\nFrightful Presence. Each chosen creature within 120 ft. that is aware of the abishai must make a DC 18 Wisdom save or be frightened of it for 1 minute. The creature can repeat the save at the end of each of its turns to end the effect. On a success or when the effect ends, the creature is immune to this abishai’s Frightful Presence for 24 hours.\nIncite Fanaticism. Choose up to four allies within 60 ft. that can see the abishai. For 1 minute, those allies have advantage on attack rolls and cannot be frightened.\nPower of the Dragon Queen. Choose a dragon the abishai can see within 120 ft. The dragon makes a DC 18 Charisma save. Chromatic dragons save with disadvantage. A success grants immunity to this abishai’s Power of the Dragon Queen for 1 hour. On a failure, the dragon is charmed for 1 hour and treats the abishai as a trusted friend to heed and protect. The charm ends if the abishai or its companions damage the dragon.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 162. Official errata corrects the Bite’s piercing damage dice from 5d10 + 6 to 3d10 + 6."
+      }
+    }
+  },
+  {
+    "name": "Retriever",
+    "statBlock": {
+      "name": "Retriever",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 222,
+      "classification": "Large construct, lawful evil",
+      "ac": 19,
+      "hp": 210,
+      "hitDice": "20d10 + 100",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The drow built this spider-shaped construct to bring back prey from the Abyss. It carries a captive demon spirit and can shift planes with its quarry.",
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 10,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Necrotic, poison, psychic. Bludgeoning, piercing, and slashing from nonmagical attacks made without adamantine weapons.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Senses": "Blindsight 30 ft., darkvision 60 ft.",
+        "Languages": "Understands Abyssal, Elvish, and Undercommon. It cannot speak.",
+        "Traits": "Faultless Tracker. Its master assigns one quarry at a time. This can be a specific creature or object the master knows personally, or a kind of creature or object the master has seen. The retriever knows the quarry’s direction and distance on the same plane. It always knows its master’s location.",
+        "Innate Spellcasting": "The retriever uses Wisdom (spell save DC 13) and needs no material components.\n3/day each. Plane Shift (itself and up to one incapacitated creature, which counts as willing), Web.",
+        "Actions": "Multiattack. Make two Foreleg attacks and use one beam, either Force Beam or Paralyzing Beam if available.\nForeleg. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 15 (2d8 + 6) slashing damage.\nForce Beam. One creature the retriever can see within 60 ft. makes a DC 16 Dexterity save, taking 27 (5d10) force damage on a failure or half on a success.\nParalyzing Beam (Recharge 5–6). One creature the retriever can see within 60 ft. must make a DC 18 Constitution save or be paralyzed for 1 minute. It can repeat the save at the end of each of its turns to end the effect. The retriever can pick up a Medium or smaller creature it paralyzes this way as part of its move and carry it at full walking or climbing speed.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 222."
+      }
+    }
+  }
+]

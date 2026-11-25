@@ -1,0 +1,329 @@
+[
+  {
+    "name": "Giant Goat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "AC from natural armor. Passive Perception 11. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large, thick-coated goat with a beard, split hooves, a short tail, and a pair of swept-back horns.",
+    "habitats": [
+      "Mountains",
+      "Hills",
+      "Upland grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 133. ",
+      "Traits": "Charge. Move at least 20 ft. directly toward a target and hit it with Ram on the same turn. The hit deals an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must make a DC 13 Strength save or fall prone.\nSure-Footed. The goat has advantage on Strength and Dexterity saves against effects that would knock it prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "At the table": "A charging Ram deals 13 (4d4 + 3) total bludgeoning damage. The creature’s save determines whether it falls prone."
+    }
+  },
+  {
+    "name": "Giant Goat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "AC from natural armor. Passive Perception 11. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large, thick-coated goat with a beard, split hooves, a short tail, and a pair of swept-back horns.",
+    "habitats": [
+      "Mountains",
+      "Hills",
+      "Upland grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 326. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+      "Traits": "Charge. Move at least 20 ft. directly toward a target and hit it with Ram on the same turn. The hit deals an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must make a DC 13 Strength save or fall prone.\nSure-Footed. The goat has advantage on Strength and Dexterity saves against effects that would knock it prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "At the table": "A charging Ram deals 13 (4d4 + 3) total bludgeoning damage. The creature’s save determines whether it falls prone."
+    }
+  },
+  {
+    "name": "Giant Hyena",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large spotted hyena with broad jaws and round ears. Its powerful front shoulders stand above the hindquarters and carry a short dark mane.",
+    "habitats": [
+      "Grassland",
+      "Savanna",
+      "Dry scrub",
+      "Open woodland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 133. ",
+      "Traits": "Rampage. On its own turn, if the hyena drops a creature to 0 HP with a melee attack, it can use a bonus action to move up to half its speed and make a Bite attack.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 10 (2d6 + 3) piercing damage.",
+      "At the table": "At its printed 50-ft. speed, the hyena can move up to 25 ft. as part of Rampage, then make the Bite."
+    }
+  },
+  {
+    "name": "Giant Hyena",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large spotted hyena with broad jaws and round ears. Its powerful front shoulders stand above the hindquarters and carry a short dark mane.",
+    "habitats": [
+      "Grassland",
+      "Savanna",
+      "Dry scrub",
+      "Open woodland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 326. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+      "Traits": "Rampage. On its own turn, if the hyena drops a creature to 0 HP with a melee attack, it can use a bonus action to move up to half its speed and make a Bite attack.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 10 (2d6 + 3) piercing damage.",
+      "At the table": "At its printed 50-ft. speed, the hyena can move up to 25 ft. as part of Rampage, then make the Bite."
+    }
+  },
+  {
+    "name": "Giant Lizard",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC from natural armor. Darkvision 30 ft. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, mount-sized lizard with pebbled olive-gray scales, four clawed limbs, a wedge-shaped head, and a long tapering tail.",
+    "habitats": [
+      "Underdark",
+      "Caverns",
+      "Woodland",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 134. ",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 6 (1d8 + 2) piercing damage.",
+      "At the table": "Residents of the Underdark and reptilian humanoids use giant lizards as riding and draft animals."
+    }
+  },
+  {
+    "name": "Giant Lizard",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC from natural armor. Darkvision 30 ft. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, mount-sized lizard with pebbled olive-gray scales, four clawed limbs, a wedge-shaped head, and a long tapering tail.",
+    "habitats": [
+      "Underdark",
+      "Caverns",
+      "Woodland",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 326. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 6 (1d8 + 2) piercing damage.",
+      "At the table": "Residents of the Underdark and reptilian humanoids use giant lizards as riding and draft animals.",
+      "Optional traits": "The Monster Manual allows either or both of these traits for an individual.\nHold Breath. The lizard can hold its breath for 15 minutes. Add a 30-ft. swim speed.\nSpider Climb. It can climb difficult surfaces, including across ceilings upside down, without an ability check."
+    }
+  }
+]

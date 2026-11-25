@@ -1,0 +1,7 @@
+# Tanarukk rules sources
+
+- *Races of Faerûn* gives the playable Tanarukk its detailed traits. *Underdark* confirms five outsider Hit Dice, LA +3, favored class Barbarian, and ECL 8 before class levels. The 2004 *Monster Update* confirms the Native subtype, fire resistance 10, and spell resistance 14 + class levels. Khar’s SR is 14 and Varka’s is 15. [Playable traits, p. 124]() · [Underdark, pp. 19–20]() · [Monster Update, p. 5]()
+- The player’s Control Flame is spell-like, once per day, at caster level 5. It changes the illumination from an existing nonmagical fire within 10 ft. for 5 minutes. Heat output and fuel consumption stay the same. The standard action follows the core default for spell-like abilities. The 2001 monster uses a supernatural version twice daily, and the 2004 monster conversion lists no change to that ability. [Playable traits, p. 124]() · [Original monster]() · [Core special abilities](https://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities)
+- The player entry specifies the racial skill list and grants two feats from the five outsider Hit Dice. Both original NPCs choose Northdark and speak Abyssal, Orc, and Common under the 3.5 regional rules. The two CRs are provisional encounter estimates. [Player traits, p. 124]() · [Regional language rules, p. 8]() · [Northdark region, p. 27]()
+
+Khar’s stocky build, projecting jaw, lower tusks, and low horn ridges follow the description. Vinod Rams illustrated the Tanarukks in the original book. [Description and illustration, p. 123]()

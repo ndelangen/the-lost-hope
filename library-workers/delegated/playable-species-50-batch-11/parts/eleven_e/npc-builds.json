@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mr1-giant-lizard-bramblepad",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Roofline courier, Gecko Monk 1",
+      "difficulty": "Monk 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft., climb 30 ft.",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "senses": "Passive Perception 11.",
+      "languages": "Common and Draconic.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +5",
+        "Insight +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Dexterity save +4. HP is 8 + 2 Constitution. Natural Armor and Monk Unarmored Defense each give AC 13.",
+        "Outlander grants Athletics, Survival, Draconic and Wanderer. Monk grants Acrobatics and Insight. Carries no wielded gear.",
+        "Spider Climb lets Bramblepad travel along difficult walls or ceilings without an ability check. No hands for weapons, shields or other hand-dependent gear."
+      ],
+      "actions": [
+        "Bite. Strength-based melee unarmed strike +5, reach 5 ft., 1d8+3 piercing.",
+        "Martial Arts. After a bite made with the Attack action, make one ordinary kick as a bonus action, +5 to hit, reach 5 ft., 1d4+3 bludgeoning. The supplement reserves bonus-action strikes for ordinary unarmed blows."
+      ],
+      "tactics": "Bramblepad takes the ceiling route when Hush Market’s alleys fill up and drops to defend a cornered traveler."
+    },
+    {
+      "id": "mr1-giant-rat-cobbledot",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Drainage scout, Rogue 2",
+      "difficulty": "Rogue 2. No assigned CR.",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "30 ft.",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Passive Perception 15, or 20 for smell-based details when advantage applies.",
+      "languages": "Common and Thieves’ Cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. Unarmored AC 10 + 3 Dexterity. HP is 8 + 2 at level 1 and 5 + 2 at level 2.",
+        "Criminal grants Deception, Stealth, Thieves’ Tools and Criminal Contact. Rogue adds Acrobatics, Insight, Investigation and Perception. Expertise applies to Perception and Stealth. Cobbledot carries no gear.",
+        "Keen Smell gives advantage on Perception checks using smell. Unable to wield weapons or shields."
+      ],
+      "actions": [
+        "Bite. Dexterity-based melee unarmed strike +5, reach 5 ft., 1d4+3 piercing. Its finesse trait makes it eligible for Sneak Attack.",
+        "Sneak Attack. Once per turn add 1d6 piercing to a bite with advantage. It also applies when a non-incapacitated enemy of the target is within 5 ft. of the target and Cobbledot has no disadvantage.",
+        "Pack Tactics. Bonus action to give the next attack roll this turn advantage if the target is within 5 ft. of a non-incapacitated ally.",
+        "Cunning Action. Dash, Disengage or Hide as a bonus action."
+      ],
+      "tactics": "Cobbledot gets close by using cover and bites only when a nearby companion can threaten the same foe."
+    },
+    {
+      "id": "mr1-giant-scorpion-keelpin",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Salvage guard, Barbarian 1",
+      "difficulty": "Barbarian 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft.",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "senses": "Blindsight 30 ft., passive Perception 13.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Natural Armor and Barbarian Unarmored Defense each give AC 14. HP is 12 + 2 Constitution.",
+        "Outlander grants Athletics, Survival, Dwarvish and Wanderer. Barbarian grants Nature and Perception. Wields neither weapons nor shield.",
+        "Claw damage type uses a table ruling of bludgeoning because the trait gives the attack die without a type."
+      ],
+      "actions": [
+        "Claw. Strength-based melee unarmed strike +5, reach 5 ft., 1d8+3 bludgeoning, or 1d8+5 while raging.",
+        "Seize. After an Attack-action claw hits, use a bonus action to grapple the target with that claw. Keelpin rolls Athletics +5 against the target’s Athletics or Acrobatics, its choice. The target must be Large or smaller. Keelpin rolls with advantage while raging.",
+        "Sting. Strength-based melee unarmed strike +5, reach 5 ft., 1d4+3 piercing plus 1d4 poison, or 1d4+5 piercing plus 1d4 poison while raging.",
+        "Rage. Bonus action, two per long rest, for up to 1 minute. Gain advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing, and +2 damage to Strength-based melee weapon attacks. It ends early on unconsciousness, if willingly ended as a bonus action, or if a turn ends without an attack against a hostile creature or damage taken since the last turn."
+      ],
+      "tactics": "Keelpin takes hold of a moving foe to keep it away from the salvagers and stings only when a hold will do little good."
+    },
+    {
+      "id": "mr1-giant-sea-horse-siltcrest",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Mooring runner, Barbarian 1",
+      "difficulty": "Barbarian 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "0 ft., swim 40 ft.",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "1d12+1",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +3. Natural Armor and Barbarian Unarmored Defense each give AC 13. HP is 12 + 1 Constitution.",
+        "Sailor grants Athletics, Perception, navigator’s tools, water vehicles and Ship’s Passage. Barbarian grants Animal Handling and Survival. Siltcrest travels underwater and carries no gear.",
+        "Can only breathe underwater. Cannot wield weapons or use shields."
+      ],
+      "actions": [
+        "Ram. Strength-based melee unarmed strike +5, reach 5 ft., 1d8+3 bludgeoning, or 1d8+5 while raging. A Dexterity ram is +4 for 1d8+2 bludgeoning.",
+        "Charge. Once per turn after swimming at least 15 ft. toward a creature, a Strength-based ram hit against that creature adds 1d6 bludgeoning damage.",
+        "Rage. Bonus action, two per long rest, for up to 1 minute. Gain advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing, and +2 damage to Strength-based melee weapon attacks. It ends early on unconsciousness, if willingly ended as a bonus action, or if a turn ends without an attack against a hostile creature or damage taken since the last turn."
+      ],
+      "tactics": "Siltcrest swings wide around the mooring so a charging ram can drive a threat away from the rope."
+    },
+    {
+      "id": "mr1-giant-vulture-shearshade",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Lookout, Monk 1",
+      "difficulty": "Monk 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "10 ft., fly 40 ft.",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "senses": "Passive Perception 13, or 18 for sight or smell when advantage applies.",
+      "languages": "Reads and understands Common. Cannot speak.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +5",
+        "Insight +3",
+        "Perception +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Dexterity save +4. Monk Unarmored Defense gives AC 13. HP is 8 + 2 Constitution.",
+        "Sailor grants Athletics, Perception, navigator’s tools, water vehicles and Ship’s Passage. Monk grants Acrobatics and Insight. Travels without equipment.",
+        "Keen Sight and Smell gives advantage on Perception checks using sight or smell. Medium or heavy armor would prevent flight. Cannot use weapons, shields or hand-dependent items."
+      ],
+      "actions": [
+        "Bite. Strength-based melee unarmed strike +5, reach 5 ft., 1d8+3 piercing.",
+        "Martial Arts. After a bite made with the Attack action, make an ordinary kick as a bonus action, +5 to hit, reach 5 ft., 1d4+3 bludgeoning. Use this or Pack Tactics in a turn.",
+        "Pack Tactics. Bonus action to give the next attack roll this turn advantage if the target is within 5 ft. of a non-incapacitated ally."
+      ],
+      "tactics": "Shearshade circles once to mark a threat with a wing dip, then lands beside an ally and bites from that angle."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Bramblepad",
+      "species": "Giant Lizard",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-lizard-bramblepad",
+      "size": "Medium",
+      "role": "Carries messages over busy covered markets.",
+      "motive": "Find out why a certain rooftop is warm even in winter.",
+      "hook": "Three couriers refused the same letter after seeing what moved under the tiles."
+    },
+    {
+      "name": "Cobbledot",
+      "species": "Giant Rat",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-rat-cobbledot",
+      "size": "Small",
+      "role": "Finds dry routes through storm drains.",
+      "motive": "Catch whoever keeps opening the wrong floodgate.",
+      "hook": "A drain exhales the smell of fresh bread from a bakery that closed last winter."
+    },
+    {
+      "name": "Keelpin",
+      "species": "Giant Scorpion",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-scorpion-keelpin",
+      "size": "Medium",
+      "role": "Guards a salvage crew while they cut material out of wrecks.",
+      "motive": "Buy a share in the crew’s cart with pay it earned.",
+      "hook": "The tally scratched onto the axle lists one salvage run Keelpin never worked."
+    },
+    {
+      "name": "Siltcrest",
+      "species": "Giant Sea Horse",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-sea-horse-siltcrest",
+      "size": "Medium",
+      "role": "Checks mooring lines below the wharf.",
+      "motive": "Get the night crew to replace a rope before it fails.",
+      "hook": "A rope cut overnight has drifted back and tied itself to a different mooring."
+    },
+    {
+      "name": "Shearshade",
+      "species": "Giant Vulture",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-vulture-shearshade",
+      "size": "Medium",
+      "role": "Signals dangerous currents to a ferryman.",
+      "motive": "Collect enough polished pebbles to mark every safe landing.",
+      "hook": "It delivers a pebble marked for a landing that the ferryman has never seen."
+    }
+  ]
+}

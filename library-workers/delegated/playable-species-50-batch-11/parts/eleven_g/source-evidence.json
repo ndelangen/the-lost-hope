@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Killer Whale",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules, read in a text mirror",
+    "printedPages": [
+      251
+    ],
+    "heading": "Killer Whale Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Natural armor and Keen Hearing appear in the design commentary only. The printed bite deals slashing damage. Bellfin uses Unarmored Defense."
+    ],
+    "aliases": [
+      "Orca"
+    ]
+  },
+  {
+    "name": "Lion",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules, read in a text mirror",
+    "printedPages": [
+      251
+    ],
+    "heading": "Lion Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The playable Pounce uses a shove contest after a hit. The encounter lion’s fixed save, follow-up bite, and other stat-block rules are separate."
+    ],
+    "aliases": [
+      "Lions"
+    ]
+  },
+  {
+    "name": "Mastiff",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules, read in a text mirror",
+    "printedPages": [
+      253
+    ],
+    "heading": "Mastiff Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The player bite lacks the encounter mastiff’s prone rider. The primary bite keeps its racial die. Kamstra’s p. 7 rule gives the martial-arts and Flurry bonus strikes the ordinary monk die and bludgeoning damage."
+    ],
+    "aliases": [
+      "Mastiffs"
+    ]
+  },
+  {
+    "name": "Mule",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules, read in a text mirror",
+    "printedPages": [
+      253
+    ],
+    "heading": "Mule Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Sure-footed protects against being knocked prone, using the checks and saves named in the player text. The hide armor is fitted barding, not a racial AC bonus."
+    ],
+    "aliases": [
+      "Mules"
+    ]
+  },
+  {
+    "name": "Octopus",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules, read in a text mirror",
+    "printedPages": [
+      254
+    ],
+    "heading": "Octopus Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Medium size is from the player trait block. The design notes discuss Small size and Grab, neither granted by the player traits.",
+      "The player entry leaves the cost of releasing ink unspecified. Knots uses an action, matching the 2014 encounter octopus. The player’s 20-ft. radius and 1-minute maximum duration still apply.",
+      "The player’s tentacle explicitly qualifies as finesse for Sneak Attack, and its grip may operate most nonweapon objects."
+    ],
+    "aliases": [
+      "Octopuses",
+      "Octopi"
+    ]
+  }
+]

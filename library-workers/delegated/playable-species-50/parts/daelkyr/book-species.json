@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Daelkyr Half-Blood",
+    "kind": "species",
+    "publication": "Magic of Eberron (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Aberration. Land speed 30 ft., darkvision 60 ft. Proficient with all simple weapons and any weaponlike symbiont used. Armor proficiencies come from class.",
+      "Personal Symbiont (Ex). At first level choose a breed leech, crawling gauntlet, or throwing scarab. At 5th level stormstalk and winter cyst become options, at 10th spellwurm and tentacle whip, and at 15th tongue worm. Earlier choices remain available.",
+      "Growing a new personal symbiont replaces the old one. A lost personal symbiont takes 2d4 days to regrow once the original has died. This ability applies only to the personal symbiont.",
+      "Symbiont Mastery is a racial bonus feat. Gain +4 on Will saves in symbiont personality conflicts and +2 HP per attached symbiont. The extra HP vanish immediately when it detaches.",
+      "Symbiont Dependence (Ex). Take 1 Constitution damage after each 24 hours without contact with any symbiont. That damage cannot be restored until contact resumes.",
+      "Unbalanced Mind (Ex). A creature trying to read or study the half-blood’s mind must make a Will save at DC 10 + half the half-blood’s level + their Charisma modifier or be dazed for 1 round.",
+      "Common is automatic. Daelkyr is the bonus language. Favored class Rogue. No racial Hit Dice, ability score adjustments, or level adjustment."
+    ]
+  }
+]

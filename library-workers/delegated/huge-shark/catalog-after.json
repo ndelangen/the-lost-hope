@@ -1,0 +1,173 @@
+{
+  "version": {
+    "key": "d5cbff43522bbf558ab79846",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "source": "https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#shark",
+    "status": "Combat summary",
+    "images": [
+      {
+        "url": "",
+        "credit": "Related Hunter Shark illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Shark · Kobold Press Foundry token · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "stats": [
+      [
+        "Armor class",
+        "15"
+      ],
+      [
+        "Hit points",
+        "65"
+      ],
+      [
+        "Hit dice",
+        "10d8+20"
+      ],
+      [
+        "Challenge",
+        "4"
+      ],
+      [
+        "Size",
+        "Huge"
+      ],
+      [
+        "Type",
+        "Animal (Aquatic)"
+      ],
+      [
+        "Speed",
+        "swim 60 ft."
+      ],
+      [
+        "Initiative",
+        "6"
+      ],
+      [
+        "Armor class notes",
+        "−2 size, +2 Dexterity, +5 natural armor"
+      ],
+      [
+        "Touch armor class",
+        "10"
+      ],
+      [
+        "Flat-footed armor class",
+        "13"
+      ],
+      [
+        "Base attack bonus",
+        "7"
+      ],
+      [
+        "Grapple modifier",
+        "20"
+      ],
+      [
+        "STR",
+        "21"
+      ],
+      [
+        "DEX",
+        "15"
+      ],
+      [
+        "CON",
+        "15"
+      ],
+      [
+        "INT",
+        "1"
+      ],
+      [
+        "WIS",
+        "12"
+      ],
+      [
+        "CHA",
+        "2"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Saving throws",
+        "lines": [
+          "Fort +11",
+          "Ref +9",
+          "Will +4"
+        ]
+      },
+      {
+        "title": "Habitats",
+        "lines": [
+          "Cold aquatic"
+        ]
+      },
+      {
+        "title": "Appearance",
+        "lines": [
+          "A great white-like shark that can exceed 20 feet in length. It has a heavy body, dark gray back, white underside, a tall triangular dorsal fin and a crescent-shaped tail."
+        ]
+      },
+      {
+        "title": "Senses",
+        "lines": [
+          "Low-light vision",
+          "Blindsense 30 ft. underwater",
+          "Keen scent"
+        ]
+      },
+      {
+        "title": "Skills",
+        "lines": [
+          "Listen +10",
+          "Spot +10",
+          "Swim +13"
+        ]
+      },
+      {
+        "title": "Attack options",
+        "lines": [
+          "Space 15 ft. and reach 10 ft. Both the attack and full attack are a single Bite."
+        ]
+      },
+      {
+        "title": "Attacks",
+        "lines": [
+          "Bite · melee · +10 to hit · reach 10 ft. · 2d6+7"
+        ]
+      },
+      {
+        "title": "Trait mechanics",
+        "lines": [
+          "Blindsense (Ex) · While underwater, the shark can locate creatures underwater within 30 ft. Blindsense alone does not remove concealment.",
+          "Keen Scent (Ex) · The shark detects creatures by scent within 180 ft. and blood in the water up to 1 mile away.",
+          "Aquatic subtype · The shark breathes water and cannot breathe air. Ordinary swimming takes no Swim check.",
+          "Swim · The listed +13 includes a +8 racial bonus on Swim checks for hazards and special maneuvers. The shark can take 10 even under threat or distraction and can run while swimming in a straight line."
+        ]
+      },
+      {
+        "title": "Table notes",
+        "lines": [
+          "Feats are Alertness, Great Fortitude, Improved Initiative and Iron Will.",
+          "Use Will +4 for this SRD printing. The original RTF, and linked HTML reprint give +4. The d20srd.org reprint lists +6, which matches the result of applying Iron Will's +2 bonus.",
+          "Organization is solitary, a school of 2–5, or a pack of 6–11. Advancement is 11–17 HD (Huge). The source gives no level adjustment.",
+          "The shark circles potential prey before darting in to bite."
+        ]
+      }
+    ]
+  },
+  "portrait": {
+    "url": "",
+    "credit": "OpenAI ImageGen · The Lost Hope"
+  },
+  "queries": {
+    "cold aquatic": true,
+    "crescent-shaped tail": true
+  }
+}

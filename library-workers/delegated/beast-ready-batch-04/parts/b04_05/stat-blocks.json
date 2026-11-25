@@ -1,0 +1,318 @@
+[
+  {
+    "name": "Giant Boar",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 42,
+    "hitDice": "5d10 + 15",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 8. No listed skill proficiencies, special senses or languages.",
+    "appearance": "A massive wild boar with heavy shoulders, a ridge of dark bristles, a blunt snout and thick, upward-curving tusks.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 131. ",
+      "Traits": "Charge. Move at least 20 ft. in a straight line toward a target, then hit it with Tusk on that turn to deal an extra 7 (2d6) slashing damage. If the target is a creature, it makes a DC 13 Strength save or falls prone.\nRelentless. When damage of 10 or less would reduce the boar to 0 HP, it drops to 1 HP instead. This trait recharges after a short or long rest.",
+      "Actions": "Tusk. Melee weapon attack, +5 to hit against one target within 5 ft. On a hit, deal 10 (2d6 + 3) slashing damage.",
+      "At the table": "Charge adds damage on a qualifying hit. The save only determines whether a creature falls prone."
+    }
+  },
+  {
+    "name": "Giant Boar",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 42,
+    "hitDice": "5d10 + 15",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 8. No listed skill proficiencies, special senses or languages.",
+    "appearance": "A massive wild boar with heavy shoulders, a ridge of dark bristles, a blunt snout and thick, upward-curving tusks.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 323. Official online reference: https://www.dndbeyond.com/monsters/16876-giant-boar",
+      "Traits": "Charge. Move at least 20 ft. in a straight line toward a target, then hit it with Tusk on that turn to deal an extra 7 (2d6) slashing damage. If the target is a creature, it makes a DC 13 Strength save or falls prone.\nRelentless. When damage of 10 or less would reduce the boar to 0 HP, it drops to 1 HP instead. This trait recharges after a short or long rest.",
+      "Actions": "Tusk. Melee weapon attack, +5 to hit against one target within 5 ft. On a hit, deal 10 (2d6 + 3) slashing damage.",
+      "At the table": "Charge adds damage on a qualifying hit. The save only determines whether a creature falls prone."
+    }
+  },
+  {
+    "name": "Giant Centipede",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d6 + 1",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Blindsight 30 ft., passive Perception 8. No listed skill proficiencies or languages.",
+    "appearance": "A flattened, mahogany-brown centipede with orange jointed legs, long antennae and curved venom claws at the head.",
+    "habitats": [
+      "Underdark",
+      "Urban"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 131. ",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 4 (1d4 + 2) piercing damage. The target makes a DC 11 Constitution save and takes 10 (3d6) poison damage on a failure. If that poison damage reduces it to 0 HP, the creature is stable and poisoned for 1 hour. It is paralyzed for as long as it is poisoned by this effect, which persists if it regains HP.",
+      "At the table": "A successful Constitution save avoids the poison damage. The one-hour poisoned and paralyzed effect requires the poison damage to reduce the creature to 0 HP. The block gives no repeat save."
+    }
+  },
+  {
+    "name": "Giant Centipede",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d6 + 1",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Blindsight 30 ft., passive Perception 8. No listed skill proficiencies or languages.",
+    "appearance": "A flattened, mahogany-brown centipede with orange jointed legs, long antennae and curved venom claws at the head.",
+    "habitats": [
+      "Underdark",
+      "Urban"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 323. Official online reference: https://www.dndbeyond.com/monsters/16877-giant-centipede",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 4 (1d4 + 2) piercing damage. The target makes a DC 11 Constitution save and takes 10 (3d6) poison damage on a failure. If that poison damage reduces it to 0 HP, the creature is stable and poisoned for 1 hour. It is paralyzed for as long as it is poisoned by this effect, which persists if it regains HP.",
+      "At the table": "A successful Constitution save avoids the poison damage. The one-hour poisoned and paralyzed effect requires the poison damage to reduce the creature to 0 HP. The block gives no repeat save."
+    }
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 60,
+    "hitDice": "8d12 + 8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Proficiency bonus +2. Perception +2. Blindsight 10 ft., passive Perception 12. No listed languages.",
+    "appearance": "A heavy-bodied, pythonlike snake with brown saddle markings, a blunt head and thick coils.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Underwater"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 131. ",
+      "Actions": "Bite. Melee weapon attack, +6 to hit against one creature within 10 ft. On a hit, deal 11 (2d6 + 4) piercing damage.\nConstrict. Melee weapon attack, +6 to hit against one creature within 5 ft. On a hit, deal 13 (2d8 + 4) bludgeoning damage and grapple it (escape DC 16). The creature is restrained for the duration of the grapple. The snake cannot constrict another target while holding it.",
+      "At the table": "Constrict applies its grapple on a hit. The target can spend an action on a DC 16 Strength (Athletics) or Dexterity (Acrobatics) check to escape. The stat block gives no automatic damage on later turns."
+    }
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 60,
+    "hitDice": "8d12 + 8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Proficiency bonus +2. Perception +2. Blindsight 10 ft., passive Perception 12. No listed languages.",
+    "appearance": "A heavy-bodied, pythonlike snake with brown saddle markings, a blunt head and thick coils.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Underwater"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 324. Official online reference: https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+      "Actions": "Bite. Melee weapon attack, +6 to hit against one creature within 10 ft. On a hit, deal 11 (2d6 + 4) piercing damage.\nConstrict. Melee weapon attack, +6 to hit against one creature within 5 ft. On a hit, deal 13 (2d8 + 4) bludgeoning damage and grapple it (escape DC 16). The creature is restrained for the duration of the grapple. The snake cannot constrict another target while holding it.",
+      "At the table": "Constrict applies its grapple on a hit. The target can spend an action on a DC 16 Strength (Athletics) or Dexterity (Acrobatics) check to escape. The stat block gives no automatic damage on later turns."
+    }
+  }
+]

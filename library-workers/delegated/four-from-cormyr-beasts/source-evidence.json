@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Pernicon",
+    "kind": "beast",
+    "publication": "Four from Cormyr",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "year": 1997,
+    "productNumber": 9531,
+    "author": "John Terra",
+    "printedName": "Pernicons (50)",
+    "section": "The Bibliophile, 12. Ruined corridor",
+    "printedPages": [
+      16
+    ],
+    "pdfPages": [
+      18
+    ],
+    "creditsPrintedPage": 2,
+    "creditsPdfPage": 4,
+    "creditedInteriorArtist": "Ned Dameron",
+    "creditedCoverArtist": "Ciruelo Cabral",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/2/fr_downloads/tsr9531.zip",
+    "inspectedPdfSha256": "8c5f470dae14747f8be9c03b87fe22992eb16beae61226fcdc4dd828cb4bd7c5",
+    "archiveAndLocalBytesMatch": true,
+    "numberAppearing": 50,
+    "hitPointsPerIndividual": 1,
+    "xpPerIndividual": 15,
+    "printedAttackCount": 1,
+    "printedThac0": 20,
+    "attackScope": "swarm",
+    "entryId": "beast-9ebc6338af717f98b59c8ac5",
+    "versionKey": "56cdce808524632c6063b89c",
+    "slug": "pernicon",
+    "query": "pernicon ruined corridor constitution",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Rot Grub",
+    "kind": "beast",
+    "publication": "Four from Cormyr",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "year": 1997,
+    "productNumber": 9531,
+    "author": "John Terra",
+    "printedName": "Rot Grubs (10)",
+    "section": "The Bibliophile, 12. Ruined corridor",
+    "printedPages": [
+      16
+    ],
+    "pdfPages": [
+      18
+    ],
+    "creditsPrintedPage": 2,
+    "creditsPdfPage": 4,
+    "creditedInteriorArtist": "Ned Dameron",
+    "creditedCoverArtist": "Ciruelo Cabral",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/2/fr_downloads/tsr9531.zip",
+    "inspectedPdfSha256": "8c5f470dae14747f8be9c03b87fe22992eb16beae61226fcdc4dd828cb4bd7c5",
+    "archiveAndLocalBytesMatch": true,
+    "numberAppearing": 10,
+    "hitPointsPerIndividual": 1,
+    "xpPerIndividual": 15,
+    "printedAttackCount": "n/a",
+    "printedThac0": "n/a",
+    "attackScope": null,
+    "entryId": "beast-70e45cb538bb63128168ca05",
+    "versionKey": "b12d3646d75617ddac8bfb8d",
+    "slug": "rot-grub",
+    "query": "rot grub exposed flesh burrowing",
+    "portraitSelection": "generated"
+  }
+]

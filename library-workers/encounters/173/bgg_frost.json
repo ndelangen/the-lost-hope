@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Fomorian Deep Crawler",
+    "statBlock": {
+      "name": "Fomorian Deep Crawler",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 142,
+      "classification": "Huge giant, any alignment",
+      "ac": 14,
+      "hp": 184,
+      "hitDice": "16d12 + 80",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This long-limbed fomorian hunts in Underdark tunnels, moving easily across walls and ceilings.",
+      "skills": {
+        "Perception": 7,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Giant, Undercommon.",
+        "Traits": "Contortionist. A space that fits a Large creature does not require the fomorian to squeeze.\nCrawling Stance. When prone, the fomorian crawls without spending extra movement. Being prone does not grant advantage to attacks against it.\nSpider Climb. The fomorian can climb difficult surfaces and ceilings without an ability check.",
+        "Actions": "Multiattack. Make two Slam attacks and use Crawling Hex if it is available.\nSlam. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 22 (3d10 + 6) bludgeoning damage.\nCrawling Hex (Recharge 4–6). Choose one creature the fomorian can see within 60 ft. On a failed DC 15 Wisdom save, it takes 31 (7d8) psychic damage, falls prone, and is cursed for 1 hour. While cursed, it cannot stand up to end its own prone condition.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 142."
+      }
+    }
+  },
+  {
+    "name": "Fomorian Noble",
+    "statBlock": {
+      "name": "Fomorian Noble",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 143,
+      "classification": "Huge giant (wizard), typically chaotic evil",
+      "ac": 14,
+      "hp": 253,
+      "hitDice": "22d12 + 110",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "These scholars escaped the curse that changed their kin by leaving for the Inner Planes before the assault on the Feywild.",
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "skills": {
+        "Arcana": 14,
+        "Perception": 7,
+        "Stealth": 9
+      },
+      "sections": {
+        "Condition immunities": "Charmed.",
+        "Languages": "Giant plus any three languages.",
+        "Actions": "Multiattack. Make three Rod attacks.\nRod. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 16 (3d6 + 6) bludgeoning damage plus 11 (2d10) force damage.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 17). Mage Armor raises the fomorian's AC to 17.\nAt will. Mage Armor (self only), Mage Hand, Prestidigitation.\n1/day each. Chain Lightning, Cone of Cold (6th level), Fireball (6th level), Fly, Plane Shift (self only).",
+        "Bonus actions": "Beguiling Presence. Choose one creature the fomorian can see within 60 ft. On a failed DC 17 Wisdom save, the target is charmed for 1 minute. It can repeat the save at the end of each of its turns and each time it takes damage, ending the effect on a success. If it succeeds on the save or the effect ends, it is immune to Beguiling Presence from every fomorian for 24 hours.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 143."
+      }
+    }
+  },
+  {
+    "name": "Fomorian Warlock of the Dark",
+    "statBlock": {
+      "name": "Fomorian Warlock of the Dark",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 144,
+      "classification": "Huge giant, any alignment",
+      "ac": 15,
+      "hp": 207,
+      "hitDice": "18d12 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A pact with a power of the Underdark lets this warlock shape darkness into a weapon.",
+      "savingThrows": {
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Arcana": 3,
+        "Perception": 6,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Giant, Undercommon.",
+        "Traits": "Blood Rune. The fomorian's Corrupting Hex and Poisoning Rebuke require it to hold or wear the rune-bearing object. The object has AC 15 and 30 HP and is immune to necrotic, poison, and psychic damage. It regains all HP at the end of every turn. It crumbles to dust at 0 HP or when the fomorian dies. If the rune is destroyed, the fomorian can inscribe one on an object in its possession when it finishes a short or long rest.\nDevil's Sight. Magical darkness does not block the fomorian's darkvision.\nLegendary Resistance (3/day). The fomorian can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make three Greatclub attacks. With the blood rune, one can be replaced with Corrupting Hex.\nGreatclub. Melee weapon attack, +10 to hit, reach 15 ft., one target. A hit deals 19 (3d8 + 6) bludgeoning damage plus 7 (2d6) necrotic damage.\nCorrupting Hex (requires Blood Rune). Choose one creature the fomorian can see within 60 ft. On a failed DC 16 Charisma save, it takes 27 (6d8) necrotic damage and is cursed for 24 hours. The curse halves its speed. Before casting a spell, it must pass a DC 16 Intelligence check or the spell fails and is wasted.\nEldritch Burst. Center a 20-ft.-radius sphere of magical energy on a point the fomorian can see within 120 ft. Each creature in the sphere makes a DC 16 Dexterity save. On a failure, it takes 32 (5d12) force damage and falls prone. On a success, it takes half damage.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 16).\nAt will. Detect Magic, Levitate, Mage Hand, Prestidigitation.\n1/day each. Detect Thoughts, Suggestion, Telekinesis.",
+        "Bonus actions": "Creeping Gloom (Recharge 6). Briefly conjure darkness in a 30-ft.-radius sphere around a point the fomorian can see within 120 ft. Each creature in the sphere must pass a DC 16 Constitution save or take 11 (2d10) necrotic damage and be blinded until the end of its next turn.",
+        "Reactions": "Poisoning Rebuke (requires Blood Rune). When a creature the fomorian can see within 60 ft. damages it, that creature must pass a DC 16 Constitution save or be poisoned until the end of its next turn.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 144."
+      }
+    }
+  },
+  {
+    "name": "Frost Giant Ice Shaper",
+    "statBlock": {
+      "name": "Frost Giant Ice Shaper",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 145,
+      "classification": "Huge giant (cleric), any alignment",
+      "ac": 16,
+      "hp": 310,
+      "hitDice": "27d12 + 135",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Frost rune magic lets these giants turn ice into armor or send whole packs of wolves after an intruder.",
+      "savingThrows": {
+        "Str": 12,
+        "Con": 11,
+        "Wis": 10,
+        "Cha": 9
+      },
+      "skills": {
+        "Athletics": 12,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Chain Mail.",
+        "Damage immunities": "Cold.",
+        "Languages": "Common, Giant.",
+        "Traits": "Frost Rune. The giant must hold or wear the rune-bearing object to use Ice Wolves or Ice Armor. The object has AC 16 and 40 HP and is immune to necrotic, poison, and psychic damage. It regains all HP at the end of every turn. It crumbles to dust at 0 HP or when the giant dies. If the rune is destroyed, the giant can inscribe one on an object in its possession when it finishes a short or long rest.\nLegendary Resistance (3/day). The giant can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make three attacks in any combination of Greataxe and Freezing Ray.\nGreataxe. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 22 (3d10 + 6) slashing damage plus 9 (2d8) cold damage.\nFreezing Ray. Ranged spell attack, +10 to hit, range 120 ft., one target. A hit deals 17 (3d8 + 4) cold damage, and the target makes a DC 18 Constitution save. On a failure, it is restrained until the end of its next turn. On a success, its speed drops by 10 ft. until the end of its next turn.\nIce Wolves (requires Frost Rune). Magically summon 1d4 ice wolves in unoccupied spaces the giant can see within 30 ft. Use the Winter Wolf stat block and change their creature type to Elemental. They obey the giant and act immediately after it on the same initiative count. Each gains +6 to attack and damage rolls within 30 ft. of the giant. They vanish after 1 minute, when the giant dies, or when it uses Ice Wolves again.",
+        "Reactions": "Ice Armor (requires Frost Rune). When a creature the giant can see rolls an attack against it, the giant gains +6 AC against that attack. After the hit or miss is resolved, the ice breaks. Each creature within 5 ft. of the giant must pass a DC 18 Dexterity save or take 13 (3d8) cold damage.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 145."
+      }
+    }
+  },
+  {
+    "name": "Frost Giant of Evil Water",
+    "statBlock": {
+      "name": "Frost Giant of Evil Water",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 146,
+      "classification": "Huge giant, typically neutral evil",
+      "ac": 16,
+      "hp": 172,
+      "hitDice": "15d12 + 75",
+      "speed": "40 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An amphibious follower of Olhydra uses a barbed harpoon to pull prey toward the water.",
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 6
+      },
+      "skills": {
+        "Athletics": 10,
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Scale Mail.",
+        "Damage immunities": "Cold.",
+        "Languages": "Aquan, Common, Giant.",
+        "Traits": "Amphibious. The giant breathes air and water.",
+        "Actions": "Multiattack. Make two Battleaxe attacks and one Harpoon attack.\nBattleaxe. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 19 (3d8 + 6) slashing damage with one hand or 22 (3d10 + 6) with two hands, plus 7 (2d6) cold damage either way.\nHarpoon. Ranged weapon attack, +7 to hit, range 50/200 ft., one creature. A hit deals 14 (2d10 + 3) piercing damage and grapples the creature (escape DC 16). Its speed stays the same, but it cannot move farther from the giant. It takes 5 (1d10) slashing damage if it escapes or if its escape attempt fails. The giant can hold only one target in this grapple.",
+        "Bonus actions": "Reel In. Pull the creature grappled by Harpoon up to 20 ft. toward the giant.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 146."
+      }
+    }
+  },
+  {
+    "name": "Frostmourn",
+    "statBlock": {
+      "name": "Frostmourn",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 147,
+      "classification": "Huge undead, typically neutral evil",
+      "ac": 13,
+      "hp": 195,
+      "hitDice": "17d12 + 85",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A frost giant murdered dishonorably can rise as this vengeful undead creature.",
+      "savingThrows": {
+        "Con": 9,
+        "Wis": 4
+      },
+      "skills": {
+        "Athletics": 10,
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Cold, poison.",
+        "Damage vulnerabilities": "Fire.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Languages": "Giant.",
+        "Actions": "Multiattack. Make one Freezing Touch and one Icy Axe attack. One of the two can be replaced with Polar Ray.\nFreezing Touch. Melee weapon attack, +10 to hit, reach 5 ft., one creature. A hit deals 18 (4d8) cold damage plus 18 (4d8) necrotic damage. If this damage would drop the target to 0 HP, it drops to 1 HP instead and is petrified as a frozen statue. Bludgeoning damage shatters the statue and kills the creature. Fire damage thaws it without dealing damage and ends the petrification.\nIcy Axe. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 19 (3d8 + 6) slashing damage plus 7 (2d6) cold damage.\nPolar Ray. Ranged spell attack, +8 to hit, range 120 ft., one target. A hit deals 31 (5d10 + 4) cold damage and reduces the target's speed by 10 ft. until the end of its next turn.",
+        "Reactions": "Blizzard Escape. Immediately after a creature the frostmourn can see hits it with an attack roll, the frostmourn halves the damage it takes. It can then magically teleport to an unoccupied space it can see within 30 ft.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 147."
+      }
+    }
+  },
+  {
+    "name": "Fury of Kostchtchie",
+    "statBlock": {
+      "name": "Fury of Kostchtchie",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 148,
+      "classification": "Huge fiend (demon), typically chaotic evil",
+      "ac": 16,
+      "hp": 216,
+      "hitDice": "16d12 + 112",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Kostchtchie grants some frost giant devotees immense strength and a bitter chill that drives them to seek out fights.",
+      "savingThrows": {
+        "Con": 12,
+        "Wis": 6
+      },
+      "skills": {
+        "Athletics": 13,
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Fire, lightning, poison.",
+        "Damage immunities": "Cold.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Giant.",
+        "Traits": "Chilling Aura. A creature starting its turn within 10 ft. of the fury must pass a DC 20 Constitution save or take 11 (2d10) cold damage.\nMagic Resistance. The fury has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks using Fist or Rock in any combination.\nFist. Melee weapon attack, +13 to hit, reach 10 ft., one target. A hit deals 17 (2d8 + 8) bludgeoning damage plus 10 (3d6) cold damage. The cold damage rises to 17 (5d6) if Chilling Aura damaged the target since the end of the fury's last turn.\nRock. Ranged weapon attack, +13 to hit, range 60/240 ft., one target. A hit deals 30 (4d10 + 8) bludgeoning damage.",
+        "Bonus actions": "Charge. Move up to the fury's speed toward an enemy it can see.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 148."
+      }
+    }
+  }
+]

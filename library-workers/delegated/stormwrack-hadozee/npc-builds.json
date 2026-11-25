@@ -1,0 +1,120 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+      "size": "Medium",
+      "type": "Humanoid (Hadozee)",
+      "senses": "Normal vision.",
+      "languages": "Common, Hadozee, Aquan, Elven",
+      "speed": "30 ft., glide 40 ft. (average)",
+      "id": "hadozee-farwake-rigging-scout-35e",
+      "title": "Hadozee rigging scout, Rogue 1",
+      "ac": 15,
+      "hp": 8,
+      "hitDice": "1d6+2",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 18,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +12",
+        "Climb +9",
+        "Disable Device +6",
+        "Hide +8",
+        "Listen +4",
+        "Move Silently +8",
+        "Search +6",
+        "Spot +4",
+        "Tumble +8",
+        "Use Rope +8"
+      ],
+      "traits": [
+        "Neutral good. Padded armor +1 and Dexterity +4. Touch 14, flat-footed 11. BAB +0, grapple +1. Fortitude +2, Reflex +6, Will +0.",
+        "Gliding. While using its membranes to glide, a Hadozee takes no damage from a fall of any height. It can travel 20 ft. horizontally for each 5 ft. descended, with glide speed 40 ft. and average maneuverability in the p. 41 player rules. Gliding requires descent.",
+        "Hadozee have +4 racial bonuses on Balance and Climb. They keep their Dexterity bonus to AC while climbing and can climb with one hand occupied.",
+        "Dodge is Renn’s first-level feat. AC +1 against one designated opponent, including while climbing. Lose the dodge bonus in situations that deny the Dexterity bonus to AC.",
+        "Trapfinding. Sneak attack +1d6 against a target denied its Dexterity bonus to AC or flanked by Renn. Ranged sneak attacks require a target within 30 ft. Concealment prevents sneak attack."
+      ],
+      "actions": [
+        "Dagger +1 melee, 1d4+1 piercing or slashing, critical 19–20/×2. Thrown dagger +4 for 1d4+1 piercing, range increment 10 ft.",
+        "On a clear crossing, a drop of 5 ft. allows a glide of up to 20 ft. horizontally. A drop of 10 ft. allows up to 40 ft. horizontally with the 40-ft. glide speed."
+      ],
+      "tactics": "Renn checks the raised catwalk for a release catch. He carries the signal cord in one hand while climbing, then glides from the damaged landing to the lower platform."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+      "size": "Medium",
+      "type": "Humanoid (Hadozee)",
+      "senses": "Normal vision.",
+      "languages": "Common, Hadozee, Aquan",
+      "speed": "30 ft., glide 40 ft. (average)",
+      "id": "hadozee-brightkeel-gantry-guard-35e",
+      "title": "Hadozee gantry guard, Fighter 1",
+      "ac": 14,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +6",
+        "Climb +11",
+        "Craft (ropemaking) +5",
+        "Swim +7"
+      ],
+      "traits": [
+        "Chaotic good. Leather armor +2, Dexterity +2. Touch 12, flat-footed 12. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +0. Improved Initiative adds +4. Weapon Focus (shortspear) is the Fighter bonus feat.",
+        "Gliding. While using its membranes to glide, a Hadozee takes no damage from a fall of any height. It can travel 20 ft. horizontally for each 5 ft. descended, with glide speed 40 ft. and average maneuverability in the p. 41 player rules. Gliding requires descent.",
+        "Hadozee have +4 racial bonuses on Balance and Climb. They keep their Dexterity bonus to AC while climbing and can climb with one hand occupied."
+      ],
+      "actions": [
+        "Shortspear +5 melee, 1d6+3 piercing, critical ×2. Thrown shortspear +4 for 1d6+3 piercing, range increment 20 ft.",
+        "Climb with the shortspear in one hand and keep Dexterity +2 to AC. From the gantry, glide across a clear 20-ft. gap to a platform 5 ft. lower."
+      ],
+      "tactics": "Daro gets to the winch platform to lower the rescue line. He uses the spar as cover while waiting for a clear descent to the platform and handles the shortspear once he lands."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Hadozee",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Stormwrack (2005)",
+      "name": "Renn Farwake",
+      "build": "hadozee-farwake-rigging-scout-35e",
+      "role": "Rigging scout and Rogue.",
+      "motive": "Find the release catch before the broken landing gives way.",
+      "hook": "Renn can carry the signal line up to the catwalk."
+    },
+    {
+      "species": "Hadozee",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Stormwrack (2005)",
+      "name": "Daro Brightkeel",
+      "build": "hadozee-brightkeel-gantry-guard-35e",
+      "role": "Gantry guard and Fighter.",
+      "motive": "Reach the winch and bring the deck crew to safety.",
+      "hook": "Daro can reach the platform from the gantry after the lower stairs collapse."
+    }
+  ]
+}

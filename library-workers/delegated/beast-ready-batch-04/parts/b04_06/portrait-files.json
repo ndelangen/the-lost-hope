@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "giant-crab",
+    "file": "portraits/giant-crab.png",
+    "sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-crocodile",
+    "file": "portraits/giant-crocodile.png",
+    "sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-eagle",
+    "file": "portraits/giant-eagle.png",
+    "sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

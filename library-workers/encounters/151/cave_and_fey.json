@@ -1,0 +1,350 @@
+[
+  {
+    "name": "Blink Dog",
+    "statBlock": {
+      "name": "Blink Dog",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fey, lawful good",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 13,
+      "description": "A watchful fey hound that blinks out of sight and reappears close enough to bite. It attacks displacer beasts on sight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "sections": {
+        "Languages": "Blink Dog. It understands Sylvan but cannot speak it.",
+        "Traits": "Keen Hearing and Smell. The dog has advantage on Wisdom (Perception) checks that use hearing or smell.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.\nTeleport (Recharge 4–6). The dog magically teleports up to 40 ft. to an unoccupied space it can see. Its worn and carried equipment goes with it. It can make one Bite attack either before or after teleporting.",
+        "Printed source": "Monster Manual (2014), p. 318."
+      }
+    }
+  },
+  {
+    "name": "Cloaker",
+    "statBlock": {
+      "name": "Cloaker",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large aberration, chaotic neutral",
+      "ac": 14,
+      "hp": 78,
+      "hitDice": "12d10 + 12",
+      "speed": "10 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 11,
+      "description": "A cave predator with a raylike body and a lashing tail. When it folds its fins, it resembles a dark leather cloak.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Deep Speech, Undercommon.",
+        "Traits": "Damage Transfer. While attached, the cloaker takes half of any damage dealt to it, rounded down. The creature it is attached to takes the rest.\nFalse Appearance. If it stays still and keeps its underside hidden, it looks exactly like a dark leather cloak.\nLight Sensitivity. In bright light, the cloaker has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. Hit 10 (2d6 + 3) piercing damage. The cloaker attaches to a Large or smaller target. When it attaches this way, it latches onto the target's head if it had advantage on the roll, leaving that creature Blinded and unable to breathe until detached. While attached, it can Bite only that creature, and the attack has advantage. The cloaker can spend 5 ft. of movement to detach. Any creature, including the target, can detach it with an action and a successful DC 16 Strength check.\nTail. Melee weapon attack, +6 to hit, reach 10 ft., one creature. Hit 7 (1d8 + 3) slashing damage.\nMoan. Each creature other than an aberration within 60 ft. that hears the moan makes a DC 13 Wisdom save. On a failure it is Frightened until the end of the cloaker's next turn. On a success it is immune to the moan for 24 hours.\nPhantasms (Recharges after a Short or Long Rest). Outside bright light, the cloaker magically creates three illusory doubles that copy its motions and change positions with it. If it enters bright light, all doubles vanish. When a creature targets the cloaker with an attack or harmful spell while any double remains, randomly determine whether it targets the cloaker or one of the remaining doubles. Creatures that cannot see or rely on other senses ignore this effect. A double uses the cloaker's AC and saves. It vanishes if an attack hits it or if it fails a save against a damaging effect.",
+        "Printed source": "Monster Manual (2014), p. 41."
+      }
+    }
+  },
+  {
+    "name": "Darkmantle",
+    "statBlock": {
+      "name": "Darkmantle",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small monstrosity, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d6 + 5",
+      "speed": "10 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "A cave hunter that clings to rock formations and drops over its prey before cloaking the area in darkness.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 3
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft.",
+        "Traits": "Echolocation. The darkmantle loses the use of its blindsight while Deafened.\nFalse Appearance. A motionless darkmantle passes for a cave formation such as a stalactite or stalagmite.",
+        "Actions": "Crush. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 6 (1d6 + 3) bludgeoning damage, and the darkmantle attaches. If the target is Medium or smaller and the darkmantle had advantage, it engulfs the target's head. That creature is Blinded and cannot breathe while its head is engulfed. While attached, the darkmantle moves with the target. Its speed becomes 0, speed bonuses have no effect, and it can attack only the target, with advantage. A creature can take an action and succeed on a DC 13 Strength check to remove it. The darkmantle can detach on its turn by spending 5 ft. of movement.\nDarkness Aura (1/Day). Magical darkness spreads around corners in a 15-ft. radius from the darkmantle and moves with it. The darkness lasts up to 10 minutes while the darkmantle maintains Concentration as if on a spell. Darkvision cannot see through it, and natural light cannot illuminate it. If it overlaps light created by a spell of 2nd level or lower, that spell is dispelled.",
+        "Printed source": "Monster Manual (2014), p. 46."
+      }
+    }
+  },
+  {
+    "name": "Death Dog",
+    "statBlock": {
+      "name": "Death Dog",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 12,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 15,
+      "description": "A two-headed hound that prowls deserts, plains, and the Underdark. Its bite leaves a lingering disease.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Traits": "Two-Headed. The dog has advantage on Wisdom (Perception) checks and saves against being Blinded, Charmed, Deafened, Frightened, Stunned, or knocked Unconscious.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage. A creature hit must pass a DC 12 Constitution save against disease or become Poisoned until cured. The diseased creature repeats the save every 24 hours. Each failure reduces its hit point maximum by 5 (1d10) until the disease is cured. It dies if this reduction brings its maximum to 0.",
+        "Printed source": "Monster Manual (2014), p. 321."
+      }
+    }
+  },
+  {
+    "name": "Gibbering Mouther",
+    "statBlock": {
+      "name": "Gibbering Mouther",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium aberration, neutral",
+      "ac": 9,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "10 ft., swim 10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A crawling mass of chattering mouths and staring eyes. It softens the ground around it as it closes on prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Condition immunities": "Prone.",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Aberrant Ground. Ground within 10 ft. of the mouther is difficult terrain. Any creature that starts its turn in that area must pass a DC 10 Strength save or have speed 0 until the start of its next turn.\nGibbering. The mouther babbles while it can see a creature and is not Incapacitated. A creature that starts its turn within 20 ft. and hears the sound must pass a DC 10 Wisdom save. On a failure it loses reactions until the start of its next turn and rolls 1d8 for its behavior this turn.\n1–4. Do nothing.\n5–6. Use all movement in a randomly determined direction and take no action or bonus action.\n7–8. Make one melee attack against a randomly determined creature within reach. If no such attack is possible, do nothing.",
+        "Actions": "Multiattack. Make one Bites attack and use Blinding Spittle if available.\nBites. Melee weapon attack, +2 to hit, reach 5 ft., one creature. Hit 17 (5d6) piercing damage. A Medium or smaller target must pass a DC 10 Strength save or fall Prone. If the damage kills it, the mouther absorbs it.\nBlinding Spittle (Recharge 5–6). Choose a point the mouther can see within 15 ft. The spittle bursts in a flash on impact there. Each creature within 5 ft. of the flash must pass a DC 13 Dexterity save or be Blinded until the end of the mouther's next turn.",
+        "Printed source": "Monster Manual (2014), p. 157."
+      }
+    }
+  },
+  {
+    "name": "Phase Spider",
+    "statBlock": {
+      "name": "Phase Spider",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 32,
+      "hitDice": "5d10 + 5",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "description": "A spider that hunts from the Ethereal Plane. It can appear beside prey, strike, and slip out of reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Spider Climb. The spider climbs difficult surfaces and ceilings without an ability check.\nWeb Walker. Webbing does not impede the spider's movement.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 7 (1d10 + 2) piercing damage. The target makes a DC 11 Constitution save. Take 18 (4d8) poison damage on a failure or half on a success. If the poison damage reduces the target to 0 HP, it is Stable but Poisoned for 1 hour even if it regains HP. It is Paralyzed while Poisoned this way.",
+        "Bonus actions": "Ethereal Jaunt. The spider magically shifts from the Material Plane to the Ethereal Plane or back again.",
+        "Printed source": "Monster Manual (2014), p. 334."
+      }
+    }
+  },
+  {
+    "name": "Sprite",
+    "statBlock": {
+      "name": "Sprite",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny fey, neutral good",
+      "ac": 15,
+      "hp": 2,
+      "hitDice": "1d4",
+      "speed": "10 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 13,
+      "description": "A tiny winged fey that guards hidden woodland homes. It judges visitors by what it senses when it touches them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 8
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Actions": "Longsword. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 1 slashing damage.\nShortbow. Ranged weapon attack, +6 to hit, range 40/160 ft., one target. Hit 1 piercing damage. The target must pass a DC 10 Constitution save or be Poisoned for 1 minute. On a save result of 5 or lower, the Poisoned target also falls Unconscious for that duration. It wakes early if it takes damage or another creature uses an action to shake it awake.\nHeart Sight. The sprite touches a creature and magically learns its current emotions. If the creature fails a DC 10 Charisma save, the sprite also learns its alignment. Celestials, fiends, and undead automatically fail.\nInvisibility. The sprite turns magically Invisible along with all equipment it wears or carries. The effect ends when it attacks, casts a spell, or loses Concentration as if on a spell.",
+        "Printed source": "Monster Manual (2014), p. 283."
+      }
+    }
+  }
+]

@@ -1,0 +1,294 @@
+{
+  "builds": [
+    {
+      "id": "mhp-brine-sill",
+      "title": "Brine Sill, Nautilid Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 17,
+      "hp": 11,
+      "hitDice": "1d10+1",
+      "initiative": 4,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +2",
+        "Perception +3"
+      ],
+      "senses": "Passive Perception 13",
+      "languages": "Common, Dwarvish, Goblin. The Aqua Suit can translate.",
+      "traits": [
+        "Proficiency +2. Saving throws Strength +5 and Constitution +3. AC 13 + 2 Dexterity + 2 shield. Without the suit, AC 14 with shield or 12 without it. No additional armor.",
+        "Guard background. Alert grants +2 initiative beyond Dexterity and an initiative swap with a willing ally after rolling, provided neither is incapacitated. Proficient with dice.",
+        "Amphibious and Powerful Build. Breathes underwater. Advantage on ability checks to escape grapples. At Strength 17, carries up to 510 lb. with the size adjustment.",
+        "Sealed Aqua Suit. Resists fire. Life Suit protects against extreme temperature and vacuum. The suit’s supply lasts 24 hours and recharges after two hours unworn. The embedded translator is usable at will. Helmet on or off on his turn without an action. Entire suit on or off in one minute.",
+        "Dueling adds 2 damage when using a melee weapon in one hand with no other weapon. Masteries are spear (Sap), mace (Sap), and light crossbow (Slow)."
+      ],
+      "actions": [
+        "Spear. Melee +5, reach 5 ft., or thrown +5, 20/60 ft. Hit 1d6 + 5 piercing when used one-handed. Sap gives the target disadvantage on its next attack roll before the start of Brine’s next turn.",
+        "Second Wind. Bonus action to recover 1d10 + 1 HP. Two uses. Recover one use on a short rest and both on a long rest."
+      ],
+      "tactics": "Brine opens negotiations through the translator. If the gate comes under attack, he holds the dry side of the hatch and uses Sap against the attacker most likely to reach the winch."
+    },
+    {
+      "id": "mhp-mend-three",
+      "title": "Mend-Three, Vect Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Construct",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "senses": "Thermalsight 60 ft., passive Perception 12",
+      "languages": "Common, Dwarvish, Gnomish",
+      "traits": [
+        "Proficiency +2. Saving throws Strength +5 and Constitution +4. Embedded Armor gives AC 13 + 2 Dexterity. No outer armor or shield. Current scores use no long-rest exchange.",
+        "Construct Anatomy. Needs no food, water, air or sleep. Immune to magical sleep. Completes a long rest while conscious and still for four hours. Advantage on saves to avoid or end the charmed condition.",
+        "Thermalsight 60 ft. can reveal creatures through darkness and fog, loses color in heavy obscurement, is blocked by an inch of solid material, and cannot see invisible creatures or see through illusions.",
+        "Soldier background grants Savage Attacker and proficiency with chess. Great Weapon Fighting treats 1s and 2s as 3s on damage dice for two-handed melee weapons. Once per turn when a weapon attack hits, Savage Attacker lets Mend-Three roll the weapon damage dice twice and choose either roll.",
+        "Masteries are greatsword (Graze), flail (Sap), and javelin (Slow). External graft slot holds Embedded Armor. No other graft installed."
+      ],
+      "actions": [
+        "Greatsword. Melee +5, reach 5 ft., hit 2d6 + 3 slashing. On a miss, Graze deals 3 slashing. No Great Weapon Fighting or Savage Attacker on the Graze damage.",
+        "Second Wind. Bonus action to recover 1d10 + 1 HP. Two uses. Recover one use on a short rest and both on a long rest."
+      ],
+      "tactics": "Mend-Three watches the heated forms moving through the fog. If pressed, they stand between intruders and the repair crew and keep both hands on the greatsword."
+    },
+    {
+      "id": "mhp-pilcrow",
+      "title": "Pilcrow, Amoeboid Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Small",
+      "type": "Ooze",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 5,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Investigation +6",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Passive Perception 13",
+      "languages": "Common, Elvish, Goblin, Thieves’ Cant",
+      "traits": [
+        "Proficiency +2. Saving throws Dexterity +5 and Intelligence +4. Leather armor gives AC 11 + 3 Dexterity. If it falls off after Biomimicry, AC 13.",
+        "Criminal background. Alert gives +2 initiative beyond Dexterity and a willing ally initiative swap if neither is incapacitated. Expertise applies to Investigation and Stealth. Proficient with thieves’ tools.",
+        "Amorphous. Passes through one-inch openings. Leave bulky equipment behind if it cannot fit.",
+        "Sneak Attack. Once per turn, add 1d6 to a hit with a ranged or finesse weapon if the attack has advantage. It also works without disadvantage if Pilcrow has an ally within 5 ft. of the target and that ally is not incapacitated.",
+        "Weapon Mastery: shortbow and shortsword (Vex). Pilcrow retains their ability scores in both forms."
+      ],
+      "actions": [
+        "Shortbow. Ranged +5, 80/320 ft., hit 1d6 + 3 piercing. Vex grants advantage on Pilcrow’s next attack against that target before the end of their next turn.",
+        "Shortsword. Melee +5, reach 5 ft., hit 1d6 + 3 piercing. Vex applies as for the shortbow.",
+        "Biomimicry. Magic action, touch a creature. Copy its general form for up to an hour, gaining any climb, burrow, or swim speeds it has, maximum 40 ft. each. Limbs may prevent manipulating gear and ill-fitting clothing or armor falls off. End without an action.",
+        "Flexible Form. Magic action, take a static shape no greater than 8 ft. in any dimension at the same volume. It copies broad shape only. Pilcrow cannot move, attack or cast while static. The DM adjudicates resuming ordinary shape, for which the article gives no separate timing.",
+        "Reform. Reaction after a hit dealing bludgeoning, piercing, or slashing damage while above 0 HP. Heal the lesser of 1d4 and the damage taken."
+      ],
+      "tactics": "Pilcrow keeps a partner near the target to set up Sneak Attack. If retreating through a narrow opening, they leave the shortbow and pack with that partner."
+    },
+    {
+      "id": "mhp-ruvash-ledgewalker",
+      "title": "Ruvash Ledgewalker, Skathári Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "speed": "30 ft., climb 30 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13",
+      "languages": "Common, Skathári, Goblin",
+      "traits": [
+        "Proficiency +2. Saving throws Strength +5 and Constitution +4. AC 13 + 2 Dexterity + 2 shield.",
+        "Adaptive Metabolism gives 15 minutes of breath-holding and protection from damage caused by environmental temperature extremes. The carapace gives no general fire or cold resistance.",
+        "Gliding Wings. Each 5 ft. of descent allows 10 ft. of horizontal glide, up to 30 ft. in total. Resist bludgeoning, piercing and slashing damage caused by a fall. Nonfatal amputations regrow in 24 hours.",
+        "Outlander. Wanderer gives excellent recall for maps and geography. Ruvash can find food and fresh water for themself and up to five others each day when the terrain offers it. Proficient with flute."
+      ],
+      "actions": [
+        "Hooked Claw. Melee weapon attack as an unarmed strike +5, reach 5 ft., hit 1d6 + 3 slashing.",
+        "Protection. Reaction after seeing a creature attack someone other than Ruvash within 5 ft. of Ruvash. While holding a shield, impose disadvantage on that attack.",
+        "Second Wind. Bonus action, heal 1d10 + 1 HP. One use per short or long rest."
+      ],
+      "tactics": "Ruvash takes the least sure-footed traveler along the outside of the path and keeps the shield ready to protect them. They glide toward a lower ledge only when they have enough vertical drop."
+    },
+    {
+      "id": "mhp-senet-dawnreed",
+      "title": "Senet Dawnreed, Avia-Ra Life Cleric 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 18,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 0,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 10,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 17,
+        "CHA": 8
+      },
+      "skills": [
+        "Insight +5",
+        "Medicine +5",
+        "Perception +5",
+        "Persuasion +1",
+        "Religion +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 15",
+      "languages": "Common, Avia-Ra, Celestial, Dwarvish",
+      "traits": [
+        "Proficiency +2. Saving throws Wisdom +5 and Charisma +1. AC 16 chain mail + 2 shield. Strength 14 meets the chain mail requirement. Chain mail imposes disadvantage on Dexterity (Stealth) checks.",
+        "Avian Eyes. Advantage on saves to prevent or end blindness. Darkvision 60 ft. Senet chose Wisdom for the species’ light cantrip. The species’ higher-level spells are not yet available.",
+        "Acolyte. Shelter of the Faithful grants support and religious services from temples of Senet’s faith.",
+        "Cleric magic. Wisdom DC 13, spell attack +5. Two level-1 spell slots, restored by a long rest. Cantrips are guidance, sacred flame, thaumaturgy, and the species’ light. Life Domain keeps bless and cure wounds prepared. Senet also prepares healing word, guiding bolt, sanctuary and detect magic.",
+        "Disciple of Life. Healing spells of level 1 add 3 healing. Senet wears a visible bronze sun disk as a holy symbol. Stow the mace to free a hand before casting a spell with a somatic component."
+      ],
+      "actions": [
+        "Mace. Melee +4, reach 5 ft., hit 1d6 + 2 bludgeoning.",
+        "Sacred Flame. Action, 60 ft. One visible target makes a Dexterity save DC 13 for 1d8 radiant damage on a failure. No benefit from cover on the save.",
+        "Healing Word. Bonus action, 60 ft. One visible creature heals 1d4 + 6 HP. Cure Wounds instead takes an action at touch and heals 1d8 + 6 HP. Neither heals undead or constructs.",
+        "Bless. Action, 30 ft., concentration up to 1 minute. Up to three targets add 1d4 to attacks and saves while the spell lasts.",
+        "Guiding Bolt. Action, ranged spell attack +5, range 120 ft., hit 4d6 radiant. The next attack against that target before the end of Senet’s next turn has advantage.",
+        "Sanctuary. Bonus action, 30 ft., 1 minute. An enemy targeting the warded creature with an attack or harmful spell must first make a Wisdom save DC 13 or choose another target or lose the attack or spell. Area effects still work. The ward ends if its target attacks, casts a spell affecting an enemy, or deals damage to another creature.",
+        "Detect Magic. Action or ritual, range self, concentration up to 10 minutes. Sense magic within 30 ft. and use an action to see an aura and its school on a visible object or creature with magic. Barriers can block the sense.",
+        "Light. Action, touch object. For up to 1 hour, 20 ft. bright and another 20 ft. dim. Dexterity save DC 13 if the object is held or worn by a hostile creature. Guidance grants a touched willing creature a d4 for one ability check within 1 minute, concentrating. Thaumaturgy makes small sensory effects within 30 ft.",
+        "Zealous. Reaction after failing an Intelligence, Wisdom or Charisma save. Add 1d4 to the total."
+      ],
+      "tactics": "Senet tries to reach the wounded before drawing the mace. With escorts present, they cast bless first and hold their second slot for a rescue."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Nautilid",
+      "speciesPublication": "Mage Hand Press: Nautilid (2025)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Brine Sill",
+      "size": "Medium",
+      "build": "mhp-brine-sill",
+      "role": "Whorl-ship gate watch",
+      "motive": "Recover the damaged gate’s pressure key before the relief crew arrives.",
+      "hook": "Brine believes a visitor took the key by mistake. He asks the party to find it before he must seal the gate with the workers still outside."
+    },
+    {
+      "species": "Vect",
+      "speciesPublication": "Mage Hand Press: Vect (2025)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Mend-Three",
+      "size": "Medium",
+      "build": "mhp-mend-three",
+      "role": "Repair-yard sentinel",
+      "motive": "Preserve the only spare actuator that fits an old rescue hoist.",
+      "hook": "Mend-Three asks the party to identify who has been taking parts from the locked racks. The latest theft left the hoist with one working brake."
+    },
+    {
+      "species": "Amoeboid",
+      "speciesPublication": "Mage Hand Press: Amoeboid (2025)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Pilcrow",
+      "size": "Small",
+      "build": "mhp-pilcrow",
+      "role": "Maw-station courier",
+      "motive": "Return a misdelivered package before either of its recipients goes looking for it.",
+      "hook": "Pilcrow offers the party a route through the dry ducts after dropping a package bearing two different delivery marks."
+    },
+    {
+      "species": "Skathári",
+      "speciesPublication": "Mage Hand Press: Skathári (2024)",
+      "edition": "Fifth edition compatible",
+      "name": "Ruvash Ledgewalker",
+      "size": "Medium",
+      "build": "mhp-ruvash-ledgewalker",
+      "role": "Cliff-route guide",
+      "motive": "Open the old footpath before a trapped family runs out of lamp oil.",
+      "hook": "The path anchors have been pulled out on a section Ruvash has never seen disturbed. They can get the party to the first ledge if someone carries the rope."
+    },
+    {
+      "species": "Avia-Ra",
+      "speciesPublication": "Mage Hand Press: Avia-Ra (2024)",
+      "edition": "Fifth edition compatible",
+      "name": "Senet Dawnreed",
+      "size": "Medium",
+      "build": "mhp-senet-dawnreed",
+      "role": "Solarium field healer",
+      "motive": "Get an isolated refuge supplied before the old lens fails completely.",
+      "hook": "Senet asks the party to carry a spare lens up the hill. They bring a list of patients who still need to make the climb."
+    }
+  ]
+}

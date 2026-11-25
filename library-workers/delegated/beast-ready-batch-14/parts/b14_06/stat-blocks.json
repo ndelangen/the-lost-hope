@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Giant Dragonfly",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 16,
+    "hp": 22,
+    "hitDice": "4d10",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "printedPage": 234,
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Passive Perception 10. No listed languages. Proficiency bonus +2.",
+    "appearance": "A metallic blue-green dragonfly with large compound eyes, four clear veined wings and a long, tapered abdomen.",
+    "habitats": [
+      "Witchlight Carnival",
+      "Ponds"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, The Wild Beyond the Witchlight, first printing, August 2021, Appendix C, Creatures, Giant Dragonfly, p. 234. https://www.dndbeyond.com/sources/dnd/twbtw",
+      "Traits": "Drone. Its wingbeats can be heard as a loud drone up to 120 ft. away.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d4 + 4) piercing damage.",
+      "Reactions": "Uncanny Dodge. The dragonfly halves the damage from an attack against it if it can see the attacker.",
+      "Encounter ecology": "The printed dragonfly spans 20 ft. across the wings and feeds on smaller insects. The carnival trains some giant dragonflies to carry riders."
+    }
+  },
+  {
+    "name": "Giant Snail",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 22,
+    "hitDice": "4d10",
+    "speed": "10 ft., climb 10 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "printedPage": 234,
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 10. No listed languages. Proficiency bonus +2.",
+    "appearance": "A russet-brown snail with long eyestalks, a broad muscular foot and a sturdy brown spiral shell with a dark band.",
+    "habitats": [
+      "Witchlight Carnival"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, The Wild Beyond the Witchlight, first printing, August 2021, Appendix C, Creatures, Giant Snail, p. 234. https://www.dndbeyond.com/sources/dnd/twbtw",
+      "Traits": "Salt Osmosis. Starting its turn in contact with at least 1 pound of salt deals the snail 1d4 necrotic damage. A creature can use an action to sprinkle 1 pound of salt on the snail. Provided the snail has not withdrawn into its shell, it takes 1d4 necrotic damage immediately and another 1d4 necrotic damage at the start of its next turn, when the salt rubs off.",
+      "Actions": "Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage.\nShell Defense. The snail withdraws into its shell and gains +4 AC until it emerges. It can emerge as a bonus action on its turn.",
+      "Encounter ecology": "The carnival’s eight unusually fast racing snails have their own event rules."
+    }
+  },
+  {
+    "name": "Giant Swan",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral good",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "printedPage": 38,
+    "passivePerception": 14,
+    "skills": {
+      "Perception": 4
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. Speaks Common and Auran.",
+    "appearance": "A white swan with an upright S-curved neck, a black-based orange bill and dark webbed feet.",
+    "habitats": [
+      "Witchlight Carnival",
+      "River"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, The Wild Beyond the Witchlight, first printing, August 2021, Chapter 1, Witchlight Carnival, Gondola Swans, p. 38. https://www.dndbeyond.com/sources/dnd/twbtw Base statistics are from the 2014 Monster Manual, Giant Eagle, p. 324. https://www.dndbeyond.com/monsters/16881-giant-eagle",
+      "Variant rules": "Use the 2014 Giant Eagle statistics. The swan has no Talons attack. It can make two Beak attacks as one action and speaks Common and Auran.",
+      "Traits": "Keen Sight. The swan has advantage on sight-based Wisdom (Perception) checks.",
+      "Actions": "Two Beak Attacks. The swan makes two Beak attacks as an action.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+      "Encounter ecology": "Giant swans pull gondolas along the river that borders the carnival."
+    }
+  },
+  {
+    "name": "Pollenella the Honeybee",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "5 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "printedPage": 135,
+    "passivePerception": 10,
+    "otherStatistics": "Passive Perception 10. No listed languages. Proficiency bonus +2.",
+    "appearance": "An orange-sized queen honeybee with a fuzzy thorax, a long banded abdomen and translucent veined wings.",
+    "habitats": [
+      "Yon",
+      "Feywild"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, The Wild Beyond the Witchlight, first printing, August 2021, Chapter 4, Yon, Amidor and Gleam, Pollenella the Honeybee, p. 135. https://www.dndbeyond.com/sources/dnd/twbtw",
+      "Actions": "Sting. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 3 piercing damage.",
+      "Encounter ecology": "Pollenella is an orange-sized queen honeybee. Amidor freed her from a cyclops beekeeper and travels with her in Yon."
+    }
+  }
+]

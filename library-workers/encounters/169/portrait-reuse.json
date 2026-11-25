@@ -1,0 +1,202 @@
+{
+  "Deathlock Mastermind (Archfey Patron)": {
+    "sha256": "5f14b7e8ce33015e0d2f64cf8bb070d3d0ec2b59542377deca9e5b2083571a46",
+    "source": "Deathlock Mastermind"
+  },
+  "Deathlock Mastermind (Fiend Patron)": {
+    "sha256": "5f14b7e8ce33015e0d2f64cf8bb070d3d0ec2b59542377deca9e5b2083571a46",
+    "source": "Deathlock Mastermind"
+  },
+  "Deathlock Mastermind (Great Old One Patron)": {
+    "sha256": "5f14b7e8ce33015e0d2f64cf8bb070d3d0ec2b59542377deca9e5b2083571a46",
+    "source": "Deathlock Mastermind"
+  },
+  "Demonic Cambion (Baphomet)": {
+    "sha256": "0900be2b9700a5cf6ac4bd4f6ae9088e5566d710c723fe7e5dac937e14f679af",
+    "source": "Cambion"
+  },
+  "Demonic Cambion (Orcus)": {
+    "sha256": "0900be2b9700a5cf6ac4bd4f6ae9088e5566d710c723fe7e5dac937e14f679af",
+    "source": "Cambion"
+  },
+  "Derro": {
+    "sha256": "d12dd60d4f67b7e0721712b95e187868b46f22ae4bfe10f231417db12c6fa149",
+    "source": "Derro"
+  },
+  "Derro Savant": {
+    "sha256": "956b03f3c358c81f9c1926f48ae1bf5ca41cc44e2df84801d28e41ddee1d2b5d",
+    "source": "Derro Savant"
+  },
+  "Dhergoloth": {
+    "sha256": "e6819a764a7b81573f3e5cef64ab5705c0fc28a0106ec559e6a6b62798e8ba92",
+    "source": "Dhergoloth"
+  },
+  "Dire Troll": {
+    "sha256": "3a831c927eb42e81b201b04610a2c52ac82ea852726c4536b345a50f1b614bcb",
+    "source": "Dire Troll"
+  },
+  "Drow Arachnomancer": {
+    "sha256": "e70df044835e36c381064ab0ff68756165c7411965a8028681042405f6649b18",
+    "source": "Drow Arachnomancer"
+  },
+  "Drow Favored Consort": {
+    "sha256": "742567a5040999f60b3f87454f0e6a9f64d44f96bc6b6bea153e2006d59da3de",
+    "source": "Drow Favored Consort"
+  },
+  "Drow House Captain": {
+    "sha256": "fa7b0caee389abc74372c8d01a2750f952e6537a33b31b3f982b16783e5d9c8f",
+    "source": "Drow House Captain"
+  },
+  "Drow Inquisitor": {
+    "sha256": "ce3436c12cae9ba9bc538101ececf7feeb359920525c42750e813063628644f4",
+    "source": "Drow Inquisitor"
+  },
+  "Drow Matron Mother": {
+    "sha256": "7c03ad091122b96babf378d5cd317f9ce8afc1d420b058e353a8e45dbb4df08d",
+    "source": "Drow Matron Mother"
+  },
+  "Drow Shadowblade": {
+    "sha256": "710d2761ab0feb8a3b0c1c3980166d948cd4d07fbf67d933b4724bea621af37a",
+    "source": "Drow Shadowblade"
+  },
+  "Duergar Despot": {
+    "sha256": "0bc38c0d2124288eb6b4cd21a99abafb20da76baf5f36640b7af8336b408378d",
+    "source": "Duergar Despot"
+  },
+  "Duergar Hammerer": {
+    "sha256": "d492f85005531deae9f898f49fcea45300ddc100c90dcbfb10ed7f5bf1cd0cce",
+    "source": "Duergar Hammerer"
+  },
+  "Duergar Kavalrachni": {
+    "sha256": "2bec2f8f1bd70e5bfb3911e1f45431ac1c1960d34e42e395b45c22e7546b1404",
+    "source": "Duergar Kavalrachni"
+  },
+  "Duergar Mind Master": {
+    "sha256": "c4219fb0483f24e8f7bfd5f7248c1974a7ca44a60ac39ec97b0c19912c482414",
+    "source": "Duergar Mind Master"
+  },
+  "Duergar Screamer": {
+    "sha256": "1e88588a13d2dc4fcaeb14d51de77d6f212d4b069cc0b5c79ab99f99c7404a25",
+    "source": "Duergar Screamer"
+  },
+  "Duergar Soulblade": {
+    "sha256": "0a65b8994144576d3d76a15a78cbdfe07582da456fba49dcfd96131a3f8349f3",
+    "source": "Duergar Soulblade"
+  },
+  "Duergar Stone Guard": {
+    "sha256": "4c355212cc6b15a13f56d68740d938de5a7ad2680802610b0305ff45f88c6bb9",
+    "source": "Duergar Stone Guard"
+  },
+  "Duergar Warlord": {
+    "sha256": "5c98c275bb29c8eb53f43ede1f0aec027271bc8b522e78533ed25a9b97b6916b",
+    "source": "Duergar Warlord"
+  },
+  "Duergar Xarrorn": {
+    "sha256": "aa03abbb37ad3a1f68f8d60c767877517267bcc943e8a80e9daf15478c99da6c",
+    "source": "Duergar Xarrorn"
+  },
+  "Dybbuk": {
+    "sha256": "44b3a25f40658f8a02d05920cb9d559c0574e6bca9e22343973d45c139831def",
+    "source": "Dybbuk"
+  },
+  "Earth Elemental Myrmidon": {
+    "sha256": "11d83f68eff1a05003f259f137969f8ca49cab98c0f81877f52cdda0278ab22b",
+    "source": "Earth Elemental Myrmidon"
+  },
+  "Eidolon": {
+    "sha256": "2ba2a333d449778bb908a604e7d67ce29f83958960855d0ddfe9fa7bb5d22325",
+    "source": "Eidolon"
+  },
+  "Elder Oblex": {
+    "sha256": "d99c0bcdcdbe7ed46e47aab3d85aebadbb1201fd3c90369c25a3eb7f67a52b09",
+    "source": "Elder Oblex"
+  },
+  "Elder Tempest": {
+    "sha256": "74649383e605b5b1de71e29426cf9cd9147fdf1d0cf3e39d637f4e262bf3c1e9",
+    "source": "Elder Tempest"
+  },
+  "Female Steeder": {
+    "sha256": "eec1ac19a61314c7b21841beb46b823e00b6b7abc523a091ae26d25741c4e0e8",
+    "source": "Female Steeder"
+  },
+  "Fire Elemental Myrmidon": {
+    "sha256": "044194366c27d18b1818c266beae869d86b59272042e803db3803e3a3672fef0",
+    "source": "Fire Elemental Myrmidon"
+  },
+  "Fraz-Urb’luu": {
+    "sha256": "45d9135b941c393c003f24b13765d5473f78c6976132905e93ca631cc30ed722",
+    "source": "Fraz-Urb’luu"
+  },
+  "Frost Salamander": {
+    "sha256": "f2607342098c945ba0f53805945f5501e27b5431d425d14b58f8732c743a9efc",
+    "source": "Frost Salamander"
+  },
+  "Geryon": {
+    "sha256": "0af130094bb8252ec3a4d7e59c3955880b1b5bedc4203d1be73fe44ae48a465d",
+    "source": "Geryon"
+  },
+  "Giff": {
+    "sha256": "29e1c529789cf86b3e611d4458bb9163b6ee2d25adcdaad4ee66d4c7d7212b29",
+    "source": "Giff"
+  },
+  "Githyanki Gish": {
+    "sha256": "d4ce2bcc8010d190fb2cab314fedc2b508725594749b3903d6ef4619c2ad9e32",
+    "source": "Githyanki Gish"
+  },
+  "Githyanki Kith’rak": {
+    "sha256": "cc6c3666adaccd4a977519f0be444ce5164c13f63d3bb85f3b9f4db17c8080c0",
+    "source": "Githyanki Kith’rak"
+  },
+  "Githyanki Supreme Commander": {
+    "sha256": "797504ab1ec21a2513fde3447e8935a89830a3a50a74d2036d65160bc6f17205",
+    "source": "Githyanki Supreme Commander"
+  },
+  "Githzerai Anarch": {
+    "sha256": "5d6ebfb36cd73636a98784b176e3bf9593c9c26a75c5ea68ab73c716a555c1e3",
+    "source": "Githzerai Anarch"
+  },
+  "Githzerai Enlightened": {
+    "sha256": "56a080a488845060e22b7673ff8217b28df12db1e04e2000285c052cbc2300c0",
+    "source": "Githzerai Enlightened"
+  },
+  "Gloom Weaver": {
+    "sha256": "d9f9a1945fd4af3fe096ae734aec447a178e6a8f52990f23abdc4f2211619b3d",
+    "source": "Shadar-kai Gloom Weaver"
+  },
+  "Gray Render": {
+    "sha256": "12448214d114f9ec1bdebb2b9785d39c75b0b1dc511e2e9ffcb3a7d297c815a1",
+    "source": "Gray Render"
+  },
+  "Graz’zt": {
+    "sha256": "42a33330f8de67f032b33e757a334345439b0d854aac98b3fa1d9e5b0db59b20",
+    "source": "Graz’zt"
+  },
+  "Green Abishai": {
+    "sha256": "3f3113f892ac8557d6cb1849382b0eb55588b68ec172d2be2bb4fc51861a9eda",
+    "source": "Green Abishai"
+  },
+  "Hellfire Engine": {
+    "sha256": "4cda6ea67a7d4ed16f5417c37cf1befaff210f97019df98e9563af926992d452",
+    "source": "Hellfire Engine"
+  },
+  "Howler": {
+    "sha256": "a3bd6557380d8a6b0c2b87d95f23c5c98b4b9282b87ef6b13f48ce19b7c0cc78",
+    "source": "Howler"
+  },
+  "Hutijin": {
+    "sha256": "71b25ab4d989836babf4ac8c2a97273bd2a226cea103792fe15c6974225c7c94",
+    "source": "Hutijin"
+  },
+  "Hydroloth": {
+    "sha256": "4648ef042cb82be900b4406cbd7f5866fffdf54093e5a1508f9e7afd84bd9c5e",
+    "source": "Hydroloth"
+  },
+  "Infernal Cambion": {
+    "sha256": "0900be2b9700a5cf6ac4bd4f6ae9088e5566d710c723fe7e5dac937e14f679af",
+    "source": "Cambion"
+  },
+  "Iron Cobra": {
+    "sha256": "b0f53085888096f54145677eaced3ef3c8f266d69801019a611b75cc2fe1d00c",
+    "source": "Iron Cobra"
+  }
+}

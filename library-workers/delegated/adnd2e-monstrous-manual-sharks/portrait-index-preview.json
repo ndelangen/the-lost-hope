@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-31fc15942b0c47f6c6408dd9",
+    "version": "2fd2e841c38bae6997128c0b",
+    "name": "Shark",
+    "file": "images/adnd2e-monstrous-manual-sharks/shark.png",
+    "sha256": "b9a101777ae98edbbcbf9d13852a7496d71b27bb80c79a10aa56443705bab03d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-719fa718ae318f8daf6470f2",
+    "version": "e775c7557ef32311589ac519",
+    "name": "Giant Shark",
+    "file": "images/adnd2e-monstrous-manual-sharks/giant-shark.png",
+    "sha256": "233e1df81e455d8c10ebd956abb8c6dfa4f02682058bf5441b00ebe80b7a61e4",
+    "credit": "OpenAI ImageGen"
+  }
+]

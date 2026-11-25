@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Myconid Adult (Additional Spore Effects)",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/myconid-adult-additional-spore-effects/myconid-adult-publisher.webp",
+    "artist": "Related Myconid Adult art · D&D Beyond",
+    "kind": "illustration",
+    "sha256": "f032373a10258f579e5778d6fb431e7f64232ea817bccd4a20a45837daf4add9",
+    "reference": "https://www.dndbeyond.com/avatars/thumbnails/29317/469/1000/1000/638004851099493382.jpeg"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Myconid Adult (Additional Spore Effects)",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/myconid-adult-additional-spore-effects/myconids-hector-ortiz.webp",
+    "artist": "Related myconid art by Hector Ortiz · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "ba8ee92b607492c84de70931413b4f94a49da02288242797de93f3b33f47f45b",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Myconids.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Myconid Sovereign (Additional Spore Effects)",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/myconid-sovereign-additional-spore-effects/sovereign-basidia-related.webp",
+    "artist": "Related Sovereign Basidia illustration",
+    "kind": "illustration",
+    "sha256": "6a29bdf3e3b8895a822013328ad051e48eaba63e47de430dbc88841be62a52ca",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/OotA/Sovereign%20Basidia.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Myconid Sovereign (Additional Spore Effects)",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/myconid-sovereign-additional-spore-effects/myconids-caroline-gariba.webp",
+    "artist": "Related myconid art by Caroline Gariba · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "84359e6928791d6ce8e0ac2890e9224eb32e9254dbc21fc24c6ff6a1a5cfebe9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Myconids.webp"
+  }
+]

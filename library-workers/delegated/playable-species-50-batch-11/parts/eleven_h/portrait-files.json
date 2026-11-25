@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Owl",
+    "file": "portraits/owl.png",
+    "sha256": "f16613ab387315a40ec9f00991b9eb972594825f85492cda32384eb2677d6cb7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Panther",
+    "file": "portraits/panther.png",
+    "sha256": "d76a9194ed217ba17a71086a80f7d28239a73b45050a4a67d4e3745638ed66d0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Phase Spider",
+    "file": "portraits/phase-spider.png",
+    "sha256": "a8d5eb402bde55bc197e7dc33a8fb5459d10024a05a133cc6f1c48a6ef480e8e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Poisonous Snake",
+    "file": "portraits/poisonous-snake.png",
+    "sha256": "a67b2354e2508ce7030b8467cfddf0f9b505d2cd726af61423a636df000a8558",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Polar Bear",
+    "file": "portraits/polar-bear.png",
+    "sha256": "6e989dfb12bea8bb5f81e53dd881948a7d304dd99f25c506b7530da89943c3bb",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

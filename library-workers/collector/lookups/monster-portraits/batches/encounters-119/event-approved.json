@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Neanderthal",
+    "slug": "neanderthal",
+    "caption": "Oren Hearthward · Original Neanderthal NPC",
+    "id": "species-15a68ad7dedc822af58f3204:ea25be1b3c3841cd8d245651",
+    "entry": "species-15a68ad7dedc822af58f3204",
+    "version": "ea25be1b3c3841cd8d245651",
+    "suffix": "encounters-119/neanderthal.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-119/neanderthal.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-119/event-drafts/neanderthal-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 119 2026-11-24/event-drafts/neanderthal-event-v1.png",
+    "overrides": [],
+    "sha256": "e4f751222e51a5ddc4788e7deae230a0c6d93e41ad6db62f5fedee3b889de132",
+    "bytes": 2185390
+  }
+]

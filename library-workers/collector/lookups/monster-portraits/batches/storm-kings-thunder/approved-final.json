@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Cloud Giant (Optional Actions)",
+    "input": "",
+    "subjectPrompt": "A regal cloud giant with pale cool lavender skin, short white hair, and long muted sea-green robes with thick bronze bands and a fine cream mantle. Full figure standing with one elegant open palm and a subtle pale ribbon of vapor winding once around shoulders and calves, evoking a magical wind aura. A short heavy morningstar rests low at the hip. Aristocratic silhouette, no other figures.",
+    "appearanceSource": "Storm King's Thunder",
+    "reference": "images/monsters/cloud-giant/mm-1.webp",
+    "prompt": "Original single square portrait for The Lost Hope fantasy bestiary. Image 1 is the house parchment style only. Image 2 is the 2014 giant anatomy and clothing palette reference; use a new pose and composition. Pale warm gold mottled parchment, fine sepia ink contours, muted detailed gouache and colored pencil, soft matte pigments and a delicate grounding shadow. One figure centered, all parts and gear comfortably within the edges. No frame, text, border, scenery, watermark or interface. Subject: A regal cloud giant with pale cool lavender skin, short white hair, and long muted sea-green robes with thick bronze bands and a fine cream mantle. Full figure standing with one elegant open palm and a subtle pale ribbon of vapor winding once around shoulders and calves, evoking a magical wind aura. A short heavy morningstar rests low at the hip. Aristocratic silhouette, no other figures."
+  },
+  {
+    "name": "Fire Giant (Optional Actions)",
+    "input": "",
+    "subjectPrompt": "A red-haired fire giant siege warrior, dark charcoal skin, stocky powerful build, heavy overlapping dark iron plates with tarnished warm bronze edges, muted burnt orange sash and rough black boots. Full body leaning forward into a braced stance, holding a broad steel greatsword with its whole blade visible at a low angle. A restrained ember-light glint on visor and plates. No structures, other figures, impact, or smoke clouds.",
+    "appearanceSource": "Storm King's Thunder",
+    "reference": "images/monsters/fire-giant/mm-1.webp",
+    "prompt": "Original single square portrait for The Lost Hope fantasy bestiary. Image 1 is the house parchment style only. Image 2 is the 2014 giant anatomy and clothing palette reference; use a new pose and composition. Pale warm gold mottled parchment, fine sepia ink contours, muted detailed gouache and colored pencil, soft matte pigments and a delicate grounding shadow. One figure centered, all parts and gear comfortably within the edges. No frame, text, border, scenery, watermark or interface. Subject: A red-haired fire giant siege warrior, dark charcoal skin, stocky powerful build, heavy overlapping dark iron plates with tarnished warm bronze edges, muted burnt orange sash and rough black boots. Full body leaning forward into a braced stance, holding a broad steel greatsword with its whole blade visible at a low angle. A restrained ember-light glint on visor and plates. No structures, other figures, impact, or smoke clouds."
+  },
+  {
+    "name": "Frost Giant (Optional Actions)",
+    "input": "",
+    "subjectPrompt": "A pale blue-gray frost giant hunter, a long braided silver beard, small horned helm and heavy ragged tundra furs over weathered leather and wraps. One hand holds a broad greataxe at rest, far hand displays a coiled thick woven hunting net whose edge has little bone weights. A hint of frost at the edges of the steel and the beard. The net and whole standing body fully in view, zero scenery.",
+    "appearanceSource": "Storm King's Thunder",
+    "reference": "images/monsters/frost-giant/mm-1.webp",
+    "prompt": "Original single square portrait for The Lost Hope fantasy bestiary. Image 1 is the house parchment style only. Image 2 is the 2014 giant anatomy and clothing palette reference; use a new pose and composition. Pale warm gold mottled parchment, fine sepia ink contours, muted detailed gouache and colored pencil, soft matte pigments and a delicate grounding shadow. One figure centered, all parts and gear comfortably within the edges. No frame, text, border, scenery, watermark or interface. Subject: A pale blue-gray frost giant hunter, a long braided silver beard, small horned helm and heavy ragged tundra furs over weathered leather and wraps. One hand holds a broad greataxe at rest, far hand displays a coiled thick woven hunting net whose edge has little bone weights. A hint of frost at the edges of the steel and the beard. The net and whole standing body fully in view, zero scenery."
+  },
+  {
+    "name": "Hill Giant (Optional Actions)",
+    "input": "",
+    "subjectPrompt": "A huge broad-bellied stocky hill giant with warm dusty tan skin, short black coarse hair, patched taupe hide wraps and primitive rope belt. Low hulking stance with one bent knee and broad feet, bearing a giant knotted wooden club down to one side. Original composition and body language conveys a dangerously heavy build. Clean readable silhouette, no opponents or other creatures.",
+    "appearanceSource": "Storm King's Thunder",
+    "reference": "images/monsters/hill-giant/mm-1.webp",
+    "prompt": "Original single square portrait for The Lost Hope fantasy bestiary. Image 1 is the house parchment style only. Image 2 is the 2014 giant anatomy and clothing palette reference; use a new pose and composition. Pale warm gold mottled parchment, fine sepia ink contours, muted detailed gouache and colored pencil, soft matte pigments and a delicate grounding shadow. One figure centered, all parts and gear comfortably within the edges. No frame, text, border, scenery, watermark or interface. Subject: A huge broad-bellied stocky hill giant with warm dusty tan skin, short black coarse hair, patched taupe hide wraps and primitive rope belt. Low hulking stance with one bent knee and broad feet, bearing a giant knotted wooden club down to one side. Original composition and body language conveys a dangerously heavy build. Clean readable silhouette, no opponents or other creatures."
+  },
+  {
+    "name": "Stone Giant (Optional Actions)",
+    "input": "",
+    "subjectPrompt": "A towering stone giant, lean long limbs and magnificent gray-blue slate skin with subtle mineral mottling, angular bald head, simple fur wrap and carved stone and bronze bracers. Stooping with one hand placed on a round pale granite boulder as if about to roll it, the otherwise empty hand braced near the hip. Entire figure and rock in view. Fine brown contours, no cliff or dark background.",
+    "appearanceSource": "Storm King's Thunder",
+    "reference": "images/monsters/stone-giant/mm-1.webp",
+    "prompt": "Original single square portrait for The Lost Hope fantasy bestiary. Image 1 is the house parchment style only. Image 2 is the 2014 giant anatomy and clothing palette reference; use a new pose and composition. Pale warm gold mottled parchment, fine sepia ink contours, muted detailed gouache and colored pencil, soft matte pigments and a delicate grounding shadow. One figure centered, all parts and gear comfortably within the edges. No frame, text, border, scenery, watermark or interface. Subject: A towering stone giant, lean long limbs and magnificent gray-blue slate skin with subtle mineral mottling, angular bald head, simple fur wrap and carved stone and bronze bracers. Stooping with one hand placed on a round pale granite boulder as if about to roll it, the otherwise empty hand braced near the hip. Entire figure and rock in view. Fine brown contours, no cliff or dark background."
+  },
+  {
+    "name": "Storm Giant (Optional Actions)",
+    "input": "",
+    "subjectPrompt": "A tall noble storm giant with dynamic long white hair and beard, slate teal skin, sea-green layered scale armor and a dark violet sash. Raises a broad greatsword vertically at one side with its complete point visible. One bare foot plants heavily, with thin muted arcs of violet air and a small dust ripple around the sole to suggest a thunder stomp. Centered in a dignified stance, no surrounding scenery or lightning filling the background.",
+    "appearanceSource": "Storm King's Thunder",
+    "reference": "images/monsters/storm-giant/mm-1.webp",
+    "prompt": "Original single square portrait for The Lost Hope fantasy bestiary. Image 1 is the house parchment style only. Image 2 is the 2014 giant anatomy and clothing palette reference; use a new pose and composition. Pale warm gold mottled parchment, fine sepia ink contours, muted detailed gouache and colored pencil, soft matte pigments and a delicate grounding shadow. One figure centered, all parts and gear comfortably within the edges. No frame, text, border, scenery, watermark or interface. Subject: A tall noble storm giant with dynamic long white hair and beard, slate teal skin, sea-green layered scale armor and a dark violet sash. Raises a broad greatsword vertically at one side with its complete point visible. One bare foot plants heavily, with thin muted arcs of violet air and a small dust ripple around the sole to suggest a thunder stomp. Centered in a dignified stance, no surrounding scenery or lightning filling the background."
+  }
+]

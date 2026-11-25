@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Bhaal, Ravager",
+    "publication": "Minsc and Boo's Journal of Villainy",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, lawful evil",
+    "printedPage": 95,
+    "ac": 20,
+    "hp": 351,
+    "hitDice": "26d12 + 182",
+    "speed": "40 ft.",
+    "cr": "24",
+    "xp": 62000,
+    "abilities": {
+      "Str": {
+        "score": 28,
+        "modifier": 9
+      },
+      "Dex": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Con": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "passivePerception": 20,
+    "otherStatistics": "Natural armor. Saves Str +16, Dex +14, Cha +9. Skills Athletics +16, Perception +10, Stealth +14. Resists necrotic. Immune to acid, cold, fire, lightning, poison, and bludgeoning, piercing, and slashing from nonmagical attacks. Immune to charmed, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, stunned, and unconscious. Darkvision 120 ft., truesight 60 ft., passive Perception 20. Abyssal, Common, Primordial, and Undercommon.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Bhaal's huge, spined Beast avatar has a biting maw, claws, and a spiked carapace.",
+    "habitats": [],
+    "sections": {
+      "Printed source": "Minsc and Boo's Journal of Villainy, chapter 3, Campaign Villains, p. 95.",
+      "Traits": "Avatar of Bhaal. At 0 HP, the form breaks apart. The Slayer returns within 24 hours, 2d6 miles from the place the Ravager fell. Cull the Weak. After Ravager melee damage leaves a creature at 20 HP or less, it must pass a DC 21 Constitution save or fall to 0 HP. Immutable Form. Effects cannot change its form. Legendary Resistance, three per day. The Ravager can turn a failed save into a success. Magic Resistance. It has advantage on saves against magic. Magic Weapons. Claw, Bite, and Spines are magical attacks. Spiked Hide. At the start of the Ravager’s turn, any creature grappling it or in its grip takes 16 (3d10) piercing damage.",
+      "Actions": "Multiattack. Use the referenced Fear aura if available, then make one Bite and two Claws, or make two Spines attacks. Claw. +16 to hit, reach 5 ft., one target. Deals 22 (3d8 + 9) slashing plus 7 (2d6) necrotic damage. Bite. +16 to hit, reach 5 ft., one target. Deals 25 (3d10 + 9) piercing plus 7 (2d6) necrotic damage. A Large or smaller creature damaged by Bite is grappled, escape DC 20. While the grapple remains, the Ravager has no other Bite attack. When either hit damages a creature, it makes a DC 21 Constitution save. Failure subtracts the damage taken from its HP maximum until Greater Restoration or comparable magic removes the reduction. It dies if that maximum falls to 0. Spines. +14 to hit at 60/120 ft., one target. Deals 17 (3d6 + 7) piercing damage. A failed DC 19 Constitution save stuns the target through the end of its next turn.",
+      "Legendary Actions": "The Ravager has three legendary actions. It can use one option at the end of another creature’s turn and regains spent actions when its own turn starts. Detect. Make a Wisdom (Perception) check. Smash. Creatures in a 10-ft. cube originating from the Ravager make DC 20 Constitution saves. Failure deals 36 (8d8) thunder damage and pushes a target 5 ft. Success halves the damage and prevents the push. The sound carries 100 ft. Spiky Carapace, costs two actions. The Ravager extends its spines. A creature that starts its turn within 5 ft. makes a DC 21 Dexterity save or takes 44 (8d10) piercing damage, half on a success.",
+      "Source notes": "The 2021 Multiattack refers to a Fear aura with no rules in the block. Spiky Carapace has no stated end time. The separate Slayer avatar on p. 93 is Humanoid."
+    }
+  },
+  {
+    "name": "Deep Spider",
+    "publication": "Minsc and Boo's Journal of Villainy",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "printedPage": 151,
+    "ac": 15,
+    "hp": 95,
+    "hitDice": "10d12 + 30",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Stealth +8. Tremorsense 60 ft., passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A giant spider with fine black hairs, a sleek dark exoskeleton, and eight serrated legs. The front pair ends in large curved blades.",
+    "habitats": [
+      "Underdark",
+      "Caverns",
+      "Forests"
+    ],
+    "sections": {
+      "Printed source": "Minsc and Boo's Journal of Villainy, chapter 5, Monsters, Sword Spider, p. 151.",
+      "Traits": "Spider Climb. It climbs difficult surfaces and ceilings without a check. Web Sense. It locates other creatures touching the same web. Web Walker. Webbing does not impede its movement.",
+      "Actions": "Multiattack. Make two Foreleg attacks and one Bite. Bite. +8 to hit, reach 5 ft., one target. Deals 14 (2d8 + 5) piercing damage. The target makes a DC 14 Constitution save against 18 (4d8) poison damage, half on success. A target knocked to 0 HP by the poison is stable and poisoned for one hour, including after healing. It is paralyzed while that poisoning lasts. Foreleg. +8 to hit, reach 5 ft., one target. Deals 19 (4d6 + 5) slashing damage.",
+      "Encounter ecology": "Drow bred these larger sword spiders for warfare under Lolthite priestesses. Escaped populations spread through the Underdark and reached the surface.",
+      "Source notes": "The ecology prose describes leaps and restraint by sprayed webs, while the stat block defines no separate Leap or Web action."
+    }
+  },
+  {
+    "name": "Sword Spider",
+    "publication": "Minsc and Boo's Journal of Villainy",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "printedPage": 151,
+    "ac": 16,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Stealth +7. Tremorsense 60 ft., passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A giant spider with fine black hairs, a sleek dark exoskeleton, and eight serrated legs. The front pair ends in large curved blades.",
+    "habitats": [
+      "Forests",
+      "Caverns",
+      "Mhair jungles"
+    ],
+    "sections": {
+      "Printed source": "Minsc and Boo's Journal of Villainy, chapter 5, Monsters, Sword Spider, p. 151.",
+      "Traits": "Spider Climb. It climbs difficult surfaces and ceilings without a check. Web Sense. It locates other creatures touching the same web. Web Walker. Webbing does not impede its movement.",
+      "Actions": "Multiattack. Make two Foreleg attacks and one Bite. Bite. +5 to hit, reach 5 ft., one target. Deals 7 (1d8 + 3) piercing damage. The target makes a DC 12 Constitution save against 9 (2d8) poison damage, half on success. A target knocked to 0 HP by the poison is stable and poisoned for one hour, including after healing. It is paralyzed while that poisoning lasts. Foreleg. +5 to hit, reach 5 ft., one target. Deals 10 (2d6 + 3) slashing damage.",
+      "Encounter ecology": "A solitary predator from the Mhair jungles, it hunts in forests and caverns. It approaches from above or chases prey on the ground, pinning a victim with its forelegs before biting.",
+      "Source notes": "The ecology prose describes leaps and restraint by sprayed webs, while the stat block defines no separate Leap or Web action."
+    }
+  },
+  {
+    "name": "Rothé",
+    "publication": "Chains of Asmodeus",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast (cattle), unaligned",
+    "printedPage": 48,
+    "ac": 10,
+    "hp": 15,
+    "hitDice": "2d10 + 4",
+    "speed": "30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Darkvision 30 ft., passive Perception 10. No languages. Proficiency bonus +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky horned rothé with a shaggy cattle build.",
+    "habitats": [
+      "River Styx shore"
+    ],
+    "sections": {
+      "Printed source": "Chains of Asmodeus, chapter 2, The Nine Hells, Shadow of a Tyrant, p. 48.",
+      "Actions": "Gore. +6 to hit, reach 5 ft., one target. Deals 7 (1d6 + 4) piercing. Add 7 (2d6) piercing if the rothé moved at least 20 ft. straight toward the target immediately before the hit.",
+      "Encounter ecology": "Herds stand on the River Styx shore. Ayperobos infest and control some cattle in Shadow of a Tyrant. The page gives no separate rules for those individual cattle.",
+      "Source notes": "Rothé in this printing has the Cattle tag and an explicit proficiency bonus. The encounter supplies no change to the herd’s anatomy."
+    }
+  },
+  {
+    "name": "Giant Canary",
+    "publication": "Fizban's Treasury of Dragons",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "printedPage": 23,
+    "ac": 12,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "30 ft., fly 60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Passive Perception 10. The block lists no languages. Proficiency bonus +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A living canary large enough to ride, with a stout songbird beak and yellow feathers in this portrait.",
+    "habitats": [],
+    "sections": {
+      "Printed source": "Fizban's Treasury of Dragons, chapter 2, Dragon Magic, Gold Canary Figurine of Wondrous Power, pp. 23–24.",
+      "Actions": "Peck. +4 to hit, reach 5 ft., one target. Deals 7 (1d10 + 2) piercing damage.",
+      "Figurine rules": "Speak the command word as an action and throw the figurine to an unoccupied space within 60 ft. With room for the animal to appear, the living canary stays for up to eight hours and can be ridden. It is friendly to the user and companions, understands the user’s languages, and follows spoken commands. Without commands it defends itself. It returns to its statuette form when the time expires, when reduced to 0 HP, or when the user touches it and spends an action to speak the command word again. The canary can next be called at dawn.",
+      "Source notes": "The Beast block belongs to the figurine’s canary option. Its adult gold dragon option uses a separate Monster Manual profile."
+    }
+  }
+]

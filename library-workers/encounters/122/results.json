@@ -1,0 +1,29 @@
+{
+  "entryId": "monster-bd8c475cf2ac857eb40015c3",
+  "versionKey": "d9d11dd8ba79d8a2c69ad2b0",
+  "artHash": "e00c145518dc319a8824ea31f6aa8db17a03a11837d90e871125aaee5c87d98b",
+  "art": {
+    "url": "",
+    "credit": "D&D Beyond publisher art · Flee, Mortals!"
+  },
+  "stats": {
+    "Armor class": "16",
+    "Hit points": "88",
+    "Hit dice": "16d8 + 16",
+    "Challenge": "6",
+    "Type": "Fey",
+    "Speed": "30 ft.",
+    "XP": "2300",
+    "Str": "10",
+    "Dex": "18",
+    "Con": "12",
+    "Int": "11",
+    "Wis": "14",
+    "Cha": "20"
+  },
+  "linkedTerms": [
+    "Frightened",
+    "Minor Illusion",
+    "Silent Image"
+  ]
+}

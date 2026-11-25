@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Crocodile",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "20 ft., swim 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC from natural armor. Stealth +2. Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad olive-brown reptile with a long toothed snout, four short legs, armored ridges along its back and a tapering tail.",
+    "habitats": [
+      "Rivers",
+      "Riverbanks",
+      "Marshes",
+      "Freshwater wetlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen - Online Supplement, August 8, 2014, version 1, printed and p. 7. ",
+      "Traits": "Hold Breath. The crocodile can hold its breath for 15 minutes.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. A hit deals 7 (1d10 + 2) piercing damage and grapples it, escape DC 12. The victim remains restrained while grappled. The crocodile cannot Bite a different target until the grapple ends.",
+      "At the table": "Bite starts the grapple on a hit. The grappled creature may spend its action to try a DC 12 Strength (Athletics) or Dexterity (Acrobatics) check to escape."
+    }
+  },
+  {
+    "name": "Deer",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d8",
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 12. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slender russet-brown deer with a pale throat, split hooves and tall branched antlers in the reused stag portrait.",
+    "habitats": [
+      "Woodland",
+      "Woodland edges",
+      "Meadows",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen - Online Supplement, August 8, 2014, version 1, printed and p. 7. ",
+      "Actions": "Bite. Melee weapon attack, +2 to hit against one target within 5 ft. A hit deals 2 (1d4) piercing damage."
+    }
+  },
+  {
+    "name": "Elk",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large tawny elk with a darker shaggy neck, broad branching antlers, slim legs and cloven hooves.",
+    "habitats": [
+      "Open woodland",
+      "Upland meadows",
+      "Grassland",
+      "Woodland edges"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen - Online Supplement, August 8, 2014, version 1, printed and p. 8. ",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram that turn. The hit deals an extra 7 (2d6) damage. If the target is a creature, it must pass a DC 13 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit against one prone creature within 5 ft. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "At the table": "The printed Charge rider gives 2d6 additional damage without stating its type. The target’s save determines prone. Hooves is its own action against an already prone creature."
+    }
+  },
+  {
+    "name": "Giant Centipede",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d6 + 1",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "AC from natural armor. Blindsight 30 ft. Passive Perception 8. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A reddish-brown segmented arthropod with long antennae, curved venom claws, and paired ochre legs along its body.",
+    "habitats": [
+      "Caverns",
+      "Underdark",
+      "Forest floor",
+      "Under logs and stones"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen - Online Supplement, August 8, 2014, version 1, printed and p. 9. ",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 4 (1d4 + 2) piercing damage. The creature makes a DC 11 Constitution save and takes 10 (3d6) poison damage on a failure. If this poison damage drops it to 0 HP, it is stable but poisoned for 1 hour, even after it regains HP. It is paralyzed while poisoned by this effect.",
+      "At the table": "A successful save avoids the poison damage. The special stable, poisoned and paralyzed effects require the poison damage itself to reduce the target to 0 HP."
+    }
+  }
+]

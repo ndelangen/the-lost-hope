@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Beast of the Land",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "printedRules": {
+      "page": 123,
+      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 123. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=124",
+      "sections": {
+        "Primal Companion": "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast.",
+        "Scaling": "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 5 + five times the ranger level. The beast has one d8 Hit Die per ranger level.",
+        "Statistics": "Medium neutral Beast. Walk and climb 40 ft. Darkvision 60 ft. Str 14, Dex 14, Con 15, Int 8, Wis 14, Cha 11. Base save modifiers in that order are +2, +2, +2, −1, +2 and +0.",
+        "Traits": "Primal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws.",
+        "Actions": "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 2 + the ranger’s Wisdom modifier. Choose Bludgeoning, Piercing, or Slashing on summoning. If the beast moved 20 ft. or more in a straight line toward the target before hitting, add 1d6 of that type. A Large or smaller creature hit under that movement condition also falls Prone.",
+        "Higher-level Beast Master features": "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft.",
+        "Appearance": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a wolf."
+      }
+    }
+  },
+  {
+    "name": "Beast of the Sea",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "printedRules": {
+      "page": 124,
+      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 124. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+      "sections": {
+        "Primal Companion": "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast.",
+        "Scaling": "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 5 + five times the ranger level. The beast has one d8 Hit Die per ranger level.",
+        "Statistics": "Medium neutral Beast. Walk 5 ft. and swim 60 ft. Darkvision 90 ft. Str 14, Dex 14, Con 15, Int 8, Wis 14, Cha 11. Base save modifiers in that order are +2, +2, +2, −1, +2 and +0.",
+        "Traits": "Amphibious. The beast breathes air and water.\nPrimal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws.",
+        "Actions": "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d6 + 2 + the ranger’s Wisdom modifier in Bludgeoning or Piercing damage, chosen on summoning. It gives the target the Grappled condition. Use the ranger’s spell save DC as the escape DC.",
+        "Higher-level Beast Master features": "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft.",
+        "Appearance": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a crocodile."
+      }
+    }
+  },
+  {
+    "name": "Beast of the Sky",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "printedRules": {
+      "page": 124,
+      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 124. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+      "sections": {
+        "Primal Companion": "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast.",
+        "Scaling": "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 4 + four times the ranger level. The beast has one d6 Hit Die per ranger level.",
+        "Statistics": "Small neutral Beast. Walk 10 ft. and fly 60 ft. Darkvision 60 ft. Str 6, Dex 16, Con 13, Int 8, Wis 14, Cha 11. Base save modifiers in that order are −2, +3, +1, −1, +2 and +0.",
+        "Traits": "Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the beast.\nPrimal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws.",
+        "Actions": "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d4 + 3 + the ranger’s Wisdom modifier in Slashing damage.",
+        "Higher-level Beast Master features": "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft.",
+        "Appearance": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a hawk."
+      }
+    }
+  },
+  {
+    "name": "Bestial Spirit",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "printedRules": {
+      "page": 323,
+      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+      "sections": {
+        "Summon Beast": "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends.",
+        "Initiative and commands": "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger.",
+        "Statistics": "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s.",
+        "Actions": "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage.",
+        "Scaling": "AC is 11 + the spell slot level. Start with 20 for Air, or 30 for Land and Water HP and add 5 HP per slot level above 2.",
+        "Movement": "Walk 30 ft. Add climb 30 ft. for Land, fly 60 ft. for Air, or swim 30 ft. for Water.",
+        "Traits": "Air only. Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the spirit.\nLand or Water only. Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition.\nWater only. Water Breathing. The spirit breathes only underwater.",
+        "Appearance": "The caster chooses a native animal for the selected environment. The portrait shows a wolf as one Land example."
+      }
+    }
+  },
+  {
+    "name": "Bestial Spirit (Air)",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "printedRules": {
+      "page": 323,
+      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+      "sections": {
+        "Summon Beast": "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends.",
+        "Initiative and commands": "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger.",
+        "Statistics": "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s.",
+        "Actions": "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage.",
+        "Scaling": "AC is 11 + the spell slot level. Start with 20 HP and add 5 HP per slot level above 2.",
+        "Movement": "Walk 30 ft. and fly 60 ft.",
+        "Traits": "Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the spirit.",
+        "Appearance": "The caster chooses a native air animal. The portrait shows an eagle."
+      }
+    }
+  },
+  {
+    "name": "Bestial Spirit (Land)",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "printedRules": {
+      "page": 323,
+      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+      "sections": {
+        "Summon Beast": "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends.",
+        "Initiative and commands": "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger.",
+        "Statistics": "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s.",
+        "Actions": "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage.",
+        "Scaling": "AC is 11 + the spell slot level. Start with 30 HP and add 5 HP per slot level above 2.",
+        "Movement": "Walk 30 ft. and climb 30 ft.",
+        "Traits": "Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition.",
+        "Appearance": "The caster chooses a native land animal. The portrait shows a wolf."
+      }
+    }
+  },
+  {
+    "name": "Bestial Spirit (Water)",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "printedRules": {
+      "page": 323,
+      "citation": "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+      "sections": {
+        "Summon Beast": "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends.",
+        "Initiative and commands": "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger.",
+        "Statistics": "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s.",
+        "Actions": "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage.",
+        "Scaling": "AC is 11 + the spell slot level. Start with 30 HP and add 5 HP per slot level above 2.",
+        "Movement": "Walk 30 ft. and swim 30 ft.",
+        "Traits": "Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition.\nWater Breathing. The spirit breathes only underwater.",
+        "Appearance": "The caster chooses a native water animal. The portrait shows a crocodile."
+      }
+    }
+  }
+]

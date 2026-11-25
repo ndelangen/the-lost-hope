@@ -45,12 +45,14 @@ function orientedDimensions(metadata: Metadata): { width: number; height: number
     : { width: metadata.width, height: metadata.height }
 }
 
-function candidateWidths(sourceWidth: number, maxWidth?: number): number[] {
-  const maximumWidth = maxWidth ?? RESPONSIVE_IMAGE_WIDTHS.at(-1) ?? sourceWidth
+function candidateWidths(
+  sourceWidth: number,
+  requested: readonly number[],
+  maxWidth?: number,
+): number[] {
+  const maximumWidth = maxWidth ?? requested.at(-1) ?? sourceWidth
   const cappedWidth = Math.min(sourceWidth, maximumWidth)
-  return [...RESPONSIVE_IMAGE_WIDTHS.filter((width) => width < cappedWidth), cappedWidth].filter(
-    (width, index, widths) => index === 0 || width !== widths[index - 1],
-  )
+  return [...requested.filter((width) => width < cappedWidth), cappedWidth]
 }
 
 /** Candidates from the previous run, keyed by source digest, so unchanged sources are reused. */
@@ -96,8 +98,9 @@ async function encodeSource(
     .update(JSON.stringify(RESPONSIVE_IMAGE_ENCODING))
     .digest('hex')
     .slice(0, 16)
-  const widths = candidateWidths(dimensions.width, source.maxWidth)
-  const baseCacheKey = `${source.id}.${digest}.${RESPONSIVE_IMAGE_WIDTHS.join(',')}`
+  const requested = source.widths ?? RESPONSIVE_IMAGE_WIDTHS
+  const widths = candidateWidths(dimensions.width, requested, source.maxWidth)
+  const baseCacheKey = `${source.id}.${digest}.${requested.join(',')}`
   const cacheKey = source.maxWidth ? `${baseCacheKey}.${source.maxWidth}` : baseCacheKey
   const previousCandidates = previous[cacheKey] ?? previous[baseCacheKey]
   const cached = previousCandidates?.filter(({ width }) => widths.includes(width))
@@ -223,7 +226,7 @@ async function generate(): Promise<void> {
   const sourceBytes = (
     await Promise.all(
       RESPONSIVE_IMAGE_SOURCES.map(
-        async ({ repositoryPath }) => (await readFile(join(ROOT, repositoryPath))).byteLength,
+        async ({ repositoryPath }) => (await stat(join(ROOT, repositoryPath))).size,
       ),
     )
   ).reduce((sum, bytes) => sum + bytes, 0)

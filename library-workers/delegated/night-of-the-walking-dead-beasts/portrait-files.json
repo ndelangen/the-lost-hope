@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Crocodile",
+    "file": "",
+    "selection": "generated",
+    "sha256": "dd125da20433b10de5f05477f5e3f17cb538d6eccf79c0b819715480a7ace6a6",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Frog",
+    "file": "",
+    "selection": "generated",
+    "sha256": "73e5b1c7e40bc80a74d9b9329244661d12212598a5d114a11ac2e0b13449d453",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Bat",
+    "file": "",
+    "selection": "generated",
+    "sha256": "b642f3766b8d50778042fdc87e85e8bddc16fbad293e506f05c005f6f91a982a",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Rat",
+    "file": "",
+    "selection": "generated",
+    "sha256": "73ea67873e363e85f11687d783e26ee1623cee5e3b183822a2828feff3cabb37",
+    "width": 1254,
+    "height": 1254
+  }
+]

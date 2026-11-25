@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Half-Ogre",
+    "species": "species-bea9b51c3f9723f88ac9d0ae",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Destiny (2004)"
+    ],
+    "portraitSha256": "4c86329755978486f8b7d70124e7ff220a32a55e2cea4fdda38c3c4d0e764394",
+    "caption": "Bram Reedbar · Original Half-Ogre NPC",
+    "npcReceipts": [
+      {
+        "name": "Bram Reedbar",
+        "id": "npc-68c107bff8e8a232991eff96",
+        "challenge": "Provisional CR 2. ECL 3."
+      },
+      {
+        "name": "Dessa Tallowbeat",
+        "id": "npc-2c9e16dbfa3d084533d93bd5",
+        "challenge": "Provisional CR 2. ECL 3."
+      }
+    ]
+  }
+]

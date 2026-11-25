@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Mind Flayer",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Monster Manual, v.3.5",
+    "publisher": "Wizards of the Coast",
+    "printedPages": {
+      "originalCreature": [
+        186,
+        187,
+        188
+      ],
+      "racialTraits": 188,
+      "illustration": 187,
+      "underdarkPlayableEntry": [
+        19,
+        20
+      ]
+    },
+    "primaryBookPdfPageOffset": 0,
+    "underdarkPdfPageOffset": 1,
+    "psionicVariant": "",
+    "editionReference": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "f6c17365945be3ac504ea2660932b0f4ee9804db2f3443234ebe7464fd29c621",
+    "editionReferenceSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "ad0182470b2706542bf3faa9ab75bc225dd3abd93b7d6794a473d19629f4aa0f",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Todd Lockwood, Monster Manual p. 187.",
+    "sourceDistinctions": [
+      "Underdark lists 8 racial Hit Dice, LA +7, favored class Wizard, and ECL 15. The core character entry supplies the detailed racial traits.",
+      "Spell resistance is 25 + class levels. The listed innate Psionics use caster level 8. Mind Blast is a separate 4th-level-equivalent spell-like ability with a Charisma-based Will save.",
+      "The February 2006 Monster Manual errata specify Telepathy (Su) at 100 ft. with creatures that have a language.",
+      "The 3.5 FAQ discusses CR 8 for a base Mind Flayer and CR 9 for one with Wizard 1. It also clarifies that a warforged is vulnerable to Extract.",
+      "The Expanded Psionics Handbook presents a distinct 9th-level telepath stat block. This profile uses the core at-will spell-like suite."
+    ],
+    "entryId": "species-4f4b9f733f6afea5aa6467de",
+    "versionKey": "fe1384c0f68128446bdf72d4",
+    "slug": "mind-flayer",
+    "portraitSelection": "generated",
+    "portraitForm": "Ilyth Voss, an original Mind Flayer archive warden",
+    "npcExamples": [
+      "Ilyth Voss",
+      "Sael Nethrix"
+    ]
+  }
+]

@@ -1,0 +1,238 @@
+{
+  "Azurin": {
+    "profiles": [
+      {
+        "name": "Azurin",
+        "imageKey": "species:azurin",
+        "kind": "species",
+        "type": "Humanoid (Human, Incarnum)",
+        "publication": "Magic of Incarnum (2005)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://openlibrary.org/books/OL8144462M",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Humanoid with the Human and Incarnum subtypes. No racial ability score adjustments. Base land speed 30 ft. The Human subtype makes Azurins count as human for applicable effects. The Incarnum subtype supplies no shared abilities or defenses.",
+          "Gain one bonus feat at 1st level. Azurin traits do not grant the human bonus skill points.",
+          "The racial essentia pool increases permanently by 1. This creates a pool of 1 if the character has no other source. An essentia pool supplies points to invest in eligible feats, soulmelds, and abilities.",
+          "Normal capacity per investment is 1 at levels 1–5, 2 at 6–11, 3 at 12–17, and 4 at 18–20. Soulmeld investments can be reallocated as a swift action. Incarnum feat investments are normally set once per day and locked for 24 hours.",
+          "Common is automatic. Bonus languages can be any nonsecret language. Favored class Soulborn. The published examples list LA +0 and use class Hit Dice.",
+          "Azurins resemble their human families. A sky-blue sheen in the whites of the eyes is their distinguishing physical trait."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Azurin",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Magic of Incarnum (2005)",
+            "name": "Lysa Vale",
+            "build": {
+              "id": "azurin-ferry-warden-35e",
+              "title": "Azurin ferry warden, Soulborn 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Human, Incarnum)",
+              "ac": 16,
+              "hp": 12,
+              "hitDice": "1d10+2",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 14,
+                "DEX": 12,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 12,
+                "CHA": 14
+              },
+              "skills": [
+                "Diplomacy +6",
+                "Heal +5"
+              ],
+              "senses": "Ordinary vision.",
+              "languages": "Common",
+              "traits": [
+                "Lawful good. Aura (Ex) corresponds to her lawful good alignment. Studded leather +3, heavy wooden shield +2, Dexterity +1. Touch 11, flat-footed 15. BAB +1, grapple +3. Fortitude +4, Reflex +1, Will +1. Combined armor check penalty −3.",
+                "Three essentia from her race, Sapphire Smite, and Healing Soul. The normal capacity is 1 per feat. At the start of the day she puts 1 in Sapphire Smite and 1 in Healing Soul for 24 hours. The third point remains unspent.",
+                "At Soulborn 1, Lysa gets her essentia from her race and feats. Soulborn meldshaping starts at 4th level and class essentia starts at 6th."
+              ],
+              "actions": [
+                "Longsword +3 melee, 1d8+2 slashing, critical 19–20/×2, 5-ft. reach.",
+                "Javelin +2 ranged, 1d6+2 piercing, critical ×2, 30-ft. increment.",
+                "Smite Opposition twice per day with Sapphire Smite. With her longsword, +5 melee for 1d8+4 against a chaotic or evil target. Another alignment receives the ordinary attack and still expends the attempt.",
+                "Healing Soul once per day as a swift action. Heal 2 HP to herself."
+              ],
+              "tactics": "Lysa is holding the ferry until a missing child reaches the landing. She keeps the gate open for the party, shields the ramp, and saves Smite Opposition for an attacker whose allegiance she has confirmed."
+            },
+            "role": "Ferry warden and Soulborn.",
+            "motive": "Keep the ferry at the landing until a missing child comes back.",
+            "hook": "Lysa can keep the ramp open while the party checks the path home."
+          },
+          {
+            "species": "Azurin",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Magic of Incarnum (2005)",
+            "name": "Rena Marr",
+            "build": {
+              "id": "azurin-mill-causeway-watch-35e",
+              "title": "Azurin mill causeway watch, Fighter 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Human, Incarnum)",
+              "ac": 15,
+              "hp": 12,
+              "hitDice": "1d10+2",
+              "initiative": 6,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 16,
+                "DEX": 14,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 12,
+                "CHA": 8
+              },
+              "skills": [
+                "Climb +6",
+                "Jump +6"
+              ],
+              "senses": "Ordinary vision.",
+              "languages": "Common",
+              "traits": [
+                "Chaotic good. Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +1. Armor check penalty −1. Improved Initiative is the Fighter bonus feat.",
+                "Three essentia from her race, Cobalt Charge, and Midnight Dodge. Invests 1 in each feat for 24 hours. The normal capacity is 1 per feat. One point remains unspent.",
+                "Midnight Dodge grants +1 dodge AC against one opponent designated on Rena’s turn. She may change the target each turn without moving any essentia. AC 16 against that opponent, or 14 while under the charge penalty. Losing her Dexterity bonus also removes the dodge bonus."
+              ],
+              "actions": [
+                "Greatsword +4 melee, 2d6+4 slashing, critical 19–20/×2, 5-ft. reach.",
+                "Javelin +3 ranged, 1d6+3 piercing, critical ×2, 30-ft. increment.",
+                "Cobalt Charge with the greatsword: +7 melee, 2d6+5 slashing. This includes the ordinary +2 charge attack bonus and a +1 insight bonus to attack and damage. Charge imposes −2 AC until her next turn."
+              ],
+              "tactics": "Rena keeps the causeway clear while mill workers cross. She chooses the opponent most likely to reach her, then charges only when she has a clear lane. If the gate or workers block that lane, she holds the bottleneck."
+            },
+            "role": "Mill causeway watch and Fighter.",
+            "motive": "Keep the crossing open long enough for the night shift to get away.",
+            "hook": "Rena knows when the sluice gate closes and can hold the causeway while the party leads people off it."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Azurin",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Magic of Incarnum (2005)",
+        "name": "Lysa Vale",
+        "build": {
+          "id": "azurin-ferry-warden-35e",
+          "title": "Azurin ferry warden, Soulborn 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Human, Incarnum)",
+          "ac": 16,
+          "hp": 12,
+          "hitDice": "1d10+2",
+          "initiative": 1,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 14,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 12,
+            "CHA": 14
+          },
+          "skills": [
+            "Diplomacy +6",
+            "Heal +5"
+          ],
+          "senses": "Ordinary vision.",
+          "languages": "Common",
+          "traits": [
+            "Lawful good. Aura (Ex) corresponds to her lawful good alignment. Studded leather +3, heavy wooden shield +2, Dexterity +1. Touch 11, flat-footed 15. BAB +1, grapple +3. Fortitude +4, Reflex +1, Will +1. Combined armor check penalty −3.",
+            "Three essentia from her race, Sapphire Smite, and Healing Soul. The normal capacity is 1 per feat. At the start of the day she puts 1 in Sapphire Smite and 1 in Healing Soul for 24 hours. The third point remains unspent.",
+            "At Soulborn 1, Lysa gets her essentia from her race and feats. Soulborn meldshaping starts at 4th level and class essentia starts at 6th."
+          ],
+          "actions": [
+            "Longsword +3 melee, 1d8+2 slashing, critical 19–20/×2, 5-ft. reach.",
+            "Javelin +2 ranged, 1d6+2 piercing, critical ×2, 30-ft. increment.",
+            "Smite Opposition twice per day with Sapphire Smite. With her longsword, +5 melee for 1d8+4 against a chaotic or evil target. Another alignment receives the ordinary attack and still expends the attempt.",
+            "Healing Soul once per day as a swift action. Heal 2 HP to herself."
+          ],
+          "tactics": "Lysa is holding the ferry until a missing child reaches the landing. She keeps the gate open for the party, shields the ramp, and saves Smite Opposition for an attacker whose allegiance she has confirmed."
+        },
+        "role": "Ferry warden and Soulborn.",
+        "motive": "Keep the ferry at the landing until a missing child comes back.",
+        "hook": "Lysa can keep the ramp open while the party checks the path home."
+      },
+      {
+        "species": "Azurin",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Magic of Incarnum (2005)",
+        "name": "Rena Marr",
+        "build": {
+          "id": "azurin-mill-causeway-watch-35e",
+          "title": "Azurin mill causeway watch, Fighter 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Human, Incarnum)",
+          "ac": 15,
+          "hp": 12,
+          "hitDice": "1d10+2",
+          "initiative": 6,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 16,
+            "DEX": 14,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 12,
+            "CHA": 8
+          },
+          "skills": [
+            "Climb +6",
+            "Jump +6"
+          ],
+          "senses": "Ordinary vision.",
+          "languages": "Common",
+          "traits": [
+            "Chaotic good. Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +1. Armor check penalty −1. Improved Initiative is the Fighter bonus feat.",
+            "Three essentia from her race, Cobalt Charge, and Midnight Dodge. Invests 1 in each feat for 24 hours. The normal capacity is 1 per feat. One point remains unspent.",
+            "Midnight Dodge grants +1 dodge AC against one opponent designated on Rena’s turn. She may change the target each turn without moving any essentia. AC 16 against that opponent, or 14 while under the charge penalty. Losing her Dexterity bonus also removes the dodge bonus."
+          ],
+          "actions": [
+            "Greatsword +4 melee, 2d6+4 slashing, critical 19–20/×2, 5-ft. reach.",
+            "Javelin +3 ranged, 1d6+3 piercing, critical ×2, 30-ft. increment.",
+            "Cobalt Charge with the greatsword: +7 melee, 2d6+5 slashing. This includes the ordinary +2 charge attack bonus and a +1 insight bonus to attack and damage. Charge imposes −2 AC until her next turn."
+          ],
+          "tactics": "Rena keeps the causeway clear while mill workers cross. She chooses the opponent most likely to reach her, then charges only when she has a clear lane. If the gate or workers block that lane, she holds the bottleneck."
+        },
+        "role": "Mill causeway watch and Fighter.",
+        "motive": "Keep the crossing open long enough for the night shift to get away.",
+        "hook": "Rena knows when the sluice gate closes and can hold the causeway while the party leads people off it."
+      }
+    ]
+  }
+}

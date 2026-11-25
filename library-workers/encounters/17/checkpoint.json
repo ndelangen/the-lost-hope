@@ -1,0 +1,50 @@
+{
+  "commit": "97c42cec76be25a9ab930389f17f4938dcd3b555",
+  "publication": "Lost Mine of Phandelver",
+  "encounterVersions": 1,
+  "fullStatBlocks": 1,
+  "lostMineRecordsWithLocalRules": 16,
+  "generatedPortraitsInstalled": 1,
+  "generatedDraftsBackedUp": 1,
+  "replacedPortraitsBackedUp": 1,
+  "replacedFormatsBackedUp": 2,
+  "allRecentVersionsWithGeneratedPortrait": 503,
+  "creditedGalleriesVerified": 1,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-17-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/17/results.json",
+  "nextSourcePublication": "Icewind Dale: Rime of the Frostmaiden",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Brain in a Jar",
+      "source": "https://www.dndbeyond.com/monsters/1123069-brain-in-a-jar",
+      "challenge": "3"
+    },
+    {
+      "name": "Crag Cat",
+      "source": "https://www.dndbeyond.com/monsters/17348-crag-cat",
+      "challenge": "1"
+    },
+    {
+      "name": "Cult Fanatic (Knights of the Black Sword)",
+      "source": "https://www.dndbeyond.com/monsters/1123106-cult-fanatic-knights-of-the-black-sword",
+      "challenge": "2"
+    },
+    {
+      "name": "Cultist (Knights of the Black Sword)",
+      "source": "https://www.dndbeyond.com/monsters/1128460-cultist-knights-of-the-black-sword",
+      "challenge": "1/8"
+    },
+    {
+      "name": "Piercer (Ice variant)",
+      "source": "https://www.dndbeyond.com/monsters/1123098-piercer-ice-variant",
+      "challenge": "1/2"
+    },
+    {
+      "name": "Tribal Warrior Spore Servants",
+      "source": "https://www.dndbeyond.com/monsters/1123130-tribal-warrior-spore-servants",
+      "challenge": "1/8"
+    }
+  ]
+}

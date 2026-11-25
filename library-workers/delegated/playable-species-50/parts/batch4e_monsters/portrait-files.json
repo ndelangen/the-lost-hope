@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Doppelganger",
+    "slug": "doppelganger",
+    "file": "portraits/doppelganger.png",
+    "sha256": "f31cc1418eddee4b091eec9269707533397009ba4e84bdce38f2b74be502b515",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Githyanki",
+    "slug": "githyanki",
+    "file": "portraits/githyanki.png",
+    "sha256": "16a9a6ef6a74dd840d5713c2b0429dbc53157b0d0b117063c1ea4eabf7c3dc28",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Gnoll",
+    "slug": "gnoll",
+    "file": "portraits/gnoll.png",
+    "sha256": "c5f269f04ad4f80f320946b3555afebe4b8344fa2d15171f51847e9d5f7eba4a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Kobold",
+    "slug": "kobold",
+    "file": "portraits/kobold.png",
+    "sha256": "9f23b91aaddbf0d98cc2f531c36f9e4f6d4da7bb2616da8ea56864ca388b2fcc",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Warforged",
+    "slug": "warforged",
+    "file": "portraits/warforged.png",
+    "sha256": "5eccb4fd297b3f3e77632baa12b0ea650eead6a950d60516ebd654c8302fa654",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

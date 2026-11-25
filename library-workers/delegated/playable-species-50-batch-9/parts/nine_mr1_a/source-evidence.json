@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Bullywug",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Humanoid",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      28
+    ],
+    "heading": "Bullywug Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The printed traits grant camouflage advantage. The bite and Stealth proficiency mentioned in the design notes do not appear in the trait block. Quib obtains proficiency from the Criminal background."
+    ]
+  },
+  {
+    "name": "Fomorian",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Giant",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      82,
+      83
+    ],
+    "heading": "Fomorian Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The v2 block gives no use limit for Evil Eye or its curse and lists no darkvision. The printed twisted-legs speed adjustment says “for 10 ft.” and is read as a 10-ft. reduction.",
+      "The curse names successful repeat saves as its end condition and supplies no fixed duration."
+    ]
+  },
+  {
+    "name": "Fungi",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Plant",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      84,
+      85
+    ],
+    "heading": "Fungi Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The three forms share one Fungi profile. Siltcap uses Violet Fungus. The NPC interprets the revival as one day after its own death, from the oldest qualifying kill in the previous day.",
+      "Monstrous Races v2 p. 7 uses a monk’s ordinary bludgeoning damage die for Martial Arts and Flurry of Blows bonus attacks, even for a character with a stronger natural strike."
+    ]
+  },
+  {
+    "name": "Gorgon",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      108,
+      109
+    ],
+    "heading": "Gorgon Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The visible trait block supplies restraint, one repeat save and concentration. It never assigns petrification on a second failure. Brackplate leaves a creature that fails the stated repeat restrained for the remaining concentration duration. The design commentary also frames the conversion as restraint only.",
+      "The v2 trait block grants Strength and Constitution increases and does not give the Gorgon petrification immunity or Trampling Charge."
+    ]
+  },
+  {
+    "name": "Hell Hound",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Fiend",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      117
+    ],
+    "heading": "Hell Hound Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The v2 trait block omits fire resistance even though the design notes discuss it. It uses 6th/11th/16th-level breath increases. Coalwhistle uses the printed traits."
+    ]
+  }
+]

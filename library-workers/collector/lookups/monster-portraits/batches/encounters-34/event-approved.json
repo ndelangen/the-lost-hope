@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Angulotl Tadpole",
+    "slug": "angulotl-tadpole",
+    "id": "monster-e9205914b4a91599237c1d1b:4c678d6d751f694bd6303823",
+    "entry": "monster-e9205914b4a91599237c1d1b",
+    "version": "4c678d6d751f694bd6303823",
+    "suffix": "encounters-34/angulotl-tadpole.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-34/angulotl-tadpole.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-34/event-drafts/angulotl-tadpole-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 34 2026-11-23/event-drafts/angulotl-tadpole-event-v1.png",
+    "overrides": [
+      {
+        "entry": "monster-e9205914b4a91599237c1d1b",
+        "name": "Angulotl Tadpole",
+        "file": "images/monsters/angulotl-tadpole/parchment-portrait.webp",
+        "sha256": "155d2672f031861ff6619f2b8ce4e4a9fabf09942dde383f0be0f6a39ff505be",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "",
+        "subjectPrompt": "A tiny amphibious frogfolk juvenile, bright muted ocher-green tadpole with a long transparent finned tail and a pair of small developing hind legs, dark round eyes and plump wet body. Single naturalistic creature, no pool or adult.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "056ffb8db9399f7fae6981411387eb23da5cf1276a867a3f92b107424bff400b",
+    "bytes": 2595607
+  },
+  {
+    "name": "Clawfish",
+    "slug": "clawfish",
+    "id": "beast-ab6302dee642c6fbd5a7a26f:17dadfed12325f07c83aac51",
+    "entry": "beast-ab6302dee642c6fbd5a7a26f",
+    "version": "17dadfed12325f07c83aac51",
+    "suffix": "encounters-34/clawfish.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-34/clawfish.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-34/event-drafts/clawfish-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 34 2026-11-23/event-drafts/clawfish-event-v1.png",
+    "overrides": [],
+    "sha256": "585ae2364a6ff396e45179900d374955d950955f44e521b2e580e8e9c22818fb",
+    "bytes": 2649038
+  }
+]

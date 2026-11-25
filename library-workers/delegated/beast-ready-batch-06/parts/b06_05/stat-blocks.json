@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Swarm of Bats",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium swarm of Tiny beasts, unaligned",
+    "ac": 12,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "0 ft., fly 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "appearance": "A loose cloud of small brown bats with pointed ears and spread, leathery wings.",
+    "habitats": [
+      "Underdark",
+      "Mountains",
+      "Hills",
+      "Urban"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Blindsight 60 ft., passive Perception 11. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 337. Official online reference: https://www.dndbeyond.com/monsters/17028-swarm-of-bats\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339. ",
+      "Traits": "Echolocation. The swarm loses the use of blindsight while deafened.\nKeen Hearing. It has advantage on Wisdom (Perception) checks based on hearing.\nSwarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny bat. It cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +4 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, deal 5 (2d4) piercing damage above half maximum HP or 2 (1d4) piercing damage at half maximum HP or less.",
+      "At the table": "With the printed 22 HP maximum, use the lower piercing damage at 11 HP or less."
+    }
+  },
+  {
+    "name": "Swarm of Poisonous Snakes",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium swarm of Tiny beasts, unaligned",
+    "ac": 14,
+    "hp": 36,
+    "hitDice": "8d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "appearance": "A close tangle of small olive-brown snakes with patterned scales and raised heads.",
+    "habitats": [
+      "Forest",
+      "Swamp"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Blindsight 10 ft., passive Perception 10. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 338. Official online reference: https://www.dndbeyond.com/monsters/17030-swarm-of-poisonous-snakes\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339. ",
+      "Traits": "Swarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny snake. It cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +6 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, deal 7 (2d6) piercing damage above half maximum HP or 3 (1d6) piercing damage at half maximum HP or less. The target also rolls a DC 10 Constitution save. It takes 14 (4d6) poison damage on a failure or half on a success. Use these poison dice at either swarm HP tier.",
+      "At the table": "With the printed 36 HP maximum, use the lower piercing damage at 18 HP or less. The swarm’s HP tier changes the piercing component only."
+    }
+  },
+  {
+    "name": "Swarm of Quippers",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium swarm of Tiny beasts, unaligned",
+    "ac": 13,
+    "hp": 28,
+    "hitDice": "8d8 - 8",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "appearance": "A compact school of small, deep-bodied fish with silvery scales, reddish fins and sharp teeth.",
+    "habitats": [
+      "Underwater"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Darkvision 60 ft., passive Perception 8. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 338. Official online reference: https://www.dndbeyond.com/monsters/17031-swarm-of-quippers\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339. ",
+      "Traits": "Blood Frenzy. The swarm rolls melee attacks with advantage against creatures below their hit point maximum.\nSwarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny quipper. It cannot regain HP or gain temporary HP.\nWater Breathing. The swarm breathes underwater only.",
+      "Actions": "Bites. Melee weapon attack, +5 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, deal 14 (4d6) piercing damage above half maximum HP or 7 (2d6) piercing damage at half maximum HP or less.",
+      "At the table": "With the printed 28 HP maximum, use the lower piercing damage at 14 HP or less."
+    }
+  },
+  {
+    "name": "Swarm of Rats",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium swarm of Tiny beasts, unaligned",
+    "ac": 10,
+    "hp": 24,
+    "hitDice": "7d8 - 7",
+    "speed": "30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "appearance": "A crowded knot of brown rats with pointed snouts, rounded ears and bare tails.",
+    "habitats": [
+      "Swamp",
+      "Urban"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Darkvision 30 ft., passive Perception 10. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 339. Official online reference: https://www.dndbeyond.com/monsters/17032-swarm-of-rats\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339. ",
+      "Traits": "Keen Smell. The swarm has advantage on Wisdom (Perception) checks based on smell.\nSwarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny rat. It cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +2 to hit, reach 0 ft., one target in the swarm’s space. On a hit, deal 7 (2d6) piercing damage above half maximum HP or 3 (1d6) piercing damage at half maximum HP or less.",
+      "At the table": "With the printed 24 HP maximum, use the lower piercing damage at 12 HP or less."
+    }
+  },
+  {
+    "name": "Swarm of Ravens",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium swarm of Tiny beasts, unaligned",
+    "ac": 12,
+    "hp": 24,
+    "hitDice": "7d8 - 7",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "appearance": "A dense flock of black ravens with sturdy beaks and dark wings that catch a dull violet sheen.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Hills",
+      "Urban"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Perception +5. Passive Perception 15. No listed special senses. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 339. Official online reference: https://www.dndbeyond.com/monsters/17033-swarm-of-ravens\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339. ",
+      "Traits": "Swarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny raven. It cannot regain HP or gain temporary HP.",
+      "Actions": "Beaks. Melee weapon attack, +4 to hit, reach 5 ft., one target in the swarm’s space. On a hit, deal 7 (2d6) piercing damage above half maximum HP or 3 (1d6) piercing damage at half maximum HP or less.",
+      "At the table": "With the printed 24 HP maximum, use the lower piercing damage at 12 HP or less. Beaks lists 5-ft. reach and specifically requires the target to be in the swarm’s space."
+    }
+  }
+]

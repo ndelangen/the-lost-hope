@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Elk, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 14,
+    "hp": 60,
+    "speed": "60 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Ability modifiers STR +4, DEX +3, CON +2, INT -2, WIS +2, CHA +0. Perception 14. Stealth 13. Senses None. Languages Giant Elk. Understands Common, Elvish, and Sylvan without speaking them.",
+    "appearance": "A heavy brown elk with a dark mane and a wide rack of branching antlers.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 333, Alce gigante.",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn to add 7 (2d6) bludgeoning damage. A creature hit this way must also make a DC 14 STR save or fall prone.",
+      "Actions": "Multiattack. Make one Ram and one Kick.\nRam. Melee weapon attack, +6 to hit, reach 10 ft., one target. On a hit, deal 11 (2d6 + 4) bludgeoning damage.\nKick. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 9 (2d4 + 4) bludgeoning damage. The target must succeed on a DC 14 STR save or be pushed up to 15 ft. away from the elk.",
+      "Bonus actions": "Bolstering Bugle (27 HP or higher). The elk bellows at its opponents and gains advantage on the next attack roll it makes before the start of its next turn."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Frog",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 9,
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Ability modifiers STR -5, DEX +0, CON -1, INT -5, WIS -1, CHA -4. Perception 11. Stealth 10. Senses Darkvision 30 ft. Languages None. Resistant to grappled. Apply advantage to rolls and saves to avoid or end that condition.",
+    "appearance": "A small olive frog with mottled skin, a pale jaw, and folded hind legs.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Swamp"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 352, Rana.",
+      "Traits": "Amphibious. The frog breathes air and water.\nStanding Leap. It can jump up to 10 ft. horizontally or 5 ft. vertically with or without a running start.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one creature. On a hit, deal 2 (1d4) bludgeoning damage."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Frog, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 11,
+    "hp": 15,
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Ability modifiers STR +2, DEX +1, CON +0, INT -4, WIS +0, CHA -4. Perception 12. Stealth 11. Senses Darkvision 30 ft. Languages None. Resistant to grappled. Apply advantage to rolls and saves to avoid or end that condition.",
+    "appearance": "A stocky olive and tan frog with dark speckles and broad webbed hind feet.",
+    "habitats": [
+      "Forest",
+      "Swamp"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), pp. 352–353, Rana gigante.",
+      "Traits": "Amphibious. The frog breathes air and water.\nStanding Leap. It can jump up to 20 ft. horizontally or 10 ft. vertically with or without a running start.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. On a hit, deal 5 (1d6 + 2) piercing damage and grapple the target (escape DC 12). The target remains restrained, and the frog cannot Bite another target until the grapple ends.\nSwallow. Make one Bite attack against a Small or smaller target the frog is grappling. On a hit, the frog swallows it and ends the grapple. The swallowed target is blinded and restrained, has total cover from attacks and other effects outside the frog, and takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can hold one swallowed target at a time. If the swallowed creature damages the frog, the frog makes a DC 10 CON save at the end of that turn. On a failure, it regurgitates the creature, which falls prone in a space within 5 ft. of the frog. If the frog dies, it stops restraining the swallowed creature. The creature can spend 5 ft. of movement to escape the corpse and exits prone.",
+      "Bonus actions": "Reeling Tongue. Choose one Medium or smaller creature the frog can see within 15 ft. The creature must make a DC 12 STR save or be pulled up to 10 ft. closer to the frog."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Frog, Giant Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 11,
+    "hp": 44,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Ability modifiers STR +3, DEX +1, CON +1, INT -4, WIS +0, CHA -4. Perception 10. Stealth 11. Senses Darkvision 30 ft. Languages None.",
+    "appearance": "A large frog with striking yellow and black markings and spread toes.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 353, Rana, Gigante Venenosa.",
+      "Traits": "Amphibious. The frog breathes air and water.\nStanding Leap. It can jump up to 20 ft. horizontally or 10 ft. vertically with or without a running start.\nToxic Skin. A creature that touches the frog or hits it with a melee attack within 5 ft. makes a DC 13 CON save. On a failure, it is poisoned until the end of its next turn and has mild hallucinations while poisoned.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 8 (1d10 + 3) piercing plus 5 (1d10) poison damage and grapple the target (escape DC 13). The target remains restrained, and the frog cannot Bite another target until the grapple ends.\nSwallow. Make one Bite attack against a Medium or smaller target the frog is grappling. On a hit, the frog swallows it and ends the grapple. The swallowed target is blinded and restrained, has total cover from attacks and other effects outside the frog, and takes 7 (2d6) acid damage at the start of each of the frog’s turns. The frog can hold one swallowed target at a time. If the swallowed creature damages the frog, the frog makes a DC 11 CON save at the end of that turn. On a failure, it regurgitates the creature, which falls prone in a space within 5 ft. of the frog. If the frog dies, it stops restraining the swallowed creature. The creature can spend 5 ft. of movement to escape the corpse and exits prone.",
+      "Bonus actions": "Reeling Tongue. Choose one Medium or smaller creature the frog can see within 20 ft. The creature must make a DC 13 STR save or be pulled up to 15 ft. closer to the frog.",
+      "Source note": "Cubil de Monstruos p. 353 gives Reeling Tongue a Medium-or-smaller target limit. The English Black Flag Roleplaying Reference Document v0.4 gives Large or smaller. This profile follows the Spanish Monster Vault printing."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Goat",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 8,
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Ability modifiers STR +1, DEX +0, CON +0, INT -4, WIS +0, CHA -3. Perception 10. Stealth 10. Senses None. Languages None. Resistant to prone. Apply advantage to rolls and saves to avoid or end that condition.",
+    "appearance": "A pale shaggy goat with narrow horns, a pointed beard, and cloven hooves.",
+    "habitats": [
+      "Farmland",
+      "Grassland",
+      "Hills",
+      "Mountain",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 338, Cabra.",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn to add 2 (1d4) bludgeoning damage. A creature hit this way must also make a DC 11 STR save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 3 (1d4 + 1) bludgeoning damage."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  }
+]

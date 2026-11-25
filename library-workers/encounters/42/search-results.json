@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Bigger Mimic",
+    "query": "amorphous stone doorway roadside buildings panic shift",
+    "condition": "Restrained",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Mimic (MCDM)",
+    "query": "amorphous oak chest markets gnashing maw",
+    "condition": "Grappled",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

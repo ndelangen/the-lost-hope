@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Dracotaur",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Large dragon with a 10-ft. space and 5-ft. reach. Land speed 50 ft. The Large size modifiers are −1 attacks and AC, −4 Hide, +4 grapple and twice Medium carrying capacity.",
+      "Apply Str +8, Dex +2, Con +6, Int +2 and Cha +2. The official errata confirms the Constitution increase is +6. Wisdom is unchanged.",
+      "Starts with 3 dragon HD, each a d12. These grant BAB +3, base Fortitude/Reflex/Will +3 each and two feats. Racial skill points equal 6 × (6 + Int modifier).",
+      "Racial class skills are Intimidate, Jump, Knowledge (arcana), Listen, Sense Motive, Spellcraft, Spot, Survival, Swim and Use Magic Device. Add +4 to Balance, Jump and Swim checks.",
+      "Natural armor +5, darkvision 60 ft., low-light vision, and immunity to magical sleep and paralysis. Proficient with natural and simple weapons and light armor.",
+      "Bite and tail slap each use a 1d8 base die. Spit Fire takes a standard action and a ranged touch attack with a 20-ft. increment. It deals 2d6 fire on a direct hit and 1d4 splash within 5 ft. Wait 1 minute before spitting again.",
+      "Automatic language Draconic. Bonus languages may be chosen freely among those the campaign allows. Favored class Sorcerer. Level adjustment +5, for ECL 8 before class levels."
+    ]
+  },
+  {
+    "name": "Rastipede",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "kind": "species",
+    "traits": [
+      "Settle ability requirements before applying the adjustments. Str 8–18, Dex 3–17, Con 8–18 and Int/Wis/Cha 3–18. Apply Dex −1 and Con +1. Charisma is capped at 12 when dealing with other species.",
+      "Standard class limits are Fighter 8, Mage 4, Thief 11 and Bard 6. Fighter/Thief, Fighter/Mage and Mage/Thief are allowed multiclasses.",
+      "Natural descending AC 3 and unencumbered movement 15. The body cannot use worn armor or shields.",
+      "Each claw deals 1d2 at first, 1d4 from level 4 and 1d6 from level 7. Attacking with both claws, or one plus a weapon, follows the two-weapon rules. Rastipedes can use human weapons as their class permits.",
+      "Underground, concentrate for a round to gauge depth on 1–4 on 1d6. From level 3, detect an incline within 10 ft. on 1–5 on 1d6 or unstable surfaces within 10 ft. on 1–7 on 1d10. Each check takes a round of concentration.",
+      "Odor from a creature behind a rastipede prevents that creature from surprising it. A spelljamming helm treats a rastipede as a mage of three times its actual caster level for helm operation.",
+      "Available starting languages include Rastipede, Common, Beholder, Dwarven, Elven, Giff, Goblin, Mind Flayer and Orcish. The number known follows the campaign’s Intelligence or proficiency rules. Thief percentages in Table 7 order (PP/OL/FRT/MS/HS/DN/CW/RL) shift −5/+10/+10/−5/−5/+5/−30/+10. Climbing with their arms requires support for their body."
+    ]
+  },
+  {
+    "name": "Scro",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "kind": "species",
+    "traits": [
+      "Before adjustment, require Str 8–18, Dex 3–18, Con 8–18, Int 3–17, Wis 3–16 and Cha 3–18. Increase Strength by 1. Charisma against other species is capped at 12.",
+      "Standard class limits are Cleric 5, Fighter 15, Mage 5 and Thief 12. Scro war-priests are multiclass Cleric/Mages. Clerics have access to All, Charm, Combat, Elemental, Guardian, Healing, Protection and Summoning.",
+      "Infravision reaches 60 ft. Daylight imposes no racial penalty. Scro can use human arms and armor within their class restrictions. Bite deals 1d3.",
+      "Scro PCs speak Common and an old Orcish dialect. Elven is a frequent additional choice. Use campaign language limits. Thief percentages in Table 7 order (PP/OL/FRT/MS/HS/DN/CW/RL) shift +5/0/+5/0/+10/−5/−5/−10."
+    ]
+  },
+  {
+    "name": "Xixchil",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "kind": "species",
+    "traits": [
+      "Before adjustment, require Str 3–18, Dex 11–18, Con 8–18, Int 8–18, Wis 3–16 and Cha 3–16. Apply Dex +1, Con +1 and Cha −2. Charisma against other species is capped at 12.",
+      "Standard class limits are Fighter 14, Mage 5 and Thief 15. Fighter/Thief is the only multiclass. Available languages include Xixchil, Common and other human and demihuman tongues. Thief percentages in Table 7 order (PP/OL/FRT/MS/HS/DN/CW/RL) shift +5/+5/+10/−5/−5/+5/−10/−5.",
+      "Base descending AC 5. Ordinary worn armor is unusable. Xixchil fighters may buy surgically fitted armor as low as AC −4. Double equivalent armor cost through AC 1 and add 4,000 gp for each AC step after that, starting from 8,000 gp at AC 1.",
+      "The two natural forelimbs attack with the glaive-guisarme damage profile and can be used together without the ordinary two-weapon penalty. Xixchil do not wield ordinary weapons. Fighters can buy up to two grafted attack limbs at five times the equivalent weapon cost per limb. Apply two-weapon penalties to combinations involving grafts. Higher-level fighters apply their extra attacks to one chosen limb.",
+      "Taste a target to make a personalized secretion one round later. Deliver it on a bite or on a subsequent blade hit. The victim saves vs. poison at −4. On failure, blade poison doubles the blow’s damage, and a poisoned bite adds damage equal to the xixchil’s total HP. Successful save prevents subsequent poisoning by that xixchil. The alternative anesthetic paralyzes for 1d6 turns on a failed poison save and cannot affect a Large or bigger creature or a target with HD/level above the xixchil’s level. Three secretions per day total, with a 10-turn shelf life outside the body.",
+      "Optional xixchil-only Body Manipulation uses 2 wizard proficiency slots and checks Dexterity −3. One permanent modification per patient can add 3 Strength, Dexterity or Constitution, grant flight 24 at maneuverability class C, grant shell AC 2, grow a limb with an ordinary weapon’s statistics, or grant elven infravision. Costs the patient 5 permanent Charisma, takes at least two weeks plus a week per Constitution point below 12, and requires a system-shock check followed by a save vs. death magic to avoid a complication."
+    ]
+  }
+]

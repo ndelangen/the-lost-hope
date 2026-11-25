@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Dara",
+    "publication": "Obojima: Tales from the Tall Grass (5.5e )",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "kind": "species",
+    "traits": [
+      "Playable ancestry by 1985 Games, 5.5e , July 2025 second printing, pp. 163–165.",
+      "Humanoid. Choose Medium Blue Dara or Small Red Dara. Walk 30 ft. Awakened Skills grants proficiency in three skills of your choice.",
+      "Create Talisman. Take a Magic action to make one eligible paper talisman. It expires after one hour or when it activates. The trait grants one use per Long Rest. The color descriptions on p. 163 give Blue Dara a daily Knowledge talisman and Red Dara a daily Might talisman in addition to other forms. Ask the DM whether that adds a separate use.",
+      "Earth, either form. If the bearer would drop to 0 HP without dying outright, the talisman leaves them at 1 HP instead. Moon, either form. Bind it to a held weapon at creation. Its next hit deals extra radiant damage equal to your character level. Sun, either form. The bearer can spend a Bonus Action to Dash or Disengage.",
+      "Knowledge, Blue only. The bearer can add 1d6 to an ability check before or after the roll. Might, Red only. The bearer can add 1d6 to a saving throw before or after the roll.",
+      "Sacred Revelation. Touch a Dara glyph and absorb its information with a Magic action. At level 10, Impart Knowledge also lets you press your hand to a surface and store a spoken message as a Magic action. Other Dara alone can see the resulting glyph, and it takes Sacred Revelation to absorb it."
+    ]
+  },
+  {
+    "name": "Nakudama",
+    "publication": "Obojima: Tales from the Tall Grass (5.5e )",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "kind": "species",
+    "traits": [
+      "Playable ancestry by 1985 Games, 5.5e , July 2025 second printing, p. 168.",
+      "Small Humanoid. Walk 30 ft. Breathe in air and water. Speak, read, and write Common and Naku Naku.",
+      "Grasping Tongue. As a Bonus Action, pull a visible object of 5 lb. or less within 15 ft. into an open hand or let it fall at your feet. Its wearer or carrier can keep it with a successful Strength save against 8 + your Strength modifier + proficiency bonus.",
+      "Latching Tongue. As a Bonus Action, pull yourself toward a surface or creature within 15 ft. that is at least one size larger than you.",
+      "Standing Leap. With or without a run-up, you can long jump up to 20 ft. or high jump up to 15 ft. Normal movement expenditure applies to the jump."
+    ]
+  }
+]

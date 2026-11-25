@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Giant Bombardier Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Beetle, Giant",
+    "printedColumn": "Bombardier",
+    "printedPages": [
+      18,
+      19
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 18,
+        "viewerPage": 21,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf979c3e2feda7a98b369f4c896f4541.webp",
+        "sha256": "bec0e28c0c90a13dbb24f815d43f1a983bb348382009bf08574a64f890037f31"
+      },
+      {
+        "printedPage": 19,
+        "viewerPage": 22,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/2d16ae154a6a7a8025654797682b1bd3.webp",
+        "sha256": "0aef318ccb7480f7c8368a7faf3802f95a6eacf3eec35678c7a37e1335baaf63"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "3–12",
+    "sharedFamilyArtwork": {
+      "printedPage": 19,
+      "subject": "Giant beetle based on a rhinoceros beetle",
+      "artist": "Tony DiTerlizzi",
+      "attributionEvidence": "https://diterlizzi.com/behind-the-monstrous-manual-part-8/"
+    },
+    "entryId": "beast-79205e6f6ed4aa75fe8e1438",
+    "versionKey": "2f116be171185fb92041fff3",
+    "slug": "giant-bombardier-beetle",
+    "query": "giant bombardier beetle acidic vapor",
+    "portraitSelection": "generated",
+    "printedSpecialAttack": "Acid cloud",
+    "printedSpecialDefense": "Fire cloud"
+  },
+  {
+    "name": "Giant Boring Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Beetle, Giant",
+    "printedColumn": "Boring",
+    "printedPages": [
+      18
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 18,
+        "viewerPage": 21,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf979c3e2feda7a98b369f4c896f4541.webp",
+        "sha256": "bec0e28c0c90a13dbb24f815d43f1a983bb348382009bf08574a64f890037f31"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "3–18",
+    "sharedFamilyArtwork": {
+      "printedPage": 19,
+      "subject": "Giant beetle based on a rhinoceros beetle",
+      "artist": "Tony DiTerlizzi",
+      "attributionEvidence": "https://diterlizzi.com/behind-the-monstrous-manual-part-8/"
+    },
+    "entryId": "beast-59cf33ee1389332fc671c978",
+    "versionKey": "d6a041ce4b5c84be556aab74",
+    "slug": "giant-boring-beetle",
+    "query": "giant boring beetle rotting wood",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Beetle, Giant",
+    "printedColumn": "Fire",
+    "printedPages": [
+      18,
+      19
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 18,
+        "viewerPage": 21,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf979c3e2feda7a98b369f4c896f4541.webp",
+        "sha256": "bec0e28c0c90a13dbb24f815d43f1a983bb348382009bf08574a64f890037f31"
+      },
+      {
+        "printedPage": 19,
+        "viewerPage": 22,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/2d16ae154a6a7a8025654797682b1bd3.webp",
+        "sha256": "0aef318ccb7480f7c8368a7faf3802f95a6eacf3eec35678c7a37e1335baaf63"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "3–12",
+    "sharedFamilyArtwork": {
+      "printedPage": 19,
+      "subject": "Giant beetle based on a rhinoceros beetle",
+      "artist": "Tony DiTerlizzi",
+      "attributionEvidence": "https://diterlizzi.com/behind-the-monstrous-manual-part-8/"
+    },
+    "entryId": "beast-901b840e24b69c4ac17d622a",
+    "versionKey": "128550d49eb7102ec0b81133",
+    "slug": "giant-fire-beetle",
+    "query": "giant fire beetle cold light glands",
+    "portraitSelection": "generated"
+  }
+]

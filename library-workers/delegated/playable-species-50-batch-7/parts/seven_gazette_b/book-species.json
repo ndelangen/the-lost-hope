@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Dryadborn",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #26",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Plant creature type, Medium, walking speed 30 ft. Fast early development gives way to a lifespan shaped by the progenitor tree. Cast entangle once per long rest without a slot using the higher of Wisdom and Charisma.",
+      "Verdant Jaunt uses a bonus action and 5 ft. of movement to enter an adjacent plant and emerge through a visible second plant of the same kind within 30 ft. Use two plants of Medium size or larger, or qualifying patches of at least 5 ft. of the same species. Uses equal proficiency bonus per long rest.",
+      "Blossom-Crowned gives proficiency in Deception, Persuasion, or Performance. Fey Glamour is a bonus action targeting chosen creatures within 10 ft. that can sense you. On a failed Wisdom save against 8 + proficiency bonus + Charisma modifier, each is fixated and has disadvantage on attack rolls until the end of your next turn. Each target becomes immune to your glamour for 24 hours after succeeding or recovering. Uses equal proficiency bonus per long rest. Protective Petals uses a reaction when hit for +5 AC for the next round, including against that hit.",
+      "Elderbark gives an unarmored AC of 12 + Constitution modifier and works with a shield. Count as Large for load, push, drag, and lift. You can grapple or shove up to two size categories above you. Once per long rest use a reaction to reroll a failed save against being pushed, knocked prone, or grappled and accept the new result.",
+      "New Growth uses Wisdom for shillelagh and, at levels 3 and 5 respectively, one daily animal friendship and one daily speak with plants without materials. Magical sleep has no effect and 8 hours of light activity count as a long rest.",
+      "A New Growth dryadborn who dies on the same plane as a living, mature heart tree or in the Dreaming can choose rebirth there. Rebirth preserves memories and abilities, gives three fatigue and three strife, and makes the individual Small for a month. Each long rest removes one of each rebirth level. No second rebirth while Small. If the tree dies while the dryadborn is living on that plane or in the Dreaming, it becomes a seed that can mature in favorable soil and climate after a year and a day. Loss of an irreplaceable tree inflicts three stress and a long-term mental stress effect for a month.",
+      "At level 10, choose Branching Mind for a magic-resistance expertise die on one mental save, Fey Grove Magic for a chosen 5th- or 6th-level nature-school druid spell at 6th level once per long rest with higher Wisdom or Charisma, or Patience of the Trees for a one-minute expertise die on Constitution and Wisdom checks. Patience uses a bonus action and has proficiency bonus uses per long rest."
+    ]
+  },
+  {
+    "name": "Galeoni",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #9",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Galeoni are Small shark-folk with walking speed 25 ft., swimming speed 35 ft., and darkvision 60 ft. They breathe air and water and gain an expertise die on Perception checks to detect blood.",
+      "When bloodied, attacks against a Galeoni have advantage and it is immune to fright. Existing fright is suppressed while bloodied, and elapsed time still counts against the condition.",
+      "Vicious Maw makes the bite deal 1d6 + Strength modifier piercing. A hit forces a Constitution save against 8 + proficiency bonus + Strength modifier. On failure the target takes ongoing damage equal to the Strength modifier. It repeats the save at every turn end. A Galeoni hit by instantly fatal massive damage can use its reaction to make a death save. Success leaves it unconscious and dying.",
+      "Watchful Power grants Wary Stance without exertion cost. Unseen or hidden attackers gain no advantage on that basis. Count as Large when carrying, pushing, dragging, or lifting. Grapple and shove targets up to two size categories above you.",
+      "At level 10, choose Frightening Jaws or Knife Through Water. Jaws frightens a visible target within 30 ft. that can see or hear you until the start of your next turn unless it passes a Wisdom save against 8 + proficiency bonus + Strength modifier. A successful save grants it 24-hour immunity. Jaws uses an action, or a bonus action while bloodied, and also grants conditional charm immunity and suppression under the same timing as fright. Knife increases swimming speed to 50 ft. and darkvision to 120 ft., or 240 ft. underwater. It adds an expertise die to Grapple and Knockdown maneuver DCs in water."
+    ]
+  },
+  {
+    "name": "Garoul",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #8",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Garoul are wolf-folk with both Humanoid and Beast types. Choose Small or Medium. Walking speed 30 ft., darkvision 30 ft. and finesse, dual-wielding natural claws with 1d4 slashing damage. Gain an expertise die when detecting or tracking bloodied creatures and proficiency in Deception, Intimidation, Perception, or Survival.",
+      "Lupine Ascension uses a bonus action to take wolf form for an hour. Keep your own HP. AC becomes 10 + Dexterity modifier plus compatible unarmored modifiers, and gear merges and has no effect. A further use and bonus action extends the form by an hour. End it with a bonus action or by falling unconscious. Uses equal proficiency bonus per long rest, doubled at level 10. Wild Shape benefits do not transfer to this trait.",
+      "Lupine Vigor increases darkvision to 60 ft., grants unarmored AC 12 + Constitution modifier with shield compatibility, and grants 1d8 + character level temporary HP as a bonus action once per long rest.",
+      "At level 10, choose Huff and Puff, The Better to Eat You With, or The Better to See You With. The first casts cone of cold, air-only conjure elemental, or wind wall at 6th level once per long rest without materials using the highest of Constitution, Intelligence, Wisdom, or Charisma. The second gives Vigor claws parrying or an Ascension wolf a 2d6 bite. Either natural weapon becomes magical for overcoming defenses and gains +2 to attack and damage. The third gives a self-only true seeing once per long rest without materials using chosen Intelligence, Wisdom, or Charisma."
+    ]
+  },
+  {
+    "name": "Madrai",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #14",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Madrai are dog-folk. Choose Small or Medium. Walking speed 30 ft. They can Help in combat at 30 ft., gain an expertise die on scent-based rolls and Persuasion checks, and subtract 1d4 from each Deception check.",
+      "Best Friend can spend a reaction when a departing ally moves beyond reach to follow, up to Speed and where movement permits. It can also use a reaction for an opportunity attack when an enemy enters reach while an incapacitated ally is within 5 ft.",
+      "Pack Hunter can Help in combat as a bonus action. Shepherd Dog can focus with a bonus action, staying in place at Speed 0 with no enemy within 5 ft. It gains an expertise die on the first d20 roll that turn and on concentration rolls caused by the target of its focus. Sight Hound can Dash as a bonus action if it passes within 5 ft. of an ally during the move, and makes full-distance jumps without a running start.",
+      "At level 10, Peerless Tracker makes the scent expertise die a d6 and tracks a caught scent over open water and through air-permeable surfaces. An item personal to the target gives an hour of advantage on Perception or Survival checks to find it. It casts locate object a number of times equal to proficiency bonus per long rest using chosen Intelligence, Wisdom, or Charisma.",
+      "Alternatively at level 10, Boon Companion gives advantage on initiative with an ally present. When an attacker at least 10 ft. away attacks an ally, a reaction can move you up to half your Speed to interpose and make the attack target you alone. You must be able to reach the intervening position. Read the printed proficiency modifier as proficiency bonus for uses per long rest."
+    ]
+  },
+  {
+    "name": "Oxfolk",
+    "kind": "species",
+    "publication": "Gate Pass Gazette #16",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Oxfolk are usually 7 to 8 ft. tall and walk 30 ft. Treat them as Large for carrying, pushing, dragging, and lifting. Horn unarmed strikes deal 1d4 + Strength modifier piercing.",
+      "Cloven hooves preclude normal footwear. Oxfolk take no damage from sharp terrain such as caltrops or spike growth and ignore that terrain’s difficulty. Other difficult terrain reduces Speed by 5 ft. instead of halving it.",
+      "Connected to the Land chooses a terrain and corresponding cantrip. Arctic gives ray of frost, desert produce flame, mountain resistance, plains druidcraft, swamp pestilence. In the chosen terrain, ignore natural difficult terrain and gain an expertise die on Perception, Nature, and Survival.",
+      "Pillar of Strength gives unarmored AC 13 + Dexterity modifier with shield compatibility. Gain an expertise die on saves against Shove, Knockdown, Overrun, and effects that would knock you prone. Your Shove and Knockdown can target creatures two size categories above you.",
+      "The heritage page lists three benefits at level 10. Emissary of the Land casts a chosen find the path, move earth, wall of ice, or wall of thorns once per long rest without materials using the highest mental score. Long Horn increases horn damage to 1d8 + Strength modifier, then tests the target’s Strength save against your maneuver DC for basic melee damage and prone. Tireless Endurance uses an action once per long rest to reduce fatigue and strife by one each and improves any long-rest reduction to two of each, including away from safe havens."
+    ]
+  }
+]

@@ -1,0 +1,1935 @@
+{
+  "baseline": "758eb9e3b416e365b8819f30b09113feeb1cfad3",
+  "species": 50,
+  "profiles": 50,
+  "canonicalGroups": 49,
+  "groupedLineages": 18,
+  "prerequisites": [
+    "Ogre"
+  ],
+  "newCatalogRows": 50,
+  "existingMetadataEnriched": 0,
+  "npcBuilds": 50,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Aarakocra",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_a",
+      "parentSpecies": null,
+      "aliases": "PHBR10 player profile. Later fifth-edition rules stay separate.",
+      "npcs": [
+        "Rusk Pennon"
+      ],
+      "portrait": "parts/four_humanoids_a/portraits/aarakocra.png",
+      "source": {
+        "name": "Aarakocra",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          16,
+          17
+        ],
+        "pdfPages": [
+          17,
+          18
+        ],
+        "primaryBook": "PHBR10, TSR 2135, 1993",
+        "supportingSources": {
+          "playerHandbook": {
+            "url": "",
+            "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+          },
+          "movementOnly": {
+            "book": "Monstrous Manual",
+            "entry": "Aarakocra",
+            "url": "",
+            "detail": "Land speed 6 only. The character entry gives Fly 36 (C)."
+          }
+        },
+        "sourceDistinctions": [
+          "PHBR10 player profile. Later fifth-edition rules stay separate.",
+          "Use Chapter 2 creation ranges. Appendix Table 12 gives narrower Wisdom and Charisma maxima, and the NPC meets both sets of limits.",
+          "PHBR10 identifies a heavy fletched javelin but gives no replacement damage for the PC. This NPC uses the Player’s Handbook javelin. The Monstrous Manual’s 2d4 heavy javelin is outside the worked build."
+        ]
+      }
+    },
+    {
+      "name": "Advanced Bullywug",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_a",
+      "parentSpecies": null,
+      "aliases": "Printed heading Bullywug, Advanced. Separate from baseline Bullywug.",
+      "npcs": [
+        "Krev Siltbank"
+      ],
+      "portrait": "parts/four_humanoids_a/portraits/advanced-bullywug.png",
+      "source": {
+        "name": "Advanced Bullywug",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          22,
+          23,
+          24
+        ],
+        "pdfPages": [
+          23,
+          24,
+          25
+        ],
+        "primaryBook": "PHBR10, TSR 2135, 1993",
+        "supportingSources": {
+          "playerHandbook": {
+            "url": "",
+            "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+          },
+          "movementOnly": {
+            "book": "Monstrous Manual",
+            "entry": "Bullywug and Bullywug, Advanced",
+            "url": "",
+            "detail": "The main entry supplies Move 3, Swim 15 in unarmored form. The advanced subsection gives no different rates. The NPC borrows the unarmored rates, and swims with the shield slung."
+          }
+        },
+        "sourceDistinctions": [
+          "Printed heading Bullywug, Advanced. Separate from baseline Bullywug.",
+          "Book heading is Bullywug, Advanced. The staged catalog keeps the reviewed name Advanced Bullywug.",
+          "The basic Bullywug movement rates come from the Monstrous Manual. Its Advanced subsection gives no separate rates. The example wears no body armor. The shield is treated as slung while swimming."
+        ]
+      }
+    },
+    {
+      "name": "Alaghi",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_a",
+      "parentSpecies": null,
+      "aliases": "PHBR10 player profile. Keep creature entries separate.",
+      "npcs": [
+        "Venn Alderhand"
+      ],
+      "portrait": "parts/four_humanoids_a/portraits/alaghi.png",
+      "source": {
+        "name": "Alaghi",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          18,
+          19
+        ],
+        "pdfPages": [
+          19,
+          20
+        ],
+        "primaryBook": "PHBR10, TSR 2135, 1993",
+        "supportingSources": {
+          "playerHandbook": {
+            "url": "",
+            "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+          },
+          "movementOnly": {
+            "book": "Monstrous Compendium, Forgotten Realms Appendix II (MC11)",
+            "entry": "Alaghi",
+            "url": "https://anyflip.com/cmjgl/ewfq/basic",
+            "detail": "Land speed 12 only. Use PHBR10 for the player character’s HP, attacks and stealth."
+          }
+        },
+        "sourceDistinctions": [
+          "PHBR10 player profile. Keep creature entries separate.",
+          "Chapter 2 gives Fighter and Druid as single-class choices. Appendix Table 13 separately lists Fighter/Shaman as a multiclass combination. The build uses the undisputed Fighter option.",
+          "PHBR10 gives fist damage without a special PC attack count. The sample uses one fist at the first-level fighter attack rate. The MC11 creature’s multiple attacks stay with that creature stat block."
+        ]
+      }
+    },
+    {
+      "name": "Armand",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_mm_standalone",
+      "parentSpecies": null,
+      "aliases": "Use the player profile. Keep the Warden sample encounter separate.",
+      "npcs": [
+        "Bram Shelldrift"
+      ],
+      "portrait": "parts/four_mm_standalone/portraits/armand.png",
+      "source": {
+        "name": "Armand",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Monstrous Humanoid",
+        "url": "",
+        "printedPages": [
+          10,
+          11
+        ],
+        "heading": "Armands as Characters",
+        "supportingSources": {
+          "characterRules": ""
+        },
+        "distinction": "Use the player profile. Keep the Warden sample encounter separate.",
+        "interpretation": [
+          "The move-action stance, stability, and full attack with two claws all come from the same entry. The named Warden is a distinct monk example."
+        ]
+      }
+    },
+    {
+      "name": "Beastman",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_a",
+      "parentSpecies": null,
+      "aliases": "PHBR10 Beastman, separate from Beastkin and other similarly named player options.",
+      "npcs": [
+        "Tavin Mossstripe"
+      ],
+      "portrait": "parts/four_humanoids_a/portraits/beastman.png",
+      "source": {
+        "name": "Beastman",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          19,
+          20
+        ],
+        "pdfPages": [
+          20,
+          21
+        ],
+        "primaryBook": "PHBR10, TSR 2135, 1993",
+        "supportingSources": {
+          "playerHandbook": {
+            "url": "",
+            "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+          },
+          "movementOnly": {
+            "book": "Monstrous Compendium, Greyhawk Appendix (MC5)",
+            "entry": "Beastman",
+            "url": "",
+            "detail": "Land speed 12 only. Use PHBR10 for the player character’s class, camouflage and magic resistance."
+          }
+        },
+        "sourceDistinctions": [
+          "PHBR10 Beastman, separate from Beastkin and other similarly named player options.",
+          "The worked example uses Fighter 1. Chapter 2 caps Fighter at 10 and Ranger at 12, while the appendix gives only the Warrior group cap of 12.",
+          "Use core hand axe damage for the matching stone variant. Chapter 7’s optional nonmetal breakage rule is not used in this build."
+        ]
+      }
+    },
+    {
+      "name": "Crystalline Troll",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_ogre_monstrous",
+      "parentSpecies": "Troll",
+      "aliases": "Named player variant. Base Troll and Trollkin stay separate.",
+      "npcs": [
+        "Hrak Shard"
+      ],
+      "portrait": "parts/four_ogre_monstrous/portraits/crystalline-troll.png",
+      "source": {
+        "name": "Crystalline Troll",
+        "kind": "species",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Giant",
+        "url": "",
+        "pages": "p. 178, Crystalline Trolls as Characters",
+        "evidence": "The racial sidebar and official correction specify 1d6 base dice for claws and bite. Sonic damage bypasses regeneration and is increased by vulnerability. Hrak keeps those rules and his original ability and feat choices.",
+        "sourceDistinctions": "Named player variant. Base Troll and Trollkin stay separate.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual III, official errata, 12 July 2006",
+            "url": ""
+          },
+          {
+            "name": "Wizards of the Coast, revised 3.5 SRD",
+            "url": "https://www.d20srd.org/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deepwyrm Drow",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_a",
+      "parentSpecies": "Drow",
+      "aliases": "Full drow version. Use its own base traits.",
+      "npcs": [
+        "Ered Voss"
+      ],
+      "portrait": "parts/four_dragon_a/portraits/deepwyrm-drow.png",
+      "source": {
+        "name": "Deepwyrm Drow",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (elf, dragonblood)",
+        "url": "",
+        "printedPages": [
+          6,
+          7
+        ],
+        "heading": "Deepwyrm Drow and Half-Drow of Faerûn",
+        "supportingSources": {
+          "baseAndCombatRules": ""
+        },
+        "distinction": "Uses Monster Manual drow traits. Keeps darkness and dancing lights, loses faerie fire and the general racial Will bonus against spells and spell-like abilities.",
+        "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+      }
+    },
+    {
+      "name": "Deepwyrm Half-Drow",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_a",
+      "parentSpecies": "Drow Half-Elf",
+      "aliases": "Half-drow version. Separate from the full drow version.",
+      "npcs": [
+        "Nessa Rill"
+      ],
+      "portrait": "parts/four_dragon_a/portraits/deepwyrm-half-drow.png",
+      "source": {
+        "name": "Deepwyrm Half-Drow",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (elf, dragonblood)",
+        "url": "",
+        "printedPages": [
+          6,
+          7
+        ],
+        "heading": "Deepwyrm Drow and Half-Drow of Faerûn",
+        "supportingSources": {
+          "baseAndCombatRules": "",
+          "halfDrowBase": ""
+        },
+        "distinction": "Begins with the Races of Faerûn pp. 62–63 half-drow named in Dragon Magic. The Drow Half-Elf UI group includes a fifth-edition Sword Coast Adventurer’s Guide profile. All mechanics here use the earlier half-drow rules. The base +2 Gather Information remains. Dragon Magic removes the +2 Diplomacy bonus.",
+        "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+      }
+    },
+    {
+      "name": "Dracon",
+      "publication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_space_a",
+      "parentSpecies": null,
+      "aliases": "Spelljammer Dracon. Separate from Dracotaur, Dragonborn and Krynn draconians.",
+      "npcs": [
+        "Perrin Broadwake"
+      ],
+      "portrait": "parts/four_space_a/portraits/dracon.png",
+      "source": {
+        "name": "Dracon",
+        "publication": "The Complete Spacefarer's Handbook (1992)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid (reptilian taur)",
+        "url": "",
+        "printedPages": [
+          15,
+          16,
+          17
+        ],
+        "page": "Chapter 2, pp. 16–17, Tables 1–3",
+        "isbn": "1-56076-347-7",
+        "productCode": "CGR1 / TSR 2130",
+        "pdfPageOffset": 1,
+        "sourcePdfSha256": "a67def59fc8ce9c4e966fb7c44053b119c692d67422860487efb273645d8610e",
+        "supportingSources": [
+          {
+            "source": "AD&D Player's Handbook, revised TSR 2159",
+            "url": "",
+            "locator": "Tables 1–3, 14, 44, 46, 53, and 60 and Chapter 9 combat rules"
+          },
+          {
+            "source": "TSR AD&D Spelljammer creature entry",
+            "url": "https://www.scribd.com/document/1054555911/TSR2109-Spelljammer-MC7-Monstrous-Compendium",
+            "locator": "Dracon. AC 5 and Large body only in this build."
+          }
+        ],
+        "sourceDistinctions": [
+          "Use the CGR1 player class rules. The companion creature's six racial Hit Dice, THAC0 and armor loadout do not carry over.",
+          "Core PHB Strength adds 1 to each PC claw hit. Use routine shield fallback and defense by facing."
+        ]
+      }
+    },
+    {
+      "name": "Dracotaur",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_space_b",
+      "parentSpecies": null,
+      "aliases": "Separate from Dracon and the Rager sample.",
+      "npcs": [
+        "Drezhal Stonewake"
+      ],
+      "portrait": "parts/four_space_b/portraits/dracotaur.png",
+      "source": {
+        "name": "Dracotaur",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "url": "",
+        "creatureType": "Dragon",
+        "printedPages": "pp. 42–43, Dracotaurs as Characters. Official errata dated July 12, 2006.",
+        "sourceDistinctions": [
+          "Separate from Dracon and the Rager sample.",
+          "The entry begins on printed p. 42. The character block starts there and continues on p. 43.",
+          "Used the official Constitution erratum. The printed samples support 1½ Strength damage on the tail even when it is secondary."
+        ],
+        "primaryBookScan": "",
+        "supportingSources": [
+          {
+            "title": "Monster Manual III Errata, July 12, 2006",
+            "page": "p. 2, Pages 42–43: Dracotaur"
+          },
+          {
+            "title": "Player’s Handbook v.3.5",
+            "url": "",
+            "pages": "pp. 22, 37–39, 96, 102, 113–116, 123, 144"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Feytouched",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "four_fiend",
+      "parentSpecies": null,
+      "aliases": "Use the Fiend Folio ancestry. Separate from the Half-Fey template and other Feytouched rules.",
+      "npcs": [
+        "Reva Thornstep"
+      ],
+      "portrait": "parts/four_fiend/portraits/feytouched.png",
+      "source": {
+        "name": "Feytouched",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Fey",
+        "url": "",
+        "page": "p. 71",
+        "printedPages": [
+          71
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "Use the Fiend Folio ancestry. Separate from the Half-Fey template and other Feytouched rules.",
+          "All Feytouched player rules are on p. 71. Reva uses Common and Sylvan as a table choice because this entry does not designate automatic or bonus languages. The sample uses the expressly printed charm DC 11."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Rogue",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+          },
+          {
+            "name": "3.0 SRD, Charm Person",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Charm_Person"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firbolg",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_b",
+      "parentSpecies": null,
+      "aliases": "Printed heading Giant-kin, Firbolg. Separate from the fifth-edition player profile.",
+      "npcs": [
+        "Harn Alderhand"
+      ],
+      "portrait": "parts/four_humanoids_b/portraits/firbolg.png",
+      "source": {
+        "name": "Firbolg",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Giant",
+        "url": "",
+        "printedPages": [
+          27,
+          28,
+          29
+        ],
+        "heading": "Giant-kin, Firbolg",
+        "supportingSources": {
+          "classAndSpellRules": "",
+          "movementOnly": ""
+        },
+        "sourceDistinctions": [
+          "Uses the PHBR10 AD&D player entry. No traits from the fifth-edition firbolg are used.",
+          "PHBR10 provides no base movement for Firbolg. Used the matching Monstrous Manual rate of 15, without transferring that entry’s natural AC, Hit Dice or THAC0.",
+          "Detect Magic is the AD&D PHB wizard version for duration and area, with an effective caster level equal to actual class level as a table ruling.",
+          "The NPC uses the human-made great club from PHBR10 pp. 112, 114 and therefore gets no Strength bonus on attacks or damage with it."
+        ]
+      }
+    },
+    {
+      "name": "Fireblood Dwarf",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_b",
+      "parentSpecies": "Dwarf",
+      "aliases": "Dragonblood dwarf ancestry. Separate from other named dwarf lineages.",
+      "npcs": [
+        "Bera Cinderbrace"
+      ],
+      "portrait": "parts/four_dragon_b/portraits/fireblood-dwarf.png",
+      "source": {
+        "name": "Fireblood Dwarf",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Dwarf, Dragonblood)",
+        "url": "",
+        "printedPages": [
+          7
+        ],
+        "heading": "Fireblood Dwarves",
+        "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+        "parentSpecies": "Dwarf",
+        "distinction": "This Dragon Magic variant belongs under the existing Dwarf entry and keeps a version-specific NPC and portrait.",
+        "supportingSources": {
+          "dragonblood": "",
+          "baseTraits": "https://www.d20srd.org/srd/races.htm",
+          "npcClass": "https://www.d20srd.org/srd/classes/fighter.htm",
+          "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+          "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "feats": "https://www.d20srd.org/srd/feats.htm",
+          "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+        }
+      }
+    },
+    {
+      "name": "Flind",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_goblinoid_lizardfolk",
+      "parentSpecies": "Gnoll",
+      "aliases": "Named gnoll variant. Claim covers the 3.5 entry only.",
+      "npcs": [
+        "Kavra Flintjaw"
+      ],
+      "portrait": "parts/four_goblinoid_lizardfolk/portraits/flind.png",
+      "source": {
+        "name": "Flind",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Gnoll)",
+        "printedPages": [
+          62
+        ],
+        "heading": "Flinds as Characters",
+        "url": "",
+        "supportingSources": {
+          "playerRules": "",
+          "officialRevisedSRDText": "",
+          "monsterManualIIIErrata": ""
+        },
+        "distinction": "Gnoll lineage. Use the Flinds as Characters rules, including two racial Hit Dice and LA +2."
+      }
+    },
+    {
+      "name": "Forestkith Goblin",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_goblinoid_lizardfolk",
+      "parentSpecies": "Goblin",
+      "aliases": "Named player variant. Core Goblin stays separate.",
+      "npcs": [
+        "Vek Branchfall"
+      ],
+      "portrait": "parts/four_goblinoid_lizardfolk/portraits/forestkith-goblin.png",
+      "source": {
+        "name": "Forestkith Goblin",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Goblinoid)",
+        "printedPages": [
+          64,
+          65
+        ],
+        "heading": "Forestkith Goblins as Characters",
+        "url": "",
+        "supportingSources": {
+          "playerRules": "",
+          "officialRevisedSRDText": "",
+          "monsterManualIIIErrata": "",
+          "treeShape": "https://www.d20srd.org/srd/spells/treeShape.htm"
+        },
+        "distinction": "Goblin lineage. The player traits list Climb bonuses but no climb speed or natural bite. The example uses this narrower reading. The p. 65 errata revises published sample stats."
+      }
+    },
+    {
+      "name": "Forestlord Elf",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_a",
+      "parentSpecies": "Elf",
+      "aliases": "Full elf version. Use its own base traits.",
+      "npcs": [
+        "Tavin Belleaf"
+      ],
+      "portrait": "parts/four_dragon_a/portraits/forestlord-elf.png",
+      "source": {
+        "name": "Forestlord Elf",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (elf, dragonblood)",
+        "url": "",
+        "printedPages": [
+          8
+        ],
+        "heading": "Forestlord Elves and Half-Elves",
+        "supportingSources": {
+          "baseAndCombatRules": ""
+        },
+        "distinction": "Uses Player’s Handbook elf traits with the forestlord modifications. Sorcerer replaces wizard as favored class. The variant loses free elf weapon proficiency rather than martial-class proficiency.",
+        "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+      }
+    },
+    {
+      "name": "Forestlord Half-Elf",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_a",
+      "parentSpecies": "Half-Elf",
+      "aliases": "Half-elf version. Separate from the full elf version.",
+      "npcs": [
+        "Iris Commonroot"
+      ],
+      "portrait": "parts/four_dragon_a/portraits/forestlord-half-elf.png",
+      "source": {
+        "name": "Forestlord Half-Elf",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (elf, dragonblood)",
+        "url": "",
+        "printedPages": [
+          8
+        ],
+        "heading": "Forestlord Elves and Half-Elves",
+        "supportingSources": {
+          "baseAndCombatRules": ""
+        },
+        "distinction": "Uses Player’s Handbook half-elf traits with the forestlord modifications. Gains the printed Sorcerer favored class and loses the general half-elf social skill bonuses.",
+        "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+      }
+    },
+    {
+      "name": "Fremlin",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_a",
+      "parentSpecies": null,
+      "aliases": "PHBR10 Fremlin, separate from gremlin creature families.",
+      "npcs": [
+        "Siv Roofnook"
+      ],
+      "portrait": "parts/four_humanoids_a/portraits/fremlin.png",
+      "source": {
+        "name": "Fremlin",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          25,
+          26,
+          27
+        ],
+        "pdfPages": [
+          26,
+          27,
+          28
+        ],
+        "primaryBook": "PHBR10, TSR 2135, 1993",
+        "supportingSources": {
+          "playerHandbook": {
+            "url": "",
+            "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+          },
+          "movementOnly": {
+            "book": "Monstrous Manual",
+            "entry": "Gremlin, Fremlin table column",
+            "url": "",
+            "detail": "Land speed 6 only. PHBR10 gives Fly 12 (B)."
+          }
+        },
+        "sourceDistinctions": [
+          "PHBR10 Fremlin, separate from gremlin creature families.",
+          "Chapter 2 lists Thief 12 and Appendix Table 1 lists Rogue 11. The worked example uses Mage 1, which both sections allow.",
+          "The original roster pointed to page 25, where the entry starts. The player options and flight/weapon immunity continue on pp. 26–27."
+        ]
+      }
+    },
+    {
+      "name": "Frostblood Half-Orc",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_b",
+      "parentSpecies": "Half-Orc",
+      "aliases": "Half-orc version. Separate from the full orc version.",
+      "npcs": [
+        "Ilyra Coldbriar"
+      ],
+      "portrait": "parts/four_dragon_b/portraits/frostblood-half-orc.png",
+      "source": {
+        "name": "Frostblood Half-Orc",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Orc, Dragonblood)",
+        "url": "",
+        "printedPages": [
+          10
+        ],
+        "heading": "Frostblood Orcs and Half-Orcs",
+        "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+        "parentSpecies": "Half-Orc",
+        "distinction": "This Dragon Magic variant belongs under the existing Half-Orc entry and keeps a version-specific NPC and portrait.",
+        "supportingSources": {
+          "dragonblood": "",
+          "baseTraits": "https://www.d20srd.org/srd/races.htm",
+          "npcClass": "https://www.d20srd.org/srd/classes/ranger.htm",
+          "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+          "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "feats": "https://www.d20srd.org/srd/feats.htm",
+          "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+        }
+      }
+    },
+    {
+      "name": "Frostblood Orc",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_b",
+      "parentSpecies": "Orc",
+      "aliases": "Full orc version. Use its own base traits.",
+      "npcs": [
+        "Hurg Rimeshield"
+      ],
+      "portrait": "parts/four_dragon_b/portraits/frostblood-orc.png",
+      "source": {
+        "name": "Frostblood Orc",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Orc, Dragonblood)",
+        "url": "",
+        "printedPages": [
+          10
+        ],
+        "heading": "Frostblood Orcs and Half-Orcs",
+        "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+        "parentSpecies": "Orc",
+        "distinction": "This Dragon Magic variant belongs under the existing Orc entry and keeps a version-specific NPC and portrait.",
+        "supportingSources": {
+          "dragonblood": "",
+          "baseTraits": "https://www.d20srd.org/srd/monsters/orc.htm#orcsAsCharacters",
+          "npcClass": "https://www.d20srd.org/srd/classes/fighter.htm",
+          "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+          "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "feats": "https://www.d20srd.org/srd/feats.htm",
+          "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+        }
+      }
+    },
+    {
+      "name": "Giff",
+      "publication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_space_a",
+      "parentSpecies": null,
+      "aliases": "Original AD&D player rules. Fifth-edition Giff stays separate.",
+      "npcs": [
+        "Leda Caskmark"
+      ],
+      "portrait": "parts/four_space_a/portraits/giff.png",
+      "source": {
+        "name": "Giff",
+        "publication": "The Complete Spacefarer's Handbook (1992)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid (hippopotamus folk)",
+        "url": "",
+        "printedPages": [
+          15,
+          16,
+          17,
+          18,
+          27
+        ],
+        "page": "Chapter 2, pp. 17–18, Tables 1–3 and 7",
+        "isbn": "1-56076-347-7",
+        "productCode": "CGR1 / TSR 2130",
+        "pdfPageOffset": 1,
+        "sourcePdfSha256": "a67def59fc8ce9c4e966fb7c44053b119c692d67422860487efb273645d8610e",
+        "supportingSources": [
+          {
+            "source": "AD&D Player's Handbook, revised TSR 2159",
+            "url": "",
+            "locator": "Tables 1–3, 14, 44, 46, 53, and 60 and Chapter 9 combat rules"
+          },
+          {
+            "source": "TSR AD&D Spelljammer creature entry",
+            "url": "https://www.scribd.com/document/1054555911/TSR2109-Spelljammer-MC7-Monstrous-Compendium",
+            "locator": "Giff. Base movement 6 only in this build."
+          }
+        ],
+        "sourceDistinctions": [
+          "CGR1 player head-butt replaces the creature entry's attack sequence. This build treats 2d6 as fixed racial damage and applies normal Strength to the melee attack roll.",
+          "The title is an original NPC role, not a mechanical kit."
+        ]
+      }
+    },
+    {
+      "name": "Glimmerskin Halfling",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_b",
+      "parentSpecies": "Halfling",
+      "aliases": "Dragonblood halfling ancestry. Separate from other named halflings.",
+      "npcs": [
+        "Janna Goldseed"
+      ],
+      "portrait": "parts/four_dragon_b/portraits/glimmerskin-halfling.png",
+      "source": {
+        "name": "Glimmerskin Halfling",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Halfling, Dragonblood)",
+        "url": "",
+        "printedPages": [
+          9
+        ],
+        "heading": "Glimmerskin Halflings",
+        "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+        "parentSpecies": "Halfling",
+        "distinction": "This Dragon Magic variant belongs under the existing Halfling entry and keeps a version-specific NPC and portrait.",
+        "supportingSources": {
+          "dragonblood": "",
+          "baseTraits": "https://www.d20srd.org/srd/races.htm",
+          "npcClass": "https://www.d20srd.org/srd/classes/rogue.htm",
+          "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+          "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "feats": "https://www.d20srd.org/srd/feats.htm",
+          "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+        }
+      }
+    },
+    {
+      "name": "Grommam",
+      "publication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_space_a",
+      "parentSpecies": null,
+      "aliases": "Spelljammer player rules, including the applicable racial table values.",
+      "npcs": [
+        "Serren Knotwright"
+      ],
+      "portrait": "parts/four_space_a/portraits/grommam.png",
+      "source": {
+        "name": "Grommam",
+        "publication": "The Complete Spacefarer's Handbook (1992)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid (simian)",
+        "url": "",
+        "printedPages": [
+          15,
+          16,
+          18,
+          19,
+          27,
+          62
+        ],
+        "page": "Chapter 2, pp. 18–19, Tables 1–3 and 7",
+        "isbn": "1-56076-347-7",
+        "productCode": "CGR1 / TSR 2130",
+        "pdfPageOffset": 1,
+        "sourcePdfSha256": "a67def59fc8ce9c4e966fb7c44053b119c692d67422860487efb273645d8610e",
+        "supportingSources": [
+          {
+            "source": "AD&D Player's Handbook, revised TSR 2159",
+            "url": "",
+            "locator": "Tables 1–3, 14, 44, 46, 53, and 60 and Chapter 9 combat rules"
+          },
+          {
+            "source": "TSR Monstrous Compendium Spelljammer Appendix (MC7)",
+            "url": "https://www.scribd.com/document/1054555911/TSR2109-Spelljammer-MC7-Monstrous-Compendium",
+            "locator": "Grommam. Ground and tree movement only in this build."
+          }
+        ],
+        "sourceDistinctions": [
+          "The original CGR1 species prose is more generous than Chapter 5's Ambidexterity description. The playable build uses the explicit lineage waiver, while the smaller off-hand requirement remains in force.",
+          "The worked fighter uses the original male ability adjustment line. The profile preserves both printed lines."
+        ]
+      }
+    },
+    {
+      "name": "Harssaf",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_mm_standalone",
+      "parentSpecies": null,
+      "aliases": "Use racial Hit Dice and level adjustment.",
+      "npcs": [
+        "Vek Emberglass"
+      ],
+      "portrait": "parts/four_mm_standalone/portraits/harssaf.png",
+      "source": {
+        "name": "Harssaf",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Monstrous Humanoid (Fire)",
+        "url": "",
+        "printedPages": [
+          82,
+          83
+        ],
+        "heading": "Harssafs as Characters",
+        "supportingSources": {
+          "characterRules": "",
+          "officialErrataJuly2006": ""
+        },
+        "distinction": "Use racial Hit Dice and level adjustment.",
+        "interpretation": [
+          "The July 2006 errata corrects the printed sample pulse from DC 15 to 16. Vek uses DC 18 from seven HD and Constitution 21.",
+          "Use the short aura convention in the NPC tactics: the harssaf can enter the scene with the aura active, and each nearby creature takes its proximity damage at most once per round.",
+          "Sand Form uses gaseous form’s 10-ft. movement rate on the ground. The Harssaf entry specifies ground travel in this form and gives no separate movement rate."
+        ]
+      }
+    },
+    {
+      "name": "Hurwaeti",
+      "publication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_space_a",
+      "parentSpecies": null,
+      "aliases": "Hurwaet in the racial tables. Hurwaeti and Wiggle stay with this claim.",
+      "npcs": [
+        "Venn Reedstep"
+      ],
+      "portrait": "parts/four_space_a/portraits/hurwaeti.png",
+      "source": {
+        "name": "Hurwaeti",
+        "publication": "The Complete Spacefarer's Handbook (1992)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid (reptilian)",
+        "url": "",
+        "printedPages": [
+          15,
+          16,
+          20,
+          21,
+          27
+        ],
+        "page": "Chapter 2, pp. 20–21, Tables 1–3 and 7",
+        "isbn": "1-56076-347-7",
+        "productCode": "CGR1 / TSR 2130",
+        "pdfPageOffset": 1,
+        "sourcePdfSha256": "a67def59fc8ce9c4e966fb7c44053b119c692d67422860487efb273645d8610e",
+        "supportingSources": [
+          {
+            "source": "AD&D Player's Handbook, revised TSR 2159",
+            "url": "",
+            "locator": "Tables 1–3, 14, 44, 46, 53, and 60 and Chapter 9 combat rules"
+          },
+          {
+            "source": "TSR Monstrous Compendium Spelljammer Appendix (MC7)",
+            "url": "https://www.scribd.com/document/1054555911/TSR2109-Spelljammer-MC7-Monstrous-Compendium",
+            "locator": "Wiggle (Hurwaet), first column. Ground and swim movement only in this build."
+          },
+          {
+            "source": "AD&D Player's Handbook, TSR 2159",
+            "url": "",
+            "locator": "Chapter 11, second-level wizard spell Fog Cloud. Stationary fog bank, wind and visibility rules."
+          }
+        ],
+        "sourceDistinctions": [
+          "The core chapter gives the bank duration per caster level, and CGR1 assigns no caster level to the racial use. For a runnable convention, use 3rd level, the first wizard level with second-level spell access, for seven rounds. The fixed CGR1 dimensions supersede the spell-derived area.",
+          "The playable profile borrows the normal spacefaring Hurwaet's movement, not the salt or swamp creature's values."
+        ]
+      }
+    },
+    {
+      "name": "Ibixian",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_mm_standalone",
+      "parentSpecies": null,
+      "aliases": "Ibixian and Goatfolk refer to this one player entry. Separate from Satyr.",
+      "npcs": [
+        "Tavra Flintbrow"
+      ],
+      "portrait": "parts/four_mm_standalone/portraits/ibixian.png",
+      "source": {
+        "name": "Ibixian",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Monstrous Humanoid",
+        "url": "",
+        "printedPages": [
+          63
+        ],
+        "heading": "Goatfolk as Characters",
+        "supportingSources": {
+          "characterRules": ""
+        },
+        "distinction": "Ibixian and Goatfolk refer to this one player entry. Separate from Satyr.",
+        "interpretation": [
+          "Ibixian is the canonical name and Goatfolk is the printed alias. Pack Fervor calls for a second ibixian within 30 ft. Rage and Pack Fervor use the higher fear save morale modifier rather than stacking."
+        ]
+      }
+    },
+    {
+      "name": "Irda",
+      "publication": "Dragonlance Campaign Setting (2003)",
+      "edition": "3.5 edition",
+      "owner": "four_ogre_monstrous",
+      "parentSpecies": null,
+      "aliases": "Krynn Irda, also called High Ogre. Separate from Ogre and Ogre Mage.",
+      "npcs": [
+        "Serein Ix"
+      ],
+      "portrait": "parts/four_ogre_monstrous/portraits/irda.png",
+      "source": {
+        "name": "Irda",
+        "kind": "species",
+        "publication": "Dragonlance Campaign Setting (2003)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (shapechanger)",
+        "url": "",
+        "pages": "pp. 38–39, Chapter 1, Irda Racial Traits",
+        "evidence": "The 2003 Dragonlance Campaign Setting is the authority for the ancestry. Original print spells the subtype shapeshifter. The NPC presents the equivalent 3.5 shapechanger subtype and treats the ability as a standard action under the supernatural ability default. The original portrait shows the true form.",
+        "sourceDistinctions": "Krynn Irda, also called High Ogre. Separate from Ogre and Ogre Mage.",
+        "additionalSources": [
+          {
+            "name": "Wizards of the Coast, revised 3.5 SRD",
+            "url": "https://www.d20srd.org/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jaebrin",
+      "publication": "Monster Manual V (3.5, 2007)",
+      "edition": "3.5 edition",
+      "owner": "four_mm_standalone",
+      "parentSpecies": null,
+      "aliases": "Player profile. Keep the printed combat example separate.",
+      "npcs": [
+        "Fenn Copperlaugh"
+      ],
+      "portrait": "parts/four_mm_standalone/portraits/jaebrin.png",
+      "source": {
+        "name": "Jaebrin",
+        "publication": "Monster Manual V (3.5, 2007)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Fey",
+        "url": "https://anyflip.com/myubd/sdgs/basic/51-100",
+        "printedPages": [
+          92,
+          93
+        ],
+        "heading": "Jaebrins as Characters",
+        "supportingSources": {
+          "characterRules": "",
+          "sourceScan": ""
+        },
+        "distinction": "Player profile. Keep the printed combat example separate.",
+        "interpretation": [
+          "Uses the player entry’s class-based HD. Will Sapper uses 10 + half class level + Constitution modifier, consistent with the Constitution-based sample and the player clause."
+        ]
+      }
+    },
+    {
+      "name": "Maeluth",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "four_fiend",
+      "parentSpecies": null,
+      "aliases": "Dwarf-descended planetouched. One claim under Maeluth.",
+      "npcs": [
+        "Brena Coalward"
+      ],
+      "portrait": "parts/four_fiend/portraits/maeluth.png",
+      "source": {
+        "name": "Maeluth",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider",
+        "url": "",
+        "page": "pp. 136–137",
+        "printedPages": [
+          136,
+          137
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "Dwarf-descended planetouched. One claim under Maeluth.",
+          "The NPC exchanges the entry’s single racial Hit Die for fighter 1. Fiend Hammer uses the default standard action for activating a supernatural power."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+            "url": ""
+          },
+          {
+            "name": "Dungeon Master’s Guide (2000), Unholy weapon special ability",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Equipment",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Equipment"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mechanatrix",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "four_fiend",
+      "parentSpecies": null,
+      "aliases": "Inorganic-featured planetouched. Separate from Arisen and living constructs.",
+      "npcs": [
+        "Darsa Wheelmark"
+      ],
+      "portrait": "parts/four_fiend/portraits/mechanatrix.png",
+      "source": {
+        "name": "Mechanatrix",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider",
+        "url": "",
+        "page": "pp. 136–138",
+        "printedPages": [
+          136,
+          137,
+          138
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "Inorganic-featured planetouched. Separate from Arisen and living constructs.",
+          "The example exchanges the lone racial Hit Die for fighter 1. The entry supplies no spoken languages, so Common is an example choice. Shocking grasp uses 3.0 damage and metal-target rules."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Shocking Grasp",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Shocking_Grasp"
+          },
+          {
+            "name": "3.0 SRD, Equipment",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Equipment"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Naztharune Rakshasa",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_ogre_monstrous",
+      "parentSpecies": "Rakshasa",
+      "aliases": "Named player variant. Savage Species Rakshasa stays separate.",
+      "npcs": [
+        "Sahir Inkveil"
+      ],
+      "portrait": "parts/four_ogre_monstrous/portraits/naztharune-rakshasa.png",
+      "source": {
+        "name": "Naztharune Rakshasa",
+        "kind": "species",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Outsider (native)",
+        "url": "",
+        "pages": "pp. 136–137, Naztharune Rakshasas as Characters",
+        "evidence": "Uses the 3.5 player sidebar, its Detect Thoughts DC and the adjacent racial ability descriptions. The July 2006 errata confirms Sneak Attack scales with creature HD. It is +6d6 at this 11-HD tier. The source main stat gives CL 18 for Detect Thoughts.",
+        "sourceDistinctions": "Named player variant. Savage Species Rakshasa stays separate.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual III, official errata, 12 July 2006",
+            "url": ""
+          },
+          {
+            "name": "Wizards of the Coast, revised 3.5 SRD",
+            "url": "https://www.d20srd.org/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ogre Mage",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "four_ogre_monstrous",
+      "parentSpecies": null,
+      "aliases": "Separate playable progression from Ogre A–38. Later Oni printings stay separate.",
+      "npcs": [
+        "Novak Siltspur"
+      ],
+      "portrait": "parts/four_ogre_monstrous/portraits/ogre-mage.png",
+      "source": {
+        "name": "Ogre Mage",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Giant",
+        "url": "",
+        "pages": "pp. 189–190, Appendix 1, Table A–39",
+        "evidence": "The book contents and entry title say Ogre Mage. The table header is misprinted as Ogre Mace. The NPC uses monster class tier 4 (3 racial HD), prior to Large size or regeneration. Uses the 3.0 Monster Manual for the free toggle on its acquired flight and original 3.0 spell effects.",
+        "sourceDistinctions": "Separate playable progression from Ogre A–38. Later Oni printings stay separate.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Ogre Mage, pp. 144–145",
+            "url": ""
+          },
+          {
+            "name": "Wizards of the Coast, original 3.0 SRD, Invisibility",
+            "url": "https://www.dragon.ee/30srd/spellsi.htm#Invisibility"
+          },
+          {
+            "name": "Original 3.0 SRD, Weapons",
+            "url": "https://www.dragon.ee/30srd/equipment_wpns.htm"
+          },
+          {
+            "name": "Original 3.0 SRD, Sleep",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Sleep"
+          },
+          {
+            "name": "Original 3.0 SRD, Darkness",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Darkness"
+          },
+          {
+            "name": "Original 3.0 SRD, Charm Person",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Charm_Person"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poison Dusk Lizardfolk",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_goblinoid_lizardfolk",
+      "parentSpecies": "Lizardfolk",
+      "aliases": "Named player variant. Separate from Viletooth and baseline Lizardfolk.",
+      "npcs": [
+        "Tress Siltstep"
+      ],
+      "portrait": "parts/four_goblinoid_lizardfolk/portraits/poison-dusk-lizardfolk.png",
+      "source": {
+        "name": "Poison Dusk Lizardfolk",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Reptilian)",
+        "printedPages": [
+          96,
+          97
+        ],
+        "heading": "Poison Dusk as Characters",
+        "url": "",
+        "supportingSources": {
+          "playerRules": "",
+          "officialRevisedSRDText": "",
+          "monsterManualIIIErrata": ""
+        },
+        "distinction": "Lizardfolk lineage using the distinct Poison Dusk player profile. The p. 97 official errata revises both sample blocks without changing the player traits."
+      }
+    },
+    {
+      "name": "Quaraphon",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_mm_standalone",
+      "parentSpecies": null,
+      "aliases": "Use the player profile and keep the printed sample bully separate.",
+      "npcs": [
+        "Koth Reedbank"
+      ],
+      "portrait": "parts/four_mm_standalone/portraits/quaraphon.png",
+      "source": {
+        "name": "Quaraphon",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Aberration",
+        "url": "",
+        "printedPages": [
+          128,
+          129
+        ],
+        "heading": "Quaraphons as Characters",
+        "supportingSources": {
+          "characterRules": "",
+          "officialErrataJuly2006": ""
+        },
+        "distinction": "Use the player profile and keep the printed sample bully separate.",
+        "interpretation": [
+          "The July 2006 errata confirms ability adjustments, uses aberration for racial skills, and specifies two hooves. The player bite is 1d6, while the printed monster example lists 1d8. Use the player dice."
+        ]
+      }
+    },
+    {
+      "name": "Rastipede",
+      "publication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_space_b",
+      "parentSpecies": null,
+      "aliases": "Spelljammer player profile, including its special helm rules where relevant.",
+      "npcs": [
+        "Chirr Ambercoil"
+      ],
+      "portrait": "parts/four_space_b/portraits/rastipede.png",
+      "source": {
+        "name": "Rastipede",
+        "publication": "The Complete Spacefarer's Handbook (1992)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "creatureType": "Insectoid humanoid",
+        "printedPages": "pp. 15–16, 22–23 and 26–27. Spacefarer proficiencies pp. 63–66.",
+        "sourceDistinctions": [
+          "Spelljammer player profile, including its special helm rules where relevant.",
+          "CGR1 PC section gives the exact helm multiplier and racial tunnel checks. The build treats core two-weapon eligibility as applying to a single-class mage."
+        ],
+        "primaryBookScan": "",
+        "supportingSources": [
+          {
+            "title": "AD&D 2e Player’s Handbook",
+            "url": "",
+            "pages": "Tables 1–5, 14–15, 21, 34, 44–46, 53 and 60, plus the individual spell entries"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sand Giant",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_humanoids_b",
+      "parentSpecies": null,
+      "aliases": "Separate from the other giant ancestries and monster classes.",
+      "npcs": [
+        "Beresht Dunekeeper"
+      ],
+      "portrait": "parts/four_humanoids_b/portraits/sand-giant.png",
+      "source": {
+        "name": "Sand Giant",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Giant (Earth, Fire)",
+        "url": "",
+        "printedPages": [
+          58,
+          59
+        ],
+        "heading": "Sand Giants as Characters",
+        "supportingSources": {
+          "fighterRules": "https://www.d20srd.org/srd/classes/fighter.htm",
+          "equipmentRules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "combatRules": "https://www.d20srd.org/srd/combat/combatStatistics.htm",
+          "featRules": "https://www.d20srd.org/srd/feats.htm",
+          "meldIntoStone": "https://www.d20srd.org/srd/spells/meldIntoStone.htm",
+          "statue": "https://www.d20srd.org/srd/spells/statue.htm",
+          "blur": "https://www.d20srd.org/srd/spells/blur.htm",
+          "spellLikeAbilities": "https://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities",
+          "crAdvancement": "https://www.d20srd.org/srd/improvingMonsters.htm"
+        },
+        "sourceDistinctions": [
+          "The player package starts on printed p. 58 and continues on p. 59. The NPC has an original ability array, feat choice and role. Fighter 1 gives total HD 16 and ECL 20. Its CR uses +1 for an associated class level on the printed CR 10 giant.",
+          "The MMIII glossary gives a standard action for spell-like abilities unless noted, so the sample uses a standard action for Statue. The related spell and the general Revised SRD spell-like timing would take one round, a possible alternate reading.",
+          "Both printed blaster DCs equal 10 + half the 15 racial Hit Dice + the respective Constitution modifier, including the Fighter 5 champion. This NPC therefore uses DC 23. This NPC uses untyped weapon damage and a standard action to fire the blaster, since the book gives neither damage type nor firing action."
+        ]
+      }
+    },
+    {
+      "name": "Saurial",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_b",
+      "parentSpecies": null,
+      "aliases": "One source profile covering bladeback, finhead, flyer and hornhead. One worked example.",
+      "npcs": [
+        "Tessik Brightfin"
+      ],
+      "portrait": "parts/four_humanoids_b/portraits/saurial.png",
+      "source": {
+        "name": "Saurial",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          55,
+          56,
+          57,
+          58
+        ],
+        "heading": "Saurial",
+        "supportingSources": {
+          "classAndShieldRules": "",
+          "movementOnly": "https://anyflip.com/cmjgl/qcnv/basic/51-100"
+        },
+        "sourceDistinctions": [
+          "One player profile covers the four printed choices. The original NPC and portrait use the finhead.",
+          "The printed ability-range table abbreviates the finhead inconsistently as fn and fh. Its accompanying prose identifies the lineage as finhead, used here throughout.",
+          "PHBR10 provides the flyer’s air speed. The contemporary Saurial creature entry supplies the NPC finhead’s ground speed of 12. All other mechanics come from the player profile and core rules.",
+          "PHBR10 pp. 113–114 supplies the finhead broadsword. The sample interprets the listed claw pair and tail as alternative routines and places the shield out of hand before using two claws."
+        ]
+      }
+    },
+    {
+      "name": "Scro",
+      "publication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_space_b",
+      "parentSpecies": null,
+      "aliases": "Spelljammer Scro. Separate from the Orc player profile.",
+      "npcs": [
+        "Garrun Flintjaw"
+      ],
+      "portrait": "parts/four_space_b/portraits/scro.png",
+      "source": {
+        "name": "Scro",
+        "publication": "The Complete Spacefarer's Handbook (1992)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "creatureType": "Humanoid (Scro)",
+        "printedPages": "pp. 15–16, 23–24 and 26–27.",
+        "sourceDistinctions": [
+          "Spelljammer Scro. Separate from the Orc player profile.",
+          "The PC section does not give Scro a special movement rate. The build uses movement 12 and assumes the usual unencumbered limit. The bite uses the printed 1d3 as a fixed natural damage entry. Scro stays a standalone exact publication entry."
+        ],
+        "primaryBookScan": "",
+        "supportingSources": [
+          {
+            "title": "AD&D 2e Player’s Handbook",
+            "url": "",
+            "pages": "Tables 1–5, 14–15, 21, 34, 44–46, 53 and 60, plus the individual spell entries"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shyft",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "four_fiend",
+      "parentSpecies": null,
+      "aliases": "Ethereal-descended planetouched. Separate from Shifter, Shade and Shadar-kai.",
+      "npcs": [
+        "Pell Greywick"
+      ],
+      "portrait": "parts/four_fiend/portraits/shyft.png",
+      "source": {
+        "name": "Shyft",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider",
+        "url": "",
+        "page": "p. 138, shared planetouched traits p. 136",
+        "printedPages": [
+          136,
+          138
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "Ethereal-descended planetouched. Separate from Shifter, Shade and Shadar-kai.",
+          "The single racial Hit Die is exchanged for rogue 1. The printed LA is +3 and does not increase caster level. This build follows the 3.0 Ethereal Plane rules."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Rogue",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+          },
+          {
+            "name": "3.0 SRD, Ethereal Jaunt",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Ethereal_Jaunt"
+          },
+          {
+            "name": "Manual of the Planes (2001), Ethereal Plane",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Silverbrow Human",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_a",
+      "parentSpecies": "Human",
+      "aliases": "Human ancestry. Existing base Human profiles stay separate.",
+      "npcs": [
+        "Mara Fen"
+      ],
+      "portrait": "parts/four_dragon_a/portraits/silverbrow-human.png",
+      "source": {
+        "name": "Silverbrow Human",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (human, dragonblood)",
+        "url": "",
+        "printedPages": [
+          6
+        ],
+        "heading": "Silverbrow Humans",
+        "supportingSources": {
+          "baseAndCombatRules": ""
+        },
+        "distinction": "Replaces the bonus human skill points. Keeps the human bonus feat.",
+        "editionNote": "Dragon Magic uses printed 3.5 rules. The dragonblood subtype is on printed p. 4. viewer numbers are one higher than printed folios."
+      }
+    },
+    {
+      "name": "Skullcrusher Ogre",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_ogre_monstrous",
+      "parentSpecies": "Ogre",
+      "aliases": "Separate from Ogre and Ogre Mage.",
+      "npcs": [
+        "Brann Gatewright"
+      ],
+      "portrait": "parts/four_ogre_monstrous/portraits/skullcrusher-ogre.png",
+      "source": {
+        "name": "Skullcrusher Ogre",
+        "kind": "species",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Giant",
+        "url": "",
+        "pages": "pp. 116–117, Skullcrusher Ogres as Characters",
+        "evidence": "The player sidebar sets the giant Hit Dice, proficiencies, racial feats, level adjustment and rock throwing. The 2006 errata changes the printed sergeant example. Brann uses an independent array and the player sidebar.",
+        "sourceDistinctions": "Separate from Ogre and Ogre Mage.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual III, official errata, 12 July 2006",
+            "url": ""
+          },
+          {
+            "name": "Wizards of the Coast, revised 3.5 SRD",
+            "url": "https://www.d20srd.org/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spriggan",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "four_fiend",
+      "parentSpecies": null,
+      "aliases": "Keep both size forms within one claim.",
+      "npcs": [
+        "Orro Rootcuff"
+      ],
+      "portrait": "parts/four_fiend/portraits/spriggan.png",
+      "source": {
+        "name": "Spriggan",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Fey",
+        "url": "",
+        "page": "pp. 162–163",
+        "printedPages": [
+          162,
+          163
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "Keep both size forms within one claim.",
+          "The printed attack, Dex and AC on p. 162 do not all follow from its weapon and score lines. Orro uses Strength for attack rolls, recomputes both forms using their stated ability shifts and size modifiers, and applies the chain shirt’s Dex cap. The printed two-point size swing is treated as the move from Small +1 to Large −1. The enlarged stat line suppresses all sneak attack conservatively. Base feats were selected for the original player example."
+        ],
+        "supportingSources": [
+          {
+            "name": "3.0 SRD, Rogue",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+          },
+          {
+            "name": "3.0 SRD, Produce Flame",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Produce_Flame"
+          },
+          {
+            "name": "3.0 SRD, Scare",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Scare"
+          },
+          {
+            "name": "3.0 SRD, Shatter",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Shatter"
+          },
+          {
+            "name": "3.0 SRD, Equipment",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Equipment"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stonehunter Gnome",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_dragon_b",
+      "parentSpecies": "Gnome",
+      "aliases": "Dragonblood gnome ancestry. Separate from other named gnomes.",
+      "npcs": [
+        "Idrin Copperstep"
+      ],
+      "portrait": "parts/four_dragon_b/portraits/stonehunter-gnome.png",
+      "source": {
+        "name": "Stonehunter Gnome",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Gnome, Dragonblood)",
+        "url": "",
+        "printedPages": [
+          8,
+          9
+        ],
+        "heading": "Stonehunter Gnomes",
+        "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+        "parentSpecies": "Gnome",
+        "distinction": "This Dragon Magic variant belongs under the existing Gnome entry and keeps a version-specific NPC and portrait.",
+        "supportingSources": {
+          "dragonblood": "",
+          "baseTraits": "https://www.d20srd.org/srd/races.htm",
+          "npcClass": "https://www.d20srd.org/srd/classes/ranger.htm",
+          "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+          "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "feats": "https://www.d20srd.org/srd/feats.htm",
+          "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+        }
+      }
+    },
+    {
+      "name": "Sunscorch Hobgoblin",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_goblinoid_lizardfolk",
+      "parentSpecies": "Hobgoblin",
+      "aliases": "Dragonblood hobgoblin. Separate from the earlier core Hobgoblin.",
+      "npcs": [
+        "Rava Cinderwatch"
+      ],
+      "portrait": "parts/four_goblinoid_lizardfolk/portraits/sunscorch-hobgoblin.png",
+      "source": {
+        "name": "Sunscorch Hobgoblin",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Goblinoid, Dragonblood)",
+        "printedPages": [
+          9,
+          10
+        ],
+        "heading": "Sunscorch Hobgoblins",
+        "url": "https://anyflip.com/ogyal/nibl/basic",
+        "supportingSources": {
+          "playerRules": "",
+          "officialRevisedSRDText": "",
+          "damageAndDragonblood": "",
+          "baseHobgoblin": "https://www.d20srd.org/srd/monsters/hobgoblin.htm#hobgoblinCharacters"
+        },
+        "distinction": "Hobgoblin lineage. Apply only the Dragon Magic substitutions over the 3.5 core hobgoblin."
+      }
+    },
+    {
+      "name": "Swanmay",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_b",
+      "parentSpecies": null,
+      "aliases": "Use PHBR10 player rules. Keep related creature and prestige class entries separate.",
+      "npcs": [
+        "Letha Fenwatch"
+      ],
+      "portrait": "parts/four_humanoids_b/portraits/swanmay.png",
+      "source": {
+        "name": "Swanmay",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "",
+        "printedPages": [
+          59,
+          60
+        ],
+        "heading": "Swanmay",
+        "supportingSources": {
+          "classAndEquipmentRules": ""
+        },
+        "sourceDistinctions": [
+          "Uses PHBR10 as the player profile. The human form uses natural AC 7 with the character’s Dexterity adjustment. The sample uses AC 7 as listed in swan form and does not import a creature attack.",
+          "PHBR10 makes the shift at will but gives no combat timing. The NPC takes one full round to shift as a table ruling. On-foot human movement uses the AD&D PHB baseline."
+        ]
+      }
+    },
+    {
+      "name": "Viletooth Lizardfolk",
+      "publication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "four_goblinoid_lizardfolk",
+      "parentSpecies": "Lizardfolk",
+      "aliases": "Dragonblood lizardfolk. Separate from Poison Dusk Lizardfolk.",
+      "npcs": [
+        "Reth Blackreed"
+      ],
+      "portrait": "parts/four_goblinoid_lizardfolk/portraits/viletooth-lizardfolk.png",
+      "source": {
+        "name": "Viletooth Lizardfolk",
+        "publication": "Dragon Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Reptilian, Dragonblood)",
+        "printedPages": [
+          9
+        ],
+        "heading": "Viletooth Lizardfolk",
+        "url": "https://anyflip.com/ogyal/nibl/basic",
+        "supportingSources": {
+          "playerRules": "",
+          "officialRevisedSRDText": "",
+          "damageAndDragonblood": "",
+          "baseLizardfolk": "https://www.d20srd.org/srd/monsters/lizardfolk.htm#lizardfolkAsCharacters"
+        },
+        "distinction": "Lizardfolk lineage using all base 3.5 player traits except the changes on Dragon Magic p. 9. The Poison Dusk player profile is separate."
+      }
+    },
+    {
+      "name": "Voadkyn",
+      "publication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_humanoids_b",
+      "parentSpecies": null,
+      "aliases": "Printed heading Giant-kin, Voadkyn. Wood giant is a descriptive name.",
+      "npcs": [
+        "Idren Mossloop"
+      ],
+      "portrait": "parts/four_humanoids_b/portraits/voadkyn.png",
+      "source": {
+        "name": "Voadkyn",
+        "publication": "The Complete Book of Humanoids (1993)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Giant",
+        "url": "",
+        "printedPages": [
+          29,
+          30,
+          31
+        ],
+        "heading": "Giant-kin, Voadkyn",
+        "supportingSources": {
+          "classAndRangeRules": "",
+          "movementOnly": ""
+        },
+        "sourceDistinctions": [
+          "Uses PHBR10’s player entry for the wood giant. The Monstrous Manual supplies movement only.",
+          "The rules state a 50% range increase and 1d8 arrow damage but give no range bands. The example starts with the AD&D PHB’s longbow sheaf-arrow bands and increases each by 50%. It uses PHBR10 Table 7 speed factor 10.",
+          "The forest maneuver explicitly mentions one arrow, so it is an alternative to the two stationary longbow shots. The entry does not supply distance limits for the out-and-back movement. The example assumes accessible cover."
+        ]
+      }
+    },
+    {
+      "name": "Wispling",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "owner": "four_fiend",
+      "parentSpecies": null,
+      "aliases": "Halfling-descended planetouched. Separate from base Halfling and Tiefling.",
+      "npcs": [
+        "Fera Copperfin"
+      ],
+      "portrait": "parts/four_fiend/portraits/wispling.png",
+      "source": {
+        "name": "Wispling",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider",
+        "url": "",
+        "page": "p. 139, shared planetouched traits p. 136",
+        "printedPages": [
+          136,
+          139
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 0,
+        "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+        "isbn": "0-7869-2780-1",
+        "firstPrinting": "April 2003",
+        "sourceDistinctions": [
+          "Halfling-descended planetouched. Separate from base Halfling and Tiefling.",
+          "The build exchanges the sample’s single racial Hit Die for rogue 1. The build uses the original 3.0 Change Self spelling and rules. The entry gives no save DC for interaction with the glamer, so the example uses the standard first-level effect DC 11 with Charisma +0."
+        ],
+        "supportingSources": [
+          {
+            "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+            "url": ""
+          },
+          {
+            "name": "3.0 SRD, Rogue",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+          },
+          {
+            "name": "3.0 SRD, Change Self",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Change_Self"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Witchknife",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "four_mm_standalone",
+      "parentSpecies": null,
+      "aliases": "Player profile. Keep the Captain sample separate.",
+      "npcs": [
+        "Kesh Redreed"
+      ],
+      "portrait": "parts/four_mm_standalone/portraits/witchknife.png",
+      "source": {
+        "name": "Witchknife",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Monstrous Humanoid",
+        "url": "",
+        "printedPages": [
+          194,
+          195
+        ],
+        "heading": "Witchknives as Characters",
+        "supportingSources": {
+          "characterRules": "",
+          "officialErrataJuly2006": ""
+        },
+        "distinction": "Player profile. Keep the Captain sample separate.",
+        "interpretation": [
+          "The July 2006 clarification grants all simple weapons, light armor, and shields except tower shields. Kesh’s Ability Focus applies to command only, as in the original creature’s convention."
+        ]
+      }
+    },
+    {
+      "name": "Xixchil",
+      "publication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "owner": "four_space_b",
+      "parentSpecies": null,
+      "aliases": "Spelljammer player profile. Separate from Thri-kreen and Tosculi.",
+      "npcs": [
+        "Vesh Claspneedle"
+      ],
+      "portrait": "parts/four_space_b/portraits/xixchil.png",
+      "source": {
+        "name": "Xixchil",
+        "publication": "The Complete Spacefarer's Handbook (1992)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "creatureType": "Insectoid humanoid",
+        "printedPages": "pp. 15–16 and 24–27. Body Manipulation on pp. 25–26.",
+        "sourceDistinctions": [
+          "Spelljammer player profile. Separate from Thri-kreen and Tosculi.",
+          "CGR1 gives no separate movement rate for this player entry, so the build uses standard humanoid movement 12. The printed two-forelimb rule is used for natural attacks. Anesthetic has its own saving throw sentence, with no specified −4 modifier. The build delivers it using the poison delivery modes and treats the bite poison’s fixed damage as additional to the physical bite.",
+          "The optional Body Manipulation proficiency is a downtime option and the portrait shows the standard six limbs."
+        ],
+        "primaryBookScan": "",
+        "supportingSources": [
+          {
+            "title": "AD&D 2e Player’s Handbook",
+            "url": "",
+            "pages": "Tables 1–5, 14–15, 21, 34, 44–46, 53 and 60, plus the individual spell entries"
+          }
+        ]
+      }
+    }
+  ]
+}

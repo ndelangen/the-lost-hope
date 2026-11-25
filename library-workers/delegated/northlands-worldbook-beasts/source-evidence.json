@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Moose",
+    "printedName": "Moose",
+    "entryId": "beast-182072537ada59e4d6b18034",
+    "versionKey": "32a5a2e406b584959d3f12b8",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Northlands Worldbook",
+    "printedPage": 264,
+    "sourceUrl": "https://www.scribd.com/document/1066608060/ToV8-Northlands-Worldbook-TOV",
+    "publisherUrl": "https://koboldpress.com/kpstore/product/tales-of-the-valiant-northlands-worldbook/",
+    "sourceISBN": "978-1-964506-38-8",
+    "sourceEvidence": "Publisher-authored printed text and page footer via third-party text extraction.",
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "habitatTags": [
+      "Any",
+      "Arctic"
+    ],
+    "printedCR": "1/2",
+    "indexCR": "0.5",
+    "searchAppearance": "palmed antlers"
+  },
+  {
+    "name": "Reindeer",
+    "printedName": "Reindeer",
+    "entryId": "beast-6e84cef3835a51f334a6d4f6",
+    "versionKey": "ff655e3a11dcf1e96ef5a86b",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Northlands Worldbook",
+    "printedPage": 264,
+    "sourceUrl": "https://www.scribd.com/document/1066608060/ToV8-Northlands-Worldbook-TOV",
+    "publisherUrl": "https://koboldpress.com/kpstore/product/tales-of-the-valiant-northlands-worldbook/",
+    "sourceISBN": "978-1-964506-38-8",
+    "sourceEvidence": "Publisher-authored printed text and page footer via third-party text extraction.",
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "habitatTags": [
+      "Any",
+      "Arctic"
+    ],
+    "printedCR": "1/4",
+    "indexCR": "0.3",
+    "searchAppearance": "pale winter coat"
+  },
+  {
+    "name": "Sea Serpent",
+    "printedName": "Sea Serpent",
+    "entryId": "beast-fbc25425387d962b311cbe69",
+    "versionKey": "88fb84ce49a772c818242b9a",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Northlands Worldbook",
+    "printedPage": 264,
+    "sourceUrl": "https://www.scribd.com/document/1066608060/ToV8-Northlands-Worldbook-TOV",
+    "publisherUrl": "https://koboldpress.com/kpstore/product/tales-of-the-valiant-northlands-worldbook/",
+    "sourceISBN": "978-1-964506-38-8",
+    "sourceEvidence": "Publisher-authored printed text and page footer via third-party text extraction.",
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "habitatTags": [
+      "Arctic",
+      "Underwater"
+    ],
+    "printedCR": "3",
+    "indexCR": "3.0",
+    "searchAppearance": "four fangs"
+  }
+]

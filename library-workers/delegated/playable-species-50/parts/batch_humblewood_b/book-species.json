@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Cervan",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium deerlike humanoid. Walking speed 30 ft. Constitution +2. Proficiency in one of Athletics, Medicine, Nature, or Survival.",
+      "Surge of Vigor. When an attack inflicts more than half your current HP in damage, immediately regain 1d12 + your Constitution modifier HP. This can trigger when the hit takes you to 0 HP. Once per long rest.",
+      "Grove cervan. Dexterity +1 and walking speed 35 ft. Long jump 30 ft. and high jump 15 ft. with or without a running start. Opportunity attacks against you have disadvantage.",
+      "Pronghorn cervan. Strength +1. Double carrying capacity and push, drag, and lift limits. Antler unarmed strike deals 1d6 + Strength modifier piercing. After moving at least 20 ft. straight toward an opponent, the charge costs a bonus action and adds 1d6 piercing. A Large or smaller target makes a Strength save at DC 8 + proficiency bonus + your Strength modifier. On failure, push it 10 ft. away into a space you choose.",
+      "Speak, read, and write Birdfolk. Cervan is spoken only."
+    ]
+  },
+  {
+    "name": "Hedge",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small hedgehoglike humanoid. Walking speed 25 ft., burrowing speed 15 ft. through soil. Charisma +2, Wisdom +1.",
+      "Spiny Quills. Armor cannot be worn. Base AC is 14 + Dexterity modifier. A shield still grants its bonus if proficient.",
+      "Curl Up. As an action, curl into a ball. Base AC becomes 19 without a Dexterity bonus, and a usable shield still applies. While curled, you cannot move, attack, or cast spells that have a somatic component. A creature that misses you with a melee attack takes 2d4 piercing. If a creature hits you, you fall prone at the end of the turn. You may uncurl during your turn.",
+      "Forest Magic. Know druidcraft and cast animal messenger at 2nd level once per short or long rest. Both use Charisma.",
+      "Speak With Bugs. Convey simple ideas to Beast insects, spiders, worms, and similar creatures using sounds and gestures. Speak, read, and write Birdfolk and Hedge."
+    ]
+  },
+  {
+    "name": "Jerbeen",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small mouse- or jerboa-like humanoid. Walking speed 30 ft. Dexterity +2, Charisma +1. Standing long jump 30 ft. and high jump 15 ft., with or without a running start.",
+      "Nimbleness. Move through a larger creature’s space. Team Tactics allows the Help action as a bonus action.",
+      "Take Heart. Gain advantage on Strength saves and on saves against being frightened when you are within 5 ft. of an ally you can see and hear, provided that ally is neither frightened nor incapacitated.",
+      "Speak, read, and write Birdfolk and Jerbeen."
+    ]
+  },
+  {
+    "name": "Mapach",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium raccoonlike humanoid. Walking speed 30 ft., climb speed 20 ft., darkvision 60 ft. Wisdom +2, Constitution +1.",
+      "Resilience. Advantage on saving throws against poison and resistance to poison damage. Skulker grants advantage on Stealth checks in dim light or darkness.",
+      "Scroungecraft. Gain tinker’s tools proficiency. With suitable material, spend 10 minutes to improvise a tool or piece of adventuring gear worth up to 30 gp. Tools and expendable items are useful for one use. Other items generally last 1 hour.",
+      "With proper materials, start before the temporary item fails and spend 8 hours to make it permanent. Scroungecraft can also repair equipment, with available materials and repair durability at the GM’s discretion.",
+      "Speak, read, and write Birdfolk and Mapach."
+    ]
+  },
+  {
+    "name": "Vulpin",
+    "kind": "species",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium foxlike humanoid. Walking speed 30 ft., darkvision 60 ft. Intelligence +2, Charisma +1.",
+      "Bite. Use Strength or Dexterity for both attack and damage rolls for this unarmed strike. Damage is 1d6 piercing plus the chosen modifier.",
+      "Evasive. Add your Intelligence modifier to Dexterity saving throws.",
+      "Bewitching Guile. Cast charm person at first level, ambush prey at third level as a 2nd-level spell, and fear at fifth level. Each racial spell has its own use per long rest. These spells use Intelligence.",
+      "Ambush prey. Become invisible for up to 1 hour. Moving at least 5 ft. from the casting point ends it. The first attack against an unaware target deals an extra 1d6 damage and ends the effect. Full spell rules are on p. 49.",
+      "Speak, read, and write Birdfolk and Vulpin."
+    ]
+  }
+]

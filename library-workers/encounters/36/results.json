@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Owlbear (MCDM)",
+    "source": "https://www.dndbeyond.com/monsters/4485976-owlbear-mcdm",
+    "challenge": "3",
+    "entry": "monster-f96b45d9f50ca2ab7e71c12f",
+    "version": "79b7bfc5df55933cab234d8b",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "owlbear",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "4368f8ae3018fbb9aea4ec693ec0ccb98d6ca66470e33164ee62020394093362",
+    "status": "Stat block",
+    "appearance": "A broad, feathered predator with owl eyes and beak, bear-like haunches and long talons.",
+    "habitats": [
+      "Forests",
+      "Woodlands"
+    ]
+  },
+  {
+    "name": "Shambling Mound (MCDM)",
+    "source": "https://www.dndbeyond.com/monsters/4485997-shambling-mound-mcdm",
+    "challenge": "5",
+    "entry": "monster-cc7dba62147ca1218369889a",
+    "version": "81554b793bdf77c91c9ccb8d",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "shambling-mound",
+    "kind": "monster",
+    "type": "Plant",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "823695caf622b1fe27646f34a6052be67667c0effd82de8fe201a0c2acc78d03",
+    "status": "Stat block",
+    "appearance": "A huge mass of roots, reeds and swamp vines with lashing tendrils and an interwoven sack for prey.",
+    "habitats": [
+      "Swamps",
+      "Marshes",
+      "Dense woods",
+      "Rainforests"
+    ]
+  }
+]

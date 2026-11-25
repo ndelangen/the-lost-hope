@@ -1,0 +1,216 @@
+[
+  {
+    "name": "Bulbous Violet",
+    "decision": "separate",
+    "pages": "Appendix, pp. 218–219",
+    "notes": "Uses the independent Black Flag stat block printed in this appendix.",
+    "statBlock": {
+      "name": "Bulbous Violet",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Plant",
+      "ac": 12,
+      "hp": 40,
+      "speed": "20 ft., climb 20 ft.",
+      "cr": "1",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A carnivorous flower snares animals with two acidic tendrils. It waits motionless along the Great Northern Road.",
+      "otherStatistics": "Perception 10. Stealth 12. Immune to acid damage. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +2 · CON +1 · INT -2 · WIS +0 · CHA -4",
+        "Traits": "Acid Sacs. Taking bludgeoning, piercing, or slashing damage makes each creature within 5 ft. roll a DC 12 Dexterity save. On a failure the creature takes 2 (1d4) acid damage.\nFalse Appearance. An unmoving violet passes for an ordinary large flowering plant.\nFlesh Sense. Smell pinpoints creatures with skin and muscle within 60 ft., including zombies and flesh golems.\nPlant Resilience. Advantage on checks and saves to avoid or end Exhaustion, Paralyzed, Petrified, and Unconscious.\nSlurp Gore. Regain 7 (2d6) HP when a creature within 5 ft. drops to 0 HP if it took the violet’s acid damage since the start of the violet’s last turn.",
+        "Actions": "Multiattack. Make two Acid-Coated Tendril attacks.\nAcid-Coated Tendril. Melee weapon attack, +5 to hit, reach 10 ft., one target. Hit 5 (1d4 + 3) bludgeoning plus 2 (1d4) acid. The target is Grappled, escape DC 13, and Restrained while held. It takes 2 (1d4) acid at the start of each of its turns until it escapes. The violet can hold one target per tendril and has two such tendrils.",
+        "Bonus Actions": "Perfumed Placation. One Grappled creature makes a DC 13 Charisma save. On a failure it has disadvantage on its next check to escape before the start of the violet’s next turn.",
+        "Printed source": "Appendix, pp. 218–219"
+      },
+      "ruleNotes": [
+        "Condition resistance gives advantage on checks and saves made to avoid or end the listed condition. Use the printed Perception and Stealth values and the listed ability modifiers."
+      ]
+    }
+  },
+  {
+    "name": "Child of the Briar",
+    "decision": "separate",
+    "pages": "Appendix, pp. 220–221",
+    "notes": "Uses the independent Black Flag stat block printed in this appendix.",
+    "statBlock": {
+      "name": "Child of the Briar",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Tiny Plant",
+      "ac": 13,
+      "hp": 44,
+      "speed": "20 ft., climb 10 ft.",
+      "cr": "1",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A tiny woodland plant that rushes foes with claws or hangs back to coordinate an Entangle with its kin.",
+      "otherStatistics": "Perception 12. Stealth 17. Vulnerable to fire damage. Darkvision 60 ft. Speaks Briarclick, Common, and Sylvan.",
+      "sections": {
+        "Ability modifiers": "STR -2 · DEX +3 · CON +0 · INT +1 · WIS +0 · CHA +2",
+        "Traits": "Fey Blessing. Advantage on saves against being Charmed. Magic cannot put it to sleep.\nPlant Resilience. Advantage on checks and saves to avoid or end Exhaustion, Paralyzed, Petrified, and Unconscious.",
+        "Actions": "Multiattack. Make two attacks using Claw or Spitdart Tongue. If both are Claw attacks and hit the same Medium or smaller target, it is Grappled, escape DC 13, and takes 2 (1d4) piercing at the start of its turns. The child can hold one target at a time.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nSpitdart Tongue. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. Hit 6 (1d6 + 3) piercing damage.",
+        "Bonus Actions": "Entangle (Recharge 6). While within 10 ft. of another child of the briar, cast Entangle at DC 13. Each friendly child within 30 ft. of the caster can join as a reaction. Every participant after the caster adds 1 to the DC and 5 ft. to the square’s side, to limits of DC 17 and 40 ft. The area must include a participant. Participants ignore the effect and cannot use their own Entangle until this casting ends.",
+        "Spellcasting": "Entangle. Place a 20-ft. square of difficult terrain within 90 ft., with concentration up to 1 minute. Creatures in the square when cast make a Strength save or become Restrained until it ends. A creature can spend an action on a Strength check against the spell’s DC to break free.",
+        "Printed source": "Appendix, pp. 220–221"
+      },
+      "ruleNotes": [
+        "Condition resistance gives advantage on checks and saves made to avoid or end the listed condition. Use the printed Perception and Stealth values and the listed ability modifiers."
+      ]
+    }
+  },
+  {
+    "name": "Colláis",
+    "decision": "separate",
+    "pages": "Appendix, pp. 222–223",
+    "notes": "Uses the independent Black Flag stat block printed in this appendix.",
+    "statBlock": {
+      "name": "Colláis",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 16,
+      "hp": 199,
+      "speed": "40 ft.",
+      "cr": "10",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The Margreve sends this forest guardian to help settlements that keep the Old Ways.",
+      "otherStatistics": "Natural armor. Perception 17. Stealth 12. Vulnerable to necrotic damage. Resists bludgeoning, piercing, and slashing from nonmagical attacks. Immune to Charmed and Frightened. Darkvision 120 ft. Understands Common and Sylvan, and cannot speak.",
+      "sections": {
+        "Ability modifiers": "STR +8 · DEX +2 · CON +2 · INT +0 · WIS +3 · CHA +5",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMonstrosity Resilience. Resistant to Exhaustion and Frightened. Its separately listed immunity to Frightened takes precedence.",
+        "Actions": "Multiattack. Make one Gore and two Hoof attacks.\nGore. Melee weapon attack, +8 to hit, reach 10 ft., one target. Hit 26 (4d10 + 4) piercing damage.\nHoof. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 22 (4d8 + 4) bludgeoning damage.\nCry of the Forest (Recharge 6). Each creature that hears the cry within 30 ft. makes a DC 16 Charisma save. Failure deals 35 (10d6) psychic damage and Frightens for 1 minute. Success halves the damage and avoids Frightened. A Frightened target repeats the save at the end of each of its turns. For each Beast or creature with the Animal tag and an Intelligence modifier of −3 or less, the colláis chooses whether it automatically fails or is immune to the effect.",
+        "Bonus Actions": "Toss. Choose one Medium or smaller creature within 5 ft. It makes a DC 16 Strength save. Failure throws it up to 20 ft. away in a random direction and knocks it Prone.",
+        "Printed source": "Appendix, pp. 222–223"
+      },
+      "ruleNotes": [
+        "Condition resistance gives advantage on checks and saves made to avoid or end the listed condition. Use the printed Perception and Stealth values and the listed ability modifiers."
+      ]
+    }
+  },
+  {
+    "name": "Golem, Vine",
+    "decision": "separate",
+    "pages": "Appendix, p. 228",
+    "notes": "Uses the independent Black Flag stat block printed in this appendix.",
+    "statBlock": {
+      "name": "Golem, Vine",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Construct",
+      "ac": 14,
+      "hp": 72,
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "3",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Druids shape these constructs from local vegetation. A version woven from fungi guards the Mushroom Queen’s throne room.",
+      "otherStatistics": "Perception 12. Stealth 14. Vulnerable to fire damage. Resists nonmagical bludgeoning, piercing, and slashing damage. Immune to poison and psychic damage, Exhaustion, Charmed, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 60 ft. Understands its creator’s languages and cannot speak.",
+      "sections": {
+        "Ability modifiers": "STR +1 · DEX +4 · CON +3 · INT -2 · WIS +0 · CHA -3",
+        "Traits": "Construct Nature. Needs no air, food, drink, or sleep.\nImmutable Form. Effects and spells cannot change its form.\nLesser Golem Resilience. Apply the listed damage resistances and immunities.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nPlant Camouflage. Stealth is 19 in terrain with ample concealing plant life.",
+        "Actions": "Multiattack. Make two Vine Whip attacks or three Fling Thorn attacks. The printed block permits replacing one Vine Whip with Thorned Embrace, whose mechanics are missing.\nVine Whip. Melee weapon attack, +6 to hit, reach 15 ft., one target. Hit 13 (2d8 + 4) piercing damage. A DC 14 Strength save prevents a pull of up to 10 ft. toward the golem. If the target was Medium or smaller and already within 5 ft., the golem can Grapple it instead, escape DC 14. A target held this way is Restrained. The golem can hold only one target this way.\nFling Thorn. Ranged weapon attack, +6 to hit, range 30/120 ft., one target. Hit 9 (2d4 + 4) piercing damage.",
+        "Bonus Actions": "Entangling Roots. Plant both feet and extend roots. Each creature within 10 ft. makes a DC 14 Strength save or is Grappled, escape DC 14. The roots release their targets if the golem uses this bonus action again.",
+        "Printed source": "Appendix, p. 228"
+      },
+      "ruleNotes": [
+        "Condition resistance gives advantage on checks and saves made to avoid or end the listed condition. Use the printed Perception and Stealth values and the listed ability modifiers.",
+        "The printed Multiattack names Thorned Embrace without providing its rules. Use the two Vine Whip or three Fling Thorn attacks unless you have rules for Thorned Embrace."
+      ]
+    }
+  },
+  {
+    "name": "Lich Hound",
+    "decision": "separate",
+    "pages": "Appendix, pp. 232–233",
+    "notes": "Uses the independent Black Flag stat block printed in this appendix.",
+    "statBlock": {
+      "name": "Lich Hound",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Undead",
+      "ac": 14,
+      "hp": 100,
+      "speed": "30 ft., fly 50 ft.",
+      "cr": "4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This undead hunter tracks prey from afar, then shifts between the Material and Ethereal Planes to close in.",
+      "otherStatistics": "Perception 14, or 19 by hearing or smell. Stealth 14. Vulnerable to bludgeoning damage. Resists piercing and slashing damage. Immune to poison damage, Exhaustion, and Poisoned. Darkvision 120 ft. Keensense 60 ft. Understands Common and Darakhul and cannot speak.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +4 · CON +4 · INT -2 · WIS +0 · CHA +3",
+        "Traits": "Blood Sense. Smell pinpoints creatures within 60 ft. unless they are Constructs or Undead. Sense the direction of such prey out to 1 mile.\nHeightened Hearing and Smell. Perception rises to 19 when relying on hearing or smell.\nUndead Nature. Needs no air, food, drink, or sleep.\nUndead Resilience. Immune to poison damage, Exhaustion, and Poisoned.",
+        "Actions": "Multiattack. Make two Bite attacks. If both hit the same creature, it must make a DC 14 Constitution save or take 7 (2d6) slashing damage and be Incapacitated through the end of its next turn.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) piercing plus 3 (1d6) necrotic damage. A creature must make a DC 14 Strength save or fall Prone.",
+        "Bonus Actions": "Eerie Howl. Each creature within 30 ft. makes a DC 14 Wisdom save or becomes Frightened for 1 minute. Targets repeat the save at the end of their turns. After a successful save or when the effect ends, that creature is immune to the hound’s howl for 24 hours.\nEthereal Jaunt. Magically shift between the Material and Ethereal Planes.",
+        "Printed source": "Appendix, pp. 232–233"
+      },
+      "ruleNotes": [
+        "Condition resistance gives advantage on checks and saves made to avoid or end the listed condition. Use the printed Perception and Stealth values and the listed ability modifiers.",
+        "Keensense detects surroundings without relying on sight, out to the printed range."
+      ]
+    }
+  },
+  {
+    "name": "Lunarchidna, Lesser",
+    "decision": "separate",
+    "pages": "Appendix, pp. 233–234",
+    "notes": "Uses the independent Black Flag stat block printed in this appendix.",
+    "statBlock": {
+      "name": "Lunarchidna, Lesser",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Aberration",
+      "ac": 15,
+      "hp": 58,
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This spiderlike aberration formed from moonlit silk. The lesser form prevails by day or under a new or crescent moon.",
+      "otherStatistics": "Natural armor. Perception 11. Stealth 16. Vulnerable to fire damage. Immune to poison damage, Poisoned, and Restrained. Darkvision 60 ft. Keensense 10 ft. Speaks Deep Speech and Sylvan.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +2 · CON +2 · INT -2 · WIS +1 · CHA +1",
+        "Traits": "Aberrant Resilience. Resistant to Charmed, Frightened, Paralyzed, and Stunned. Advantage on saves against spells or other effects that would change its form.\nSpider Climb. Climb difficult surfaces and ceilings without a check.\nSunlight Sensitivity. In sunlight, attacks have disadvantage and sight-based Perception falls to 6.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 11 (2d8 + 2) necrotic damage. On a failed DC 12 Constitution save, the target’s HP maximum falls by the damage taken until the target finishes a long rest. It dies if the reduction brings the maximum to 0.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage.",
+        "Bonus Actions": "Shadow Stealth. In dim light or darkness, take the Hide action.",
+        "Printed source": "Appendix, pp. 233–234"
+      },
+      "ruleNotes": [
+        "Condition resistance gives advantage on checks and saves made to avoid or end the listed condition. Use the printed Perception and Stealth values and the listed ability modifiers.",
+        "Keensense detects surroundings without relying on sight, out to the printed range."
+      ]
+    }
+  },
+  {
+    "name": "Stormboar",
+    "decision": "separate",
+    "pages": "Appendix, pp. 238–239",
+    "notes": "Uses the independent Black Flag stat block printed in this appendix.",
+    "statBlock": {
+      "name": "Stormboar",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 15,
+      "hp": 128,
+      "speed": "40 ft.",
+      "cr": "6",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A territorial forest boar that scents iron and tears apart metal armor. Its hide shocks nearby attackers.",
+      "otherStatistics": "Natural armor. Perception 10. Stealth 11. Immune to lightning and thunder damage. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR +4 · DEX +1 · CON +7 · INT -4 · WIS +0 · CHA -2",
+        "Traits": "Iron Scent. Smell pinpoints ferrous metal within 60 ft.\nLightning Hide. A creature touching the boar or hitting it with a melee attack from within 5 ft. takes 2 (1d4) lightning damage.\nMonstrosity Resilience. Resistant to Exhaustion and Frightened.\nRelentless (recharges on a short or long rest). If an instance of 15 damage or less would drop the boar to 0 HP, it drops to 1 HP instead.",
+        "Actions": "Multiattack. Make two Tusk attacks. If both hit one creature in nonmagical metal armor, permanently reduce the AC the armor provides by 1. This stacks and destroys the armor when its AC reaches 10.\nTusk. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing plus 9 (2d8) lightning damage.\nLightning Run (Recharge 6). Move up to speed without provoking opportunity attacks. Treat creatures and objects passed through as difficult terrain. Every creature in the path makes a DC 15 Dexterity save against 22 (5d8) lightning damage, half on success. If the boar ends its turn inside an object it takes 5 (1d10) force damage and is pushed into the nearest unoccupied space.",
+        "Bonus Actions": "Thunderous Leap (71 HP or fewer). Leap up to 20 ft., over obstacles and without a difficult-terrain movement penalty. Each creature within 10 ft. of either end of the leap makes a DC 15 Constitution save. Failure deals 9 (2d8) thunder damage and pushes the creature up to 10 ft. away from the boar.",
+        "Printed source": "Appendix, pp. 238–239"
+      },
+      "ruleNotes": [
+        "Condition resistance gives advantage on checks and saves made to avoid or end the listed condition. Use the printed Perception and Stealth values and the listed ability modifiers."
+      ]
+    }
+  }
+]

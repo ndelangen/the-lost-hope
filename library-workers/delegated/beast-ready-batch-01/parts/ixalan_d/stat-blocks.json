@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Sailback",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 14,
+    "hp": 85,
+    "hitDice": "9d12 + 27",
+    "speed": "30 ft., swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +5. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A long-snouted dinosaur with slate-blue scales, a tall rust-orange spinal sail, short quills behind its head, and a thick balancing tail.",
+    "habitats": [
+      "Ixalan lakes",
+      "Ixalan rivers"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 30, Teeth and Frills. \nReskin of Giant Crocodile, Monster Manual (2014), printed p. 324.",
+      "Traits": "Hold Breath. A Sailback can go 30 minutes without taking a breath.",
+      "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +8 to hit against one target within 5 ft. On a hit, deal 21 (3d10 + 5) piercing damage and grapple the target (escape DC 16). The target remains restrained while grappled this way, and the Sailback can bite only that target until the grapple ends.\nTail. Melee weapon attack, +8 to hit against one target within 10 ft. that the Sailback isn't currently grappling. On a hit, deal 14 (2d8 + 5) bludgeoning damage. A creature hit must pass a DC 16 Strength save to stay standing.",
+      "At the table": "Resolve the bite grapple on the hit. A grappled target can use its action to attempt the DC 16 escape check. After the bite secures one creature, the tail needs another eligible target."
+    }
+  },
+  {
+    "name": "Swarm of Piranhas",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 13,
+    "hp": 28,
+    "hitDice": "8d8 − 8",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft., passive Perception 8. No listed skills or languages. Resists bludgeoning, piercing, and slashing damage. Immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned conditions.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A churning school of small, broad-bodied river fish with silver-grey backs, muted red undersides, forked tails, and short jaws full of sharp teeth.",
+    "habitats": [
+      "Great River",
+      "Great River tributaries",
+      "Freshwater",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 40, Life of the Waters. \nReskin of Swarm of Quippers, Monster Manual (2014), printed p. 338. The pre-Ixalan Monster Manual errata v1.1 adds grappled immunity to every swarm.",
+      "Traits": "Blood Frenzy. Roll melee attacks with advantage against creatures below their hit point maximum.\nSwarm. The swarm can share spaces with other creatures in either direction and squeeze through any gap a Tiny piranha can pass. It cannot regain hit points or gain temporary hit points.\nWater Breathing. The swarm breathes only underwater.",
+      "Actions": "Bites. Melee weapon attack, +5 to hit against one creature sharing the swarm's space, reach 0 ft. Deal 14 (4d6) piercing damage on a hit. At half its hit points or below, the attack deals 7 (2d6) piercing damage instead.",
+      "At the table": "At the default maximum of 28 HP, switch to 2d6 damage at 14 HP or less. Track Blood Frenzy from the target's HP, separately from the swarm's own damage threshold."
+    }
+  },
+  {
+    "name": "Trilobite",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +2. Blindsight 30 ft., passive Perception 9. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "An oval, low-bodied trilobite with a broad head shield, a three-lobed segmented shell, small compound eyes, and two curved rust-colored feelers.",
+    "habitats": [
+      "Ixalan beaches",
+      "Riverbanks",
+      "Shallow water"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 40, Life of the Waters. \nReskin of Crab, Monster Manual (2014), printed p. 320.",
+      "Traits": "Amphibious. Breathes both air and water.",
+      "Actions": "Claw. Melee weapon attack, +0 to hit against one target within 5 ft. A hit deals 1 bludgeoning damage.",
+      "At the table": "Claw is the inherited attack label for the ordinary, Tiny trilobite. Use the fixed damage shown."
+    }
+  },
+  {
+    "name": "Trilobite (Giant)",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 15,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +4. Blindsight 30 ft., passive Perception 9. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A giant trilobite with a broad head shield, a three-lobed segmented shell, small compound eyes, and two curved rust-colored feelers.",
+    "habitats": [
+      "Ixalan beaches",
+      "Riverbanks",
+      "Shallow water"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 40, Life of the Waters. \nReskin of Giant Crab, Monster Manual (2014), printed p. 324.",
+      "Traits": "Amphibious. Breathes both air and water.",
+      "Actions": "Claw. Melee weapon attack, +3 to hit against one target within 5 ft. A hit deals 4 (1d6 + 1) bludgeoning damage and grapples the target (escape DC 11). The base block gives the giant form two grasping appendages. Each can hold one target at a time.",
+      "At the table": "The inherited Claw has an automatic grapple on a hit. A held creature can use its action to attempt the DC 11 escape check. Track each appendage's grapple separately."
+    }
+  },
+  {
+    "name": "Tyrant",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 136,
+    "hitDice": "13d12 + 52",
+    "speed": "50 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 9,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +4. Passive Perception 14. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "An enormous bipedal predator with a massive head, blade-like teeth, tiny forelimbs, heavy hind legs, and a long tail. The illustrated form has muted red-ochre neck feathers over grey-green scales.",
+    "habitats": [
+      "Ixalan jungles",
+      "Forested valleys"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 31, Dinosaur Tyrants. \nReskin of Tyrannosaurus Rex, Monster Manual (2014), printed p. 80.",
+      "Actions": "Multiattack. Make one Bite attack and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit against one target within 10 ft. On a hit, deal 33 (4d12 + 7) piercing damage. A Medium or smaller creature hit is grappled (escape DC 17) and stays restrained while held. The Tyrant can bite only that creature until the grapple ends.\nTail. Melee weapon attack, +10 to hit against one target within 10 ft. On a hit, deal 20 (3d8 + 7) bludgeoning damage.",
+      "At the table": "With only one eligible target in reach, use one attack. The Tyrant's bite grapples only Medium or smaller creatures. A held creature can spend its action to attempt the DC 17 escape check. The roaring described in Ixalan is flavor."
+    }
+  }
+]

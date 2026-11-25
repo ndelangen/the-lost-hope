@@ -1,0 +1,282 @@
+{
+  "builds": [
+    {
+      "id": "mr1-elk-copper-tine",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Milepost scout, Barbarian 2",
+      "difficulty": "Barbarian 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "50 ft.",
+      "ac": 13,
+      "hp": 21,
+      "hitDice": "2d12+2",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Elvish.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +3. Unarmored Defense gives AC 13 from 10 + 2 Dexterity + 1 Constitution. HP is 13 + 8.",
+        "Outlander grants Athletics, Survival, Elvish, and Wanderer. Barbarian grants Animal Handling and Perception. Copper Tine carries no gear.",
+        "Danger Sense grants advantage on Dexterity saves against visible effects while Copper Tine is neither blinded, deafened, nor incapacitated.",
+        "Reckless Attack. Decide on the first attack of the turn. Gain advantage on Strength-based melee weapon attack rolls for the turn. Attacks against Copper Tine have advantage until the next turn begins."
+      ],
+      "actions": [
+        "Hooves or Ram. Strength-based unarmed strike +5, reach 5 ft., 1d8+3 bludgeoning or 1d8+5 during Rage.",
+        "Charge. Once per turn, a qualifying Strength melee hit after moving 15 ft. toward the target adds 1d6 bludgeoning to the ram or hoof attack.",
+        "Knockdown. After moving 15 ft. straight toward a creature and hitting it unarmed on the same turn, use a bonus action to try a prone shove. The creature must be Large or smaller and within reach. Copper Tine rolls Athletics +5, with advantage during Rage, against the target's Athletics or Acrobatics. The shove succeeds automatically against an incapacitated target.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. While raging, Copper Tine has advantage on Strength checks and saves, resists bludgeoning, piercing, and slashing, and adds 2 damage to Strength-based melee weapon hits. No spellcasting or concentration. It ends if Copper Tine falls unconscious or ends a turn having neither attacked a hostile creature since the last turn nor taken damage since then. Can end it with a bonus action."
+      ],
+      "tactics": "Copper Tine tries to clear a lane with a charge and saves the shove for a turn when the bonus action is free."
+    },
+    {
+      "id": "mr1-giant-badger-lint-digger",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Burrow keeper, Barbarian 1",
+      "difficulty": "Barbarian 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft., burrow 10 ft.",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "senses": "Darkvision 30 ft., passive Perception 13, or 18 for smell.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Medicine +3",
+        "Perception +3",
+        "Religion +1"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Unarmored Defense gives AC 14 from 10 + 2 Dexterity + 2 Constitution.",
+        "Hermit grants Medicine, Religion, Dwarvish, herbalism kit proficiency, and Discovery. Barbarian grants Athletics and Perception. Lint carries no gear and uses no herbalism tools in encounters.",
+        "Keen Smell gives advantage on Perception checks that depend on smell. Lint burrows through suitable ground."
+      ],
+      "actions": [
+        "Bite or Claw. Strength-based unarmed strike +5, reach 5 ft. Bite deals 1d8+3 piercing. Claw deals 1d8+3 slashing. Rage raises either damage roll to 1d8+5.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. Lint has advantage on Strength checks and saves, resists bludgeoning, piercing, and slashing, and adds 2 to Strength-based melee weapon attack damage. No spellcasting or concentration. Rage ends if Lint falls unconscious or ends a turn with no attack against a hostile creature or damage taken since the last turn. Lint can end it with a bonus action."
+      ],
+      "tactics": "Lint keeps the weakest wall at his back so he can burrow through it if anyone enters the nursery tunnel."
+    },
+    {
+      "id": "mr1-giant-bat-rafter-click",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Loft messenger, Rogue 2",
+      "difficulty": "Rogue 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "10 ft., fly 40 ft.",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "senses": "Blindsight 60 ft. while not deafened. Passive Perception 16, or 21 for hearing with advantage.",
+      "languages": "Common and Thieves' Cant.",
+      "abilityScores": {
+        "STR": 9,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +6",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. Unarmored AC 10 + 3 Dexterity. HP is 9 + 6. Wears no armor.",
+        "Urchin grants Sleight of Hand, Stealth, disguise kit and thieves' tools proficiency, and City Secrets. City Secrets doubles out-of-combat movement pace through a city's passages for Rafter Click and companions led by her. Rogue grants Acrobatics, Insight, Investigation, and Perception. Expertise doubles the proficiency bonus for Perception and Stealth.",
+        "The wing anatomy prevents use of tools, weapons, or shields. Keen Hearing gives advantage on hearing-based Perception checks. The echolocation range is unavailable when deafened."
+      ],
+      "actions": [
+        "Bite. Dexterity-based unarmed strike +5, reach 5 ft., 1d8+3 piercing. The player trait makes this bite qualify for finesse effects.",
+        "Sneak Attack. Add 1d6 piercing once per turn on a bite made with advantage, or if another enemy of the target is within 5 ft. of it, is not incapacitated, and the bite has no disadvantage.",
+        "Cunning Action. Take Dash, Disengage, or Hide as a bonus action on each turn."
+      ],
+      "tactics": "Rafter Click hides behind a beam and changes levels each time she moves. If she starts the turn in reach, she uses Cunning Action to clear it before flying."
+    },
+    {
+      "id": "mr1-giant-crab-notch-shell",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Weir inspector, Monk 1",
+      "difficulty": "Monk 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 16,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "senses": "Blindsight 30 ft., passive Perception 14.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Insight +4",
+        "Perception +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +1 and Dexterity save +5. Shell AC 13 + 3 Dexterity. Monk Unarmored Defense would give AC 15 and is an alternative formula. Notch wears no armor and uses neither weapons nor shields.",
+        "Sailor grants Athletics, Perception, navigator's tools and water vehicle proficiency, and Ship's Passage. Monk grants Acrobatics and Insight. Notch can help as a lookout, and needs a crewmate to handle tools.",
+        "The Giant Crab senses with blindsight out to 30 ft. and breathes under water or on land."
+      ],
+      "actions": [
+        "Claw. Dexterity-based unarmed strike +5, reach 5 ft., 1d6+3 piercing. The player claw has no automatic grapple.",
+        "Martial Arts. After the Attack action with a claw, Notch can kick as a bonus action at +5 to hit, reach 5 ft., for 1d4+3 bludgeoning. Kamstra's p. 7 uses the monk die and conventional bludgeoning for this bonus strike."
+      ],
+      "tactics": "Notch waits on a piling below the waterline. If trouble comes, she circles to the deeper side and keeps the dry way out clear."
+    },
+    {
+      "id": "mr1-giant-goat-fennel-cragstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Ridge healer, Druid 1",
+      "difficulty": "Druid 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "40 ft.",
+      "ac": 12,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 1,
+      "senses": "Passive Perception 15.",
+      "languages": "Common and Druidic.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +5",
+        "Nature +2",
+        "Perception +5",
+        "Survival +5"
+      ],
+      "traits": [
+        "Proficiency +2. Intelligence save +2 and Wisdom save +5. Natural Armor gives AC 11 + 1 Dexterity. Speaks Common and knows the Druidic language.",
+        "Folk Hero grants Animal Handling, Survival, land vehicle and woodcarver's tools proficiency, and Rustic Hospitality. Druid adds Nature and Perception. Fennel carries no tools.",
+        "Sure-Footed gives advantage on Strength and Dexterity saving throws against effects that would knock Fennel prone.",
+        "Spellcasting. Wisdom gives +5 to hit and DC 13. Two 1st-level slots per long rest. Knows Guidance and Druidcraft. Prepares Cure Wounds, Faerie Fire, Healing Word, and Thunderwave. Vocal and form-appropriate somatic components are available under supplement p. 8. These spells require no materials."
+      ],
+      "actions": [
+        "Ram. Strength-based unarmed strike +5, reach 5 ft., 1d8+3 bludgeoning. Once per turn, add 1d6 bludgeoning to the hit after moving at least 15 ft. toward the target.",
+        "Druidcraft. Action, 30 ft. Predict the next 24 hours of local weather with a sign lasting one round, open a bud or seed pod, make a harmless momentary sensation in a 5-ft. cube, or light or put out a candle, torch, or small campfire.",
+        "Guidance. Action, touch. A willing creature can add 1d4 to one ability check of its choice before the spell ends. Concentration up to 1 minute. Applying the die ends the spell.",
+        "Cure Wounds. Action, touch. A creature other than an undead or construct regains 1d8+3 HP. Healing Word. Bonus action, 60 ft. A visible creature other than an undead or construct regains 1d4+3 HP.",
+        "Faerie Fire. Action, 60 ft., 20-ft. cube, concentration up to 1 minute. Objects and any creatures that fail a DC 13 Dexterity save are outlined and shed dim light 10 ft. Attacks have advantage if the attacker can see the target, and outlined targets gain no benefit from invisibility.",
+        "Thunderwave. Action, 15-ft. cube from Fennel. Creatures make a DC 13 Constitution save. Failure deals 2d8 thunder and pushes the creature 10 ft. away. Success halves damage and prevents the push. Unsecured objects entirely in the area are pushed 10 ft. away, and the boom is audible to 300 ft."
+      ],
+      "tactics": "Fennel uses Faerie Fire if a quarry breaks from the path in the dark. She keeps a spell slot for Healing Word and uses her horns to hold narrow footing."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Copper Tine",
+      "species": "Elk",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-elk-copper-tine",
+      "size": "Medium",
+      "role": "Checks the mileposts during the spring thaw.",
+      "motive": "Find who keeps moving the marker that points travelers toward solid ground.",
+      "hook": "At dawn, a trail of fresh cart ruts begins on the wrong side of an unbroken fence."
+    },
+    {
+      "name": "Lint Digger",
+      "species": "Giant Badger",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-badger-lint-digger",
+      "size": "Medium",
+      "role": "Keeps abandoned groundhog burrows dry for the animals that still use them.",
+      "motive": "Trace the warm draft that has made the deepest chambers unsafe.",
+      "hook": "Lint smells lamp smoke under a hill that has no entrance on his side."
+    },
+    {
+      "name": "Rafter Click",
+      "species": "Giant Bat",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-bat-rafter-click",
+      "size": "Medium",
+      "role": "Repeats messages she hears from one loft to another.",
+      "motive": "Work out why a certain set of names has been called every dawn for a month.",
+      "hook": "Rafter Click knows which voice said the party's names, even though every door below her was locked."
+    },
+    {
+      "name": "Notch Shell",
+      "species": "Giant Crab",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-crab-notch-shell",
+      "size": "Medium",
+      "role": "Checks wooden weir braces before the fishing boats come in.",
+      "motive": "Find who is sawing the smallest braces underwater.",
+      "hook": "Notch found a cut that disappears from the wood every time the tide goes out."
+    },
+    {
+      "name": "Fennel Cragstep",
+      "species": "Giant Goat",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-goat-fennel-cragstep",
+      "size": "Medium",
+      "role": "Checks cairns and tends injured drovers on the ridge paths.",
+      "motive": "Learn what spooked a flock onto a narrow ledge where she cannot turn them.",
+      "hook": "One lamb came back dry and warm after a night of freezing rain."
+    }
+  ]
+}

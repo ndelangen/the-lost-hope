@@ -1,0 +1,29 @@
+{
+  "entryId": "monster-dcabfb897623d88433ae1907",
+  "versionKey": "cd5f5204ed9bba85fac35c25",
+  "artHash": "761e3355a1f90c95381ddf67adf25b43e1620e567865c7d71b5f0da0acc7c208",
+  "art": {
+    "url": "",
+    "credit": "D&D Beyond publisher art · Flee, Mortals!"
+  },
+  "stats": {
+    "Armor class": "15",
+    "Hit points": "84",
+    "Hit dice": "8d12 + 32",
+    "Challenge": "4",
+    "Type": "Plant",
+    "Speed": "15 ft.",
+    "XP": "1100",
+    "Str": "20",
+    "Dex": "8",
+    "Con": "18",
+    "Int": "10",
+    "Wis": "14",
+    "Cha": "16"
+  },
+  "linkedTerms": [
+    "Prone",
+    "Petrified",
+    "Lesser Restoration"
+  ]
+}

@@ -1,0 +1,321 @@
+[
+  {
+    "name": "Giant Crab",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 15,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +4. Blindsight 30 ft. Passive Perception 9. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-shelled crab with a mottled rust and slate carapace, compact stalked eyes, long jointed walking legs and two heavy pincers.",
+    "habitats": [
+      "Coastal shallows",
+      "Tide pools",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 131. ",
+      "Traits": "Amphibious. The crab can breathe in air or water.",
+      "Actions": "Claw. Melee weapon attack, +3 to hit with 5-ft. reach against one target. A hit deals 4 (1d6 + 1) bludgeoning damage and grapples the target. The escape DC is 11. Each of the crab’s two claws can grapple one target."
+    }
+  },
+  {
+    "name": "Giant Crab",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 15,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +4. Blindsight 30 ft. Passive Perception 9. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-shelled crab with a mottled rust and slate carapace, compact stalked eyes, long jointed walking legs and two heavy pincers.",
+    "habitats": [
+      "Coastal shallows",
+      "Tide pools",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 324. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Traits": "Amphibious. The crab can breathe in air or water.",
+      "Actions": "Claw. Melee weapon attack, +3 to hit with 5-ft. reach against one target. A hit deals 4 (1d6 + 1) bludgeoning damage and grapples the target. The escape DC is 11. Each of the crab’s two claws can grapple one target."
+    }
+  },
+  {
+    "name": "Giant Crocodile",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 14,
+    "hp": 85,
+    "hitDice": "9d12 + 27",
+    "speed": "30 ft., swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +5. Passive Perception 10. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A huge dark olive-brown crocodile with a wide toothed muzzle, a thick scuted back, stocky clawed feet and a long tapered tail.",
+    "habitats": [
+      "Rivers",
+      "Marshes",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 132. ",
+      "Traits": "Hold Breath. The crocodile can hold its breath for 30 minutes.",
+      "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +8 to hit with 5-ft. reach against one target. A hit deals 21 (3d10 + 5) piercing damage and grapples the target, with escape DC 16. Until the grapple ends, the target is restrained and the crocodile cannot Bite another target.\nTail. Melee weapon attack, +8 to hit with 10-ft. reach against one target the crocodile is not grappling. A hit deals 14 (2d8 + 5) bludgeoning damage. A creature hit this way must pass a DC 16 Strength save or fall prone."
+    }
+  },
+  {
+    "name": "Giant Crocodile",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 14,
+    "hp": 85,
+    "hitDice": "9d12 + 27",
+    "speed": "30 ft., swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +5. Passive Perception 10. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A huge dark olive-brown crocodile with a wide toothed muzzle, a thick scuted back, stocky clawed feet and a long tapered tail.",
+    "habitats": [
+      "Rivers",
+      "Marshes",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 324. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Traits": "Hold Breath. The crocodile can hold its breath for 30 minutes.",
+      "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +8 to hit with 5-ft. reach against one target. A hit deals 21 (3d10 + 5) piercing damage and grapples the target, with escape DC 16. Until the grapple ends, the target is restrained and the crocodile cannot Bite another target.\nTail. Melee weapon attack, +8 to hit with 10-ft. reach against one target the crocodile is not grappling. A hit deals 14 (2d8 + 5) bludgeoning damage. A creature hit this way must pass a DC 16 Strength save or fall prone."
+    }
+  },
+  {
+    "name": "Giant Eagle",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral good",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. Speaks Giant Eagle. Understands Common and Auran without speaking them. No listed special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A golden-brown raptor with tawny neck feathers, a hooked beak, broad dark wings and powerful talons.",
+    "habitats": [
+      "Mountains",
+      "Cliffs",
+      "Open skies"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 132. ",
+      "Traits": "Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
+      "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 10 (2d6 + 3) slashing damage."
+    }
+  },
+  {
+    "name": "Giant Eagle",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral good",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. Speaks Giant Eagle. Understands Common and Auran without speaking them. No listed special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A golden-brown raptor with tawny neck feathers, a hooked beak, broad dark wings and powerful talons.",
+    "habitats": [
+      "Mountains",
+      "Cliffs",
+      "Open skies"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 324. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Traits": "Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
+      "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 10 (2d6 + 3) slashing damage.",
+      "Nesting": "A mated pair typically has up to four eggs or young. Use the ordinary Eagle statistics for its young."
+    }
+  }
+]

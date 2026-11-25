@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-02766f3002eaa501317fc1ac",
+    "version": "d65baf9378adc782d6978cd4",
+    "name": "Crocodile",
+    "file": "images/adnd2e-monstrous-manual-crocodiles/crocodile.png",
+    "sha256": "19b6d852094ab83c8a47eb50bb4a30717cecb83aecd3ceaa8e558d96a34cceba",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-6343e55b7b181a3b56ac2eed",
+    "version": "d0ecf54bac9d8674da2b9e96",
+    "name": "Giant Crocodile",
+    "file": "images/adnd2e-monstrous-manual-crocodiles/giant-crocodile.png",
+    "sha256": "e1694e63e4380a8a5cc04f35fd33daa4c4859269fe110b9527d385b669e1fe8c",
+    "credit": "OpenAI ImageGen"
+  }
+]

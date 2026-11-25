@@ -1,0 +1,22 @@
+{
+  "baseline": "7b5ba6ab404b3875dcb3f4b669af4984301f69b4",
+  "temporaryCopy": true,
+  "exactProfiles": 3,
+  "printedCombatProfilesVerified": 3,
+  "searchableByNameRuleAppearanceHabitat": 3,
+  "globalSearchResults": 3,
+  "newBaseCatalogEntries": [
+    "Lamprey",
+    "Giant Lamprey",
+    "Land Lamprey"
+  ],
+  "compatibleWithPreviouslyStagedMonstrousManualPatches": true,
+  "drainBasisDocumented": true,
+  "seaOnlyFirePenaltyDocumented": true,
+  "seaAndCommonSummoningEntriesAndLandSummoningVerified": true,
+  "landTableProseDiscrepancyPreserved": true,
+  "versionPortraitsVerified": 3,
+  "newPortraitDrafts": 3,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

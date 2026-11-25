@@ -1,0 +1,42 @@
+{
+  "Deep Scion": {
+    "sha256": "fa6b97a700f2f2dab5eccd4398b8414a92ce9dbc9866de2a0a7a0d6b6767d2b9",
+    "source": "Deep Scion"
+  },
+  "Duergar Hammerer": {
+    "sha256": "d492f85005531deae9f898f49fcea45300ddc100c90dcbfb10ed7f5bf1cd0cce",
+    "source": "Duergar Hammerer"
+  },
+  "Duergar Mind Master": {
+    "sha256": "c4219fb0483f24e8f7bfd5f7248c1974a7ca44a60ac39ec97b0c19912c482414",
+    "source": "Duergar Mind Master"
+  },
+  "Firenewt Warlock of Imix": {
+    "sha256": "9bc1d42aeefa2eb3fdf2ede56b91f73d27d04152ce869e9ac0637ccf13fdec11",
+    "source": "Firenewt Warlock of Imix"
+  },
+  "Firenewt Warrior": {
+    "sha256": "f58a84c7f9b7f5afcc838f9155b30e93ce0763b1c948c1920b464e76adf750a9",
+    "source": "Firenewt Warrior"
+  },
+  "Gazer": {
+    "sha256": "95b0790c146c351e1571019a0029012305e442b80f89793a79c7cd1913b0f9c3",
+    "source": "Gazer"
+  },
+  "Giant Strider": {
+    "sha256": "8bf0e36f7326695b2c786aa4427f19e7b672beb111e96495b0b3fe19dbea77ee",
+    "source": "Giant Strider"
+  },
+  "Giff": {
+    "sha256": "29e1c529789cf86b3e611d4458bb9163b6ee2d25adcdaad4ee66d4c7d7212b29",
+    "source": "Giff"
+  },
+  "Girallon": {
+    "sha256": "a57da4d1e0be7b72d0d4be86cfeca25e2d41c4bd829f998c3659ff18967c5818",
+    "source": "Girallon"
+  },
+  "Derro": {
+    "sha256": "d12dd60d4f67b7e0721712b95e187868b46f22ae4bfe10f231417db12c6fa149",
+    "source": "Derro (archived generated portrait)"
+  }
+}

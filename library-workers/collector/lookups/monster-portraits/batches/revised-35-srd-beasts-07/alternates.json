@@ -1,0 +1,92 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Light Warhorse",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/light-warhorse/warhorse-2024.webp",
+    "artist": "Related Warhorse illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "d0c9f9badc00637658479611d00a9a0c6853b8c0c5adf5445eaf7d1fa6cb0294",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Warhorse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Light Warhorse",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/light-warhorse/riding-horse-2024.webp",
+    "artist": "Related Riding Horse illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b2b1ae155641ee362c9625a4626621d4a2eac3535552a548afb4982f8319440f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Riding%20Horse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Medium Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/medium-shark/reef-shark-2024.webp",
+    "artist": "Related Reef Shark illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "0d7d893c16ffee910149314882b7d881ba2602ca19c7cc76f0fc604e96a5aa3a",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Reef%20Shark.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Medium Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/medium-shark/reef-shark-2014.webp",
+    "artist": "Related Reef Shark token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "46eb3f3a7cbe147fffc9856bbd94fc1d11c8ac8c48f3eb5f7b938de4fa782132",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Reef%20Shark.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Medium Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/medium-viper-snake/poisonous-snake-2014.webp",
+    "artist": "Related Poisonous Snake token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "f1ff5ecffcbdd53e7bd5e5b353adc21854f3d20f65cf3b5e63709123ec48c9c8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Poisonous%20Snake.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Medium Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/medium-viper-snake/swarm-of-venomous-snakes-2024.webp",
+    "artist": "Related Swarm of Venomous Snakes illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce2f60ddfaf2569addce62306e3a98b952278d3ae78198ca5661c518d3ae65a9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Venomous%20Snakes.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Manta Ray",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/manta-ray/manta-alexander-vasenin.jpg",
+    "artist": "Reef manta photograph by Alexander Vasenin · CC BY-SA 3.0",
+    "kind": "photograph",
+    "sha256": "d0c9d6cfae22b991a3f457aab7b9e05d56e94b7b6410e99d35bd8f3ff5b2a9c4",
+    "reference": "https://commons.wikimedia.org/wiki/File:Reef_manta_at_Manta_Alley.JPG",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Manta Ray",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/manta-ray/manta-elias-levy.jpg",
+    "artist": "Reef manta photograph by Elias Levy · CC BY 2.0",
+    "kind": "photograph",
+    "sha256": "a7d930a37991525a82769170ec7ca07e48dccf19dff94f2eea5b5cd38246cd8e",
+    "reference": "https://commons.wikimedia.org/wiki/File:Reef_Manta_Ray_(14463935971).jpg",
+    "license": "https://creativecommons.org/licenses/by/2.0/"
+  }
+]

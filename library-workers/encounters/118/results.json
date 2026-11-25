@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Uldra",
+    "species": "species-d736dce46017b4e060f0985f",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Frostburn (2004)"
+    ],
+    "portraitSha256": "9dbde2dbc434c2fb47f671bc6e2b47503176758b30f0e51e29b07b62917525eb",
+    "caption": "Rimewillow · Original Uldra NPC",
+    "npcReceipts": [
+      {
+        "name": "Rimewillow",
+        "id": "npc-b410446dfffa7420ee9efe66",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      },
+      {
+        "name": "Stillrime",
+        "id": "npc-b0bb4e9b8d68ac318c255854",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      }
+    ]
+  }
+]

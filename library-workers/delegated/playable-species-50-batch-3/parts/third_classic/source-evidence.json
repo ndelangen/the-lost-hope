@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Kenku",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Kenku)",
+    "url": "https://anyflip.com/myubd/asxg/basic/51-100",
+    "printedPages": [
+      86,
+      87
+    ],
+    "editionNote": "2004 D&D 3.5 printing. Printed pp. 86 and 87 are viewer pages 86 and 87 in the linked scan.",
+    "heading": "Kenkus as Characters",
+    "primaryBookScan": "",
+    "supportingSources": {
+      "rogueAndCombat": ""
+    },
+    "distinction": "Uses the Great Ally, Bluff-based mimicry and natural claws of the 3.5 player entry. The associated sample warrior and sample rogue are separate encounters."
+  },
+  {
+    "name": "Nycter",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous Humanoid",
+    "url": "",
+    "printedPages": [
+      112,
+      113
+    ],
+    "editionNote": "2004 D&D 3.5 printing. Printed p. 113, viewer page 113, contains the complete player trait list. P. 112 supplies appearance.",
+    "heading": "Nycters as Characters",
+    "supportingSources": {
+      "fighterSkillsFeatsAndCombat": ""
+    },
+    "distinction": "The player paragraph does not grant the sample monster’s bite, hunting cry, natural armor, sonic vulnerability, or conditional Listen and Spot bonuses. This profile uses the features enumerated for player nycters."
+  },
+  {
+    "name": "Synad",
+    "publication": "Complete Psionic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Aberration (Psionic)",
+    "url": "",
+    "printedPages": [
+      139,
+      140,
+      141
+    ],
+    "editionNote": "Printed 2006 version. P. 139 describes appearance, p. 140 starts the player traits, and p. 141 finishes Multitask and lists languages and favored class. Viewer numbers agree with print.",
+    "heading": "Synad Racial Traits",
+    "supportingSources": {
+      "psionFeatsAndPowers": ""
+    },
+    "distinction": "Reserved power points support the normal one-headed appearance. The two transient, featureless heads described in dim light only appear after the entire power point reserve is exhausted."
+  },
+  {
+    "name": "Tortle",
+    "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "https://www.pandius.com/sc_pcs.html",
+    "printedPages": [],
+    "editionNote": "1996 original TSR RTF, which uses headings and table numbers. The later Pandius reflow retains the player text. Its displayed printed page numbers run one lower than the viewer page numbers.",
+    "heading": "Player Characters, Tortles",
+    "originalMember": "tsr2521b.rtf",
+    "sourceLocators": [
+      "New Character Races: Tortles",
+      "Tables 11.1–11.7 and 11.11",
+      "Determining Armor Class",
+      "Proficiencies: Natural Attack Forms and Natural Weapons"
+    ],
+    "reflowedPdfUrl": "",
+    "reflowedPrintedPages": [
+      6,
+      8,
+      9,
+      12,
+      13,
+      94
+    ],
+    "reflowedPdfPages": [
+      7,
+      9,
+      10,
+      13,
+      14,
+      95
+    ],
+    "supportingSources": {
+      "movementOnly": "https://pandius.com/tortle.html",
+      "classRules": ""
+    },
+    "distinction": "Uses the land-dwelling Savage Coast player package. Player text gives no numeric base move or swim rate. The sample NPC borrows 6 and Sw 3 from the matching appendix entry. Table 11.11 marks bite as slashing, Chapter 14 prose calls it piercing. The sample NPC uses staff and claws."
+  }
+]

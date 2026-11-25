@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Giant Centipede",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Centipede",
+    "printedColumn": "Giant",
+    "printedPages": [
+      42
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 42,
+        "viewerPage": 45,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/4a5f464d431b7c7386874e8943b4bd69.webp",
+        "sha256": "a49aaeb540021a5f6e8d6378ba79ab32c0e33a68bd74816eb1895ea60383cbc6"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "2–24",
+    "publishedArtwork": {
+      "printedPage": 42,
+      "depictedForm": "Giant Centipede",
+      "artist": "Tony DiTerlizzi",
+      "artistChecklist": "",
+      "artistRetrospective": "https://diterlizzi.com/behind-the-monstrous-manual-part-9/"
+    },
+    "entryId": "beast-fa94ec7c1493e83258752fbc",
+    "versionKey": "6fa377c078a4b5b19e9791cb",
+    "slug": "giant-centipede",
+    "query": "giant centipede paralytic ambush 2d6",
+    "appearanceQuery": "giant centipede red brown backplates",
+    "habitatQuery": "giant centipede forest rocky underground",
+    "portraitSelection": "generated",
+    "printedHitDiceField": "2 hp",
+    "victimPoisonSaveBonus": 4,
+    "paralysisDuration": "2d6 hours",
+    "ownSavePenalty": -1,
+    "printedTableLength": "1 ft.",
+    "proseLength": "Over 1 ft.",
+    "portraitEvidence": "Red-brown is within the printed forest range. The shallow curve is an illustration choice."
+  },
+  {
+    "name": "Huge Centipede",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Centipede",
+    "printedColumn": "Huge",
+    "printedPages": [
+      42
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 42,
+        "viewerPage": 45,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/4a5f464d431b7c7386874e8943b4bd69.webp",
+        "sha256": "a49aaeb540021a5f6e8d6378ba79ab32c0e33a68bd74816eb1895ea60383cbc6"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "5–30",
+    "publishedArtwork": {
+      "printedPage": 42,
+      "depictedForm": "Giant Centipede",
+      "artist": "Tony DiTerlizzi",
+      "artistChecklist": "",
+      "artistRetrospective": "https://diterlizzi.com/behind-the-monstrous-manual-part-9/"
+    },
+    "entryId": "beast-37485e75fd9f201a926953fb",
+    "versionKey": "6d55031fa5eabac5eba54b7d",
+    "slug": "huge-centipede",
+    "query": "huge centipede immobilized 1d6",
+    "appearanceQuery": "huge centipede rocky gray segments",
+    "habitatQuery": "huge centipede rocky areas underground",
+    "portraitSelection": "generated",
+    "printedHitDiceField": "1 hp",
+    "victimPoisonSaveBonusDerivedFromGiant": 4,
+    "paralysisDuration": "1d6 hours",
+    "ownSavePenalty": -2,
+    "portraitEvidence": "Rocky gray follows the base description inherited by Huge. The tight curve is an illustration choice."
+  },
+  {
+    "name": "Megalo-centipede",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Centipede",
+    "printedColumn": "Megalo-",
+    "printedPages": [
+      42
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 42,
+        "viewerPage": 45,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/4a5f464d431b7c7386874e8943b4bd69.webp",
+        "sha256": "a49aaeb540021a5f6e8d6378ba79ab32c0e33a68bd74816eb1895ea60383cbc6"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–4",
+    "publishedArtwork": {
+      "printedPage": 42,
+      "depictedForm": "Giant Centipede",
+      "artist": "Tony DiTerlizzi",
+      "artistChecklist": "",
+      "artistRetrospective": "https://diterlizzi.com/behind-the-monstrous-manual-part-9/"
+    },
+    "entryId": "beast-a8ce415937f6a4a69a87412c",
+    "versionKey": "064e95a254ce5b93b0ee6434",
+    "slug": "megalo-centipede",
+    "query": "megalo-centipede acid death 2d4",
+    "appearanceQuery": "megalo-centipede long segmented armor",
+    "habitatQuery": "megalo-centipede wilderness subterranean deer",
+    "portraitSelection": "generated",
+    "printedBiteDamage": "1–3",
+    "successfulSaveAcidDamage": "2d4",
+    "ownSavePenalty": 0,
+    "portraitEvidence": "The size comes from the table. Russet color, heavier armor, and the tight turning pose are illustration choices."
+  },
+  {
+    "name": "Tunnel Worm",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Centipede",
+    "printedColumn": "Tunnel",
+    "printedPages": [
+      42
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 42,
+        "viewerPage": 45,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/4a5f464d431b7c7386874e8943b4bd69.webp",
+        "sha256": "a49aaeb540021a5f6e8d6378ba79ab32c0e33a68bd74816eb1895ea60383cbc6"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–6",
+    "publishedArtwork": {
+      "printedPage": 42,
+      "depictedForm": "Giant Centipede",
+      "artist": "Tony DiTerlizzi",
+      "artistChecklist": "",
+      "artistRetrospective": "https://diterlizzi.com/behind-the-monstrous-manual-part-9/"
+    },
+    "entryId": "beast-d21f2d17767abcdeaecf6581",
+    "versionKey": "130273145d14d4563b4aaae3",
+    "slug": "tunnel-worm",
+    "query": "tunnel worm lunge armor 2d8",
+    "appearanceQuery": "tunnel worm mandibles segmented body",
+    "habitatQuery": "tunnel worm subterranean hidden burrow",
+    "portraitSelection": "generated",
+    "printedAttackDamage": "2–8",
+    "proseDamageAfterArmor": "2d8 per round",
+    "catalogTypeReason": "The text presents this nonmagical burrower as a centipede relative.",
+    "portraitEvidence": "The size, kinship, and mandibles come from the text. The slate color, heavy segmentation, and leg proportions are illustration choices."
+  }
+]

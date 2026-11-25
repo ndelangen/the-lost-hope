@@ -1,0 +1,356 @@
+[
+  {
+    "name": "Grung Wildling",
+    "statBlock": {
+      "name": "Grung Wildling",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d6 + 10",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 4
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or otherwise touches its skin must make a DC 12 Constitution save. On a failure, it is poisoned for 1 minute. If direct contact has ended, it can repeat the save at the end of each of its turns, ending the effect on a success.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.",
+        "Spellcasting": "The grung casts as a 9th-level ranger using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nLevel 1 (4 slots). Cure Wounds, Jump.\nLevel 2 (3 slots). Barkskin, Spike Growth.\nLevel 3 (2 slots). Plant Growth.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nGrung poison loses its potency 1 minute after extraction. Its poison also loses potency 1 minute after it dies. A creature poisoned by this grung can suffer an additional effect based on the grung’s color. The effect lasts until this grung’s poison ends.\nGreen. The creature can move only by climbing or making standing jumps. While flying, it cannot take actions or reactions until it lands.\nBlue. The creature must make a loud noise at the start and end of each of its turns.\nPurple. The creature feels compelled to soak in liquid or mud. It can move or take actions only to reach liquid or mud or soak in it.\nRed. If food is within reach, the creature must use its action to eat.\nOrange. The creature is frightened of its allies.\nGold. The creature is charmed by the grung and can speak Grung.",
+        "Printed source": "Volo's Guide to Monsters, p. 157."
+      }
+    }
+  },
+  {
+    "name": "Grung Wildling (Blue)",
+    "statBlock": {
+      "name": "Grung Wildling (Blue)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d6 + 10",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 4
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or otherwise touches its skin must make a DC 12 Constitution save. On a failure, it is poisoned for 1 minute. If direct contact has ended, it can repeat the save at the end of each of its turns, ending the effect on a success.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.",
+        "Spellcasting": "The grung casts as a 9th-level ranger using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nLevel 1 (4 slots). Cure Wounds, Jump.\nLevel 2 (3 slots). Barkskin, Spike Growth.\nLevel 3 (2 slots). Plant Growth.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nGrung poison loses its potency 1 minute after extraction. Its poison also loses potency 1 minute after it dies. A creature poisoned by this grung can suffer an additional effect based on the grung’s color. The effect lasts until this grung’s poison ends.\nBlue. The creature must make a loud noise at the start and end of each of its turns.",
+        "Printed source": "Volo's Guide to Monsters, p. 157."
+      }
+    }
+  },
+  {
+    "name": "Grung Wildling (Gold)",
+    "statBlock": {
+      "name": "Grung Wildling (Gold)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d6 + 10",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 4
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or otherwise touches its skin must make a DC 12 Constitution save. On a failure, it is poisoned for 1 minute. If direct contact has ended, it can repeat the save at the end of each of its turns, ending the effect on a success.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.",
+        "Spellcasting": "The grung casts as a 9th-level ranger using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nLevel 1 (4 slots). Cure Wounds, Jump.\nLevel 2 (3 slots). Barkskin, Spike Growth.\nLevel 3 (2 slots). Plant Growth.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nGrung poison loses its potency 1 minute after extraction. Its poison also loses potency 1 minute after it dies. A creature poisoned by this grung can suffer an additional effect based on the grung’s color. The effect lasts until this grung’s poison ends.\nGold. The creature is charmed by the grung and can speak Grung.",
+        "Printed source": "Volo's Guide to Monsters, p. 157."
+      }
+    }
+  },
+  {
+    "name": "Grung Wildling (Green)",
+    "statBlock": {
+      "name": "Grung Wildling (Green)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d6 + 10",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 4
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or otherwise touches its skin must make a DC 12 Constitution save. On a failure, it is poisoned for 1 minute. If direct contact has ended, it can repeat the save at the end of each of its turns, ending the effect on a success.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.",
+        "Spellcasting": "The grung casts as a 9th-level ranger using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nLevel 1 (4 slots). Cure Wounds, Jump.\nLevel 2 (3 slots). Barkskin, Spike Growth.\nLevel 3 (2 slots). Plant Growth.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nGrung poison loses its potency 1 minute after extraction. Its poison also loses potency 1 minute after it dies. A creature poisoned by this grung can suffer an additional effect based on the grung’s color. The effect lasts until this grung’s poison ends.\nGreen. The creature can move only by climbing or making standing jumps. While flying, it cannot take actions or reactions until it lands.",
+        "Printed source": "Volo's Guide to Monsters, p. 157."
+      }
+    }
+  },
+  {
+    "name": "Grung Wildling (Orange)",
+    "statBlock": {
+      "name": "Grung Wildling (Orange)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d6 + 10",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 4
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or otherwise touches its skin must make a DC 12 Constitution save. On a failure, it is poisoned for 1 minute. If direct contact has ended, it can repeat the save at the end of each of its turns, ending the effect on a success.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.",
+        "Spellcasting": "The grung casts as a 9th-level ranger using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nLevel 1 (4 slots). Cure Wounds, Jump.\nLevel 2 (3 slots). Barkskin, Spike Growth.\nLevel 3 (2 slots). Plant Growth.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nGrung poison loses its potency 1 minute after extraction. Its poison also loses potency 1 minute after it dies. A creature poisoned by this grung can suffer an additional effect based on the grung’s color. The effect lasts until this grung’s poison ends.\nOrange. The creature is frightened of its allies.",
+        "Printed source": "Volo's Guide to Monsters, p. 157."
+      }
+    }
+  },
+  {
+    "name": "Grung Wildling (Purple)",
+    "statBlock": {
+      "name": "Grung Wildling (Purple)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d6 + 10",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 4
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or otherwise touches its skin must make a DC 12 Constitution save. On a failure, it is poisoned for 1 minute. If direct contact has ended, it can repeat the save at the end of each of its turns, ending the effect on a success.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.",
+        "Spellcasting": "The grung casts as a 9th-level ranger using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nLevel 1 (4 slots). Cure Wounds, Jump.\nLevel 2 (3 slots). Barkskin, Spike Growth.\nLevel 3 (2 slots). Plant Growth.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nGrung poison loses its potency 1 minute after extraction. Its poison also loses potency 1 minute after it dies. A creature poisoned by this grung can suffer an additional effect based on the grung’s color. The effect lasts until this grung’s poison ends.\nPurple. The creature feels compelled to soak in liquid or mud. It can move or take actions only to reach liquid or mud or soak in it.",
+        "Printed source": "Volo's Guide to Monsters, p. 157."
+      }
+    }
+  }
+]

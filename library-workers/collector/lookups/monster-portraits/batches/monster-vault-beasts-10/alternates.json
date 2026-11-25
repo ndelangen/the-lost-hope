@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Rat, Swarm of Rats",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/rat-swarm-of-rats/kobold-press-swarm-of-rats.webp",
+    "artist": "Swarm of Rats · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "a72bbfd1909e72595329d68e608a63fbea1f1882e6adc5fbfb705fe81ca7dab6",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/swarm-of-rats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Rat, Swarm of Rats",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/rat-swarm-of-rats/giant-rat-2024-rules-related.webp",
+    "artist": "Related Rat art by Katerina Ladon · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce5550d20cba5a0c0d7c0be1ec41c4d3f4e0c6e9e0646b9d77f92469abc191c9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Rats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Raven, Swarm of Ravens",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/raven-swarm-of-ravens/kobold-press-raven-swarm.webp",
+    "artist": "Swarm of Ravens · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "7307fbb6b24c8063d7122c3434783cc18746aaa9e60d7b678f76516b7c1c2ebd",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/raven-swarm.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Raven, Swarm of Ravens",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/raven-swarm-of-ravens/swarm-of-ravens-2024-rules-related.webp",
+    "artist": "Related Swarm of Ravens art by Rowan Holloway · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "0ec544dc24e1282a300581b4f5cd66778e313ed83ec6904e3c343ca6035a6e54",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Ravens.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Seahorse, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/seahorse-giant/kobold-press-seahorse.webp",
+    "artist": "Giant Seahorse · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "59f106dfd109f7726f5fd4da2e294471bd6f2a9faf6c92e07f2ec81680c4ad5d",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/seahorse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Seahorse, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/seahorse-giant/giant-seahorse-2024-rules-related.webp",
+    "artist": "Related Giant Seahorse art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "a8116ab2f108de63737ee6c9be97fe00d0b8dde843a7cccda4770a8588baf645",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Seahorse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Shark, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/shark-giant/kobold-press-shark.webp",
+    "artist": "Giant Shark · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "4b87ddd9a6b906869db40737dfa77c899f852f30a36ecd426b6e4e19ca723f06",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/shark.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Shark, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/shark-giant/giant-shark-2024-rules-related.webp",
+    "artist": "Related Giant Shark art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "840c77854787393dfb425c58dd521b42ea8b32e159d09858776a362bcf44ffe4",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Hunter%20Shark.webp"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Rogue Thought",
+    "publication": "DDEX3-13 - Writhing in the Dark",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/rogue-thought/mind-flayer-2014-related.webp",
+    "artist": "Related Mind Flayer art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "df027938945dd850320926f68e4984bbfde3b6b02b159d172071b868d78a4697",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Mind%20Flayer%20Psion.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Rogue Thought",
+    "publication": "DDEX3-13 - Writhing in the Dark",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/rogue-thought/mind-flayer-2024-michael-broussard.webp",
+    "artist": "Related Mind Flayer art by Michael Broussard · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "65302419f3d118e5b7acd64f624174e98e583480f0b8d019c9c2de5c0d44fabb",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Mind%20Flayers.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Theara Gravelthumb",
+    "publication": "DDEX3-13 - Writhing in the Dark",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/theara-gravelthumb/duergar-mpmm-bradley-wuzyk.webp",
+    "artist": "Related Duergar art credited to Christopher Bradley and Zuzanna Wužyk · Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "5d1d9febf1bb3b58f81a3d1144d2981d268e60a58608fee351238149a21d66ff",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/MPMM/Duergar.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Theara Gravelthumb",
+    "publication": "DDEX3-13 - Writhing in the Dark",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/theara-gravelthumb/intellect-devourer-2014-related.webp",
+    "artist": "Related Intellect Devourer art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "99b00e139db18c1de2b6a5777f02d254f68cb41764b6746497ba1daaa8289bc1",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Intellect%20Devourer.webp"
+  }
+]

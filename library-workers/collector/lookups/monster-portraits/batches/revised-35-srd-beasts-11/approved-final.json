@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "war-pony",
+    "name": "War Pony",
+    "entryId": "beast-764abc69937514d20950b4e0",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One sturdy short stocky war-trained pony, compact broad barrel, low shoulder, short surefooted legs and a black and white piebald coat with thick wind-tousled dark mane and long white-tipped dark tail. A simple small plain brown leather saddle over a slate blue quilted cloth, plain bit and bridle. Three-quarter side view, facing right with one lifted forehoof, all four attached legs visible. Keep its entire silhouette, ears, hooves and tail inside the square. No rider, armor, weapons, gear piled beside it or scene.",
+    "prompt": "Create one original square fantasy bestiary portrait. Use the first picture only to match its muted warm tan antique book parchment, low contrast buff-beige mottling, and soft matte paper. Ignore its sword. Second picture is the bestiary drawing style, naturalistic colored pencils and small soft shadow. Later pictures are identity and anatomical references only. No saturated orange, border, lettering, scenery or watermark. Show one full animal with space around it. One sturdy short stocky war-trained pony, compact broad barrel, low shoulder, short surefooted legs and a black and white piebald coat with thick wind-tousled dark mane and long white-tipped dark tail. A simple small plain brown leather saddle over a slate blue quilted cloth, plain bit and bridle. Three-quarter side view, facing right with one lifted forehoof, all four attached legs visible. Keep its entire silhouette, ears, hooves and tail inside the square. No rider, armor, weapons, gear piled beside it or scene.",
+    "appearanceSource": "Related D&D Pony and Warhorse illustrations"
+  },
+  {
+    "slug": "wolverine",
+    "name": "Wolverine",
+    "entryId": "beast-b00ef262afae566b51f74012",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One compact natural wolverine with very dark chocolate dense fur, prominent sandy golden stripe running along the flanks from behind its shoulder to the rump, and subtle buff facial highlights. Bear-like flat broad forepaws, rounded short ears, slightly pointed dark muzzle, two small dark eyes, sturdy compact legs and one shaggy short tail. Whole body in a right-facing three-quarter relaxed walk, stern curious closed-mouth expression, one forepaw stepping. Four coherently attached paws, short neck, low build. No gore, props, plants or rocks.",
+    "prompt": "Create one original square fantasy bestiary portrait. Use the first picture only to match its muted warm tan antique book parchment, low contrast buff-beige mottling, and soft matte paper. Ignore its sword. Second picture is the bestiary drawing style, naturalistic colored pencils and small soft shadow. Later pictures are identity and anatomical references only. No saturated orange, border, lettering, scenery or watermark. Show one full animal with space around it. One compact natural wolverine with very dark chocolate dense fur, prominent sandy golden stripe running along the flanks from behind its shoulder to the rump, and subtle buff facial highlights. Bear-like flat broad forepaws, rounded short ears, slightly pointed dark muzzle, two small dark eyes, sturdy compact legs and one shaggy short tail. Whole body in a right-facing three-quarter relaxed walk, stern curious closed-mouth expression, one forepaw stepping. Four coherently attached paws, short neck, low build. No gore, props, plants or rocks.",
+    "appearanceSource": "Wolverine photograph by Matthias Kabel"
+  }
+]

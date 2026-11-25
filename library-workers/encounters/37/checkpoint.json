@@ -1,0 +1,28 @@
+{
+  "commit": "f744e113e5071d614f6ce1f07bdf3e7a20cb1ac0",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 3,
+  "fullStatBlocks": 3,
+  "generatedPortraitsInstalled": 3,
+  "creditedGalleriesVerified": 3,
+  "allRecentVersionsWithGeneratedPortrait": 556,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "galleryComparison": "output/dm-library/review/encounters-37-gallery.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-37-style-reference.jpg",
+  "styleDirection": "Use actual campaign event and stage paintings for lighting and painted surfaces. Keep pale neutral paper with subtle grain on square portraits.",
+  "results": "output/dm-library/encounter-batches/37/results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Ankheg (MCDM)",
+      "source": "https://www.dndbeyond.com/monsters/4485772-ankheg-mcdm",
+      "challenge": "2"
+    },
+    {
+      "name": "Basilisk (MCDM)",
+      "source": "https://www.dndbeyond.com/monsters/4485784-basilisk-mcdm",
+      "challenge": "3"
+    }
+  ]
+}

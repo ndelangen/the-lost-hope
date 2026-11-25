@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Mycelian",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Plane Shift Press",
+    "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+    "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=163",
+    "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=163",
+    "publicationPage": "",
+    "printedPages": [
+      162,
+      163
+    ],
+    "page": "Chapter 6, pp. 162, 163, Mycelian Traits.",
+    "heading": "Mycelian Traits",
+    "creatureType": "Humanoid",
+    "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+    "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Fen uses a 2014 dwarf host for size, 25-ft. walk, darkvision and Dwarven Resilience. The host does not confer the rest of the dwarf traits.",
+      "The first printing’s optional GM latitude is not needed for the assigned build."
+    ]
+  },
+  {
+    "name": "Ombrask",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Plane Shift Press",
+    "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+    "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=166",
+    "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=166",
+    "publicationPage": "",
+    "printedPages": [
+      165
+    ],
+    "page": "Chapter 6, pp. 165, Ombrask Traits and Former Race Boons.",
+    "heading": "Ombrask Traits and Former Race Boons",
+    "creatureType": "Humanoid",
+    "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+    "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Aster uses the Medium former elf and its +1 Intelligence option. The printed entry does not replace the usual Humanoid type.",
+      "This build starts with one captured voice and remains below the 5th-level Fade Away threshold."
+    ]
+  },
+  {
+    "name": "Oozekin",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Plane Shift Press",
+    "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+    "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=168",
+    "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=168",
+    "publicationPage": "",
+    "printedPages": [
+      167
+    ],
+    "page": "Chapter 6, pp. 167, Oozekin Traits.",
+    "heading": "Oozekin Traits",
+    "creatureType": "Humanoid",
+    "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+    "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Rechecked the printed Cube and Puddle actions and the 2014 acid splash, which targets one creature or a close pair rather than a 5-ft. sphere.",
+      "The NPC uses a Medium starting size. Its held shield and mace matter for managing free hands."
+    ]
+  },
+  {
+    "name": "Opteran",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Plane Shift Press",
+    "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+    "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=170",
+    "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=170",
+    "publicationPage": "",
+    "printedPages": [
+      169
+    ],
+    "page": "Chapter 6, pp. 169, Opteran Traits.",
+    "heading": "Opteran Traits",
+    "creatureType": "Humanoid",
+    "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+    "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Bard",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Bobbin is a 1st-level larva. The 20-ft. adult flight and loss of String Shot are from the first printing, and neither applies to this build."
+    ]
+  },
+  {
+    "name": "Rakin",
+    "kind": "species",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Plane Shift Press",
+    "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+    "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=172",
+    "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=172",
+    "publicationPage": "",
+    "printedPages": [
+      171,
+      172,
+      173
+    ],
+    "page": "Chapter 6, pp. 171, 172, 173, Rakin Traits, Urkin, Posskin, and Tanukin.",
+    "heading": "Rakin Traits, Urkin, Posskin, and Tanukin",
+    "creatureType": "Humanoid",
+    "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+    "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Posskin Play Dead on p. 172 omits a word. The October 9, 2024 first-printing errata restores the intended casual-glance wording. The 5-ft. Investigation contest is in the first printing.",
+      "Tansy uses Posskin and Deception Expertise, which applies to the Constitution (Deception) contest as a Deception check."
+    ]
+  }
+]

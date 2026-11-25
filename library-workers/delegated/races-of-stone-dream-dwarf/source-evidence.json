@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Dream Dwarf",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "book": "Races of Stone",
+    "authors": [
+      "David Noonan",
+      "Jesse Decker",
+      "Michelle Lyons"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2004",
+    "productCode": "620-96567000-001",
+    "isbn": "0-7869-3278-3",
+    "printedPages": {
+      "entryAndArt": 88,
+      "playableTraits": 89,
+      "adventureSeed": 191
+    },
+    "pdfPages": {
+      "entryAndArt": 88,
+      "playableTraits": 89,
+      "adventureSeed": 191
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "116ee9b23da70166a7c726a51bd2c1b0087882d92a8a1376088f9ce256a5992c",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Jim Nelson, p. 88.",
+    "sourceDistinctions": [
+      "The Dream Dwarf is identified as a dwarf subrace. Page 89 gives 90-ft. darkvision, Dream Sight and grounded Spell Power.",
+      "Dream Sight distinguishes ethereal creatures visually. The trait supplies no separate ability to interact across planes.",
+      "Spell Power modifies caster level for divinations and earth-descriptor spells while grounded. It does not directly change save DCs or grant spells.",
+      "The printed adventure seed names a Dream Dwarf druid without stats. The two staged NPCs are original."
+    ],
+    "entryId": "species-15c16dad6f37b561b26d2ade",
+    "versionKey": "5ed3cce1a272c1d73d7dbe78",
+    "slug": "dream-dwarf",
+    "portraitSelection": "generated",
+    "portraitForm": "Maera Dol-Vel, an original Dream Dwarf Druid",
+    "npcExamples": [
+      "Maera Dol-Vel",
+      "Ornek Tarn-Iol"
+    ]
+  }
+]

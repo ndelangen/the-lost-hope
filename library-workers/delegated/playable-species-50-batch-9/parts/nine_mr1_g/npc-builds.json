@@ -1,0 +1,276 @@
+{
+  "builds": [
+    {
+      "id": "mr1-awakened-shrub-tanglebud",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Hedgerow observer, Monk 1",
+      "difficulty": "Monk 1",
+      "size": "Small",
+      "type": "Plant",
+      "speed": "25 ft.",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "senses": "Passive Perception 12.",
+      "languages": "Common and Sylvan.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 15,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Insight +4",
+        "Medicine +4",
+        "Religion +1"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +2, Dexterity save +4. AC 14 is 10 + Dexterity 2 + Wisdom 2. HP 10 is 8 + Constitution 2.",
+        "Hermit supplies Medicine, Religion, Sylvan, and Discovery. Monk supplies Acrobatics and Insight. Tanglebud uses no equipment in combat.",
+        "False Appearance. Stay motionless and concentrate for 1 minute. While motionless afterward Tanglebud looks like a mundane shrub. Vulnerable to fire damage."
+      ],
+      "actions": [
+        "Rake. Dexterity-based unarmed strike. +4 to hit, reach 5 ft., 1d6+2 slashing.",
+        "Martial Arts. After an Attack action with Rake, make one conventional root bump as a bonus action. +4 to hit, reach 5 ft., 1d4+2 bludgeoning."
+      ],
+      "tactics": "Tanglebud waits at a bend in the hedge, calls out to strangers first, and rakes anyone who rushes past its roots."
+    },
+    {
+      "id": "mr1-axe-beak-cleftbill",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Fast ridge courier, Barbarian 2",
+      "difficulty": "Barbarian 2",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "50 ft.",
+      "ac": 14,
+      "hp": 23,
+      "hitDice": "2d12+4",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Survival +3",
+        "Animal Handling +3",
+        "Perception +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. AC 14 is 10 + Dexterity 2 + Constitution 2. HP is 14 + 9.",
+        "Outlander supplies Athletics, Survival, Dwarvish, and Wanderer. Barbarian supplies Animal Handling and Perception. Cleftbill wears no armor and wields no gear.",
+        "Danger Sense. Gain advantage on Dexterity saves against visible effects while free of the blinded, deafened, and incapacitated conditions."
+      ],
+      "actions": [
+        "Bite. Strength-based unarmed strike. +5 to hit, reach 5 ft., 1d8+3 slashing, or 1d8+5 while raging.",
+        "Rage. Bonus action twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing damage, and +2 to Strength-based melee weapon attack damage, including Strength-based unarmed strikes. Rage ends early when knocked unconscious or if the turn ends without an attack on a hostile creature or damage taken since the last turn.",
+        "Reckless Attack. On the first attack of the turn, choose advantage on Strength-based melee weapon attacks that turn. Attacks against Cleftbill have advantage until its next turn."
+      ],
+      "tactics": "Cleftbill warns travelers away from a broken ledge. It uses its speed to intercept pursuers and bites if they block the way."
+    },
+    {
+      "id": "mr1-blink-dog-latch",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Waystation scout, Monk 2",
+      "difficulty": "Monk 2",
+      "size": "Medium",
+      "type": "Fey",
+      "speed": "50 ft. while unarmored",
+      "ac": 15,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Passive Perception 14, or 19 when hearing or smell applies.",
+      "languages": "Speaks, reads, and writes Blink Dog. Understands, reads, and writes Sylvan.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 15,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +2",
+        "Acrobatics +5",
+        "Insight +4",
+        "Perception +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +2, Dexterity save +5. AC 15 is 10 + Dexterity 3 + Wisdom 2. HP is 10 + 7. Monk movement adds 10 ft. to the printed walking speed.",
+        "Sailor supplies Athletics, Perception, and Ship’s Passage. Monk supplies Acrobatics and Insight. Latch wears a plain neck cloth and carries no combat equipment.",
+        "Keen Hearing and Smell. Advantage on Wisdom (Perception) checks based on hearing or smell. Ki pool 2, regained on a short or long rest with at least 30 minutes of meditation."
+      ],
+      "actions": [
+        "Bite. Dexterity-based unarmed strike. +5 to hit, reach 5 ft., 1d6+3 piercing.",
+        "Martial Arts. After Bite as an Attack action, make one shoulder bump as a bonus action. +5 to hit, reach 5 ft., 1d4+3 bludgeoning.",
+        "Flurry of Blows. After the Attack action, spend 1 ki and a bonus action to make two conventional shoulder bumps. Each is +5 to hit, reach 5 ft., 1d4+3 bludgeoning.",
+        "Patient Defense. Spend 1 ki and a bonus action to Dodge. Step of the Wind. Spend 1 ki and a bonus action to Disengage or Dash, with double jump distance that turn.",
+        "Teleport. Bonus action to move with carried or worn gear to a visible unoccupied space within 40 ft. One use per short or long rest."
+      ],
+      "tactics": "Latch hears out travelers and circles behind anyone closing on the stranded. It saves Teleport for a blocked route or a quick retreat."
+    },
+    {
+      "id": "mr1-death-dog-marl-and-soot",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Gatehouse sentry, Fighter 2",
+      "difficulty": "Fighter 2",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "40 ft.",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 2,
+      "senses": "Darkvision 120 ft. Passive Perception 12, or 17 while both heads are awake.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. AC 12 is 10 + Dexterity 2. HP is 13 + 9.",
+        "Soldier supplies Athletics, Intimidation, and Military Rank. Fighter supplies Perception and Survival. Defense is the chosen fighting style and gives no AC bonus while unarmored.",
+        "Two Heads. While both heads are awake, advantage on Wisdom (Perception) checks and saves against becoming blinded, charmed, deafened, frightened, stunned, or knocked unconscious."
+      ],
+      "actions": [
+        "Bite. Strength-based unarmed strike. +5 to hit, reach 5 ft., 1d6+3 piercing.",
+        "Second Wind. Bonus action to regain 1d10+2 HP. One use per short or long rest.",
+        "Action Surge. On its turn take one additional action, which can be a second Attack action for another Bite. One use per short or long rest."
+      ],
+      "tactics": "One head challenges trespassers while the other listens. The hound uses Action Surge only when a foe rushes past it toward the gate."
+    },
+    {
+      "id": "mr1-giant-fire-beetle-wick",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Tunnel lamplight, Barbarian 1",
+      "difficulty": "Barbarian 1",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "30 ft.",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "1d12+3",
+      "initiative": 2,
+      "senses": "Blindsight 30 ft. Passive Perception 12.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Intimidation +1",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +4, Constitution save +5. Natural AC 15 is 13 + Dexterity 2. Unarmored Defense also gives 15, from 10 + Dexterity 2 + Constitution 3. HP is 12 + 3.",
+        "Soldier supplies Athletics, Intimidation, and Military Rank. Barbarian supplies Perception and Survival. Wick carries no tools or gear.",
+        "Illumination. Wick sheds bright light for 10 ft., then dim light for another 10 ft."
+      ],
+      "actions": [
+        "Bite. Strength-based unarmed strike. +4 to hit, reach 5 ft., 1d6+2 slashing, or 1d6+4 while raging.",
+        "Rage. Bonus action twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing damage, and +2 to Strength-based melee weapon attack damage, including Strength-based unarmed strikes. Rage ends early when knocked unconscious or if the turn ends without an attack on a hostile creature or damage taken since the last turn."
+      ],
+      "tactics": "Wick stays near the floor and lights the low route for the crew. It rages and blocks the passage if the crew needs time to retreat."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Tanglebud",
+      "species": "Awakened Shrub",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-awakened-shrub-tanglebud",
+      "size": "Small",
+      "role": "A hawthorn shrub that watches a boundary path.",
+      "motive": "Find the apprentice who last pruned its hedge.",
+      "hook": "A voice from the hedge describes fresh footprints heading into a shuttered orchard."
+    },
+    {
+      "name": "Cleftbill",
+      "species": "Axe Beak",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-axe-beak-cleftbill",
+      "size": "Medium",
+      "role": "An awakened runner that carries messages along the ridge.",
+      "motive": "Get a search crew across the ridge before dusk.",
+      "hook": "Cleftbill asks the party to warn the crew away from the ledge it saw crumble."
+    },
+    {
+      "name": "Latch",
+      "species": "Blink Dog",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-blink-dog-latch",
+      "size": "Medium",
+      "role": "A fey scout that patrols an overgrown waystation.",
+      "motive": "Get stranded travelers off a road that shifts at dusk.",
+      "hook": "Latch blinks to the far side of a barricade, leaves a trail of paw marks, and waits for the party."
+    },
+    {
+      "name": "Marl and Soot",
+      "species": "Death Dog",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-death-dog-marl-and-soot",
+      "size": "Medium",
+      "role": "One two-headed hound that guards a deserted gatehouse.",
+      "motive": "Find out why the gate’s relief crew failed to arrive.",
+      "hook": "One head asks for the password while the other whispers that the relief crew never showed."
+    },
+    {
+      "name": "Wick",
+      "species": "Giant Fire Beetle",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-fire-beetle-wick",
+      "size": "Small",
+      "role": "An awakened beetle that lights old quarry tunnels.",
+      "motive": "Retrieve the stone marker that shows the safe way out.",
+      "hook": "An amber glow moves behind the rubble, and Wick calls for help recovering its marker."
+    }
+  ]
+}

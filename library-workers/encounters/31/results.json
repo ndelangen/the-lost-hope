@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Lightbender",
+    "imageKey": "monster:lightbender",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "publisher": "MCDM",
+    "source": "https://www.dndbeyond.com/monsters/4485926-lightbender",
+    "challenge": "5",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/41759/507/1000/1000/638512254054330191.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/4485926-lightbender",
+    "slug": "lightbender",
+    "entry": "monster-772a5e1a804f620fdfb0add2",
+    "version": "84bb865098c7500fd67aa493",
+    "generated": true,
+    "primaryPortraitSha256": "f595f51cd71b590d91ea7bd93d61c95ba41f25698caf934a5339735f2f3e5171",
+    "status": "Stat block",
+    "appearance": "A lionlike hunter with a prismatic mane and two lashing tails tipped with crystals. Its coat bends daylight into mirages.",
+    "habitats": [
+      "Sunlit deserts",
+      "Plains",
+      "Forests"
+    ]
+  },
+  {
+    "name": "Overmind",
+    "imageKey": "monster:overmind",
+    "kind": "monster",
+    "type": "Aberration",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "publisher": "MCDM",
+    "source": "https://www.dndbeyond.com/monsters/4485975-overmind",
+    "challenge": "11",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/41759/565/1000/1000/638512254156509484.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/4485975-overmind",
+    "slug": "overmind",
+    "entry": "monster-f24de2670f9b246b5b9a8caf",
+    "version": "065767d620c985b8970016cf",
+    "generated": true,
+    "primaryPortraitSha256": "0bcaa66aa6ab339ed0ec8acf9888c4add407d54e7af05f5f429c8667b76be54b",
+    "status": "Stat block",
+    "appearance": "A floating vaurath with a huge central eye and six small eyes that drift independently around it.",
+    "habitats": [
+      "World Below",
+      "Underground tower lairs"
+    ]
+  }
+]

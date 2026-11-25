@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Brown Bear",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 11,
+    "hp": 22,
+    "hitDice": "3d10 + 6",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "initiative": 1,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 3,
+      "Dex": 1,
+      "Con": 2,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Perception +3. Darkvision 60 ft. Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy brown bear with thick tawny fur, broad shoulders, and short rounded ears.",
+    "habitats": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 350. The volume uses the revised 2024 fifth-edition rules and was released in 2025. https://www.dndbeyond.com/monsters/4775806-brown-bear",
+      "Actions": "Multiattack. Make one Bite attack and one Claw attack.\nBite. +5 to hit in melee, reach 5 ft. On a hit, deal 7 (1d8 + 3) Piercing damage.\nClaw. +5 to hit in melee, reach 5 ft. On a hit, deal 5 (1d4 + 3) Slashing damage. A Large or smaller creature hit by Claw becomes Prone."
+    }
+  },
+  {
+    "name": "Camel",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 10,
+    "hp": 17,
+    "hitDice": "2d10 + 6",
+    "speed": "50 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "initiative": -1,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": -1,
+      "Con": 5,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative -1 (9). Proficiency bonus +2. Darkvision 60 ft. Passive Perception 10. No listed skills. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tall, pale sandy camel with a single shaggy hump, long legs, and a curved neck.",
+    "habitats": [
+      "Desert"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 351. The volume uses the revised 2024 fifth-edition rules and was released in 2025. https://www.dndbeyond.com/monsters/4775807-camel",
+      "Actions": "Bite. +4 to hit in melee, reach 5 ft. On a hit, deal 4 (1d4 + 2) Bludgeoning damage."
+    }
+  },
+  {
+    "name": "Cat",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, Unaligned",
+    "ac": 12,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "initiative": 2,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 4,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency bonus +2. Perception +3 and Stealth +4. Darkvision 60 ft. Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small short-haired tabby with a striped brown-gray coat, cream throat, and upright ears.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 351. The volume uses the revised 2024 fifth-edition rules and was released in 2025. https://www.dndbeyond.com/monsters/4775808-cat",
+      "Traits": "Jumper. Determine the cat’s jump distance with Dexterity in place of Strength.",
+      "Actions": "Scratch. +4 to hit in melee, reach 5 ft. On a hit, deal 1 Slashing damage."
+    }
+  },
+  {
+    "name": "Constrictor Snake",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "initiative": 2,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 2,
+      "Con": 1,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency bonus +2. Perception +2 and Stealth +4. Blindsight 10 ft. Passive Perception 12. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy-bodied brown snake with dark saddle-shaped markings and a broad head.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 351. The volume uses the revised 2024 fifth-edition rules and was released in 2025. https://www.dndbeyond.com/monsters/4775809-constrictor-snake",
+      "Actions": "Bite. +4 to hit in melee, reach 5 ft. On a hit, deal 6 (1d8 + 2) Piercing damage.\nConstrict. One Medium or smaller creature the snake can see within 5 ft. makes a DC 12 Strength save. On a failure, it takes 7 (3d4) Bludgeoning damage and becomes Grappled (escape DC 12)."
+    }
+  },
+  {
+    "name": "Crab",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, Unaligned",
+    "ac": 11,
+    "hp": 3,
+    "hitDice": "1d4 + 1",
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "initiative": 0,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": -2,
+      "Dex": 0,
+      "Con": 1,
+      "Int": -5,
+      "Wis": -1,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency bonus +2. Stealth +2. Blindsight 30 ft. Passive Perception 9. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small crab with an olive-green shell, short eyestalks, and two pale hooked claws.",
+    "habitats": [
+      "Coastal",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 351. The volume uses the revised 2024 fifth-edition rules and was released in 2025. https://www.dndbeyond.com/monsters/4775810-crab",
+      "Traits": "Amphibious. It can breathe in both air and water.",
+      "Actions": "Claw. +2 to hit in melee, reach 5 ft. On a hit, deal 1 Bludgeoning damage."
+    }
+  }
+]

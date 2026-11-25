@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Pegasus",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Celestial",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      168
+    ],
+    "page": "p. 168 in v2, Pegasus Traits",
+    "sourceDistinctions": "The player traits sit on printed p. 168. P. 169 contains the play advice and design discussion. Use the 40-ft. walk and 50-ft. flight from the traits. Hooves are Strength-based melee weapon attacks for 2014 Rage and Reckless Attack.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Piercer",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      170
+    ],
+    "page": "p. 170 in v2, Piercer Traits",
+    "sourceDistinctions": "Drop specifies a melee weapon attack without giving proficiency. The worked NPC treats Drop as an innate, proficient Strength attack. Its landing treatment follows the printed hit and miss branches, with normal fall prone behavior if the miss deals falling damage.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Pseudodragon",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Dragon",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      171,
+      172
+    ],
+    "page": "pp. 171–172 in v2, Pseudodragon Traits",
+    "sourceDistinctions": "Explicit finesse clause allows 2014 Sneak Attack. The player sting has no poison effect. Apply v2 pp. 7–8 for the shared Tiny rules.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Purple Worm",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      172
+    ],
+    "page": "p. 172 in v2, Purple Worm Traits",
+    "sourceDistinctions": "The Monstrosity line is printed in a different column below the trait heading in the text extraction. The NPC treats blindsight as sight within range for Danger Sense. Add attack and Rage damage modifiers once, to the piercing component of Stinger.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Remorhaz",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      175
+    ],
+    "page": "p. 175 in v2, Remorhaz Traits",
+    "sourceDistinctions": "The player traits specify both damage types and no ability-score increase. Apply the ability modifier once to the bite’s piercing damage. The p. 7 monk rule makes the bonus Martial Arts strike ordinary bludgeoning.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Avoral",
+    "file": "",
+    "sha256": "a0c0e9a6b5337f594646b8330da29606b4841912853ba462f4d37d0c2ab4fec0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Tavian Duskwing"
+  },
+  {
+    "name": "Azer",
+    "file": "",
+    "sha256": "d1d093f22e4a1f7a0d44512f3b54192c1d2db173f9671da96089597d5bb2ad45",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Hessik Coppervein"
+  },
+  {
+    "name": "Belker",
+    "file": "",
+    "sha256": "f26c600baf836869b5830d0a6a84a94a61465baf116b340535efd67ab6d0aed7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Vesh Ashwake"
+  },
+  {
+    "name": "Earth Elemental",
+    "file": "",
+    "sha256": "918a1daa64623f095a1882606973525f776049e2335d1fd420a0d7a933c38343",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Kurr Slateknuckle"
+  },
+  {
+    "name": "Ettercap",
+    "file": "",
+    "sha256": "52e35cb384c8767de0696ee78a95b2bbb2658008f6be8c5cefd10fbdc091ee5b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Bramble Thread"
+  }
+]

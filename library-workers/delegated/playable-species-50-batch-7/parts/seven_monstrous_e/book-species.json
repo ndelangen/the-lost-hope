@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Crawling Claw",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+      "Tiny Undead. Dexterity +2. Walk 25 ft. and climb 20 ft. It needs no air, food, drink, or sleep. Four hours of semiconscious rest replaces a human’s eight hours of sleep.",
+      "It has no sight outside 30-ft. blindsight and is immune to the blinded condition. It understands, reads, and writes Common. It cannot speak.",
+      "The claw deals 1d6 bludgeoning or slashing on an unarmed hit. It cannot wield weapons or shields. Walking, climbing, or swimming prevents use of a tool, focus, wand, or other item needing manipulation during that turn.",
+      "Tiny armor weighs one-quarter of its usual weight. Carrying and lifting capacity are one-quarter of a Small or Medium creature’s. The Tiny weapon rules never grant this claw the ability to wield weapons.",
+      "It is immune to poison damage and the poisoned condition. Rest restores hit points. Cure Wounds, Healing Word, and Heal exclude undead, while Regenerate can work. The supplement’s repair spells require a table decision."
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+      "Medium Giant. Strength +2 and Constitution +2. Walk 30 ft. Speak, read, and write Common and Giant.",
+      "While unarmored, AC is 14 plus Dexterity modifier. Powerful Build counts it one size larger for carrying, pushing, dragging, and lifting.",
+      "Roll with disadvantage on attacks against targets farther than 30 ft. This also covers spell attacks."
+    ]
+  },
+  {
+    "name": "Darkmantle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+      "Small Monstrosity. Strength +1. Walk and fly 30 ft. Flight requires avoiding medium or heavy armor.",
+      "Blindsight reaches 30 ft. and fails while deafened. It can resemble a stalactite or stalagmite once it spends one minute motionless and concentrating. The disguise lasts while it holds still.",
+      "Crush deals 1d6 bludgeoning on an unarmed hit. A hit made with the Attack action permits a bonus-action grapple of the same target.",
+      "It has no hands for weapons, shields, foci, or items that need manipulation. The supplement permits somatic movements adapted to its anatomy, but supplies no general material-component exemption. It speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Demilich",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+      "Small Undead. Choose Intelligence, Wisdom, or Charisma +1. Walk 0 ft. and fly 30 ft. with hover. Speak, read, and write Common. It needs no air, food, drink, or sleep. Four hours of semiconscious rest replaces a human’s eight hours of sleep.",
+      "Resistant to necrotic and psychic damage. Immune to poison damage and to paralyzed, petrified, poisoned, and prone. Rest restores hit points. Cure Wounds, Healing Word, and Heal exclude undead, while Regenerate can work. The supplement’s repair spells require a table decision.",
+      "The magic skull is its own focus. It cannot wear armor, wield weapons or shields, or handle wands, tools, or other items that require manipulation. It can perform anatomy-appropriate somatic movements. The skull focus replaces ordinary materials. A spell requiring a priced or consumed component still needs that component.",
+      "From character level 5, Howl casts Fear once per day using Charisma.",
+      "Destroying the phylactery destroys the demilich. If only its body is destroyed, it reforms by the phylactery in 1d10 days. It wanders from there, even across planes, until it reaches the area where it fell, with no memory of the trip or the phylactery’s location. Finding and feeding it a soul replaces the demilich species with the character’s original species and the separate Lich template."
+    ]
+  }
+]

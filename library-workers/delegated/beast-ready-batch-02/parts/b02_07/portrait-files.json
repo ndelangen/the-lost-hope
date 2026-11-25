@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "elk",
+    "file": "portraits/elk.png",
+    "sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "owl",
+    "file": "portraits/owl.png",
+    "sha256": "5c3783ed45aacc6ae1c16e0c483f7fac413c03249df01bdea10f732b22d36d37",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "pony",
+    "file": "portraits/pony.png",
+    "sha256": "38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "quipper",
+    "file": "portraits/quipper.png",
+    "sha256": "b10ee08895edf0ca1fa8a26c25a82fc0cad37aeffb44ca84127dcceea84bbcd4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

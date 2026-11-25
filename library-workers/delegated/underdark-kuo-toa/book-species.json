@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Kuo-toa",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Monstrous Humanoid (Aquatic). +2 Strength, +2 Constitution, +2 Intelligence, +4 Wisdom, −2 Charisma. Land speed 20 ft. Darkvision 60 ft. and +6 natural armor.",
+      "Amphibious (Ex) allows indefinite breathing in air and water. Swim speed 50 ft. gives +8 on Swim checks for hazards and special actions and allows taking 10 even under pressure.",
+      "Keen Sight (Ex) can spot moving creatures or objects even if invisible or ethereal. An invisible or ethereal target that keeps still can avoid this detection.",
+      "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds for 1 round. Take a −1 circumstance penalty on attack rolls, saves, and checks while in bright light.",
+      "Electricity resistance 10. Immune to poison and paralysis. Slippery (Ex) provides immunity to magical and ordinary webs. Racial bonuses are +8 on Escape Artist and +4 on Search and Spot.",
+      "Adhesive (Ex). Coating a shield takes 1 hour and materials worth 20 gp. A missed melee attack against the kuo-toa triggers Reflex DC 11 + its Constitution modifier. On a failed save a held weapon sticks and is pulled from its wielder’s grip, or a natural-weapon attacker is grappled. The coating expires after three days or one catch. A DC 20 Strength check frees the weapon or limb.",
+      "Lightning Bolt (Su). Two or more kuo-toa clerics (whips) stay within 30 ft. of one another to build a bolt every 1d4 rounds and join hands to release it. It deals 1d6 damage per whip. Reflex halves at DC 11 + highest participating Wisdom modifier + number of whips.",
+      "Weapon Familiarity treats pincer staffs as martial weapons.",
+      "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Racial skill points are 5 × (2 + Intelligence modifier). Racial class skills are Craft, Escape Artist, Knowledge, Listen, Move Silently, Search, and Spot.",
+      "LA +3. ECL 5 with only racial Hit Dice. ECL 6 with one class level. Favored class Rogue.",
+      "Racial automatic languages are Kuo-Toan, Undercommon, and Aquan. Racial bonus languages are Common, Dwarven, Elven, and Serusan, or use the regional bonus list. The Kuo-Toa region lists Common, Kuo-Toan, and Undercommon as automatic and Aquan, Draconic, Dwarven, and Elven (drow dialect) as bonus languages."
+    ]
+  }
+]

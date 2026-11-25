@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Giant Eagle",
+    "publication": "DDEP1 - Corruption in Kryptgarden",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral good",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "Perception": 4
+    },
+    "passivePerception": 14,
+    "otherStatistics": "Passive Perception 14. Speaks Giant Eagle. Understands Common and Auran without speaking them.",
+    "appearance": "A large eagle with broad feathered wings. The corrupted eagle in Kryptgarden is gaunt.",
+    "habitats": [
+      "Kryptgarden Forest",
+      "Above the treeline"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEP1 - Corruption in Kryptgarden, limited release, debut August 16, 2014, p. 46.",
+      "Traits": "Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
+      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) slashing damage.",
+      "Encounter ecology": "In the aerial interception, the eagle and giant owls target the riders on the approaching griffons."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Giant Owl",
+    "publication": "DDEP1 - Corruption in Kryptgarden",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "5 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "Perception": 5,
+      "Stealth": 4
+    },
+    "passivePerception": 15,
+    "otherStatistics": "Darkvision 120 ft., passive Perception 15. Speaks Giant Owl. Understands Common, Elvish, and Sylvan without speaking them.",
+    "appearance": "A broad-winged owl. In the Kryptgarden interception, its outline is gaunt beneath the feathers.",
+    "habitats": [
+      "Kryptgarden Forest",
+      "Above the treeline"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEP1 - Corruption in Kryptgarden, limited release, debut August 16, 2014, p. 46.",
+      "Traits": "Flyby. The owl does not provoke opportunity attacks when it flies out of an enemy’s reach.\nKeen Hearing and Sight. It has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 8 (2d6 + 1) slashing damage.",
+      "Encounter ecology": "The main encounter includes two giant owls. They attack the riders on the griffons alongside the giant eagle."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Wolf",
+    "publication": "DDEP1 - Corruption in Kryptgarden",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Passive Perception 13. No listed special senses or languages.",
+    "appearance": "The Kryptgarden wolf has mangy fur, green moss growing from its skin, and dark green drool.",
+    "habitats": [
+      "Kryptgarden Forest",
+      "Corrupted Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEP1 - Corruption in Kryptgarden, limited release, debut August 16, 2014, p. 48.",
+      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The wolf has advantage on attack rolls against a creature if at least one of its allies is within 5 ft. of that creature and is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) piercing damage. A creature hit must succeed on a DC 11 Strength save or fall prone.",
+      "Encounter ecology": "Two wolves follow the party from the underbrush and fight together using Pack Tactics. A dire wolf leads the pack."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Giant Goat",
+    "publication": "DDEX1-13 - Pool of Radiance Resurgent",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "skills": {},
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Passive Perception 11. No listed skills, special senses, or languages.",
+    "appearance": "A large goat with a heavy coat, beard, and thick curved horns. The adventure’s herd appears as bison.",
+    "habitats": [
+      "Dragonspine foothills",
+      "Rocky hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX1-13 - Pool of Radiance Resurgent, March 1, 2015 release, p. 26.",
+      "Traits": "Charge. If the goat moves at least 20 ft. straight toward a target and hits it with Ram on that turn, deal an extra 5 (2d4) bludgeoning damage. A creature hit this way must also make a DC 13 Strength save or fall prone.\nSure-Footed. The goat has advantage on Strength and Dexterity saving throws against effects that would knock it prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 8 (2d4 + 3) bludgeoning damage.",
+      "Encounter ecology": "The travel table has a herd of 3d6 bison and directs the DM to use this block. The bison remain nonaggressive unless the party comes within 50 ft. of the herd."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Saber-­‐Toothed Tiger",
+    "publication": "DDEX1-13 - Pool of Radiance Resurgent",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 52,
+    "hitDice": "7d10 + 14",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 6
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Passive Perception 13. No listed special senses or languages.",
+    "appearance": "A stocky cat with a heavy neck and two long, curved upper canines.",
+    "habitats": [
+      "Dragonspine foothills",
+      "Rocky hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX1-13 - Pool of Radiance Resurgent, March 1, 2015 release, p. 29.",
+      "Traits": "Keen Smell. The tiger has advantage on Wisdom (Perception) checks that rely on smell.\nPounce. If the tiger moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn, the target must succeed on a DC 14 Strength save or fall prone. If it is prone, the tiger can make one Bite against that target as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 10 (1d10 + 5) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 12 (2d6 + 5) slashing damage.",
+      "Encounter ecology": "The travel table has 1d2 stone giants accompanied by 1d2 saber-toothed tigers. The group begins hostile, but becomes indifferent if told the party is heading to Kranun’s Crater to deal with the situation there.",
+      "Printing note": "Page 29 prints STR 18 (+4) and +6 to hit, with +5 in the damage formula for both attacks. This profile uses the printed formulas."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "aliases": [
+      "Saber-Toothed Tiger"
+    ]
+  }
+]

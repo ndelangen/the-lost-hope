@@ -1,0 +1,263 @@
+{
+  "Shoal Halfling": {
+    "profiles": [
+      {
+        "name": "Shoal Halfling",
+        "imageKey": "species:shoal-halfling",
+        "kind": "species",
+        "type": "Humanoid (Aquatic, Halfling)",
+        "publication": "Stormwrack (2005)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://books.google.com/books/about/Stormwrack.html?id=ENyiPwAACAAJ",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Small Humanoid with the Aquatic and Halfling subtypes. +2 Dexterity, −2 Strength. Land speed 20 ft. and swim speed 20 ft. LA +0.",
+          "Small size gives +1 AC and attack rolls, +4 Hide, and three-quarters of normal carrying capacity. The shoal halfling uses Small weapons.",
+          "Amphibious (Ex). Breathes air and water equally.",
+          "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+          "+1 racial on all saving throws. A +2 morale bonus on saves against fear stacks with the racial save bonus. The +2 racial bonus on Listen checks is retained.",
+          "The variant loses the halfling racial +1 on attack rolls with thrown weapons and slings and the racial +2 on Climb, Jump, and Move Silently. The Small size attack bonus still applies.",
+          "Common and Halfling are automatic. Bonus languages are Dwarven, Elven, Gnome, Goblin, and Orc. Favored class Rogue."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Shoal Halfling",
+            "size": "Small",
+            "edition": "3.5 edition",
+            "speciesPublication": "Stormwrack (2005)",
+            "name": "Tess Siltstep",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+              "size": "Small",
+              "type": "Humanoid (Aquatic, Halfling)",
+              "senses": "Normal vision.",
+              "speed": "20 ft., swim 20 ft.",
+              "id": "shoal-halfling-siltstep-lock-runner-35e",
+              "title": "Shoal Halfling lock runner, Rogue 1",
+              "ac": 17,
+              "hp": 8,
+              "hitDice": "1d6+2",
+              "initiative": 4,
+              "languages": "Common, Halfling, Elven, Gnome",
+              "abilityScores": {
+                "STR": 10,
+                "DEX": 18,
+                "CON": 14,
+                "INT": 14,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Balance +8",
+                "Climb +4",
+                "Disable Device +6",
+                "Hide +12",
+                "Jump −2",
+                "Listen +6",
+                "Move Silently +8",
+                "Search +6",
+                "Spot +4",
+                "Swim +12"
+              ],
+              "traits": [
+                "Neutral good. Leather armor +2, Dexterity +4, size +1. Touch 15, flat-footed 13. BAB +0, grapple −4. Fortitude +3, Reflex +7, Will +1. Against fear, add another +2 morale to these listed saves.",
+                "Amphibious (Ex). Breathes air and water equally.",
+                "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+                "+1 racial on all saving throws. A +2 morale bonus on saves against fear stacks with the racial save bonus.",
+                "Trapfinding. Sneak attack +1d6 against a target denied its Dexterity bonus to AC or flanked by Tess. Ranged sneak attacks require a target within 30 ft. Concealment prevents sneak attack.",
+                "Climb, Jump, and Move Silently have no racial bonus. The 20-ft. land speed gives −6 to Jump. Listen retains the +2 racial bonus."
+              ],
+              "actions": [
+                "Small dagger +1 melee for 1d3 piercing or slashing, critical 19–20/×2. Above water, Small sling +5 ranged for 1d3 bludgeoning, critical ×2, range increment 50 ft. Point Blank Shot makes it +6 for 1d3+1 within 30 ft.",
+                "The sling attack includes +1 for Small size. Shoal Halflings gain no separate racial bonus with slings or thrown weapons."
+              ],
+              "tactics": "Tess swims through the low sluice and checks the lock from the other side. If a foe follows, she retreats to the dry step before using the sling."
+            },
+            "role": "Lock runner and Rogue.",
+            "motive": "Open the lower gate without letting the channel flood the storehouse.",
+            "hook": "Tess can reach the back of the lock through the low sluice."
+          },
+          {
+            "species": "Shoal Halfling",
+            "size": "Small",
+            "edition": "3.5 edition",
+            "speciesPublication": "Stormwrack (2005)",
+            "name": "Nerin Reefbrace",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+              "size": "Small",
+              "type": "Humanoid (Aquatic, Halfling)",
+              "senses": "Normal vision.",
+              "speed": "20 ft., swim 20 ft.",
+              "id": "shoal-halfling-reefbrace-shoal-guard-35e",
+              "title": "Shoal Halfling shoal guard, Fighter 1",
+              "ac": 16,
+              "hp": 12,
+              "hitDice": "1d10+2",
+              "initiative": 3,
+              "languages": "Common, Halfling, Elven",
+              "abilityScores": {
+                "STR": 14,
+                "DEX": 16,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Climb +6",
+                "Craft (weaving) +5",
+                "Listen +2",
+                "Swim +14"
+              ],
+              "traits": [
+                "Lawful good. Leather armor +2, Dexterity +3, size +1. Touch 14, flat-footed 13. BAB +1, grapple −1. Fortitude +5, Reflex +4, Will +3. Iron Will adds +2 to Will. Against fear, add another +2 morale to these listed saves.",
+                "Amphibious (Ex). Breathes air and water equally.",
+                "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+                "+1 racial on all saving throws. A +2 morale bonus on saves against fear stacks with the racial save bonus.",
+                "Weapon Focus (shortspear) is the Fighter bonus feat. The attack bonus includes +1 for Small size. Shoal Halflings gain no separate racial bonus with thrown weapons."
+              ],
+              "actions": [
+                "Small shortspear +5 melee for 1d4+2 piercing, critical ×2. Thrown above water +6 for 1d4+2 piercing, range increment 20 ft.",
+                "Use the piercing melee attack underwater. The usual underwater attack and damage penalties for slashing and bludgeoning weapons do not apply to the shortspear thrust."
+              ],
+              "tactics": "Nerin holds the flooded arch while the crew opens the route to the sandbar. Use the shortspear in melee until everyone can surface."
+            },
+            "role": "Shoal guard and Fighter.",
+            "motive": "Hold the flooded arch until the crew reaches the sandbar.",
+            "hook": "Nerin needs help opening the route while he guards the approach."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Shoal Halfling",
+        "size": "Small",
+        "edition": "3.5 edition",
+        "speciesPublication": "Stormwrack (2005)",
+        "name": "Tess Siltstep",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+          "size": "Small",
+          "type": "Humanoid (Aquatic, Halfling)",
+          "senses": "Normal vision.",
+          "speed": "20 ft., swim 20 ft.",
+          "id": "shoal-halfling-siltstep-lock-runner-35e",
+          "title": "Shoal Halfling lock runner, Rogue 1",
+          "ac": 17,
+          "hp": 8,
+          "hitDice": "1d6+2",
+          "initiative": 4,
+          "languages": "Common, Halfling, Elven, Gnome",
+          "abilityScores": {
+            "STR": 10,
+            "DEX": 18,
+            "CON": 14,
+            "INT": 14,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Balance +8",
+            "Climb +4",
+            "Disable Device +6",
+            "Hide +12",
+            "Jump −2",
+            "Listen +6",
+            "Move Silently +8",
+            "Search +6",
+            "Spot +4",
+            "Swim +12"
+          ],
+          "traits": [
+            "Neutral good. Leather armor +2, Dexterity +4, size +1. Touch 15, flat-footed 13. BAB +0, grapple −4. Fortitude +3, Reflex +7, Will +1. Against fear, add another +2 morale to these listed saves.",
+            "Amphibious (Ex). Breathes air and water equally.",
+            "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+            "+1 racial on all saving throws. A +2 morale bonus on saves against fear stacks with the racial save bonus.",
+            "Trapfinding. Sneak attack +1d6 against a target denied its Dexterity bonus to AC or flanked by Tess. Ranged sneak attacks require a target within 30 ft. Concealment prevents sneak attack.",
+            "Climb, Jump, and Move Silently have no racial bonus. The 20-ft. land speed gives −6 to Jump. Listen retains the +2 racial bonus."
+          ],
+          "actions": [
+            "Small dagger +1 melee for 1d3 piercing or slashing, critical 19–20/×2. Above water, Small sling +5 ranged for 1d3 bludgeoning, critical ×2, range increment 50 ft. Point Blank Shot makes it +6 for 1d3+1 within 30 ft.",
+            "The sling attack includes +1 for Small size. Shoal Halflings gain no separate racial bonus with slings or thrown weapons."
+          ],
+          "tactics": "Tess swims through the low sluice and checks the lock from the other side. If a foe follows, she retreats to the dry step before using the sling."
+        },
+        "role": "Lock runner and Rogue.",
+        "motive": "Open the lower gate without letting the channel flood the storehouse.",
+        "hook": "Tess can reach the back of the lock through the low sluice."
+      },
+      {
+        "species": "Shoal Halfling",
+        "size": "Small",
+        "edition": "3.5 edition",
+        "speciesPublication": "Stormwrack (2005)",
+        "name": "Nerin Reefbrace",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+          "size": "Small",
+          "type": "Humanoid (Aquatic, Halfling)",
+          "senses": "Normal vision.",
+          "speed": "20 ft., swim 20 ft.",
+          "id": "shoal-halfling-reefbrace-shoal-guard-35e",
+          "title": "Shoal Halfling shoal guard, Fighter 1",
+          "ac": 16,
+          "hp": 12,
+          "hitDice": "1d10+2",
+          "initiative": 3,
+          "languages": "Common, Halfling, Elven",
+          "abilityScores": {
+            "STR": 14,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Climb +6",
+            "Craft (weaving) +5",
+            "Listen +2",
+            "Swim +14"
+          ],
+          "traits": [
+            "Lawful good. Leather armor +2, Dexterity +3, size +1. Touch 14, flat-footed 13. BAB +1, grapple −1. Fortitude +5, Reflex +4, Will +3. Iron Will adds +2 to Will. Against fear, add another +2 morale to these listed saves.",
+            "Amphibious (Ex). Breathes air and water equally.",
+            "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+            "+1 racial on all saving throws. A +2 morale bonus on saves against fear stacks with the racial save bonus.",
+            "Weapon Focus (shortspear) is the Fighter bonus feat. The attack bonus includes +1 for Small size. Shoal Halflings gain no separate racial bonus with thrown weapons."
+          ],
+          "actions": [
+            "Small shortspear +5 melee for 1d4+2 piercing, critical ×2. Thrown above water +6 for 1d4+2 piercing, range increment 20 ft.",
+            "Use the piercing melee attack underwater. The usual underwater attack and damage penalties for slashing and bludgeoning weapons do not apply to the shortspear thrust."
+          ],
+          "tactics": "Nerin holds the flooded arch while the crew opens the route to the sandbar. Use the shortspear in melee until everyone can surface."
+        },
+        "role": "Shoal guard and Fighter.",
+        "motive": "Hold the flooded arch until the crew reaches the sandbar.",
+        "hook": "Nerin needs help opening the route while he guards the approach."
+      }
+    ]
+  }
+}

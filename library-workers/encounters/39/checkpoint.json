@@ -1,0 +1,29 @@
+{
+  "commit": "c7c5d7c64eb55c3c16fe1c7442cc1e5b65436c5e",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 560,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-39-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-39-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/39/results.json",
+  "searchResults": "output/dm-library/encounter-batches/39/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Chimera Companion",
+      "kind": "monster",
+      "role": "Companion"
+    },
+    {
+      "name": "Wyvern Companion",
+      "kind": "monster",
+      "role": "Companion"
+    }
+  ],
+  "nextSourceNote": "Keep both versions separate from their wild encounters and use the shared MCDM companion procedures."
+}

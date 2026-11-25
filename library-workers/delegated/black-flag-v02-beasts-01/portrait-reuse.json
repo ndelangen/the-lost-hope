@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Black Bear",
+    "entryId": "beast-b63f85d0e48f64cf2f53f03e",
+    "versionKey": "1a2323d9e18356b550281ab8",
+    "sameFormDonorName": "Bear, Black",
+    "donorEntryId": "beast-138c94b9297d755af3e97c8c",
+    "reviewImage": "",
+    "reviewSha256": "2ce8b3b947efa795ec44830802ceaf7237058f1a969c476110b3411811bd57d2",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-2/bear-black.png",
+    "originalSha256": "85c1117829950d79d8469c8d4f7b85c139f8fef62fd39c9b7a840d6a189e88eb",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-b63f85d0e48f64cf2f53f03e",
+      "file": "images/beasts/bear-black/parchment-portrait.webp",
+      "sha256": "2ce8b3b947efa795ec44830802ceaf7237058f1a969c476110b3411811bd57d2",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Blood Hawk",
+    "entryId": "beast-888a73f2a993eb0a1bd87b13",
+    "versionKey": "ae86ad0426e75eea531f7d26",
+    "sameFormDonorName": "Hawk, Blood",
+    "donorEntryId": "beast-c8bb4dd601130d6451ac475e",
+    "reviewImage": "",
+    "reviewSha256": "6faecf7259f4161db7865c887f73bdd53001bb48ac47cecb446299f39ae3af06",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-6/hawk-blood.png",
+    "originalSha256": "057085cf9a9622f2603acaea7212966851a9653f5a435d7a6f5af09217742b6e",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-888a73f2a993eb0a1bd87b13",
+      "file": "images/beasts/hawk-blood/parchment-portrait.webp",
+      "sha256": "6faecf7259f4161db7865c887f73bdd53001bb48ac47cecb446299f39ae3af06",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Brown Bear",
+    "entryId": "beast-38acbd9d4d5878ad99a8cb2b",
+    "versionKey": "ec0d53157a410827426c7f90",
+    "sameFormDonorName": "Bear, Brown",
+    "donorEntryId": "beast-69da0c5ef3c11f3e2cd7b61b",
+    "reviewImage": "",
+    "reviewSha256": "84dd7b07d9e13c07400ae00b59637236b95730a1253e6a8adc191ad2ed4911e8",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-2/bear-brown.png",
+    "originalSha256": "6ba21e6dd7f6266c400a33a81a35e1e034ed7f7af4d0e26eb562280330703328",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-38acbd9d4d5878ad99a8cb2b",
+      "file": "images/beasts/bear-brown/parchment-portrait.webp",
+      "sha256": "84dd7b07d9e13c07400ae00b59637236b95730a1253e6a8adc191ad2ed4911e8",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Constrictor Snake",
+    "entryId": "beast-83ee4e4e9e44c97ad85ef0e7",
+    "versionKey": "95c520ba9bc195dd1d278a8a",
+    "sameFormDonorName": "Snake, Constrictor",
+    "donorEntryId": "beast-64b29c35043d6a95fdfc9568",
+    "reviewImage": "",
+    "reviewSha256": "e9370a4138802fef90921df26a9d8785412c3076b5fed6df4d468427daf40f4b",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-11/snake-constrictor.png",
+    "originalSha256": "30cd353cddef7c450824efc9430e9f5f4f0164a12fc9db0e38b28d96119b50dd",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-83ee4e4e9e44c97ad85ef0e7",
+      "file": "images/beasts/snake-constrictor/parchment-portrait.webp",
+      "sha256": "e9370a4138802fef90921df26a9d8785412c3076b5fed6df4d468427daf40f4b",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Dire Wolf",
+    "entryId": "beast-c4979879f93833f274866528",
+    "versionKey": "9ba7a8e37354934164b4f8d2",
+    "sameFormDonorName": "Wolf, Dire",
+    "donorEntryId": "beast-c32125e527cc25dcdb8837a1",
+    "reviewImage": "",
+    "reviewSha256": "d20eed104a1438e881e4b70fcafb2fa25a3c7f872d9f0651064300a3753e71f4",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-14/wolf-dire.png",
+    "originalSha256": "09c48d39f0560967f0b893abb5133dd9fdb05b356e5abf56a283296598a2fae5",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-c4979879f93833f274866528",
+      "file": "images/beasts/wolf-dire/parchment-portrait.webp",
+      "sha256": "d20eed104a1438e881e4b70fcafb2fa25a3c7f872d9f0651064300a3753e71f4",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Draft Horse",
+    "entryId": "beast-00b8ae6b7fcad787410a7e6e",
+    "versionKey": "8413df10b7289d3d958c2b85",
+    "sameFormDonorName": "Horse, Draft",
+    "donorEntryId": "beast-fb54cce79ef55acd7b6ad8ad",
+    "reviewImage": "",
+    "reviewSha256": "7c88a9aaf7957b28ae85237c173a8d771d29f054983a32da76e2d05dfc0ea531",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-6/horse-draft.png",
+    "originalSha256": "50debce0d3844eb2187c9cc16d4009f5adf9fbd5fc3257c4866599dc5243ff56",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-00b8ae6b7fcad787410a7e6e",
+      "file": "images/beasts/horse-draft/parchment-portrait.webp",
+      "sha256": "7c88a9aaf7957b28ae85237c173a8d771d29f054983a32da76e2d05dfc0ea531",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Flying Snake",
+    "entryId": "beast-3f916b529c3895c36c70137d",
+    "versionKey": "3688fea1bc52f1141fcf1c17",
+    "sameFormDonorName": "Snake, Flying",
+    "donorEntryId": "beast-5e8b90fb98a1f16a519b3c98",
+    "reviewImage": "",
+    "reviewSha256": "3f3c80de23cb7db969344888e11a1a80d45777366994add8471fa38b40850477",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-11/snake-flying.png",
+    "originalSha256": "91a6de0614ff72f8cf5844cf1f55579cbe13aa5afbd14ae1521e0392d45be65e",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-3f916b529c3895c36c70137d",
+      "file": "images/beasts/snake-flying/parchment-portrait.webp",
+      "sha256": "3f3c80de23cb7db969344888e11a1a80d45777366994add8471fa38b40850477",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Ape",
+    "entryId": "beast-dc0c10ea37743395601afabe",
+    "versionKey": "2d6c0636c75c8e04e309672c",
+    "sameFormDonorName": "Ape, Giant",
+    "donorEntryId": "beast-a482b674fab4e6d5ee4fc5a5",
+    "reviewImage": "",
+    "reviewSha256": "ed824c2481df3b7cc8c1efc07c2bf0f64cd05a18c81e4b5f27a50cf845b558c2",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-1/ape-giant.png",
+    "originalSha256": "222783a97d6a329a67170b6a59180e0cffe7c88c59530a43bd66d10dcf561f90",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-dc0c10ea37743395601afabe",
+      "file": "images/beasts/ape-giant/parchment-portrait.webp",
+      "sha256": "ed824c2481df3b7cc8c1efc07c2bf0f64cd05a18c81e4b5f27a50cf845b558c2",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Badger",
+    "entryId": "beast-6ad50d32f295ae8da87afe82",
+    "versionKey": "4bb7efe679e28878bbad4b81",
+    "sameFormDonorName": "Badger, Giant",
+    "donorEntryId": "beast-5bf30b2dd8e0efe8d1567c23",
+    "reviewImage": "",
+    "reviewSha256": "4cfab667484e7d64855aa2e8d305464429d73309bfdca01c021ed4f769bfc04b",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-1/badger-giant.png",
+    "originalSha256": "bbf7aab016182a8277e1c32711110b9653a910519103b0dbde7eb09591dfb2c3",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-6ad50d32f295ae8da87afe82",
+      "file": "images/beasts/badger-giant/parchment-portrait.webp",
+      "sha256": "4cfab667484e7d64855aa2e8d305464429d73309bfdca01c021ed4f769bfc04b",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Bat",
+    "entryId": "beast-9c56a844ca4260d80807d1f8",
+    "versionKey": "c755671cb11e0d21919ee67c",
+    "sameFormDonorName": "Bat, Giant",
+    "donorEntryId": "beast-f70210e3a6d8e7fc7e2faeeb",
+    "reviewImage": "",
+    "reviewSha256": "84653e2ce0d1ee7b3515a923ad9700d3f99e2bcbc491f02bae7102cb7c6c0c59",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-1/bat-giant.png",
+    "originalSha256": "e3317c6f7453d1c87673f88ab4397b96eed3b24092f49935f28756e63a3c3064",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-9c56a844ca4260d80807d1f8",
+      "file": "images/beasts/bat-giant/parchment-portrait.webp",
+      "sha256": "84653e2ce0d1ee7b3515a923ad9700d3f99e2bcbc491f02bae7102cb7c6c0c59",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Boar",
+    "entryId": "beast-a3ca8d6b40a62f87f316e9cf",
+    "versionKey": "31e7a22ed5dbecdd043a08c0",
+    "sameFormDonorName": "Boar, Giant",
+    "donorEntryId": "beast-045517a888508501eff22ab5",
+    "reviewImage": "",
+    "reviewSha256": "d465c22a5df0bdf3ee7c8f626b812e68ea3eb109ffd60257ad49a3f28b12117f",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-2/boar-giant.png",
+    "originalSha256": "bde9f166b0b25c5071cd68f8b212cd14526d07d9dc17870a2edacff59e584dd4",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-a3ca8d6b40a62f87f316e9cf",
+      "file": "images/beasts/boar-giant/parchment-portrait.webp",
+      "sha256": "d465c22a5df0bdf3ee7c8f626b812e68ea3eb109ffd60257ad49a3f28b12117f",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Centipede Insect",
+    "entryId": "beast-cb3d823feb305f2f8c3aaee6",
+    "versionKey": "7727be85a4ca865c4258e8fc",
+    "sameFormDonorName": "Insect, Giant Centipede",
+    "donorEntryId": "beast-089351477299a22cf6d17335",
+    "reviewImage": "",
+    "reviewSha256": "92ee34f106714cb73a9baf006367a80802d6404e6849615b32286df07465ad42",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-7/insect-giant-centipede.png",
+    "originalSha256": "1883ca2bd64e75243e293bf6f2a5187ad6fad96bb3aa539c7e52383d9cecd6bc",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "Existing neutral parchment with lighter pencil-style shading.",
+    "existingTargetPortrait": true,
+    "selectedPortrait": {
+      "entryId": "beast-cb3d823feb305f2f8c3aaee6",
+      "file": "images/beasts/giant-centipede-insect/parchment-portrait.webp",
+      "sha256": "206faa150481684f6231c25608f2637e6518e6a4c921a7c9bee262974f3b03c2",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "entryId": "beast-67c132dc4a89516bcaa8f433",
+    "versionKey": "1e35b973ed82cf337aeacbaf",
+    "sameFormDonorName": "Snake, Giant Constrictor",
+    "donorEntryId": "beast-ec48cb4875d34c0b3e7e86d1",
+    "reviewImage": "",
+    "reviewSha256": "2156e2fd298bbcf5b77cd20396f6db681b701ea354830998a591eab94e62df35",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-12/snake-giant-constrictor.png",
+    "originalSha256": "2abe9145dc659e41adaf624446e92048e7ad99a4e3f4653127bf4aef239fc4e2",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-67c132dc4a89516bcaa8f433",
+      "file": "images/beasts/snake-giant-constrictor/parchment-portrait.webp",
+      "sha256": "2156e2fd298bbcf5b77cd20396f6db681b701ea354830998a591eab94e62df35",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Crab",
+    "entryId": "beast-c39025a93a39653b0147bfe8",
+    "versionKey": "7cbd09f612061b7ead13b9d6",
+    "sameFormDonorName": "Crab, Giant",
+    "donorEntryId": "beast-46881114a42a034d057bbf20",
+    "reviewImage": "",
+    "reviewSha256": "e4793e097140b0dd2ce7385db8566bec0f115ecb0ece56f09286229b58481564",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-3/crab-giant.png",
+    "originalSha256": "021d94eff223d6cdb96c6fea149290e1a00bc6b418b46324b6dbd3ab0c4f0b6e",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-c39025a93a39653b0147bfe8",
+      "file": "images/beasts/crab-giant/parchment-portrait.webp",
+      "sha256": "e4793e097140b0dd2ce7385db8566bec0f115ecb0ece56f09286229b58481564",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Crocodile",
+    "entryId": "beast-6343e55b7b181a3b56ac2eed",
+    "versionKey": "fc9d84014113dadd60bf0cc6",
+    "sameFormDonorName": "Crocodile, Giant",
+    "donorEntryId": "beast-1a694b74021e71ef0812e257",
+    "reviewImage": "",
+    "reviewSha256": "e4d6edea0beb5fefb23b7c8de138325b07a0d62a00edf70f3ddac72e4e9a3580",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-3/crocodile-giant.png",
+    "originalSha256": "27a777dc845ddc5a2c83c012d63022ce06c7b5a0e593512fa1aced64a4e0fbd8",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-6343e55b7b181a3b56ac2eed",
+      "file": "images/beasts/crocodile-giant/parchment-portrait.webp",
+      "sha256": "e4d6edea0beb5fefb23b7c8de138325b07a0d62a00edf70f3ddac72e4e9a3580",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Eagle",
+    "entryId": "beast-c53f147dcb203be8f8e6c380",
+    "versionKey": "652317e9a1a1a35cd64a6763",
+    "sameFormDonorName": "Eagle, Giant",
+    "donorEntryId": "beast-baf401084a16bdf9dcae5f13",
+    "reviewImage": "",
+    "reviewSha256": "4e2e41e58b04feb5c8eb7579a6d2a1e37e8db3812c322134a6eb4c3d910a1ac6",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-4/eagle-giant.png",
+    "originalSha256": "812043ecefaab1b55538fb1280e5cf82d3e593c4eb0b4cc2f057293adf583a73",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-c53f147dcb203be8f8e6c380",
+      "file": "images/beasts/eagle-giant/parchment-portrait.webp",
+      "sha256": "4e2e41e58b04feb5c8eb7579a6d2a1e37e8db3812c322134a6eb4c3d910a1ac6",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Elk",
+    "entryId": "beast-bec980dd9e930a157b4119e7",
+    "versionKey": "5c2429d0019791e8cf9c0091",
+    "sameFormDonorName": "Elk, Giant",
+    "donorEntryId": "beast-33ab5889c045b470561881eb",
+    "reviewImage": "",
+    "reviewSha256": "61e93218ed82625c7214db58216662d779248974870152cc5085a0f34cf60429",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-5/elk-giant.png",
+    "originalSha256": "94076fe41236e04c63d8e8c47e5b6d0c929b49905d6a5e7037a7740fe7648086",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-bec980dd9e930a157b4119e7",
+      "file": "images/beasts/elk-giant/parchment-portrait.webp",
+      "sha256": "61e93218ed82625c7214db58216662d779248974870152cc5085a0f34cf60429",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Fire Beetle Insect",
+    "entryId": "beast-c2f9254f0eff241069a57f57",
+    "versionKey": "aa08f02f5488c76f724cd060",
+    "sameFormDonorName": "Insect, Giant Fire Beetle",
+    "donorEntryId": "beast-b359e53f99b08d9b00d9d408",
+    "reviewImage": "",
+    "reviewSha256": "b389d8b02dd5ff2d035ac1a16f7e747a032ed04acf911a9182ad820fb873f1fd",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-7/giant-fire-beetle.webp",
+    "originalSha256": "b389d8b02dd5ff2d035ac1a16f7e747a032ed04acf911a9182ad820fb873f1fd",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "warmer parchment with light pencil treatment",
+    "existingTargetPortrait": true,
+    "selectedPortrait": {
+      "entryId": "beast-c2f9254f0eff241069a57f57",
+      "file": "images/monsters/giant-fire-beetle/parchment-portrait.webp",
+      "sha256": "b389d8b02dd5ff2d035ac1a16f7e747a032ed04acf911a9182ad820fb873f1fd",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Frog",
+    "entryId": "beast-9eac7a553c5f1cd52724dc6f",
+    "versionKey": "c90ff70b143e060fb3d93b88",
+    "sameFormDonorName": "Frog, Giant",
+    "donorEntryId": "beast-462c6531ee35161e8eb20c55",
+    "reviewImage": "",
+    "reviewSha256": "dc1c59560c0df21c88afb6cfc16c0318c915786a2cd62a8814b46155ca1cf2e3",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-5/frog-giant.png",
+    "originalSha256": "a283d16ae9a6f4d3769d671d1045775ba7beb32efeb84ac6b07325e506cdc088",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-9eac7a553c5f1cd52724dc6f",
+      "file": "images/beasts/frog-giant/parchment-portrait.webp",
+      "sha256": "dc1c59560c0df21c88afb6cfc16c0318c915786a2cd62a8814b46155ca1cf2e3",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  {
+    "name": "Giant Goat",
+    "entryId": "beast-6f3ba88f8055270588c02a34",
+    "versionKey": "368afe6572a791874143aab7",
+    "sameFormDonorName": "Goat, Giant",
+    "donorEntryId": "beast-ad2b4434eb6c399b1b065298",
+    "reviewImage": "",
+    "reviewSha256": "49b758d06d9fc514b574e5b4daed0bf19a558f3824a5b37006b0c942b4c10e9f",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-5/goat-giant.png",
+    "originalSha256": "20a9c08746acd82c3c9938bbdfc72fc98bb11907b7a4bc745c9b0f4052ee96ed",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-6f3ba88f8055270588c02a34",
+      "file": "images/beasts/goat-giant/parchment-portrait.webp",
+      "sha256": "49b758d06d9fc514b574e5b4daed0bf19a558f3824a5b37006b0c942b4c10e9f",
+      "width": 1254,
+      "height": 1254
+    }
+  }
+]

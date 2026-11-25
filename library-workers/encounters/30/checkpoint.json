@@ -1,0 +1,32 @@
+{
+  "commit": "0554b150ef490f942302bf8d5afc529b55b6a778",
+  "publication": "Basic Rules (2014)",
+  "encounterVersions": 1,
+  "fullStatBlocks": 1,
+  "monsterManual2014RecordsWithLocalRules": 547,
+  "generatedPortraitsInstalled": 1,
+  "revisedGeneratedPortraits": 1,
+  "creditedGalleriesVerified": 1,
+  "allRecentVersionsWithGeneratedPortrait": 540,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-30-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-30-style-reference.jpg",
+  "styleDirection": "Use actual campaign event and stage illustrations for lighting and rendering. Keep portraits square on light, subtly textured neutral parchment.",
+  "results": "output/dm-library/encounter-batches/30/results.json",
+  "searchResults": "output/dm-library/encounter-batches/30/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Lightbender",
+      "source": "https://www.dndbeyond.com/monsters/4485926-lightbender",
+      "challenge": "5"
+    },
+    {
+      "name": "Overmind",
+      "source": "https://www.dndbeyond.com/monsters/4485975-overmind",
+      "challenge": "11"
+    }
+  ],
+  "nextSourceNote": "MCDM’s official Flee, Mortals! preview contains the Lightbender and Overmind. Compare the preview to the published printings and keep MCDM roles and Villain Actions intact."
+}

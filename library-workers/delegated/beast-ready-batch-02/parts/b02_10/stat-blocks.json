@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Panther",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 15,
+    "cr": "1/4",
+    "xp": 50,
+    "speed": "50 ft., climb 40 ft.",
+    "otherStatistics": "Fixed Perception 14 and Stealth 16. Darkvision 60 ft. No languages. The native stat block gives fixed HP and no Hit Dice.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A black-coated climbing cat with a long tail, round ears, amber eyes, and faint leopard rosettes on its flanks.",
+    "habitats": [
+      "Forest",
+      "Jungle",
+      "Rocky hills"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 365–366. \nXP follows Experience Points by Challenge Rating, p. 229.",
+      "Ability modifiers": "STR +2 · DEX +2 · CON +0 · INT −4 · WIS +2 · CHA −2",
+      "Traits": "Heightened Smell. Use Perception 19 when detecting by scent.\nPounce. If the panther moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn, the creature must pass a DC 12 STR save or fall prone. If the target is prone, the panther can make one Bite attack against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
+      "Bonus actions": "Stealthy Hunter. Take the Hide action.",
+      "At the table": "Choose either Stealthy Hunter or the Pounce follow-up if both are available. If the target falls prone from Pounce, the Bite still uses a bonus action and a separate attack roll."
+    }
+  },
+  {
+    "name": "Panther",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "50 ft., climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4, Stealth +6. Passive Perception 14. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A black-coated climbing cat with a long tail, round ears, amber eyes, and faint leopard rosettes on its flanks.",
+    "habitats": [
+      "Forest",
+      "Jungle",
+      "Rocky hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 333, Panther. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-p#Panther",
+      "Traits": "Keen Smell. Wisdom (Perception) checks relying on smell have advantage.\nPounce. If the panther moves at least 20 ft. straight toward a creature and lands a Claw hit on it in the same turn, the creature must pass a DC 12 Strength save or fall prone. If the target is prone, the panther may make a Bite attack against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
+      "At the table": "If the target falls prone from Pounce, the Bite still uses a bonus action and a separate attack roll."
+    }
+  },
+  {
+    "name": "Vulture",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 8,
+    "cr": "0",
+    "xp": 10,
+    "speed": "10 ft., fly 50 ft.",
+    "otherStatistics": "Fixed Perception 13 and Stealth 10. No languages or listed special senses. The native stat block gives fixed HP and no Hit Dice.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A broad-winged scavenger with a bare gray head, a hooked beak, a pale neck ruff, and muted brown feathers.",
+    "habitats": [
+      "Open grassland",
+      "Rocky cliffs"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 373. \nXP follows Experience Points by Challenge Rating, p. 229.",
+      "Ability modifiers": "STR −2 · DEX +0 · CON +1 · INT −4 · WIS +1 · CHA −3",
+      "Traits": "Carrion Sense. Within 60 ft., the vulture can use scent to locate carrion, dead creatures, and Undead that lack Incorporeal Movement.\nHeightened Sight and Smell. Use Perception 18 when detecting by sight or scent.\nPack Tactics. Its attacks against a creature have advantage if at least one ally within 5 ft. of that creature is not incapacitated.",
+      "Actions": "Beak. Melee weapon attack, +2 to hit, reach 5 ft., one target. On a hit, deal 2 (1d4) piercing damage.",
+      "Reactions": "Defensive Bile. When an attacker the vulture can see hits it with a melee attack from within 5 ft., the vulture can spit bile at that attacker. The attacker must make a DC 11 CON save or be incapacitated until the end of its next turn.",
+      "At the table": "Defensive Bile triggers on a hit and deals no damage. The adjacent Giant Vulture and its stronger reaction are a separate block."
+    }
+  },
+  {
+    "name": "Weasel",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "cr": "0",
+    "xp": 10,
+    "speed": "30 ft.",
+    "otherStatistics": "Fixed Perception 13 and Stealth 13. No languages or listed special senses. The native stat block gives fixed HP and no Hit Dice.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A small, slim brown hunter with a white throat and belly, short legs, and a narrow whiskered face.",
+    "habitats": [
+      "Meadows",
+      "Woodland edges",
+      "Hedgerows"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 373. \nXP follows Experience Points by Challenge Rating, p. 229.",
+      "Ability modifiers": "STR −4 · DEX +1 · CON −1 · INT −4 · WIS +1 · CHA −4",
+      "Traits": "Heightened Hearing and Smell. Use Perception 18 when detecting by hearing or scent.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. On a hit, deal 3 (1d4 + 1) piercing damage or take one item the creature wears or carries instead. The item must weigh 5 lb. or less and fit in one hand. It cannot be a weapon, wrapped around the creature, or firmly attached to it. A loose hat or belt pouch can qualify.",
+      "At the table": "Resolve the attack roll first. On a hit, choose damage or theft. The printed rule gives no separate save or check."
+    }
+  },
+  {
+    "name": "Wolf",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 13,
+    "hp": 14,
+    "cr": "1/4",
+    "xp": 50,
+    "speed": "40 ft.",
+    "otherStatistics": "Natural armor. Fixed Perception 11 and Stealth 14. No languages or listed special senses. The native stat block gives fixed HP and no Hit Dice.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A gray-brown canine with a deep chest, long legs, pointed ears, and a low bushy tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Plains"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 374. \nXP follows Experience Points by Challenge Rating, p. 229.",
+      "Ability modifiers": "STR +1 · DEX +2 · CON +1 · INT −4 · WIS +1 · CHA −2",
+      "Traits": "Heightened Hearing and Smell. Use Perception 16 when detecting by hearing or scent.\nPack Tactics. Its attacks against a creature have advantage when one or more allies within 5 ft. of that creature are not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage. If the target is a creature, it must pass a DC 12 STR save or fall prone.",
+      "At the table": "Apply the printed +4 attack and +2 damage even though the Strength modifier is +1. The prone save applies to a creature hit by Bite."
+    }
+  }
+]

@@ -1,0 +1,2175 @@
+{
+  "baseline": "0930f1b3f4bd812b82cf0cc1d11a91ea8c129dfb",
+  "profiles": 50,
+  "generatedPortraits": 25,
+  "reusedExistingPortraits": 0,
+  "entries": [
+    {
+      "owner": "b04_01",
+      "name": "Allosaurus",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "allosaurus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b04_01/portraits/allosaurus.png",
+        "sha256": "bfd45c756e4462c0cb89ab8a54f979592b9dd7fa3a276313976d48994bc322f8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Allosaurus",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 116,
+        "printedPages": [
+          116
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "appearanceEvidence": "Both books describe a fast predatory dinosaur with claws. The coloring, brow ridges and posture describe the original portrait.",
+        "habitatEvidence": "Both books mention running prey down over open ground. The 2014 Monster Manual p. 79 also gives remote valleys, plateaus, tropical islands and deep fens as dinosaur habitats. The tags apply that group guidance to the Allosaurus.",
+        "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+        "rulesComparison": "The default Allosaurus stat block matches across the scoped printings.",
+        "pdfPage": 116,
+        "viewerPages": [
+          116
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "conditionRules": ""
+      }
+    },
+    {
+      "owner": "b04_01",
+      "name": "Allosaurus",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "allosaurus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b04_01/portraits/allosaurus.png",
+        "sha256": "bfd45c756e4462c0cb89ab8a54f979592b9dd7fa3a276313976d48994bc322f8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Allosaurus",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 rules, 11th printing checked",
+        "printedPage": 79,
+        "printedPages": [
+          79
+        ],
+        "section": "Dinosaurs",
+        "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+        "url": "https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+        "appearanceEvidence": "Both books describe a fast predatory dinosaur with claws. The coloring, brow ridges and posture describe the original portrait.",
+        "habitatEvidence": "Both books mention running prey down over open ground. The 2014 Monster Manual p. 79 also gives remote valleys, plateaus, tropical islands and deep fens as dinosaur habitats. The tags apply that group guidance to the Allosaurus.",
+        "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+        "rulesComparison": "The default Allosaurus stat block matches across the scoped printings.",
+        "viewerPages": [
+          80
+        ],
+        "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "errataNotes": "No entry-specific correction applies to this stat block.",
+        "secondaryCrossCheck": "5etools matches the default rules visible in the printed block.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions#Prone"
+      }
+    },
+    {
+      "owner": "b04_01",
+      "name": "Ankylosaurus",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "ankylosaurus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b04_01/portraits/ankylosaurus.png",
+        "sha256": "12e17f9424f85b5b94a6a614b0a2a967e54f34f1ac5b23ad1c732c391733dc89",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ankylosaurus",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 117,
+        "printedPages": [
+          117
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "appearanceEvidence": "Both books describe a plant eater with thick armor plating and a knobbed tail. The beak profile and raised osteoderms depict the selected portrait.",
+        "habitatEvidence": "The 2014 Monster Manual p. 79 lists these dinosaur habitats as a group. Applying them to the Ankylosaurus is an editorial encounter suggestion.",
+        "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+        "rulesComparison": "The default Ankylosaurus stat block matches across the scoped printings.",
+        "pdfPage": 117,
+        "viewerPages": [
+          117
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "conditionRules": "",
+        "mechanicsNotes": [
+          "Both printed stat blocks give Tail +7 to hit. The summary preserves the printed attack bonus."
+        ]
+      }
+    },
+    {
+      "owner": "b04_01",
+      "name": "Ankylosaurus",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "ankylosaurus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b04_01/portraits/ankylosaurus.png",
+        "sha256": "12e17f9424f85b5b94a6a614b0a2a967e54f34f1ac5b23ad1c732c391733dc89",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ankylosaurus",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 rules, 11th printing checked",
+        "printedPage": 79,
+        "printedPages": [
+          79
+        ],
+        "section": "Dinosaurs",
+        "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+        "url": "https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+        "appearanceEvidence": "Both books describe a plant eater with thick armor plating and a knobbed tail. The beak profile and raised osteoderms depict the selected portrait.",
+        "habitatEvidence": "The 2014 Monster Manual p. 79 lists these dinosaur habitats as a group. Applying them to the Ankylosaurus is an editorial encounter suggestion.",
+        "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+        "rulesComparison": "The default Ankylosaurus stat block matches across the scoped printings.",
+        "viewerPages": [
+          80
+        ],
+        "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "errataNotes": "No entry-specific correction applies to this stat block.",
+        "secondaryCrossCheck": "5etools matches the default rules visible in the printed block.",
+        "printedVariants": {
+          "Spiked-tail variety": "The Monster Manual describes some ankylosaurs with spiked tails that deal piercing damage in place of bludgeoning. The portrait depicts the standard club-tailed form."
+        },
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions#Prone",
+        "mechanicsNotes": [
+          "Both printed stat blocks give Tail +7 to hit. The summary preserves the printed attack bonus."
+        ]
+      }
+    },
+    {
+      "owner": "b04_01",
+      "name": "Black Bear",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "black-bear",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b04_01/portraits/black-bear.png",
+        "sha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Black Bear",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 119,
+        "printedPages": [
+          119
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "appearanceEvidence": "Both printings give Medium size and describe bite and claw attacks. Ears, fur and muzzle color describe the selected portrait.",
+        "habitatEvidence": "Forests, woodland edges and forested foothills are editorial encounter suggestions for the black bear depicted in the portrait.",
+        "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+        "rulesComparison": "The default Black Bear stat block matches across the scoped printings.",
+        "pdfPage": 119,
+        "viewerPages": [
+          119
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_01",
+      "name": "Black Bear",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "black-bear",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b04_01/portraits/black-bear.png",
+        "sha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Black Bear",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 rules, 11th printing checked",
+        "printedPage": 318,
+        "printedPages": [
+          318
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=319",
+        "url": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=319",
+        "appearanceEvidence": "Both printings give Medium size and describe bite and claw attacks. Ears, fur and muzzle color describe the selected portrait.",
+        "habitatEvidence": "Forests, woodland edges and forested foothills are editorial encounter suggestions for the black bear depicted in the portrait.",
+        "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+        "rulesComparison": "The default Black Bear stat block matches across the scoped printings.",
+        "viewerPages": [
+          319
+        ],
+        "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "errataNotes": "Official errata raises Bite and Claws from +3 to +4. The consulted 11th printing already incorporates the change.",
+        "secondaryCrossCheck": "5etools matches the default rules visible in the printed block."
+      }
+    },
+    {
+      "owner": "b04_02",
+      "name": "Blood Hawk",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "blood-hawk",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b04_02/portraits/blood-hawk.png",
+        "sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Blood Hawk",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          120
+        ],
+        "viewerPages": [
+          120
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "appearanceEvidence": "Both books describe a red-feathered hawk with a sharp beak. The dark bars and feather pattern are choices for the shared portrait.",
+        "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these six habitat tags. The two printed sources describe the hawk’s behavior without a habitat field.",
+        "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16810-blood-hawk",
+        "mechanicsNotes": [
+          "Pack Tactics requires an eligible ally near the target. It applies without spending a bonus action."
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_02",
+      "name": "Blood Hawk",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "blood-hawk",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b04_02/portraits/blood-hawk.png",
+        "sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Blood Hawk",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "Monster Manual, first printing, September 2014",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          319
+        ],
+        "viewerPages": [
+          320
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/16810-blood-hawk",
+        "url": "https://www.dndbeyond.com/monsters/16810-blood-hawk",
+        "appearanceEvidence": "Both books describe a red-feathered hawk with a sharp beak. The dark bars and feather pattern are choices for the shared portrait.",
+        "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these six habitat tags. The two printed sources describe the hawk’s behavior without a habitat field.",
+        "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16810-blood-hawk",
+        "mechanicsNotes": [
+          "Pack Tactics requires an eligible ally near the target. It applies without spending a bonus action."
+        ],
+        "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+        "errataUrl": "",
+        "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Blood Hawk."
+      }
+    },
+    {
+      "owner": "b04_02",
+      "name": "Brown Bear",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "brown-bear",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_02/portraits/brown-bear.png",
+        "sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Brown Bear",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          120
+        ],
+        "viewerPages": [
+          120
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "appearanceEvidence": "The creature’s size and Claws attack come from both books. The shoulder hump and grizzled fur are editorial details from the shared portrait.",
+        "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these three habitat tags. Neither printed block specifies habitat.",
+        "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+        "mechanicsNotes": [
+          "Basic Rules (2018) prints +6 to hit for Bite and Claws. Official Monster Manual errata v2.0 makes the same +6 correction to the 2014 block, whose first printing read +5."
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_02",
+      "name": "Brown Bear",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "brown-bear",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_02/portraits/brown-bear.png",
+        "sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Brown Bear",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "Monster Manual, first printing, September 2014",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          319
+        ],
+        "viewerPages": [
+          320
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+        "url": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+        "appearanceEvidence": "The creature’s size and Claws attack come from both books. The shoulder hump and grizzled fur are editorial details from the shared portrait.",
+        "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these three habitat tags. Neither printed block specifies habitat.",
+        "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+        "mechanicsNotes": [
+          "Basic Rules (2018) prints +6 to hit for Bite and Claws. Official Monster Manual errata v2.0 makes the same +6 correction to the 2014 block, whose first printing read +5."
+        ],
+        "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+        "errataUrl": "",
+        "errataEvidence": "Errata v2.0, first page, Brown Bear (p. 319): both Bite and Claws change from +5 to +6 to hit. The summary uses +6.",
+        "firstPrintingAttackBonus": {
+          "Bite": 5,
+          "Claws": 5
+        },
+        "appliedCorrection": {
+          "Bite": 6,
+          "Claws": 6
+        }
+      }
+    },
+    {
+      "owner": "b04_02",
+      "name": "Constrictor Snake",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "constrictor-snake",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_02/portraits/constrictor-snake.png",
+        "sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Constrictor Snake",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          122
+        ],
+        "viewerPages": [
+          122
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "appearanceEvidence": "The size and constricting behavior come from both printed blocks. The python-like head and scale markings are editorial details from the shared portrait.",
+        "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these four habitat tags. Neither printed block specifies habitat.",
+        "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+        "mechanicsNotes": [
+          "Constrict applies its grapple on the hit without a separate saving throw. Escape DC 14 applies to ending the grapple. The attack lists one creature and states no additional size cap."
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "conditionRules": ""
+      }
+    },
+    {
+      "owner": "b04_02",
+      "name": "Constrictor Snake",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "constrictor-snake",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_02/portraits/constrictor-snake.png",
+        "sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Constrictor Snake",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "Monster Manual, first printing, September 2014",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          320
+        ],
+        "viewerPages": [
+          321
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+        "url": "https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+        "appearanceEvidence": "The size and constricting behavior come from both printed blocks. The python-like head and scale markings are editorial details from the shared portrait.",
+        "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these four habitat tags. Neither printed block specifies habitat.",
+        "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+        "mechanicsNotes": [
+          "Constrict applies its grapple on the hit without a separate saving throw. Escape DC 14 applies to ending the grapple. The attack lists one creature and states no additional size cap."
+        ],
+        "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+        "errataUrl": "",
+        "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Constrictor Snake.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions"
+      }
+    },
+    {
+      "owner": "b04_03",
+      "name": "Dire Wolf",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "dire-wolf",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_03/portraits/dire-wolf.png",
+        "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Dire Wolf",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Version 1.0, November 2018 ",
+        "printedPages": [
+          123
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16841-dire-wolf",
+        "appearanceEvidence": "The proportions, gray coat, and other details are editorial choices for the original wolf portrait.",
+        "habitatEvidence": "The legacy D&D Beyond listing gives forest and hill. The printed stat blocks do not give habitat tags.",
+        "pdfPage": 123,
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_03",
+      "name": "Dire Wolf",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "dire-wolf",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_03/portraits/dire-wolf.png",
+        "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Dire Wolf",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 fifth-edition printing",
+        "printedPages": [
+          321
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
+        "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16841-dire-wolf",
+        "appearanceEvidence": "The proportions, gray coat, and other details are editorial choices for the original wolf portrait.",
+        "habitatEvidence": "The legacy D&D Beyond listing gives forest and hill. The printed stat blocks do not give habitat tags.",
+        "sourceWitness": "Page-specific reproduction of the printed Monster Manual. The viewer numbers pages one ahead of the book folios.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "printingNotes": [
+          "No creature-specific change in the published 2014 Monster Manual errata."
+        ]
+      }
+    },
+    {
+      "owner": "b04_03",
+      "name": "Draft Horse",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "draft-horse",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_03/portraits/draft-horse.png",
+        "sha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Draft Horse",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Version 1.0, November 2018 ",
+        "printedPages": [
+          124
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16844-draft-horse",
+        "appearanceEvidence": "The build, bay coat, and other markings are editorial details of the original workhorse portrait.",
+        "habitatEvidence": "The legacy D&D Beyond listing gives urban. Farms and trade roads are editorial search terms for a working horse.",
+        "pdfPage": 124,
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_03",
+      "name": "Draft Horse",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "draft-horse",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_03/portraits/draft-horse.png",
+        "sha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Draft Horse",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 fifth-edition printing",
+        "printedPages": [
+          321
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
+        "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16844-draft-horse",
+        "appearanceEvidence": "The build, bay coat, and other markings are editorial details of the original workhorse portrait.",
+        "habitatEvidence": "The legacy D&D Beyond listing gives urban. Farms and trade roads are editorial search terms for a working horse.",
+        "sourceWitness": "Page-specific reproduction of the printed Monster Manual. The viewer numbers pages one ahead of the book folios.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "printingNotes": [
+          "No creature-specific change in the published 2014 Monster Manual errata."
+        ]
+      }
+    },
+    {
+      "owner": "b04_03",
+      "name": "Flying Snake",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "flying-snake",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b04_03/portraits/flying-snake.png",
+        "sha256": "c18f8bdfa42fff72a1a91f6d5f796d7c9b58d706fa1efea8afe3466c92736160",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Flying Snake",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Version 1.0, November 2018 ",
+        "printedPages": [
+          128
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16864-flying-snake",
+        "appearanceEvidence": "Both books describe a vividly colored winged serpent. Jade, gold, and the membrane wing shape are editorial portrait choices.",
+        "habitatEvidence": "Both printed descriptions specify remote jungles. Forest, grassland, desert, and urban are additional tags from the legacy D&D Beyond listing.",
+        "pdfPage": 128,
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_03",
+      "name": "Flying Snake",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "flying-snake",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b04_03/portraits/flying-snake.png",
+        "sha256": "c18f8bdfa42fff72a1a91f6d5f796d7c9b58d706fa1efea8afe3466c92736160",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Flying Snake",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 fifth-edition printing",
+        "printedPages": [
+          322
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page323.html",
+        "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16864-flying-snake",
+        "appearanceEvidence": "Both books describe a vividly colored winged serpent. Jade, gold, and the membrane wing shape are editorial portrait choices.",
+        "habitatEvidence": "Both printed descriptions specify remote jungles. Forest, grassland, desert, and urban are additional tags from the legacy D&D Beyond listing.",
+        "sourceWitness": "Page-specific reproduction of the printed Monster Manual. The viewer numbers pages one ahead of the book folios.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "printingNotes": [
+          "No creature-specific change in the published 2014 Monster Manual errata."
+        ]
+      }
+    },
+    {
+      "owner": "b04_04",
+      "name": "Giant Ape",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "7",
+      "art_group": "giant-ape",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "7",
+      "portrait": {
+        "file": "parts/b04_04/portraits/giant-ape.png",
+        "sha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Ape",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Version 1.0, November 2018",
+        "printedPages": [
+          130
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "section": "Chapter 12, Monsters",
+        "artGroup": "giant-ape",
+        "habitatEvidence": "Editorial search tags drawn from a gorilla-like ape's ecology and the printed climbing speed. The 5etools index classifies it under forest.",
+        "appearanceEvidence": "Editorial description drawn from the original plain-parchment portrait and recognizable animal anatomy. Printed source supplies the species name and size.",
+        "pdfPage": 130,
+        "pdfPages": [
+          130
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "pageNumbering": "Printed folio matches the one-based page number of the official .",
+        "sourceComparison": "The September 2014 first-print Monster Manual and the November 2018 Basic Rules print matching encounter rules.",
+        "secondaryCrossCheck": "The local 5etools MM entry agrees with both printed blocks."
+      }
+    },
+    {
+      "owner": "b04_04",
+      "name": "Giant Ape",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "7",
+      "art_group": "giant-ape",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "7",
+      "portrait": {
+        "file": "parts/b04_04/portraits/giant-ape.png",
+        "sha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Ape",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014",
+        "printedPages": [
+          323
+        ],
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "section": "Appendix A, Miscellaneous Creatures",
+        "artGroup": "giant-ape",
+        "habitatEvidence": "Editorial search tags drawn from a gorilla-like ape's ecology and the printed climbing speed. The 5etools index classifies it under forest.",
+        "appearanceEvidence": "Editorial description drawn from the original plain-parchment portrait and recognizable animal anatomy. Printed source supplies the species name and size.",
+        "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "separatePrintTextWitness": "https://device.report/m/13db7626b6f97f40f10c702109e155d8a8d1db0d564ddf0a1ad61185e6616171",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/16873-giant-ape",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 324,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "The mirror viewer's page 324 is the book's printed folio 323.",
+        "mmErrataUrl": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "errataEvidence": "The official Monster Manual errata do not list a change to this creature.",
+        "sourceComparison": "The September 2014 first-print Monster Manual and the November 2018 Basic Rules print matching encounter rules.",
+        "secondaryCrossCheck": "The local 5etools MM entry agrees with both printed blocks."
+      }
+    },
+    {
+      "owner": "b04_04",
+      "name": "Giant Badger",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-badger",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_04/portraits/giant-badger.png",
+        "sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Badger",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Version 1.0, November 2018",
+        "printedPages": [
+          130
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "section": "Chapter 12, Monsters",
+        "artGroup": "giant-badger",
+        "habitatEvidence": "Editorial search tags based on familiar badger habitat and the printed burrowing speed. The 5etools index classifies it under forest.",
+        "appearanceEvidence": "Editorial description drawn from the original plain-parchment portrait and recognizable animal anatomy. Printed source supplies the species name and size.",
+        "pdfPage": 130,
+        "pdfPages": [
+          130
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "pageNumbering": "Printed folio matches the one-based page number of the official .",
+        "sourceComparison": "The September 2014 first-print Monster Manual and the November 2018 Basic Rules print matching encounter rules.",
+        "secondaryCrossCheck": "The local 5etools MM entry agrees with both printed blocks."
+      }
+    },
+    {
+      "owner": "b04_04",
+      "name": "Giant Badger",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-badger",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_04/portraits/giant-badger.png",
+        "sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Badger",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014",
+        "printedPages": [
+          323
+        ],
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "section": "Appendix A, Miscellaneous Creatures",
+        "artGroup": "giant-badger",
+        "habitatEvidence": "Editorial search tags based on familiar badger habitat and the printed burrowing speed. The 5etools index classifies it under forest.",
+        "appearanceEvidence": "Editorial description drawn from the original plain-parchment portrait and recognizable animal anatomy. Printed source supplies the species name and size.",
+        "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "separatePrintTextWitness": "https://device.report/m/13db7626b6f97f40f10c702109e155d8a8d1db0d564ddf0a1ad61185e6616171",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/16874-giant-badger",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 324,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "The mirror viewer's page 324 is the book's printed folio 323.",
+        "mmErrataUrl": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "errataEvidence": "The official Monster Manual errata do not list a change to this creature.",
+        "sourceComparison": "The September 2014 first-print Monster Manual and the November 2018 Basic Rules print matching encounter rules.",
+        "secondaryCrossCheck": "The local 5etools MM entry agrees with both printed blocks."
+      }
+    },
+    {
+      "owner": "b04_04",
+      "name": "Giant Bat",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-bat",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_04/portraits/giant-bat.png",
+        "sha256": "c50887fca84051934f81adda8f1fc1424fbc769e860eb76a1d4024502f95b045",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Bat",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Version 1.0, November 2018",
+        "printedPages": [
+          130
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "section": "Chapter 12, Monsters",
+        "artGroup": "giant-bat",
+        "habitatEvidence": "Caves are an editorial inference from familiar bat roosting behavior. Forest and Underdark are habitat tags on the publisher's 2014 digital listing.",
+        "appearanceEvidence": "Editorial description drawn from the original plain-parchment portrait and recognizable animal anatomy. Printed source supplies the species name and size.",
+        "pdfPage": 130,
+        "pdfPages": [
+          130
+        ],
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "pageNumbering": "Printed folio matches the one-based page number of the official .",
+        "sourceComparison": "The September 2014 first-print Monster Manual and the November 2018 Basic Rules print matching encounter rules.",
+        "secondaryCrossCheck": "The local 5etools MM entry agrees with both printed blocks.",
+        "visualSourceEvidence": "The first-print scan on folio 323 begins Giant Bat at lower left and continues at upper right. The upper-right column visibly prints Echolocation and Keen Hearing above Bite. The mirror text extraction drops the two opening lines. The 2018 and official legacy digital Basic Rules page agree with the print scan."
+      }
+    },
+    {
+      "owner": "b04_04",
+      "name": "Giant Bat",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-bat",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_04/portraits/giant-bat.png",
+        "sha256": "c50887fca84051934f81adda8f1fc1424fbc769e860eb76a1d4024502f95b045",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Bat",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014",
+        "printedPages": [
+          323
+        ],
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "section": "Appendix A, Miscellaneous Creatures",
+        "artGroup": "giant-bat",
+        "habitatEvidence": "Caves are an editorial inference from familiar bat roosting behavior. Forest and Underdark are habitat tags on the publisher's 2014 digital listing.",
+        "appearanceEvidence": "Editorial description drawn from the original plain-parchment portrait and recognizable animal anatomy. Printed source supplies the species name and size.",
+        "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
+        "separatePrintTextWitness": "https://device.report/m/13db7626b6f97f40f10c702109e155d8a8d1db0d564ddf0a1ad61185e6616171",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/16875-giant-bat",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 324,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "The mirror viewer's page 324 is the book's printed folio 323.",
+        "mmErrataUrl": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "errataEvidence": "The official Monster Manual errata do not list a change to this creature.",
+        "sourceComparison": "The September 2014 first-print Monster Manual and the November 2018 Basic Rules print matching encounter rules.",
+        "secondaryCrossCheck": "The local 5etools MM entry agrees with both printed blocks.",
+        "visualSourceEvidence": "The first-print scan on folio 323 begins Giant Bat at lower left and continues at upper right. The upper-right column visibly prints Echolocation and Keen Hearing above Bite. The mirror text extraction drops the two opening lines. The 2018 and official legacy digital Basic Rules page agree with the print scan."
+      }
+    },
+    {
+      "owner": "b04_05",
+      "name": "Giant Boar",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-boar",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b04_05/portraits/giant-boar.png",
+        "sha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Boar",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0 (November 2018)",
+        "printedPages": [
+          131
+        ],
+        "pageNumbering": "Printed page and one-based page match.",
+        "url": "",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/16876-giant-boar",
+        "verification": "Read the official 2018 .",
+        "appearanceSource": "The printings give Large size and a Tusk attack. Bristles, color, and body proportions are editorial natural-history details in the original portrait.",
+        "habitatSource": "Forest, grassland and hill are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list."
+      }
+    },
+    {
+      "owner": "b04_05",
+      "name": "Giant Boar",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-boar",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b04_05/portraits/giant-boar.png",
+        "sha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Boar",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          323
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/monsters/16876-giant-boar",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/16876-giant-boar",
+        "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+        "appearanceSource": "The printings give Large size and a Tusk attack. Bristles, color, and body proportions are editorial natural-history details in the original portrait.",
+        "habitatSource": "Forest, grassland and hill are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list.",
+        "errataUrl": ""
+      }
+    },
+    {
+      "owner": "b04_05",
+      "name": "Giant Centipede",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-centipede",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_05/portraits/giant-centipede.png",
+        "sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Centipede",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0 (November 2018)",
+        "printedPages": [
+          131
+        ],
+        "pageNumbering": "Printed page and one-based page match.",
+        "url": "",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/16877-giant-centipede",
+        "verification": "Read the official 2018 .",
+        "appearanceSource": "The printings give Small size and a venomous bite. The carapace, antennae and limb colors are original natural-history choices.",
+        "habitatSource": "Underdark and urban are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list."
+      }
+    },
+    {
+      "owner": "b04_05",
+      "name": "Giant Centipede",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-centipede",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_05/portraits/giant-centipede.png",
+        "sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Centipede",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          323
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/monsters/16877-giant-centipede",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/16877-giant-centipede",
+        "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+        "appearanceSource": "The printings give Small size and a venomous bite. The carapace, antennae and limb colors are original natural-history choices.",
+        "habitatSource": "Underdark and urban are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list.",
+        "errataUrl": ""
+      }
+    },
+    {
+      "owner": "b04_05",
+      "name": "Giant Constrictor Snake",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-constrictor-snake",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b04_05/portraits/giant-constrictor-snake.png",
+        "sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Constrictor Snake",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0 (November 2018)",
+        "printedPages": [
+          131
+        ],
+        "pageNumbering": "Printed page and one-based page match.",
+        "url": "",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+        "verification": "Read the official 2018 .",
+        "appearanceSource": "The printings give Huge size, swimming and a constriction attack. Its pythonlike coloration and anatomy are editorial choices for the original portrait.",
+        "habitatSource": "Desert, forest, swamp, Underdark and underwater are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list."
+      }
+    },
+    {
+      "owner": "b04_05",
+      "name": "Giant Constrictor Snake",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-constrictor-snake",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b04_05/portraits/giant-constrictor-snake.png",
+        "sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Constrictor Snake",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          324
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+        "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+        "appearanceSource": "The printings give Huge size, swimming and a constriction attack. Its pythonlike coloration and anatomy are editorial choices for the original portrait.",
+        "habitatSource": "Desert, forest, swamp, Underdark and underwater are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list.",
+        "errataUrl": ""
+      }
+    },
+    {
+      "owner": "b04_06",
+      "name": "Giant Crab",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-crab",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b04_06/portraits/giant-crab.png",
+        "sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Crab",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "printedPages": [
+          131
+        ],
+        "pageNumbering": "Printed folio and one-based page number agree.",
+        "url": "",
+        "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16879-giant-crab",
+        "xp": 25,
+        "xpSource": "Basic Rules (2018), and printed p. 131.",
+        "habitatSource": "Editorial coastal and underwater search tags, informed by the amphibious trait and the animal’s natural habitat. This printing gives no habitat line.",
+        "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+        "sourceDistinctions": [
+          "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. The official Monster Manual errata gives no specific change to the Giant Crab."
+        ],
+        "viewerPages": [
+          131
+        ]
+      }
+    },
+    {
+      "owner": "b04_06",
+      "name": "Giant Crab",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-crab",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b04_06/portraits/giant-crab.png",
+        "sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Crab",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014",
+        "printedPages": [
+          324
+        ],
+        "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16879-giant-crab",
+        "xp": 25,
+        "xpSource": "Monster Manual (2014), printed p. 324.",
+        "habitatSource": "Editorial coastal and underwater search tags, informed by the amphibious trait and the animal’s natural habitat. This printing gives no habitat line.",
+        "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+        "sourceDistinctions": [
+          "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. The official Monster Manual errata gives no specific change to the Giant Crab."
+        ],
+        "viewerPages": [
+          325
+        ],
+        "errataUrl": ""
+      }
+    },
+    {
+      "owner": "b04_06",
+      "name": "Giant Crocodile",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "giant-crocodile",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/b04_06/portraits/giant-crocodile.png",
+        "sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Crocodile",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "printedPages": [
+          132
+        ],
+        "pageNumbering": "Printed folio and one-based page number agree.",
+        "url": "",
+        "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+        "xp": 1800,
+        "xpSource": "Basic Rules (2018), and printed p. 132.",
+        "habitatSource": "Editorial encounter habitats based on crocodile ecology and the printed 50-ft. swim speed. The stat block does not specify a habitat.",
+        "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+        "sourceDistinctions": [
+          "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. The official Monster Manual errata gives no specific change to the Giant Crocodile. The Tail target restriction applies to targets currently grappled by this crocodile."
+        ],
+        "viewerPages": [
+          132
+        ]
+      }
+    },
+    {
+      "owner": "b04_06",
+      "name": "Giant Crocodile",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "giant-crocodile",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/b04_06/portraits/giant-crocodile.png",
+        "sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Crocodile",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014",
+        "printedPages": [
+          324
+        ],
+        "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+        "xp": 1800,
+        "xpSource": "Monster Manual (2014), printed p. 324.",
+        "habitatSource": "Editorial encounter habitats based on crocodile ecology and the printed 50-ft. swim speed. The stat block does not specify a habitat.",
+        "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+        "sourceDistinctions": [
+          "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. The official Monster Manual errata gives no specific change to the Giant Crocodile. The Tail target restriction applies to targets currently grappled by this crocodile."
+        ],
+        "viewerPages": [
+          325
+        ],
+        "errataUrl": ""
+      }
+    },
+    {
+      "owner": "b04_06",
+      "name": "Giant Eagle",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-eagle",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_06/portraits/giant-eagle.png",
+        "sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Eagle",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "printedPages": [
+          132
+        ],
+        "pageNumbering": "Printed folio and one-based page number agree.",
+        "url": "",
+        "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+        "xp": 200,
+        "xpSource": "Basic Rules (2018), and printed p. 132.",
+        "habitatSource": "Editorial raptor habitat and encounter tags. The Monster Manual describes nests without specifying a region.",
+        "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+        "sourceDistinctions": [
+          "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. Auran and Common are understood. The eagle speaks Giant Eagle.",
+          "The official Monster Manual errata gives no specific change to the Giant Eagle.",
+          "The 2018 Basic Rules keeps the short language description and omits the Monster Manual nesting passage."
+        ],
+        "viewerPages": [
+          132
+        ]
+      }
+    },
+    {
+      "owner": "b04_06",
+      "name": "Giant Eagle",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-eagle",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_06/portraits/giant-eagle.png",
+        "sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Eagle",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014",
+        "printedPages": [
+          324
+        ],
+        "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+        "xp": 200,
+        "xpSource": "Monster Manual (2014), printed p. 324.",
+        "habitatSource": "Editorial raptor habitat and encounter tags. The Monster Manual describes nests without specifying a region.",
+        "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+        "sourceDistinctions": [
+          "The 2018 Basic Rules and 2014 Monster Manual mechanics agree. Auran and Common are understood. The eagle speaks Giant Eagle.",
+          "The official Monster Manual errata gives no specific change to the Giant Eagle.",
+          "The nest details come from the Monster Manual prose after the stat block."
+        ],
+        "viewerPages": [
+          325
+        ],
+        "errataUrl": ""
+      }
+    },
+    {
+      "owner": "b04_07",
+      "name": "Giant Elk",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-elk",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b04_07/portraits/giant-elk.png",
+        "sha256": "7c4d9668b327a21ce3b19ebb2f822f2d59f574ec743deb242a13eacc6ef84670",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Elk",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "url": "",
+        "sourceUrl": "",
+        "pdfPage": 132,
+        "printedPages": [
+          132
+        ],
+        "sourceHeading": "Giant Elk",
+        "section": "Chapter 12: Monsters",
+        "pageNumbering": "Printed folio and page agree.",
+        "appearanceEvidence": "Both entries identify the creature as an unusually large elk. The coloration and branching antler details come from the original portrait.",
+        "habitatEvidence": "Forests, meadows, and mountain slopes are editorial search tags for an elk. Neither printed creature description assigns specific terrain.",
+        "sourceDistinctions": [
+          "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+          "Both editions leave the damage type unlabelled in Charge. Ram itself is bludgeoning."
+        ],
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "artGroup": "giant-elk",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_07",
+      "name": "Giant Elk",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-elk",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b04_07/portraits/giant-elk.png",
+        "sha256": "7c4d9668b327a21ce3b19ebb2f822f2d59f574ec743deb242a13eacc6ef84670",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Elk",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 Monster Manual",
+        "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+        "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+        "printedPages": [
+          325
+        ],
+        "sourceHeading": "Giant Elk",
+        "section": "Appendix A: Miscellaneous Creatures",
+        "pageNumbering": "Printed folio 325 corresponds to page 326 in the mobile reader.",
+        "appearanceEvidence": "Both entries identify the creature as an unusually large elk. The coloration and branching antler details come from the original portrait.",
+        "habitatEvidence": "Forests, meadows, and mountain slopes are editorial search tags for an elk. Neither printed creature description assigns specific terrain.",
+        "sourceDistinctions": [
+          "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+          "Both editions leave the damage type unlabelled in Charge. Ram itself is bludgeoning."
+        ],
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "artGroup": "giant-elk"
+      }
+    },
+    {
+      "owner": "b04_07",
+      "name": "Giant Fire Beetle",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "giant-fire-beetle",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b04_07/portraits/giant-fire-beetle.png",
+        "sha256": "47a8ac3d770c6807dbce160373c8b7dc38a34c6cb8a9d053572da11e72767006",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Fire Beetle",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "url": "",
+        "sourceUrl": "",
+        "pdfPage": 132,
+        "printedPages": [
+          132
+        ],
+        "sourceHeading": "Giant Fire Beetle",
+        "section": "Chapter 12: Monsters",
+        "pageNumbering": "Printed folio and page agree.",
+        "appearanceEvidence": "Both descriptions mention two luminous glands. Their color, position, and the shell details in the original portrait are editorial.",
+        "habitatEvidence": "Basic Rules p. 132 calls it nocturnal. Underground and dark forests are editorial tags for this record based on the explicit Monster Manual p. 325 description.",
+        "sourceDistinctions": [
+          "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+          "The 1d6-day light duration after death appears in the description in both printings."
+        ],
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "artGroup": "giant-fire-beetle",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_07",
+      "name": "Giant Fire Beetle",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "giant-fire-beetle",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b04_07/portraits/giant-fire-beetle.png",
+        "sha256": "47a8ac3d770c6807dbce160373c8b7dc38a34c6cb8a9d053572da11e72767006",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Fire Beetle",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 Monster Manual",
+        "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+        "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+        "printedPages": [
+          325
+        ],
+        "sourceHeading": "Giant Fire Beetle",
+        "section": "Appendix A: Miscellaneous Creatures",
+        "pageNumbering": "Printed folio 325 corresponds to page 326 in the mobile reader.",
+        "appearanceEvidence": "Both descriptions mention two luminous glands. Their color, position, and the shell details in the original portrait are editorial.",
+        "habitatEvidence": "Monster Manual p. 325 explicitly states underground and dark forests.",
+        "sourceDistinctions": [
+          "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+          "The 1d6-day light duration after death appears in the description in both printings."
+        ],
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "artGroup": "giant-fire-beetle"
+      }
+    },
+    {
+      "owner": "b04_07",
+      "name": "Giant Frog",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-frog",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_07/portraits/giant-frog.png",
+        "sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Frog",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "url": "",
+        "sourceUrl": "",
+        "pdfPage": 133,
+        "printedPages": [
+          133
+        ],
+        "sourceHeading": "Giant Frog",
+        "section": "Chapter 12: Monsters",
+        "pageNumbering": "Printed folio and page agree.",
+        "appearanceEvidence": "The block identifies a giant frog with a standing leap. The mottled body, wide mouth, webbed feet, and color palette are editorial portrait details.",
+        "habitatEvidence": "Wetlands, ponds, and marshes are editorial habitats inferred from its Amphibious trait and swimming speed.",
+        "sourceDistinctions": [
+          "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+        ],
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "artGroup": "giant-frog",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_07",
+      "name": "Giant Frog",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-frog",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_07/portraits/giant-frog.png",
+        "sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Frog",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 Monster Manual",
+        "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+        "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+        "printedPages": [
+          325
+        ],
+        "sourceHeading": "Giant Frog",
+        "section": "Appendix A: Miscellaneous Creatures",
+        "pageNumbering": "Printed folio 325 corresponds to page 326 in the mobile reader.",
+        "appearanceEvidence": "The block identifies a giant frog with a standing leap. The mottled body, wide mouth, webbed feet, and color palette are editorial portrait details.",
+        "habitatEvidence": "Wetlands, ponds, and marshes are editorial habitats inferred from its Amphibious trait and swimming speed.",
+        "sourceDistinctions": [
+          "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+        ],
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "artGroup": "giant-frog"
+      }
+    },
+    {
+      "owner": "b04_08",
+      "name": "Giant Goat",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "giant-goat",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b04_08/portraits/giant-goat.png",
+        "sha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Goat",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules, Version 1.0 (2018)",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          133
+        ],
+        "viewerPages": [
+          133
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "artGroup": "giant-goat",
+        "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+        "habitatEvidence": "Editorial habitat suggestions for an enlarged mountain goat. The habitat tags do not come from the printed stat blocks.",
+        "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+        "mechanicsNotes": [
+          "Charge adds damage on the hit. The DC 13 Strength save applies to a creature and only prevents prone. Sure-Footed covers Strength and Dexterity saves against falling prone."
+        ],
+        "pdfPage": 133,
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_08",
+      "name": "Giant Goat",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "giant-goat",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b04_08/portraits/giant-goat.png",
+        "sha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Goat",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "2014 Monster Manual",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          326
+        ],
+        "viewerPages": [
+          328
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "artGroup": "giant-goat",
+        "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+        "habitatEvidence": "Editorial habitat suggestions for an enlarged mountain goat. The habitat tags do not come from the printed stat blocks.",
+        "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+        "mechanicsNotes": [
+          "Charge adds damage on the hit. The DC 13 Strength save applies to a creature and only prevents prone. Sure-Footed covers Strength and Dexterity saves against falling prone."
+        ],
+        "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "officialErrata": "",
+        "errataEvidence": "Monster Manual errata v2.0 lists no change to the Giant Goat block."
+      }
+    },
+    {
+      "owner": "b04_08",
+      "name": "Giant Hyena",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-hyena",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_08/portraits/giant-hyena.png",
+        "sha256": "e79074ef555e40476e5421598c04d12275d705c347c1d518118f1db43eb7e59b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Hyena",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules, Version 1.0 (2018)",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          133
+        ],
+        "viewerPages": [
+          133
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "artGroup": "giant-hyena",
+        "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+        "habitatEvidence": "Editorial habitat suggestions based on the spotted hyena chosen for the portrait. The printed stat blocks supply no habitat list.",
+        "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+        "mechanicsNotes": [
+          "Rampage triggers on the hyena’s turn and costs its bonus action. It uses half its current speed and includes a Bite."
+        ],
+        "pdfPage": 133,
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_08",
+      "name": "Giant Hyena",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-hyena",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_08/portraits/giant-hyena.png",
+        "sha256": "e79074ef555e40476e5421598c04d12275d705c347c1d518118f1db43eb7e59b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Hyena",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "2014 Monster Manual",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          326
+        ],
+        "viewerPages": [
+          328
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "artGroup": "giant-hyena",
+        "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+        "habitatEvidence": "Editorial habitat suggestions based on the spotted hyena chosen for the portrait. The printed stat blocks supply no habitat list.",
+        "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+        "mechanicsNotes": [
+          "Rampage triggers on the hyena’s turn and costs its bonus action. It uses half its current speed and includes a Bite."
+        ],
+        "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "officialErrata": "",
+        "errataEvidence": "Monster Manual errata v2.0 lists no change to the Giant Hyena block."
+      }
+    },
+    {
+      "owner": "b04_08",
+      "name": "Giant Lizard",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-lizard",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_08/portraits/giant-lizard.png",
+        "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Lizard",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules, Version 1.0 (2018)",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          134
+        ],
+        "viewerPages": [
+          134
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "artGroup": "giant-lizard",
+        "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+        "habitatEvidence": "Both books describe use by Underdark residents. Caverns, woodland, and wetlands are editorial encounter placements.",
+        "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+        "mechanicsNotes": [
+          "The base Giant Lizard figures and Bite match. The Monster Manual adds optional traits in a sidebar on the same folio. The 2018 Basic Rules block has only walk and climb speeds."
+        ],
+        "pdfPage": 134,
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_08",
+      "name": "Giant Lizard",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-lizard",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b04_08/portraits/giant-lizard.png",
+        "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Lizard",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "2014 Monster Manual",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          326
+        ],
+        "viewerPages": [
+          328
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "artGroup": "giant-lizard",
+        "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+        "habitatEvidence": "Both books describe use by Underdark residents. Caverns, woodland, and wetlands are editorial encounter placements.",
+        "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+        "mechanicsNotes": [
+          "The base Giant Lizard figures and Bite match. The Monster Manual adds optional traits in a sidebar on the same folio. The 2018 Basic Rules block has only walk and climb speeds."
+        ],
+        "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "officialErrata": "",
+        "errataEvidence": "Monster Manual errata v2.0 lists no change to the Giant Lizard block."
+      }
+    },
+    {
+      "owner": "b04_09",
+      "name": "Giant Octopus",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-octopus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_09/portraits/giant-octopus.png",
+        "sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Octopus",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Version 1.0, 2018",
+        "printedPages": [
+          134
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "officialIndex": "https://www.dndbeyond.com/monsters/16888-giant-octopus",
+        "appearanceEvidence": "Editorial description of the selected original portrait. The mantle and arms use the giant Pacific octopus as a visual model.",
+        "habitatEvidence": "The official listing identifies Underwater. Rocky reefs and kelp forests are editorial encounter habitats based on the animal used as the visual model.",
+        "habitatSourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/giant-pacific-octopus",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "visionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring#VisionandLight",
+        "monsterGrappleRules": "",
+        "pdfPage": 134,
+        "pdfPageNumbering": "One-based numbering matches the printed folio.",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+      }
+    },
+    {
+      "owner": "b04_09",
+      "name": "Giant Octopus",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-octopus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b04_09/portraits/giant-octopus.png",
+        "sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Octopus",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 fifth-edition book",
+        "printedPages": [
+          326
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
+        "officialIndex": "https://www.dndbeyond.com/monsters/16888-giant-octopus",
+        "appearanceEvidence": "Editorial description of the selected original portrait. The mantle and arms use the giant Pacific octopus as a visual model.",
+        "habitatEvidence": "The official listing identifies Underwater. Rocky reefs and kelp forests are editorial encounter habitats based on the animal used as the visual model.",
+        "habitatSourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/giant-pacific-octopus",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "visionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring#VisionandLight",
+        "monsterGrappleRules": "",
+        "viewerPage": 327,
+        "pageNumbering": "Printed page 326 is viewer sheet 327.",
+        "errataUrl": "",
+        "errata": "No correction to the Giant Octopus is listed."
+      }
+    }
+  ]
+}

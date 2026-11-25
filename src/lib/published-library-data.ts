@@ -1,4 +1,7 @@
-import catalog from './published-library-catalog.json'
+import entries from './published-library-catalog/entries.json'
+import monstersAtoF from './published-library-catalog/monsters-a-f.json'
+import monstersGtoP from './published-library-catalog/monsters-g-p.json'
+import monstersQtoZ from './published-library-catalog/monsters-q-z.json'
 import type { LibraryType } from './published-library-routing'
 import type { AbilityKind } from './stat-block'
 
@@ -36,4 +39,9 @@ type LibraryRecord = {
   printings: readonly [LibraryPrinting, ...LibraryPrinting[]]
 }
 
-export const publishedLibrary = catalog as unknown as readonly LibraryRecord[]
+export const publishedLibrary = [
+  ...entries,
+  ...monstersAtoF,
+  ...monstersGtoP,
+  ...monstersQtoZ,
+] as unknown as readonly LibraryRecord[]

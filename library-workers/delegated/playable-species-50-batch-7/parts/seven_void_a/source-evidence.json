@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Axon",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/axon",
+    "page": "Chapter 1, Origins, Axon traits, gifts, and paragon",
+    "provenance": "Original published A5E player heritage, from the publisher’s Voidrunner Codex rules.",
+    "publisherUrl": "https://enpublishingrpg.com/products/vo",
+    "supportingRules": {
+      "characterCreation": "https://a5e.tools/rules/character-creation",
+      "class": "https://a5e.tools/rules/scout",
+      "culture": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-cultures/drifter",
+      "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/salvager",
+      "destiny": "https://a5e.tools/node/4222",
+      "passiveChecks": "https://a5e.tools/rules/ability-checks",
+      "decks": "https://a5e.tools/rules/star-captains-manual"
+    }
+  },
+  {
+    "name": "Grey",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/grey",
+    "page": "Chapter 1, Origins, Grey traits, gifts, and paragon",
+    "provenance": "Original published A5E player heritage, from the publisher’s Voidrunner Codex rules.",
+    "publisherUrl": "https://enpublishingrpg.com/products/vo",
+    "supportingRules": {
+      "characterCreation": "https://a5e.tools/rules/character-creation",
+      "class": "https://a5e.tools/rules/psion",
+      "culture": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-cultures/enlightened",
+      "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/diplomat",
+      "destiny": "https://a5e.tools/node/4223",
+      "armor": "https://a5e.tools/rules/voidrunner-armor",
+      "binding": "https://a5e.tools/node/3946",
+      "bolster": "https://a5e.tools/node/3948",
+      "emote": "https://a5e.tools/node/3962",
+      "empathicSense": "https://a5e.tools/node/3963",
+      "farsight": "https://a5e.tools/node/3967"
+    }
+  },
+  {
+    "name": "Houseki",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/houseki",
+    "page": "Chapter 1, Origins, Houseki traits, gifts, and paragon",
+    "provenance": "Original published A5E player heritage, from the publisher’s Voidrunner Codex rules.",
+    "publisherUrl": "https://enpublishingrpg.com/products/vo",
+    "supportingRules": {
+      "characterCreation": "https://a5e.tools/rules/character-creation",
+      "class": "https://a5e.tools/rules/scientist",
+      "archetype": "https://a5e.tools/node/3830",
+      "culture": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-cultures/belter",
+      "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/miner",
+      "destiny": "https://a5e.tools/node/4223",
+      "armor": "https://a5e.tools/rules/voidrunner-armor",
+      "weapon": "https://a5e.tools/rules/voidrunner-weapons",
+      "toolkits": "https://a5e.tools/rules/voidrunner-toolkits"
+    }
+  },
+  {
+    "name": "Hurroc",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "url": "https://a5e.tools/rules/hurroc",
+    "page": "Chapter 1, Origins, Hurroc traits, gifts, and paragon",
+    "provenance": "Original published A5E player heritage, from the publisher’s Voidrunner Codex rules.",
+    "publisherUrl": "https://enpublishingrpg.com/products/vo",
+    "supportingRules": {
+      "characterCreation": "https://a5e.tools/rules/character-creation",
+      "class": "https://a5e.tools/rules/trooper",
+      "culture": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-cultures/militant",
+      "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/soldier",
+      "destiny": "https://a5e.tools/node/4224",
+      "armor": "https://a5e.tools/rules/voidrunner-armor",
+      "shield": "https://a5e.tools/rules/voidrunner-shields",
+      "weapon": "https://a5e.tools/rules/voidrunner-weapons"
+    }
+  }
+]

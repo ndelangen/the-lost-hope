@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "seahorse-giant",
+    "name": "Seahorse, Giant",
+    "entryId": "beast-37303a29e8274d8789a5f0b1",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One gigantic fantasy seahorse with credible seahorse anatomy. Body oriented upright, slight three-quarter turn, the whole silhouette clearly visible. Curved narrow head with tapered tubular snout, angular knobby little coronet, armored plate-like rings along a thick upper torso tapering to fully visible curled prehensile tail. Light delicate translucent dorsal fin on back, restrained spiked ridges along crest and neck based on the second reference. Sulfur olive-green and muted antique yellow-ochre underbelly with subtle teal flecks, highly detailed natural shading. No horse legs or additional appendages, no sail or dragon wings, no bubbles or water setting, no rider or gear. New quiet poised composition with loose tail curl and blank margins.",
+    "prompt": "One original square 1254 by 1254 illustration for a tabletop bestiary. Match the FIRST reference's house style: finely drawn sepia ink, detailed muted gouache and colored pencil, warm amber-golden mottled parchment edge to edge, subdued ground contact shadow for a natural history specimen. Complete subject with good readable silhouette and comfortable margins around every extremity. No background scene, frames, signature, decorative text or extra figures. Ignore round border in second image. One gigantic fantasy seahorse with credible seahorse anatomy. Body oriented upright, slight three-quarter turn, the whole silhouette clearly visible. Curved narrow head with tapered tubular snout, angular knobby little coronet, armored plate-like rings along a thick upper torso tapering to fully visible curled prehensile tail. Light delicate translucent dorsal fin on back, restrained spiked ridges along crest and neck based on the second reference. Sulfur olive-green and muted antique yellow-ochre underbelly with subtle teal flecks, highly detailed natural shading. No horse legs or additional appendages, no sail or dragon wings, no bubbles or water setting, no rider or gear. New quiet poised composition with loose tail curl and blank margins.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry artwork"
+  },
+  {
+    "slug": "shark-giant",
+    "name": "Shark, Giant",
+    "entryId": "beast-72f1f2994f360b572d2fd21e",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One immense naturalistic megalodon-like shark, stocky torpedo body, massive broad blunt triangular head, slate blue-gray dorsal coloring, weathered gray green shading, pale cream underside, lateral gill slits, black alert eye. Correct shark fin attachments: distinct dorsal fin, two tapering pectoral fins, full powerful tall crescent tail. Slightly parted jaw just enough to glimpse a sparse natural row of pointed triangular teeth, no giant smile. Swimming diagonally forward in a convincing oblique three-quarter profile, full body and tail in frame, majestic threatening stillness. No bubbles, sea floor, water, gore, prey, human divers, or scenery. The second reference establishes color and morphology only; design a distinct pose.",
+    "prompt": "One original square 1254 by 1254 illustration for a tabletop bestiary. Match the FIRST reference's house style: finely drawn sepia ink, detailed muted gouache and colored pencil, warm amber-golden mottled parchment edge to edge, subdued ground contact shadow for a natural history specimen. Complete subject with good readable silhouette and comfortable margins around every extremity. No background scene, frames, signature, decorative text or extra figures. Ignore round border in second image. One immense naturalistic megalodon-like shark, stocky torpedo body, massive broad blunt triangular head, slate blue-gray dorsal coloring, weathered gray green shading, pale cream underside, lateral gill slits, black alert eye. Correct shark fin attachments: distinct dorsal fin, two tapering pectoral fins, full powerful tall crescent tail. Slightly parted jaw just enough to glimpse a sparse natural row of pointed triangular teeth, no giant smile. Swimming diagonally forward in a convincing oblique three-quarter profile, full body and tail in frame, majestic threatening stillness. No bubbles, sea floor, water, gore, prey, human divers, or scenery. The second reference establishes color and morphology only; design a distinct pose.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry artwork"
+  }
+]

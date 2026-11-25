@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Faenare",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Top Ballista (PC2, 1989)",
+    "traits": [
+      "A birdfolk race-as-class with elfin features, feathered wing-arms and gripping talons. Faenare fly 360 ft per exploration turn or 120 ft per combat round, speak with natural birds and are immune to harpy song.",
+      "A young Faenare starts at −4,000 XP, 1d8 and natural AC 7. Teens gain the lightning ward and a first-level spell. At 0 XP the mature creature has 2d8, natural AC 6 and two first-level shaman spells. Wisdom 12 or lower caps advancement at maturity.",
+      "Faenare save as Elves. Wisdom and Charisma are prime requisites. Faenare with Wisdom 15 or higher can become windsingers and prepare songs in ordinary shaman spell slots. Each windsong takes two uninterrupted rounds.",
+      "Five or more mature Faenare can sing a group blessing once daily. Natural birds will not attack a Faenare, and the adult racial rules give a +4 bonus on saves against air-based effects."
+    ]
+  },
+  {
+    "name": "Skygnome",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Top Ballista (PC2, 1989)",
+    "traits": [
+      "The flying-city lineage of the Gnome race-as-class. Skygnomes rely on flying mounts, platforms and machines. They begin with 1d8 and natural AC 9 at 0 XP and take Dexterity as their prime requisite.",
+      "Skygnomes see with infravision to 90 ft, get +1 on saves against air or electrical attacks, and improve AC by 1 against opponents larger than a human. Machinery Ability Checks get a favorable −1 to the roll.",
+      "Sky sense begins at 50% per estimate. Aboard something that flies, a Skygnome can judge altitude, speed, maneuver safety or whether weather is magical. Each three levels adds 10 percentage points to a maximum of 90%.",
+      "At 4,000 XP Skygnome level 2 has 3d8 and a Dexterity-adjusted save to catch themself before an accidental fall of more than 10 ft in the sky. Air saves improve at level 5 and aerial servant becomes available weekly at level 8.",
+      "Skygnomes save as Dwarves. A Skygnome with the required Intelligence or Wisdom may train as a wicca or shaman, with a separate spellcasting progression."
+    ],
+    "parentSpecies": "Gnome"
+  },
+  {
+    "name": "Gremlin",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Top Ballista (PC2, 1989)",
+    "traits": [
+      "A small race-as-class that hides in settlements and uses a chaotic aura to make small events go wrong. Dexterity is the prime requisite. Armor is impractical, and the preferred weapons are a tiny 1d3 dagger and sling.",
+      "A young Gremlin starts at −3,000 XP with 1d8, natural AC 7 and a 5 ft aura. At maturity (0 XP) the radius reaches 8 ft. Improving the XP tier increases the aura radius and changes enemy saves, self-hits, hit points and hiding chances independently.",
+      "At level 3 and 21,000 XP the aura reaches 14 ft. Enemies get +1 on saves to resist the Gremlin’s magic or aura. A foe who misses the Gremlin must repeat the attack against themself at −2.",
+      "Level 3 grants Leg Whip twice daily. The Gremlin also has a 50% chance to hide in crannies, +2 to saves against mental control and illusions, a longer leap, and ignores the first 20 ft of a fall. Gremlins save as Elves and cannot become shamans or wiccas."
+    ]
+  },
+  {
+    "name": "Nagpa",
+    "kind": "species",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Top Ballista (PC2, 1989)",
+    "traits": [
+      "Vulture-headed scholars and solitary spellworkers. Intelligence and Wisdom are prime requisites. A young Nagpa starts far below 0 XP at −1,100,000 XP, with 2d8, natural AC 7 and one daily use each of Darkness, Paralysis and Create Flames.",
+      "Additional negative-XP tiers grant more Hit Dice and daily uses, unlock Phantasmal Force, and improve the natural AC. The mature tier at 0 XP gives 9d8, natural AC 4 and +2 on saves. Named levels start later, with level 1 at 300,000 XP.",
+      "Nagpa make saves as Magic-Users and cannot train as wiccas or shamans. Their power comes from the innate progression. The corruption ability is reserved for Chaotic Nagpa NPCs.",
+      "Every afternoon a Nagpa must set aside half an hour for kariwa, a waking reverie. Missing it risks an involuntary sleep at the following dawn. Nagpa gain extra Knowledge Skills and learn new languages through study."
+    ]
+  }
+]

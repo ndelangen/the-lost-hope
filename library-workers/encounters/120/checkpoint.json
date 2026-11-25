@@ -1,0 +1,38 @@
+{
+  "commit": "6b0e36c",
+  "batch": 120,
+  "verification": {
+    "testsPassed": 906,
+    "productionBuild": true,
+    "browser": {
+      "entryId": "monster-4d970cbc6624954c40ca085f",
+      "versionKey": "21ae75d2169d1dd1e7fc8d2e",
+      "artHash": "5775594c81531c6097e75806a87cbc4f64819179e1762e8be8ed632e7da1e261",
+      "art": {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      },
+      "stats": {
+        "Armor class": "13",
+        "Hit points": "157",
+        "Hit dice": "15d12 + 60",
+        "Challenge": "8",
+        "Type": "Giant",
+        "Speed": "30 ft.",
+        "XP": "3900",
+        "Str": "24",
+        "Dex": "10",
+        "Con": "18",
+        "Int": "12",
+        "Wis": "12",
+        "Cha": "16"
+      },
+      "linkedTerms": [
+        "Blinded",
+        "Deafened",
+        "Wish"
+      ]
+    },
+    "publisherArtMatchesBaseline": true
+  }
+}

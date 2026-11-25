@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Dream Dwarf",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid (Dwarf). +2 Constitution and −2 Dexterity. Base land speed 20 ft., retained in medium or heavy armor and under a medium or heavy load.",
+      "Darkvision sees in black and white out to 90 ft.",
+      "Stonecunning gives +2 racial on Search checks for unusual stonework, including material disguised as stone. A Dream Dwarf who comes within 10 ft. of unusual stonework can make a Search check as if actively looking.",
+      "Stonecunning also lets the dwarf Search for stonework traps as a rogue can and estimate approximate depth underground.",
+      "Weapon Familiarity treats dwarven waraxes and dwarven urgroshes as martial weapons.",
+      "Stability adds +4 on ability checks to resist bull rush or trip while standing firmly on the ground.",
+      "+2 racial bonus on Diplomacy checks with creatures of the earth subtype.",
+      "Dream Sight (Su) sees ethereal creatures as readily as material creatures. Ethereal creatures look translucent and indistinct, so the dwarf can tell them apart.",
+      "Spell Power adds +1 to effective caster level for divinations or spells with the earth descriptor when in contact with the ground. Apply the increase to level-dependent effects and caster level checks. It stacks with other Spell Power abilities.",
+      "Common and Dwarven are automatic. Bonus languages are Draconic, Elven, Gnome, Terran, and Undercommon. Favored class Druid. The entry lists no racial Hit Dice or level adjustment."
+    ]
+  }
+]

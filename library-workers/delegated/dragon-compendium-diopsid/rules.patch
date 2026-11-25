@@ -1,0 +1,154 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -312405,6 +312405,24 @@
+       ]
+     },
+     {
++      "name": "Diopsid",
++      "kind": "species",
++      "publication": "Dragon Compendium, Volume I (2005)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Monstrous Humanoid. +2 Constitution, −2 Dexterity, −2 Intelligence. Base land speed 30 ft. Darkvision 60 ft. Carapace gives +4 natural armor. Humanoid-only effects such as charm person and hold person do not affect Diopsids.",
++        "Bioluminescence can be lit or doused at will as a free action. It sheds light in a 10-ft. radius and shadowy illumination for 20 ft. beyond that.",
++        "Wings can be unfurled as an immediate action to descend at 60 ft. per round without falling damage. They grant no flight. A paralyzed, unconscious, or otherwise incapacitated Diopsid cannot use them.",
++        "Two strong primary arms and two weaker supporting arms. With the lower arms available for support, wield a weapon up to one size category larger without the normal size penalty. A Large longsword can be held by one primary arm and steadied by its matching lower arm.",
++        "Using all four hands, wield two two-handed weapons as a pair. Each gets full two-handed damage, including 1½ times a positive Strength modifier. Use the ordinary two-weapon attack penalties for a non-light off-hand weapon.",
++        "When a primary hand carries an item, an extra weapon used in a lower arm adds only half a positive Strength modifier. Each extra light weapon imposes −4 on all attacks, or −8 if the extra weapon is one-handed. The lower arms alone cannot wield a two-handed weapon. A lower-arm shield applies its armor check penalty to attacks and skill checks even if proficient.",
++        "Limb Symmetry waives the Dexterity prerequisite for feats with “two-weapon” in their name. Other prerequisites still apply. One free hand is enough for somatic components.",
++        "Light armor has no additional racial penalty. Medium armor imposes −2 Dexterity and heavy armor imposes −4 Dexterity. All armor must be custom-made and priced as one size larger. Diopsids do not need sleep and are immune to sleep effects.",
++        "Common and Diopsid are automatic. Bonus languages are Dwarf (Dwarven), Orc, Terran, and Undercommon. The native language uses light signals, including darkvision-only flashes. Spot detects the exchange in place of Listen. Those without bioluminescence can learn to understand and translate it.",
++        "Favored class Barbarian. LA +1. The playable profile adds no racial Hit Dice."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Plane Shift: Amonkhet",
+       "name": "Naga",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1450,6 +1450,82 @@
+       "tactics": "Iriavel can take a coil of line across the broken end of a ropeway by jumping or teleporting. He tells the party which span he can cross before asking them to brace the worn anchor."
+     },
+     {
++      "id": "diopsid-scree-hoist-watch-35e",
++      "title": "Diopsid scree hoist watch, Barbarian 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "type": "Monstrous Humanoid",
++      "ac": 14,
++      "hp": 15,
++      "hitDice": "1d12+3",
++      "initiative": 0,
++      "speed": "40 ft.",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 10,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Climb +7", "Jump +11", "Listen +7", "Spot +3", "Survival +5"],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Diopsid",
++      "traits": [
++        "Neutral good. Unarmored, +4 natural armor. Touch 10, flat-footed 14. BAB +1, grapple +4. Fortitude +5, Reflex +0, Will +1. Alertness gives +2 Listen and Spot. Barbarian illiteracy applies.",
++        "Fast movement adds 10 ft. with his light load and no armor. The 40-ft. speed gives +4 to Jump. His matching lower arm steadies his Large longsword, and it is a one-handed attack for him.",
++        "Immune to sleep effects. Monstrous Humanoid type.",
++        "Wings can be unfurled as an immediate action to descend at 60 ft. per round without falling damage. They grant no flight. A paralyzed, unconscious, or otherwise incapacitated Diopsid cannot use them.",
++        "Bioluminescence can be lit or doused at will as a free action. It sheds light in a 10-ft. radius and shadowy illumination for 20 ft. beyond that."
++      ],
++      "actions": [
++        "Large longsword +4 melee, 2d6+3 slashing, critical 19–20/×2, 5-ft. reach. No oversized attack penalty with the lower arms available for support.",
++        "Javelin +1 ranged, 1d6+3 piercing, critical ×2, 30-ft. increment.",
++        "Rage once per day, at most once per encounter, lasts 8 rounds. STR 20 and CON 20. HP 17, AC 12 (touch 8, flat-footed 12), grapple +6, Fortitude +7, Reflex +0, Will +3. Large longsword +6 for 2d6+5, javelin +1 for 1d6+5. Climb +9 and Jump +13. Remove 2 HP when it ends, then apply fatigue for the rest of the encounter (−2 Strength and Dexterity, no running or charging)."
++      ],
++      "tactics": "Rivet keeps watch beside a scree hoist that has lost a guide chain. He can take the line down to a lower ledge with his wings while the party works the brake. If anything comes over the side, he braces the longsword with his lower hand."
++    },
++    {
++      "id": "diopsid-iron-gantry-guard-35e",
++      "title": "Diopsid iron gantry guard, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "type": "Monstrous Humanoid",
++      "ac": 18,
++      "hp": 13,
++      "hitDice": "1d10+3",
++      "initiative": 5,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 12,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Climb +6", "Jump +6"],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Diopsid",
++      "traits": [
++        "Lawful neutral. Custom studded leather +3, natural armor +4, Dexterity +1. Touch 11, flat-footed 17. BAB +1, grapple +4. Fortitude +5, Reflex +1, Will +1. Armor check penalty −1. Improved Initiative adds +4.",
++        "Limb Symmetry lets this Fighter take Two-Weapon Fighting with Dexterity 12. Both Medium greatswords use two hands and gain 1½ times the Strength bonus. If using both weapons on a full attack, apply −4 to each attack because the off-hand weapon is non-light.",
++        "Immune to sleep effects. Monstrous Humanoid type.",
++        "Wings can be unfurled as an immediate action to descend at 60 ft. per round without falling damage. They grant no flight. A paralyzed, unconscious, or otherwise incapacitated Diopsid cannot use them.",
++        "Bioluminescence can be lit or doused at will as a free action. It sheds light in a 10-ft. radius and shadowy illumination for 20 ft. beyond that."
++      ],
++      "actions": [
++        "One Medium greatsword +4 melee, 2d6+4 slashing, critical 19–20/×2, 5-ft. reach.",
++        "Full attack with two greatswords, +0/+0 melee, 2d6+4 slashing each, critical 19–20/×2, 5-ft. reach. This uses all four hands.",
++        "Javelin +2 ranged, 1d6+3 piercing, critical ×2, 30-ft. increment. Free a hand before throwing it."
++      ],
++      "tactics": "Tongs can signal across the gantry with light while the porters cross. If something charges the line, Tongs makes one swing while moving into position and uses both swords only after settling into place."
++    },
++    {
+       "id": "duskling-forest-corridor-watch-35e",
+       "title": "Duskling forest corridor watch, Barbarian 1 substitution",
+       "origin": "Original DM Library NPC",
+@@ -3646,6 +3722,28 @@
+       "hook": "Corven asks the party to lead the climbers down while he keeps the stair clear."
+     },
+     {
++      "species": "Diopsid",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Dragon Compendium, Volume I (2005)",
++      "name": "Rivet",
++      "build": "diopsid-scree-hoist-watch-35e",
++      "role": "Scree hoist watch and Barbarian.",
++      "motive": "Get a new guide chain down to the stranded hoist platform.",
++      "hook": "Rivet can descend with a line while the party controls the hoist brake above."
++    },
++    {
++      "species": "Diopsid",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Dragon Compendium, Volume I (2005)",
++      "name": "Tongs",
++      "build": "diopsid-iron-gantry-guard-35e",
++      "role": "Iron gantry guard and Fighter.",
++      "motive": "Get the porters across before the gantry is closed.",
++      "hook": "Tongs can flash readiness across the gantry and hold the approach while the party moves the last porters."
++    },
++    {
+       "species": "Skarn",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -2394,6 +2394,7 @@
+ Dinosaur, Triceratops	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	5.0
+ Dinosaur, Tyrannosaurus Rex	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	8.0
+ Dinosaur, Velociraptor	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	0.5
++Diopsid	species	Monstrous Humanoid	Dragon Compendium, Volume I (2005)	3.5 edition	Paizo Publishing	https://books.google.com/books/about/Dragon_Compendium.html?id=zeQhAAAACAAJ	
+ Diplomat	monster	Humanoid (Any Lineage)	Castles and Crowns	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	6.0
+ Dire Ape	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		3
+ Dire Badger	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		2

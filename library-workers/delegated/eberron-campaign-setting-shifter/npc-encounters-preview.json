@@ -1,0 +1,355 @@
+{
+  "Shifter": {
+    "profiles": [
+      {
+        "name": "Shifter",
+        "imageKey": "species:shifter",
+        "kind": "species",
+        "type": "",
+        "publication": "Eberron: Forge of the Artificer",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/2048554-shifter",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/52994/775/340/340/638996059017540274.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/2048554-shifter",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Small or Medium.",
+          "Walking speed 30 feet.",
+          "Darkvision 60 feet.",
+          "Source traits include Bestial Instincts, Darkvision, Shifting."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#shifter_efa",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/EFA/Shifter.webp",
+              "artist": "John Thack",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Shifter",
+        "imageKey": "species:shifter",
+        "kind": "species",
+        "type": "",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/260758-shifter",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/7744/803/340/340/637093441072378104.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/260758-shifter",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Medium.",
+          "Walking speed 30 feet.",
+          "Darkvision 60 feet.",
+          "Source traits include Age, Alignment, Size, Speed, Darkvision, Shifting, Languages."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#shifter_erlw",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/ERLW/Shifter%20001.webp",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Shifter",
+        "imageKey": "species:shifter",
+        "kind": "species",
+        "type": "",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/1026402-shifter",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/881/340/340/637880558359995408.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/1026402-shifter",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Medium.",
+          "Walking speed 30 feet.",
+          "Darkvision 60 feet.",
+          "Source traits include Bestial Instincts, Darkvision, Shifting."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#shifter_mpmm",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/MPMM/Shifter.webp",
+              "artist": "Eric Belisle",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Shifter",
+        "imageKey": "species:shifter",
+        "kind": "species",
+        "type": "Humanoid (Shapechanger)",
+        "publication": "Eberron Campaign Setting (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://openlibrary.org/books/OL8144376M",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Humanoid with the Shapechanger subtype. Base land speed 30 ft. +2 Dexterity, −2 Intelligence, −2 Charisma. The setting entry gives no racial Hit Dice or level adjustment.",
+          "Low-light vision doubles human range and preserves color and detail. +2 racial on Balance, Climb, and Jump.",
+          "Common is automatic. Bonus languages are Elven, Gnome, Halfling, and Sylvan. Favored class Ranger.",
+          "Shifting (Su) is a free action once per day. It lasts 3 rounds + the current Constitution modifier, counting an increase from shifting. Each shifter feat adds one round per use, and each pair of shifter feats adds one daily use.",
+          "Choose one of the six original traits at character creation. Its active benefits apply while shifting. Shifting is innate and cannot be transmitted by bites or claws.",
+          "Beasthide gives +2 Constitution and a +2 natural armor bonus to AC.",
+          "Cliffwalk gives +2 Dexterity and a climb speed of 20 ft.",
+          "Longstride gives +2 Dexterity and +10 ft. to base land speed.",
+          "Longtooth gives +2 Strength and a bite with a printed base die of 1d6 and +1 damage per four character levels. Bite once per round. When paired with a weapon, the bite is a secondary natural attack with −5 on the bite attack roll and half the Strength bonus to damage.",
+          "Razorclaw gives +2 Strength and two primary claws with printed base damage 1d4 +1 per four character levels per claw. Use one claw as a standard action or both as a full attack. Each claw attacks at most once per round. In the first printing, using a claw as a light off-hand weapon with a manufactured primary weapon applies −2 to all attacks that round.",
+          "Wildhunt gives +2 Constitution and scent while shifting. Outside shifting, Wildhunt gives +2 to Survival checks.",
+          "Wildhunt scent detects a creature at 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action identifies direction. Within 5 ft., pinpoint the source.",
+          "While shifting, a Wildhunt Shifter with Track can follow scent using Survival. A typical fresh trail is DC 10 and adds +2 per hour, with adjustments for odor and group size. Ignore surface and poor-visibility modifiers."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Shifter",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Eberron Campaign Setting (2004)",
+            "name": "Iona Fernridge",
+            "build": {
+              "id": "shifter-wildhunt-trail-ranger-35e",
+              "title": "Shifter Wildhunt trail ranger, Ranger 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Shapechanger)",
+              "ac": 15,
+              "hp": 10,
+              "hitDice": "1d8+2",
+              "initiative": 3,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 17,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 13,
+                "CHA": 8
+              },
+              "skills": [
+                "Climb +7",
+                "Handle Animal +3",
+                "Jump +7",
+                "Listen +7",
+                "Spot +7",
+                "Survival +7 unshifted, +5 while shifting"
+              ],
+              "senses": "Low-light vision. Scent while shifting.",
+              "languages": "Common",
+              "traits": [
+                "Leather armor +2 and Dexterity +3. Touch 13, flat-footed 12. BAB +1, grapple +2. Fortitude +4, Reflex +5, Will +1.",
+                "Alertness and bonus Track. Wild Empathy +0. Favored enemy magical beasts adds +2 weapon damage and +2 to Bluff, Listen, Sense Motive, Spot and Survival against magical beasts.",
+                "Wildhunt shifts once per day as a free action for 6 rounds. Constitution rises from 14 to 16. HP rises from 10 to 11 and Fortitude from +4 to +5. Remove the 1 bonus HP when shifting ends.",
+                "Wildhunt scent detects a creature at 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action identifies direction. Within 5 ft., pinpoint the source.",
+                "While shifting, a Wildhunt Shifter with Track can follow scent using Survival. A typical fresh trail is DC 10 and adds +2 per hour, with adjustments for odor and group size. Ignore surface and poor-visibility modifiers."
+              ],
+              "actions": [
+                "Short sword +2 melee, 1d6+1 piercing, critical 19–20/×2, 5-ft. reach.",
+                "Longbow +4 ranged, 1d8 piercing, critical ×3, 100-ft. increment."
+              ],
+              "tactics": "Iona follows a fresh scent once the party identifies which equipment belonged to the missing pack train. She saves Wildhunt for the stretch where the trail crosses bare rock."
+            },
+            "role": "Wildhunt trail ranger.",
+            "motive": "Locate a missing pack train before its tracks wash away.",
+            "hook": "Iona can follow a familiar scent across bare stone if the party identifies the right bundle of gear."
+          },
+          {
+            "species": "Shifter",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Eberron Campaign Setting (2004)",
+            "name": "Dane Millward",
+            "build": {
+              "id": "shifter-razorclaw-latchguard-35e",
+              "title": "Shifter Razorclaw latchguard, Fighter 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Shapechanger)",
+              "ac": 15,
+              "hp": 12,
+              "hitDice": "1d10+2",
+              "initiative": 2,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 15,
+                "DEX": 14,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 12,
+                "CHA": 8
+              },
+              "skills": [
+                "Balance +3",
+                "Climb +7, or +8 while shifting",
+                "Jump +7, or +8 while shifting"
+              ],
+              "senses": "Low-light vision.",
+              "languages": "Common",
+              "traits": [
+                "Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +3 or +4 while shifting. Fortitude +4, Reflex +2, Will +1. Armor check penalty −1.",
+                "Weapon Focus (short sword) is the Fighter bonus feat. Healing Factor is a shifter feat. Its extra round makes this shift last 6 rounds. Heal 1 HP when a shift ends while Dane is alive.",
+                "Razorclaw shifts once per day as a free action. Strength rises from 15 to 17 and two claws become available while shifting."
+              ],
+              "actions": [
+                "Short sword +4 melee, 1d6+2 piercing, critical 19–20/×2, 5-ft. reach. While shifting, +5 melee and 1d6+3 piercing if used alone.",
+                "Light crossbow +3 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+                "While shifting, one claw as a standard action or both as a full attack. Each claw is +4 melee, 1d4+3 piercing and slashing.",
+                "First-printing mixed full attack while shifting. Apply −2 to both attacks. Short sword +3 melee for 1d6+3 and light off-hand claw +2 melee for 1d4+1."
+              ],
+              "tactics": "Dane asks the party to secure the mill latch while the repairers file through. He uses Razorclaw if something gets through the gap and switches between a single short sword attack and a two-claw full attack when he has the time and room."
+            },
+            "role": "Razorclaw latchguard and Fighter.",
+            "motive": "Get the repairers through a warped mill gate before it gives way.",
+            "hook": "Dane can keep watch at the opening if the party helps secure the worn latch."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Shifter",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Eberron Campaign Setting (2004)",
+        "name": "Iona Fernridge",
+        "build": {
+          "id": "shifter-wildhunt-trail-ranger-35e",
+          "title": "Shifter Wildhunt trail ranger, Ranger 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Shapechanger)",
+          "ac": 15,
+          "hp": 10,
+          "hitDice": "1d8+2",
+          "initiative": 3,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 17,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 13,
+            "CHA": 8
+          },
+          "skills": [
+            "Climb +7",
+            "Handle Animal +3",
+            "Jump +7",
+            "Listen +7",
+            "Spot +7",
+            "Survival +7 unshifted, +5 while shifting"
+          ],
+          "senses": "Low-light vision. Scent while shifting.",
+          "languages": "Common",
+          "traits": [
+            "Leather armor +2 and Dexterity +3. Touch 13, flat-footed 12. BAB +1, grapple +2. Fortitude +4, Reflex +5, Will +1.",
+            "Alertness and bonus Track. Wild Empathy +0. Favored enemy magical beasts adds +2 weapon damage and +2 to Bluff, Listen, Sense Motive, Spot and Survival against magical beasts.",
+            "Wildhunt shifts once per day as a free action for 6 rounds. Constitution rises from 14 to 16. HP rises from 10 to 11 and Fortitude from +4 to +5. Remove the 1 bonus HP when shifting ends.",
+            "Wildhunt scent detects a creature at 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action identifies direction. Within 5 ft., pinpoint the source.",
+            "While shifting, a Wildhunt Shifter with Track can follow scent using Survival. A typical fresh trail is DC 10 and adds +2 per hour, with adjustments for odor and group size. Ignore surface and poor-visibility modifiers."
+          ],
+          "actions": [
+            "Short sword +2 melee, 1d6+1 piercing, critical 19–20/×2, 5-ft. reach.",
+            "Longbow +4 ranged, 1d8 piercing, critical ×3, 100-ft. increment."
+          ],
+          "tactics": "Iona follows a fresh scent once the party identifies which equipment belonged to the missing pack train. She saves Wildhunt for the stretch where the trail crosses bare rock."
+        },
+        "role": "Wildhunt trail ranger.",
+        "motive": "Locate a missing pack train before its tracks wash away.",
+        "hook": "Iona can follow a familiar scent across bare stone if the party identifies the right bundle of gear."
+      },
+      {
+        "species": "Shifter",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Eberron Campaign Setting (2004)",
+        "name": "Dane Millward",
+        "build": {
+          "id": "shifter-razorclaw-latchguard-35e",
+          "title": "Shifter Razorclaw latchguard, Fighter 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Shapechanger)",
+          "ac": 15,
+          "hp": 12,
+          "hitDice": "1d10+2",
+          "initiative": 2,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 15,
+            "DEX": 14,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 12,
+            "CHA": 8
+          },
+          "skills": [
+            "Balance +3",
+            "Climb +7, or +8 while shifting",
+            "Jump +7, or +8 while shifting"
+          ],
+          "senses": "Low-light vision.",
+          "languages": "Common",
+          "traits": [
+            "Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +3 or +4 while shifting. Fortitude +4, Reflex +2, Will +1. Armor check penalty −1.",
+            "Weapon Focus (short sword) is the Fighter bonus feat. Healing Factor is a shifter feat. Its extra round makes this shift last 6 rounds. Heal 1 HP when a shift ends while Dane is alive.",
+            "Razorclaw shifts once per day as a free action. Strength rises from 15 to 17 and two claws become available while shifting."
+          ],
+          "actions": [
+            "Short sword +4 melee, 1d6+2 piercing, critical 19–20/×2, 5-ft. reach. While shifting, +5 melee and 1d6+3 piercing if used alone.",
+            "Light crossbow +3 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+            "While shifting, one claw as a standard action or both as a full attack. Each claw is +4 melee, 1d4+3 piercing and slashing.",
+            "First-printing mixed full attack while shifting. Apply −2 to both attacks. Short sword +3 melee for 1d6+3 and light off-hand claw +2 melee for 1d4+1."
+          ],
+          "tactics": "Dane asks the party to secure the mill latch while the repairers file through. He uses Razorclaw if something gets through the gap and switches between a single short sword attack and a two-claw full attack when he has the time and room."
+        },
+        "role": "Razorclaw latchguard and Fighter.",
+        "motive": "Get the repairers through a warped mill gate before it gives way.",
+        "hook": "Dane can keep watch at the opening if the party helps secure the worn latch."
+      }
+    ]
+  }
+}

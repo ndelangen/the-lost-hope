@@ -1,0 +1,408 @@
+[
+  {
+    "name": "Spirit Troll",
+    "statBlock": {
+      "name": "Spirit Troll",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 244,
+      "classification": "Large giant, chaotic evil",
+      "ac": 17,
+      "hp": 97,
+      "hitDice": "15d10 + 15",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Psychic trauma can leave a regenerating troll with a shadowlike body. Its teeth and claws can still tear at a creature’s mind.",
+      "skills": {
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Damage resistances": "Acid, cold, fire, lightning and thunder.",
+        "Damage immunities": "Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, prone, restrained and unconscious.",
+        "Traits": "Incorporeal Movement. The troll treats creatures and objects as difficult terrain when it moves through them. It takes 5 (1d10) force damage if it ends its turn inside an object.\nRegeneration. The troll regains 10 hit points at the start of its turn. Psychic or force damage prevents this healing at the start of its next turn. The troll dies only when it starts its turn at 0 hit points and fails to regenerate.",
+        "Actions": "Multiattack. Make one Bite attack and two Claws attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. A hit deals 19 (3d10 + 3) psychic damage. The target must succeed on a DC 15 Wisdom saving throw or be stunned for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one creature. A hit deals 14 (2d10 + 3) psychic damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 244."
+      }
+    }
+  },
+  {
+    "name": "Spring Eladrin",
+    "statBlock": {
+      "name": "Spring Eladrin",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 196,
+      "classification": "Medium fey (elf), chaotic neutral",
+      "ac": 19,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Feywild elf whose exuberance can sweep bystanders into celebration before they realize they are under a spell.",
+      "skills": {
+        "Deception": 8,
+        "Persuasion": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Damage resistances": "Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Traits": "Joyful Presence. A non-eladrin creature that starts its turn within 60 ft. must make a DC 16 Wisdom saving throw. On a failure it is charmed by this eladrin for 1 minute. A success grants immunity to every eladrin’s Joyful Presence for 24 hours. Whenever this eladrin damages the charmed creature, it can repeat the save to end the charm on a success.\nMagic Resistance. The eladrin has advantage on saving throws against spells and other magical effects.",
+        "Innate Spellcasting": "The eladrin uses Charisma (spell save DC 16) and needs no material components.\nAt will. Charm Person, Tasha’s Hideous Laughter.\n3/day each. Confusion, Enthrall, Suggestion.\n1/day each. Hallucinatory Terrain, Otto’s Irresistible Dance.",
+        "Bonus actions": "Fey Step (Recharge 4–6). Teleport up to 30 ft. to an unoccupied space the eladrin can see.",
+        "Actions": "Multiattack. Make two weapon attacks, or make one weapon attack and cast one spell in place of the other attack.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) if wielded with two hands, plus 4 (1d8) psychic damage either way.\nLongbow. Ranged weapon attack, +7 to hit, range 150/600 ft., one target. A hit deals 7 (1d8 + 3) piercing damage and 4 (1d8) psychic damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 196."
+      }
+    }
+  },
+  {
+    "name": "Star Spawn Grue",
+    "statBlock": {
+      "name": "Star Spawn Grue",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 234,
+      "classification": "Small aberration, neutral evil",
+      "ac": 11,
+      "hp": 17,
+      "hitDice": "5d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Spindly, fanged creatures cluster around more powerful star spawn. Their chittering unsettles anyone who comes close.",
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Deep Speech.",
+        "Damage immunities": "Psychic.",
+        "Traits": "Aura of Madness. Non-aberrations within 20 ft. of the grue have disadvantage on saving throws and on attack rolls against any target other than a star spawn grue.",
+        "Actions": "Confounding Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 6 (2d4 + 1) piercing damage. On a failed DC 10 Wisdom saving throw, attack rolls against the target have advantage until the start of the grue’s next turn.",
+        "Tactics": "Keep the grue near creatures facing a seer or larva mage. Its aura weakens their saves against Collapse Distance and Plague of Worms.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 234."
+      }
+    }
+  },
+  {
+    "name": "Star Spawn Hulk",
+    "statBlock": {
+      "name": "Star Spawn Hulk",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 234,
+      "classification": "Large aberration, chaotic evil",
+      "ac": 16,
+      "hp": 136,
+      "hitDice": "13d10 + 65",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A hulking aberration with translucent skin and lidless eyes. It stays close to the seer it protects.",
+      "savingThrows": {
+        "Dex": 3,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Deep Speech.",
+        "Damage resistances": "Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed and frightened.",
+        "Traits": "Psychic Mirror. When the hulk would take psychic damage, each creature within 10 ft. of it takes that damage and the hulk takes none. Magic cannot reveal the hulk’s thoughts or location.",
+        "Actions": "Multiattack. Make two Slam attacks. If both hit the same target, it takes an extra 9 (2d8) psychic damage and must succeed on a DC 17 Constitution saving throw or be stunned until the end of its next turn.\nSlam. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 14 (2d8 + 5) bludgeoning damage.\nReaping Arms (Recharge 5–6). Make one Slam attack against each creature within 10 ft. of the hulk. Any creature hit must also succeed on a DC 17 Dexterity saving throw or fall prone.",
+        "Tactics": "A seer can aim Psychic Orb at the hulk to spread the damage through Psychic Mirror. Keep other allies outside its 10-ft. radius unless they can take the damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 234."
+      }
+    }
+  },
+  {
+    "name": "Star Spawn Larva Mage",
+    "statBlock": {
+      "name": "Star Spawn Larva Mage",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 235,
+      "classification": "Medium aberration, chaotic evil",
+      "ac": 16,
+      "hp": 168,
+      "hitDice": "16d8 + 96",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An emissary of an Elder Evil can overtake a cultist and leave behind a mage whose body comes apart into worms.",
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Deep Speech.",
+        "Damage resistances": "Cold. Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Charmed, frightened, paralyzed, petrified, poisoned and restrained.",
+        "Traits": "Return to Worms. At 0 hit points, the larva mage becomes a Swarm of Insects in its space. It reforms from the swarm 24 hours later if the swarm survives.",
+        "Innate Spellcasting": "The larva mage uses Charisma (spell save DC 16, +8 to hit with spell attacks) and needs no material components.\nAt will. Eldritch Blast (3 beams, +3 damage per beam), Minor Illusion.\n3/day. Dominate Monster.\n1/day. Circle of Death.",
+        "Actions": "Slam. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 7 (1d8 + 3) bludgeoning damage. The target must succeed on a DC 19 Constitution saving throw or be poisoned until the end of its next turn.\nPlague of Worms (Recharge 6). Each creature within 10 ft. that is not a star spawn makes a DC 19 Dexterity saving throw. A failed save deals 22 (5d8) necrotic damage and leaves the creature blinded and restrained. It takes another 22 (5d8) necrotic damage at the start of each of the mage’s turns. The creature can repeat the save at the end of each of its own turns. A success ends the effect on it.",
+        "Reactions": "Feed on Weakness. When a creature within 20 ft. fails a saving throw, the larva mage can gain 10 temporary hit points.",
+        "Legendary actions": "Spend up to 3 legendary actions, choosing one option at the end of another creature’s turn. The mage regains spent legendary actions at the start of its own turn.\nCantrip (2 actions). Cast one cantrip.\nSlam (2 actions). Make one Slam attack.\nFeed (3 actions). Each creature restrained by Plague of Worms takes 13 (3d8) necrotic damage. The mage gains 6 temporary hit points.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 235."
+      }
+    }
+  },
+  {
+    "name": "Star Spawn Mangler",
+    "statBlock": {
+      "name": "Star Spawn Mangler",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 236,
+      "classification": "Medium aberration, chaotic evil",
+      "ac": 14,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Cultists send this many-armed climber to guard dark passages or strike from hiding.",
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 4
+      },
+      "skills": {
+        "Stealth": 7
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Deep Speech.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Charmed, frightened and prone.",
+        "Traits": "Ambush. During the first round of combat, the mangler has advantage on attacks against creatures that have not taken a turn yet.",
+        "Bonus actions": "Shadow Stealth. The mangler can take the Hide action in dim light or darkness as a bonus action.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage. If the attack roll had advantage, it also deals 7 (2d6) psychic damage.\nFlurry of Claws (Recharge 4–6). Make six Claw attacks against one target. As a bonus action, the mangler can move up to its speed immediately before or after the attacks without provoking Opportunity Attacks.",
+        "Tactics": "Against a target that has yet to act, use Flurry of Claws while Ambush can add psychic damage to each hit.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 236."
+      }
+    }
+  },
+  {
+    "name": "Star Spawn Seer",
+    "statBlock": {
+      "name": "Star Spawn Seer",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 236,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 17,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 19,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A seer guides lesser star spawn and distorts space around the creatures it fights.",
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 11,
+        "Wis": 9,
+        "Cha": 8
+      },
+      "skills": {
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Deep Speech, Undercommon.",
+        "Damage resistances": "Cold. Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Charmed and frightened.",
+        "Traits": "Out-of-Phase Movement. The seer crosses creatures and objects as difficult terrain. A creature it passes through takes 5 (1d10) psychic damage, at most once per turn. The seer takes 5 (1d10) force damage if it ends its turn inside an object.",
+        "Actions": "Multiattack. Make two Comet Staff attacks or use Psychic Orb twice.\nComet Staff. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 9 (1d6 + 6) bludgeoning damage, or 10 (1d8 + 6) with two hands, plus 18 (4d8) psychic damage either way. The target must succeed on a DC 19 Constitution saving throw or be incapacitated until the end of its next turn.\nPsychic Orb. Ranged spell attack, +11 to hit, range 120 ft., one target. A hit deals 27 (5d10) psychic damage.\nCollapse Distance (Recharge 6). Choose a creature the seer can see within 30 ft. The target makes a DC 19 Wisdom saving throw. On a failure, the seer teleports the target and its gear up to 60 ft. to an unoccupied space it can see. Every other creature within 10 ft. of the target’s former space takes 39 (6d12) psychic damage. On a success, only the target takes 19 (3d12) psychic damage.",
+        "Reactions": "Bend Space. When an attack would hit the seer, it can swap places by teleporting with another star spawn it can see within 60 ft. The attack hits that star spawn instead.",
+        "Tactics": "Use Bend Space to shift a dangerous hit onto a sturdier ally. Psychic Orb can also trigger a hulk’s Psychic Mirror when enemies surround it.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 236."
+      }
+    }
+  }
+]

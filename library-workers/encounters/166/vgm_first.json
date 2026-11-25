@@ -1,0 +1,454 @@
+[
+  {
+    "name": "Champion",
+    "statBlock": {
+      "name": "Champion",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 212,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 18,
+      "hp": 143,
+      "hitDice": "22d8 + 44",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 16,
+      "description": "A seasoned fighter whose battlefield or arena record makes them influential among soldiers and sought after by rulers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 6
+      },
+      "skills": {
+        "Athletics": 9,
+        "Intimidation": 5,
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Indomitable (2/day). The champion can reroll a failed saving throw.",
+        "Actions": "Multiattack. Make three attacks with a Greatsword or Shortbow.\nGreatsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage. Add 7 (2d6) slashing damage if the champion has more than half of its maximum hit points.\nShortbow. Ranged weapon attack, +6 to hit, range 80/320 ft., one target. A hit deals 5 (1d6 + 2) piercing damage. Add 7 (2d6) piercing damage if the champion has more than half of its maximum hit points.",
+        "Bonus actions": "Second Wind (recharges after a short or long rest). The champion regains 20 hit points.",
+        "Printed source": "Volo's Guide to Monsters, p. 212."
+      }
+    }
+  },
+  {
+    "name": "Chitine",
+    "statBlock": {
+      "name": "Chitine",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 131,
+      "classification": "Small monstrosity, chaotic evil",
+      "ac": 14,
+      "hp": 18,
+      "hitDice": "4d6 + 4",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "A multi-armed scout or warrior of a web-built colony. Chitines serve Lolth and defend their choldrith leaders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Undercommon.",
+        "Traits": "Fey Ancestry. The chitine has advantage on saves against being charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the chitine has disadvantage on attacks and on Wisdom (Perception) checks that depend on sight.\nWeb Sense. While touching a web, the chitine knows the exact location of every other creature touching it.\nWeb Walker. Webbing imposes no movement restrictions on the chitine.",
+        "Actions": "Multiattack. Make three Dagger attacks.\nDagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 131."
+      }
+    }
+  },
+  {
+    "name": "Choldrith",
+    "statBlock": {
+      "name": "Choldrith",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 132,
+      "classification": "Medium monstrosity, chaotic evil",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "A spiderlike priest of Lolth that directs chitine colonies. Choldriths compete for standing and raise more chitines when their sovereign permits it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 5,
+        "Religion": 2,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Studded leather.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Undercommon.",
+        "Traits": "Fey Ancestry. The choldrith has advantage on saves against being charmed. Magic cannot put it to sleep.\nSpider Climb. The choldrith can climb difficult surfaces and cross ceilings upside down without an ability check.\nSunlight Sensitivity. In sunlight, the choldrith has disadvantage on attacks and on Wisdom (Perception) checks that depend on sight.\nWeb Sense. While touching a web, the choldrith knows the exact location of every other creature touching it.\nWeb Walker. Webbing imposes no movement restrictions on the choldrith.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one Large or smaller creature. A hit restrains the target in webbing. The target can use an action to break free with a successful DC 11 Strength check. Attacks can destroy the webbing, which has AC 10, 5 HP, vulnerability to fire damage and immunity to bludgeoning, poison, and psychic damage.",
+        "Spellcasting": "The choldrith is a 4th-level cleric spellcaster using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nCantrips (at will). Guidance, Mending, Resistance, Thaumaturgy.\n1st level (4 slots). Bane, Healing Word, Sanctuary, Shield of Faith.\n2nd level (3 slots). Hold Person, Spiritual Weapon (dagger).",
+        "Printed source": "Volo's Guide to Monsters, p. 132."
+      }
+    }
+  },
+  {
+    "name": "Cloud Giant Smiling One",
+    "statBlock": {
+      "name": "Cloud Giant Smiling One",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 146,
+      "classification": "Huge giant (cloud giant), chaotic neutral",
+      "ac": 15,
+      "hp": 262,
+      "hitDice": "21d12 + 126",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 17,
+      "description": "A cloud giant trickster who prizes deception, illusion, and the advantage of an unexpected form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 10,
+        "Int": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Deception": 11,
+        "Insight": 7,
+        "Perception": 7,
+        "Sleight of Hand": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common, Giant.",
+        "Traits": "Keen Smell. The giant has advantage on Wisdom (Perception) checks that depend on smell.",
+        "Actions": "Multiattack. Make two Morningstar attacks.\nMorningstar. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 21 (3d8 + 8) bludgeoning damage. Add 14 (4d6) bludgeoning damage if the giant had advantage on the attack roll.\nRock. Ranged weapon attack, +12 to hit, range 60/240 ft., one target. A hit deals 30 (4d10 + 8) bludgeoning damage. Add 14 (4d6) bludgeoning damage if the giant had advantage on the attack roll.\nChange Shape. The giant magically becomes a Beast or Humanoid it has seen, or returns to its true form. Its equipment merges with the new form. Size is the only statistic that changes. It returns to its true form when it dies.",
+        "Innate Spellcasting": "The giant uses Charisma (spell save DC 15) and needs no material components.\nAt will. Detect Magic, Fog Cloud, Light.\n3/day each. Feather Fall, Fly, Misty Step, Telekinesis.\n1/day each. Control Weather, Gaseous Form.",
+        "Spellcasting": "The giant is a 5th-level bard spellcaster using Charisma (spell save DC 15, +7 to hit with spell attacks).\nCantrips (at will). Minor Illusion, Prestidigitation, Vicious Mockery.\n1st level (4 slots). Cure Wounds, Disguise Self, Silent Image, Tasha’s Hideous Laughter.\n2nd level (3 slots). Invisibility, Suggestion.\n3rd level (2 slots). Major Image, Tongues.",
+        "Printed source": "Volo's Guide to Monsters, p. 146."
+      }
+    }
+  },
+  {
+    "name": "Conjurer",
+    "statBlock": {
+      "name": "Conjurer",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 212,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "A wizard who brings in extraplanar creatures for protection or war and can summon materials out of thin air.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "sections": {
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Languages": "Any four languages.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Bonus actions": "Benign Transportation. Teleport up to 30 ft. to a visible unoccupied space. The conjurer can instead choose a space in range occupied by a willing Small or Medium creature, swapping places with it. The conjurer regains this option after casting a conjuration spell of 1st level or higher.",
+        "Spellcasting": "The conjurer is a 9th-level wizard spellcaster using Intelligence (spell save DC 14, +6 to hit with spell attacks).\nCantrips (at will). Acid Splash, Mage Hand, Poison Spray, Prestidigitation.\n1st level (4 slots). Mage Armor, Magic Missile, Unseen Servant.\n2nd level (3 slots). Cloud of Daggers, Misty Step, Web.\n3rd level (3 slots). Fireball, Stinking Cloud.\n4th level (3 slots). Evard’s Black Tentacles, Stoneskin.\n5th level (2 slots). Cloudkill, Conjure Elemental.\nThe prepared spells that recharge Benign Transportation are Unseen Servant, Cloud of Daggers, Misty Step, Web, Stinking Cloud, Evard’s Black Tentacles, Cloudkill, and Conjure Elemental.",
+        "Printed source": "Volo's Guide to Monsters, p. 212."
+      }
+    }
+  },
+  {
+    "name": "Darkling",
+    "statBlock": {
+      "name": "Darkling",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 134,
+      "classification": "Small fey, chaotic neutral",
+      "ac": 14,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 15,
+      "description": "A reclusive fey that prefers darkness and fights with a dagger.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Deception": 2,
+        "Perception": 5,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Elvish, Sylvan.",
+        "Traits": "Death Flash. When the darkling dies, its body and possessions burn to ash, with metal and magic objects surviving. The resulting nonmagical flash reaches 10 ft. from the darkling. A creature in that radius that can see the flash must succeed on a DC 10 Constitution save or be blinded until the end of its next turn.\nLight Sensitivity. In bright light, the darkling has disadvantage on attacks and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. Add 7 (2d6) piercing damage if the darkling had advantage on the attack roll.",
+        "Printed source": "Volo's Guide to Monsters, p. 134."
+      }
+    }
+  },
+  {
+    "name": "Darkling Elder",
+    "statBlock": {
+      "name": "Darkling Elder",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 134,
+      "classification": "Medium fey, chaotic neutral",
+      "ac": 15,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 16,
+      "description": "A darkling elder uses magical darkness to set up devastating close-range attacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Deception": 3,
+        "Perception": 6,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Studded leather.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Elvish, Sylvan.",
+        "Traits": "Death Burn. When the elder dies, its body and possessions burn to ash, with metal and magic objects surviving. Magical light flashes out to 10 ft., and every creature in that radius makes a DC 11 Constitution save. On a failure, it takes 7 (2d6) radiant damage and is blinded until the end of its next turn if it can see the flash. A successful save halves the damage and avoids the blindness.",
+        "Actions": "Multiattack. Make two melee attacks.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. Add 10 (3d6) piercing damage if the elder had advantage on the attack roll.\nDarkness (recharges after a short or long rest). Cast Darkness using Wisdom and without components.",
+        "Printed source": "Volo's Guide to Monsters, p. 134."
+      }
+    }
+  },
+  {
+    "name": "Death Kiss",
+    "statBlock": {
+      "name": "Death Kiss",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 124,
+      "classification": "Large aberration, neutral evil",
+      "ac": 16,
+      "hp": 161,
+      "hitDice": "17d10 + 68",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 15,
+      "description": "A floating beholderkin whose ten tentacles hold prey while it feeds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Prone.",
+        "Traits": "Lightning Blood. When a creature within 5 ft. hits the death kiss with a melee attack that deals piercing or slashing damage, that creature takes 5 (1d10) lightning damage.",
+        "Actions": "Multiattack. Make three Tentacle attacks. The death kiss can replace up to three attacks with Blood Drain, with at most one replacement for each tentacle that is grappling a creature.\nTentacle. Melee weapon attack, +8 to hit, reach 20 ft., one target. A hit deals 14 (3d6 + 4) piercing damage. A creature of Huge size or smaller is also grappled (escape DC 14) and stays restrained until the grapple ends. That tentacle cannot attack a different target while the grapple lasts. The death kiss has ten tentacles.\nBlood Drain. A creature grappled by one of the death kiss’s tentacles makes a DC 16 Constitution save. On a failure, it takes 22 (4d10) lightning damage, and the death kiss regains hit points equal to half that damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 124."
+      }
+    }
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Spawn of Kyuss",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      68,
+      69
+    ],
+    "page": "pp. 68–69, Spawn of Kyuss Traits",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+    "sourceDistinctions": "The player worm has no recharge line. A failed save deals 1 piercing immediately. The worm deals 2d6 necrotic at turn end. It has the delayed damage and removal rules in the player block. The encounter-monster spawn effect is absent.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    ]
+  },
+  {
+    "name": "Trapper",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      71
+    ],
+    "page": "p. 71, Trapper Traits",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+    "sourceDistinctions": "The trait block gives blindsight 30 ft. The design notes mention darkvision, which this build does not grant. Run Smother as the printed unarmed strike followed by a separate bonus-action grapple on a hit.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    ]
+  },
+  {
+    "name": "Vargouille",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Fiend",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      71,
+      72
+    ],
+    "page": "pp. 71–72, Vargouille Traits",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+    "sourceDistinctions": "The ability increase line is blank. The play advice mentions darkvision but the trait block supplies neither the trait nor a range. The action text of Kiss says visible creature within 5 ft. and does not require humanoid or incapacitated; both narrower limits appear in commentary. The NPC rolls against its own Shriek as a table reading of the unqualified creatures in range. Sneak Attack adds piercing for the mixed-type bite in this build.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    ]
+  },
+  {
+    "name": "Vegepygmy",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Plant",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      73,
+      89
+    ],
+    "page": "p. 73, Vegepygmy Traits; p. 89, Vegepygmy Chief feat",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+    "sourceDistinctions": "The standard and Thorny forms stay in one profile. The optional Vegepygmy Chief feat is on p. 89 and applies to the standard form. The worked Fighter 1 uses the standard form without the feat.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    ]
+  },
+  {
+    "name": "Xvart",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Humanoid (Xvart)",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      76
+    ],
+    "page": "p. 76, Xvart Traits",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+    "sourceDistinctions": "The supplement describes the Warlock of Raxivort as ordinary warlock advancement with suggested invocations and no selected patron. The NPC uses Rogue 1 and keeps the species bonus-action Disengage.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    ]
+  }
+]

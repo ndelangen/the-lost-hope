@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Giant Snapping Turtle",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 17,
+    "hp": 75,
+    "hitDice": "10d10 + 20",
+    "speed": "30 ft., swim 40 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor AC 17, or AC 12 while prone. Darkvision 60 ft., passive Perception 11. No listed skills or languages.",
+    "appearance": "A broad snapping turtle with a ridged olive-brown shell, heavy claws, a hooked beak, and a tapering tail.",
+    "habitats": [
+      "Chult beaches",
+      "Rivers",
+      "Swamps",
+      "Snapping Turtle Bay"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, p. 222. https://online.anyflip.com/njbp/dfek/mobile/index.html#p=223",
+      "Traits": "Amphibious. The turtle can breathe in air and water.\nStable. Whenever an effect knocks the turtle prone, it can try a DC 10 Constitution save to stay upright. When prone, it is upside down. To right itself, it must succeed on a DC 10 Dexterity check on its turn and then spend all its movement for that turn.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 18 (4d6 + 4) slashing damage.",
+      "At the table": "Use AC 12 for an overturned turtle. The Constitution save prevents the fall. The Dexterity check and the full movement cost apply to righting it afterward.",
+      "Encounter ecology": "The appendix describes turtles up to 12 ft. across. Although slow-looking, they can lunge at smaller creatures that come close."
+    }
+  },
+  {
+    "name": "Hadrosaurus",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +2, passive Perception 12. No listed special senses or languages.",
+    "appearance": "A crested duck-billed dinosaur with shorter forelimbs, a long balancing tail, and a muted rust crest.",
+    "habitats": [
+      "Chultan jungles",
+      "Rivers",
+      "Swamps"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, p. 224. https://online.anyflip.com/njbp/dfek/mobile/index.html#p=225",
+      "Actions": "Tail. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (1d10 + 2) bludgeoning damage.",
+      "At the table": "Use the appendix Tail attack. A hadrosaurus raised from a hatchling can learn to carry a Small or Medium rider.",
+      "Encounter ecology": "The Appendix B sighting is a grazing herd of 3d6 hadrosauruses that includes 1d6 noncombatant young. Adults defend themselves and their young if the party threatens them."
+    }
+  },
+  {
+    "name": "Jaculi",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 16,
+    "hitDice": "3d10",
+    "speed": "30 ft., climb 20 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Athletics +4, Perception +1, Stealth +4. Blindsight 30 ft., passive Perception 11. No languages.",
+    "appearance": "A long coiled serpent with a bluish spined head and mottled bark-brown and stone-gray scales.",
+    "habitats": [
+      "Rainforests",
+      "Cool dungeons",
+      "Chultan ruins",
+      "Rivers"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, p. 225. https://online.anyflip.com/njbp/dfek/mobile/index.html#p=226",
+      "Traits": "Camouflage. Dexterity (Stealth) checks to hide have advantage.\nKeen Smell. Wisdom (Perception) checks relying on smell have advantage.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 9 (2d6 + 2) piercing damage.\nSpring. Move up to 30 ft. in a straight line, then make one Bite attack against a target in reach. The Bite has advantage if the snake springs at least 10 ft. On a hit, add 7 (2d6) piercing damage.",
+      "At the table": "Spring is one action with one Bite. The 10-ft. minimum is for advantage. A Spring hit adds the extra damage even on a shorter leap.",
+      "Encounter ecology": "Jaculis often wait coiled near trunks or pillars and spring toward prey. The adventure’s generic ambush on p. 201 uses 1d6 jaculis and surprises characters below passive Perception 14."
+    }
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 30,
+    "hitDice": "4d12 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +2, passive Perception 12. No listed special senses or languages.",
+    "appearance": "A long-necked pterosaur with a narrow toothless beak, a swept crest, and enormous leathery wings.",
+    "habitats": [
+      "Chult beaches",
+      "Mountains",
+      "Rivers"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, p. 230. https://online.anyflip.com/njbp/dfek/mobile/index.html#p=231",
+      "Traits": "Dive Attack. If the creature is flying, dives at least 30 ft. toward a target, and hits it with Bite, the attack deals an extra 10 (3d6) damage.\nFlyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one creature. On a hit, deal 12 (3d6 + 2) piercing damage.",
+      "At the table": "Use 10-ft. Bite reach. Dive Attack augments a qualifying Bite. Flyby applies to departure by flight.",
+      "Encounter ecology": "The creature can walk on four contact points but prefers to fly. The Appendix B flight is 1d4 + 1 animals and keeps its distance unless threatened."
+    }
+  }
+]

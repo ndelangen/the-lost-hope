@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Killer Whale",
+    "file": "portraits/killer-whale.png",
+    "sha256": "2ff86af759f85061c849efdf5595530b0c15150c1d569ae86951d6c1a4f5cb8d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Lion",
+    "file": "portraits/lion.png",
+    "sha256": "a87fa077c83a8c583c60f830151ab4ad5bf91d614d47764c754397c07ea6ab4e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Mastiff",
+    "file": "portraits/mastiff.png",
+    "sha256": "c1979cd4320360d21bbdf360169ec2c5be5755c8bd955357cc207917755f7c48",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Mule",
+    "file": "portraits/mule.png",
+    "sha256": "ceadc4e5e44220c1b62a95ddc368286d1ea309fc8447752062763de1c4c8f18d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Octopus",
+    "file": "portraits/octopus.png",
+    "sha256": "c55cc870a98cfa7676208e87de6202ec144796a6269c0582d65199a124438748",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

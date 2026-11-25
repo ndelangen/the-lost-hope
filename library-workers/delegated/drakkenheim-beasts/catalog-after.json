@@ -1,0 +1,420 @@
+[
+  {
+    "name": "Big Linda",
+    "version": {
+      "key": "7f57e9827f61fb1d4b85080d",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "source": "https://www.dndbeyond.com/monsters/4086095-big-linda",
+      "artwork": "https://www.dndbeyond.com/avatars/thumbnails/38757/288/1000/1000/638386042590672952.jpeg",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Dungeons of Drakkenheim"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "136"
+        ],
+        [
+          "Hit dice",
+          "13d12 + 52"
+        ],
+        [
+          "Challenge",
+          "9"
+        ],
+        [
+          "Size",
+          "Huge"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 50 ft."
+        ],
+        [
+          "Passive Perception",
+          "14"
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ],
+        [
+          "Str",
+          "25"
+        ],
+        [
+          "Dex",
+          "10"
+        ],
+        [
+          "Con",
+          "19"
+        ],
+        [
+          "Int",
+          "2"
+        ],
+        [
+          "Wis",
+          "12"
+        ],
+        [
+          "Cha",
+          "9"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A wingless, dragon-like tyrannosaur with knobbly hide, shimmering scales along its back, vestigial forearms, and a spine-lined tail."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Blindsight 30 ft."
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Perception +4"
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "Acid"
+          ]
+        },
+        {
+          "title": "Base creature",
+          "lines": [
+            "Tyrannosaurus Rex"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · Melee Weapon Attack · +10 to hit · reach 10 ft. · 4d12 + 7 piercing",
+            "Tail · Melee Weapon Attack · +10 to hit · reach 10 ft. · 3d8 + 7 bludgeoning"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Queen of Thieves' champion · The Queen of Thieves has permanently charmed Big Linda. Linda usually follows the Queen's spoken orders and emerges from her Court of Thieves arena den when the Queen whistles."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Multiattack · 2 attacks · One Bite and one Tail attack, each against a different target.",
+            "Bite · +10 to hit · reach 10 ft. · One target takes 33 (4d12 + 7) piercing damage on a hit. A Medium or smaller creature is grappled (escape DC 17) and restrained until that grapple ends. During the grapple Linda cannot bite another target. · 4d12 + 7 piercing",
+            "Tail · +10 to hit · reach 10 ft. · One target takes 20 (3d8 + 7) bludgeoning damage on a hit. · 3d8 + 7 bludgeoning",
+            "Acid Spew · Recharge 5–6 · Creatures in a 30-ft. cone take the printed 49 (11d8) acid damage on a failed save, or half as much on a success. · DC 15 Dexterity · 11d8 acid"
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Dungeons of Drakkenheim, p. 163, applies these changes to the 2014 Tyrannosaurus Rex. The base block is available in SRD 5.1, p. 279.",
+            "The adventure gives the variant CR 9. It does not print an XP value."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Blindsight 30 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Blindsight",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-07dd97e41872842acf1183db",
+                "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+              }
+            }
+          }
+        ],
+        "Perception +4": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Damage immunities": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Tyrannosaurus Rex": [
+          {
+            "start": 0,
+            "end": 17,
+            "target": {
+              "name": "Tyrannosaurus Rex",
+              "group": "Creatures",
+              "publication": "Monster Manual (2014)",
+              "page": 80,
+              "description": "A Huge beast with challenge rating 8. Listed habitats: grassland. Named abilities include Bite, Tail.",
+              "local": {
+                "entry": "compendium-4971f1de4a03260a784e0b65",
+                "version": "MM:80:https://5e.tools/bestiary.html#tyrannosaurus%20rex_mm"
+              }
+            }
+          }
+        ],
+        "Bite · Melee Weapon Attack · +10 to hit · reach 10 ft. · 4d12 + 7 piercing": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Tail · Melee Weapon Attack · +10 to hit · reach 10 ft. · 3d8 + 7 bludgeoning": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Queen of Thieves' champion · The Queen of Thieves has permanently charmed Big Linda. Linda usually follows the Queen's spoken orders and emerges from her Court of Thieves arena den when the Queen whistles.": [
+          {
+            "start": 66,
+            "end": 73,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "Bite · +10 to hit · reach 10 ft. · One target takes 33 (4d12 + 7) piercing damage on a hit. A Medium or smaller creature is grappled (escape DC 17) and restrained until that grapple ends. During the grapple Linda cannot bite another target. · 4d12 + 7 piercing": [
+          {
+            "start": 124,
+            "end": 132,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          },
+          {
+            "start": 152,
+            "end": 162,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "Dungeons of Drakkenheim, p. 163, applies these changes to the 2014 Tyrannosaurus Rex. The base block is available in SRD 5.1, p. 279.": [
+          {
+            "start": 67,
+            "end": 84,
+            "target": {
+              "name": "Tyrannosaurus Rex",
+              "group": "Creatures",
+              "publication": "Monster Manual (2014)",
+              "page": 80,
+              "description": "A Huge beast with challenge rating 8. Listed habitats: grassland. Named abilities include Bite, Tail.",
+              "local": {
+                "entry": "compendium-4971f1de4a03260a784e0b65",
+                "version": "MM:80:https://5e.tools/bestiary.html#tyrannosaurus%20rex_mm"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Big Linda": true,
+      "court of thieves": true
+    },
+    "hash": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Dungeons of Drakkenheim"
+      }
+    ],
+    "monster": {
+      "id": "monster-65c1e9669993c8532194d10d",
+      "name": "Big Linda",
+      "kind": "monster",
+      "group": "Monstrosity",
+      "groups": [
+        "Monstrosity"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Monsters of Drakkenheim"
+        }
+      ],
+      "versions": [
+        {
+          "key": "9765cc52aa43cf6a8ba52552",
+          "publication": "Monsters of Drakkenheim",
+          "edition": "2024 fifth edition compatible",
+          "source": "https://www.dndbeyond.com/monsters/5524949-big-linda",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/49561/397/1000/1000/638844713842001909.png",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Monsters of Drakkenheim"
+            }
+          ],
+          "stats": [
+            [
+              "Challenge",
+              "9"
+            ],
+            [
+              "Type",
+              "Monstrosity"
+            ]
+          ],
+          "sections": []
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Monsters of Drakkenheim"
+      }
+    }
+  }
+]

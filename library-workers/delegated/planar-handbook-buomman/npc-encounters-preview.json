@@ -1,0 +1,258 @@
+{
+  "Buomman": {
+    "profiles": [
+      {
+        "name": "Buomman",
+        "imageKey": "species:buomman",
+        "kind": "species",
+        "type": "Humanoid (Extraplanar)",
+        "publication": "Planar Handbook (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Humanoid. The Astral Plane is the Buomman homeland. The species entry gives the Extraplanar subtype when away from the Astral Plane. Land speed 30 ft. +2 Wisdom, −2 Charisma.",
+          "Low-light vision with twice the human range in dim light, retaining color and detail. +2 racial on Listen and Perform (sing).",
+          "The racial vow is against speech. A breach deals 1 Wisdom damage and applies −2 on attack rolls, saves, and checks for 24 hours. A further breach before expiry deals another point of Wisdom damage and extends the same penalty for another 24 hours.",
+          "Buommans speak Buommi as low ritual songs and understand Common. The vow allows Buommi singing. Bonus languages are Aquan, Githzerai, and Terran.",
+          "To cast a spell with a verbal component while keeping the vow, use Silent Spell or Nonverbal Spell. Silent Spell removes the verbal component using a slot one level higher and cannot modify Bard spells. Nonverbal Spell substitutes another sound, such as song, and still fails within magical silence. Spells without verbal components are unaffected by Nonverbal Spell.",
+          "Favored class Monk. LA +0. The playable profile adds no racial Hit Dice."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Buomman",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Planar Handbook (2004)",
+            "name": "Morrow",
+            "build": {
+              "id": "buomman-north-gate-listener-35e",
+              "title": "Buomman north gate listener, Monk 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Extraplanar)",
+              "ac": 15,
+              "hp": 10,
+              "hitDice": "1d8+2",
+              "initiative": 6,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 14,
+                "DEX": 14,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 16,
+                "CHA": 8
+              },
+              "skills": [
+                "Listen +9",
+                "Perform (sing) +5",
+                "Sense Motive +7",
+                "Tumble +6"
+              ],
+              "senses": "Low-light vision.",
+              "languages": "Buommi. Understands Common.",
+              "traits": [
+                "Lawful good. This encounter takes place on the Material Plane. Unarmored with Dexterity +2 and Wisdom +3. Touch 15, flat-footed 13. BAB +0, grapple +2. Fortitude +4, Reflex +4, Will +5. Improved Initiative adds +4.",
+                "Wisdom 16 and Charisma 8 reflect the racial adjustments. Monk unarmed damage is 1d6. Racial Listen and Perform (sing) bonuses are included.",
+                "The racial vow is against speech. A breach deals 1 Wisdom damage and applies −2 on attack rolls, saves, and checks for 24 hours. A further breach before expiry deals another point of Wisdom damage and extends the same penalty for another 24 hours.",
+                "After the first vow breach, Wisdom 15 and Wisdom modifier +2. AC 14, touch 14, flat-footed 12. Fortitude +2, Reflex +2, Will +2. Initiative checks +4, Listen +6, Perform (sing) +3. Stunning Fist DC 12 until Wisdom recovers."
+              ],
+              "actions": [
+                "Unarmed strike +2 melee, 1d6+2 bludgeoning (lethal or nonlethal), critical ×2, 5-ft. reach. Full-attack flurry +0/+0 for 1d6+2 each, with its −2 attack penalty also applying to other attacks before his next turn. On a vow breach, +0 single attack or −2/−2 flurry.",
+                "Stunning Fist once per day as a Monk bonus feat. Declare before rolling. On a hit, Fortitude DC 13 or stun for 1 round. A miss expends the use. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits are immune.",
+                "Shuriken +2 ranged, 1d2+2 piercing, critical ×2, 10-ft. increment."
+              ],
+              "tactics": "Morrow listens beside the north gate while the last visitors come in. He can give their keeper a Buommi departure song and point to the sheltered entrance. If a pursuer gets through, he tries to stop it with a stunning strike."
+            },
+            "role": "North gate listener and Monk.",
+            "motive": "Get the last visitors inside before their pursuer reaches the gate.",
+            "hook": "Morrow can point the party toward the sheltered entrance while he watches the open gate."
+          },
+          {
+            "species": "Buomman",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Planar Handbook (2004)",
+            "name": "Lumen",
+            "build": {
+              "id": "buomman-cairn-road-healer-35e",
+              "title": "Buomman cairn road healer, Cleric 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Extraplanar)",
+              "ac": 17,
+              "hp": 10,
+              "hitDice": "1d8+2",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 12,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 16,
+                "CHA": 8
+              },
+              "skills": [
+                "Concentration +6",
+                "Heal +7",
+                "Knowledge (religion) +5",
+                "Listen +5",
+                "Perform (sing) +1"
+              ],
+              "senses": "Low-light vision.",
+              "languages": "Buommi, Terran. Understands Common.",
+              "traits": [
+                "Neutral good Cleric of Fharlanghn, Protection and Travel domains. This encounter takes place on the Material Plane. Chain shirt +4, heavy wooden shield +2, Dexterity +1. Touch 11, flat-footed 16. BAB +0, grapple +1. Fortitude +4, Reflex +1, Will +5. Armor check penalty −4.",
+                "Nonverbal Spell uses audible Buommi song in place of verbal words. It keeps the vow and spends no higher-level slot. Magical silence still stops these castings. She keeps one hand free for somatic components.",
+                "Cleric caster level 1. Three prepared cantrips, two prepared 1st-level spells and one domain slot. Save DC 13 for cantrips and 14 for 1st-level spells if applicable. As a good Cleric, she can exchange a prepared non-domain spell for a cure spell of that level.",
+                "Travel domain freedom of movement applies automatically for up to 1 round per day against magical effects that impede movement. Turn undead twice per day (turning check 1d20−1, turning damage 2d6 HD).",
+                "The racial vow is against speech. A breach deals 1 Wisdom damage and applies −2 on attack rolls, saves, and checks for 24 hours. A further breach before expiry deals another point of Wisdom damage and extends the same penalty for another 24 hours."
+              ],
+              "actions": [
+                "Heavy mace +1 melee, 1d8+1 bludgeoning, critical ×2, 5-ft. reach.",
+                "Prepared cantrips are detect magic (60-ft. cone, concentrate up to 1 minute), guidance (touch, +1 competence on one attack, save, or skill check within 1 minute), and light (object touched, 10 minutes).",
+                "Bless (1st): allies within a 50-ft. burst centered on her gain +1 morale on attacks and saves against fear for 1 minute.",
+                "Shield of faith (1st): touch, +2 deflection AC for 1 minute. On herself AC 19, touch 13, flat-footed 18.",
+                "Longstrider (1st-level Travel domain slot): personal, land speed 40 ft. for 1 hour. Spontaneous cure light wounds can instead use bless or shield of faith’s slot and heals one willing living target for 1d8+1 HP by touch.",
+                "Protection domain ward once per day, standard action and touch. Give +1 resistance on the next saving throw within 1 hour."
+              ],
+              "tactics": "Lumen follows the cairns looking for an injured road surveyor. She sings as she casts and points out the stones the party can use to mark the way back. If someone needs healing, she gives up a prepared non-domain spell."
+            },
+            "role": "Cairn road healer and Cleric.",
+            "motive": "Reach an injured surveyor on the cairn road.",
+            "hook": "Lumen knows the line of cairns and can heal the surveyor once the party clears the path."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Buomman",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Planar Handbook (2004)",
+        "name": "Morrow",
+        "build": {
+          "id": "buomman-north-gate-listener-35e",
+          "title": "Buomman north gate listener, Monk 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Extraplanar)",
+          "ac": 15,
+          "hp": 10,
+          "hitDice": "1d8+2",
+          "initiative": 6,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 14,
+            "DEX": 14,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 16,
+            "CHA": 8
+          },
+          "skills": [
+            "Listen +9",
+            "Perform (sing) +5",
+            "Sense Motive +7",
+            "Tumble +6"
+          ],
+          "senses": "Low-light vision.",
+          "languages": "Buommi. Understands Common.",
+          "traits": [
+            "Lawful good. This encounter takes place on the Material Plane. Unarmored with Dexterity +2 and Wisdom +3. Touch 15, flat-footed 13. BAB +0, grapple +2. Fortitude +4, Reflex +4, Will +5. Improved Initiative adds +4.",
+            "Wisdom 16 and Charisma 8 reflect the racial adjustments. Monk unarmed damage is 1d6. Racial Listen and Perform (sing) bonuses are included.",
+            "The racial vow is against speech. A breach deals 1 Wisdom damage and applies −2 on attack rolls, saves, and checks for 24 hours. A further breach before expiry deals another point of Wisdom damage and extends the same penalty for another 24 hours.",
+            "After the first vow breach, Wisdom 15 and Wisdom modifier +2. AC 14, touch 14, flat-footed 12. Fortitude +2, Reflex +2, Will +2. Initiative checks +4, Listen +6, Perform (sing) +3. Stunning Fist DC 12 until Wisdom recovers."
+          ],
+          "actions": [
+            "Unarmed strike +2 melee, 1d6+2 bludgeoning (lethal or nonlethal), critical ×2, 5-ft. reach. Full-attack flurry +0/+0 for 1d6+2 each, with its −2 attack penalty also applying to other attacks before his next turn. On a vow breach, +0 single attack or −2/−2 flurry.",
+            "Stunning Fist once per day as a Monk bonus feat. Declare before rolling. On a hit, Fortitude DC 13 or stun for 1 round. A miss expends the use. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits are immune.",
+            "Shuriken +2 ranged, 1d2+2 piercing, critical ×2, 10-ft. increment."
+          ],
+          "tactics": "Morrow listens beside the north gate while the last visitors come in. He can give their keeper a Buommi departure song and point to the sheltered entrance. If a pursuer gets through, he tries to stop it with a stunning strike."
+        },
+        "role": "North gate listener and Monk.",
+        "motive": "Get the last visitors inside before their pursuer reaches the gate.",
+        "hook": "Morrow can point the party toward the sheltered entrance while he watches the open gate."
+      },
+      {
+        "species": "Buomman",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Planar Handbook (2004)",
+        "name": "Lumen",
+        "build": {
+          "id": "buomman-cairn-road-healer-35e",
+          "title": "Buomman cairn road healer, Cleric 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Extraplanar)",
+          "ac": 17,
+          "hp": 10,
+          "hitDice": "1d8+2",
+          "initiative": 1,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 16,
+            "CHA": 8
+          },
+          "skills": [
+            "Concentration +6",
+            "Heal +7",
+            "Knowledge (religion) +5",
+            "Listen +5",
+            "Perform (sing) +1"
+          ],
+          "senses": "Low-light vision.",
+          "languages": "Buommi, Terran. Understands Common.",
+          "traits": [
+            "Neutral good Cleric of Fharlanghn, Protection and Travel domains. This encounter takes place on the Material Plane. Chain shirt +4, heavy wooden shield +2, Dexterity +1. Touch 11, flat-footed 16. BAB +0, grapple +1. Fortitude +4, Reflex +1, Will +5. Armor check penalty −4.",
+            "Nonverbal Spell uses audible Buommi song in place of verbal words. It keeps the vow and spends no higher-level slot. Magical silence still stops these castings. She keeps one hand free for somatic components.",
+            "Cleric caster level 1. Three prepared cantrips, two prepared 1st-level spells and one domain slot. Save DC 13 for cantrips and 14 for 1st-level spells if applicable. As a good Cleric, she can exchange a prepared non-domain spell for a cure spell of that level.",
+            "Travel domain freedom of movement applies automatically for up to 1 round per day against magical effects that impede movement. Turn undead twice per day (turning check 1d20−1, turning damage 2d6 HD).",
+            "The racial vow is against speech. A breach deals 1 Wisdom damage and applies −2 on attack rolls, saves, and checks for 24 hours. A further breach before expiry deals another point of Wisdom damage and extends the same penalty for another 24 hours."
+          ],
+          "actions": [
+            "Heavy mace +1 melee, 1d8+1 bludgeoning, critical ×2, 5-ft. reach.",
+            "Prepared cantrips are detect magic (60-ft. cone, concentrate up to 1 minute), guidance (touch, +1 competence on one attack, save, or skill check within 1 minute), and light (object touched, 10 minutes).",
+            "Bless (1st): allies within a 50-ft. burst centered on her gain +1 morale on attacks and saves against fear for 1 minute.",
+            "Shield of faith (1st): touch, +2 deflection AC for 1 minute. On herself AC 19, touch 13, flat-footed 18.",
+            "Longstrider (1st-level Travel domain slot): personal, land speed 40 ft. for 1 hour. Spontaneous cure light wounds can instead use bless or shield of faith’s slot and heals one willing living target for 1d8+1 HP by touch.",
+            "Protection domain ward once per day, standard action and touch. Give +1 resistance on the next saving throw within 1 hour."
+          ],
+          "tactics": "Lumen follows the cairns looking for an injured road surveyor. She sings as she casts and points out the stones the party can use to mark the way back. If someone needs healing, she gives up a prepared non-domain spell."
+        },
+        "role": "Cairn road healer and Cleric.",
+        "motive": "Reach an injured surveyor on the cairn road.",
+        "hook": "Lumen knows the line of cairns and can heal the surveyor once the party clears the path."
+      }
+    ]
+  }
+}

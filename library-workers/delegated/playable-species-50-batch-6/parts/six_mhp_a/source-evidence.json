@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Nautilid",
+    "kind": "species",
+    "publication": "Mage Hand Press: Nautilid (2025)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://magehandpress.com/2025/09/nautilid-5e2024/",
+    "page": "Nautilid Traits (publisher article)",
+    "authors": [
+      "Mike | Mage Hand Press"
+    ],
+    "sourceDistinctions": [
+      "2024 species traits, including the Aqua Suit and its two named items. The walking-only speed is intentional.",
+      "The Guard background is in the 2024 Player’s Handbook, chapter 4, Guard."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "npcExamples": [
+      "Brine Sill"
+    ],
+    "supplementaryRules": {
+      "url": "",
+      "page": "Dark Matter revised, appendix H, pp. 435, 439"
+    }
+  },
+  {
+    "name": "Vect",
+    "kind": "species",
+    "publication": "Mage Hand Press: Vect (2025)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Construct",
+    "url": "https://magehandpress.com/2025/09/vect-5e2024/",
+    "page": "Vect Traits (publisher article)",
+    "authors": [
+      "Mike | Mage Hand Press"
+    ],
+    "sourceDistinctions": [
+      "The 2024 article changes the Vect type to Construct and gives Thermalsight 60 ft. Appendix H supplies the sense’s limits."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "npcExamples": [
+      "Mend-Three"
+    ],
+    "supplementaryRules": {
+      "url": "",
+      "page": "Dark Matter revised, appendix H, pp. 435, 439"
+    }
+  },
+  {
+    "name": "Amoeboid",
+    "kind": "species",
+    "publication": "Mage Hand Press: Amoeboid (2025)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Ooze",
+    "url": "https://magehandpress.com/2025/09/amoeboid-5e2024/",
+    "page": "Amoeboid Traits (publisher article)",
+    "authors": [
+      "Mike | Mage Hand Press"
+    ],
+    "sourceDistinctions": [
+      "The 2024 Ooze trait, Reform scaling, action types and one-inch movement replace the prior ancestry rules.",
+      "The 2024 lore paragraph mentions speaking a copied creature’s language but the trait body does not grant it mechanically. Flexible Form has no stated exit timing. The NPC does not depend on either omission."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "npcExamples": [
+      "Pilcrow"
+    ]
+  },
+  {
+    "name": "Skathári",
+    "kind": "species",
+    "publication": "Mage Hand Press: Skathári (2024)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://magehandpress.com/2024/03/skathari/",
+    "page": "Skathári Traits (publisher article)",
+    "authors": [
+      "Mike | Mage Hand Press"
+    ],
+    "sourceDistinctions": [
+      "The article is explicitly 5E 2014. It removes the prior inhaled-poison benefit and does not give a fly speed.",
+      "Outlander is the 2014 Player’s Handbook background, chapter 4, Outlander."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "npcExamples": [
+      "Ruvash Ledgewalker"
+    ]
+  },
+  {
+    "name": "Avia-Ra",
+    "kind": "species",
+    "publication": "Mage Hand Press: Avia-Ra (2024)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://magehandpress.com/2024/02/avia-ra/",
+    "page": "Avia-Ra Traits (publisher article)",
+    "authors": [
+      "Mike | Mage Hand Press"
+    ],
+    "sourceDistinctions": [
+      "The article is explicitly 5E 2014 and all avian families share the same traits.",
+      "Senet’s first-level bless comes from Life Domain. The species blessing becomes available at character level three."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "npcExamples": [
+      "Senet Dawnreed"
+    ]
+  }
+]

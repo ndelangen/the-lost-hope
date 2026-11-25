@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Dracolich (Gargantuan)",
+    "slug": "dracolich-gargantuan",
+    "id": "monster-eb8e0d7b6af4f62da9794f25",
+    "entry": "monster-eb8e0d7b6af4f62da9794f25",
+    "version": "fc382f323c4b3c983f8abab3",
+    "suffix": "encounters-28/dracolich-gargantuan.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-28/dracolich-gargantuan.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-28/event-drafts/dracolich-gargantuan-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 28 2026-11-23/event-drafts/dracolich-gargantuan-event-v1.png",
+    "overrides": [],
+    "sha256": "e16360ec463020e662f8dc0c469fe9da24a28703891dfd2872e7689cb14f17cb",
+    "bytes": 2840422
+  },
+  {
+    "name": "Shadow Dragon (Large)",
+    "slug": "shadow-dragon-large",
+    "id": "monster-87d6ccfd8b97bbee5289fcec",
+    "entry": "monster-87d6ccfd8b97bbee5289fcec",
+    "version": "716feb246c262f5b670b0abd",
+    "suffix": "encounters-28/shadow-dragon-large.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-28/shadow-dragon-large.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-28/event-drafts/shadow-dragon-large-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 28 2026-11-23/event-drafts/shadow-dragon-large-event-v1.png",
+    "overrides": [],
+    "sha256": "6b18a04a9f1f2acb9570eccd4b52629fcea709b1637e4a066cf6d2cd37d49fe7",
+    "bytes": 2573182
+  }
+]

@@ -1,0 +1,603 @@
+[
+  {
+    "name": "Elok Jaharwon",
+    "statBlock": {
+      "name": "Elok Jaharwon",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 67,
+      "classification": "Medium humanoid (human, shapechanger), neutral evil",
+      "ac": 10,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft. (40 ft. in boar form)",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "Elok seized command of the Dragonfang in a mutiny. He now wants the pirate captains to stop paying Fort Beluarian and has support among their crews.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "AC 10 in human form. AC 11 from natural armor in boar and hybrid forms.",
+        "Languages": "Common. Cannot speak in boar form.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Traits": "Charge (boar or hybrid only). Move at least 15 ft. directly toward a target and hit it with Tusks in the same turn for an extra 7 (2d6) slashing damage. A creature hit this way must succeed on a DC 13 Strength save or fall prone.\nRelentless (short or long rest). If 14 or less damage would take Elok to 0 HP, he drops to 1 HP instead.",
+        "Actions": "Shapechanger. Change magically between human, boar, and hybrid forms. His equipment and other statistics stay the same. Use the listed form-specific Armor Class, speed, and action limits. On death he returns to human form.\nMultiattack (human or hybrid only). Make two attacks, including at most one Tusks attack.\nMaul (human or hybrid only). Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage.\nTusks (boar or hybrid only). Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) slashing damage. A humanoid hit must pass a DC 12 Constitution save or contract wereboar lycanthropy.",
+        "Encounter context": "At Jahaka Anchorage, the Dragonfang crew includes first mate Mad Kalita (a Spy), 15 Bandits, 3 Thugs, and Eye of the Deep (a Druid). Elok wants to break the pirates’ deal with Liara Portyr.",
+        "Printed source": "Tomb of Annihilation, p. 67 (Dragonfang). Uses Wereboar from Monster Manual (2014), p. 209."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Wereboar",
+          "terms": [
+            "Wereboar"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#wereboar_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Liara Portyr",
+          "terms": [
+            "Liara Portyr"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#liara%20portyr_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Spy",
+          "terms": [
+            "Spy"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#spy_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Bandit",
+          "terms": [
+            "Bandits"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bandit_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Thug",
+          "terms": [
+            "Thugs"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#thug_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Druid",
+          "terms": [
+            "Druid"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#druid_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Faroul",
+    "statBlock": {
+      "name": "Faroul",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 34,
+      "classification": "Medium humanoid (human), neutral good",
+      "ac": 13,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 15,
+      "description": "A Calishite fortune hunter who lost his money at the Port Nyanzaru dinosaur races. He and Gondolo seek an equal share from anyone they guide to Needle’s Bones.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Nature": 4,
+        "Perception": 5,
+        "Stealth": 6,
+        "Survival": 5
+      },
+      "sections": {
+        "Armor": "Leather Armor.",
+        "Languages": "Any one language (usually Common).",
+        "Traits": "Keen Hearing and Sight. Faroul has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+        "Actions": "Multiattack. Make two Shortsword attacks or two Longbow attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.",
+        "Encounter context": "Faroul boasts of his fighting skill but draws his sword only in emergencies. Gondolo bought an accurate map to Needle’s Bones, where the pair expect to find a dragon hoard. They use their slow racing triceratops, Zongo, as a pack animal.",
+        "Printed source": "Tomb of Annihilation, p. 34 (Faroul and Gondolo). Uses Scout from Monster Manual (2014), p. 349."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Scout",
+          "terms": [
+            "Scout"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#scout_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Gondolo",
+          "terms": [
+            "Gondolo"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#gondolo_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Fenthaza",
+    "statBlock": {
+      "name": "Fenthaza",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 113,
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 14,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "The high priest of Dendar in Omu. A vision of the Black Opal Crown convinced her to plot a coup against Ras Nsi.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., including in magical darkness.",
+        "Languages": "Abyssal, Common, and Draconic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Death Fangs (2/day). The first time Fenthaza hits with a melee attack on her turn, she can add 16 (3d10) necrotic damage.\nMagic Resistance. She has advantage on saves against spells and other magic.",
+        "Actions": "Shapechanger. Change into a Medium snake or back into yuan-ti form. Her equipment and statistics stay the same. She keeps her current form on death.\nMultiattack (yuan-ti form only). Make one Constrict and one Scimitar attack.\nConstrict. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage. A Large or smaller target is grappled (escape DC 14) and restrained until the grapple ends. Fenthaza can constrict only one creature at a time.\nScimitar (yuan-ti form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nInvoke Nightmare (short or long rest). Choose a visible creature within 60 ft. It makes a DC 13 Intelligence save. On a failure, it takes 11 (2d10) psychic damage and is frightened of an immobile, indestructible illusion visible only to it. Fenthaza maintains Concentration for up to 1 minute. The target can repeat the save at the end of each of its turns, ending the illusion on a success or taking another 11 (2d10) psychic damage on a failure.",
+        "Spellcasting": "Only in yuan-ti form. Innate magic uses Charisma (save DC 13) and requires no material components. Animal Friendship is at will and works only on snakes. Suggestion is 3/day.\n6th-level warlock. Spellcasting uses Charisma (save DC 13, +5 to hit). Recover both 3rd-level slots after a short or long rest.\nCantrips: Chill Touch, Eldritch Blast (300 ft., +3 damage per hit), Mage Hand, Message, Poison Spray, Prestidigitation.\n3rd-level slots: Arms of Hadar, Darkness, Fear, Hex, Hold Person, Hunger of Hadar, Witch Bolt.",
+        "Encounter context": "Two type 2 Yuan-ti Malisons guard area 5. Fighting in the hall brings the broodguards from area 6 in 1 round. Fenthaza’s stone urn contains an Air Elemental that obeys her. Anyone else removing the lid releases it to attack. After an alarm, the guards cover Fenthaza while she releases the elemental. She tries to capture intruders alive for area 8 and may send a particularly troublesome captive to the altar in area 6. She carries keys to area 8’s restraints. If the party leaves before the coup, she can send the elemental after them. It returns when the pursuit ends.\nIf prisoners serve a day of labor without incident, she offers freedom and any of Ras Nsi’s puzzle cubes in exchange for taking him down. The agreement can open the armory and start an uprising. She means to betray the party if she can.",
+        "Printed source": "Tomb of Annihilation, pp. 111–114 and 117 (Fenthaza, temple roster, and area 5). Uses the Yuan-ti Nightmare Speaker reprinted on p. 239, originally from Volo's Guide to Monsters, p. 205."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Yuan-ti Nightmare Speaker",
+          "terms": [
+            "Yuan-ti Nightmare Speaker"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker_vgm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ras Nsi",
+          "terms": [
+            "Ras Nsi"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ras%20nsi_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Yuan-ti Malison (Type 2)",
+          "terms": [
+            "type 2 Yuan-ti Malisons"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%202)_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Air Elemental",
+          "terms": [
+            "Air Elemental"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#air%20elemental_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Flask of Wine",
+    "statBlock": {
+      "name": "Flask of Wine",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 35,
+      "classification": "Medium humanoid (tabaxi), chaotic good",
+      "ac": 14,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "A long-limbed tabaxi guide in Port Nyanzaru. He likes company even though he usually speaks only to echo his sister, River Mist.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 6
+      },
+      "sections": {
+        "Armor": "Leather Armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common plus one other language.",
+        "Traits": "Feline Agility. When Flask moves on his turn in combat, he can double his speed until the turn ends. He can use the trait again after spending one of his turns without moving.",
+        "Actions": "Multiattack. Make two attacks using Claws, Shortsword, or Shortbow.\nClaws. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d4) slashing damage.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage in the printed Tabaxi Hunter block.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Encounter context": "Flask and River Mist quietly hire out in Malar’s Throat and Tiryki Anchorage. They can guide travelers to Firefinger or Dungrunglung. The Zhentarim pay attention to what the two learn about Artus Cimber, and the pair report back unless given a reason to keep quiet.",
+        "Printed source": "Tomb of Annihilation, p. 35 (River Mist and Flask of Wine) and p. 232 (Tabaxi Hunter)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Tabaxi Hunter",
+          "terms": [
+            "Tabaxi Hunter"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#tabaxi%20hunter_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "River Mist",
+          "terms": [
+            "River Mist"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#river%20mist_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Artus Cimber",
+          "terms": [
+            "Artus Cimber"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#artus%20cimber_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Grabstab",
+    "statBlock": {
+      "name": "Grabstab",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 89,
+      "classification": "Small humanoid (goblinoid), neutral evil",
+      "ac": 17,
+      "hp": 21,
+      "hitDice": "6d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "Queen of the Biting Ant Batiri in Yellyark. She wears the amulet that controls Vorn and has no idea what it does.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Chain Shirt and Shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and Goblin.",
+        "Actions": "Multiattack. Make two Scimitar attacks, the second with disadvantage.\nScimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nJavelin. Melee or ranged weapon attack, +2 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 3 (1d6) piercing damage.",
+        "Bonus actions": "Nimble Escape. Take the Disengage or Hide action.",
+        "Reactions": "Redirect Attack. When a creature Grabstab can see targets her with an attack, choose another Goblin within 5 ft. The two swap places and the attack targets that Goblin instead.",
+        "Encounter context": "Two goblins watch the hut and four attendants stay inside. One attendant has the cage key. Grabstab’s bronze-and-adamantine amulet can control Vorn, a Shield Guardian.\nYellyark lookout ponchos grant advantage on Stealth while the sentries stay still and impose disadvantage when they move. A search finds the alarm tripwires with a successful DC 13 Wisdom (Perception) check. Passive Perception 13 also spots them. If the sentries spot intruders or hear an alarm, the village goes on alert.",
+        "Village launch": "Cut the anchor vine to spring the village’s net. The vine has AC 15 and 15 HP, vulnerability to slashing, resistance to fire and piercing, and immunity to bludgeoning, poison, psychic, and thunder. In daylight, a DC 18 Wisdom (Perception) check reveals how the mechanism works. Proficiency in Survival grants advantage on the check. Anyone caught in the net when it lands makes a DC 15 Dexterity save, taking 28 (8d6) bludgeoning damage on a failure or half on a success.",
+        "Printed source": "Tomb of Annihilation, pp. 89–90 (Yellyark and the queen’s hut). Uses Goblin Boss from Monster Manual (2014), p. 166."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Goblin Boss",
+          "terms": [
+            "Goblin Boss"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#goblin%20boss_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Goblin",
+          "terms": [
+            "Goblin",
+            "goblins"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#goblin_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Shield Guardian",
+          "terms": [
+            "Shield Guardian",
+            "Vorn"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#shield%20guardian_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Grandfather Zitembe",
+    "statBlock": {
+      "name": "Grandfather Zitembe",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 21,
+      "classification": "Medium humanoid (human), lawful good",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "description": "The senior priest of Savras in Port Nyanzaru. His divinations give the party a lead on the Soulmonger.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Medicine": 7,
+        "Persuasion": 3,
+        "Religion": 5
+      },
+      "sections": {
+        "Armor": "Chain Shirt.",
+        "Languages": "Any two languages. The adventure does not specify which.",
+        "Actions": "Mace. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 3 (1d6) bludgeoning damage.",
+        "Bonus actions": "Divine Eminence. Expend a spell slot to add 10 (3d6) radiant damage to each hit with a melee weapon until the turn ends. A slot above 1st level adds another 1d6 per level above 1st.",
+        "Spellcasting": "5th-level cleric. Uses Wisdom (save DC 13, +5 to hit with spell attacks).\nCantrips: Light, Sacred Flame, Thaumaturgy.\n1st level (4 slots): Cure Wounds, Guiding Bolt, Sanctuary.\n2nd level (3 slots): Lesser Restoration, Spiritual Weapon.\n3rd level (2 slots): Dispel Magic, Spirit Guardians.",
+        "Encounter context": "At the party’s first visit three Zhentarim Assassins offer a ruby worth 500 gp for help finding Artus Cimber. Zitembe turns them away. The interruption leaves him inclined to help the party.\nA convincing argument or a donation of at least 25 gp secures a 24-hour divination. He sees a southern jungle city ringed by cliffs and full of snakes, along with a vine-covered black obelisk. He urges the party to look for those landmarks.",
+        "Printed source": "Tomb of Annihilation, pp. 20–21 (Temple of Savras). Zitembe appears on p. 21. Uses Priest from Monster Manual (2014), p. 348."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Priest",
+          "terms": [
+            "Priest"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#priest_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Artus Cimber",
+          "terms": [
+            "Artus Cimber"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#artus%20cimber_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Assassin",
+          "terms": [
+            "Assassins"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#assassin_mm"
+          }
+        }
+      ]
+    }
+  }
+]

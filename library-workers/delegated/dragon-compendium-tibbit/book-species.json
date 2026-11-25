@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Tibbit",
+    "kind": "species",
+    "publication": "Dragon Compendium, Volume I (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Monstrous Humanoid with the Shapechanger subtype, as corrected by Paizo’s errata. +2 Dexterity, −2 Strength, 20-ft. land speed, darkvision 60 ft., and +2 racial to Spot, Jump, and Escape Artist.",
+      "Small size gives +1 AC and attack, +4 Hide, Small weapon sizes, and three quarters of Medium carrying capacity. Humanoid-only spells such as charm person do not affect Tibbits. Class levels supply their Hit Dice, with no added level adjustment.",
+      "Feline Transformation lets a Tibbit become a house cat at will as a standard action. The rules give no duration limit. Returning to humanoid form takes a full-round action. Wait one hour after returning before transforming again.",
+      "Cat form is Tiny and has 30-ft. land speed, +2 size AC and attack, +8 size Hide, −8 Strength to a minimum of 3, and +2 Dexterity on top of humanoid-form scores. It gains scent and keeps its creature type and otherwise unchanged abilities.",
+      "Cat form gains two primary claws (1d2 base damage) and a secondary bite (1d3 base damage). A full attack uses both claws and the bite at −5. Base attack bonus gives no additional natural attacks.",
+      "Equipment generally melds into the cat. Armor, shields, weapons, and robes stop providing benefits. Items with a suitable worn shape may continue giving passive benefits when they reshape into something a cat can wear.",
+      "Cat form cannot speak, manipulate fine objects, cast spells with verbal or somatic components, use scrolls, or activate magic items.",
+      "Death in cat form causes reversion after one round. Effects that see through polymorph reveal the Tibbit. Magic aura detection alone does not reveal the disguise.",
+      "Common and Feline are automatic, with any bonus language and Rogue as the favored class. Feline is shared with cats of Intelligence 3 or higher, permitting Diplomacy with them. Other races cannot learn it or bridge it with tongues."
+    ]
+  }
+]

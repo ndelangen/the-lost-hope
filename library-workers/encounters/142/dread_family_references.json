@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Arak",
+    "decision": "separate",
+    "pages": "pp. 22–26",
+    "notes": "Family encounter reference. Use a member profile for its statistics.",
+    "memberNames": [
+      "Powrie",
+      "Shee",
+      "Sith",
+      "Teg"
+    ],
+    "statBlock": {
+      "name": "Arak",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "description": "The shadow fey of the Shadow Rift belong to the Seelie and Unseelie Courts. Their forms can change over decades to reflect their temperaments.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "encounterProcedure": true,
+      "cr": "",
+      "sections": {
+        "Running the encounter": "Choose a breed before assigning statistics. Powrie use poison and ambushes, shee ensnare mortals with enchantments, sith wield dark magic and stealth, and teg hunt and work with animals. Use the selected profile for its attacks, spells, and alternate forms.",
+        "Sunlight": "Each of the four printed breeds takes damage from direct sunlight without a saving throw. Use the damage and shade rules on the selected profile. The amount varies by breed.",
+        "Printed source": "pp. 22–26"
+      }
+    }
+  },
+  {
+    "name": "Dread Cloaker",
+    "decision": "separate",
+    "pages": "pp. 50–52",
+    "notes": "Family encounter reference. Use a member profile for its statistics.",
+    "memberNames": [
+      "Shadow Cloaker",
+      "Resplendent Cloaker",
+      "Undead Cloaker"
+    ],
+    "statBlock": {
+      "name": "Dread Cloaker",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "description": "Cloak-shaped parasites attach to a host and feed through it. Each kind uses its host in a different way.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "encounterProcedure": true,
+      "cr": "",
+      "sections": {
+        "Running the encounter": "Pick the shadow, resplendent, or undead profile and use its Attach and feeding rules. A dread cloaker shares its damage reduction with its host against physical attacks other than area attacks.",
+        "Engulf (Ex)": "As a standard action, a cloaker can envelop a target at least one size category smaller. It automatically engulfs its host. Against another target, make a grapple attempt without provoking an attack of opportunity. The victim is pinned. A cloaker with no host gains +4 on bite attacks against its engulfed victim. Attacks against an engulfing cloaker split their damage evenly between the cloaker and the victim. Area spells deal full damage to both. Shadow and undead cloakers can still use their tails against other targets.",
+        "Printed source": "pp. 50–52"
+      }
+    }
+  },
+  {
+    "name": "Dread Elemental",
+    "decision": "separate",
+    "pages": "pp. 63–69",
+    "notes": "Family encounter reference. Use a member profile for its statistics.",
+    "memberNames": [
+      "Blood Elemental",
+      "Grave Elemental",
+      "Mist Elemental",
+      "Pyre Elemental"
+    ],
+    "statBlock": {
+      "name": "Dread Elemental",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "description": "Ravenloft produces corrupted elementals of blood, grave earth, mist, and pyre fire. Each has six printed size tiers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "encounterProcedure": true,
+      "cr": "",
+      "sections": {
+        "Running the encounter": "Choose the kind of elemental and its size tier, then use that profile. All four use elemental traits and the Mists subtype. They understand speech but never speak. Free-willed dread elementals resent their conjurers and look for a chance to turn on them.",
+        "Conjuring": "Calling a standard elemental in Ravenloft has a 20% chance to produce a dread elemental. Summoning magic always produces dread elementals. Accidental replacements are uncontrolled, and the Dark Powers provide the material. A deliberate conjuration requires the material appropriate to the kind of elemental and follows the usual rules for breaking control. Dismissed dread elementals return to Ravenloft itself.",
+        "Printed source": "pp. 63–69"
+      }
+    }
+  },
+  {
+    "name": "Dread Golem",
+    "decision": "separate",
+    "pages": "p. 93, with member entries on pp. 93–103",
+    "notes": "Family encounter reference. Use a member profile for its statistics.",
+    "memberNames": [
+      "Bone Golem",
+      "Doll Golem",
+      "Dread Flesh Golem",
+      "Gargoyle Golem",
+      "Glass Golem",
+      "Mechanical Golem",
+      "Mist Golem",
+      "Snow Golem",
+      "Wax Golem",
+      "Zombie Golem"
+    ],
+    "statBlock": {
+      "name": "Dread Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "description": "The maker shapes a body, but the dark desires behind the work bring the construct to life. Some dread golems develop wills of their own.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "encounterProcedure": true,
+      "cr": "",
+      "sections": {
+        "Running the encounter": "Choose the material and use its member profile. The creator can give orders from within 60 ft. if the golem can both see and hear the creator. It keeps following the last order until replaced and defends itself when attacked. A free-willed golem can turn on its maker or leave.",
+        "Construct defenses": "Dread golems are immune to mind-affecting effects, poison, disease, and similar effects. They ignore critical hits, nonlethal damage, ability damage, energy drain, and death from massive damage. Their magic immunity blocks spells except where the chosen golem's profile lists an exception.",
+        "Printed source": "p. 93, with member entries on pp. 93–103"
+      }
+    }
+  },
+  {
+    "name": "Dread Hound",
+    "decision": "separate",
+    "pages": "pp. 115–116",
+    "notes": "Family encounter reference. Use a member profile for its statistics.",
+    "memberNames": [
+      "Dread Mastiff",
+      "Phantom Hound",
+      "Carcass Hound"
+    ],
+    "statBlock": {
+      "name": "Dread Hound",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "description": "This heading groups Ravenloft's living mastiff with two kinds of undead hound.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "encounterProcedure": true,
+      "cr": "",
+      "sections": {
+        "Running the encounter": "Use a dread mastiff as a living guard dog. A trained attack dog can trip as a wolf does and a mastiff gets +4 on Survival checks to track by scent. A phantom hound normally guards its former master's property, but it will pursue a thief to recover stolen property. Phantom hounds that bay together use the pack version of Bay. Carcass hounds follow simple orders and attack the nearest foe until destroyed. Use the selected profile for its numbers and bite effects.",
+        "Printed source": "pp. 115–116"
+      }
+    }
+  },
+  {
+    "name": "Dread Plant",
+    "decision": "separate",
+    "pages": "pp. 159–170",
+    "notes": "Family encounter reference. Use a member profile for its statistics.",
+    "memberNames": [
+      "Bloodroot",
+      "Bloodrose",
+      "Crawling Ivy",
+      "Death’s-Head Tree",
+      "Doppelganger Plant",
+      "Fearweed",
+      "Lashweed",
+      "Quickwood",
+      "Undead Treant"
+    ],
+    "statBlock": {
+      "name": "Dread Plant",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "description": "Ravenloft's hostile flora includes rooted ambushers, mobile predators, and plants that use their victims as lures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "encounterProcedure": true,
+      "cr": "",
+      "sections": {
+        "Running the encounter": "Choose the plant that fits the location. The family introduction calls for plant traits. Use the selected profile for its actual creature type, especially the Undead Treant, and for its way of detecting or trapping prey.",
+        "Dread treants": "The living dread treant sidebar retains the standard 3.5 treant statistics and abilities. The corruption of Ravenloft turns these treants evil and gives them a taste for humanoid flesh. Use the Undead Treant profile where the encounter calls for the separate, blood-draining creature.",
+        "Printed source": "pp. 159–170"
+      }
+    }
+  },
+  {
+    "name": "Dream Spawn",
+    "decision": "separate",
+    "pages": "pp. 58–60",
+    "notes": "Family encounter reference. Use a member profile for its statistics.",
+    "memberNames": [
+      "Gray Morph",
+      "Shadow Morph",
+      "Ennui"
+    ],
+    "statBlock": {
+      "name": "Dream Spawn",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "description": "These shapeshifters feed on fear in the Veil of Sleep and use a dreamer's memories to decide what shape to take.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "encounterProcedure": true,
+      "cr": "",
+      "sections": {
+        "Running the encounter": "A gray morph plays a minor part in the nightmare and flees when challenged. A shadow morph directs the dream and uses its howl to paralyze foes. An ennui stalks vivid nightmares and can turn invisible. Use the chosen form's profile. If a dream spawn kills a dreamer in the dreamscape, the dreamer makes a Madness save on waking. The DC is 10 + half the spawn's Hit Dice + its Wisdom modifier.",
+        "Shared actions": "Alternate Form works as polymorph on itself at caster level 8 and takes a standard action. It lasts indefinitely, and the spawn can return to its own form as a free action. In its dreamscape, it reads surface thoughts as if it had studied each creature for three rounds with detect thoughts. Caster level equals its Hit Dice and the save DC is Wisdom-based. Once per day, Memory Drain inflicts 1d4 Intelligence damage with a touch. Until the victim recovers all the lost Intelligence, the spawn can mimic creatures from their memories.",
+        "Lullaby and Fear Eater": "Lullaby is a standard action. Foes within 20 ft. make a DC 14 Will save or become fatigued for 1d4 rounds, or for as long as the spawn stays within 20 ft. and maintains its chant as a free action. This is a sonic, mind-affecting compulsion. Dream spawn are immune to fear, horror, and madness. A spell that would cause one of these effects heals the spawn 1 HP per spell level. If the spawn makes a dreamer fail one of these saves, it heals 2 HP for a minor effect, 4 HP for a moderate effect, or 8 HP for a major effect.",
+        "Printed source": "pp. 58–60"
+      }
+    }
+  }
+]

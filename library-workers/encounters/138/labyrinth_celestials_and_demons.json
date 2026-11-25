@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Angel, Archangel, Kel Belleth",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 248–249",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Angel, Archangel, Kel Belleth",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Celestial (Angel)",
+      "ac": 18,
+      "hp": 231,
+      "speed": "30 ft., fly 90 ft.",
+      "cr": "15",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Kel Belleth turned her exile into a base for the Void. She recruits disaffected celestials and aids cults from her demiplane, Sun Hollow.",
+      "otherStatistics": "Natural armor. Perception 20, Stealth 14. Immune to necrotic damage. Truesight 120 ft. Speaks all languages and has telepathy 120 ft. CR 16 in Sun Hollow.",
+      "sections": {
+        "Ability modifiers": "STR +7 · DEX +4 · CON +11 · INT +4 · WIS +10 · CHA +10",
+        "Traits": "Angelic Resilience. Resist radiant damage and damage from nonmagical bludgeoning, piercing, and slashing attacks. Immune to Exhaustion, Charmed, and Frightened.\nAngelic Senses. Pinpoint Aberrations, Celestials, Fiends, and Undead within 30 ft. Recognize consecration or desecration on any place or object the angel can sense.\nDivine Awareness. Kel Belleth recognizes any lie she hears.\nDivine Protection. Aberrations, Celestials, Fiends, and Undead roll attacks against her with disadvantage.\nImmortal Nature. The angel needs no food, drink, or sleep.\nLegendary Resistance (3/day). She can choose to succeed when she fails a save.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.\nVoid Weapons. Her weapon attacks are magical and add 4d8 necrotic damage on a hit, as included below.",
+        "Actions": "Multiattack. Make two Greatsword attacks or four Void Bolt attacks. One attack in either set can be replaced with Chain.\nGreatsword. Melee weapon attack, +12 to hit, reach 5 ft., one target. Hit 28 (6d6 + 7) slashing plus 18 (4d8) necrotic damage.\nChain. Melee weapon attack, +12 to hit, reach 15 ft., one target. Hit 20 (3d8 + 7) bludgeoning plus 18 (4d8) necrotic damage. Grapple the target (escape DC 18) and Restrain it until the grapple ends. Each of her three chains can hold one target.\nVoid Bolt. Ranged spell attack, +10 to hit, range 60 ft., one target. Hit 23 (4d8 + 5) necrotic damage.\nSoul Siphon (Recharge 6). Choose up to three creatures she can see within 10 ft. Each makes a DC 18 Constitution save, with disadvantage if Restrained by her Chain. A failure deals 49 (11d8) necrotic damage and gives one level of void taint, or one level of Exhaustion if substituting. A success halves the damage and avoids the added level. Kel Belleth regains HP equal to half the total necrotic damage dealt.",
+        "Reactions": "Blasphemous Word. When an attacker she can see hits her, Kel Belleth can speak a word of Void Speech. An attacker that hears her takes 9 (2d8) necrotic damage. She must be able to speak.",
+        "Legendary Actions": "Kel Belleth has three legendary actions and recovers them at the start of her turn. Use at most one option at the end of another creature’s turn.\nTeleport. Move magically up to 90 ft. to an unoccupied space she can see, bringing anything she is wearing or carrying.\nDark Litany (2 actions). Choose up to two creatures she can see within 60 ft. Each that hears her makes a DC 18 Wisdom save, with disadvantage if it has void taint or the substituted Exhaustion. Every saving target falls Prone. A failed save also Incapacitates it until the end of its next turn.\nRavenous Heart (2 actions). Use Soul Siphon if ready.",
+        "Lair Actions": "On initiative count 20, after tied turns, choose one effect. The same effect cannot be used in consecutive rounds.\nClawing Shadows. Until the next count 20, each hostile creature that starts its turn in dim light or darkness within 120 ft. of Kel Belleth makes a DC 18 Dexterity save. Failure deals 7 (2d6) necrotic damage and halves its speed until the start of its next turn.\nVile Chorus. Pick a point she can see within 120 ft. Each hostile creature within 30 ft. of that point makes a DC 18 Constitution save. Failure deals 7 (2d6) psychic damage and makes it vulnerable to necrotic damage until the next count 20.\nWeeping Stone. All solid surfaces within 300 ft. of Kel Belleth become difficult terrain until the next count 20.",
+        "Regional Effects": "Gnawing Emptiness. Food and drink consumed in Sun Hollow turn to ash and do not count against starvation or dehydration.\nHeavenly Hostility. Celestials other than Kel Belleth and void angels make a DC 18 Charisma save each hour spent in Sun Hollow. Failure adds one level of Exhaustion, bypassing the immunity granted by Angelic Resilience.\nOppressive Gray. Effects that create sunlight give bright light instead. Effects that ordinarily create bright light give dim light.\nThese effects fade 1d10 days after Kel Belleth dies.",
+        "Encounter reference": "See Chapter 7, pp. 227–229 for the optional void taint rules. Soul Siphon specifies Exhaustion as the fallback.",
+        "Printed source": "Chapter 8, pp. 248–249"
+      }
+    }
+  },
+  {
+    "name": "Angel, Destroying",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 245–246",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Angel, Destroying",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Celestial (Angel)",
+      "ac": 15,
+      "hp": 82,
+      "speed": "30 ft., fly 90 ft.",
+      "cr": "4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Kel Belleth’s soldiers arrive on ragged wings with corroded armor and warhammers.",
+      "otherStatistics": "Breastplate. Perception 14, Stealth 11. Resists necrotic damage. Darkvision 120 ft. Speaks all languages and has telepathy 120 ft.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +1 · CON +3 · INT +1 · WIS +4 · CHA +4",
+        "Traits": "Angelic Resilience. Resist radiant damage and damage from nonmagical bludgeoning, piercing, and slashing attacks. Immune to Exhaustion, Charmed, and Frightened.\nAngelic Senses. Pinpoint Aberrations, Celestials, Fiends, and Undead within 30 ft. Recognize consecration or desecration on any place or object the angel can sense.\nImmortal Nature. The angel needs no food, drink, or sleep.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.\nVoid Weapons. Its weapon attacks are magical and add 2d8 necrotic damage on a hit, as included below.",
+        "Actions": "Multiattack. Make two Warhammer attacks.\nWarhammer. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) when used with two hands, plus 9 (2d8) necrotic damage either way.\nRuinous Burst (Recharge 5–6). Each creature within 20 ft. other than angels makes a DC 14 Constitution save. Creatures made from inorganic matter roll with disadvantage. Failure deals 18 (4d8) necrotic damage and knocks the creature Prone. Success halves the damage and prevents the fall. Structures and unattended nonmagical objects take double damage.",
+        "Bonus Actions": "Dazing Bolt. Pick a creature the angel can see within 30 ft. On a failed DC 14 Constitution save, its next attack roll before the start of the angel’s next turn has disadvantage.",
+        "Reactions": "Word of Decay. When a visible creature hits the angel in melee, the angel can speak a word of Void Speech. If the attacker wields a nonmagical weapon, it makes a DC 14 Constitution save. On a failure, the weapon decays after the hit and attacks with it have disadvantage until a creature spends a short rest repairing it. The angel must be able to speak.",
+        "Printed source": "Chapter 8, pp. 245–246"
+      }
+    }
+  },
+  {
+    "name": "Angel, Void",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 246–247",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Angel, Void",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Celestial (Angel)",
+      "ac": 16,
+      "hp": 143,
+      "speed": "30 ft., fly 90 ft.",
+      "cr": "8",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An exiled celestial that seeks out ambitious mortals and tempts them with forbidden magic.",
+      "otherStatistics": "Natural armor. Perception 17, Stealth 14. Resists necrotic damage. Darkvision 120 ft. Speaks all languages and has telepathy 120 ft.",
+      "sections": {
+        "Ability modifiers": "STR +4 · DEX +2 · CON +4 · INT +2 · WIS +7 · CHA +7",
+        "Traits": "Angelic Resilience. Resist radiant damage and damage from nonmagical bludgeoning, piercing, and slashing attacks. Immune to Exhaustion, Charmed, and Frightened.\nAngelic Senses. Pinpoint Aberrations, Celestials, Fiends, and Undead within 30 ft. Recognize consecration or desecration on any place or object the angel can sense.\nImmortal Nature. The angel needs no food, drink, or sleep.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.\nVoid Weapons. Its weapon attacks are magical and add 4d8 necrotic damage on a hit, as included below.",
+        "Actions": "Multiattack. Make two Greatsword attacks. One may be replaced with Chain.\nGreatsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing plus 18 (4d8) necrotic damage.\nChain. Melee weapon attack, +7 to hit, reach 15 ft., one target. Hit 8 (1d8 + 4) bludgeoning plus 18 (4d8) necrotic damage. Grapple the target (escape DC 15) and Restrain it until the grapple ends. Each of its two chains can hold one target.\nSoul Siphon (Recharge 6). Choose up to two creatures the angel can see within 10 ft. Each makes a DC 15 Constitution save, with disadvantage if Restrained by its Chain. A failure deals 31 (7d8) necrotic damage and gives one level of void taint, or one level of Exhaustion if substituting. A success halves the damage and avoids the added level. The angel regains HP equal to half the total necrotic damage dealt.",
+        "Bonus Actions": "Change Shape. Magically become a Large or smaller Beast or Humanoid of CR 8 or lower, or return to true form. Gear may transform or be carried by the new form. Death restores the true form. The angel keeps its HP, HD, speech, proficiencies, Intelligence, Wisdom, Charisma, Angelic Resilience, Angelic Senses, Immortal Nature, and Change Shape. Otherwise take the new form’s statistics and capabilities except class features and legendary actions.",
+        "Reactions": "Blasphemous Word. When an attacker the angel can see hits it, the angel can speak a word of Void Speech. An attacker that hears it takes 4 (1d8) necrotic damage. The angel must be able to speak.",
+        "Encounter reference": "See Chapter 7, pp. 227–229 for the optional void taint rules. Soul Siphon specifies Exhaustion as the fallback.",
+        "Printed source": "Chapter 8, pp. 246–247"
+      }
+    }
+  },
+  {
+    "name": "Chol, Pyrol",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 253–254",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Chol, Pyrol",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fiend (Outsider)",
+      "ac": 16,
+      "hp": 105,
+      "speed": "30 ft.",
+      "cr": "7",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Chol armies hire pyrols as incendiary artillery. The fiends take payment in magic items that produce light or fire.",
+      "otherStatistics": "Natural armor. Perception 14, Stealth 16. Resists cold, lightning, poison, and damage from nonmagical bludgeoning, piercing, and slashing attacks. Resists Grappled, Poisoned, and Restrained. Immune to acid and fire damage and Charmed. Darkvision 60 ft. Speaks Abyssal, Common, and Infernal. Telepathy 60 ft.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +6 · CON +3 · INT +1 · WIS +1 · CHA +6",
+        "Traits": "Acidic Weapons. Its weapon attacks are magical and add 2d8 acid damage on a hit, as included below.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.\nStifling Heat. A non-Fiend that starts its turn within 10 ft. makes a DC 14 Constitution save. On a failure, it has disadvantage on attack rolls and deals half damage with Strength-based weapon attacks until its next turn starts. Failing by at least 5 also adds one level of Exhaustion. A creature can gain Exhaustion from this pyrol’s heat only once per 24 hours.",
+        "Actions": "Multiattack. Make two attacks using Claw or Clinging Flame.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 17 (4d6 + 3) slashing plus 9 (2d8) acid damage.\nClinging Flame. Ranged spell attack, +6 to hit, range 90 ft., one target. Hit 21 (4d8 + 3) fire damage. A creature or flammable object catches fire and takes 5 (1d10) fire damage at the start of each of its turns until a creature uses an action to put out the fire.\nFiery Acid Burst (Recharge 5–6). Each creature within 20 ft. makes a DC 14 Dexterity save. Failure deals 13 (3d8) acid and 13 (3d8) fire damage. Success halves each. A creature that fails by at least 5 takes another 4 (1d8) acid and 4 (1d8) fire damage at the start of its next turn.",
+        "Bonus Actions": "Burning Dash. Move up to half speed. The spaces crossed hold puddles of flaming acid until the start of the pyrol’s next turn. The first creature to enter a given puddle takes 2 (1d4) fire damage and extinguishes that puddle.",
+        "Printed source": "Chapter 8, pp. 253–254"
+      }
+    }
+  },
+  {
+    "name": "Demon, Realm Singer",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 254–255",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Demon, Realm Singer",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fiend (Demon)",
+      "ac": 16,
+      "hp": 197,
+      "speed": "40 ft.",
+      "cr": "11",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The demon steals voices and warps songs into weapons. A singer robbed of their voice gives it the power to shriek in Void Speech.",
+      "otherStatistics": "Natural armor. Perception 18, Stealth 15. Vulnerable to Charmed, Deafened, and Unconscious. Resists thunder damage. Truesight 120 ft. Speaks Abyssal and Void Speech. Telepathy 120 ft.",
+      "sections": {
+        "Ability modifiers": "STR +7 · DEX +1 · CON +3 · INT +1 · WIS +8 · CHA +4",
+        "Traits": "Demonic Resilience. Resist cold, fire, and lightning damage. Immune to poison damage and Poisoned.\nDemon Song. While it has a stolen voice, the singer can sing in Void Speech. A hostile creature that starts its turn within 15 ft. and hears the song makes a DC 16 Charisma save or is Incapacitated until its next turn starts.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.",
+        "Actions": "Multiattack. Make three attacks using Beak or Discordant Blast.\nBeak. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 15 (2d10 + 3) piercing plus 9 (2d8) thunder damage.\nDiscordant Blast. Ranged spell attack, +8 to hit, range 120 ft., one target. Hit 17 (3d8 + 4) thunder plus 7 (2d6) psychic damage.\nShrieking Song (Recharge 5–6). Requires a stolen voice. Creatures in a 60-ft. cone make a DC 16 Constitution save. Failure deals 18 (4d8) thunder and 21 (6d6) psychic damage. Success halves each.",
+        "Bonus Actions": "Steal Voice. Choose a speaking creature the singer can see within 30 ft. On a failed DC 16 Charisma save, it loses speech and cannot cast spells with verbal components for 1 minute. Repeat the save at the end of each of its turns, ending the effect on a success. Holding a stolen voice enables Demon Song and Shrieking Song.",
+        "Reactions": "Interrupting Theft. When a creature the singer can see within 30 ft. casts a spell with a verbal component, use Steal Voice against it immediately. If it loses its voice, the spell is interrupted.",
+        "Printed source": "Chapter 8, pp. 254–255"
+      }
+    }
+  },
+  {
+    "name": "Demon, Widross",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 255–256",
+    "notes": "The bite’s printed fixed poison damage and dice differ. The draft preserves both and flags the mismatch.",
+    "statBlock": {
+      "name": "Demon, Widross",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Tiny Fiend (Demon)",
+      "ac": 12,
+      "hp": 19,
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A tiny demon that hides in animal form and carries messages in other people’s voices.",
+      "otherStatistics": "Perception 13, Stealth 12. Darkvision 120 ft. Speaks Abyssal, Common, and Void Speech.",
+      "sections": {
+        "Ability modifiers": "STR −2 · DEX +2 · CON +1 · INT +0 · WIS +1 · CHA +3",
+        "Traits": "Demonic Resilience. Resist cold, fire, and lightning damage. Immune to poison damage and Poisoned.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.\nMimicry. Imitate simple sounds it has heard. A listener identifies the imitation with a successful DC 13 Wisdom (Insight) check.\nMimic Message. Store and repeat up to 1 minute or 25 words of speech, whichever comes first, in the voices it heard and in any language. Storing a new message erases the old one.",
+        "Actions": "Bite (true form only). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage. A creature also makes a DC 13 Constitution save, taking 7 poison damage on a failure or half on a success. The printed alternative is 3d6 poison damage.\nSlam (Beast form only). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) bludgeoning, piercing, or slashing damage matching the new form’s main attack.",
+        "Bonus Actions": "Change Shape. Magically become a Tiny CR 0 Beast or return to true Fiend form. Statistics stay the same except speed, and gear transforms. Death restores true form.",
+        "Encounter reference": "Optional Familiar (p. 255). A willing companion forms a magical telepathic bond with the widross. The companion can share its senses within 1 mile and benefits from its Magic Resistance within 10 ft. The widross can break the bond at any time.",
+        "Table notes": "Bite prints both 7 and 3d6 for poison damage even though the dice average is 10.5. Use the listed fixed 7 when using fixed damage, or roll the listed dice.",
+        "Printed source": "Chapter 8, pp. 255–256"
+      }
+    }
+  },
+  {
+    "name": "Giant, Void",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 270",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Giant, Void",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Giant (Void)",
+      "ac": 14,
+      "hp": 199,
+      "speed": "40 ft.",
+      "cr": "11",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A giant channeling the power of the Void can turn an enemy’s spell into fuel for its own.",
+      "otherStatistics": "Natural armor. Perception 12, Stealth 10. Resists necrotic damage. No special senses. Speaks Common, Draconic, and Giant.",
+      "sections": {
+        "Ability modifiers": "STR +5 · DEX +0 · CON +4 · INT +8 · WIS +2 · CHA +6",
+        "Traits": "Giant Attributes. Resistant to Stunned and vulnerable to Prone.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.",
+        "Actions": "Multiattack. Make two Slam attacks or three Void Bolt attacks. Replace up to one attack with Spellcasting.\nSlam. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit 23 (4d8 + 5) bludgeoning plus 14 (4d6) necrotic damage.\nVoid Bolt. Ranged spell attack, +8 to hit, range 60 ft., one target. Hit 25 (6d6 + 4) necrotic damage.\nSpellcasting. Intelligence is the spellcasting ability (save DC 16). At will: Command, Dancing Lights, Minor Illusion, Thaumaturgy. 3/day each: Bane, Comprehend Languages, Maddening Whispers. 2/day each: Bestow Curse, Dispel Magic, Ray of Enfeeblement. 1/day: Glimpse of the Void.",
+        "Bonus Actions": "Void Infusion. Infuse the next spell the giant casts before the end of its next turn. One chosen creature that the spell hits or that fails its save is Stunned until the end of that creature’s next turn.",
+        "Reactions": "Magic Absorption. When the giant succeeds on a save against a hostile creature’s spell, it may ignore that spell’s effects on itself. If it uses Void Infusion on its next turn, that spell can Stun up to four affected creatures rather than one.",
+        "Encounter reference": "Maddening Whispers (p. 189). Choose a creature that can hear the giant within 30 ft. A failed DC 16 Charisma save leaves it Incapacitated with speed 0 for up to 1 minute. The spell ends if the target takes damage or the giant fails to spend a bonus action continuing the whispers within 30 ft. on a subsequent turn.\nGlimpse of the Void (p. 187). Choose a visible point within 120 ft. Each creature in a 30-ft. cube centered there makes a DC 16 Intelligence save. On a failure, for up to 1 minute with Concentration its only actions are unintelligible cries. At the start of each affected turn, it has a 50 percent chance to move up to half speed in a random direction.",
+        "Printed source": "Chapter 8, p. 270"
+      }
+    }
+  }
+]

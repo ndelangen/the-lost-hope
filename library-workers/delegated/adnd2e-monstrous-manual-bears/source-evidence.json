@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Black Bear",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bear",
+    "printedColumn": "Black",
+    "printedPages": [
+      17
+    ],
+    "printViewerPages": [
+      20
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "printPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/ec893f6a034f2d89f8f5f17847760e6d.webp",
+    "printPageImageSha256": "1ecf4f4d804bf2c2d033c3bcb4225b893c050a174165abb1c070bc7ca202fb2a",
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "sourceArt": {
+      "printedPage": 17,
+      "subject": "Unlabeled brown-colored bear",
+      "creatureFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "numberAppearing": "1–3",
+    "hugDamage": "2d4",
+    "entryId": "beast-b63f85d0e48f64cf2f53f03e",
+    "versionKey": "41464c0400868942669da7dc",
+    "slug": "black-bear",
+    "query": "black bear paw hit hug",
+    "appearanceQuery": "black bear black to light brown",
+    "habitatQuery": "black bear temperate land",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Brown Bear",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bear",
+    "printedColumn": "Brown",
+    "printedPages": [
+      17
+    ],
+    "printViewerPages": [
+      20
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "printPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/ec893f6a034f2d89f8f5f17847760e6d.webp",
+    "printPageImageSha256": "1ecf4f4d804bf2c2d033c3bcb4225b893c050a174165abb1c070bc7ca202fb2a",
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "sourceArt": {
+      "printedPage": 17,
+      "subject": "Unlabeled brown-colored bear",
+      "creatureFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "numberAppearing": "1–6",
+    "hugDamage": "2d6",
+    "entryId": "beast-38acbd9d4d5878ad99a8cb2b",
+    "versionKey": "b0be6e3d09a936cc9ad0c5cb",
+    "slug": "brown-bear",
+    "query": "brown bear melee rounds dies immediately",
+    "appearanceQuery": "brown bear grizzly build",
+    "habitatQuery": "brown bear temperate land",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Cave Bear",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bear",
+    "printedColumn": "Cave",
+    "printedPages": [
+      17
+    ],
+    "printViewerPages": [
+      20
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "printPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/ec893f6a034f2d89f8f5f17847760e6d.webp",
+    "printPageImageSha256": "1ecf4f4d804bf2c2d033c3bcb4225b893c050a174165abb1c070bc7ca202fb2a",
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "sourceArt": {
+      "printedPage": 17,
+      "subject": "Unlabeled brown-colored bear",
+      "creatureFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "numberAppearing": "1–2",
+    "hugDamage": "2d8",
+    "entryId": "beast-a6dc86a4c96bc7653f3df1a1",
+    "versionKey": "2227d1713677722fb9277613",
+    "slug": "cave-bear",
+    "query": "cave bear melee rounds dies immediately",
+    "appearanceQuery": "cave bear massive forequarters",
+    "habitatQuery": "cave bear any land",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Polar Bear",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bear",
+    "printedColumn": "Polar",
+    "printedPages": [
+      17
+    ],
+    "printViewerPages": [
+      20
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "printPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/ec893f6a034f2d89f8f5f17847760e6d.webp",
+    "printPageImageSha256": "1ecf4f4d804bf2c2d033c3bcb4225b893c050a174165abb1c070bc7ca202fb2a",
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "sourceArt": {
+      "printedPage": 17,
+      "subject": "Unlabeled brown-colored bear",
+      "creatureFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "numberAppearing": "1–6",
+    "hugDamage": "3d6",
+    "entryId": "beast-d2a82dc14e67c579eed05073",
+    "versionKey": "fc2f5b3afea01f03ebd38dc1",
+    "slug": "polar-bear",
+    "query": "polar bear fight marine animals",
+    "appearanceQuery": "polar bear white coat long muzzle",
+    "habitatQuery": "polar bear any cold",
+    "portraitSelection": "generated"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "commit": "03c17d4c30322aacbf8890975df0c20faa21e7f3",
+  "encounterVersions": 5,
+  "fullStatBlocks": 5,
+  "totalTomeOfFoesVersionsWithLocalRules": 154,
+  "generatedPortraitsVerified": 5,
+  "generatedPortraitsRevised": 1,
+  "originalPortraitsReused": 4,
+  "generatedDraftsBackedUp": 1,
+  "replacedPortraitFormatsBackedUp": 2,
+  "allRecentVersionsWithGeneratedPortrait": 475,
+  "creditedGalleriesVerified": 5,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-13-before-after.jpg",
+  "rulesComparison": "output/dm-library/review/encounters-13-rules-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/13/results.json",
+  "nextSourcePublication": "Waterdeep: Dungeon of the Mad Mage",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Animated Staff of Frost",
+      "source": "https://www.dndbeyond.com/monsters/276665-animated-staff-of-frost",
+      "challenge": "4"
+    },
+    {
+      "name": "Astyrranthor",
+      "source": "https://www.dndbeyond.com/monsters/275717-astyrranthor",
+      "challenge": "17"
+    },
+    {
+      "name": "Darribeth Meltimer",
+      "source": "https://www.dndbeyond.com/monsters/267381-darribeth-meltimer",
+      "challenge": "6"
+    },
+    {
+      "name": "Derrion Shadowdusk",
+      "source": "https://www.dndbeyond.com/monsters/277609-derrion-shadowdusk",
+      "challenge": "9"
+    },
+    {
+      "name": "Drow Assassin",
+      "source": "https://www.dndbeyond.com/monsters/273152-drow-assassin",
+      "challenge": "8"
+    },
+    {
+      "name": "Gelatinous Cube (Giant Ooze variant)",
+      "source": "https://www.dndbeyond.com/monsters/266150-gelatinous-cube-giant-ooze-variant",
+      "challenge": "2"
+    },
+    {
+      "name": "Giant Mimic",
+      "source": "https://www.dndbeyond.com/monsters/285320-giant-mimic",
+      "challenge": "3"
+    },
+    {
+      "name": "Halfling Musician",
+      "source": "https://www.dndbeyond.com/monsters/273173-halfling-musician",
+      "challenge": "0"
+    },
+    {
+      "name": "Harria Valashtar",
+      "source": "https://www.dndbeyond.com/monsters/265945-harria-valashtar",
+      "challenge": "2"
+    },
+    {
+      "name": "Shadowy Duplicate",
+      "source": "https://www.dndbeyond.com/monsters/265953-shadowy-duplicate",
+      "challenge": "1/2"
+    },
+    {
+      "name": "Statue of Lolth",
+      "source": "https://www.dndbeyond.com/monsters/273136-statue-of-lolth",
+      "challenge": "11"
+    },
+    {
+      "name": "Turbulence",
+      "source": "https://www.dndbeyond.com/monsters/273036-turbulence",
+      "challenge": "6"
+    },
+    {
+      "name": "Uktarl Krannoc",
+      "source": "https://www.dndbeyond.com/monsters/265939-uktarl-krannoc",
+      "challenge": "2"
+    },
+    {
+      "name": "Violence",
+      "source": "https://www.dndbeyond.com/monsters/273037-violence",
+      "challenge": "6"
+    }
+  ]
+}

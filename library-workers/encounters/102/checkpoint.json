@@ -1,0 +1,35 @@
+{
+  "commit": "8e7614f",
+  "batch": 102,
+  "verification": {
+    "testsPassed": 902,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Buomman",
+        "species": "species-c07c47cc07fc5ad1b1bce1f9",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Planar Handbook (2004)"
+        ],
+        "portraitSha256": "02c63804f50467fbec4ac85aedfaa5f19f4c6447914c00e58f3202d7f5e9cc1c",
+        "caption": "Morrow · Original Buomman NPC",
+        "npcReceipts": [
+          {
+            "name": "Morrow",
+            "id": "npc-d4d2a85a6a4fab5cf711262e",
+            "challenge": "Provisional CR 1. ECL 1."
+          },
+          {
+            "name": "Lumen",
+            "id": "npc-456f45fddc2e725c2948d033",
+            "challenge": "Provisional CR 1. ECL 1."
+          }
+        ]
+      }
+    ],
+    "browseThumbnail": true,
+    "shadarKaiMatchesBaseline": true,
+    "r2AndBothLocalBackups": true
+  }
+}

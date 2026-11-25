@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Wild Dwarf",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "The Dur Authalar are Small Humanoids (Dwarf). +2 Constitution, −2 Charisma. Darkvision 60 ft.",
+      "Small gives +1 on attacks and AC, +4 Hide, −4 grapple, and three-quarters of the Medium carrying limits. Use Small weapons.",
+      "Land speed 20 ft. The 3.5 dwarf movement rule keeps that speed in medium or heavy armor or under a medium or heavy load.",
+      "Dwarf stability gives +4 on ability checks to resist bull rush or trip when firmly grounded.",
+      "+3 racial on saves against poison, +4 racial against disease, and +2 racial against spells and spell-like abilities.",
+      "Fire resistance 5. Immune to Wild Dwarf knockout poison. Poison Use prevents accidental self-poisoning during application to a weapon.",
+      "Proficient with handaxe and blowgun in place of dwarven waraxe and urgrosh familiarity. +1 racial attack bonus against orcs and goblinoids and +4 dodge AC against giants.",
+      "The species entry removes stonecunning and the standard stone or metal Appraise and Craft bonuses.",
+      "Common, Dwarven, and the home-region language are automatic. The revised Chult table grants Chultan and offers Draconic, Goblin, Ignan, Shaaran, and Tashalan as bonus languages.",
+      "Favored class Barbarian. No racial Hit Dice. Level adjustment +0. Effective character level equals class levels.",
+      "This 3.5 adaptation uses the 2003 playable traits, revised core Dwarf rules, and the revised Chult region."
+    ]
+  }
+]

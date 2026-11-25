@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Ashborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Fiend",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "Player v1.1, p. 3, Ashborn Traits.",
+    "printedPages": [
+      3
+    ],
+    "heading": "Ashborn Traits",
+    "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+  },
+  {
+    "name": "Azureborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Humanoid",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "Player v1.1, p. 4, Azureborn Traits.",
+    "printedPages": [
+      4
+    ],
+    "heading": "Azureborn Traits",
+    "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+  },
+  {
+    "name": "Bogborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Giant",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "Player v1.1, p. 5, Bogborn Traits.",
+    "printedPages": [
+      5
+    ],
+    "heading": "Bogborn Traits",
+    "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+  },
+  {
+    "name": "Curseborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Humanoid",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "Player v1.1, p. 6, Curseborn Traits.",
+    "printedPages": [
+      6
+    ],
+    "heading": "Curseborn Traits",
+    "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+  },
+  {
+    "name": "Deepborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Aberration",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "",
+    "page": "Player v1.1, p. 7, Deepborn Traits.",
+    "printedPages": [
+      7
+    ],
+    "heading": "Deepborn Traits",
+    "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+  }
+]

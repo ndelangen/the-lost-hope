@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Herathian Voat",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR , product 2524XXX1501",
+    "heading": "Voat, Herathian",
+    "printedPages": [
+      116,
+      117
+    ],
+    "pdfPages": [
+      117,
+      118
+    ],
+    "sourceUrl": "",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+    "printedClimateTerrain": "Any forest or plains",
+    "habitatEvidence": "The p. 116 table gives forest or plains. p. 117 describes seasonal movement between Herath, the Yazak Steppes, and western Hule.",
+    "appearanceEvidence": "p. 117 describes the loose skin, oversized feet, blunt snout, no tail, and raking claws. The pale hide follows the reused portrait.",
+    "printingNotes": [
+      "The print uses Slagovich juggernaut as an alias but also says a Slagovich juggernaut was created to hunt Herathian voats. Retain the printed encounter heading and the combat rules on these pages. No alternate stat block is inferred.",
+      "The appendix gives a brief War Cry save rule. The more detailed Campaign Book p. 107 distinguishes monsters with morale ratings from targets without them. The encounter summary uses the appendix version."
+    ],
+    "supportingSources": {
+      "Red Curse and Legacy rules": "",
+      "Initial Region 1–4 table": "",
+      "Amber Paralysis": "",
+      "War Cry and Weapon Hand": "",
+      "Campaign Book comparison": ""
+    }
+  },
+  {
+    "name": "Jorri",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR , product 2524XXX1501",
+    "heading": "Jorri",
+    "printedPages": [
+      57,
+      58
+    ],
+    "pdfPages": [
+      58,
+      59
+    ],
+    "sourceUrl": "",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+    "printedClimateTerrain": "Saltwater",
+    "habitatEvidence": "The table gives saltwater and p. 58 describes coastal dens, play in the surf, and reefs.",
+    "appearanceEvidence": "pp. 57–58 describe short oily gray-black fur, white whiskers, webbed hind toes, and a crescent tail. These match the reused portrait.",
+    "printingNotes": [
+      "Description gives 2–4 ft. length while the table gives 3–4 ft. The combat profile uses the table.",
+      "The source gives no extra attack bonus, recurring damage or fixed duration for the jaw lock."
+    ],
+    "supportingSources": {
+      "Red Curse and Legacy rules": "",
+      "Initial Region 1–4 table": ""
+    }
+  },
+  {
+    "name": "Juhrion",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR , product 2524XXX1501",
+    "heading": "Juhrion",
+    "printedPages": [
+      58,
+      59
+    ],
+    "pdfPages": [
+      59,
+      60
+    ],
+    "sourceUrl": "",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+    "printedClimateTerrain": "Any",
+    "habitatEvidence": "The p. 58 table allows any terrain. p. 59 describes dens in caves or hollowed thicket beds.",
+    "appearanceEvidence": "p. 58 explicitly describes the huge four-footed bear shape, lack of hair, red leathery hide, large teeth, and harpoon-shaped claws. The stance and muted shade are editorial.",
+    "printingNotes": [
+      "Table lists special defenses as nil while ecology explicitly grants immunity to vermilia. The summary preserves both.",
+      "The claw paragraph gives a 50% infection chance and points to the Parasite entry, which gives the poison save. A practical reading is to roll the claw chance first and apply the appropriate save on exposure. The text does not state a roll order."
+    ],
+    "supportingSources": {
+      "Red Curse and Legacy rules": "",
+      "Initial Region 1–4 table": "",
+      "Parasite: Vermilia": ""
+    }
+  },
+  {
+    "name": "Lupasus",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR , product 2524XXX1501",
+    "heading": "Lupasus",
+    "printedPages": [
+      68,
+      69
+    ],
+    "pdfPages": [
+      69,
+      70
+    ],
+    "sourceUrl": "",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+    "printedClimateTerrain": "Any steppes",
+    "habitatEvidence": "p. 68 gives any steppes and describes Yazak, prairies, forest lands, and all but the highest mountains.",
+    "appearanceEvidence": "p. 68 describes a typical gray wolf shape with white underside, a bushy tail, and soft fur covering the wings. The reused portrait has layered wing edges.",
+    "printingNotes": [
+      "The source lists no special attacks in its combat table. Flight rules and optional Legacy effects are described in prose."
+    ],
+    "supportingSources": {
+      "Red Curse and Legacy rules": "",
+      "Initial Region 1–4 table": "",
+      "General flying maneuverability": ""
+    }
+  },
+  {
+    "name": "Marine Cat",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR , product 2524XXX1501",
+    "heading": "Cat, Marine",
+    "printedPages": [
+      16,
+      17
+    ],
+    "pdfPages": [
+      17,
+      18
+    ],
+    "sourceUrl": "",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+    "printedClimateTerrain": "Shipboard",
+    "habitatEvidence": "Table specifies shipboard and the prose describes dock outings and life around rigging, cargo holds, and staterooms.",
+    "appearanceEvidence": "p. 16 describes a slightly larger-than-usual cat, often dark with bright eyes. The stripes and green eyes follow the reused portrait.",
+    "printingNotes": [
+      "The glossary permits small family groups under Solitary. Retain the separate printed 1d2 number appearing.",
+      "The appendix gives no percentile chance or default Legacy, and neither named power belongs to an ordinary marine cat by default."
+    ],
+    "supportingSources": {
+      "Red Curse and Legacy rules": "",
+      "Initial Region 1–4 table": "",
+      "Breathe Water": "",
+      "Swim": ""
+    }
+  }
+]

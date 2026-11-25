@@ -1,0 +1,2463 @@
+[
+  {
+    "name": "Large Spider",
+    "version": {
+      "key": "7e0e0b47296b489aed7257df",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "8"
+        ],
+        [
+          "Hit dice",
+          "1+1"
+        ],
+        [
+          "Size",
+          "S, 2 ft. diameter"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6, Wb 15"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any non-arctic land"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A two-foot-wide web-spinner with a bulbous abdomen and slender legs."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Sticky web · Strength 19 or higher leaves a creature unaffected. A creature below Strength 19 needs one round to break free for each point below 19. An entangled creature loses its Dexterity adjustment to Armor Class, and attacks against it gain a +4 bonus. Nearby Large Spiders attack it while it is stuck.",
+            "Type A poison · The bite poison takes effect after 15 minutes. It deals 15 damage on a failed save vs. poison. The victim gets +2 on the save, and success negates the poison damage."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "2–20 appearing. The table lists swarm organization.",
+            "Common. Carnivore. Nonintelligent (0). Neutral. Unsteady (7) morale. Treasure J–N.",
+            "The entry gives no fixed hit points. Special defenses and magic resistance are listed as Nil.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), p. 326."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Large Spider": true,
+      "large spider web strength 19": true
+    },
+    "hash": "6cf5d82b058652637b9d9432852edcf9bd24978dde9efc1c9dd810d9290ff070",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Huge Spider",
+    "version": {
+      "key": "9f661d4f4bc297dc2014fda4",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit dice",
+          "2+2"
+        ],
+        [
+          "Size",
+          "M, 6 ft. diameter"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "18"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–6"
+        ],
+        [
+          "XP",
+          "270"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any non-arctic land"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A six-foot-wide hunting spider with a proportionally larger head, large fangs, and hairy body and legs."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Leaping ambush · From camouflaged tunnels or holes, the spider can leap up to 30 feet at an unsuspecting victim. Opponents take a −6 penalty on surprise rolls when it attacks this way.",
+            "Type A poison · The bite poison takes effect after 15 minutes. It deals 15 damage on a failed save vs. poison. The victim gets +1 on the save, and success negates the poison damage."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–12 appearing. The table lists pack organization.",
+            "Common. Carnivore. Animal intelligence (1). Neutral. Average (8) morale. Treasure J–N, Q.",
+            "The entry gives no fixed hit points. Special defenses and magic resistance are listed as Nil.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), p. 326."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Huge Spider": true,
+      "huge spider leap surprise tunnels": true
+    },
+    "hash": "ec75d44ed6ed99b4266241aa0ef665f3cce6428deeb101b711b328d28457886d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Giant Spider",
+    "version": {
+      "key": "f4c24ae77841229eaa5f0610",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "4"
+        ],
+        [
+          "Hit dice",
+          "3+3 or 4+4"
+        ],
+        [
+          "Size",
+          "L, 8–12 ft. diameter"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "3, Wb 12"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–8"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any non-arctic land"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An eight- to twelve-foot-wide web-spinner with a bulbous abdomen and slender legs."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Type F poison · A victim that fails its save vs. poison dies immediately."
+          ]
+        },
+        {
+          "title": "Printed variants mechanics",
+          "lines": [
+            "3+3 Hit Dice · THAC0 17 and 420 XP.",
+            "4+4 Hit Dice · THAC0 15 and 650 XP."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–8 appearing. The table lists nest organization.",
+            "Uncommon. Carnivore. Low intelligence (5–7). Chaotic evil. Elite (13) morale. Treasure C.",
+            "The entry gives no fixed hit points. Special defenses and magic resistance are listed as Nil.",
+            "The Giant column gives two base Hit Dice options. The printed THAC0 and XP values are paired with their corresponding Hit Dice.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), p. 326."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "fb0aa45868a4801b9c0b70f0",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "26"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 4"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "14"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "11"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "2aa7da03bd112a49b623565b",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "75c5aee7acfb60f663b00b69",
+        "publication": "DDAL04-11 - The Donjon",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "26"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 4"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "14"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "11"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "2384c81596637f94e53e0808",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "26"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 4"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "14"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "11"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "d257891e09c23a151f818e4e",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 1. Listed habitats: underdark, forest, swamp, urban, desert. Named abilities include Spider Climb, Web Sense, Web Walker.",
+        "source": "https://5e.tools/bestiary.html#giant%20spider_mm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30849/299/1000/1000/638064499038216933.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Brynn Metheney · Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "26"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 4"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Initiative",
+            "3"
+          ],
+          [
+            "Strength",
+            "14"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "12"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "11"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d8 + 3 piercing · 2d8 poison"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +7"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 10 ft., darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark, forest, swamp, urban, desert"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Spider Climb",
+              "Web Sense",
+              "Web Walker"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +5 to hit · 1d8 + 3 piercing damage · DC 11 Constitution save · 2d8 poison damage · reach 5 ft. · 1 hour · 0 hit points · Half damage on a successful save · Additional effect upon reaching 0 HP · Poisoned · Paralyzed",
+              "Web (Recharge 5–6) · Ranged attack · +5 to hit · DC 12 · range 30/60 ft. · Restrained"
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 328,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 328",
+            "url": "https://5e.tools/bestiary.html#giant%20spider_mm"
+          },
+          {
+            "label": "Poisoned (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#poisoned_phb",
+            "local": {
+              "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+            },
+            "preview": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          },
+          {
+            "label": "Paralyzed (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#paralyzed_phb",
+            "local": {
+              "entry": "compendium-138ba975047a1242ea1c34b0",
+              "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+            },
+            "preview": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_phb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast with challenge rating 1. Listed habitats: underdark, forest, swamp, urban, desert. Named abilities include Spider Climb, Web Sense, Web Walker.": [
+            {
+              "start": 121,
+              "end": 133,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 277,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "PHB:277:https://5e.tools/spells.html#spider%20climb_phb"
+                }
+              }
+            },
+            {
+              "start": 135,
+              "end": 138,
+              "target": {
+                "name": "Web",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 287,
+                "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+                "local": {
+                  "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                  "version": "PHB:287:https://5e.tools/spells.html#web_phb"
+                }
+              }
+            },
+            {
+              "start": 146,
+              "end": 149,
+              "target": {
+                "name": "Web",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 287,
+                "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+                "local": {
+                  "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                  "version": "PHB:287:https://5e.tools/spells.html#web_phb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Stealth +7": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "blindsight 10 ft., darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 19,
+              "end": 29,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 277,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "PHB:277:https://5e.tools/spells.html#spider%20climb_phb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +5 to hit · 1d8 + 3 piercing damage · DC 11 Constitution save · 2d8 poison damage · reach 5 ft. · 1 hour · 0 hit points · Half damage on a successful save · Additional effect upon reaching 0 HP · Poisoned · Paralyzed": [
+            {
+              "start": 218,
+              "end": 226,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            },
+            {
+              "start": 229,
+              "end": 238,
+              "target": {
+                "name": "Paralyzed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                "local": {
+                  "entry": "compendium-138ba975047a1242ea1c34b0",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                }
+              }
+            }
+          ],
+          "Web (Recharge 5–6) · Ranged attack · +5 to hit · DC 12 · range 30/60 ft. · Restrained": [
+            {
+              "start": 75,
+              "end": 85,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "ce65334bb3e1c6e91ba2a736",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 1. Listed habitats: desert, forest, swamp, underdark, urban. Named abilities include Spider Climb, Web Walker, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20spider_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43939/570/1000/1000/638607426460275494.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "26"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 4"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "14"
+          ],
+          [
+            "Strength",
+            "14"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "12"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "11"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "desert",
+              "forest",
+              "swamp",
+              "underdark",
+              "urban",
+              "desert, forest, swamp, underdark, urban"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d8 + 3 piercing · 2d6 poison"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +4, Stealth +7"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Spider Climb",
+              "Web Walker"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +5 to hit · 1d8 + 3 piercing damage · 2d6 poison damage · reach 5 ft.",
+              "Web (Recharge 5–6) · Dexterity save · DC 13 · within 60 feet · Restrained · Vulnerability · Immunity"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 359",
+            "url": "https://5e.tools/bestiary.html#giant%20spider_xmm"
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_xphb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 373,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+              }
+            }
+          },
+          {
+            "label": "Vulnerability (rule)",
+            "url": "https://5e.tools/variantrules.html#vulnerability_xphb",
+            "local": {
+              "entry": "compendium-a620d3445a107af6bc095c9b",
+              "version": "XPHB:377:https://5e.tools/variantrules.html#vulnerability_xphb"
+            },
+            "preview": {
+              "name": "Vulnerability",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-a620d3445a107af6bc095c9b",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#vulnerability_xphb"
+              }
+            }
+          },
+          {
+            "label": "Immunity (rule)",
+            "url": "https://5e.tools/variantrules.html#immunity_xphb",
+            "local": {
+              "entry": "compendium-a239591212d49ede6cae4370",
+              "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+            },
+            "preview": {
+              "name": "Immunity",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 369,
+              "local": {
+                "entry": "compendium-a239591212d49ede6cae4370",
+                "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast with challenge rating 1. Listed habitats: desert, forest, swamp, underdark, urban. Named abilities include Spider Climb, Web Walker, Bite.": [
+            {
+              "start": 121,
+              "end": 133,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            },
+            {
+              "start": 135,
+              "end": 138,
+              "target": {
+                "name": "Web",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+                "local": {
+                  "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                  "version": "XPHB:340:https://5e.tools/spells.html#web_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +4, Stealth +7": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Web (Recharge 5–6) · Dexterity save · DC 13 · within 60 feet · Restrained · Vulnerability · Immunity": [
+            {
+              "start": 63,
+              "end": 73,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            },
+            {
+              "start": 76,
+              "end": 89,
+              "target": {
+                "name": "Vulnerability",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-a620d3445a107af6bc095c9b",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#vulnerability_xphb"
+                }
+              }
+            },
+            {
+              "start": 92,
+              "end": 100,
+              "target": {
+                "name": "Immunity",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-a239591212d49ede6cae4370",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "fa04980dcccc87d1bed4ef57",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "26"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 4"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., climb 30 ft."
+          ],
+          [
+            "XP",
+            "200"
+          ],
+          [
+            "Str",
+            "14"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "11"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +7 Senses blindsight 10 ft., darkvision 60 ft., passive Perception 10 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Spider Climb. The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Web Sense. While in contact with a web, the spider knows the exact location of any other creature in contact with the same web. Web Walker. The spider ignores movement restrictions caused by webbing."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way. Web (Recharge 5–6). Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +7 Senses blindsight 10 ft., darkvision 60 ft., passive Perception 10 Languages —": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "start": 25,
+              "end": 35,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 44,
+              "end": 54,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 71,
+              "end": 81,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Spider Climb. The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Web Sense. While in contact with a web, the spider knows the exact location of any other creature in contact with the same web. Web Walker. The spider ignores movement restrictions caused by webbing.": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 277,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "PHB:277:https://5e.tools/spells.html#spider%20climb_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way. Web (Recharge 5–6). Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 145,
+              "end": 157,
+              "target": {
+                "name": "Saving Throw",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 179,
+                "description": "Roll a d20 and add the relevant ability modifier, plus proficiency if it applies. The effect sets the DC.",
+                "local": {
+                  "entry": "compendium-c71a1b1cfda70c19953fcff6",
+                  "version": "PHB:179:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 332,
+              "end": 340,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            },
+            {
+              "start": 393,
+              "end": 402,
+              "target": {
+                "name": "Paralyzed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                "local": {
+                  "entry": "compendium-138ba975047a1242ea1c34b0",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                }
+              }
+            },
+            {
+              "start": 409,
+              "end": 417,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            },
+            {
+              "start": 458,
+              "end": 471,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 534,
+              "end": 544,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            },
+            {
+              "start": 575,
+              "end": 585,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "e32b61a71a075dba0c1d5ea1",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "26"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 4"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Climb 30 ft."
+          ],
+          [
+            "XP",
+            "200"
+          ],
+          [
+            "Str",
+            "14"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "11"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +4, Stealth +7 Senses Darkvision 60 ft.; Passive Perception 14 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check. Web Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage. Web (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage)."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +4, Stealth +7 Senses Darkvision 60 ft.; Passive Perception 14 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            },
+            {
+              "start": 40,
+              "end": 50,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 59,
+              "end": 77,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check. Web Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage. Web (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 132,
+              "end": 144,
+              "target": {
+                "name": "Saving Throw",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "local": {
+                  "entry": "compendium-c71a1b1cfda70c19953fcff6",
+                  "version": "XPHB:373:https://5e.tools/variantrules.html#saving%20throw_xphb"
+                }
+              }
+            },
+            {
+              "start": 229,
+              "end": 239,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            },
+            {
+              "start": 291,
+              "end": 304,
+              "target": {
+                "name": "Vulnerability",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-a620d3445a107af6bc095c9b",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#vulnerability_xphb"
+                }
+              }
+            },
+            {
+              "start": 321,
+              "end": 329,
+              "target": {
+                "name": "Immunity",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-a239591212d49ede6cae4370",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "0ba209acdcde6b3840f2f121",
+        "publication": "Stranger Things: Welcome to the Hellfire Club",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 1. Named abilities include Spider Climb, Web Walker, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20spider_wtthc",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Stranger Things: Welcome to the Hellfire Club"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "26"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 4"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "14"
+          ],
+          [
+            "Strength",
+            "14"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "12"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "11"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "desert",
+              "forest",
+              "swamp",
+              "underdark",
+              "urban"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d8 + 3 piercing · 2d6 poison"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +4, Stealth +7"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Spider Climb",
+              "Web Walker"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +5 to hit · 1d8 + 3 piercing damage · 2d6 poison damage · reach 5 ft.",
+              "Web (Recharge 5–6) · Dexterity save · DC 13 · within 60 feet · Restrained · Vulnerability · Immunity"
+            ]
+          },
+          {
+            "title": "Adapted from",
+            "lines": [
+              "Giant Spider"
+            ]
+          }
+        ],
+        "sourceCode": "WttHC",
+        "references": [
+          {
+            "label": "Stranger Things: Welcome to the Hellfire Club",
+            "url": "https://5e.tools/bestiary.html#giant%20spider_wtthc"
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_xphb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 373,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+              }
+            }
+          },
+          {
+            "label": "Vulnerability (rule)",
+            "url": "https://5e.tools/variantrules.html#vulnerability_xphb",
+            "local": {
+              "entry": "compendium-a620d3445a107af6bc095c9b",
+              "version": "XPHB:377:https://5e.tools/variantrules.html#vulnerability_xphb"
+            },
+            "preview": {
+              "name": "Vulnerability",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-a620d3445a107af6bc095c9b",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#vulnerability_xphb"
+              }
+            }
+          },
+          {
+            "label": "Immunity (rule)",
+            "url": "https://5e.tools/variantrules.html#immunity_xphb",
+            "local": {
+              "entry": "compendium-a239591212d49ede6cae4370",
+              "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+            },
+            "preview": {
+              "name": "Immunity",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 369,
+              "local": {
+                "entry": "compendium-a239591212d49ede6cae4370",
+                "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+              }
+            }
+          },
+          {
+            "label": "Giant Spider (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20spider_xmm",
+            "local": {
+              "entry": "beast-4faf39ec43fe20a78415c96d",
+              "version": "ce65334bb3e1c6e91ba2a736"
+            },
+            "preview": {
+              "name": "Giant Spider",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1. Listed habitats: desert, forest, swamp, underdark, urban. Named abilities include Spider Climb, Web Walker, Bite.",
+              "local": {
+                "entry": "beast-4faf39ec43fe20a78415c96d",
+                "version": "ce65334bb3e1c6e91ba2a736"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast with challenge rating 1. Named abilities include Spider Climb, Web Walker, Bite.": [
+            {
+              "start": 63,
+              "end": 75,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "target": {
+                "name": "Web",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+                "local": {
+                  "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                  "version": "XPHB:340:https://5e.tools/spells.html#web_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +4, Stealth +7": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Web (Recharge 5–6) · Dexterity save · DC 13 · within 60 feet · Restrained · Vulnerability · Immunity": [
+            {
+              "start": 63,
+              "end": 73,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            },
+            {
+              "start": 76,
+              "end": 89,
+              "target": {
+                "name": "Vulnerability",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-a620d3445a107af6bc095c9b",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#vulnerability_xphb"
+                }
+              }
+            },
+            {
+              "start": 92,
+              "end": 100,
+              "target": {
+                "name": "Immunity",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-a239591212d49ede6cae4370",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Spider": true,
+      "giant spider type f web-spinner": true
+    },
+    "hash": "4e46c5e7fa2b4ca7318f53bbc8e67f0c7db9d6fd2dd63a942439165a19babb51",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Brynn Metheney · Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Stranger Things: Welcome to the Hellfire Club"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "entryImage": {
+      "url": "",
+      "credit": "Brynn Metheney · Monster Manual (2014)"
+    }
+  }
+]

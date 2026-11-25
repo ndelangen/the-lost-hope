@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Warforged",
+    "kind": "species",
+    "publication": "Eberron Campaign Setting (2004)",
+    "edition": "3.5 edition",
+    "book": "Eberron Campaign Setting",
+    "authors": [
+      "Keith Baker",
+      "Bill Slavicsek",
+      "James Wyatt"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "June 2004",
+    "productCode": "620-86400-001-EN",
+    "isbn": "0-7869-3274-0",
+    "printedPages": {
+      "entry": 20,
+      "appearanceAndArt": 21,
+      "playableTraits": [
+        23,
+        24
+      ],
+      "artificer": [
+        30,
+        31,
+        32
+      ],
+      "craftRepair": 46,
+      "adamantineBody": 50,
+      "repairLightDamage": 114,
+      "skillEnhancement": [
+        115,
+        116
+      ],
+      "saber": 317
+    },
+    "pdfPages": {
+      "entry": 23,
+      "appearanceAndArt": 24,
+      "playableTraits": [
+        26,
+        27
+      ],
+      "artificer": [
+        33,
+        34,
+        35
+      ],
+      "craftRepair": 49,
+      "adamantineBody": 53,
+      "repairLightDamage": 117,
+      "skillEnhancement": [
+        118,
+        119
+      ],
+      "saber": 320
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "1d1d1c83e7bba94f7e3e8967def180f564d339dedbd8e85b1abcc6bf48a98922",
+    "officialErrata": "",
+    "officialFaq": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Steve Prescott, unnamed Warforged p. 21, verified in the Wizards gallery.",
+    "sourceDistinctions": [
+      "The February 2006 errata limits the no-natural-healing line to lethal damage and clarifies that Craft repair requires training.",
+      "Healing effects named by the racial trait work at half. Repair Light Damage is Transmutation and restores its full amount.",
+      "Composite Plating has 5% arcane spell failure. Artificer infusions are neither arcane nor divine.",
+      "Adamantine Body is an optional feat taken at first level. Keel uses it and Swage has ordinary Composite Plating."
+    ],
+    "entryId": "species-d134547c8d2f6c127fa441f6",
+    "versionKey": "f75a24ec605d7cde1c1549a8",
+    "slug": "warforged",
+    "portraitSelection": "generated",
+    "portraitForm": "Swage, an original Warforged Artificer",
+    "npcExamples": [
+      "Swage",
+      "Keel"
+    ]
+  }
+]

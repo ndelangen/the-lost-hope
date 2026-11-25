@@ -1,0 +1,2163 @@
+{
+  "baseline": "d2bd3abbf40928689f1b708433dd660847ca5f75",
+  "species": 50,
+  "profiles": 50,
+  "newCatalogRows": 43,
+  "existingMetadataEnriched": 7,
+  "npcBuilds": 50,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Accursed",
+      "publication": "Grim Hollow: Player’s Guide",
+      "edition": "Fifth edition compatible",
+      "owner": "third_grim_a",
+      "aliases": "One modular heritage, separate from tieflings and transformation rules.",
+      "npcs": [
+        "Sella Wren"
+      ],
+      "portrait": "parts/third_grim_a/portraits/accursed.png",
+      "source": {
+        "name": "Accursed",
+        "kind": "species",
+        "publication": "Grim Hollow: Player’s Guide",
+        "edition": "Fifth edition compatible",
+        "publisher": "Ghostfire Gaming",
+        "url": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+        "printedPages": [
+          11,
+          12,
+          23,
+          30,
+          31,
+          33,
+          34,
+          35,
+          36,
+          39,
+          40
+        ],
+        "viewerPage": 27,
+        "page": "Printed p. 23, displayed p. 27. Heritage selection pp. 11–12 and 30–31.",
+        "printEdition": "Transformed Edition, revised digital text © 2025, designed for the 2024 fifth-edition rules",
+        "secondarySources": [
+          "https://www.dndbeyond.com/sources/dnd/ghpg",
+          "https://www.dndbeyond.com/sources/dnd/phb-2024",
+          "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+          "https://www.dndbeyond.com/sources/dnd/br-2024/feats",
+          "",
+          ""
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "sourceDistinctions": [
+          "The revised book gives Accursed no fixed trait package. The example selects two combat, three exploration, and three roleplaying traits.",
+          "Fifth edition compatible is the existing catalog key. The NPC uses the 2024 core rules."
+        ],
+        "npcExamples": [
+          "Sella Wren"
+        ],
+        "portraitSelection": "original OpenAI ImageGen"
+      }
+    },
+    {
+      "name": "Arisen",
+      "publication": "Grim Hollow: Player’s Guide",
+      "edition": "Fifth edition compatible",
+      "owner": "third_grim_a",
+      "aliases": "Keep separate from Revenant, Reborn and Flesh Golem.",
+      "npcs": [
+        "Tamsin Reed"
+      ],
+      "portrait": "parts/third_grim_a/portraits/arisen.png",
+      "source": {
+        "name": "Arisen",
+        "kind": "species",
+        "publication": "Grim Hollow: Player’s Guide",
+        "edition": "Fifth edition compatible",
+        "publisher": "Ghostfire Gaming",
+        "url": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+        "printedPages": [
+          11,
+          12,
+          24,
+          30,
+          31,
+          32,
+          36,
+          39,
+          40,
+          46,
+          47
+        ],
+        "viewerPage": 28,
+        "page": "Printed p. 24, displayed p. 28. Heritage selection pp. 11–12 and 30–31.",
+        "printEdition": "Transformed Edition, revised digital text © 2025, designed for the 2024 fifth-edition rules",
+        "secondarySources": [
+          "https://www.dndbeyond.com/sources/dnd/ghpg",
+          "https://www.dndbeyond.com/sources/dnd/phb-2024",
+          "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+          "https://www.dndbeyond.com/sources/dnd/br-2024/feats",
+          "",
+          ""
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "sourceDistinctions": [
+          "Uses all eight traditional Arisen traits. Artificial Form changes the example’s creature type to Construct. Magical Fortification applies to Wisdom saves.",
+          "Fifth edition compatible is the existing catalog key. The NPC uses the 2024 core rules."
+        ],
+        "npcExamples": [
+          "Tamsin Reed"
+        ],
+        "portraitSelection": "original OpenAI ImageGen"
+      }
+    },
+    {
+      "name": "Asaatthi",
+      "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "third_scarred",
+      "aliases": "Asaatthi in contents, Asaathi in body. Separate from Yuan-ti and Lamia.",
+      "npcs": [
+        "Kethsar Dunecoil"
+      ],
+      "portrait": "parts/third_scarred/portraits/asaatthi.png",
+      "source": {
+        "name": "Asaatthi",
+        "kind": "species",
+        "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Onyx Path Publishing and Nocturnal Media",
+        "year": 2016,
+        "url": "",
+        "source": "",
+        "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+        "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+        "classRules": "",
+        "printedPages": [
+          20,
+          21
+        ],
+        "heading": "Asaatth Racial Traits",
+        "supportingPrintedPages": [],
+        "sourceDistinctions": [
+          "The contents use Asaatthi for the people and the trait heading uses singular Asaatth. This follows the approved species key Asaatthi.",
+          "Kethsar uses the 2016 player traits. His blade and bite are separate attack choices, and the build uses no venom effect.",
+          "Fighter 2 and the Soldier background supply the class and background proficiencies."
+        ],
+        "slug": "asaatthi",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Kethsar Dunecoil"
+        ]
+      }
+    },
+    {
+      "name": "Avoral",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_a",
+      "aliases": "Avoral guardinal",
+      "npcs": [
+        "Tavian Duskwing"
+      ],
+      "portrait": "parts/third_savage_a/portraits/avoral.png",
+      "source": {
+        "name": "Avoral",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Good)",
+        "url": "",
+        "pages": "Appendix 1, pp. 157–158, Table A–6 (page 158)",
+        "evidence": "The Appendix 1 player progression determines which powers and resistances are available. The original Monster Manual explains that wing strikes work on land and feet supply the aerial claw strikes. The build uses that conservative distinction and uses the 3.0 divine true seeing and spell-like ability wording.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Avoral, pp. 31–32",
+            "url": ""
+          },
+          {
+            "name": "3.0 System Reference Document, True Seeing",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:True_Seeing"
+          },
+          {
+            "name": "3.0 System Reference Document, Magic Missile",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Magic_Missile"
+          },
+          {
+            "name": "3.0 System Reference Document, Aid",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Aid"
+          },
+          {
+            "name": "3.0 System Reference Document, See Invisibility",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:See_Invisibility"
+          },
+          {
+            "name": "3.0 System Reference Document, Command",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Command"
+          }
+        ],
+        "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+      }
+    },
+    {
+      "name": "Azer",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_a",
+      "aliases": "Keep separate from Fire Elemental and Magmin",
+      "npcs": [
+        "Hessik Coppervein"
+      ],
+      "portrait": "parts/third_savage_a/portraits/azer.png",
+      "source": {
+        "name": "Azer",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Fire, Lawful)",
+        "url": "",
+        "pages": "Appendix 1, pp. 158–159, Table A–7 (page 159)",
+        "evidence": "Table A–7 supplies the playable tiers, armor, class attack bonus, and resistance onset. The Appendix describes the heat rider but leaves its amount unstated. The 2000 Monster Manual p. 22 gives +1 fire in the original azer stat block. Using that rider is a declared build interpretation.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Azer, p. 22",
+            "url": ""
+          },
+          {
+            "name": "3.0 System Reference Document, Weapon Focus",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapon_Focus"
+          }
+        ],
+        "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+      }
+    },
+    {
+      "name": "Belker",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_a",
+      "aliases": "Keep separate from Air Elemental",
+      "npcs": [
+        "Vesh Ashwake"
+      ],
+      "portrait": "parts/third_savage_a/portraits/belker.png",
+      "source": {
+        "name": "Belker",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Elemental (Air)",
+        "url": "",
+        "pages": "Appendix 1, p. 160, Table A–9 (page 160)",
+        "evidence": "The level-3 build uses the first smoke form tier. Gaseous protective and movement rules follow the original 3.0 SRD special ability and retain the flight speed stated in Appendix 1.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Belker, p. 26",
+            "url": ""
+          },
+          {
+            "name": "3.0 System Reference Document, Gaseous Form",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Gaseous_Form"
+          }
+        ],
+        "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+      }
+    },
+    {
+      "name": "Dhampir",
+      "publication": "Grim Hollow: Player’s Guide",
+      "edition": "Fifth edition compatible",
+      "owner": "third_grim_b",
+      "aliases": "Use Ghostfire heritage. Keep Ravenloft lineage and Vryloka separate.",
+      "npcs": [
+        "Mara Vell"
+      ],
+      "portrait": "parts/third_grim_b/portraits/dhampir.png",
+      "source": {
+        "name": "Dhampir",
+        "kind": "species",
+        "publication": "Grim Hollow: Player’s Guide",
+        "edition": "Fifth edition compatible",
+        "publisher": "Ghostfire Gaming",
+        "year": 2025,
+        "creatureType": "Humanoid",
+        "url": "https://www.dndbeyond.com/species/1987212-dhampir",
+        "primaryBookText": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+        "printPage": 25,
+        "viewerPage": 29,
+        "printedPages": [
+          25
+        ],
+        "sharedPrintedRules": [
+          "10–13",
+          "30–47",
+          "217"
+        ],
+        "heading": "Dhampir Base Traits and Traditional Dhampir Traits",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "settingLanguages": "Language assignments use Etharis regional names and core standard language choices where relevant. Etharis has no universal Common language.",
+        "rulesCompatibility": "The revised 2025 book credits SRD 5.2.1 and the examples use 2024 core classes.",
+        "sourceDistinctions": [
+          "The example takes all eight traditional traits. Natural Attack and the first-tier Draining Attack provide fangs and temporary HP. Charm Person and Friends both use the Warlock list."
+        ],
+        "npcExamples": [
+          "Mara Vell"
+        ]
+      }
+    },
+    {
+      "name": "Downcast",
+      "publication": "Grim Hollow: Player’s Guide",
+      "edition": "Fifth edition compatible",
+      "owner": "third_grim_b",
+      "aliases": "Use the revised heritage, separate from Deva and Aasimar.",
+      "npcs": [
+        "Adra Senn"
+      ],
+      "portrait": "parts/third_grim_b/portraits/downcast.png",
+      "source": {
+        "name": "Downcast",
+        "kind": "species",
+        "publication": "Grim Hollow: Player’s Guide",
+        "edition": "Fifth edition compatible",
+        "publisher": "Ghostfire Gaming",
+        "year": 2025,
+        "creatureType": "Humanoid",
+        "url": "https://www.dndbeyond.com/species/1987214-downcast",
+        "primaryBookText": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+        "printPage": 27,
+        "viewerPage": 31,
+        "printedPages": [
+          27
+        ],
+        "sharedPrintedRules": [
+          "10–13",
+          "30–47",
+          "217"
+        ],
+        "heading": "Downcast Base Traits and Traditional Downcast Traits",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "settingLanguages": "Language assignments use Etharis regional names and core standard language choices where relevant. Etharis has no universal Common language.",
+        "rulesCompatibility": "The revised 2025 book credits SRD 5.2.1 and the examples use 2024 core classes.",
+        "sourceDistinctions": [
+          "Touch of Life grants resistance. Divine Sangromancy provides the extra healing. The example takes Thaumaturgy and Sanctuary from the Cleric list."
+        ],
+        "npcExamples": [
+          "Adra Senn"
+        ]
+      }
+    },
+    {
+      "name": "Dwarf",
+      "publication": "Player's Handbook (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_a",
+      "aliases": "Core 4e Dwarf. Keep named dwarf lineages separate.",
+      "npcs": [
+        "Bren Stonefast"
+      ],
+      "portrait": "parts/third_4e_a/portraits/dwarf.png",
+      "source": {
+        "name": "Dwarf",
+        "publication": "Player's Handbook (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 36,
+        "printedPages": [
+          36,
+          37
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+        "isbn": "978-0-7869-4867-3",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "Uses the core Dwarf from the first-printing player chapter. Constitution and Wisdom are the original pair.",
+          "The August 2012 update offers Strength in place of Wisdom. Bren uses the printed pair. The Combat Challenge summary follows the official p. 76 clarification that the mark must be his."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player's Handbook (4e), Fighter",
+            "url": "",
+            "printedPages": [
+              75,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+            "url": "",
+            "printedPages": [
+              17,
+              194,
+              212,
+              214,
+              218,
+              219,
+              286,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Earth Elemental",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_a",
+      "aliases": "One size progression",
+      "npcs": [
+        "Kurr Slateknuckle"
+      ],
+      "portrait": "parts/third_savage_a/portraits/earth-elemental.png",
+      "source": {
+        "name": "Earth Elemental",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Elemental (Earth)",
+        "url": "",
+        "pages": "Appendix 1, pp. 163–164, Table A–13 (page 164)",
+        "evidence": "Appendix 1 grants earth movement in the level-1 table. The sourcebook's original 2000 Monster Manual entry supplies the movement and move earth interaction. Hold size, armor, damage and class Hit Dice to the tier in Table A–13.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Earth Elemental, pp. 82–83",
+            "url": ""
+          },
+          {
+            "name": "3.0 System Reference Document, Bull Rush",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Bull_Rush"
+          },
+          {
+            "name": "3.0 System Reference Document, Power Attack",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Power_Attack"
+          }
+        ],
+        "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+      }
+    },
+    {
+      "name": "Eladrin",
+      "publication": "Player's Handbook (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_a",
+      "aliases": "Core 4e Feywild Eladrin. Distinct from Ghaele and Shadar-kai.",
+      "npcs": [
+        "Irian Ashletter"
+      ],
+      "portrait": "parts/third_4e_a/portraits/eladrin.png",
+      "source": {
+        "name": "Eladrin",
+        "publication": "Player's Handbook (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Fey humanoid",
+        "url": "",
+        "page": 38,
+        "printedPages": [
+          38,
+          39
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+        "isbn": "978-0-7869-4867-3",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "Uses the first-printing player Eladrin, with Fey Step as a move action and Dexterity and Intelligence increases.",
+          "Ghaele is a distinct 3.0 playable monster progression. The August 2012 update offers Charisma in place of Dexterity. Irian uses the printed pair."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player's Handbook (4e), Wizard",
+            "url": "",
+            "printedPages": [
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          {
+            "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+            "url": "",
+            "printedPages": [
+              17,
+              194,
+              212,
+              214,
+              218,
+              219,
+              286,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Elf",
+      "publication": "Player's Handbook (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_a",
+      "aliases": "Core 4e Elf. Keep Eladrin and Drow separate.",
+      "npcs": [
+        "Theren Copse"
+      ],
+      "portrait": "parts/third_4e_a/portraits/elf.png",
+      "source": {
+        "name": "Elf",
+        "publication": "Player's Handbook (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Fey humanoid",
+        "url": "",
+        "page": 40,
+        "printedPages": [
+          40,
+          41
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+        "isbn": "978-0-7869-4867-3",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "Uses the first-printing Elf's Dexterity and Wisdom increases. Eladrin has its own player profile.",
+          "The August 2012 update adds a visible-quarry restriction and adds the attack ability modifier to Careful Attack damage. These encounter numbers use the first printing."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player's Handbook (4e), Ranger",
+            "url": "",
+            "printedPages": [
+              103,
+              104,
+              105,
+              106
+            ]
+          },
+          {
+            "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+            "url": "",
+            "printedPages": [
+              17,
+              194,
+              212,
+              214,
+              218,
+              219,
+              286,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ettercap",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_a",
+      "aliases": "Keep separate from the Aranea and Drider",
+      "npcs": [
+        "Bramble Thread"
+      ],
+      "portrait": "parts/third_savage_a/portraits/ettercap.png",
+      "source": {
+        "name": "Ettercap",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "kind": "species",
+        "publisher": "Wizards of the Coast",
+        "type": "Aberration",
+        "url": "",
+        "pages": "Appendix 1, pp. 165–166, Table A–15 (page 166)",
+        "evidence": "The printed player table and feature text both give level 3 one daily throw. The build stays at that tier. A discrepancy remains for the second daily throw at level 4 in the table versus level 5 in the prose. Original p. 88 restricts the thrown web to Medium or smaller targets, rather than using the larger size cap of a weapon net.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Ettercap, pp. 88–89",
+            "url": ""
+          },
+          {
+            "name": "3.0 System Reference Document, Net",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Net"
+          }
+        ],
+        "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+      }
+    },
+    {
+      "name": "Fire Elemental",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_b",
+      "aliases": "One size progression",
+      "npcs": [
+        "Vell"
+      ],
+      "portrait": "parts/third_savage_b/portraits/fire-elemental.png",
+      "source": {
+        "name": "Fire Elemental",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Elemental (Fire)",
+        "url": "",
+        "pages": "167, Table A–16",
+        "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+        "evidence": "Vell uses the second tier, the first with Burn and Weapon Finesse. The skill calculation floors the low Intelligence allotment at 1 point per HD before the first-level multiplier. The 2000 Monster Manual Fire Elemental entry supplies the duration of ignition.",
+        "additionalSources": [
+          {
+            "name": "Savage Species, skills and monster class construction",
+            "url": ""
+          },
+          {
+            "name": "Wizards of the Coast 3.0 Monster Manual, Fire Elemental, pp. 83–84",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fire Giant",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_b",
+      "aliases": "Fire Giant class, separate from 4e and 5e monsters",
+      "npcs": [
+        "Dorran Emberkeel"
+      ],
+      "portrait": "parts/third_savage_b/portraits/fire-giant.png",
+      "source": {
+        "name": "Fire Giant",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Giant (Fire)",
+        "url": "",
+        "pages": "167–168, Table A–17",
+        "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+        "evidence": "Dorran uses class level 6 to have rock catching, with the 30-ft./1d6 rock attack. The class stays Medium through level 10. The encounter uses the class’s ordinary rocks and its fire subtype as printed.",
+        "additionalSources": [
+          {
+            "name": "Savage Species, class advancement and size",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flesh Golem",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_b",
+      "aliases": "Keep separate from Arisen and other golem types",
+      "npcs": [
+        "Sedge"
+      ],
+      "portrait": "parts/third_savage_b/portraits/flesh-golem.png",
+      "source": {
+        "name": "Flesh Golem",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Construct",
+        "url": "",
+        "pages": "169–170, Table A–19",
+        "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+        "evidence": "Sedge has only spell resistance, since magic immunity begins at level 9. Use 3d10 with no Constitution modifier. The construct exception allowing natural healing and the absence of skill points are both explicit in this class.",
+        "additionalSources": []
+      }
+    },
+    {
+      "name": "Frost Giant",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_b",
+      "aliases": "Frost Giant class, separate from 4e and 5e monsters",
+      "npcs": [
+        "Yrsa Paleledge"
+      ],
+      "portrait": "parts/third_savage_b/portraits/frost-giant.png",
+      "source": {
+        "name": "Frost Giant",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Giant (Cold)",
+        "url": "",
+        "pages": "170–171, Table A–20",
+        "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+        "evidence": "The published first Large tier is 11. Rocks stay at the level-10 damage and range until 14. Savage Species updates both energy subtypes in its introduction and gives the Frost equivalent in the cryo template. The greataxe is built using the book’s enlarged weapon table.",
+        "additionalSources": [
+          {
+            "name": "Savage Species, subtype changes",
+            "url": ""
+          },
+          {
+            "name": "Savage Species, larger weapon damage",
+            "url": ""
+          },
+          {
+            "name": "Savage Species, Cold subtype example",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ghaele",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_b",
+      "aliases": "Ghaele eladrin, separate from the 4e Eladrin claim",
+      "npcs": [
+        "Lethiren"
+      ],
+      "portrait": "parts/third_savage_b/portraits/ghaele.png",
+      "source": {
+        "name": "Ghaele",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Chaotic, Good)",
+        "url": "",
+        "pages": "171–173, Table A–21",
+        "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+        "evidence": "Ghaele 7 has 6 racial HD, caster level 7 for cleric casting and caster level 6 for lesser spell-like abilities. The class names five domains as additions to the normal spell list without granting domain slots, powers, or turn undead explicitly. The build uses its base and Wisdom bonus slots. The monster’s attack line clarifies that the 300-ft. light rays are ranged touch attacks. Treat the globe as lacking physical gear and natural armor while incorporeal. Armor Proficiency (Light) is a selected feat for the humanoid form’s chain shirt.",
+        "additionalSources": [
+          {
+            "name": "Wizards of the Coast 3.0 SRD, cleric spell slots and preparation",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Cleric"
+          },
+          {
+            "name": "Wizards of the Coast 3.0 SRD, cure critical wounds",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Cure_Critical_Wounds"
+          },
+          {
+            "name": "Wizards of the Coast 3.0 SRD, magic circle against evil",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Magic_Circle_against_Evil"
+          },
+          {
+            "name": "Wizards of the Coast 3.0 SRD, improved invisibility",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Invisibility,_Improved"
+          },
+          {
+            "name": "Wizards of the Coast 3.0 SRD, wall of force",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Wall_of_Force"
+          },
+          {
+            "name": "Wizards of the Coast 3.0 Monster Manual, Ghaele, pp. 30–32",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ghoul",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_c",
+      "aliases": "Use 3.0 Ghoul progression. Darakhul and Ghast stay separate.",
+      "npcs": [
+        "Harl Keybone"
+      ],
+      "portrait": "parts/third_savage_c/portraits/ghoul.png",
+      "source": {
+        "name": "Ghoul",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Undead",
+        "url": "",
+        "pages": "Appendix 1, p. 173, Table A–22. and printed pages match.",
+        "additionalSources": [],
+        "evidence": "The table grants claws and a one-minute paralysis at class level 2 while Harl still has 1 HD. The longer duration is a 4th-level feature and spawn creation starts at 5th. Savage Species p. 27 sets the secondary-attack penalty.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Goblin",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_b",
+      "aliases": "DM-permission player guideline. Keep other goblinoid claims separate.",
+      "npcs": [
+        "Pell Reedstep"
+      ],
+      "portrait": "parts/third_4e_b/portraits/goblin.png",
+      "source": {
+        "name": "Goblin",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 278,
+        "printedPages": [
+          278
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "sourceDistinctions": [
+          "The Monster Manual recommends DM permission for PC use of this profile. Goblin Tactics uses the printed immediate reaction. This build is separate from the published Goblin monster entries."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Rogue",
+            "url": "",
+            "printedPages": [
+              116,
+              117,
+              118,
+              119
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), ability scores and character statistics",
+            "url": "",
+            "printedPages": [
+              17,
+              18,
+              27,
+              28,
+              29
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              193,
+              195,
+              198,
+              201,
+              214,
+              218,
+              219
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), combat actions and second wind",
+            "url": "",
+            "printedPages": [
+              268,
+              269,
+              287,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Green Hag",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_c",
+      "aliases": "Green Hag, separate from Annis Hag and Sea Hag",
+      "npcs": [
+        "Nella Reedfast"
+      ],
+      "portrait": "parts/third_savage_c/portraits/green-hag.png",
+      "source": {
+        "name": "Green Hag",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Monstrous Humanoid (Aquatic)",
+        "url": "",
+        "pages": "Appendix 1, p. 174, Table A–23. and printed pages match.",
+        "additionalSources": [
+          {
+            "name": "Wizards of the Coast 3.0 System Reference Document, Original Spells by Class section of the compilation",
+            "url": ""
+          }
+        ],
+        "evidence": "A–23 grants at-will lesser powers and once-per-day greater powers at level 3 with 3 HD. Weakness starts at 4 and spell resistance at 7. This build keeps the older 3.0 change self and invisibility durations.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Griffon",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_c",
+      "aliases": "Griffin spelling redirects to this player claim only",
+      "npcs": [
+        "Tallowcrest"
+      ],
+      "portrait": "parts/third_savage_c/portraits/griffon.png",
+      "source": {
+        "name": "Griffon",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Magical Beast",
+        "url": "",
+        "pages": "Appendix 1, pp. 174–175, Table A–24. and printed pages match.",
+        "additionalSources": [
+          {
+            "name": "Savage Species, general natural attack rules and Multiattack, p. 27",
+            "url": ""
+          }
+        ],
+        "evidence": "The class gains claws and 50-ft. flight at level 3. The Medium 4-HD build gains pounce at level 4 and uses Multiattack for its secondary claws. Rake and Large size are later unlocks.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Grudgel",
+      "publication": "Grim Hollow: Player’s Guide",
+      "edition": "Fifth edition compatible",
+      "owner": "third_grim_a",
+      "aliases": "Grudgel of Etharis, separate from Orc and Ogresh.",
+      "npcs": [
+        "Orven Vale"
+      ],
+      "portrait": "parts/third_grim_a/portraits/grudgel.png",
+      "source": {
+        "name": "Grudgel",
+        "kind": "species",
+        "publication": "Grim Hollow: Player’s Guide",
+        "edition": "Fifth edition compatible",
+        "publisher": "Ghostfire Gaming",
+        "url": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+        "printedPages": [
+          11,
+          12,
+          20,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          38,
+          40,
+          43,
+          46
+        ],
+        "viewerPage": 24,
+        "page": "Printed p. 20, displayed p. 24. Heritage selection pp. 11–12 and 30–31.",
+        "printEdition": "Transformed Edition, revised digital text © 2025, designed for the 2024 fifth-edition rules",
+        "secondarySources": [
+          "https://www.dndbeyond.com/sources/dnd/ghpg",
+          "https://www.dndbeyond.com/sources/dnd/phb-2024",
+          "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+          "https://www.dndbeyond.com/sources/dnd/br-2024/feats",
+          "",
+          ""
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "sourceDistinctions": [
+          "Uses all eight traditional Grudgel traits. The selected Magical Savvy cantrip is Mending.",
+          "Fifth edition compatible is the existing catalog key. The NPC uses the 2024 core rules."
+        ],
+        "npcExamples": [
+          "Orven Vale"
+        ],
+        "portraitSelection": "original OpenAI ImageGen"
+      }
+    },
+    {
+      "name": "Half-Elf",
+      "publication": "Player's Handbook (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_a",
+      "aliases": "This printing uses Dilettante. Keep other sources and Drow Half-Elf separate.",
+      "npcs": [
+        "Cavan Meadowcross"
+      ],
+      "portrait": "parts/third_4e_a/portraits/half-elf.png",
+      "source": {
+        "name": "Half-Elf",
+        "publication": "Player's Handbook (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 42,
+        "printedPages": [
+          42,
+          43
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+        "isbn": "978-0-7869-4867-3",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "Dilettante is the first-printing racial trait. Eyebite also meets the August 2012 clarification requiring a 1st-level at-will attack power from another class.",
+          "The character uses the player Half-Elf profile. Later book printings and the Drow Half-Elf lineage are separate."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player's Handbook (4e), Warlord",
+            "url": "",
+            "printedPages": [
+              142,
+              143,
+              144,
+              145,
+              146
+            ]
+          },
+          {
+            "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+            "url": "",
+            "printedPages": [
+              17,
+              194,
+              212,
+              214,
+              218,
+              219,
+              286,
+              291
+            ]
+          },
+          {
+            "title": "Player's Handbook (4e), Warlock implements and Eyebite",
+            "url": "",
+            "printedPages": [
+              129,
+              130,
+              132
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Half-Orc",
+      "publication": "Player's Handbook 2 (4e)",
+      "edition": "4th edition",
+      "owner": "third_4e_b",
+      "aliases": "Player's Handbook 2 Half-Orc. The Goblin and Orc claims use the Monster Manual.",
+      "npcs": [
+        "Dera Flintreach"
+      ],
+      "portrait": "parts/third_4e_b/portraits/half-orc.png",
+      "source": {
+        "name": "Half-Orc",
+        "publication": "Player's Handbook 2 (4e)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 14,
+        "printedPages": [
+          14,
+          15
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "sourceDistinctions": [
+          "Uses the original fixed +2 Strength/+2 Dexterity and encounter Furious Assault from Player’s Handbook 2."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Fighter",
+            "url": "",
+            "printedPages": [
+              75,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), ability scores and character statistics",
+            "url": "",
+            "printedPages": [
+              17,
+              18,
+              27,
+              28,
+              29
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              193,
+              195,
+              198,
+              201,
+              214,
+              218,
+              219
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), combat actions and second wind",
+            "url": "",
+            "printedPages": [
+              268,
+              269,
+              287,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Halfling",
+      "publication": "Player's Handbook (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_a",
+      "aliases": "Core 4e Halfling. Keep named subraces separate.",
+      "npcs": [
+        "Lavinia Reedline"
+      ],
+      "portrait": "parts/third_4e_a/portraits/halfling.png",
+      "source": {
+        "name": "Halfling",
+        "publication": "Player's Handbook (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 44,
+        "printedPages": [
+          44,
+          45
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "cc8cda523b870a2ce83132c89b4beb9c79b0311819e843e3c8cbc07a9839dcd2",
+        "isbn": "978-0-7869-4867-3",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "Uses the first-printing Halfling, with the Dexterity and Charisma pair. The August 2012 update offers Constitution in place of Charisma.",
+          "The Rogue uses the printed once-per-round Sneak Attack. The August 2012 update changes the limit to once per turn."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player's Handbook (4e), Rogue",
+            "url": "",
+            "printedPages": [
+              116,
+              117,
+              118,
+              119
+            ]
+          },
+          {
+            "title": "Player's Handbook (4e), character creation, feats, gear and combat",
+            "url": "",
+            "printedPages": [
+              17,
+              194,
+              212,
+              214,
+              218,
+              219,
+              286,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hamatula",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_c",
+      "aliases": "Barbed Devil in this printing. Keep separate from Kyton.",
+      "npcs": [
+        "Kebr Ashscale"
+      ],
+      "portrait": "parts/third_savage_c/portraits/hamatula.png",
+      "source": {
+        "name": "Hamatula",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Evil, Lawful)",
+        "url": "",
+        "pages": "Appendix 1, pp. 176–177, Table A–26. and printed pages match.",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Hamatula, p. 52, and the improved grab glossary",
+            "url": ""
+          },
+          {
+            "name": "Monster Manual (2000), lemure and summon baatezu, pp. 48 and 50",
+            "url": ""
+          },
+          {
+            "name": "Wizards of the Coast 3.0 System Reference Document, Original Spells by Class section of the compilation",
+            "url": ""
+          },
+          {
+            "name": "Wizards of the Coast 3.0 System Reference Document, Produce Flame",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Produce_Flame"
+          }
+        ],
+        "evidence": "The tier-7 build uses 6 HD and has neither the level-9 spell resistance nor the level-9 greater powers. The class gives a fear effect on a hit but its table gives no separate unlock. The 2000 Monster Manual supplies the claw as the trigger for improved grab, and the 3.0 general rule supplies the smaller-target limit. For spell DCs, use the sorcerer spell level when available, otherwise use the original cleric or druid spell level. The barbs deal damage during impale.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Hollow Legionnaire",
+      "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "third_scarred",
+      "aliases": "Singular of Hollow Legionnaires. Separate from Gearforged and Warforged.",
+      "npcs": [
+        "Merel Ironwake"
+      ],
+      "portrait": "parts/third_scarred/portraits/hollow-legionnaire.png",
+      "source": {
+        "name": "Hollow Legionnaire",
+        "kind": "species",
+        "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Onyx Path Publishing and Nocturnal Media",
+        "year": 2016,
+        "url": "",
+        "source": "",
+        "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+        "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+        "classRules": "",
+        "printedPages": [
+          30,
+          31
+        ],
+        "heading": "Hollow Legionnaire Racial Traits",
+        "supportingPrintedPages": [],
+        "sourceDistinctions": [
+          "The bound suit is proficient starting chain mail chosen through the Fighter class. Spirit matter and inherited armor pattern are appearance details on p. 30.",
+          "Past-Life Knowledge expands the fighter’s class skill choices to Arcana and does not grant a third class skill.",
+          "The NPC uses Humanoid as the book specifies. The Soldier background supplies Athletics and Intimidation."
+        ],
+        "slug": "hollow-legionnaire",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Merel Ironwake"
+        ]
+      }
+    },
+    {
+      "name": "Human",
+      "publication": "Player's Handbook (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_b",
+      "aliases": "Core 4e Human. Keep setting-specific heritages separate.",
+      "npcs": [
+        "Iven Crossbar"
+      ],
+      "portrait": "parts/third_4e_b/portraits/human.png",
+      "source": {
+        "name": "Human",
+        "publication": "Player's Handbook (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 46,
+        "printedPages": [
+          46,
+          47
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "sourceDistinctions": [
+          "Uses the original core Human and its extra class at-will. Later setting heritages and Essentials options are separate."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Fighter",
+            "url": "",
+            "printedPages": [
+              75,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), ability scores and character statistics",
+            "url": "",
+            "printedPages": [
+              17,
+              18,
+              27,
+              28,
+              29
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              193,
+              195,
+              198,
+              201,
+              214,
+              218,
+              219
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), combat actions and second wind",
+            "url": "",
+            "printedPages": [
+              268,
+              269,
+              287,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ironbred",
+      "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "third_scarred",
+      "aliases": "Ironbred are redeemed sutak. Keep unredeemed sutak and Centaur separate.",
+      "npcs": [
+        "Umber Kesh"
+      ],
+      "portrait": "parts/third_scarred/portraits/ironbred.png",
+      "source": {
+        "name": "Ironbred",
+        "kind": "species",
+        "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Onyx Path Publishing and Nocturnal Media",
+        "year": 2016,
+        "url": "",
+        "source": "",
+        "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+        "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+        "classRules": "",
+        "printedPages": [
+          34,
+          35
+        ],
+        "heading": "Ironbred Racial Traits",
+        "supportingPrintedPages": [],
+        "sourceDistinctions": [
+          "Ironbred are the Redeemed branch of the sutak. The source distinguishes them from the unredeemed sutak despite their shared descent and language.",
+          "The NPC uses Fire Born for hot travel and Tough Hide at every level. Horse legs are descriptive, with no mounted movement or additional walking speed.",
+          "The Outlander supplies Survival and an additional language. Its duplicate Athletics proficiency is replaced with Nature using the 2014 background rule."
+        ],
+        "slug": "ironbred",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Umber Kesh"
+        ]
+      }
+    },
+    {
+      "name": "Kenku",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "third_classic",
+      "aliases": "3.5 Great Ally and mimicry. Separate from Ravenfolk and later Kenku.",
+      "npcs": [
+        "Kett Brassring"
+      ],
+      "portrait": "parts/third_classic/portraits/kenku.png",
+      "source": {
+        "name": "Kenku",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Humanoid (Kenku)",
+        "url": "https://anyflip.com/myubd/asxg/basic/51-100",
+        "printedPages": [
+          86,
+          87
+        ],
+        "editionNote": "2004 D&D 3.5 printing. Printed pp. 86 and 87 are viewer pages 86 and 87 in the linked scan.",
+        "heading": "Kenkus as Characters",
+        "primaryBookScan": "",
+        "supportingSources": {
+          "rogueAndCombat": ""
+        },
+        "distinction": "Uses the Great Ally, Bluff-based mimicry and natural claws of the 3.5 player entry. The associated sample warrior and sample rogue are separate encounters."
+      }
+    },
+    {
+      "name": "Magmin",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_c",
+      "aliases": "Keep separate from Azer and Fire Elemental",
+      "npcs": [
+        "Pinder"
+      ],
+      "portrait": "parts/third_savage_c/portraits/magmin.png",
+      "source": {
+        "name": "Magmin",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Elemental (Fire)",
+        "url": "",
+        "pages": "Appendix 1, pp. 183–184, Table A–33. and printed pages match.",
+        "additionalSources": [],
+        "evidence": "At tier 3, A–33 still grants only 1 HD with a 5-ft. aura. It improves touch to 1d6 and adds combustion and DR 5/+1. The book gives no aura check cadence, so the NPC specifies a table convention.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Manticora",
+      "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "third_scarred",
+      "aliases": "Manticora lionfolk. Separate from the manticore monster and Rakasta.",
+      "npcs": [
+        "Tessu Claypaw"
+      ],
+      "portrait": "parts/third_scarred/portraits/manticora.png",
+      "source": {
+        "name": "Manticora",
+        "kind": "species",
+        "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Onyx Path Publishing and Nocturnal Media",
+        "year": 2016,
+        "url": "",
+        "source": "",
+        "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+        "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+        "classRules": "",
+        "printedPages": [
+          36,
+          37
+        ],
+        "heading": "Manticora Racial Traits",
+        "supportingPrintedPages": [
+          116,
+          117
+        ],
+        "sourceDistinctions": [
+          "The Manticora is the humanoid lionfolk player species.",
+          "The source gives 40 ft. all-fours movement with both hands empty. The example conservatively treats a worn claw gauntlet as an occupied hand and can start with it stowed.",
+          "The claw gauntlet’s damage die and properties are in the Chapter Seven weapons table. The Soldier background supplies Athletics and Intimidation."
+        ],
+        "slug": "manticora",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Tessu Claypaw"
+        ]
+      }
+    },
+    {
+      "name": "Mummy",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_d",
+      "aliases": "Base mummy. Salt Mummy and Mummy Lord stay separate.",
+      "npcs": [
+        "Nesek Reedseal"
+      ],
+      "portrait": "parts/third_savage_d/portraits/mummy.png",
+      "source": {
+        "name": "Mummy",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Undead",
+        "url": "",
+        "pages": "Appendix 1, pp. 187–188, Table A–36. pages match printed folios.",
+        "evidence": "The class table gives 6d12 HD, DR 5/—, Rot 3/day and Despair at level 10. The 3.0 Monster Manual supplies the Rot DC, incubation and Constitution damage that the player entry omits.",
+        "additionalSources": [
+          {
+            "name": "D&D Monster Manual (2000), Mummy, p. 138",
+            "url": ""
+          },
+          {
+            "name": "Original 3.0 SRD, Mummy",
+            "url": "https://www.dragon.ee/30srd/monsters_m.html"
+          }
+        ],
+        "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+      }
+    },
+    {
+      "name": "Nycter",
+      "publication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "owner": "third_classic",
+      "aliases": "Nycter batfolk, separate from Desmodus and birdfolk.",
+      "npcs": [
+        "Pell Ventmark"
+      ],
+      "portrait": "parts/third_classic/portraits/nycter.png",
+      "source": {
+        "name": "Nycter",
+        "publication": "Monster Manual III (3.5, 2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Monstrous Humanoid",
+        "url": "",
+        "printedPages": [
+          112,
+          113
+        ],
+        "editionNote": "2004 D&D 3.5 printing. Printed p. 113, viewer page 113, contains the complete player trait list. P. 112 supplies appearance.",
+        "heading": "Nycters as Characters",
+        "supportingSources": {
+          "fighterSkillsFeatsAndCombat": ""
+        },
+        "distinction": "The player paragraph does not grant the sample monster’s bite, hunting cry, natural armor, sonic vulnerability, or conditional Listen and Spot bonuses. This profile uses the features enumerated for player nycters."
+      }
+    },
+    {
+      "name": "Ogre",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_d",
+      "aliases": "Use Table A–38. Ogre Mage, Ogresh and Half-Ogre stay separate.",
+      "npcs": [
+        "Rodd Weirpole"
+      ],
+      "portrait": "parts/third_savage_d/portraits/ogre.png",
+      "source": {
+        "name": "Ogre",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Giant",
+        "url": "",
+        "pages": "Appendix 1, p. 189, Table A–38. pages match printed folios.",
+        "evidence": "Use Table A–38 for the six-level class and starting +3 natural armor. The introduction implies different timing and mentions a nonexistent eighth level. The build uses the original Monster Manual’s ogre greatclub damage dice and 5-ft. by 5-ft. face. Table A–38 supplies the player speed, reach, and stats.",
+        "additionalSources": [
+          {
+            "name": "Original 3.0 SRD, Ogre",
+            "url": "https://www.dragon.ee/30srd/monsters_o.html"
+          }
+        ],
+        "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+      }
+    },
+    {
+      "name": "Orc",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_b",
+      "aliases": "DM-permission player guideline. Separate from Half-Orc and Grudgel.",
+      "npcs": [
+        "Korr Deepstone"
+      ],
+      "portrait": "parts/third_4e_b/portraits/orc.png",
+      "source": {
+        "name": "Orc",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 278,
+        "printedPages": [
+          278
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "sourceDistinctions": [
+          "The Monster Manual recommends DM permission for PC use of this profile. Warrior’s Surge uses the printed standard melee weapon action and on-hit healing surge. This build is separate from the published Orc monster entries."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Fighter",
+            "url": "",
+            "printedPages": [
+              75,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), ability scores and character statistics",
+            "url": "",
+            "printedPages": [
+              17,
+              18,
+              27,
+              28,
+              29
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              193,
+              195,
+              198,
+              201,
+              214,
+              218,
+              219
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), combat actions and second wind",
+            "url": "",
+            "printedPages": [
+              268,
+              269,
+              287,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slitherin",
+      "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "third_scarred",
+      "aliases": "Slitherin ratfolk with one common profile and a Dexterity or Intelligence choice. Separate from Ratatosk and Jerbeen.",
+      "npcs": [
+        "Veshki Reed-Ring"
+      ],
+      "portrait": "parts/third_scarred/portraits/slitherin.png",
+      "source": {
+        "name": "Slitherin",
+        "kind": "species",
+        "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Onyx Path Publishing and Nocturnal Media",
+        "year": 2016,
+        "url": "",
+        "source": "",
+        "primaryBookText": "https://anyflip.com/zijip/wrje/basic",
+        "publisherPage": "https://theonyxpath.com/scarred-lands-products/",
+        "classRules": "",
+        "printedPages": [
+          40,
+          41
+        ],
+        "heading": "Slitherin Racial Traits",
+        "supportingPrintedPages": [],
+        "sourceDistinctions": [
+          "The 2016 player rules give a single Medium Slitherin profile and a Dexterity or Intelligence choice. The NPC selects Dexterity.",
+          "Veshki uses the printed finesse bite with 1d3 piercing damage, a climb speed equal to walking speed, and only the Dexterity checks covered by Contortionist.",
+          "The 2014 Urchin background duplicates Stealth and thieves’ tools. Replace those with Investigation and cobbler’s tools under the duplicate proficiency rule."
+        ],
+        "slug": "slitherin",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Veshki Reed-Ring"
+        ]
+      }
+    },
+    {
+      "name": "Stone Giant",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_d",
+      "aliases": "Stone Giant class, separate from Earth Elemental and giant ancestries",
+      "npcs": [
+        "Ulden Screeline"
+      ],
+      "portrait": "parts/third_savage_d/portraits/stone-giant.png",
+      "source": {
+        "name": "Stone Giant",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Giant (Earth)",
+        "url": "",
+        "pages": "Appendix 1, p. 195, Table A–45. pages match printed folios.",
+        "evidence": "The player table grants Rock Throwing at level 4 and Rock Catching at level 6 but delays Large size to level 11. The build stays Medium and uses the first printed range and damage tier.",
+        "additionalSources": [
+          {
+            "name": "Original 3.0 SRD, weapon damage and range",
+            "url": "https://www.dragon.ee/30srd/equipment_wpns.htm"
+          }
+        ],
+        "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+      }
+    },
+    {
+      "name": "Succubus",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_d",
+      "aliases": "Use the 3.0 class heading and its form-changing rules",
+      "npcs": [
+        "Vessa Ashscript"
+      ],
+      "portrait": "parts/third_savage_d/portraits/succubus.png",
+      "source": {
+        "name": "Succubus",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Chaotic, Evil)",
+        "url": "",
+        "pages": "Appendix 1, pp. 195–197, Table A–46. pages match printed folios.",
+        "evidence": "Table A–46 and the class text give 2 HD, three known forms, flight and one daily use of each lesser power at level 3. The 3.0 Monster Manual supplies the standard-action and Disguise details of the named transformation. Suggestion uses sorcerer spell level 3 for its DC.",
+        "additionalSources": [
+          {
+            "name": "Original 3.0 SRD, succubus and Alternate Form",
+            "url": "https://www.dragon.ee/30srd/monsters_d.html"
+          },
+          {
+            "name": "Original 3.0 SRD, spells C",
+            "url": "https://www.dragon.ee/30srd/spellsc.htm"
+          },
+          {
+            "name": "Original 3.0 SRD, spells D",
+            "url": "https://www.dragon.ee/30srd/spellsd.htm"
+          },
+          {
+            "name": "Original 3.0 SRD, spells S",
+            "url": "https://www.dragon.ee/30srd/spellss.htm"
+          }
+        ],
+        "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+      }
+    },
+    {
+      "name": "Synad",
+      "publication": "Complete Psionic (2006)",
+      "edition": "3.5 edition",
+      "owner": "third_classic",
+      "aliases": "Synad, separate from other psionic player species.",
+      "npcs": [
+        "Ione Lark"
+      ],
+      "portrait": "parts/third_classic/portraits/synad.png",
+      "source": {
+        "name": "Synad",
+        "publication": "Complete Psionic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Aberration (Psionic)",
+        "url": "",
+        "printedPages": [
+          139,
+          140,
+          141
+        ],
+        "editionNote": "Printed 2006 version. P. 139 describes appearance, p. 140 starts the player traits, and p. 141 finishes Multitask and lists languages and favored class. Viewer numbers agree with print.",
+        "heading": "Synad Racial Traits",
+        "supportingSources": {
+          "psionFeatsAndPowers": ""
+        },
+        "distinction": "Reserved power points support the normal one-headed appearance. The two transient, featureless heads described in dim light only appear after the entire power point reserve is exhausted."
+      }
+    },
+    {
+      "name": "Tiefling",
+      "publication": "Player's Handbook (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "third_4e_b",
+      "aliases": "Core 4e Tiefling. Keep named tiefling legacies separate.",
+      "npcs": [
+        "Maris Emberlock"
+      ],
+      "portrait": "parts/third_4e_b/portraits/tiefling.png",
+      "source": {
+        "name": "Tiefling",
+        "publication": "Player's Handbook (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 48,
+        "printedPages": [
+          48,
+          49
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "sourceDistinctions": [
+          "Uses the original encounter minor-action Infernal Wrath, before official errata changed it to a free-action reaction to being hit. Named lineages are separate."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Paladin",
+            "url": "",
+            "printedPages": [
+              89,
+              90,
+              91,
+              92,
+              93
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), ability scores and character statistics",
+            "url": "",
+            "printedPages": [
+              17,
+              18,
+              27,
+              28,
+              29
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              193,
+              195,
+              198,
+              201,
+              214,
+              218,
+              219
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), combat actions and second wind",
+            "url": "",
+            "printedPages": [
+              268,
+              269,
+              287,
+              291
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tortle",
+      "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+      "edition": "AD&D 2nd edition",
+      "owner": "third_classic",
+      "aliases": "Savage Coast Tortle. Exclude marine Snapper and 5e Tortle.",
+      "npcs": [
+        "Mera Reedpole"
+      ],
+      "portrait": "parts/third_classic/portraits/tortle.png",
+      "source": {
+        "name": "Tortle",
+        "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "creatureType": "Humanoid",
+        "url": "https://www.pandius.com/sc_pcs.html",
+        "printedPages": [],
+        "editionNote": "1996 original TSR RTF, which uses headings and table numbers. The later Pandius reflow retains the player text. Its displayed printed page numbers run one lower than the viewer page numbers.",
+        "heading": "Player Characters, Tortles",
+        "originalMember": "tsr2521b.rtf",
+        "sourceLocators": [
+          "New Character Races: Tortles",
+          "Tables 11.1–11.7 and 11.11",
+          "Determining Armor Class",
+          "Proficiencies: Natural Attack Forms and Natural Weapons"
+        ],
+        "reflowedPdfUrl": "",
+        "reflowedPrintedPages": [
+          6,
+          8,
+          9,
+          12,
+          13,
+          94
+        ],
+        "reflowedPdfPages": [
+          7,
+          9,
+          10,
+          13,
+          14,
+          95
+        ],
+        "supportingSources": {
+          "movementOnly": "https://pandius.com/tortle.html",
+          "classRules": ""
+        },
+        "distinction": "Uses the land-dwelling Savage Coast player package. Player text gives no numeric base move or swim rate. The sample NPC borrows 6 and Sw 3 from the matching appendix entry. Table 11.11 marks bite as slashing, Chapter 14 prose calls it piercing. The sample NPC uses staff and claws."
+      }
+    },
+    {
+      "name": "Treant",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_d",
+      "aliases": "Keep separate from Piney, Kijani and Wilden",
+      "npcs": [
+        "Bramblewake"
+      ],
+      "portrait": "parts/third_savage_d/portraits/treant.png",
+      "source": {
+        "name": "Treant",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Plant",
+        "url": "",
+        "pages": "Appendix 1, pp. 197–198, Table A–47. pages match printed folios.",
+        "evidence": "Table A–47 grants Large before Animate Trees and has a level-5 feat the prose omits. Use the table. The slam prose omits the dice. The encounter uses two slams and scales the original 3.0 Monster Manual Huge 2d6 damage down to 1d8 for Large using Table 5–1 as a ruling. Use the 3.0 Wilderness Lore skill where the class text calls it Survival. The animated proxy cannot produce a chain of more trees in this encounter.",
+        "additionalSources": [
+          {
+            "name": "D&D Monster Manual (2000), Treant, p. 178",
+            "url": ""
+          },
+          {
+            "name": "Original 3.0 SRD, Treant and its full attack",
+            "url": "https://www.dragon.ee/30srd/monsters_t.html"
+          },
+          {
+            "name": "Savage Species p. 43, Table 5–1",
+            "url": ""
+          },
+          {
+            "name": "D&D Monster Manual II (2002), Trample glossary",
+            "url": ""
+          }
+        ],
+        "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+      }
+    },
+    {
+      "name": "Triton",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_e",
+      "aliases": "Use 3.0 monster class. Later 5e species versions stay separate.",
+      "npcs": [
+        "Iril Tidepost"
+      ],
+      "portrait": "parts/third_savage_e/portraits/triton.png",
+      "source": {
+        "name": "Triton",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Water)",
+        "url": "",
+        "pages": "199, Table A–48",
+        "evidence": "The first class level has 1d8 Hit Dice, CR 1, the Water subtype, and swim speed 40 ft. Summon nature’s ally III comes at level 4 and is not part of this build.",
+        "catalogStatus": "Other species printings exist.",
+        "additionalSources": [
+          {
+            "name": "3.0 System Reference Document, weapons",
+            "url": "https://www.dragon.ee/30srd/equipment_wpns.htm"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Troll",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_e",
+      "aliases": "Keep separate from Trollkin and later troll variants",
+      "npcs": [
+        "Bral Toothpeg"
+      ],
+      "portrait": "parts/third_savage_e/portraits/troll.png",
+      "source": {
+        "name": "Troll",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Giant",
+        "url": "",
+        "pages": "199–200, Table A–49 on p. 200",
+        "evidence": "The level 4 row has 3d8 Hit Dice, CR 2, scent 10 ft., and regeneration 1. Large size and 10-ft. reach start at level 5. The separate scrag paragraph gives an aquatic option.",
+        "catalogStatus": "Other species printings exist.",
+        "additionalSources": [
+          {
+            "name": "3.0 System Reference Document, special abilities",
+            "url": "https://www.dragon.ee/30srd/special_abilities_overview.htm"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trumpet Archon",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_e",
+      "aliases": "Keep separate from Hound Archon and Deva",
+      "npcs": [
+        "Orren Clearbell"
+      ],
+      "portrait": "parts/third_savage_e/portraits/trumpet-archon.png",
+      "source": {
+        "name": "Trumpet Archon",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Good, Lawful)",
+        "url": "",
+        "pages": "200–201, Table A–50 on p. 201",
+        "evidence": "Level 4 grants a 5-ft. trumpet blast and a +1 greatsword form at 3d8 Hit Dice, CR 3. Cleric spellcasting uses class Hit Dice +2. The three spell-like abilities use class Hit Dice.",
+        "catalogStatus": "Same name appears in a non-player entry.",
+        "additionalSources": [
+          {
+            "name": "3.0 System Reference Document, cleric spells per day",
+            "url": "https://www.dragon.ee/30srd/cleric.htm"
+          },
+          {
+            "name": "3.0 System Reference Document, cleric spell list",
+            "url": "https://www.dragon.ee/30srd/clericspells.htm"
+          },
+          {
+            "name": "3.0 System Reference Document, message",
+            "url": "https://www.dragon.ee/30srd/spellsm.htm"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vrock",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_e",
+      "aliases": "Vrock demon, separate from avoral and birdfolk",
+      "npcs": [
+        "Krev Basaltwill"
+      ],
+      "portrait": "parts/third_savage_e/portraits/vrock.png",
+      "source": {
+        "name": "Vrock",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Chaotic, Evil)",
+        "url": "",
+        "pages": "202–204, Table A–52 on p. 203",
+        "evidence": "At level 7, the vrock has 4d8 Hit Dice, CR 5, fly 50 ft. (average), and daily spores. The row follows the 3.0 class for resistance and the lesser powers. The original Monster Manual describes using its lower claws while briefly airborne.",
+        "catalogStatus": "Same name appears in a non-player entry.",
+        "additionalSources": [
+          {
+            "name": "D&D Monster Manual (2000), Vrock",
+            "url": ""
+          },
+          {
+            "name": "3.0 System Reference Document, minor image",
+            "url": "https://www.dragon.ee/30srd/spellsm.htm"
+          },
+          {
+            "name": "3.0 System Reference Document, desecrate",
+            "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD%3ADesecrate"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Water Elemental",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "third_savage_e",
+      "aliases": "One size progression",
+      "npcs": [
+        "Sillrun"
+      ],
+      "portrait": "parts/third_savage_e/portraits/water-elemental.png",
+      "source": {
+        "name": "Water Elemental",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Elemental (Water)",
+        "url": "",
+        "pages": "204–205, Table A–53 on p. 204",
+        "evidence": "At level 4 the class is Medium, with 4d8 Hit Dice, CR 2, drench and vortex. The vortex follows the 2000 Monster Manual geometry and handling with the class’s damage and DC overrides. The table stops at level 12 despite the prose mentioning level 13 and damage reduction. This profile avoids assigning a feature to the absent row.",
+        "catalogStatus": "Same name appears in a non-player entry.",
+        "additionalSources": [
+          {
+            "name": "D&D Monster Manual (2000), Water Elemental vortex",
+            "url": ""
+          },
+          {
+            "name": "3.0 System Reference Document, combat and feats",
+            "url": "https://www.dragon.ee/30srd/feats_overview.htm"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wulven",
+      "publication": "Grim Hollow: Player’s Guide",
+      "edition": "Fifth edition compatible",
+      "owner": "third_grim_b",
+      "aliases": "Use Wulven heritage, separate from Lupin, Werekin and transformation rules.",
+      "npcs": [
+        "Kellan Rook"
+      ],
+      "portrait": "parts/third_grim_b/portraits/wulven.png",
+      "source": {
+        "name": "Wulven",
+        "kind": "species",
+        "publication": "Grim Hollow: Player’s Guide",
+        "edition": "Fifth edition compatible",
+        "publisher": "Ghostfire Gaming",
+        "year": 2025,
+        "creatureType": "Humanoid",
+        "url": "https://www.dndbeyond.com/species/1987226-wulven",
+        "primaryBookText": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+        "printPage": 29,
+        "viewerPage": 33,
+        "printedPages": [
+          29
+        ],
+        "sharedPrintedRules": [
+          "10–13",
+          "30–47",
+          "217"
+        ],
+        "heading": "Wulven Base Traits and Traditional Wulven Traits",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "settingLanguages": "Language assignments use Etharis regional names and core standard language choices where relevant. Etharis has no universal Common language.",
+        "rulesCompatibility": "The revised 2025 book credits SRD 5.2.1 and the examples use 2024 core classes.",
+        "sourceDistinctions": [
+          "The example takes all eight traditional traits, including Hunter’s Instinct, Pack Hunter and Natural Attack (Claws). This is the playable heritage rather than a Transformation."
+        ],
+        "npcExamples": [
+          "Kellan Rook"
+        ]
+      }
+    }
+  ]
+}

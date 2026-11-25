@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "giant-spider",
+    "file": "portraits/giant-spider.png",
+    "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-toad",
+    "file": "portraits/giant-toad.png",
+    "sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-vulture",
+    "file": "portraits/giant-vulture.png",
+    "sha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

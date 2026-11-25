@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Black Bear",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A comparatively small bear with dense fur ranging from black to light brown.",
+    "combat": {
+      "habitats": [
+        "Temperate land"
+      ],
+      "armorClass": 7,
+      "movement": 12,
+      "hitDice": "3+3",
+      "thac0": 17,
+      "size": "M, 6+ ft. tall",
+      "numberOfAttacks": 3,
+      "damageDice": "1–3 / 1–3 / 1–6",
+      "xp": 175,
+      "senses": [
+        "Keen hearing",
+        "Keen smell",
+        "Poor eyesight"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Hug",
+          "effectNote": "On a successful paw hit with an attack roll of 18 or better, the bear deals an additional 2d4 damage with a hug."
+        }
+      ],
+      "Habitat and behavior": [
+        {
+          "name": "Behavior",
+          "effectNote": "The most widespread bear in the family entry generally avoids people unless provoked."
+        }
+      ]
+    },
+    "notes": [
+      "1–3 appearing. Common. Family groups. Active by day. Omnivore.",
+      "Semi-intelligent (2–4). Neutral. Average (8–10) morale. Treasure, special defenses, and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), p. 17."
+    ]
+  },
+  {
+    "name": "Brown Bear",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A large bear with dense fur and a heavy grizzly build.",
+    "combat": {
+      "habitats": [
+        "Temperate land"
+      ],
+      "armorClass": 6,
+      "movement": 12,
+      "hitDice": "5+5",
+      "thac0": 15,
+      "size": "L, 9+ ft. tall",
+      "numberOfAttacks": 3,
+      "damageDice": "1–6 / 1–6 / 1–8",
+      "xp": 420,
+      "senses": [
+        "Keen hearing",
+        "Keen smell",
+        "Poor eyesight"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Hug",
+          "effectNote": "On a successful paw hit with an attack roll of 18 or better, the bear deals an additional 2d6 damage with a hug."
+        }
+      ],
+      "Habitat and behavior": [
+        {
+          "name": "Behavior",
+          "effectNote": "It is more carnivorous than the Black Bear and the grizzly can hunt large prey such as deer and elk."
+        }
+      ],
+      "Combat behavior": [
+        {
+          "name": "Fighting at negative HP",
+          "effectNote": "The bear can continue fighting for 1–4 melee rounds at 0 through −8 HP. It dies immediately at −9 HP or fewer."
+        }
+      ]
+    },
+    "notes": [
+      "1–6 appearing. Uncommon. Family groups. Active by day. Omnivore.",
+      "Semi-intelligent (2–4). Neutral. Average (8–10) morale. Treasure, special defenses, and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), p. 17."
+    ]
+  },
+  {
+    "name": "Cave Bear",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A very large bear with dense fur and massive forequarters.",
+    "combat": {
+      "habitats": [
+        "Any land"
+      ],
+      "armorClass": 6,
+      "movement": 12,
+      "hitDice": "6+6",
+      "thac0": 13,
+      "size": "H, 12+ ft. tall",
+      "numberOfAttacks": 3,
+      "damageDice": "1–8 / 1–8 / 1–12",
+      "xp": 650,
+      "senses": [
+        "Keen hearing",
+        "Keen smell",
+        "Poor eyesight"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Hug",
+          "effectNote": "On a successful paw hit with an attack roll of 18 or better, the bear deals an additional 2d8 damage with a hug."
+        }
+      ],
+      "Habitat and behavior": [
+        {
+          "name": "Behavior",
+          "effectNote": "An aggressive bear that may attack even an armed group. Its diet leans toward meat."
+        }
+      ],
+      "Combat behavior": [
+        {
+          "name": "Fighting at negative HP",
+          "effectNote": "The bear can continue fighting for 1–4 melee rounds at 0 through −8 HP. It dies immediately at −9 HP or fewer."
+        }
+      ]
+    },
+    "notes": [
+      "1–2 appearing. Uncommon. Family groups. Active by day. Omnivore.",
+      "Semi-intelligent (2–4). Neutral. Average (8–10) morale. Treasure, special defenses, and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), p. 17."
+    ]
+  },
+  {
+    "name": "Polar Bear",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A huge white-coated bear with smaller rounded ears and a long muzzle.",
+    "combat": {
+      "habitats": [
+        "Any cold terrain"
+      ],
+      "armorClass": 6,
+      "movement": "12, Sw 9",
+      "hitDice": "8+8",
+      "thac0": 11,
+      "size": "H, 14+ ft. tall",
+      "numberOfAttacks": 3,
+      "damageDice": "1–10 / 1–10 / 2–12",
+      "xp": 1400,
+      "senses": [
+        "Keen hearing",
+        "Keen smell",
+        "Poor eyesight"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Hug",
+          "effectNote": "On a successful paw hit with an attack roll of 18 or better, the bear deals an additional 3d6 damage with a hug."
+        }
+      ],
+      "Habitat and behavior": [
+        {
+          "name": "Behavior",
+          "effectNote": "A powerful swimmer that feeds mostly on marine animals."
+        }
+      ],
+      "Combat behavior": [
+        {
+          "name": "Fighting at negative HP",
+          "effectNote": "The bear can continue fighting for 2–5 rounds at 0 through −12 HP. Below −12 HP it dies immediately."
+        }
+      ]
+    },
+    "notes": [
+      "1–6 appearing. Rare. Family groups. Active by day. Omnivore.",
+      "Semi-intelligent (2–4). Neutral. Average (8–10) morale. Treasure, special defenses, and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), p. 17."
+    ]
+  }
+]

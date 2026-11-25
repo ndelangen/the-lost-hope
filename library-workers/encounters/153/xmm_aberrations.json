@@ -1,0 +1,389 @@
+[
+  {
+    "name": "Nothic",
+    "statBlock": {
+      "name": "Nothic",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 228,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 15,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "skills": {
+        "Arcana": 3,
+        "Insight": 4,
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "description": "A one-eyed stalker that digs into minds and withers flesh with its gaze.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Undercommon.",
+        "Actions": "Multiattack. The nothic makes two Claw attacks.\nClaw. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 8 (1d10 + 3) Slashing damage.\nRotting Gaze. Choose one creature the nothic can see within 120 ft. The target makes a DC 13 Constitution save, taking 17 (5d6) Necrotic damage on a failure or half on a success.",
+        "Bonus actions": "Weird Insight (recharge 6). Choose one creature the nothic can see within 120 ft. On a failed DC 14 Wisdom save, the nothic magically learns one fact or secret about the target.",
+        "Habitats": "Underdark.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 228."
+      }
+    }
+  },
+  {
+    "name": "Grell",
+    "statBlock": {
+      "name": "Grell",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 157,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 12,
+      "hp": 55,
+      "hitDice": "10d8 + 10",
+      "speed": "10 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 6
+      },
+      "description": "A floating ambusher that carries prey away in its paralyzing tentacles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+6 (16).",
+        "Senses": "Blindsight 60 ft.",
+        "Languages": "Deep Speech.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Blinded, Prone.",
+        "Traits": "Abduct. Moving a creature the grell is grappling costs it no extra movement.",
+        "Actions": "Multiattack. The grell makes one Beak attack and one Paralyzing Tentacles attack.\nBeak. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 11 (2d8 + 2) Piercing damage.\nParalyzing Tentacles. Melee attack, +4 to hit, reach 10 ft. On a hit, deal 7 (1d10 + 2) Piercing damage. If the target is Medium or smaller, two of the grell's ten tentacles Grapple it (escape DC 12). The target also makes a DC 11 Constitution save. On a failure, it is Poisoned and remains Paralyzed while that poison lasts. It repeats the save at the end of each of its turns, ending the effect on a success. The save succeeds automatically after 1 minute.",
+        "Habitats": "Underdark.",
+        "Printed source": "Monster Manual (2024), p. 157."
+      }
+    }
+  },
+  {
+    "name": "Chuul",
+    "statBlock": {
+      "name": "Chuul",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 71,
+      "classification": "Large aberration, chaotic evil",
+      "ac": 16,
+      "hp": 76,
+      "hitDice": "9d10 + 27",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4
+      },
+      "description": "An amphibious guardian that can sense magic and hold prey in either of its pincers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "understands Deep Speech but can't speak.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The chuul can breathe both air and water.\nSense Magic. The chuul senses magic within 120 ft. as with Detect Magic. The sense itself is nonmagical.",
+        "Actions": "Multiattack. The chuul makes two Pincer attacks and uses Paralyzing Tentacles.\nPincer. Melee attack, +6 to hit, reach 10 ft. On a hit, deal 9 (1d10 + 4) Bludgeoning damage. If the target is Large or smaller, one of the chuul's two pincers Grapples it (escape DC 14).\nParalyzing Tentacles. Choose one creature Grappled by the chuul. The target makes a DC 13 Constitution save. On a failure, it is Poisoned and remains Paralyzed while that poison lasts. It repeats the save at the end of each of its turns, ending the effect on a success. The save succeeds automatically after 1 minute.",
+        "Habitats": "Coastal, Swamp, Underdark.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 71."
+      }
+    }
+  },
+  {
+    "name": "Cloaker",
+    "statBlock": {
+      "name": "Cloaker",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 73,
+      "classification": "Large aberration, chaotic neutral",
+      "ac": 14,
+      "hp": 91,
+      "hitDice": "14d10 + 14",
+      "speed": "10 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 12,
+      "skills": {
+        "Stealth": 5
+      },
+      "description": "A winged Underdark predator that clings to its quarry and shares any damage it takes with that victim.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech. Undercommon.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Light Sensitivity. The cloaker has Disadvantage on attack rolls in Bright Light.",
+        "Actions": "Multiattack. The cloaker makes one Attach attack and two Tail attacks.\nAttach. Melee attack, +6 to hit, reach 5 ft. On a hit, deal 13 (3d6 + 3) Piercing damage. The cloaker latches onto a Large or smaller creature it hits. Until detached, that creature is Blinded and the cloaker cannot use Attach against another target. Whenever the cloaker takes damage while attached, halve the damage and round down. The cloaker and the attached creature each take that amount. The cloaker can spend 5 ft. of movement to detach. The attached creature or a creature within 5 ft. of it can take an action to detach the cloaker with a successful DC 14 Strength (Athletics) check.\nTail. Melee attack, +6 to hit, reach 10 ft. On a hit, deal 8 (1d10 + 3) Slashing damage.",
+        "Bonus actions": "Moan. Each creature in a 60-ft. Emanation from the cloaker makes a DC 13 Wisdom save. A creature that fails is Frightened until the end of the cloaker's next turn. A creature that succeeds is immune to this cloaker's Moan for 24 hours.\nPhantasms (recharges after a Short or Long Rest). The cloaker casts Mirror Image using Wisdom and no spell components. The spell ends early if the cloaker starts or ends its turn in Bright Light.",
+        "Habitats": "Underdark.",
+        "Treasure": "Implements.",
+        "Printed source": "Monster Manual (2024), p. 73."
+      }
+    }
+  },
+  {
+    "name": "Gibbering Mouther",
+    "statBlock": {
+      "name": "Gibbering Mouther",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 133,
+      "classification": "Medium aberration, chaotic neutral",
+      "ac": 9,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "20 ft., swim 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A crawling mass of eyes and mouths that turns nearby ground treacherous and disrupts its victims with incessant babble.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Darkvision 60 ft.",
+        "Condition immunities": "Prone.",
+        "Traits": "Aberrant Ground. Ground in a 10-ft. Emanation from the mouther is Difficult Terrain.\nGibbering. The mouther babbles whenever it is free of the Incapacitated condition. Each creature starting its turn within 20 ft. while it babbles makes a DC 10 Wisdom save. On a failure, roll 1d8 to determine that creature's behavior for the current turn.\n1–4. It does nothing.\n5–6. It takes no action or Bonus Action and spends all its movement moving in a random direction.\n7–8. It makes a melee attack against a randomly chosen creature within reach. If it cannot make this attack, it does nothing.",
+        "Actions": "Bite. Melee attack, +2 to hit, reach 5 ft. On a hit, deal 7 (2d6) Piercing damage. If the target is Medium or smaller, it falls Prone. A target reduced to 0 HP by this attack dies. The mouther absorbs the body and leaves the equipment behind.\nBlinding Spittle (recharge 5–6). Choose a point within 30 ft. Each creature in a 10-ft.-radius Sphere centered there makes a DC 10 Dexterity save. On a failure, it takes 7 (2d6) Radiant damage and is Blinded until the end of the mouther's next turn.",
+        "Habitats": "Underdark.",
+        "Printed source": "Monster Manual (2024), p. 133."
+      }
+    }
+  },
+  {
+    "name": "Flumph",
+    "statBlock": {
+      "name": "Flumph",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 122,
+      "classification": "Small aberration, lawful good",
+      "ac": 12,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "5 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "skills": {
+        "Arcana": 4,
+        "History": 4,
+        "Religion": 4
+      },
+      "description": "A hovering Underdark aberration that can hear nearby telepathy and fend off threats with foul-smelling spray.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "understands Undercommon but can't speak. telepathy 60 ft.",
+        "Damage vulnerabilities": "Psychic.",
+        "Traits": "Advanced Telepathy. The flumph perceives the content of telepathic communication within 60 ft.\nProne Deficiency. When the flumph becomes Prone, roll a die. An odd result leaves it Incapacitated. At the end of each of its turns, it makes a DC 10 Dexterity save to end that Incapacitated condition.\nTelepathic Shroud. Its thoughts are unreadable by any means. Magic cannot find its location or observe it from afar.",
+        "Actions": "Tentacle. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 4 (1d4 + 2) Acid damage.\nStench Spray (1/day). Choose one creature the flumph can see within 15 ft. The target makes a DC 10 Dexterity save. On a failure, a foul liquid coats the target, causing a stench for 1d4 hours and leaving it Poisoned while the stench lasts. Other creatures are Poisoned while in a 5-ft. Emanation from the coated target. The target can end the stench early by bathing during a Short or Long Rest.",
+        "Habitats": "Underdark.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 122."
+      }
+    }
+  },
+  {
+    "name": "Spectator",
+    "statBlock": {
+      "name": "Spectator",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 289,
+      "classification": "Medium aberration (beholder), lawful neutral",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "5 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 16,
+      "skills": {
+        "Perception": 6
+      },
+      "description": "A floating beholderkin that guards its charge with four magical eye rays.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech. Undercommon. telepathy 120 ft.",
+        "Condition immunities": "Exhaustion, Prone.",
+        "Actions": "Multiattack. The spectator uses Eye Rays twice.\nBite. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 5 (1d6 + 2) Piercing damage.\nEye Rays. Choose a target the spectator can see within 90 ft. and roll 1d4 for a magical ray. Reroll any ray the spectator has already used this turn.\n1. Confusion Ray. DC 12 Wisdom save. On a failure, the target takes 5 (2d4) Psychic damage and cannot take Reactions until the end of its next turn. On that turn it cannot move and must use its action to make a melee or ranged attack against a random creature within range. It does nothing if it cannot attack.\n2. Paralyzing Ray. DC 12 Constitution save. On a failure, the target is Paralyzed. It repeats the save at the end of each of its turns, ending the effect on a success. The save succeeds automatically after 1 minute.\n3. Fear Ray. DC 12 Wisdom save. On a failure, the target takes 5 (2d4) Psychic damage and is Frightened until the end of its next turn.\n4. Wounding Ray. DC 12 Constitution save. On a failure, deal 16 (3d10) Necrotic damage. A success halves the damage.",
+        "Reactions": "Spell Reflection. After the spectator succeeds on a save against a spell or a spell attack roll misses it, choose one creature the spectator can see within 120 ft. The chosen creature makes a DC 12 Dexterity save, taking 10 (3d6) Force damage on a failure.",
+        "Habitats": "Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 289."
+      }
+    }
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Feral Gargun",
+    "kind": "species",
+    "group": "3.5 edition",
+    "global": true,
+    "version": {
+      "key": "98460c675b1d4b8cbd903c29",
+      "publication": "Races of Stone (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144379M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Monstrous Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Monstrous Humanoid with 30-ft. land speed and 60-ft. black-and-white darkvision. Full ancestry gives +4 Strength, +2 Dexterity, +4 Constitution, −2 Intelligence, and −2 Charisma.",
+            "Full ancestry gives +2 natural armor. Cold resistance 5 applies to both mundane and magical cold damage.",
+            "Two racial Hit Dice give 2d8, BAB +2, base Fortitude +0, Reflex +3, and Will +3. One racial feat and 5 × (2 + Intelligence modifier) skill points. Racial class skills are Climb, Hide, Jump, Listen, Search, Spot, and Survival.",
+            "Racial proficiency covers simple weapons. Armor and shield proficiency come from other sources, such as class.",
+            "The full ancestry has two claws dealing 1d6 piercing and slashing damage each. In a full attack with a manufactured weapon, a free claw can be used as a secondary attack.",
+            "Powerful Build counts size as one category larger when advantageous on opposed checks with size modifiers and against size-dependent special attacks. It enables weapons one size larger and preserves actual space and reach. It stacks with size changes that preserve the trait.",
+            "Mountain Movement treats standing long jumps and high jumps as running jumps. An accelerated Climb check moves half speed as a move action without the usual −5 penalty.",
+            "Acclimated removes the Dungeon Master’s Guide p. 90 altitude penalties and persists after time at lower elevations.",
+            "Goliath Blood counts the Feral Gargun as a Goliath for effects keyed to race, including race-restricted magic items.",
+            "The language entry gives Gol-Kaa. Favored class Barbarian. Level adjustment +2 gives ECL 4 with the two racial Hit Dice before adding class levels.",
+            "The optional four-level Feral Gargun monster class starts with +2 Strength, −2 Intelligence, −2 Charisma, 30-ft. speed, darkvision 60 ft., Cold resistance 5, Goliath Blood, and Mountain Movement.",
+            "Monster-class level 1 gives 1d8, BAB +1, base Fortitude +0, Reflex +2 and Will +2, one feat, and two 1d4 claws. Level 2 adds +2 Strength, +2 Constitution, +1 natural armor, and Acclimated.",
+            "Monster-class level 3 adds the second 1d8, BAB +2 total, base Fortitude +0, Reflex +3 and Will +3, Powerful Build, and 1d6 claws. Level 4 adds +2 Constitution and +2 Dexterity and brings natural armor to +2 total.",
+            "Skill points for the progression are (2 + Intelligence modifier) × 4 at 1st level and (2 + Intelligence modifier) at 3rd. The four levels incorporate level adjustment. Complete the progression before multiclassing. Table 4–4 lists CR 1, 1, 2, and 2."
+          ]
+        },
+        {
+          "title": "Original NPC · Sava of Rethma",
+          "lines": [
+            "Glacier wayfinder and Ranger.",
+            "Motive. Shift the route away from an ice shelf that has started to break.",
+            "Hook. Sava knows where the ridge takes a safe turn. She needs the party’s help moving the old waymarks before travelers follow them onto the shelf.",
+            "Feral Gargun glacier wayfinder, 2 Monstrous Humanoid HD and Ranger 1 · Provisional CR 3. ECL 5. · Medium Monstrous Humanoid",
+            "AC 16 · HP 31 (3d8+12) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Gorren of Vekra",
+          "lines": [
+            "River salvage guide and Feral Gargun monster class 2.",
+            "Motive. Retrieve a missing toll chest before the river rises over the ledge.",
+            "Hook. Gorren can climb down to the chest while the party holds the raft at the pier.",
+            "Feral Gargun river salvage guide, Feral Gargun monster class 2 · Provisional CR 1. ECL 2. · Medium Monstrous Humanoid",
+            "AC 12 · HP 14 (1d8+3) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Sava of Rethma": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Sava of Rethma",
+              "group": "Feral Gargun",
+              "publication": "Feral Gargun glacier wayfinder, 2 Monstrous Humanoid HD and Ranger 1",
+              "local": {
+                "entry": "npc-46cdc4b7b37afbe6793c92ad",
+                "version": "ea593a01a56a53974a52d13b"
+              }
+            }
+          }
+        ],
+        "Original NPC · Gorren of Vekra": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Gorren of Vekra",
+              "group": "Feral Gargun",
+              "publication": "Feral Gargun river salvage guide, Feral Gargun monster class 2",
+              "local": {
+                "entry": "npc-6a842c7bbe9f870ca08c9f94",
+                "version": "9948df0c8bd90391937115e0"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Feral Gargun": true,
+      "feral gargun goliath blood": true,
+      "feral gargun powerful build": true,
+      "feral gargun acclimated": true,
+      "feral gargun cold resistance": true,
+      "feral gargun glacier wayfinder": true,
+      "feral gargun river salvage guide": true
+    },
+    "hash": "065366d73b579d24305470371b4ee8e07516e29ff8323987168c96c12d084fb5",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Stone (2004)",
+    "defaultVersionKey": "98460c675b1d4b8cbd903c29",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

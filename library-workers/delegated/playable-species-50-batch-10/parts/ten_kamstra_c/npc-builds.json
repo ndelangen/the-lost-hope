@@ -1,0 +1,221 @@
+{
+  "builds": [
+    {
+      "id": "mr1-giant-owl-reedwatch",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Night ferry lookout, Rogue 1",
+      "difficulty": "Rogue 1",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "5 ft., fly 60 ft.",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Darkvision 120 ft. Passive Perception 16, or 21 when hearing or sight applies.",
+      "languages": "Speaks, reads, and writes Giant Owl. Understands, reads, and writes Common, Elvish, and Sylvan. Knows Thieves’ Cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Insight +4",
+        "Investigation +2",
+        "Perception +6",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +2. Unarmored AC 13 is 10 + Dexterity 3. HP 10 is 8 + Constitution 2.",
+        "Sailor supplies Athletics, Perception, and Ship’s Passage. Rogue supplies Acrobatics, Insight, Investigation, and Stealth. Expertise doubles proficiency in Perception and Stealth.",
+        "Keen Hearing and Sight grants advantage on applicable Wisdom (Perception) checks. Reedwatch wears no armor and relies on natural attacks."
+      ],
+      "actions": [
+        "Talons. Dexterity-based unarmed strike, +5 to hit, reach 5 ft., 1d8+3 piercing.",
+        "Sneak Attack. Deal an extra 1d6 piercing with Talons once per turn on a hit with advantage. An active enemy of the target within 5 ft. of it also qualifies if the roll has no disadvantage.",
+        "Flyby. Disengage as a bonus action."
+      ],
+      "tactics": "Reedwatch listens from above the landing. It swoops at distracted attackers and Disengages before flying clear."
+    },
+    {
+      "id": "mr1-giant-poisonous-snake-siltcoil",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Ford keeper, Monk 1",
+      "difficulty": "Monk 1",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Blindsight 10 ft. Passive Perception 12.",
+      "languages": "Common and Elvish.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Medicine +4",
+        "Religion +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +1, Dexterity save +5. Unarmored Defense gives AC 15 from 10 + Dexterity 3 + Wisdom 2. HP 10 is 8 + Constitution 2.",
+        "Hermit supplies Medicine, Religion, Elvish, and Discovery. Monk supplies Acrobatics and Insight. Siltcoil cannot wear armor or manipulate equipment."
+      ],
+      "actions": [
+        "Bite. Dexterity-based unarmed strike, +5 to hit, reach 5 ft., 1d4+3 piercing plus 1d4 poison.",
+        "Martial Arts. After a Bite made with the Attack action, Siltcoil can use a bonus action for a tail bump. +5 to hit, reach 5 ft., 1d4+3 bludgeoning."
+      ],
+      "tactics": "Siltcoil meets intruders at the narrow end of the ford, strikes at close range, and swims away if overwhelmed."
+    },
+    {
+      "id": "mr1-giant-spider-loomstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Roof watch, Fighter 2",
+      "difficulty": "Fighter 2",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft., climb 30 ft.",
+      "ac": 14,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +4",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4. Natural AC 14 is 11 + Dexterity 3. HP 20 is 12 at 1st level plus 8 at 2nd.",
+        "Soldier supplies Athletics, Intimidation, and Military Rank. Fighter supplies Perception and Survival. Loomstep has the Defense style and wears no armor, so it gives no bonus here.",
+        "Spider Climb allows difficult climbs and ceiling movement without a check. Web Walker removes the movement limits of webs."
+      ],
+      "actions": [
+        "Bite. Dexterity-based unarmed strike, +5 to hit, reach 5 ft., 1d4+3 piercing plus 1d4 poison.",
+        "Web. Ranged weapon attack, +5 to hit, range 30/60 ft. On a hit, the target is restrained. It may use an action to escape with a DC 12 Strength check. Destroying the web also frees it. Web AC 10, HP 5, resistance to bludgeoning, immunity to poison and psychic damage.",
+        "Second Wind. As a bonus action, regain 1d10+2 HP. One use per short or long rest.",
+        "Action Surge. Take one additional action on your turn. One use per short or long rest."
+      ],
+      "tactics": "Loomstep clings beneath the roof edge and webs the first creature to draw steel. If one attacker gets through, it uses Action Surge to bite or catch a second attacker."
+    },
+    {
+      "id": "mr1-giant-wasp-cinderwing",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Orchard defender, Barbarian 1",
+      "difficulty": "Barbarian 1",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "10 ft., fly 50 ft.",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 3,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Goblin.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +4",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4. Unarmored Defense gives AC 15 from 10 + Dexterity 3 + Constitution 2. HP 14 is 12 + 2.",
+        "Outlander supplies Athletics, Survival, Goblin, and Wanderer. Barbarian supplies Animal Handling and Perception. Cinderwing uses natural attacks and wears no armor."
+      ],
+      "actions": [
+        "Sting. Strength-based unarmed strike, +4 to hit, reach 5 ft., 1d4+2 piercing plus 1d4 poison. While raging, piercing damage increases to 1d4+4. Cinderwing can instead use Dexterity for +5 to hit and 1d4+3 piercing plus 1d4 poison, without Rage damage.",
+        "Rage. As a bonus action, gain advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and +2 to damage with Strength-based melee weapon attacks, including the Strength-based Sting. Twice per long rest. Rage lasts up to 1 minute. It ends if Cinderwing falls unconscious, ends a turn without attacking a hostile creature or taking damage since its previous turn, or ends it with a bonus action."
+      ],
+      "tactics": "Cinderwing calls one warning from above the orchard wall. If the intruders press on it rages, strikes, and keeps to the outer edge of the fight."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Reedwatch",
+      "species": "Giant Owl",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-owl-reedwatch",
+      "size": "Medium",
+      "role": "An owl that watches the ferry landing after dark.",
+      "motive": "Find out why the ferryman’s bell keeps ringing after the last crossing.",
+      "hook": "Reedwatch scratches a ferry sketch into loose mud and points to a second wake crossing the first."
+    },
+    {
+      "name": "Siltcoil",
+      "species": "Giant Poisonous Snake",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-poisonous-snake-siltcoil",
+      "size": "Medium",
+      "role": "A serpent that guides travelers through a shifting ford.",
+      "motive": "Recover the bridge records before the river takes the storehouse.",
+      "hook": "Siltcoil gives directions from beneath the landing, then asks which traveler can read the lockbox seal."
+    },
+    {
+      "name": "Loomstep",
+      "species": "Giant Spider",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-spider-loomstep",
+      "size": "Medium",
+      "role": "A spider hired to watch the roofs along a market lane.",
+      "motive": "Catch the thief who left false tracks to blame an apprentice.",
+      "hook": "A silk line across the alley carries a scrap from the thief’s coat. Loomstep calls down to ask who recognizes the dye."
+    },
+    {
+      "name": "Cinderwing",
+      "species": "Giant Wasp",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-wasp-cinderwing",
+      "size": "Medium",
+      "role": "A wasp that defends an orchard abandoned during the last harvest.",
+      "motive": "Find the grower who taught it which fruit to leave for winter.",
+      "hook": "Cinderwing offers the party its harvest if they can tell it where the grower moved."
+    }
+  ]
+}

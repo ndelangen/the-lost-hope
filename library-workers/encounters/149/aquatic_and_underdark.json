@@ -1,0 +1,363 @@
+[
+  {
+    "name": "Chuul",
+    "statBlock": {
+      "name": "Chuul",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large aberration, chaotic evil",
+      "ac": 16,
+      "hp": 93,
+      "hitDice": "11d10 + 33",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "description": "These armored servants of aboleths still collect magic and guard ancient ruins long after their empire fell.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. Passive Perception 14.",
+        "Languages": "Understands Deep Speech. Cannot speak.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The chuul breathes both air and water.\nSense Magic. It senses magic within 120 ft. at will. This ability is nonmagical and otherwise follows Detect Magic.",
+        "Actions": "Multiattack. Make two Pincer attacks. If the chuul has a creature grappled, it may also use Tentacles once.\nPincer. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 11 (2d6 + 4) bludgeoning damage. A Large or smaller creature is also grappled, escape DC 14, provided the chuul has fewer than two other creatures grappled.\nTentacles. Choose one creature the chuul has grappled. It makes a DC 13 Constitution save. On a failure it is poisoned for 1 minute and paralyzed while the poison lasts. It repeats the save at the end of each of its turns and ends the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 40."
+      }
+    }
+  },
+  {
+    "name": "Duergar",
+    "statBlock": {
+      "name": "Duergar",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (dwarf), lawful evil",
+      "ac": 16,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "Gray dwarves live in fortified Underdark cities and use their magic to infiltrate strongholds or grow large enough to fight alongside much taller creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Scale mail and shield.",
+        "Senses": "Darkvision 120 ft. Passive Perception 10.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Damage resistances": "Poison.",
+        "Traits": "Duergar Resilience. The duergar has advantage on saves against poison, spells, and illusions and on saves to resist being charmed or paralyzed.\nSunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Enlarge (recharges after a short or long rest). The duergar and everything it wears or carries magically grow for 1 minute. It becomes Large, or the largest size the space allows. It doubles the damage dice of its Strength-based weapon attacks, already reflected in the enlarged damage below, and gains advantage on Strength checks and Strength saves.\nWar Pick. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) while enlarged.\nJavelin. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) while enlarged.\nInvisibility (recharges after a short or long rest). The duergar and everything it wears or carries magically become invisible for up to 1 hour. It concentrates as it would on a spell. The effect ends early if concentration breaks or the duergar attacks, casts a spell, or uses Enlarge.",
+        "Printed source": "Monster Manual (2014), p. 122."
+      }
+    }
+  },
+  {
+    "name": "Kraken",
+    "statBlock": {
+      "name": "Kraken",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan monstrosity (titan), chaotic evil",
+      "ac": 18,
+      "hp": 472,
+      "hitDice": "27d20 + 189",
+      "speed": "20 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 14,
+      "description": "An ancient leviathan that sinks fleets and draws sailors into the depths. It may live in a deep ocean trench, a sunken cavern, or a freshwater lake.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 17,
+        "Dex": 7,
+        "Con": 14,
+        "Int": 13,
+        "Wis": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft. Passive Perception 14.",
+        "Languages": "Understands Abyssal, Celestial, Infernal, and Primordial. Cannot speak. Telepathy 120 ft.",
+        "Damage immunities": "Lightning and bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Frightened, paralyzed.",
+        "Traits": "Amphibious. The kraken breathes both air and water.\nFreedom of Movement. It ignores difficult terrain. Magic cannot reduce its speed or restrain it. It may spend 5 ft. of movement to free itself from a nonmagical restraint or a grapple.\nSiege Monster. It deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make three Tentacle attacks. The kraken can replace any of them with Fling.\nBite. Melee weapon attack, +17 to hit, reach 5 ft., one target. Hit 23 (3d8 + 10) piercing damage. A Large or smaller creature hit by this attack is swallowed if the kraken is already grappling it. Swallowing ends the grapple. The swallowed creature is blinded and restrained, has total cover against attacks and effects originating outside the kraken, and takes 42 (12d6) acid damage at the start of every kraken turn. If a creature inside the kraken deals at least 50 damage to it in a single turn, the kraken makes a DC 25 Constitution save at the end of that turn. On failure it regurgitates every swallowed creature. They land prone in a space within 10 ft. of the kraken. If the kraken dies, its victims are no longer restrained by it and can spend 15 ft. of movement to crawl out of the corpse, landing prone.\nTentacle. Melee weapon attack, +17 to hit, reach 30 ft., one target. Hit 20 (3d6 + 10) bludgeoning damage. The target is grappled, escape DC 18, and restrained for as long as the grapple lasts. Each of its ten tentacles can hold one target.\nFling. Throw one Large or smaller held object or grappled creature up to 60 ft. in a random direction. The target lands prone. If it hits a solid surface it takes 3 (1d6) bludgeoning damage per 10 ft. thrown. If the kraken throws it at a creature, that creature makes a DC 18 Dexterity save. Failure deals the same damage and knocks it prone.\nLightning Storm. Make three magical lightning bolts. Choose for each a target the kraken can see within 120 ft. A target makes a DC 23 Dexterity save, taking 22 (4d10) lightning damage on failure or half on success.",
+        "Legendary actions": "The kraken has 3 legendary actions. It spends them on one option at a time at the end of another creature's turn and regains them at the start of its own turn. It cannot take them while incapacitated or otherwise unable to act. If surprised, it waits until after its first turn.\nTentacle Attack or Fling (1 action). Make one Tentacle attack or use Fling.\nLightning Storm (2 actions). Use Lightning Storm.\nInk Cloud (3 actions). Underwater, release ink in a 60-ft. radius. It spreads around corners and heavily obscures the area for everyone except the kraken. Another creature that ends its turn in the cloud makes a DC 23 Constitution save, taking 16 (3d10) poison damage on failure or half on success. A strong current disperses the ink. Otherwise the cloud dissipates at the end of the kraken's next turn.",
+        "Lair actions": "On initiative count 20, after any turns tied at 20, the kraken can choose one effect. It cannot do so while incapacitated or otherwise unable to act. If surprised, it waits until after its first turn.\nCurrent. Each creature within 60 ft. of the kraken makes a DC 23 Strength save. Push it up to 60 ft. away on failure or 10 ft. away on success.\nLightning Vulnerability. Creatures in water within 60 ft. of the kraken gain vulnerability to lightning damage until initiative count 20 of the next round.\nElectrified Water. All creatures within 120 ft. make a DC 23 Constitution save, taking 10 (3d6) lightning damage on failure or half on success.",
+        "Regional effects": "Within 6 miles of the lair, the kraken can change the weather at will as with Control Weather.\nWater elementals form within 6 miles. They remain in the water and each has Intelligence and Charisma 1, with a modifier of -5.\nAquatic creatures within 6 miles with Intelligence 2 or lower are charmed by the kraken and act aggressively toward intruders.\nAll regional effects end immediately when the kraken dies. A creature assuming the kraken's form gains none of its legendary actions, lair actions, or regional effects.",
+        "Printed source": "Monster Manual (2014), pp. 196–197. Official errata revises the saving throw modifiers, Bite and Tentacle attack bonuses, nonmagical attack wording, and general legendary creature rules."
+      }
+    }
+  },
+  {
+    "name": "Merfolk",
+    "statBlock": {
+      "name": "Merfolk",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (merfolk), neutral",
+      "ac": 11,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "10 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "description": "Merfolk build settlements in coastal reefs, flooded ruins, and sea caves. They often defend their homes with spears made from salvaged materials.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Languages": "Aquan, Common.",
+        "Traits": "Amphibious. The merfolk can breathe both air and water.",
+        "Actions": "Spear. Melee or ranged weapon attack, +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 3 (1d6) piercing damage, or 4 (1d8) when wielded in two hands for a melee attack.",
+        "Printed source": "Monster Manual (2014), p. 218."
+      }
+    }
+  },
+  {
+    "name": "Merrow",
+    "statBlock": {
+      "name": "Merrow",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "10 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "Abyss-twisted hunters raid coastal waters and drag prey back to their underwater caves.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. Passive Perception 10.",
+        "Languages": "Abyssal, Aquan.",
+        "Traits": "Amphibious. The merrow can breathe both air and water.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws or Harpoon attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 9 (2d4 + 4) slashing damage.\nHarpoon. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 11 (2d6 + 4) piercing damage. If the target is a Huge or smaller creature, it must win a Strength contest against the merrow or be pulled up to 20 ft. toward it.",
+        "Printed source": "Monster Manual (2014), p. 219. Official errata sets passive Perception to 10."
+      }
+    }
+  },
+  {
+    "name": "Otyugh",
+    "statBlock": {
+      "name": "Otyugh",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large aberration, neutral",
+      "ac": 14,
+      "hp": 114,
+      "hitDice": "12d10 + 48",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "description": "An ambush hunter hides beneath heaps of refuse and uses simple telepathic lures to draw creatures within reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft. Passive Perception 11.",
+        "Languages": "Otyugh.",
+        "Traits": "Limited Telepathy. The otyugh can magically send simple messages and images to creatures within 120 ft. that understand a language. The recipient cannot use this link to answer.",
+        "Actions": "Multiattack. Make one Bite attack and two Tentacle attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 12 (2d8 + 3) piercing damage. A creature hit makes a DC 15 Constitution save against disease. On failure it is poisoned until the disease is cured. Repeat the save every 24 hours. On each failure, reduce maximum HP by 5 (1d10). Success cures the disease, ending the poison and restoring the lost maximum. The creature dies if the disease reduces its maximum HP to 0.\nTentacle. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage plus 4 (1d8) piercing damage. A Medium or smaller target is grappled, escape DC 13, and restrained until the grapple ends. Each of the otyugh's two tentacles can hold one target.\nTentacle Slam. Slam the creatures the otyugh is grappling into each other or into a hard surface. Each makes a DC 14 Constitution save. On failure it takes 10 (2d6 + 3) bludgeoning damage and is stunned through the end of the otyugh's next turn. Success halves the damage and prevents the stun.",
+        "Printed source": "Monster Manual (2014), p. 248. Official errata changes the Tentacle Slam save to Constitution."
+      }
+    }
+  },
+  {
+    "name": "Salamander",
+    "statBlock": {
+      "name": "Salamander",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large elemental, neutral evil",
+      "ac": 15,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "description": "A master smith from the Elemental Plane of Fire, hot enough to work metal barehanded and burn enemies that get within reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. Passive Perception 10.",
+        "Languages": "Ignan.",
+        "Damage vulnerabilities": "Cold.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Fire.",
+        "Traits": "Heated Body. A creature takes 7 (2d6) fire damage if it touches the salamander or hits it with a melee attack from within 5 ft.\nHeated Weapons. A metal melee weapon the salamander wields adds 3 (1d6) fire damage on a hit. The Spear damage below already includes this bonus.",
+        "Actions": "Multiattack. Make one Spear attack and one Tail attack.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) for a two-handed melee hit, plus 3 (1d6) fire damage in either case.\nTail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage. The target is grappled, escape DC 14. While held it is restrained, and the salamander can hit it automatically with its tail. The salamander cannot attack another target with its tail while this grapple lasts.",
+        "Printed source": "Monster Manual (2014), pp. 265–266. Uses the official errata wording for resistance to nonmagical attacks."
+      }
+    }
+  }
+]

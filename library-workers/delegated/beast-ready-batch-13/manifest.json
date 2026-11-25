@@ -1,0 +1,3584 @@
+{
+  "baseline": "3300aadc86079db182c6e32b2604efe5a3da76c7",
+  "profiles": 50,
+  "generatedPortraits": 26,
+  "reusedExistingPortraits": 17,
+  "entries": [
+    {
+      "owner": "b13_01",
+      "name": "Awakened White Moose",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "awakened-white-moose",
+      "art_owner": "b13_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123066-awakened-white-moose",
+      "credit": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b13_01/portraits/awakened-white-moose.png",
+        "sha256": "8f1d93629cbda13c8b5c5140aa2d66de1182a502ff30539b0e6cce5cf1aff59b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Awakened White Moose",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020",
+        "isbn": "978-0-7869-6705-6",
+        "printingEvidence": {
+          "printedPage": 2,
+          "facsimileSheet": 3,
+          "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=3",
+          "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/78fb7308c70a360e147891b17158f8e0.webp",
+          "facsimileImageSha256": "c865824be573a174ab9e796fc5349b68441e44828b646f7bf0e215d2bd10e31c"
+        },
+        "section": "Chapter 1, The White Moose",
+        "printedPages": [
+          82,
+          80,
+          84
+        ],
+        "printedPage": 82,
+        "facsimileSheet": 83,
+        "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=83",
+        "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/ce39478656bb92134af2251086ca91a6.webp",
+        "facsimileImageSha256": "c4ed4f5790d9f15b06304ec64066c34be068d7772a77b25f9235d291f95c6dc7",
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=83",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=83",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123066-awakened-white-moose",
+        "publisherAccessState": "The creature link redirects to the book marketplace during anonymous access.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/category/icewind-dale-rime-of-the-frostmaiden",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialReleaseNotes": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "The official errata index lacks an adventure-specific errata entry. The D&D Beyond release notes identify no change to this encounter or stat block.",
+        "sourceWitness": "Verified in the printed adventure facsimile.",
+        "facsimileWitnesses": [
+          {
+            "printedPage": 82,
+            "facsimileSheet": 83,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=83",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/ce39478656bb92134af2251086ca91a6.webp",
+            "facsimileImageSha256": "c4ed4f5790d9f15b06304ec64066c34be068d7772a77b25f9235d291f95c6dc7"
+          },
+          {
+            "printedPage": 80,
+            "facsimileSheet": 81,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=81",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/bf2e32ef1ee06ffc02df4b2b7af0e536.webp",
+            "facsimileImageSha256": "e1bff84f32653f4be14dde303dc6819df0d205a733e4cbd8d5a327bee446382e"
+          },
+          {
+            "printedPage": 84,
+            "facsimileSheet": 85,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=85",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/9853c3b754076a1f03c56e61470bc964.webp",
+            "facsimileImageSha256": "ced87dc37f48861d57d3385346cdc16b500c3aef2bd3b8a351b688c904f8f682"
+          }
+        ],
+        "habitatEvidence": "Encounter setting and species habitat from the adventure.",
+        "appearanceEvidence": "Editorial description of the selected portrait. The evidence notes the physical traits identified by the adventure.",
+        "mechanicsNotes": [
+          "Charge adds bludgeoning damage to the piercing Antlers hit. The save against prone applies only if the target is a creature.",
+          "Druidic is its printed language. Its white coat is printed flavor."
+        ]
+      }
+    },
+    {
+      "owner": "b13_01",
+      "name": "Cave Bear",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "cave-bear",
+      "art_owner": "b13_01",
+      "reuse_source": "beast-ready-batch-06/reused-portraits/cave-bear.png",
+      "reuse_sha256": "f6d3312c593e7399bb0049f2e241485cdda38696d81a6874823e4fe32e65bfef",
+      "runtime_file": "images/adnd2e-monstrous-manual-bears/cave-bear.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/17141-cave-bear",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/cave-bear.png",
+        "sha256": "f6d3312c593e7399bb0049f2e241485cdda38696d81a6874823e4fe32e65bfef",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Cave Bear",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020",
+        "isbn": "978-0-7869-6705-6",
+        "printingEvidence": {
+          "printedPage": 2,
+          "facsimileSheet": 3,
+          "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=3",
+          "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/78fb7308c70a360e147891b17158f8e0.webp",
+          "facsimileImageSha256": "c865824be573a174ab9e796fc5349b68441e44828b646f7bf0e215d2bd10e31c"
+        },
+        "section": "Chapter 1, Good Mead, area V7",
+        "printedPages": [
+          76,
+          75
+        ],
+        "printedPage": 76,
+        "facsimileSheet": 77,
+        "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=77",
+        "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/4cc32daf9f54888a0c42a08e9be96cc1.webp",
+        "facsimileImageSha256": "3978ab8dd3e13b65a952c9a0e8023c4379fd0500d8f0c22b79d36b53b75f992b",
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=77",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=77",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/17141-cave-bear",
+        "publisherAccessState": "The creature link redirects to the book marketplace during anonymous access.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/category/monster-manual",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialReleaseNotes": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "The official errata index lacks an adventure-specific errata entry. The D&D Beyond release notes identify no change to this encounter or stat block.",
+        "sourceWitness": "Verified in the printed adventure facsimile.",
+        "facsimileWitnesses": [
+          {
+            "printedPage": 76,
+            "facsimileSheet": 77,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=77",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/4cc32daf9f54888a0c42a08e9be96cc1.webp",
+            "facsimileImageSha256": "3978ab8dd3e13b65a952c9a0e8023c4379fd0500d8f0c22b79d36b53b75f992b"
+          },
+          {
+            "printedPage": 75,
+            "facsimileSheet": 76,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=76",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/59609c16f3159b6cf97db34451827f0a.webp",
+            "facsimileImageSha256": "19b94ec9ec06af33be6312e81e755fc799d0675c5e696d2278bc85012b03d932"
+          }
+        ],
+        "habitatEvidence": "Encounter setting and species habitat from the adventure.",
+        "appearanceEvidence": "Editorial description of the selected portrait. The evidence notes the physical traits identified by the adventure.",
+        "mechanicsNotes": [
+          "Area V7 adds brown fur and 60-ft. darkvision to the 2014 Polar Bear stat block.",
+          "The Monster Manual p. 334 Cave Bear sidebar also uses Polar Bear with 60-ft. darkvision. Yogobor is the individual in this adventure."
+        ],
+        "baseRules": {
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "name": "Polar Bear",
+          "printing": "First printing, September 2014",
+          "isbn": "978-0-7869-6561-8",
+          "printedPage": 334,
+          "pdfPage": 335,
+          "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+          "errataEvidence": "The official 2014 Monster Manual errata gives no correction for these base statistics."
+        },
+        "variant": "Adventure encounter variant of Polar Bear. The MM cave bear sidebar confirms the same darkvision rule.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-06/reused-portraits/cave-bear.png",
+          "sha256": "f6d3312c593e7399bb0049f2e241485cdda38696d81a6874823e4fe32e65bfef"
+        }
+      }
+    },
+    {
+      "owner": "b13_01",
+      "name": "Chimeric Baboon",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "chimeric-baboon",
+      "art_owner": "b13_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123072-chimeric-baboon",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_01/portraits/chimeric-baboon.png",
+        "sha256": "7d5b281a535eac98e634aed4c61e517f2b3f120cdfcce25af97ef9755d9497d3",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Chimeric Baboon",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020",
+        "isbn": "978-0-7869-6705-6",
+        "printingEvidence": {
+          "printedPage": 2,
+          "facsimileSheet": 3,
+          "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=3",
+          "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/78fb7308c70a360e147891b17158f8e0.webp",
+          "facsimileImageSha256": "c865824be573a174ab9e796fc5349b68441e44828b646f7bf0e215d2bd10e31c"
+        },
+        "section": "Chapter 7, area Y16 Menagerie, Chimeric Creations table",
+        "printedPages": [
+          246
+        ],
+        "printedPage": 246,
+        "facsimileSheet": 247,
+        "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+        "facsimileImageSha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170",
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123072-chimeric-baboon",
+        "publisherAccessState": "The creature link redirects to the book marketplace during anonymous access.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/category/icewind-dale-rime-of-the-frostmaiden",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialReleaseNotes": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "The official errata index lacks an adventure-specific errata entry. The D&D Beyond release notes identify no change to this encounter or stat block.",
+        "sourceWitness": "Verified in the printed adventure facsimile.",
+        "facsimileWitnesses": [
+          {
+            "printedPage": 246,
+            "facsimileSheet": 247,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+            "facsimileImageSha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170"
+          }
+        ],
+        "habitatEvidence": "Encounter setting and species habitat from the adventure.",
+        "appearanceEvidence": "Editorial description of the selected portrait. The evidence notes the physical traits identified by the adventure.",
+        "mechanicsNotes": [
+          "The mutation adds poison damage to the same Bite hit. The table specifies no saving throw or poisoned condition.",
+          "The book identifies a venomous bite. The portrait suggests this through the visible canines."
+        ],
+        "baseRules": {
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "name": "Baboon",
+          "printing": "First printing, September 2014",
+          "isbn": "978-0-7869-6561-8",
+          "printedPage": 318,
+          "pdfPage": 319,
+          "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+          "errataEvidence": "The official 2014 Monster Manual errata gives no correction for these base statistics."
+        },
+        "variant": "Chimeric Creations, d6 result 3."
+      }
+    },
+    {
+      "owner": "b13_01",
+      "name": "Chimeric Cat",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "chimeric-cat",
+      "art_owner": "b13_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123073-chimeric-cat",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_01/portraits/chimeric-cat.png",
+        "sha256": "1f74d47bd239c26d22e7f7f6e138fa84edcc6a39e11496406d6735929d8b3b8d",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Chimeric Cat",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020",
+        "isbn": "978-0-7869-6705-6",
+        "printingEvidence": {
+          "printedPage": 2,
+          "facsimileSheet": 3,
+          "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=3",
+          "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/78fb7308c70a360e147891b17158f8e0.webp",
+          "facsimileImageSha256": "c865824be573a174ab9e796fc5349b68441e44828b646f7bf0e215d2bd10e31c"
+        },
+        "section": "Chapter 7, area Y16 Menagerie, Chimeric Creations table",
+        "printedPages": [
+          246
+        ],
+        "printedPage": 246,
+        "facsimileSheet": 247,
+        "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+        "facsimileImageSha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170",
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123073-chimeric-cat",
+        "publisherAccessState": "The creature link redirects to the book marketplace during anonymous access.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/category/icewind-dale-rime-of-the-frostmaiden",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialReleaseNotes": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "The official errata index lacks an adventure-specific errata entry. The D&D Beyond release notes identify no change to this encounter or stat block.",
+        "sourceWitness": "Verified in the printed adventure facsimile.",
+        "facsimileWitnesses": [
+          {
+            "printedPage": 246,
+            "facsimileSheet": 247,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+            "facsimileImageSha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170"
+          }
+        ],
+        "habitatEvidence": "Encounter setting and species habitat from the adventure.",
+        "appearanceEvidence": "Editorial description of the selected portrait. The evidence notes the physical traits identified by the adventure.",
+        "mechanicsNotes": [
+          "T",
+          "h",
+          "e",
+          " ",
+          "a",
+          "n",
+          "t",
+          "e",
+          "n",
+          "n",
+          "a",
+          "e",
+          " ",
+          "g",
+          "r",
+          "a",
+          "n",
+          "t",
+          " ",
+          "b",
+          "o",
+          "t",
+          "h",
+          " ",
+          "b",
+          "l",
+          "i",
+          "n",
+          "d",
+          "s",
+          "i",
+          "g",
+          "h",
+          "t",
+          " ",
+          "a",
+          "n",
+          "d",
+          " ",
+          "t",
+          "r",
+          "e",
+          "m",
+          "o",
+          "r",
+          "s",
+          "e",
+          "n",
+          "s",
+          "e",
+          " ",
+          "o",
+          "u",
+          "t",
+          " ",
+          "t",
+          "o",
+          " ",
+          "6",
+          "0",
+          " ",
+          "f",
+          "t",
+          ".",
+          " ",
+          "T",
+          "h",
+          "e",
+          " ",
+          "b",
+          "a",
+          "s",
+          "e",
+          " ",
+          "b",
+          "l",
+          "o",
+          "c",
+          "k",
+          " ",
+          "s",
+          "t",
+          "i",
+          "l",
+          "l",
+          " ",
+          "s",
+          "u",
+          "p",
+          "p",
+          "l",
+          "i",
+          "e",
+          "s",
+          " ",
+          "K",
+          "e",
+          "e",
+          "n",
+          " ",
+          "S",
+          "m",
+          "e",
+          "l",
+          "l",
+          " ",
+          "a",
+          "n",
+          "d",
+          " ",
+          "C",
+          "l",
+          "a",
+          "w",
+          "s",
+          "."
+        ],
+        "baseRules": {
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "name": "Cat",
+          "printing": "First printing, September 2014",
+          "isbn": "978-0-7869-6561-8",
+          "printedPage": 320,
+          "pdfPage": 321,
+          "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+          "errataEvidence": "The official 2014 Monster Manual errata gives no correction for these base statistics."
+        },
+        "variant": "Chimeric Creations, d6 result 4."
+      }
+    },
+    {
+      "owner": "b13_01",
+      "name": "Chimeric Fox",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "chimeric-fox",
+      "art_owner": "b13_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123074-chimeric-fox",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_01/portraits/chimeric-fox.png",
+        "sha256": "2730def9de283410cd05e0859fad60c8bfacca172595d056a48c37da23969eab",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Chimeric Fox",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020",
+        "isbn": "978-0-7869-6705-6",
+        "printingEvidence": {
+          "printedPage": 2,
+          "facsimileSheet": 3,
+          "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=3",
+          "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/78fb7308c70a360e147891b17158f8e0.webp",
+          "facsimileImageSha256": "c865824be573a174ab9e796fc5349b68441e44828b646f7bf0e215d2bd10e31c"
+        },
+        "section": "Chapter 7, area Y16 Menagerie, Chimeric Creations table",
+        "printedPages": [
+          246,
+          288
+        ],
+        "printedPage": 246,
+        "facsimileSheet": 247,
+        "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+        "facsimileImageSha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170",
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123074-chimeric-fox",
+        "publisherAccessState": "The creature link redirects to the book marketplace during anonymous access.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/category/icewind-dale-rime-of-the-frostmaiden",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialReleaseNotes": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "The official errata index lacks an adventure-specific errata entry. The D&D Beyond release notes identify no change to this encounter or stat block.",
+        "sourceWitness": "Verified in the printed adventure facsimile.",
+        "facsimileWitnesses": [
+          {
+            "printedPage": 246,
+            "facsimileSheet": 247,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+            "facsimileImageSha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170"
+          },
+          {
+            "printedPage": 288,
+            "facsimileSheet": 289,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=289",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/ba3519f6b09fbb323c34f8ccd3650e83.webp",
+            "facsimileImageSha256": "113c245a8f611d75d3360063e3c4f8d5d814dcf19c4ed9ab1f19db576d1d0c6a"
+          }
+        ],
+        "habitatEvidence": "Encounter setting and species habitat from the adventure.",
+        "appearanceEvidence": "Editorial description of the selected portrait. The evidence notes the physical traits identified by the adventure.",
+        "mechanicsNotes": [
+          "The Chimeric Creations table adds Dexterity (Stealth) advantage. The base block retains its +5 Stealth modifier.",
+          "The white arctic fox of Appendix C supplies the base anatomy. Color-shift toward tan depicts the mutation on parchment."
+        ],
+        "baseRules": {
+          "publication": "Icewind Dale: Rime of the Frostmaiden",
+          "edition": "2014 fifth edition",
+          "name": "Fox",
+          "printedPage": 288,
+          "facsimileSheet": 289,
+          "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=289",
+          "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/ba3519f6b09fbb323c34f8ccd3650e83.webp",
+          "facsimileImageSha256": "113c245a8f611d75d3360063e3c4f8d5d814dcf19c4ed9ab1f19db576d1d0c6a"
+        },
+        "variant": "Chimeric Creations, d6 result 6."
+      }
+    },
+    {
+      "owner": "b13_01",
+      "name": "Chimeric Hare",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "chimeric-hare",
+      "art_owner": "b13_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123075-chimeric-hare",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_01/portraits/chimeric-hare.png",
+        "sha256": "a146ff14899ba6ddb738d04507b296728f1d0cb87ffdec6470a1451fad9c11be",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Chimeric Hare",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020",
+        "isbn": "978-0-7869-6705-6",
+        "printingEvidence": {
+          "printedPage": 2,
+          "facsimileSheet": 3,
+          "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=3",
+          "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/78fb7308c70a360e147891b17158f8e0.webp",
+          "facsimileImageSha256": "c865824be573a174ab9e796fc5349b68441e44828b646f7bf0e215d2bd10e31c"
+        },
+        "section": "Chapter 7, area Y16 Menagerie, Chimeric Creations table",
+        "printedPages": [
+          246,
+          294
+        ],
+        "printedPage": 246,
+        "facsimileSheet": 247,
+        "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+        "facsimileImageSha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170",
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123075-chimeric-hare",
+        "publisherAccessState": "The creature link redirects to the book marketplace during anonymous access.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/category/icewind-dale-rime-of-the-frostmaiden",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialReleaseNotes": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "The official errata index lacks an adventure-specific errata entry. The D&D Beyond release notes identify no change to this encounter or stat block.",
+        "sourceWitness": "Verified in the printed adventure facsimile.",
+        "facsimileWitnesses": [
+          {
+            "printedPage": 246,
+            "facsimileSheet": 247,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+            "facsimileImageSha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170"
+          },
+          {
+            "printedPage": 294,
+            "facsimileSheet": 295,
+            "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=295",
+            "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/3d26cd4101f63a2e616b29c0344e68ff.webp",
+            "facsimileImageSha256": "c41e49895f7b112cd021cb89fb767d11b37649bc3ddffba61ba92bfae9d24ff2"
+          }
+        ],
+        "habitatEvidence": "Encounter setting and species habitat from the adventure.",
+        "appearanceEvidence": "Editorial description of the selected portrait. The evidence notes the physical traits identified by the adventure.",
+        "mechanicsNotes": [
+          "The Chimeric Creations table adds feathered wings and a 30-ft. fly speed. The standard walk and burrow speeds remain.",
+          "The base Hare block explicitly prints 0 XP at CR 0. It lists Escape and no attack."
+        ],
+        "baseRules": {
+          "publication": "Icewind Dale: Rime of the Frostmaiden",
+          "edition": "2014 fifth edition",
+          "name": "Hare",
+          "printedPage": 294,
+          "facsimileSheet": 295,
+          "facsimilePageUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=295",
+          "facsimileImageUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/3d26cd4101f63a2e616b29c0344e68ff.webp",
+          "facsimileImageSha256": "c41e49895f7b112cd021cb89fb767d11b37649bc3ddffba61ba92bfae9d24ff2"
+        },
+        "variant": "Chimeric Creations, d6 result 2."
+      }
+    },
+    {
+      "owner": "b13_02",
+      "name": "Chimeric Rat",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "chimeric-rat",
+      "art_owner": "b13_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123076-chimeric-rat",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_02/portraits/chimeric-rat.png",
+        "sha256": "efbd844c3e31b69b04d2a913f154417c88c75b484917751a15797da298320374",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Chimeric Rat",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+        "isbn": "978-0-7869-6705-6",
+        "section": "Chapter 7, Y16. Menagerie, Chimeric Creations",
+        "printedPages": [
+          246
+        ],
+        "viewerPages": [
+          247
+        ],
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "pageWitnesses": [
+          {
+            "printedPage": 246,
+            "viewerPage": 247,
+            "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+            "sha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123076-chimeric-rat",
+        "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+        "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+        "habitatEvidence": "Printed origin in Ythryn’s Menagerie. The table gives no broader natural habitat.",
+        "artGroup": "chimeric-rat",
+        "portraitSha256": "efbd844c3e31b69b04d2a913f154417c88c75b484917751a15797da298320374",
+        "mechanicsNotes": [
+          "The table gives the amphibious mutation without a separate swim speed. The Rat base block supplies Bite +0 and Keen Smell."
+        ],
+        "relatedRules": [
+          {
+            "section": "Monster Manual Appendix A, Miscellaneous Creatures",
+            "printedPages": [
+              335
+            ],
+            "viewerPages": [
+              336
+            ],
+            "sourceUrl": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+            "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+            "printing": "First printing, September 2014.",
+            "errataUrl": "",
+            "errataEvidence": "The official Monster Manual errata has no change for this base creature."
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b13_02",
+      "name": "Chimeric Weasel",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "chimeric-weasel",
+      "art_owner": "b13_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123077-chimeric-weasel",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_02/portraits/chimeric-weasel.png",
+        "sha256": "d8407f2ad8def0bc7b685753fec2d0416b8a78295455011dd997e67cc7a821b1",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Chimeric Weasel",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+        "isbn": "978-0-7869-6705-6",
+        "section": "Chapter 7, Y16. Menagerie, Chimeric Creations",
+        "printedPages": [
+          246
+        ],
+        "viewerPages": [
+          247
+        ],
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247",
+        "pageWitnesses": [
+          {
+            "printedPage": 246,
+            "viewerPage": 247,
+            "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/b707adf3ec2b664a1211647239e0b3cc.webp",
+            "sha256": "ef1761f9377a2dca1f8240694c66a75e64069f6974b9c3c7b867bcadada98170"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123077-chimeric-weasel",
+        "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+        "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+        "habitatEvidence": "Printed origin in Ythryn’s Menagerie. The table gives no broader natural habitat.",
+        "artGroup": "chimeric-weasel",
+        "portraitSha256": "d8407f2ad8def0bc7b685753fec2d0416b8a78295455011dd997e67cc7a821b1",
+        "mechanicsNotes": [
+          "The table gives the eye light radii. The first-print MM Weasel already lists Bite +5 and 1 piercing damage."
+        ],
+        "relatedRules": [
+          {
+            "section": "Monster Manual Appendix A, Miscellaneous Creatures",
+            "printedPages": [
+              340
+            ],
+            "viewerPages": [
+              341
+            ],
+            "sourceUrl": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+            "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+            "printing": "First printing, September 2014.",
+            "errataUrl": "",
+            "errataEvidence": "The official Monster Manual errata has no change for this base creature."
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b13_02",
+      "name": "Fox",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "fox",
+      "art_owner": "b13_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123082-fox",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_02/portraits/fox.png",
+        "sha256": "33fb5fe5a708eaffa1bd437b14600ee13745188fe7d6fc88a591694c9ea1774e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Fox",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+        "isbn": "978-0-7869-6705-6",
+        "section": "Appendix C, Creatures",
+        "printedPages": [
+          288
+        ],
+        "viewerPages": [
+          289
+        ],
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=289",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=289",
+        "pageWitnesses": [
+          {
+            "printedPage": 288,
+            "viewerPage": 289,
+            "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/ba3519f6b09fbb323c34f8ccd3650e83.webp",
+            "sha256": "113c245a8f611d75d3360063e3c4f8d5d814dcf19c4ed9ab1f19db576d1d0c6a"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123082-fox",
+        "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+        "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+        "habitatEvidence": "The printed lore describes local burrows, nearby forest and the edge of Ten-Towns.",
+        "artGroup": "fox",
+        "portraitSha256": "33fb5fe5a708eaffa1bd437b14600ee13745188fe7d6fc88a591694c9ea1774e",
+        "mechanicsNotes": [
+          "The printed block awards 10 XP. This is the unmodified fox in Appendix C."
+        ]
+      }
+    },
+    {
+      "owner": "b13_02",
+      "name": "Giant Walrus",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "giant-walrus",
+      "art_owner": "b13_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123086-giant-walrus",
+      "credit": "",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "parts/b13_02/portraits/giant-walrus.png",
+        "sha256": "00429d9def80d7ac8a646420879704e0fa0e580803f7d1a9de5f5438bd96a132",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Walrus",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+        "isbn": "978-0-7869-6705-6",
+        "section": "Appendix C, Creatures",
+        "printedPages": [
+          312
+        ],
+        "viewerPages": [
+          313
+        ],
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=313",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=313",
+        "pageWitnesses": [
+          {
+            "printedPage": 312,
+            "viewerPage": 313,
+            "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/da98e5424d9af4cd1a1261218bb33cf4.webp",
+            "sha256": "e0f171a4c39a66840e937e932bae93191d1b60bb867050647d647290e70181a2"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123086-giant-walrus",
+        "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+        "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+        "habitatEvidence": "The shared Walrus description places these creatures around the sea ice. Giant Walrus is the elephant-sized form.",
+        "artGroup": "giant-walrus",
+        "portraitSha256": "00429d9def80d7ac8a646420879704e0fa0e580803f7d1a9de5f5438bd96a132",
+        "mechanicsNotes": [
+          "Body Flop is a regular melee weapon attack against one target, with only its listed damage. Ukuma’s adventure-specific awakening is a separate named scope."
+        ]
+      }
+    },
+    {
+      "owner": "b13_02",
+      "name": "Hare",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "hare",
+      "art_owner": "b13_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123094-hare",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_02/portraits/hare.png",
+        "sha256": "ea54892cc8c248509f26caf05605bfad234eb41f98a1719c2e381048c8d3735b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Hare",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+        "isbn": "978-0-7869-6705-6",
+        "section": "Appendix C, Creatures",
+        "printedPages": [
+          294
+        ],
+        "viewerPages": [
+          295
+        ],
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=295",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=295",
+        "pageWitnesses": [
+          {
+            "printedPage": 294,
+            "viewerPage": 295,
+            "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/3d26cd4101f63a2e616b29c0344e68ff.webp",
+            "sha256": "c41e49895f7b112cd021cb89fb767d11b37649bc3ddffba61ba92bfae9d24ff2"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123094-hare",
+        "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+        "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+        "habitatEvidence": "The printed lore places snowshoe hares in burrows throughout Icewind Dale.",
+        "artGroup": "hare",
+        "portraitSha256": "ea54892cc8c248509f26caf05605bfad234eb41f98a1719c2e381048c8d3735b",
+        "mechanicsNotes": [
+          "The first printing explicitly gives 0 XP at CR 0. The entry supplies no attack."
+        ]
+      }
+    },
+    {
+      "owner": "b13_02",
+      "name": "Kingsport",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "kingsport",
+      "art_owner": "b13_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123105-kingsport",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_02/portraits/kingsport.png",
+        "sha256": "36aa5c00f1707f3f3b841c5e964c81a1de2d415128ebbef50eb25f58ce446c25",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Kingsport",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternative hardcover ISBN 978-0-7869-6705-6.",
+        "isbn": "978-0-7869-6705-6",
+        "section": "Chapter 7, Y9. Library",
+        "printedPages": [
+          241,
+          242,
+          243
+        ],
+        "viewerPages": [
+          242,
+          243,
+          244
+        ],
+        "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=244",
+        "url": "https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=244",
+        "pageWitnesses": [
+          {
+            "printedPage": 241,
+            "viewerPage": 242,
+            "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/2d2c3242f555f4b9101f3a82fb33b390.webp",
+            "sha256": "0133d6ed64227f400ef28a6b85d894d459faf5304520a7fe325473e655e55f96"
+          },
+          {
+            "printedPage": 242,
+            "viewerPage": 243,
+            "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/1233bbcb484f95a0d2112a6a9295607d.webp",
+            "sha256": "fc01866057b4062eb06582914b50adfaa41570556a69a7755d04a9313f067d7b"
+          },
+          {
+            "printedPage": 243,
+            "viewerPage": 244,
+            "sourceUrl": "https://online.anyflip.com/wmdpe/anyb/files/large/d43610cff43824c239de67cab558dcb4.webp",
+            "sha256": "2f4638cc0ae32a83acbb1a6fced4983b29cf2d4c5b590a64f3c3f18de7c6a9e8"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/1123105-kingsport",
+        "sourceAccess": "Verified against the first-print facsimile. The D&D Beyond creature link serves the book’s purchase page to a public visitor.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "The Wizards Sage Advice & Errata adventure index has no listed Rime of the Frostmaiden errata.",
+        "appearanceEvidence": "Core anatomy from the printed rules or creature description. Pose and illustration details are editorial.",
+        "habitatEvidence": "The adventure places Kingsport in Ythryn’s library.",
+        "artGroup": "kingsport",
+        "portraitSha256": "36aa5c00f1707f3f3b841c5e964c81a1de2d415128ebbef50eb25f58ce446c25",
+        "mechanicsNotes": [
+          "The standalone stat block is on p. 243. The adventure on pp. 241–242 identifies Kingsport as an awakened, blind albino penguin and describes the leather harness."
+        ]
+      }
+    },
+    {
+      "owner": "b13_03",
+      "name": "Knucklehead Trout",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "knucklehead-trout",
+      "art_owner": "b13_03",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123107-knucklehead-trout",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b13_03/portraits/knucklehead-trout.png",
+        "sha256": "a7f4af50cac8153b121a1bdd23a77c6e119f76447d3268f0c1b20470e736e146",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Knucklehead Trout",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternate hardcover colophon",
+        "isbn": "978-0-7869-6705-6",
+        "printedPages": [
+          295
+        ],
+        "readerSheets": [
+          296
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/1123107-knucklehead-trout",
+        "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+        "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=296",
+        "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+        "facsimilePages": [
+          {
+            "printedPage": 11,
+            "readerSheet": 12,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=12"
+          },
+          {
+            "printedPage": 295,
+            "readerSheet": 296,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=296"
+          }
+        ],
+        "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+        "appearanceEvidence": "Original Big Linda-style portrait based on p. 295’s painted morphology.",
+        "habitatEvidence": "p. 11 identifies the freshwater lakes of Icewind Dale.",
+        "printingNotes": [
+          "The fishing advantage is limited to the p. 11 contest. The Appendix C stat block gives no general Strength-check advantage."
+        ]
+      }
+    },
+    {
+      "owner": "b13_03",
+      "name": "Mountain Goat",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "mountain-goat",
+      "art_owner": "b13_03",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123114-mountain-goat",
+      "credit": "",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b13_03/portraits/mountain-goat.png",
+        "sha256": "03616702362837fc41e1b82c393f5fc3b57d4915d7a9c4d2877e01a0e8430d7f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Mountain Goat",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternate hardcover colophon",
+        "isbn": "978-0-7869-6705-6",
+        "printedPages": [
+          304
+        ],
+        "readerSheets": [
+          305
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/1123114-mountain-goat",
+        "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+        "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=305",
+        "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+        "facsimilePages": [
+          {
+            "printedPage": 304,
+            "readerSheet": 305,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=305"
+          }
+        ],
+        "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+        "appearanceEvidence": "Original Big Linda-style portrait based on the pale coat and narrow dark horns shown on p. 304.",
+        "habitatEvidence": "p. 304 describes the Spine of the World and slopes of Kelvin’s Cairn.",
+        "printingNotes": [
+          "The printed speed line includes a climb speed. The prose describes insulation from extreme cold, with no listed resistance to cold damage."
+        ]
+      }
+    },
+    {
+      "owner": "b13_03",
+      "name": "Reindeer",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "reindeer",
+      "art_owner": "b13_03",
+      "reuse_source": "northlands-worldbook-beasts/portraits/reindeer-draft.png",
+      "reuse_sha256": "e20ecf6fb5a414890320eecaeed403ac17067559ccd8cfd86f815fe8357e0c96",
+      "runtime_file": "images/northlands-worldbook-beast-drafts/reindeer.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/reindeer.png",
+        "sha256": "e20ecf6fb5a414890320eecaeed403ac17067559ccd8cfd86f815fe8357e0c96",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Reindeer",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternate hardcover colophon",
+        "isbn": "978-0-7869-6705-6",
+        "printedPages": [
+          11,
+          107,
+          268,
+          307
+        ],
+        "readerSheets": [
+          12,
+          108,
+          269,
+          308
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/idrotf/appendix-c-creatures",
+        "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+        "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=308",
+        "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+        "facsimilePages": [
+          {
+            "printedPage": 11,
+            "readerSheet": 12,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=12"
+          },
+          {
+            "printedPage": 107,
+            "readerSheet": 108,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=108"
+          },
+          {
+            "printedPage": 268,
+            "readerSheet": 269,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=269"
+          },
+          {
+            "printedPage": 307,
+            "readerSheet": 308,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=308"
+          }
+        ],
+        "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+        "appearanceEvidence": "Editorial description of the selected portrait at northlands-worldbook-beasts/portraits/reindeer-draft.png.",
+        "habitatEvidence": "p. 307 describes Icewind Dale herds followed by Reghed nomads. The tundra tag reflects their local range.",
+        "printingNotes": [
+          "The adventure directs use of the 2014 Monster Manual Elk on pp. 268 and 307. The core block is on p. 322, including Charge and Actions at the head of the second column. Rime p. 307 adds acclimation and the optional light trait. The awakened reindeer on p. 107 is an encounter-specific case."
+        ],
+        "baseRules": {
+          "publication": "Monster Manual (2014)",
+          "entry": "Elk",
+          "printedPage": 322,
+          "officialParallelUrl": "https://www.dndbeyond.com/monsters/16857-elk",
+          "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+          "scope": "Printed Monster Manual Elk ability scores, traits and actions, corroborated by the official Basic Rules listing. The published Monster Manual errata has no Elk entry."
+        }
+      }
+    },
+    {
+      "owner": "b13_03",
+      "name": "Seal",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "seal",
+      "art_owner": "b13_03",
+      "reuse_source": "beast-ready-batch-12/parts/b12_05/portraits/seal.png",
+      "reuse_sha256": "011795b07c390048abd0ced9284abf297b77d250db27639ecbade13a4cde3f1d",
+      "runtime_file": "images/beast-ready-batch-12/seal.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123121-seal",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/seal.png",
+        "sha256": "011795b07c390048abd0ced9284abf297b77d250db27639ecbade13a4cde3f1d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Seal",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternate hardcover colophon",
+        "isbn": "978-0-7869-6705-6",
+        "printedPages": [
+          308
+        ],
+        "readerSheets": [
+          309
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/1123121-seal",
+        "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+        "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=309",
+        "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+        "facsimilePages": [
+          {
+            "printedPage": 308,
+            "readerSheet": 309,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=309"
+          }
+        ],
+        "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+        "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-12/parts/b12_05/portraits/seal.png.",
+        "habitatEvidence": "p. 308 names the Sea of Moving Ice, ice floes, and rocky shorelines.",
+        "printingNotes": [
+          "Bite deals a fixed 1 piercing damage. Cold acclimation is stated in the surrounding prose."
+        ]
+      }
+    },
+    {
+      "owner": "b13_03",
+      "name": "Sperm Whale",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "8",
+      "art_group": "sperm-whale",
+      "art_owner": "b13_03",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123126-sperm-whale",
+      "credit": "",
+      "printed_cr": "8",
+      "portrait": {
+        "file": "parts/b13_03/portraits/sperm-whale.png",
+        "sha256": "fe12e531a0f009f4fa18851b8f43dc9e1a58454abf76a6dedd3b39cde5316f7d",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Sperm Whale",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternate hardcover colophon",
+        "isbn": "978-0-7869-6705-6",
+        "printedPages": [
+          309
+        ],
+        "readerSheets": [
+          310
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/1123126-sperm-whale",
+        "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+        "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=310",
+        "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+        "facsimilePages": [
+          {
+            "printedPage": 309,
+            "readerSheet": 310,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=310"
+          }
+        ],
+        "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+        "appearanceEvidence": "Original Big Linda-style portrait following the book’s description of a large toothed whale and recognizable sperm whale anatomy.",
+        "habitatEvidence": "p. 309 describes an aquatic mammal. Arctic tags its appearance in Icewind Dale, with no restriction on the species elsewhere.",
+        "printingNotes": [
+          "The native block runs across both columns of p. 309. Its swallow effect grants total cover, applies acid at the start of the whale’s turn, and gives the whale the specified end-of-turn regurgitation save."
+        ]
+      }
+    },
+    {
+      "owner": "b13_03",
+      "name": "Walrus",
+      "kind": "beast",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-walrus",
+      "art_owner": "b13_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/1123134-walrus",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_02/portraits/giant-walrus.png",
+        "sha256": "00429d9def80d7ac8a646420879704e0fa0e580803f7d1a9de5f5438bd96a132",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Walrus",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, August 2020, alternate hardcover colophon",
+        "isbn": "978-0-7869-6705-6",
+        "printedPages": [
+          312
+        ],
+        "readerSheets": [
+          313
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/1123134-walrus",
+        "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+        "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+        "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=313",
+        "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+        "facsimilePages": [
+          {
+            "printedPage": 312,
+            "readerSheet": 313,
+            "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=313"
+          }
+        ],
+        "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+        "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+        "appearanceEvidence": "Shares the b13_02 Giant Walrus portrait for the common species anatomy. The standard Walrus uses its own size and rules.",
+        "habitatEvidence": "p. 312 describes a marine animal favoring arctic climates. Coastal and Underwater are editorial tags for that habitat.",
+        "printingNotes": [
+          "p. 312 prints the standard Walrus and Giant Walrus as separate blocks. The standard Walrus only shares the portrait."
+        ]
+      }
+    },
+    {
+      "owner": "b13_04",
+      "name": "Aurochs",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "aurochs",
+      "art_owner": "b13_04",
+      "reuse_source": "playable-species-50-batch-9/parts/nine_mr2_c/portraits/aurochs.png",
+      "reuse_sha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61",
+      "runtime_file": "images/playable-species-50-batch-9/aurochs.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560728-aurochs",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/aurochs.png",
+        "sha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Aurochs",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, October 2021. The title released in 2022.",
+        "isbn": "978-0-7869-6743-8",
+        "chapter": "Chapter 2, Bestiary",
+        "section": "Cattle, Aurochs",
+        "printedPages": [
+          71
+        ],
+        "pdfPages": [
+          71
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560728-aurochs",
+        "url": "https://www.dndbeyond.com/monsters/2560728-aurochs",
+        "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/motm",
+        "publisherBlockAnchor": "https://www.dndbeyond.com/sources/motm/bestiary#Aurochs",
+        "sourceAccess": "Official index confirms the entry. The publisher creature link redirects to the marketplace without entitlement. Rules verified against the printed folio in the local .",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "Wizards’ Sage Advice & Errata index lists no dedicated Monsters of the Multiverse correction sheet. No official correction to this entry was located.",
+        "operationalEvidence": "Left column of p. 71 gives the Gore attack and its immediate straight-run condition. The extra damage is applied to the target. A creature can also fall prone on a failed Strength save.",
+        "appearanceEvidence": "Editorial description based on anatomy in the printed entry or its illustration and checked against the selected portrait.",
+        "habitatEvidence": "Terrain tags from the Appendix Monster Lists, printed p. 287.",
+        "artGroup": "aurochs",
+        "reuseSha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61"
+      }
+    },
+    {
+      "owner": "b13_04",
+      "name": "Deep Rothé",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "deep-rothe",
+      "art_owner": "b13_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560768-deep-rothe",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_04/portraits/deep-rothe.png",
+        "sha256": "c295a1c3bb90af78ac2b296b88b941ac84f4fca931142bf284432bc39bd199bb",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Deep Rothé",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, October 2021. The title released in 2022.",
+        "isbn": "978-0-7869-6743-8",
+        "chapter": "Chapter 2, Bestiary",
+        "section": "Cattle, Deep Rothé",
+        "printedPages": [
+          71
+        ],
+        "pdfPages": [
+          71
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560768-deep-rothe",
+        "url": "https://www.dndbeyond.com/monsters/2560768-deep-rothe",
+        "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/motm",
+        "publisherBlockAnchor": "https://www.dndbeyond.com/sources/motm/bestiary#DeepRothe",
+        "sourceAccess": "Official index confirms the entry. The publisher creature link redirects to the marketplace without entitlement. Rules verified against the printed folio in the local .",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "Wizards’ Sage Advice & Errata index lists no dedicated Monsters of the Multiverse correction sheet. No official correction to this entry was located.",
+        "operationalEvidence": "Right column of p. 71 gives darkvision, Beast of Burden, Gore with conditional extra damage, and component-free Wisdom casting of dancing lights.",
+        "supportingSpellUrl": "https://www.dndbeyond.com/spells/2057-dancing-lights",
+        "appearanceEvidence": "Editorial description based on anatomy in the printed entry or its illustration and checked against the selected portrait.",
+        "habitatEvidence": "Terrain tags from the Appendix Monster Lists, printed p. 288.",
+        "artGroup": "deep-rothe"
+      }
+    },
+    {
+      "owner": "b13_04",
+      "name": "Dolphin",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "dolphin",
+      "art_owner": "b13_04",
+      "reuse_source": "playable-species-50-batch-9/parts/nine_mr2_c/portraits/dolphin.png",
+      "reuse_sha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86",
+      "runtime_file": "images/playable-species-50-batch-9/dolphin.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560780-dolphin",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/dolphin.png",
+        "sha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Dolphin",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, October 2021. The title released in 2022.",
+        "isbn": "978-0-7869-6743-8",
+        "chapter": "Chapter 2, Bestiary",
+        "section": "Dolphins, Dolphin",
+        "printedPages": [
+          97
+        ],
+        "pdfPages": [
+          97
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560780-dolphin",
+        "url": "https://www.dndbeyond.com/monsters/2560780-dolphin",
+        "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/motm",
+        "publisherBlockAnchor": "https://www.dndbeyond.com/sources/motm/bestiary#Dolphin",
+        "sourceAccess": "Official index confirms the entry. The publisher creature link redirects to the marketplace without entitlement. Rules verified against the printed folio in the local .",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "Wizards’ Sage Advice & Errata index lists no dedicated Monsters of the Multiverse correction sheet. No official correction to this entry was located.",
+        "operationalEvidence": "Top-left block of p. 97 is the ordinary Dolphin. Blindsight, Hold Breath and the 30-ft. Slam condition come from this block.",
+        "appearanceEvidence": "Editorial description based on anatomy in the printed entry or its illustration and checked against the selected portrait.",
+        "habitatEvidence": "Terrain tags from the Appendix Monster Lists, printed pp. 286 and 288.",
+        "artGroup": "dolphin",
+        "reuseSha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86"
+      }
+    },
+    {
+      "owner": "b13_04",
+      "name": "Ox",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "ox",
+      "art_owner": "b13_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560899-ox",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_04/portraits/ox.png",
+        "sha256": "c3ff960383a3750a5b7cbe757b377b49600121849de47efb9ecce5c190f8f456",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ox",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, October 2021. The title released in 2022.",
+        "isbn": "978-0-7869-6743-8",
+        "chapter": "Chapter 2, Bestiary",
+        "section": "Cattle, Ox",
+        "printedPages": [
+          72
+        ],
+        "pdfPages": [
+          72
+        ],
+        "localPrintWitness": "",
+        "localPrintSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560899-ox",
+        "url": "https://www.dndbeyond.com/monsters/2560899-ox",
+        "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/motm",
+        "publisherBlockAnchor": "https://www.dndbeyond.com/sources/motm/bestiary#Ox",
+        "sourceAccess": "Official index confirms the entry. The publisher creature link redirects to the marketplace without entitlement. Rules verified against the printed folio in the local .",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "Wizards’ Sage Advice & Errata index lists no dedicated Monsters of the Multiverse correction sheet. No official correction to this entry was located.",
+        "operationalEvidence": "The Ox is the left-column block on p. 72. Its Beast of Burden applies to carrying capacity. Gore gains damage after the immediate 20-ft. straight approach.",
+        "appearanceEvidence": "Editorial description based on anatomy in the printed entry or its illustration and checked against the selected portrait.",
+        "habitatEvidence": "Terrain tags from the Appendix Monster Lists, printed pp. 287–288.",
+        "artGroup": "ox"
+      }
+    },
+    {
+      "owner": "b13_05",
+      "name": "Hadrosaurus",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "hadrosaurus",
+      "art_owner": "b13_05",
+      "reuse_source": "beast-ready-batch-08/parts/b08_07/portraits/hadrosaurus.png",
+      "reuse_sha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+      "runtime_file": "images/beast-ready-batch-08/hadrosaurus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560844-hadrosaurus",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/hadrosaurus.png",
+        "sha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Hadrosaurus",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Jeremy Crawford",
+        "copyrightYear": 2021,
+        "printing": "First printing, October 2021",
+        "isbn": "978-0-7869-6743-8",
+        "productCode": "620D0149000003 EN",
+        "printedHeading": "Hadrosaurus",
+        "section": "Chapter 2, Bestiary, Dinosaurs",
+        "printedPages": [
+          95,
+          96
+        ],
+        "pdfPages": [
+          95,
+          96
+        ],
+        "statBlockPage": 96,
+        "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+        "habitatEvidence": "The D&D Beyond listing for this publication gives Grassland, Swamp.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560844-hadrosaurus",
+        "url": "https://www.dndbeyond.com/monsters/2560844-hadrosaurus",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+        "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary#Hadrosaurus",
+        "sourcePageKind": "The public D&D Beyond list and book index identify this entry. The direct creature page redirected to the marketplace without entitlement.",
+        "sourceWitness": "English first-printing scan. Contents and colophon corroborate the page and publication, and the original folio images were checked against extraction.",
+        "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "errataEvidence": "No correction for this scoped entry was located in the D&D Beyond Sage Advice & Errata index or its public changelog.",
+        "printedProficiencyBonus": 2,
+        "artGroup": "hadrosaurus",
+        "artworkSource": "beast-ready-batch-08/parts/b08_07/portraits/hadrosaurus.png",
+        "artworkSha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+        "artworkCredit": "OpenAI ImageGen",
+        "portraitReuseSource": "beast-ready-batch-08/parts/b08_07/portraits/hadrosaurus.png",
+        "portraitReuseSha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+        "appearanceEvidence": "Editorial description of the reused square matte parchment portrait.",
+        "sourceNotes": []
+      }
+    },
+    {
+      "owner": "b13_05",
+      "name": "Quetzalcoatlus",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "quetzalcoatlus",
+      "art_owner": "b13_05",
+      "reuse_source": "beast-ready-batch-08/parts/b08_07/portraits/quetzalcoatlus.png",
+      "reuse_sha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+      "runtime_file": "images/beast-ready-batch-08/quetzalcoatlus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560901-quetzalcoatlus",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/quetzalcoatlus.png",
+        "sha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Quetzalcoatlus",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Jeremy Crawford",
+        "copyrightYear": 2021,
+        "printing": "First printing, October 2021",
+        "isbn": "978-0-7869-6743-8",
+        "productCode": "620D0149000003 EN",
+        "printedHeading": "Quetzalcoatlus",
+        "section": "Chapter 2, Bestiary, Dinosaurs",
+        "printedPages": [
+          95,
+          96
+        ],
+        "pdfPages": [
+          95,
+          96
+        ],
+        "statBlockPage": 96,
+        "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+        "habitatEvidence": "The D&D Beyond listing for this publication gives Coastal, Hill, Mountain.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560901-quetzalcoatlus",
+        "url": "https://www.dndbeyond.com/monsters/2560901-quetzalcoatlus",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+        "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary#Quetzalcoatlus",
+        "sourcePageKind": "The public D&D Beyond list and book index identify this entry. The direct creature page redirected to the marketplace without entitlement.",
+        "sourceWitness": "English first-printing scan. Contents and colophon corroborate the page and publication, and the original folio images were checked against extraction.",
+        "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "errataEvidence": "No correction for this scoped entry was located in the D&D Beyond Sage Advice & Errata index or its public changelog.",
+        "printedProficiencyBonus": 2,
+        "artGroup": "quetzalcoatlus",
+        "artworkSource": "beast-ready-batch-08/parts/b08_07/portraits/quetzalcoatlus.png",
+        "artworkSha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+        "artworkCredit": "OpenAI ImageGen",
+        "portraitReuseSource": "beast-ready-batch-08/parts/b08_07/portraits/quetzalcoatlus.png",
+        "portraitReuseSha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+        "appearanceEvidence": "Editorial description of the reused square matte parchment portrait.",
+        "sourceNotes": [
+          "The first printing drops the word “at” before “least 30 feet.” The summary restores the missing word. The movement must be toward the target immediately before the hit."
+        ]
+      }
+    },
+    {
+      "owner": "b13_05",
+      "name": "Stegosaurus",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "stegosaurus",
+      "art_owner": "b13_05",
+      "reuse_source": "beast-ready-batch-08/parts/b08_08/portraits/stegosaurus.png",
+      "reuse_sha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+      "runtime_file": "images/beast-ready-batch-08/stegosaurus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560928-stegosaurus",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "reused-portraits/stegosaurus.png",
+        "sha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Stegosaurus",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Jeremy Crawford",
+        "copyrightYear": 2021,
+        "printing": "First printing, October 2021",
+        "isbn": "978-0-7869-6743-8",
+        "productCode": "620D0149000003 EN",
+        "printedHeading": "Stegosaurus",
+        "section": "Chapter 2, Bestiary, Dinosaurs",
+        "printedPages": [
+          95,
+          96
+        ],
+        "pdfPages": [
+          95,
+          96
+        ],
+        "statBlockPage": 96,
+        "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+        "habitatEvidence": "The D&D Beyond listing for this publication gives Forest, Grassland.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560928-stegosaurus",
+        "url": "https://www.dndbeyond.com/monsters/2560928-stegosaurus",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+        "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary#Stegosaurus",
+        "sourcePageKind": "The public D&D Beyond list and book index identify this entry. The direct creature page redirected to the marketplace without entitlement.",
+        "sourceWitness": "English first-printing scan. Contents and colophon corroborate the page and publication, and the original folio images were checked against extraction.",
+        "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "errataEvidence": "No correction for this scoped entry was located in the D&D Beyond Sage Advice & Errata index or its public changelog.",
+        "printedProficiencyBonus": 2,
+        "artGroup": "stegosaurus",
+        "artworkSource": "beast-ready-batch-08/parts/b08_08/portraits/stegosaurus.png",
+        "artworkSha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+        "artworkCredit": "OpenAI ImageGen",
+        "portraitReuseSource": "beast-ready-batch-08/parts/b08_08/portraits/stegosaurus.png",
+        "portraitReuseSha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+        "appearanceEvidence": "Editorial description of the reused square matte parchment portrait.",
+        "sourceNotes": [
+          "The first printing gives proficiency bonus +2 and a Tail attack bonus of +7. Both values are retained."
+        ]
+      }
+    },
+    {
+      "owner": "b13_05",
+      "name": "Swarm of Rot Grubs",
+      "kind": "beast",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-rot-grubs",
+      "art_owner": "b13_05",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/2560935-swarm-of-rot-grubs",
+      "credit": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b13_05/portraits/swarm-of-rot-grubs.png",
+        "sha256": "2e70b81f3e479a10a9b0302989664f545494915e68512d0143ee3717910a3cad",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Swarm of Rot Grubs",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Jeremy Crawford",
+        "copyrightYear": 2021,
+        "printing": "First printing, October 2021",
+        "isbn": "978-0-7869-6743-8",
+        "productCode": "620D0149000003 EN",
+        "printedHeading": "Swarm of Rot Grubs",
+        "section": "Chapter 2, Bestiary, Swarm of Rot Grubs",
+        "printedPages": [
+          237
+        ],
+        "pdfPages": [
+          237
+        ],
+        "statBlockPage": 237,
+        "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-search=&filter-type=0&page=25&sort=type",
+        "habitatEvidence": "The D&D Beyond listing for this publication gives Swamp, Underdark.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/2560935-swarm-of-rot-grubs",
+        "url": "https://www.dndbeyond.com/monsters/2560935-swarm-of-rot-grubs",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+        "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary-su#SwarmofRotGrubs",
+        "sourcePageKind": "The public D&D Beyond list and book index identify this entry. The direct creature page redirected to the marketplace without entitlement.",
+        "sourceWitness": "English first-printing scan. Contents and colophon corroborate the page and publication, and the original folio images were checked against extraction.",
+        "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "errataEvidence": "No correction for this scoped entry was located in the D&D Beyond Sage Advice & Errata index or its public changelog.",
+        "printedProficiencyBonus": 2,
+        "artGroup": "swarm-of-rot-grubs",
+        "artworkSource": "portraits/swarm-of-rot-grubs.png",
+        "artworkSha256": "2e70b81f3e479a10a9b0302989664f545494915e68512d0143ee3717910a3cad",
+        "artworkCredit": "OpenAI ImageGen",
+        "portraitGeneratedFile": "portraits/swarm-of-rot-grubs.png",
+        "portraitGeneratedSha256": "2e70b81f3e479a10a9b0302989664f545494915e68512d0143ee3717910a3cad",
+        "appearanceEvidence": "Editorial description of the new shared matte parchment portrait.",
+        "sourceNotes": [
+          "The printed swarm deals the same 7 (2d6) piercing damage at any HP. Neither bludgeoning resistance nor stunned immunity is printed. The individual grub procedure on the same page is separate from the swarm stat block."
+        ]
+      }
+    },
+    {
+      "owner": "b13_06",
+      "name": "Aurochs",
+      "kind": "beast",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "aurochs",
+      "art_owner": "b13_04",
+      "reuse_source": "playable-species-50-batch-9/parts/nine_mr2_c/portraits/aurochs.png",
+      "reuse_sha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61",
+      "runtime_file": "images/playable-species-50-batch-9/aurochs.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/17320-aurochs",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/aurochs.png",
+        "sha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Aurochs",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2016",
+        "isbn": "978-0-7869-6601-1",
+        "heading": "Aurochs",
+        "section": "Appendix A, Assorted Beasts",
+        "printedPages": [
+          207
+        ],
+        "viewerPages": [
+          208
+        ],
+        "supportingPages": [
+          223
+        ],
+        "supportingViewerPages": [
+          224
+        ],
+        "sourceWitness": "Local first-printing facsimile  The edition credit appears on page 3.",
+        "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+        "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/17320-aurochs",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+        "errataEvidence": "The Wizards of the Coast v3.0 errata contains no changes to these entries.",
+        "habitatEvidence": "Appendix C places Aurochs in grasslands, hills and mountains on p. 223.",
+        "appearanceEvidence": "Editorial description of the roster portrait.",
+        "artworkSource": "playable-species-50-batch-9/parts/nine_mr2_c/portraits/aurochs.png",
+        "artworkSha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61",
+        "sourceNotes": [
+          "Gore can hit a creature or object. Only creatures make the Charge saving throw."
+        ]
+      }
+    },
+    {
+      "owner": "b13_06",
+      "name": "Cow",
+      "kind": "beast",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "cow",
+      "art_owner": "b13_06",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/17321-cow",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_06/portraits/cow.png",
+        "sha256": "e6b6f184622ea2a6770ae532845441a482af8b38de31877172854966f897f10d",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Cow",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2016",
+        "isbn": "978-0-7869-6601-1",
+        "heading": "Cattle, Cow",
+        "section": "Appendix A, Assorted Beasts",
+        "printedPages": [
+          207
+        ],
+        "viewerPages": [
+          208
+        ],
+        "supportingPages": [],
+        "supportingViewerPages": [],
+        "sourceWitness": "Local first-printing facsimile  The edition credit appears on page 3.",
+        "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+        "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/17321-cow",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+        "errataEvidence": "The Wizards of the Coast v3.0 errata contains no changes to these entries.",
+        "habitatEvidence": "Grassland and pasture are editorial tags for domestic cattle. Appendix C lists the rothé under grassland and the ox under urban, each identified as a Cow variant.",
+        "appearanceEvidence": "Editorial description of the roster portrait.",
+        "artworkSource": "New original ImageGen portrait",
+        "artworkSha256": "e6b6f184622ea2a6770ae532845441a482af8b38de31877172854966f897f10d",
+        "sourceNotes": [
+          "The Cow base block supplies Charge and Gore. Cattle gives separate instructions for applying the variants on p. 208."
+        ]
+      }
+    },
+    {
+      "owner": "b13_06",
+      "name": "Deep Rothé",
+      "kind": "beast",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "deep-rothe",
+      "art_owner": "b13_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/24006-deep-rothe",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_04/portraits/deep-rothe.png",
+        "sha256": "c295a1c3bb90af78ac2b296b88b941ac84f4fca931142bf284432bc39bd199bb",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Deep Rothé",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2016",
+        "isbn": "978-0-7869-6601-1",
+        "heading": "Cattle, Cow and Rothé",
+        "section": "Appendix A, Assorted Beasts",
+        "printedPages": [
+          207,
+          208
+        ],
+        "viewerPages": [
+          208,
+          209
+        ],
+        "supportingPages": [
+          224
+        ],
+        "supportingViewerPages": [
+          225
+        ],
+        "sourceWitness": "Local first-printing facsimile  The edition credit appears on page 3.",
+        "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+        "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/24006-deep-rothe",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+        "errataEvidence": "The Wizards of the Coast v3.0 errata contains no changes to these entries.",
+        "habitatEvidence": "The p. 208 account names the Underdark. Appendix C lists Cow (deep rothé) under Underdark Creatures and confirms CR 1/4 (50 XP).",
+        "appearanceEvidence": "Editorial description of the roster portrait.",
+        "artworkSource": "beast-ready-batch-13/parts/b13_04/portraits/deep-rothe.png",
+        "artworkSha256": "c295a1c3bb90af78ac2b296b88b941ac84f4fca931142bf284432bc39bd199bb",
+        "sourceNotes": [
+          "Cattle on p. 207 directs the reader to start with the Cow stat block and apply the named variant changes. Rothé on p. 208 gives the Deep Rothé’s size, HP, darkvision and innate spellcasting.",
+          "AC, 30-ft. speed, ability scores, passive Perception, Charge and Gore come from Cow. The published variant communicates by magical flashes and adds no language to the Cow line."
+        ],
+        "relatedRules": {
+          "Dancing Lights (2014)": "https://www.dndbeyond.com/spells/2057-dancing-lights"
+        }
+      }
+    },
+    {
+      "owner": "b13_06",
+      "name": "Dolphin",
+      "kind": "beast",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "dolphin",
+      "art_owner": "b13_04",
+      "reuse_source": "playable-species-50-batch-9/parts/nine_mr2_c/portraits/dolphin.png",
+      "reuse_sha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86",
+      "runtime_file": "images/playable-species-50-batch-9/dolphin.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/17322-dolphin",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/dolphin.png",
+        "sha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Dolphin",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2016",
+        "isbn": "978-0-7869-6601-1",
+        "heading": "Dolphin",
+        "section": "Appendix A, Assorted Beasts",
+        "printedPages": [
+          208
+        ],
+        "viewerPages": [
+          209
+        ],
+        "supportingPages": [
+          222,
+          224
+        ],
+        "supportingViewerPages": [
+          223,
+          225
+        ],
+        "sourceWitness": "Local first-printing facsimile  The edition credit appears on page 3.",
+        "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+        "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/17322-dolphin",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+        "errataEvidence": "The Wizards of the Coast v3.0 errata contains no changes to these entries.",
+        "habitatEvidence": "Appendix C lists Dolphin under Coastal Creatures on p. 222 and Underwater Creatures on p. 224.",
+        "appearanceEvidence": "Editorial description of the roster portrait.",
+        "artworkSource": "playable-species-50-batch-9/parts/nine_mr2_c/portraits/dolphin.png",
+        "artworkSha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86",
+        "sourceNotes": [
+          "The p. 208 block gives blindsight without a separate Echolocation trait. The printed Charge only calls for straight movement toward the target."
+        ]
+      }
+    },
+    {
+      "owner": "b13_07",
+      "name": "Ox",
+      "kind": "beast",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "ox",
+      "art_owner": "b13_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/24001-ox",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_04/portraits/ox.png",
+        "sha256": "c3ff960383a3750a5b7cbe757b377b49600121849de47efb9ecce5c190f8f456",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ox",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2016",
+        "copyrightYear": 2016,
+        "isbn": "978-0-7869-6601-1",
+        "section": "Appendix A: Assorted Beasts",
+        "sourceHeading": "Cow and Ox",
+        "printedPages": [
+          207,
+          208
+        ],
+        "pdfPages": [
+          208,
+          209
+        ],
+        "sourceFile": "",
+        "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "publisherListing": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "publisherCatalog": "",
+        "digitalReference": "https://www.dndbeyond.com/monsters/24001-ox",
+        "sourceRole": "The local first-printing supplies the rules. Publisher indexes corroborate identity.",
+        "errataUrl": "",
+        "errataWebUrl": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+        "errataEvidence": "The Wizards 2021 v3.0 errata list no change to this profile.",
+        "sourceDistinctions": [
+          "Page 207 directs the reader to use the Cow block for all cattle variants and apply the changes on p. 208. The base Charge adds damage without a saving throw.",
+          "Beast of Burden treats the Large ox as Huge solely for carrying capacity."
+        ],
+        "appearanceEvidence": "Page 208 describes the ox as cattle kept chiefly for draft work. The draft-bovine silhouette is an editorial portrait choice.",
+        "habitatEvidence": "The publisher’s legacy monster catalog lists Grassland. Farmland is editorial based on the draft work noted on p. 208.",
+        "artGroup": "ox",
+        "artOwner": "b13_04"
+      }
+    },
+    {
+      "owner": "b13_07",
+      "name": "Rothé",
+      "kind": "beast",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "rothe",
+      "art_owner": "b13_07",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/24005-rothe",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_07/portraits/rothe.png",
+        "sha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Rothé",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2016",
+        "copyrightYear": 2016,
+        "isbn": "978-0-7869-6601-1",
+        "section": "Appendix A: Assorted Beasts",
+        "sourceHeading": "Cow and Rothé",
+        "printedPages": [
+          207,
+          208
+        ],
+        "pdfPages": [
+          208,
+          209
+        ],
+        "sourceFile": "",
+        "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "publisherListing": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "publisherCatalog": "",
+        "digitalReference": "https://www.dndbeyond.com/monsters/24005-rothe",
+        "sourceRole": "The local first-printing supplies the rules. Publisher indexes corroborate identity.",
+        "errataUrl": "",
+        "errataWebUrl": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+        "errataEvidence": "The Wizards 2021 v3.0 errata list no change to this profile.",
+        "sourceDistinctions": [
+          "Page 207 directs the reader to use the Cow block for all cattle variants and apply the changes on p. 208. The base Charge adds damage without a saving throw.",
+          "Ordinary Rothé gains 30-ft. Darkvision. The Medium size, 13 (2d8 + 4) HP, 60-ft. Darkvision, and innate dancing lights on the same page belong to Deep Rothé."
+        ],
+        "appearanceEvidence": "Page 208 compares the ordinary Rothé to a musk ox. Fur and horn details describe the assigned portrait.",
+        "habitatEvidence": "The publisher’s legacy monster catalog tags the ordinary Rothé as Grassland. The p. 208 Underdark entry refers to Deep Rothé.",
+        "artGroup": "rothe",
+        "artOwner": "b13_07",
+        "artworkSource": "portraits/rothe.png",
+        "artworkSha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480"
+      }
+    },
+    {
+      "owner": "b13_07",
+      "name": "Stench Kow",
+      "kind": "beast",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "stench-kow",
+      "art_owner": "b13_07",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/24007-stench-kow",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_07/portraits/stench-kow.png",
+        "sha256": "3220893e5100a3e39c78e296f80c933830b66d3a95d70b79a483a99331942cd8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Stench Kow",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2016",
+        "copyrightYear": 2016,
+        "isbn": "978-0-7869-6601-1",
+        "section": "Appendix A: Assorted Beasts",
+        "sourceHeading": "Cow and Stench Kow",
+        "printedPages": [
+          207,
+          208
+        ],
+        "pdfPages": [
+          208,
+          209
+        ],
+        "sourceFile": "",
+        "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "publisherListing": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "publisherCatalog": "",
+        "digitalReference": "https://www.dndbeyond.com/monsters/24007-stench-kow",
+        "sourceRole": "The local first-printing supplies the rules. Publisher indexes corroborate identity.",
+        "errataUrl": "",
+        "errataWebUrl": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+        "errataEvidence": "The Wizards 2021 v3.0 errata list no change to this profile.",
+        "sourceDistinctions": [
+          "Page 207 directs the reader to use the Cow block for all cattle variants and apply the changes on p. 208. The base Charge adds damage without a saving throw.",
+          "A successful Stench save protects a creature from the Stench of all stench kows for 1 hour."
+        ],
+        "appearanceEvidence": "Page 208 specifies a misshapen orange and green bison. The exact shape and placement of colors are editorial choices in the assigned portrait.",
+        "habitatEvidence": "Page 208 identifies the Lower Planes as its native habitat.",
+        "artGroup": "stench-kow",
+        "artOwner": "b13_07",
+        "artworkSource": "portraits/stench-kow.png",
+        "artworkSha256": "3220893e5100a3e39c78e296f80c933830b66d3a95d70b79a483a99331942cd8"
+      }
+    },
+    {
+      "owner": "b13_07",
+      "name": "Swarm of Rot Grubs",
+      "kind": "beast",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-rot-grubs",
+      "art_owner": "b13_05",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/17323-swarm-of-rot-grubs",
+      "credit": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b13_05/portraits/swarm-of-rot-grubs.png",
+        "sha256": "2e70b81f3e479a10a9b0302989664f545494915e68512d0143ee3717910a3cad",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Swarm of Rot Grubs",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2016",
+        "copyrightYear": 2016,
+        "isbn": "978-0-7869-6601-1",
+        "section": "Appendix A: Assorted Beasts",
+        "sourceHeading": "Swarm of Rot Grubs",
+        "printedPages": [
+          208
+        ],
+        "pdfPages": [
+          209
+        ],
+        "sourceFile": "",
+        "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "publisherListing": "https://www.dndbeyond.com/sources/dnd/vgtm",
+        "publisherCatalog": "",
+        "digitalReference": "https://www.dndbeyond.com/monsters/17323-swarm-of-rot-grubs",
+        "sourceRole": "The local first-printing supplies the rules. Publisher indexes corroborate identity.",
+        "errataUrl": "",
+        "errataWebUrl": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+        "errataEvidence": "The Wizards 2021 v3.0 errata list no change to this profile.",
+        "sourceDistinctions": [
+          "The swarm’s Bites infests on an attack hit without a separate save. The DC 10 DEX contact rule in the preceding prose is for one grub, which has no separate stat block.",
+          "The printed swarm only resists piercing and slashing, with no Stunned immunity line. Its Bites have no reduced damage at half HP."
+        ],
+        "appearanceEvidence": "Page 208 specifies finger-sized maggots. Segmentation is an editorial depiction of the larvae.",
+        "habitatEvidence": "Page 208 identifies corpses and decaying piles as infestation sites. The publisher’s legacy monster catalog also lists Swamp.",
+        "artGroup": "swarm-of-rot-grubs",
+        "artOwner": "b13_05"
+      }
+    },
+    {
+      "owner": "b13_08",
+      "name": "Amphisbaena",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "amphisbaena",
+      "art_owner": "b13_08",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b13_08/portraits/amphisbaena.png",
+        "sha256": "66433e363a8622d407759f29537ac955de2a5b5b62931a4d2a7d74c6767d478a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Amphisbaena",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "isbn": "978-0-7869-6609-7",
+        "section": "The Hidden Shrine of Tamoachan, area 39, Chamber of the Second Sun",
+        "printedPages": [
+          84
+        ],
+        "pdfPages": [
+          85
+        ],
+        "contextPrintedPages": [],
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "facsimileUrl": "",
+        "errataUrl": "",
+        "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+        "appearanceEvidence": "The encounter calls it a giant two-headed snake. The opposed heads and coloration are depicted in the original portrait.",
+        "habitatEvidence": "Tags inferred from the rubble chamber in the ruined shrine on p. 84.",
+        "artGroup": "amphisbaena",
+        "sourceDistinctions": [
+          "The adventure explicitly references Giant Constrictor Snake and adds the two-attacks-per-turn rule and revised CR. The 2014 Monster Manual supplies the inherited attacks."
+        ],
+        "portraitSha256": "66433e363a8622d407759f29537ac955de2a5b5b62931a4d2a7d74c6767d478a",
+        "portraitGeneration": {
+          "mode": "Built-in OpenAI ImageGen",
+          "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+          "prompt": "Square specimen portrait for an original fantasy bestiary. Attached Big Linda is the rendering and background color reference only. Render a single giant amphisbaena, a limbless snake whose one uninterrupted unbranched body has exactly one complete snake head at each of its opposite ends. One head replaces the tail tip. The body has no fork, branches or true tail anywhere. Shape the single continuous body into an open horizontal S so two separate heads, one at the left terminal and one at the right terminal, can be traced along the visible unbranched spine; bend both necks modestly upward to read in a 96px round crop, no tongue prominent. Natural olive-brown, worn umber and muted cream scales, realistic size variation and kind of antique natural history gouache with slightly dry brush details exemplified by Big Linda. Plain light muted matte tan parchment just like the reference, even from edge to edge with mild fine grain, no scenery of any kind, no illustrative vignette, no halo or glow, no frame, text, labels, decorative elements or other animals. Compact centered specimen, ample breathing room all around, every part safely within the centered circular avatar crop, diffuse consistent light with very faint grounding shadow if needed."
+        },
+        "baseProfile": {
+          "name": "Giant Constrictor Snake",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            324
+          ],
+          "url": "https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+          "errataUrl": ""
+        }
+      }
+    },
+    {
+      "owner": "b13_08",
+      "name": "Elder Giant Lizard",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "elder-giant-lizard",
+      "art_owner": "b13_08",
+      "reuse_source": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+      "reuse_sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+      "runtime_file": "images/beast-ready-batch-04/giant-lizard.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "reused-portraits/elder-giant-lizard.png",
+        "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Elder Giant Lizard",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "isbn": "978-0-7869-6609-7",
+        "section": "Against the Giants, area 21, Lizards’ Lair",
+        "printedPages": [
+          176
+        ],
+        "pdfPages": [
+          177
+        ],
+        "contextPrintedPages": [],
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "facsimileUrl": "",
+        "errataUrl": "",
+        "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+        "appearanceEvidence": "The print describes exceptionally large old subterranean lizards. The scale color and body detail are editorial, from the reused portrait.",
+        "habitatEvidence": "Tags inferred from the deep hunting caverns described on p. 176.",
+        "artGroup": "elder-giant-lizard",
+        "sourceDistinctions": [
+          "The mated adults use the Giant Crocodile block with Climb 30 ft., no swim speed, and darkvision 60 ft. The young use Giant Lizard. Elder Giant Lizard is the catalog name for the adult adaptation."
+        ],
+        "portraitSha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "baseProfile": {
+          "name": "Giant Crocodile",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            324
+          ],
+          "url": "https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+          "errataUrl": ""
+        }
+      }
+    },
+    {
+      "owner": "b13_08",
+      "name": "Giant Crayfish",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-crayfish",
+      "art_owner": "b13_08",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b13_08/portraits/giant-crayfish.png",
+        "sha256": "afb3e7d796c0ad594d681bc237aa1d195b5e6b1f97b7fa02c1126de303bc4e34",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Crayfish",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "isbn": "978-0-7869-6609-7",
+        "section": "Appendix B, Creatures",
+        "printedPages": [
+          235
+        ],
+        "pdfPages": [
+          236
+        ],
+        "contextPrintedPages": [
+          66,
+          107
+        ],
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "facsimileUrl": "",
+        "errataUrl": "",
+        "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+        "appearanceEvidence": "Appendix B names the creature and gives two claws. Segmentation, antennae and tail fan follow ordinary crayfish anatomy in the original portrait.",
+        "habitatEvidence": "Editorial tags based on the damp underground guard room and the aquarium in the two printed encounters.",
+        "artGroup": "giant-crayfish",
+        "sourceDistinctions": [
+          "The Appendix B block lists no languages. The p. 66 guard uses Olman in the encounter. This language belongs to that individual."
+        ],
+        "portraitSha256": "afb3e7d796c0ad594d681bc237aa1d195b5e6b1f97b7fa02c1126de303bc4e34",
+        "portraitGeneration": {
+          "mode": "Built-in OpenAI ImageGen",
+          "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+          "prompt": "Square specimen portrait for an original fantasy bestiary. Attached Big Linda is the rendering and background color reference only. Render one enormous freshwater crayfish as a realistic crayfish seen from a slightly elevated three-quarter angle. Long articulated body, ridged carapace, segmented abdomen ending in a visible flattened tail fan, two broad strong pincers on the front pair, four pairs of walking legs behind them, two sensible antennae kept in frame, tiny dark eyes, clear natural asymmetry of stance. Slightly reddish ochre-brown and olive slate mottled shell, quiet naturalistic color and linework, antique natural history gouache brush details matching the reference. Plain light muted matte tan parchment like the attached reference, even across the entire square with mild fine grain, no scenery of any kind, no illustrative vignette, halo, glow, frame, text, labels, decorative elements, or other animals. Compact centered specimen with ample margin all around so antennae, fan and claws fit within the centered circular avatar crop. Diffuse lighting and very faint grounding shadow if needed."
+        }
+      }
+    },
+    {
+      "owner": "b13_08",
+      "name": "Giant Lightning Eel",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "giant-lightning-eel",
+      "art_owner": "b13_08",
+      "reuse_source": "indexed:images/beasts/lightning-eel/parchment-portrait.webp",
+      "reuse_sha256": "6861b14702b7b25d03538cb35d4539770e48d79cb89768cdec40f76ef80b6e9d",
+      "runtime_file": "images/beasts/lightning-eel/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "reused-portraits/giant-lightning-eel.webp",
+        "sha256": "6861b14702b7b25d03538cb35d4539770e48d79cb89768cdec40f76ef80b6e9d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Lightning Eel",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "isbn": "978-0-7869-6609-7",
+        "section": "Appendix B, Creatures",
+        "printedPages": [
+          236
+        ],
+        "pdfPages": [
+          237
+        ],
+        "contextPrintedPages": [
+          72
+        ],
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "facsimileUrl": "",
+        "errataUrl": "",
+        "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+        "appearanceEvidence": "The portrait supplies the coloration, form and visible sparks. Appendix B states that the eel electrifies the surrounding water.",
+        "habitatEvidence": "Editorial tags based on Chae’s underground pool in Tamoachan, p. 72.",
+        "artGroup": "giant-lightning-eel",
+        "sourceDistinctions": [
+          "Lightning Jolt applies separately from the two-Bite Multiattack. On a failed save the stun still requires the target to take some lightning damage. The reused portrait has warmer parchment and faint blue arcs around the eel."
+        ],
+        "portraitSha256": "6861b14702b7b25d03538cb35d4539770e48d79cb89768cdec40f76ef80b6e9d"
+      }
+    },
+    {
+      "owner": "b13_08",
+      "name": "Giant Subterranean Lizard",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "giant-subterranean-lizard",
+      "art_owner": "b13_08",
+      "reuse_source": "adnd2e-monstrous-manual-lizards/portraits/subterranean-lizard-draft.png",
+      "reuse_sha256": "1cb387f2b1e49530b47bdd4d1ec9187b7d38bc9b20002eb996e4c5aaa2e0dc01",
+      "runtime_file": "images/adnd2e-monstrous-manual-lizards/subterranean-lizard.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "reused-portraits/giant-subterranean-lizard.png",
+        "sha256": "1cb387f2b1e49530b47bdd4d1ec9187b7d38bc9b20002eb996e4c5aaa2e0dc01",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Subterranean Lizard",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "isbn": "978-0-7869-6609-7",
+        "section": "Appendix B, Creatures",
+        "printedPages": [
+          236
+        ],
+        "pdfPages": [
+          237
+        ],
+        "contextPrintedPages": [
+          46
+        ],
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+        "facsimileUrl": "",
+        "errataUrl": "",
+        "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+        "appearanceEvidence": "Appendix B describes an enormous lizard with a powerful tail. The Forge of Fury individual on p. 46 has white scales. Its reused portrait from the earlier AD&D project depicts pale pink-white scales. Other details come from the portrait.",
+        "habitatEvidence": "Tags inferred from the streamside Scaly Lair in the Forge of Fury, p. 46.",
+        "artGroup": "giant-subterranean-lizard",
+        "sourceDistinctions": [
+          "The giant subterranean lizard has its own published stat block. The older mated lizards in Against the Giants use the separate Giant Crocodile adaptation."
+        ],
+        "portraitSha256": "1cb387f2b1e49530b47bdd4d1ec9187b7d38bc9b20002eb996e4c5aaa2e0dc01"
+      }
+    },
+    {
+      "owner": "b13_09",
+      "name": "Guthash",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "guthash",
+      "art_owner": "b13_09",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png",
+      "reuse_sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+      "runtime_file": "images/beast-ready-batch-05/giant-rat.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/guthash.png",
+        "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Guthash",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "printedPages": [
+          21
+        ],
+        "pdfPages": [
+          22
+        ],
+        "section": "The Sunless Citadel, area 30, Mama Rat",
+        "sourceFile": "",
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "sourceUrl": "",
+        "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+        "errataUrl": "",
+        "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+        "baseRules": {
+          "entry": "Giant Rat, Diseased Giant Rat variant",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 327,
+          "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+          "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "errataUrl": "",
+          "errataResult": "The 2016 v1.1 and 2018 errata correct Diseased Giant Rat Bite to +4 and 4 (1d4 + 2). The adventure expressly changes the attack roll to +5.",
+          "earlierErrataUrl": ""
+        },
+        "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+        "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png",
+        "portraitSha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+        "sourceDistinctions": [
+          "The adventure lists a fixed 16 HP and no corresponding Hit Dice formula.",
+          "Use the official Monster Manual errata for the base damage and the adventure for the +5 attack bonus."
+        ]
+      }
+    },
+    {
+      "owner": "b13_09",
+      "name": "Huge Giant Crab",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "8",
+      "art_group": "huge-giant-crab",
+      "art_owner": "b13_09",
+      "reuse_source": "beast-ready-batch-04/parts/b04_06/portraits/giant-crab.png",
+      "reuse_sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+      "runtime_file": "images/beast-ready-batch-04/giant-crab.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "8",
+      "portrait": {
+        "file": "reused-portraits/huge-giant-crab.png",
+        "sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Huge Giant Crab",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "printedPages": [
+          103
+        ],
+        "pdfPages": [
+          104
+        ],
+        "section": "White Plume Mountain, area 17, The Boiling Bubble",
+        "sourceFile": "",
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "sourceUrl": "",
+        "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+        "errataUrl": "",
+        "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+        "baseRules": {
+          "entry": "Giant Crab",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 324,
+          "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+          "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "errataUrl": "",
+          "errataResult": "No errata applies to this base stat block."
+        },
+        "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+        "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+        "portraitSource": "beast-ready-batch-04/parts/b04_06/portraits/giant-crab.png",
+        "portraitSha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+        "sourceDistinctions": [
+          "The adventure prints +9 for Claw and escape DC 14. It lists no change to the base Giant Crab Stealth +4.",
+          "The index recalculates Stealth to +5."
+        ]
+      }
+    },
+    {
+      "owner": "b13_09",
+      "name": "Huge Polar Bear",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "huge-polar-bear",
+      "art_owner": "b13_09",
+      "reuse_source": "beast-ready-batch-05/parts/b05_06/portraits/polar-bear.png",
+      "reuse_sha256": "ea58cc6437d6177f689a0f7f2202fb4a102a0d79b7470b0bf21cba879f4083b4",
+      "runtime_file": "images/beast-ready-batch-05/polar-bear.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/huge-polar-bear.png",
+        "sha256": "ea58cc6437d6177f689a0f7f2202fb4a102a0d79b7470b0bf21cba879f4083b4",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Huge Polar Bear",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "printedPages": [
+          187
+        ],
+        "pdfPages": [
+          188
+        ],
+        "section": "Against the Giants, Glacial Rift lower level, area 17, Kennel Cave",
+        "sourceFile": "",
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "sourceUrl": "",
+        "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+        "errataUrl": "",
+        "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+        "baseRules": {
+          "entry": "Polar Bear",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 334,
+          "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+          "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "errataUrl": "",
+          "errataResult": "No errata applies to this base stat block."
+        },
+        "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+        "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_06/portraits/polar-bear.png",
+        "portraitSha256": "ea58cc6437d6177f689a0f7f2202fb4a102a0d79b7470b0bf21cba879f4083b4",
+        "sourceDistinctions": [
+          "The Kennel Cave gives Huge size and 65 HP for each bear. The adventure gives no revised Hit Dice formula."
+        ]
+      }
+    },
+    {
+      "owner": "b13_09",
+      "name": "Snow Leopard",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "snow-leopard",
+      "art_owner": "b13_09",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b13_09/portraits/snow-leopard.png",
+        "sha256": "bc5529680d4428cf6acc8e9b11f302fcd48d8bc3d7f8ee6158f26f18c93afa31",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Snow Leopard",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "printedPages": [
+          183
+        ],
+        "pdfPages": [
+          184
+        ],
+        "section": "Against the Giants, Glacial Rift upper level, area 15, Ice Cave",
+        "sourceFile": "",
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "sourceUrl": "",
+        "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+        "errataUrl": "",
+        "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+        "baseRules": {
+          "entry": "Tiger",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 339,
+          "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+          "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "errataUrl": "",
+          "errataResult": "No errata applies to this base stat block."
+        },
+        "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+        "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+        "portraitSource": "portraits/snow-leopard.png",
+        "portraitSha256": "bc5529680d4428cf6acc8e9b11f302fcd48d8bc3d7f8ee6158f26f18c93afa31",
+        "sourceDistinctions": [
+          "The encounter expressly assigns the Tiger stat block to both snow leopards."
+        ]
+      }
+    },
+    {
+      "owner": "b13_09",
+      "name": "Young Winter Wolf",
+      "kind": "beast",
+      "publication": "Tales from the Yawning Portal",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "young-winter-wolf",
+      "art_owner": "b13_09",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b13_09/portraits/young-winter-wolf.png",
+        "sha256": "0aaa450103737fc435d7be5b53de20fba7a0c5ccbe24a083e4374506a6812012",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Young Winter Wolf",
+        "publication": "Tales from the Yawning Portal",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, April 2017",
+        "printedPages": [
+          181
+        ],
+        "pdfPages": [
+          182
+        ],
+        "section": "Against the Giants, Glacial Rift upper level, area 4, Small Ice Cave",
+        "sourceFile": "",
+        "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+        "sourceUrl": "",
+        "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+        "errataUrl": "",
+        "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+        "baseRules": {
+          "entry": "Dire Wolf",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 321,
+          "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+          "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "errataUrl": "",
+          "errataResult": "No errata applies to this base stat block."
+        },
+        "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+        "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+        "portraitSource": "portraits/young-winter-wolf.png",
+        "portraitSha256": "0aaa450103737fc435d7be5b53de20fba7a0c5ccbe24a083e4374506a6812012",
+        "sourceDistinctions": [
+          "The adventure expressly assigns the Dire Wolf stat block to the pups.",
+          "The white coat and pale blue eyes follow the 2014 Winter Wolf species description in Monster Manual p. 340."
+        ],
+        "appearanceReferenceUrl": "https://www.dndbeyond.com/monsters/17061-winter-wolf"
+      }
+    },
+    {
+      "owner": "b13_10",
+      "name": "Cave Badger",
+      "kind": "beast",
+      "publication": "Out of the Abyss",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "cave-badger",
+      "art_owner": "b13_10",
+      "reuse_source": "beast-ready-batch-04/parts/b04_04/portraits/giant-badger.png",
+      "reuse_sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+      "runtime_file": "images/beast-ready-batch-04/giant-badger.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/cave-badger.png",
+        "sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Cave Badger",
+        "kind": "beast",
+        "publication": "Out of the Abyss",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "collaborator": "Green Ronin Publishing",
+        "leadAdventureDesigner": "Steve Kenson",
+        "storyCreators": [
+          "Christopher Perkins",
+          "Adam Lee",
+          "Richard Whitters"
+        ],
+        "copyrightYear": 2015,
+        "printing": "First printing, September 2015",
+        "isbn": "978-0-7869-6581-6",
+        "productCode": "620B2439000001 EN",
+        "creditsPdfPage": 3,
+        "section": "Chapter 6, Blingdenstone",
+        "printedPages": [
+          96
+        ],
+        "variantPage": 96,
+        "pdfPage": 97,
+        "viewerPages": [
+          97
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/274103-cave-badger",
+        "url": "https://www.dndbeyond.com/monsters/274103-cave-badger",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters?page=29",
+        "officialPublisherProduct": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "sourcePageKind": "The public D&D Beyond monster index identifies this exact Out of the Abyss entry as a Beast. The linked official creature page redirected to the book purchase page without access.",
+        "sourceWitness": " - 5th Edition (2014)/Adventures/Out of the ",
+        "sourceSha256": "1c25226f893f9e71e4504df165dbfbd33f2665855054407726418db7911af0ae",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "e678c6e6e9728ff5a87668cba4fa9ec5d0e3524c6e27f99a7bec9895dcfda42c",
+        "errataEvidence": "No change to this entry in the official Out of the Abyss errata v1.1 or the D&D Beyond errata page.",
+        "habitatEvidence": "Underdark placement from Chapter 6, Blingdenstone.",
+        "appearanceEvidence": "Editorial description of the selected parchment portrait and the shape stated or implied by the printed creature account.",
+        "artworkSource": "beast-ready-batch-04/parts/b04_04/portraits/giant-badger.png",
+        "artworkSha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Reuses the previously staged Giant Badger portrait for the adventure variant.",
+        "sourceNotes": [
+          "The adventure gives AC 12 from natural armor, 60 ft. tremorsense, and a 15-ft. burrow speed. Darkvision comes from the inherited Giant Badger block."
+        ],
+        "relatedRules": [
+          {
+            "name": "Giant Badger",
+            "printedPage": 323,
+            "pdfPage": 324,
+            "url": "https://www.dndbeyond.com/monsters/16874-giant-badger",
+            "publication": "Monster Manual (2014)",
+            "section": "Appendix A, Miscellaneous Creatures",
+            "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+            "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+            "purpose": "Base creature statistics and rules inherited by the named adventure variant.",
+            "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+            "errataEvidence": "No entry for this base creature in the official 2014 Monster Manual errata."
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b13_10",
+      "name": "Female Steeder",
+      "kind": "beast",
+      "publication": "Out of the Abyss",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "female-steeder",
+      "art_owner": "b13_10",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b13_10/portraits/female-steeder.png",
+        "sha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Female Steeder",
+        "kind": "beast",
+        "publication": "Out of the Abyss",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "collaborator": "Green Ronin Publishing",
+        "leadAdventureDesigner": "Steve Kenson",
+        "storyCreators": [
+          "Christopher Perkins",
+          "Adam Lee",
+          "Richard Whitters"
+        ],
+        "copyrightYear": 2015,
+        "printing": "First printing, September 2015",
+        "isbn": "978-0-7869-6581-6",
+        "productCode": "620B2439000001 EN",
+        "creditsPdfPage": 3,
+        "section": "Appendix C, Creatures, Steeders",
+        "printedPages": [
+          226,
+          231
+        ],
+        "statBlockPage": 231,
+        "pdfPage": 232,
+        "viewerPages": [
+          227,
+          232
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/17401-female-steeder",
+        "url": "https://www.dndbeyond.com/monsters/17401-female-steeder",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters?page=57",
+        "officialPublisherProduct": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "sourcePageKind": "The public D&D Beyond monster index identifies this exact Out of the Abyss entry as a Beast. The linked official creature page redirected to the book purchase page without access.",
+        "sourceWitness": " - 5th Edition (2014)/Adventures/Out of the ",
+        "sourceSha256": "1c25226f893f9e71e4504df165dbfbd33f2665855054407726418db7911af0ae",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "e678c6e6e9728ff5a87668cba4fa9ec5d0e3524c6e27f99a7bec9895dcfda42c",
+        "errataEvidence": "No change to this entry in the official Out of the Abyss errata v1.1 or the D&D Beyond errata page.",
+        "habitatEvidence": "Underdark placement from Appendix C, Creatures, Steeders.",
+        "appearanceEvidence": "Editorial description of the selected parchment portrait and the shape stated or implied by the printed creature account.",
+        "artworkSource": "portraits/female-steeder.png",
+        "artworkSha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "New square OpenAI ImageGen portrait. Plain parchment and lighting follow the approved Big Linda portrait.",
+        "sourceNotes": [
+          "Appendix C p. 231 gives a Large Beast. The encounter-specific Cavalry Training on p. 226 belongs to the Duergar Kavalrachni rider."
+        ]
+      }
+    },
+    {
+      "owner": "b13_10",
+      "name": "Fiendish Giant Spider",
+      "kind": "beast",
+      "publication": "Out of the Abyss",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "fiendish-giant-spider",
+      "art_owner": "b13_10",
+      "reuse_source": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+      "reuse_sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+      "runtime_file": "images/beast-ready-batch-05/giant-wolf-spider.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/fiendish-giant-spider.png",
+        "sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Fiendish Giant Spider",
+        "kind": "beast",
+        "publication": "Out of the Abyss",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "collaborator": "Green Ronin Publishing",
+        "leadAdventureDesigner": "Steve Kenson",
+        "storyCreators": [
+          "Christopher Perkins",
+          "Adam Lee",
+          "Richard Whitters"
+        ],
+        "copyrightYear": 2015,
+        "printing": "First printing, September 2015",
+        "isbn": "978-0-7869-6581-6",
+        "productCode": "620B2439000001 EN",
+        "creditsPdfPage": 3,
+        "section": "Chapter 6, Blingdenstone",
+        "printedPages": [
+          96,
+          97
+        ],
+        "variantPage": 97,
+        "pdfPage": 98,
+        "viewerPages": [
+          97,
+          98
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/274108-fiendish-giant-spider",
+        "url": "https://www.dndbeyond.com/monsters/274108-fiendish-giant-spider",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters?filter-search=fiend&filter-type=0",
+        "officialPublisherProduct": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "sourcePageKind": "The public D&D Beyond monster index identifies this exact Out of the Abyss entry as a Beast. The linked official creature page redirected to the book purchase page without access.",
+        "sourceWitness": " - 5th Edition (2014)/Adventures/Out of the ",
+        "sourceSha256": "1c25226f893f9e71e4504df165dbfbd33f2665855054407726418db7911af0ae",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "e678c6e6e9728ff5a87668cba4fa9ec5d0e3524c6e27f99a7bec9895dcfda42c",
+        "errataEvidence": "No change to this entry in the official Out of the Abyss errata v1.1 or the D&D Beyond errata page.",
+        "habitatEvidence": "Underdark placement from Chapter 6, Blingdenstone.",
+        "appearanceEvidence": "Editorial description of the selected parchment portrait and the shape stated or implied by the printed creature account.",
+        "artworkSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+        "artworkSha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Existing spider portrait represents the inherited morphology. The reused artwork does not depict the baleful energy in the printed encounter.",
+        "sourceNotes": [
+          "The adventure changes challenge and defenses. The 2014 Giant Wolf Spider base retains the Medium Beast type and unaligned alignment. D&D Beyond independently lists the adventure entry as a Beast."
+        ],
+        "relatedRules": [
+          {
+            "name": "Giant Wolf Spider",
+            "printedPage": 330,
+            "pdfPage": 331,
+            "url": "https://www.dndbeyond.com/monsters/16900-giant-wolf-spider",
+            "publication": "Monster Manual (2014)",
+            "section": "Appendix A, Miscellaneous Creatures",
+            "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+            "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+            "purpose": "Base creature statistics and rules inherited by the named adventure variant.",
+            "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+            "errataEvidence": "No entry for this base creature in the official 2014 Monster Manual errata."
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b13_11",
+      "name": "Giant Riding Lizard",
+      "kind": "beast",
+      "publication": "Out of the Abyss",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-riding-lizard",
+      "art_owner": "b13_11",
+      "reuse_source": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+      "reuse_sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+      "runtime_file": "images/beast-ready-batch-04/giant-lizard.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/elder-giant-lizard.png",
+        "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Riding Lizard",
+        "publication": "Out of the Abyss",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC with Green Ronin Publishing",
+        "leadAdventureDesigner": "Steve Kenson",
+        "storyCreators": [
+          "Christopher Perkins",
+          "Adam Lee",
+          "Richard Whitters"
+        ],
+        "copyrightYear": 2015,
+        "printing": "First printing, September 2015",
+        "isbn": "978-0-7869-6581-6",
+        "productCode": "620B2439000001 EN",
+        "section": "chapter 8, Audience in Gauntlgrym, stat cards",
+        "printedPages": [
+          131
+        ],
+        "viewerPages": [
+          132
+        ],
+        "creditsViewerPage": 3,
+        "creditsPageUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/22ad38e3c1272b86438dba40f8d9e2d3.webp",
+        "creditsPageSha256": "99ae74466a17ed414aa4306731ff37ce625d0488ed6839dbe56dbccbb3f07fbb",
+        "sourcePageSha256": "8772145f6dd15a01c589cbd765098aecb6a3c8d4938a35fb6f9f0aeb9dcb27ec",
+        "sourceUrl": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=132",
+        "url": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=132",
+        "sourceWitness": "Page images of the English first printing and a separate OCR witness.",
+        "sourceWitnessUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/e6d61fc908cb29d111ad98eaac4acb0b.webp",
+        "independentOCRWitness": "https://www.scribd.com/document/348775296/Out-of-the-Abyss-OCR-Bookmarked-Cropped",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+        "publisherListing": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "officialChapter": "https://www.dndbeyond.com/sources/oota/audience-in-gauntlgrym",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters/26676-giant-riding-lizard",
+        "sourcePageKind": "D&D Beyond public index identifies the adventure and chapter. The chapter and standalone creature links redirect to the purchase page without access. The reproduced printed page supplies rules.",
+        "officialErrata": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+        "errataEvidence": "Wizards of the Coast Out of the Abyss errata v1.1, 2020, contains no change to this Beast.",
+        "habitatEvidence": "Underdark habitat is supported by the adventure encounter and publisher catalog.",
+        "appearanceEvidence": "The p. 131 card supplies size and climbing features. Chapter 8 identifies these lizards as mounts. The reused neutral image shows the unsaddled beast.",
+        "proficiencyBonus": 2,
+        "proficiencyEvidence": "Derived from challenge rating using the 2014 Monster Manual. The book does not print a separate proficiency line.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "visionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring#VisionandLight",
+        "sourceNotes": [
+          "The adventure prints a dedicated Giant Riding Lizard card. This block uses its 30-ft. darkvision and unconditional Spider Climb directly."
+        ],
+        "statBlockPage": 131,
+        "artworkSource": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+        "artworkSha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Previously staged parchment portrait reused.",
+        "supportingPrintedPages": [
+          128
+        ],
+        "supportingViewerPages": [
+          129
+        ]
+      }
+    },
+    {
+      "owner": "b13_11",
+      "name": "Giant Rocktopus",
+      "kind": "beast",
+      "publication": "Out of the Abyss",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-rocktopus",
+      "art_owner": "b13_11",
+      "reuse_source": "beast-ready-batch-04/parts/b04_09/portraits/giant-octopus.png",
+      "reuse_sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+      "runtime_file": "images/beast-ready-batch-04/giant-octopus.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-rocktopus.png",
+        "sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Rocktopus",
+        "publication": "Out of the Abyss",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC with Green Ronin Publishing",
+        "leadAdventureDesigner": "Steve Kenson",
+        "storyCreators": [
+          "Christopher Perkins",
+          "Adam Lee",
+          "Richard Whitters"
+        ],
+        "copyrightYear": 2015,
+        "printing": "First printing, September 2015",
+        "isbn": "978-0-7869-6581-6",
+        "productCode": "620B2439000001 EN",
+        "section": "chapter 2, Into Darkness, Creature Encounters, Giant “Rocktopus”",
+        "printedPages": [
+          28
+        ],
+        "viewerPages": [
+          29
+        ],
+        "creditsViewerPage": 3,
+        "creditsPageUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/22ad38e3c1272b86438dba40f8d9e2d3.webp",
+        "creditsPageSha256": "99ae74466a17ed414aa4306731ff37ce625d0488ed6839dbe56dbccbb3f07fbb",
+        "sourcePageSha256": "91e467e2aaed625d547b9e2409c342a1ac5c6c958aa343d2f8c43e14c4322a3f",
+        "sourceUrl": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=29",
+        "url": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=29",
+        "sourceWitness": "Page images of the English first printing and a separate OCR witness.",
+        "sourceWitnessUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/e67a27943fa66d8a332ff3a565fccc4e.webp",
+        "independentOCRWitness": "https://www.scribd.com/document/348775296/Out-of-the-Abyss-OCR-Bookmarked-Cropped",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+        "publisherListing": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "officialChapter": "https://www.dndbeyond.com/sources/oota/into-darkness#CreatureEncounters",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters/273525-giant-rocktopus",
+        "sourcePageKind": "D&D Beyond public index identifies the adventure and chapter. The chapter and standalone creature links redirect to the purchase page without access. The reproduced printed page supplies rules.",
+        "officialErrata": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+        "errataEvidence": "Wizards of the Coast Out of the Abyss errata v1.1, 2020, contains no change to this Beast.",
+        "habitatEvidence": "Underdark habitat is supported by the adventure encounter and publisher catalog.",
+        "appearanceEvidence": "Page 28 describes a terrestrial octopus capable of looking like rock and specifies no fixed color or change to eyes or limbs. The neutral reused image has mottled coloration and a knobbly mantle.",
+        "proficiencyBonus": 2,
+        "proficiencyEvidence": "Derived from challenge rating using the 2014 Monster Manual. The book does not print a separate proficiency line.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "visionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring#VisionandLight",
+        "sourceNotes": [
+          "The passage calls it a Giant Octopus variant and supplies walk 20 ft. and climb 10 ft. It removes Hold Breath and replaces Underwater Camouflage with unconditional Camouflage.",
+          "The passage gives no explicit replacement for swim 60 ft., Water Breathing, or Ink Cloud. Tentacles retains the base attack.",
+          "The inherited Water Breathing trait conflicts with the published land ecology. Allowing it to breathe air is a table ruling."
+        ],
+        "variantPage": 28,
+        "artworkSource": "beast-ready-batch-04/parts/b04_09/portraits/giant-octopus.png",
+        "artworkSha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Previously staged parchment portrait reused.",
+        "referencedBlock": {
+          "name": "Giant Octopus",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 326,
+          "viewerPage": 327,
+          "url": "https://online.anyflip.com/pqhqn/sezy/files/mobile/327.webp",
+          "officialAccessibleRules": "https://www.dndbeyond.com/monsters/16888-giant-octopus",
+          "sourcePageSha256": "1a456de8732240c80ce073f30bfe3ed61b8c95e33c8fc67292feff9b7017a3b6",
+          "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+          "errataEvidence": "The 2014 Monster Manual errata contains no correction to Giant Octopus."
+        }
+      }
+    },
+    {
+      "owner": "b13_11",
+      "name": "Male Steeder",
+      "kind": "beast",
+      "publication": "Out of the Abyss",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "male-steeder",
+      "art_owner": "b13_11",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b13_11/portraits/male-steeder.png",
+        "sha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Male Steeder",
+        "publication": "Out of the Abyss",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC with Green Ronin Publishing",
+        "leadAdventureDesigner": "Steve Kenson",
+        "storyCreators": [
+          "Christopher Perkins",
+          "Adam Lee",
+          "Richard Whitters"
+        ],
+        "copyrightYear": 2015,
+        "printing": "First printing, September 2015",
+        "isbn": "978-0-7869-6581-6",
+        "productCode": "620B2439000001 EN",
+        "section": "appendix C, Creatures, Miscellaneous Creatures, Steeders",
+        "printedPages": [
+          231
+        ],
+        "viewerPages": [
+          232
+        ],
+        "creditsViewerPage": 3,
+        "creditsPageUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/22ad38e3c1272b86438dba40f8d9e2d3.webp",
+        "creditsPageSha256": "99ae74466a17ed414aa4306731ff37ce625d0488ed6839dbe56dbccbb3f07fbb",
+        "sourcePageSha256": "9164542841eb12a172888476d066e26f0cf275afe8752ded9f708111ad94c5ff",
+        "sourceUrl": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=232",
+        "url": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=232",
+        "sourceWitness": "Page images of the English first printing and a separate OCR witness.",
+        "sourceWitnessUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/f41c0aec9f7704f10f336edb84c02ba0.webp",
+        "independentOCRWitness": "https://www.scribd.com/document/348775296/Out-of-the-Abyss-OCR-Bookmarked-Cropped",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+        "publisherListing": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "officialChapter": "https://www.dndbeyond.com/sources/oota/appendix-c-creatures#MiscellaneousCreatures",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters/17402-male-steeder",
+        "sourcePageKind": "The official legacy creature link leads to the purchase page. Its public listing displays Monstrosity, whereas the first-printing p. 231 block explicitly says Beast.",
+        "officialErrata": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+        "errataEvidence": "Wizards of the Coast Out of the Abyss errata v1.1, 2020, contains no change to this Beast.",
+        "habitatEvidence": "Underdark habitat is supported by the adventure encounter and publisher catalog.",
+        "appearanceEvidence": "Artwork morphology follows the published creature description where supplied. Color and pose are editorial.",
+        "proficiencyBonus": 2,
+        "proficiencyEvidence": "Derived from challenge rating using the 2014 Monster Manual. The book does not print a separate proficiency line.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "visionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring#VisionandLight",
+        "sourceNotes": [
+          "The September 2015 first printing identifies Male Steeder as a Medium Beast. The public legacy creature index displays Monstrosity. The original adventure stat block supplies the classification and mechanics here.",
+          "The 2015 Bite line prints 7 piercing alongside 1d8 + 2. Both are recorded as printed. Sticky Leg applies only to Small or Tiny creatures, and Leap uses a 60-ft. distance."
+        ],
+        "statBlockPage": 231,
+        "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+        "supportingPrintedPages": [
+          231
+        ],
+        "artworkSource": "portraits/male-steeder.png",
+        "artworkSha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a",
+        "artworkNote": "Original plain parchment portrait. The tarantula’s eight bristled legs and no-web silhouette reflect p. 231."
+      }
+    }
+  ]
+}

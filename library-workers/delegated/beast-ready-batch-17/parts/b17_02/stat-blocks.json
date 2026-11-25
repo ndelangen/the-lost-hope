@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Bristled Moorbounder",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "printedPage": 295,
+    "ac": 15,
+    "hp": 52,
+    "hitDice": "7d10 + 14",
+    "speed": "70 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A muscular, tusked hunter with rows of long blade-shaped bristles along its back and sides.",
+    "habitats": [
+      "Marsh",
+      "Foothills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Explorer's Guide to Wildemount, March 2020 first printing, Wildemount Bestiary, Moorbounders, p. 295. https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/",
+      "Traits": "Bladed Hide. At the start of the moorbounder’s turn, each creature that is grappling it takes 5 (2d4) piercing damage.\nStanding Leap. The moorbounder can long jump up to 40 ft. or high jump up to 20 ft. from a standstill or after a run.",
+      "Actions": "Multiattack. Make one Blades attack and one Claws attack.\nBlades. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 11 (2d6 + 4) slashing damage.\nClaws. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 14 (4d4 + 4) slashing damage.",
+      "Encounter ecology": "The bristled offshoot hunts in the marshes and muddy foothills of Xhorhas. Its sharp hide makes it a poor mount.",
+      "Source notes": "Wildemount labels the attack Claws. The later Call of the Netherdeep sheet uses Claw for the same roll."
+    }
+  },
+  {
+    "name": "Moorbounder",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "printedPage": 295,
+    "ac": 13,
+    "hp": 30,
+    "hitDice": "4d10 + 8",
+    "speed": "70 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sleek, broad-chested hunting cat with long ivory tusks, powerful hind legs, and large clawed paws.",
+    "habitats": [
+      "Marsh",
+      "Foothills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Explorer's Guide to Wildemount, March 2020 first printing, Wildemount Bestiary, Moorbounders, p. 295. https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/",
+      "Traits": "Standing Leap. The moorbounder can long jump up to 40 ft. or high jump up to 20 ft. from a standstill or after a run.",
+      "Actions": "Claws. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 14 (4d4 + 4) slashing damage.",
+      "Encounter ecology": "Moorbounders hunt in the marshes and muddy foothills of Xhorhas. Experienced handlers train them for hunting and riding into battle.",
+      "Source notes": "Wildemount labels the attack Claws. The later Call of the Netherdeep sheet uses Claw for the same roll."
+    }
+  },
+  {
+    "name": "Old Croaker",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 39,
+    "hitDice": "6d10 + 6",
+    "speed": "20 ft., swim 40 ft.",
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Immune to cold damage. Darkvision 30 ft., passive Perception 10. No languages.",
+    "cr": "1",
+    "xp": 200,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Explorer's Guide to Wildemount, March 2020 first printing, Frozen Sick, C5 Old Croaker's Pool, p. 240. https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/241/",
+      "Traits": "Amphibious. Old Croaker breathes air and water.\nStanding Leap. With or without a run, it can long jump 20 ft. or high jump 10 ft.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) piercing plus 5 (1d10) poison damage and grapples the target, escape DC 13. Until the grapple ends, that target is restrained and Old Croaker can bite only that target.\nSwallow. Make a Bite attack on a grappled target of Medium size or smaller. A hit ends the grapple and swallows the target. The swallowed creature is blinded and restrained, has total cover from outside attacks and effects, and takes 10 (3d6) acid damage at the start of each of Old Croaker’s turns. Old Croaker holds one swallowed target at once. When Old Croaker dies, the creature is no longer restrained and can move 5 ft. to emerge prone.",
+      "Encounter ecology": "Old Croaker lurks under the freezing pool in Croaker Cave. Hulil trained it to ferry visitors across the pool one at a time.",
+      "Encounter application": "A successful DC 15 Wisdom (Animal Handling) check can persuade Old Croaker to leave the party alone and carry the characters across individually.",
+      "Source notes": "The encounter changes the Giant Toad on Monster Manual p. 329 by granting cold damage immunity. D&D Beyond publishes this encounter variant as its own sheet."
+    },
+    "publication": "Explorer's Guide to Wildemount",
+    "printedPage": 240,
+    "passivePerception": 10,
+    "appearance": "A large toad with a broad mouth, warty back, and heavy hind legs.",
+    "habitats": [
+      "Cave",
+      "Frigid pool"
+    ],
+    "edition": "2014 fifth edition",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Koi Prawn",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 16,
+    "hitDice": "3d10",
+    "speed": "0 ft., swim 40 ft.",
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 11. No languages.",
+    "cr": "1/2",
+    "xp": 100,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Journeys through the Radiant Citadel, June 2022 first printing, Salted Legacy, Battle Prawn Challenge, pp. 25–26. https://www.dndbeyond.com/sources/dnd/jttrc/salted-legacy",
+      "Traits": "Charge. Moving at least 20 ft. straight toward a target and hitting it with Ram on the same turn adds 7 (2d6) bludgeoning damage. A creature hit this way makes a DC 11 Strength save or falls prone.\nWater Breathing. The prawn breathes only underwater.",
+      "Actions": "Ram. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) bludgeoning damage.",
+      "Encounter ecology": "Four eight-foot prawns occupy a pool-sized glass tank in the Dyn Singh Night Market. The prawns defend themselves if damaged. They have half cover from attackers outside the water. Sid stops the challenge immediately if a prawn reduces a character to 0 HP. The sous-chefs rescue wounded participants.",
+      "Source notes": "The encounter on p. 26 directs the DM to use the Giant Sea Horse from Monster Manual p. 328. The art on p. 25 depicts the prawn, with the single specimen here on plain parchment."
+    },
+    "publication": "Journeys through the Radiant Citadel",
+    "armor": "natural armor",
+    "printedPage": 26,
+    "passivePerception": 11,
+    "appearance": "An eight-foot jagged prawn with a segmented violet shell, cyan bands, long blue-violet antennae, and a spiny pointed rostrum.",
+    "habitats": [
+      "Underwater"
+    ],
+    "edition": "2014 fifth edition",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Rooster",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "10 ft.",
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4, passive Perception 14. No languages.",
+    "cr": "0",
+    "xp": 10,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Journeys through the Radiant Citadel, June 2022 first printing, Orchids of the Invisible Mountain, The Grassroads, p. 206. https://www.dndbeyond.com/sources/dnd/jttrc/orchids-of-the-invisible-mountain",
+      "Traits": "Keen Sight. The rooster has advantage on sight-based Wisdom (Perception) checks.",
+      "Actions": "Talons. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 slashing damage.",
+      "Encounter ecology": "A rooster sleeps beneath a Grassroads shelter. Rolling 10 on the Lean-To Items table reveals it.",
+      "Source notes": "Uses the Hawk on Monster Manual p. 330 with its flying speed removed by the adventure."
+    },
+    "publication": "Journeys through the Radiant Citadel",
+    "printedPage": 206,
+    "passivePerception": 14,
+    "appearance": "A domestic rooster with a red comb and wattles, curved back feathers, and clawed feet.",
+    "habitats": [
+      "Grasslands",
+      "Shelter"
+    ],
+    "edition": "2014 fifth edition",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  }
+]

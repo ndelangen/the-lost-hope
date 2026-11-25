@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Agony the Ghost",
+    "imageKey": "monster:agony-the-ghost",
+    "kind": "monster",
+    "type": "Undead",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/2821146-agony-the-ghost",
+    "challenge": "4",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/2821146-agony-the-ghost",
+    "slug": "agony-the-ghost",
+    "entry": "monster-6aab0d20e2d638a902878a99",
+    "version": "1ba6e5f3d1d9435d9da2f3fa",
+    "generated": true,
+    "primaryPortraitSha256": "6a2e668a95c81a5952e8bfbd06f33aa7b88b2cd43fc14d1bbbd8d334bc7faf75",
+    "status": "Stat block",
+    "appearance": "A horned tiefling ghost in tattered sailor’s clothes.",
+    "habitats": [
+      "Last Breath",
+      "Lower Cargo Hold",
+      "Second Wind",
+      "Wildspace"
+    ]
+  },
+  {
+    "name": "Flapjack the Flumph",
+    "imageKey": "monster:flapjack-the-flumph",
+    "kind": "monster",
+    "type": "Aberration",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/2821165-flapjack-the-flumph",
+    "challenge": "1/8",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/28079/839/1000/1000/637961800773321081.jpeg",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/2821165-flapjack-the-flumph",
+    "slug": "flapjack-the-flumph",
+    "entry": "monster-5a9d29e1d33190a1a0da938d",
+    "version": "404a4108db4661817ef6f5dc",
+    "generated": true,
+    "primaryPortraitSha256": "5e274c91abba183c7158337de8f30aab82be0e6f945d8621b435d9552a8830b5",
+    "status": "Stat block",
+    "appearance": "A floating, lavender flumph with eyestalks, trailing tentacles, and an oversized feathered hat.",
+    "habitats": [
+      "Moondancer",
+      "Wildspace",
+      "Lucent Edict"
+    ]
+  }
+]

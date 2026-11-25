@@ -1,0 +1,579 @@
+[
+  {
+    "name": "Ifan Talro'a",
+    "statBlock": {
+      "name": "Ifan Talro'a",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 25,
+      "classification": "Medium humanoid (human), neutral evil",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "description": "Port Nyanzaru's merchant prince for trained animals. Zhentarim contacts protect his interests, and his flying snakes carry reports about treasure hunters heading south.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Persuasion": 5
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Languages": "Any two languages, as in the Noble block.",
+        "Actions": "Rapier. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) piercing damage.",
+        "Reactions": "Parry. When a melee attack would hit, Ifan can add 2 to AC against that attack. The attacker must be visible to Ifan, who must be holding a melee weapon.",
+        "Encounter context": "Ifan's merchants sell mounts and pets and report back to him. He sells Flying Snakes trained to carry messages only to the Zhentarim. Omu's yuan-ti secretly pay him to report expeditions. He suspects who receives his messages.",
+        "Printed source": "Tomb of Annihilation, ch. 1, pp. 25–26. Use the Noble from Monster Manual (2014), p. 348."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Noble",
+          "terms": [
+            "Noble"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#noble_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Flying Snake",
+          "terms": [
+            "Flying Snake",
+            "Flying Snakes"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#flying%20snake_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jessamine",
+    "statBlock": {
+      "name": "Jessamine",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 26,
+      "classification": "Medium humanoid (human), neutral",
+      "ac": 15,
+      "hp": 58,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 13,
+      "description": "Port Nyanzaru's merchant prince for plants, poisons, and sanctioned killings. She keeps her worsening death curse hidden beneath bandages.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "hpRule": "The listed dice are for the Assassin base. Jessamine starts the adventure with a maximum of 58 HP, down from the base average of 78.",
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 4
+      },
+      "skills": {
+        "Acrobatics": 6,
+        "Deception": 3,
+        "Perception": 3,
+        "Stealth": 9
+      },
+      "sections": {
+        "Armor": "Studded Leather Armor.",
+        "Languages": "Thieves' Cant and any two other languages.",
+        "Damage resistances": "Poison.",
+        "Traits": "Assassinate. On her first turn, Jessamine has advantage on attacks against creatures that have yet to act. A hit against a surprised creature is a critical hit.\nEvasion. If a Dexterity save would let her take half damage, she takes none on a success and half on a failure.\nSneak Attack (once per turn). A weapon hit deals an extra 14 (4d6) damage if she attacks with advantage. She can also add this damage without advantage if she has no disadvantage and an ally who isn't incapacitated is within 5 ft. of the target.",
+        "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target also makes a DC 15 Constitution save, taking 24 (7d6) poison damage on a failure or half on a success.\nLight Crossbow. Ranged weapon attack, +6 to hit, range 80/320 ft., one target. A hit deals 7 (1d8 + 3) piercing damage. The target also makes a DC 15 Constitution save, taking 24 (7d6) poison damage on a failure or half on a success.",
+        "Death curse": "Jessamine was restored to life years ago, so the Soulmonger reduces her maximum HP by 1 each midnight after the adventure begins. The loss cannot be restored while it is active. She dies at a maximum of 0 HP, and the curse traps her soul if she dies while the Soulmonger remains active.",
+        "Encounter context": "Jessamine is inclined to help anyone trying to end the curse. At the council she speaks little and often breaks ties. She sells poisons at market price and controls the city's lawful writs for sanctioned killings.",
+        "Printed source": "Tomb of Annihilation, ch. 1, p. 26, and Death Curse, p. 6. Use the Assassin from Monster Manual (2014), p. 343, with maximum HP reduced to 58 at the adventure's start."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Assassin",
+          "terms": [
+            "Assassin"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#assassin_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jobal",
+    "statBlock": {
+      "name": "Jobal",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 26,
+      "classification": "Medium humanoid (human), neutral evil",
+      "ac": 13,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 15,
+      "description": "A former wilderness guide who now controls Port Nyanzaru's guide and mercenary trade. His trusted spy and partner, Aazon Talieri, arranges introductions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Nature": 4,
+        "Perception": 5,
+        "Stealth": 6,
+        "Survival": 5
+      },
+      "sections": {
+        "Armor": "Leather Armor.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Keen Hearing and Sight. Jobal has advantage on Wisdom (Perception) checks based on sight or hearing.",
+        "Actions": "Multiattack. Make two melee attacks or two ranged attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.",
+        "Encounter context": "Aazon can introduce the party to Port Nyanzaru's wilderness guides. Jobal charges the party nothing up front because the guides owe him a share of their earnings. If he learns about Syndra Silvane's map, he wants to buy it and may turn to theft or murder if refused.",
+        "Printed source": "Tomb of Annihilation, ch. 1, p. 26. Use the Scout from Monster Manual (2014), p. 349. Aazon uses the Spy block."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Scout",
+          "terms": [
+            "Scout"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#scout_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Spy",
+          "terms": [
+            "Spy",
+            "Aazon Talieri"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#spy_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Syndra Silvane",
+          "terms": [
+            "Syndra Silvane"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#syndra%20silvane_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kupalué",
+    "statBlock": {
+      "name": "Kupalué",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 35,
+      "classification": "Small plant, neutral",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "2d6 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Qawasha's vegepygmy companion, nicknamed Weed. The two use a sign language of their own.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Vegepygmy. Uses a private sign language with Qawasha.",
+        "Damage resistances": "Lightning and piercing.",
+        "Traits": "Plant Camouflage. Kupalué has advantage on Dexterity (Stealth) checks in terrain with enough plant cover to hide.\nRegeneration. At the start of its turn, Kupalué regains 3 HP. Cold, fire, or necrotic damage prevents regeneration at the start of its next turn. Kupalué dies only if it starts its turn at 0 HP and fails to regenerate.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Encounter context": "Kupalué travels with Qawasha, a guide from Fort Beluarian who deliberately seeks undead to clear them out. Kupalué stands about 3 ft. tall and weighs about 30 lb. dry or 50 lb. wet.",
+        "Printed source": "Tomb of Annihilation, ch. 1, p. 35. Appendix D reprints the Vegepygmy on p. 234, matching Volo's Guide to Monsters, p. 196."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Vegepygmy",
+          "terms": [
+            "Vegepygmy"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#vegepygmy_vgm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Qawasha",
+          "terms": [
+            "Qawasha"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#qawasha_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kwayothé",
+    "statBlock": {
+      "name": "Kwayothé",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 26,
+      "classification": "Medium humanoid (human), neutral evil",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "description": "A Port Nyanzaru merchant prince and priest of Kossuth, the fire god. She controls trade in fruit, wine, ale, tej, oils, perfume, and insect repellent.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Medicine": 7,
+        "Persuasion": 3,
+        "Religion": 5
+      },
+      "sections": {
+        "Armor": "Chain Shirt.",
+        "Languages": "Any two languages, as in the Priest block.",
+        "Damage resistances": "Fire while wearing her attuned Ring of Resistance (fire).",
+        "Special equipment": "Ring of Resistance (fire). The garnet ring gives Kwayothé resistance to fire damage while she wears it. The ring requires attunement.",
+        "Bonus actions": "Divine Eminence. Spend a spell slot. Until the end of her turn, Kwayothé's melee weapon hits deal extra radiant damage. A 1st-level slot adds 10 (3d6). Add 1d6 more for each slot level above 1st.",
+        "Actions": "Mace. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 3 (1d6) bludgeoning damage.",
+        "Spellcasting": "Kwayothé is a 5th-level cleric spellcaster using Wisdom (spell save DC 13, +5 to hit with spell attacks).\nCantrips at will. Light, Sacred Flame, Thaumaturgy.\n1st level, 4 slots. Cure Wounds, Guiding Bolt, Sanctuary.\n2nd level, 3 slots. Lesser Restoration, Spiritual Weapon.\n3rd level, 2 slots. Dispel Magic, Spirit Guardians.",
+        "Encounter context": "Her consorts, the Succubus Ixis and the Incubus Indar, pass for Chultan humans. Both are fiends. She undermines Zhanthi's family and business.",
+        "Printed source": "Tomb of Annihilation, ch. 1, p. 26. Use the Priest from Monster Manual (2014), p. 348, and apply the printed Ring of Resistance (fire)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Priest",
+          "terms": [
+            "Priest"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#priest_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Succubus",
+          "terms": [
+            "Succubus",
+            "Ixis"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#succubus_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Incubus",
+          "terms": [
+            "Incubus",
+            "Indar"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#incubus_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Zhanthi",
+          "terms": [
+            "Zhanthi"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zhanthi_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Laskilar",
+    "statBlock": {
+      "name": "Laskilar",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 67,
+      "classification": "Medium humanoid (human), neutral evil",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "The captain of the Stirge, a pirate ship out of Jahaka Anchorage. He hunts adventurers whose discoveries can be sold to wealthy buyers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 4,
+        "Dex": 5,
+        "Wis": 2
+      },
+      "skills": {
+        "Athletics": 4,
+        "Deception": 4
+      },
+      "sections": {
+        "Armor": "Studded Leather Armor.",
+        "Languages": "Any two languages, as in the Bandit Captain block.",
+        "Actions": "Multiattack. Make two melee Scimitar attacks and one melee Dagger attack, or two ranged Dagger attacks.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.\nCape of the Mountebank. While wearing the cape, Laskilar can cast Dimension Door as an action. It recharges at dawn. Smoke lightly obscures both the space he leaves and the space he arrives in. It lasts until the end of his next turn or until a light or stronger wind disperses it.",
+        "Reactions": "Parry. When a melee attack would hit, Laskilar can add 2 to AC against that attack. The attacker must be visible to Laskilar, who must be holding a melee weapon.",
+        "Encounter context": "Heel, a half-orc Gladiator, is his first mate. The Stirge carries twelve Bandits, six Thugs, and Caldos Hellingskorn, a Priest of Umberlee. The Anchorage captains have a pact with Liara Portyr.",
+        "Printed source": "Tomb of Annihilation, ch. 2, p. 67. Use the Bandit Captain from Monster Manual (2014), p. 344, with the printed Cape of the Mountebank from Dungeon Master's Guide (2014), p. 157."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Bandit Captain",
+          "terms": [
+            "Bandit Captain"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bandit%20captain_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Gladiator",
+          "terms": [
+            "Gladiator",
+            "Heel"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#gladiator_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Bandit",
+          "terms": [
+            "Bandit",
+            "Bandits"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bandit_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Thug",
+          "terms": [
+            "Thug",
+            "Thugs"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#thug_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Priest",
+          "terms": [
+            "Priest",
+            "Caldos Hellingskorn"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#priest_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Liara Portyr",
+          "terms": [
+            "Liara Portyr"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#liara%20portyr_toa"
+          }
+        }
+      ]
+    }
+  }
+]

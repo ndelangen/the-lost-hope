@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Plesiosaurus",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 13,
+    "hp": 60,
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Fixed Perception 13 and Stealth 14. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-necked marine reptile with dark sea-gray skin, a small narrow head, four paddle-shaped flippers, and a short tail.",
+    "habitats": [
+      "Coastal waters",
+      "Open ocean"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 259. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR +4, DEX +2, CON +3, INT −4, WIS +1, CHA −3. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Traits": "Hardy. Treat a critical hit against the plesiosaurus as a normal hit.\nHold Breath. It can hold its breath for 1 hour.",
+      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +6 to hit with 10-ft. reach against one target. Hit for 11 (2d6 + 4) piercing damage.",
+      "Bonus actions": "Flipper Slam. Underwater, send a shockwave in a 15-ft. cone. Each creature in the cone makes a DC 13 Constitution save. A failure leaves that creature off-balance until the end of its next turn. While off-balance, its speed is halved and it has disadvantage on its first attack roll on each of its turns."
+    }
+  },
+  {
+    "name": "Triceratops",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 13,
+    "hp": 126,
+    "speed": "50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "otherStatistics": "Natural armor. Fixed Perception 10 and Stealth 9. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stout, four-legged dinosaur with a wide bony frill, two long brow horns, a short nasal horn, and mottled brown-gray skin.",
+    "habitats": [
+      "Open grassland",
+      "Woodland edge"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 259. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR +6, DEX −1, CON +3, INT −4, WIS +0, CHA −3. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Traits": "Hardy. Treat a critical hit against the triceratops as a normal hit.\nTrampling Charge. Move at least 20 ft. straight toward a creature, then hit it with Gore on the same turn. The creature makes a DC 14 Strength save or falls prone. If the target is prone, the triceratops can make one Stomp attack against it as a bonus action.",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +9 to hit with 5-ft. reach against one target. Hit for 19 (3d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit with 5-ft. reach against one prone creature. Hit for 17 (2d10 + 6) bludgeoning damage.",
+      "Bonus actions": "Warning Bugle. Each creature in a 30-ft. cone makes a DC 14 Wisdom save. A failure frightens it until the end of its next turn. If the triceratops bugles before beginning the 20-ft. charge movement, the charge target has disadvantage on the Wisdom save. If it then fails the charge’s Strength save, the triceratops can Stomp the prone target without spending another bonus action."
+    }
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 13,
+    "hp": 184,
+    "speed": "50 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "otherStatistics": "Natural armor. Fixed Perception 14 and Stealth 10. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy bipedal dinosaur with an oversized toothed head, two-fingered forelimbs, thick hind legs, and a long counterbalancing tail.",
+    "habitats": [
+      "Open grassland",
+      "Woodland edge"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 259. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR +8, DEX +0, CON +4, INT −4, WIS +1, CHA −1. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Traits": "Hardy. Treat a critical hit against the tyrannosaurus as a normal hit.",
+      "Actions": "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +8 to hit with 10-ft. reach against one creature. Hit for 31 (4d12 + 5) piercing damage. A Large or smaller creature becomes grappled (escape DC 16) and restrained until the grapple ends. The tyrannosaurus cannot Bite another target while the grapple holds.\nTail. Melee weapon attack, +8 to hit with 10-ft. reach against one creature. Hit for 23 (4d8 + 5) bludgeoning damage.",
+      "Bonus actions": "Rending Shake. While grappling a creature, force it to make a DC 16 Strength save. On a failure it takes 6 (1d12) slashing damage, is thrown up to 20 ft. in a random direction, and falls prone. If it strikes a solid surface, it takes 3 (1d6) bludgeoning damage for every 10 ft. thrown. If the throw sends it at another creature, that creature makes a DC 16 Dexterity save or takes the same collision damage and falls prone."
+    }
+  },
+  {
+    "name": "Velociraptor",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 13,
+    "hp": 25,
+    "speed": "30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Natural armor. Fixed Perception 13 and Stealth 14. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slight bipedal raptor with a long muzzle, sickle-shaped toe claws, muted olive-and-russet feathering, and a stiff tail.",
+    "habitats": [
+      "Scrubland",
+      "Open woodland"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 260. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR −2, DEX +4, CON +1, INT −3, WIS +1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Traits": "Hardy. Treat a critical hit against the velociraptor as a normal hit.\nPack Tactics. Gain advantage on attack rolls against a target if one of its allies that is not incapacitated is within 5 ft. of that target.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 5 (1d6 + 2) piercing damage. A Medium or smaller creature becomes grappled (escape DC 12) and restrained until the grapple ends. The velociraptor cannot Bite another target while the grapple holds.\nClaws. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 4 (1d4 + 2) slashing damage.\nMaul. Choose a creature the velociraptor has grappled. It makes a DC 12 Strength save, taking 10 (4d4) slashing damage on a failure or half on a success."
+    }
+  },
+  {
+    "name": "Stirge",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 14,
+    "hp": 7,
+    "speed": "10 ft., fly 40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Natural armor. Fixed Perception 9 and Stealth 12. Darkvision 60 ft. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tiny batlike blood feeder with dusty brown fur, leathery wings, hooked grasping feet, and a long needle-shaped proboscis.",
+    "habitats": [
+      "Caves",
+      "Marshes"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 340. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR −3, DEX +2, CON +0, INT −4, WIS −1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Actions": "Blood Drain. Melee weapon attack, +4 to hit with 5-ft. reach against one creature. Hit for 4 (1d4 + 2) piercing damage and attach to that creature. While attached, the stirge cannot attack. At the start of each stirge turn, its host loses 4 (1d4 + 2) HP from blood loss. The stirge moves with the host without expending its own movement. On its turn, it can spend 5 ft. of movement to detach. It does so after draining 8 HP of blood or when the host dies. A creature, including the host, can use its action to detach the stirge.",
+      "Reactions": "Reactive Wiggle. If a creature within 5 ft. attacks the attached stirge, the stirge can react. The attacker makes a DC 12 Dexterity save. On a failure, the attack targets the host instead."
+    }
+  }
+]

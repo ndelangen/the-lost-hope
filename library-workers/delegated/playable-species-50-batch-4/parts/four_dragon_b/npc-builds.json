@@ -1,0 +1,283 @@
+{
+  "builds": [
+    {
+      "id": "dnd35-fireblood-dwarf-bera-cinderbrace",
+      "title": "Kiln road escort, Fighter 1",
+      "size": "Medium",
+      "ac": 17,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 1,
+      "speed": "20 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Dwarven, Terran.",
+      "skills": [
+        "Craft (armorsmithing) +7",
+        "Intimidate +2",
+        "Ride +5"
+      ],
+      "traits": [
+        "Scale mail +4, heavy wooden shield +2, Dex +1. Touch AC 11, flat-footed AC 16. BAB +1, grapple +3. Fort +5, Ref +1, Will +0. Add +2 to saves against spells and spell-like abilities.",
+        "Fire resistance 5. Against dragons, AC 21 or touch AC 15 while eligible for Dexterity to AC. Grounded Stability gives +4 to checks resisting a trip or bull rush.",
+        "Combat Expertise and Improved Trip. Stonecunning adds +2 to checks involving unusual stonework. She can sense approximate depth underground and make the special Search check for stonework traps."
+      ],
+      "actions": [
+        "Battleaxe +3 melee, 1d8+2 slashing, ×3. Add +1 to the attack roll against orcs or goblinoids.",
+        "With the axe dropped or stowed, trip at +3 melee touch, then make an opposed Strength check at +6. Improved Trip prevents the opening attack of opportunity and permits an immediate melee follow-up on success. With her axe out of hand, the follow-up can be an unarmed strike at +3 for 1d3+2 nonlethal, which provokes normally. A failed check may allow a counter-trip.",
+        "Combat Expertise shifts 1 point from melee attack rolls to dodge AC until her next action while she uses a melee attack action or full attack."
+      ],
+      "tactics": "Bera holds the narrow side of the kiln road, keeps her shield up, and tries a trip if someone rushes past her.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid (Dwarf, Dragonblood)",
+      "difficulty": "Fighter 1, ECL 1.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 13,
+        "WIS": 10,
+        "CHA": 6
+      }
+    },
+    {
+      "id": "dnd35-stonehunter-gnome-idrin-copperstep",
+      "title": "Copper hill tracker, Ranger 1",
+      "size": "Small",
+      "ac": 16,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "20 ft.",
+      "senses": "Low-light vision.",
+      "languages": "Common, Gnome, Dwarven.",
+      "skills": [
+        "Climb +6",
+        "Hide +11",
+        "Listen +7",
+        "Move Silently +7",
+        "Search +5",
+        "Spot +5",
+        "Survival +7"
+      ],
+      "traits": [
+        "Leather armor +2, Dex +3, Small +1. Touch AC 14, flat-footed AC 13. BAB +1, grapple −3. Fort +4, Ref +5, Will +1. Dodge AC +4 against giants while eligible for Dexterity to AC.",
+        "Favored enemy Magical Beast gives +2 on weapon damage and on Bluff, Listen, Sense Motive, Spot, and Survival checks involving those creatures. Bonuses to Climb and Survival from Hunter’s Insight are already included.",
+        "Track and Point Blank Shot. Wild Empathy +1 with animals or −3 with eligible magical beasts."
+      ],
+      "actions": [
+        "Small shortbow +5 ranged, 1d4 piercing, ×3, range increment 60 ft. Point Blank Shot adds +1 attack and +1 damage within 30 ft.",
+        "Small short sword +2 melee, 1d4 piercing, 19–20/×2.",
+        "Add +1 racial on weapon attacks against kobolds or goblinoids. Add +2 weapon damage against magical beasts.",
+        "Once each per day at caster level 1, use dancing lights, ghost sound (Will DC 10 to disbelieve), prestidigitation, or speak with animals for one minute with a burrowing mammal only."
+      ],
+      "tactics": "Idrin checks for tracks and asks a burrowing animal where an unfamiliar scent went. He stays at bow range in a fight.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid (Gnome, Dragonblood)",
+      "difficulty": "Ranger 1, ECL 1.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 10
+      }
+    },
+    {
+      "id": "dnd35-glimmerskin-halfling-janna-goldseed",
+      "title": "Caravan scout and field medic, Rogue 1",
+      "size": "Small",
+      "ac": 16,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 7,
+      "speed": "20 ft.",
+      "senses": "Normal vision.",
+      "languages": "Common, Halfling, Gnome.",
+      "skills": [
+        "Climb +6",
+        "Disable Device +5",
+        "Heal +5",
+        "Hide +11",
+        "Listen +7",
+        "Move Silently +7",
+        "Open Lock +7",
+        "Search +5",
+        "Tumble +7"
+      ],
+      "traits": [
+        "Leather armor +2, Dex +3, Small +1. Touch AC 14, flat-footed AC 13. BAB +0, grapple −4. Fort +2, Ref +6, Will +2 include the halfling bonus. Add +2 morale against fear. Improved Initiative adds +4.",
+        "Sneak Attack adds 1d6 when an enemy is denied Dexterity to AC or is flanked in melee. Ranged Sneak Attack requires a target within 30 ft. Trapfinding allows Search for traps over DC 20 and Disable Device against magic traps. She carries ordinary thieves’ tools."
+      ],
+      "actions": [
+        "Small dagger +1 melee or +5 thrown, 1d3 piercing or slashing in melee, piercing when thrown, 19–20/×2. Range increment 10 ft.",
+        "Touch of Luck once per day, immediate action before the roll. She or an ally within 30 ft. gets +2 luck on that saving throw.",
+        "First aid as a standard action. Heal +5 against DC 15 to stabilize a dying creature."
+      ],
+      "tactics": "Janna scouts ahead and saves her luck for an ally in danger. She looks for a safe flank or throws a dagger from cover.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid (Halfling, Dragonblood)",
+      "difficulty": "Rogue 1, ECL 1.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      }
+    },
+    {
+      "id": "dnd35-frostblood-orc-hurg-rimeshield",
+      "title": "Night pass guard, Fighter 1",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "speed": "20 ft. in armor, 30 ft. unarmored.",
+      "senses": "Darkvision 60 ft. Light sensitivity causes dazzled in bright sunlight or a daylight spell.",
+      "languages": "Common, Orc.",
+      "skills": [
+        "Handle Animal +2",
+        "Intimidate +3",
+        "Ride +2"
+      ],
+      "traits": [
+        "Scale mail +4, Dex +1. Touch AC 11, flat-footed AC 14. BAB +1, grapple +5. Fort +4, Ref +1, Will +0.",
+        "Cold resistance 10, fire vulnerability. Weapon Focus (spear), Power Attack, and racial Endurance. Dazzled gives −1 to attacks and to Search and Spot checks."
+      ],
+      "actions": [
+        "Spear +6 melee, 1d8+6 piercing, ×3. Power Attack for 1 changes that to +5 melee and 1d8+8.",
+        "Spear +3 thrown, 1d8+4 piercing, ×3, range increment 20 ft.",
+        "Ready a planted spear against a charge for double damage on a hit against the charging creature."
+      ],
+      "tactics": "Hurg works nights to avoid the glare. He braces at the narrowest point and withdraws if the way fills with fire.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid (Orc, Dragonblood)",
+      "difficulty": "Fighter 1, ECL 1.",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 8
+      }
+    },
+    {
+      "id": "dnd35-frostblood-half-orc-ilyra-coldbriar",
+      "title": "Winter route ranger, Ranger 3",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "3d8+6",
+      "initiative": 7,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Orc.",
+      "skills": [
+        "Climb +9",
+        "Hide +9",
+        "Listen +7",
+        "Move Silently +9",
+        "Spot +7",
+        "Survival +7"
+      ],
+      "traits": [
+        "Leather armor +2, Dex +3. Touch AC 13, flat-footed AC 12. BAB +3, grapple +6. Fort +5, Ref +6, Will +2. First hit die is 8 and later rolls are 4 each, before Constitution.",
+        "Cold resistance 10, fire vulnerability. Track, archery combat style, Point Blank Shot, Improved Initiative, and racial Endurance. Ranger 3 would grant Endurance again, so she takes Precise Shot and meets its prerequisite through Point Blank Shot.",
+        "Favored enemy Animal gives +2 on applicable Bluff, Listen, Sense Motive, Spot, Survival, and weapon damage. Wild Empathy +2 with animals, −2 with eligible magical beasts."
+      ],
+      "actions": [
+        "Shortbow +6 ranged, 1d6 piercing, ×3, range increment 60 ft. Point Blank Shot adds +1 attack and +1 damage within 30 ft. Precise Shot removes the usual −4 for shooting a foe in melee.",
+        "Rapid Shot with light armor as a full attack, two shortbow attacks at +4 each before Point Blank Shot.",
+        "Short sword +6 melee, 1d6+3 piercing, 19–20/×2. Add +2 weapon damage against animals."
+      ],
+      "tactics": "Ilyra follows tracks at the edge of the trail. She uses one shot if she needs to move, and two from a clear position.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid (Orc, Dragonblood)",
+      "difficulty": "Ranger 3, ECL 3.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Bera Cinderbrace",
+      "species": "Fireblood Dwarf",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-fireblood-dwarf-bera-cinderbrace",
+      "role": "Kiln road escort.",
+      "motive": "Get an overdue pottery wagon down from the ridge.",
+      "hook": "She has the key to the toll gate but will only open it after checking the wagon seals."
+    },
+    {
+      "name": "Idrin Copperstep",
+      "species": "Stonehunter Gnome",
+      "size": "Small",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-stonehunter-gnome-idrin-copperstep",
+      "role": "Track finder for ravine travelers.",
+      "motive": "Find the animal digging through the ridge trail.",
+      "hook": "He will guide the party to fresh tracks if they help mark a safe detour."
+    },
+    {
+      "name": "Janna Goldseed",
+      "species": "Glimmerskin Halfling",
+      "size": "Small",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-glimmerskin-halfling-janna-goldseed",
+      "role": "Caravan scout and first-aid hand.",
+      "motive": "Recover the three parcels from a wagon that never reached the depot.",
+      "hook": "Janna knows a shortcut to the stranded wagon and needs someone to watch the road."
+    },
+    {
+      "name": "Hurg Rimeshield",
+      "species": "Frostblood Orc",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-frostblood-orc-hurg-rimeshield",
+      "role": "Night guard at a snowbound pass.",
+      "motive": "Keep caravans off the avalanche road until the marker ropes are replaced.",
+      "hook": "He offers safe passage by a lower route in exchange for a replacement lantern."
+    },
+    {
+      "name": "Ilyra Coldbriar",
+      "species": "Frostblood Half-Orc",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-frostblood-half-orc-ilyra-coldbriar",
+      "role": "Guide and searcher for winter caravans.",
+      "motive": "Find the missing guide before the next snowstorm.",
+      "hook": "Ilyra has traced the guide to a shuttered stable that someone has been visiting after dark."
+    }
+  ]
+}

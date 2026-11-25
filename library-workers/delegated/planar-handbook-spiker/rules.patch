@@ -1,0 +1,148 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -313134,6 +313134,21 @@
+       ]
+     },
+     {
++      "name": "Spiker",
++      "kind": "species",
++      "publication": "Planar Handbook (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Humanoid native to Acheron. The species entry gives the Extraplanar subtype away from Acheron. Land speed 30 ft., darkvision 60 ft., and no racial ability score adjustments.",
++        "Natural armor +1, acid resistance 5, and DR 2/piercing or slashing. Either piercing or slashing bypasses the DR. The official errata corrects the first printing’s DR label.",
++        "Metallic-looking skin grants no special susceptibility to rusting effects.",
++        "Natural Spikes work as armor spikes, with Martial Weapon Proficiency granted as a racial bonus feat. Medium spikes deal 1d6 piercing, critical ×2. They can make a regular light melee attack or one off-hand attack under the normal two-weapon rules.",
++        "Use the spikes on a successful opposed grapple check made to deal damage. They replace ordinary unarmed grapple damage. Alternatively, make the light spike attack against AC while grappling at the usual −4. The spikes deal no automatic damage on unrelated grapple checks or to a creature merely holding the Spiker.",
++        "Worn armor has its maximum Dexterity bonus reduced by 1 and its armor check penalty worsened by 2. A chain shirt has maximum Dexterity bonus +3 and armor check penalty −4 for a Spiker. Shields and arcane spell failure are unaffected by these changes.",
++        "Common is automatic and Infernal is a bonus language. Favored class Fighter. LA +0. The playable profile adds no racial Hit Dice."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Player's Handbook (2014)",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -2312,6 +2312,79 @@
+       "tactics": "Examine the water at the surface before diving to inspect the intake. Use Heal on the crew and cast at the surface. A small supply can be purified for drinking while the party looks for the source of the fouling."
+     },
+     {
++      "id": "spiker-mill-gate-duelist-35e",
++      "title": "Spiker mill gate duelist, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Humanoid (Extraplanar)",
++      "ac": 18,
++      "hp": 12,
++      "hitDice": "1d10+2",
++      "initiative": 4,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 14,
++        "DEX": 18,
++        "CON": 14,
++        "INT": 10,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": ["Climb +2 (+6 unarmored)", "Jump +2 (+6 unarmored)"],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common",
++      "traits": [
++        "Lawful neutral. This encounter takes place on the Material Plane. Natural armor +1, chain shirt +4, and Dexterity +3 after the racial armor cap. Touch 13, flat-footed 15. Armor check penalty −4. With the shirt removed, AC 15, touch 14, flat-footed 11.",
++        "BAB +1, grapple +3. Fortitude +4, Reflex +4, Will +0. The armor cap applies to AC. Initiative and Reflex still use Dexterity +4.",
++        "Two-Weapon Fighting is the Fighter bonus feat. Weapon Focus (longsword) adds +1 to longsword attacks. The natural spikes are a light off-hand option with the racial proficiency.",
++        "Natural armor +1, acid resistance 5, and DR 2/piercing or slashing. Either piercing or slashing bypasses the DR. The official errata corrects the first printing’s DR label."
++      ],
++      "actions": [
++        "Longsword +4 melee, 1d8+2 slashing, critical 19–20/×2, 5-ft. reach. Natural spikes alone +3 melee, 1d6+2 piercing, critical ×2, 5-ft. reach.",
++        "Two-weapon full attack: longsword +2 for 1d8+2 and light off-hand spikes +1 for 1d6+1. Apply −2 to both attacks and half the Strength bonus to off-hand damage. The spikes occupy the off-hand attack in this sequence.",
++        "Javelin +5 ranged, 1d6+2 piercing, critical ×2, 30-ft. increment."
++      ],
++      "tactics": "Parry waits at the mill gate while the workers bring down the shutters. He keeps his chain shirt on while holding the approach. If he needs to climb the service ladder, he can take off the shirt first to free his reach and improve Climb."
++    },
++    {
++      "id": "spiker-cistern-grapple-warden-35e",
++      "title": "Spiker cistern grapple warden, Monk 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Humanoid (Extraplanar)",
++      "ac": 14,
++      "hp": 10,
++      "hitDice": "1d8+2",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 12,
++        "CON": 14,
++        "INT": 10,
++        "WIS": 14,
++        "CHA": 8
++      },
++      "skills": ["Climb +7", "Jump +7", "Listen +8", "Spot +4", "Tumble +5"],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common",
++      "traits": [
++        "Lawful good. This encounter takes place on the Material Plane. Unarmored, natural armor +1, Dexterity +1, Wisdom +2. Touch 13, flat-footed 13. BAB +0, grapple +7 with Improved Grapple. Fortitude +4, Reflex +3, Will +4. Alertness adds +2 Listen and Spot.",
++        "Improved Grapple is his Monk bonus feat. Grip can initiate a grapple with a +3 melee touch attack without provoking for the attempt, then makes the opposed grapple check at +7.",
++        "Natural armor +1, acid resistance 5, and DR 2/piercing or slashing. Either piercing or slashing bypasses the DR. The official errata corrects the first printing’s DR label."
++      ],
++      "actions": [
++        "Unarmed strike +3 melee, 1d6+3 bludgeoning, critical ×2, 5-ft. reach. Unarmed flurry +1/+1, 1d6+3 each. Spike attack separately at +3 melee, 1d6+3 piercing, critical ×2.",
++        "In an existing grapple, use Damage Your Opponent and win the opposed check at +7 to deal 1d6+3 piercing with the spikes in place of unarmed damage. There is no spike damage on unrelated grapple checks.",
++        "With the grappling Attack Your Opponent option, attack AC with the light spikes at −1 after the −4 penalty, for 1d6+3 piercing. The Improved Grapple bonus does not add to that attack roll."
++      ],
++      "tactics": "Grip leads the last cistern workers past a broken grate. He can hold a foe in a grapple while the party clears the steps. He only uses his spikes to deal damage if the threat persists."
++    },
++    {
+       "id": "sea-kin-lock-warden-35e",
+       "title": "Sea Kin tidal lock warden, Fighter 1",
+       "origin": "Original DM Library NPC",
+@@ -3112,6 +3185,28 @@
+       "hook": "Irimel can find old warning lines and pinpoint someone calling from the fog if the party keeps the trail open."
+     },
+     {
++      "species": "Spiker",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Parry Millguard",
++      "build": "spiker-mill-gate-duelist-35e",
++      "role": "Mill gate duelist and Fighter.",
++      "motive": "Keep the approach clear until the workers finish closing the shutters.",
++      "hook": "Parry can hold the mill gate while the party checks the service ladder."
++    },
++    {
++      "species": "Spiker",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Grip Stonebrace",
++      "build": "spiker-cistern-grapple-warden-35e",
++      "role": "Cistern grapple warden and Monk.",
++      "motive": "Get the last workers up the steps before the broken grate gives out.",
++      "hook": "Grip can hold the lower landing while the party guides the workers out."
++    },
++    {
+       "species": "Mongrelfolk",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -8912,6 +8912,7 @@
+ Spiderdragon	monster	Monstrosity	Vecna: Eve of Ruin	2014 fifth edition	Wizards of the Coast		11
+ Spiderfrog	beast	Beast	Muk's Guide To Everything He Learned From Tasha	2014 fifth edition	Wizards of the Coast		1/4
+ Spiked Tomb Guardian	monster	Construct	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast		6
++Spiker	species	Humanoid (Extraplanar)	Planar Handbook (2004)	3.5 edition	Wizards of the Coast	https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes	
+ Spined Devil	monster	Fiend	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17214-spined-devil	2
+ Spined Devil	monster	Fiend	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195214-spined-devil	2
+ Spined Devil	monster	Fiend	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17214-spined-devil	2

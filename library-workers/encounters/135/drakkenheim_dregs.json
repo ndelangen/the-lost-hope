@@ -1,0 +1,724 @@
+[
+  {
+    "name": "Aquatic Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199.",
+    "notes": "Applies the printed Aquatic mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Aquatic Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Blindsight 30 ft., darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A gilled dreg armed with a spear, found in sewers and flooded caverns.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Aquatic mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nAmphibious. The dreg breathes air and water and can swim 30 ft.\nBlindsight. The dreg gains blindsight out to 30 ft.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Appendix A, p. 199."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ],
+      "ruleNotes": [
+        "The variant description mentions shields. The listed mutations leave the base AC of 11 in place."
+      ]
+    }
+  },
+  {
+    "name": "Bloated Delerium Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199.",
+    "notes": "Applies the printed Bloated mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Bloated Delerium Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A swollen dreg that attacks with a spray of acid. Its body bursts when it dies.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Bloated mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nDeath Burst. When the dreg dies, each creature within 5 ft. makes a DC 11 Constitution save. A creature takes 7 (2d6) necrotic damage on a failed save or half as much on a success. A failure by at least 5 also adds one level of contamination.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.\nBile Spray (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 11 Dexterity save. A creature takes 7 (2d6) acid damage on a failed save or half as much on a success. A failure by at least 5 also adds one level of contamination.",
+        "Printed source": "Appendix A, p. 199."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ],
+      "sharedRules": [
+        "Delerium contamination"
+      ]
+    }
+  },
+  {
+    "name": "Chitinous Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199.",
+    "notes": "Applies the printed Chitinous mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Chitinous Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 18,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "Hard plates cover the dreg and raise its Armor Class.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Chitinous mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nArmored Shell. The dreg has AC 18.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Appendix A, p. 199."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cyclopean Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199.",
+    "notes": "Applies the printed Cyclopean mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Cyclopean Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Immune to psychic damage and the Frightened condition. Truesight 60 ft., darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A keen-sighted dreg whose shriek can frighten creatures nearby.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Cyclopean mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nSpectral Vision. The dreg gains truesight out to 60 ft. and has advantage on Wisdom (Perception) checks that rely on sight.\nMad Certainty. The dreg is immune to psychic damage and the Frightened condition.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.\nPsychic Shriek (Recharge 6). Each creature within 20 ft. makes a DC 10 Wisdom save. On a failure, it takes 7 (2d6) psychic damage and is Frightened for 1 minute. It can repeat the save at the end of each of its turns, ending the condition on a success.",
+        "Printed source": "Appendix A, p. 199."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Delerium Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199.",
+    "notes": "Summarizes the original printed base stat block.",
+    "statBlock": {
+      "name": "Delerium Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A former inhabitant of Drakkenheim warped by contamination. It can hide more easily in the city's mist.",
+      "sections": {
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Appendix A, p. 199."
+      }
+    }
+  },
+  {
+    "name": "Displaced Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199.",
+    "notes": "Applies the printed Displaced mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Displaced Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A dreg that is hard to strike and can attack as it teleports.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Displaced mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nDisplacement. Attacks against the dreg have disadvantage. A hit suppresses this trait until the end of its next turn. The trait also stops while the dreg is Incapacitated or its speed is 0.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.\nTeleport (Recharge 4–6). The dreg and its worn or carried equipment teleport up to 60 ft. to a visible, unoccupied space. It can make one melee attack before or after teleporting. A hit deals an extra 7 (2d6) psychic damage.",
+        "Printed source": "Appendix A, p. 199."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Frenzied Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199 for the base and p. 200 for the mutation.",
+    "notes": "Applies the printed Frenzied mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Frenzied Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A dreg that strikes harder and can leave itself open to land a blow.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Frenzied mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nReckless. At the start of its turn, the dreg can choose to gain advantage on all melee weapon attack rolls for that turn. Attacks against it then have advantage until the start of its next turn.\nBrute. When the dreg hits with a melee weapon, add one die of that weapon's damage.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Appendix A, p. 199 for the base and p. 200 for the mutation."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lambent Delerium Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199 for the base and p. 200 for the mutation.",
+    "notes": "Applies the printed Lambent mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Lambent Delerium Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A glowing dreg with a beam that can spread contamination.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Lambent mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nIllumination. The dreg sheds bright light within 15 ft. and dim light for another 15 ft.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.\nOctarine Beam. Choose one creature the dreg can see within 60 ft. It makes a DC 10 Constitution save, taking 10 (3d6) radiant damage on a failure or half as much on a success. A failure by at least 5 also adds one level of contamination.",
+        "Printed source": "Appendix A, p. 199 for the base and p. 200 for the mutation."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ],
+      "sharedRules": [
+        "Delerium contamination"
+      ]
+    }
+  },
+  {
+    "name": "Leeching Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199 for the base and p. 200 for the mutation.",
+    "notes": "Applies the printed Leeching mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Leeching Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A dreg that leaps toward a target and latches on to drain it.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Leeching mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nBounding Leap. The dreg can long jump up to 30 ft. or high jump up to 15 ft. with or without a running start.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.\nBlood Drain. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. Hit 4 (1d4 + 2) piercing damage, and the dreg attaches to the target. While attached, the dreg cannot attack and the target takes 7 (2d6) necrotic damage at the start of each of the dreg's turns. The dreg travels with the target without spending movement. It can spend 5 ft. of movement on its turn to let go. The target or another creature can use an action to pull it off.",
+        "Printed source": "Appendix A, p. 199 for the base and p. 200 for the mutation."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lurking Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199 for the base and p. 200 for the mutation.",
+    "notes": "Applies the printed Lurking mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Lurking Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A dreg that can pass for a humanoid and strike when it has an opening.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Lurking mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nNormal Semblance. The dreg has advantage on Charisma (Deception) checks to pass for an ordinary humanoid.\nSneak Attack (1/turn). A weapon hit deals an extra 7 (2d6) damage if the dreg has advantage on the attack, or if one of its allies is within 5 ft. of the target, that ally is not Incapacitated, and the dreg does not have disadvantage on the attack.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Appendix A, p. 199 for the base and p. 200 for the mutation."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Spined Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199 for the base and p. 200 for the mutation.",
+    "notes": "Applies the printed Spined mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Spined Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A wall-climbing dreg that fires volleys of spines.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Spined mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nSpider Climb. The dreg's climbing speed equals its walking speed. It can climb difficult surfaces and ceilings without an ability check.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.\nMultiattack. The dreg makes three Spike attacks.\nSpike. Ranged weapon attack, +3 to hit, 20/60-ft. range, one target. Hit 3 (1d4 + 1) piercing damage.",
+        "Printed source": "Appendix A, p. 199 for the base and p. 200 for the mutation."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tentacled Dreg",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199 for the base and p. 200 for the mutation.",
+    "notes": "Applies the printed Tentacled mutation to the Delerium Dreg.",
+    "statBlock": {
+      "name": "Tentacled Dreg",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A dreg that fits through narrow gaps and holds prey with long tentacles.",
+      "sections": {
+        "Base stat block": "Delerium Dreg, Appendix A, p. 199. Apply the printed Tentacled mutation shown in this profile.",
+        "Traits": "Misty Camouflage. The dreg has advantage on Dexterity (Stealth) checks to hide in mist or fog that obscures the area.\nAmorphous. The dreg can pass through an opening as narrow as 6 inches without squeezing.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, 5-ft. reach or 20/60-ft. range, one target. Hit 5 (1d6 + 2) piercing damage. Wielding the spear in two hands for a melee attack deals 6 (1d8 + 2) piercing damage.\nTentacles. Melee weapon attack, +4 to hit, 15-ft. reach, one target. Hit 9 (2d6 + 2) bludgeoning damage. A creature hit is Grappled (escape DC 12) and Restrained until the grapple ends. The dreg cannot use Tentacles on another target while it holds that creature.",
+        "Printed source": "Appendix A, p. 199 for the base and p. 200 for the mutation."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Delerium Dreg",
+          "kind": "monster"
+        }
+      ]
+    }
+  }
+]

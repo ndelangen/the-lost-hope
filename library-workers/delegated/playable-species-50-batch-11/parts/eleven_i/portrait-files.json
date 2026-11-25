@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Pony",
+    "file": "portraits/pony.png",
+    "sha256": "3d84fc0335faf050611b96aedd6584687750a818ad6a95955ed41650794fe1b2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Quipper",
+    "file": "portraits/quipper.png",
+    "sha256": "4dbd59bf06d6b8bdd579edd0d136a431e0f734c02b3cc13a4512086de84f2fad",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Reef Shark",
+    "file": "portraits/reef-shark.png",
+    "sha256": "f686250f255d831159d5c19a33407f7f3072fe1ba0903a74eddcdeae167aff51",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Rhinoceros",
+    "file": "portraits/rhinoceros.png",
+    "sha256": "c8d56068e5fb163a693dfa060bd6128f5c4da9d13f2c93e76184cf7d9377826a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Scorpion",
+    "file": "portraits/scorpion.png",
+    "sha256": "fd2161f9d3937e26cd1e20393ad6a6d81ff3c936bace51e577328d72e59ad18b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

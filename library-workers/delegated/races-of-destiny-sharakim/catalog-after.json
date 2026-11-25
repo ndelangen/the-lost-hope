@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Sharakim",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "147a198619387751d088ede1",
+      "publication": "Races of Destiny (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144441M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Human subtype. Strength +2, Dexterity −2, Intelligence +2, Charisma −2. Base land speed 30 ft.",
+            "Darkvision 60 ft. in black and white. +1 natural armor bonus to AC.",
+            "Shadow Affinity (Ex) gives +2 racial bonus to Hide, Move Silently, Search, and Spot in darkness or shadowy illumination.",
+            "Light Sensitivity (Ex) gives −1 on attack rolls in bright sunlight or within a daylight spell. Its penalty applies to attack rolls only.",
+            "+1 racial bonus on attack rolls against orcs and half-orcs. The bonus and the light penalty both apply if both conditions are present.",
+            "Common is automatic. Bonus languages Dwarven, Elven, Gnome, and Orc. Favored class Wizard. Level adjustment +1."
+          ]
+        },
+        {
+          "title": "Original NPC · Maren Eldermere",
+          "lines": [
+            "Seed vault keeper and generalist Wizard.",
+            "Motive. Find out who entered the seed vault before a delayed spring shipment is reopened.",
+            "Hook. Maren can study the damaged catches if the party keeps the room clear and brings the missing inventory board.",
+            "Sharakim seed vault keeper, Wizard 1 · Provisional CR 2. ECL 2. · Medium Humanoid (Human)",
+            "AC 11 · HP 5 (1d4+1) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Oswin Fenlock",
+          "lines": [
+            "Cistern inspector and Rogue.",
+            "Motive. Find what keeps tripping the cistern gate before the next water draw.",
+            "Hook. Oswin can inspect the dark maintenance stair if the party keeps the main lever still.",
+            "Sharakim cistern inspector, Rogue 1 · Provisional CR 2. ECL 2. · Medium Humanoid (Human)",
+            "AC 14 · HP 7 (1d6+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Maren Eldermere": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Maren Eldermere",
+              "group": "Sharakim",
+              "publication": "Sharakim seed vault keeper, Wizard 1",
+              "local": {
+                "entry": "npc-bcf50a2eef927dbb17309499",
+                "version": "6bb8e7247d8f4f2867a750c1"
+              }
+            }
+          }
+        ],
+        "Original NPC · Oswin Fenlock": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Oswin Fenlock",
+              "group": "Sharakim",
+              "publication": "Sharakim cistern inspector, Rogue 1",
+              "local": {
+                "entry": "npc-b638baeead68e656471c266f",
+                "version": "48618c0c9338ddc079ee6142"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Sharakim": true,
+      "sharakim shadow affinity": true,
+      "sharakim light sensitivity": true,
+      "sharakim seed vault keeper": true,
+      "sharakim cistern inspector": true
+    },
+    "hash": "d148d4468225bdc5152441bb26ed2044acfccbf8dc8129675931e6be7dd19210",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Destiny (2004)",
+    "defaultVersionKey": "147a198619387751d088ede1",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Aurumvas",
+    "slug": "aurumvas",
+    "id": "monster-461c4772a770bcb5ddd6ad8c:0bdeaa29b5c8b66644a5fd42",
+    "entry": "monster-461c4772a770bcb5ddd6ad8c",
+    "version": "0bdeaa29b5c8b66644a5fd42",
+    "suffix": "encounters-46/aurumvas.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-46/aurumvas.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-46/event-drafts/aurumvas-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 46 2026-11-23/event-drafts/aurumvas-event-v1.png",
+    "overrides": [],
+    "sha256": "a4bdb64ce1ea4e768b091f5ddb5f1e05f438c75970db26f2678c6c0a1996b51e",
+    "bytes": 2760292
+  },
+  {
+    "name": "Pitling",
+    "slug": "pitling",
+    "id": "monster-ccd26b7e16a1ef84cca261ec:274be6059ac0cd3d3389e998",
+    "entry": "monster-ccd26b7e16a1ef84cca261ec",
+    "version": "274be6059ac0cd3d3389e998",
+    "suffix": "encounters-46/pitling.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-46/pitling.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-46/event-drafts/pitling-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 46 2026-11-23/event-drafts/pitling-event-v1.png",
+    "overrides": [],
+    "sha256": "0fb059e80171400092bd7df65b7a24299274e67250923366187a97af5659ffc9",
+    "bytes": 2445342
+  }
+]

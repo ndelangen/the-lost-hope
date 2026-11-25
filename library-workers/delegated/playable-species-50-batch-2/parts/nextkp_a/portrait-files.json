@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alseid",
+    "file": "portraits/alseid.png",
+    "sha256": "571178f71429bfb5b43e413b16eb2964224bb169d5299a12124f5947273ca60e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Erina",
+    "file": "portraits/erina.png",
+    "sha256": "61eba9cec2da8675a495f2a0f2c2af9d5ce5a88133b33b243d9ade0656bee386",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Piney",
+    "file": "portraits/piney.png",
+    "sha256": "660eb41db2d44f26fcc148a7fcfcf21c353a7e68b289e82bfb1d299c8ed1d793",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ravenfolk",
+    "file": "portraits/ravenfolk.png",
+    "sha256": "7f2f6141bf9d9a735c1f32eeff5ed7f34bdcc39309dfd373edb16404a4d70973",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Trollkin",
+    "file": "portraits/trollkin.png",
+    "sha256": "3d5c6a0c94d06f34d801e82c435785909765ea808da5b77b915f23a09437a0e8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

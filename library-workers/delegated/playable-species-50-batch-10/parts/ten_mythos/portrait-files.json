@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Dreamlands Cat",
+    "file": "portraits/dreamlands-cat.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "8a457d98fd884725eb7c9f0cf20e4e0eb8b6465d3e0e1c1469a723f46b6d6b51",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Mythos Ghoul",
+    "file": "portraits/mythos-ghoul.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4e6e0da84909db2db5e94936a39be0a9535cbae0cfedb92f30320eda741472e3",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Gnorri",
+    "file": "portraits/gnorri.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "34361b51400d7b4d7fd2f50947c790d0664aa70e1ed4abe3dbb0fd3b8433507a",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Zoog",
+    "file": "portraits/zoog-v2.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f024bd6f881b36e55718030e7931a68f15eb8b8ef2ab0c56ece0ad73903ca006",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

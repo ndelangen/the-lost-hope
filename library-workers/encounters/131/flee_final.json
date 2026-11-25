@@ -1,0 +1,753 @@
+[
+  {
+    "name": "Anthracia, Princess of Venom",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Fey, lawful evil",
+    "ac": 14,
+    "hp": 99,
+    "hitDice": "18d8 + 18",
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Cha": {
+        "score": 22,
+        "modifier": 6
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Dex +5, Wis +8, Cha +9. Nature +8, Perception +8, Stealth +8. Immune to poison damage and to Charmed, Frightened, and Poisoned. Darkvision 60 ft., passive Perception 18. Common, Elvish, Sylvan.",
+    "description": "The Wilderkith's dryad leader keeps her tree hidden inside Gemhollow and fights by shifting the ground beneath her enemies.",
+    "sections": {
+      "Role": "Controller",
+      "Printed source": "Wilderkith, pp. 367–369. Stat block and party action, p. 369.",
+      "Traits": "Supernatural Resistance. Anthracia has advantage on saves against spells, powers, and other supernatural effects.",
+      "Actions": "Multiattack. Make three attacks in any combination of Stone Touch and Missile Thorn. Anthracia can also use Tree Teleport if available.\nStone Touch. Melee spell attack +9, reach 5 ft., one target. Hit 13 (3d8) necrotic damage. On a failed DC 17 Constitution save the target is Restrained and can repeat the save at the end of each of its turns. If reduced to 0 HP by this attack, it stabilizes and is Petrified into a stone tree. A Cure Ailment power of 4th order or higher, Greater Restoration, or a similar supernatural effect ends the petrification.\nMissile Thorn. Ranged spell attack +9, range 90 ft., one target. Hit 7 (2d6) piercing plus 7 (2d6) poison damage.\nTree Teleport (3/day, 5th-level spell). Touch a living tree and teleport to an unoccupied space within 5 ft. of a second living tree no more than 500 ft. away. Both trees must be Medium or larger.\nWall of Poison (1/day). Center an opaque wall of poison gas on a visible point within 150 ft. It can be up to 50 ft. long, 15 ft. high, and 5 ft. thick. Its area is heavily obscured for 1 minute. Each creature in it when it appears or entering it for the first time on a turn makes a DC 17 Constitution save. It takes 26 (4d12) poison damage on a failure or half on a success. Creatures that need no air automatically succeed. Wind of at least 10 mph disperses it after 4 rounds and wind of at least 20 mph disperses it after 1 round.",
+      "Reactions": "Sudden Quake. When an enemy moves within 15 ft. of Anthracia, every creature within 15 ft. of her makes a DC 17 Dexterity save or falls Prone.",
+      "Villain Party Action": "The Wilderkith can take one party action per round after an enemy's turn. Each action is available once per encounter, in any order, and its actor must be present and able to act.\nAction 1, Liquid Earth. Each creature within 60 ft. of Anthracia makes a DC 17 Dexterity save. A target can choose to fail. She can move each creature that fails up to 15 ft. horizontally."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Logger",
+        "kind": "monster"
+      },
+      {
+        "name": "Sylphise",
+        "kind": "monster"
+      },
+      {
+        "name": "Tuval-Uthriar",
+        "kind": "monster"
+      },
+      {
+        "name": "Vali",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Count Rhodar von Glauer",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Undead, neutral evil",
+    "ac": 18,
+    "hp": 289,
+    "hitDice": "34d8 + 136",
+    "speed": "30 ft., fly 30 ft.",
+    "cr": "19",
+    "xp": 22000,
+    "proficiencyBonus": 6,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Wis": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 22,
+        "modifier": 6
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Dex +11, Wis +9, Cha +12. Deception +12, History +11, Intimidation +12, Perception +9, Persuasion +12, Stealth +11. Resists necrotic and bludgeoning, piercing, and slashing from mundane attacks. Immune to Charmed, Flanked, Frightened, Prone, and Stunned. Blindsight 60 ft., darkvision 120 ft., passive Perception 19. Common.",
+    "description": "This vampire lord pins opponents with spears of darkness and drains their vitality with Sanguinus.",
+    "sections": {
+      "Role": "Solo",
+      "Printed source": "Vampire lair actions, p. 269. Stat block, p. 272.",
+      "Traits": "Resting Place. If Rhodar drops to 0 HP away from his resting place, he teleports there. At 0 HP there he is stable, and after an hour there at 0 HP he regains 1 HP.\nSpear Sacrifice (3/day). Rhodar starts with three floating spears and can call one to a free hand on his turn without an action. When he fails a check or save, he can destroy a spear to succeed. He can use neither Spear Sacrifice nor Spear of the Damned after the last spear is destroyed. Destroyed spears return at dusk.",
+      "Actions": "Multiattack. Make two Sanguinus attacks. Rhodar can also make one Spear of the Damned attack per remaining use of Spear Sacrifice.\nSanguinus. Melee weapon attack +12, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing plus 14 (4d6) necrotic damage. A creature's maximum HP falls by the necrotic damage taken and Rhodar heals that amount. The reduction lasts until Cure Ailment of 4th order or higher, Greater Restoration, or a similar supernatural effect removes it. A target whose maximum HP drops to 0 dies. A humanoid killed this way rises as a vampire spawn under Rhodar's control at the following midnight.\nSpear of the Damned. Ranged spell attack +12, range 60 ft., one target. Hit 10 (3d6) force damage. A creature hit falls Prone and is Restrained by the spear. It or a creature that can reach it can use an action or a bonus action to attempt a DC 20 Strength (Athletics) check, freeing it on a success. It is also freed if Rhodar summons the spear to attack someone else or destroys it with Spear Sacrifice.",
+      "Bonus Actions": "Beguile. Pick one visible creature within 30 ft. that can see Rhodar. On a failed DC 20 Wisdom save, the target spends its reaction, if available, to move up to its speed to a location Rhodar chooses. Rhodar chooses whether it then falls Prone or makes a melee attack against a target he picks.\nInhuman Agility. Move up to speed without provoking opportunity attacks.",
+      "Reactions": "Withering Stare. When a visible creature within 60 ft. hits Rhodar, that creature makes a DC 20 Wisdom save or takes 10 (3d6) necrotic damage.",
+      "Villain Actions": "Use each villain action once per encounter after an enemy's turn. Use at most one per round, in any order.\nAction 1, Bloodstained. Center a 20-ft.-radius sphere on a point Rhodar sees within 120 ft. Each creature there other than an Undead makes a DC 20 Dexterity save. On a failure, it is bloodstained until the end of Rhodar's next turn. He has advantage on attacks against it, and it has disadvantage on saves against his Beguile.\nAction 2, Fire Drake. Rhodar and his gear turn into a Large dragon of fire. He releases any creature he is grappling and any Grappled or Restrained effect on him ends. He flies up to twice his speed to an unoccupied space, ignoring difficult terrain and opportunity attacks and able to pass through creatures and objects. Each creature he passes through makes a DC 20 Dexterity save, taking 36 (8d8) fire damage on a failure or half on a success. He then returns to his previous form.\nAction 3, Mist of Blades. The area within 60 ft. is heavily obscured for other creatures. Rhodar can teleport up to four times to unoccupied spaces in the mist. After each teleport he can make one Sanguinus attack. The mist disappears at the end of the action.",
+      "Utility Spells": "Charisma, save DC 20. At will, 1 action each: Charm Person, Detect Thoughts, Disguise Self, Sending. 3/day each, longer casting times: Clairvoyance, Geas (9th level), Legend Lore.",
+      "Lair Actions": "When fighting in its lair, a vampire takes one lair action at initiative count 20, losing ties. It cannot repeat the same action in consecutive rounds.\nChildren of the Night. Bats and insects move with the vampire. The area within 30 ft. of it is heavily obscured for other creatures until the end of initiative count 20 of the next round.\nBlood Rain. Choose a visible point within 60 ft. Blood falls there in a 10-ft.-radius, 40-ft.-high cylinder until the end of initiative count 20 of the next round. A creature other than an Undead that takes necrotic damage while inside takes an extra 5 (1d10) necrotic damage.\nObey My Desire. Each creature within 60 ft. that hears the vampire makes a DC 18 Wisdom save or is Charmed until the end of this turn. Each creature Charmed this way immediately spends its reaction, if available, to make a melee attack against another creature, make one against itself, or fall Prone. The vampire picks the effect.",
+      "Flanked (MCDM)": "If using flanking rules, creatures cannot flank Rhodar.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Vampire Spawn (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "vampire spawn"
+        ]
+      },
+      {
+        "name": "Vampire (MCDM)",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Green Hag (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Fey, typically neutral evil",
+    "ac": 16,
+    "hp": 75,
+    "hitDice": "10d8 + 30",
+    "speed": "30 ft., fly 30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 18,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Natural armor. Arcana +4, Deception +6, Perception +4, Stealth +5. Resists poison damage and is immune to Poisoned. Darkvision 60 ft., passive Perception 14. Common, Primordial, Sylvan.",
+    "description": "A green hag strengthens her allies' weapons with venom and helps them escape or change positions.",
+    "sections": {
+      "Role": "Support",
+      "Printed source": "Stat block and coven action, p. 137.",
+      "Traits": "Envenom. Allies within 30 ft. deal an extra 3 (1d6) poison damage with weapon attacks unless the hag is Incapacitated.",
+      "Actions": "Multiattack. Use Poison Claw once and Granny Says.\nPoison Claw. Melee weapon attack +5, reach 5 ft., one target. Hit 8 (1d10 + 3) slashing plus 3 (1d6) poison damage.\nGranny Says. Choose another willing creature the hag sees within 30 ft. It either trades places with the hag by magic or spends its reaction, if available, to make an attack.\nNaughty Mousey (3/day, 5th-level spell, Concentration). Choose a visible creature within 60 ft. and a Beast form of CR 2 or lower. On a failed DC 14 Wisdom save, the creature takes that form for 1 minute, repeating the save at the end of each of its turns. Use the Beast's statistics except the target retains its Intelligence, Wisdom, Charisma, alignment, and personality. Its gear merges with the form and provides no benefits. It cannot speak or cast spells but can take the Beast's actions. If reduced to 0 HP in this form, it returns to its original form with half the HP it had before the change.",
+      "Reactions": "Get Gone. When an ally within 30 ft. is targeted by an attack, the hag can make the ally Invisible until the start of the ally's next turn. She must see the attacker and ally. This can impose disadvantage on the triggering attack.",
+      "Utility Spells": "Charisma, save DC 14. At will, 1 action each: Alter Self, Dancing Lights, Minor Illusion. 3/day each: Animal Messenger and Speak with Animals using 1 action, Legend Lore using its longer casting time. 1/day: Scrying using its longer casting time.",
+      "Coven Action": "A coven has three hags, which may be of different kinds. A hag in the coven gains the following action.\nNoxious Vines (Recharge 5–6). Each enemy within 30 ft. makes a DC 14 Constitution save, taking 18 (4d8) poison damage on a failure or half on a success. Each ally within 30 ft. regains 18 (4d8) HP."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Night Hag (MCDM)",
+        "kind": "monster"
+      },
+      {
+        "name": "Sea Hag (MCDM)",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Harpy (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Monstrosity, typically chaotic evil",
+    "ac": 12,
+    "hp": 27,
+    "hitDice": "5d8 + 5",
+    "speed": "30 ft., fly 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "otherStatistics": "Natural armor. Athletics +4. Blindsight 30 ft., passive Perception 10. Common, Giant.",
+    "description": "A harpy uses its song to hold prey in place, then draws hearers toward cliffs or a waiting shambling mound.",
+    "sections": {
+      "Role": "Controller",
+      "Printed source": "Stat block, p. 142. Chorus and shambling mound encounter, p. 143.",
+      "Traits": "Echolocation. The harpy loses its blindsight while Deafened.",
+      "Actions": "Talons. Melee weapon attack +4, reach 5 ft., one target. Hit 9 (3d4 + 2) slashing damage. A Medium or smaller target Charmed by the harpy is also Grappled (escape DC 12). The harpy cannot use Talons against another target until that grapple ends.\nRock. Ranged weapon attack +4, range 30/120 ft., one target. Hit 7 (2d4 + 2) bludgeoning damage.\nAlluring Song. The harpy sings until it chooses to stop without using an action, becomes Deafened, or is Incapacitated. When a creature other than a harpy starts its turn within 200 ft. of the singer, if it can hear the song and shares a language with the singer, it makes a DC 12 Wisdom save. On a failure it is Charmed until the song stops or it can no longer hear it. While Charmed it cannot move willingly on its turn or attack, damage, or target any unwilling harpy. If damaged by a source other than a harpy, it can repeat the save to end the effect. A creature that succeeds is immune to all harpies' Alluring Songs for 1 hour.",
+      "Bonus Actions": "Beckon. Choose any number of creatures Charmed by this harpy's Alluring Song. Each spends its reaction, if available, to move up to its speed in a direction the harpy chooses. Before entering hazardous terrain it may attempt a DC 12 Wisdom save. On success the charm ends and it keeps its reaction."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Starving Harpy",
+        "kind": "monster",
+        "terms": [
+          "starving harpies"
+        ]
+      },
+      {
+        "name": "Shambling Mound (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "shambling mound"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Medusa (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Monstrosity, any alignment",
+    "ac": 16,
+    "hp": 110,
+    "hitDice": "13d8 + 52",
+    "speed": "30 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +6, Dex +8, Con +7. Perception +4, Stealth +8, Survival +4. Immune to poison damage and Poisoned. Darkvision 60 ft., passive Perception 14. Common.",
+    "description": "This medusa slows and petrifies its enemies in stages while firing poisoned bolts.",
+    "sections": {
+      "Role": "Controller",
+      "Printed source": "Stat block and lair actions, p. 189.",
+      "Actions": "Multiattack. Use Stone Gaze and make two attacks in any combination of Snake Bite and Heavy Crossbow.\nSnake Bite. Melee weapon attack +8, reach 5 ft., one creature. Hit 10 (3d6) poison damage. On a failed DC 15 Constitution save, the target is Poisoned until the end of the medusa's next turn.\nHeavy Crossbow. Ranged weapon attack +8, range 100/400 ft., one target. Hit 10 (1d10 + 5) piercing plus 7 (2d6) poison damage.\nStone Gaze. Up to three visible creatures within 60 ft. make DC 15 Constitution saves. A failure starts turning the target to stone, reducing its speed by 10 ft. and giving disadvantage on Dexterity checks and saves. A save at the end of each of the target's turns ends the effect on success. If it fails another save against Stone Gaze while turning to stone, reduce its speed by another 10 ft. and apply Dazed until the effect ends. If it fails again while turning to stone and Dazed this way, it is Petrified and no longer repeats saves. Cure Ailment of 4th order or higher, Greater Restoration, or a similar supernatural effect removes the petrification.",
+      "Bonus Actions": "Nimble Escape. Take the Disengage or Hide action.",
+      "Lair Actions": "Take one lair action at initiative count 20, losing ties. The same option cannot be used in consecutive rounds.\nVenom Shower. Center a 10-ft.-radius, 40-ft.-high cylinder on a visible point within 90 ft. Each creature in it makes a DC 15 Constitution save or is Poisoned through the end of initiative count 20 of the next round.\nShadowstep. Teleport up to 30 ft. to a visible unoccupied space.\nStony Wail. Each enemy within 60 ft. that can hear the lair's statues makes a DC 15 Wisdom save or is Frightened of the medusa through the end of initiative count 20 of the next round.",
+      "Dazed (MCDM)": "On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Lady Emer",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Night Hag (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Fey, typically neutral evil",
+    "ac": 17,
+    "hp": 97,
+    "hitDice": "13d8 + 39",
+    "speed": "30 ft., fly 40 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Wis": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 19,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Natural armor. Deception +10, Insight +6, Perception +6, Stealth +7 (+17 with Pass without Trace). Resists fire, necrotic, and bludgeoning, piercing, and slashing from mundane attacks. Immune to Charmed. Darkvision 120 ft., passive Perception 16. Common, Infernal, Sylvan.",
+    "description": "A night hag puts enemies to sleep, turns allies against each other, or shrinks small enough to haunt a sleeper.",
+    "sections": {
+      "Role": "Controller",
+      "Printed source": "Stat block and coven action, p. 138.",
+      "Traits": "Supernatural Resistance. Advantage on saves against spells, powers, and other supernatural effects.",
+      "Actions": "Multiattack. Make two Dream Claw attacks.\nDream Claw. Melee weapon attack +7, reach 5 ft., one target. Hit 9 (1d10 + 4) slashing plus 3 (1d6) psychic damage. If this attack hits the same target more than once on a turn, it makes a DC 15 Constitution save. On failure it is Unconscious for up to 1 minute. It repeats the save at the end of each of its turns. Damage or another creature in reach using an action to wake it also ends the effect. A creature that cannot be supernaturally put to sleep automatically succeeds.\nVicious Visions (1/day, 6th-level spell). Each creature in a 60-ft. cone makes a DC 15 Wisdom save or is Charmed for 1 minute, ending early if it deals damage to another creature. While Charmed it sees its allies as enemies and its enemies as allies.\nTiny Time. The hag and her gear shrink to 1 inch and become Tiny. She has advantage on Dexterity (Stealth) checks to hide while Tiny and retains her other statistics. As a bonus action she can return to normal size or enter the head of an Unconscious Humanoid within reach. Inside, she has total cover against outside effects and can speak telepathically to the host, which cannot tell where the voice comes from. The host gains no benefit from rest without her permission, and she can give it nightmares as it tries to sleep. Dispel Evil and Good or a similar supernatural effect expels the hag. She can also exit as a bonus action. Either exit restores her normal size.",
+      "Bonus Actions": "Sleepwalk. Move one visible Unconscious creature within 60 ft. up to 30 ft. horizontally. Tiny Time also gives the bonus action options in that action.",
+      "Reactions": "Aren't You Tired? When a creature within 5 ft. hits the hag, it makes a DC 15 Constitution save. On a failure it cannot take reactions and has disadvantage on attacks and saves through the end of the hag's next turn. A creature that cannot be supernaturally put to sleep is immune.",
+      "Utility Spells": "Charisma, save DC 15. At will, 1 action each: Alter Self, Detect Magic, Pass without Trace. 3/day each, longer casting times: Dream, Legend Lore, Mirage Arcane. 1/day: Scrying using its longer casting time.",
+      "Coven Action": "A coven has three hags, which may be of different kinds. A hag in the coven gains the following action.\nPhantoms Abound (Recharge 5–6). Each enemy within 30 ft. makes a DC 15 Wisdom save. On a failure it takes 22 (5d8) psychic damage and falls Prone, and the hag can use Dream Claw against it if it is within 5 ft. On a success it takes half damage and neither falls nor takes the claw attack.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Green Hag (MCDM)",
+        "kind": "monster"
+      },
+      {
+        "name": "Sea Hag (MCDM)",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Sea Hag (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Fey, typically neutral evil",
+    "ac": 15,
+    "hp": 45,
+    "hitDice": "6d8 + 18",
+    "speed": "30 ft., swim 60 ft.",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "otherStatistics": "Natural armor. Deception +5, Intimidation +5, Perception +4, Stealth +5. Resists cold and lightning. Darkvision 60 ft., passive Perception 14. Aquan, Common, Sylvan.",
+    "description": "A sea hag hurls lightning and can surround herself with a moving storm.",
+    "sections": {
+      "Role": "Artillery",
+      "Printed source": "Stat block and coven action, p. 139.",
+      "Traits": "Amphibious. Breathes air and water.",
+      "Actions": "Multiattack. Use Lightning Strike once and Dry Drowning.\nLightning Strike. Melee or ranged spell attack +5, reach 5 ft. or range 120 ft., one target. Hit 10 (3d6) lightning damage.\nDry Drowning. One visible creature within 120 ft. makes a DC 13 Wisdom save or is Dazed until the start of the hag's next turn. A creature that breathes water or needs no air automatically succeeds.",
+      "Bonus Actions": "Sea Storm (1/day, 3rd-level spell, Concentration). For 1 minute a storm fills a 60-ft. radius centered on the hag and moves with her. Against targets in it her Lightning Strike has advantage and deals an extra 3 (1d6) lightning damage.",
+      "Reactions": "Fearsome Glare. When a visible creature within 30 ft. hits the hag, it makes a DC 13 Wisdom save or is Frightened of the hag until the end of her next turn.",
+      "Utility Spells": "Charisma, save DC 13. At will, 1 action each: Create or Destroy Water, Disguise Self. 3/day each: Control Water using 1 action, Identify using its longer casting time. 1/day each, longer casting times: Clairvoyance, Legend Lore.",
+      "Coven Action": "A coven has three hags, which may be of different kinds. A hag in the coven gains the following action.\nGrasping Detritus (Recharge 5–6). Each enemy in a 30-ft. cone makes a DC 13 Dexterity save. On a failure it takes 13 (3d8) bludgeoning damage and is Restrained until the end of the hag's next turn. On a success it takes half damage with no restraint.",
+      "Dazed (MCDM)": "On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Green Hag (MCDM)",
+        "kind": "monster"
+      },
+      {
+        "name": "Night Hag (MCDM)",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Shtriga Nonna",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Fey, neutral evil",
+    "ac": 17,
+    "hp": 119,
+    "hitDice": "14d8 + 56",
+    "speed": "30 ft., fly 30 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 19,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throw Wis +5. Deception +7, Perception +5, Stealth +6, Survival +5. Resists thunder and bludgeoning, piercing, and slashing from mundane attacks. Immune to cold, fire, Charmed, and Frightened. Darkvision 60 ft., passive Perception 15. Common, Giant, Infernal, Sylvan.",
+    "description": "A mountain hag whose hut walks on cat paws. She fights alone and can turn into a cat to escape a failed save.",
+    "sections": {
+      "Role": "Solo",
+      "Printed source": "Stat block, p. 140.",
+      "Traits": "Feline Resilience (3/day). When Nonna fails a save, she can turn into a cat and succeed instead. The cat is Medium, or Large during Grow. She keeps her statistics and can speak, but cannot cast spells or use Soul Steal. She returns to her previous form at the end of her next turn.\nSupernatural Resistance. Advantage on saves against spells, powers, and other supernatural effects.",
+      "Actions": "Multiattack. Make two Corrosive Claw attacks. One can be replaced with Soul Steal if available.\nCorrosive Claw. Melee weapon attack +7, reach 5 ft. or 10 ft. with Grow, one target. Hit 11 (2d6 + 4) slashing damage, or 14 (3d6 + 4) with Grow. If the target wears mundane metal armor it makes a DC 15 Dexterity save. On a failure the armor permanently loses 1 AC, cumulative across hits. The armor is destroyed if its AC falls to 10.\nSoul Steal (Recharge 5–6). Every creature in a 30-ft. cone makes a DC 15 Constitution save, taking 16 (3d10) necrotic damage on a failure or half on a success. Nonna regains 10 HP per failed save.",
+      "Bonus Actions": "Grow (2/day, 3rd-level spell). For 1 minute Nonna and her gear grow to Large or the largest size the space permits. Her reach becomes 10 ft., her Strength-based weapon attacks deal an extra 3 (1d6) damage already included above, and she has advantage on Strength checks and saves.\nGobble You Up. An Unconscious creature within 5 ft. takes 10 (3d6) piercing damage and Soul Steal recharges.",
+      "Reactions": "Turned Upside Down. When a creature hits Nonna with a melee attack, each creature within 5 ft. of her makes a DC 15 Strength save. On failure it rises vertically 10 ft. and hangs there until the end of its next turn. It then falls unless it can stay aloft.",
+      "Villain Actions": "Use each villain action once per encounter after an enemy's turn. Use at most one per round, in any order.\nAction 1, Snackies for Sweeties. Each other creature within 30 ft. makes a DC 15 Wisdom save or is Poisoned for 1 minute, repeating the save at the end of its turns. Holding its breath or needing no air gives no protection.\nAction 2, Feline Felicity. Each creature within 5 ft. makes a DC 15 Dexterity save. On failure it takes 10 (4d4) force damage and is pushed 10 ft. away. A success halves damage and prevents the push. Nonna can then move up to twice her speed.\nAction 3, Open the Oven. Each creature in a 30-ft. cone makes a DC 15 Dexterity save. It takes 13 (3d8) fire plus 13 (3d8) thunder damage on failure or half on success.",
+      "Utility Spells": "Charisma, save DC 15. At will, 1 action each: Alter Self, Detect Thoughts, Thaumaturgy. 3/day each, longer casting times: Fabricate, Legend Lore. 1/day: Scrying using its longer casting time.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics."
+    },
+    "ruleNotes": [
+      "The printed Corrosive Claw calls for a 'Dexterity throw.' Use a Dexterity saving throw, as the DC and attack context indicate."
+    ]
+  },
+  {
+    "name": "Starving Harpy",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Monstrosity, typically chaotic evil",
+    "ac": 12,
+    "hp": 8,
+    "speed": "30 ft., fly 30 ft.",
+    "cr": "1",
+    "xp": 40,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "otherStatistics": "Natural armor. Blindsight 30 ft., passive Perception 10. Common, Giant.",
+    "description": "This minion harmonizes with a harpy's song and pushes prey into bad ground.",
+    "sections": {
+      "Role": "Minion",
+      "Printed source": "Stat block, p. 143.",
+      "Traits": "Chorus of Death. A starving harpy that hears a harpy's Alluring Song can harmonize without an action. It stops when the song ends, when it chooses, or if it becomes Deafened or Incapacitated. Each harmonizing starving harpy adds 50 ft. to the song's range and +1 to both the singer's Alluring Song and Beckon save DCs. The DC increase caps at +5.\nEcholocation. The starving harpy loses its blindsight while Deafened.",
+      "Actions": "Grasping Talons (group attack). Melee weapon attack +4, reach 5 ft., one target. Hit 1 piercing damage per participant. The attackers can move a creature hit 5 ft. in any direction, or 10 ft. if at least three starving harpies joined the attack."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Harpy (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "harpy's Alluring Song",
+          "harpy"
+        ]
+      }
+    ],
+    "sharedRules": [
+      "MCDM minion rules"
+    ]
+  },
+  {
+    "name": "Swamp Dryad",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Fey, typically chaotic neutral",
+    "ac": 17,
+    "hp": 171,
+    "hitDice": "18d10 + 72",
+    "speed": "30 ft.",
+    "cr": "13",
+    "xp": 10000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +9, Con +9, Wis +10. Acrobatics +6, Animal Handling +10, Arcana +6, Medicine +10, Survival +10. Resists acid, poison, and bludgeoning, piercing, and slashing from mundane attacks. Immune to Poisoned. Darkvision 120 ft., passive Perception 15. Sylvan and any languages it spoke before binding.",
+    "description": "A dryad bound to a swamp tree can lock enemies in its roots long enough to turn them into wood.",
+    "sections": {
+      "Role": "Controller",
+      "Printed source": "Swamp, p. 336.",
+      "Traits": "Supernatural Resistance. Advantage on saves against supernatural effects.\nSpeak with Beasts and Plants. The dryad can communicate with Beasts and Plants as though they shared a language.\nTree Stride (1/turn). Spend 10 ft. of movement to enter a living tree within reach and emerge in an unoccupied space within 5 ft. of another living tree up to 60 ft. from the first. Each tree must be Large or larger.",
+      "Actions": "Multiattack. Make two Slam attacks and use Entangling Roots if available.\nSlam. Melee weapon attack +9, reach 10 ft., one target. Hit 13 (2d8 + 4) piercing damage. The target makes a DC 18 Constitution save. On a failure it takes 14 (4d6) poison damage and is Poisoned for 1 minute. On a success it takes half the poison damage without the condition.\nEntangling Roots (Recharge 5–6). Center a 15-ft.-radius area on a visible point within 60 ft. of the dryad. The radius is 30 ft. instead if the dryad stands within 5 ft. of its tree. Each creature in the area makes a DC 18 Strength save or takes 22 (4d10) bludgeoning damage and is Grappled (escape DC 14). It is Restrained while Grappled this way. If its third consecutive turn ends still Grappled, it is Petrified into a hardwood statue. The dryad can use an action to end that petrification, which also ends if it dies.\nFey Intimidation. Choose up to five visible creatures within 30 ft. Those that see the dryad make a DC 18 Wisdom save or become Frightened of it. A target repeats the save at the end of its turns. A creature that succeeds or recovers is immune to this dryad's Fey Intimidation for 24 hours.",
+      "Bonus Actions": "Swamp Medicine (3/day). Touch a creature. It regains 18 (3d8 + 5) HP, or the dryad can remove one disease or neutralize one poison affecting it instead.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics."
+    }
+  },
+  {
+    "name": "Vampire (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Undead, typically neutral evil",
+    "ac": 18,
+    "hp": 204,
+    "hitDice": "24d8 + 96",
+    "speed": "30 ft., fly 30 ft.",
+    "cr": "13",
+    "xp": 10000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 20,
+        "modifier": 5
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Dex +10, Wis +8, Cha +10. Deception +10, History +9, Insight +8, Intimidation +10, Perception +8, Persuasion +10, Stealth +10. Resists necrotic and bludgeoning, piercing, and slashing from mundane attacks. Immune to Charmed and Frightened. Blindsight 60 ft., darkvision 120 ft., passive Perception 18. Languages known in life.",
+    "description": "A vampire can leave its enemies reeling by turning to mist, then draw them close enough to feed.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Printed source": "Lair actions, p. 269. Stat block, p. 270.",
+      "Traits": "Radiant Aversion. Whenever it takes radiant damage, it takes 10 extra radiant damage.\nResting Place. If it drops to 0 HP outside sunlight, running water, and its resting place, it teleports to its resting place. It is stable while there. After 1 hour there at 0 HP, it regains 1 HP.\nTurn Resistance. Advantage on saves against effects that turn Undead.",
+      "Actions": "Multiattack. Make two Claw attacks and one Bite attack if possible.\nClaw. Melee weapon attack +10, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing plus 10 (3d6) necrotic damage. A Large or smaller target is Grappled (escape DC 18) and Restrained while held. Only one creature can be held this way. Moving while holding a Medium or smaller creature does not halve the vampire's speed.\nBite. Melee weapon attack +10, reach 5 ft., one creature Grappled by the vampire, Incapacitated, or Restrained. Hit 8 (1d6 + 5) piercing plus 10 (3d6) necrotic damage. The target's maximum HP falls by the necrotic damage taken and the vampire heals that amount. Cure Ailment of 4th order or higher, Greater Restoration, or a similar supernatural effect can restore that maximum. A creature dies if this brings its maximum HP to 0. A humanoid killed this way rises at the following midnight as a vampire spawn under the vampire's control.\nExsanguinating Mist (Recharge 6). The vampire and its equipment turn to mist, releasing anything it is grappling and ending any Grappled or Restrained effect on itself. It flies up to twice its speed to an empty space, ignores difficult terrain and opportunity attacks, and can pass through creatures and objects. Each creature passed through makes a DC 18 Constitution save for 35 (10d6) necrotic damage on a failure or half on a success. The vampire then resumes its previous form.",
+      "Bonus Actions": "Beguile. One visible creature within 30 ft. that can see the vampire makes a DC 18 Wisdom save. On a failure it spends its reaction, if available, to move up to its speed to a location the vampire chooses. The vampire then chooses whether the victim falls Prone or makes a melee attack against a target the vampire picks. A creature that cannot be Charmed succeeds automatically. A creature with advantage against Charmed makes this save with advantage.\nInhuman Agility. Move up to speed without provoking opportunity attacks.",
+      "Reactions": "Run, My Child. When an ally the vampire can see takes damage, that ally can move up to speed without provoking opportunity attacks at the vampire's command.",
+      "Utility Spells": "Charisma, save DC 18. At will, 1 action each: Charm Person, Detect Thoughts, Disguise Self, Sending. 1/day each, longer casting times: Clairvoyance, Geas.",
+      "Lair Actions": "When fighting in its lair, a vampire takes one lair action at initiative count 20, losing ties. It cannot repeat the same action in consecutive rounds.\nChildren of the Night. Bats and insects move with the vampire. The area within 30 ft. of it is heavily obscured for other creatures until the end of initiative count 20 of the next round.\nBlood Rain. Choose a visible point within 60 ft. Blood falls there in a 10-ft.-radius, 40-ft.-high cylinder until the end of initiative count 20 of the next round. A creature other than an Undead that takes necrotic damage while inside takes an extra 5 (1d10) necrotic damage.\nObey My Desire. Each creature within 60 ft. that hears the vampire makes a DC 18 Wisdom save or is Charmed until the end of this turn. Each creature Charmed this way immediately spends its reaction, if available, to make a melee attack against another creature, make one against itself, or fall Prone. The vampire picks the effect.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Vampire Spawn (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "vampire spawn"
+        ]
+      },
+      {
+        "name": "Blood-Starved Vampire",
+        "kind": "monster"
+      },
+      {
+        "name": "Count Rhodar von Glauer",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Vampire Spawn (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Undead, typically neutral evil",
+    "ac": 14,
+    "hp": 112,
+    "hitDice": "15d8 + 45",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "otherStatistics": "Saving throws Wis +3, Cha +6. Acrobatics +7, Intimidation +6, Perception +3, Persuasion +6, Stealth +7. Resists necrotic. Darkvision 60 ft., passive Perception 13. Languages known in life.",
+    "description": "A newly made vampire that pursues prey and fights at close quarters with claws and teeth.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Printed source": "Stat block, p. 271.",
+      "Traits": "Radiant Aversion. Whenever the spawn takes radiant damage, it takes 10 extra radiant damage.",
+      "Actions": "Multiattack. Make two Claw attacks. One can be replaced with Bite.\nClaw. Melee weapon attack +7, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage. A Large or smaller target is also Grappled (escape DC 15). Only one creature can be held this way. Moving while holding a Medium or smaller creature does not halve the spawn's speed.\nBite. Melee weapon attack +7, reach 5 ft., one creature Grappled by the spawn, Incapacitated, or Restrained. Hit 7 (1d6 + 4) piercing plus 7 (2d6) necrotic damage. The creature's maximum HP falls by the necrotic damage taken and the spawn heals that amount. The reduction lasts until the creature finishes a long rest or is affected by Cure Ailment of 4th order or higher, Greater Restoration, or a similar supernatural effect. The target dies if this brings its maximum HP to 0.",
+      "Bonus Actions": "Inhuman Speed. Move up to speed."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Vampire (MCDM)",
+        "kind": "monster"
+      },
+      {
+        "name": "Count Rhodar von Glauer",
+        "kind": "monster"
+      }
+    ]
+  }
+]

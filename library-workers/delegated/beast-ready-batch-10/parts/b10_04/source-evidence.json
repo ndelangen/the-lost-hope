@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Polar Bear",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      367
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195167-polar-bear",
+    "url": "https://www.dndbeyond.com/monsters/5195167-polar-bear",
+    "publisherByline": "Monster Manual, pg. 367",
+    "accessEvidence": "Public publisher page opened directly and displayed the full Monster Manual stat block.",
+    "operationalEvidence": "The publisher block gives cold resistance, a 40-ft. Swim Speed and a Multiattack of two Rends.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "polar-bear",
+    "reuseSha256": "ea58cc6437d6177f689a0f7f2202fb4a102a0d79b7470b0bf21cba879f4083b4"
+  },
+  {
+    "name": "Pony",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      367
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775833-pony",
+    "url": "https://www.dndbeyond.com/monsters/4775833-pony",
+    "publisherByline": "Monster Manual, pg. 367",
+    "accessEvidence": "Public publisher page opened directly and displayed the full Monster Manual stat block.",
+    "operationalEvidence": "The publisher block gives Strength modifier +2 and Strength save +4. Hooves deals 1d4 + 2 bludgeoning damage.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "pony",
+    "reuseSha256": "38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444"
+  },
+  {
+    "name": "Pteranodon",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      367
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195173-pteranodon",
+    "url": "https://www.dndbeyond.com/monsters/5195173-pteranodon",
+    "publisherByline": "Monster Manual, pg. 367",
+    "accessEvidence": "Public publisher page opened directly and displayed the full Monster Manual stat block.",
+    "operationalEvidence": "The publisher uses the Dinosaur subtype. Flyby applies to flying out of an enemy’s reach, and Bite has the printed +4 attack bonus and +2 damage modifier.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "pteranodon",
+    "reuseSha256": "d10ee191c86381786fb29907a84c92bad322e85eaba1c0b2bf647366e0d3e239"
+  },
+  {
+    "name": "Rat",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      367
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775836-rat",
+    "url": "https://www.dndbeyond.com/monsters/4775836-rat",
+    "publisherByline": "Monster Manual, pg. 367",
+    "accessEvidence": "Public publisher page opened directly and displayed the full Monster Manual stat block.",
+    "operationalEvidence": "The publisher lists a 20-ft. Climb Speed, 30-ft. Darkvision, Agile, and a fixed 1 piercing damage on Bite.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "rat",
+    "reuseSha256": "3ecfd8f4bf0d5b6a80a7ee87784606d46b0d414790f550d836a939c56b71be71"
+  },
+  {
+    "name": "Raven",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      368
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775837-raven",
+    "url": "https://www.dndbeyond.com/monsters/4775837-raven",
+    "publisherByline": "Monster Manual, pg. 368",
+    "accessEvidence": "Public publisher page opened directly and displayed the full Monster Manual stat block.",
+    "operationalEvidence": "The block’s Mimicry applies to simple previously heard sounds. It gives a DC 10 Wisdom (Insight) check to tell the sound is an imitation.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "raven",
+    "reuseSha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8"
+  }
+]

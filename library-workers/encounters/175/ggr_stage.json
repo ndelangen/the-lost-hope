@@ -1,0 +1,379 @@
+[
+  {
+    "name": "Rakdos Lampooner",
+    "statBlock": {
+      "name": "Rakdos Lampooner",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 248,
+      "classification": "Medium humanoid (any race), chaotic evil",
+      "ac": 12,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 9,
+      "description": "A Rakdos satirist who uses pranks and caricatures to ridicule powerful figures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 6,
+        "Performance": 6
+      },
+      "sections": {
+        "Languages": "Common plus any one language.",
+        "Armor": "Leather armor.",
+        "Spellcasting": "The lampooner casts as a 4th-level Rakdos spellcaster using Charisma (spell save DC 14, +6 to hit with spell attacks).\nAt will (cantrips). Dancing Lights, Minor Illusion, Vicious Mockery.\n1st level (4 slots). Bane, Dissonant Whispers, Silent Image, Tasha’s Hideous Laughter, Thunderwave.\n2nd level (3 slots). Crown of Madness, Enthrall, Suggestion.",
+        "Actions": "Club. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d4) bludgeoning damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 248."
+      }
+    }
+  },
+  {
+    "name": "Rakdos Performer, Blade Juggler",
+    "statBlock": {
+      "name": "Rakdos Performer, Blade Juggler",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 249,
+      "classification": "Medium humanoid (any race), chaotic evil",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "40 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A Rakdos stage performer who turns juggling knives into a flurry of attacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 4
+      },
+      "skills": {
+        "Acrobatics": 7,
+        "Performance": 4
+      },
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Traits": "Performer Type. This profile gives the shared Rakdos Performer statistics with the blade juggler action options.",
+        "Bonus actions": "Nimble. Take the Disengage action.",
+        "Actions": "Multiattack. Make three Dagger attacks.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 249, Rakdos Performer and Blade Juggler actions."
+      }
+    }
+  },
+  {
+    "name": "Rakdos Performer, Fire Eater",
+    "statBlock": {
+      "name": "Rakdos Performer, Fire Eater",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 249,
+      "classification": "Medium humanoid (any race), chaotic evil",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "40 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A Rakdos stage performer with a bladed chain and a fiery breath trick.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 4
+      },
+      "skills": {
+        "Acrobatics": 7,
+        "Performance": 4
+      },
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Traits": "Performer Type. This profile gives the shared Rakdos Performer statistics with the fire eater action options.",
+        "Bonus actions": "Nimble. Take the Disengage action.",
+        "Actions": "Multiattack. Make two Bladed Chain attacks.\nBladed Chain. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nSpew Flame (Recharge 4–6). Each creature in a 15-ft. cone makes a DC 13 Dexterity save, taking 9 (2d8) fire damage on a failure or half as much on a success.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 249, Rakdos Performer and Fire Eater actions."
+      }
+    }
+  },
+  {
+    "name": "Rakdos Performer, High-Wire Acrobat",
+    "statBlock": {
+      "name": "Rakdos Performer, High-Wire Acrobat",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 249,
+      "classification": "Medium humanoid (any race), chaotic evil",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "40 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A Rakdos stage performer who uses a barbed pole and springs out of reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 4
+      },
+      "skills": {
+        "Acrobatics": 7,
+        "Performance": 4
+      },
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Traits": "Performer Type. This profile gives the shared Rakdos Performer statistics with the high-wire acrobat action options.",
+        "Bonus actions": "Nimble. Take the Disengage action.",
+        "Actions": "Multiattack. Make two Barbed Pole attacks.\nBarbed Pole. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage. On the hit, the acrobat can jump up to 20 ft. without provoking opportunity attacks.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 249, Rakdos Performer and High-Wire Acrobat actions."
+      }
+    }
+  },
+  {
+    "name": "Reckoner",
+    "statBlock": {
+      "name": "Reckoner",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 231,
+      "classification": "Medium humanoid (any race), lawful neutral",
+      "ac": 18,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "A Boros shock trooper who combines sword strikes with lightning magic. Many reckoners are minotaurs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "Intimidation": 2,
+        "Perception": 3
+      },
+      "sections": {
+        "Languages": "Common plus any one language.",
+        "Armor": "Plate armor.",
+        "Traits": "First Strike. The reckoner has advantage on initiative rolls.",
+        "Spellcasting": "The reckoner casts as a 5th-level Boros spellcaster using Intelligence (spell save DC 12, +4 to hit with spell attacks).\nAt will (cantrips). Blade Ward, Light, Message, Shocking Grasp.\n1st level (4 slots). Guiding Bolt, Shield, Thunderwave, Witch Bolt.\n2nd level (3 slots). Blur, Levitate.\n3rd level (2 slots). Lightning Bolt.",
+        "Actions": "Longsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) if used with two hands.",
+        "Reactions": "Lightning Backlash (Recharge 5–6). When a creature hits the reckoner with an attack, the attacker takes lightning damage equal to half the damage dealt by the attack.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 231."
+      }
+    }
+  },
+  {
+    "name": "Rubblebelt Stalker",
+    "statBlock": {
+      "name": "Rubblebelt Stalker",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 239,
+      "classification": "Medium humanoid (any race), chaotic neutral",
+      "ac": 14,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 14,
+      "description": "A Gruul scout who ambushes enemies in ruins and uses the rubble to escape.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Armor": "Piecemeal armor.",
+        "Traits": "Ambusher. In the first round of combat, the stalker has advantage on attack rolls against creatures that have yet to take a turn.\nRuin Dweller. The stalker has advantage on Dexterity (Stealth) checks to hide in ruins. Rubble does not slow it.\nSiege Monster. The stalker deals double damage to objects and structures.",
+        "Bonus actions": "Nimble Escape. Take the Disengage or Hide action.",
+        "Actions": "Multiattack. Make three Shortsword attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 239."
+      }
+    }
+  },
+  {
+    "name": "Scorchbringer Guard",
+    "statBlock": {
+      "name": "Scorchbringer Guard",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 243,
+      "classification": "Medium humanoid (any race), chaotic neutral",
+      "ac": 16,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 9,
+      "description": "An Izzet guard armed with a flame projector fed by a volatile backpack tank.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Armor": "Breastplate.",
+        "Traits": "Explosive Tank. The guard’s tank explodes when it dies or rolls a 1 on the Scorchbringer recharge check. Each creature in the 10-ft.-radius sphere makes a DC 12 Dexterity save, taking 7 (2d6) fire damage on a failure or half as much on a success. The blast ignites flammable objects no one wears or carries and destroys the scorchbringer.",
+        "Actions": "Light Hammer. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.\nScorchbringer (Recharge 4–6). The device emits a line of fire 30 ft. long and 5 ft. wide. Each creature in the line makes a DC 12 Dexterity save, taking 7 (2d6) fire damage on a failure or half as much on a success.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 243."
+      }
+    }
+  }
+]

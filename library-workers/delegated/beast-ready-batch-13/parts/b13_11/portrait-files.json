@@ -1,0 +1,10 @@
+[
+  {
+    "artGroup": "male-steeder",
+    "file": "portraits/male-steeder.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

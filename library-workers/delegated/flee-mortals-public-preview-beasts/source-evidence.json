@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Swarm of Skitterlings",
+    "entryId": "beast-5e95b1f48100231371be657a",
+    "versionKey": "0250c8f4d6420756fe09c3bb",
+    "publication": "Flee, Mortals! public preview",
+    "edition": "2014 fifth edition compatible",
+    "publisher": "MCDM",
+    "sourceUrl": "",
+    "contextUrl": "",
+    "sourcePdfSha256": "0cbd26f4a51607b0ac6467ab4c5ba5447dce9e06002bfd80e9b1d6e1d49d1394",
+    "cr": "2",
+    "habitatTags": [
+      "Desert",
+      "Forest",
+      "Underground"
+    ],
+    "habitatBasis": "Goblin encounter environments, inferred for these allied beasts.",
+    "searchAppearance": "housecat-sized flying rodents",
+    "publisherArt": "",
+    "publisherArtSha256": "6e29af76a17b8789213778d6321f5b4af6e53c546900314190237d9971795caa",
+    "publisherArtOrigin": "Flee, Mortals!"
+  },
+  {
+    "name": "War Spider",
+    "entryId": "beast-6403554aa0e95adc6d83ebb2",
+    "versionKey": "9ab6a9e696d34ad0057fb524",
+    "publication": "Flee, Mortals! public preview",
+    "edition": "2014 fifth edition compatible",
+    "publisher": "MCDM",
+    "sourceUrl": "",
+    "contextUrl": "",
+    "sourcePdfSha256": "0cbd26f4a51607b0ac6467ab4c5ba5447dce9e06002bfd80e9b1d6e1d49d1394",
+    "cr": "3",
+    "habitatTags": [
+      "Desert",
+      "Forest",
+      "Underground"
+    ],
+    "habitatBasis": "Goblin encounter environments, inferred for these allied beasts.",
+    "searchAppearance": "blade-edged legs",
+    "publisherArt": "",
+    "publisherArtSha256": "f045d5d482c8e0119d2bf78b87f4a5e7c90905634b89356ae50a5f92fa8536a4",
+    "publisherArtOrigin": "Flee, Mortals!"
+  }
+]

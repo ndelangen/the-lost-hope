@@ -1,0 +1,180 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315679,6 +315679,27 @@
+       "traits": ["Use the core halfling traits and Ravenloft’s domain and language choices."]
+     },
+     {
++      "name": "Mind Flayer",
++      "kind": "species",
++      "publication": "Underdark (2003)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Aberration. +2 Strength, +4 Dexterity, +2 Constitution, +8 Intelligence, +6 Wisdom, +6 Charisma. Land speed 30 ft. Darkvision 60 ft. and +3 natural armor.",
++        "Four primary tentacle attacks deal 1d4 bludgeoning each before Strength.",
++        "Mind Blast (Sp) affects creatures in a 60-ft. cone. A failed Will save stuns for 3d4 rounds. The Charisma-based DC is 14 + Charisma modifier, reflecting a 4th-level equivalent. The entry gives no use limit.",
++        "Psionics (Sp), CL 8. At will, charm monster, detect thoughts, levitate, plane shift, and suggestion. Save DCs use Charisma.",
++        "Improved Grab (Ex). A tentacle hit on a Small, Medium, or Large creature allows a free grapple attempt without provoking. On success the tentacle attaches to the head. It can grab a Huge or larger creature if it can reach the head.",
++        "If one or more tentacles are attached at the start of the mind flayer’s turn, one grapple check can attach the rest. The target can escape all with one successful opposed grapple or Escape Artist check. The mind flayer gets +2 on the opposed check per tentacle attached at the start of the opponent’s turn.",
++        "Extract (Ex). Start the turn with all four tentacles attached and win a grapple check to extract the brain. This is normally fatal. The printed rule exempts constructs, elementals, oozes, plants, and undead, and extraction does not instantly kill a creature with multiple heads.",
++        "Telepathy (Su) communicates with a creature within 100 ft. that has a language. The two creatures can use different languages.",
++        "Spell resistance is 25 + class levels.",
++        "Eight racial Hit Dice (8d8) grant BAB +6, base Fortitude +2, Reflex +2, Will +6, and three feats. Racial skill points are 11 × (2 + Intelligence modifier). Racial class skills are Bluff, Concentration, Hide, Intimidate, Knowledge (any), Listen, Move Silently, and Spot.",
++        "Common and Undercommon are automatic. Bonus languages are Abyssal, Aquan, Draconic, Dwarven, Elven, Gnome, Infernal, and Terran.",
++        "LA +7. ECL 15 before class levels and ECL 16 with one class level. Favored class Wizard.",
++        "Uses the Monster Manual’s innate spell-like abilities. The Expanded Psionics Handbook presents a separate power-point variant."
++      ]
++    },
++    {
+       "edition": "3.5 edition",
+       "publication": "Ravenloft Player's Handbook",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -5654,6 +5654,105 @@
+       "tactics": "Inspect and brace the hull before asking anyone to work below it. Use Outburst for the lift after the supports are ready. Keep the ray away from the loaded braces."
+     },
+     {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Aberration",
++      "senses": "Darkvision 60 ft. and telepathy 100 ft.",
++      "speed": "30 ft.",
++      "id": "mind-flayer-voss-sealed-archive-warden-35e",
++      "title": "Mind Flayer sealed-archive warden, racial Hit Dice only",
++      "difficulty": "CR 8. ECL 15 (8 racial HD, LA +7).",
++      "ac": 16,
++      "hp": 52,
++      "hitDice": "8d8+16",
++      "initiative": 7,
++      "languages": "Abyssal, Aquan, Common, Draconic, Terran, Undercommon",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 16,
++        "CON": 14,
++        "INT": 18,
++        "WIS": 16,
++        "CHA": 18
++      },
++      "skills": [
++        "Bluff +15",
++        "Concentration +13",
++        "Hide +14",
++        "Knowledge (dungeoneering) +15",
++        "Listen +14",
++        "Spot +14"
++      ],
++      "traits": [
++        "Neutral. Unarmored, Dexterity +3 and natural armor +3. Touch 13, flat-footed 13. BAB +6, grapple +7. Fortitude +4, Reflex +5, Will +9. Spell resistance 25.",
++        "Mind Blast (Sp) affects creatures in a 60-ft. cone. A failed Will save stuns for 3d4 rounds. The Charisma-based DC is 14 + Charisma modifier, reflecting a 4th-level equivalent. The entry gives no use limit.",
++        "Psionics (Sp), CL 8. At will, charm monster, detect thoughts, levitate, plane shift, and suggestion. Save DCs use Charisma.",
++        "Improved Grab (Ex). A tentacle hit on a Small, Medium, or Large creature allows a free grapple attempt without provoking. On success the tentacle attaches to the head. It can grab a Huge or larger creature if it can reach the head.",
++        "If one or more tentacles are attached at the start of the mind flayer’s turn, one grapple check can attach the rest. The target can escape all with one successful opposed grapple or Escape Artist check. The mind flayer gets +2 on the opposed check per tentacle attached at the start of the opponent’s turn.",
++        "Extract (Ex). Start the turn with all four tentacles attached and win a grapple check to extract the brain. This is normally fatal. The printed rule exempts constructs, elementals, oozes, plants, and undead, and extraction does not instantly kill a creature with multiple heads.",
++        "Telepathy (Su) communicates with a creature within 100 ft. that has a language. The two creatures can use different languages.",
++        "Improved Initiative adds +4. Weapon Finesse uses Dexterity for tentacle attacks. Weapon Focus (tentacle) adds +1 on those attacks."
++      ],
++      "actions": [
++        "One tentacle +10 melee for 1d4+1 bludgeoning, critical ×2. A full attack uses four tentacles at +10 each.",
++        "Mind Blast Will DC 18. Charm monster Will DC 18, detect thoughts Will DC 16, and suggestion Will DC 17.",
++        "Starting with one attached tentacle, roll grapple +7 to attach the rest. If all four are attached at the start of a later turn, a successful grapple check then permits Extract."
++      ],
++      "tactics": "Ilyth contacts intruders telepathically from the archive entrance and tries to get them to leave. If a fight starts, Ilyth lines up Mind Blast clear of allies and leaves through the inner door if the archive cannot be held."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Aberration",
++      "senses": "Darkvision 60 ft. and telepathy 100 ft.",
++      "speed": "30 ft.",
++      "id": "mind-flayer-nethrix-seal-researcher-35e",
++      "title": "Mind Flayer seal researcher, Wizard 1",
++      "difficulty": "CR 9. ECL 16 (8 racial HD, 1 class HD, LA +7).",
++      "ac": 16,
++      "hp": 57,
++      "hitDice": "8d8+1d4+18",
++      "initiative": 7,
++      "languages": "Abyssal, Common, Draconic, Dwarven, Elven, Terran, Undercommon",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 16,
++        "CON": 14,
++        "INT": 20,
++        "WIS": 18,
++        "CHA": 16
++      },
++      "skills": [
++        "Bluff +14",
++        "Concentration +14",
++        "Hide +14",
++        "Knowledge (arcana) +17",
++        "Listen +17",
++        "Move Silently +14",
++        "Spellcraft +12",
++        "Spot +17"
++      ],
++      "traits": [
++        "Neutral. Unarmored, Dexterity +3 and natural armor +3. Touch 13, flat-footed 13. BAB +6, grapple +6. Fortitude +4, Reflex +5, Will +12. Spell resistance 26.",
++        "Mind Blast (Sp) affects creatures in a 60-ft. cone. A failed Will save stuns for 3d4 rounds. The Charisma-based DC is 14 + Charisma modifier, reflecting a 4th-level equivalent. The entry gives no use limit.",
++        "Psionics (Sp), CL 8. At will, charm monster, detect thoughts, levitate, plane shift, and suggestion. Save DCs use Charisma.",
++        "Improved Grab (Ex). A tentacle hit on a Small, Medium, or Large creature allows a free grapple attempt without provoking. On success the tentacle attaches to the head. It can grab a Huge or larger creature if it can reach the head.",
++        "If one or more tentacles are attached at the start of the mind flayer’s turn, one grapple check can attach the rest. The target can escape all with one successful opposed grapple or Escape Artist check. The mind flayer gets +2 on the opposed check per tentacle attached at the start of the opponent’s turn.",
++        "Extract (Ex). Start the turn with all four tentacles attached and win a grapple check to extract the brain. This is normally fatal. The printed rule exempts constructs, elementals, oozes, plants, and undead, and extraction does not instantly kill a creature with multiple heads.",
++        "Telepathy (Su) communicates with a creature within 100 ft. that has a language. The two creatures can use different languages.",
++        "Improved Initiative adds +4. Weapon Finesse uses Dexterity for tentacle attacks. Alertness adds +2 to Listen and Spot. Combat Casting adds +4 on Concentration checks when casting defensively or while grappled or pinned. The Wizard bonus feat is Scribe Scroll. No familiar is present."
++      ],
++      "actions": [
++        "One tentacle +9 melee for 1d4 bludgeoning, critical ×2. A full attack uses four tentacles at +9 each.",
++        "Mind Blast Will DC 17. Charm monster Will DC 17, detect thoughts Will DC 15, and suggestion Will DC 16.",
++        "Wizard spells prepared, CL 1. Cantrips are detect magic, light, and mage hand. First-level spells are grease (Reflex DC 16), mage armor (AC 20 for 1 hour, touch 13, flat-footed 17), and magic missile (one missile for 1d4+1 force).",
++        "Spellbook includes Wizard cantrips and eight 1st-level spells: alarm, detect secret doors, feather fall, grease, mage armor, magic missile, shield, and silent image."
++      ],
++      "tactics": "Sael casts mage armor before approaching the seal. If interrupted, Sael greases the approach and keeps the other researchers clear of the Mind Blast cone."
++    },
++    {
+       "id": "quay-champion",
+       "title": "Quay champion",
+       "origin": "Original DM Library NPC",
+@@ -6804,6 +6903,28 @@
+       "role": "Roadside mediator and Cleric.",
+       "motive": "Resolve a dispute over damaged cargo before sunset strands both wagons at the bridge.",
+       "hook": "Pella can keep the crossing open if the party helps count the damaged goods in front of both drivers."
++    },
++    {
++      "species": "Mind Flayer",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Underdark (2003)",
++      "name": "Ilyth Voss",
++      "build": "mind-flayer-voss-sealed-archive-warden-35e",
++      "role": "Sealed-archive warden.",
++      "motive": "Keep visitors away from the sealed record chamber.",
++      "hook": "Ilyth offers a safe route out if the party returns the ledger intact."
++    },
++    {
++      "species": "Mind Flayer",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Underdark (2003)",
++      "name": "Sael Nethrix",
++      "build": "mind-flayer-nethrix-seal-researcher-35e",
++      "role": "Seal researcher and Wizard.",
++      "motive": "Finish reading the seal before the chamber is closed again.",
++      "hook": "Sael can translate the outer inscription in exchange for time to study it."
+     },
+     {
+       "species": "Catfolk",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -6652,6 +6652,7 @@
+ Mind Flayer	monster	Aberration	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17104-mind-flayer	7
+ Mind Flayer	monster	Aberration	DDEX3-03 - The Occupation of Szith Morcane	2014 fifth edition	Wizards of the Coast		7
+ Mind Flayer	monster	Aberration	DDEX3-08 - The Malady of Elventree	2014 fifth edition	Wizards of the Coast		7
++Mind Flayer	species	Aberration	Underdark (2003)	3.5 edition	Wizards of the Coast	https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531	
+ Mind Flayer Arcanist	monster	Aberration	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17175-mind-flayer-arcanist	8
+ Mind Flayer Arcanist	monster	Aberration	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195124-mind-flayer-arcanist	11
+ Mind Flayer Arcanist	monster	Aberration	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17175-mind-flayer-arcanist	8

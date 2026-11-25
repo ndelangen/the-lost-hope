@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Gnarlborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+      "Medium Plant with a 30-ft. Speed.",
+      "Deep Roots. Roll with Advantage on checks or saves to resist forced movement or avoid becoming Prone.",
+      "Elderwood Whispers. At the end of a Long Rest, pick a skill proficiency, a tool proficiency, or a language. It lasts until the next Long Rest ends.",
+      "Grasping Branches. As a Bonus Action, choose a Large or smaller creature within 30 ft. It makes a Strength save against 8 + Constitution modifier + Proficiency Bonus. Failure leaves it Restrained for 1 minute, with another save at each turn end to escape. Success on the initial save halves its Speed through the end of its next turn. Recharges on a Short or Long Rest.",
+      "Root Sense. A Bonus Action grants Tremorsense out to 60 ft. for 10 minutes. Recharges on a Short or Long Rest.",
+      "Towering Size. Gain Advantage on ability checks to escape the Grappled condition. Count as one size larger for carrying capacity."
+    ]
+  },
+  {
+    "name": "Graveborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+      "Medium Undead with a 30-ft. Speed, 60-ft. Darkvision, and Cold Resistance.",
+      "Devour Corpse. Spoiled food is edible. Spend a minute eating flesh from a Small or larger creature’s corpse, excluding Constructs, to heal by one roll of a Hit Point Die plus Constitution modifier, at least 1 HP. The die is available even if no dice remain and is not spent. Healing this way recharges on a Short or Long Rest.",
+      "Infused Drakkonite. When you deal damage to a creature, you can ignore that creature’s Resistances for the damage and add Necrotic damage equal to your Proficiency Bonus. Recharges on a Short or Long Rest."
+    ]
+  },
+  {
+    "name": "Harvestborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+      "Medium Construct with a 30-ft. Speed.",
+      "Culling. When you damage a Bloodied creature, you can add 1d12 Necrotic damage. Use up to your Proficiency Bonus times per Long Rest.",
+      "Gift of the Green. As a Bonus Action, touch the ground and select a creature also touching the ground within 30 ft. The creature can spend and roll one Hit Point Die to regain HP equal to the roll plus your Proficiency Bonus. Uses equal your Proficiency Bonus. A Short Rest returns one spent use and a Long Rest returns all.",
+      "Jack-O-Lantern. You know Dancing Lights. Choose Intelligence, Wisdom, or Charisma for its spellcasting ability.",
+      "Scarecrow Nature. You need no air, food, or drink.",
+      "Watchful Rest. You remain conscious during an inactive, motionless four-hour Long Rest. You need no sleep and magic cannot put you to sleep."
+    ]
+  },
+  {
+    "name": "Plagueborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+      "Humanoid. Choose Medium or Small. Speed 30 ft. and matching Climb Speed. Darkvision 60 ft.",
+      "Born in Filth. Roll with Advantage on saves to prevent or end the Poisoned condition or a magical contagion.",
+      "Infected Cunning. Choose proficiency in Deception or Stealth.",
+      "Plague Bearer. After an attack roll hits a creature, you can make it roll a Constitution save against 8 + Constitution modifier + Proficiency Bonus. On a failure, it has Disadvantage on attack rolls and ability checks and takes 1d4 Poison damage at the start of each turn for up to 1 minute. It repeats the save at each turn end to clear the effect. Recharges on a Long Rest."
+    ]
+  }
+]

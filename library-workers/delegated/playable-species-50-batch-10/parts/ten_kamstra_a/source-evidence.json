@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Shadow",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      185
+    ],
+    "page": "p. 185 in v2. Shadow Traits.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The playable trait box omits the encounter monster’s ability score loss and shadow creation. It grants poison immunity. Radiant vulnerability and necrotic resistance appear in the design discussion alone.",
+      "The Shadow can write and retains ordinary 0 HP rules. Rest healing is allowed under v2 p. 7. The supplement discusses optional repair spells, which this build does not require."
+    ],
+    "npcExamples": [
+      "Sill"
+    ]
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      224
+    ],
+    "page": "p. 224 in v2. Blood Hawk Traits.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "Kamstra’s awakened Beast has Small size and speaks Common. Pack Tactics requires a bonus action and covers only the next qualifying attack this turn.",
+      "The trait box explicitly grants finesse for Sneak Attack. This build wears no armor and does not rely on carried tools."
+    ],
+    "npcExamples": [
+      "Bramble-Eye"
+    ]
+  },
+  {
+    "name": "Flying Snake",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      231
+    ],
+    "page": "p. 231 in v2. Flying Snake Traits.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The printed player trait block grants 30-ft. flight and does not include Flyby. The design commentary mentions Flyby but adds no player trait.",
+      "V2 p. 7 makes bonus-action monk strikes conventional. Copper Sedge uses a short tail slap for the bonus unarmed strike, with the normal monk die and 5-ft. reach. For the split bite damage, this build adds Dexterity to piercing only."
+    ],
+    "npcExamples": [
+      "Copper Sedge"
+    ]
+  },
+  {
+    "name": "Giant Centipede",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      234
+    ],
+    "page": "p. 234 in v2. Giant Centipede Traits.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The printed player trait block gives blindsight 60 ft. The design commentary mentions 30 ft. This profile follows the trait block.",
+      "Damage uses the player’s two dice and can supply a finesse Sneak Attack. The encounter entry’s paralysis rider does not apply. For the split bite damage, this build assigns Dexterity and Sneak Attack to piercing."
+    ],
+    "npcExamples": [
+      "Thimbleback"
+    ]
+  }
+]

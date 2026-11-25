@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Fey’ri",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider (Native). +2 Dexterity, +2 Intelligence, −2 Constitution. Land speed 30 ft. Darkvision 60 ft. and low-light vision.",
+      "The natural winged form has a 40-ft. fly speed with poor maneuverability. Core flight requires a light load or less.",
+      "Immune to magic sleep. +2 racial bonus on Will saves against enchantment spells and effects.",
+      "Elven Blood makes the fey’ri count as an elf for elf-specific effects and items.",
+      "+2 racial bonus on Bluff, Hide, Listen, Search, and Spot.",
+      "Change Shape (Su). At will as a standard action, assume a humanoid form. The new form supplies its size and movement modes. Retain the original type, ability scores, Hit Dice, hit points, saves, and spellcasting. Gain +10 on Disguise when using the ability for a disguise.",
+      "The 2003 player rules use at-will alter self (Sp) for an indefinite humanoid form. This 3.5 adaptation uses Change Shape from the 2004 conversion of the earlier monster. True seeing reveals the natural form, and Change Shape cannot assume a templated form.",
+      "Choose four Demonic Abilities total. Options are charm person, clairaudience/clairvoyance, darkness, detect thoughts, dimension door, enervation, suggestion, DR 10/magic, fire resistance 10, +2 racial on saves against electricity, or +2 racial on saves against poison.",
+      "Each selected spell-like ability is usable once per day, with caster level equal to character level and Charisma-based save DCs.",
+      "Choose at most one of DR 10/magic, dimension door, and enervation. Taking one raises LA from +2 to +3. The original 2003 DR option was 10/+1. The player entry has no racial Hit Dice.",
+      "Common, Elven, and Abyssal are the languages named in the book. The language section also describes learning Gnoll, Goblin, Sylvan, and Draconic. Favored class Sorcerer."
+    ]
+  }
+]

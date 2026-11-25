@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Bussengeist",
+    "decision": "separate",
+    "pages": "pp. 81–83",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Bussengeist",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead (augmented humanoid, incorporeal)",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "2d12",
+      "speed": "Fly 30 ft. (perfect) (6 squares)",
+      "cr": "1/2",
+      "abilities": {
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "otherStatistics": "Printed 2nd-level human commoner example. Initiative +2. AC 12 (+2 Dex), touch 12, flat-footed 10. Base attack +1, grapple +1. Space and reach 5 ft. Fort +0, Ref +2, Will +0. Hide +10, Listen +10, Profession +7, Search +8, Spot +11. Lightning Reflexes, Skill Focus (Profession). No treasure. Any land or underground. Solitary. Any alignment.",
+      "description": "This wandering geist appears where a tragedy like the one it helped cause is about to occur. Its mourning begins 1d6 days before disaster.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "No physical attack.\nAura of Despair (Sp). Creatures within 120 ft. make a DC 10 Will save. On a failure they take a −2 morale penalty to saves, attack rolls, ability checks, skill checks, and weapon damage rolls until they leave the aura. A success grants immunity to this geist’s aura for 24 hours.\nMind Games (Su). As a free action, project an image of itself to living creatures within 30 ft. Use major image as a phantasm. A DC 10 Will save prevents perception of the image. The sight may also call for a Horror save if its death was particularly gruesome.",
+        "Traits": "Undead and incorporeal traits. It remains in the Near Ethereal and cannot manifest. On the Material Plane it is intangible and normally invisible. It ignores damage from corporeal sources. If destroyed, it returns until its unfinished business is resolved.",
+        "Printed source": "pp. 81–83"
+      },
+      "ruleNotes": [
+        "The book prints one common Geist stat block. This encounter uses its numbers with the Bussengeist’s listed powers and omits the bound geist’s +4 turn resistance. The two DCs come from the printed geist formula."
+      ]
+    }
+  },
+  {
+    "name": "Poltergeist",
+    "decision": "separate",
+    "pages": "pp. 81–83",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Poltergeist",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead (augmented humanoid, incorporeal)",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "2d12",
+      "speed": "Fly 30 ft. (perfect) (6 squares)",
+      "cr": "1/2",
+      "abilities": {
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "otherStatistics": "Printed 2nd-level human commoner example. Initiative +2. AC 12 (+2 Dex), touch 12, flat-footed 10. Base attack +1, grapple +1. Space and reach 5 ft. Fort +0, Ref +2, Will +0. Hide +10, Listen +10, Profession +7, Search +8, Spot +11. Lightning Reflexes, Skill Focus (Profession). No treasure. Any land or underground. Solitary. Any alignment.",
+      "description": "This bound geist haunts the site of a violent death and hurls furnishings to drive the living away.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "No physical attack.\nTelekinesis (Su). Once per round as a free action, use telekinesis as a sorcerer of level equal to its HD or 12, whichever is higher. It can only move objects at or below its Charisma score in weight. For this example, use caster level 12 and a 9-lb. limit per object.",
+        "Traits": "Undead and incorporeal traits. It remains in the Near Ethereal and cannot manifest. On the Material Plane it is intangible and normally invisible. It ignores damage from corporeal sources. If destroyed, it returns until its unfinished business is resolved. It cannot leave its haunting grounds. It has +4 turn resistance and cowers if turned.",
+        "Printed source": "pp. 81–83"
+      },
+      "ruleNotes": [
+        "The book prints one common Geist stat block. This encounter uses its numbers with Poltergeist Telekinesis. The printed weight cap has no unit. Use pounds at the table."
+      ]
+    }
+  },
+  {
+    "name": "Pyroskeleton",
+    "decision": "separate",
+    "pages": "pp. 186–187",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Pyroskeleton",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large undead",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "40 ft. (8 squares)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Initiative +5. AC 16 (−1 size, +1 Dex, +6 natural), touch 10, flat-footed 15. Base attack +2, grapple +6. Space 5 ft., reach 10 ft. Fort +1, Ref +2, Will +4. Alertness, Improved Initiative. Any land or underground. Any organization. No treasure. Always neutral. Advancement 6–15 HD (Huge), 16–25 HD (Gargantuan).",
+      "description": "A towering skeleton burns from within with blue fire. Its flames can shrink to a candle-sized flicker when it has stood idle for 48 hours.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +6 melee (1d6+4).\nFull attack. Two claws +5 melee (1d6+4 each) or huge scythe +7 melee (2d6+6).\nFireball (Su), 1/hour. Cast an 8d6 fireball, Reflex DC 14 half.\nKeen Edge (Su). Its flame applies keen edge to slashing weapons it holds. A nonmagical weapon it holds slowly becomes a huge bone scythe over a few months. This power leaves the claw attacks unchanged.",
+        "Traits": "Undead traits. Immune to fire. DR 5/bludgeoning. Cold damage bypasses its DR. On a failed save against a cold-based effect, it takes half damage. It follows simple orders and cannot coordinate flanking.",
+        "Printed source": "pp. 186–187"
+      },
+      "ruleNotes": [
+        "The printed 5-ft. space and +6 single claw versus +5 full-attack claws are retained. The cold rule specifies damage on a failed save only."
+      ]
+    }
+  },
+  {
+    "name": "Strahd Skeleton",
+    "decision": "separate",
+    "pages": "pp. 186–188",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Strahd Skeleton",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead",
+      "ac": 13,
+      "hp": 26,
+      "hitDice": "4d12",
+      "speed": "30 ft.",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "otherStatistics": "Initiative +6. AC 13 (−1 size, +1 Dex, +3 natural), touch 10, flat-footed 12. Base attack +2, grapple +3. Space and reach 5 ft. Fort +3, Ref +2, Will +4. Great Fortitude, Improved Initiative. Any land (Barovia). Any organization. No treasure. Always neutral. Advancement 5–10 HD (Huge), as printed.",
+      "description": "Strahd’s skeletal infantry rise again after they fall. They can see invisible creatures before those creatures get close enough to strike.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +3 melee (1d4+1) or use a weapon and its corresponding combat stats.\nFull attack. Two claws +3 melee (1d4+1 each) or its printed weapon alternative.",
+        "Traits": "Undead traits, cold immunity, DR 5/bludgeoning, spell resistance 15, +4 turn resistance.\nRelentless (Ex). At 0 HP or below, it falls helpless and starts regaining 1 HP per round. It resumes attacking at full HP. Destroy it by turning strong enough to destroy it, disintegrate, or a coup de grace while it lies helpless. For this skeleton, a coup de grace bypasses undead immunity to critical hits. Severed limbs creep back and reattach.\nVigilant (Su). Continuous see invisibility, out to 60 ft.",
+        "Printed source": "pp. 186–188"
+      },
+      "ruleNotes": [
+        "The printed AC breakdown uses a −1 size modifier despite the Medium size and gives +1 Dex with Dex 14. The printed speed lists both 30 ft. and 5 squares. Use 30 ft. and the listed ACs at the table."
+      ]
+    }
+  },
+  {
+    "name": "Strahd’s Skeletal Steed",
+    "decision": "separate",
+    "pages": "pp. 186, 188",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Strahd’s Skeletal Steed",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large undead",
+      "ac": 13,
+      "hp": 26,
+      "hitDice": "4d12",
+      "speed": "60 ft. (12 squares)",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "otherStatistics": "Initiative +6. AC 13 (−1 size, +1 Dex, +3 natural), touch 10, flat-footed 12. Base attack +2, grapple +6. Space 10 ft., reach 5 ft. Fort +3, Ref +2, Will +4. Great Fortitude, Improved Initiative. Any land (Barovia). Solitary or units of four. No treasure. Always neutral. Advancement 5–10 HD (Huge).",
+      "description": "The remains of a heavy warhorse stand motionless until Strahd sends them to fetch someone. Their gait sounds like bones cracking.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Hoof +6 melee (1d6+4) and bite +0 melee (1d4+2), as printed.\nFull attack. Two hooves +6 melee (1d6+4 each) and bite +0 melee (1d4+2).\nBreath Weapon (Su), every other round. Affect one adjacent square with stinking cloud, Reflex DC 12 negates. The steed can use its breath weapon while biting.",
+        "Traits": "Undead traits, cold immunity, DR 5/bludgeoning, +4 turn resistance, and scent.",
+        "Printed source": "pp. 186, 188"
+      },
+      "ruleNotes": [
+        "The single Attack line lists the hoof and bite together. The breath uses the printed Reflex save instead of the spell’s usual Fortitude save. The source gives no caster level for the breath."
+      ]
+    }
+  },
+  {
+    "name": "Strahd Zombie",
+    "decision": "separate",
+    "pages": "pp. 225–226, 229",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Strahd Zombie",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead",
+      "ac": 11,
+      "hp": 16,
+      "hitDice": "2d12+3",
+      "speed": "30 ft. (6 squares), cannot run",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "otherStatistics": "Initiative −1. AC 11 (−1 Dex, +2 natural), touch 9, flat-footed 11. Base attack +1, grapple +2. Space and reach 5 ft. Fort +2, Ref −1, Will +3. Great Fortitude, Toughness. Any terrain (Barovia). Gangs of 2–5, squads of 6–10, or mobs of 11–20. No treasure. Always neutral.",
+      "description": "These former Barovian guards still march in formation when their master calls. They follow simple orders without speaking.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Slam +2 melee (1d6+1). It can take only one move or attack action each round. It may move and attack as a charge if it has a clear path and starts within its speed.",
+        "Traits": "Undead traits, darkvision 60 ft., spell resistance 15, +4 turn resistance.\nRelentless (Ex). At 0 HP or below, it falls helpless and starts regaining 1 HP per round. It resumes attacking at full HP. Destroy it by turning strong enough to destroy it, disintegrate, or a coup de grace while it lies helpless.\nVigilant (Su). Continuous see invisibility, out to 60 ft.",
+        "Printed source": "pp. 225–226, 229"
+      },
+      "ruleNotes": [
+        "The format lists AC 11 both normally and flat-footed despite the negative Dexterity modifier. The listed totals are retained. The printed Strahd Zombie column does not grant damage reduction."
+      ]
+    }
+  },
+  {
+    "name": "Spirit Waif",
+    "decision": "separate",
+    "pages": "p. 190",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Spirit Waif",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small undead (incorporeal)",
+      "ac": 13,
+      "hp": 6,
+      "hitDice": "1d12",
+      "speed": "20 ft. (4 squares)",
+      "cr": "1/2",
+      "abilities": {
+        "Dex": {
+          "score": 12
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Initiative +0. AC 13 (+1 size, +1 Dex, +1 deflection), touch 13, flat-footed 12. Base attack +0, grapple −4. Space and reach 5 ft. Fort +0, Ref +3, Will +3. Hide +10, Listen +6, Sense Motive +7, Spot +6. Lightning Reflexes. Any land or underground. Solitary. No treasure. Usually neutral good.",
+      "description": "The ghost of a murdered child tries to bring kindly travelers to its bones, unaware that a dangerous creature may now lair there.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "No attack. If attacked, it flees through a wall or floor and refuses further help to the attacker.\nSympathy (Su). It uses Sense Motive to find a kind or virtuous living creature, then reveals itself and tries to lead it to its remains. Any creature that sees the waif makes a DC 11 Will save or follows it as if affected by charm person from a 1st-level sorcerer.",
+        "Traits": "Undead and incorporeal traits.\nRejuvenation (Su). If destroyed, it reforms in 2d4 days. Give its bones a traditional burial to lay it to rest.",
+        "Printed source": "p. 190"
+      },
+      "ruleNotes": [
+        "Use initiative +0, as printed, even though the printed Dexterity and AC breakdown suggest +1."
+      ]
+    }
+  },
+  {
+    "name": "Undead Cloaker",
+    "decision": "separate",
+    "pages": "pp. 50–52",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Undead Cloaker",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large undead",
+      "ac": 21,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "10 ft., fly 40 ft. (average)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "otherStatistics": "Initiative +7. AC 21 (printed breakdown −1 size, +3 Dex, +7 natural), touch 12, flat-footed 16. Base attack +2. Space 10 ft., reach 10 ft. (5 ft. with bite). Fort unlisted, Ref +5, Will +7. Hide +12, Listen +11, Spot +11. Alertness, Improved Initiative. Underground. Solitary. Standard treasure. Always chaotic evil. Advancement 6–8 HD (Large), 9–16 HD (Huge).",
+      "description": "This ragged, foul-smelling cloaker rides a living host until it can drain another victim. It keeps a dead host as a puppet.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Tail slap +8 melee (1d6+5).\nFull attack. Tail slap +8 melee (1d6+5) and bite +3 melee (1d4+2). It can use its tail on other creatures while engulfing.\nAttach (Su). After engulfing a human-shaped creature at least one size smaller, it attempts to bite. A hit attaches the cloaker, which can allow the host to move freely after it stops struggling. It loses its bite while attached. Death ward protects a creature against attachment and removes an attached cloaker. The cloaker also detaches if it is destroyed or successfully turned.\nForcible removal. Use the Attach procedure: another character makes a DC 15 Strength check to tear the cloaker free. On success the host gains 1d4 negative levels. The cloaker survives and follows its hostless rules.\nEnergy Drain (Su). When the host touches a living creature, that creature gains 1 negative level. Use a touch attack if the target resists. If the host touches no living creature over 24 hours, the cloaker instead gives the host 1 negative level. Fortitude DC 14 removes each negative level at the normal recovery check.\nCreate Spawn (Su). A humanoid killed by the drain rises in 24 hours as a zombie without its living abilities. Zombies remain controlled until the cloaker dies. It stays attached to a dead host and controls that host once it rises.",
+        "Traits": "Undead traits and DR 10/magic. Without a host it loses 1 HD each week until destroyed. Once it attaches, it regains 1 HD for each day it feeds.",
+        "Printed source": "pp. 50–52"
+      },
+      "ruleNotes": [
+        "The printed AC breakdown adds to 19, but the total is 21. Use the printed total, touch, and flat-footed values. The stat block omits grapple and Fortitude. If needed, the standard 3.5 statistics yield grapple +11 and Fortitude +1 against effects that apply to undead. The combat paragraph requires DC 17 and says removal kills the cloaker. The detailed Attach ability instead specifies DC 15 and provides rules for a hostless cloaker. Use the Attach procedure as a table ruling."
+      ],
+      "sharedRules": [
+        "Shared dread cloaker rules"
+      ]
+    }
+  }
+]

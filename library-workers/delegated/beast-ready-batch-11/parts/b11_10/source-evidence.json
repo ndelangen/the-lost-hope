@@ -1,0 +1,273 @@
+[
+  {
+    "name": "Insect, Giant Fire Beetle",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol",
+    "originalCopyrightYear": 2024,
+    "translationCopyrightYear": 2025,
+    "printing": "Cubil de Monstruos, licensed Spanish translation of Monster Vault",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "originalHeading": "Insecto, Escarabajo de Fuego Gigante",
+    "printedPages": [
+      344
+    ],
+    "pdfPage": 346,
+    "viewerPages": [
+      346
+    ],
+    "sourceWitness": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourcePageKind": "Publisher’s English identity, CR, size, source-book and terrain index. Rules verified from the Spanish facsimile.",
+    "translationPublisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "No creature-specific change in the Monster Vault errata section.",
+    "terminologyReference": "",
+    "terminologyScope": "Black Flag terms only. Stat values and effects follow the Spanish printing.",
+    "xpSource": "Cubil de Monstruos p. 17, p. 19",
+    "fixedValues": {
+      "Perception": 8,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": -1,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -5,
+      "WIS": -2,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "The printed block gives fixed HP and ability modifiers without Hit Dice or ability scores.",
+    "habitatEvidence": "Terrain listed in the English Kobold Press Monster Vault index.",
+    "appearanceEvidence": "Editorial description of the roster’s existing generated portrait.",
+    "artworkSource": "indexed:images/monsters/giant-fire-beetle/parchment-portrait.webp",
+    "artworkSha256": "b389d8b02dd5ff2d035ac1a16f7e747a032ed04acf911a9182ad820fb873f1fd",
+    "artworkNote": null,
+    "sourceNotes": [
+      "The beetle’s traits begin at the foot of the left column. Both actions continue at the top of the right column on p. 344."
+    ]
+  },
+  {
+    "name": "Insect, Giant Scorpion",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol",
+    "originalCopyrightYear": 2024,
+    "translationCopyrightYear": 2025,
+    "printing": "Cubil de Monstruos, licensed Spanish translation of Monster Vault",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "originalHeading": "Insecto, Escorpión gigante",
+    "printedPages": [
+      344,
+      345
+    ],
+    "pdfPage": 346,
+    "viewerPages": [
+      346,
+      347
+    ],
+    "sourceWitness": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourcePageKind": "Publisher’s English identity, CR, size, source-book and terrain index. Rules verified from the Spanish facsimile.",
+    "translationPublisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "No creature-specific change in the Monster Vault errata section. Page 25 clarifies automatic grappling attacks and fixed escape DCs.",
+    "terminologyReference": "",
+    "terminologyScope": "Black Flag terms only. Stat values and effects follow the Spanish printing.",
+    "xpSource": "Cubil de Monstruos p. 17, p. 19",
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 1,
+      "CON": 2,
+      "INT": -5,
+      "WIS": -1,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "The printed block gives fixed HP and ability modifiers without Hit Dice or ability scores.",
+    "habitatEvidence": "Terrain listed in the English Kobold Press Monster Vault index.",
+    "appearanceEvidence": "Editorial description of the roster’s existing generated portrait.",
+    "artworkSource": "indexed:images/beasts/insect-giant-scorpion/parchment-portrait.webp",
+    "artworkSha256": "860f597874ee224daa52db3872d70659c971b4d562d2effc4599d51a25263e43",
+    "artworkNote": null,
+    "sourceNotes": [
+      "The Sting action uses the 5-ft. reach printed on Spanish p. 344. Its saving throw and the separate 10-ft. Reflexive Sting trigger continue on p. 345. BFRD v0.2 prints a 10-ft. Sting action, which belongs to that separate publication.",
+      "Kobold Press’s Monster Vault p. 25 erratum clarifies that the initial grapple needs no extra check and an escape action uses the listed DC."
+    ]
+  },
+  {
+    "name": "Insect, Giant Wasp",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol",
+    "originalCopyrightYear": 2024,
+    "translationCopyrightYear": 2025,
+    "printing": "Cubil de Monstruos, licensed Spanish translation of Monster Vault",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "originalHeading": "Insecto, Avispa Gigante",
+    "printedPages": [
+      343
+    ],
+    "pdfPage": 345,
+    "viewerPages": [
+      345
+    ],
+    "sourceWitness": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourcePageKind": "Publisher’s English identity, CR, size, source-book and terrain index. Rules verified from the Spanish facsimile.",
+    "translationPublisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "No creature-specific change in the Monster Vault errata section.",
+    "terminologyReference": "",
+    "terminologyScope": "Black Flag terms only. Stat values and effects follow the Spanish printing.",
+    "xpSource": "Cubil de Monstruos p. 17, p. 19",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": 0,
+      "DEX": 2,
+      "CON": 0,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "The printed block gives fixed HP and ability modifiers without Hit Dice or ability scores.",
+    "habitatEvidence": "Terrain listed in the English Kobold Press Monster Vault index.",
+    "appearanceEvidence": "Editorial description of the roster’s existing generated portrait.",
+    "artworkSource": "indexed:images/monsters/giant-wasp/parchment-portrait.webp",
+    "artworkSha256": "d77df7b6ef57ca884369c3c516c9897a50c9a4fadb566de1476ed2685489eecf",
+    "artworkNote": null,
+    "sourceNotes": [
+      "The Wasp starts at the foot of the left column. Its ability modifiers, Sting, and reaction appear at the top of the right column on p. 343."
+    ]
+  },
+  {
+    "name": "Insect, Scorpion",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol",
+    "originalCopyrightYear": 2024,
+    "translationCopyrightYear": 2025,
+    "printing": "Cubil de Monstruos, licensed Spanish translation of Monster Vault",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "originalHeading": "Insecto, Escorpión",
+    "printedPages": [
+      344
+    ],
+    "pdfPage": 346,
+    "viewerPages": [
+      346
+    ],
+    "sourceWitness": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourcePageKind": "Publisher’s English identity, CR, size, source-book and terrain index. Rules verified from the Spanish facsimile.",
+    "translationPublisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "No creature-specific change in the Monster Vault errata section.",
+    "terminologyReference": "",
+    "terminologyScope": "Black Flag terms only. Stat values and effects follow the Spanish printing.",
+    "xpSource": "Cubil de Monstruos p. 17, p. 19",
+    "fixedValues": {
+      "Perception": 9,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 0,
+      "CON": -1,
+      "INT": -5,
+      "WIS": -1,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "The printed block gives fixed HP and ability modifiers without Hit Dice or ability scores.",
+    "habitatEvidence": "Terrain listed in the English Kobold Press Monster Vault index.",
+    "appearanceEvidence": "Editorial description of the roster’s existing generated portrait.",
+    "artworkSource": "indexed:images/beasts/insect-scorpion/parchment-portrait.webp",
+    "artworkSha256": "6997e27e56ec82a2ab5e782331ab55a6bb0da6035841b12543ac124098ea1d57",
+    "artworkNote": null,
+    "sourceNotes": [
+      "The ordinary scorpion’s Sting adds poison damage on a failed save. It lists no poisoned condition or reaction."
+    ]
+  },
+  {
+    "name": "Insect, Swarm of Insects",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol",
+    "originalCopyrightYear": 2024,
+    "translationCopyrightYear": 2025,
+    "printing": "Cubil de Monstruos, licensed Spanish translation of Monster Vault",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "originalHeading": "Insecto, Enjambre de insectos",
+    "printedPages": [
+      344
+    ],
+    "pdfPage": 346,
+    "viewerPages": [
+      346
+    ],
+    "sourceWitness": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "url": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "sourcePageKind": "Publisher’s English identity, CR, size, source-book and terrain index. Rules verified from the Spanish facsimile.",
+    "translationPublisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "No creature-specific change in the Monster Vault errata section.",
+    "terminologyReference": "",
+    "terminologyScope": "Black Flag terms only. Stat values and effects follow the Spanish printing.",
+    "xpSource": "Cubil de Monstruos p. 17, p. 19",
+    "fixedValues": {
+      "Perception": 8,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -5,
+      "WIS": -2,
+      "CHA": -5
+    },
+    "hitDiceEvidence": "The printed block gives fixed HP and ability modifiers without Hit Dice or ability scores.",
+    "habitatEvidence": "Terrain listed in the English Kobold Press Monster Vault index.",
+    "appearanceEvidence": "Editorial description of the roster’s existing generated portrait.",
+    "artworkSource": "indexed:images/monsters/swarm-of-insects/parchment-portrait.webp",
+    "artworkSha256": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952",
+    "artworkNote": "The portrait depicts a stylized mixed-insect spiral. Flight is not printed for this swarm. Its movement is a 20-ft. walk and 20-ft. climb.",
+    "sourceNotes": []
+  }
+]

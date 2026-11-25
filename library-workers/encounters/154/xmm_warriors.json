@@ -1,0 +1,385 @@
+[
+  {
+    "name": "Gnoll Fang of Yeenoghu",
+    "statBlock": {
+      "name": "Gnoll Fang of Yeenoghu",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 141,
+      "classification": "Medium fiend, chaotic evil",
+      "ac": 14,
+      "hp": 71,
+      "hitDice": "11d8 + 22",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 10,
+      "description": "A demonic gnoll singles out wounded prey, then closes in with a venomous bite and a long-reaching bone flail.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 2,
+        "Cha": 3
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Gnoll",
+        "Actions": "Multiattack. Make one Bite attack and two Bone Flail attacks.\nBite. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) Piercing damage plus 7 (2d6) Poison damage. The target is Poisoned until the start of the gnoll's next turn.\nBone Flail. Melee attack, +5 to hit, reach 10 ft. A hit deals 7 (1d8 + 3) Piercing damage.",
+        "Bonus actions": "Rampage (2/day). Immediately after damaging a creature that was already Bloodied, the gnoll moves up to half its Speed and makes one Bite attack.",
+        "Habitats": "Desert, Forest, Grassland, Hill.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 141."
+      }
+    }
+  },
+  {
+    "name": "Gnoll Pack Lord",
+    "statBlock": {
+      "name": "Gnoll Pack Lord",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 140,
+      "classification": "Medium fiend, chaotic evil",
+      "ac": 15,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A pack leader fights with weapons made of bone and calls on nearby gnolls to strike out of turn.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Gnoll",
+        "Actions": "Multiattack. Make two attacks in any combination of Bone Whip and Bone Javelin. Use Incite Rampage if it is available.\nBone Whip. Melee attack, +5 to hit, reach 10 ft. A hit deals 8 (2d4 + 3) Slashing damage.\nBone Javelin. Ranged attack, +5 to hit, range 30/120 ft. A hit deals 7 (1d8 + 3) Piercing damage.\nIncite Rampage (recharge 5–6). Choose another visible creature within 60 ft. that has the Rampage bonus action. That creature can use its Reaction to make one melee attack.",
+        "Bonus actions": "Rampage (2/day). Immediately after damaging a creature that was already Bloodied, the gnoll moves up to half its Speed and makes one Bone Whip attack.",
+        "Habitats": "Desert, Forest, Grassland, Hill.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 140."
+      }
+    }
+  },
+  {
+    "name": "Goblin Boss",
+    "statBlock": {
+      "name": "Goblin Boss",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 143,
+      "classification": "Small fey (goblinoid), chaotic neutral",
+      "ac": 17,
+      "hp": 21,
+      "hitDice": "6d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A quick-footed goblin leader attacks from an opening and puts an ally in the way of a dangerous blow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin",
+        "Gear": "Chain Shirt, Scimitar, Shield, and Shortbow.",
+        "Actions": "Multiattack. Make two attacks in any combination of Scimitar and Shortbow.\nScimitar. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) Slashing damage, plus 2 (1d4) Slashing damage if the roll had Advantage.\nShortbow. Ranged attack, +4 to hit, range 80/320 ft. A hit deals 5 (1d6 + 2) Piercing damage, plus 2 (1d4) Piercing damage if the roll had Advantage.",
+        "Bonus actions": "Nimble Escape. Take the Disengage or Hide action.",
+        "Reactions": "Redirect Attack. When a visible creature makes an attack roll against the goblin, choose a Small or Medium ally within 5 ft. The goblin and that ally switch places, and the original attack targets the ally.",
+        "Habitats": "Forest, Grassland, Hill, Acheron, Feywild, Underdark.",
+        "Treasure": "Implements, Individual.",
+        "Printed source": "Monster Manual (2024), p. 143."
+      }
+    }
+  },
+  {
+    "name": "Hobgoblin Captain",
+    "statBlock": {
+      "name": "Hobgoblin Captain",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 171,
+      "classification": "Medium fey (goblinoid), lawful evil",
+      "ac": 17,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "description": "This officer fights with poisoned blades and arrows and keeps nearby troops steady under pressure.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin",
+        "Gear": "Greatsword, Half Plate Armor, and Longbow.",
+        "Traits": "Aura of Authority. While the captain is not Incapacitated, it and its allies have Advantage on attack rolls and saving throws within its 10-ft. Emanation.",
+        "Actions": "Multiattack. Make two attacks in any combination of Greatsword and Longbow.\nGreatsword. Melee attack, +4 to hit, reach 5 ft. A hit deals 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.\nLongbow. Ranged attack, +4 to hit, range 150/600 ft. A hit deals 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+        "Habitats": "Desert, Forest, Grassland, Hill, Mountain, Acheron, Underdark.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 171."
+      }
+    }
+  },
+  {
+    "name": "Hobgoblin Warlord",
+    "statBlock": {
+      "name": "Hobgoblin Warlord",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 171,
+      "classification": "Medium fey (goblinoid), lawful evil",
+      "ac": 20,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 10,
+      "description": "A heavily armored commander rallies troops across the battlefield and uses heavy javelins to slow anyone trying to escape.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Int": 5,
+        "Wis": 3,
+        "Cha": 5
+      },
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin",
+        "Gear": "Nine Javelins, Longsword, Plate Armor, and Shield.",
+        "Traits": "Aura of Authority. While the warlord is not Incapacitated, it and its allies have Advantage on attack rolls and saving throws within its 30-ft. Emanation.",
+        "Actions": "Multiattack. Make three attacks in any combination of Javelin and Longsword.\nJavelin. Melee or ranged attack, +6 to hit, reach 5 ft. or range 30/120 ft. A hit deals 11 (2d6 + 4) Piercing damage and reduces the target's Speed by 10 ft. until the start of the hobgoblin's next turn.\nLongsword. Melee attack, +6 to hit, reach 5 ft. A hit deals 12 (2d8 + 3) Slashing damage.",
+        "Reactions": "Parry. When a melee attack roll hits the hobgoblin while it holds a weapon, it gains +3 AC against that attack. This can turn the hit into a miss.",
+        "Habitats": "Desert, Forest, Grassland, Hill, Mountain, Acheron, Underdark.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 171."
+      }
+    }
+  },
+  {
+    "name": "Grimlock",
+    "statBlock": {
+      "name": "Grimlock",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 160,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 11,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 13,
+      "description": "An eyeless servant of mind flayers that climbs cavern walls and channels psychic power through a bone cudgel.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 5,
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Blindsight 30 ft.",
+        "Actions": "Bone Cudgel. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage.",
+        "Habitats": "Underdark.",
+        "Printed source": "Monster Manual (2024), p. 160."
+      }
+    }
+  },
+  {
+    "name": "Kuo-toa",
+    "statBlock": {
+      "name": "Kuo-toa",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 189,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 13,
+      "hp": 18,
+      "hitDice": "4d8",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 14,
+      "description": "An amphibious ambusher uses sticky nets and a sticky shield to hold enemies in place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 120 ft., Truesight 30 ft.",
+        "Languages": "Undercommon",
+        "Gear": "Spear.",
+        "Traits": "Amphibious. The kuo-toa breathes air and water.\nSunlight Sensitivity. In sunlight, the kuo-toa has Disadvantage on ability checks and attack rolls.",
+        "Actions": "Spear. Melee or ranged attack, +3 to hit, reach 5 ft. or range 20/60 ft. A hit deals 5 (1d8 + 1) Piercing damage.\nSticky Net (1/day). Choose a visible Large or smaller creature within 15 ft. It makes a DC 10 Dexterity save. On a failure, it is Restrained until the net is destroyed. The net has AC 10 and 5 HP, with Immunity to Bludgeoning, Poison, and Psychic damage. A creature can take an action and succeed on a DC 10 Strength (Athletics) check to free itself or another creature in a net within 5 ft. This destroys the net.",
+        "Reactions": "Sticky Shield. When a creature misses the kuo-toa with a melee attack roll using a weapon, that creature makes a DC 11 Strength save. On a failure, its weapon sticks to the kuo-toa's shield and becomes unusable. If the attacker keeps hold of the weapon, it is Grappled while the weapon is stuck (escape DC 11). The attacker can take an action and succeed on a DC 11 Strength (Athletics) check to free the weapon.",
+        "Habitats": "Coastal, Underdark.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 189."
+      }
+    }
+  }
+]

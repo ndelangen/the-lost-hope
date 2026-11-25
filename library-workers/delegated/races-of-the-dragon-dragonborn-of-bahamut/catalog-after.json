@@ -1,0 +1,1191 @@
+[
+  {
+    "name": "Dragonborn of Bahamut",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-0098b4737e086c64f298d7f9",
+      "name": "Dragonborn of Bahamut",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Nikki Dawes · Fizban's Treasury of Dragons"
+        }
+      ],
+      "versions": [
+        {
+          "key": "f278c4f16d11e33b5252314d",
+          "publication": "Fizban's Treasury of Dragons",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 8. Named abilities include Legendary Resistance (1/Day), Longsword, Healing Touch (1/Day).",
+          "source": "https://5e.tools/bestiary.html#dragonborn%20of%20bahamut_ftd",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/21205/229/1000/1000/637707682455349393.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Nikki Dawes · Fizban's Treasury of Dragons"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "18"
+            ],
+            [
+              "Hit points",
+              "93"
+            ],
+            [
+              "Hit dice",
+              "11d8 + 44"
+            ],
+            [
+              "Challenge",
+              "8"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., fly 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "15"
+            ],
+            [
+              "Strength",
+              "19"
+            ],
+            [
+              "Dexterity",
+              "13"
+            ],
+            [
+              "Constitution",
+              "18"
+            ],
+            [
+              "Intelligence",
+              "12"
+            ],
+            [
+              "Wisdom",
+              "14"
+            ],
+            [
+              "Charisma",
+              "17"
+            ],
+            [
+              "Alignment",
+              "lawful good"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Con +7",
+                "Int +4",
+                "Wis +5",
+                "Cha +6",
+                "Constitution +7, Intelligence +4, Wisdom +5, Charisma +6"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Athletics +7, Perception +5, Persuasion +6"
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Common, Draconic"
+              ]
+            },
+            {
+              "title": "Condition immunities",
+              "lines": [
+                "frightened"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Legendary Resistance (1/Day)"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Longsword · Melee attack · +7 to hit · 1d8 + 4 slashing damage · 1d10 + 4 slashing damage · 3d8 radiant damage · DC 14 Constitution save · reach 5 ft. · Blinded",
+                "Healing Touch (1/Day) · within 5 feet · 40 hit points",
+                "Radiant Breath (Recharge 6) · DC 15 Dexterity save · 8d10 radiant damage · 4d10 · 30-foot cone · Half damage on a successful save"
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Dragonborn Champions"
+              ]
+            }
+          ],
+          "sourceCode": "FTD",
+          "page": 184,
+          "references": [
+            {
+              "label": "Fizban's Treasury of Dragons, p. 184",
+              "url": "https://5e.tools/bestiary.html#dragonborn%20of%20bahamut_ftd"
+            },
+            {
+              "label": "Half plate armor (item)",
+              "url": "https://5e.tools/items.html#half%20plate%20armor_phb",
+              "terms": [
+                "half plate"
+              ],
+              "local": {
+                "entry": "compendium-44393f6970121b518fa8868b",
+                "version": "PHB:145:https://5e.tools/items.html#half%20plate%20armor_phb"
+              },
+              "preview": {
+                "name": "Half Plate Armor",
+                "group": "Items",
+                "publication": "Player's Handbook (2014)",
+                "page": 145,
+                "description": "A medium armor.",
+                "local": {
+                  "entry": "compendium-44393f6970121b518fa8868b",
+                  "version": "PHB:145:https://5e.tools/items.html#half%20plate%20armor_phb"
+                }
+              }
+            },
+            {
+              "label": "Shield (item)",
+              "url": "https://5e.tools/items.html#shield_phb",
+              "local": {
+                "entry": "item-072a626ed2d6cc7d5da0fcc3",
+                "version": "PHB:144:https://5e.tools/items.html#shield_phb"
+              },
+              "preview": {
+                "name": "Shield",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A shield.",
+                "local": {
+                  "entry": "item-072a626ed2d6cc7d5da0fcc3",
+                  "version": "PHB:144:https://5e.tools/items.html#shield_phb"
+                }
+              }
+            },
+            {
+              "label": "Blinded (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#blinded_phb",
+              "local": {
+                "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+              },
+              "preview": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Medium humanoid with challenge rating 8. Named abilities include Legendary Resistance (1/Day), Longsword, Healing Touch (1/Day).": [
+              {
+                "start": 77,
+                "end": 87,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              },
+              {
+                "start": 108,
+                "end": 115,
+                "target": {
+                  "name": "Healing",
+                  "group": "Variant rules",
+                  "publication": "Dungeon Master's Guide (2014)",
+                  "page": 266,
+                  "local": {
+                    "entry": "compendium-21f7f168ef07ae3f736c06e6",
+                    "version": "DMG:266:https://5e.tools/variantrules.html#healing_dmg"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Athletics +7, Perception +5, Persuasion +6": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              },
+              {
+                "start": 14,
+                "end": 24,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 29,
+                "end": 39,
+                "target": {
+                  "name": "Persuasion",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 179,
+                  "local": {
+                    "entry": "compendium-c53db7b407a93f295c291cf9",
+                    "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+                  }
+                }
+              }
+            ],
+            "Condition immunities": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Condition",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 363,
+                  "local": {
+                    "entry": "compendium-7ec713220a1ab631931f9618",
+                    "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                  }
+                }
+              }
+            ],
+            "frightened": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Frightened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                  "local": {
+                    "entry": "compendium-879f347e29c83a95483201f4",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                  }
+                }
+              }
+            ],
+            "Legendary Resistance (1/Day)": [
+              {
+                "start": 10,
+                "end": 20,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Longsword · Melee attack · +7 to hit · 1d8 + 4 slashing damage · 1d10 + 4 slashing damage · 3d8 radiant damage · DC 14 Constitution save · reach 5 ft. · Blinded": [
+              {
+                "start": 153,
+                "end": 160,
+                "target": {
+                  "name": "Blinded",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                  "local": {
+                    "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                  }
+                }
+              }
+            ],
+            "Healing Touch (1/Day) · within 5 feet · 40 hit points": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Healing",
+                  "group": "Variant rules",
+                  "publication": "Dungeon Master's Guide (2014)",
+                  "page": 266,
+                  "local": {
+                    "entry": "compendium-21f7f168ef07ae3f736c06e6",
+                    "version": "DMG:266:https://5e.tools/variantrules.html#healing_dmg"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Nikki Dawes · Fizban's Treasury of Dragons"
+      }
+    },
+    "genericSpecies": {
+      "id": "species-5b93193dfacc988a381a192c",
+      "name": "Dragonborn",
+      "kind": "species",
+      "group": "Fifth edition compatible",
+      "groups": [
+        "Fifth edition compatible",
+        "2014 fifth edition",
+        "2024 fifth edition"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Player's Handbook (2014)"
+        },
+        {
+          "url": "",
+          "credit": "David Auden Nash · Player’s Handbook"
+        }
+      ],
+      "versions": [
+        {
+          "key": "dc2d0736202f9e2ba99fc1f6",
+          "publication": "Player’s Handbook",
+          "edition": "2024 fifth edition",
+          "source": "https://5e.tools/races.html#dragonborn_xphb",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43940/435/340/340/638607448651696917.png",
+          "status": "Traits summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "David Auden Nash · Player’s Handbook"
+            }
+          ],
+          "stats": [
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Speed",
+              "30 ft."
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Species traits",
+              "lines": [
+                "Size Medium.",
+                "Walking speed 30 feet.",
+                "Darkvision 60 feet.",
+                "Source traits include Draconic Ancestry, Breath Weapon, Damage Resistance, Darkvision, Draconic Flight."
+              ]
+            },
+            {
+              "title": "Original NPC · Vasha Kilnline",
+              "lines": [
+                "Dockside enforcer and potential witness",
+                "Motive. Keep the night dock open after a fatal accident threatens its license.",
+                "Hook. Vasha will name the boat that struck the pier if someone gets the workers a public hearing.",
+                "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
+                "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
+              ]
+            },
+            {
+              "title": "Sections",
+              "lines": [
+                "Draconic Ancestry",
+                "Breath Weapon",
+                "Damage Resistance",
+                "Darkvision",
+                "Draconic Flight"
+              ]
+            }
+          ],
+          "sourceCode": "XPHB",
+          "references": [
+            {
+              "label": "Player's Handbook (2024), p. 187",
+              "url": "https://5e.tools/races.html#dragonborn_xphb"
+            },
+            {
+              "label": "Attack (action)",
+              "url": "https://5e.tools/actions.html#attack_xphb",
+              "local": {
+                "entry": "compendium-ee4513822759ad608e923756",
+                "version": "XPHB:361:https://5e.tools/actions.html#attack_xphb"
+              },
+              "preview": {
+                "name": "Attack",
+                "group": "Actions",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-ee4513822759ad608e923756",
+                  "version": "XPHB:361:https://5e.tools/actions.html#attack_xphb"
+                }
+              }
+            },
+            {
+              "label": "Darkvision (sense)",
+              "url": "https://5e.tools/senses.html#darkvision_xphb",
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+              },
+              "preview": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "label": "Incapacitated (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#incapacitated_xphb",
+              "local": {
+                "entry": "compendium-b982916d13c7b1a5bf750c36",
+                "version": "XPHB:369:https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
+              },
+              "preview": {
+                "name": "Incapacitated",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "description": "You cannot take actions or reactions.",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "XPHB:369:https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Size Medium.": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Darkvision 60 feet.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 365,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                  }
+                }
+              }
+            ],
+            "Source traits include Draconic Ancestry, Breath Weapon, Damage Resistance, Darkvision, Draconic Flight.": [
+              {
+                "start": 48,
+                "end": 54,
+                "target": {
+                  "name": "Weapon",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 377,
+                  "local": {
+                    "entry": "compendium-5ebb76334c6716c8d8118434",
+                    "version": "XPHB:377:https://5e.tools/variantrules.html#weapon_xphb"
+                  }
+                }
+              },
+              {
+                "start": 56,
+                "end": 62,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              },
+              {
+                "start": 63,
+                "end": 73,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 312,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "XPHB:312:https://5e.tools/spells.html#resistance_xphb"
+                  }
+                }
+              },
+              {
+                "start": 75,
+                "end": 85,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 365,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                  }
+                }
+              }
+            ],
+            "Original NPC · Vasha Kilnline": [
+              {
+                "start": 15,
+                "end": 29,
+                "target": {
+                  "name": "Vasha Kilnline",
+                  "group": "Dragonborn",
+                  "publication": "Quay champion",
+                  "local": {
+                    "entry": "npc-c18d8a511228e758fd8c1254",
+                    "version": "7e73d0c775cfcb806e9bd6a9"
+                  }
+                }
+              }
+            ],
+            "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft.": [
+              {
+                "start": 26,
+                "end": 31,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Breath Weapon": [
+              {
+                "start": 7,
+                "end": 13,
+                "target": {
+                  "name": "Weapon",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 377,
+                  "local": {
+                    "entry": "compendium-5ebb76334c6716c8d8118434",
+                    "version": "XPHB:377:https://5e.tools/variantrules.html#weapon_xphb"
+                  }
+                }
+              }
+            ],
+            "Damage Resistance": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              },
+              {
+                "start": 7,
+                "end": 17,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 312,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "XPHB:312:https://5e.tools/spells.html#resistance_xphb"
+                  }
+                }
+              }
+            ],
+            "Darkvision": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 365,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "38de89a29d1014277170ddd5",
+          "publication": "Player's Handbook (2014)",
+          "edition": "2014 fifth edition",
+          "source": "https://5e.tools/races.html#dragonborn_phb",
+          "status": "Traits summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "Player's Handbook (2014)"
+            }
+          ],
+          "stats": [
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Speed",
+              "30 ft."
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Species traits",
+              "lines": [
+                "+2 Strength and +1 Charisma; walking speed 30 feet.",
+                "Choose an ancestry. It defines the damage resistance, breath damage type, area, and saving throw ability. Save DC is 8 plus Constitution modifier plus proficiency.",
+                "Breath deals 2d6 at level 1, rising by 1d6 at levels 6, 11, and 16; half damage on a success. Recharges after a short or long rest."
+              ]
+            },
+            {
+              "title": "Sections",
+              "lines": [
+                "Age",
+                "Size",
+                "Draconic Ancestry",
+                "Breath Weapon",
+                "Damage Resistance",
+                "Languages"
+              ]
+            }
+          ],
+          "sourceCode": "PHB",
+          "page": 32,
+          "references": [
+            {
+              "label": "Player's Handbook (2014), p. 32",
+              "url": "https://5e.tools/races.html#dragonborn_phb"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Choose an ancestry. It defines the damage resistance, breath damage type, area, and saving throw ability. Save DC is 8 plus Constitution modifier plus proficiency.": [
+              {
+                "start": 84,
+                "end": 96,
+                "target": {
+                  "name": "Saving Throw",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 179,
+                  "description": "Roll a d20 and add the relevant ability modifier, plus proficiency if it applies. The effect sets the DC.",
+                  "local": {
+                    "entry": "compendium-c71a1b1cfda70c19953fcff6",
+                    "version": "PHB:179:https://5e.tools/book.html#PHB"
+                  }
+                }
+              },
+              {
+                "start": 106,
+                "end": 110,
+                "target": {
+                  "name": "Save",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 373,
+                  "local": {
+                    "entry": "compendium-1c5fa4e770881c6d4cab5655",
+                    "version": "XPHB:373:https://5e.tools/variantrules.html#save_xphb"
+                  }
+                }
+              }
+            ],
+            "Breath Weapon": [
+              {
+                "start": 7,
+                "end": 13,
+                "target": {
+                  "name": "Weapon",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 377,
+                  "local": {
+                    "entry": "compendium-5ebb76334c6716c8d8118434",
+                    "version": "XPHB:377:https://5e.tools/variantrules.html#weapon_xphb"
+                  }
+                }
+              }
+            ],
+            "Damage Resistance": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              },
+              {
+                "start": 7,
+                "end": 17,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "6bdeb2e7d64b1c68f0d083f1",
+          "publication": "SRD 5.2.1",
+          "edition": "2024 fifth edition",
+          "status": "Traits summary",
+          "images": [],
+          "stats": [
+            [
+              "Type",
+              "Humanoid"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Species traits",
+              "lines": [
+                "Medium, walking speed 30 ft.",
+                "Choose a draconic ancestor for one damage resistance and the damage type of a breath attack.",
+                "60 ft. darkvision. Temporary magical flight becomes available at level 5."
+              ]
+            },
+            {
+              "title": "Original NPC · Vasha Kilnline",
+              "lines": [
+                "Dockside enforcer and potential witness",
+                "Motive. Keep the night dock open after a fatal accident threatens its license.",
+                "Hook. Vasha will name the boat that struck the pier if someone gets the workers a public hearing.",
+                "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
+                "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
+              ]
+            }
+          ],
+          "inline": {
+            "60 ft. darkvision. Temporary magical flight becomes available at level 5.": [
+              {
+                "start": 7,
+                "end": 17,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 365,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                  }
+                }
+              }
+            ],
+            "Original NPC · Vasha Kilnline": [
+              {
+                "start": 15,
+                "end": 29,
+                "target": {
+                  "name": "Vasha Kilnline",
+                  "group": "Dragonborn",
+                  "publication": "Quay champion",
+                  "local": {
+                    "entry": "npc-c18d8a511228e758fd8c1254",
+                    "version": "7e73d0c775cfcb806e9bd6a9"
+                  }
+                }
+              }
+            ],
+            "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft.": [
+              {
+                "start": 26,
+                "end": 31,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "85c24f43cd1f03d3b9a60115",
+          "publication": "Basic Rules (2014)",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/species/16-dragonborn",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/4808/221/340/340/636771214201929248.png",
+          "images": [],
+          "stats": [],
+          "sections": []
+        },
+        {
+          "key": "94c8029760aa07ef39494efc",
+          "publication": "Grim Hollow: Player’s Guide",
+          "edition": "Fifth edition compatible",
+          "source": "https://www.dndbeyond.com/species/1987215-dragonborn",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/51097/569/340/340/638914752742419615.png",
+          "images": [],
+          "stats": [],
+          "sections": []
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Player's Handbook (2014)"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "c28871ac424fca3730fc6058",
+      "publication": "Races of the Dragon (2006)",
+      "edition": "3.5 edition",
+      "source": "https://www.drivethrurpg.com/en/product/28750/races-of-the-dragon-3-5",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Original type (Dragonblood)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "For the Rite of Rebirth, Bahamut calls a willing, non-evil subject of Intelligence 3 or higher. The rite takes 24 hours of fasting and meditation followed by 24 hours of sleep in a symbolic egg. The egg costs 100 gp and requires metallic dragon scales. An interruption restarts the rite.",
+            "Retain original type, subtypes, racial Hit Dice, racial ability adjustments, size, powerful build if present, base speed and other movement modes, languages already known, favored classes, and level adjustment. Add Dragonblood under the subtype rules, +2 Constitution, −2 Dexterity, Draconic, and favored class Fighter. Continue to count as the original race and as a dragon for race-related effects.",
+            "Other former racial traits go away, including racial bonus feats, extra racial skill points, and special movement perks such as a dwarf’s full armored speed. Remove lost bonus points from ranks. Recheck feat and prestige-class prerequisites. The rite permits one eligible feat swap for a first-level-only Dragonblood feat. Dragonborn Paladins may multiclass and later resume Paladin.",
+            "The dragonborn emerges as an adult and loses former age adjustments. The new middle, old, and venerable ages are 200, 300, and 400 years. Add 2d% to 400 years for maximum age. Gain +2 dodge AC against creatures of the Dragon type and immunity to dragons’ frightful presence. Choose one permanent aspect: Heart, Mind, or Wings.",
+            "Heart grants a line 5 ft. per Hit Die (maximum 100 ft.), usable once every 1d4 rounds. Damage is 1d8 plus 1d8 per three Hit Dice. Choose acid, cold, electricity, or fire each time. Reflex DC 10 + half Hit Dice, rounded down, + Constitution modifier halves damage.",
+            "Mind grants immunity to paralysis and magic sleep, low-light vision, darkvision 30 ft., and +2 racial to Listen, Search, and Spot. Darkvision reaches 60 ft. at 6 HD, 90 ft. at 9 HD, and 120 ft. at 12 HD. Low-light range rises to three times human at 9 HD and four times at 12 HD. Blindsense 30 ft. starts at 15 HD.",
+            "Wings grants +10 racial to Jump and gliding at 30 ft. with average maneuverability. Glide 20 ft. forward per 5 ft. descended and take no falling damage while gliding. No hovering or gliding with a medium or heavy load. If helpless or unconscious in midair, the wings cause a slow descent and reduce falling damage to 1d6.",
+            "Wings flight starts at 6 HD, 30 ft. with average maneuverability. Flight requires a light load and no fatigue or exhaustion. Fly safely for Constitution modifier rounds in a row (minimum 1). Doubling that time or spending over 10 minutes per day flying causes fatigue. Gliding can separate powered flights. Powered flight stops causing that fatigue at 12 HD.",
+            "While flying, a dive attack functions as a charge with at least 30 ft. of travel and 10 ft. of descent. The dive requires a piercing weapon and deals double damage on a hit. Running in flight requires a straight line."
+          ]
+        },
+        {
+          "title": "Original NPC · Joren Cindervein",
+          "lines": [
+            "Ember road warden and Heart Paladin.",
+            "Motive. Get refugees past the dragon’s tribute collectors.",
+            "Hook. Joren can scout the next turn if the party keeps the wagon moving.",
+            "Dragonborn of Bahamut ember road warden, Heart Paladin 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Dragonblood, Human)",
+            "AC 17 · HP 13 (1d10+3) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Orra Slatefall",
+          "lines": [
+            "Ravine rope guard and Wings Fighter.",
+            "Motive. Restore the torn rope crossing before the last travellers arrive.",
+            "Hook. Orra can bring a light messenger line down from the high ledge while the party carries the heavier rope.",
+            "Dragonborn of Bahamut ravine rope guard, Wings Fighter 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Dragonblood, Dwarf)",
+            "AC 17 · HP 13 (1d10+3) · Speed 20 ft. (glide 30 ft., average)"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Joren Cindervein": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Joren Cindervein",
+              "group": "Dragonborn of Bahamut",
+              "publication": "Dragonborn of Bahamut ember road warden, Heart Paladin 1",
+              "local": {
+                "entry": "npc-3a1ba7329af29c204d229336",
+                "version": "23287e7392a86979b63da7cd"
+              }
+            }
+          }
+        ],
+        "Original NPC · Orra Slatefall": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Orra Slatefall",
+              "group": "Dragonborn of Bahamut",
+              "publication": "Dragonborn of Bahamut ravine rope guard, Wings Fighter 1",
+              "local": {
+                "entry": "npc-796e30e7c811a64c42c2c9d9",
+                "version": "257e91c52036b215ad65f545"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Dragonborn of Bahamut": true,
+      "dragonborn rite of rebirth": true,
+      "dragonborn frightful presence": true,
+      "dragonborn ember road warden": true,
+      "dragonborn ravine rope guard": true
+    },
+    "hash": "13a4f2d2dac320bd417b41cd84c9e9363fea98e1cbda3cba0867706eb50ecc7a",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of the Dragon (2006)",
+    "defaultVersionKey": "c28871ac424fca3730fc6058",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

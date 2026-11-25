@@ -1,0 +1,295 @@
+{
+  "builds": [
+    {
+      "id": "crooked-moon-ashborn-nix-coppermark",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Night locksmith, Rogue 1",
+      "difficulty": "Rogue 1. No assigned CR.",
+      "size": "Small",
+      "type": "Fiend",
+      "speed": "30 ft.",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 5,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Dwarvish, Halfling, Infernal, Thieves' Cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Deception +2",
+        "Insight +3",
+        "Investigation +4",
+        "Perception +3",
+        "Sleight of Hand +7",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +4. Leather armor AC 11 + 3 Dexterity. Criminal background shifts Dexterity by +2 and Constitution by +1. Its Alert feat adds proficiency to initiative. Immediately after rolling, Nix may swap initiative with a willing ally in the same fight if neither is incapacitated.",
+        "Criminal grants Sleight of Hand, Stealth, and thieves' tools. Rogue adds Deception, Insight, Investigation, and Perception. Expertise doubles proficiency in Sleight of Hand and Stealth. Rogue languages are Infernal and Thieves' Cant.",
+        "Sneak Attack. Once per turn, add 1d6 damage on a qualifying dagger or bow hit. It qualifies with advantage, or with a non-incapacitated ally within 5 ft. of the target and no disadvantage. Use the weapon's damage type. Tail strikes never qualify for this feature."
+      ],
+      "actions": [
+        "Dagger. +5 to hit, reach 5 ft. or range 20/60 ft., 1d4+3 piercing. Nick moves the extra Light-weapon attack with a different dagger into the Attack action once per turn. Do not add the Dexterity modifier to the extra attack's damage.",
+        "Shortbow. +5 to hit, range 80/320 ft., 1d6+3 piercing. Vex grants advantage on Nix's next attack against a target hit and damaged by the bow by the end of Nix's next turn.",
+        "Scorpion Sting. Dexterity-based unarmed strike +5, reach 5 ft., 1d4+3 piercing. Add 1d6 poison up to twice, recovering one use on a short rest and all on a long rest.",
+        "Fiendish Fortune. Once per short or long rest, react to a noncritical attack hit by making it miss. One creature Nix chooses within 5 ft. of Nix takes 2 force damage.",
+        "Minor Illusion. Magic action. Create a sound or a stationary object image no larger than a 5-ft. cube within 30 ft. for 1 minute. A Study action and DC 12 Intelligence (Investigation) discern the illusion. Touch gives away a false image. Nix casts it with Intelligence and carries fleece for the spell."
+      ],
+      "tactics": "Nix uses a false rattle to draw eyes away from the lock. In a fight, keep Fiendish Fortune for the first blow likely to put Nix down."
+    },
+    {
+      "id": "crooked-moon-azureborn-vell-sableflight",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Weather courier, Ranger 1",
+      "difficulty": "Ranger 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft., fly 30 ft.",
+      "ac": 14,
+      "hp": 11,
+      "hitDice": "1d10+1",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 14.",
+      "languages": "Common, Elvish, Orc.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 12
+      },
+      "skills": [
+        "Athletics +1",
+        "Nature +2",
+        "Perception +4",
+        "Stealth +5",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +1, Dexterity save +5. Leather armor AC 11 + 3 Dexterity. Guide adds +2 Dexterity and +1 Wisdom, plus Stealth, Survival, and cartographer's tools. Ranger grants Athletics, Nature, and Perception.",
+        "Spellcasting. Wisdom gives spell attack +4 and save DC 12. Prepare Cure Wounds and Fog Cloud. Ranger has two 1st-level slots per long rest. Favored Enemy prepares Hunter's Mark and gives two slot-free castings per long rest. Magic Initiate (Druid) adds Druidcraft, Mending, and prepared Goodberry with Wisdom. Goodberry is free once per long rest or uses a slot."
+      ],
+      "actions": [
+        "Shortbow. +5 to hit, range 80/320 ft., 1d6+3 piercing. Vex grants advantage on Vell's next attack against a target hit and damaged by the bow by the end of Vell's next turn.",
+        "Shortsword. +5 to hit, reach 5 ft., 1d6+3 piercing. Vex also applies to this weapon.",
+        "Glimpse Fate. On rolling initiative without surprise, choose two creatures Vell can see. They roll initiative with advantage. Recharges on a short or long rest.",
+        "Winds of Magic. Bonus action to Dash and increase fly speed to 40 ft. through the end of the turn. Two uses per long rest.",
+        "Guidance. Magic action, touch a willing creature. Concentrate up to 1 minute. Name a skill for the target to add 1d4 to checks made with it.",
+        "Hunter's Mark. Bonus action at 90 ft., concentration up to 1 hour. Name a target Vell can see, add 1d6 force whenever Vell hits it with an attack, and roll Perception or Survival with advantage to find it. If it drops to 0 HP, move the mark on a later turn with a bonus action.",
+        "Cure Wounds. Magic action, touch, heal 2d8+2 HP. Fog Cloud. Magic action, 120 ft., a 20-ft.-radius area is heavily obscured for up to 1 hour with concentration. A strong wind disperses it.",
+        "Goodberry. Magic action with mistletoe, creates ten berries. Eating a berry as a bonus action heals 1 HP and feeds the eater for the day. Berries expire after 24 hours.",
+        "Druidcraft forecasts local weather for the next 24 hours or produces a minor nature effect. Mending takes 1 minute with lodestones and repairs one break or tear up to 1 ft. in any dimension."
+      ],
+      "tactics": "Vell calls a warning with Glimpse Fate, climbs to a clear shooting line, then saves the next bonus action for either pursuit or a mark."
+    },
+    {
+      "id": "crooked-moon-bogborn-orruk-fenpeg",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Crossing tender, Fighter 1",
+      "difficulty": "Fighter 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Giant",
+      "speed": "30 ft.",
+      "ac": 16,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Giant, Halfling.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 12,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +3",
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +2",
+        "Perception +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Hide armor AC 12 + 1 Dexterity + 2 shield + 1 Defense fighting style. Soldier gives +2 Strength, +1 Constitution, Athletics, Intimidation, a dice set, and Savage Attacker. Fighter adds Acrobatics and Insight. Keen Senses adds Perception.",
+        "Bog Bulk. Orruk carries up to 510 lb. before optional encumbrance rules and has advantage on ability checks to escape a grapple.",
+        "Savage Attacker. Once on a turn on a weapon hit, roll the weapon's damage dice twice and choose a set before adding the damage modifier."
+      ],
+      "actions": [
+        "Spear. +5 to hit, reach 5 ft. or range 20/60 ft., 1d6+3 piercing with shield equipped. Sap imposes disadvantage on the target's next attack before the start of Orruk's next turn.",
+        "Javelin. +5 to hit, reach 5 ft. or range 30/120 ft., 1d6+3 piercing. Slow cuts a damaged creature's speed by 10 ft. until the start of Orruk's next turn.",
+        "Handaxe. +5 to hit, reach 5 ft. or range 20/60 ft., 1d6+3 slashing. Vex gives advantage on Orruk's next attack against a target hit and damaged by it by the end of Orruk's next turn.",
+        "Guiding Bond. Bonus action, mark one visible creature within 60 ft. for 1 minute. Add 1d4 to Orruk's attack rolls and ability checks against it. Two uses per long rest.",
+        "Regeneration. Bonus action, spend Orruk's d10 Hit Point Die to heal 1d10+2 HP. Acid or fire damage blocks this until the end of Orruk's next turn.",
+        "Second Wind. Bonus action for 1d10+1 HP. Two uses, regaining one per short rest or both per long rest."
+      ],
+      "tactics": "Marks the likeliest threat and uses spear Sap to keep someone else safe on the crossing. Saves the Hit Point Die until Second Wind is spent or a rest looks unlikely."
+    },
+    {
+      "id": "crooked-moon-curseborn-sella-ragwort",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Mill runner, Barbarian 1",
+      "difficulty": "Barbarian 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "35 ft.",
+      "ac": 13,
+      "hp": 16,
+      "hitDice": "1d12+2",
+      "initiative": 1,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Dwarvish, Gnomish.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Intimidation +2",
+        "Nature +1",
+        "Perception +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Unarmored Defense AC 10 + 1 Dexterity + 2 Constitution. Farmer adds +2 Strength, +1 Constitution, Animal Handling, Nature, carpenter's tools, and Tough. Tough adds 2 HP at level 1. Barbarian grants Athletics and Intimidation, and Lupine Sense grants Perception."
+      ],
+      "actions": [
+        "Cursed Claws. Strength-based unarmed strike +5, reach 5 ft., 1d6+3 slashing, or 1d6+5 while raging. On a hit Sella can give the creature disadvantage on D20 Tests and a visible trail of fog until the start of her next turn. Two uses of the curse per long rest.",
+        "Handaxe. +5 to hit, reach 5 ft. or range 20/60 ft., 1d6+3 slashing, or 1d6+5 while raging. Vex gives advantage on Sella's next attack against a target hit and damaged by it by the end of her next turn.",
+        "Greatclub. +5 to hit, reach 5 ft., 1d8+3 bludgeoning or 1d8+5 while raging. Push can move a Large or smaller creature hit by the club up to 10 ft. straight away.",
+        "Rage. Bonus action, two uses. Recover one on a short rest or both on a long rest. While raging, resist bludgeoning, piercing, and slashing, gain advantage on Strength checks and saves, and add 2 damage to Strength attacks. No spellcasting or concentration. Rage ends on incapacitation, donning heavy armor, or at the end of the next turn. Extend it by attacking a foe, forcing a foe to save, or spending a bonus action on a subsequent turn, to a maximum of 10 minutes.",
+        "Grey Balance. Reaction when Sella fails a save. The save succeeds, then Sella has disadvantage on D20 Tests through her next turn. Once per long rest."
+      ],
+      "tactics": "Sella uses one cursed claw hit before the most dangerous opponent takes another turn. She holds Grey Balance for a failed save that would put someone beside her at risk."
+    },
+    {
+      "id": "crooked-moon-deepborn-maar-siltglass",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Tide gauge keeper, Warlock 1",
+      "difficulty": "Warlock 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Aberration",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 11.",
+      "languages": "Common, Deep Speech, Dwarvish, Halfling.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 17
+      },
+      "skills": [
+        "Arcana +2",
+        "Insight +3",
+        "Investigation +2",
+        "Religion +2"
+      ],
+      "traits": [
+        "Proficiency +2. Wisdom save +3, Charisma save +5. Armor of Shadows casts Mage Armor on Maar without a slot. While active, AC is 13 + 2 Dexterity. The spell lasts 8 hours with no concentration and ends if Maar dons armor.",
+        "Acolyte gives +2 Charisma, +1 Wisdom, Insight, Religion, calligrapher's supplies, and Magic Initiate (Cleric). Warlock grants Arcana and Investigation. Maar breathes air and water.",
+        "Charisma governs species, class, and origin magic. Spell attack +5, save DC 13. One 1st-level pact slot returns on a short or long rest. Prepare Hex and Hellish Rebuke. Cantrips are Eldritch Blast and Mage Hand. Magic Initiate supplies Guidance, Thaumaturgy, and Bless. Bless is free once per long rest or uses the pact slot. Maar carries a 5 gp holy symbol as the Bless material component and uses a separate arcane crystal for Warlock spells."
+      ],
+      "actions": [
+        "Eldritch Blast. Magic action, +5 to hit at 120 ft., one beam for 1d10 force.",
+        "Eldritch Gibbering. Magic action, choose creatures in a 30-ft. emanation. Each makes a DC 13 Wisdom save, and each creature that fails rolls 1d6. On 1–2, its attacks have disadvantage. On 3–4, its speed becomes 0. On 5–6, it loses reactions. All effects end at the start of Maar's next turn. Any failed save expends the trait until a short or long rest.",
+        "Endless Hunger. Bonus action, once per short or long rest. Until Maar's next turn, locate creatures within 60 ft. except Constructs and Undead, and ignore disadvantage when attacking the detected creatures.",
+        "Hex. Bonus action, 90 ft., concentration up to 1 hour. Hits add 1d6 necrotic against one visible cursed target, which rolls checks using one declared ability with disadvantage. If the target falls to 0 HP, move the curse with a bonus action on a later turn.",
+        "Hellish Rebuke. Reaction when a creature Maar can see within 60 ft. deals damage to Maar. The attacker makes a DC 13 Dexterity save against 2d10 fire, halved on a success.",
+        "Bless. Magic action, 30 ft., concentration up to 1 minute. Up to three creatures add 1d4 to attack rolls and saving throws.",
+        "Guidance. Magic action, touch, concentration 1 minute. A willing creature adds 1d4 to checks using one chosen skill. Mage Hand uses a Magic action to conjure a hand within 30 ft. for up to 1 minute to manipulate light objects. Thaumaturgy makes a minor omen such as a booming voice or a creaking shutter."
+      ],
+      "tactics": "Maar uses Endless Hunger before committing the pact slot. If several people are pinned against the pier, Maar opens a path with Gibbering and escorts them by water."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Nix Coppermark",
+      "species": "Ashborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-ashborn-nix-coppermark",
+      "size": "Small",
+      "role": "Repairs locks after the market shutters come down.",
+      "motive": "Find out who ordered six false keys with the same maker's mark as his own.",
+      "hook": "The newest duplicate fits a box that Nix hasn't built yet."
+    },
+    {
+      "name": "Vell Sableflight",
+      "species": "Azureborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-azureborn-vell-sableflight",
+      "size": "Medium",
+      "role": "Carries daylight weather reports between isolated waystations.",
+      "motive": "Trace the origin of a forged all-clear report signed in Vell's hand.",
+      "hook": "The rider carrying the authentic report never reached the next post."
+    },
+    {
+      "name": "Orruk Fenpeg",
+      "species": "Bogborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-bogborn-orruk-fenpeg",
+      "size": "Medium",
+      "role": "Tests crossings with a notched spear and ferries people when the ford is too high.",
+      "motive": "Find the surveyor who moved the deepest channel on a carefully checked map.",
+      "hook": "The last safe milestone is still dry. Something has hollowed out the mud under it."
+    },
+    {
+      "name": "Sella Ragwort",
+      "species": "Curseborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-curseborn-sella-ragwort",
+      "size": "Medium",
+      "role": "Runs the night shift between two mills when the cart road floods.",
+      "motive": "Bring a missing mill hand home before their family has to sell the lease.",
+      "hook": "The missing hand's tally marks show up on flour sacks after the doors are bolted."
+    },
+    {
+      "name": "Maar Siltglass",
+      "species": "Deepborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-deepborn-maar-siltglass",
+      "size": "Medium",
+      "role": "Reads the tide gauge and keeps the names of people lost to high water.",
+      "motive": "Find out whose name is being scraped off the roster after each neap tide.",
+      "hook": "A missing sailor left a tally in the keeper's handwriting below the lowest mark."
+    }
+  ]
+}

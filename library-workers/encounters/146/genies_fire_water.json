@@ -1,0 +1,285 @@
+[
+  {
+    "name": "Efreeti",
+    "statBlock": {
+      "name": "Efreeti",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large elemental, lawful evil",
+      "ac": 17,
+      "hp": 200,
+      "hitDice": "16d10 + 112",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "passivePerception": 12,
+      "description": "A fire genie from the Elemental Plane of Fire. Its lower body becomes smoke and embers when it flies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Darkvision 120 ft., passive Perception 12.",
+        "Languages": "Ignan.",
+        "Traits": "Elemental Demise. When the efreeti dies, fire and smoke consume its body. Its worn and carried equipment remains.",
+        "Innate spellcasting": "Charisma. Spell save DC 15, +7 to hit with spell attacks. It casts without material components.\nAt will. Detect Magic.\n3/day each. Enlarge/Reduce, Tongues.\n1/day each. Conjure Elemental (fire elemental only), Gaseous Form, Invisibility, Major Image, Plane Shift, Wall of Fire.",
+        "Actions": "Multiattack. Make two Scimitar attacks or use Hurl Flame twice.\nScimitar. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing plus 7 (2d6) fire damage.\nHurl Flame. Ranged spell attack, +7 to hit, range 120 ft., one target. Hit 17 (5d6) fire damage.",
+        "Printed source": "Monster Manual (2014), p. 145. The official errata gives three daily uses of each listed 3/day spell."
+      }
+    }
+  },
+  {
+    "name": "Efreeti (Disguises)",
+    "statBlock": {
+      "name": "Efreeti (Disguises)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large elemental, lawful evil",
+      "ac": 17,
+      "hp": 200,
+      "hitDice": "16d10 + 112",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "passivePerception": 12,
+      "description": "This is a rare efreeti that can pass for other creatures with magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Darkvision 120 ft., passive Perception 12.",
+        "Languages": "Ignan.",
+        "Traits": "Elemental Demise. When the efreeti dies, fire and smoke consume its body. Its worn and carried equipment remains.",
+        "Innate spellcasting": "Charisma. Spell save DC 15, +7 to hit with spell attacks. It casts without material components.\nAt will. Detect Magic.\n3/day each. Enlarge/Reduce, Tongues.\n1/day each. Conjure Elemental (fire elemental only), Gaseous Form, Invisibility, Major Image, Plane Shift, Wall of Fire.",
+        "Actions": "Multiattack. Make two Scimitar attacks or use Hurl Flame twice.\nScimitar. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing plus 7 (2d6) fire damage.\nHurl Flame. Ranged spell attack, +7 to hit, range 120 ft., one target. Hit 17 (5d6) fire damage.",
+        "Printed source": "Monster Manual (2014), p. 145 for the base profile and p. 144 for Genie Powers. The official errata gives three daily uses of each listed 3/day spell.",
+        "Disguises": "The genie can cast Disguise Self innately at will to pass for a similarly shaped creature. For a mightier genie, choose whether it can also cast True Polymorph and choose 1–3 uses per day. A genie with this spell normally changes only its own shape. A rare genie can also target other creatures and objects. The DM can lengthen the duration of either spell for this genie.",
+        "Variant": "The Genie Powers sidebar adds this option to the efreeti's regular abilities. It gives no separate challenge rating or experience award."
+      }
+    }
+  },
+  {
+    "name": "Efreeti (Wishes)",
+    "statBlock": {
+      "name": "Efreeti (Wishes)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large elemental, lawful evil",
+      "ac": 17,
+      "hp": 200,
+      "hitDice": "16d10 + 112",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "passivePerception": 12,
+      "description": "This is a rare efreeti that can grant wishes on behalf of other creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Darkvision 120 ft., passive Perception 12.",
+        "Languages": "Ignan.",
+        "Traits": "Elemental Demise. When the efreeti dies, fire and smoke consume its body. Its worn and carried equipment remains.",
+        "Innate spellcasting": "Charisma. Spell save DC 15, +7 to hit with spell attacks. It casts without material components.\nAt will. Detect Magic.\n3/day each. Enlarge/Reduce, Tongues.\n1/day each. Conjure Elemental (fire elemental only), Gaseous Form, Invisibility, Major Image, Plane Shift, Wall of Fire.",
+        "Actions": "Multiattack. Make two Scimitar attacks or use Hurl Flame twice.\nScimitar. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing plus 7 (2d6) fire damage.\nHurl Flame. Ranged spell attack, +7 to hit, range 120 ft., one target. Hit 17 (5d6) fire damage.",
+        "Printed source": "Monster Manual (2014), p. 145 for the base profile and p. 144 for Genie Powers. The official errata gives three daily uses of each listed 3/day spell.",
+        "Wishes": "Wishes are a power of exceptionally potent genies. Choose a limit of one to three wishes for this genie. The requester must be a non-genie creature within 60 ft. and state the desired effect to the genie. The genie can cast Wish on that creature's behalf. Once it grants its limit, choose how long before it can grant wishes again. A year is typical. The same genie can spend its entire allotment on a particular creature only once in that creature's lifetime. A genie may exploit loose wording to its own benefit.",
+        "Variant": "The Genie Powers sidebar adds this option to the efreeti's regular abilities. It gives no separate challenge rating or experience award."
+      }
+    }
+  },
+  {
+    "name": "Marid (Disguises)",
+    "statBlock": {
+      "name": "Marid (Disguises)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large elemental, chaotic neutral",
+      "ac": 17,
+      "hp": 229,
+      "hitDice": "17d10 + 136",
+      "speed": "30 ft., fly 60 ft., swim 90 ft.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "description": "This is a rare marid that can pass for other creatures with magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft., passive Perception 13.",
+        "Languages": "Aquan.",
+        "Traits": "Amphibious. It breathes air and water.\nElemental Demise. When it dies, it bursts into water and foam, leaving its worn and carried equipment.",
+        "Innate spellcasting": "Charisma. Spell save DC 16, +8 to hit with spell attacks. It casts without material components.\nAt will. Create or Destroy Water, Detect Evil and Good, Detect Magic, Fog Cloud, Purify Food and Drink.\n3/day each. Tongues, Water Breathing, Water Walk.\n1/day each. Conjure Elemental (water elemental only), Control Water, Gaseous Form, Invisibility, Plane Shift.",
+        "Actions": "Multiattack. Make two Trident attacks.\nTrident. Melee or ranged weapon attack, +10 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 13 (2d6 + 6) piercing, or 15 (2d8 + 6) piercing when wielded in two hands in melee.\nWater Jet. Each creature in a 60-ft. line, 5 ft. wide, makes a DC 16 Dexterity save. Failure deals 21 (6d6) bludgeoning damage and pushes a Huge or smaller target up to 20 ft. away from the marid and knocks it Prone. Success halves the damage and prevents the push and knockdown.",
+        "Printed source": "Monster Manual (2014), p. 146 for the base profile and p. 144 for Genie Powers.",
+        "Damage resistances": "Acid, cold, and lightning.",
+        "Disguises": "The genie can cast Disguise Self innately at will to pass for a similarly shaped creature. For a mightier genie, choose whether it can also cast True Polymorph and choose 1–3 uses per day. A genie with this spell normally changes only its own shape. A rare genie can also target other creatures and objects. The DM can lengthen the duration of either spell for this genie.",
+        "Variant": "The Genie Powers sidebar adds this option to the marid's regular abilities. It gives no separate challenge rating or experience award."
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Marid (Wishes)",
+    "statBlock": {
+      "name": "Marid (Wishes)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large elemental, chaotic neutral",
+      "ac": 17,
+      "hp": 229,
+      "hitDice": "17d10 + 136",
+      "speed": "30 ft., fly 60 ft., swim 90 ft.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "description": "This is a rare marid that can grant wishes on behalf of other creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft., passive Perception 13.",
+        "Languages": "Aquan.",
+        "Traits": "Amphibious. It breathes air and water.\nElemental Demise. When it dies, it bursts into water and foam, leaving its worn and carried equipment.",
+        "Innate spellcasting": "Charisma. Spell save DC 16, +8 to hit with spell attacks. It casts without material components.\nAt will. Create or Destroy Water, Detect Evil and Good, Detect Magic, Fog Cloud, Purify Food and Drink.\n3/day each. Tongues, Water Breathing, Water Walk.\n1/day each. Conjure Elemental (water elemental only), Control Water, Gaseous Form, Invisibility, Plane Shift.",
+        "Actions": "Multiattack. Make two Trident attacks.\nTrident. Melee or ranged weapon attack, +10 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 13 (2d6 + 6) piercing, or 15 (2d8 + 6) piercing when wielded in two hands in melee.\nWater Jet. Each creature in a 60-ft. line, 5 ft. wide, makes a DC 16 Dexterity save. Failure deals 21 (6d6) bludgeoning damage and pushes a Huge or smaller target up to 20 ft. away from the marid and knocks it Prone. Success halves the damage and prevents the push and knockdown.",
+        "Printed source": "Monster Manual (2014), p. 146 for the base profile and p. 144 for Genie Powers.",
+        "Damage resistances": "Acid, cold, and lightning.",
+        "Wishes": "Wishes are a power of exceptionally potent genies. Choose a limit of one to three wishes for this genie. The requester must be a non-genie creature within 60 ft. and state the desired effect to the genie. The genie can cast Wish on that creature's behalf. Once it grants its limit, choose how long before it can grant wishes again. A year is typical. The same genie can spend its entire allotment on a particular creature only once in that creature's lifetime. A genie may exploit loose wording to its own benefit.",
+        "Variant": "The Genie Powers sidebar adds this option to the marid's regular abilities. It gives no separate challenge rating or experience award."
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "passivePerception": 13
+    }
+  }
+]

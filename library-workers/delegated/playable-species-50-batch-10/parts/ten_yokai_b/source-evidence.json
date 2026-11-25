@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Kitsune",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern",
+    "creatureType": "Fey",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "publicationPage": "https://loottavern.com/product/ryokos-guide-to-the-yokai-realms-digital/",
+    "page": "Chapter 8, pp. 129–131, Kitsune Traits.",
+    "printedPages": [
+      129,
+      130,
+      131
+    ],
+    "heading": "Kitsune Traits",
+    "provenance": "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+    "sourceDistinctions": [
+      "The final p. 131 gives Fey, a 1-hour form with a reaction rider, 60-ft. motion language, and one chosen skill. The beta differs."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  },
+  {
+    "name": "Oniborne",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "publicationPage": "https://loottavern.com/product/ryokos-guide-to-the-yokai-realms-digital/",
+    "page": "Chapter 8, pp. 132–135, Oniborne Traits.",
+    "printedPages": [
+      132,
+      133,
+      134,
+      135
+    ],
+    "heading": "Oniborne Traits",
+    "provenance": "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+    "sourceDistinctions": [
+      "Reading order puts Weeping Magic with Red. It continues the Red list onto p. 134 before the Blue heading. Blue has no spellcasting from lineage.",
+      "Red Magical Scavenger uses the final 1-minute or Harvesting check procedure."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  },
+  {
+    "name": "Ryokido",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "publicationPage": "https://loottavern.com/product/ryokos-guide-to-the-yokai-realms-digital/",
+    "page": "Chapter 8, pp. 136–137, Ryokido Traits.",
+    "printedPages": [
+      136,
+      137
+    ],
+    "heading": "Ryokido Traits",
+    "provenance": "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+    "sourceDistinctions": [
+      "The chapter opens on p. 136, which also contains the start of the traits. P. 137 continues them. P. 135 closes Oniborne.",
+      "Ryokido is the canonical key from the final chapter. Ryōkido and Lion Turtle are lookup aliases."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  },
+  {
+    "name": "Tatsumi",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "publicationPage": "https://loottavern.com/product/ryokos-guide-to-the-yokai-realms-digital/",
+    "page": "Chapter 8, pp. 138–141, Tatsumi Traits.",
+    "printedPages": [
+      138,
+      139,
+      140,
+      141
+    ],
+    "heading": "Tatsumi Traits",
+    "provenance": "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+    "sourceDistinctions": [
+      "Nishikin and Ryūjin share the Tatsumi entry. Moonblessed requires the full number of dice and adds Constitution once. The sample is a white-primary Nishikin with two Hit Dice."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+  }
+]

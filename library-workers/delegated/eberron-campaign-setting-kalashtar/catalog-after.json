@@ -1,0 +1,822 @@
+[
+  {
+    "name": "Kalashtar",
+    "kind": "species",
+    "group": "2024 fifth edition",
+    "groups": [
+      "2024 fifth edition",
+      "2014 fifth edition",
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-b5ae0cd362fa6223f4be9825",
+      "name": "Kalashtar",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Efflam Mercier · Eberron: Rising from the Last War"
+        }
+      ],
+      "versions": [
+        {
+          "key": "338e119de0a731e443360301",
+          "publication": "Eberron: Rising from the Last War",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 1/4. Named abilities include Dual Mind, Dagger, Mind Thrust.",
+          "source": "https://5e.tools/bestiary.html#kalashtar_erlw",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/7726/554/1000/1000/637091730005183634.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Efflam Mercier · Eberron: Rising from the Last War"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "12"
+            ],
+            [
+              "Hit points",
+              "16"
+            ],
+            [
+              "Hit dice",
+              "3d8 + 3"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "12"
+            ],
+            [
+              "Strength",
+              "12"
+            ],
+            [
+              "Dexterity",
+              "14"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "13"
+            ],
+            [
+              "Wisdom",
+              "15"
+            ],
+            [
+              "Charisma",
+              "15"
+            ],
+            [
+              "Creature tags",
+              "kalashtar"
+            ],
+            [
+              "Alignment",
+              "any alignment"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Dagger · melee or ranged · +4 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Acrobatics +4, Insight +4, Persuasion +6"
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Common, telepathy 20 ft."
+              ]
+            },
+            {
+              "title": "Damage resistances",
+              "lines": [
+                "psychic"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Dual Mind"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Dagger · Melee or ranged attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
+                "Mind Thrust · DC 12 Wisdom save · 2d10 psychic damage · within 30 feet"
+              ]
+            }
+          ],
+          "sourceCode": "ERLW",
+          "page": 317,
+          "references": [
+            {
+              "label": "Eberron: Rising from the Last War, p. 317",
+              "url": "https://5e.tools/bestiary.html#kalashtar_erlw"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Acrobatics +4, Insight +4, Persuasion +6": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Acrobatics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 176,
+                  "local": {
+                    "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+                    "version": "PHB:176:https://5e.tools/skills.html#acrobatics_phb"
+                  }
+                }
+              },
+              {
+                "start": 15,
+                "end": 22,
+                "target": {
+                  "name": "Insight",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                    "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+                  }
+                }
+              },
+              {
+                "start": 27,
+                "end": 37,
+                "target": {
+                  "name": "Persuasion",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 179,
+                  "local": {
+                    "entry": "compendium-c53db7b407a93f295c291cf9",
+                    "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+                  }
+                }
+              }
+            ],
+            "Damage resistances": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Efflam Mercier · Eberron: Rising from the Last War"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "862199e9ca71c110931e9616",
+      "publication": "Eberron Campaign Setting (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144376M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Psionic)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with a 30-ft. base land speed and no racial ability adjustments. The Expanded Psionics Handbook gives the Psionic subtype to creatures with racial psi-like abilities.",
+            "+2 racial on saving throws against mind-affecting spells and abilities and against possession.",
+            "+2 racial on Bluff, Diplomacy, and Intimidate checks. +2 racial on Disguise when impersonating a human.",
+            "Kalashtar sleep. They are immune to dream, nightmare, and other effects that rely on their ability to dream.",
+            "Naturally Psionic adds 1 extra power point per character level to the character’s reserve, even without taking a psionic class.",
+            "Racial Mindlink (Ps) 1/day is separate from the power point reserve. Resolve it as a Wilder of half the Kalashtar’s Hit Dice, rounded down, minimum manifester level 1. It grants no general manifester levels.",
+            "With the Expanded Psionics Handbook, use its Mindlink rules. At manifester level 1, use a standard action to link with one willing creature of Intelligence 3 or higher within 25 ft. for 10 minutes. Power resistance applies as harmless. Treat it as mind-affecting.",
+            "With psionics rules, initial range is 25 ft. + 5 ft. per two manifester levels, and duration is 10 minutes per manifester level. Resolve psi-like augmentation as if power points equal to its effective manifester level were spent, without deducting from the reserve. Mindlink costs 1 point before augmentation. One extra point adds a target within 15 ft. of another target. Four extra points allow attempting a link with an unwilling target, Will negates.",
+            "Without the Expanded Psionics Handbook, use the setting book’s fallback. Link with one willing creature of Intelligence 3 or higher within 30 ft. for 1 round per character level. There is no saving throw or spell resistance. The ability is mind-affecting.",
+            "Once formed, either link carries telepathic communication across any distance on the same plane without requiring a shared language. The bond conveys no influence or control.",
+            "Common and Quor are automatic. Bonus languages are Draconic and Riedran. Favored class Psion. The setting entry lists no racial Hit Dice or level adjustment. Its original setting rules give Kalashtar no dragonmarks."
+          ]
+        },
+        {
+          "title": "Original NPC · Seravakri",
+          "lines": [
+            "Witness mediator and Telepath Psion.",
+            "Motive. Resolve a dispute about a signed warehouse delivery before the crates get moved again.",
+            "Hook. Seravakri can speak telepathically with a willing witness while the party checks the warehouse ledger.",
+            "Kalashtar witness mediator, Psion 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Psionic)",
+            "AC 11 · HP 5 (1d4+1) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Tarenkhad",
+          "lines": [
+            "Quay interpreter and Expert.",
+            "Motive. Find which berth received the luggage a passenger cannot describe to the dock crew.",
+            "Hook. Tarenkhad can link with the passenger if the party holds the berth and asks for their consent.",
+            "Kalashtar quay interpreter, Expert 1 · Provisional CR 1/2. ECL 1. · Medium Humanoid (Psionic)",
+            "AC 13 · HP 7 (1d6+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Seravakri": [
+          {
+            "start": 15,
+            "end": 24,
+            "target": {
+              "name": "Seravakri",
+              "group": "Kalashtar",
+              "publication": "Kalashtar witness mediator, Psion 1",
+              "local": {
+                "entry": "npc-808a252deb7e035bef5e6bda",
+                "version": "a10ede6a0b93c0ebb8e15bda"
+              }
+            }
+          }
+        ],
+        "Hook. Seravakri can speak telepathically with a willing witness while the party checks the warehouse ledger.": [
+          {
+            "start": 6,
+            "end": 15,
+            "target": {
+              "name": "Seravakri",
+              "group": "Kalashtar",
+              "publication": "Kalashtar witness mediator, Psion 1",
+              "local": {
+                "entry": "npc-808a252deb7e035bef5e6bda",
+                "version": "a10ede6a0b93c0ebb8e15bda"
+              }
+            }
+          }
+        ],
+        "Original NPC · Tarenkhad": [
+          {
+            "start": 15,
+            "end": 24,
+            "target": {
+              "name": "Tarenkhad",
+              "group": "Kalashtar",
+              "publication": "Kalashtar quay interpreter, Expert 1",
+              "local": {
+                "entry": "npc-d777a01706abd8a0ffb9e0e5",
+                "version": "425e1e54f7ab7bf9d3bd8b62"
+              }
+            }
+          }
+        ],
+        "Hook. Tarenkhad can link with the passenger if the party holds the berth and asks for their consent.": [
+          {
+            "start": 6,
+            "end": 15,
+            "target": {
+              "name": "Tarenkhad",
+              "group": "Kalashtar",
+              "publication": "Kalashtar quay interpreter, Expert 1",
+              "local": {
+                "entry": "npc-d777a01706abd8a0ffb9e0e5",
+                "version": "425e1e54f7ab7bf9d3bd8b62"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "7ee60631531fa28b267b667c",
+        "publication": "Eberron: Forge of the Artificer",
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/races.html#kalashtar_efa",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/52994/768/340/340/638996059008181029.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Andrea de Dominicis · Eberron: Forge of the Artificer"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 30 feet.",
+              "Damage resistance includes psychic.",
+              "Source traits include Dual Mind, Mental Discipline, Mind Link, Severed from Dreams."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Dual Mind",
+              "Mental Discipline",
+              "Mind Link",
+              "Severed from Dreams"
+            ]
+          }
+        ],
+        "sourceCode": "EFA",
+        "page": 35,
+        "references": [
+          {
+            "label": "Eberron: Forge of the Artificer, p. 35",
+            "url": "https://5e.tools/races.html#kalashtar_efa"
+          },
+          {
+            "label": "Magic (action)",
+            "url": "https://5e.tools/actions.html#magic_xphb",
+            "local": {
+              "entry": "compendium-07ceb4292d06406c48366301",
+              "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+            },
+            "preview": {
+              "name": "Magic",
+              "group": "Actions",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-07ceb4292d06406c48366301",
+                "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+              }
+            }
+          },
+          {
+            "label": "Dream (spell)",
+            "url": "https://5e.tools/spells.html#dream_xphb",
+            "local": {
+              "entry": "compendium-78aefb7c8c058a6d031ec4a4",
+              "version": "XPHB:266:https://5e.tools/spells.html#dream_xphb"
+            },
+            "preview": {
+              "name": "Dream",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 266,
+              "description": "A level 5 illusion spell. Wisdom saving throw. Damage type: psychic.",
+              "local": {
+                "entry": "compendium-78aefb7c8c058a6d031ec4a4",
+                "version": "XPHB:266:https://5e.tools/spells.html#dream_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistance includes psychic.": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "338e119de0a731e443360301",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#kalashtar_erlw",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/7744/223/340/340/637093376876236043.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Eberron: Rising from the Last War"
+          },
+          {
+            "url": "",
+            "credit": "Eric Belisle · Eberron: Rising from the Last War"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 30 feet.",
+              "Damage resistance includes psychic.",
+              "Source traits include Age, Alignment, Size, Dual Mind, Mental Discipline, Mind Link, Severed from Dreams, Languages."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Age",
+              "Alignment",
+              "Size",
+              "Dual Mind",
+              "Mental Discipline",
+              "Mind Link",
+              "Severed from Dreams",
+              "Languages"
+            ]
+          }
+        ],
+        "sourceCode": "ERLW",
+        "page": 29,
+        "references": [
+          {
+            "label": "Eberron: Rising from the Last War, p. 29",
+            "url": "https://5e.tools/races.html#kalashtar_erlw"
+          },
+          {
+            "label": "Dream (spell)",
+            "url": "https://5e.tools/spells.html#dream_phb",
+            "local": {
+              "entry": "compendium-78aefb7c8c058a6d031ec4a4",
+              "version": "PHB:236:https://5e.tools/spells.html#dream_phb"
+            },
+            "preview": {
+              "name": "Dream",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 236,
+              "description": "A level 5 illusion spell. Wisdom saving throw. Damage type: psychic.",
+              "local": {
+                "entry": "compendium-78aefb7c8c058a6d031ec4a4",
+                "version": "PHB:236:https://5e.tools/spells.html#dream_phb"
+              }
+            }
+          },
+          {
+            "label": "Sleep (spell)",
+            "url": "https://5e.tools/spells.html#sleep_phb",
+            "local": {
+              "entry": "compendium-7244bf8118278a479e832cd6",
+              "version": "PHB:276:https://5e.tools/spells.html#sleep_phb"
+            },
+            "preview": {
+              "name": "Sleep",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 276,
+              "description": "A level 1 enchantment spell. Can inflict Unconscious.",
+              "local": {
+                "entry": "compendium-7244bf8118278a479e832cd6",
+                "version": "PHB:276:https://5e.tools/spells.html#sleep_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistance includes psychic.": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Age, Alignment, Size, Dual Mind, Mental Discipline, Mind Link, Severed from Dreams, Languages.": [
+            {
+              "start": 27,
+              "end": 36,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Kalashtar": true,
+      "kalashtar mindlink": true,
+      "kalashtar naturally psionic": true,
+      "kalashtar nightmare": true,
+      "kalashtar witness mediator": true,
+      "kalashtar quay interpreter": true
+    },
+    "hash": "edadfc98ee16f49cab1b65ef782f0967c248e624812bc600068d4d3adcf8a629",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Andrea de Dominicis · Eberron: Forge of the Artificer"
+      },
+      {
+        "url": "",
+        "credit": "Eberron: Rising from the Last War"
+      },
+      {
+        "url": "",
+        "credit": "Eric Belisle · Eberron: Rising from the Last War"
+      }
+    ],
+    "defaultPublication": "Eberron Campaign Setting (2004)",
+    "defaultVersionKey": "862199e9ca71c110931e9616",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

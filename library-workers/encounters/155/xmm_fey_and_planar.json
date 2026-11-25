@@ -1,0 +1,419 @@
+[
+  {
+    "name": "Couatl",
+    "statBlock": {
+      "name": "Couatl",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 82,
+      "classification": "Medium celestial, lawful good",
+      "ac": 19,
+      "hp": 60,
+      "hitDice": "8d8 + 24",
+      "speed": "30 ft., fly 90 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "savingThrows": {
+        "Con": 5,
+        "Wis": 7
+      },
+      "description": "A feathered serpent watches over mortals and may approach them in the guise of a beast or a person.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Truesight 120 ft.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing damage.",
+        "Damage immunities": "Psychic and radiant damage.",
+        "Languages": "All languages. Telepathy 120 ft.",
+        "Traits": "Shielded Mind. Nothing can read the couatl's thoughts. Other creatures need its permission to communicate with it telepathically.",
+        "Actions": "Bite. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 11 (1d12 + 5) piercing damage. The target is Poisoned until the end of the couatl's next turn.\nConstrict. Choose one visible creature of Medium size or smaller within 5 ft. It makes a DC 15 Strength save. On a failure, it takes 8 (1d6 + 5) bludgeoning damage, is Grappled (escape DC 13), and remains Restrained until that grapple ends.",
+        "Spellcasting": "As an action, cast one spell using Wisdom (save DC 15), without components.\nAt will. Detect Evil and Good, Detect Magic, Detect Thoughts, Shapechange. Shapechange allows Beast or Humanoid forms only and grants no Temporary Hit Points. Maintaining the spell requires neither Concentration nor Temporary Hit Points.\n1/day each. Create Food and Water, Dream, Greater Restoration, Scrying, Sleep.",
+        "Bonus actions": "Divine Aid (2/day total). Cast Bless, Lesser Restoration, or Sanctuary without components, using Wisdom as in Spellcasting.",
+        "Habitats": "Desert, forest, grassland, and urban.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 82."
+      }
+    }
+  },
+  {
+    "name": "Guardian Naga",
+    "statBlock": {
+      "name": "Guardian Naga",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 161,
+      "classification": "Large celestial, lawful good",
+      "ac": 18,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "40 ft., climb 40 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 14,
+      "skills": {
+        "Arcana": 11,
+        "History": 11,
+        "Religion": 11
+      },
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 7,
+        "Int": 7,
+        "Wis": 8,
+        "Cha": 8
+      },
+      "description": "This serpent-bodied sentinel turns its magic and venom against those who threaten the places it guards.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Poison damage.",
+        "Condition immunities": "Charmed, Paralyzed, Poisoned, and Restrained.",
+        "Languages": "Celestial, Common.",
+        "Traits": "Celestial Restoration. Unless someone casts Dispel Evil and Good on its remains, it revives with full HP 1d6 days after death.",
+        "Actions": "Multiattack. Make two Bite attacks. The naga can substitute Poisonous Spittle for either or both.\nBite. Melee attack, +8 to hit, reach 10 ft. On a hit, deal 17 (2d12 + 4) piercing damage plus 22 (4d10) poison damage.\nPoisonous Spittle. One visible creature within 60 ft. makes a DC 16 Constitution save. On a failure, it takes 31 (7d8) poison damage and is Blinded until the start of the naga's next turn. On a success, it takes half damage only.",
+        "Spellcasting": "As an action, cast one spell using Wisdom (save DC 16), without Somatic or Material components.\nAt will. Thaumaturgy.\n1/day each. Clairvoyance, Cure Wounds (level 6), Flame Strike (level 6), Geas, True Seeing.",
+        "Habitats": "Desert, forest, and Upper Planes.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 161."
+      }
+    }
+  },
+  {
+    "name": "Spirit Naga",
+    "statBlock": {
+      "name": "Spirit Naga",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 297,
+      "classification": "Large fiend, chaotic evil",
+      "ac": 17,
+      "hp": 135,
+      "hitDice": "18d10 + 36",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 12,
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 5,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "description": "A fiendish serpent hurls necrotic rays and returns from death unless stopped by a Wish spell.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Poison damage.",
+        "Condition immunities": "Charmed and Poisoned.",
+        "Languages": "Abyssal, Common.",
+        "Traits": "Fiendish Restoration. It revives with full HP 1d6 days after death. Only Wish can prevent this return.",
+        "Actions": "Multiattack. Make three attacks in any combination of Bite and Necrotic Ray.\nBite. Melee attack, +7 to hit, reach 10 ft. On a hit, deal 7 (1d6 + 4) piercing damage plus 14 (4d6) poison damage.\nNecrotic Ray. Ranged attack, +6 to hit, range 60 ft. On a hit, deal 21 (6d6) necrotic damage.",
+        "Spellcasting": "As an action, cast one spell using Intelligence (save DC 14), without Somatic or Material components.\nAt will. Detect Magic, Mage Hand, Minor Illusion, Water Breathing.\n2/day each. Detect Thoughts, Dimension Door, Hold Person (level 3), Lightning Bolt (level 4).",
+        "Habitats": "Lower Planes and Underdark.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 297."
+      }
+    }
+  },
+  {
+    "name": "Unicorn",
+    "statBlock": {
+      "name": "Unicorn",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 313,
+      "classification": "Large celestial, lawful good",
+      "ac": 12,
+      "hp": 97,
+      "hitDice": "13d10 + 26",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 13,
+      "description": "A unicorn defends the creatures and woods within its realm. Healing magic is stronger near its lair.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+8 (18).",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Poison damage.",
+        "Condition immunities": "Charmed, Paralyzed, and Poisoned.",
+        "Languages": "Celestial, Elvish, Sylvan. Telepathy 120 ft.",
+        "Traits": "Legendary Resistance (3/day). The unicorn can turn a failed saving throw into a success.\nMagic Resistance. It has Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Hooves attack and one Radiant Horn attack.\nHooves. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 11 (2d6 + 4) bludgeoning damage.\nRadiant Horn. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 9 (1d10 + 4) radiant damage.",
+        "Spellcasting": "As an action, cast one spell using Charisma (save DC 14), without components.\nAt will. Detect Evil and Good, Druidcraft.\n1/day each. Calm Emotions, Dispel Evil and Good, Entangle, Pass without Trace, Word of Recall.",
+        "Bonus actions": "Unicorn's Blessing (3/day total). Touch another creature with the horn and cast Cure Wounds or Lesser Restoration on that creature, using Charisma as in Spellcasting.",
+        "Legendary actions": "3 uses. Spend one use on one option immediately after another creature's turn. Restore spent uses at the start of the unicorn's turn. The unicorn cannot use these options while Incapacitated or otherwise unable to act.\nCharging Horn. Move up to half the unicorn's Speed without provoking Opportunity Attacks and make one Radiant Horn attack.\nShimmering Shield. Choose the unicorn itself or one other visible creature within 60 ft. The target gains 10 (3d6) Temporary Hit Points, and its AC increases by 2 until the end of the unicorn's next turn. The unicorn cannot use this option again until the start of its next turn.",
+        "Regional effects": "Obscuring Foliage. Within 1 mile of the lair, the unicorn and its allies have Advantage on Dexterity (Stealth) checks.\nPositive Energy. A creature within 1 mile of the lair regains the maximum possible HP whenever a spell heals it. Curses are suppressed within the same radius. Both effects end immediately if the unicorn dies or moves its lair.",
+        "Habitats": "Forest and Feywild.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 313."
+      }
+    }
+  },
+  {
+    "name": "Rakshasa",
+    "statBlock": {
+      "name": "Rakshasa",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 253,
+      "classification": "Medium fiend, lawful evil",
+      "ac": 17,
+      "hp": 221,
+      "hitDice": "26d8 + 104",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 18,
+      "skills": {
+        "Deception": 10,
+        "Insight": 8,
+        "Perception": 8
+      },
+      "description": "A disguised fiend infiltrates circles of power. Some physical detail of its true form survives even a magical disguise.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+8 (18).",
+        "Senses": "Truesight 60 ft.",
+        "Damage vulnerabilities": "Piercing damage from weapons wielded by creatures affected by Bless.",
+        "Condition immunities": "Charmed and Frightened.",
+        "Languages": "Common, Infernal.",
+        "Traits": "Greater Magic Resistance. The rakshasa automatically succeeds on saves against spells and other magical effects, and spell attacks automatically miss it. Without its permission, spells cannot observe it remotely or detect its thoughts, creature type, or alignment.\nFiendish Restoration. If it dies outside the Nine Hells, its body becomes ichor and it immediately revives at full HP in a new body somewhere in the Nine Hells.",
+        "Actions": "Multiattack. Make three Cursed Touch attacks.\nCursed Touch. Melee attack, +10 to hit, reach 5 ft. On a hit, deal 12 (2d6 + 5) slashing damage plus 19 (3d12) necrotic damage. A creature hit is cursed and gains no benefit from finishing a Short Rest or Long Rest while the curse lasts.\nBaleful Command (recharge 5–6). Each enemy in a 30-ft. Emanation from the rakshasa makes a DC 18 Wisdom save. On a failure, the enemy takes 28 (8d6) psychic damage and is Frightened and Incapacitated until the start of the rakshasa's next turn.",
+        "Spellcasting": "As an action, cast one spell using Charisma (save DC 18), without Material components.\nAt will. Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion.\n1/day each. Fly, Invisibility, Major Image, Plane Shift.",
+        "Habitats": "Nine Hells and urban.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 253."
+      }
+    }
+  },
+  {
+    "name": "Satyr",
+    "statBlock": {
+      "name": "Satyr",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 268,
+      "classification": "Medium fey, chaotic neutral",
+      "ac": 13,
+      "hp": 31,
+      "hitDice": "7d8",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 12,
+      "skills": {
+        "Perception": 2,
+        "Performance": 6,
+        "Stealth": 5
+      },
+      "description": "A nimble Fey can drive enemies back with its hooves or lash out with a cutting remark.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Magic Resistance. The satyr has Advantage on saves against spells and other magical effects.",
+        "Actions": "Hooves. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 5 (1d4 + 3) bludgeoning damage. The satyr can push a Medium or smaller creature hit up to 10 ft. directly away.\nMockery. One visible creature within 90 ft. makes a DC 12 Wisdom save. On a failure, it takes 5 (1d6 + 2) psychic damage.",
+        "Habitats": "Forest and Feywild.",
+        "Treasure": "Implements.",
+        "Printed source": "Monster Manual (2024), p. 268."
+      }
+    }
+  },
+  {
+    "name": "Incubus",
+    "statBlock": {
+      "name": "Incubus",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 178,
+      "classification": "Medium fiend, neutral evil",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "skills": {
+        "Deception": 9,
+        "Insight": 5,
+        "Perception": 5,
+        "Persuasion": 9,
+        "Stealth": 7
+      },
+      "description": "An incubus feeds on dreams and can return to a victim night after night. It may take the form of a succubus when it wants a different approach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Cold, fire, poison, and psychic damage.",
+        "Languages": "Abyssal, Common, Infernal. Telepathy 60 ft.",
+        "Traits": "Succubus Form. When the incubus finishes a Long Rest, it can shape-shift into a Succubus and use that stat block. Its worn and carried equipment stays the same.",
+        "Actions": "Multiattack. Make two Restless Touch attacks.\nRestless Touch. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 15 (3d6 + 5) psychic damage and curse the target. The curse lasts 24 hours or until the incubus dies. Until it ends, the target gains no benefit from finishing Short Rests.",
+        "Spellcasting": "As an action, cast one spell using Charisma (save DC 15), without Material components.\nAt will. Disguise Self, Etherealness.\n1/day each. Dream, Hypnotic Pattern.",
+        "Bonus actions": "Nightmare (recharge 6). One visible creature within 60 ft. makes a DC 15 Wisdom save. On a failure, if the creature has 20 HP or fewer it becomes Unconscious for up to 1 hour. Damage or a creature within 5 ft. spending an action to wake it ends the effect early. A target with more than 20 HP instead takes 18 (4d8) psychic damage on a failed save.",
+        "Habitats": "Lower Planes and urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 178."
+      }
+    }
+  }
+]

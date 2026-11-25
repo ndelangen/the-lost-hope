@@ -1,0 +1,34 @@
+[
+  {
+    "entry": "species-c30d205349fb891cfe798500",
+    "version": "fd38e6d3870f8234fe6feef7",
+    "name": "Korobokuru",
+    "file": "images/oriental-adventures-korobokuru-spirit-folk/korobokuru.png",
+    "sha256": "034edd7fee57f287ada56192018e7eb5b878223497a67772f2906ecc478550e2",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-ba0648bd0ae47c6c914578ac",
+    "version": "3b7e3645fa73052d657cfc7c",
+    "name": "Spirit Folk",
+    "file": "images/oriental-adventures-korobokuru-spirit-folk/spirit-folk.png",
+    "sha256": "22cdee76762b4dafcdaf2df54198741484bb2d9b8487226df4426f39d3d4884e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-ba0648bd0ae47c6c914578ac",
+    "version": "90ad05b270700946b43866f8",
+    "name": "Spirit Folk",
+    "file": "images/oriental-adventures-korobokuru-spirit-folk/spirit-folk.png",
+    "sha256": "22cdee76762b4dafcdaf2df54198741484bb2d9b8487226df4426f39d3d4884e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-ba0648bd0ae47c6c914578ac",
+    "version": "b7bf3c6b66ce6f202fbc5430",
+    "name": "Spirit Folk",
+    "file": "images/oriental-adventures-korobokuru-spirit-folk/spirit-folk.png",
+    "sha256": "22cdee76762b4dafcdaf2df54198741484bb2d9b8487226df4426f39d3d4884e",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "baseline": "516d3c5fbb8dc7b0276ef4262128c0a6d9a06538",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 4,
+  "testedConditionalRuleProfiles": 4,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 4,
+  "portraitCoverage": {
+    "Kamrat": "generated",
+    "Olhund": "generated",
+    "Storgin": "generated",
+    "Pennig": "generated"
+  },
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "twoPublisherArticlesCrossChecked": true
+}

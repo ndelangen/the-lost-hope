@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Devil Notary",
+    "query": "ledger quill seven cities importunity brimstone",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Infernal Chancellor Lazivos",
+    "query": "feathered wings hell diabolic deposition deceptive stratagem",
+    "condition": "Charmed",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

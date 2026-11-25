@@ -1,0 +1,26 @@
+{
+  "commit": "674252ec73a08f273ba997d9c4d6dcfebbaff7f1",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "recentProfilesWithGeneratedPortrait": 595,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-55-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/55/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Human Death Acolyte",
+      "source": "https://www.dndbeyond.com/monsters/4485893-human-death-acolyte",
+      "challenge": "2"
+    },
+    {
+      "name": "Human Death Cultist",
+      "source": "https://www.dndbeyond.com/monsters/4485894-human-death-cultist",
+      "challenge": "4"
+    }
+  ],
+  "nextSourceNote": "Reusable support and minion pair. Confirm the source-only Acolyte index challenge against the printed block and preserve the alternate Where Evil Lives printings."
+}

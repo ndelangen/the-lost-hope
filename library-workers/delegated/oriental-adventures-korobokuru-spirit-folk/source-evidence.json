@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Korobokuru",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001)",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "lineage": null,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "printedPages": [
+      8,
+      11,
+      12,
+      13
+    ],
+    "printedEncounterComparisonPages": [
+      171,
+      172
+    ],
+    "printedArtworkPage": 8,
+    "printedArtworkLineageUnconfirmed": false,
+    "originalIndividualArtistUnconfirmed": true,
+    "entryId": "species-c30d205349fb891cfe798500",
+    "versionKey": "fd38e6d3870f8234fe6feef7",
+    "slug": "korobokuru",
+    "portraitSelection": "generated",
+    "sharedPortraitAcrossLineages": false,
+    "npcBuildId": "korobokuru-pass-rescuer-3e",
+    "npcName": "Bramble",
+    "npcDesign": "Original, D&D 3.0",
+    "npcSpeciesLineage": null,
+    "classRules": {
+      "url": "",
+      "printedPages": [
+        24,
+        25
+      ]
+    },
+    "equipmentRules": {
+      "url": ""
+    }
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Bamboo",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "lineage": "Bamboo",
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "printedPages": [
+      8,
+      14,
+      15
+    ],
+    "printedEncounterComparisonPages": [
+      192,
+      193
+    ],
+    "printedArtworkPage": 8,
+    "printedArtworkLineageUnconfirmed": true,
+    "originalIndividualArtistUnconfirmed": true,
+    "entryId": "species-ba0648bd0ae47c6c914578ac",
+    "versionKey": "3b7e3645fa73052d657cfc7c",
+    "slug": "spirit-folk",
+    "portraitSelection": "generated",
+    "sharedPortraitAcrossLineages": true,
+    "npcBuildId": "river-spirit-folk-ferry-adept-3e",
+    "npcName": "Ilen",
+    "npcDesign": "Original, D&D 3.0",
+    "npcSpeciesLineage": "River",
+    "classRules": {
+      "url": "",
+      "printedPages": [
+        36,
+        37
+      ]
+    },
+    "equipmentRules": {
+      "url": ""
+    }
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · River",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "lineage": "River",
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "printedPages": [
+      8,
+      14,
+      15
+    ],
+    "printedEncounterComparisonPages": [
+      192,
+      193
+    ],
+    "printedArtworkPage": 8,
+    "printedArtworkLineageUnconfirmed": true,
+    "originalIndividualArtistUnconfirmed": true,
+    "entryId": "species-ba0648bd0ae47c6c914578ac",
+    "versionKey": "90ad05b270700946b43866f8",
+    "slug": "spirit-folk",
+    "portraitSelection": "generated",
+    "sharedPortraitAcrossLineages": true,
+    "npcBuildId": "river-spirit-folk-ferry-adept-3e",
+    "npcName": "Ilen",
+    "npcDesign": "Original, D&D 3.0",
+    "npcSpeciesLineage": "River",
+    "classRules": {
+      "url": "",
+      "printedPages": [
+        36,
+        37
+      ]
+    },
+    "equipmentRules": {
+      "url": ""
+    }
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Sea",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "lineage": "Sea",
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "printedPages": [
+      8,
+      14,
+      15
+    ],
+    "printedEncounterComparisonPages": [
+      192,
+      193
+    ],
+    "printedArtworkPage": 8,
+    "printedArtworkLineageUnconfirmed": true,
+    "originalIndividualArtistUnconfirmed": true,
+    "entryId": "species-ba0648bd0ae47c6c914578ac",
+    "versionKey": "b7bf3c6b66ce6f202fbc5430",
+    "slug": "spirit-folk",
+    "portraitSelection": "generated",
+    "sharedPortraitAcrossLineages": true,
+    "npcBuildId": "river-spirit-folk-ferry-adept-3e",
+    "npcName": "Ilen",
+    "npcDesign": "Original, D&D 3.0",
+    "npcSpeciesLineage": "River",
+    "classRules": {
+      "url": "",
+      "printedPages": [
+        36,
+        37
+      ]
+    },
+    "equipmentRules": {
+      "url": ""
+    }
+  }
+]

@@ -1,0 +1,111 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -1,5 +1,88 @@
+ {
+   "profiles": [
++    {
++      "name": "Fire Lizard",
++      "kind": "beast",
++      "publication": "Undermountain: Stardock",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A wingless, 30-foot lizard with reddish scales, a bright red underside, and massive fangs.",
++      "combat": {
++        "habitats": ["Obscured chamber in the Crystal Labyrinth"],
++        "armorClass": 3,
++        "movement": 9,
++        "hitDice": "10",
++        "hitPoints": 60,
++        "thac0": 11,
++        "size": "G, 30 ft. long",
++        "numberOfAttacks": 3,
++        "damageDice": "1–8 / 1–8 / 2–16",
++        "xp": 3000,
++        "immunities": ["Fire-based attacks"]
++      },
++      "mechanics": {
++        "Special attacks": [
++          {
++            "name": "Claws and bite",
++            "effectNote": "Two raking claws deal 1–8 each. The bite deals 2–16."
++          },
++          {
++            "name": "Fiery cone",
++            "effectNote": "The fire lizard can breathe fire at the same time as it attacks with claws and bite. The cone is 15 feet long, 5 feet wide at the mouth and 10 feet wide at the far end. It deals 2–12 fire damage, halved on a successful save vs. breath weapon."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "Interrupted meal",
++            "effectNote": "The lizard is already awake when the party reaches its chamber. It follows if they immediately retreat. If it comes under serious attack, it retreats to tend its wounds."
++          }
++        ]
++      },
++      "notes": [
++        "One fire lizard with 60 HP. Steady (11) morale. Animal intelligence (1). Neutral. Magic resistance Nil.",
++        "Steven E. Schend, Undermountain: Stardock (TSR, ©1996), The Crystal Labyrinth, Encounter 2: Where There’s Smoke, p. 19."
++      ]
++    },
++    {
++      "name": "Bookworm",
++      "kind": "beast",
++      "publication": "Undermountain: Stardock",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A tiny, normally gray worm that can change its color to blend in.",
++      "combat": {
++        "habitats": ["Shelves in the Stardock study"],
++        "armorClass": 2,
++        "movement": "12, Br 3",
++        "hitPoints": 1,
++        "size": "T, 1 in. long",
++        "numberOfAttacks": 0,
++        "damageDice": "0",
++        "xp": 15
++      },
++      "mechanics": {
++        "Special defenses": [
++          {
++            "name": "Camouflage",
++            "effectNote": "The bookworm changes its color to match its surroundings. Opponents take a −6 penalty on surprise rolls."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "Shelf contingency",
++            "effectNote": "When any living being touches an item on a shelf, the spell releases 50 bookworms into that shelf and its contents. Each bookworm has 1 HP."
++          },
++          {
++            "name": "Rescue the documents",
++            "effectNote": "The party has roughly five rounds to save 1d12 parchments, books, tomes, or maps. Of the saved items, 1d4 are in a non-illithid language."
++          }
++        ]
++      },
++      "notes": [
++        "Unreliable (2) morale. Nonintelligent (0). Neutral. The printed block leaves Hit Dice blank and gives Nil for THAC0, special attacks, and magic resistance.",
++        "Steven E. Schend, Undermountain: Stardock (TSR, ©1996), The Stardock, Area 2B: The Study, p. 28."
++      ]
++    },
+     {
+       "edition": "2014 fifth edition",
+       "publication": "Acquisitions Incorporated",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -1315,6 +1315,7 @@
+ Bonestalker	monster	Fey	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4485793-bonestalker	6
+ Bonnie	monster	Monstrosity	Waterdeep: Dragon Heist	2014 fifth edition	Wizards of the Coast		4
+ Boog	monster	Monstrosity	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4485794-boog	3
++Bookworm	beast	Animal	Undermountain: Stardock	AD&D 2nd edition	TSR		
+ Boontu Monkey	beast	Beast	Adventure with Muk	2014 fifth edition	Wizards of the Coast		0
+ Boowray	monster		Denizens of Darkness	3.0 edition	Sword & Sorcery		
+ Boowray	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
+@@ -3500,6 +3501,7 @@
+ Fire Guardian	monster	Elemental	Plane Shift: Ixalan	2014 fifth edition	Wizards of the Coast		5
+ Fire Hellion	monster	Fiend	Bigby Presents: Glory of the Giants	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3731013-fire-hellion	11
+ Fire Kraken	monster	Elemental	Chains of Asmodeus	2014 fifth edition	Wizards of the Coast		21
++Fire Lizard	beast	Animal	Undermountain: Stardock	AD&D 2nd edition	TSR		
+ Fire Mephit	monster	Outsider	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		3
+ Fire Snake	monster	Elemental	Journeys through the Radiant Citadel	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17199-fire-snake	1
+ Fire Snake	monster	Elemental	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17199-fire-snake	1

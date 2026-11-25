@@ -1,0 +1,116 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (Reptilian)",
+      "senses": "Darkvision 90 ft.",
+      "speed": "30 ft.",
+      "id": "troglodyte-chalkscale-cistern-guide-35e",
+      "title": "Troglodyte cistern guide, racial Hit Dice only",
+      "difficulty": "Provisional CR 1. ECL 4 (2 racial HD, LA +2).",
+      "ac": 17,
+      "hp": 19,
+      "hitDice": "2d8+6",
+      "initiative": 5,
+      "languages": "Draconic",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Hide +10 (+14 in rocky or underground surroundings)",
+        "Listen +6"
+      ],
+      "traits": [
+        "Neutral. Unarmored, Dexterity +1 and natural armor +6. Touch 11, flat-footed 16. BAB +1, grapple +3. Fortitude +6, Reflex +1, Will +1. Improved Initiative adds +4.",
+        "Stench (Ex). Anger or fear triggers the musk. Living creatures within 30 ft. other than troglodytes make a Fortitude save or become sickened for 10 rounds. The DC is 10 + half the racial Hit Dice + the Constitution modifier. A successful save protects the creature from that individual troglodyte’s stench for 24 hours.",
+        "Poison immunity prevents the effect. Apply normal bonuses against poison to the save. Delay poison or neutralize poison removes the sickness.",
+        "Color-changing skin gives +4 on Hide checks, rising to +8 in rocky or underground surroundings.",
+        "Two claw attacks deal 1d4 piercing and slashing damage each and the bite deals 1d4 bludgeoning, piercing, and slashing damage before Strength. Bonus Multiattack reduces the secondary attack penalty from −5 to −2."
+      ],
+      "actions": [
+        "Claw +3 for 1d4+2. On a full attack, two claws at +3 for 1d4+2 each and a bite at +1 for 1d4+1. Critical ×2 on all three.",
+        "When anger or fear triggers Stench, allies and foes who are living and within 30 ft. make a DC 14 Fortitude save unless exempt. On a failure, apply sickened for 10 rounds."
+      ],
+      "tactics": "Sethrik follows the cistern wall using Hide +14. If a threat corners the group, he calls for his non-troglodyte companions to move past the 30-ft. range before they hold the passage."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (Reptilian)",
+      "senses": "Darkvision 90 ft.",
+      "speed": "30 ft.",
+      "id": "troglodyte-siltcrest-grate-warden-35e",
+      "title": "Troglodyte grate warden, Fighter 1",
+      "difficulty": "Provisional CR 2. ECL 5 (2 racial HD, 1 class HD, LA +2).",
+      "ac": 20,
+      "hp": 31,
+      "hitDice": "2d8+1d10+12",
+      "initiative": 4,
+      "languages": "Common, Draconic",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 10,
+        "CON": 18,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +4",
+        "Hide +7 (+11 in rocky or underground surroundings)",
+        "Listen +7",
+        "Spot +4"
+      ],
+      "traits": [
+        "Neutral. Leather armor +2, heavy steel shield +2 and natural armor +6. Touch 10, flat-footed 20. Armor check penalty −2. BAB +2, grapple +5. Fortitude +9, Reflex +0, Will +0.",
+        "Stench (Ex). Anger or fear triggers the musk. Living creatures within 30 ft. other than troglodytes make a Fortitude save or become sickened for 10 rounds. The DC is 10 + half the racial Hit Dice + the Constitution modifier. A successful save protects the creature from that individual troglodyte’s stench for 24 hours.",
+        "Poison immunity prevents the effect. Apply normal bonuses against poison to the save. Delay poison or neutralize poison removes the sickness.",
+        "Color-changing skin gives +4 on Hide checks, rising to +8 in rocky or underground surroundings.",
+        "Two claw attacks deal 1d4 piercing and slashing damage each and the bite deals 1d4 bludgeoning, piercing, and slashing damage before Strength. Bonus Multiattack reduces the secondary attack penalty from −5 to −2.",
+        "Alertness adds +2 to Listen and Spot. Improved Initiative adds +4. Fighter bonus feat Weapon Focus (javelin) adds +1 on javelin attacks."
+      ],
+      "actions": [
+        "Javelin +3 ranged for 1d6+3 piercing, critical ×2, range increment 30 ft.",
+        "Club +5 in one hand for 1d6+3 bludgeoning, critical ×2. While holding the club and shield, add only the secondary bite at +3 for 1d4+1 on a full attack.",
+        "Stench is Fortitude DC 15. A creature protected against Vess by a successful save still rolls against a different troglodyte if exposed to its stench."
+      ],
+      "tactics": "Vess holds a javelin while watching the grate and switches to a club if a foe closes. He has the non-troglodyte crew wait beyond the range of his Stench."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Troglodyte",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Underdark (2003)",
+      "name": "Sethrik Chalkscale",
+      "build": "troglodyte-chalkscale-cistern-guide-35e",
+      "role": "Cistern guide and scout.",
+      "motive": "Get the group past the cistern before the lower passage fills.",
+      "hook": "Sethrik can find the dry route where the stone wall meets the old grate."
+    },
+    {
+      "species": "Troglodyte",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Underdark (2003)",
+      "name": "Vess Siltcrest",
+      "build": "troglodyte-siltcrest-grate-warden-35e",
+      "role": "Grate warden and Fighter.",
+      "motive": "Keep the grate clear until the crew can latch it from the far side.",
+      "hook": "Vess signals the party from the guard ledge above the grate."
+    }
+  ]
+}

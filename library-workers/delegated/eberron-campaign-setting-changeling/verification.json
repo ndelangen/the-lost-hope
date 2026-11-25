@@ -1,0 +1,24 @@
+{
+  "baseline": "aec50aa78f8063a97eeb91bd44d29e6256b96e2f",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Changeling"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Eberron Campaign Setting (2004)",
+  "minorChangeShapeNaturalLinguistAndDisguiseVerified": true,
+  "existingMonsterEntryPreserved": true,
+  "existingFifthEditionProfilesPreserved": 3,
+  "defaultVersionBefore": "Eberron: Forge of the Artificer",
+  "defaultVersionAfter": "Eberron Campaign Setting (2004)",
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

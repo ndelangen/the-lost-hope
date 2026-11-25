@@ -1,0 +1,44 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Scarab Beetle",
+    "publication": "Denizens of Darkness",
+    "edition": "3.0 edition",
+    "file": "images/monsters/scarab-beetle/scarab-beetle-book.png",
+    "artist": "Grave Scarab, original illustration on p. 26",
+    "kind": "illustration",
+    "sha256": "819f337068af5f0a0714e87e0ffbc26ef81008e52c7b471196eba8aaa22a0336"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Scarab Beetle",
+    "publication": "Denizens of Darkness",
+    "edition": "3.0 edition",
+    "file": "images/monsters/scarab-beetle/dor-beetle-jessica-towne.jpg",
+    "artist": "Related Dor beetle photograph by Jessica Towne · Wikimedia Commons · CC0",
+    "kind": "photo",
+    "sha256": "75fce5a09b83f9f650a264b670e9625308b8a822d4c3f853fe97d50eb85cc21f",
+    "reference": "https://commons.wikimedia.org/wiki/File:Dor_beetle_(Geotrupes_stercorarius).jpg"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Scavytt",
+    "publication": "Denizens of Darkness",
+    "edition": "3.0 edition",
+    "file": "images/monsters/scavytt/scavytt-book.png",
+    "artist": "Scavyt, original illustration on p. 134",
+    "kind": "illustration",
+    "sha256": "2431454a354f4b78b32f4810569727708b7ba2f3249ffd0f58f267b9a151df73"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Scavytt",
+    "publication": "Denizens of Darkness",
+    "edition": "3.0 edition",
+    "file": "images/monsters/scavytt/hyena-2014-related.webp",
+    "artist": "Related Hyena art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "ba08d704c3972d55741362a653e03040c9bda79eca7684c68a8113652a8ea765",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Hyena.webp"
+  }
+]

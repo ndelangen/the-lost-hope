@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "giant-snapping-turtle",
+    "file": "portraits/giant-snapping-turtle.png",
+    "sha256": "c0052ecb2b70097da1ec1c6a831942a5a3af746b7f339633631eba7bb275a927",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "hadrosaurus",
+    "file": "portraits/hadrosaurus.png",
+    "sha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "jaculi",
+    "file": "portraits/jaculi.png",
+    "sha256": "1b053afe35438d32c9a31c7bb377e4ebff72beafb60812735f4c8f91ee4a9685",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "quetzalcoatlus",
+    "file": "portraits/quetzalcoatlus.png",
+    "sha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

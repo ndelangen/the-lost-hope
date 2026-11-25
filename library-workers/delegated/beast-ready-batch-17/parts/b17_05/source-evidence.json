@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Szikzith",
+    "publication": "NERDS Restoring Harmony: A Web of Lies",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Original August 2021 English promotional ",
+    "sourceUrl": "",
+    "sourceFile": "",
+    "sourceSha256": "35a67490969fcb0a50be0115a9da1df9318f67f534661482e1791c3dcbe5ebe6",
+    "printedPages": [],
+    "pdfPages": [
+      5,
+      6,
+      9
+    ],
+    "section": "T2. Beehive Room and Monster/NPC Statistics",
+    "sourceDistinctions": [
+      "The encounter calls Szikzith an awakened giant wolf spider, but her named stat block prints its own ability array and bite.",
+      "The language field prints a dash while the encounter describes bargaining and conversation.",
+      "The laid-out states the +3 attack bonus, without changing it to match a derived bonus."
+    ],
+    "appearanceEvidence": "Unnumbered sheet 5 describes a spider with a honey-distended body. The portrait uses the rust-brown color seen on the catalog token.",
+    "portraitSource": "portraits/szikzith.png",
+    "portraitSha256": "4e20eea3c7b1c137fb6ce293e6cdbd81b33ceb51d0c7fa6061573c31e749e391"
+  },
+  {
+    "name": "Sled Dog",
+    "publication": "Rise of Tiamat",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "October 2014 first-print English hardcover with the October 2014 version 1 online supplement",
+    "sourceUrl": "",
+    "alternateSourceUrl": "https://anyflip.com/kpthp/zqtr/basic",
+    "printedPages": [
+      27
+    ],
+    "section": "Episode 2, Oyaviggaton, Villagers",
+    "baseProfile": "Wolf",
+    "baseSourceUrl": "",
+    "baseSourceFile": "",
+    "baseSourceSha256": "d0a2214144644ef6d32bba86ac14b35325993904de6cb89092e1d00c5b3fe161",
+    "basePrintedPage": 26,
+    "sourceDistinctions": [
+      "The adventure identifies twelve sled dogs and explicitly uses Wolf stats. The supplement supplies the Medium Beast block.",
+      "The generic WotC Wolf is the mechanics base and the depicted subject is a harnessed domesticated dog."
+    ],
+    "appearanceEvidence": "The local publication token shows a black-and-white harnessed northern dog. The adventure describes sled travel and the dogs’ presence at the icy chasm.",
+    "portraitSource": "portraits/sled-dog.png",
+    "portraitSha256": "c32c3de43fc9ff7bb9504413b55684bd576455308cbe0d57e2bc6036ba610adf"
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Stranger Things: Welcome to the Hellfire Club",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "October 2025 English digital adventure pack, original-content export",
+    "sourceUrl": "https://www.scribd.com/document/981259652/Stranger-Things-Welcome-to-the-Hellfire-Club",
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/wthc",
+    "section": "Appendix B, Monsters & NPCs, Giant Spider, CR 1. Also Adventurers vs Demogorgon, D5 and S5.",
+    "printedPages": [],
+    "sourceDistinctions": [
+      "The export provides a complete CR 1 stat block. The paper folio has not been checked.",
+      "The contemporary publisher index gives a separate same-name CR 6 Beast, which is outside this catalog scope.",
+      "This 2024 rules block uses a Dexterity save for Web and prints its destructive parameters."
+    ],
+    "appearanceEvidence": "The publisher illustration and the adventure’s two nest encounters show a conventional giant spider. The reuse portrait preserves the fangs and eight long legs.",
+    "publisherAppearanceFile": "images/beasts/giant-spider/wtthc-1.webp",
+    "publisherAppearanceSha256": "12b4a63f18e4e48c86c9ca48c4d0fa2a1dcba563473cef123ea74c08c1ab458d",
+    "portraitSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+    "portraitSha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570"
+  }
+]

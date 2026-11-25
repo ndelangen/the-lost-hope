@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Shambling Pile",
+    "slug": "shambling-pile",
+    "id": "monster-b4375a83b3944ec63007411f:0fea1935fe31d1d57864a673",
+    "entry": "monster-b4375a83b3944ec63007411f",
+    "version": "0fea1935fe31d1d57864a673",
+    "suffix": "encounters-37/shambling-pile.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-37/shambling-pile.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-37/event-drafts/shambling-pile-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 37 2026-11-23/event-drafts/shambling-pile-event-v1.png",
+    "overrides": [
+      {
+        "entry": "monster-b4375a83b3944ec63007411f",
+        "name": "Shambling Pile",
+        "file": "images/monsters/shambling-pile/parchment-portrait.webp",
+        "sha256": "3256f4937e5bc5b837c5bdf55c8bf6173d3e6d39f97af0c143991edb1c99606f",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "",
+        "subjectPrompt": "A squat lurching heap of damp muted brown leaves, creeping muddied roots and shredded green reeds, two vine limbs emerging on either side, one rounded silhouette, no landscape.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "2d912c8855bd35cb5f41b665f8a0ced2474141c9cdaf01d4ac43de1ee2b0ac7b",
+    "bytes": 2723315
+  },
+  {
+    "name": "Owlbear Companion",
+    "slug": "owlbear-companion",
+    "id": "monster-04c523ecf1ce05e58796da5c:509ce096ed4ff8ab0a483c76",
+    "entry": "monster-04c523ecf1ce05e58796da5c",
+    "version": "509ce096ed4ff8ab0a483c76",
+    "suffix": "encounters-37/owlbear-companion.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-37/owlbear-companion.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-37/event-drafts/owlbear-companion-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 37 2026-11-23/event-drafts/owlbear-companion-event-v1.png",
+    "overrides": [],
+    "sha256": "9c38888ac78e45deebf4d31f55a3a631443acc1a2d92a14db16fdb06f4a16305",
+    "bytes": 2679272
+  },
+  {
+    "name": "Shambling Mound Companion",
+    "slug": "shambling-mound-companion",
+    "id": "monster-ad66f6a1903a7e55fe7b9db6:699612b75e3d8da06e12db0b",
+    "entry": "monster-ad66f6a1903a7e55fe7b9db6",
+    "version": "699612b75e3d8da06e12db0b",
+    "suffix": "encounters-37/shambling-mound-companion.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-37/shambling-mound-companion.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-37/event-drafts/shambling-mound-companion-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 37 2026-11-23/event-drafts/shambling-mound-companion-event-v1.png",
+    "overrides": [],
+    "sha256": "ce60bf211122bfb892b0ecf10a018e46e114546d3a4271ad08fe3b7184cc6fa3",
+    "bytes": 2810682
+  }
+]

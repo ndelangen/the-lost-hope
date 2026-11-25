@@ -1,0 +1,495 @@
+[
+  {
+    "name": "Plasmoid Boss",
+    "statBlock": {
+      "name": "Plasmoid Boss",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 42,
+      "classification": "Large ooze, any alignment",
+      "ac": 11,
+      "hp": 82,
+      "hitDice": "11d10 + 22",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "A plasmoid that grew unusually large at maturity. Its strength can win it a guild, a gang or a ship, but keeping command takes social skill.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 3
+      },
+      "skills": {
+        "Deception": 4,
+        "Intimidation": 4,
+        "Persuasion": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "Acid, poison.",
+        "Traits": "Amorphous. Unencumbered by gear or clothing, the plasmoid can pass through a 1-inch gap. It has advantage on ability checks to start a grapple or get out of one.\nHold Breath. The plasmoid can go 1 hour without taking another breath.",
+        "Actions": "Multiattack. Make three Pseudopod attacks.\nPseudopod. Melee weapon attack, +6 to hit, reach 10 ft., one target. Roll with advantage if the boss has at least one ally within 10 ft. of itself. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+        "Reactions": "Uncanny Dodge. When an attack hits the boss and it can see the attacker, it can halve the damage it takes from that attack.",
+        "Allies": "Use a Plasmoid Warrior for an armed bodyguard or a Plasmoid Explorer for a scout.",
+        "Printing note": "Some printings list 1,000 XP. This profile uses the standard CR 4 award of 1,100 XP.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 42."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Plasmoid Warrior",
+          "terms": [
+            "Plasmoid Warrior"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#plasmoid%20warrior_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Plasmoid Explorer",
+          "terms": [
+            "Plasmoid Explorer"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#plasmoid%20explorer_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Plasmoid Explorer",
+    "statBlock": {
+      "name": "Plasmoid Explorer",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 43,
+      "classification": "Medium ooze, any alignment",
+      "ac": 11,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 14,
+      "description": "An ooze traveler who packs light to visit new worlds on the Material Plane and wander the Astral Plane.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Survival": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "Acid, poison.",
+        "Traits": "Amorphous. Unencumbered by gear or clothing, the plasmoid can pass through a 1-inch gap. It has advantage on ability checks to start a grapple or get out of one.\nHold Breath. The plasmoid can go 1 hour without taking another breath.",
+        "Actions": "Multiattack. Make two Pseudopod attacks. One of the two may be a Javelin attack instead.\nPseudopod. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 4 (1d6 + 1) piercing damage.",
+        "Other plasmoids": "See the Plasmoid Boss for a leader or the Plasmoid Warrior for an armed escort.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 43."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Plasmoid Boss",
+          "terms": [
+            "Plasmoid Boss"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#plasmoid%20boss_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Plasmoid Warrior",
+          "terms": [
+            "Plasmoid Warrior"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#plasmoid%20warrior_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Plasmoid Warrior",
+    "statBlock": {
+      "name": "Plasmoid Warrior",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 43,
+      "classification": "Medium ooze, any alignment",
+      "ac": 16,
+      "hp": 71,
+      "hitDice": "11d8 + 22",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "A veteran whose outer surface hardens into armor. A warrior can fight with an unarmed pseudopod, a spear or a pistol.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor and a shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "Acid, poison.",
+        "Traits": "Amorphous. Unencumbered by gear or clothing, the plasmoid can pass through a 1-inch gap. It has advantage on ability checks to start a grapple or get out of one.\nHold Breath. The plasmoid can go 1 hour without taking another breath.",
+        "Actions": "Multiattack. Make three Pseudopod attacks. The warrior may substitute one Spear or Pistol attack.\nPseudopod. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.\nSpear. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) if held in two hands for a melee attack.\nPistol. Ranged weapon attack, +4 to hit, range 30/90 ft., one target. A hit deals 7 (1d10 + 2) piercing damage.",
+        "Other plasmoids": "A Plasmoid Boss might employ a warrior as a guard. Use a Plasmoid Explorer for a scout.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 43."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Plasmoid Boss",
+          "terms": [
+            "Plasmoid Boss"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#plasmoid%20boss_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Plasmoid Explorer",
+          "terms": [
+            "Plasmoid Explorer"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#plasmoid%20explorer_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Psurlon",
+    "statBlock": {
+      "name": "Psurlon",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 44,
+      "classification": "Medium aberration, typically lawful evil",
+      "ac": 15,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A robed, eyeless astral aberration with a wormlike head, a toothed maw, three-fingered hands and hooves.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Mage Armor is included in AC 15.",
+        "Senses": "Blindsight 120 ft. (blind beyond this radius).",
+        "Languages": "Deep Speech, telepathy 120 ft.",
+        "Damage resistances": "Psychic.",
+        "Condition immunities": "Blinded, charmed.",
+        "Traits": "Aberrant Mind. The psurlon is immune to magical sleep and to magic that reads its thoughts.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 6 (1d8 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage.\nPsychic Crush. Choose one creature the psurlon can see within 120 ft. The target makes a DC 13 Wisdom save, taking 14 (2d10 + 3) psychic damage on a failed save or half as much on a success.",
+        "Spellcasting": "As an action, cast one listed spell.\nSpellcasting (Psionics). Cast one of these spells with Intelligence, save DC 13. The spells require no components.\n2/day each. Disguise Self and Mage Armor (self only).\n1/day. Suggestion.",
+        "Encounter context": "Psurlons return from the Deep Astral about once a century for the seven-year Feast of Worlds. They infiltrate settlements and sometimes partner with a Mind Flayer that consumes their victims’ brains. Githyanki raid their astral strongholds because of this alliance. A Psurlon Leader can oversee a raid and a Psurlon Ringer can infiltrate a settlement.",
+        "Life cycle": "Other psurlons hide the corpse of one of their own and lay eggs in it. Tiny worms hatch after 24 hours and feed on the corpse and one another. After seven days, the lone survivor emerges as an adult.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 44."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Psurlon Leader",
+          "terms": [
+            "Psurlon Leader"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#psurlon%20leader_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Psurlon Ringer",
+          "terms": [
+            "Psurlon Ringer"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#psurlon%20ringer_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Mind Flayer",
+          "terms": [
+            "Mind Flayer"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#mind%20flayer_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Psurlon Leader",
+    "statBlock": {
+      "name": "Psurlon Leader",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 45,
+      "classification": "Medium aberration, typically lawful evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 16,
+      "description": "About one psurlon in a hundred develops a head at each end of its wormlike body. These mutants are exceptionally intelligent and lead other psurlons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 1
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Mage Armor is included in AC 15.",
+        "Senses": "Blindsight 120 ft. (blind beyond this radius).",
+        "Languages": "Deep Speech, telepathy 120 ft.",
+        "Damage resistances": "Psychic.",
+        "Condition immunities": "Blinded, charmed.",
+        "Traits": "Aberrant Mind. The psurlon is immune to magical sleep and to magic that reads its thoughts.\nTwo Heads. The leader rolls saves to avoid or end the frightened, stunned and unconscious conditions with advantage. One head stays awake when the other sleeps.",
+        "Actions": "Multiattack. Make two Bite attacks and two Claw attacks. The leader can also use Psychic Crush. It may use Pacify in place of Psychic Crush if Pacify is available.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 7 (1d8 + 3) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) slashing damage.\nPacify (Recharge 5–6). Choose one creature the leader can see within 120 ft. On a failed DC 16 Wisdom save, the target is unconscious for 10 minutes. Damage wakes it early, as does another creature using an action to shake it awake.\nPsychic Crush. Choose one creature the leader can see within 120 ft. The target makes a DC 16 Wisdom save, taking 21 (3d10 + 5) psychic damage on a failed save or half as much on a success.",
+        "Spellcasting": "As an action, cast one listed spell.\nSpellcasting (Psionics). Cast one of these spells with Intelligence, save DC 16. The spells require no components.\n2/day each. Disguise Self and Mage Armor (self only).\n1/day each. Dimension Door and Suggestion.",
+        "Followers": "Use Psurlon for a rank-and-file follower or Psurlon Ringer for an infiltrator in an assumed identity.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 45."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Psurlon",
+          "terms": [
+            "Psurlon"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#psurlon_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Psurlon Ringer",
+          "terms": [
+            "Psurlon Ringer"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#psurlon%20ringer_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Psurlon Ringer",
+    "statBlock": {
+      "name": "Psurlon Ringer",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 45,
+      "classification": "Medium aberration, typically lawful evil",
+      "ac": 13,
+      "hp": 31,
+      "hitDice": "7d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A psurlon that has eaten a humanoid and taken on that person’s appearance, memories and languages.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Mage Armor is included in AC 13.",
+        "Languages": "Deep Speech plus the languages of the Humanoid it is imitating, telepathy 120 ft.",
+        "Damage resistances": "Psychic.",
+        "Condition immunities": "Charmed.",
+        "Traits": "Aberrant Mind. The psurlon is immune to magical sleep and to magic that reads its thoughts.",
+        "Actions": "Multiattack. Make two Dagger attacks.\nDagger. Melee or ranged weapon attack, +2 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 2 (1d4) piercing damage and 4 (1d8) psychic damage.\nPsychic Crush. Choose one creature the ringer can see within 120 ft. The target makes a DC 13 Wisdom save. It takes 12 (2d8 + 3) psychic damage on a failed save or half as much on a success.",
+        "Spellcasting": "As an action, cast one listed spell.\nSpellcasting (Psionics). Cast one of these spells with Intelligence, save DC 13. The spells require no components.\n2/day. Mage Armor (self only).\n1/day. Suggestion.",
+        "Assumed identity": "A Psurlon must eat the specific Medium Humanoid it wants to imitate, then spend 8 hours in a psionic trance. It takes the victim’s appearance, memories and languages. The victim’s class features and other abilities do not transfer. The ringer is still an Aberration, and other psurlons recognize it. Only Wish can reverse the permanent transformation.",
+        "Printing note": "The stat block uses the official errata, with no separate saving throw or skill bonuses. The printed Multiattack makes two Dagger attacks, and Psychic Crush uses 2d8 + 3.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 45."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Psurlon",
+          "terms": [
+            "Psurlon"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#psurlon_bam"
+          }
+        }
+      ]
+    }
+  }
+]

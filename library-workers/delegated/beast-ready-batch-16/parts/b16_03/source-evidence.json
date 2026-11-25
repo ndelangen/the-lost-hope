@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Giant Insect",
+    "publication": "Player’s Handbook",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate cover colophon",
+    "isbn": "978-0-7869-6982-1",
+    "printedPages": [
+      279
+    ],
+    "readerSheets": [
+      280
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/spells/2618944-giant-insect",
+    "facsimileUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=280",
+    "colophonUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=3",
+    "sourceWitness": "Visually checked the first-print folio and colophon. The corrected spell page on D&D Beyond confirms the remainder of the mechanics and identifies Player’s Handbook p. 279.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "officialErrataPdf": "",
+    "errataEvidence": "The first printing lists 30 HP plus 10 per spell level. Publisher errata limits the increment to levels above 4. The corrected formula is used in the encounter prose.",
+    "scopeEvidence": "Base summon using the book’s three form choices.",
+    "parallelSrd": {
+      "publication": "System Reference Document 5.2.1",
+      "pages": [
+        135,
+        136
+      ],
+      "url": "",
+      "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+      "role": "Independently checked the corrected rules. The SRD publication is handled by the existing standalone staged handoff."
+    },
+    "scalableRecipeEvidence": "Matched the existing Player’s Handbook recipe by publication, name, and edition. Printed prose supplies form constraints, shared caster initiative, and the effects of Web Bolt and Venomous Spew where applicable.",
+    "appearanceEvidence": "Editorial comparison of the three forms. The spell summons one chosen creature per casting. Reused portrait at srd-giant-insects/portraits/giant-insect-draft.png.",
+    "habitatEvidence": "The spell specifies a visible, unoccupied manifestation location in range. It gives no natural habitat for the summoned forms."
+  },
+  {
+    "name": "Giant Insect (Centipede)",
+    "publication": "Player’s Handbook",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate cover colophon",
+    "isbn": "978-0-7869-6982-1",
+    "printedPages": [
+      279
+    ],
+    "readerSheets": [
+      280
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/spells/2618944-giant-insect",
+    "facsimileUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=280",
+    "colophonUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=3",
+    "sourceWitness": "Visually checked the first-print folio and colophon. The corrected spell page on D&D Beyond confirms the remainder of the mechanics and identifies Player’s Handbook p. 279.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "officialErrataPdf": "",
+    "errataEvidence": "The first printing lists 30 HP plus 10 per spell level. Publisher errata limits the increment to levels above 4. The corrected formula is used in the encounter prose.",
+    "scopeEvidence": "The centipede is a selectable form of the shared Giant Insect stat block on p. 279.",
+    "parallelSrd": {
+      "publication": "System Reference Document 5.2.1",
+      "pages": [
+        135,
+        136
+      ],
+      "url": "",
+      "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+      "role": "Independently checked the corrected rules. The SRD publication is handled by the existing standalone staged handoff."
+    },
+    "scalableRecipeEvidence": "Matched the existing Player’s Handbook recipe by publication, name, and edition. Printed prose supplies form constraints, shared caster initiative, and the effects of Web Bolt and Venomous Spew where applicable.",
+    "appearanceEvidence": "Editorial portrait of a reddish segmented centipede with long antennae and paired legs. Reused portrait at beast-ready-batch-04/parts/b04_05/portraits/giant-centipede.png.",
+    "habitatEvidence": "The spell specifies a visible, unoccupied manifestation location in range. It gives no natural habitat for the summoned forms."
+  },
+  {
+    "name": "Giant Insect (Spider)",
+    "publication": "Player’s Handbook",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate cover colophon",
+    "isbn": "978-0-7869-6982-1",
+    "printedPages": [
+      279
+    ],
+    "readerSheets": [
+      280
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/spells/2618944-giant-insect",
+    "facsimileUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=280",
+    "colophonUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=3",
+    "sourceWitness": "Visually checked the first-print folio and colophon. The corrected spell page on D&D Beyond confirms the remainder of the mechanics and identifies Player’s Handbook p. 279.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "officialErrataPdf": "",
+    "errataEvidence": "The first printing lists 30 HP plus 10 per spell level. Publisher errata limits the increment to levels above 4. The corrected formula is used in the encounter prose.",
+    "scopeEvidence": "The spider is a selectable form of the shared Giant Insect stat block on p. 279.",
+    "parallelSrd": {
+      "publication": "System Reference Document 5.2.1",
+      "pages": [
+        135,
+        136
+      ],
+      "url": "",
+      "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+      "role": "Independently checked the corrected rules. The SRD publication is handled by the existing standalone staged handoff."
+    },
+    "scalableRecipeEvidence": "Matched the existing Player’s Handbook recipe by publication, name, and edition. Printed prose supplies form constraints, shared caster initiative, and the effects of Web Bolt and Venomous Spew where applicable.",
+    "appearanceEvidence": "Editorial portrait of an eight-legged spider with a rounded reddish-brown abdomen. Reused portrait at srd-giant-insects/portraits/spider-draft.png.",
+    "habitatEvidence": "The spell specifies a visible, unoccupied manifestation location in range. It gives no natural habitat for the summoned forms."
+  },
+  {
+    "name": "Giant Insect (Wasp)",
+    "publication": "Player’s Handbook",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate cover colophon",
+    "isbn": "978-0-7869-6982-1",
+    "printedPages": [
+      279
+    ],
+    "readerSheets": [
+      280
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/spells/2618944-giant-insect",
+    "facsimileUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=280",
+    "colophonUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=3",
+    "sourceWitness": "Visually checked the first-print folio and colophon. The corrected spell page on D&D Beyond confirms the remainder of the mechanics and identifies Player’s Handbook p. 279.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "officialErrataPdf": "",
+    "errataEvidence": "The first printing lists 30 HP plus 10 per spell level. Publisher errata limits the increment to levels above 4. The corrected formula is used in the encounter prose.",
+    "scopeEvidence": "The wasp is a selectable form of the shared Giant Insect stat block on p. 279.",
+    "parallelSrd": {
+      "publication": "System Reference Document 5.2.1",
+      "pages": [
+        135,
+        136
+      ],
+      "url": "",
+      "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+      "role": "Independently checked the corrected rules. The SRD publication is handled by the existing standalone staged handoff."
+    },
+    "scalableRecipeEvidence": "Matched the existing Player’s Handbook recipe by publication, name, and edition. Printed prose supplies form constraints, shared caster initiative, and the effects of Web Bolt and Venomous Spew where applicable.",
+    "appearanceEvidence": "Editorial portrait of a flying yellow-and-black wasp with translucent wings. Reused portrait at srd-giant-insects/portraits/wasp-draft.png.",
+    "habitatEvidence": "The spell specifies a visible, unoccupied manifestation location in range. It gives no natural habitat for the summoned forms."
+  },
+  {
+    "name": "Mastiff",
+    "publication": "DDEX3-14 - Death on the Wall",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "March 1, 2016 release as dated on its cover",
+    "adventureCode": "DDEX3-14",
+    "author": "Greg Marks",
+    "debutDate": "2016-02-05",
+    "releaseDate": "2016-03-01",
+    "printedPages": [
+      23
+    ],
+    "pdfPages": [
+      23
+    ],
+    "encounterPages": [
+      11,
+      12,
+      20
+    ],
+    "sourcePdf": "DDEX3-14 - Death on the ",
+    "sourcePdfPageCount": 31,
+    "sourcePdfSha256": "a93ea569f49cde84a3fca937356db4bf78976832294b6251b59c230dfcc4a7d7",
+    "sourceUrl": "",
+    "sourceWitness": "Visually checked the p. 23 Mastiff stat block and read the local original ’s patrol, kennel, and XP pages. Page labels and page numbers match.",
+    "officialErrata": "",
+    "errataEvidence": "The Adventurers League FAQ’s adventure errata does not list DDEX3-14. The module’s p. 20 combat award agrees with its p. 23 Mastiff block.",
+    "appearanceEvidence": "The original text describes large guard dogs without specifying their markings. The reused fawn mastiff at beast-ready-batch-02/parts/b02_06/portraits/mastiff.png provides the editorial image details.",
+    "habitatEvidence": "Urban is an editorial tag for a domesticated dog at the military encampment around Yûlash’s ruins. The native range is unspecified."
+  }
+]

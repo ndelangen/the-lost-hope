@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Giant Owl",
+    "file": "portraits/giant-owl.png",
+    "sha256": "62e9e881905a3313e386bcf5aba41df1d163ff464d33e68e63902b7978cb71a4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "file": "portraits/giant-poisonous-snake.png",
+    "sha256": "9b4d5d4ce9f7c1835d361bacddaaec3fd70f4e8a0844c55f796e07e80bc02fe7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Spider",
+    "file": "portraits/giant-spider.png",
+    "sha256": "fa2c165b417beb55cab29548ec80f8d0dbe75c275ce7a28e7acea3945012056b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Wasp",
+    "file": "portraits/giant-wasp.png",
+    "sha256": "12689384dcb651158663d197b1cf48d4b17869c218027d9e0b43b0d925ef04c4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

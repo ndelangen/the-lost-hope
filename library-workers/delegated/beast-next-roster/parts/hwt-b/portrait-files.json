@@ -1,0 +1,102 @@
+[
+  {
+    "entry": "beast-08ae1aa700e497d6a08fc794",
+    "version": "530ede547b761a805a8a9c89",
+    "name": "Gargath",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "artGroup": "gargath",
+    "file": "portraits/gargath.png",
+    "stagingFile": "",
+    "sha256": "0fbc30014fec7bbfcbac0343f13ee8e9846a01a9986b2e9659740754721637a1",
+    "width": 1254,
+    "height": 1254,
+    "placement": "alternate",
+    "credit": "OpenAI ImageGen",
+    "mode": "Built-in OpenAI ImageGen",
+    "prompt": "Square full-body fantasy bestiary creature portrait for The Lost Hope. Match the supplied campaign portrait as a style reference only, especially its restrained gray-brown pencil and engraved hatching, subtle natural coloring, understated detail and plain flat muted tan parchment. Draw a completely new subject and composition as described below. Keep the specimen centered and entirely inside an ample clear margin for square and circular thumbnails. Matte muted hues, pale graphite shadows, barely visible even paper grain edge to edge. Blank parchment everywhere outside the animal, with at most a tiny soft graphite contact shadow. No objects, foliage, ground texture, setting, particles, vignettes, borders, diagrams, or text. One Gargath as a massive stocky bison-like beast with a strong shoulder hump, shaggy long dark brown head and forequarters, tawny-brown short hindquarter coat, cloven hooves, broad bovine snout, and a pair of outward then upward curving gray horns. Show a calm full-body left-facing side profile, with its head slightly lowered and all hooves distinguishable. The coat and proportions are naturalistic.",
+    "styleReference": "",
+    "publisherReference": {
+      "path": "",
+      "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/268/1000/1000/638735984450539605.png",
+      "credit": "D&D Beyond publisher art",
+      "sha256": "d0b34aca2c757103807aa0c926943d1d9c92ed144ce4699db75dbb7484718fdb"
+    },
+    "visualReview": "Low shoulder-heavy bison form, shaggy dark forequarters, shorter tawny hindquarter coat, upturned horns, and four cloven hooves in view."
+  },
+  {
+    "entry": "beast-ab310c3f5c5d0b6cf65f82bb",
+    "version": "509b359c9bb24f0b6dab67c6",
+    "name": "Slicar",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "artGroup": "slicar",
+    "file": "portraits/slicar.png",
+    "stagingFile": "",
+    "sha256": "bb12c5915875d22679c6ec568fc00d70bb68967853cd58c4a7f75f1c57e8d8c1",
+    "width": 1254,
+    "height": 1254,
+    "placement": "alternate",
+    "credit": "OpenAI ImageGen",
+    "mode": "Built-in OpenAI ImageGen",
+    "prompt": "Square full-body fantasy bestiary creature portrait for The Lost Hope. Match the supplied campaign portrait as a style reference only, especially its restrained gray-brown pencil and engraved hatching, subtle natural coloring, understated detail and plain flat muted tan parchment. Draw a completely new subject and composition as described below. Keep the specimen centered and entirely inside an ample clear margin for square and circular thumbnails. Matte muted hues, pale graphite shadows, barely visible even paper grain edge to edge. Blank parchment everywhere outside the animal, with at most a tiny soft graphite contact shadow. No objects, foliage, ground texture, setting, particles, vignettes, borders, diagrams, or text. One Slicar, a robust four-legged lizard with a long tapering tail and squat reptile head. Small overlapping scales form muted terracotta bands over dull blue-green, with a pale ochre underside. Show a freestanding full-body specimen viewed slightly from above, walking to the left with its tail trailing to the right in a loose arc, with all toes visible. The terracotta stripes continue across the tail.",
+    "styleReference": "",
+    "publisherReference": {
+      "path": "",
+      "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/314/1000/1000/638735984508421445.png",
+      "credit": "D&D Beyond publisher art",
+      "sha256": "26ea6bc8c9580bacca6c419121a597d9c5d4f2da36a99a34dedd91576f8076bb"
+    },
+    "visualReview": "Full lizard silhouette, long curved tail, undistorted toes, alternating terracotta and dull blue-green scales."
+  },
+  {
+    "entry": "beast-557cf9b8927b4c7488120931",
+    "version": "a75880108cc07275cb1bd327",
+    "name": "Swarm of Bluebees",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "artGroup": "swarm-of-bluebees",
+    "file": "portraits/swarm-of-bluebees.png",
+    "stagingFile": "",
+    "sha256": "c1511111a92e7bbd055a474048cb731f22ff1deace8022f3d4ca422ca9f00630",
+    "width": 1254,
+    "height": 1254,
+    "placement": "alternate",
+    "credit": "OpenAI ImageGen",
+    "mode": "Built-in OpenAI ImageGen",
+    "prompt": "Square full-body fantasy bestiary creature portrait for The Lost Hope. Match the supplied campaign portrait as a style reference only, especially its restrained gray-brown pencil and engraved hatching, subtle natural coloring, understated detail and plain flat muted tan parchment. Draw a completely new subject and composition as described below. Keep the specimen centered and entirely inside an ample clear margin for square and circular thumbnails. Matte muted hues, pale graphite shadows, barely visible even paper grain edge to edge. Blank parchment everywhere outside the animal, with at most a tiny soft graphite contact shadow. No objects, foliage, ground texture, setting, particles, vignettes, borders, diagrams, or text. A small airborne cluster of six fantasy bluebees, with dense dusky blue fur on their thoraxes, subtly alternating slate and dark indigo abdominal bands, dark eyes, bent insect legs, antennae and transparent smoky-blue veined wings. One especially well-drawn bee in the center at a diagonal, with the other five similarly sized bees clustered around it, separated enough to read. Foremost bluebee is closer to the viewer, seen from above in a side view. They are ordinary bee-shaped insects with convincing insect structure, dry muted blue pigments and no magical glow.",
+    "styleReference": "",
+    "publisherReference": {
+      "path": "",
+      "url": "https://www.dndbeyond.com/avatars/thumbnails/47005/964/1000/1000/638736742112968713.png",
+      "credit": "D&D Beyond publisher art",
+      "sha256": "3ba22d1f4c4da3df93af71cc87875f3b3b1c208dd891708f5a3b56f11c70d5c7"
+    },
+    "visualReview": "Six figures, with the main bee's blue fur, banded abdomen and veined wings readable at thumbnail size. Saturation is lower than the publisher art to fit the library palette."
+  },
+  {
+    "entry": "beast-d2837e6d235004aae7facd88",
+    "version": "83f708d5a1d4e6d922732e01",
+    "name": "Swarm of Gimlets",
+    "publication": "Humblewood Tales",
+    "edition": "2014 fifth edition compatible",
+    "artGroup": "swarm-of-gimlets",
+    "file": "portraits/swarm-of-gimlets.png",
+    "stagingFile": "",
+    "sha256": "ab2637d6a500a4d319489a5f47e9a06220c2f7a7cf9dd59053d53148d07a8e8f",
+    "width": 1254,
+    "height": 1254,
+    "placement": "alternate",
+    "credit": "OpenAI ImageGen",
+    "mode": "Built-in OpenAI ImageGen",
+    "prompt": "Square full-body fantasy bestiary creature portrait for The Lost Hope. Match the supplied campaign portrait as a style reference only, especially its restrained gray-brown pencil and engraved hatching, subtle natural coloring, understated detail and plain flat muted tan parchment. Draw a completely new subject and composition as described below. Keep the specimen centered and entirely inside an ample clear margin for square and circular thumbnails. Matte muted hues, pale graphite shadows, barely visible even paper grain edge to edge. Blank parchment everywhere outside the animal, with at most a tiny soft graphite contact shadow. No objects, foliage, ground texture, setting, particles, vignettes, borders, diagrams, or text. A small airborne cluster of six Gimlets, flying fantasy beetles with green heads and pronotums, green-black elytra with deep blue mottles opened to show translucent veined hindwings, small wine-magenta markings on the elytra, subdued magenta abdomens, and two short clubbed antennae. Place the lead insect toward the center and five companions loosely around it with each clear silhouette at miniature size. View the lead specimen from an oblique upper side so the open shell and wings both read. The British natural-history pencil style keeps the colors muted, without glowing effects.",
+    "styleReference": "",
+    "publisherReference": {
+      "path": "",
+      "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/330/1000/1000/638735984528741373.png",
+      "credit": "D&D Beyond publisher art",
+      "sha256": "520656a9b58f0c6e1db88f5536133056158edfed62cfb8c2bfab1d9a325b799e"
+    },
+    "visualReview": "Six beetles, with colored elytra held open and separate clear hindwings. Muted green, blue and magenta markings remain visible."
+  }
+]

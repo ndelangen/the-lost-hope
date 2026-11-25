@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Bearfolk",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium. Walk 30 ft. Strength +2. Shadowborn add Dexterity +1.",
+      "Bite. Make an unarmed strike for 1d6 + Strength modifier piercing damage.",
+      "Natural Armor starts at AC 13 + Dexterity modifier. A shield can add to that AC.",
+      "Powerful Build counts as one size larger for carrying, pushing, dragging, and lifting. Ursine Talent grants Athletics and Perception proficiency.",
+      "Shadowborn have darkvision 60 ft. With Cloak of Night, dim light or darkness grants advantage on Dexterity (Stealth) checks and permits Hide as a bonus action.",
+      "Speak, read, and write Common for a mortal-land origin or Umbral for a Shadow Realm origin."
+    ]
+  },
+  {
+    "name": "Darakhul",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Constitution +1 and darkvision 60 ft. Choose a heritage for size, speed and added traits.",
+      "Imperfect Undeath. Humanoid affected by effects that specifically target undead. Normal healing works. Ordinary resurrection returns a Darakhul. True Resurrection or Wish can return the original living form.",
+      "Hunger for Flesh. Eat 1 lb. of raw meat every 24 hours or gain one exhaustion level. While hunger exhaustion remains, healing and recovery from exhaustion are blocked until spending at least an hour eating 10 lb. of raw meat.",
+      "Powerful Jaw. Bite unarmed strike for 1d4 + Strength modifier piercing. Sunlight Sensitivity gives disadvantage on attacks and sight-based Perception if the character, target or subject is in direct sunlight.",
+      "Undead Resilience gives necrotic and poison resistance, disease immunity and advantage on saves against charm or poison. A short rest removes one exhaustion level if at least 1 lb. of raw meat was eaten within 24 hours, subject to Hunger for Flesh.",
+      "Undead Vitality. No breathing. Six hours of semiconscious dormancy give the sleep benefit of eight human hours. Perception checks during dormancy have disadvantage.",
+      "Common heritage rules grant Darakhul, Umbral and the heritage language. Bearfolk Heritage adds Strength +2 and Common for a mortal-land origin or Umbral for a Shadow Realm origin. Medium, speed 30 ft. Jaws of Death raises bite damage to 1d6 + Strength. Undead Fortitude lets a survivor of a drop to 0 HP drop to 1 instead once per long rest.",
+      "Shadow Goblin Heritage adds Dexterity +2 and Goblin and Umbral. Small, speed 30 ft. Dark Deed is an action against a visible target within 30 ft. that can see and hear the Darakhul. On a failed Wisdom save against DC 10 + Charisma modifier, it is frightened of the Darakhul through the end of its turn."
+    ]
+  },
+  {
+    "name": "Quickstep",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small. Walk 50 ft. Dexterity +2 and Charisma +1. Darkvision 60 ft.",
+      "Fey Ancestry grants advantage on saves against charm and prevents magical sleep.",
+      "Nimble grants Acrobatics and Sleight of Hand proficiency.",
+      "Startling Speed can be used for a number of rounds each day equal to character level. Move at least 10 ft. on your turn to impose disadvantage on attacks against you through the start of your next turn. Incapacitated or restrained Quicksteps cannot use it.",
+      "Speak, read, and write Elvish and Umbral."
+    ]
+  },
+  {
+    "name": "Ratatosk",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Dexterity +2 and Strength −2. Walk 25 ft., climb 10 ft., and darkvision 60 ft. Humanoid that can be targeted by effects specifically aimed at celestials.",
+      "Sharp Tusks. Unarmed strike for 1 piercing plus 1d4 psychic damage.",
+      "Speak telepathically to a visible creature within 10 ft. per character level if it understands at least one language. Read, write and understand Celestial and Common.",
+      "Ekorre are Tiny and gain Intelligence +1 or Charisma +1. They know Message and Vicious Mockery, and can cast Mirror Image once per long rest from 5th level. Use Charisma. Ekorre use light or finesse weapons normally. Other weapons take two hands and impose disadvantage. They cannot use heavy weapons. Weapons made for Tiny users can bypass the size restrictions.",
+      "Tradvakt are Small and add Constitution +1. War Chatter targets one non-Ratatosk within 30 ft. that can hear the speaker. As a bonus action, demand a Charisma save against DC 8 + proficiency bonus + Constitution modifier. Failure imposes disadvantage on attacks through the start of your next turn. Recharge on a short or long rest."
+    ]
+  },
+  {
+    "name": "Shadow Goblin",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small. Walk 30 ft. Dexterity +2 and Charisma +1. Darkvision 60 ft.",
+      "Quick Wit grants Deception and Insight proficiency. Shadow Camouflage gives advantage on Dexterity (Stealth) to hide in dim light or darkness.",
+      "Stink Eye. As an action, target a creature you can see within 30 ft. that can see and hear you. It makes a Charisma save against DC 8 + proficiency bonus + Charisma modifier. On a failure its next ability check, attack roll or saving throw before your next turn starts has disadvantage.",
+      "Sunlight Sensitivity gives disadvantage on attacks and sight-based Perception if you, the target or what you seek to see is in direct sunlight. Unseelie Blessing grants advantage on saves against charm and prevents magical sleep.",
+      "Speak, read and write Goblin and Umbral."
+    ]
+  }
+]

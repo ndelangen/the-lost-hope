@@ -1,0 +1,278 @@
+{
+  "builds": [
+    {
+      "id": "avoral-tavian-duskwing-30e",
+      "title": "Avoral pass lookout, monster class 3",
+      "difficulty": "CR 3, ECL 3 (3 class HD).",
+      "size": "Medium",
+      "type": "Outsider (Good)",
+      "senses": "Darkvision 60 ft., low-light vision, true seeing 1 minute/day while concentrating",
+      "languages": "Celestial, Draconic, Infernal",
+      "speed": "40 ft., fly 40 ft. (average)",
+      "ac": 17,
+      "hp": 23,
+      "hitDice": "3d8+6",
+      "initiative": 8,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 18,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 17
+      },
+      "skills": [
+        "Concentration +8",
+        "Hide +10",
+        "Knowledge (the planes) +6",
+        "Listen +8",
+        "Move Silently +10",
+        "Sense Motive +8",
+        "Spellcraft +6",
+        "Spot +16"
+      ],
+      "traits": [
+        "Neutral good. Touch 14, flat-footed 13. BAB +3, grapple +4. Fortitude +5, Reflex +7, Will +5. Add +4 to saves against poison.",
+        "Improved Initiative and Point Blank Shot. Acid, cold, and electricity resistance 5."
+      ],
+      "actions": [
+        "Grounded shortbow +7 ranged (1d6 piercing, ×3, 60-ft. range increment). At 30 ft. or closer, +8 and 1d6+1 from Point Blank Shot.",
+        "Grounded wing +4 melee (1d8+1 bludgeoning) or airborne claw +4 melee (1d6+1 slashing). A suitable full attack uses both wings or both claws at the stated bonus.",
+        "True seeing (Su) takes 1 round of concentration and up to 1 minute of daily use, rounded up in 1-minute blocks. Maintain concentration. Within 120 ft. it shows what invisibility, illusions, magical darkness and transformed forms hide, and discloses auras by alignment. Tavian can focus this sight into the Ethereal Plane. Solid barriers and mundane concealment still apply.",
+        "Each lesser power below has one use per day. Standard actions at CL 3, applicable spell resistance applies. Aid touches a living creature for 3 minutes (+1 morale to attacks and fear saves, and 1d8 temporary HP). Blur affects Tavian for 3 minutes (20% miss chance). Command affects one living creature within 30 ft. with a one-word order for 1 round (Will DC 14 negates).",
+        "Magic missile fires two 1d4+1 force missiles without attack rolls at up to 130 ft. Tavian may split them between creatures within 15 ft. of each other. See invisibility reveals invisible, astral and ethereal creatures and objects in a 130-ft. cone for up to 30 minutes.",
+        "Detect magic examines a 60-ft. quarter-circle for up to 3 minutes while concentrating, showing presence on round 1, number and strongest aura on round 2, and location and strength on round 3. Light makes a touched object shed light in a 20-ft. radius for 30 minutes."
+      ],
+      "tactics": "Use true seeing from a steady perch before calling out the disguised keeper. Offer terms. If attacked, take flight, use magic missile against a fleeing foe, and come down once the path is clear.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "azer-hessik-coppervein-30e",
+      "title": "Azer kiln keeper, monster class 3",
+      "difficulty": "CR 2, ECL 3 (2 class HD).",
+      "size": "Medium",
+      "type": "Outsider (Fire, Lawful)",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Ignan",
+      "speed": "20 ft. in scale mail, 30 ft. without it",
+      "ac": 19,
+      "hp": 18,
+      "hitDice": "2d8+6",
+      "initiative": 1,
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 13,
+        "WIS": 10,
+        "CHA": 6
+      },
+      "skills": [
+        "Climb +4 in scale mail",
+        "Craft (metalworking) +6",
+        "Listen +5",
+        "Profession (kiln keeper) +5",
+        "Search +6",
+        "Spot +5",
+        "Appraise +3",
+        "Heal +2",
+        "Sense Motive +2",
+        "Use Rope +2"
+      ],
+      "traits": [
+        "Lawful neutral. Touch 11, flat-footed 18. AC includes +4 natural armor and +4 scale mail. BAB +2, grapple +5. Fortitude +6, Reflex +4, Will +3.",
+        "Immune to fire. Cold deals double damage except on a successful save. Weapon Focus (warhammer)."
+      ],
+      "actions": [
+        "Iron warhammer +6 melee (1d8+3 bludgeoning, ×3, plus 1 fire).",
+        "Unarmed strike +5 melee (1d3+3 subdual and 1 fire). It provokes an attack of opportunity against an armed opponent under the normal 3.0 rule."
+      ],
+      "tactics": "Approach through the hot channel, tell visitors where to stand, and interpose between the apprentice and anyone moving the draft lever.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "belker-vesh-ashwake-30e",
+      "title": "Belker draft sentry, monster class 3",
+      "difficulty": "CR 2, ECL 3 (3 class HD).",
+      "size": "Medium",
+      "type": "Elemental (Air)",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Auran",
+      "speed": "30 ft., fly 30 ft. (perfect)",
+      "ac": 16,
+      "hp": 20,
+      "hitDice": "3d8+3",
+      "initiative": 8,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 19,
+        "CON": 13,
+        "INT": 6,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Hide +4 (smoke form +24 amid gas or smoke)",
+        "Listen +6",
+        "Move Silently +4",
+        "Spot +6"
+      ],
+      "traits": [
+        "Neutral evil. Touch 14, flat-footed 12. BAB +2, grapple +5. Fortitude +2, Reflex +7, Will +2.",
+        "Alertness and Improved Initiative. Immune to poison, sleep, paralysis, stunning, and critical hits."
+      ],
+      "actions": [
+        "Wing +5 melee (1d4+3 bludgeoning). Full attack uses two wings at +5 and bite +0 (1d3+1 piercing).",
+        "Smoke form (Su) for 5 rounds per day. Switch form once per round as a free action. While smoky, AC 14 and damage reduction 20/+1. Vesh can fly 30 ft. with perfect maneuverability, slip through gaps, and ignores breathing hazards. Vesh cannot enter liquid, pass through solid matter, run, or make physical attacks in this form. Wind can drive the cloud."
+      ],
+      "tactics": "Use smoke form to get ahead of anyone moving toward the flue. Return to solidity at a safe perch and use wings if diplomacy fails.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "earth-elemental-kurr-slateknuckle-30e",
+      "title": "Earth elemental stonecut keeper, monster class 4",
+      "difficulty": "CR 2, ECL 4 (4 class HD).",
+      "size": "Medium",
+      "type": "Elemental (Earth)",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Terran",
+      "speed": "20 ft., through earth and stone at the same rate",
+      "ac": 15,
+      "hp": 33,
+      "hitDice": "4d8+12",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 23,
+        "DEX": 11,
+        "CON": 16,
+        "INT": 6,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Listen +5",
+        "Spot +4"
+      ],
+      "traits": [
+        "Neutral. Touch 10, flat-footed 15. BAB +3, grapple +9. Fortitude +9, Reflex +1, Will +2.",
+        "Great Fortitude, Improved Initiative, and bonus Power Attack. Immune to poison, sleep, paralysis, stunning, and critical hits."
+      ],
+      "actions": [
+        "Slam +9 melee (1d6+9 bludgeoning). If Kurr and the foe both touch ground it is +10 for 1d6+10. Against a flying or waterborne foe it is +5 for 1d6+5. Power Attack can shift up to 3 points from melee accuracy to equal damage.",
+        "Push replaces an attack or ends a charge. Does not provoke. Roll an opposed Strength check at +6 (+7 if both are grounded, +2 against an airborne or waterborne defender), with charge and defender's stability modifiers applied normally. On a win move the defender 5 ft. Move with them up to 1 additional ft. per point won, limited by speed.",
+        "Move through dirt or solid stone at 20 ft. Kurr can walk along the bed of a body of water and cannot swim."
+      ],
+      "tactics": "Approach through the wall, emerge beside intruders and ask them to step off the chalk. Push a threatening groundbound foe back toward the entrance before using the slam.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "ettercap-bramble-thread-30e",
+      "title": "Ettercap trap tender, monster class 3",
+      "difficulty": "CR 2, ECL 3 (2 class HD).",
+      "size": "Medium",
+      "type": "Aberration",
+      "senses": "Darkvision 60 ft., low-light vision",
+      "languages": "Common",
+      "speed": "30 ft., climb 30 ft.",
+      "ac": 15,
+      "hp": 18,
+      "hitDice": "2d8+6",
+      "initiative": 8,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 19,
+        "CON": 16,
+        "INT": 6,
+        "WIS": 13,
+        "CHA": 6
+      },
+      "skills": [
+        "Climb +12 (may take 10)",
+        "Hide +5 (+9 in shadow)",
+        "Listen +1",
+        "Spot +2 (+6 in shadow)"
+      ],
+      "traits": [
+        "Neutral. Touch 14, flat-footed 11. BAB +1, grapple +2. Fortitude +3, Reflex +4, Will +4. Improved Initiative."
+      ],
+      "actions": [
+        "Bite +2 melee (1d6+1 piercing). Fortitude DC 14 negates 1d4 temporary Dexterity damage on injury and again 1 minute later. Full attack combines the bite with two claws at −3 (1d3 slashing each).",
+        "Web 1/day as a standard action. Ranged touch +5 with 10-ft. increments and a 50-ft. maximum, against a Medium or smaller creature. On a hit the web anchors the target with −2 on attack rolls and −4 Dexterity. Casting takes a DC 15 Concentration check. Escape Artist DC 20 or Strength DC 26 frees the target as a full-round action. The web has 6 HP and takes double damage from fire."
+      ],
+      "tactics": "Warn travelers from above. Throw the web at the first pursuer and climb out of reach. Use the bite only if a foe gains the ledge.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Tavian Duskwing",
+      "species": "Avoral",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "build": "avoral-tavian-duskwing-30e",
+      "size": "Medium",
+      "role": "High-pass lookout who can discern magical disguises at the crossing.",
+      "motive": "Identify the counterfeit beacon keeper before the night courier arrives.",
+      "hook": "Tavian will fly ahead and examine one suspect if the party makes sure the other travelers stay on the bridge."
+    },
+    {
+      "name": "Hessik Coppervein",
+      "species": "Azer",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "build": "azer-hessik-coppervein-30e",
+      "size": "Medium",
+      "role": "Kiln keeper who can work inside the furnace and wield a red-hot hammer.",
+      "motive": "Get the kiln's trapped apprentice out before a pressure seal fails.",
+      "hook": "Hessik will cross the flame-filled channel if the party clears the doors and keeps the draft lever down."
+    },
+    {
+      "name": "Vesh Ashwake",
+      "species": "Belker",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "build": "belker-vesh-ashwake-30e",
+      "size": "Medium",
+      "role": "Draft shaft sentry who can slip through the inspection grate in smoke form.",
+      "motive": "Keep the air shaft open until a trapped miner climbs out.",
+      "hook": "A thin voice past the locked grate warns the party that opening the lower flue will pull the worker back down."
+    },
+    {
+      "name": "Kurr Slateknuckle",
+      "species": "Earth Elemental",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "build": "earth-elemental-kurr-slateknuckle-30e",
+      "size": "Medium",
+      "role": "Stonecut keeper who can emerge through a quarry wall and shove intruders off a corridor.",
+      "motive": "Preserve the quarry chamber until the master stonecutter returns with permission to open it.",
+      "hook": "Kurr waits within the rock and emerges when the party steps onto the chalked quarry route."
+    },
+    {
+      "name": "Bramble Thread",
+      "species": "Ettercap",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "build": "ettercap-bramble-thread-30e",
+      "size": "Medium",
+      "role": "Trap tender who can pin a pursuer and climb away along the trail rigging.",
+      "motive": "Keep creatures from crossing the silk boundary while a brood of spiders moves to a new nest.",
+      "hook": "The party spots a path that appears passable from foot level. Bramble signals from above if they stop before touching the near strand."
+    }
+  ]
+}

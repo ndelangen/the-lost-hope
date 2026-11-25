@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Uldra",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "ef17c3277a32bc20095487d0",
+      "publication": "Frostburn (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/works/OL35266671W/Frostburn",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Fey"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Small Fey with −2 Strength, +2 Constitution, and +2 Wisdom. Land speed 20 ft. Darkvision 120 ft. and low-light vision. LA +1.",
+            "Small size gives +1 AC and attack rolls, +4 Hide, and three-quarters of the ordinary carrying and lifting limits. Uldras use Small weapons.",
+            "Nature Scholar (Ex) grants +2 racial on Knowledge (nature) and makes it a class skill.",
+            "Cold Resistance (Ex). Cold environments do not harm the Uldra or its equipment. Against attacks that deal cold damage, the Uldra has cold resistance 5.",
+            "Frosty Touch (Su). A free action frosts the hands. While frosty, unarmed attacks deal +1 cold damage. A wielded melee weapon deals +1 cold on a hit while held. The extra cold does not stack with a magic weapon’s cold damage.",
+            "Racial spell-like abilities are ray of frost 3/day, speak with animals 1/day, and touch of fatigue 1/day. Caster level equals Hit Dice. Save DCs use Wisdom.",
+            "Fey Blood. Uldras are Fey. Effects limited to Humanoids do not affect them, and effects that target Fey apply. They have no special cold iron weakness.",
+            "Common and Sylvan are automatic. All languages are available as bonus languages, and Speak Language is always a class skill. Favored class Druid."
+          ]
+        },
+        {
+          "title": "Original NPC · Rimewillow",
+          "lines": [
+            "Winter-trail guide and Druid.",
+            "Motive. Find a trail that the stranded travelers can cross.",
+            "Hook. Rimewillow knows where a fox has been using the hollow.",
+            "Uldra winter-trail guide, Druid 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Small Fey",
+            "AC 15 · HP 11 (1d8+3) · Speed 20 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Stillrime",
+          "lines": [
+            "Pass shelter guard and Monk.",
+            "Motive. Hold the shelter entrance until the travelers are inside.",
+            "Hook. Stillrime can hear movement beyond the snowbank outside the shelter.",
+            "Uldra pass shelter guard, Monk 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Small Fey",
+            "AC 16 · HP 11 (1d8+3) · Speed 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Rimewillow": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Rimewillow",
+              "group": "Uldra",
+              "publication": "Uldra winter-trail guide, Druid 1",
+              "local": {
+                "entry": "npc-b410446dfffa7420ee9efe66",
+                "version": "387e98cea2a2317972d84121"
+              }
+            }
+          }
+        ],
+        "Hook. Rimewillow knows where a fox has been using the hollow.": [
+          {
+            "start": 6,
+            "end": 16,
+            "target": {
+              "name": "Rimewillow",
+              "group": "Uldra",
+              "publication": "Uldra winter-trail guide, Druid 1",
+              "local": {
+                "entry": "npc-b410446dfffa7420ee9efe66",
+                "version": "387e98cea2a2317972d84121"
+              }
+            }
+          }
+        ],
+        "Original NPC · Stillrime": [
+          {
+            "start": 15,
+            "end": 24,
+            "target": {
+              "name": "Stillrime",
+              "group": "Uldra",
+              "publication": "Uldra pass shelter guard, Monk 1",
+              "local": {
+                "entry": "npc-b0bb4e9b8d68ac318c255854",
+                "version": "f0dcf728ebecdf2f18172364"
+              }
+            }
+          }
+        ],
+        "Hook. Stillrime can hear movement beyond the snowbank outside the shelter.": [
+          {
+            "start": 6,
+            "end": 15,
+            "target": {
+              "name": "Stillrime",
+              "group": "Uldra",
+              "publication": "Uldra pass shelter guard, Monk 1",
+              "local": {
+                "entry": "npc-b0bb4e9b8d68ac318c255854",
+                "version": "f0dcf728ebecdf2f18172364"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Uldra": true,
+      "uldra frosty touch": true,
+      "uldra cold resistance": true,
+      "uldra winter-trail guide": true,
+      "uldra pass shelter guard": true
+    },
+    "hash": "9dbde2dbc434c2fb47f671bc6e2b47503176758b30f0e51e29b07b62917525eb",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Frostburn (2004)",
+    "defaultVersionKey": "ef17c3277a32bc20095487d0",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

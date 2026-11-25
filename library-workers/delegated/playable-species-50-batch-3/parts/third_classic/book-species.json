@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Kenku",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium humanoid (kenku). Dexterity +2, Strength −2. Land speed 30 ft., low-light vision, and two natural claws that deal 1d3 each.",
+      "Great Ally raises the normal +2 aid another bonus to +3 when the kenku gives or receives aid on a skill check or attack. A kenku attacking a foe it flanks with an ally gains +4 instead of +2.",
+      "Mimicry reproduces familiar sounds, accents, and voices in known languages. Impersonating a particular voice requires Bluff opposed by Sense Motive for a listener who knows that voice.",
+      "Racial +2 to Hide and Move Silently. Starts with Common and Kenku. Bonus languages are Auran, Dwarven, Gnome, Goblin, and Halfling. Favored class Rogue. Level adjustment +0."
+    ]
+  },
+  {
+    "name": "Nycter",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small monstrous humanoid. Dexterity +4, Wisdom +2, Strength −2, Charisma −2. Apply +1 to AC and attacks, +4 to Hide, −4 to grapple, and three-quarters the carrying limits of a Medium character.",
+      "Land speed 20 ft. and fly 40 ft. with good maneuverability. With both darkvision and blindsense to 60 ft., a nycter can pinpoint an unseen creature in range, which still has total concealment if the nycter cannot see it.",
+      "Starts with 3d8 monstrous humanoid racial Hit Dice, BAB +3, base saves Fort +1, Ref +3, Will +3, and two feats. Racial skill points are six times (2 + Intelligence modifier, minimum 1). Racial class skills are Craft, Listen, Spot, and Survival.",
+      "Starts with Nycter. Bonus languages are Common, Draconic, Dwarven, Giant, Goblin, and Orc. Favored class Druid. Level adjustment +2."
+    ]
+  },
+  {
+    "name": "Synad",
+    "kind": "species",
+    "publication": "Complete Psionic (2006)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium aberration with darkvision 60 ft. and a 30-ft. land speed. Effects that only target humanoids cannot target a synad.",
+      "Naturally Psionic adds 3 power points at 1st level and grants no powers known. Threefold Mind gives +2 on Will saves.",
+      "Oracle once per day adds a +2 insight bonus to one initiative check, attack roll, or save. For an attack or save, the synad may wait to see the unmodified result.",
+      "Collective spends 1 power point as a free action for +2 on one Knowledge or Psicraft check.",
+      "Multitask once per day spends 1 power point for a swift action on the synad’s turn that can carry a purely mental action. It can manifest a power only if the regular actions that round do not involve manifesting any power. The power has its own point cost.",
+      "Starts with Common and Synad. Any non-secret tongue can be a bonus language. Favored class Any. There is no racial ability adjustment or level adjustment given in the entry."
+    ]
+  },
+  {
+    "name": "Tortle",
+    "kind": "species",
+    "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Human-sized upright tortoise folk. Before adjustments, Strength and Constitution must be at least 6 and the other scores at least 3. All start at 18 or below. Apply +1 Wisdom, +1 Constitution, and −2 Dexterity.",
+      "Base descending AC 3. Tortles usually go unarmored. The general body armor rules describe fitted armor as an option and use tortle leather AC 2 and fitted full plate AC 1 as examples before Dexterity or magic. An ordinary shield and Dexterity apply according to the general AC rules.",
+      "Withdrawing into the shell takes the round’s actions. Fully withdrawn, a tortle cannot move or attack and has AC 1 and +4 to all saving throws. It retains hearing and smell. Without external vision, gaze attacks and other effects that require the victim to see cannot affect it.",
+      "Infravision 60 ft., including underwater. Grants the swimming nonweapon proficiency, natural buoyancy even in mud and quicksand, and breath-holding for 10 turns.",
+      "Fighter 11, wizard 9, cleric 15, thief 9, and bard 9 are the level limits. Paladin, ranger, and druid are unavailable. Fighter/cleric is permitted. Wizard choices are mage, abjurer, conjurer, diviner, or water elementalist.",
+      "Apply −5 percentage points each to Move Silently and Hide in Shadows, and −20 points to Climb Walls. Bite deals 1d6 at speed factor 3. The two claws deal 1d4 each at speed factor 2. The two natural attack forms use separate weapon proficiency slots, and Strength modifies their attacks and damage.",
+      "Native language Tortle. At character creation the setting suggests giving Common as well as the native language."
+    ]
+  }
+]

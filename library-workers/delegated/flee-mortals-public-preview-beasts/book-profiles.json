@@ -1,0 +1,208 @@
+[
+  {
+    "name": "Swarm of Skitterlings",
+    "kind": "beast",
+    "edition": "2014 fifth edition compatible",
+    "publication": "Flee, Mortals! public preview",
+    "ruleset": "dnd-5e-2014",
+    "appearance": "A whirling flock of housecat-sized flying rodents, each with six clawed legs and a pair of leathery wings.",
+    "combat": {
+      "armorClass": 13,
+      "hitPoints": 36,
+      "hitDice": "8d8",
+      "challenge": "2",
+      "xp": 450,
+      "creatureType": "Swarm of Tiny Beasts",
+      "size": "Medium",
+      "role": "Soldier",
+      "habitats": [
+        "Desert",
+        "Forest",
+        "Underground"
+      ],
+      "speed": {
+        "walk": 30,
+        "fly": 60
+      },
+      "abilities": {
+        "Str": 10,
+        "Dex": 16,
+        "Con": 10,
+        "Int": 3,
+        "Wis": 12,
+        "Cha": 5
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passivePerception": 11,
+      "resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmunities": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "attacks": [
+        {
+          "name": "Claws",
+          "mode": "melee",
+          "hitBonus": 5,
+          "reach": 0,
+          "damage": [
+            {
+              "average": 14,
+              "dice": "4d6",
+              "type": "slashing"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "In Your Face",
+          "effectNote": "An enemy sharing the swarm’s space makes attacks against other targets with disadvantage. It takes 3 (1d6) slashing damage if it attacks a creature besides the swarm."
+        },
+        {
+          "name": "Swarm",
+          "effectNote": "The swarm and other creatures can share spaces. It fits through any opening that admits one Tiny skitterling. It cannot heal or gain temporary hit points."
+        }
+      ],
+      "Action": [
+        {
+          "name": "Claws",
+          "effectNote": "Reach 0 ft., one target. At 18 HP or fewer, the hit deals 7 (2d6) slashing damage. Any hit requires a DC 10 Constitution save. Failure blinds the target until the start of its next turn. Immunity to poison damage or the poisoned condition makes that save an automatic success."
+        }
+      ]
+    },
+    "notes": [
+      "MCDM, Flee, Mortals! public preview, pp. 5 and 9. Unaligned. Proficiency bonus +2. No languages.",
+      "The Goblins chapter places outlaw goblin encounters in deserts, forests, and underground. The preview gives no separate natural habitat for this beast.",
+      "Goblins train skitterlings to attack faces. Put the swarm in an enemy’s space to pressure that enemy into attacking it, then use Claws to hinder the target’s next attacks."
+    ]
+  },
+  {
+    "name": "War Spider",
+    "kind": "beast",
+    "edition": "2014 fifth edition compatible",
+    "publication": "Flee, Mortals! public preview",
+    "ruleset": "dnd-5e-2014",
+    "appearance": "An enormous eight-legged spider with blade-edged legs and a broad back that can carry a goblin archery platform.",
+    "combat": {
+      "armorClass": 15,
+      "armorClassNote": "Natural armor",
+      "hitPoints": 73,
+      "hitDice": "7d12 + 28",
+      "challenge": "3",
+      "xp": 700,
+      "creatureType": "Beast",
+      "size": "Huge",
+      "role": "Brute",
+      "habitats": [
+        "Desert",
+        "Forest",
+        "Underground"
+      ],
+      "speed": {
+        "walk": 40,
+        "climb": 40
+      },
+      "abilities": {
+        "Str": 18,
+        "Dex": 14,
+        "Con": 18,
+        "Int": 2,
+        "Wis": 11,
+        "Cha": 4
+      },
+      "senses": [
+        "blindsight 10 ft.",
+        "darkvision 60 ft."
+      ],
+      "passivePerception": 10,
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 5,
+          "damage": [
+            {
+              "average": 11,
+              "dice": "2d6 + 4",
+              "type": "piercing"
+            },
+            {
+              "average": 7,
+              "dice": "2d6",
+              "type": "poison"
+            }
+          ],
+          "damageCombination": "combined"
+        },
+        {
+          "name": "Bladed Leg",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 10,
+          "damage": [
+            {
+              "average": 11,
+              "dice": "2d6 + 4",
+              "type": "slashing"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Baby Burst",
+          "effectNote": "At death, release one Swarm of Insects (spiders). It acts on the War Spider’s initiative count."
+        },
+        {
+          "name": "Rider Launcher",
+          "effectNote": "An allied rider jumping off the spider can long jump 30 ft. or high jump 15 ft. from a standstill or running start. The rider has advantage on its first melee weapon attack that turn."
+        },
+        {
+          "name": "Spider Climb",
+          "effectNote": "The spider can climb difficult surfaces and traverse ceilings without a check."
+        },
+        {
+          "name": "Web Walker",
+          "effectNote": "Webbing does not restrict the spider’s movement."
+        },
+        {
+          "name": "Wide Back",
+          "effectNote": "Two Small or Tiny riders can share a space on the spider. It carries up to 18 Small or 64 Tiny riders."
+        }
+      ],
+      "Action": [
+        {
+          "name": "Web Spray",
+          "effectNote": "Each creature in a 15-ft. cube must make a DC 13 Dexterity save or be restrained. A creature can use an action to attempt a DC 13 Strength or Dexterity check, freeing itself or a creature within its reach on a success."
+        },
+        {
+          "name": "Trample (Recharge 6)",
+          "effectNote": "Move up to its speed through other creatures’ spaces. Make one Bladed Leg attack against each creature whose space the spider enters. A hit removes that creature’s reactions until the start of its next turn."
+        }
+      ]
+    },
+    "notes": [
+      "MCDM, Flee, Mortals! public preview, pp. 5 and 9. Unaligned. Proficiency bonus +2. No languages.",
+      "The Goblins chapter places outlaw goblin encounters in deserts, forests, and underground. The preview gives no separate natural habitat for this beast.",
+      "Goblins use the spider as a battle mount, with archers above and riders that jump into melee. Use Web Spray to hold a group in place or Trample to move through an enemy line."
+    ]
+  }
+]

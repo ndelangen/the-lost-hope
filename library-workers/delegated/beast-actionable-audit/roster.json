@@ -1,0 +1,13 @@
+{
+  "catalogCommit": "a1e4049f5a5ff9184c7b3a7402821841078571cf",
+  "kind": "beast",
+  "publicationRecords": 1207,
+  "canonicalBeastIds": 575,
+  "rulesAccounting": {
+    "existingRunnable": 253,
+    "consolidatedStaging": 828,
+    "standaloneStaging": 83,
+    "excludedSourceHolds": 43
+  },
+  "candidates": []
+}

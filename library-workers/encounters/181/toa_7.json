@@ -1,0 +1,569 @@
+[
+  {
+    "name": "Yellow Musk Zombie",
+    "statBlock": {
+      "name": "Yellow Musk Zombie",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 237,
+      "classification": "Medium undead, unaligned",
+      "ac": 9,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 8,
+      "description": "A creeper animates this corpse from within. The host moves just enough to guard the young vine until it can leave.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Yellow Musk Creeper",
+          "terms": [
+            "Yellow Musk Creeper"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#yellow%20musk%20creeper_toa"
+          }
+        }
+      ],
+      "sections": {
+        "Senses": "Blindsight 30 ft.",
+        "Condition immunities": "Charmed, exhaustion.",
+        "Traits": "Undead Fortitude. When damage reduces the zombie to 0 HP, it makes a Constitution saving throw with a DC equal to 5 + the damage taken. On a success it drops to 1 HP instead. Fire damage and critical hits bypass this save.",
+        "Actions": "Slam. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) bludgeoning damage.",
+        "Small variant": "A transformed Small humanoid becomes a Small undead with 27 HP (6d6 + 6). Keep the rest of the statistics.",
+        "Host and creeper": "An implanted bulb animates the corpse after 24 hours. The zombie protects the growing Yellow Musk Creeper and feeds it. After seven days the mature creeper breaks free and the host collapses. If the zombie is destroyed first, the immature creeper dies with it.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 237."
+      }
+    }
+  },
+  {
+    "name": "Yorb",
+    "statBlock": {
+      "name": "Yorb",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 108,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 13,
+      "hp": 49,
+      "hitDice": "9d6 + 18",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "Chief Yorb is a gold-skinned grung who rides a trained hadrosaurus at Nangnang’s shrine. He is wary of strangers and has yet to learn that his favored son is missing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 5,
+        "Survival": 2
+      },
+      "savingThrows": {
+        "Dexterity": 5
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Grung Elite Warrior",
+          "terms": [
+            "Grung Elite Warrior",
+            "Grung Elite Warriors"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#grung%20elite%20warrior_vgm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Grung Wildling",
+          "terms": [
+            "Grung Wildling"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#grung%20wildling_vgm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Grung",
+          "terms": [
+            "Grung",
+            "Grungs"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#grung_vgm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Hadrosaurus",
+          "terms": [
+            "Hadrosaurus"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://www.dndbeyond.com/monsters/17241-hadrosaurus"
+          }
+        }
+      ],
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. Yorb breathes air and water.\nPoisonous Skin. A creature that grapples Yorb or touches his skin makes a DC 12 Constitution save or is poisoned for 1 minute. Once contact has ended, it can repeat the save at the end of each of its turns, ending the poison on a success.\nStanding Leap. Yorb can long jump up to 25 ft. and high jump up to 15 ft. without a running start.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. The target makes a DC 12 Constitution save or takes an extra 5 (2d4) poison damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target makes a DC 12 Constitution save or takes an extra 5 (2d4) poison damage.\nMesmerizing Chirr (recharge 6). Each humanoid or beast within 15 ft. that can hear Yorb makes a DC 12 Wisdom save or is stunned until the end of Yorb’s next turn. Grungs are immune.",
+        "Optional gold grung poison": "If using the optional Volo’s Guide to Monsters poison variant, a creature poisoned by Yorb is also charmed and can speak Grung while poisoned. The poison loses potency 1 minute after removal from a grung or after the grung dies.",
+        "Nangnang’s shrine": "Four orange Grung Elite Warriors stay with Yorb and his Hadrosaurus in the flooded courtyard. A red Grung Wildling and seven green Grungs hold the roof. If intruders fight back, 1d4 more green grungs arrive at the end of each round, up to twenty. If losing, Yorb and his elite guards retreat into the shrine and bar the doors. Forcing those doors takes a successful DC 25 Strength check. He will talk if the characters rescue his son and can communicate with him.",
+        "Printed source": "Tomb of Annihilation, ch. 3, pp. 108–109 (area 18A), and appendix D, p. 223 (Grung Elite Warrior). The optional poison rule is from Volo’s Guide to Monsters, p. 156."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Priest",
+    "statBlock": {
+      "name": "Yuan-ti Priest",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 118,
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "Arakiti, Kultha, and Nyss are serpent-bodied priests who serve Fenthaza and consult Dendar at the oracle pool.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Yuan-ti Malison (Type 3)",
+          "terms": [
+            "Yuan-ti Malison (Type 3)"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%203)_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Fenthaza",
+          "terms": [
+            "Fenthaza"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#fenthaza_toa"
+          }
+        }
+      ],
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, and Draconic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Shapechanger. As an action, the priest changes into a Medium snake or returns to its true form. Its statistics stay the same and its equipment stays as it was. Death does not change its form.\nMagic Resistance. The priest has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting (yuan-ti form only). Charisma, save DC 13 and +5 to hit with spell attacks. No material components. At will: Animal Friendship (snakes only), Eldritch Blast (two beams, 1d10 + 3 force damage for each hit), Minor Illusion, Poison Spray. Three times per day: Suggestion.",
+        "Actions": "Multiattack (yuan-ti form only). Make two attacks with Scimitar or Constrict. Use Constrict at most once. The priest carries no longbow.\nBite (snake form only). Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.\nConstrict. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 13). The target is restrained while grappled this way, and the priest cannot constrict anyone else.\nScimitar (yuan-ti form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.",
+        "Oracle pool": "Entering the sludge or starting a turn in it deals 5 (1d10) psychic damage. Staring into it for more than a few seconds produces a vision of Dendar swallowing the viewer. At the end of the vision, the viewer makes a DC 15 Wisdom save. Failure deals 5 (1d10) psychic damage and causes a random form of long-term madness.",
+        "Printed source": "Tomb of Annihilation, ch. 4, p. 118 (area 7), modifying the Yuan-ti Malison (Type 3) in Monster Manual (2014), p. 309."
+      }
+    }
+  },
+  {
+    "name": "Zalkoré",
+    "statBlock": {
+      "name": "Zalkoré",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 79,
+      "classification": "Medium monstrosity (medusa), lawful evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 14,
+      "description": "Omu’s exiled queen dwells in Nangalore. Feathered veils hide her face, and her tinctures let her see her long-dead consort, Thiru-Taya.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Medusa",
+          "terms": [
+            "Medusa"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#medusa_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Asharra",
+          "terms": [
+            "Asharra"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#asharra_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Eblis",
+          "terms": [
+            "Eblis"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#eblis_toa"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Traits": "Petrifying Gaze. When a creature that can see Zalkoré’s eyes starts its turn within 30 ft. of her, she can call for a DC 14 Constitution save if she can see it and is not incapacitated. On a failure by 5 or more, the creature is petrified immediately. Any smaller failure leaves it restrained. A creature restrained this way repeats the save at the end of its next turn. Success ends the effect. On a failure, the creature is petrified. Greater Restoration or similar magic ends the petrification.\nA creature that is not surprised can avert its eyes at the start of its turn. It then cannot see Zalkoré until the start of its next turn, when it can avert its eyes again. Looking at her sooner forces an immediate save. If she sees her reflection on a polished surface within 30 ft. in bright light, her own gaze affects her.",
+        "Actions": "Multiattack. Make one Snake Hair and two Shortsword attacks, or make two Longbow attacks.\nSnake Hair. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. A hit deals 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.",
+        "Nangalore": "Zalkoré can describe Omu’s location and the yuan-ti interest in the city. She wants a gem, piece of jewelry, or art worth at least 500 gp for her Black Orchid, which Asharra needs for a ritual. She also accepts a character with Charisma 16 or higher as a slave in trade. Disturbing Thiru-Taya’s ashes or statue, repeatedly disparaging him, pulling the veil away, taking the orchid, or bringing out a mirror can turn the encounter violent.",
+        "Poisoned hospitality": "Zalkoré can ring for an Eblis to bring tainted fruit and wine. Spotting the contamination requires proficiency in Medicine and a successful DC 13 Wisdom (Medicine) check. A creature that eats or drinks makes a DC 15 Constitution save or is poisoned for 1 hour or until it drinks 2 quarts of water. Zalkoré has built up a tolerance to this dose.",
+        "Thiru-Taya": "At 63 HP or fewer, Zalkoré calls on Thiru-Taya’s apparition. It cannot be harmed, turned, controlled, or affected by spells. It remains until she dies or returns to full HP. Once per turn, when a creature within 15 ft. of her damages her, the apparition automatically deals 15 (2d8 + 6) force damage to that attacker with its spear.",
+        "Dreaming tincture": "The lair holds 2d6 single-dose vials worth 10 gp each in Port Nyanzaru. A drinker makes a DC 15 Constitution save, succeeding automatically if immune to the poisoned condition. Failure causes convincing sensory hallucinations for 1d4 + 4 hours. Lesser Restoration or similar magic ends them early.",
+        "Printed source": "Tomb of Annihilation, ch. 2, pp. 79–80 (Nangalore, area 8), using the Medusa from Monster Manual (2014), p. 214."
+      }
+    }
+  },
+  {
+    "name": "Zaroum Al-Saryak",
+    "statBlock": {
+      "name": "Zaroum Al-Saryak",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 67,
+      "classification": "Medium humanoid (human), lawful evil",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "The captain of the Emerald Eye wears a gem-studded coat and keeps a magical gem in the socket of his lost left eye.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 4,
+        "Deception": 4
+      },
+      "savingThrows": {
+        "Strength": 4,
+        "Dexterity": 5,
+        "Wisdom": 2
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Bandit Captain",
+          "terms": [
+            "Bandit Captain"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bandit%20captain_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Liara Portyr",
+          "terms": [
+            "Liara Portyr"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#liara%20portyr_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Berserker",
+          "terms": [
+            "Berserker"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#berserker_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Bandit",
+          "terms": [
+            "Bandits"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bandit_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Thug",
+          "terms": [
+            "Thugs"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#thug_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Tribal Warrior",
+          "terms": [
+            "Tribal Warriors"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#tribal%20warrior_mm"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Studded Leather Armor.",
+        "Languages": "Any two languages.",
+        "Actions": "Multiattack. Make two melee Scimitar attacks and one melee Dagger attack, or make two ranged Dagger attacks.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
+        "Reactions": "Parry. Add 2 to AC against one melee attack that would hit. Zaroum must see the attacker and hold a melee weapon.",
+        "Emerald Eye": "Only Zaroum can use his eye gem to see ghostly paths to treasure. He carries a Sending Stone paired with Liara Portyr’s. His jeweled coat is worth 750 gp and his jeweled Scimitar 1,250 gp. Voltan, a Berserker, is his first mate. The crew includes twelve Bandits, two Thugs, and five Tribal Warriors.",
+        "Printed source": "Tomb of Annihilation, ch. 2, p. 67 (Jahaka Anchorage), using the Bandit Captain from Monster Manual (2014), p. 344."
+      }
+    }
+  },
+  {
+    "name": "Zhanthi",
+    "statBlock": {
+      "name": "Zhanthi",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 27,
+      "classification": "Medium humanoid (human), neutral good",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "description": "Zhanthi is a Port Nyanzaru merchant prince with royal ancestry. She trades in gems, jewelry, Chultan cloth, and light armor.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Persuasion": 5
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Noble",
+          "terms": [
+            "Noble"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#noble_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Shago",
+          "terms": [
+            "Shago"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#shago_toa"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Breastplate.",
+        "Languages": "Any two languages.",
+        "Actions": "Rapier. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) piercing damage.",
+        "Reactions": "Parry. Add 2 to AC against one melee attack that would hit. Zhanthi must see the attacker and hold a melee weapon.",
+        "Port Nyanzaru": "Zhanthi belongs to the Ytepka Society and cultivated Zhentarim contacts to keep watch on that group. Her son Shago guides travelers from Fort Beluarian and sends her reports about the fort. Her goods include nonmagical Leather Armor, Studded Leather Armor, and Hide Armor.",
+        "Printed source": "Tomb of Annihilation, ch. 1, p. 27 (Merchant Princes), using the Noble from Monster Manual (2014), p. 348."
+      }
+    }
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Elephant",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "appearance": "A massive grey elephant with broad ears, long ivory tusks and a trunk that curls at the tip.",
+    "habitats": [
+      "Grassland"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 6,
+      "Dex": -1,
+      "Con": 3,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative -1 (9). Proficiency bonus +2. Passive Perception 10. No listed skill proficiencies or special senses. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, p. 353, published 2025. https://www.dndbeyond.com/monsters/4775814-elephant",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee attack roll +8, reach 5 ft. Hit for 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved at least 20 ft. straight toward it immediately before the hit, the target falls Prone.",
+      "Bonus Actions": "Trample. Choose one Prone creature within 5 ft. It makes a DC 16 Dexterity saving throw. Failure deals 17 (2d10 + 6) Bludgeoning damage. Success halves the damage."
+    }
+  },
+  {
+    "name": "Elk",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 11,
+    "hitDice": "2d10",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "appearance": "A tawny bull elk with long legs, a dark shaggy neck and a broad set of branching antlers.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 3,
+      "Dex": 0,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency bonus +2. Perception +2. Darkvision 60 ft. Passive Perception 12. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, p. 353, published 2025. https://www.dndbeyond.com/monsters/4775815-elk",
+      "Actions": "Ram. Melee attack roll +5, reach 5 ft. Hit for 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved at least 20 ft. straight toward it immediately before the hit, the target also takes 3 (1d6) Bludgeoning damage and falls Prone."
+    }
+  },
+  {
+    "name": "Frog",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "appearance": "A squat olive-green frog with mottled skin, gold eyes and folded hind legs.",
+    "habitats": [
+      "Forest",
+      "Swamp"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": -5,
+      "Dex": 1,
+      "Con": -1,
+      "Int": -5,
+      "Wis": -1,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Perception +1, Stealth +3. Darkvision 30 ft. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, p. 354, published 2025. https://www.dndbeyond.com/monsters/4775816-frog",
+      "Traits": "Amphibious. The frog can breathe in air and underwater.\nStanding Leap. Its Long Jump is up to 10 ft. and its High Jump is up to 5 ft. A running start is optional.",
+      "Actions": "Bite. Melee attack roll +3, reach 5 ft. Hit for 1 Piercing damage."
+    }
+  },
+  {
+    "name": "Giant Ape",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 168,
+    "hitDice": "16d12 + 64",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "appearance": "A huge gorilla-like ape with charcoal fur, a broad chest and muscular knuckle-walking arms.",
+    "habitats": [
+      "Forest"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 6,
+      "Dex": 2,
+      "Con": 4,
+      "Int": -3,
+      "Wis": 1,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +5 (15). Proficiency bonus +3. Athletics +9, Perception +4, Survival +4. Passive Perception 14. No listed special senses. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, p. 354, published 2025. https://www.dndbeyond.com/monsters/5195010-giant-ape",
+      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee attack roll +9, reach 10 ft. Hit for 22 (3d10 + 6) Bludgeoning damage.\nBoulder Toss (Recharge 6). Choose a visible point within 90 ft. Each creature in a 5-ft.-radius Sphere centered there makes a DC 17 Dexterity saving throw. On a failure, deal 24 (7d6) Bludgeoning damage. A Large or smaller creature that fails also falls Prone. On a success, deal half damage only.",
+      "Bonus Actions": "Leap. Spend 10 ft. of movement to jump up to 30 ft.",
+      "At the table": "Once Boulder Toss is used, it becomes available again on a 6 on 1d6 at the start of a turn, or after a Short or Long Rest."
+    }
+  },
+  {
+    "name": "Giant Badger",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 15,
+    "hitDice": "2d8 + 6",
+    "speed": "30 ft., burrow 10 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "appearance": "A stocky shaggy badger with black-and-white facial stripes, broad paws and long digging claws.",
+    "habitats": [
+      "Forest"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 1,
+      "Dex": 0,
+      "Con": 3,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency bonus +2. Perception +3. Darkvision 60 ft. Passive Perception 13. Resistance to Poison damage. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, p. 354, published 2025. https://www.dndbeyond.com/monsters/4775817-giant-badger",
+      "Actions": "Bite. Melee attack roll +3, reach 5 ft. Hit for 6 (2d4 + 1) Piercing damage."
+    }
+  }
+]

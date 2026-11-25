@@ -1,0 +1,24 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Madcap",
+    "publication": "Baldur's Gate: Descent Into Avernus",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/madcap/madcap-published-ddb.jpg",
+    "artist": "Published Madcap illustration · D&D Beyond",
+    "kind": "illustration",
+    "sha256": "b583fc18d4f7b48bbe0a814f631878a6a515bef5d6fcc053f563daefd2487d49",
+    "reference": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6684/669/1000/1000/637000133003177034.jpeg"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Madcap",
+    "publication": "Baldur's Gate: Descent Into Avernus",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/madcap/redcap-richard-whitters.webp",
+    "artist": "Related Redcap art by Richard Whitters · Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "7693784f10e8c6c6d2654a00d8249166c4e89f3eece13e65eb39438767b4f2b9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Redcap.webp"
+  }
+]

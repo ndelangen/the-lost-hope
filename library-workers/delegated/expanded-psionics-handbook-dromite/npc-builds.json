@@ -1,0 +1,117 @@
+{
+  "builds": [
+    {
+      "id": "dromite-ice-locksmith-35e",
+      "title": "Ice Caste Dromite locksmith, Expert 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1/2. ECL 2.",
+      "size": "Small",
+      "type": "Monstrous Humanoid (Psionic)",
+      "ac": 18,
+      "hp": 5,
+      "hitDice": "1d6+1",
+      "initiative": 2,
+      "speed": "20 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 8,
+        "CHA": 12
+      },
+      "skills": [
+        "Craft (locksmithing) +5",
+        "Disable Device +8",
+        "Knowledge (architecture and engineering) +5",
+        "Listen +3",
+        "Open Lock +6",
+        "Search +5",
+        "Spot +5"
+      ],
+      "senses": "Darkvision 60 ft., scent",
+      "languages": "Common, Dwarven",
+      "traits": [
+        "AC 18 includes leather armor +2, natural armor +3, Dexterity +2, and size +1. Touch 13, flat-footed 16. BAB +0, grapple −5. Fortitude +1, Reflex +2, Will +1.",
+        "Cold resistance 5 and bonus Blind-Fight. Skill Focus (Disable Device) adds +3. Ordinary thieves’ tools. The Expert can disable ordinary devices and search for tampering.",
+        "Scent 30 ft. normally, 60 ft. upwind or 15 ft. downwind. Move action to find direction and pinpoint within 5 ft. Strong or overpowering scents extend detection.",
+        "Naturally Psionic grants 1 bonus power point. Racial Energy Ray has its own use and consumes none of that point."
+      ],
+      "actions": [
+        "Small dagger +0 melee, reach 5 ft., 1d3−1 piercing or slashing, minimum 1, critical 19–20/×2.",
+        "Small light crossbow +3 ranged, 80-ft. range increment, 1d6 piercing, critical 19–20/×2. Reload as a move action.",
+        "Cold Energy Ray once per day. Standard action, +3 ranged touch at up to 25 ft., 1d6+1 cold, no save, power resistance applies, manifester level 1."
+      ],
+      "tactics": "Inspect the jammed floodgate before turning the lock. Ask the party to hold the upstream walkway. If interrupted, move behind the ratchet housing and use the crossbow from cover."
+    },
+    {
+      "id": "dromite-fire-caravan-outrider-35e",
+      "title": "Fire Caste Dromite caravan outrider, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 2.",
+      "size": "Small",
+      "type": "Monstrous Humanoid (Psionic)",
+      "ac": 19,
+      "hp": 6,
+      "hitDice": "1d10+1",
+      "initiative": 5,
+      "speed": "20 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 12,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 8,
+        "CHA": 12
+      },
+      "skills": [
+        "Climb +3",
+        "Handle Animal +5",
+        "Spot +1"
+      ],
+      "senses": "Darkvision 60 ft., scent",
+      "languages": "Common",
+      "traits": [
+        "AC 19 includes studded leather +3, light wooden shield +1, natural armor +3, Dexterity +1, and size +1. Touch 12, flat-footed 18. BAB +1, grapple −2. Fortitude +3, Reflex +1, Will −1.",
+        "Fire resistance 5. Racial Blind-Fight. Improved Initiative and Fighter bonus Weapon Focus (shortspear).",
+        "Scent 30 ft. normally, 60 ft. upwind or 15 ft. downwind. Move action to find direction and pinpoint within 5 ft. Strong or overpowering scents extend detection.",
+        "Naturally Psionic grants 1 bonus power point. Racial Energy Ray has its own use and consumes none of that point."
+      ],
+      "actions": [
+        "Small shortspear +4 melee, reach 5 ft., or +4 thrown, 20-ft. range increment. Hit 1d4+1 piercing, critical ×2.",
+        "Fire Energy Ray once per day. Standard action, +3 ranged touch at up to 25 ft., 1d6+1 fire, no save, power resistance applies, manifester level 1."
+      ],
+      "tactics": "Get the loaded beetles behind a stone bend and stand between the animals and the hazard. Keep the shortspear ready and save the ray for a target outside spear reach."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dromite",
+      "size": "Small",
+      "edition": "3.5 edition",
+      "speciesPublication": "Expanded Psionics Handbook (2004) · Ice Caste",
+      "name": "Sura Reedcord",
+      "build": "dromite-ice-locksmith-35e",
+      "role": "Ice Caste locksmith and floodgate witness.",
+      "motive": "Reopen the jammed floodgate before water backs up into an occupied alley.",
+      "hook": "Sura can identify which release pin was replaced if the party keeps the walkway clear."
+    },
+    {
+      "species": "Dromite",
+      "size": "Small",
+      "edition": "3.5 edition",
+      "speciesPublication": "Expanded Psionics Handbook (2004) · Fire Caste",
+      "name": "Jori Hearththread",
+      "build": "dromite-fire-caravan-outrider-35e",
+      "role": "Fire Caste beetle caravan outrider.",
+      "motive": "Bring three spooked pack beetles through a blocked tunnel with their loads intact.",
+      "hook": "Jori can get the caravan moving if the party finds a clear lane and keeps sudden noises down."
+    }
+  ]
+}

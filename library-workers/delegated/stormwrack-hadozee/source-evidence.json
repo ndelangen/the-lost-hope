@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Hadozee",
+    "kind": "species",
+    "publication": "Stormwrack (2005)",
+    "edition": "3.5 edition",
+    "book": "Stormwrack",
+    "authors": [
+      "Richard Baker",
+      "Joseph D. Carriker Jr.",
+      "Jennifer Clarke Wilkes"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2005",
+    "productCode": "620-17867000-001-EN",
+    "isbn": "0-7869-3689-4",
+    "printedPages": {
+      "playableSpecies": [
+        41,
+        42,
+        43
+      ],
+      "racialTraits": 41,
+      "illustration": 42,
+      "monsterExamples": [
+        151,
+        152
+      ]
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "53d29c7c6ed20da69c3ddd8474c64c88a59b572834e0bfc56900cf422e9d2511",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Jim Nelson, Hadozee ranger, p. 42.",
+    "sourceDistinctions": [
+      "Page 41 gives 40-ft. gliding with average maneuverability. Pages 151–152 call it poor. This batch uses the primary player entry for both original NPC builds.",
+      "The p. 152 character summary lists Dodge and Profession (sailor) as a class skill. Page 41 omits them. Renn selects Dodge as a normal first-level feat.",
+      "Wizards’ collected archive has no Stormwrack errata file. The official 3.5 FAQ has no Hadozee entry. The 5e Spelljammer profile has separate rules."
+    ],
+    "entryId": "species-155f6ee787e625099592f150",
+    "versionKey": "1bee294d79af7ed34797d712",
+    "slug": "hadozee",
+    "portraitSelection": "generated",
+    "portraitForm": "Renn Farwake, an original Hadozee Rogue",
+    "npcExamples": [
+      "Renn Farwake",
+      "Daro Brightkeel"
+    ]
+  }
+]

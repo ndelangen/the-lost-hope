@@ -1,0 +1,1486 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index 0839752..6b9a6dd 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -2627,6 +2627,1481 @@
+       "adjustment": "Human"
+     }
+   },
++  {
++    "name": "Ape",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 12,
++    "hp": 25,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "otherStatistics": "Fixed Perception 13 and Stealth 12. Resistant to stunned. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad-shouldered ape with long forearms, dark charcoal-brown fur, a gray mantle, and a bare leathery face.",
++    "habitats": ["Forest", "Woodland canopy"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 350. XP is from the CR table on p. 229. ",
++      "Ability modifiers": "STR +5, DEX +2, CON +2, INT −2, WIS +1, CHA −2. Use the printed modifiers and fixed Perception and Stealth.",
++      "Traits": "Condition resistance. The ape rolls checks and saves to avoid or end the stunned condition with advantage under the v0.2 resistance rule (p. 232).",
++      "Actions": "Multiattack. Make two Fist attacks. If both hit the same Medium or smaller creature, it is grappled (escape DC 13). The ape can maintain only one grapple.\nFist. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 5 (1d4 + 3) bludgeoning damage on a hit.\nRock. Ranged weapon attack, +5 to hit, range 25/50 ft., one target. Deal 7 (1d8 + 3) bludgeoning damage on a hit."
++    }
++  },
++  {
++    "name": "Ape",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 19,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "otherStatistics": "Athletics +5 and Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad-shouldered ape with long forearms, dark charcoal-brown fur, a gray mantle, and a bare leathery face.",
++    "habitats": ["Forest", "Woodland canopy"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 317. https://www.dndbeyond.com/monsters/16788-ape",
++      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 6 (1d6 + 3) bludgeoning damage on a hit.\nRock. Ranged weapon attack, +5 to hit, range 25/50 ft., one target. Deal 6 (1d6 + 3) bludgeoning damage on a hit."
++    },
++    "hitDice": "3d8 + 6",
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    }
++  },
++  {
++    "name": "Axe Beak",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 11,
++    "hp": 13,
++    "speed": "50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Fixed Perception 12 and Stealth 11. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tall, flightless bird with blue-gray feathers, powerful running legs, and a deep wedge-shaped beak.",
++    "habitats": ["Grassland", "Hills"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 351. XP is from the CR table on p. 229. ",
++      "Ability modifiers": "STR +2, DEX +1, CON +1, INT −4, WIS +0, CHA −3. Use the printed modifiers and fixed Perception and Stealth.",
++      "Actions": "Beak. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Deal 6 (1d8 + 2) slashing damage on a hit.",
++      "Bonus actions": "Evasive. Choose to Disengage or Dodge as a bonus action."
++    }
++  },
++  {
++    "name": "Axe Beak",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "speed": "50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Passive Perception 10. No listed skills, languages, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tall, flightless bird with blue-gray feathers, powerful running legs, and a deep wedge-shaped beak.",
++    "habitats": ["Grassland", "Hills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 317. https://www.dndbeyond.com/monsters/16793-axe-beak",
++      "Actions": "Beak. Melee weapon attack, +4 to hit, reach 5 ft., one target. Deal 6 (1d8 + 2) slashing damage on a hit."
++    },
++    "hitDice": "3d10 + 3",
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    }
++  },
++  {
++    "name": "Bat",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "5 ft., fly 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 11 and Stealth 13. Keensense 60 ft. Vulnerable to deafened and resistant to blinded. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tiny brown bat with broad ears, a short muzzle, and thin membranous wings stretched across elongated fingers.",
++    "habitats": ["Caves", "Forest"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 352. XP is from the CR table on p. 229. ",
++      "Ability modifiers": "STR −4, DEX +1, CON −1, INT −4, WIS +1, CHA −3. Use the printed modifiers and fixed Perception and Stealth.",
++      "Traits": "Echolocation. The bat loses the use of keensense while deafened. Keensense lets it perceive surroundings using a sense other than sight (p. 127).\nHeightened Hearing. When perceiving by hearing, use Perception 16.\nCondition resistance and vulnerability. Use advantage on checks and saves to avoid or end blinded and disadvantage on checks and saves to avoid or end deafened (p. 232).",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Deal 3 (1d4 + 1) piercing damage on a hit."
++    }
++  },
++  {
++    "name": "Baboon",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Small Beast",
++    "ac": 11,
++    "hp": 10,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Perception 11, Stealth 11. Darkvision 30 ft. No languages.",
++    "appearance": "An olive-brown monkey with a long doglike muzzle, strong forearms and an arched tail.",
++    "habitats": ["Forest", "Grassland", "Hill"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 351. XP uses the printed CR table on p. 229. ",
++      "Ability modifiers": "STR -1, DEX +1, CON +0, INT -3, WIS +1, CHA -2.",
++      "Traits": "Pack Tactics. Gain advantage on attacks against a creature if a non-incapacitated ally of the baboon is within 5 ft. of the target.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one creature. A hit deals 3 (1d4 + 1) piercing damage.",
++      "Reactions": "Startling Display. When a visible creature within 5 ft. attacks the baboon, the baboon can use its reaction to bare its teeth, puff up or bark. The attacker makes a DC 11 Wisdom save. On a failure, that attack roll has disadvantage."
++    }
++  },
++  {
++    "name": "Baboon",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
++    "appearance": "An olive-brown monkey with a long doglike muzzle, strong forearms and an arched tail.",
++    "habitats": ["Forest", "Grassland", "Hill"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 318. Also printed in SRD 5.1, p. 367. ",
++      "Traits": "Pack Tactics. Gain advantage on an attack if a non-incapacitated ally of the baboon is within 5 ft. of that attack’s target.",
++      "Actions": "Bite. Melee weapon attack, +1 to hit, 5-ft. reach, one target. A hit deals 1 (1d4 − 1) piercing damage."
++    },
++    "hitDice": "1d6",
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    }
++  },
++  {
++    "name": "Badger",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 10,
++    "hp": 9,
++    "speed": "20 ft., burrow 10 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Perception 11, Stealth 10. Darkvision 30 ft. No languages.",
++    "appearance": "A low, stocky gray mammal with black face stripes, a broad nose and long digging claws.",
++    "habitats": ["Forest", "Grassland", "Burrow"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 351. XP uses the printed CR table on p. 229. ",
++      "Ability modifiers": "STR -3, DEX +0, CON +1, INT -4, WIS +1, CHA -3.",
++      "Traits": "Grumpy. In combat, attack the creature that last damaged the badger if it is within attack range or the badger can reach it without provoking opportunity attacks. Otherwise, attack the closest hostile creature.\nHeightened Smell. Use Perception 16 for sensing by smell.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one creature. A hit deals 2 (1d4) piercing damage."
++    }
++  },
++  {
++    "name": "Badger",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 10,
++    "hp": 3,
++    "speed": "20 ft., burrow 5 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Darkvision 30 ft. Passive Perception 11. No listed skills or languages.",
++    "appearance": "A low, stocky gray mammal with black face stripes, a broad nose and long digging claws.",
++    "habitats": ["Forest", "Grassland", "Burrow"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 318. Also printed in SRD 5.1, p. 367. ",
++      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks when using smell.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one target. A hit deals 1 piercing damage."
++    },
++    "hitDice": "1d4 + 1",
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    }
++  },
++  {
++    "name": "Crab",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 9,
++    "speed": "20 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Natural armor. Perception 9, Stealth 12. Keensense 30 ft. No languages. Vulnerable to bludgeoning. Resistant to slashing.",
++    "appearance": "A small shore crab with a broad mottled olive shell, two sturdy pincers and eight pointed walking legs.",
++    "habitats": ["Coastal", "Rocky shore", "Estuary", "Shallow water"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 354–355. XP uses the printed CR table on p. 229. ",
++      "Ability modifiers": "STR -4, DEX +0, CON +0, INT -5, WIS -1, CHA -4.",
++      "Traits": "Amphibious. The crab can breathe in water and in air.",
++      "Actions": "Claw. Melee weapon attack, +2 to hit, 5-ft. reach, one creature. On a hit, deal 2 (1d4) bludgeoning damage and attach to the target. While attached the crab cannot attack. The target takes 2 (1d4) bludgeoning damage at the start of each of the crab’s turns. The crab travels with the target without spending its movement.",
++      "At the table": "The crab can detach by using 5 ft. of its movement on its turn. Any creature, including the target, can use an action to detach it. The rule provides no contest, save or attack roll for detachment."
++    }
++  },
++  {
++    "name": "Boar",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 11,
++    "hp": 15,
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "otherStatistics": "Natural armor. Perception 9. Stealth 10. No listed special senses or languages.",
++    "appearance": "A thickset wild boar with a short tail, coarse dark bristles and a pair of upturned pale tusks.",
++    "habitats": ["Woodlands", "Grasslands", "Hills"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 353–354.  from Experience Points by Challenge Rating, p. 229.",
++      "Ability modifiers": "STR +2 · DEX +0 · CON +1 · INT -4 · WIS -1 · CHA -3",
++      "Traits": "Charge. A Tusk hit adds 3 (1d6) slashing damage if the boar moved at least 20 ft. straight toward that target earlier in the turn. A creature hit this way must make a DC 12 STR save or fall prone.\nRelentless. If 4 damage or less would drop the boar to 0 HP, it drops to 1 HP instead. Recharges after a short or long rest.",
++      "Actions": "Tusk. Melee weapon attack, +4 to hit against one target within 5 ft. On a hit, deal 5 (1d6 + 2) slashing damage."
++    }
++  },
++  {
++    "name": "Boar",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 9. No listed skill proficiencies, special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A thickset wild boar with a short tail, coarse dark bristles and a pair of upturned pale tusks.",
++    "habitats": ["Woodlands", "Grasslands", "Hills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 319. Official 2014 rules listing: https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-b#Boar",
++      "Traits": "Charge. A Tusk hit adds 3 (1d6) slashing damage if the boar moved at least 20 ft. straight toward that target earlier in the turn. A creature hit this way must make a DC 11 Strength save or fall prone.\nRelentless. If 7 damage or less would drop the boar to 0 HP, it drops to 1 HP instead. Recharges after a short or long rest.",
++      "Actions": "Tusk. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 4 (1d6 + 1) slashing damage."
++    }
++  },
++  {
++    "name": "Deer",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 13,
++    "hp": 8,
++    "speed": "50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "otherStatistics": "Perception 12. Stealth 13. Vulnerable to frightened. No listed special senses or languages.",
++    "appearance": "A slender red deer with a russet coat, pale throat, cloven hooves and branching antlers.",
++    "habitats": ["Forest edges", "Woodlands", "Meadows"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 355–356.  from Experience Points by Challenge Rating, p. 229.",
++      "Ability modifiers": "STR +0 · DEX +3 · CON +0 · INT -4 · WIS +2 · CHA -3",
++      "Actions": "Kick. Melee weapon attack, +2 to hit against one creature within 5 ft. On a hit, deal 2 (1d4) bludgeoning damage. A target of Large size or smaller must also make a DC 10 STR save or fall prone.",
++      "Bonus Actions": "Skittish. Take the Dash or Disengage action as a bonus action.",
++      "At the table": "Vulnerability to frightened gives the deer disadvantage on checks and saves to avoid or end that condition (p. 232)."
++    }
++  },
++  {
++    "name": "Eagle",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Small Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "otherStatistics": "Perception 14, or 19 when relying on sight. Stealth 11. Vulnerable to blinded. No listed special senses or languages.",
++    "appearance": "A sea eagle with broad wings, pale head and tail, brown body plumage and a hooked beak over curved talons.",
++    "habitats": ["Coasts", "Beaches", "Coastal waters"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 356.  from Experience Points by Challenge Rating, p. 229.",
++      "Ability modifiers": "STR -2 · DEX +1 · CON +0 · INT -4 · WIS +2 · CHA -2",
++      "Traits": "Heightened Sight. Use Perception 19 for visual detection.\nSeabird. The eagle can swim up to 30 ft. on its turn. It must begin and end its movement aloft or on a solid surface. If it ends its turn swimming, make a DC 10 CON save. Failure means it immediately sinks and begins to suffocate. While suffocating, it needs a DC 8 STR check to take flight from the substance where it is sinking.",
++      "Actions": "Talons. Melee weapon attack, +3 to hit against one creature within 5 ft. On a hit, deal 3 (1d4 + 1) slashing damage.",
++      "At the table": "The 30-ft. swim belongs to Seabird’s specific movement rule. Vulnerability to blinded gives disadvantage on checks and saves to avoid or end that condition (p. 232). Suffocation rules are on p. 132. Seabird gives no action cost for the check to take flight."
++    }
++  },
++  {
++    "name": "Elephant",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 12,
++    "hp": 105,
++    "speed": "40 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "otherStatistics": "Natural armor. Perception 12. Stealth 9. Resistant to prone. No listed special senses or languages.",
++    "appearance": "A heavy grey elephant with broad ears, two ivory tusks and a long, muscular trunk.",
++    "habitats": ["Savannas", "Grasslands", "Open woodlands"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 356.  from Experience Points by Challenge Rating, p. 229.",
++      "Ability modifiers": "STR +5 · DEX -1 · CON +3 · INT -4 · WIS +0 · CHA -2",
++      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore on the same turn. It makes a DC 15 STR save or falls prone. The elephant can make one Stomp attack against the prone target as a bonus action.",
++      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +7 to hit against one target within 5 ft. On a hit, deal 16 (2d10 + 5) piercing damage.\nStomp. Melee weapon attack, +7 to hit against one prone creature within 5 ft. On a hit, deal 14 (2d8 + 5) bludgeoning damage.",
++      "Bonus Actions": "Trunk Grab. Choose one Large or smaller creature within 10 ft. It makes a DC 15 STR save or is grappled (escape DC 15). The elephant can hold one creature at a time.",
++      "At the table": "Resistance to prone gives the elephant advantage on checks and saves to avoid or end that condition (p. 232). Choose either Trunk Grab or the available charge follow-up for the turn’s bonus action."
++    }
++  },
++  {
++    "name": "Camel",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 10,
++    "hp": 10,
++    "speed": "50 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Fixed Perception 9 and Stealth 10. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sandy-coated dromedary with one shaggy hump, a long arched neck, a split upper lip, and broad two-toed pads.",
++    "habitats": ["Desert", "Dry steppe"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 354. XP follows the CR table on page 229. ",
++      "Ability modifiers": "STR +2, DEX +0, CON +2, INT −4, WIS −1, CHA −3. Use these modifiers and the fixed Black Flag Perception and Stealth values.",
++      "Traits": "Camel Resilience. The camel needs half the water of a typical Beast its size. It is resistant to exhaustion, which gives it advantage on checks and saves to avoid or end that condition.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit with 5-ft. reach against one creature. Hit for 4 (1d4 + 2) bludgeoning damage.\nBile Spit. Ranged weapon attack, +2 to hit with range 20/60 ft. against one creature. Hit for 2 (1d4) acid damage. The target then makes a DC 12 Constitution save or becomes smelly for 1 hour or until a creature spends 1 minute cleaning off the spit. While smelly, the target has disadvantage on Charisma checks."
++    }
++  },
++  {
++    "name": "Camel",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 9,
++    "hp": 15,
++    "hitDice": "2d10 + 4",
++    "speed": "50 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 9. No listed languages, skill bonuses, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sandy-coated dromedary with one shaggy hump, a long arched neck, a split upper lip, and broad two-toed pads.",
++    "habitats": ["Desert", "Dry steppe"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 320. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/",
++      "Actions": "Bite. Melee weapon attack, +5 to hit with 5-ft. reach against one target. Hit for 2 (1d4) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Frog",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 10,
++    "hp": 9,
++    "speed": "20 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 11 and Stealth 10. Darkvision 30 ft. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A compact pond frog with a broad blunt head, amber eyes, smooth olive-brown skin, and folded, powerful hind legs.",
++    "habitats": ["Freshwater ponds", "Marshes"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 357. XP follows the CR table on page 229. ",
++      "Ability modifiers": "STR −5, DEX +0, CON −1, INT −5, WIS −1, CHA −4. Use these modifiers and the fixed Black Flag Perception and Stealth values.",
++      "Traits": "Amphibious. The frog breathes in air and water.\nStanding Leap. Long jump up to 10 ft. and high jump up to 5 ft., with or without a running start.\nCondition resistance. Advantage on checks and saves to avoid or end the grappled condition.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one creature. Hit for 2 (1d4) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Goat",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 10,
++    "hp": 8,
++    "speed": "40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 10 and Stealth 10. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A wiry cream-and-gray goat with a short beard, narrow swept horns, horizontal pupils, and split hooves.",
++    "habitats": ["Rocky hills", "Mountain pasture"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pages 358–359. XP follows the CR table on page 229. ",
++      "Ability modifiers": "STR +1, DEX +0, CON +0, INT −4, WIS +0, CHA −3. Use these modifiers and the fixed Black Flag Perception and Stealth values.",
++      "Traits": "Condition resistance. Advantage on checks and saves to avoid or end the prone condition.\nCharge. Move at least 20 ft. straight toward a target and hit with Ram on the same turn. The hit deals an extra 2 (1d4) bludgeoning damage. If the target is a creature, it also makes a DC 11 Strength save or falls prone.",
++      "Actions": "Ram. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 3 (1d4 + 1) bludgeoning damage.",
++      "Reactions": "Terrifying Scream. When the goat takes damage, each creature within 10 ft. that hears the scream must make a DC 13 Wisdom save or be frightened until the end of its next turn. A creature frightened this way cannot be frightened by this goat’s Terrifying Scream again for 24 hours."
++    }
++  },
++  {
++    "name": "Hawk",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 7,
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 14 and Stealth 11. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A compact brown hawk with broad shoulders, a cream breast, hooked gray beak, and curved talons.",
++    "habitats": ["Open country", "Woodland edge"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 359. XP follows the CR table on page 229. ",
++      "Ability modifiers": "STR −3, DEX +1, CON −1, INT −4, WIS +2, CHA −2. Use these modifiers and the fixed Black Flag Perception and Stealth values.",
++      "Traits": "Heightened Sight. Use Perception 19 when the hawk relies on sight.",
++      "Actions": "Talons. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 3 (1d4 + 1) slashing damage.",
++      "Bonus actions": "Evasive Flight. The hawk takes the Disengage or Dodge action as a bonus action while flying."
++    }
++  },
++  {
++    "name": "Cat",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "40 ft., climb 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 13 and Stealth 13. Darkvision 30 ft. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small, slim brown tabby with dark stripes, upright ears, and a long curved tail.",
++    "habitats": ["Settlements", "Farms", "Woodland edges"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 354. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR −4, DEX +1, CON +0, INT −4, WIS +1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Traits": "Heightened Smell. Use Perception 18 for scent.",
++      "Actions": "Claws. Melee weapon attack, +3 to hit with 5-ft. reach against one creature. Hit for 3 (1d4 + 1) slashing damage.",
++      "Bonus actions": "Charming Mewl. Choose one visible creature within 10 ft. The cat meows, and the target must pass a DC 11 Charisma save or become charmed through the end of the target’s next turn. A successful save or the effect ending gives the target 24 hours of immunity to this cat’s Charming Mewl."
++    }
++  },
++  {
++    "name": "Cat",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "40 ft., climb 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Stealth +4. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small, slim brown tabby with dark stripes, upright ears, and a long curved tail.",
++    "habitats": ["Settlements", "Farms", "Woodland edges"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed page 320. https://www.dndbeyond.com/monsters/16820-cat",
++      "Traits": "Keen Smell. The cat has advantage on Wisdom (Perception) checks based on scent.",
++      "Actions": "Claws. Melee weapon attack, +0 to hit with 5-ft. reach against one target. On a hit, deal 1 slashing damage."
++    }
++  },
++  {
++    "name": "Hyena",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 10,
++    "hp": 8,
++    "speed": "50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 13 and Stealth 10. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sandy, dark-spotted hyena with high shoulders, low hindquarters, round ears, and a blunt dark muzzle.",
++    "habitats": ["Savanna", "Open grassland", "Dry scrub"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 360. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR +0, DEX +0, CON +1, INT −4, WIS +1, CHA −3. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Traits": "Cackling Chorus. At least three hyenas must be within 30 ft. of each other. A creature starting its turn within 10 ft. of a participating hyena makes a Constitution save. On a failure, it is deafened until the start of its next turn. The printed text gives both DC 10 and a DC of 8 + participating hyenas.\nPack Tactics. The hyena has advantage on attacks against a creature if one of the hyena’s non-incapacitated allies is within 5 ft. of that creature.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one creature. Hit for 3 (1d6) piercing damage.",
++      "At the table": "To run the conflicting DCs, use the printed count formula as a table ruling. Three participating hyenas mean DC 11."
++    }
++  },
++  {
++    "name": "Jackal",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Small Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 13 and Stealth 11. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A lean, long-legged jackal with triangular ears, a narrow muzzle, reddish flanks, and a grizzled black saddle.",
++    "habitats": ["Savanna", "Dry scrub", "Open grassland"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 362. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR −1, DEX +1, CON +0, INT −4, WIS +1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Traits": "Heightened Hearing and Smell. Use Perception 18 for hearing or scent.\nPack Tactics. The jackal has advantage on attacks against a creature if one of the jackal’s non-incapacitated allies is within 5 ft. of it.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit with 5-ft. reach against one creature. Hit for 3 (1d4 + 1) piercing damage. The target must pass a DC 10 Constitution save or contract shriveling fever.",
++      "Disease": "Shriveling fever. The creature is poisoned while infected. At the end of each long rest, repeat the DC 10 Constitution save. Each failure reduces Strength by 1d4. Two successful saves end the disease. Strength returns after a long rest following the cure. If the disease reduces Strength to 0, the creature dies."
++    }
++  },
++  {
++    "name": "Lizard",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 10,
++    "hp": 9,
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 9 and Stealth 12. Darkvision 30 ft. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small olive-brown lizard with a wedge-shaped head, pebbled scales, four splayed legs, and a slender tapered tail.",
++    "habitats": ["Rocky ground", "Dry scrub", "Stone walls"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 363. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR −4, DEX +0, CON +0, INT −5, WIS −1, CHA −4. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one creature. Hit for 2 (1d4) piercing damage.",
++      "Reactions": "Detach Tail. At 5 HP or fewer, when the lizard takes damage, it can detach its tail to reduce the damage by 2 (1d4). It can immediately move up to its speed without provoking opportunity attacks. It regains use after a short or long rest."
++    }
++  },
++  {
++    "name": "Crocodile",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 25,
++    "speed": "20 ft., swim 30 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "otherStatistics": "Natural armor. Perception 10. Stealth 12. Resistant to charmed. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A heavy crocodile with a tapered snout, interlocking teeth, dark olive-brown back scutes, and a long armored tail.",
++    "habitats": ["Rivers", "Marshes", "Wetlands"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, May 2024, p. 355.  from the Experience Points by Challenge Rating table, p. 229.",
++      "Ability modifiers": "STR +2 · DEX +0 · CON +1 · INT −4 · WIS +0 · CHA −3",
++      "Traits": "Hold Breath. The crocodile can go 15 minutes without taking a breath.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. A hit deals 6 (1d8 + 2) piercing damage and grapples the creature (escape DC 12). The target stays restrained until that grapple ends, and the crocodile can bite only the held target while the grapple lasts.",
++      "Bonus actions": "Death Roll. The crocodile chooses one creature it is grappling. The creature makes a DC 12 Strength save and takes 5 (2d4) slashing damage on a failure, or half on a success.",
++      "At the table": "Charmed resistance grants advantage on checks and saves to avoid or end that condition. Apply Death Roll with a bonus action against prey already grappled."
++    }
++  },
++  {
++    "name": "Crocodile",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "20 ft., swim 30 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +2. Passive Perception 10. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A heavy crocodile with a tapered snout, interlocking teeth, dark olive-brown back scutes, and a long armored tail.",
++    "habitats": ["Rivers", "Marshes", "Wetlands"],
++    "sections": {
++      "Printed source": "Monster Manual (2014), Appendix A, printed p. 320, Crocodile. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c#Crocodile",
++      "Traits": "Hold Breath. The crocodile can go 15 minutes without taking a breath.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. A hit deals 7 (1d10 + 2) piercing damage and grapples the creature (escape DC 12). The target stays restrained until that grapple ends, and the crocodile can bite only the held target while the grapple lasts.",
++      "At the table": "Resolve the grapple when Bite hits. The grappled creature can use its action to make the escape check."
++    }
++  },
++  {
++    "name": "Mastiff",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 12,
++    "hp": 9,
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Perception 11. Stealth 12. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A broad-chested fawn guard dog with a black muzzle, dark folded ears, thick neck, and strong paws.",
++    "habitats": ["Settlements", "Farms", "Roadside camps"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, May 2024, pp. 363–364.  from the Experience Points by Challenge Rating table, p. 229.",
++      "Ability modifiers": "STR +1 · DEX +2 · CON +1 · INT −4 · WIS +1 · CHA −2",
++      "Traits": "Heightened Hearing and Smell. Use Perception 16 for hearing or scent.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) piercing damage. A creature hit must pass a DC 12 Strength save to stay standing.",
++      "Reactions": "Protect Friend. When a friendly Humanoid the mastiff can see is hit by an attack from a creature within 5 ft. of the mastiff, the mastiff can make one Bite attack against that attacker.",
++      "At the table": "Measure the 5-ft. range from the mastiff to the attacker. The mastiff must see the friendly Humanoid who was hit."
++    }
++  },
++  {
++    "name": "Mule",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 10,
++    "hp": 10,
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Perception 10. Stealth 10. Resistant to exhaustion and prone. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A brown mule with tall donkey-like ears, a short dark mane, a grey muzzle, and narrow hooves.",
++    "habitats": ["Farms", "Trade roads", "Mountain trails"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, May 2024, p. 364.  from the Experience Points by Challenge Rating table, p. 229.",
++      "Ability modifiers": "STR +2 · DEX +0 · CON +1 · INT −4 · WIS +0 · CHA −3",
++      "Traits": "Beast of Burden. Treat the mule as Large when calculating how much it can carry.",
++      "Actions": "Hooves. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) bludgeoning damage.",
++      "At the table": "Resistance gives advantage on checks and saves to avoid or end exhaustion or the prone condition. The mule occupies a Medium space."
++    }
++  },
++  {
++    "name": "Octopus",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Small Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "5 ft., swim 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Perception 12. Stealth 13. Darkvision 30 ft. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A small mottled russet octopus with a rounded mantle, horizontal pupils, and eight curling arms lined with pale suckers.",
++    "habitats": ["Underwater", "Coastal waters", "Reefs"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, May 2024, p. 364.  from the Experience Points by Challenge Rating table, p. 229.",
++      "Ability modifiers": "STR −3 · DEX +1 · CON +0 · INT −4 · WIS +0 · CHA −3",
++      "Traits": "Hold Breath. Out of water, the octopus can go 30 minutes without taking a breath.\nUnderwater Camouflage. Use Stealth 18 underwater.\nWater Breathing. Breathes only underwater.",
++      "Actions": "Tentacles. Melee weapon attack, +3 to hit against one target within 5 ft. A hit deals 3 (1d4 + 1) bludgeoning damage and grapples a Medium or smaller creature (escape DC 11). Until that grapple ends, the octopus can use Tentacles only on the held target.",
++      "Reactions": "Ink Dash (Recharge 6). When a creature the octopus can see damages it underwater, the octopus can release an ink cloud in a 5-ft. radius around itself. The area is heavily obscured through the end of the octopus's next turn unless a strong current disperses the ink first. The octopus may then swim up to its swim speed. If it swims, it immediately releases any creature it is holding.",
++      "At the table": "After using Ink Dash, recharge it on a 6 on a d6 rolled at the start of each of the octopus's turns, or after a short or long rest."
++    }
++  },
++  {
++    "name": "Elk",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 10,
++    "hp": 15,
++    "speed": "50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Fixed Perception 10 and Stealth 10. No listed special senses. No listed languages.",
++    "appearance": "A tall, heavy-bodied deer with a shaggy brown neck, pale rump, and long legs. A bull carries branching antlers.",
++    "habitats": ["Forests", "Grasslands", "Hills", "Meadows"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 357. XP comes from the CR table on p. 229. ",
++      "Ability modifiers": "STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −2.",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target, then hit it with Ram on the same turn to deal another 3 (1d6) bludgeoning damage. A creature hit must also pass a DC 12 Strength save or fall prone.",
++      "Actions": "Ram. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit for 5 (1d6 + 2) bludgeoning damage.\nKick. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit for 4 (1d4 + 2) bludgeoning damage. The target makes a DC 12 Strength save or is pushed up to 10 ft. away from the elk."
++    }
++  },
++  {
++    "name": "Elk",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 13,
++    "hitDice": "2d10 + 2",
++    "speed": "50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed languages or special senses.",
++    "appearance": "A tall, heavy-bodied deer with a shaggy brown neck, pale rump, and long legs. A bull carries branching antlers.",
++    "habitats": ["Forests", "Grasslands", "Hills", "Meadows"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), printed p. 322. https://www.dndbeyond.com/monsters/16857-elk",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target, then hit it with Ram on the same turn to deal another 7 (2d6) damage. A creature hit must also pass a DC 13 Strength save or fall prone.",
++      "Actions": "Ram. Melee weapon attack, +5 to hit, 5-ft. reach, one target. Hit for 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit, 5-ft. reach, one prone creature. Hit for 8 (2d4 + 3) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Owl",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "5 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 13 and Stealth 13. Darkvision 120 ft. No listed languages.",
++    "appearance": "A small barn owl with a pale heart-shaped face, dark eyes, mottled tawny wings, and hooked talons.",
++    "habitats": ["Grasslands", "Farmland", "Woodland edges", "Barns"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 365. XP comes from the CR table on p. 229. ",
++      "Ability modifiers": "STR −4, DEX +1, CON −1, INT −4, WIS +1, CHA −2.",
++      "Traits": "Flyby. The owl can leave an enemy’s reach in flight without provoking an opportunity attack from that enemy.\nHeightened Hearing and Sight. Use Perception 18 when detecting by sight or hearing.\nQuiet Wings. Use Stealth 18 while flying.",
++      "Actions": "Talons. Melee weapon attack, +3 to hit, 5-ft. reach, one creature. Hit for 3 (1d4 + 1) slashing damage."
++    }
++  },
++  {
++    "name": "Pony",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 10,
++    "hp": 10,
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Fixed Perception 10 and Stealth 10. No listed special senses. No listed languages.",
++    "appearance": "A compact, broad-backed horse with short sturdy legs, a chestnut coat, a pale mane, and a white facial blaze.",
++    "habitats": ["Pastures", "Farms", "Stables"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 366. XP comes from the CR table on p. 229. ",
++      "Ability modifiers": "STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −2.",
++      "Traits": "Draft Animal. Read the trait under Pony as allowing it to push, drag, or lift up to three times its carrying capacity. The printed sentence names a draft horse. The pony’s block supplies no carrying capacity in pounds.",
++      "Actions": "Hooves. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit for 4 (1d4 + 2) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Quipper",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 10,
++    "hp": 8,
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 8 and Stealth 10. Darkvision 60 ft. No listed languages.",
++    "appearance": "A small, deep-bodied predatory fish with silvery green scales, a copper belly, and triangular teeth in a jutting lower jaw.",
++    "habitats": ["Underwater", "Rivers", "Lakes", "Subterranean water"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 366. XP comes from the CR table on p. 229. ",
++      "Ability modifiers": "STR −4, DEX +0, CON +0, INT −5, WIS −2, CHA −4.",
++      "Traits": "Blood Frenzy. The quipper has advantage on melee attack rolls against creatures below their maximum HP.\nHeightened Smell. Use Perception 13 when detecting by smell.\nWater Breathing. The quipper breathes only underwater.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one creature. Hit for 2 (1d4) piercing damage."
++    }
++  },
++  {
++    "name": "Lion",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 42,
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "otherStatistics": "Fixed Perception 13 and Stealth 16. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large tawny cat with broad paws and a long tufted tail. The original portrait depicts a male with a shaggy brown mane.",
++    "habitats": ["Savanna", "Grassland", "Open scrub"],
++    "sections": {
++      "Printed source": "Black Flag Roleplaying Reference Document v0.2, and printed page 362. XP comes from the table on p. 229. ",
++      "Ability modifiers": "STR +3, DEX +2, CON +1, INT −4, WIS +1, CHA −1. The block gives modifiers and fixed HP without ability scores or Hit Dice.",
++      "Traits": "Heightened Smell. When relying on smell, use Perception 18.\nPack Tactics. Attack rolls against a creature have advantage when an ally of the lion is within 5 ft. of the target and that ally is not incapacitated.\nPounce. Move 20 ft. or more in a straight line toward a creature and hit it with Claws that turn. It makes a DC 13 Strength save or falls prone. If it is prone, the lion can Bite it once as a bonus action.\nRunning Leap. Long jump up to 25 ft. after a 10-ft. run-up.",
++      "Actions": "Multiattack. Make a Bite attack and a Claws attack.\nBite. Melee weapon attack, +5 to hit with 5-ft. reach against one creature. On a hit, deal 7 (1d8 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) slashing damage.",
++      "Bonus actions": "Rattling Roar (Recharge 4–6). Creatures in a 15-ft. cone make a DC 13 Constitution save. A failure gives that creature disadvantage on attack rolls until the end of its next turn.",
++      "At the table": "Once used, Roar recovers on a 4–6 on a d6 rolled at the start of the lion’s turn, or after a short or long rest. Pounce’s bonus Bite and Roar both use the lion’s bonus action."
++    }
++  },
++  {
++    "name": "Lion",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 26,
++    "hitDice": "4d10 + 4",
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Perception +3, Stealth +6. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large tawny cat with broad paws and a long tufted tail. The original portrait depicts a male with a shaggy brown mane.",
++    "habitats": ["Savanna", "Grassland", "Open scrub"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 331. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
++      "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that use smell.\nPack Tactics. Attack rolls against a creature have advantage when an ally of the lion is within 5 ft. of the target and that ally is not incapacitated.\nPounce. Move 20 ft. or more in a straight line toward a creature and hit it with Claw that turn. It makes a DC 13 Strength save or falls prone. If it is prone, the lion can Bite it once as a bonus action.\nRunning Leap. Long jump up to 25 ft. after a 10-ft. run-up.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 7 (1d8 + 3) piercing damage.\nClaw. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) slashing damage."
++    }
++  },
++  {
++    "name": "Rat",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 10,
++    "hp": 9,
++    "speed": "20 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 10 and Stealth 12. Darkvision 30 ft. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small brown rodent with rounded ears, a pointed whiskered muzzle, four pink feet and a long ringed tail.",
++    "habitats": ["Settlements", "Cellars", "Sewers", "Riverbanks"],
++    "sections": {
++      "Printed source": "Black Flag Roleplaying Reference Document v0.2, and printed page 366. XP comes from the table on p. 229. ",
++      "Ability modifiers": "STR −4, DEX +0, CON −1, INT −4, WIS +0, CHA −3. The block gives modifiers and fixed HP without ability scores or Hit Dice.",
++      "Traits": "Accustomed to Filth. Advantage on saves to resist contracting a disease.\nHeightened Smell. Use Perception 15 when relying on smell.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one target. On a hit, deal 2 (1d4) piercing damage."
++    }
++  },
++  {
++    "name": "Raven",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Fixed Perception 13 and Stealth 11. No listed special senses beyond Carrion Sense. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A black corvid with a heavy beak, shaggy throat feathers and a slate sheen across its folded wings.",
++    "habitats": ["Woodland edges", "Rocky uplands", "Settlements", "Carrion sites"],
++    "sections": {
++      "Printed source": "Black Flag Roleplaying Reference Document v0.2, and printed page 367. XP comes from the table on p. 229. ",
++      "Ability modifiers": "STR −4, DEX +1, CON −1, INT −3, WIS +1, CHA +0. The block gives modifiers and fixed HP without ability scores or Hit Dice.",
++      "Traits": "Carrion Sense. By scent, locate carrion, dead creatures, and Undead within 60 ft. An Undead with Incorporeal Movement is excluded.\nMimicry. Reproduce simple sounds heard before. A listener can identify an imitation with a successful DC 10 Wisdom (Insight) check.\nRecollection. Remember as many as 20 words in a language the raven has heard. It can repeat them in their original voices using Mimicry.",
++      "Actions": "Beak. Melee weapon attack, +3 to hit with 5-ft. reach against one target. On a hit, deal 3 (1d4 + 1) piercing damage."
++    }
++  },
++  {
++    "name": "Rhinoceros",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 11,
++    "hp": 63,
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Fixed Perception 11 and Stealth 9. AC from natural armor. Resistant to bludgeoning damage and the stunned condition. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy gray-brown quadruped with folded skin, broad three-toed feet and a large nasal horn ahead of a smaller one.",
++    "habitats": ["Savanna", "Open grassland", "Scrubland"],
++    "sections": {
++      "Printed source": "Black Flag Roleplaying Reference Document v0.2, and printed page 368. XP comes from the table on p. 229. ",
++      "Ability modifiers": "STR +5, DEX −1, CON +2, INT −4, WIS +1, CHA −2. The block gives modifiers and fixed HP without ability scores or Hit Dice.",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Gore that turn. Deal an extra 7 (2d6) piercing damage. If the target is a creature, it also makes a DC 15 Strength save. A failure pushes it up to 10 ft. away and knocks it prone.",
++      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +7 to hit with 5-ft. reach against one target. On a hit, deal 12 (2d6 + 5) bludgeoning damage.",
++      "Bonus actions": "Quaking Stomp. Slam the ground with the forefeet. Each creature within 10 ft. makes a DC 15 Dexterity save or falls prone.",
++      "At the table": "Bludgeoning resistance halves that damage, rounding down. Resistance to stunned gives advantage on checks and saves to avoid or end that condition."
++    }
++  },
++  {
++    "name": "Mammoth",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 13,
++    "hp": 133,
++    "speed": "40 ft.",
++    "cr": "6",
++    "xp": 2300,
++    "otherStatistics": "Natural armor. Fixed Perception 13 and Stealth 9. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A massive woolly elephant with a high domed head, shaggy russet fur, an agile trunk and two sweeping ivory tusks.",
++    "habitats": ["Cold steppe", "Tundra"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 363. The XP value comes from the CR table on p. 229. ",
++      "Ability modifiers": "STR +6, DEX −1, CON +5, INT −4, WIS +0, CHA −2. The source lists modifiers and fixed Perception and Stealth values. It lists HP without a Hit Dice formula.",
++      "Defenses": "Resistant to cold damage and to the prone condition. Halve cold damage, rounding down. Roll with advantage on checks and saves to avoid becoming prone or to end the condition.",
++      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore that turn. The creature must pass a DC 17 Strength save or fall prone. If it is prone, the mammoth can make one Stomp against it as a bonus action.",
++      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +9 to hit with 10-ft. reach against one target. A hit deals 22 (3d10 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit with 5-ft. reach against one prone creature. A hit deals 19 (3d8 + 6) bludgeoning damage.",
++      "Bonus actions": "Trunk Grab. Choose one Large or smaller creature within 10 ft. It makes a DC 17 Strength save. A failure leaves it grappled, escape DC 17, and restrained until the grapple ends. The mammoth cannot use Trunk Grab on another creature while this grapple remains.",
++      "At the table": "A charge Stomp has 5-ft. reach. Trunk Grab and the charge’s bonus-action Stomp compete for the mammoth’s bonus action."
++    }
++  },
++  {
++    "name": "Mammoth",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 126,
++    "hitDice": "11d12 + 55",
++    "speed": "40 ft.",
++    "cr": "6",
++    "xp": 2300,
++    "abilities": {
++      "Str": {
++        "score": 24,
++        "modifier": 7
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 10. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A massive woolly elephant with a high domed head, shaggy russet fur, an agile trunk and two sweeping ivory tusks.",
++    "habitats": ["Cold steppe", "Tundra", "Subtropical regions"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), printed p. 332. https://www.dndbeyond.com/monsters/16950-mammoth",
++      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore that turn. The creature must pass a DC 18 Strength save or fall prone. If it is prone, the mammoth can make one Stomp against it as a bonus action.",
++      "Actions": "Gore. Melee weapon attack, +10 to hit with 10-ft. reach against one target. A hit deals 25 (4d8 + 7) piercing damage.\nStomp. Melee weapon attack, +10 to hit with 5-ft. reach against one prone creature. A hit deals 29 (4d10 + 7) bludgeoning damage.",
++      "At the table": "Check the distance before using the bonus-action Stomp. Its 5-ft. reach is shorter than Gore’s 10-ft. reach."
++    }
++  },
++  {
++    "name": "Seahorse",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 9,
++    "speed": "0 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Natural armor. Fixed Perception 10 and Stealth 12. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small, upright fish with a horse-like head, tubular snout, ringed body and curled grasping tail.",
++    "habitats": ["Coastal shallows", "Seagrass beds", "Reefs"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 368. The XP value comes from the CR table on p. 229. ",
++      "Ability modifiers": "STR −5, DEX +0, CON −1, INT −5, WIS +0, CHA −4. The source lists modifiers and fixed Perception and Stealth values. It lists HP without a Hit Dice formula.",
++      "Traits": "Underwater Camouflage. Use Stealth 17 while underwater.\nWater Breathing. The seahorse breathes only underwater.",
++      "Actions": "Ram. Melee weapon attack, +2 to hit with 5-ft. reach against one target. A hit deals 2 (1d4) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Spider",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 12,
++    "hp": 8,
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Natural armor. Fixed Perception 10 and Stealth 14. Darkvision 30 ft. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small orb-weaver with a rounded olive-brown abdomen, a compact head and eight slender legs.",
++    "habitats": ["Woodland", "Gardens", "Sheltered corners"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 371. The XP value comes from the CR table on p. 229. ",
++      "Ability modifiers": "STR −4, DEX +0, CON −1, INT −5, WIS +0, CHA −4. The source lists modifiers and fixed Perception and Stealth values. It lists HP without a Hit Dice formula.",
++      "Traits": "Spider Climb. Climb difficult surfaces, including ceilings, without a check.\nWeb Sense. While touching a web, pinpoint any other creature touching the same web.\nWeb Walker. Webs impose no movement restrictions on the spider.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one creature. A hit deals 2 (1d4) piercing damage. The target makes a DC 9 Constitution save and takes 2 (1d4) poison damage on a failure.",
++      "Bonus actions": "Web Shot, Recharge 4–6. Pick one creature the spider can see within 15 ft. It makes a DC 9 Dexterity save. On a failure its speed drops by 10 ft. A creature can remove the webbing as an action to end the effect.",
++      "At the table": "After using Web Shot, roll a d6 at the start of each of the spider’s turns. It regains the shot on 4–6 or after a short or long rest."
++    }
++  },
++  {
++    "name": "Tiger",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 38,
++    "speed": "40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "otherStatistics": "Fixed Perception 13 and Stealth 16. Darkvision 60 ft. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A muscular striped cat with an ochre coat, ivory cheeks, rounded ears, thick forepaws and a long tail.",
++    "habitats": ["Forest", "Jungle", "Tall grass"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 372. The XP value comes from the CR table on p. 229. ",
++      "Ability modifiers": "STR +3, DEX +2, CON +2, INT −4, WIS +1, CHA −1. The source lists modifiers and fixed Perception and Stealth values. It lists HP without a Hit Dice formula.",
++      "Traits": "Heightened Smell. Use Perception 18 for smell.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claws that turn. The creature must pass a DC 13 Strength save or fall prone. If the creature is prone, the tiger can make one Bite against it as a bonus action.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack. If both hit the same creature, it makes a DC 13 Constitution save at the start of its next turn. A failed save costs 5 (2d4) HP from bleeding.\nBite. Melee weapon attack, +5 to hit with 5-ft. reach against one creature. A hit deals 6 (1d6 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 5 (1d4 + 3) slashing damage."
++    }
++  },
++  {
++    "name": "Panther",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 12,
++    "hp": 15,
++    "cr": "1/4",
++    "xp": 50,
++    "speed": "50 ft., climb 40 ft.",
++    "otherStatistics": "Fixed Perception 14 and Stealth 16. Darkvision 60 ft. No languages. The native stat block gives fixed HP and no Hit Dice.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A black-coated climbing cat with a long tail, round ears, amber eyes, and faint leopard rosettes on its flanks.",
++    "habitats": ["Forest", "Jungle", "Rocky hills"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 365–366.  follows Experience Points by Challenge Rating, p. 229.",
++      "Ability modifiers": "STR +2 · DEX +2 · CON +0 · INT −4 · WIS +2 · CHA −2",
++      "Traits": "Heightened Smell. Use Perception 19 when detecting by scent.\nPounce. If the panther moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn, the creature must pass a DC 12 STR save or fall prone. If the target is prone, the panther can make one Bite attack against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
++      "Bonus actions": "Stealthy Hunter. Take the Hide action.",
++      "At the table": "Choose either Stealthy Hunter or the Pounce follow-up if both are available. If the target falls prone from Pounce, the Bite still uses a bonus action and a separate attack roll."
++    }
++  },
++  {
++    "name": "Panther",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "50 ft., climb 40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +4, Stealth +6. Passive Perception 14. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A black-coated climbing cat with a long tail, round ears, amber eyes, and faint leopard rosettes on its flanks.",
++    "habitats": ["Forest", "Jungle", "Rocky hills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 333, Panther. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-p#Panther",
++      "Traits": "Keen Smell. Wisdom (Perception) checks relying on smell have advantage.\nPounce. If the panther moves at least 20 ft. straight toward a creature and lands a Claw hit on it in the same turn, the creature must pass a DC 12 Strength save or fall prone. If the target is prone, the panther may make a Bite attack against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
++      "At the table": "If the target falls prone from Pounce, the Bite still uses a bonus action and a separate attack roll."
++    }
++  },
++  {
++    "name": "Vulture",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 10,
++    "hp": 8,
++    "cr": "0",
++    "xp": 10,
++    "speed": "10 ft., fly 50 ft.",
++    "otherStatistics": "Fixed Perception 13 and Stealth 10. No languages or listed special senses. The native stat block gives fixed HP and no Hit Dice.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A broad-winged scavenger with a bare gray head, a hooked beak, a pale neck ruff, and muted brown feathers.",
++    "habitats": ["Open grassland", "Rocky cliffs"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 373.  follows Experience Points by Challenge Rating, p. 229.",
++      "Ability modifiers": "STR −2 · DEX +0 · CON +1 · INT −4 · WIS +1 · CHA −3",
++      "Traits": "Carrion Sense. Within 60 ft., the vulture can use scent to locate carrion, dead creatures, and Undead that lack Incorporeal Movement.\nHeightened Sight and Smell. Use Perception 18 when detecting by sight or scent.\nPack Tactics. Its attacks against a creature have advantage if at least one ally within 5 ft. of that creature is not incapacitated.",
++      "Actions": "Beak. Melee weapon attack, +2 to hit, reach 5 ft., one target. On a hit, deal 2 (1d4) piercing damage.",
++      "Reactions": "Defensive Bile. When an attacker the vulture can see hits it with a melee attack from within 5 ft., the vulture can spit bile at that attacker. The attacker must make a DC 11 CON save or be incapacitated until the end of its next turn.",
++      "At the table": "Defensive Bile triggers on a hit and deals no damage. The adjacent Giant Vulture and its stronger reaction are a separate block."
++    }
++  },
++  {
++    "name": "Weasel",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 8,
++    "cr": "0",
++    "xp": 10,
++    "speed": "30 ft.",
++    "otherStatistics": "Fixed Perception 13 and Stealth 13. No languages or listed special senses. The native stat block gives fixed HP and no Hit Dice.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A small, slim brown hunter with a white throat and belly, short legs, and a narrow whiskered face.",
++    "habitats": ["Meadows", "Woodland edges", "Hedgerows"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 373.  follows Experience Points by Challenge Rating, p. 229.",
++      "Ability modifiers": "STR −4 · DEX +1 · CON −1 · INT −4 · WIS +1 · CHA −4",
++      "Traits": "Heightened Hearing and Smell. Use Perception 18 when detecting by hearing or scent.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. On a hit, deal 3 (1d4 + 1) piercing damage or take one item the creature wears or carries instead. The item must weigh 5 lb. or less and fit in one hand. It cannot be a weapon, wrapped around the creature, or firmly attached to it. A loose hat or belt pouch can qualify.",
++      "At the table": "Resolve the attack roll first. On a hit, choose damage or theft. The printed rule gives no separate save or check."
++    }
++  },
++  {
++    "name": "Wolf",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 13,
++    "hp": 14,
++    "cr": "1/4",
++    "xp": 50,
++    "speed": "40 ft.",
++    "otherStatistics": "Natural armor. Fixed Perception 11 and Stealth 14. No languages or listed special senses. The native stat block gives fixed HP and no Hit Dice.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A gray-brown canine with a deep chest, long legs, pointed ears, and a low bushy tail.",
++    "habitats": ["Forest", "Grassland", "Plains"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 374.  follows Experience Points by Challenge Rating, p. 229.",
++      "Ability modifiers": "STR +1 · DEX +2 · CON +1 · INT −4 · WIS +1 · CHA −2",
++      "Traits": "Heightened Hearing and Smell. Use Perception 16 when detecting by hearing or scent.\nPack Tactics. Its attacks against a creature have advantage when one or more allies within 5 ft. of that creature are not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage. If the target is a creature, it must pass a DC 12 STR save or fall prone.",
++      "At the table": "Apply the printed +4 attack and +2 damage even though the Strength modifier is +1. The prone save applies to a creature hit by Bite."
++    }
++  },
+   {
+     "name": "Aboleth",
+     "classification": "Large aberration, lawful evil",

@@ -1,0 +1,25 @@
+{
+  "commit": "102801b2d895c4848be6bc688ab7963695e7ca53",
+  "publication": "Oriental Adventures (2001)",
+  "edition": "3.0 edition",
+  "playableSpecies": 1,
+  "profiles": 13,
+  "fullNpcBuilds": 2,
+  "generatedPortraitsInstalled": 1,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-56-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/56/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Human Death Acolyte",
+      "source": "https://www.dndbeyond.com/monsters/4485893-human-death-acolyte",
+      "challenge": "2"
+    },
+    {
+      "name": "Human Death Cultist",
+      "source": "https://www.dndbeyond.com/monsters/4485894-human-death-cultist",
+      "challenge": "4"
+    }
+  ]
+}

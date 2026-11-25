@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Swarm of Insects",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 12,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Resistant to bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. Blindsight 10 ft. Passive Perception 8. No listed languages or skills.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A dense mass of Tiny insects with dark bodies and scattered winged forms.",
+    "habitats": [
+      "Forest floor",
+      "Ruins",
+      "Caves"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), p. 338. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Errata": "Monster Manual errata v2.0 adds immunity to grappled for swarms on pp. 337–339. ",
+      "Traits": "Swarm. Other creatures can share the swarm’s space, and it can share theirs. It can pass through any opening that admits a Tiny insect. The swarm cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or fewer."
+    }
+  },
+  {
+    "name": "Swarm of Beetles",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 12,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "20 ft., burrow 5 ft., climb 20 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Resistant to bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. Blindsight 10 ft. Passive Perception 8. No listed languages or skills.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A mass of dark, bronze-backed beetles with hard rounded wing cases and low scrambling legs.",
+    "habitats": [
+      "Leaf litter",
+      "Rotting wood",
+      "Burrows"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), p. 338. https://www.dndbeyond.com/sources/dnd/mm-2014 Use the Swarm of Insects block with the sidebar’s Swarm of Beetles variant.",
+      "Errata": "Monster Manual errata v2.0 adds immunity to grappled for swarms on pp. 337–339. ",
+      "Traits": "Swarm. Other creatures can share the swarm’s space, and it can share theirs. It can pass through any opening that admits a Tiny insect. The swarm cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or fewer.",
+      "Insect swarm variant": "Burrowing speed 5 ft. The swarm keeps its 20-ft. walk and 20-ft. climb."
+    }
+  },
+  {
+    "name": "Swarm of Insects (Beetles)",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 12,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "20 ft., burrow 5 ft., climb 20 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Resistant to bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. Blindsight 10 ft. Passive Perception 8. No listed languages or skills.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A mass of dark, bronze-backed beetles with hard rounded wing cases and low scrambling legs.",
+    "habitats": [
+      "Leaf litter",
+      "Rotting wood",
+      "Burrows"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), p. 338. https://www.dndbeyond.com/sources/dnd/mm-2014 Use the Swarm of Insects block with the sidebar’s Swarm of Beetles variant.",
+      "Errata": "Monster Manual errata v2.0 adds immunity to grappled for swarms on pp. 337–339. ",
+      "Traits": "Swarm. Other creatures can share the swarm’s space, and it can share theirs. It can pass through any opening that admits a Tiny insect. The swarm cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or fewer.",
+      "Insect swarm variant": "Burrowing speed 5 ft. The swarm keeps its 20-ft. walk and 20-ft. climb."
+    }
+  },
+  {
+    "name": "Swarm of Centipedes",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 12,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Resistant to bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. Blindsight 10 ft. Passive Perception 8. No listed languages or skills.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A mass of amber-brown centipedes with long segmented bodies, fine antennae and many quick legs.",
+    "habitats": [
+      "Leaf litter",
+      "Damp crevices",
+      "Caves"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), p. 338. https://www.dndbeyond.com/sources/dnd/mm-2014 Use the Swarm of Insects block with the sidebar’s Swarm of Centipedes variant.",
+      "Errata": "Monster Manual errata v2.0 adds immunity to grappled for swarms on pp. 337–339. ",
+      "Traits": "Swarm. Other creatures can share the swarm’s space, and it can share theirs. It can pass through any opening that admits a Tiny insect. The swarm cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or fewer.",
+      "Insect swarm variant": "A creature this swarm reduces to 0 HP becomes stable and poisoned for 1 hour. The poison persists if the creature regains HP. The creature is paralyzed while poisoned by this effect."
+    }
+  },
+  {
+    "name": "Swarm of Insects (Centipedes)",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 12,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Resistant to bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. Blindsight 10 ft. Passive Perception 8. No listed languages or skills.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A mass of amber-brown centipedes with long segmented bodies, fine antennae and many quick legs.",
+    "habitats": [
+      "Leaf litter",
+      "Damp crevices",
+      "Caves"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), p. 338. https://www.dndbeyond.com/sources/dnd/mm-2014 Use the Swarm of Insects block with the sidebar’s Swarm of Centipedes variant.",
+      "Errata": "Monster Manual errata v2.0 adds immunity to grappled for swarms on pp. 337–339. ",
+      "Traits": "Swarm. Other creatures can share the swarm’s space, and it can share theirs. It can pass through any opening that admits a Tiny insect. The swarm cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or fewer.",
+      "Insect swarm variant": "A creature this swarm reduces to 0 HP becomes stable and poisoned for 1 hour. The poison persists if the creature regains HP. The creature is paralyzed while poisoned by this effect."
+    }
+  }
+]

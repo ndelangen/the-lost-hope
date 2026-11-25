@@ -1,0 +1,559 @@
+[
+  {
+    "name": "Gallus Druid",
+    "decision": "separate",
+    "pages": "Appendix B, p. 197",
+    "notes": "Standalone Humblewood Campaign Setting printing. The printed CR matches the catalog.",
+    "statBlock": {
+      "name": "Gallus Druid",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (gallus), any neutral alignment",
+      "ac": 11,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "AC 16 with Barkskin. Insight +6, Nature +2, Medicine +6, Perception +6. Passive Perception 16. Speaks Birdfolk, Druidic and Sylvan. Understands Auran without speaking it.",
+      "description": "These forest wardens tend animals and plants. A traveling member of the Tenders can also serve as a guide.",
+      "sections": {
+        "Traits": "Seedspeech. Exchange simple ideas with living plants and understand their replies.",
+        "Spellcasting": "6th-level Wisdom spellcaster. Spell save DC 14, +6 to hit.\nCantrips, at will. Druidcraft, Produce Flame, Shillelagh.\n1st level, 4 slots. Animal Friendship, Cure Wounds, Entangle, Fog Cloud.\n2nd level, 3 slots. Barkskin, Gust of Wind, Moonbeam.\n3rd level, 3 slots. Conjure Animals, Dispel Magic, Wind Wall.",
+        "Actions": "Staff. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) bludgeoning damage.",
+        "Bonus Actions": "Wing Flap. Rise up to half the creature’s movement speed. This can extend a regular jump and is unavailable while gliding.\nSpirit Totem. Once per short or long rest, place a spectral beast at a visible point within 60 ft. It creates a 30-ft.-radius aura and lasts for 1 minute. It counts as neither an object nor a creature. The druid can spend another bonus action to move it to a different point within 60 ft.\nBear Spirit. The druid and allies in the aura gain 9 temporary HP and have advantage on Strength checks and saves.\nHawk Spirit. The druid and allies in the aura have advantage on Wisdom (Perception) checks. The druid can use a reaction to give an ally advantage on an attack against a target in the aura.\nUnicorn Spirit. When a spell that expends a slot heals the druid or allies in the aura, each creature the druid chooses also regains 4 HP.",
+        "Reactions": "Glide. When falling at least 10 ft., use a reaction to fly in one direction up to the creature’s speed while descending. Land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent this, but the creature can drop held items as part of the reaction.",
+        "Printed source": "Appendix B, p. 197"
+      }
+    }
+  },
+  {
+    "name": "Gallus Necromancer",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 198–199",
+    "notes": "Standalone Humblewood Campaign Setting printing. The printed CR matches the catalog.",
+    "statBlock": {
+      "name": "Gallus Necromancer",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (gallus), any nonlawful alignment",
+      "ac": 12,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 9,
+          "modifier": -1
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "AC 15 with Mage Armor. Saving throws Int +7, Wis +5. Arcana +7, Deception +3, Medicine +5. Passive Perception 12. Speaks Birdfolk, Hedge and Sylvan. Understands Auran without speaking it.",
+      "description": "Some gallus at the Avium study how to counter necromancy. Glinda Nightseed uses this block with chaotic good alignment.",
+      "sections": {
+        "Traits": "Seedspeech. Exchange simple ideas with living plants and understand their replies.",
+        "Spellcasting": "9th-level Intelligence spellcaster. Spell save DC 15, +7 to hit.\nCantrips, at will. Chill Touch, Light, Mage Hand, Prestidigitation.\n1st level, 4 slots. Sleep, False Life, Mage Armor, Magic Missile.\n2nd level, 3 slots. Misty Step, Web, Ray of Enfeeblement.\n3rd level, 3 slots. Animate Dead, Counterspell, Fear.\n4th level, 3 slots. Black Tentacles, Blight.\n5th level, 1 slot. Passwall.",
+        "Actions": "Staff. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) with two hands.",
+        "Bonus Actions": "Wing Flap. Rise up to half the creature’s movement speed. This can extend a regular jump and is unavailable while gliding.",
+        "Reactions": "Glide. When falling at least 10 ft., use a reaction to fly in one direction up to the creature’s speed while descending. Land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent this, but the creature can drop held items as part of the reaction.",
+        "Printed source": "Appendix B, pp. 198–199"
+      }
+    }
+  },
+  {
+    "name": "Hedge Bard",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 198–199. Stat block p. 199. Gust Barrier p. 51.",
+    "notes": "Standalone Humblewood Campaign Setting printing. The rapier uses the printed 1d6 damage die.",
+    "statBlock": {
+      "name": "Hedge Bard",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (hedge), any alignment",
+      "ac": 16,
+      "hp": 36,
+      "hitDice": "8d6 + 8",
+      "speed": "25 ft., burrow 15 ft.",
+      "cr": "2",
+      "xp": 450,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 16,
+          "modifier": 3
+        }
+      },
+      "otherStatistics": "Natural armor. Saving throws Dex +4, Cha +5. Acrobatics +4, Perception +5, Performance +7. Passive Perception 15. Speaks Birdfolk and Hedge. Can also speak with beasts of any size that take the form of spiders, insects, worms, or other bugs.",
+      "description": "A traveling performer who can use a cutting remark to throw an opponent off balance.",
+      "sections": {
+        "Spellcasting": "4th-level Charisma spellcaster. Spell save DC 13, +5 to hit.\nCantrips, at will. Gust Barrier, Prestidigitation, Vicious Mockery.\n1st level, 4 slots. Charm Person, Healing Word, Hideous Laughter, Thunderwave.\n2nd level, 3 slots. Invisibility, Shatter, Suggestion.\nGust Barrier. Cast as an action on self. Ranged attacks against the bard have disadvantage until the end of the bard’s next turn. A melee attacker that hits during that time makes a DC 13 Constitution save. On a failure, the bard pushes the attacker up to 10 ft. away and knocks it Prone.",
+        "Actions": "Multiattack. Make one attack with Rapier and one with Dagger.\nRapier. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nDagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nCurl Up. The hedge curls into a ball and its base AC becomes 19. While curled up it cannot move, attack, or cast spells with somatic components. A creature that misses it with a melee attack takes 2d4 piercing damage. If a creature hits the hedge, it falls Prone in its space at the end of the turn. The hedge can uncurl at any point during its own turn.",
+        "Bonus Actions": "Taunt (2/day). Choose a creature within 30 ft. If it can hear the bard, it makes a DC 13 Charisma save. On a failure, its ability checks, attacks and saves have disadvantage until the start of the bard’s next turn.",
+        "Printed source": "Appendix B, pp. 198–199. Stat block p. 199. Gust Barrier p. 51."
+      },
+      "ruleNotes": [
+        "The rapier uses the printed 1d6 damage die."
+      ]
+    }
+  },
+  {
+    "name": "Hedge Witch",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 198–199. Stat block p. 199.",
+    "notes": "Standalone Humblewood Campaign Setting printing. The printed CR matches the catalog.",
+    "statBlock": {
+      "name": "Hedge Witch",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (hedge), any chaotic alignment",
+      "ac": 14,
+      "hp": 21,
+      "hitDice": "6d6",
+      "speed": "25 ft., burrow 15 ft.",
+      "cr": "1",
+      "xp": 200,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 16,
+          "modifier": 3
+        }
+      },
+      "otherStatistics": "Natural armor. Arcana +4, Survival +4. Passive Perception 12. Speaks Abyssal, Birdfolk and Hedge. Can also speak with beasts of any size that take the form of spiders, insects, worms, or other bugs.",
+      "description": "A hedge spellcaster who learned through a pact. Susan of the Swamp uses this block with chaotic good alignment.",
+      "sections": {
+        "Traits": "Dark One’s Blessing. Gain 5 temporary HP after reducing a hostile creature to 0 HP.\nRepelling Blast. An Eldritch Blast hit can push its target up to 10 ft. straight away from the witch.",
+        "Spellcasting": "2nd-level Charisma spellcaster. Spell save DC 13, +5 to hit.\nCantrips, at will. Eldritch Blast, Minor Illusion.\n1st level, 2 slots. Hellish Rebuke, Charm Person, Unseen Servant.",
+        "Actions": "Staff. Melee weapon attack, +1 to hit, reach 5 ft., one target. Hit 2 (1d6 - 1) bludgeoning damage.\nFiendish Vigor. Cast False Life at will as a 1st-level spell.\nCurl Up. The hedge curls into a ball and its base AC becomes 19. While curled up it cannot move, attack, or cast spells with somatic components. A creature that misses it with a melee attack takes 2d4 piercing damage. If a creature hits the hedge, it falls Prone in its space at the end of the turn. The hedge can uncurl at any point during its own turn.",
+        "Printed source": "Appendix B, pp. 198–199. Stat block p. 199."
+      }
+    }
+  },
+  {
+    "name": "Jerbeen Swashbuckler",
+    "decision": "separate",
+    "pages": "Appendix B, p. 200",
+    "notes": "Standalone Humblewood Campaign Setting printing. The hit-point expression is printed as 8d6 + 6 despite Constitution +1. Use the printed 34 HP.",
+    "statBlock": {
+      "name": "Jerbeen Swashbuckler",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (jerbeen), any nonlawful alignment",
+      "ac": 17,
+      "hp": 34,
+      "hitDice": "8d6 + 6",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 15,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Leather armor. Acrobatics +8, Athletics +5, Persuasion +6. Passive Perception 10. Speaks Birdfolk and Jerbeen.",
+      "description": "A nimble duelist who can turn aside a hit and answer it in the same motion.",
+      "sections": {
+        "Traits": "Standing Leap. Long jump up to 30 ft. or high jump up to 15 ft., with or without a running start.\nSharp Witted Defense. Include the swashbuckler’s Charisma modifier in AC while it wears light armor or no armor and carries no shield.",
+        "Actions": "Multiattack. Make one Dagger attack and two Rapier attacks.\nDagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 6 (1d4 + 4) piercing damage.\nRapier. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) piercing damage.",
+        "Bonus Actions": "Team Tactics. Take the Help action as a bonus action.",
+        "Reactions": "Riposte. When a melee attack would hit, reduce its damage by 4 (1d8) and deal the same amount of piercing damage to the attacker. The swashbuckler must see the attacker and wield a melee weapon.",
+        "Printed source": "Appendix B, p. 200"
+      },
+      "ruleNotes": [
+        "The hit-point expression is printed as 8d6 + 6 despite Constitution +1. Use the printed 34 HP."
+      ]
+    }
+  },
+  {
+    "name": "Jerbeen Thief",
+    "decision": "separate",
+    "pages": "Appendix B, p. 200",
+    "notes": "Standalone Humblewood Campaign Setting printing. The printed CR matches the catalog.",
+    "statBlock": {
+      "name": "Jerbeen Thief",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (jerbeen), neutral evil",
+      "ac": 13,
+      "hp": 14,
+      "hitDice": "4d6",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 14,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Leather armor. Acrobatics +4, Sleight of Hand +4. Passive Perception 12. Speaks Birdfolk and Jerbeen.",
+      "description": "A nimble pickpocket who can steal from someone who leaves an opening in melee.",
+      "sections": {
+        "Traits": "Standing Leap. Long jump up to 30 ft. or high jump up to 15 ft., with or without a running start.",
+        "Actions": "Multiattack. Make two Dagger attacks.\nDagger. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Bonus Actions": "Team Tactics. Take the Help action as a bonus action.",
+        "Reactions": "Opportunist. After a creature misses the thief with a melee attack, the thief can make a Dexterity (Sleight of Hand) check against DC 10 plus that creature’s Dexterity modifier. On a success, the thief takes one item the GM chooses. It must be something the attacker is carrying without holding or wearing it.",
+        "Printed source": "Appendix B, p. 200"
+      }
+    }
+  },
+  {
+    "name": "Lesser Demon",
+    "decision": "separate",
+    "pages": "Appendix A, p. 184",
+    "notes": "Standalone Humblewood Campaign Setting printing. The Foul Odor entry gives a 20-ft. sphere without specifying radius or diameter.",
+    "statBlock": {
+      "name": "Lesser Demon",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Fiend (demon), chaotic evil",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d6 + 8",
+      "speed": "30 ft.",
+      "cr": "1",
+      "xp": 200,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Cha": {
+          "score": 3,
+          "modifier": -4
+        }
+      },
+      "otherStatistics": "Natural armor. Resists cold, fire and lightning damage. Immune to poison damage and the Poisoned condition. Darkvision 60 ft., passive Perception 9. Speaks Abyssal.",
+      "description": "A failed summoning can bring this troublesome fiend in place of whatever the caster meant to call.",
+      "sections": {
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) slashing damage.\nFoul Odor (1/day). Fill a 20-ft. sphere with poison gas for 1 minute. The gas reaches around corners and heavily obscures the area. A creature entirely inside at the start of its turn makes a DC 11 Constitution save. On a failure, it spends its action retching. Poison immunity prevents the effect. Wind of at least 10 mph clears the gas after 4 rounds. Wind of at least 20 mph clears it after 1 round.",
+        "Printed source": "Appendix A, p. 184"
+      },
+      "ruleNotes": [
+        "The Foul Odor entry gives a 20-ft. sphere without specifying radius or diameter."
+      ]
+    }
+  },
+  {
+    "name": "Luma Cleric of Ardea",
+    "decision": "separate",
+    "pages": "Appendix B, p. 201",
+    "notes": "Standalone Humblewood Campaign Setting printing. The printed CR matches the catalog.",
+    "statBlock": {
+      "name": "Luma Cleric of Ardea",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (luma), any good alignment",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "6d6 + 6",
+      "speed": "25 ft.",
+      "cr": "2",
+      "xp": 450,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 14,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Chain shirt. Medicine +7, Persuasion +4, Religion +2. Passive Perception 13. Speaks Birdfolk and one other language. Understands Auran without speaking it.",
+      "description": "An itinerant healer who carries Ardea’s teachings from grove to grove.",
+      "sections": {
+        "Traits": "Fated. Once per long rest, reroll an attack roll, skill check, or saving throw.",
+        "Spellcasting": "5th-level Wisdom spellcaster. Spell save DC 13, +5 to hit.\nCantrips, at will. Light, Sacred Flame, Thaumaturgy.\n1st level, 4 slots. Bless, Cure Wounds, Guiding Bolt.\n2nd level, 3 slots. Lesser Restoration, Spiritual Weapon.\n3rd level, 2 slots. Dispel Magic, Beacon of Hope.",
+        "Actions": "Staff. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 3 (1d6) bludgeoning damage, or 4 (1d8) with two hands.\nArdea’s Vigor (1/day). The cleric and up to three allies within 30 ft. gain 5 (2d4) temporary HP. For 1 minute, each recipient gains 5 temporary HP at the start of each of its turns.\nSongbird. Once per long rest, cast Charm Person using Charisma, save DC 12. This casting needs no somatic components.",
+        "Bonus Actions": "Wing Flap. Rise up to half the creature’s movement speed. This can extend a regular jump and is unavailable while gliding.",
+        "Reactions": "Glide. When falling at least 10 ft., use a reaction to fly in one direction up to the creature’s speed while descending. Land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent this, but the creature can drop held items as part of the reaction.",
+        "Printed source": "Appendix B, p. 201"
+      }
+    }
+  },
+  {
+    "name": "Luma Wizard",
+    "decision": "separate",
+    "pages": "Appendix B, p. 201. Stellar Bodies p. 52.",
+    "notes": "Standalone Humblewood Campaign Setting printing. The printed CR matches the catalog.",
+    "statBlock": {
+      "name": "Luma Wizard",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (luma), any alignment",
+      "ac": 12,
+      "hp": 58,
+      "hitDice": "13d6 + 13",
+      "speed": "25 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 15,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "AC 15 with Mage Armor. Saving throws Int +7, Wis +4. Arcana +7, History +7. Resists poison damage. Passive Perception 11. Speaks Auran, Birdfolk and three other languages.",
+      "description": "An arcane scholar who can turn an incoming attack toward someone else.",
+      "sections": {
+        "Traits": "Fated. Once per long rest, reroll an attack roll, skill check, or saving throw.\nResilience. The wizard makes saving throws against poison with advantage.",
+        "Spellcasting": "10th-level Intelligence spellcaster. Spell save DC 15, +7 to hit.\nCantrips, at will. Chill Touch, Fire Bolt, Minor Illusion, Prestidigitation, Ray of Frost.\n1st level, 4 slots. Charm Person, Detect Magic, Mage Armor, Shield, Sleep, Thunderwave.\n2nd level, 3 slots. Darkness, Hold Person, Ray of Enfeeblement.\n3rd level, 3 slots. Counterspell, Fireball.\n4th level, 3 slots. Banishment, Stellar Bodies.\n5th level, 2 slots. Conjure Elemental, Mislead.\nStellar Bodies. Cast as an action. Two orbiting stars shed dim light to 10 ft. for up to 1 minute. A creature within 5 ft. that hits the wizard in melee makes a DC 15 Wisdom save, taking 1d8 radiant damage per remaining star on a failure. Once per round on the wizard’s turn, use an action to expend one star and make a ranged spell attack (+7 to hit) against an enemy within 120 ft. It deals 4d8 radiant damage on a hit. The target then makes a DC 15 Constitution save or is Blinded until the start of the wizard’s next turn. The spell ends when time runs out, the wizard falls Unconscious, or all stars are spent. Each two slot levels above 4th add one star and 5 ft. to the light radius.",
+        "Actions": "Staff. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d6 - 1) bludgeoning damage.",
+        "Bonus Actions": "Wing Flap. Rise up to half the creature’s movement speed. This can extend a regular jump and is unavailable while gliding.",
+        "Reactions": "Glide. When falling at least 10 ft., use a reaction to fly in one direction up to the creature’s speed while descending. Land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent this, but the creature can drop held items as part of the reaction.\nCharming (3/day). When a creature attacks the wizard, it makes a DC 14 Wisdom save. On a failure, it targets the next closest creature within range, choosing between ties. This has no effect if no other creature is in range.",
+        "Printed source": "Appendix B, p. 201. Stellar Bodies p. 52."
+      }
+    }
+  },
+  {
+    "name": "Mountain Lion",
+    "decision": "separate",
+    "pages": "Appendix A, pp. 184–185. Stat block p. 185.",
+    "notes": "Standalone Humblewood Campaign Setting printing. The printed CR matches the catalog.",
+    "statBlock": {
+      "name": "Mountain Lion",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Beast, unaligned",
+      "ac": 15,
+      "hp": 37,
+      "hitDice": "5d10 + 10",
+      "speed": "40 ft., climb 30 ft.",
+      "cr": "1",
+      "xp": 200,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 3,
+          "modifier": -4
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 6,
+          "modifier": -2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception +4, Stealth +4. Passive Perception 14. No languages.",
+      "description": "A rock-armored ambush hunter from the Crest Mountains. Its roar can bring down the rocks around its prey.",
+      "sections": {
+        "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that rely on smell.\nPounce. After moving at least 20 ft. toward a creature and hitting it with Claw on the same turn, the target makes a DC 13 Strength save or falls Prone.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 8 (1d10 + 3) piercing damage.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage.\nCall Avalanche. Once per short or long rest, while in mountainous terrain, center a rockslide on a visible space within 60 ft. Each creature in its 15-ft. radius makes a DC 12 Dexterity save, taking 13 (3d8) bludgeoning damage on a failure or half on a success.",
+        "Bonus Actions": "Pounce Bite. The mountain lion can make a Bite attack against a Prone target.",
+        "Printed source": "Appendix A, pp. 184–185. Stat block p. 185."
+      }
+    }
+  }
+]

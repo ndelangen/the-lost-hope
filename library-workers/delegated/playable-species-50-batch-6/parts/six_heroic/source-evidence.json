@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Android",
+    "publication": "Book of Heroic Races: Player Races 2",
+    "edition": "Fifth edition compatible",
+    "publisher": "Jon Brazer Enterprises",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      2
+    ],
+    "sourceLocator": "p. 2, Android Racial Traits",
+    "primaryBookPreview": "",
+    "supportingSources": {
+      "publisherRetailDescription": "",
+      "openContentRules": "https://5esrd.old.opengamingnetwork.com/database/race/android/",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "The 2017 publisher preview's second page is printed page 2. It contains all of the Android racial traits, including both subraces, and describes the humanlike build, eyes and conduits. Eda uses the Alchemical option."
+  },
+  {
+    "name": "Gillfolk",
+    "publication": "Book of Heroic Races: Player Races 2",
+    "edition": "Fifth edition compatible",
+    "publisher": "Jon Brazer Enterprises",
+    "creatureType": "Humanoid",
+    "url": "https://5esrd.old.opengamingnetwork.com/database/race/gillfolk/",
+    "printedPages": [],
+    "sourceLocator": "Gillfolk Racial Traits, Deep Sea Gillfolk and Shore Line Gillfolk",
+    "primaryBookPreview": "",
+    "supportingSources": {
+      "publisherRetailDescription": "",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+    },
+    "sourceDistinctions": "The 2017 publisher preview contains printed pp. 1–3. Page 1 identifies Gillfolk and the open-content license covers racial traits and subraces. The preview stops before the Gillfolk trait folios, which remain unverified. The attributed Open Gaming Network trait section explicitly gives Medium size. Its introductory copy contains unrelated text and is not used to infer traits. The build reads advantage against cold as advantage on relevant saving throws. It applies disadvantage from Water Born to eligible action rolls, not saving throws."
+  },
+  {
+    "name": "Tengu",
+    "publication": "Book of Heroic Races: Player Races 1 (2015)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Jon Brazer Enterprises",
+    "creatureType": "Humanoid",
+    "url": "https://5esrd.old.opengamingnetwork.com/database/race/tengus/",
+    "printedPages": [],
+    "sourceLocator": "Tengu Traits, Cosmopolitan Tengus and Nomadic Tengus",
+    "primaryBookPreview": "",
+    "supportingSources": {
+      "licensedConversion": "https://www.fantasygrounds.com/store/product.php?id=JBE04035E",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+    },
+    "sourceDistinctions": "The 2015 publisher preview stops at printed p. 6, with Tengu named on p. 1 and the trait folios outside the preview. The Open Gaming Network reprint cites the original publication and gives both subraces. The licensed Fantasy Grounds listing independently confirms both. Despite its name, the reprinted Gifted Linguist grants an artisan's-tools proficiency for a single daily check. Pell uses Cosmopolitan."
+  }
+]

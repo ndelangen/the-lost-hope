@@ -1,0 +1,14 @@
+[
+  {
+    "id": "beast-588d37a5a259da732d938449",
+    "name": "Insect, Giant Wasp",
+    "base": "monster-44678d0d6a6339a9e68e44ba",
+    "slug": "giant-wasp"
+  },
+  {
+    "id": "beast-38ad703e30d3953e35d795e7",
+    "name": "Insect, Swarm of Insects",
+    "base": "monster-3dda0539047e0c2d32d2056b",
+    "slug": "swarm-of-insects"
+  }
+]

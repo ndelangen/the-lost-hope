@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Advanced Huge Monstrous Crab",
+    "version": {
+      "key": "6298d3aaedc269384a78018a",
+      "publication": "White Plume Mountain (Revised)",
+      "edition": "3.5 edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "22"
+        ],
+        [
+          "Hit points",
+          "107"
+        ],
+        [
+          "Hit dice",
+          "16"
+        ],
+        [
+          "Challenge",
+          "8"
+        ],
+        [
+          "Size",
+          "Huge"
+        ],
+        [
+          "Type",
+          "Vermin (aquatic)"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Initiative",
+          "0"
+        ],
+        [
+          "Touch armor class",
+          "8"
+        ],
+        [
+          "Flat-footed armor class",
+          "22"
+        ],
+        [
+          "Base attack bonus",
+          "12"
+        ],
+        [
+          "Grapple modifier",
+          "32"
+        ],
+        [
+          "Fortitude",
+          "12"
+        ],
+        [
+          "Reflex",
+          "5"
+        ],
+        [
+          "Will",
+          "5"
+        ],
+        [
+          "Str",
+          "26"
+        ],
+        [
+          "Dex",
+          "11"
+        ],
+        [
+          "Con",
+          "14"
+        ],
+        [
+          "Wis",
+          "11"
+        ],
+        [
+          "Cha",
+          "2"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Membrane dome by the boiling lake"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An immense aquatic crab that guards Wave. The encounter gives no shell color or armor."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 60 ft.",
+            "Low-light vision",
+            "Scent"
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Hide -4",
+            "Listen +0",
+            "Spot +4"
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "Mind-affecting effects"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Claw · melee · +18 to hit · reach 15 ft. · 2d6+8",
+            "Full attack: two claws, each · melee · +18 to hit · reach 15 ft. · 2d6+8"
+          ]
+        },
+        {
+          "title": "Special attacks and qualities mechanics",
+          "lines": [
+            "Improved grab · After a claw hit, the crab can attempt a grapple as a free action without provoking attacks of opportunity. A successful check establishes a hold and lets it constrict.",
+            "Constrict · A successful grapple check deals 4d6+8 constrict damage.",
+            "Amphibious · The aquatic crab survives indefinitely on land."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Wave guardian · The 107 HP crab attacks intruders in the membrane dome. While fighting it stays at least 5 feet from the walls whenever possible."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral. Intelligence shown as a dash. Toughness as a bonus feat. Space and reach are both 15 feet.",
+            "White Plume Mountain (2005 D&D 3.5 revision), Area 17, pp. 20–21. The adventure prints this full advanced stat block on p. 21."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Advanced Huge Monstrous Crab": true,
+      "advanced huge monstrous crab wave dome": true
+    },
+    "hash": "87b9579cd34794dcc2fbbc0a349343beb2a598e42db5ba6c7d54adb88c599820",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Large Monstrous Scorpion",
+    "version": {
+      "key": "8ba270eae9044bb899d5ba4a",
+      "publication": "White Plume Mountain (Revised)",
+      "edition": "3.5 edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "16"
+        ],
+        [
+          "Hit points",
+          "32"
+        ],
+        [
+          "Hit dice",
+          "5d8+10"
+        ],
+        [
+          "Challenge",
+          "3"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Vermin"
+        ],
+        [
+          "Speed",
+          "walk 50 ft."
+        ],
+        [
+          "Initiative",
+          "0"
+        ],
+        [
+          "Touch armor class",
+          "9"
+        ],
+        [
+          "Flat-footed armor class",
+          "16"
+        ],
+        [
+          "Base attack bonus",
+          "3"
+        ],
+        [
+          "Grapple modifier",
+          "11"
+        ],
+        [
+          "Fortitude",
+          "6"
+        ],
+        [
+          "Reflex",
+          "1"
+        ],
+        [
+          "Will",
+          "1"
+        ],
+        [
+          "Str",
+          "19"
+        ],
+        [
+          "Dex",
+          "10"
+        ],
+        [
+          "Con",
+          "14"
+        ],
+        [
+          "Wis",
+          "10"
+        ],
+        [
+          "Cha",
+          "2"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Desert Terrace"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large terrestrial scorpion with crushing claws and a stinging tail."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 60 ft.",
+            "Tremorsense 60 ft."
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Climb +8",
+            "Hide +0",
+            "Spot +4"
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "Mind-affecting effects"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Claw · melee · +6 to hit · reach 5 ft. · 1d6+4",
+            "Full attack: two claws, each · melee · +6 to hit · reach 5 ft. · 1d6+4",
+            "Full attack: one sting plus poison · melee · +1 to hit · reach 5 ft. · 1d6+2"
+          ]
+        },
+        {
+          "title": "Base creature rules mechanics",
+          "lines": [
+            "Improved grab · A claw hit allows a free grapple attempt without provoking attacks of opportunity. The scorpion uses the higher of Strength or Dexterity for the grapple check.",
+            "Constrict · A successful grapple check deals 1d6+4 automatic claw damage.",
+            "Sting poison · The sting carries poison. Fortitude DC 14. Both initial and secondary damage are 1d4 Constitution."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Desert Terrace · Encounter Level 6. As soon as a character sets foot on this level, three Large Monstrous Scorpions surround the intruders and attack from all directions. Each has 32 HP. Each scorpion is CR 3.",
+            "Separate a victim · After establishing a grapple, a scorpion that wins another grapple check can pull the target 25 feet from the party as a standard action. Another scorpion can take its place. They fight to the death."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The Large column leaves alignment unstated and shows Intelligence as a dash. No feats listed. Space 10 feet, reach 5 feet.",
+            "Base combat figures are from the 3.5 Monster Manual p. 287, as referenced by the adventure, and match the revised SRD Large Monstrous Scorpion.",
+            "White Plume Mountain (2005 D&D 3.5 revision), Area 26C, p. 27 supplies the encounter’s numbers and tactics."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Large Monstrous Scorpion": true,
+      "large monstrous scorpion desert terrace grapple": true
+    },
+    "hash": "302adb7d33bc59f7751fbeb16e036d63290d4df6897b3779b76c40364d757ebd",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  }
+]

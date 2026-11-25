@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Balor",
+    "statBlock": {
+      "name": "Balor",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 26,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 19,
+      "hp": 287,
+      "hitDice": "23d12 + 138",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 19,
+      "savingThrows": {
+        "Con": 12,
+        "Wis": 9
+      },
+      "skills": {
+        "Perception": 9
+      },
+      "description": "A towering demon fights with a whip of fire and a blade of lightning. It can teleport itself or carry another willing demon out of danger.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+14 (24).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal; telepathy 120 ft.",
+        "Damage resistances": "Cold, lightning.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, Frightened, Poisoned.",
+        "Traits": "Death Throes. The balor explodes when it dies. Every creature within a 30-ft. Emanation from it makes a DC 20 Dexterity save. On a failure, take 31 (9d6) force damage plus 31 (9d6) fire damage. On a success, take half damage. If the balor died outside the Abyss, it immediately gains a new body at full HP somewhere in the Abyss, regardless of the saves.\nFire Aura. At the end of each of the balor's turns, every creature within a 5-ft. Emanation from it takes 13 (3d8) fire damage.\nLegendary Resistance (3/day). The creature can turn a failed saving throw into a success.\nMagic Resistance. Roll saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make one Flame Whip attack and one Lightning Blade attack.\nFlame Whip. Melee attack, +14 to hit, reach 30 ft. A hit deals 18 (3d6 + 8) force damage plus 17 (5d6) fire damage. If the target is a Huge or smaller creature, pull it up to 25 ft. straight toward the balor and knock it Prone.\nLightning Blade. Melee attack, +14 to hit, reach 10 ft. A hit deals 21 (3d8 + 8) force damage plus 22 (4d10) lightning damage. The target cannot take Reactions until the start of the balor's next turn.",
+        "Bonus actions": "Teleport. Teleport the balor or one willing demon within 10 ft. of it up to 60 ft. to an unoccupied space the balor can see.",
+        "Habitats": "Abyss.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 26."
+      }
+    }
+  },
+  {
+    "name": "Pit Fiend",
+    "statBlock": {
+      "name": "Pit Fiend",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 243,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 21,
+      "hp": 337,
+      "hitDice": "27d10 + 189",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 20,
+      "savingThrows": {
+        "Dex": 8,
+        "Wis": 10
+      },
+      "skills": {
+        "Perception": 10,
+        "Persuasion": 19
+      },
+      "description": "A powerful devil batters foes with its mace and claws, leaves a lingering venom with its bite, and overwhelms groups with bursts of hellfire.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+14 (24).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Infernal; telepathy 120 ft.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Diabolical Restoration. Death outside the Nine Hells makes the devil vanish in sulfurous smoke. It immediately gains a new body at full HP somewhere in the Nine Hells.\nFear Aura. While the pit fiend is free of the Incapacitated condition, it projects a 20-ft. Emanation. An enemy that starts its turn in the aura makes a DC 21 Wisdom save. On a failure, it is Frightened until the start of its next turn. On a success, it is immune to this pit fiend's aura for 24 hours.\nLegendary Resistance (4/day). The creature can turn a failed saving throw into a success.\nMagic Resistance. Roll saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make one Bite attack, two Devilish Claw attacks, and one Fiery Mace attack.\nBite. Melee attack, +14 to hit, reach 10 ft. A hit deals 18 (3d6 + 8) piercing damage. A creature hit must make a DC 21 Constitution save. On a failure, it is Poisoned by this bite. While Poisoned this way, it cannot regain HP and takes 21 (6d6) poison damage at the start of each of its turns. It repeats the save at the end of each of its turns, ending the effect on a success. The save succeeds automatically after 1 minute.\nDevilish Claw. Melee attack, +14 to hit, reach 10 ft. A hit deals 26 (4d8 + 8) necrotic damage.\nFiery Mace. Melee attack, +14 to hit, reach 10 ft. A hit deals 22 (4d6 + 8) force damage plus 21 (6d6) fire damage.\nHellfire Spellcasting (recharge 4–6). Cast Fireball twice at level 5. Replace either one of those castings with Hold Monster at level 7 or Wall of Fire if desired. The spells use Charisma, have save DC 21, and require no material components.",
+        "Habitats": "Nine Hells.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 243."
+      }
+    }
+  },
+  {
+    "name": "Erinyes",
+    "statBlock": {
+      "name": "Erinyes",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 114,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "21d8 + 84",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 8,
+        "Cha": 8
+      },
+      "skills": {
+        "Perception": 6,
+        "Persuasion": 8
+      },
+      "description": "An armored, winged devil fights with a withering sword and uses a magic rope to bind its enemies from a distance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Infernal; telepathy 120 ft.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Diabolical Restoration. Death outside the Nine Hells makes the devil vanish in sulfurous smoke. It immediately gains a new body at full HP somewhere in the Nine Hells.\nMagic Resistance. Roll saves against spells and other magical effects with Advantage.\nMagic Rope. The erinyes can use Entangling Rope while bearing its magic rope. The rope has AC 20, 90 HP, and immunity to poison and psychic damage. It crumbles to dust at 0 HP, after spending at least 1 hour at least 5 ft. from the erinyes, or when the erinyes dies. The erinyes can restore the rope in full at the end of a Short or Long Rest if it is damaged or destroyed.",
+        "Actions": "Multiattack. Make three Withering Sword attacks. The erinyes can also use Entangling Rope.\nWithering Sword. Melee attack, +8 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) slashing damage plus 11 (2d10) necrotic damage.\nEntangling Rope (requires Magic Rope). Choose one visible creature within 120 ft. It makes a DC 16 Strength save. On a failure, it takes 14 (4d6) force damage and is Restrained until the rope is destroyed, the erinyes releases it as a Bonus Action, or the erinyes uses Entangling Rope again.",
+        "Reactions": "Parry. When a melee attack roll hits the erinyes while it is holding a weapon, it can add 4 to its AC against that attack. This can turn the hit into a miss.",
+        "Habitats": "Nine Hells.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 114."
+      }
+    }
+  },
+  {
+    "name": "Glabrezu",
+    "statBlock": {
+      "name": "Glabrezu",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 138,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 17,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "skills": {
+        "Deception": 7,
+        "Perception": 7
+      },
+      "description": "A four-armed demon seizes enemies with its pincers, then beats them with its smaller arms or casts a spell.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+6 (16).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal; telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Demonic Restoration. Death outside the Abyss makes the glabrezu dissolve into ichor. It immediately gains a new body at full HP somewhere in the Abyss.\nMagic Resistance. Roll saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two Pincer attacks, and use either Pummel or Spellcasting.\nPincer. Melee attack, +9 to hit, reach 10 ft. A hit deals 16 (2d10 + 5) slashing damage. A Medium or smaller creature hit is also Grappled by one of the glabrezu's two pincers (escape DC 15).\nPummel. Choose one creature Grappled by the glabrezu. It makes a DC 17 Dexterity save, taking 15 (3d6 + 5) bludgeoning damage on a failure or half on a success.",
+        "Spellcasting": "Cast one of the following spells as an action. The spells use Intelligence, have save DC 16, and require no material components.\nAt will. Darkness, Detect Magic, Dispel Magic.\n1/day each. Confusion, Fly, Power Word Stun.",
+        "Habitats": "Abyss.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 138."
+      }
+    }
+  },
+  {
+    "name": "Cambion",
+    "statBlock": {
+      "name": "Cambion",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 65,
+      "classification": "Medium fiend, neutral evil",
+      "ac": 19,
+      "hp": 105,
+      "hitDice": "14d8 + 42",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Str": 7,
+        "Con": 6,
+        "Int": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Deception": 6,
+        "Perception": 4,
+        "Stealth": 7
+      },
+      "description": "This winged fiend fights with its claws or hurls fire from a distance. Its spells let it change appearance, issue commands, and dominate a person.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal; Common; Infernal",
+        "Damage resistances": "Cold, fire, lightning, poison.",
+        "Condition immunities": "Poisoned.",
+        "Actions": "Multiattack. Make two attacks using Claw, Fire Ray, or one of each.\nClaw. Melee attack, +7 to hit, reach 5 ft. A hit deals 8 (1d8 + 4) slashing damage plus 7 (2d6) fire damage.\nFire Ray. Ranged attack, +7 to hit, range 120 ft. A hit deals 13 (3d6 + 3) fire damage.",
+        "Spellcasting": "Cast one of the following spells as an action. The spells use Charisma, have save DC 14, and require no material components.\n2/day each. Alter Self, Command (level 3), Detect Magic.\n1/day each. Dominate Person (level 8), Plane Shift (self only).",
+        "Habitats": "Any.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 65."
+      }
+    }
+  },
+  {
+    "name": "Quasit",
+    "statBlock": {
+      "name": "Quasit",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 252,
+      "classification": "Tiny fiend (demon), chaotic evil",
+      "ac": 13,
+      "hp": 25,
+      "hitDice": "10d4",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "skills": {
+        "Stealth": 5
+      },
+      "description": "A tiny demon poisons foes with its claws, then hides by changing shape or turning invisible.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal; Common",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.",
+        "Actions": "Rend. Melee attack, +5 to hit, reach 5 ft. A hit deals 5 (1d4 + 3) slashing damage and inflicts Poisoned until the start of the quasit's next turn.\nScare (1/day). Choose one creature within 20 ft. It makes a DC 10 Wisdom save. On a failure, it is Frightened. It repeats the save at the end of each of its turns, ending the effect on a success. The save succeeds automatically after 1 minute.\nShape-Shift. The quasit takes the likeness of a bat (walk 10 ft., fly 40 ft.), centipede (walk 40 ft., climb 40 ft.), or toad (walk 40 ft., swim 40 ft.), or it returns to its true form. Only its speed changes. Worn and carried equipment stays as it is.\nInvisibility. Cast Invisibility on itself using Charisma, with no spell components.",
+        "Habitats": "Abyss.",
+        "Printed source": "Monster Manual (2024), p. 252."
+      }
+    }
+  },
+  {
+    "name": "Imp",
+    "statBlock": {
+      "name": "Imp",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 177,
+      "classification": "Tiny fiend (devil), lawful evil",
+      "ac": 13,
+      "hp": 21,
+      "hitDice": "6d4 + 6",
+      "speed": "20 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "skills": {
+        "Deception": 4,
+        "Insight": 3,
+        "Stealth": 5
+      },
+      "description": "A small devil relies on a venomous sting, Invisibility, and unassuming animal forms.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 120 ft. The imp can see through magical Darkness.",
+        "Languages": "Common; Infernal",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.",
+        "Actions": "Sting. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) piercing damage plus 7 (2d6) poison damage.\nShape-Shift. The imp takes the likeness of a rat (walk 20 ft.), raven (walk 20 ft., fly 60 ft.), or spider (walk 20 ft., climb 20 ft.), or it returns to its true form. Only its speed changes. Worn and carried equipment stays as it is.\nInvisibility. Cast Invisibility on itself using Charisma, with no spell components.",
+        "Habitats": "Any.",
+        "Printed source": "Monster Manual (2024), p. 177."
+      }
+    }
+  }
+]

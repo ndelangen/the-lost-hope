@@ -1,0 +1,87 @@
+{
+  "commit": "6bc86f98dafc09d68368326de6c9d226e6f19538",
+  "encounterVersions": 8,
+  "fullStatBlocks": 8,
+  "generatedPortraitsInstalled": 8,
+  "draftsBackedUp": 8,
+  "boxedSetCreatureVersions": 76,
+  "boxedSetVersionsWithoutLocalRules": 0,
+  "boxedSetVersionsWithoutGeneratedPortrait": 0,
+  "allRecentVersionsWithGeneratedPortrait": 439,
+  "visualComparison": "output/dm-library/review/encounters-10-before-after.jpg",
+  "nextSourcePublication": "Mordenkainen's Fiendish Folio Volume 1",
+  "nextVerifiedCandidateNames": [
+    [
+      "Assassin Bug",
+      "https://www.dndbeyond.com/monsters/588524-assassin-bug"
+    ],
+    [
+      "Blindheim",
+      "https://www.dndbeyond.com/monsters/588546-blindheim"
+    ],
+    [
+      "Crab Folk",
+      "https://www.dndbeyond.com/monsters/588563-crab-folk"
+    ],
+    [
+      "Dire Corby",
+      "https://www.dndbeyond.com/monsters/588585-dire-corby"
+    ],
+    [
+      "Eye of Fear and Flame",
+      "https://www.dndbeyond.com/monsters/581278-eye-of-fear-and-flame"
+    ],
+    [
+      "Fog Giant",
+      "https://www.dndbeyond.com/monsters/588647-fog-giant"
+    ],
+    [
+      "Forlarren",
+      "https://www.dndbeyond.com/monsters/588617-forlarren"
+    ],
+    [
+      "Jermlaine",
+      "https://www.dndbeyond.com/monsters/588939-jermlaine"
+    ],
+    [
+      "Khargra",
+      "https://www.dndbeyond.com/monsters/588950-khargra"
+    ],
+    [
+      "Killmoulis",
+      "https://www.dndbeyond.com/monsters/588967-killmoulis"
+    ],
+    [
+      "Mite",
+      "https://www.dndbeyond.com/monsters/588989-mite"
+    ],
+    [
+      "Needle Lord",
+      "https://www.dndbeyond.com/monsters/589010-needle-lord"
+    ],
+    [
+      "Needle Spawn",
+      "https://www.dndbeyond.com/monsters/589001-needle-spawn"
+    ],
+    [
+      "Norker",
+      "https://www.dndbeyond.com/monsters/589016-norker"
+    ],
+    [
+      "Norker War Leader",
+      "https://www.dndbeyond.com/monsters/589025-norker-war-leader"
+    ],
+    [
+      "Screaming Devilkin",
+      "https://www.dndbeyond.com/monsters/589036-screaming-devilkin"
+    ],
+    [
+      "Xill",
+      "https://www.dndbeyond.com/monsters/589081-xill"
+    ],
+    [
+      "Ygorl, Lord of Entropy",
+      "https://www.dndbeyond.com/monsters/589066-ygorl-lord-of-entropy"
+    ]
+  ]
+}

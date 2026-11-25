@@ -1,0 +1,309 @@
+{
+  "builds": [
+    {
+      "id": "a5e-pantheran-tavi-screefoot",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Small",
+      "type": "Humanoid",
+      "title": "Wildkin ravine surveyor, Rogue 1",
+      "difficulty": "Rogue 1",
+      "ac": 15,
+      "hp": 10,
+      "initiative": 3,
+      "speed": "Walk 30 ft., climb 30 ft.",
+      "senses": "Darkvision 120 ft., passive Perception 19.",
+      "languages": "Common, Halfling, Draconic.",
+      "skills": [
+        "Acrobatics +5",
+        "Animal Handling +3",
+        "Athletics +3",
+        "Investigation +2",
+        "Perception +3 plus d4",
+        "Stealth +5",
+        "Survival +3"
+      ],
+      "traits": [
+        "Wildkin, Villager, Outlander, Devotion to keeping the ravine paths open. Outlander gives +1 Con and +1 Dex, Survival, Athletics, herbalism kit and Draconic. Villager gives Animal Handling, Halfling and improvised weapons. Rogue gives Acrobatics, Investigation, Perception, Stealth, disguise kit, poisoner’s kit and thieves’ tools.",
+        "Proficiency +2. Saves Str +1, Dex +5, Con +2, Int +2, Wis +1, Cha −1. AC 12 + 3 Dexterity. HP 8 + 2 Con. Initiative adds a d4 expertise die.",
+        "Observer skill trick adds a d4 to Perception and +3 to passive Perception. Passive Perception 19 includes the ordinary 13, passive expertise +3 and Observer +3. Village Watch adds an expertise die on Perception while keeping watch during a rest. Tall Tales can use Wisdom for History, Nature and Religion, subject to the Narrator’s reliability ruling.",
+        "Advantage on Hunt and Gather and +1 Supply after a successful day. Adds a d4 to escape a grapple and ignores squeezing disadvantage. With a wilderness trade contact, Outlander can barter gathering results for a moderate lifestyle.",
+        "Padded leather is comfortable and has flaw (piercing). The piercing flaw can break the armor on a piercing critical hit. Broken armor halves its AC bonus above unarmored AC.",
+        "Sneak Attack. Add 1d6 weapon damage once per turn on a qualifying finesse or ranged hit with advantage, or when an active enemy of the target is within 5 ft. of it and the attack has no disadvantage.",
+        "Devotion. Earn inspiration for seeing hard duties through. When their Help action aids an ally's attack, they can spend inspiration to hinder the target's attacks against others until their next turn."
+      ],
+      "actions": [
+        "Wildkin claws. Melee weapon attack +5, reach 5 ft., 1d6+3 slashing, finesse. Can make this attack as a bonus action. Only one Sneak Attack can apply per turn.",
+        "Sling. Ranged weapon attack +5, range 30/120 ft., 1d4+3 bludgeoning. Carries 20 bullets."
+      ],
+      "tactics": "Watch from a climbable ledge. Use the sling at normal range if nobody needs immediate help, then move close to a companion and use two chances to land Sneak Attack.",
+      "hitDice": "1d8+2",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      }
+    },
+    {
+      "id": "a5e-pode-sounding-at-first-light",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Mature Pode salvage guardian, Fighter 1",
+      "difficulty": "Fighter 1",
+      "ac": 16,
+      "hp": 12,
+      "initiative": 1,
+      "speed": "Walk 30 ft., swim 30 ft.",
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Aquan, Orc.",
+      "skills": [
+        "Acrobatics +3",
+        "Animal Handling +3",
+        "Athletics +5",
+        "Insight +3",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Mature Pode, Nomad, Sailor, Devotion to the salvage crew. Sailor gives +1 Con and +1 Str, Athletics, Acrobatics, navigator’s tools and water vehicles. Nomad gives Animal Handling, Survival, Nature, land vehicles and tinker’s tools. Fighter gives Insight and Perception.",
+        "Proficiency +2. Saves Str +5, Dex +1, Con +4, Int −1, Wis +1, Cha +0. Hide AC 13 + 1 Dex + 2 shield. HP 10 + 2 Con. Medium. Squeeze through a Small opening without penalty and hold breath 15 minutes. Eight lower tentacles can manipulate objects as an action within 5 ft. and lift, push or drag up to 16 lb.",
+        "Mature Pode adds a d4 to Grab On maneuver DC and to saves against Disarm. Ordinary Grab On DC is 13 before the die. Nomad can forecast mundane weather for 24 hours after one minute outdoors. Sea Salt opens nautical conversation and allows History or Culture checks to identify ships’ current allegiances.",
+        "Stable Footing knack gives advantage on saves and checks to avoid prone or treacherous ground. Subtract 20 ft. from the distance used for fall damage, and land standing.",
+        "Fighter 1 knows Rapid Current and Adamant Mountain, with 4 exertion that refreshes after a short or long rest. Spend a Hit Die and one minute to recover 1d4 exertion early.",
+        "The medium shield contributes +2 AC. As a reaction, sacrifice it to turn a critical hit against you into an ordinary hit. The shield breaks and its AC bonus is lost.",
+        "Devotion. Earn inspiration for seeing hard duties through. When their Help action aids an ally's attack, they can spend inspiration to hinder the target's attacks against others until their next turn."
+      ],
+      "actions": [
+        "Club. Melee weapon attack +5, reach 5 ft., 1d4+3 bludgeoning.",
+        "Color Change, bonus action. Add a d4 to Stealth for one minute while still in those surroundings. End without an action.",
+        "Ink Cloud, action, twice per long rest. Spray a 20-ft. cone. Underwater, it heavily obscures for one minute. On land it is difficult terrain for 2 rounds. In the land cloud, entering or starting a turn there calls for a DC 12 Dex save to avoid falling prone.",
+        "Charge, action for 1 exertion. Move up to 30 ft. straight, then make a melee weapon attack. No Dash on the same turn.",
+        "Lean Into It, action for 2 exertion. Take the Attack action. Each melee weapon hit until the start of your next turn forces a DC 13 Strength save to avoid falling prone.",
+        "Catch Your Breath, bonus action for 2 exertion. Regain 1d6+4 HP up to maximum.",
+        "Protection, reaction. If a visible attacker attacks someone else within 5 ft. of the Pode, impose disadvantage on the attack while wielding the shield."
+      ],
+      "tactics": "Keep the shield beside the most vulnerable diver. Use ink to cover a retreat or slow pursuers, then retreat into the water.",
+      "hitDice": "1d10+2",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      }
+    },
+    {
+      "id": "a5e-shadowcast-nera-chalkthread",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Shadow Walker courier, Rogue 1",
+      "difficulty": "Rogue 1",
+      "ac": 15,
+      "hp": 10,
+      "initiative": 3,
+      "speed": "Walk 30 ft.",
+      "senses": "Darkvision 30 ft., passive Perception 14.",
+      "languages": "Common, Elvish, Dwarvish, Gnomish, Halfling.",
+      "skills": [
+        "Acrobatics +5",
+        "Culture +2",
+        "Deception +3",
+        "History +2",
+        "Insight +4",
+        "Investigation +2",
+        "Perception +4",
+        "Stealth +5 plus d4",
+        "Survival +4"
+      ],
+      "traits": [
+        "Human-counterpart Shadow Walker, Cosmopolitan, Exile, Devotion to delivering a missing traveler’s last letters. Exile gives +1 Wis and +1 Dex, Survival, History, and two languages. Cosmopolitan gives Culture, Stealth and two languages beyond Common. Human Fast Learner adds Insight. Rogue gives Acrobatics, Deception, Investigation and Perception plus disguise kit, poisoner’s kit and thieves’ tools.",
+        "Proficiency +2. Saves Str −1, Dex +5, Con +2, Int +2, Wis +2, Cha +1. AC 12 + 3 Dex. HP 8 + 2 Con.",
+        "Fast Learner halves the downtime to train in armor, tool or weapon use. Intrepid adds one d4 to an ability check, attack or save, once per short or long rest. Fellow Traveler adds a d4 to Persuasion against others away from their birthplace.",
+        "Hide in the Shadows adds a d4 to Stealth and lets Nera hide in dim light from creatures without darkvision. A searcher trying to enter her space reveals her. Discreetly Armed adds expertise for hiding a weapon or persuading someone to let her retain it. Urban Denizen can locate someone or find a clue with DC 15 Investigation, or DC 20 if they are hiding.",
+        "Padded leather is comfortable and has flaw (piercing). The piercing flaw can break the armor on a piercing critical hit. Broken armor halves its AC bonus above unarmored AC.",
+        "Sneak Attack. Add 1d6 weapon damage once per turn on a qualifying finesse or ranged hit with advantage, or when an active enemy of the target is within 5 ft. of it and the attack has no disadvantage.",
+        "Devotion. Earn inspiration for seeing hard duties through. When their Help action aids an ally's attack, they can spend inspiration to hinder the target's attacks against others until their next turn."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5, reach 5 ft., 1d8+3 piercing, finesse. The defensive property requires a shield and Nera carries none.",
+        "Shadow Teleport, bonus action, twice per long rest. When in dim light or darkness, teleport to a visible empty square within 15 ft."
+      ],
+      "tactics": "Try to gain a witness before drawing steel. Teleport out of sight and hide in dim light, or use Intrepid on a decisive roll if caught.",
+      "hitDice": "1d8+2",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 12
+      }
+    },
+    {
+      "id": "a5e-spiderfolk-rell-threadwick",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Spiderling passage sentry, Fighter 1",
+      "difficulty": "Fighter 1",
+      "ac": 17,
+      "hp": 12,
+      "initiative": 3,
+      "speed": "Walk 30 ft., climb 30 ft.",
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Elvish, Undercommon.",
+      "skills": [
+        "Acrobatics +5",
+        "Animal Handling +3",
+        "Intimidation +1",
+        "Investigation +2",
+        "Perception +3"
+      ],
+      "traits": [
+        "Spiderling, Villager, Guard, Devotion to keeping the waystation open. Guard gives +1 Str and +1 Dex, Intimidation, Investigation and a language. Villager gives Animal Handling, another language, improvised weapon proficiency and a watchkeeping Perception expertise die. Fighter gives Acrobatics and Perception.",
+        "Proficiency +2. Saves Str +4, Dex +3, Con +4, Int +0, Wis +1, Cha −1. Chitin AC 12 + 3 Dex + 2 shield. HP 10 + 2 Con. Wears a travel jerkin as clothing, leaving chitin defense active. Webs do not impede him.",
+        "Add a d4 on Str- and Dex-based skill checks when all arms work together. Alternatively add a simultaneous object or tool task. Extra arms can perform a spell’s seen component but provide neither shield use nor extra attacks. Use primary arms for shield and shortsword.",
+        "Nightwatch knack allows two extra hours of light activity during a long rest, one of which can be strenuous near the campsite. Guard’s Natural Authority sometimes prompts civilians to defer to him. Dueling adds +2 shortsword damage while no other weapon is wielded.",
+        "Fighter 1 knows Rapid Current and Adamant Mountain, with 4 exertion that refreshes after a short or long rest. Spend a Hit Die and one minute to recover 1d4 exertion early.",
+        "The medium shield contributes +2 AC. As a reaction, sacrifice it to turn a critical hit against you into an ordinary hit. The shield breaks and its AC bonus is lost.",
+        "Devotion. Earn inspiration for seeing hard duties through. When their Help action aids an ally's attack, they can spend inspiration to hinder the target's attacks against others until their next turn."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +5, reach 5 ft., 1d6+5 slashing, finesse. While using the medium shield, after making a shortsword attack he can use a bonus action for +1 AC until the start of his next turn. Parrying is unavailable with a shield.",
+        "Charge, action for 1 exertion. Move up to 30 ft. straight, then make a melee weapon attack. No Dash on the same turn.",
+        "Lean Into It, action for 2 exertion. Take the Attack action. Each melee weapon hit until the start of your next turn forces a DC 13 Strength save to avoid falling prone.",
+        "Catch Your Breath, bonus action for 2 exertion. Regain 1d6+4 HP up to maximum."
+      ],
+      "tactics": "Stay between the customers and a threat. Climb onto a beam to avoid being surrounded and use his sword and shield to hold off pursuit.",
+      "hitDice": "1d10+2",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      }
+    },
+    {
+      "id": "a5e-zevite-selka-amberwake",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Hopeful Zevite mediator, Rogue 1",
+      "difficulty": "Rogue 1",
+      "ac": 14,
+      "hp": 9,
+      "initiative": 2,
+      "speed": "Walk 30 ft.",
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Celestial, Deep Speech, Elvish.",
+      "skills": [
+        "Acrobatics +4",
+        "Culture +2",
+        "Deception +5",
+        "Insight +3",
+        "Investigation +2 plus d4",
+        "Perception +3",
+        "Persuasion +5",
+        "Stealth +4"
+      ],
+      "traits": [
+        "Hopeful markings and Foresight gift, Cosmopolitan, Trader, Devotion to brokering safe trade between feuding crews. Trader gives +1 Cha and +1 Dex, Persuasion, Insight, water vehicles and Elvish. Cosmopolitan gives Culture, Perception and two languages beyond Common. Rogue gives Acrobatics, Deception, Investigation and Stealth plus disguise kit, poisoner’s kit and thieves’ tools.",
+        "Proficiency +2. Saves Str −1, Dex +4, Con +1, Int +2, Wis +1, Cha +3. AC 12 + 2 Dex. HP 8 + 1 Con. Resist psychic damage. Telepathy to a visible creature within 30 ft. requires a shared language for words. It also conveys one emotion at a time without a shared language.",
+        "Trader increases the sale price of trade goods in a destination that needs them by 10% per 100 miles from origin, capped at 50%. Urban Denizen can locate someone or find a clue with DC 15 Investigation, or DC 20 if they are hiding. Quick Scan adds a d4 to Investigation and allows Search as a bonus action.",
+        "Padded leather is comfortable and has flaw (piercing). The piercing flaw can break the armor on a piercing critical hit. Broken armor halves its AC bonus above unarmored AC.",
+        "Sneak Attack. Add 1d6 weapon damage once per turn on a qualifying finesse or ranged hit with advantage, or when an active enemy of the target is within 5 ft. of it and the attack has no disadvantage.",
+        "Devotion. Earn inspiration for seeing hard duties through. When their Help action aids an ally's attack, they can spend inspiration to hinder the target's attacks against others until their next turn."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +4, reach 5 ft., 1d6+2 slashing. Finesse. Without a shield, apply parrying expertise to AC against one visible attacker’s melee attack before Selka’s next turn, unless incapacitated, paralyzed, rattled, restrained or stunned.",
+        "Hopeful markings, bonus action, once per short or long rest. Gold marks give a d4 to Persuasion and disadvantage on Insight for one minute. Sight-based Perception to notice Selka has advantage. Ending the effect early costs a bonus action.",
+        "Glimpse the Future, action, once per short or long rest. Ask whether a planned action within the next minute is good, bad or neutral. Requesting a cryptic vision instead costs one strife and leaves the ordinary use unspent."
+      ],
+      "tactics": "Use Foresight before making terms, then light her markings to negotiate. If fighting starts, draw the shortsword and hold a position an ally can reach.",
+      "hitDice": "1d8+1",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 16
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Tavi Screefoot",
+      "species": "Pantheran",
+      "speciesPublication": "Gate Pass Gazette #28",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-pantheran-tavi-screefoot",
+      "role": "Mark and maintain a mountain crossing before the new survey crew arrives.",
+      "motive": "Have her routes accepted on their own merits.",
+      "hook": "Someone has rotated her trail markers toward a ravine with a washed-out footbridge."
+    },
+    {
+      "name": "Sounding-at-First-Light",
+      "species": "Pode",
+      "speciesPublication": "Gate Pass Gazette #9",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-pode-sounding-at-first-light",
+      "role": "Collect and return endangered salvage crews.",
+      "motive": "Recover the names of people whose markers washed away.",
+      "hook": "The wreck’s bell is ringing from below, but their crew’s diving line was cut at the surface."
+    },
+    {
+      "name": "Nera Chalkthread",
+      "species": "Shadowcast",
+      "speciesPublication": "Gate Pass Gazette #23",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-shadowcast-nera-chalkthread",
+      "role": "Deliver letters that followed her through a Bleak Gate crossing.",
+      "motive": "Finish an obligation that her counterpart abandoned.",
+      "hook": "The letters’ recipients swear they heard Nera answer their doors last week."
+    },
+    {
+      "name": "Rell Threadwick",
+      "species": "Spiderfolk",
+      "speciesPublication": "Gate Pass Gazette #3",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-spiderfolk-rell-threadwick",
+      "role": "Guard the pulley bridge through a webbed ravine.",
+      "motive": "Keep traders coming without allowing them to tear up the village’s silk lines.",
+      "hook": "A pulley begins lowering a loaded cart by itself each night."
+    },
+    {
+      "name": "Selka Amberwake",
+      "species": "Zevite",
+      "speciesPublication": "Gate Pass Gazette #13",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-zevite-selka-amberwake",
+      "role": "Carry messages safely between ships that refuse to meet directly.",
+      "motive": "Keep cautious new crews from inheriting their predecessors’ feuds.",
+      "hook": "Her next unlikely delivery will let two captains speak, but only one of them knows the meeting is happening."
+    }
+  ]
+}

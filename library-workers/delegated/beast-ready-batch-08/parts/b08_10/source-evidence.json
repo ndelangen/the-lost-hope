@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Kruthik Hatchling",
+    "kind": "beast",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "printing": "2009 revision, 71-page Wizards H1 ",
+    "publisher": "Wizards of the Coast",
+    "printedHeading": "6 Kruthik Hatchlings (H)",
+    "section": "Area 10, Kruthik Lair",
+    "printedPages": [
+      46,
+      47
+    ],
+    "statBlockPage": 46,
+    "pdfPage": 46,
+    "viewerPages": [
+      46,
+      47
+    ],
+    "sourceUrl": "",
+    "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+    "sourceNotes": [
+      "The stat block gives 1 HP and omits a bloodied value. A missed attack never damages the hatchling."
+    ],
+    "matchingPageNumbering": "One-based pages and printed folios match at the cited pages.",
+    "level": 2,
+    "role": "Minion",
+    "xp": 31,
+    "printedInitiative": 4,
+    "printedBloodied": null,
+    "defenses": {
+      "AC": 15,
+      "Fortitude": 13,
+      "Reflex": 15,
+      "Will": 12
+    },
+    "powersRecharge": "No recharge power in the printed block. The listed attack is at-will.",
+    "appearanceEvidence": "The p. 46 read-aloud describes six-limbed reptilian creatures with silver chitin, four scythelike limbs, two smaller limbs, a short tail and serrated mandibles. The search description follows the reused portrait. Its smaller inner limb pair is not clearly visible.",
+    "habitatEvidence": "The text places the hive under Shadowfell Keep and describes burrows between the chambers. The tags are editorial labels for this printed encounter site.",
+    "artworkSource": "indexed:images/beasts/kruthik-hatchling/parchment-portrait.webp",
+    "artworkSha256": "cd06c7118ae734ffed5a18103dc8c105ce6f85c73f88bebbf4bfec36d99607b4"
+  },
+  {
+    "name": "Kruthik Young",
+    "kind": "beast",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "printing": "2009 revision, 71-page Wizards H1 ",
+    "publisher": "Wizards of the Coast",
+    "printedHeading": "3 Kruthik Young (Y)",
+    "section": "Area 10, Kruthik Lair",
+    "printedPages": [
+      46,
+      47
+    ],
+    "statBlockPage": 46,
+    "pdfPage": 46,
+    "viewerPages": [
+      46,
+      47
+    ],
+    "sourceUrl": "",
+    "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+    "sourceNotes": [
+      "The young’s burrow 2 lacks the tunneling annotation printed for the hatchling. The area’s separate tunnel rule still allows the young to move through the existing lair tunnels at full speed.",
+      "The encounter tactic refers to the adult’s toxic spikes. The young can use its own Claw and aura."
+    ],
+    "matchingPageNumbering": "One-based pages and printed folios match at the cited pages.",
+    "level": 2,
+    "role": "Brute",
+    "xp": 125,
+    "printedInitiative": 4,
+    "printedBloodied": 21,
+    "defenses": {
+      "AC": 15,
+      "Fortitude": 13,
+      "Reflex": 14,
+      "Will": 11
+    },
+    "powersRecharge": "No recharge power in the printed block. The listed attack is at-will.",
+    "appearanceEvidence": "The p. 46 read-aloud describes six-limbed reptilian creatures with silver chitin, four scythelike limbs, two smaller limbs, a short tail and serrated mandibles. The search description follows the reused portrait, which emphasizes four visible main limbs.",
+    "habitatEvidence": "The text places the hive under Shadowfell Keep and describes burrows between the chambers. The tags are editorial labels for this printed encounter site.",
+    "artworkSource": "indexed:images/beasts/kruthik-young/parchment-portrait.webp",
+    "artworkSha256": "d0c0f1ab6c4adde5beb22052640a2f6bb90bac8293a9a1f734c4e53373176cc5"
+  },
+  {
+    "name": "Rat Swarm",
+    "kind": "beast",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "printing": "2009 revision, 71-page Wizards H1 ",
+    "publisher": "Wizards of the Coast",
+    "printedHeading": "Rat Swarm (R)",
+    "section": "Area 1, Goblin Guard Room",
+    "printedPages": [
+      28,
+      29
+    ],
+    "statBlockPage": 28,
+    "pdfPage": 28,
+    "viewerPages": [
+      28,
+      29
+    ],
+    "sourceUrl": "",
+    "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+    "sourceNotes": [],
+    "matchingPageNumbering": "One-based pages and printed folios match at the cited pages.",
+    "level": 2,
+    "role": "Skirmisher",
+    "xp": 125,
+    "printedInitiative": 6,
+    "printedBloodied": 18,
+    "defenses": {
+      "AC": 15,
+      "Fortitude": 12,
+      "Reflex": 14,
+      "Will": 11
+    },
+    "powersRecharge": "No recharge power in the printed block. The listed attack is at-will.",
+    "appearanceEvidence": "Page 28 describes a swarm of hungry rats under the trap canvas. The exact color and stacked composition are editorial details from the reused portrait.",
+    "habitatEvidence": "Pages 28–29 place these hungry rats in a hidden pit in the goblin guard room. The tags describe the printed encounter site.",
+    "artworkSource": "beast-ready-batch-07/reused-portraits/rat-swarm.webp",
+    "artworkSha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5"
+  }
+]

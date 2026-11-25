@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Dire Wolf",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 37,
+    "hitDice": "5d10 + 10",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3 and Stealth +4. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy gray wolf with a broad muzzle, thick shoulders, large paws, and a low bushy tail.",
+    "habitats": [
+      "Forest",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 123. ",
+      "Traits": "Keen Hearing and Smell. Apply advantage on Wisdom (Perception) checks based on either hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if an ally of the wolf is within 5 ft. of the target and is not incapacitated.",
+      "Actions": "Bite. +5 to hit in melee, reach 5 ft., one target. Hit for 10 (2d6 + 3) piercing damage. A creature hit by Bite must pass a DC 13 Strength save or fall prone."
+    }
+  },
+  {
+    "name": "Dire Wolf",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 37,
+    "hitDice": "5d10 + 10",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3 and Stealth +4. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy gray wolf with a broad muzzle, thick shoulders, large paws, and a low bushy tail.",
+    "habitats": [
+      "Forest",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 321. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
+      "Traits": "Keen Hearing and Smell. Apply advantage on Wisdom (Perception) checks based on either hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if an ally of the wolf is within 5 ft. of the target and is not incapacitated.",
+      "Actions": "Bite. +5 to hit in melee, reach 5 ft., one target. Hit for 10 (2d6 + 3) piercing damage. A creature hit by Bite must pass a DC 13 Strength save or fall prone."
+    }
+  },
+  {
+    "name": "Draft Horse",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy bay workhorse with a broad chest, dark mane and tail, and pale feathering at the fetlocks.",
+    "habitats": [
+      "Urban",
+      "Farms",
+      "Trade roads"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 124. ",
+      "Actions": "Hooves. +6 to hit in melee, reach 5 ft., one target. Hit for 9 (2d4 + 4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Draft Horse",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy bay workhorse with a broad chest, dark mane and tail, and pale feathering at the fetlocks.",
+    "habitats": [
+      "Urban",
+      "Farms",
+      "Trade roads"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 321. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
+      "Actions": "Hooves. +6 to hit in melee, reach 5 ft., one target. Hit for 9 (2d4 + 4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Flying Snake",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 14,
+    "hp": 5,
+    "hitDice": "2d4",
+    "speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Blindsight 10 ft. Passive Perception 11. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small jade-green serpent with muted gold banding and a pair of tapered reptilian wings.",
+    "habitats": [
+      "Remote jungle",
+      "Forest",
+      "Grassland",
+      "Desert",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 128. ",
+      "Traits": "Flyby. Leaving an enemy’s reach while flying does not provoke an opportunity attack from that enemy.",
+      "Actions": "Bite. +6 to hit in melee, reach 5 ft., one target. Hit for 1 piercing damage and 7 (3d4) poison damage. The poison is part of the hit and has no saving throw."
+    }
+  },
+  {
+    "name": "Flying Snake",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 14,
+    "hp": 5,
+    "hitDice": "2d4",
+    "speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Blindsight 10 ft. Passive Perception 11. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small jade-green serpent with muted gold banding and a pair of tapered reptilian wings.",
+    "habitats": [
+      "Remote jungle",
+      "Forest",
+      "Grassland",
+      "Desert",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 322. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page323.html",
+      "Traits": "Flyby. Leaving an enemy’s reach while flying does not provoke an opportunity attack from that enemy.",
+      "Actions": "Bite. +6 to hit in melee, reach 5 ft., one target. Hit for 1 piercing damage and 7 (3d4) poison damage. The poison is part of the hit and has no saving throw."
+    }
+  }
+]

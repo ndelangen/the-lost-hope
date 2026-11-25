@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Ape",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      219,
+      232
+    ],
+    "page": "p. 219, Ape Traits. p. 232, Giant Ape cross-reference.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The v2 Giant Ape entry directly refers back to the Ape trait block. The portrait and NPC use the ordinary Ape form.",
+      "Rock is presented as a ranged weapon attack with the thrown property and no melee profile. For this encounter, treat the species attack as proficient and use Dexterity for its ranged rolls."
+    ],
+    "npcExamples": [
+      "Flint Palm"
+    ],
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Awakened Tree",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Plant",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      220
+    ],
+    "page": "p. 220 in v2. Traits under Awakened Tree.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The printed traits use Small size and a 1d6 slam. Medium size, added natural armor and a larger damage die appear in the design discussion and were excluded.",
+      "V2 p. 7 reserves the monk’s bonus strike for a conventional unarmed blow. Split Willow kicks with a root, using the monk die."
+    ],
+    "npcExamples": [
+      "Split Willow"
+    ]
+  },
+  {
+    "name": "Baboon",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      221
+    ],
+    "page": "p. 221 in v2. Baboon Traits.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The player trait block gives the bite 1d6 slashing instead of the smaller die in the design discussion. It does not qualify as a finesse weapon.",
+      "No Hands does not appear in the baboon’s trait block. Spindle uses an ordinary shortbow under the core rules for Small creatures."
+    ],
+    "npcExamples": [
+      "Spindle"
+    ],
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Badger",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      221
+    ],
+    "page": "p. 221 in v2. Badger Traits.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The printed block is Small even though the design discussion describes a Tiny creature.",
+      "Giant Badger has a separate player block and is outside this profile."
+    ],
+    "npcExamples": [
+      "Ashsnout"
+    ]
+  },
+  {
+    "name": "Bat",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      222
+    ],
+    "page": "p. 222 in v2. Bats Traits.",
+    "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The v2 player traits give 30 ft. of walking speed. The design discussion gives 5 ft.",
+      "Giant Bat is a separate player profile. Swarm of Bats has separate encounter rules or uses the supplement’s swarm template. Eavespin is an individual Tiny Beast."
+    ],
+    "npcExamples": [
+      "Eavespin"
+    ]
+  }
+]

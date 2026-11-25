@@ -10,7 +10,7 @@ import { copyFile, mkdir, readFile, rename, stat, writeFile } from 'node:fs/prom
 import { availableParallelism, homedir } from 'node:os'
 import { dirname, extname, join } from 'node:path'
 
-import { RESPONSIVE_IMAGE_SOURCES } from '../image-sources.ts'
+import { ORIGINAL_IMAGE_SOURCES, RESPONSIVE_IMAGE_SOURCES } from '../image-sources.ts'
 
 export const ROOT = process.cwd()
 export const LOCK_PATH = 'assets/images.lock.json'
@@ -23,7 +23,7 @@ export type Lock = Record<string, LockEntry>
 
 /** Every registered original, in registry order. */
 export const registeredPaths = (): string[] => [
-  ...new Set(RESPONSIVE_IMAGE_SOURCES.map((source) => source.repositoryPath)),
+  ...new Set(ORIGINAL_IMAGE_SOURCES.map((source) => source.repositoryPath)),
 ]
 
 /** Raster files that belong in R2 rather than git; `assets/images/app/` icons stay in git. */
@@ -242,12 +242,14 @@ export type PullResult = { restored: string[]; edited: string[]; failed: string[
  * shared store, which downloads from R2 only what it lacks. A file edited locally is never
  * overwritten: it is reported, and `media:sync` uploads it.
  */
-export async function pullOriginals(): Promise<PullResult> {
+export async function pullOriginals(
+  paths: readonly string[] = registeredPaths(),
+): Promise<PullResult> {
   const lock = await readLock()
   const synced = await readSynced()
   const result: PullResult = { restored: [], edited: [], failed: [] }
 
-  const registered = new Set(registeredPaths())
+  const registered = new Set(paths)
   await eachLimited(
     Object.keys(lock).filter((path) => registered.has(path)),
     async (path) => {
@@ -300,10 +302,11 @@ export async function recordSynced(uploaded: Lock): Promise<void> {
  */
 export async function requireOriginals(): Promise<void> {
   const lock = await readLock()
-  const { restored, edited, failed } = await pullOriginals()
+  const paths = RESPONSIVE_IMAGE_SOURCES.map((source) => source.repositoryPath)
+  const { restored, edited, failed } = await pullOriginals(paths)
   if (restored.length > 0) console.log(`Fetched ${restored.length} originals into this checkout`)
 
-  const unlocked = registeredPaths().filter((path) => !lock[path])
+  const unlocked = paths.filter((path) => !lock[path])
   const problems = [
     ...failed.map((line) => `  could not fetch ${line}`),
     ...edited.map((path) => `  ${path} differs from ${LOCK_PATH}`),

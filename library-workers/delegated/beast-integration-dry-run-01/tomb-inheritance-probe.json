@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "scope": [
+        "Brontosaurus",
+        "Tomb of Annihilation",
+        "2014 fifth edition"
+      ],
+      "placement": "alternate",
+      "printedPage": 215
+    },
+    {
+      "scope": [
+        "Quetzalcoatlus",
+        "Tomb of Annihilation",
+        "2014 fifth edition"
+      ],
+      "placement": "alternate",
+      "printedPage": 230
+    }
+  ],
+  "inheritanceResolutions": [
+    {
+      "target": [
+        "Brontosaurus",
+        "Tomb of Annihilation",
+        "2014 fifth edition"
+      ],
+      "owner": [
+        "Brontosaurus",
+        "Volo's Guide to Monsters",
+        "2014 fifth edition"
+      ],
+      "oldSource": "https://www.dndbeyond.com/monsters/17239-brontosaurus",
+      "newSource": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs#Brontosaurus",
+      "printedPage": 215,
+      "earlierPrintingPage": 139,
+      "encounterPage": 197
+    },
+    {
+      "target": [
+        "Quetzalcoatlus",
+        "Tomb of Annihilation",
+        "2014 fifth edition"
+      ],
+      "owner": [
+        "Quetzalcoatlus",
+        "Volo's Guide to Monsters",
+        "2014 fifth edition"
+      ],
+      "oldSource": "https://www.dndbeyond.com/monsters/17242-quetzalcoatlus",
+      "newSource": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs#Quetzalcoatlus",
+      "printedPage": 230,
+      "earlierPrintingPage": 140,
+      "encounterPage": 198
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+[
+  {
+    "name": "Grung",
+    "statBlock": {
+      "name": "Grung",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "This grung represents a typical hunter or warrior. Grungs can also serve as mercenaries, game wardens, guards, or bandits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe both air and water.\nPoisonous Skin. A creature that grapples the grung or touches its bare skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once out of contact, it can repeat the save at the end of each of its turns to end the condition on a success.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically, with or without a running start.\nWater Dependency. At the end of any day when the grung has spent less than 1 hour immersed in water, it gains one level of exhaustion. It can recover from that exhaustion only through magic or at least 1 hour of immersion.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage and 5 (2d4) poison damage.",
+        "Optional Grung poison mechanics": "If using this option, choose the grung’s color. A creature poisoned by the grung also suffers that color’s effect for as long as that poisoning lasts.\nBlue. The poisoned creature must make a loud noise at the start and end of each of its turns.\nGold. The poisoned creature is charmed by the grung and can speak Grung.\nGreen. The poisoned creature can move only by climbing or standing jumps. While flying, it cannot take actions or reactions unless it lands.\nOrange. The poisoned creature is frightened of its allies.\nPurple. The poisoned creature can move or act only to soak itself in liquid or mud or to reach a place where it can do so.\nRed. If food is within reach, the poisoned creature must use its action to eat.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 149."
+      }
+    }
+  },
+  {
+    "name": "Grung (Blue)",
+    "statBlock": {
+      "name": "Grung (Blue)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "This grung represents a typical hunter or warrior. Grungs can also serve as mercenaries, game wardens, guards, or bandits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe both air and water.\nPoisonous Skin. A creature that grapples the grung or touches its bare skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once out of contact, it can repeat the save at the end of each of its turns to end the condition on a success.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically, with or without a running start.\nWater Dependency. At the end of any day when the grung has spent less than 1 hour immersed in water, it gains one level of exhaustion. It can recover from that exhaustion only through magic or at least 1 hour of immersion.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage and 5 (2d4) poison damage.",
+        "Optional Grung poison mechanics": "If using this option, apply the blue effect for as long as the creature remains poisoned by this grung. The poisoned creature must make a loud noise at the start and end of each of its turns.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 149."
+      }
+    }
+  },
+  {
+    "name": "Grung (Gold)",
+    "statBlock": {
+      "name": "Grung (Gold)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "This grung represents a typical hunter or warrior. Grungs can also serve as mercenaries, game wardens, guards, or bandits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe both air and water.\nPoisonous Skin. A creature that grapples the grung or touches its bare skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once out of contact, it can repeat the save at the end of each of its turns to end the condition on a success.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically, with or without a running start.\nWater Dependency. At the end of any day when the grung has spent less than 1 hour immersed in water, it gains one level of exhaustion. It can recover from that exhaustion only through magic or at least 1 hour of immersion.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage and 5 (2d4) poison damage.",
+        "Optional Grung poison mechanics": "If using this option, apply the gold effect for as long as the creature remains poisoned by this grung. The poisoned creature is charmed by the grung and can speak Grung.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 149."
+      }
+    }
+  },
+  {
+    "name": "Grung (Green)",
+    "statBlock": {
+      "name": "Grung (Green)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "This grung represents a typical hunter or warrior. Grungs can also serve as mercenaries, game wardens, guards, or bandits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe both air and water.\nPoisonous Skin. A creature that grapples the grung or touches its bare skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once out of contact, it can repeat the save at the end of each of its turns to end the condition on a success.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically, with or without a running start.\nWater Dependency. At the end of any day when the grung has spent less than 1 hour immersed in water, it gains one level of exhaustion. It can recover from that exhaustion only through magic or at least 1 hour of immersion.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage and 5 (2d4) poison damage.",
+        "Optional Grung poison mechanics": "If using this option, apply the green effect for as long as the creature remains poisoned by this grung. The poisoned creature can move only by climbing or standing jumps. While flying, it cannot take actions or reactions unless it lands.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 149."
+      }
+    }
+  },
+  {
+    "name": "Grung (Orange)",
+    "statBlock": {
+      "name": "Grung (Orange)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "This grung represents a typical hunter or warrior. Grungs can also serve as mercenaries, game wardens, guards, or bandits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe both air and water.\nPoisonous Skin. A creature that grapples the grung or touches its bare skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once out of contact, it can repeat the save at the end of each of its turns to end the condition on a success.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically, with or without a running start.\nWater Dependency. At the end of any day when the grung has spent less than 1 hour immersed in water, it gains one level of exhaustion. It can recover from that exhaustion only through magic or at least 1 hour of immersion.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage and 5 (2d4) poison damage.",
+        "Optional Grung poison mechanics": "If using this option, apply the orange effect for as long as the creature remains poisoned by this grung. The poisoned creature is frightened of its allies.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 149."
+      }
+    }
+  },
+  {
+    "name": "Grung (Purple)",
+    "statBlock": {
+      "name": "Grung (Purple)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "This grung represents a typical hunter or warrior. Grungs can also serve as mercenaries, game wardens, guards, or bandits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe both air and water.\nPoisonous Skin. A creature that grapples the grung or touches its bare skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once out of contact, it can repeat the save at the end of each of its turns to end the condition on a success.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically, with or without a running start.\nWater Dependency. At the end of any day when the grung has spent less than 1 hour immersed in water, it gains one level of exhaustion. It can recover from that exhaustion only through magic or at least 1 hour of immersion.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage and 5 (2d4) poison damage.",
+        "Optional Grung poison mechanics": "If using this option, apply the purple effect for as long as the creature remains poisoned by this grung. The poisoned creature can move or act only to soak itself in liquid or mud or to reach a place where it can do so.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 149."
+      }
+    }
+  },
+  {
+    "name": "Grung (Red)",
+    "statBlock": {
+      "name": "Grung (Red)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "This grung represents a typical hunter or warrior. Grungs can also serve as mercenaries, game wardens, guards, or bandits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe both air and water.\nPoisonous Skin. A creature that grapples the grung or touches its bare skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once out of contact, it can repeat the save at the end of each of its turns to end the condition on a success.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically, with or without a running start.\nWater Dependency. At the end of any day when the grung has spent less than 1 hour immersed in water, it gains one level of exhaustion. It can recover from that exhaustion only through magic or at least 1 hour of immersion.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage and 5 (2d4) poison damage.",
+        "Optional Grung poison mechanics": "If using this option, apply the red effect for as long as the creature remains poisoned by this grung. If food is within reach, the poisoned creature must use its action to eat.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 149."
+      }
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Camel, Cavalry",
+    "entryId": "beast-a6a8333a8f15784c93b7c37d",
+    "versionKey": "4d79fa7c05f68dae55936e72",
+    "file": "",
+    "previewAsset": "images/players-guide-2-beast-drafts/cavalry-camel.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "08b0422f73b2faece20ced3049920d0fcf69edf2581e4447bace1a35b1ef9840",
+    "selection": "revised draft",
+    "previousSha256": "49d256d261f429fab2b5a5a1253dfaeaa0ccbee9cf33bddd604f2fd90fde96f2"
+  },
+  {
+    "name": "Hound, Hunting",
+    "entryId": "beast-fb478e8c798f2eee5ba2e26f",
+    "versionKey": "ead3d069a28db4b74aa91ccd",
+    "file": "",
+    "previewAsset": "images/players-guide-2-beast-drafts/hunting-hound.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a9018e3619dde13e86b7837587da1710198c1204daec8f0829044e0b6112bd8e",
+    "selection": "revised draft",
+    "previousSha256": "59b2e12b37e24b5e6304d616ca3cbf2d213320bf92daac5046b9764253c29533"
+  },
+  {
+    "name": "Oliphant Warbeast",
+    "entryId": "beast-62059d921279d86f24ede4c5",
+    "versionKey": "3ada03a4bd438f88402f0685",
+    "file": "",
+    "previewAsset": "images/players-guide-2-beast-drafts/oliphant-warbeast.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4de27ef553a1564051de16dcef4eb598eb60856825f9be25ad572f3416449675",
+    "selection": "revised draft",
+    "previousSha256": "f74dc5ef2ea94d2e0082d25a91e820c19fa903bbc1f160ba0fed4e7080801c82"
+  },
+  {
+    "name": "Pig, War",
+    "entryId": "beast-3905d2fb20251aaacfbbc145",
+    "versionKey": "f84af1c5b308c3ca512861a6",
+    "file": "",
+    "previewAsset": "images/players-guide-2-beast-drafts/war-pig.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b407c6e5db13606af722b20e50fdff4a7a7ef1d0ccb190683c8818b0bae445a9",
+    "selection": "revised draft",
+    "previousSha256": "acec5c7ebef435b9bc7561088c88b46b1f92659a34a9a732beb20a201ab5a520"
+  },
+  {
+    "name": "Pigeon, Homing",
+    "entryId": "beast-57e8e7ab6a22e3277dc7defe",
+    "versionKey": "46b46146b25de417cff99c0c",
+    "file": "",
+    "previewAsset": "images/players-guide-2-beast-drafts/homing-pigeon.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6b2f5ce7ab490794c9a5b413f35e96dc3d62a464c3d49226e879f97e9cf87278",
+    "selection": "revised draft",
+    "previousSha256": "ba9670f5e30a284ef9223829feeb4193f70319987f5ed689e37c532a0e47e5b3"
+  }
+]

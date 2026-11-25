@@ -1,0 +1,2420 @@
+{
+  "baseline": "42d31ef6c0311180e64587f11a46216d7bd857d5",
+  "profiles": 50,
+  "generatedPortraits": 0,
+  "reusedExistingPortraits": 50,
+  "entries": [
+    {
+      "owner": "b09_01",
+      "name": "Allosaurus",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "allosaurus",
+      "reuse_source": "beast-ready-batch-04/parts/b04_01/portraits/allosaurus.png",
+      "reuse_sha256": "bfd45c756e4462c0cb89ab8a54f979592b9dd7fa3a276313976d48994bc322f8",
+      "runtime_file": "images/beast-ready-batch-04/allosaurus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5194879-allosaurus",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/allosaurus.png",
+        "sha256": "bfd45c756e4462c0cb89ab8a54f979592b9dd7fa3a276313976d48994bc322f8",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Allosaurus",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+        "printedPage": 348,
+        "printedPages": [
+          348
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5194879-allosaurus",
+        "url": "https://www.dndbeyond.com/monsters/5194879-allosaurus",
+        "publisherByline": "Monster Manual, pg. 348",
+        "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+        "mechanicsNotes": [
+          "The extra Bite is part of the qualifying Claws attack resolution. The publisher provides no saving throw for Prone and no Bonus Action cost."
+        ],
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "habitatEvidence": "Habitat terms come from the publisher creature page.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-04/parts/b04_01/portraits/allosaurus.png",
+          "sha256": "bfd45c756e4462c0cb89ab8a54f979592b9dd7fa3a276313976d48994bc322f8"
+        }
+      }
+    },
+    {
+      "owner": "b09_01",
+      "name": "Ankylosaurus",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "ankylosaurus",
+      "reuse_source": "beast-ready-batch-04/parts/b04_01/portraits/ankylosaurus.png",
+      "reuse_sha256": "12e17f9424f85b5b94a6a614b0a2a967e54f34f1ac5b23ad1c732c391733dc89",
+      "runtime_file": "images/beast-ready-batch-04/ankylosaurus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5194898-ankylosaurus",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "reused-portraits/ankylosaurus.png",
+        "sha256": "12e17f9424f85b5b94a6a614b0a2a967e54f34f1ac5b23ad1c732c391733dc89",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Ankylosaurus",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+        "printedPage": 348,
+        "printedPages": [
+          348
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5194898-ankylosaurus",
+        "url": "https://www.dndbeyond.com/monsters/5194898-ankylosaurus",
+        "publisherByline": "Monster Manual, pg. 348",
+        "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+        "mechanicsNotes": [
+          "Strength’s printed save is +6. A qualifying Tail hit applies Prone without a saving throw."
+        ],
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "habitatEvidence": "Habitat terms come from the publisher creature page.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-04/parts/b04_01/portraits/ankylosaurus.png",
+          "sha256": "12e17f9424f85b5b94a6a614b0a2a967e54f34f1ac5b23ad1c732c391733dc89"
+        }
+      }
+    },
+    {
+      "owner": "b09_01",
+      "name": "Ape",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "ape",
+      "reuse_source": "beast-ready-batch-02/parts/b02_01/portraits/ape.png",
+      "reuse_sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2",
+      "runtime_file": "images/beast-ready-batch-02/ape.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775801-ape",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/ape.png",
+        "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Ape",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+        "printedPage": 348,
+        "printedPages": [
+          348
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775801-ape",
+        "url": "https://www.dndbeyond.com/monsters/4775801-ape",
+        "publisherByline": "Monster Manual, pg. 348",
+        "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+        "mechanicsNotes": [
+          "D&D Beyond gives Monster Manual p. 348 for this public entry. The Rock recharge and damage belong to this modern block."
+        ],
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "habitatEvidence": "Habitat terms come from the publisher creature page.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_01/portraits/ape.png",
+          "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2"
+        },
+        "rechargeRulesUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster#LimitedUsage",
+        "sharedPublicationCrossCheck": "The secondary 5etools index cross-references Player’s Handbook (2024) p. 346. The official handbook table of contents lists Appendix B, Creature Stat Blocks, and the linked chapter requires access. The verified source for this entry is the public Monster Manual p. 348 stat block.",
+        "playerHandbookContents": "https://www.dndbeyond.com/sources/dnd/phb-2024"
+      }
+    },
+    {
+      "owner": "b09_01",
+      "name": "Archelon",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "archelon",
+      "reuse_source": "indexed:images/monsters/archelon/parchment-portrait.webp",
+      "reuse_sha256": "5d765deaf5a395bd20a1e156250dc3d88290cd29393019cf8b143e92b2c046ee",
+      "runtime_file": "images/monsters/archelon/parchment-portrait.webp",
+      "rules_url": "https://www.dndbeyond.com/monsters/5194901-archelon",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "reused-portraits/archelon.webp",
+        "sha256": "5d765deaf5a395bd20a1e156250dc3d88290cd29393019cf8b143e92b2c046ee",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Archelon",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+        "printedPage": 349,
+        "printedPages": [
+          349
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5194901-archelon",
+        "url": "https://www.dndbeyond.com/monsters/5194901-archelon",
+        "publisherByline": "Monster Manual, pg. 349",
+        "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+        "mechanicsNotes": [
+          "The updated book classifies the archelon as a Beast with the Dinosaur tag."
+        ],
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "habitatEvidence": "Habitat terms come from the publisher creature page.",
+        "reusedPortrait": {
+          "source": "indexed:images/monsters/archelon/parchment-portrait.webp",
+          "sha256": "5d765deaf5a395bd20a1e156250dc3d88290cd29393019cf8b143e92b2c046ee"
+        }
+      }
+    },
+    {
+      "owner": "b09_01",
+      "name": "Baboon",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "baboon",
+      "reuse_source": "beast-ready-batch-02/parts/b02_02/portraits/baboon.png",
+      "reuse_sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd",
+      "runtime_file": "images/beast-ready-batch-02/baboon.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5194910-baboon",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/baboon.png",
+        "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Baboon",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+        "printedPage": 349,
+        "printedPages": [
+          349
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5194910-baboon",
+        "url": "https://www.dndbeyond.com/monsters/5194910-baboon",
+        "publisherByline": "Monster Manual, pg. 349",
+        "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+        "mechanicsNotes": [],
+        "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+        "habitatEvidence": "Habitat terms come from the publisher creature page.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_02/portraits/baboon.png",
+          "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd"
+        }
+      }
+    },
+    {
+      "owner": "b09_02",
+      "name": "Badger",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "badger",
+      "reuse_source": "beast-ready-batch-02/parts/b02_02/portraits/badger.png",
+      "reuse_sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+      "runtime_file": "images/beast-ready-batch-02/badger.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775802-badger",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/badger.png",
+        "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Badger",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775802-badger",
+        "url": "https://www.dndbeyond.com/monsters/4775802-badger",
+        "printedPages": [
+          349
+        ],
+        "section": "Appendix A, Animals",
+        "publisherByline": "Monster Manual, pg. 349",
+        "relatedRules": [
+          {
+            "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+            "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+          }
+        ],
+        "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+        "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+        "appearanceEvidence": "Editorial description of the reused square portrait.",
+        "artGroup": "badger",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_02/portraits/badger.png",
+        "portraitReuseSha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+        "mechanicsNotes": [
+          "Poison is a damage resistance. The entry gives no condition immunity."
+        ]
+      }
+    },
+    {
+      "owner": "b09_02",
+      "name": "Bat",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "bat",
+      "reuse_source": "beast-ready-batch-02/parts/b02_01/portraits/bat.png",
+      "reuse_sha256": "166fc642f25c5e161871ef22d9c1575aa8c20d306d23f3528e0da795e7286ac0",
+      "runtime_file": "images/beast-ready-batch-02/bat.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775803-bat",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/bat.png",
+        "sha256": "166fc642f25c5e161871ef22d9c1575aa8c20d306d23f3528e0da795e7286ac0",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bat",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775803-bat",
+        "url": "https://www.dndbeyond.com/monsters/4775803-bat",
+        "printedPages": [
+          349
+        ],
+        "section": "Appendix A, Animals",
+        "publisherByline": "Monster Manual, pg. 349",
+        "relatedRules": [
+          {
+            "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+            "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+          }
+        ],
+        "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+        "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+        "appearanceEvidence": "Editorial description of the reused square portrait.",
+        "artGroup": "bat",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_01/portraits/bat.png",
+        "portraitReuseSha256": "166fc642f25c5e161871ef22d9c1575aa8c20d306d23f3528e0da795e7286ac0",
+        "mechanicsNotes": [
+          "The dedicated entry gives Bite +4 and Blindsight 60 ft. It gives no standalone Echolocation trait."
+        ]
+      }
+    },
+    {
+      "owner": "b09_02",
+      "name": "Black Bear",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "black-bear",
+      "reuse_source": "beast-ready-batch-04/parts/b04_01/portraits/black-bear.png",
+      "reuse_sha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+      "runtime_file": "images/beast-ready-batch-04/black-bear.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775804-black-bear",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/black-bear.png",
+        "sha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Black Bear",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775804-black-bear",
+        "url": "https://www.dndbeyond.com/monsters/4775804-black-bear",
+        "printedPages": [
+          349
+        ],
+        "section": "Appendix A, Animals",
+        "publisherByline": "Monster Manual, pg. 349",
+        "relatedRules": [
+          {
+            "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+            "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+          }
+        ],
+        "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+        "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+        "appearanceEvidence": "Editorial description of the reused square portrait.",
+        "artGroup": "black-bear",
+        "portraitReuseSource": "beast-ready-batch-04/parts/b04_01/portraits/black-bear.png",
+        "portraitReuseSha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+        "mechanicsNotes": [
+          "The walk, climb and swim speeds are each 30 ft. Multiattack uses Rend twice. Perception is +5 as published."
+        ]
+      }
+    },
+    {
+      "owner": "b09_02",
+      "name": "Blood Hawk",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "blood-hawk",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+      "reuse_sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+      "runtime_file": "images/beast-ready-batch-04/blood-hawk.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5194927-blood-hawk",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/blood-hawk.png",
+        "sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Blood Hawk",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5194927-blood-hawk",
+        "url": "https://www.dndbeyond.com/monsters/5194927-blood-hawk",
+        "printedPages": [
+          350
+        ],
+        "section": "Appendix A, Animals",
+        "publisherByline": "Monster Manual, pg. 350",
+        "relatedRules": [
+          {
+            "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+            "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+          }
+        ],
+        "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+        "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+        "appearanceEvidence": "Editorial description of the reused square portrait.",
+        "artGroup": "blood-hawk",
+        "portraitReuseSource": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+        "portraitReuseSha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+        "mechanicsNotes": [
+          "Bloodied changes the Beak damage total. Pack Tactics checks the ally’s distance from the target. Perception is +6 as published."
+        ]
+      }
+    },
+    {
+      "owner": "b09_02",
+      "name": "Boar",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "boar",
+      "reuse_source": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+      "reuse_sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+      "runtime_file": "images/beast-ready-batch-02/boar.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775805-boar",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/boar.png",
+        "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Boar",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775805-boar",
+        "url": "https://www.dndbeyond.com/monsters/4775805-boar",
+        "printedPages": [
+          350
+        ],
+        "section": "Appendix A, Animals",
+        "publisherByline": "Monster Manual, pg. 350",
+        "relatedRules": [
+          {
+            "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+            "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+          }
+        ],
+        "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+        "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+        "appearanceEvidence": "Editorial description of the reused square portrait.",
+        "artGroup": "boar",
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+        "portraitReuseSha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+        "mechanicsNotes": [
+          "Gore’s extra damage and Prone apply on the qualifying hit without a separate save. Bloodied Fury affects attack rolls while the boar is Bloodied."
+        ]
+      }
+    },
+    {
+      "owner": "b09_03",
+      "name": "Brown Bear",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "brown-bear",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/brown-bear.png",
+      "reuse_sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+      "runtime_file": "images/beast-ready-batch-04/brown-bear.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/brown-bear.png",
+        "sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Brown Bear",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 rules)",
+        "printedPages": [
+          350
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 350. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+        "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 347. This rules overlay follows the publisher’s Monster Manual byline.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+        "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+        "printingNotes": [
+          "Neither official modern Monster Manual errata listing changes this entry.",
+          "Claw imposes Prone on a hit against an eligible creature without a saving throw."
+        ]
+      }
+    },
+    {
+      "owner": "b09_03",
+      "name": "Camel",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "camel",
+      "reuse_source": "beast-ready-batch-02/parts/b02_04/portraits/camel.png",
+      "reuse_sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd",
+      "runtime_file": "images/beast-ready-batch-02/camel.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775807-camel",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/camel.png",
+        "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Camel",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 rules)",
+        "printedPages": [
+          351
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775807-camel",
+        "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 351. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+        "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 347. This rules overlay follows the publisher’s Monster Manual byline.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+        "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+        "printingNotes": [
+          "Neither official modern Monster Manual errata listing changes this entry.",
+          "Constitution save is +5. The printed Initiative is −1 (9)."
+        ]
+      }
+    },
+    {
+      "owner": "b09_03",
+      "name": "Cat",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "cat",
+      "reuse_source": "beast-ready-batch-02/parts/b02_05/portraits/cat.png",
+      "reuse_sha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+      "runtime_file": "images/beast-ready-batch-02/cat.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775808-cat",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/cat.png",
+        "sha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Cat",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 rules)",
+        "printedPages": [
+          351
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775808-cat",
+        "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 351. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+        "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 347. This rules overlay follows the publisher’s Monster Manual byline.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+        "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+        "printingNotes": [
+          "Neither official modern Monster Manual errata listing changes this entry.",
+          "Dexterity save is +4. Jumper is printed under Traits."
+        ]
+      }
+    },
+    {
+      "owner": "b09_03",
+      "name": "Constrictor Snake",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "constrictor-snake",
+      "reuse_source": "beast-ready-batch-04/parts/b04_02/portraits/constrictor-snake.png",
+      "reuse_sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+      "runtime_file": "images/beast-ready-batch-04/constrictor-snake.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775809-constrictor-snake",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/constrictor-snake.png",
+        "sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Constrictor Snake",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 rules)",
+        "printedPages": [
+          351
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775809-constrictor-snake",
+        "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 351. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+        "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 348. This rules overlay follows the publisher’s Monster Manual byline.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+        "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+        "printingNotes": [
+          "Neither official modern Monster Manual errata listing changes this entry.",
+          "Constrict is a saving throw action. Its printed failure applies Grappled and lists no additional Restrained effect or success effect."
+        ]
+      }
+    },
+    {
+      "owner": "b09_03",
+      "name": "Crab",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "crab",
+      "reuse_source": "beast-ready-batch-02/parts/b02_02/portraits/crab.png",
+      "reuse_sha256": "69ff170a4280d382c521c0b2e631ef0563dad74e9046fc30929e8f992d5d5b8f",
+      "runtime_file": "images/beast-ready-batch-02/crab.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775810-crab",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/crab.png",
+        "sha256": "69ff170a4280d382c521c0b2e631ef0563dad74e9046fc30929e8f992d5d5b8f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Crab",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025 release, 2024 rules)",
+        "printedPages": [
+          351
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775810-crab",
+        "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 351. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+        "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 348. This rules overlay follows the publisher’s Monster Manual byline.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+        "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+        "printingNotes": [
+          "Neither official modern Monster Manual errata listing changes this entry."
+        ]
+      }
+    },
+    {
+      "owner": "b09_04",
+      "name": "Crocodile",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "crocodile",
+      "reuse_source": "beast-ready-batch-02/parts/b02_06/portraits/crocodile.png",
+      "reuse_sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+      "runtime_file": "images/beast-ready-batch-02/crocodile.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775811-crocodile",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/crocodile.png",
+        "sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Crocodile",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+        "printedPages": [
+          352
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775811-crocodile",
+        "url": "https://www.dndbeyond.com/monsters/4775811-crocodile",
+        "publisherByline": "Monster Manual, pg. 352",
+        "operationalEvidence": "The publisher entry supplies the 1-hour Hold Breath, Constitution save +3, and size-limited Bite grapple and restraint. The general 2024 Grappling rule supplies jaw occupancy and the ways to end the grapple.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+        "supportingRulesUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Grappling",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "habitatEvidence": "Habitat tags from the publisher stat block.",
+        "artGroup": "crocodile",
+        "reuseSha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a"
+      }
+    },
+    {
+      "owner": "b09_04",
+      "name": "Deer",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "deer",
+      "reuse_source": "beast-ready-batch-02/parts/b02_03/portraits/deer.png",
+      "reuse_sha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242",
+      "runtime_file": "images/beast-ready-batch-02/deer.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5194966-deer",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/deer.png",
+        "sha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Deer",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+        "printedPages": [
+          352
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5194966-deer",
+        "url": "https://www.dndbeyond.com/monsters/5194966-deer",
+        "publisherByline": "Monster Manual, pg. 352",
+        "operationalEvidence": "The publisher entry gives the Agile movement exception, Constitution 11, and the 1d4 Ram without a damage modifier.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+        "sourceDiscrepancies": "D&D Beyond renders Deer’s sense as “Darkvision 60”. The matching XMM index transcription for p. 352 includes feet. The profile restores that unit.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "habitatEvidence": "Habitat tags from the publisher stat block.",
+        "artGroup": "deer",
+        "reuseSha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242"
+      }
+    },
+    {
+      "owner": "b09_04",
+      "name": "Dire Wolf",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "dire-wolf",
+      "reuse_source": "beast-ready-batch-04/parts/b04_03/portraits/dire-wolf.png",
+      "reuse_sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+      "runtime_file": "images/beast-ready-batch-04/dire-wolf.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775812-dire-wolf",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/dire-wolf.png",
+        "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Dire Wolf",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+        "printedPages": [
+          352
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775812-dire-wolf",
+        "url": "https://www.dndbeyond.com/monsters/4775812-dire-wolf",
+        "publisherByline": "Monster Manual, pg. 352",
+        "operationalEvidence": "The Bite hit directly applies Prone to a Large or smaller creature. Pack Tactics needs an ally within 5 ft. of the target who lacks Incapacitated.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "habitatEvidence": "Habitat tags from the publisher stat block.",
+        "artGroup": "dire-wolf",
+        "reuseSha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c"
+      }
+    },
+    {
+      "owner": "b09_04",
+      "name": "Draft Horse",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "draft-horse",
+      "reuse_source": "beast-ready-batch-04/parts/b04_03/portraits/draft-horse.png",
+      "reuse_sha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+      "runtime_file": "images/beast-ready-batch-04/draft-horse.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775813-draft-horse",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/draft-horse.png",
+        "sha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Draft Horse",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+        "printedPages": [
+          352
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775813-draft-horse",
+        "url": "https://www.dndbeyond.com/monsters/4775813-draft-horse",
+        "publisherByline": "Monster Manual, pg. 352",
+        "operationalEvidence": "The publisher block gives one Hooves action, +6 to hit and 1d4 + 4 damage. Urban is the listed habitat.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "habitatEvidence": "Habitat tags from the publisher stat block.",
+        "artGroup": "draft-horse",
+        "reuseSha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c"
+      }
+    },
+    {
+      "owner": "b09_04",
+      "name": "Eagle",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "eagle",
+      "reuse_source": "beast-ready-batch-02/parts/b02_03/portraits/eagle.png",
+      "reuse_sha256": "5afbbb2846bbd876b515e7226034b341d8a78d7f425145451029812c5babc65b",
+      "runtime_file": "images/beast-ready-batch-02/eagle.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5194979-eagle",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/eagle.png",
+        "sha256": "5afbbb2846bbd876b515e7226034b341d8a78d7f425145451029812c5babc65b",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Eagle",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+        "printedPages": [
+          353
+        ],
+        "section": "Appendix A, Animals",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5194979-eagle",
+        "url": "https://www.dndbeyond.com/monsters/5194979-eagle",
+        "publisherByline": "Monster Manual, pg. 353",
+        "operationalEvidence": "The publisher block has Talons +4 to hit, Perception +6 and Passive Perception 16. Its senses line lists only Passive Perception.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+        "appearanceEvidence": "Editorial description of the verified reused portrait.",
+        "habitatEvidence": "Habitat tags from the publisher stat block.",
+        "artGroup": "eagle",
+        "reuseSha256": "5afbbb2846bbd876b515e7226034b341d8a78d7f425145451029812c5babc65b"
+      }
+    },
+    {
+      "owner": "b09_05",
+      "name": "Elephant",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "elephant",
+      "reuse_source": "beast-ready-batch-02/parts/b02_03/portraits/elephant.png",
+      "reuse_sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+      "runtime_file": "images/beast-ready-batch-02/elephant.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775814-elephant",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "reused-portraits/elephant.png",
+        "sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Elephant",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2025 release of the Monster Manual for the 2024 rules",
+        "printedPages": [
+          353
+        ],
+        "sourceByline": "Monster Manual, pg. 353",
+        "url": "https://www.dndbeyond.com/monsters/4775814-elephant",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdf": "",
+        "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+        "appearanceSource": "Editorial description of the selected reused portrait.",
+        "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing."
+      }
+    },
+    {
+      "owner": "b09_05",
+      "name": "Elk",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "elk",
+      "reuse_source": "beast-ready-batch-02/parts/b02_07/portraits/elk.png",
+      "reuse_sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+      "runtime_file": "images/beast-ready-batch-02/elk.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775815-elk",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/elk.png",
+        "sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Elk",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2025 release of the Monster Manual for the 2024 rules",
+        "printedPages": [
+          353
+        ],
+        "sourceByline": "Monster Manual, pg. 353",
+        "url": "https://www.dndbeyond.com/monsters/4775815-elk",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdf": "",
+        "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+        "appearanceSource": "Editorial description of the selected reused portrait.",
+        "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing."
+      }
+    },
+    {
+      "owner": "b09_05",
+      "name": "Frog",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "frog",
+      "reuse_source": "beast-ready-batch-02/parts/b02_04/portraits/frog.png",
+      "reuse_sha256": "2d8bb529958ace2d23046d6f813e49205cd13da686988305fee08900411ca0a5",
+      "runtime_file": "images/beast-ready-batch-02/frog.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775816-frog",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/frog.png",
+        "sha256": "2d8bb529958ace2d23046d6f813e49205cd13da686988305fee08900411ca0a5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Frog",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2025 release of the Monster Manual for the 2024 rules",
+        "printedPages": [
+          354
+        ],
+        "sourceByline": "Monster Manual, pg. 354",
+        "url": "https://www.dndbeyond.com/monsters/4775816-frog",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdf": "",
+        "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+        "appearanceSource": "Editorial description of the selected reused portrait.",
+        "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing."
+      }
+    },
+    {
+      "owner": "b09_05",
+      "name": "Giant Ape",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "7",
+      "art_group": "giant-ape",
+      "reuse_source": "beast-ready-batch-04/parts/b04_04/portraits/giant-ape.png",
+      "reuse_sha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024",
+      "runtime_file": "images/beast-ready-batch-04/giant-ape.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195010-giant-ape",
+      "printed_cr": "7",
+      "portrait": {
+        "file": "reused-portraits/giant-ape.png",
+        "sha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Ape",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2025 release of the Monster Manual for the 2024 rules",
+        "printedPages": [
+          354
+        ],
+        "sourceByline": "Monster Manual, pg. 354",
+        "url": "https://www.dndbeyond.com/monsters/5195010-giant-ape",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdf": "",
+        "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+        "appearanceSource": "Editorial description of the selected reused portrait.",
+        "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing.",
+        "supportingRulesUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster"
+      }
+    },
+    {
+      "owner": "b09_05",
+      "name": "Giant Badger",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-badger",
+      "reuse_source": "beast-ready-batch-04/parts/b04_04/portraits/giant-badger.png",
+      "reuse_sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+      "runtime_file": "images/beast-ready-batch-04/giant-badger.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775817-giant-badger",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-badger.png",
+        "sha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Badger",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2025 release of the Monster Manual for the 2024 rules",
+        "printedPages": [
+          354
+        ],
+        "sourceByline": "Monster Manual, pg. 354",
+        "url": "https://www.dndbeyond.com/monsters/4775817-giant-badger",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdf": "",
+        "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+        "appearanceSource": "Editorial description of the selected reused portrait.",
+        "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing."
+      }
+    },
+    {
+      "owner": "b09_06",
+      "name": "Giant Bat",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-bat",
+      "reuse_source": "beast-ready-batch-04/parts/b04_04/portraits/giant-bat.png",
+      "reuse_sha256": "c50887fca84051934f81adda8f1fc1424fbc769e860eb76a1d4024502f95b045",
+      "runtime_file": "images/beast-ready-batch-04/giant-bat.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195012-giant-bat",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-bat.png",
+        "sha256": "c50887fca84051934f81adda8f1fc1424fbc769e860eb76a1d4024502f95b045",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Bat",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          355
+        ],
+        "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/5195012-giant-bat",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/5195012-giant-bat",
+        "byline": "Monster Manual, pg. 355",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195012-giant-bat",
+        "sourceDistinctions": [
+          "The modern block has 120-ft. Blindsight and no separate Echolocation or Keen Hearing trait.",
+          "The current official Monster Manual errata and its v1.0 list no change for this creature."
+        ]
+      }
+    },
+    {
+      "owner": "b09_06",
+      "name": "Giant Boar",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-boar",
+      "reuse_source": "beast-ready-batch-04/parts/b04_05/portraits/giant-boar.png",
+      "reuse_sha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+      "runtime_file": "images/beast-ready-batch-04/giant-boar.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195013-giant-boar",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/giant-boar.png",
+        "sha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Boar",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          355
+        ],
+        "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/5195013-giant-boar",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/5195013-giant-boar",
+        "byline": "Monster Manual, pg. 355",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195013-giant-boar",
+        "sourceDistinctions": [
+          "Strength save is +5. The charge effects happen on a qualifying hit without a saving throw.",
+          "The current official Monster Manual errata and its v1.0 list no change for this creature."
+        ],
+        "supportingRules": [
+          {
+            "heading": "Bloodied",
+            "url": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Bloodied"
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b09_06",
+      "name": "Giant Centipede",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-centipede",
+      "reuse_source": "beast-ready-batch-04/parts/b04_05/portraits/giant-centipede.png",
+      "reuse_sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+      "runtime_file": "images/beast-ready-batch-04/giant-centipede.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195014-giant-centipede",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-centipede.png",
+        "sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Centipede",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          355
+        ],
+        "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/5195014-giant-centipede",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/5195014-giant-centipede",
+        "byline": "Monster Manual, pg. 355",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195014-giant-centipede",
+        "sourceDistinctions": [
+          "The modern Poisoned rider applies on the hit. It gives no separate save, poison damage, paralysis or 0-HP stabilization rider.",
+          "The current official Monster Manual errata and its v1.0 list no change for this creature."
+        ]
+      }
+    },
+    {
+      "owner": "b09_06",
+      "name": "Giant Constrictor Snake",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "giant-constrictor-snake",
+      "reuse_source": "beast-ready-batch-04/parts/b04_05/portraits/giant-constrictor-snake.png",
+      "reuse_sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+      "runtime_file": "images/beast-ready-batch-04/giant-constrictor-snake.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/giant-constrictor-snake.png",
+        "sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Constrictor Snake",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          355
+        ],
+        "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake",
+        "byline": "Monster Manual, pg. 355",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake",
+        "sourceDistinctions": [
+          "Constrict uses a Strength save and applies Grappled on a failure. There is no additional Restrained condition or explicit one-target cap.",
+          "The current official Monster Manual errata and its v1.0 list no change for this creature."
+        ]
+      }
+    },
+    {
+      "owner": "b09_06",
+      "name": "Giant Crab",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-crab",
+      "reuse_source": "beast-ready-batch-04/parts/b04_06/portraits/giant-crab.png",
+      "reuse_sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+      "runtime_file": "images/beast-ready-batch-04/giant-crab.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775818-giant-crab",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/giant-crab.png",
+        "sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Crab",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          356
+        ],
+        "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/4775818-giant-crab",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/4775818-giant-crab",
+        "byline": "Monster Manual, pg. 356",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/4775818-giant-crab",
+        "sourceDistinctions": [
+          "The roster monster URL lists Monster Manual p. 356, and the publisher also reproduces the matching stat block in its 2024 Basic Rules. The row uses the Monster Manual byline. The 5etools index additionally points to the 2024 Player’s Handbook p. 350 as a secondary cross-reference.",
+          "The current official Monster Manual errata and its v1.0 list no change for this creature."
+        ],
+        "supportingRules": [
+          {
+            "heading": "Giant Crab, matching 2024 Basic Rules web block",
+            "url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#GiantCrab"
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b09_07",
+      "name": "Giant Crocodile",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "giant-crocodile",
+      "reuse_source": "beast-ready-batch-04/parts/b04_06/portraits/giant-crocodile.png",
+      "reuse_sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b",
+      "runtime_file": "images/beast-ready-batch-04/giant-crocodile.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195016-giant-crocodile",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "reused-portraits/giant-crocodile.png",
+        "sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Crocodile",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual with the 2024 rules, released in 2025. Current publisher digital text.",
+        "section": "Appendix A, Animals",
+        "printedPages": [
+          356
+        ],
+        "sourceHeading": "Giant Crocodile",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195016-giant-crocodile",
+        "url": "https://www.dndbeyond.com/monsters/5195016-giant-crocodile",
+        "publisherByline": "Monster Manual, pg. 356",
+        "operationalEvidence": "Hold Breath lasts one hour. Multiattack includes one attack of each kind. Bite restrains a qualifying creature while held and excludes it from Tail. Tail knocks a qualifying target Prone on a hit.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The publisher’s version 1.0 errata does not list an update for this creature.",
+        "habitatEvidence": "The publisher stat block lists Coastal, Swamp.",
+        "appearanceEvidence": "Editorial description based on the verified reused portrait.",
+        "artGroup": "giant-crocodile",
+        "artworkSource": "beast-ready-batch-04/parts/b04_06/portraits/giant-crocodile.png",
+        "reuseSha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b"
+      }
+    },
+    {
+      "owner": "b09_07",
+      "name": "Giant Fire Beetle",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "giant-fire-beetle",
+      "reuse_source": "beast-ready-batch-04/parts/b04_07/portraits/giant-fire-beetle.png",
+      "reuse_sha256": "47a8ac3d770c6807dbce160373c8b7dc38a34c6cb8a9d053572da11e72767006",
+      "runtime_file": "images/beast-ready-batch-04/giant-fire-beetle.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195019-giant-fire-beetle",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/giant-fire-beetle.png",
+        "sha256": "47a8ac3d770c6807dbce160373c8b7dc38a34c6cb8a9d053572da11e72767006",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Fire Beetle",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual with the 2024 rules, released in 2025. Current publisher digital text.",
+        "section": "Appendix A, Animals",
+        "printedPages": [
+          357
+        ],
+        "sourceHeading": "Giant Fire Beetle",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195019-giant-fire-beetle",
+        "url": "https://www.dndbeyond.com/monsters/5195019-giant-fire-beetle",
+        "publisherByline": "Monster Manual, pg. 357",
+        "operationalEvidence": "The stat block gives a 30-ft. climb speed, fire resistance, 30-ft. Blindsight, and a flat 1 fire damage on a Bite hit.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The publisher’s version 1.0 errata does not list an update for this creature.",
+        "habitatEvidence": "The publisher stat block lists Underdark.",
+        "appearanceEvidence": "Editorial description based on the verified reused portrait.",
+        "artGroup": "giant-fire-beetle",
+        "artworkSource": "beast-ready-batch-04/parts/b04_07/portraits/giant-fire-beetle.png",
+        "reuseSha256": "47a8ac3d770c6807dbce160373c8b7dc38a34c6cb8a9d053572da11e72767006"
+      }
+    },
+    {
+      "owner": "b09_07",
+      "name": "Giant Frog",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-frog",
+      "reuse_source": "beast-ready-batch-04/parts/b04_07/portraits/giant-frog.png",
+      "reuse_sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+      "runtime_file": "images/beast-ready-batch-04/giant-frog.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195020-giant-frog",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-frog.png",
+        "sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Frog",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual with the 2024 rules, released in 2025. Current publisher digital text.",
+        "section": "Appendix A, Animals",
+        "printedPages": [
+          357
+        ],
+        "sourceHeading": "Giant Frog",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195020-giant-frog",
+        "url": "https://www.dndbeyond.com/monsters/5195020-giant-frog",
+        "publisherByline": "Monster Manual, pg. 357",
+        "operationalEvidence": "Bite grapples targets up to Medium. The separate Swallow action takes a target up to Small that is already grappled. Its acid damage applies at the end of the frog’s next turn, followed by expulsion if the target survives.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The publisher’s version 1.0 errata for p. 357 changes the original +4 Bite attack bonus to +3. The digital stat block reflects the correction and retains Stealth +4 and Bite damage of 5 (1d6 + 2).",
+        "habitatEvidence": "The publisher stat block lists Forest, Swamp.",
+        "appearanceEvidence": "Editorial description based on the verified reused portrait.",
+        "artGroup": "giant-frog",
+        "artworkSource": "beast-ready-batch-04/parts/b04_07/portraits/giant-frog.png",
+        "reuseSha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e"
+      }
+    },
+    {
+      "owner": "b09_07",
+      "name": "Giant Goat",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "giant-goat",
+      "reuse_source": "beast-ready-batch-04/parts/b04_08/portraits/giant-goat.png",
+      "reuse_sha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+      "runtime_file": "images/beast-ready-batch-04/giant-goat.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775819-giant-goat",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/giant-goat.png",
+        "sha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Goat",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual with the 2024 rules, released in 2025. Current publisher digital text.",
+        "section": "Appendix A, Animals",
+        "printedPages": [
+          357
+        ],
+        "sourceHeading": "Giant Goat",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775819-giant-goat",
+        "url": "https://www.dndbeyond.com/monsters/4775819-giant-goat",
+        "publisherByline": "Monster Manual, pg. 357",
+        "operationalEvidence": "The Strength save is +5. The Ram movement rider combines bonus damage and Prone against a Large or smaller creature when the goat meets the straight-line approach requirement.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The publisher’s version 1.0 errata does not list an update for this creature.",
+        "habitatEvidence": "The publisher stat block lists Grassland, Hill, Mountain.",
+        "appearanceEvidence": "Editorial description based on the verified reused portrait.",
+        "artGroup": "giant-goat",
+        "artworkSource": "beast-ready-batch-04/parts/b04_08/portraits/giant-goat.png",
+        "reuseSha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce"
+      }
+    },
+    {
+      "owner": "b09_07",
+      "name": "Giant Hyena",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-hyena",
+      "reuse_source": "beast-ready-batch-04/parts/b04_08/portraits/giant-hyena.png",
+      "reuse_sha256": "e79074ef555e40476e5421598c04d12275d705c347c1d518118f1db43eb7e59b",
+      "runtime_file": "images/beast-ready-batch-04/giant-hyena.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195021-giant-hyena",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-hyena.png",
+        "sha256": "e79074ef555e40476e5421598c04d12275d705c347c1d518118f1db43eb7e59b",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Hyena",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual with the 2024 rules, released in 2025. Current publisher digital text.",
+        "section": "Appendix A, Animals",
+        "printedPages": [
+          357
+        ],
+        "sourceHeading": "Giant Hyena",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195021-giant-hyena",
+        "url": "https://www.dndbeyond.com/monsters/5195021-giant-hyena",
+        "publisherByline": "Monster Manual, pg. 357",
+        "operationalEvidence": "Rampage is a once-per-day Bonus Action triggered by damaging an already Bloodied creature. It allows movement up to half Speed and one Bite.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "errataEvidence": "The publisher’s version 1.0 errata does not list an update for this creature.",
+        "habitatEvidence": "The publisher stat block lists Desert, Forest, Grassland, Hill.",
+        "appearanceEvidence": "Editorial description based on the verified reused portrait.",
+        "artGroup": "giant-hyena",
+        "artworkSource": "beast-ready-batch-04/parts/b04_08/portraits/giant-hyena.png",
+        "reuseSha256": "e79074ef555e40476e5421598c04d12275d705c347c1d518118f1db43eb7e59b"
+      }
+    },
+    {
+      "owner": "b09_08",
+      "name": "Giant Lizard",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-lizard",
+      "reuse_source": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+      "reuse_sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+      "runtime_file": "images/beast-ready-batch-04/giant-lizard.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195022-giant-lizard",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-lizard.png",
+        "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Lizard",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          358
+        ],
+        "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/5195022-giant-lizard",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/5195022-giant-lizard",
+        "byline": "Monster Manual, pg. 358",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Habitat line in the publisher’s stat block.",
+        "artGroup": "giant-lizard",
+        "portraitSha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "sourceDistinctions": [
+          "Spider Climb is a native trait of this profile. The Dexterity save is +3.",
+          "The publisher’s errata page and its v1.0 list no correction for this beast."
+        ]
+      }
+    },
+    {
+      "owner": "b09_08",
+      "name": "Giant Octopus",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-octopus",
+      "reuse_source": "beast-ready-batch-04/parts/b04_09/portraits/giant-octopus.png",
+      "reuse_sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+      "runtime_file": "images/beast-ready-batch-04/giant-octopus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195023-giant-octopus",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-octopus.png",
+        "sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Octopus",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          358
+        ],
+        "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/5195023-giant-octopus",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/5195023-giant-octopus",
+        "byline": "Monster Manual, pg. 358",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Habitat line in the publisher’s stat block.",
+        "artGroup": "giant-octopus",
+        "portraitSha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+        "sourceDistinctions": [
+          "Tentacles can grapple a Medium or smaller creature with all eight tentacles. Taking damage underwater triggers the once-per-day Ink Cloud reaction.",
+          "The publisher’s errata page and its v1.0 list no correction for this beast."
+        ]
+      }
+    },
+    {
+      "owner": "b09_08",
+      "name": "Giant Rat",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-rat",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png",
+      "reuse_sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+      "runtime_file": "images/beast-ready-batch-05/giant-rat.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195025-giant-rat",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/giant-rat.png",
+        "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Rat",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          358
+        ],
+        "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/5195025-giant-rat",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/5195025-giant-rat",
+        "byline": "Monster Manual, pg. 358",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Habitat line in the publisher’s stat block.",
+        "artGroup": "giant-rat",
+        "portraitSha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+        "sourceDistinctions": [
+          "The rat has a 30-ft. Climb Speed and a +5 Dexterity save. Bite deals piercing damage.",
+          "The publisher’s errata page and its v1.0 list no correction for this beast."
+        ]
+      }
+    },
+    {
+      "owner": "b09_08",
+      "name": "Giant Scorpion",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "giant-scorpion",
+      "reuse_source": "beast-ready-batch-05/parts/b05_02/portraits/giant-scorpion.png",
+      "reuse_sha256": "0c4e3729b267cfc056248992f31fea7df9529c6c7f37f5b33b20713c9e270492",
+      "runtime_file": "images/beast-ready-batch-05/giant-scorpion.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195026-giant-scorpion",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "reused-portraits/giant-scorpion.png",
+        "sha256": "0c4e3729b267cfc056248992f31fea7df9529c6c7f37f5b33b20713c9e270492",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Scorpion",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          359
+        ],
+        "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/5195026-giant-scorpion",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/5195026-giant-scorpion",
+        "byline": "Monster Manual, pg. 359",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Habitat line in the publisher’s stat block.",
+        "artGroup": "giant-scorpion",
+        "portraitSha256": "0c4e3729b267cfc056248992f31fea7df9529c6c7f37f5b33b20713c9e270492",
+        "sourceDistinctions": [
+          "Each claw can grapple a Large or smaller creature at escape DC 13. The Sting hit itself applies its poison damage.",
+          "The publisher’s errata page and its v1.0 list no correction for this beast."
+        ]
+      }
+    },
+    {
+      "owner": "b09_08",
+      "name": "Giant Seahorse",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "giant-sea-horse",
+      "reuse_source": "beast-ready-batch-05/parts/b05_02/portraits/giant-sea-horse.png",
+      "reuse_sha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+      "runtime_file": "images/beast-ready-batch-05/giant-sea-horse.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775820-giant-seahorse",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/giant-sea-horse.png",
+        "sha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Seahorse",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+        "printedPages": [
+          359
+        ],
+        "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+        "url": "https://www.dndbeyond.com/monsters/4775820-giant-seahorse",
+        "rulesUrl": "https://www.dndbeyond.com/monsters/4775820-giant-seahorse",
+        "byline": "Monster Manual, pg. 359",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataPdfUrl": "",
+        "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+        "habitatSource": "Habitat line in the publisher’s stat block.",
+        "artGroup": "giant-sea-horse",
+        "portraitSha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+        "sourceDistinctions": [
+          "The publisher byline identifies Monster Manual p. 359. The local secondary index also associates this block with Player’s Handbook (2024) p. 350.",
+          "Ram uses its higher damage when the movement condition is met. Bubble Dash is a bonus action.",
+          "The publisher spells the creature Giant Seahorse. The selected portrait uses the existing giant-sea-horse filename.",
+          "The publisher’s errata page and its v1.0 list no correction for this beast."
+        ]
+      }
+    },
+    {
+      "owner": "b09_09",
+      "name": "Giant Shark",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "giant-shark",
+      "reuse_source": "beast-ready-batch-05/parts/b05_02/portraits/giant-shark.png",
+      "reuse_sha256": "56aaba51f1a9c9bf6a038420210db29c8d84f6ef2e97c65a8d548cc0c6a1c0af",
+      "runtime_file": "images/beast-ready-batch-05/giant-shark.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195027-giant-shark",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "reused-portraits/giant-shark.png",
+        "sha256": "56aaba51f1a9c9bf6a038420210db29c8d84f6ef2e97c65a8d548cc0c6a1c0af",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Shark",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025), 2024 rules",
+        "printedPages": [
+          359
+        ],
+        "byline": "Monster Manual, pg. 359",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195027-giant-shark",
+        "errataUrl": "",
+        "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+        "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_02/portraits/giant-shark.png",
+        "portraitSha256": "56aaba51f1a9c9bf6a038420210db29c8d84f6ef2e97c65a8d548cc0c6a1c0af",
+        "sourceDistinctions": [
+          "Check the Bite Advantage against the target’s current HP for each roll."
+        ]
+      }
+    },
+    {
+      "owner": "b09_09",
+      "name": "Giant Spider",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-spider",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+      "reuse_sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+      "runtime_file": "images/beast-ready-batch-05/giant-spider.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775821-giant-spider",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-spider.png",
+        "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Spider",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025), 2024 rules",
+        "printedPages": [
+          359
+        ],
+        "byline": "Monster Manual, pg. 359",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775821-giant-spider",
+        "errataUrl": "",
+        "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+        "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+        "portraitSha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+        "sourceDistinctions": [
+          "The page cites Monster Manual p. 359. The current Web uses a Dexterity save and lists destroying the web as the way to end the restraint."
+        ]
+      }
+    },
+    {
+      "owner": "b09_09",
+      "name": "Hunter Shark",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "hunter-shark",
+      "reuse_source": "beast-ready-batch-05/parts/b05_05/portraits/hunter-shark.png",
+      "reuse_sha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+      "runtime_file": "images/beast-ready-batch-05/hunter-shark.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195083-hunter-shark",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/hunter-shark.png",
+        "sha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Hunter Shark",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025), 2024 rules",
+        "printedPages": [
+          363
+        ],
+        "byline": "Monster Manual, pg. 363",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195083-hunter-shark",
+        "errataUrl": "",
+        "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+        "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_05/portraits/hunter-shark.png",
+        "portraitSha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+        "sourceDistinctions": [
+          "Bite is its sole printed action. Advantage depends on the target’s current HP."
+        ]
+      }
+    },
+    {
+      "owner": "b09_09",
+      "name": "Giant Toad",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-toad",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-toad.png",
+      "reuse_sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+      "runtime_file": "images/beast-ready-batch-05/giant-toad.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195029-giant-toad",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-toad.png",
+        "sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Toad",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025), 2024 rules",
+        "printedPages": [
+          360
+        ],
+        "byline": "Monster Manual, pg. 360",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195029-giant-toad",
+        "errataUrl": "",
+        "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+        "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-toad.png",
+        "portraitSha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+        "sourceDistinctions": [
+          "Swallow uses the action printed separately from Bite. The acid damage is timed to the end of the toad’s turn."
+        ]
+      }
+    },
+    {
+      "owner": "b09_09",
+      "name": "Giant Venomous Snake",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-poisonous-snake",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-poisonous-snake.png",
+      "reuse_sha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709",
+      "runtime_file": "images/beast-ready-batch-05/giant-poisonous-snake.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195030-giant-venomous-snake",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-poisonous-snake.png",
+        "sha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Venomous Snake",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Monster Manual (2025), 2024 rules",
+        "printedPages": [
+          361
+        ],
+        "byline": "Monster Manual, pg. 361",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195030-giant-venomous-snake",
+        "errataUrl": "",
+        "errataResult": "The April 2025 version 1.0 errata has no entry for this creature.",
+        "habitatEvidence": "Habitat tags on the D&D Beyond stat block.",
+        "appearanceEvidence": "Editorial description of the reused portrait.",
+        "portraitSource": "beast-ready-batch-05/parts/b05_01/portraits/giant-poisonous-snake.png",
+        "portraitSha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709",
+        "sourceDistinctions": [
+          "The 2024 rules name is Giant Venomous Snake. The scoped portrait reuses the Giant Poisonous Snake art group."
+        ]
+      }
+    },
+    {
+      "owner": "b09_10",
+      "name": "Giant Wasp",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "giant-wasp",
+      "reuse_source": "beast-ready-batch-05/reused-portraits/giant-wasp.webp",
+      "reuse_sha256": "d77df7b6ef57ca884369c3c516c9897a50c9a4fadb566de1476ed2685489eecf",
+      "runtime_file": "images/monsters/giant-wasp/parchment-portrait.webp",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195032-giant-wasp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/giant-wasp.webp",
+        "sha256": "d77df7b6ef57ca884369c3c516c9897a50c9a4fadb566de1476ed2685489eecf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Wasp",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "printing": "Monster Manual for the 2024 rules, published in 2025",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          361
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195032-giant-wasp",
+        "url": "https://www.dndbeyond.com/monsters/5195032-giant-wasp",
+        "publisherByline": "Monster Manual, pg. 361",
+        "sourceWitness": "Publisher’s public D&D Beyond stat block",
+        "sourceDistinctions": [
+          "The publisher lists both Sting damage components on a hit."
+        ],
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+        "errataEvidence": "No change listed for this creature in either official errata form.",
+        "initiativeBonus": 2,
+        "initiativeScore": 12,
+        "proficiencyBonus": 2,
+        "passivePerception": 10,
+        "savingThrows": {
+          "Str": 0,
+          "Dex": 2,
+          "Con": 0,
+          "Int": -5,
+          "Wis": 0,
+          "Cha": -4
+        },
+        "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+        "artworkSource": "beast-ready-batch-05/reused-portraits/giant-wasp.webp",
+        "artworkSha256": "d77df7b6ef57ca884369c3c516c9897a50c9a4fadb566de1476ed2685489eecf"
+      }
+    },
+    {
+      "owner": "b09_10",
+      "name": "Giant Weasel",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-weasel",
+      "reuse_source": "beast-ready-batch-05/parts/b05_04/portraits/giant-weasel.png",
+      "reuse_sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+      "runtime_file": "images/beast-ready-batch-05/giant-weasel.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775822-giant-weasel",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/giant-weasel.png",
+        "sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Weasel",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "printing": "Monster Manual for the 2024 rules, published in 2025",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          361
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775822-giant-weasel",
+        "url": "https://www.dndbeyond.com/monsters/4775822-giant-weasel",
+        "publisherByline": "Monster Manual, pg. 361",
+        "sourceWitness": "Publisher’s public D&D Beyond stat block",
+        "sourceDistinctions": [
+          "The current listing has Dexterity 17, Acrobatics +5, and a 30-ft. Climb Speed."
+        ],
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+        "errataEvidence": "No change listed for this creature in either official errata form.",
+        "initiativeBonus": 3,
+        "initiativeScore": 13,
+        "proficiencyBonus": 2,
+        "passivePerception": 13,
+        "savingThrows": {
+          "Str": 0,
+          "Dex": 3,
+          "Con": 0,
+          "Int": -3,
+          "Wis": 1,
+          "Cha": -3
+        },
+        "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+        "artworkSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-weasel.png",
+        "artworkSha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999"
+      }
+    },
+    {
+      "owner": "b09_10",
+      "name": "Giant Wolf Spider",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-wolf-spider",
+      "reuse_source": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+      "reuse_sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+      "runtime_file": "images/beast-ready-batch-05/giant-wolf-spider.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-wolf-spider.png",
+        "sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Wolf Spider",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "printing": "Monster Manual for the 2024 rules, published in 2025",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          362
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider",
+        "url": "https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider",
+        "publisherByline": "Monster Manual, pg. 362",
+        "sourceWitness": "Publisher’s public D&D Beyond stat block",
+        "sourceDistinctions": [
+          "The publisher lists both Bite damage components on a hit. Spider Climb is the printed trait."
+        ],
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+        "errataEvidence": "No change listed for this creature in either official errata form.",
+        "initiativeBonus": 3,
+        "initiativeScore": 13,
+        "proficiencyBonus": 2,
+        "passivePerception": 13,
+        "savingThrows": {
+          "Str": 1,
+          "Dex": 3,
+          "Con": 1,
+          "Int": -4,
+          "Wis": 1,
+          "Cha": -3
+        },
+        "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+        "artworkSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+        "artworkSha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537"
+      }
+    },
+    {
+      "owner": "b09_10",
+      "name": "Goat",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "goat",
+      "reuse_source": "beast-ready-batch-02/parts/b02_04/portraits/goat.png",
+      "reuse_sha256": "3d9ebe807d3471a32e50e0516f6439b7f34340af62f545da120602096372ad39",
+      "runtime_file": "images/beast-ready-batch-02/goat.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775823-goat",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/goat.png",
+        "sha256": "3d9ebe807d3471a32e50e0516f6439b7f34340af62f545da120602096372ad39",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Goat",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "printing": "Monster Manual for the 2024 rules, published in 2025",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          362
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775823-goat",
+        "url": "https://www.dndbeyond.com/monsters/4775823-goat",
+        "publisherByline": "Monster Manual, pg. 362",
+        "sourceWitness": "Publisher’s public D&D Beyond stat block",
+        "sourceDistinctions": [
+          "The conditional Ram damage replaces the ordinary damage. The publisher lists Strength save +2 with Strength modifier +0."
+        ],
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+        "errataEvidence": "No change listed for this creature in either official errata form.",
+        "initiativeBonus": 0,
+        "initiativeScore": 10,
+        "proficiencyBonus": 2,
+        "passivePerception": 12,
+        "savingThrows": {
+          "Str": 2,
+          "Dex": 0,
+          "Con": 0,
+          "Int": -4,
+          "Wis": 0,
+          "Cha": -3
+        },
+        "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+        "artworkSource": "beast-ready-batch-02/parts/b02_04/portraits/goat.png",
+        "artworkSha256": "3d9ebe807d3471a32e50e0516f6439b7f34340af62f545da120602096372ad39"
+      }
+    },
+    {
+      "owner": "b09_10",
+      "name": "Hawk",
+      "kind": "beast",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "hawk",
+      "reuse_source": "beast-ready-batch-02/parts/b02_04/portraits/hawk.png",
+      "reuse_sha256": "1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96",
+      "runtime_file": "images/beast-ready-batch-02/hawk.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/4775824-hawk",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/hawk.png",
+        "sha256": "1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Hawk",
+        "kind": "beast",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "printing": "Monster Manual for the 2024 rules, published in 2025",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          362
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/monsters/4775824-hawk",
+        "url": "https://www.dndbeyond.com/monsters/4775824-hawk",
+        "publisherByline": "Monster Manual, pg. 362",
+        "sourceWitness": "Publisher’s public D&D Beyond stat block",
+        "sourceDistinctions": [
+          "The publisher lists Perception +6 and Passive Perception 16. Talons deals a fixed 1 damage."
+        ],
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+        "errataEvidence": "No change listed for this creature in either official errata form.",
+        "initiativeBonus": 3,
+        "initiativeScore": 13,
+        "proficiencyBonus": 2,
+        "passivePerception": 16,
+        "savingThrows": {
+          "Str": -3,
+          "Dex": 3,
+          "Con": -1,
+          "Int": -4,
+          "Wis": 2,
+          "Cha": -2
+        },
+        "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+        "artworkSource": "beast-ready-batch-02/parts/b02_04/portraits/hawk.png",
+        "artworkSha256": "1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96"
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Shadow (Variant)",
+    "imageKey": "monster:shadow-variant",
+    "kind": "monster",
+    "type": "Fey",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/1979804-shadow-variant",
+    "challenge": "1/2",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/1979804-shadow-variant",
+    "slug": "shadow-variant",
+    "entry": "monster-4569d45d312c3f9483623a09",
+    "version": "9f2ad4fac5c50a413f7c5cd8",
+    "generated": true,
+    "primaryPortraitSha256": "693e768cc5b54ee56ee7327b5cd98f583c23f4cd3de805221bb9aed6c401b5b0",
+    "status": "Stat block",
+    "appearance": "A detached silhouette. Gleam’s shadow has pointed ears, a crescent moon mask, and the stance of an acrobat.",
+    "habitats": [
+      "Witchlight Carnival",
+      "Hall of Illusions",
+      "Motherhorn",
+      "Yon"
+    ]
+  },
+  {
+    "name": "Will-o’-Wisp (Variant)",
+    "imageKey": "monster:will-o-wisp-variant",
+    "kind": "monster",
+    "type": "Undead",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/1979814-will-o-wisp-variant",
+    "challenge": "2",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/1979814-will-o-wisp-variant",
+    "slug": "will-o-wisp-variant",
+    "entry": "monster-4b8c6677d2143a18f663d39e",
+    "version": "59cea6a6dc012646ac7ebbe7",
+    "generated": true,
+    "primaryPortraitSha256": "456e4e3b83b9f692731c1f20dcc23403f15bf4cfadec7cd6ecf84d82ee006b20",
+    "status": "Stat block",
+    "appearance": "A hovering orb of spectral light above a stone well in the marsh.",
+    "habitats": [
+      "Hither",
+      "O'-wells",
+      "Prismeer"
+    ]
+  },
+  {
+    "name": "Witchlight Hand",
+    "imageKey": "monster:witchlight-hand",
+    "kind": "monster",
+    "type": "Humanoid",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/1979816-witchlight-hand",
+    "challenge": "1/8",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/1979816-witchlight-hand",
+    "slug": "witchlight-hand",
+    "entry": "monster-dc9e799be547bdbeed9973e8",
+    "version": "6742839776259a21fe0d8db2",
+    "generated": true,
+    "primaryPortraitSha256": "fd7dcfbb0b66e649a942632761921d10e1456babb365e06afda4f19763bdc583",
+    "status": "Stat block",
+    "appearance": "Carnival workers wear artificial butterfly wings with their working clothes or stage costumes.",
+    "habitats": [
+      "Witchlight Carnival",
+      "Big Top",
+      "Hall of Illusions"
+    ]
+  }
+]

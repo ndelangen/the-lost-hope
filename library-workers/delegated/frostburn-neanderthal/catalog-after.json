@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Neanderthal",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "humanDigest": "f3e215c6fbc915c849caa6c9cac4797ac6d0ee405880fc60fead079453278557",
+    "global": true,
+    "version": {
+      "key": "ea25be1b3c3841cd8d245651",
+      "publication": "Frostburn (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/works/OL35266671W/Frostburn",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid (Human). +2 Strength, +2 Constitution, −2 Dexterity, and −2 Intelligence. Land speed 30 ft. LA +0.",
+            "Primitive Weapon Mastery (Ex) gives +1 racial on attacks with bolas, club, dart, greatclub, goad, harpoon, iuak, javelin, longspear, quarterstaff, ritiik, shortbow, shortspear, sling, spear, sugliin, throwing axe, and tigerskull club. It grants no proficiency or damage bonus.",
+            "+2 racial on Listen, Spot, and Survival.",
+            "Climate Tolerant (Ex) waives environmental Fortitude saves between −20°F and 140°F. It gives no protection from fire or cold damage and counts as Cold Endurance only for feat and prestige-class prerequisites.",
+            "Human Blood treats the Neanderthal as human for race-based effects and human-only items. The profile gives no human bonus feat or skill points.",
+            "Illiteracy. A Neanderthal can spend 2 skill points to read and write all spoken languages. Taking a nonbarbarian class preserves illiteracy unless the class is Wizard.",
+            "Common is automatic. Bonus languages are Dwarven, Giant, and Orc. Favored class Barbarian."
+          ]
+        },
+        {
+          "title": "Original NPC · Oren Hearthward",
+          "lines": [
+            "Passage keeper and Barbarian.",
+            "Motive. Keep the shelter passage clear until the last travelers arrive.",
+            "Hook. Oren is waiting at the entrance while the snow blocks the upper path.",
+            "Neanderthal passage keeper, Barbarian 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Human)",
+            "AC 13 · HP 15 (1d12+3) · Speed 40 ft. in light armor with a light load"
+          ]
+        },
+        {
+          "title": "Original NPC · Vela Ridgewatch",
+          "lines": [
+            "Cairn scout and Ranger.",
+            "Motive. Find the right fork of the trail before the wind covers the tracks.",
+            "Hook. Vela can read the cairn marker and guide the party through the cut.",
+            "Neanderthal cairn scout, Ranger 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Human)",
+            "AC 15 · HP 10 (1d8+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Oren Hearthward": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Oren Hearthward",
+              "group": "Neanderthal",
+              "publication": "Neanderthal passage keeper, Barbarian 1",
+              "local": {
+                "entry": "npc-a5c2497e0e79c8edcd54efae",
+                "version": "18e7c030177c9666279461fd"
+              }
+            }
+          }
+        ],
+        "Original NPC · Vela Ridgewatch": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Vela Ridgewatch",
+              "group": "Neanderthal",
+              "publication": "Neanderthal cairn scout, Ranger 1",
+              "local": {
+                "entry": "npc-eac4e764a54271a5ad83bfd0",
+                "version": "b0f77f3d2f57400162bd5dd6"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Neanderthal": true,
+      "neanderthal climate tolerant": true,
+      "neanderthal primitive weapon mastery": true,
+      "neanderthal passage keeper": true,
+      "neanderthal cairn scout": true
+    },
+    "hash": "e4f751222e51a5ddc4788e7deae230a0c6d93e41ad6db62f5fedee3b889de132",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Frostburn (2004)",
+    "defaultVersionKey": "ea25be1b3c3841cd8d245651",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

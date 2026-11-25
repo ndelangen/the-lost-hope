@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Shadowswyft",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider from the Plane of Shadow. The species entry gives the Extraplanar subtype away from that plane. Humanoid-only effects such as charm person cannot target a Shadowswyft.",
+      "+2 Dexterity, −2 Constitution. Land speed 40 ft. Darkvision 120 ft. and low-light vision.",
+      "Light Blindness is extraordinary. Abrupt exposure to bright light, such as sunlight or a daylight spell, blinds the Shadowswyft for 1 round. Afterward, it remains dazzled while in the affected area.",
+      "Dazzled imposes −1 on attack rolls, Search checks, and Spot checks. Use the normal Blinded condition for the first round.",
+      "+2 bonus on initiative checks. +4 racial bonuses on Hide and Move Silently.",
+      "Automatic languages are Shadowswyft and Common. Bonus languages are Abyssal, Celestial, and Elven. Favored class Rogue. LA +1. The player profile adds no racial Hit Dice."
+    ]
+  }
+]

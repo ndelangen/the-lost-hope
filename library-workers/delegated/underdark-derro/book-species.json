@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Derro",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Monstrous Humanoid. Land speed 20 ft. Darkvision 60 ft. from the creature type. +2 natural armor.",
+      "+4 Dexterity and +2 Constitution, derived from the Monster Manual’s sample ability scores. Apply the Wisdom and Charisma adjustments from Madness separately.",
+      "Madness (Ex) gives −6 Wisdom and +6 Charisma, uses Charisma in place of Wisdom on Will saves, and grants immunity to confusion and insanity effects. Miracle or wish can restore sanity, reversing those ability adjustments and ending the trait.",
+      "Vulnerability to Sunlight (Ex). Take 1 Constitution damage per hour in sunlight. Constitution 0 is fatal. Recover 1 point per 24 hours spent underground or otherwise sheltered from sunlight.",
+      "+4 racial bonus on Hide and Move Silently checks.",
+      "Racial spell-like abilities, CL 3. At will, darkness and ghost sound. Once per day each, daze and sound burst. Save DCs use Charisma.",
+      "Racial Sneak Attack adds 1d6 to eligible hits under the Rogue rules. Poison Use (Ex) protects the derro from accidentally poisoning itself while handling poison.",
+      "Spell resistance 15.",
+      "Three racial Hit Dice (3d8) grant BAB +3, base Fortitude +1, Reflex +3, Will +3, and two feats. Favored class Sorcerer.",
+      "Underdark lists LA +1 and ECL 4. Its adventurer section includes derro with Madness, which this profile retains. The Monster Manual lists LA +2 specifically for a sane derro, giving ECL 5 before class levels under that rule."
+    ]
+  }
+]

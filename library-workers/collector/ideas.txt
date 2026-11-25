@@ -1,0 +1,858 @@
+# plot device | 1093952565776225569
+The helpful leak | A fixer supplies real leads to build trust and tells a rival which leads the party follows. Let the players plant different bait with each contact.
+The overlooked sponsor | The magistrate who pays restitution also funds the damage. Put the same clerk's distinctive corrections on both sets of books.
+The wrong claimant | A witness recognizes the crest on a borrowed coat and swears the wearer inherited a debt. The party can return the coat or investigate who planted it.
+The private connection | Two public rivals secretly share responsibility for a ward. Force them to agree on the ward's safety while the party is present.
+A bargain changes hands | An honest ally switches sides when an enemy buys their debt. Make their change of allegiance negotiable and let the party learn the terms.
+The cost of winning early | Capturing the smuggler ends the deliveries and leaves a village without medicine. Give the party enough information to find an alternate supplier before the shortage.
+Evidence out of order | A repair invoice predates the damage it describes. Put two independent dates in play so the party can test whether time moved or someone forged the receipt.
+A witness with a blind spot | An otherwise reliable mapmaker omits every place where they broke an oath. A mundane survey gives the party something to compare.
+The dead claimant returns | A missing heir can prove their identity, but title and property have since scattered through good-faith sales. Give the party someone to protect on each side.
+# character pressure | 1093952565776225428
+Pride delays evacuation | A watch captain refuses outside help until the party gives them a way to warn the town without losing command.
+Jealousy spoils a handoff | An apprentice withholds a patron's letter because it praises their colleague. Keep a dated entry in the messenger's book.
+Perfectionism runs out the clock | A ritualist keeps redrawing a ward whose flawed version would hold long enough. Ask the players which flaw they accept.
+Stubbornness protects a bad route | An old guide trusts a trail that was safe before a landslide. Let the party spot new survey stakes and decide how to get the guide to look.
+Fearlessness creates followers | A local hero takes one visible risk too many and children begin imitating them. Give the hero a second way to earn their admiration.
+A debt made of favors | A courtier refuses gifts because every past gift became a debt. Add one ally willing to help anonymously and one who needs public credit.
+# facilitation | 910782724686511932
+Prepare what moves | Write one action per active group and when it will happen. If players spend time elsewhere, advance only the actions still possible. Bring up traces the party can observe before its next decision and strike out actions overtaken by play.
+Failure with a handle | If a bribe fails, the guard names the officer who can issue a permit. The group still has to decide whether to petition, wait, or risk a different entrance.
+Show the consequence first | Put flood marks over the lower door before the tide comes in. Players can act on the hazard before risking a roll.
+Keep the ruling revisable | Make the table ruling for this scene and record the exact trigger in your notes. Revisit it between games.
+Play the person behind the encounter | Give the gate guard an overdue errand. Players can solve that problem and change what the guard is willing to do.
+# creature | 942096815814986593
+Tollhouse gander | An enormous goose has claimed a bridge and collects polished buttons. A rivet from the ruined railing can draw it away while someone reinforces the weak planks.
+# creature | 338051515803423619
+Bark sentinel | A fey can hold perfectly still against a trunk. Show twigs moving at shoulder height before revealing the sentinel and let a traveler offer news of a threatened grove.
+# creature | 732116483232995361
+Drowned voices | Two aquatic peoples answer in song. One echoes words to guide boats toward shore while the other repeats a loved one's voice to turn them toward rocks. Put both songs within earshot of a beacon.
+# effect | 1108730002043110040
+A flower sends back a memory | Sleep beside the bloom to recall one detail from a forgotten place. Ask which detail the character looks for and give one image they can verify awake.
+Grief anchors a bloom | A plant grows where a mourner wept. Carrying it helps someone speak the words they could not say at the funeral, then the plant withers.
+A seed borrows the sun | This seed opens overnight after a day in direct light. A scout can use its glow as a signal or hide it before the watch passes.
+# town event | 554224297911724292
+Dancers under the stubble | Figures dance in the harvested field without bending a stalk. Their steps mark buried boundary stones that two farms claim.
+The tune that closes a wound | A singer can close a wound with the right verse. The verse names whoever inflicted it, which matters when the patient begs for privacy.
+Visions from the well | Everyone who drinks sees the same broken bridge from a different angle. Assemble the descriptions to locate it before the wagons take that route.
+The unmoved livestock | Cattle disappear without breaking the paddock gate. Their bells can still be heard beneath the floor of the dairy.
+Market-day prophecy | A stranger predicts the grain scale will tip when empty. The miller's apprentice can switch in an unannounced second scale to test whether the prediction depends on the first one.
+The unmarked graves | Armored ghosts walk to the same unnamed graves each night. A mason has a list of names left off the memorial.
+A storm leaves sparks | Sparks attach to old copper fittings and let them hold voices for an hour. The watch wants every fitting collected before anyone hears its orders.
+The caravan's wrong cargo | A battered caravan arrives with full barrels despite losing its draft teams. Ask what the drivers traded for the strength to push them uphill.
+The tavern floor opens | A passage under a cellar leads to a crypt door. The brewery's seepage has started to erase pictograms showing which stones are safe to lift.
+The guest who is warned | An ancestral shade appears to only one person per household. Children receive a different warning than the elders and recognize one another's accounts.
+The woodland god takes measure | A grove begins growing around recently moved fences. The families that moved them can settle the dispute or wait to see which field the grove claims.
+Portraits out after dark | Festival portraits walk out of their frames and attempt the job their subject wished to abandon. One has already signed a binding contract.
+The river on another map | A voyager sketches a map with a river running uphill. A local lockkeeper recognizes the markings as instructions for a gate the town sealed.
+The empty house lights up | An abandoned house lights one window for every person who has entered since it closed. Tonight there is one more light than the visitor book accounts for. Send someone inside or call a visitor out to see which light responds.
+A town too happy to stop | A sudden wave of euphoria keeps workers from noticing danger. Anyone who leaves the square notices that the mood fades on the far side of an old drain.
+The shadows overhead | Dragon-shaped shadows cross town against the wind. From the tower the party can see nobody casts them, but the shadows follow a marked route.
+Street writing on the move | Chalk letters migrate between walls following changes in the wind. Catch them around three corners to reconstruct a stolen warning.
+The library below the manor | A hidden library lends a volume to anyone who brings a local fact nobody has written down. Someone is trading the addresses of witnesses.
+The prize with a claimant | A public magic contest awards a relic claimed by the family that made it. Contestants can compete to win it for the family or make the dispute public.
+The letter that keeps paying | A long-missing friend sends a letter offering to pay the town's debts. Their old handwriting spells a place name only when the first letters are read down.
+Shadows go on strike | At midnight neglected shadows refuse to follow their owners. A shuttered square offers the only shelter and its keeper wants a promise before opening it.
+The silent procession | A procession asks each witness to carry an empty lantern one block. Each willing hand moves the group one house closer to a grave with no name.
+Petrifaction in common | A few townspeople turn to stone with one hand extended. They had all tried to stop the same fairground machine.
+The pretender who remembers | A claimant remembers traps in a vanished palace no map records. Someone can verify the details, but only by opening a passage the town relies on staying shut.
+Interrupted vision | A young diviner sees four hands holding a rope above a well. The view cuts off whenever one hand lets go, so eyewitness accounts of local rigging become important.
+A song pulls at doors | The same melody makes different residents walk to different thresholds. It falters when someone sings the part missing from the town's festival version.
+A cleansing draws a border | The elders can sweep an old influence past a ring of doors. Draw where the boundary will land and ask what it leaves outside.
+# location | 400679698122685321
+The braced taproom | Each hour the building shakes and mugs slide into grooves. One table has fresh braces and somebody keeps pointing it toward the cellar door.
+A tavern that changes port | The inn sails to a different quay after the last order. A witness will board only if the party can guarantee a landing in neutral waters.
+The honor till | The staff disappeared years ago, but guests still put payment in trays. The trays ring when an unknown person pays in the same coin as the last proprietor.
+Skeletons on shift | The cook can recognize every dish they made in life. A funeral recipe brings the staff out to ask who taught the customer to make it.
+The salamander kitchen | Small kitchen dragons won't heat iron that crossed a ward. A cook can test the party's confiscated kit while dinner is on.
+Inside a trophy jaw | A tavern has a dragon's jaw as its porch. A recent tooth has been fitted among old ones and the hunters disagree about where it came from.
+Indoor weather | Rain falls inside the inn on cloudless days. The ceiling clears over a table reserved by a guest the staff haven't seen in weeks.
+The one-seat inn | One chair gives the drinker the bartender's full attention. Everybody else must queue outside where rival petitioners can hear enough to offer deals.
+The ventriloquist's tip jar | The dummy calls out the amount each patron owes. Its performer insists the dummy has started quoting figures from an account neither can see.
+Truce on the threshold | Anyone can talk safely inside the inn after surrendering arms. A bell tells everyone when a surrendered item is moved, including the one a guest needs to get home.
+Toy rails | Tiny clockwork trains deliver drinks. A passenger asks to borrow the spare track to send a note past a guard who checks every server.
+Fish underfoot | Little silver fish swim over a flooded floor. They flee whenever a patron carrying a submerged object comes inside.
+A door for disguises | Every guest enters in costume. Someone wearing the same mask as a party member arrived hours ago and paid for two seats.
+The ceiling table | Gravity pulls toward different walls in different rooms. A room key dropped from the balcony lands on a ceiling tile with a name written underneath.
+The open roast | Insults spoken on stage often pass for jokes. A nervous guest hires the party to identify the one person the emcee never mocks.
+A burning beard marks last call | A landlord sets a magical flame alight for the final round. Tonight it burns low and blue after the firewood merchant arrives.
+A single stair and many floors | Every landing offers a louder band than the one below. Only a visitor closing both ears hears a hand knocking from the sealed halfway floor.
+Bottles in the walls | A cellar maze shelves wine as it ages. Two passages look identical until a guest reads the vintage that hasn't happened yet.
+Last orders at the library | Every table is catalogued with the book last borrowed there. A missing ledger can be traced through stains on the spine beside it.
+The supper animal | Guests point out an animal for the kitchen. One of the pens has a nameplate meant for a person expected at the table that evening.
+The official communion tap | A temple runs the bar and reserves one cask for ceremonies. The last priest authorized to tap it has been barred from the building.
+The toll at the exit | A private dining room seals until the dessert is shared equally. Someone interrupts dinner to flee and leaves one seat unclaimed.
+The displaced fey common room | A fey host can name every patron who visited before the inn moved worlds. Half the regulars remember a different town at the last stop.
+The judging box | The monarch chooses the last performer without showing their face. A stagehand can tell which booth received real supper.
+A dance beneath a quiet house | The upstairs owners enforce silence. Underground, dancers use steps to signal arrivals to someone posted in the alley.
+The sunset contest | The sunset match is fought by volunteers for the right to pour the last drink. A losing visitor is desperate to remain inside after closing.
+Rooms painted on doors | An artist repaints each guest room when a visitor checks out. A previous resident left clues only in the unfinished border of the paint.
+Two taps meet at midnight | Rival bars each brew one half of a drink. Both halves must reach the bridge before the ferryman opens the crossing, and tonight the brewers are feuding.
+Shelter for the wanted | The proprietor serves fugitives under a strict peace. The watch asks the party to identify a customer without breaking that custom.
+Cursed lamplight | The tavern is kept dark for a proprietor who can't bear a direct gaze. Someone has started selling smoked lenses that fail halfway through a shift.
+Riddle rooms as cover | Customers play their way through locked rooms. A regular has learned to leave one door unlatched during each round.
+A mirage takes reservations | A desert inn only appears when a traveler gives up looking for it. A regular has left supplies outside the door for people who cannot bring themselves to stop.
+The crater kitchen | A tavern farms around a fallen stone that hums when touched. Overnight the livestock move to the far edge and the stone rolls a foot in the opposite direction.
+The seed bowl | Each patron gets seeds for the birds. The flock sorts them by size and carries the largest to a damaged vent outside.
+The last musician awake | A tavern always has live music. If the band stops, a sleepy patron hears an earlier performance playing below the boards.
+The weight rack | Patrons get a meal discount for lifting a heavy keg. One keg feels lighter each day and never sounds empty.
+A cup repaired each morning | Guests throw a battered cup through hoops. The cup always renews itself by dawn, but one new piece bears an unfamiliar maker's mark.
+The floating dance floor | Tide changes the reach of an anchored dance floor. A deepwater guest can only negotiate during the narrow interval when the deck meets the rocks.
+A brewer's open challenge | A proud brewer lets rivals name one missing ingredient before serving. One rival names a crop the council forbade planting last season.
+Buckets by every seat | Everything in the inn is patched with the same cloth. An attentive guest can assemble parts of the old signal flag from the patches.
+Trolls take tea | Trolls serve tea after collecting the bridge toll. A regular knows which herb signals that the bridge is unsafe and who taught the trolls to use it.
+The longest breakfast | Time passes slowly in a café open for one outside hour. Make two clocks visible so players can use the respite while a deadline approaches outside.
+The last hole | A tavern has a small ball course in the yard. The last cup swallows every ball, and today it has returned one marked with a missing guest's initials.
+The rhythm at the door | Entry requires copying a drummer's pattern. A courier hides an extra beat in a pattern the owner already knows.
+A stool halfway up | The ale counter is at the top of a climbing wall. A bartender uses the rest ledge halfway up for talks nobody on either end should hear.
+Exclusive room by nomination | Only a current member can sponsor a guest. Give each willing sponsor a different condition and a consequence for backing the party.
+Dinner on a wager | A cook lets anyone wager for food. The server quietly swaps the stakes for people they recognize from the same company.
+Value at the door | An insular bar lets outsiders in when they can name a practical gift the regulars need. A banned patron waits nearby with good advice and an ulterior motive.
+# trail clue | 950541065126922138
+Claw marks inside the gate | Parallel gouges run along a bar from the courtyard side. Prove the gate was breached by an animal someone let in.
+A heel print full of brick | A giant track contains shards from a kiln. The local masons can tell whether the giant came to rob them or happened to step in a collapsed wall.
+A slime trail with dry edges | A trail stays wet in the middle while its edges dry. Watch the wet center contract toward a wall crack. Blocking the crack makes the trail slacken and gives a glimpse of the thing pulling it.
+Webbing on both sides | Thick strands tie a door to its frame from both sides. One creature is inside with something that keeps moving the latch.
+The eggshell that folded inward | The shell has collapsed inward around a cut on one side. A cry along a fresh drag trail suggests something reached in and removed a live hatchling.
+The feathers in the updraft | Strange feathers hang in an airshaft at the same height. They drop together when the miners open a door three levels below.
+A warm ash ring | A round scorch mark holds heat only inside the ring. Tracks go right up to the edge and continue on the underside of the mine roof.
+# town event | 554224297911724296
+A rent in the pasture | Water empties through a slit in the air. Across it someone is building a dam with the stones that have disappeared from the pasture wall.
+The roofs before the fire | A seer predicts burning rain. Quarry workers can roof the market or brace the granary before dusk and need help doing both.
+Someone steals the small enchantments | Cheap charms lose their magic in the order they were sold. The maker kept receipt numbers inside each clasp.
+A crop with one pollinator | A new field plant can ease pain, but it fruits only where a rare moth survives. The grain cooperative wants to plow the neighboring ditch.
+The maze under the plots | A labyrinth below town corresponds to forgotten surface lots. Use rent rolls to navigate where street names give no clue.
+Ancestors disagree in public | Families hear ancestral voices through the festival drums. Two voices dispute the same inheritance and can each answer one question.
+A river keeps time | Every evening an audible rhythm arrives upstream. Boats start grounding between beats. The ferrymen can restore the usual rhythm by opening a jammed gate before the evening crossing.
+The walls defend the old map | Forgotten walls animate when they detect a threat. They defend the historical boundaries, leaving the newer district outside.
+A market chest plays favorites | A chest opens for one passerby per hour. Its offerings provide exactly what a person needs to commit an act the market would condemn.
+The swapped day | Two neighbors wake in each other's bodies. Each has a duty the other refuses to perform and needs a neutral witness to an agreement.
+The battle with a missing beat | The amphitheater replays an old battle after sunset. One sound in the middle goes missing whenever a particular visitor approaches.
+Hunting an invisible quarry | Night hunters cast flour across alleys to track something nobody else can see. The quarry's prints stop at a crowded shelter.
+The fountain decants potions | Every basin spout now produces a different potion. Keep an alchemist's results public so the townsfolk can decide which basins to cap.
+The market with impossible receipts | Vendors will sell an oddity only in exchange for an errand of equal trouble. They give receipts commemorating bargains customers have forgotten.
+The morning after a vow | A traveler arrives with a witness to a pledge a character may have made. Offer a chance to dispute its terms or find a peaceful settlement.
+The masks speak | During a ball, masks let slip what their owners want. An attendee brings a spare mask hoping it will talk about a previous wearer.
+Fog as historical witness | A fog shows the last people to stand on a patch of ground during an old disaster. Clearing the fog would help rescuers and destroy the evidence. Indoors, fresh limewash can hold the same image until a blocked window has to be broken.
+# city encounter | 811703532883581679
+A street the fire avoided | The fire skips three houses on a windy street. Residents want quick passage back inside and the firefighters want the houses searched first.
+Wargs at the gate | Wargs test one gate every night and break off when its bell sounds. The bell ringer has an offer to miss a shift.
+The witness at the wrong angle | A fatal blow lands in a public arcade. A mirror above a shutter gives the party a chance to contradict two confident witnesses.
+Glass across the rain channel | An alchemist's window blows outward and a bright liquid enters the gutter. The apprentice begs for the ledger before anyone asks why the vats were full.
+Quarantine by trade | A sick district closes to traffic and unpaid porters refuse to unload supplies outside it. A carrier has a plausible plan if someone covers their lost wages.
+Protection receipts | Extortionists issue stamped receipts. A merchant has two with different embossing for the same shop.
+Two funerals for one patron | A noble's death is celebrated at one gate and mourned at another. Each procession believes theirs has the body.
+A missing class | Children disappear along one school route. A retired crossing guard remembers when the missing group started leaving a seat empty on purpose.
+The coat with the dry cuff | A body washes ashore with both cuffs dry but boots full of river silt. The ferryman will identify the clothing if allowed to keep their customer's name private.
+Curfew without a clock | A curfew starts at a bell nobody can hear in the mills. The guard sets up signals after the party proves who is missing it.
+Mold in the ledger room | Blue mold spoils only pages written with one ink. Reconstruct the missing amounts from the buyers' sealed copies.
+Gladiator on loan | The arena's favorite asks the party to hold their place in line at a civic hearing while they finish a bout.
+The revenant names an appointment | An undead pursuer announces exactly when it will next confront its target. Finding out what happened at the previous appointment gives the party leverage.
+The extra shadows at noon | Unattached shadows pool under one market awning. Turn the awning a quarter turn and one shadow still points to the condemned courthouse. The seller will say whose shadow it was if someone agrees to take it down.
+Trees in the survey line | Orchard keepers plant saplings across a proposed city wall. A surveyor will accept their claim if someone finds an older drainage map.
+A prisoner asks for a witness | A shackled prisoner calls out details of a contract still posted on a wall. The notice names a surety who can intervene before the prisoner crosses the bridge into the next jurisdiction. Find the surety or invoke the clause in public.
+A purse for a purpose | Coins spilled in a gutter match the sum posted as a ransom. Carrying them to the watch alerts whoever is checking the gutter.
+The second set of footsteps | A tail vanishes from an alley but leaves wet prints leading into a crowded bakery. There are three exits and bakers know who used each.
+The champion needs a fall | A wrestler has agreed to lose for money and realizes their supposed opponent has disappeared. They ask for a stand-in with a different plan.
+Two wizards divided by a wall | Rival spellcasters cast alternating wards that push the same shared wall back and forth. The neighbors can show which side first broke the old agreement.
+A novice's public sermon | A preacher recruits in the market and includes a detail from a private conversation. A gap in the crowd provides a line of sight to the person feeding it to them.
+A breath from the drain | A bad smell rises only while the waterwheel turns. The miller will stop it if the party handles today's line of impatient customers.
+Rat couriers | Unusually bold rats carry bundles between sewer grates. One bundle falls open and contains copies of a baker's lease.
+The parade cuts across a deadline | Floats shut the shortest route to the courthouse. The parade captain can open a gap, but every pause changes the timing of a performance.
+A cart with one coffin too many | The burial clerk counts fewer names than crates. The driver wants someone's help tracing the delivery while keeping the horses moving.
+A witness volunteers the blame | A bystander insists they caused a mishap the party saw. They are trying to draw attention away from who was in the crowd.
+A noble announces the wrong news | A public address reads an announcement meant for tomorrow. Copies posted at the city gates bear a different seal.
+A common room duel | An argument spills from a table to a packed street. One duelist wants witnesses and the other wants everyone gone.
+Emergency law at the river | New checkpoint rules stop cargo before they stop passengers. The fishmongers ask the party to move a day's stock by hand.
+The stolen glove | A pickpocket takes one glove and ignores money. Wet ink from a forged signature is still inside the cuff. Once it dries, the forger can scrape most of it off.
+The church bolts its doors | A major temple closes between services. Choristers inside signal that they can still attend to the sick if the side gate opens.
+A child hires guides | A hungry child offers buttons to be escorted to a cookshop after dusk. The shopkeeper recognizes the buttons as tokens for staff meals.
+Lockdown before the vote | A district seals its gates days ahead of a council vote. A clerk's forms reveal which visitors the order actually intended to keep inside.
+Rescue with a condition | A child stuck in a well insists that their friend comes up first. The friend is moving in a side tunnel below the waterline.
+The switched place cards | Half the people at a feast fall ill. The servers brought special dishes to the seats with blue cards, and someone swapped those cards after place settings were laid.
+A stay at the scaffold | A messenger carries an unsigned stay of judgment. The judge can still be found if someone can get past the audience.
+A magic price by mistake | A junk seller prices an enchanted object as everyday stock. An apprentice races to buy it back before their employer finds out.
+The new tariff chalkboard | An official adds a charge to every receipt the party sees. A second copy of the schedule has the same figures written in different units.
+An apprentice copies the party | A young adventurer copies the group's mannerisms and gets mistaken for its emissary. A shopkeeper accepted their promise as payment.
+The workshop that won't sleep | A shop runs tools without staff every night. The new owner wants to rent the benches as they are and the previous owner left a stop order.
+Grave dirt on clean boots | A sexton leaves valuable possessions alone while opening specific graves. Counting the empty coffins points to the one burial they are trying to move.
+A tincture for the wrong thing | A crowd buys a merchant's relief tonic. The only customer demanding a refund expected it to keep a magical light from going out.
+A peddler who keeps asking directions | A persistent peddler names a different local landmark every time they approach. These are addresses being tested in front of someone who follows them.
+Nothing above the awnings | A storm presses birds, merchants, and guests into the same covered market. The drain beneath their shelter is blocked with snapped spars.
+Animals out of order | Livestock scatter through the streets in the same order every afternoon. A driver can observe which street noise starts the stampede.
+A curse with a customer | A hex has shifted from shopkeeper to buyer. Both receipts give the buyer the right to a return, but every attempt to hand over the object shifts it again.
+A naked runner and a uniform | Guards chase a streaker who refuses a cloak because it carries a stolen badge. The crowd thinks the badge belongs to the guard doing the chasing.
+Two claims on one ring | An heir and a jeweler each have paperwork for the same valuable ring. One document claims the metal and the other the stone.
+A shell game against the clock | A street game stalls customers while a lookout waits for a delivery. Once the delivery passes, the dealer wants help recovering a legitimately lost token.
+The smell from the dyer's cart | A splash on a stolen length of cloth leaves an odor one kennel can track across town. The dyer will lend work clothes in exchange for the return of the original bolt.
+Street stones drop | A hole opens under a stall. Looking sideways into it shows colored windows beneath the street.
+Someone calls her a witch | An excited crowd points toward a healer outside the wall. A cart driver can show the party where the accuser bought their proof.
+The play keeps changing names | Street actors improvise around a set of names supplied by the audience. Their scripts change when one late arrival drops a token in the hat.
+The hired provocation | A heckler picks exactly the fight that would draw a witness out of the square. The party can ignore them and track the witness instead.
+A stranger remembers a promise | An apparent charm makes a stranger sound painfully familiar. The details they know are real, and the source wants them traced.
+Watch house summons | A guard invites one member to answer a routine complaint. A court clerk offers to show the docket to the others while the officer is out.
+Vandals use removable paint | A group covers city statues in paint that washes off at noon. Under it, older layers prove the city had changed each dedication before.
+The singers' sleep route | A singer's chorus puts people to sleep only when it echoes back. Mark the walls creating that echo and find who chose the route.
+Snow separates the streets | A freak snowfall blocks doors at ground level and makes windows reachable. A storekeeper asks the party to escort volunteers down a new route.
+An eclipse with one bright pane | A street goes dark early except for one sunlit window. Evidence in the room suggests the light is waiting for someone who missed a meeting.
+The dragon uses a signal | A dragon passes over town and dips its wing at a hoisted sail. The sailmaker insists someone paid for a pattern they could only see from above.
+The show-off's proof | A novice boasts about a unique find. The object has an inventory number that belongs to the local museum's current display.
+The key with street grit | A key turns up on a dry floor carrying mud from a single city block. The matching lock has been moved several times.
+A street dog enforces a route | A dog blocks travel through one alley and offers no trouble elsewhere. The collar has delivery times scratched inside.
+A baker buys ash | Grain runs short before winter. A retired ovensweeper who buys kiln ash to repair old mortar remembers bricking up the municipal grain store behind a bake oven. They will show the party where if the city promises to pay for the repairs.
+A signet used after retirement | A royal seal authorizes a mundane repair. Its custodian swears it has been locked away since a previous reign.
+A disguise exchange goes bad | Residents begin changing shape whenever they trade coats at a particular stall. Pin down who wore each garment before the rain washes the labels away.
+Boat access only | Floodwater turns a bridge approach into an island. The infirmary needs a supply boat and a wealthy neighbor insists on the last available oars.
+A riot's quiet corridors | Street fighting breaks out around the square. Sellers have already opened a chain of adjoining yards to help people move without crossing it.
+The invitation to trade a secret | A tempter offers one accurate secret in exchange for a private name. A public way to verify the claim lets the party stall without agreeing.
+A locked guest house | A closed group keeps a new guest in a house with reinforced shutters. Neighbors hear the same toast every hour and know where the wine comes in.
+A repair with strings | An accident snaps an object the party relied on. The only maker who can mend it wants the wreck returned intact to establish its provenance.
+The fast-growing congregation | A new society offers lost workers paid tasks. Compare which tasks it puts in writing with the favors it asks from its supporters in person.
+A familiar stall shuts | A trusted merchant misses market for the first time in years. A neighboring seller has been asked to cash an unusual set of receipts on their behalf.
+A wolf in the laundry | A suspected werewolf hunts at night. A laundress can show which customer orders emergency clothes at dawn and tries to pay in advance.
+The night witness is paid to sleep | A witness to a series of crimes is offered a remarkably comfortable room outside town. The booking register explains who paid for it.
+Accusations in a reused warrant | A self-appointed investigator serves identical charges on rival spellcasters. Both warrants come from the same sheet, with spaces left for the names.
+A golem follows street numbers | A masterless construct follows house numbers in order and stops at every missing number. The oldest town map shows why one address was removed.
+The noble's spare dinner setting | A host wants the party at dinner and has set a place for someone they recently crossed. The seating plan tells the party the order in which requests will be made.
+# wilderness encounter | 811703532873244676
+The spell that lost its owner | An orphan spell jumps between objects made of the same wood. Identify that timber by watching where it stops.
+Dream at the wrong campsite | Two sleepers dream of today's camp one valley over. The slope in the dream reveals a safe route out if the weather turns.
+A forgotten birthday purchase | A traveler sets out birthday cakes for guests who won't arrive. The empty seats are marked with places the party can check.
+The missing initiates | A secret ceremony mistakes the party for expected recruits. Listening to the welcoming speech reveals the recruits' actual destination.
+Wild kin on a disputed trail | A band maintains a path outsiders claim was empty for decades. Old repairs in their distinctive style prove regular use.
+A grave raises a question | A lonely grave has an epitaph addressed to whoever comes after a particular date. A second inscription is visible when the light falls low.
+The family at the border | Travelers keep asking guests to join their family. At the next checkpoint only caravan members can vouch for each other.
+The inn that leaves no ashes | Night guests receive exactly the bed they had years before, though the building later vanishes. Someone has scratched a direction in the ashes outside.
+A talking animal needs privacy | A hare knows the hunters' words and repeats them only from inside a burrow. Once it trusts a listener it names which claim it wants verified.
+A statue that is warm at the joints | A stone figure takes a single breath when rain begins. Ask the party what would convince them to carry it out of the storm.
+The purse in a marked tree | Someone left money in a branch deliberately bent over the path. An identical empty branch points back toward the village.
+A familiar body carries a new tool | The party recognizes a dead traveler whose tools belong to a different trade. A guild mark leads to where they learned that trade.
+Amber keeps someone alive | A transparent shell preserves an injured scout. One side has thinned enough to speak through and the scout can direct rescue.
+A dog guards an empty camp | A frightened dog defends a camp nobody has used for days. Returning the stray's missing collar settles it long enough to search.
+The cairn out of alignment | Stone cairns point the same way except for one. Its odd alignment was designed to guide mourners when standing water covers the usual path.
+A runaway goat drags a cord | A goat broke out of a pen with a line of handwritten tags still tied to its collar. Each tag marks an animal being moved that night.
+The hunter's spare cabin | The hearth is warm and the bedding dry. Pegs by the door bear the names of people the cabin owner expects to arrive.
+Fire crosses uphill | A forest fire approaches faster on one ridge than expected. Two crews can build only one firebreak before the wind changes.
+The mine changes shifts | A deserted mine rings its old shift bell. The party can lower a lamp and watch ash blow out of a shaft recorded as sealed.
+A morning without a watch | Nobody remembers who kept the last watch. The mud records which boots went outside and which fire was burning.
+The short route has one drawback | Someone offers a route that cuts half a day off the trek. They only walked it while the sluice was open.
+The last dose on the road | A sick passenger knows where to find relief and lacks the strength to reach it. Their friend wants the party to take all of the remaining medicine in case of delay.
+The flood leaves two choices | A flash flood cuts between two groups of travelers. One has shelter while the other has the only equipment that can cross.
+The boundary stones cast new shadows | Standing stones seem to point to a new location at dawn. Checking the bases reveals which stones were turned.
+The vine conceals the plinth | An old statue stands behind thick vines. A worn plaque distinguishes the depicted person from the modern hero locals name.
+Failed house repairs | An empty cottage shows years of earnest repairs around a single collapsed wall. A bill nailed inside identifies the landowner still collecting rent.
+The shrine beneath the shrine | A wrecked sanctuary sits over the remains of an earlier one. Identifying the gods by their orientations lets players find the concealed approach.
+A campsite's welcome mark | Local travelers leave carved signs to say whether the camp is safe. Someone added a fresh sign upside down.
+Sky lights cross in pairs | Several lights chase one another over the hills. A settled fire spot below one of the crossings contains tracks in opposite directions.
+Venomous shelter | A small creature shelters inside a boot left out to dry. The party can follow its retreat to discover where their guide hid the spare boots.
+An injured animal keeps getting up | A wounded boar drags itself toward a creek. Its old snare is clean enough to trace to a nearby trapper.
+The grove asks for an offered path | Druids close a grove to travelers without explaining why. One offers a walkthrough if the group marks paths local animals already take.
+The ridge fixes the map | A landmark emerges above the mist. Its alignment shows the official chart swapped the names of two valleys.
+An unstable boundary for spells | Across a narrow gully, cast spells produce an echo at the caster's old position. Pebbles with simple charms let the group test the boundary.
+Straps made from the wrong leather | A pack strap splits along a hidden repair. A trader can replace it but asks to see the original receipt before selling to the group.
+A watering place shared by rivals | Two herds arrive at one pool. A traveler can move a trough to separate them if the landowner agrees to spare water.
+A stone falls out of a cloud | A warm stone strikes the trail and sinks into dirt. The imprint reveals it was set in a larger frame before it fell.
+Protected scarlet wings | An uncommon bird is nesting on an old marker. One collector wants its feathers and one historian wants the lettering beneath the nest.
+A boar clears one path | A wild boar uproots a strip of plants while ignoring all the others. A forager demonstrates how it is following a buried edible root.
+The hill's slow answer | A hill spirit answers questions by sending stones downhill. An old terrace catches stones from only one direction, letting the party distinguish replies.
+Carrion birds won't land | Birds circle low over a mound but pull up before landing. Wind around the mound carries one clear warning sound.
+Raiders selling back tools | A group returning from a raid sells tools below their cost. Their guide is prepared to show where the tools came from if someone pays wages owed.
+A threshold that can't match daylight | A portal offers open air and a midday sun long after dusk. Tossing through string shows the ground beyond lies at a steep angle.
+A basket full of unripe berries | Foragers are stripping a patch before its fruit is ready. Their village expects a hard frost and needs news from the weather tower.
+Lightning under clear sky | Lightning hits the same tree from a clear sky when someone crosses a certain stream. Watch what the strike leaves untouched.
+A missing tool turns up ahead | An object misplaced on the trail appears farther ahead already worn with use. A second object can be left behind to repeat the test.
+A seed cloud at ankle height | A marsh plant releases its seeds at sunset and the haze stays low. A local directs small travelers to platforms at the edge until it settles.
+The lost survey troop | Scouts on a ruler's payroll are afraid to say they lost the road. Their notebooks can still establish where the road used to go.
+The morning repeated | An hour after breaking camp, the same traveler says the same greeting. An ink mark made during the first encounter can reveal what survived the loop.
+The posse with an open warrant | A posse wants a missing person found alive. Its warrant gives a second person the authority to call off the pursuit.
+A tree splits to reveal writing | Lightning opens a tree and exposes carving made while it was young. One name matches a present-day family who interpret it differently.
+The wagon the owner left behind | Cargo remains in an overturned cart wrapped for rain. Someone repaired the axle and then left without moving it.
+A migration across camp | Thousands of beetles travel in a straight line at dusk. Campers can pack up or learn which ordinary scent sends them around the tents.
+The meteors over a border | Shooting stars appear only on one side of a ridge. A shepherd has been timing the flashes against lights in a distant tower.
+The roadside teleport stop | A traveler arrives by magic, checks a carved mark, and waits. They have to decide whether to risk a return spell after seeing the mark rubbed away.
+The lair is behind the waterfall's echo | Sound returns from a second opening on the other side of the falls. In calm water there is a chance to reach it from below.
+Terraces without steps | Ruined farm terraces have no visible approach. Looking at them from across the valley shows where the old stair towers were.
+A cottage reached by knocking | A magician's cottage turns its doors away from the road whenever someone approaches quickly. A delivery person can model the greeting it recognizes.
+A stampede needs a gap | A herd is pushed toward a ravine by weather. Fence builders ask the party to open a barrier that would divert it into valuable crops.
+A fissure separates the mule team | A tremor leaves pack animals on a ledge with just enough room to stand still. The cargo has to come off first.
+The foundation that floats away | A sinkhole swallows the trail while its stone markers drift on water. Those markers are safer footing than the apparently dry fringe.
+A wrong turn under oath | A lost traveler swears they followed every marker in order. Their boots carry evidence from the path the patrol has quietly diverted traffic onto. Find out what the patrol is keeping traders away from.
+A visitor with the wrong season | A trader from far away insists their delegation walked through snow that morning. Their luggage is full of summer plants wrapped for transport.
+Bodies downstream at intervals | The river carries bodies at regular distances. Logging the intervals helps locate the narrow channel that periodically releases them.
+A magpie collects signets | A bird takes bright badges and keys but ignores coin. Its nest holds tokens from every halted road crew. The watch will change the locks by dawn if its key is still missing.
+Boots placed to dry | An abandoned pair of boots is tidy and warm. Next to them are prints of bare feet walking into a place nobody would enter in winter.
+Carved marks face the deer trail | The rock's signs face a narrow animal track. A hunter recognizes them as a route marker meant for something shorter than a traveler.
+An engine bogs down | An old siege engine stuck in mud blocks travelers under its own weight. A descendant of the crew will explain its concealed cargo before the party moves it.
+A wolf waits for the pack | One wolf blocks the road but glances repeatedly uphill. The rest are carrying pups across a stretch exposed to travelers.
+Settlers choose between water and land | New arrivals can settle the only clean spring or the only field ready to sow. Existing residents can offer a third site if their boundary dispute is resolved.
+The skirmish had a third line | Two groups left signs of fighting. A third trail from baggage carts reveals somebody else took the supplies.
+A hunter wants the correct culprit | A bounty hunter has a description that fits two people. They will split the reward for proof the one they caught is wrong.
+The mist shifts bearings | A small patch of fog moves travelers sideways while they face forward. Stakes tied to a line make the shift measurable.
+Someone in the trap won't shout | A trapped stranger asks for silence before rescue. The trapper is nearby and waiting for the sound of their own missing pet.
+Raiders keep an account of guard shifts | A band watches the road and writes down every patrol. They are documenting missing guards to sell the record back to the watch.
+The explorer's blank rectangle | A cartographer refuses to finish one corner because the water carves a fresh channel overnight. Compare their past measurements with a survey at dawn to see where the stream will cut next.
+Adventurers ask to exchange burdens | A returning group offers a recovered object for the party's ordinary rope. The rope is needed to make the rest of their promised rescue.
+The courier pigeon wants land | A pigeon circles high above the route with a heavy message tube. It will land on a familiar pattern drawn on a flat roof.
+A fugitive asks for neutral ground | A former servant wants shelter and insists their old employer is coming. The host needs a neutral witness to offer protection lawfully.
+A farm keeps one room aired | An abandoned farm has every entrance blocked except the pantry vent. A yearly festival still stores something there as part of an old agreement.
+The abandoned bundle is warm | A wrapped baby is left at the edge of a trail with a marker showing where to find shelter. No tracks lead back the way the party came.
+A warning signed by a dead guide | A message orders travelers off the road using a dead guide's signature. Their apprentice can show which route was meant and why the signature was used.
+The ring trades places | People sleeping inside a ring wake in each other's bedrolls with the same gear laid out as before. Whoever stayed on watch can describe what moved and when.
+The old rival arrives without an audience | An adversary asks the party to negotiate far from witnesses. Agree on which third party will hold the resulting promise.
+An ally walks the other way | A trusted friend passes on the trail with no time to stop and slips a bundle into someone's hands. Check its contents before following.
+A tree house rocks in still air | A hermit says the house rocks whenever a creature climbs the roots below. One root is hollow and worth listening to.
+The herb patch belonged to a garden | A potent plant grows in neat rows far from homes. Cleared growth reveals a foundation with rain channels that still work.
+# road encounter | 642114859389289061
+The company celebrates a completed job | Mercenaries invite the party to a roadside feast and ask whether their last employer has paid the town. The answer affects whose work they accept.
+Bandits miss their intended wagon | A crew asks if a protected wagon already passed. They will reconsider their plan if shown whose goods it is actually carrying.
+The lost traveler reads from the other bank | An insectfolk traveler carries a map everyone assumes is upside down. Their legend is accurate when read from the far side of the river.
+A portrait in fifteen cuts | A woodworker asks travelers to sit while they carve a likeness. The figures taken from the previous sitting include a person nobody saw on the trail.
+Pilgrims hire help late | A group sets out without dry clothing for its final climb. The leader refuses new gear unless it is freely offered under their rules.
+A horned draft animal blocks the road | An armored wagon gives priority to its giant draft animal's rest. The traders will take detour advice if it reaches a place where the animal can turn around.
+The historian needs a witness | A wight records local stories without feeding on anyone. The living witnesses want their versions kept out of the graveyard archive.
+A dryad offers seed instead of coin | A grove keeper offers a seed that will grow wherever the party deposits it. Taking the reward means deciding who gets to tend what grows.
+A raven measures a track | A raven shifts leaves along the edge of a monster print. Its handler will trade information only if the party lets the method remain secret.
+The spare mount for a messenger | A rider's mount collapses just short of town. Sending the message ahead requires borrowing a riding animal from a reluctant teamster.
+Two satyrs disagree about the joke | Two performers have wagered something they cannot afford to lose. A party member can judge fairly or find a target both would rather tease.
+The guarded cart collects stories | A merchant asks travelers for stories and one guard takes notes. A phrase from the notes appears on a cheap broadsheet at the next stop.
+Mimics of a market cry | Roadside jobseekers can imitate the sound of any hawker they heard. The party can trade an introduction for a demonstration of the last cry.
+A knight wants a local cause | An eager knight asks about threats they can end before supper. The person doing the real work asks them to lend gear instead.
+The caravan can't unload | A stone giant brings a train of loaded elephants but the town's ramp has collapsed. Hire locals to make a new unloading point before rain.
+Newlyweds request a detour | Two armed travelers on their wedding trip ask for a scenic excursion. One wants an audience and another wants a place that gives them privacy.
+Skeletons in the road crew | Skeletons repair a road while a priest supervises. The priest is willing to leave if the party will get the townsfolk to perform the necessary work.
+Protection with fixed boundaries | A fiend assigned to a road offers an escort as far as its last milepost. Someone has been moving that post to claim protection for a different road.
+# object clue | 1127799931666741626
+The mirror omits its buyer | A mirror reflects everything except the person who purchased it. The secondhand dealer can use it to recognize someone they claim never entered.
+A sitter the sculptor can't name | A statue shows unfamiliar proportions and carries a local artist's mark. The maker remembers the measurements but no parts of the sitting.
+The glossary of river names | A bilingual dictionary uses extinct river names in all its examples. Someone has written a modern address alongside every translated route.
+The stone incubator | A stone egg is cold on top and warm underneath. Local birds add nesting material around it even when it is moved.
+The acorn on a loose board | A carved plank was cut from a door with a distinctive width. The wood under the acorn stayed dry through a fire that burned the rest.
+A letter sealed against its own opener | A purpose-made letter opener will slice anything except the envelope sold alongside it. Hold its edge to the stamp to reveal whose permission the seal requires.
+The plush beast has the right anatomy | A handmade toy depicts a creature unknown locally, including an accurate extra joint. Ask who supplied its maker with a model.
+A portrait follows only a thief | Several visitors think the eyes of a portrait follow them. Test a wall hook from the portrait's old room to establish exactly when its gaze shifts.
+A compass tuned to what was stolen | A compass points to a movable piece of iron. Documentary evidence says it was once calibrated against a fixed object that vanished.
+Teeth with consecutive numbers | A bracelet has a different number cut into each bead. The local ferryman issues the same numbers as tickets.
+A sword that rejects an edge | A blunt sword sheds any edge ground into it. Its owner's contracts treat it as a tool for dubbing, which makes the edge itself a claim to office.
+The crystal shows a key from below | A crystal shows the underside of a key. An artisan can identify a distinctive notch and reproduce a harmless blank for checking locks.
+Ink that turns up on the reader | Ink is invisible on paper but stains the hands of whoever last held the sheet. A shared handwashing bowl can preserve both traces.
+A map drawn for the tide | A route ends at a point apparently empty on land. It makes sense only against a chart that shows low-water obstructions.
+Pendant gives a portal's time | A tiny scene in a pendant spins whenever a particular threshold is open. Compare its spin against a clock to find the next window.
+One wooden joint has no pin | A model of an automaton moves a leg that has no physical joint. Check the larger machine for empty space where a drive pin ought to be.
+The stone key sets a weight | A huge stone key is much heavier than a person can turn by hand. Its teeth match wedges in a counterweight slot.
+Glasses for a blind witness | Opaque glasses bear traces of a series of spoken testimony in the arms. The case carries two versions of one testimony and identifies neither as final.
+Marbles settle against a vanished slope | Glass marbles roll as if a long-removed floor were still there. Their paths map the old grade across a leveled room.
+A ribbon ties a knot in another room | A ribbon's knot cannot be reached from either end. Two people holding different ends can trace the path of its missing loop with chalk on opposite walls.
+A flask borrows liquid | A flask stays full even when poured. The same amount disappears from a marked cistern that many people rely on.
+The sketch has a future repair | A drawing of a character includes gear as it would look after an unusual repair. The local craftsperson can quote the price and say who ordered it.
+The reef claims a crest | Coral has grown in the exact outline of a faction's emblem. Tracing its growth shows the emblem lay on the reef long before the faction was founded.
+A giant scale moves upstream | An iridescent scale drifts against the current when wet. Floating it at a fork can narrow the search for the animal that shed it.
+An ink stamp tracks custody | A stamp takes on a new shape after every use. A sheaf of impressions can establish which papers were made before a disputed transfer.
+A mute instrument knows the rhythm | An instrument plays silently but moves dust along the sounding board. One nearby musician can read the arrangement by watching the dust.
+The sack cut from rock | A hollow stone sack carries a folded strap worn like cloth. The local mason can identify the quarry by pockets inside the hollow.
+A letter of credit for a dead bank | An old letter can be redeemed at a bank nobody recalls. Paying out the value would restore the bank's charter and expose an existing debtor.
+The specimen that never rots | A fresh-looking carcass is recorded in an inventory made three generations ago. Its wound suggests someone has removed a piece quite recently.
+The seed parcel that came back | Seeds arrive from plants known to propagate another way. Their packet carries the return address of a gardener who buys failed experiments.
+A skull with mismatched annotations | Symbols cut on a skull label places its owner never visited. The knife marks set some labels years apart.
+A book erases personal names | Names disappear from a log while titles and salaries remain. A set of signed expense sheets can reconstruct who held each job.
+An inexhaustible cooking pot | A stew pot refills whenever its last portion is served. The only way to change what comes back is to feed the first bowl to whoever cooked the original batch.
+The stars on the other side | A star chart matches no current sky. A widely traveled navigator can identify the view as a reflected sky from the opposite hemisphere.
+A trapdoor opens under its own shadow | A loose hatch has a small empty space behind it, wherever it is laid. A person confined inside can reach out only while someone stands across its shadow.
+Picks that refuse a closed lock | A set of picks will turn the bolt only while the latch is open. A watch officer asks the party to find the owner who used it to lock a door from the outside.
+The ice warms on purpose | A piece of ice feels warm but never melts. It cools as it approaches the larger glacier and warms when taken away.
+An abacus favors one account | A calculating frame is accurate in most hands. With the accounts of one official, it consistently omits a single levy.
+Wind kept for a voyage | A jar contains wind that blows in the direction it was bottled. Loose paper twists toward the coast printed on the seller's label.
+A scrying ball needs darkness | A ball displays rooms with all their lights out. The party can steady a view by asking a willing contact to shutter one window at a time.
+Dice choose a witness | Casting bones always land on the same result for whoever owns them. Let two players test who the bones currently recognize.
+A quill fits a borrowed signature | A pen changes the user's handwriting. The stable ink color can prove which contradictory letters were written on the same day.
+The signet leaves an absent shape | Wax under a featureless signet sheds all dust except over the place a design should be. The signet's maker asks whether the original was filed off or never present.
+A pocket holds no weight | A long coat's pockets accept many objects but come up empty unless searched in the original order. Seams reveal how many items someone left.
+A movable boundary | A loose fence panel acts like an impassable border for a particular family. A land charter gives the terms under which it can be relocated.
+A bag with a forwarding address | Objects put in a bag appear in a former owner's washbasin. The washbasin keeper has begun labeling and selling the arrivals.
+Soap marks its buyer | A bar leaves a distinct bad smell that locals associate with a ruined bathhouse. Offer a public demonstration before an accusation based on smell goes further.
+Fruit from the wrong orchard | Fresh fruit turns up beyond the range where it grows. A seller wants proof that the seeds will germinate before they pay its unexpected carrier.
+An hourglass measures company | Each turn takes a different time depending on who is watching it. Measure the difference when one person leaves the room.
+A feather records a touch | A bright feather releases heat the first time each person takes it. It has already cooled for someone who claims never to have seen it.
+The dagger harms its custodian | A cursed blade makes whoever wears it sick. People contest ownership but are eager to have someone else hold it in the meantime.
+A diamond changes pockets | A jewel reappears in the nearest tied purse whenever dropped. Search who packed the nearest tied container before the theft.
+The ball knows an old league | A ball runs drills on a sand court all by itself. Its route outlines positions required for a game the town banned.
+A spool proves where a parcel stopped | Unusually strong thin wire survives a shipment across a rough pass. It ends in a telltale repair knot used at only one depot. The depot's manifest names the person who brought a shorter spool back.
+Matches that work below water | A match lights only while submerged. Ask who installed a candle bracket below the old mill's waterline.
+The shell whispers one toll | A shell always whispers the same small amount at the same tide. The old harbor tariff lists who was bound to pay it.
+Plates that record a shared meal | Each cracked plate breaks after serving one guest. The glaze exposes an identifying mark when it fractures.
+The cat comes with evidence | A ball of yarn summons the nearest cat. One regular arrival wears a paper tag describing an inaccessible room.
+A crown over a junk dealer's mark | A jeweled crown was plated over reused metal. A repair exposes part of a manufacturer's mark on the inside.
+Counterfeits made to be obvious | Bad copies of coins are traded in great quantity. The wrong side always bears a grain measure, so the copies let people settle a debt in goods.
+# effect | 1079386235717432177
+Hair in one sudden length | The drinker's hair grows long enough to catch in buckles. The change ends at dawn, which gives a tail a reliable mark for the evening.
+Voice with the weight of a drum | The drinker's low voice carries through floorboards. A listener below can recognize the speaker even if the words remain unclear.
+Glitter that catches on fabric | A sneeze gives away the drinker in lamplight. A coat worn by the same person later retains a little glitter inside its sleeve.
+Metal skin for one clash | The drinker's skin turns brassy and blunts the first puncture. A visible dent shows where the protection spent itself.
+Horns that signal the wrong rank | The drinker grows a pair of tiny horns for ten minutes. Locals mistake their angle for membership in a club that owes the party an answer.
+Rain scent without water | The drinker smells of approaching rain. Animals settle before an actual storm and stir again when they notice the false smell.
+Strength until the minute hand moves | The drinker can hold a heavy load for a short time. Set a visible clock before asking who will take the weight next.
+One jump through open air | The drinker may disappear and reappear a few steps away once. The destination must be visible at the start of the move.
+Reflection half a breath late | For an hour reflections lag the drinker's movements. An observer can test which window is glass and which is a patient illusion.
+A minute to see unseen guests | A drink reveals creatures using invisibility for a minute. An opaque barrier still hides whatever stands behind it.
+Changing colors without moving | Skin moves through bright colors even when the drinker stands still. The drinker can hold their breath to pause on a color and send a signal across the square.
+Letters drawn with fingernail light | Nails leave lines that glow briefly without gouging. Draw a temporary sign on something the party wants to preserve.
+A shadow two steps fast | The shadow runs ahead of the drinker without leaving their side. It flinches back if someone beyond the corner sees it, giving the drinker time to stop.
+Barely above the dust | The drinker hovers the width of a finger above flat ground. Place loose powder at the edge of a safe patch to show where solid support matters again.
+A pocket storm overhead | A harmless small storm appears over the drinker. Raising a copper rod makes it flash and can signal across a dark courtyard.
+Slit pupils in noon light | The drinker gets narrow pupils that help them pick a face out in glare. It is obvious to anyone standing opposite.
+Embers with no heat | Visible sparks shed from the drinker without burning. They can test an air current but also betray a hiding place.
+A voice from an uncertain corner | A drink makes whispers difficult to locate in a room. An ally who sees the speaker's mouth can still pick them out.
+Hands light the work | For a few minutes the drinker's palms glow. They can shut their fists to hide it, at the cost of putting down tools.
+A nose for an older visitor | The drinker distinguishes recent smells from older ones. Given an object that carries a reference scent, they can recognize it in a crowded room.
+A ceremonial mask appears | A temporary illusion puts a mask on the drinker. It silently takes on the expression of whoever last handled the vial. The wearer can use a mirror to see what that person felt.
+A halo moves like a lantern | A halo visibly lights the wall above a barricade while its wearer stays behind it. Make the light obvious before anyone attempts to hide.
+Bells on each step | Motion sets a soft chime ringing. Walking slowly changes the gaps between notes and permits a simple signal.
+An animal has one minute to explain | The drinker can speak with nearby animals briefly. Let one animal describe what it sensed without identifying people or places it has never learned.
+Static as a clue | Hair rises around the drinker. It leans farther in a room with a charged object nearby.
+A harmless guest in the hand | A small animal appears briefly wherever the drinker holds out cupped hands. A boy recognizes it as the same species that ruined his flower bed.
+Blue light in the veins | The visible veins of the drinker glow. A healer who follows the light can identify a tight bandage before removing it.
+Eyes like watch lamps | The drinker's gaze casts a narrow beam. Covering the eyes extinguishes it and makes ordinary sight unavailable.
+Hum at a frightened animal | A continuous hum can steady a frightened animal willing to listen. The drinker has to stay nearby and leave the creature a path to retreat.
+Brief speech without voice | For one minute the drinker can speak only to one person's mind at a time. The listener can always ignore it or answer aloud.
+A cold hand on warm wax | A hand feels cold enough to firm warm wax on contact. The cooling ends after it has set one small seal.
+The new rune fits an old mold | A harmless mark shines on the drinker's palm. One workshop uses the same mark inside a form for recognizing approved couriers.
+A harp nobody carries | Notes follow the drinker's voice and give away which words they emphasize. A bard can take down the pattern as a separate melody.
+Paper confetti with each clap | Every clap releases colored scraps. Their landing points help mark a floor the party has to cross more than once.
+A shadow the color of cloth | The drinker's shadow changes to a bright solid hue, making it easy to distinguish at the edge of torchlight.
+Smoke takes a dragon's shape | A single harmless cough makes a smoke figure and sends it down the strongest draft. A split in the figure suggests a hidden vent.
+# boss mechanic | 420945896434136076
+The mirror golem | A golem repairs itself inside intact mirrors. Its reflection appears before it steps out. Covering mirrors cuts off escape without destroying evidence etched into their backs.
+The pendulum exposes the watcher | An invisible guardian becomes visible at the top of a swinging weight's arc. Players can jam the swing there or release the weight to clear a path.
+One swarm, two fronts | At the start of a round, a swarm divides its existing mass between two objectives. Ringing a bell draws the nearest group toward it. Joining bodies restores reach at the cost of covering less ground.
+The clockwork beast winds down | The creature spends every fourth beat rewinding itself. Telegraphed slowing gives the party a chance to block the key or bargain with its attendant.
+The gatekeeper blinks to numbered tiles | Each time the guardian takes a hit it moves to the next intact tile by number. The party can close off tiles, but one of them is also the exit.
+# creature | 364369426114048490
+The eyeless assessor | This creature reads footfalls instead of faces. It names visitors by their gait and can be misled by carrying someone else across the floor.
+Voice under the floor | A creature's mouth moves and its speech emerges from a loose board elsewhere in the room. A whisper into a crack beside the board reaches the creature alone.
+The migrating face | Its eyes and mouth creep toward whichever side of its body is warmest. A hearth draws its attention away from an occupied doorway.
+The stone-jointed scavenger | Its joints petrify in direct sun. Tracks stop at a bright patch and resume on the far side after dark. Move the shade to bring it out or let it cross unharmed.
+The walking undertow | Dirt and hair float around it as though submerged. Watch what drifts toward it to find the concealed drain it uses as a den.
+The last word comes first | An echo gives away the last word of the creature's next sentence. An interpreter who notices the pattern can use it to tell a threat from a warning.
+Faces on the shell | Portraits appear on the shell of a predator after every encounter. One face belongs to a living witness who insists that the others can still be recovered.
+The head argues with the hands | The walking creature's head wants to surrender. Its hands keep packing stolen goods. Ask the players which part to address and what they can offer both.
+# plot device | 541276448982241307
+The scripture is fading | After a god dies, fading texts leave rival temples with different surviving verses. Give a third copy to someone who needs the party's help to preserve it.
+The miracle borrows a pulse | Divine healing temporarily tires the person who grants it. The temple can share the burden, but each faction wants to decide whose cases take priority.
+Who owns the last dawn | Unending twilight ends briefly around a transferred relic. Farmers, navigators, and nocturnal citizens each offer a use for those few minutes.
+A rot crosses old parish lines | An unnatural rot follows obsolete religious borders. The people outside those borders can help choose where to quarantine and which old boundary markers to restore.
+A command nobody swore | A garrison's oath has lost its divine witness. Officers claim it still holds, while rank-and-file soldiers want a new agreement they can read before signing.
+Graves ask who inherited prayers | The dead rise where prayers are still addressed to a god who has died. One family can describe a deceased person who never received the same rites.
+The forge forgets an alloy | Every smith forgets the same step of a sacred craft. An apprentice kept an interrupted practice piece and needs backing to try a different method.
+Two versions of a town square | A rift brings the past and future to the same square at different hours. A resident from each era asks the party to change the same decision for opposite reasons.
+# plot device | 433190057931484692
+The jar asks for repairs | An intelligence in a sealed vessel builds influence by solving small problems for anyone who carries it. Make its favored repair jobs point to the network it is assembling.
+A retired wizard suggests a route | A helpful wizard can chart their former stronghold in detail but remembers different reasons for sealing its rooms. Let the party compare their testimony with the letters they wrote before leaving.
+The last owner of the armor | A suit carries the voice of a former tyrant. Each favor it asks seems fair in isolation. Give its wearer an explicit chance to refuse when a favor would make the next one easier.
+# lair clue | 517139969717656877
+The toad follows the newest footprints | A toad in the hag's sitting room wears a ruined adventurer's boot buckle. It will retrace the route to their gear if somebody places the buckle on the floor.
+Shoes kept in pairs | A hag displays a cabinet of victims' shoes. One pair is still muddy from a trail that she says has been closed for years.
+A bone key leaves a debt | A key opens a single lock and breaks in it. Owners of locks opened this way can use the fragment to ask who turned it, which makes the key useful evidence as well as a shortcut.
+# lair clue | 597360338087989020
+The skull answers in invoices | An undead tradesperson remembers an alchemy commission through its costs. Give the party three invoices and let the skull identify which one names an impossible delivery.
+Candles burn to different lengths | Candles measure the time their owners have left on a contract. One flame is eating through wax fast enough to make negotiation urgent.
+# plot device | 779263541785765605
+A bargain with nobody left to collect | A villain keeps a borrowed talent until the other party receives the agreed payment. Find the lawful successor and ask whether they want the bargain fulfilled or renegotiated.
+The enemy alone can forgive the breach | An old enemy's sincere forgiveness would break a ruler's protective oath. Treat forgiveness as a decision the enemy can decline even after the party offers restitution.
+The villain's plain name | A title keeps a magical protection active whenever the villain answers to it. A witness who knows their given name can call them away from their audience and ask to speak as old neighbors.
+# creature | 517139969718128319
+A ghost wants a sponsor | A house ghost lets one living visitor see where its friend used to sit. It will leave if somebody who knows that friend publicly acknowledges the friendship.
+A detective's case moved on | A dead investigator walks the same route seeking a witness who grew up and moved away. Find the witness under their adult name or show the ghost a later copy of the case.
+A cat inhabits the fish scale | A cat ghost inhabits the counter scale at a fishmonger's stall. Let the party decide whether to spend a morning giving it the ordinary care nobody gave it in life.
+# location | 745345807074900358
+The roofless monastery | Novices train on an uncovered bluff where winter storms pass through every classroom. A sealed guest room would keep travelers safe, but the keeper refuses to open it until somebody can account for the last people inside.
+The infirmary inside the old lair | Healers established a refuge inside a former monster's lair. The defenses suppress intrusive magic well enough to stop a curse, but they also cut off the patients' ability to call for help.
+The chapel above a breath of air | A submerged monastery keeps one dry guest hall. When storms approach, the hall's air is shared with neighboring divers and somebody has to make the guest list.
+# creature | 318770479890244922
+One-legged lamp tender | A small marsh spirit trims lamps along the safest causeway. When a new keeper moves the lamps, it follows the old route anyway and can show the party which stakes were moved.
+A serpent that trusts only starlight | A large nocturnal snake refuses to cross a patch lit by torches. Its nest is on a rock that will submerge at sunrise, giving the party a chance to guide it instead of fighting.
+The two-tailed fox barters for shelter | A fox can hide itself and one small object under the curl of each tail. It wants protection for a night and lets the party choose which of two objects to return to their apparent owners.
+# object clue | 318770479890244922
+The first hand becomes the face | A blank doll takes on the face of the first person ever to hold it. Its buyer can check if a supposedly factory-new doll was left for them by someone specific.
+A skull opens one eye at midnight | At midnight the light in one eye turns toward the place where the skull was last deliberately buried. There is a short window to take a bearing before it closes.
+A token buys bad luck on credit | Anyone who accepts a particular faerie coin as payment finds an unpaid bill later in the week. The bill always bears the same merchant's stamp regardless of the purchase.
+# creature | 294634000627003817
+The stone fisher lets coins pass | A cave predator drops coins and jewels because it hunts only things that move under their own power. Slide a weighted sample down the entrance before deciding where to go.
+The stomach hides a traveling route | The stones in a cave predator's gizzard were rounded by a fast stream. A geologist can use their colors to pick out the route the creature takes between caves.
+# environment | 591097519830637217
+The lights go out at shoulder height | A path through tall luminous fungi has a dark strip where passing travelers touched the stalks. The surviving lights show where they started ducking.
+The water crop fails at one ledge | Empty barrelstalks mark one level of a cavern. Higher shelves still yield water. A local grower asks the party to identify what drained the low shelf before the next planting.
+# sea encounter | 683984262162651752
+Salvage floats over a feeding ground | The turtle that sank a merchant convoy now waits under the salvage site. Three captains are trading false dive times to send rivals down first. Spot which marked buoy the turtle avoids before choosing whether to dive or negotiate.
+A net caught a courier | An illegal fishing boat snared a merfolk messenger. Opening the holding tank will free the messenger and lose evidence of the catch. Find a way to preserve a witness, the ship's log, or the net before opening it.
+Why the harpies left their island | A flock nesting in harbor blocks safe passage. They will move if the party recovers eggs left on their old island. The harbormaster is willing to move shipping for a day if someone can prove the flock plans to leave.
+The hatchery has competing claimants | Three crews search for the same kraken egg. Only a nursery with the right currents can keep it alive. Decide which claimant can handle it before opening the reef barrier the crews all need.
+# sea encounter | 865043040932358843
+A beacon changes its rhythm | The same light is an invitation on the way out and a distress call on the way back. A lighthouse keeper will share the signal book if the party helps repair the boat that takes them off shift.
+A ghost ship wants its passengers discharged | A spectral captain cannot dock until someone ashore signs the passenger manifest. The harbor office finds two names that already belong to living citizens.
+Cargo moves below the wreck | A ship burns without drifting. A rope leading underwater keeps it beside a salvage crew retrieving a waterlogged chest. The crew asks for help keeping their air line out of the fire.
+A curious monster brings a replacement | A large sea creature takes anything dropped overboard and brings back something of similar shape. The next object it offers marks a channel the boat cannot enter at its current draft.
+The second wake | Dolphins follow the ship in two ranks. One rank veers toward every bad plank that leaks. A sailor can watch the pattern to find a slow leak without unloading the hold.
+A maelstrom has business hours | A whirlpool opens a route to an underwater market at slack tide. The down-current entrance is safe only while a basalt marker is visible. The other route remains open but carries a toll.
+The empty ship sails a shift pattern | A crewless vessel stays on course until it reaches the bend where a missing sailor would have taken the watch. An intact roster gives a rescuer a way to impersonate that sailor long enough to steer.
+A sea god asks for ordinary labor | A divine messenger asks the party to move a milestone that marks an old fishing ground. Ask neighboring crews who expects to gain access if the line moves.
+# sea encounter | 715298353334721984
+The drift boat holds two claims | A skiff carries half of a ship's papers and a dry hammock with a recent stain. One crew wants the papers back and another will identify the person who slept there.
+Flying fish jam the scuppers | A school of small fish lands harmlessly aboard but blocks the openings that drain the deck. Clear them now or save the mess until after the captain notices the following squall.
+The crate overbalances the cargo plan | A crate starts pulling nearby loads toward it during a squall. Check its bill of lading to learn which part of the cargo was supposed to keep it balanced in town.
+A large fish trails a line | A predator trails the vessel with a line caught on its fin. It only approaches when the ship slows. Cutting the line gives it a reason to leave and the party a marked hook to trace.
+# sea encounter | 771663717381907173
+A refugee hides among ballast | A seasick passenger is hiding in the hold. Telling the captain earned the last stowaway an unwanted return home. Finding a person on the roster willing to vouch can make the stowaway a paying guest.
+The captain's sealed cabin is a transit room | A concealed cabin has a chalk circle and its door is locked from the hall. The ship's old charts give three ports where a matching circle could receive the next passenger.
+Tritons dispute the keel line | Mounted riders accuse a ship of crossing a boundary. The ship stayed on its declared course. The tritons can show that the marker stones moved after the latest tide.
+The deck musician calls a forgotten watch | A drunken navigator repeats verse at odd times. A retired mate recognizes it as instructions once used to shift shifts without passing a written order.
+A crystal eye rides an empty boat | An artificial eye lies in the center of a skiff that stayed dry in an oily slick. Return it to its owner before the harbor sorts the boat as salvage, or trade the eye for an account of the slick.
+# arc design | 423268064991046998
+Offer a decision tied to a stated ideal | Pick a belief a player has already shown in play. Give the opposition a proposal that honors the belief at a cost. Leave who pays and how the character responds open.
+Reward the group's curiosity | Give the opposition a place with a secret worth discovering even if the party never confronts them. Make exploring it change which routes, allies, or tools the party has.
+Provoke a choice in public | When players enjoy opening negotiations, give an opponent something they can offer or withdraw in public. Have the response change who outside the scene becomes invested.
+Let the better tool change the task | If players enjoy equipment and upgrades, let the opponent hold a tool that opens a distinct option in the next scene. Give the party an alternative way to secure the same advantage.
+The tactician sees the terms | Let players who like solving problems see the opponent's constraints before risking a resource. Put an exception somewhere they can investigate and use if they choose.
+# arc design | 423268064991037087
+A credible compromise the villain refuses | Write down one exchange that would help both sides. Identify what keeps the opposition from taking it and give the party a way to change that condition.
+Competing obligations | Give a character's ally a sincere goal that conflicts with a promise the party depends on. Write an action the ally might take if left alone and what could convince them otherwise.
+Build pressure from a specific loss | Choose a person, resource, or place a character has invested in. Show a reversible consequence early and a harder consequence later if the situation continues.
+A non-person antagonist | Treat a famine, disputed law, or migration as a force that changes people's choices. Put two people in charge of different responses and let players influence which response can spread.
+# arc design | 423268064990996398
+Start where a choice is available | Show what has already changed and one thing the party can do today. Keep additional history within reach of players who want it after they choose an approach.
+A midpoint that gives away leverage | Introduce a discovery that changes what people can ask for without dictating what the party should do. Let it reopen at least one route that looked closed in the first act.
+Build room for a quieter scene | After a high-pressure choice, place a witness, ally, or ordinary task the players can visit on their own terms. Use it to let them decide what the choice meant.
+Write endings around what survives | Describe the factions, debts, or locations that would carry forward under several plausible outcomes. Ask which survivors, obligations, or places the players want to spend another session with.
+# arc design | 162200024070693652
+Run the villain's adventure before yours | Write what the opposition attempted in three short beats before the party arrived. Give each beat a trace that an ordinary person could still find.
+Use past locations twice | Set one pre-adventure action in a location the party can visit for a present reason. Let a repair, stain, or changed routine reveal what happened there.
+One witness knows a gap | Identify where a person stopped seeing the events you mapped. Let them distinguish what they witnessed from the claim someone paid them to repeat.
+Useful history for interrupted prep | Record when the triggering incident occurred, who benefited, and which NPC acted first afterward. Give each fact a different way to reach the table in case the intended meeting falls through.
+# encounter objective | 423268064991073847
+Get through before the second sweep | Place a hazard between the group and somewhere they need to reach. Show the pattern of its return so the players can decide whether to time it or change the route.
+Broker a pause with two witnesses | Each side needs somebody who will guarantee a pause lasts. Put a reliable witness near each group and make the initial success a short truce the players can extend.
+Persuade the person already attacking | Ask what the attacker wants from the people they are fighting. Put an object or witness in the space that can still prove that goal was met.
+Stop an object leaving the scene | Name the gate, cart, or portal through which a courier plans to leave with the object. Let the party intercept what matters by checking exits as well as confronting the courier.
+Protect something people can work on | Give the party a fragile asset whose location and state they can always see. Add ways for players to relocate it, repair it, or ask for cover when they need an extra minute.
+A recovery changes the battlefield | Place a person or object in a contested spot. When the party reaches it, change how both sides move so extraction has its own choices.
+The guard is on a different job | A stealth scene contains people doing legitimate work. Show what they watch and what sound or movement they routinely ignore.
+Interrupt one link in the sequence | Tell players what they can see about a developing ceremony or public event. Identify at least two different links they could interrupt and show what each evening looks like if it breaks there.
+Defeat the authority holding a truce | One enemy gives others orders through a recognized signal. Remove their ability to issue it or give a credible replacement signal to stop the fight before every combatant falls.
+# dungeon obstacle | 521643569352431303
+The safe step is the apparent drop | An obvious gap draws attention away from an unstable landing. Let a tossed stone tip the landing and reveal a broad step inside the first gap. The party can use that step, brace the landing with magic, or cross above both.
+# dungeon obstacle | 541276448977919971
+The wall closes on the wrong room | A lever marked for rescue closes a stone partition through enchanted force. Chisel marks show where it comes down. An inscription on the other side identifies a release the trapped character can reach with light.
+# dungeon obstacle | 402298179217599816
+A pillar points to a second door | A fixed magical light sends a pillar's shadow across the floor. Rotating the pillar makes the shadow line up with worn outlines of doors on different walls, opening one at a time. One outline remains open while the party tests the others.
+# dungeon obstacle | 598064025492258169
+The crypt wraps through its edge | Crossing one inscribed doorway brings you through the opposite edge of the same six-room loop. Give each edge a visible symbol and let thrown chalk reveal the return path before anyone risks crossing.
+# dungeon obstacle | 359513982762242000
+A route stays open while a floor turns | Lay out two rings with visible exits. Moving the inner ring closes one path and opens another. Show the alignment marks in a handout and let a character hold one ring still while the rest move.
+# dungeon obstacle | 1126674031776385582
+The lock reads a path through its alphabet | A floor of letter tiles opens a door when crossed in the order of a phrase shown on a nearby lintel. Mark each correct tile with a harmless audible click. A wrong turn resets the latch and leaves the last correct tile lit.
+# dungeon obstacle | 511088257719122874
+A reflection remembers where things belong | Several objects in a mirror sit in places that differ from the room. Their real positions have dust outlines. Recreate the positions seen in the mirror to unlatch a passage, or open it from the far side through a service corridor.
+# dungeon obstacle | 545920786124158055
+Borrow the key by breaking eye contact | A stone guardian and a visitor seem to be staring at each other. Cover the line between their eyes and the visitor briefly thaws, key and all. They will lend it for a promise to hold the barrier up a little longer.
+# dungeon obstacle | 241927811227966336
+The last two beats open the chest | A chest has gemstones set in staff lines. A small hinged cover plays the written phrase once and falls silent on two marked beats. Players can clap, tap the cues, or ask a musician for help.
+# dungeon obstacle | 823314375674129732
+A prize for the judge | A fruit of gold must be given to the sculpture marked as judge. The central seat is empty, but the verdict lies beneath the feet of one figure. Find which figure was meant to judge the others, or reconstruct the same solution from an account in a side room.
+# dungeon obstacle | 344455071519857072
+The doormat cares about mud | An animated rug accepts any guest who wipes their feet or steps around it. Dried marks on the rug show how prior visitors passed. Someone who ignores the request is held long enough for the occupants to ask who sent them.
+# location | 626141154452223825
+A hill has a stair for every tax bracket | Each of three sets of stairs reaches the same tollhouse but was built under a different charter. The unused public stair can reopen if someone finds where a later landowner bricked up its lower arch.
+A foundation shelters the town it displaced | The bridge footings were built above an old cluster of rooms. Light a candle in one upper opening and people below knock in answer. Clearing the public path would expose both a settlement and the safe way across at flood stage.
+The bird-watching blind faces the wrong way | The creek birds gather behind the blind. Whoever built it meant to watch which wagons stopped at a barn on the hill. Old perch holes provide clear viewing angles and show how much of the road they could actually see.
+Mileage stones count toward a vanished gate | The stones agree with each other and disagree with the modern map. Trace their longest straight run to find a buried toll gate and a route the modern patrols ignore.
+# creature | 362821313744731676
+A hearth crab clicks for the table that feeds it | The crab patrols a tavern's hearthstone and retreats when strangers reach toward it. It accepts a saucer of brine and answers the knock pattern of the server that usually feeds it. Tonight someone in a private room knows that rhythm.
+A tab moth eats unpaid ink | A moth settles on the newest unpaid line of the innkeeper's ledger. Blank paper will distract it long enough to copy a name, but sweet fruit gets it to leave the book entirely.
+A window drake rehearses the household routine | The drake perches outside when the shutters open and mimics everyday gestures in miniature. A caller claims the house was empty last week. Offer a warm ledge and the drake repeats a familiar greeting from that week at the exact shutter it was taught to visit.
+A cistern frog keeps its understudy | One frog dives when the kitchen bell rings, and another calls while the first is underwater. The kitchen crew can tell which is calling. A stranger who tries to slip across the yard between calls hears a third frog answering under the floor.
+# encounter | 470978073554083771
+The estate moved a cabinet too wide for the door | The cabinet's dimensions and a dated delivery receipt show it arrived intact after the door was narrowed. A floorplan places an abandoned service stair against the rear wall. Find how the movers opened it to recover the cabinet or enter the estate unnoticed.
+The heir's setting has a hidden pin | A will awards a pendant to whoever has the other half of its setting. Two claimants bring convincing copies. Turn them over to find which one carries a locating pin that fits the pendant's concealed socket.
+A buyer wants the old dents left in | A collector seeks family ornaments pawned during a bad winter and pays extra to keep two characteristic dents visible. A stoneworker can match the marks to a setting tool still used in one atelier. The repair book can lead to the buyers.
+# encounter | 779263541785767679
+The hearing is held in two queues | Neighbors have been instructed to stand in different lines outside the same public office. Each line is told the other is petitioning for something it opposes. Both sets of slips carry the same routing stamp. The clerk can show which officer rerouted them after recording both groups’ actual demands.
+An alley is listed under a different owner every morning | An old boundary charter assigns use of a gate to whoever sweeps the alley before sunrise. Merchants trade favors for turns. The night the party needs it, two brooms lean against the lock.
+A stall's free samples introduce the customers | The owner asks visitors to taste two batches and say which stall really made each one. Customers know the local supplier by seasoning. A merchant nearby has been mislabeling wares and is willing to settle before an inspector tastes them.
+The baths close the wrong locker | The attendant has instructions to seal one numbered locker. Both rooms have a locker with that number. The key log shows the attendant started with the right locker, but the drying-rack assignments were swapped ten minutes before closing. The worker who signed the swap can say who requested it.
+A city's night shift mislays its sunrise | Lamplighters argue over who should extinguish their last street when an artificial dawn starts halfway through the shift. Ask where it ends and follow the contiguous lit street to the device being tested, or help the workers make a temporary handover.
+# dungeon obstacle | 617345061395358473
+The draught reverses before a flood | Dust on a shelf blows outward while the tunnel drains and inward when water backs up. The change gives the party time to find high ground or divert the next flow, and ribbons offer a cheap way to watch it.
+A bellows draws in the marsh | One room smells of peat when a forge operates even though every chimney exits uphill. Pull the bellows when the forge is cold. Wet reeds catch on its intake grate. Behind the grate a broad duct descends to a flooded passage.
+The ceiling goes quiet when barred | An overhead chain rattles while a hidden sluice is open, warning that water is flowing over an otherwise fordable passage. One group can hold the gate closed from its control room while the other crosses on the quiet signal.
+Wall flowers open where air circulates | Pale blooms open by a cracked lintel and stay folded in sealed rooms. Recognizing the difference gives explorers a way to find the only passage where several people can work safely for hours.
+# downtime | 490962796883367842
+Pay the host in tomorrow's help | An innkeeper will waive a charge in exchange for public help with one concrete job before noon. Name the job and an alternative before the party agrees. The host provides the tools while the players decide how visible their involvement should be.
+Find a second source while someone repairs your gear | A repair takes one watch. Before paying for faster service, a player can spend that watch asking a trade witness a question tied to wear, stains, or local craft marks on the thing being repaired.
+Ask who never returned a borrowed implement | Give the group a loan shelf at a recurring inn or community hall. The host will replace a missing tool if the party delivers a note to the last borrower; the same entry can lead to someone the players already wanted to meet.
+Recruit someone for one task | During a break, let players post a job with a specific duration and a wage. In the morning offer two applicants with different means or local relationships and let the party pick whom to trust.
+Decide where a rescued animal sleeps | A hungry animal follows the party to camp. Give it two possible shelters with different owners or risks. An evening spent observing how it behaves around each option helps the players place it without adopting it indefinitely.
+# creature | 423268064990657345
+A bulette waits for the loaded sledge | Fresh upheavals follow the tandem ruts, ending where a sledge was unloaded. The creature surfaces before the next loaded crossing. Move the supplies in smaller loads, use the bedrock shoulder, or send an empty sledge while someone watches where the ground moves.
+The burrow opens into a mill pond | A digging creature sleeps downstream from the wheel and leaves when the pond drops. A miller's chalk marks show how long the water takes to reach its den. The party can lower the pond, find the cause of the blockage, and restore the water before the miller's next delivery.
+# creature | 423268064990775499
+A refuse creature keeps a clean shelf | It stores shiny objects outside its feeding pit on a dry shelf. Leave it a choice of scrap and food and it will exchange one object at a time. The last traveler paid with the item the party wants and might return with a better offer.
+An otyugh describes rubbish by the route it took | The creature tastes the trace of each chute mixed in a heap. Offer a sample from a known chute and it can identify which public building a torn letter came from. A building with two refuse routes gives two possible rooms to check.
+# creature | 423268064990805876
+A unicorn offers to escort only one of two caravans | It knows a safe route but won't leave the grove unguarded for long. The caravan carrying injured strangers can take the first crossing if the other drivers agree to watch the approach. The party can take either job or arrange an exchange at the midpoint.
+A spring's guardian tests its own seal | Three parties present letters granting permission to draw water. Its horn guard leaves a different wax mark for each approved request. The mark for winter watering appears on a letter promising daily access. Ask for the guard impressions to learn which approval someone copied.
+# location | 885379607972230227
+Vines label the paths as water rises | Trailing vines cling to trunks horizontally at the previous flood's highest level. Compare the newest leaf growth with the line to decide which ridge remains above water. An older mark shows where the safer-looking ridge used to wash out.
+Flowers mark the pollinators’ route | One species flowers briefly when its night pollinators touch it. An empty field of closed blossoms signals that something interrupted the insects' route. The first open flowers point toward a new roost. Pollinating a patch by hand preserves the harvest and buys time to find out what moved the insects.
+# encounter | 825777281679275036
+A fey village elects its last visitor | When a newcomer arrives, the preceding visitor becomes mayor until they can hand over the sash. The older mayor has let the roads go unmarked to postpone that moment. Find out what unfinished promise they lose the power to fulfill upon leaving office.
+A village cobbler keeps three valid endings to a journey | Mending a visitor’s soles settles one debt tied to their last journey. The cobbler can record an unpaid toll as waived, release a formal hospitality obligation, or certify a failed delivery attempt. The party chooses which cost or obligation they want discharged.
+A front door can borrow the builder's shadow | The carpenter who hung the door can step through once a day without opening it. Tomorrow they retire, and the house can transfer the privilege only while both carpenters are present. The old carpenter wants one hour inside to recover their own work before the handover.
+# encounter | 825777281679275009
+The forged contract has an outdated emergency contact | The leaked contract carries a routing mark from one office, but the dispatcher denies stamping it. The emergency contact on the forged copy moved out last year. Find the drawer of old blank contracts and ask who could still get into it.
+Someone files for credit before the job ends | The guild pays a bonus to the first named crew that completes a rescue. A second party files a claim while missing people are still unaccounted for. Players can ask a clerk to postpone the award, negotiate shared credit, or get the outstanding names read into the record.
+The guild kit was signed out for a rescue with no address | A dispatcher keeps a duplicate list of kit borrowers. Whoever took several hoists and stretchers left a series of roof spans in place of an address. Compare the spans to street plans, then decide whether to bring back the equipment or answer the unlogged call.
+# encounter | 825777281679275065
+An ogre feast makes the kitchen a neutral room | Guests refuse to negotiate in the main hall, where seating confers rank. The cooks run a private negotiation over a bowl of vegetables to peel. One delegation offers grain if the bridge toll is waived. The other can lend guards to keep the bridge open on market days. A courtier outside would like to know why the cooks have so many volunteers.
+The empty chair has an active vote | An absent ogre delegate left written instructions naming whoever brings their favorite dish in the family bowl as proxy. Their deciding vote could reopen a shuttered ferry. Players can fetch the bowl, ask who has been cooking for the delegate, or prove someone struck the dish off the menu.
+The queen pays hunters to return living game | The court's feast celebrates many failed hunts. Each hunter gets a share for a live animal and loses it for a carcass. An envoy wants to pass the stablemaster’s tame boar off as a captured wild one. They need the reward to commission a search for two overdue scouts.
+# travel | 852587773230608087
+Put the weather on a path | Start with clear skies, then put gusts and rain on a path in that order. At the end of a watch roll a die: odd holds the condition, even moves to the next one, and the rain leads back to clear skies. The guide knows gusts foreshadow rain and thinning cloud means an end to it.
+Show what changed since the outward trip | On a return leg, repeat one landmark and show how a previous choice affected it. Give it a practical consequence such as a new river crossing, a safe place to rest, or visitors asking who repaired the bridge.
+Give each fork a different problem | Describe two ways forward using the same distance unit. Put a known labor cost on one and an uncertain social cost on the other. Let a scout learn one detail about the uncertain cost before the group commits.
+Let exploration leave a useful mark | When someone spends a watch mapping a hazardous stretch, give them one fact they can hand to the next traveler. A lookout can repay that knowledge with a dated change to a route elsewhere.
+Track one supply that can run short | Before departure, pick one supply scarce on this route and state which hazard consumes it. Give an approximate cost in time or risk for two known ways to resupply. Keep incidental expenses out of this count.
+# travel | 1026891152514747633
+A thaw moves the ford after noon | Morning cart tracks cross safely. By afternoon meltwater deposits sand on the paved ford and cuts back one bank. A painted post shows the last hour a loaded cart can safely cross, and a footbridge remains open upriver.
+Two fair winds meet on a saddle | Winds blow toward the same saddle from opposite valleys. The dry grass shows the boundary shifting during the day. A caravan with a sail-powered cart can wait for the winds to line up with the descent or furl the sail and haul the cart down with ropes.
+Rain makes a chalk slope readable | Dark mineral lines appear during rain and indicate where previous travelers carved steps under the moss. Waiting for another shower costs daylight. A surveyor can learn the route by drawing the lines before they fade.
+# encounter | 810929476645124346
+A well works only for the household downhill | Lowering a bucket makes a counterweight lift a plug in a second well. Both households can draw in turn so long as neither tries to fit a permanent pump. The party arrives with a pump that could settle one shortage and start another.
+The salvage camp is built for different hands | Every tool has a tall grip but the camp has small footprints. A low ramp and a set of counterweights let smaller workers use giant equipment. Learn the rhythm of the yard and the party can help remove material trapping a wagon.
+# encounter | 598626975463778199
+A drifting fence reveals the salt road | Fence posts slide in shallow salt crust as the wind turns, but four buried feet keep their original line. Check which posts rock and follow the fixed ones to a hard surface before moving the wagon.
+Unlisted riders use the back trough | The caretaker marks a cup with the stable brand of each served rider. Three brands never appear in the guestbook. Help the keeper watch the back trough to find which riders are being admitted after closing.
+Three merchants sell shade in the same yard | Each leases a shadow from a different roof. At midday their leases overlap on the only cool patch. The party can buy time to treat someone overheated, renegotiate the hour, or help raise public canvas in the street.
+# effect | 835488168419982218
+A stolen portrait is still in outline | The Memory soot lantern beside an empty easel shows the silhouette of a frame blocking its light. One witness claims the frame was boxed first. Test which of two storage boxes would leave that outline, then decide whether to follow the matching crate or track the unboxed portrait.
+Two plans contradict an architect’s alibi | A Plan-reader lamp flickers at different doorways on each submitted plan. One drawing gives someone a route from the street past the locked entrance. Ask who paid for the intervening renovation, or try the route before the owner notices the check.
+# arc design | 830491987580978505
+Ask which promise two people remember differently | Have the player write their character's wording and name the other person. Ask permission to supply the other wording before drafting. The two versions should support different legitimate expectations when they surface in play.
+Find the skill a relationship depends on | Ask who taught the character something that still matters in play. Give the teacher a present-day problem with two viable ways to help, one using that skill and one requiring a new approach.
+Pick one person the character could ask for shelter | Ask what that person needs to see before opening the door today. Write their answer down with a smaller favor they could still give if the shelter is unavailable.
+Give a backstory keepsake two practical roles | Ask what it proves to someone from the character's old life and what it can do for a stranger who knows none of that history. Let the player decide which use they will show first.
+Ask what repair would actually settle the debt | A player chooses a past mistake they want to revisit and describes what the harmed person lost. Offer two possible forms of repair with separate costs. Ask the player what would signify that the matter was settled.
+# npc portrayal | 830491987581720185
+Give a name a consequence | Decide who uses a person's nickname and one person who pointedly uses their formal title. During a scene, change the form of address only when the relationship changes or someone overhears it.
+A familiar greeting ends when someone mentions the change | A contact greets the party as usual while hiding a problem. Decide which thing they hope nobody will mention and how their greeting breaks off when someone does. The players can ask privately or bring the issue into the room.
+Let the NPC correct one misconception on purpose | Choose a claim people make about the NPC that they usually let stand. Show whose safety or reputation matters enough to them to correct it this time.
+Decide what they do with an idle hand | Give the NPC one work habit that occupies a hand in normal conversation. When a subject interrupts that movement, let interested players ask why instead of requiring a check.
+Ask what the NPC knows from doing the work | Give each local specialist one clue they can demonstrate using their trade. They can disagree with someone else's interpretation while showing the party what they actually observed.
+# downtime | 571112796474529836
+The low bidder offered to do half the work | A guild needs the flood marks measured and its old records reconciled. A cheap bid offers only the fieldwork. Players may take the other half, insist on getting the complete brief, or find which result the guild wants to suppress.
+An odd job comes with a shared deadline | Two clients need the same piece of public equipment during one short working window. State what each job earns, what favor matters more than money, and one way the parties could split the time.
+The fishway has a count that never adds up | The keeper pays to tally fish at both ends of a bypass. Every third fish is recorded at the downstream end but absent upstream. A quieter night watch can catch the creature that carries live fish through a shallow side run.
+A returned delivery earns half pay and one answer | The hiring notice pays full for delivery. After seeing the destination has been abandoned, players may bring the parcel back sealed for half and learn why it keeps being sent, or find the intended recipient.
+# effect | 641622278139749312
+Words of ownership pull at the ground | Saying that you own a parcel of land makes your next step on it heavy. Asking permission from anyone who lives there restores an easy stride until dawn. Try making a claim first with one foot across the boundary.
+A road borrows three inches from each repaired wall | Fresh mortar creates an equal gap at the far edge of the road. Mark the change with a survey line, then decide whether to repair the wall this week or close the road while a new route is set out.
+A curse leaves empty nails in familiar houses | Any drawing hung in a house on the affected block is found standing upright at the ruins of the old courthouse by dawn. Copies of the same drawing congregate there. An intact framed map can show which parcels still count as part of the block.
+The crossing collects the wear on your shoes | Walking across a yard reverses the wear on your shoes and transfers it to the floorboards. Careful examination can date a repeated route or show whether someone entered through a door they say they never used.
+Scope a curse with something cheap | Before asking players to risk a character or prized possession, show a cheap object affected at one boundary and untouched at another. The party can identify one rule reliably before dealing with an exception.
+# vendor complication | 950048483881961993
+The shop trades favors in fixed increments | Give the merchant three favors with stated scale and payoff. Buying ordinary stock still costs coins. Specialty stock can be reserved by doing one favor, and the customer may dislodge the reservation by asking for a cash-only price.
+The ordinary stock is going to a relief effort | A vendor has promised most of one mundane category to neighbors repairing damage. Let players buy a small personal quantity or negotiate for more by offering delivery or supplies. The merchant calls in the favor even if the party buys nothing.
+The seller will demonstrate it twice | A magic goods vendor will give two trials using shop equipment. The customer chooses the test conditions and keeps any pictures or readings it produces. A successful trial proves exactly what the trial showed.
+The stall has an exit clause | A seller agrees in writing to exchange a delicate specialty item within a day if its effect fails under one agreed condition. Write down who will judge the test and what the exchange is worth. The seller can earn repeat business by honoring it in a difficult case.
+# encounter | 440649144794469677
+Two apprentices inherit the same unfinished tattoo | A retired artist drew half a commemorative piece before losing their steady hand. Each apprentice can complete a different missing part. The client must choose whether to keep it unfinished, share the commission, or accept one drawing that changes its meaning.
+Two tattoo portraits disagree about the span | A clerk reproduced the prisoner's mark beside a standard door bolt on the same forearm. A new impression appears larger and carries the same bolt. Compare their proportions to establish whether the whole image was resized or the mark belongs to someone else.
+A healer asks where a mark was drawn | Two artists draw the same public decoration but place the small maker's dot on different edges. Their clients last week queued in different buildings. Find the booking list for the correct artist to learn who had contact with a missing person.
+# effect | 81627811988950958
+A tattoo moves only in a repeated pose | The ink sits differently when the bearer returns to their posture at its application. Let the player test several positions. The revealed shape can be a hand signal, an identifying mark, or one part of a map the artist drew while asking the subject to hold still.
+Reunited marks change the next appointment | Two members of a bargain have a standing time to reconcile a debt. Bringing their marks together while each agrees to meet shifts the next appointment one day. The new ink is visible to both and neither can move it further until they keep that meeting.
+The tattoo sets a limit the wearer can show | A bearer holds up a hand to indicate how many strangers they can still escort through a warded gate today. The bars fade one at a time when someone crosses with them. Give the bearer a reason to reserve the last place and the travelers a way to stay safely outside.
+# vendor complication | 629378116665303594
+A tattooist will show a tracing first | Give the player a washable sample and name the exact condition that activates the permanent mark. Ask which part they want visible under ordinary clothes and how to show that feature during play.
+A repair artist finishes from the other end | A damaged moving line can be redrawn from either of two ends. Restoring it from the wrist preserves who set it last, and restoring it from the elbow restores its earlier trigger. Let the player ask who can document each option.
+# vendor complication | 453808099953281067
+The pawn clock ran while the shop was shut | A borrower was allowed until noon to recover a case. The shop remained closed for a nearby funeral, but the auction of unclaimed goods still starts at dusk. Use the funeral bell records and morning tally to request more time or help arrange a bid.
+Yesterday's collateral needs to be used today | A pawnbroker has taken a ferry token as collateral and would lend it under supervision. Only the borrower knows how to seat it in the old ferry gate. The party can guarantee its return while the two travel together.
+A trader sells honest seconds with a label | A stall sells old hardware and states one obvious flaw on each tag. Give buyers an easy way to tell whether that flaw matters for their intended use. If a second, hidden problem turns up, the seller offers to buy the broken part for anything they can recover from it.
+# creature | 865043040942784494
+A book moth connects two borrowers’ copies | Overnight the moth stitches together the first sheets of two books once owned by the same reader. A missing leaf was torn out of one of them. Follow the twitching thread before dawn to find where the moth tucked it.
+The lending room takes wing at noon | A colony of moths normally keeps scraps of one ruined book in overlapping pockets of its nest. At noon the insects move together to a warmer wall. Paper tabs can mark the scraps the party needs to photograph or copy before the insects resettle.
+# creature | 338051515803024154
+One missing pane makes a visible opening | Lead lines in a window unfold into a guardian at closing. A color added during a different restoration is stiff at the joints. Bring the pane its maker kept as a sample to close the gap, or pass through while guarding that weak spot against another visitor.
+The glass protector watches only its own reflection | The guardian remains still whenever it sees a full reflection of the window it came from. A tall polished shield can hold it still, or use two mirrors to preserve a line of sight while speaking to the person it was sent to protect.
+# creature | 414964553176620048
+The librarian answers with a shelf address | A tall caretaker will only move books between one approved room and a fixed desk. The party can place a conflicting catalog slip on the desk to learn where an inaccessible volume was moved, then request a reading witness.
+The archive creature gives up a floor at closing | The upper shelves slowly fold inward while shoppers still browse downstairs. A worker can prop one section with a shelf label from the same year. Ask the creature which section it will close last in exchange for help moving people out.
+# creature | 725079608743373094
+The golem borrows a candle’s remaining length | A wax caretaker extends its forearm with any available stub. Candles on the windows have a different wax formula and leave part of the arm flexible. Offer one to let the golem retrieve something from a narrow duct in exchange for access to the lamp room.
+A tiny wick asks to see the child it lit | A living wick remembers a tune sung beside its lamp. It can tap the rhythm when it hears the lamp’s cracked shutter. Play the tune at the house where the lamp came from to find a former neighbor who helped the child’s family leave.
+# object clue | 865043040942702656
+Two drip trays date a switch | Red and white candles were lit together over numbered trays. A fireman opened a service hatch halfway through the watch, sending both flames sideways. The party can compare the order of straight and sideways wax streaks to tell whether the labeled trays were switched before or after the hatch opened.
+# arc design | 1093952565776274426
+Put a final choice after the last confrontation | Let the decisive confrontation answer whether the party gains control of something. Give them a more intimate choice afterward about how to return, share, or retire it. Name the people each option affects before the confrontation starts.
+Reserve an epilogue for the people who stayed | After the immediate crisis, show one recurring local or institution coping with the outcome a week later. Invite each player to contribute a change their character helped make happen. Preserve the part of the decision the group still disagrees about.
+Let an unresolved question acquire a keeper | Close the current arc by deciding who holds its outstanding mystery. The party can entrust a named steward, leave evidence in public, or keep the question for later. Add one way for a future patron to take an interest in it.
+Show a reliable forecast before the last decision | Write one consequence each faction could deduce from facts they already know before the climax. Let each disclose it through a different witness. When one forecast comes true, the witnesses can revisit promises they made in advance.
+# arc design | 1093952565776273063
+Separate a shared project from its incompatible motives | Both allies want the same repair. One needs open passage by dawn, and the other wants the restoration record to prove prior ownership. Describe one solution that satisfies only each ally and a costlier one that satisfies both.
+Distribute the work without agreeing on the credit | Ask each partner which part of a joint mission they insist on doing. Let the public tally determine which partner qualifies to lead the next job. When both claim the same contribution, players can negotiate an account that names each role or save evidence that could change the decision later.
+Let a boundary end one role in a relationship | Give an ally and an opponent a narrow area where they still trust each other. When one crosses a clearly stated boundary, the trusted role ends. Their practical ties and any other agreements remain visible in the next scene.
+# effect | 1093952565776272998
+A spell spends a right of way | A shortcut opens by consuming temporary access to one ordinary route the caster was authorized to use. Display both affected thresholds before the spell completes. The lost access returns after the caster visibly takes the longer way once.
+A forecast needs a witness in both places | A diviner and a willing contact physically present at the destination each see the same ten seconds of one possible future there. Each glimpse shows the other witness’s face. Give the diviner a choice of contacts with different terms for participating.
+Warm a building by unwinding one knot | A cloth stores a room's warmth in a row of knots. Unwind one to warm a new room for an hour and chill the corresponding area of the original building. Ask who still needs the old room before using the last knot.
+A repair asks for the old form back after sunset | The spell restores an object until dusk, when its owner has to undo one chosen reversible alteration to it. Let the caster identify acceptable alterations first, such as a moved handle or newly painted edge, and buy the owner time to decide.
+# location | 233624299420617989
+A square is a reservoir after sundown | Channels fill a paved square each evening. A fixture recessed in the paving is reachable while it is dry. The district can postpone the day's filling for a fee, but decide who receives the water first if the delay spills into the next day.
+A public wall keeps an open account | Every block added to a shared wall is recorded in a numbered register. An unnumbered course is holding back the city's dry-season stream. Identify the builder and put an emergency repair on record without settling the full property claim.
+The weigh house keeps two sets of stones | Public and private stones have the same numbered units. The public stones weigh more and entitle grant holders to more grain. A grant receipt bears the private stamp and understates the amount owed. Put both one-unit stones on opposite pans to prove the shortfall.
+The only public anchor is in a private yard | River boats can wait safely at one mooring. A household claims the road crossbar also grants control of the mooring. Compare municipal paving marks to the river charter before the current drives another boat downstream.
+# city encounter | 233624299420607544
+The common field hosts work and votes on different days | Herder's ropes become polling lines every first day of the month. A delayed sale would leave cattle trampling the ballot approach. Players can move the sale, shift the polling layout, or work out which boundary can handle both uses.
+A lawn sinks where the new pitch says it should rise | The youngest groundskeeper can still reveal the former terrace line by rolling a ball downhill. A match roster is due tonight. Follow the line to the damaged drain or move a celebrated contest indoors and face the two clubs.
+# encounter | 233624299420612425
+A journeyman has tools from three closed shops | Each shop closed after the owner's legal address changed. The tools remain on three loan lists. They can be returned one by one or assembled to run the former shared workshop, with the borrowers choosing who keeps a key.
+Who keeps the molds when the furnace cools | The departing tenant is allowed to break the old molds after turning off the furnace. A buyer needs their profiles for a licensed repair. Include the originals in the handoff, copy the profiles before shutoff, or find who still has the original drawings.
+# creature | 379146862385411548
+Flailfish taste a changed current before other creatures feel it | They swim with their whiskers held to one side whenever a strong channel starts drawing water down. Suspend a perforated fish basket in each branch of an intake channel. Watch which way the fish turn once the baskets settle to tell which branch still flows.
+Lantern fish show where the harbor mouth narrowed | The night shoal arrives at the old harbor line and turns where a wedge of fresh water splits the current. The bend puts a stranded boat behind a sand ridge its crew cannot see. Follow the school or send a shallow craft to sound the new approach.
+Squid ink sits in bands along the silty wall | A hunter's passing leaves a pale clearance between older ink bands. The bands tell which overhang a squid has stopped using. Fresh broken shells under a second overhang put the squid there recently. New drag marks leading away from the first shelter show something also disturbed it.
+# creature | 692428511449800748
+A deck pet marks who actually handled the crate | The ship's bird retrieves a polished peg when a familiar crate is unloaded and carries it to the person who removed the crate lid. Today it goes to the outgoing cook. Compare the cook’s account with the deck tally before assigning custody.
+A crab takes a small problem off the deck | The crab collects loose pegs and puts them in a box below the strongest nearby smell. A barrel owner swears the bilge plug was put back. Follow the crab to learn if the plug was removed or if the keeper is looking in the wrong compartment.
+The bilge cat finds a quiet place that moves | A shy animal hides the instant the ship changes sides in a rolling swell. The hiding place is in a hammock wedged behind a cargo stack. Give it somewhere else to shelter and follow its old route to the loose fastenings.
+# downtime | 821484788316112567
+Bring in the fish or learn why the line went still | When a line stops moving, the player can reel in now, feed line out to follow the fish, or stop and map the sudden change in depth. Decide before the roll which rewards travel with the fish and which describe the place.
+Compare a claimed catch against the known run | A fisher offers good money for claiming today's early catch as theirs. A buyer can identify the run from marks on the fish’s side and date it with a landing tally, which records who checked in before sunrise. Offer the party a reason to need the buyer's trust next week.
+Let the bait choice say which interruption is acceptable | Ask whether the fisher wants a mild meal, a strong fight on the line, or long enough on the bank to talk. Offer bait for each and prepare one interruption that advances what they wanted. Change the bait without a cost if the player decides to pursue a different scene.
+# location | 334603447337394122
+Fishing poles mark last spring’s safe ice | Painted poles mark where fishing holes were dug along a survey line last spring. The gaps indicate then-unsafe ice. This year a new pole beyond the old bend marks a hole directly above a submerged sluice.
+A spillway has two legal fishing sides | The shore lease grants one bank the right to take fish approaching the fall. The other bank can take fish going back downstream. Hand-copied maps disagree on the middle pool. The keeper will let the party survey it while both groups stand behind their own marker.
+# town event | 1055531231393351576
+A bell auction chooses who rings the thaw | The winning bidder rings in spring. Any fishing boat within earshot can launch that day without paying. The old bell has cracked and the new one can be heard from the disputed island, where the regular fee is still contested. Players can help decide whether to move it, repair the old bell, or require two signals.
+Lantern makers leave one dark window | Each shop hangs a lamp to say it's ready to open after winter. A window stays dark because the owner's successor can only renew the license in person. Give the party one way to find them and one way to ask the market to keep the stall open meanwhile.
+A procession carries the wrong coat on purpose | The clothing of a past officeholder leads the celebration. This year workers carry their predecessor's everyday coat instead of their official robes. The two families involved have a reason to honor different versions of the same service.
+The town pays in returned favors for an afternoon | People redeem favors posted last year at particular stalls. Let players redeem a small favor from an ally, post a new obligation under clear terms, or investigate an ancient claim someone brought out to interrupt the festival.
+# town event | 1104437508645074854
+The feast serves the neighborhood that grew each course | One street supplied mushrooms last year and was left out of the procession when its cellar failed. Its cook is ready to serve a new dish if the festival gives credit publicly. The cellar entrance opens during their allotted course.
+Start with what will be hard to move | Sketch the festival around one object or act that needs space, time, or skilled hands. Ask who can move it, who is forbidden to, and one thing that goes wrong if it arrives an hour late.
+Two neighborhood contests share one prize | One crowd awards the trophy for the fastest completion, and the other for the tidiest work. The same carpenter is judging both. Let the party choose which standard to endorse or build another trophy instead of taking the first.
+# encounter objective | 1145392117721592188
+Get a copy without catching the witness | A fleeing witness carries a document. Players can follow the street route and keep sight of them, or reach the nearer gate first and ask the watch to copy anything the witness voluntarily shows. Agree what counts as success even if nobody is caught.
+Read the stall signs before splitting up | Give players two paths and name a visible trade on each. Choose an obstacle produced by its everyday work, such as a basket washer's wet passage versus a fruit cart's crowded corner. Let players anticipate one effect before committing.
+Somebody on the wagon needs to get off safely | The target is a cart whose driver is leaving to avoid an inquiry. An apprentice inside wants to dismount without being injured. Give one safe transfer point and one uncertain chance to stop the cart before it reaches it.
+# encounter objective | 1145392117721592197
+Win the handoff without winning the whole race | Mark three points where different couriers can trade the parcel. A player can skip a segment by committing to a wrong-way risk now, or watch one transfer and use that information for the next.
+Lose the route and keep the destination | Let the target escape around a blind turn after a failed obstacle. Describe what remains visible, such as which door has a landing plank out, so the players can still choose whom to question next.
+# npc portrayal | 308074430764474663
+An entertainer has a request they always refuse | Pick a piece with a local association and a specific person who dislikes it. A patron calls for it in front of them. Show whether the entertainer declines by words, by changing the tune, or by leaving the stage.
+A performer remembers the audience by seating | Their ledger records donated seats and working people who stood by the exit. Use the seating plan to distinguish two people with the same name, or ask the performer which scene prompted an early departure.
+# npc portrayal | 685673112063614399
+The official can sign a receipt and nothing else | A clerk has authority to acknowledge a delivery but cannot authorize its storage. When the original keeper misses a shift, show what the party gains by having a receipt and which open question still needs the absent official.
+The second-in-command is trained for a different month | The deputy practiced the winter duties, but only the summer records survive. They need a witness to confirm which procedure applies now. The players can find the witness or ask for a temporary rule with an expiration date.
+# arc design | 1028439264925179696
+Let two threads compete for the same ordinary resource | Pick a wagon, permit, room, or trusted witness needed by two arcs. Stage a request from each side during one visit. Players can schedule the resource, replace it on one side, or change which goal has priority.
+Swap the viewpoint on a piece of evidence | Introduce a record for a concrete purpose in one thread. Later put it in reach of a different contact who can interpret a secondary mark or omission. Keep both readings true so the players retain the value of their earlier conclusion.
+Give a dormant thread a changed invitation | Set an unused lead aside until an NPC could take a further step. The next invitation says exactly what changed and why they are asking again. If the party declines, describe the action the NPC can take without them.
+# arc design | 777082110723581293
+Pay off a thing the players chose to keep | Pick an object or contact they saved at an earlier cost. Offer a contribution available because it survived and let the players decide whether to use it now or save it again.
+Reuse a question at the point the answer costs more | An earlier scene asks for a consequence-free opinion. Later a person can act on that opinion and someone will bear the cost. Begin by reminding the group who heard the earlier answer before giving them the new option.
+Show what a victory frees someone to do | Pick someone who spent several sessions maintaining a defense or obligation. Once the characters succeed, offer a short scene in which that person can stop, spend the time elsewhere, or decide the role still matters to them.
+# city encounter | 1028439264925592695
+A permit is valid only in its issuing voice | A clerk's permit was spoken in a way the ward recognizes. Their apprentice can repeat it if someone finds the record of the original recipients. The gate is still willing to admit a visitor who can make a case for a fresh permit.
+A rescuer might acquire an empty estate | A town has a rule that the person who recovers a family deed from an inundated archive gains temporary control of the property. Name who still lives there and give the party an option to transfer custody before they retrieve it.
+A borrowed sled makes you responsible for its next passenger | The sled carries a visible customs token. Anyone traveling on it inherits responsibility for taking the next registered traveler through a checkpoint. Check who put a particular passenger on the list before getting underway.
+# creature | 1028439264922862773
+A dragon keeps its molted scales for repairs | Weathered breast scales naturally fall onto a stone shelf. The dragon arranges them by season and uses the tough layers to bridge leaks in its lair ceiling. It trades a loose scale only after someone shows where the leak can be patched without it.
+A dragon changes altitude to make shelter for another flyer | When a juvenile tries a crossing, an older dragon circles low to force a steady upward draft in the gorge. Travelers who know the routine can cross in its wake or get out of the narrow road before the second pass.
+A dragon courts through visible acts of upkeep | Each spring two dragons compete to finish the largest useful local repair. One moved a rock to change a stream and left a mill without power. The rival is interested in finishing the neglected work if locals agree they can judge the result.
+# lair clue | 1104437508645622480
+The nest has a cool rack separate from the hoard | Egg minders keep old nests at different temperatures and move them as the weather turns. The plainest rack contains the most valuable brood. Players who learn the markings can ask for a meeting away from the nursery or carry a crate to a safer shelf.
+A dragon’s roof has two built-in routes for rainfall | Outside one stream feeds a safe pool. A concealed gutter diverts the other stream around a bed of fragile crystals. Look for a dry seam to find the hidden gutter. Tilt the slab toward the seam to divert water away from the crystals, or put it on the exposed channel to flood the route behind your group.
+A pool records which way the guardian walked | When the guardian moves, its weight tilts the mineral floor slightly. Look for wall marks exposed by the falling end of the pool. They show which side has tipped and which passage remains above water.
+# location | 1104437508645483682
+The tower’s upper floor returns to the same hour | Each ascent arrives at the start of the same upper-floor hour. Each descent returns to the start of the next hour downstairs. The courier remembers what happens during every visit and can deliver a message to a worker who starts the hour without it.
+A tower rents one floor to a different school every day | Shifts share tools stored in the same layout with different meanings for their tags. An apprentice can show yesterday's arrangement if the party helps reset the rooms before the next leaseholder arrives.
+The landing nearest the pantry has a public chair | A long wizard's stair locks every other floor unless someone is sitting at a staffed landing. Visitors can pay the attendant to keep their seat or arrange a shift with a local student who wants to see one particular delivery.
+# vendor complication | 622904192192945890
+A maker quotes two prices for the same mug | One price includes lifetime repairs by the maker. The lower price comes with the recipe for the glaze so another worker can repair it. If asked, the maker will name which other shop has the correct kiln.
+The stall confirms reservations only by noon | Two customers request the last batch. The merchant records whose deposit arrived first but allows that buyer until noon to collect. The party can ask to see an example, wait, or make a separate batch possible by bringing the remaining ingredient.
+A test piece is worth more to an apprentice | The finished item is ready, but an apprentice wants one draft or offcut returned to show how they learned. Give the player a lower price for transferring the test piece, a choice of another sample, and one way to get permission to keep both.
+The carrier charges by shelf space | A merchant can deliver heavy stock, but the fee depends on stack height rather than weight. Give the party an option to pack it themselves, wait for another order that shares a shelf, or collect one of their larger parcels at the shop before the carrier loads it.
+A supplier honors the buyer's labor | Let a merchant offer a lower fitting charge if the customer has already found the missing measurement, brought a sample of the old part, or cleaned the piece. State the normal price first so the decision is visible.
+# encounter | 427560558382641976
+A local legend has a different ending at each doorway | Shopkeepers tell visitors how the great fire stopped. Each knows the last thing they saw happen from their own doorway. Give the party two positions where the stories can both be right and a third where they can see what lay between.
+The merchant asks after the stock they never sold | A retired merchant knows the party bought from the shop after it changed hands. Their predictions about what should have been on the back shelf are correct, except for an item bought after the transfer. Find where the newer proprietor kept it and why it was moved.
+A guarantee follows a doorway instead of a trade | A shop legend says all work done at the address must be repaired there. Recent renovations moved the door without moving the shop. Two owners claim the guarantee shifted. Let the party ask who can demonstrate an old repair before settling which claimant gets the next fee.
+# creature | 728175833477413139
+The dust keeper tidies only the left half | A house sprite puts small objects away only on the side it was told to clean. A strip of undisturbed dust marks a furniture boundary from long ago. Ask who drew that boundary and what another worker still refuses to clean.
+A cupboard hinge repeats whichever side opened it | A creature nesting in a hinge makes a rising sound when the door opened from inside and a falling sound otherwise. It repeats only when the kitchen is empty. The party can wait beyond the closed kitchen door to hear the last opening while the staff look for a missing tray.
+The nighttime washer returns a cup for each borrowed drop | It borrows water from a household's stored pots and replaces it later in small cups. It leaves the cups on numbered tiles that mark each pot’s shelf position. A cup alone on one tile shows which pot the washer could not find when returning the water.
+# object clue | 523332419223782673
+A gate ring carries paint from a distant shutter | A scrap of yellow paint is trapped between the old ring and its housing. It matches a chipped shutter at a second site where the gate stood last month. Find the carpenter who moved the whole gate and ask why its ownership marks were left behind.
+A potter's sample break shows where the heat was | A judge has two clay fragments from the failed repair. The potter can match the scorch boundary to the side that was still against the stove wall. Refit the pieces to see whether the pot broke in the kitchen or was heated after removal.
+The display model was built to a customer's height | A shop's fitting stand has an old notch with a particular name and date. It used to be adjustable. Find the replacement bracket to establish whether the old measurement belonged to the supposed customer or to a later repair.
+# location | 825777281679275028
+The dream bank honors debts that awake people forgot | Farmers leave stamped clay in a night deposit box. At dawn, the numbers appear on the real bank's sealed interest sheet. Ask the dream clerk to read one forgotten debt aloud while a waking clerk checks the amount.
+The dream theater books a second cast for your promise | At each rehearsal a different actor can play the same role. The role stays bound to a promise the last actor made to a waking person. The players can help cast someone able to keep it or trace the first rehearsal where it was added.
+A waking guide leaves chalk lines in only one dream house | Walk the waking neighborhood to learn where the guide has actually been. Inside the dream neighborhood the chalk follows one recognizable threshold to a house owned by someone else. Put an honest message there and wait to see who can carry it back.
+# arc design | 1106407833491168740
+Give a faction a service worth preserving | Decide which routine service gives a faction public goodwill. Introduce it while it works. If the party opposes the faction, give it two viable operators with different obligations, so ending the faction need not end the service.
+Draw one rule a defector still follows | Write one instruction a member will abandon when they leave and one promise they will honor afterward. Give both a visible test. An interested player can verify the defector's continuing responsibility without agreeing to trust them on everything.
+Choose which faction detail only members can correct | Give the public one broadly accurate story and one important mistaken detail. Introduce a lower-ranking member who can correct the detail if asked about a specific incident. Change what someone can negotiate once that correction becomes public.
+# encounter | 1106407833491325594
+A rescue guild requires bad news in pairs | The guild refuses to tell a family of a death unless two witnesses can attend together. One witness will enter only through a side door. A party member who recovered a personal effect from the scene qualifies as a second witness. The group can accompany the available witness, arrange the closed meeting, or ask the guild to make an exception.
+Two rival associations pay for the same footpath | Each pays for a different half and saws through its posts when the other falls behind. A flood has temporarily shifted the midpoint. The party can broker shared upkeep or learn where the joint account still has funds.
+A faction's dues fund one person the members never meet | A line in the membership register pays an absent specialist from each applicant's first month's dues. Follow the payments to the person who maintains the public wards. They offer to keep doing the work if the party can arrange a public stipend. Decide whether to disclose their former source of support before the council votes.
+# npc portrayal | 1021613496750460291
+The complaint is about who had to explain the favor | A grateful local is angry because the party publicly paid their debt and left them to explain why. Ask what the local wanted their colleagues to hear first and offer a chance to correct the record together.
+An ally is upset about a task you finished too well | The party solved a nuisance completely. An ally who got reliable work maintaining the partial fix asks them to introduce the ally to people who still need that skill. State what the ally valued about the old work before asking for help.
+The witness resents where the party put their chair | Someone told them to speak from the accused person's side of the room before anyone asked their account. When they meet the party again, they ask for a place to talk that doesn't imply allegiance. Give them one location where both groups will recognize them.
+# arc design | 738520038940541602
+Mark the last ordinary thing a missing person did | Choose one routine completed and one interrupted habit. Give both timestamps from sources the players can access, such as the last bread receipt and an uncollected package. Tell the players who can account for each end of the interval.
+Give a red herring a fact worth following anyway | Give the misleading clue a true explanation and an independent sign that excludes it from the main incident. Following it can help another person, remove a suspect, or turn up a witness without undoing the original clue.
+Put an alibi at two observation distances | One witness recognizes a distinctive garment from far away. Another can distinguish the wearer's voice at close range. Sketch where they stood and let the party decide whether both observations refer to the same person.
+# plot device | 338051515802925748
+A canceled debt still guarantees someone else’s loan | The party can erase a local worker’s debt by tearing up its contract. A note in the margin shows that the debt also backs a ferry repair loan. Bring both parties to the lender to substitute a different guarantee, or let the cancellation stand and help the ferry find another source of credit.
+
+# investigation | original
+The bell was muffled between strikes | A wake bell should have rung twice, but the lantern keeper saw only one flash from the belfry. Show wax on the clapper and a watch log that distinguishes a silent second strike from a missed signal. Whoever muffled it may have been trying to keep mourners from gathering on an unsafe stair.
+The delivery weight includes a passenger | A hoist record shows an empty cradle descending at the weight of a loaded one. Examine wear on the safety strap or find the hook operator's tally before asking who went down. The passenger can be reached by the hoist or by joining the next repair crew.
+The abandoned meal was prepared for a left hand | At a place setting, the knife lies to the left and the mug handle faces the door. Give a witness who sets every place that way and a pantry tally that identifies the meal's actual recipient. Let the sight of the table suggest a lead without making handedness prove identity.
+Two caches hold the same key blank | A key in a flooded lockbox and another in a dry wall cavity share their cut but have different maker's marks. Trying either at the gate works. Comparing the marks can show who copied the lock before the authorities replaced it, which changes who can be trusted to guard it.
+The witness saw the lantern go out from above | Two accounts agree a lantern failed but disagree on who was near it. A service hatch frames the lantern while concealing the platform below. Replaying each witness's position determines which account can place a person at the scene. Leave the reason for the outage open until the party inspects the wick.
+The flooded ledger starts on the wrong side | An archive room flooded from the north, but the wettest edge of a disputed ledger faced the south shelves when it was found. Dry cubby dust and a tray left under a drip can identify its earlier position. The players can use the move to find the hidden shelf or ask who tried to save that book first.
+
+# dungeon encounter | original
+The gate counterweight can hold a person | A jammed freight gate needs more weight to rise. The party can load supplies they may need later, trust an ally to stand in the cradle, or spend time freeing the hand brake. Show the cradle descending toward a runoff channel before anyone climbs inside.
+The lookout is protecting a louder room | A guard keeps stepping out of cover to stop tools rattling in the next room. The crew can reveal a bypass if approached before the guard's relief arrives. Pick whether the guard is hiding the crew from their own commander or concealing the work from visitors.
+The salvage crane makes the fight move | A crane swings a dangling cargo net across three floor bays whenever its exposed wheel turns. Anyone can crank it, wedge it, or cut the load loose. Put one valuable crate and one trapped worker in different bays so choosing where the net lands matters.
+The alarm line has an honest repair knot | A visible cord connects bells across two rooms. A fresh knot marks a repair that can be untied without setting it off, but opening that connection leaves a third room without its promised warning. Let the party brief the people there or decide they have time to fix the line afterward.
+The safest room gives away the route | A wax seal closes a shelter against a passing hazard. Each opening leaves a crease that a pursuer can count. The party can unseal it for someone outside, leave a deliberate false count, or take the exposed way and reserve the refuge for others.
+The lift has weight for a single trip | A powered lift has one descent left before its counterweight must be reset from below. Let the players send a scout, ride down together, or lower supplies first. Show a reachable hand crank on a side landing so a separated group can reunite without depending on a single check.
+
+# arc design | original
+Plot the aftermath at three time scales | Before a major choice, write changes the party could see by nightfall, hear about a week later, and deal with next season. Tie each to a different person with the ability to act. Move only the consequences supported by what actually happened.
+Make the opposition reclaim something it lost | Give a defeated opponent one thing they can realistically recover, such as a collaborator, a charter, or a safe route. Introduce a means of recovery the party can notice. If the players offer compensation, let recovery become a negotiation instead of an inevitable rematch.
+Make the promising route close for a known reason | Give the party a useful route and say exactly when it closes, such as the last tide before a ferry crosses. A second route opens after that moment with its own cost. Either timetable leads to actionable information, so lateness changes the situation without ending the inquiry.
+Give each coalition partner a different deadline | Set one common goal and give each partner a specific last moment to act. Put at least two deadlines on the table before asking for a commitment. A party that cannot help both can still negotiate a delay or offer a narrower promise.
+Let a witness keep their reason for staying | Write one thing a witness fears and one concrete reason they have stayed nearby despite it. A safe escort can address the first. Helping their dependents or protecting their livelihood addresses the second. A convincing plan earns cooperation even if they never agree to leave.
+Prepare the adversary's explanation after a setback | Write what the opponent tells their own followers if the party interrupts the plan. Make the explanation testable through one visible lie or omission. Players who expose it can change what the followers will do next, even when the opponent escapes.
+
+# facilitation | original
+Ask for the result before the method | Before resolving an unusual action, ask what the player wants to be true afterward. If their proposed method would accomplish something else, explain the difference before they commit. An apparently bad tactic may be a good answer to a goal the table had missed.
+Hand the next decision to someone outside the exchange | When a long exchange resolves, give the next actionable question to a player who was listening. Ask who they want nearby or what cost they think the group should accept. Join the answer to the scene already in progress so their choice matters immediately.
+Signal the next consequence in plain language | If a dangerous detail has escaped notice, summarize what the characters can already see and what will happen if no one acts. Ask for a choice before calling for a roll. Use this when an avoidable setback would otherwise come from a misunderstanding of the scene.
+Offer the same clue through an action of another kind | Assign one clue to two approaches with different costs. Watching a crew may take an hour, while helping them lifts the delay but exposes the helper to questions. If the group has already learned the fact, reward the second approach with context instead of repeating the clue.
+Reopen a quiet scene with a question from the fiction | If the table stalls, have someone in the scene ask a question whose answer must change their next action. A porter can ask which passenger boards before the crossing closes. Use the answer to move the scene even if no one reaches for a die.
+Mark the detail the players can carry forward | When a scene has many useful details, restate one concrete clue the characters can record, point to, or show to someone else. Let the players choose which other detail they care to preserve. Keep separate notes for a clue and for a theory about it.
+
+# creature | original
+Rivetback eel | The eel wedges its plated head beneath moving metal and waits for the vibration to stop. A stopped mechanism and a bent rivet warn of its presence. Players can ease it out by slowly turning a spare gear, draw it to another machine, or repair the mechanism after lifting it.
+Sill-moth colony | The moths build translucent nests in door gaps where temperature stays steady. Moving the door swings the whole colony into a room and briefly clouds nearby lamps. Their nests can be lifted intact by warming the opposite sill, so discovery need not become a fight.
+Spooltail tern | The tern unspools lengths of fiber from unattended gear to tie a nest above the flood line. A ribbon fluttering upstream shows where it has worked. Offer loose cord to recover a marked piece of evidence or follow the new nest before the next tide.
+Handrail crawler | These shell-backed grazers cling to railings and rasp away old paint. Their tracks expose earlier paint in the order the animals moved. A dab of mineral paste can guide them along a sealed landing, uncovering its original route marker while leaving the rest of the paint intact.
+Porch sentinel | This long-legged burrower issues a soft knock when someone stands directly over its nest, then shoves loose boards upward if they linger. Its young leave sweep marks under the threshold. Laying a solid plank across both supports lets visitors pass while the animals keep the porch.
+Gutter ray | In a rain-filled street, a small ray feeds along drains and changes direction at every pulse of runoff. Watching where it turns can reveal a blocked culvert. Clearing the blockage draws the ray away from a crowded stair, but may send water toward whatever lies beneath it.

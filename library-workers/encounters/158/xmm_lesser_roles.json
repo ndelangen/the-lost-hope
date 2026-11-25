@@ -1,0 +1,440 @@
+[
+  {
+    "name": "Guard Captain",
+    "statBlock": {
+      "name": "Guard Captain",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 162,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 18,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "description": "An officer of the watch who fights with a longsword or throws javelins.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 6,
+        "Perception": 4
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Languages": "Common.",
+        "Gear": "Breastplate, Javelin ×6, Longsword, Shield.",
+        "Actions": "Multiattack. Make two attacks, choosing Javelin or Longsword for each.\nJavelin. Melee or ranged attack, +6 to hit, reach 5 ft. or range 30/120 ft. A hit deals 14 (3d6 + 4) piercing damage.\nLongsword. Melee attack, +6 to hit, reach 5 ft. A hit deals 15 (2d10 + 4) slashing damage.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 162."
+      }
+    }
+  },
+  {
+    "name": "Pirate",
+    "statBlock": {
+      "name": "Pirate",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 241,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 14,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A dagger-armed raider who can distract an adversary with a flash of charm.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 4
+      },
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Languages": "Common plus one other language.",
+        "Gear": "Dagger ×6, Leather Armor.",
+        "Actions": "Multiattack. Make two Dagger attacks. The pirate can use Enthralling Panache in place of one attack.\nDagger. Melee or ranged attack, +5 to hit, reach 5 ft. or range 20/60 ft. A hit deals 5 (1d4 + 3) piercing damage.\nEnthralling Panache. One creature the pirate can see within 30 ft. makes a DC 12 Wisdom save. On a failure, it is Charmed until the pirate's next turn starts.",
+        "Habitats": "Any.",
+        "Treasure": "Implements, Individual.",
+        "Printed source": "Monster Manual (2024), p. 241."
+      }
+    }
+  },
+  {
+    "name": "Pirate Captain",
+    "statBlock": {
+      "name": "Pirate Captain",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 242,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 17,
+      "hp": 84,
+      "hitDice": "13d8 + 26",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "A pirate commander who fights with rapier and pistol and exploits an opening after a parry.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 3,
+        "Dex": 7,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Acrobatics": 7,
+        "Perception": 5
+      },
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Languages": "Common plus one other language.",
+        "Gear": "Pistol, Rapier.",
+        "Actions": "Multiattack. Make three attacks, choosing Rapier or Pistol for each.\nRapier. Melee attack, +7 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) piercing damage and gives the captain Advantage on its next attack roll before the current turn ends.\nPistol. Ranged attack, +7 to hit, range 30/90 ft. A hit deals 15 (2d10 + 4) piercing damage.",
+        "Bonus actions": "Captain's Charm. One creature the captain can see within 30 ft. makes a DC 14 Wisdom save. On a failure, it is Charmed until the captain's next turn starts.",
+        "Reactions": "Riposte. When a melee attack roll hits the captain while it holds a weapon, the captain can add 3 to its AC against that attack. If this turns the hit into a miss, the captain makes one Rapier attack against the attacker if it is within reach.",
+        "Habitats": "Any.",
+        "Treasure": "Implements, Individual.",
+        "Printed source": "Monster Manual (2024), p. 242."
+      }
+    }
+  },
+  {
+    "name": "Priest Acolyte",
+    "statBlock": {
+      "name": "Priest Acolyte",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 247,
+      "classification": "Small or Medium humanoid (cleric), neutral",
+      "ac": 13,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "A junior cleric who channels radiant power in combat and can call on divine aid.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Medicine": 4,
+        "Religion": 2
+      },
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Languages": "Common.",
+        "Gear": "Chain Shirt, Holy Symbol, Mace.",
+        "Actions": "Mace. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) bludgeoning damage and 2 (1d4) radiant damage.\nRadiant Flame. Ranged attack, +4 to hit, range 60 ft. A hit deals 7 (2d6) radiant damage.\nSpellcasting. At will, cast Light or Thaumaturgy with Wisdom as the spellcasting ability.",
+        "Bonus actions": "Divine Aid (1/Day). Cast one of Bless, Healing Word, or Sanctuary with Wisdom as the spellcasting ability.",
+        "Habitats": "Any.",
+        "Treasure": "Individual, Relics.",
+        "Printed source": "Monster Manual (2024), p. 247."
+      }
+    }
+  },
+  {
+    "name": "Warrior Infantry",
+    "statBlock": {
+      "name": "Warrior Infantry",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 320,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 10,
+      "description": "A spear fighter trained to attack alongside a nearby comrade.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Languages": "Common.",
+        "Gear": "Chain Shirt, Spear.",
+        "Traits": "Pack Tactics. An attack roll against a creature has Advantage if at least one ally of the attacker is within 5 ft. of that creature and the ally is not Incapacitated.",
+        "Actions": "Spear. Melee or ranged attack, +3 to hit, reach 5 ft. or range 20/60 ft. A hit deals 4 (1d6 + 1) piercing damage.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 320."
+      }
+    }
+  },
+  {
+    "name": "Warrior Veteran",
+    "statBlock": {
+      "name": "Warrior Veteran",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 320,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 17,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "An experienced soldier who wears splint armor and carries a greatsword and heavy crossbow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 5,
+        "Perception": 2
+      },
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Languages": "Common plus one other language.",
+        "Gear": "Greatsword, Heavy Crossbow, Splint Armor.",
+        "Actions": "Multiattack. Make two attacks, choosing Greatsword or Heavy Crossbow for each.\nGreatsword. Melee attack, +5 to hit, reach 5 ft. A hit deals 10 (2d6 + 3) slashing damage.\nHeavy Crossbow. Ranged attack, +3 to hit, range 100/400 ft. A hit deals 12 (2d10 + 1) piercing damage.",
+        "Reactions": "Parry. When a melee attack roll hits the veteran while it holds a weapon, the veteran can add 2 to its AC against that attack, potentially turning the hit into a miss.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 320."
+      }
+    }
+  },
+  {
+    "name": "Tough",
+    "statBlock": {
+      "name": "Tough",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 307,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 12,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "An enforcer with a mace and heavy crossbow who fights better with backup.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Languages": "Common.",
+        "Gear": "Heavy Crossbow, Leather Armor, Mace.",
+        "Traits": "Pack Tactics. An attack roll against a creature has Advantage if at least one ally of the attacker is within 5 ft. of that creature and the ally is not Incapacitated.",
+        "Actions": "Mace. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) bludgeoning damage.\nHeavy Crossbow. Ranged attack, +3 to hit, range 100/400 ft. A hit deals 6 (1d10 + 1) piercing damage.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 307."
+      }
+    }
+  },
+  {
+    "name": "Tough Boss",
+    "statBlock": {
+      "name": "Tough Boss",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 307,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 16,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 10,
+      "description": "An armored gang leader who can knock an opponent back with a warhammer.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 5,
+        "Con": 5,
+        "Cha": 2
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Languages": "Common plus one other language.",
+        "Gear": "Chain Mail, Heavy Crossbow, Warhammer.",
+        "Traits": "Pack Tactics. An attack roll against a creature has Advantage if at least one ally of the attacker is within 5 ft. of that creature and the ally is not Incapacitated.",
+        "Actions": "Multiattack. Make two attacks, choosing Warhammer or Heavy Crossbow for each.\nWarhammer. Melee attack, +5 to hit, reach 5 ft. A hit deals 12 (2d8 + 3) bludgeoning damage. The boss can also push a Large or smaller creature up to 10 ft. directly away from itself.\nHeavy Crossbow. Ranged attack, +4 to hit, range 100/400 ft. A hit deals 13 (2d10 + 2) piercing damage.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 307."
+      }
+    }
+  }
+]

@@ -1,0 +1,263 @@
+{
+  "Underfolk": {
+    "profiles": [
+      {
+        "name": "Underfolk",
+        "imageKey": "species:underfolk",
+        "kind": "species",
+        "type": "Humanoid (Human)",
+        "publication": "Races of Destiny (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://openlibrary.org/books/OL8144441M",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Humanoid with the Human subtype. Base land speed 30 ft. The printed entry gives no racial ability-score adjustment, natural armor, or level adjustment.",
+          "Darkvision reaches 60 ft. and sees in black and white. +2 racial bonus on Listen checks.",
+          "Gain 4 extra skill points at 1st level after the class calculation and 1 extra skill point each subsequent level.",
+          "Weapon Familiarity treats light and heavy picks as simple weapons.",
+          "Camouflage (Ex): change skin coloration at will to match terrain. Gain a +4 racial bonus to Hide, which increases to a total of +10 in rocky terrain. Darkvision does not negate the bonus. True seeing negates it. Normal Hide requirements still apply.",
+          "Light Sensitivity (Ex): bright sunlight or the radius of a daylight spell causes the dazzled condition. In 3.5, dazzled gives −1 to attack rolls, Search, and Spot.",
+          "Common is automatic. The printed bonus languages are Drow, Dwarven, Gnome, Goblin, and Orc. Favored class Any. For multiclass experience penalties, exclude the highest-level class."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Underfolk",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Races of Destiny (2004)",
+            "name": "Berren Shalebank",
+            "build": {
+              "id": "underfolk-ore-assayer-35e",
+              "title": "Underfolk ore assayer, Expert 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1/2. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Human)",
+              "ac": 13,
+              "hp": 8,
+              "hitDice": "1d6+2",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 13,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Appraise +8",
+                "Climb +5",
+                "Craft (stonework) +5",
+                "Hide +9, or +15 in rocky terrain",
+                "Knowledge (local) +5",
+                "Listen +6",
+                "Search +5",
+                "Spot +4"
+              ],
+              "senses": "Darkvision 60 ft.",
+              "languages": "Common, Dwarven",
+              "traits": [
+                "Leather armor +2 and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +1, Will +2.",
+                "Skill Focus (Appraise) adds +3. The eight listed ranked class skills use 32 skill points, including the four extra at first level. Hide +5 without Camouflage.",
+                "Camouflage still works against darkvision. True seeing negates the racial Hide bonus. Ordinary cover or concealment is still needed to attempt a Hide check.",
+                "Dazzled in bright sunlight or within daylight. With the condition, Search +4, Spot +3, and each listed attack roll falls by 1.",
+                "The heavy pick counts as simple through Weapon Familiarity and is covered by Expert proficiency."
+              ],
+              "actions": [
+                "Heavy pick +1 melee, 1d6+1 piercing, critical ×4, 5-ft. reach.",
+                "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action."
+              ],
+              "tactics": "Compare the disputed ore samples against the original mark in the covered counting room. Ask the party to bring the merchants’ seals before the shipments are mixed."
+            },
+            "role": "Ore assayer and Expert.",
+            "motive": "Identify which shipment carries a counterfeit stamp before the ore lots are mixed.",
+            "hook": "Berren can compare the samples in the covered counting room if the party finds the missing merchant seal."
+          },
+          {
+            "species": "Underfolk",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Races of Destiny (2004)",
+            "name": "Lysa Chalkmark",
+            "build": {
+              "id": "underfolk-gallery-watch-35e",
+              "title": "Underfolk gallery watch, Ranger 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Human)",
+              "ac": 15,
+              "hp": 9,
+              "hitDice": "1d8+1",
+              "initiative": 2,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 15,
+                "CON": 13,
+                "INT": 10,
+                "WIS": 14,
+                "CHA": 8
+              },
+              "skills": [
+                "Climb +4",
+                "Hide +9, or +15 in rocky terrain",
+                "Listen +10",
+                "Move Silently +5",
+                "Search +4",
+                "Spot +8",
+                "Survival +6"
+              ],
+              "senses": "Darkvision 60 ft.",
+              "languages": "Common",
+              "traits": [
+                "Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +2. Fortitude +3, Reflex +4, Will +2. Armor check penalty −1.",
+                "Alertness and class bonus Track. Wild Empathy +0. Favored enemy constructs gives +2 to weapon damage and to Bluff, Listen, Sense Motive, Spot, and Survival against constructs.",
+                "The listed Hide total uses Camouflage. Hide +5 when its bonus is negated. The racial and Alertness bonuses are already included in Listen.",
+                "Camouflage still works against darkvision. True seeing negates the racial Hide bonus. Ordinary cover or concealment is still needed to attempt a Hide check.",
+                "Dazzled in bright sunlight or within daylight. With the condition, Search +3, Spot +7, and each listed attack roll falls by 1. Conditional favored-enemy bonuses still apply."
+              ],
+              "actions": [
+                "Light pick +2 melee, 1d4+1 piercing, critical ×4, 5-ft. reach. Add +2 weapon damage against constructs.",
+                "Longbow +3 ranged, 1d8 piercing, critical ×3, 100-ft. increment. Add +2 weapon damage against constructs."
+              ],
+              "tactics": "Listen for the stone sentry’s tread from behind cover. Lead the party to the safe gallery between passes. Keep the ledge clear while the party checks the old counterweight."
+            },
+            "role": "Gallery watch and Ranger.",
+            "motive": "Find a quiet gap in an old stone sentry’s route so repairers can reach a counterweight.",
+            "hook": "Lysa can listen for the sentry and guide the party between passes if they leave the narrow ledge clear."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Underfolk",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Races of Destiny (2004)",
+        "name": "Berren Shalebank",
+        "build": {
+          "id": "underfolk-ore-assayer-35e",
+          "title": "Underfolk ore assayer, Expert 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1/2. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Human)",
+          "ac": 13,
+          "hp": 8,
+          "hitDice": "1d6+2",
+          "initiative": 1,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 13,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Appraise +8",
+            "Climb +5",
+            "Craft (stonework) +5",
+            "Hide +9, or +15 in rocky terrain",
+            "Knowledge (local) +5",
+            "Listen +6",
+            "Search +5",
+            "Spot +4"
+          ],
+          "senses": "Darkvision 60 ft.",
+          "languages": "Common, Dwarven",
+          "traits": [
+            "Leather armor +2 and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +1, Will +2.",
+            "Skill Focus (Appraise) adds +3. The eight listed ranked class skills use 32 skill points, including the four extra at first level. Hide +5 without Camouflage.",
+            "Camouflage still works against darkvision. True seeing negates the racial Hide bonus. Ordinary cover or concealment is still needed to attempt a Hide check.",
+            "Dazzled in bright sunlight or within daylight. With the condition, Search +4, Spot +3, and each listed attack roll falls by 1.",
+            "The heavy pick counts as simple through Weapon Familiarity and is covered by Expert proficiency."
+          ],
+          "actions": [
+            "Heavy pick +1 melee, 1d6+1 piercing, critical ×4, 5-ft. reach.",
+            "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action."
+          ],
+          "tactics": "Compare the disputed ore samples against the original mark in the covered counting room. Ask the party to bring the merchants’ seals before the shipments are mixed."
+        },
+        "role": "Ore assayer and Expert.",
+        "motive": "Identify which shipment carries a counterfeit stamp before the ore lots are mixed.",
+        "hook": "Berren can compare the samples in the covered counting room if the party finds the missing merchant seal."
+      },
+      {
+        "species": "Underfolk",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Races of Destiny (2004)",
+        "name": "Lysa Chalkmark",
+        "build": {
+          "id": "underfolk-gallery-watch-35e",
+          "title": "Underfolk gallery watch, Ranger 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Human)",
+          "ac": 15,
+          "hp": 9,
+          "hitDice": "1d8+1",
+          "initiative": 2,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 15,
+            "CON": 13,
+            "INT": 10,
+            "WIS": 14,
+            "CHA": 8
+          },
+          "skills": [
+            "Climb +4",
+            "Hide +9, or +15 in rocky terrain",
+            "Listen +10",
+            "Move Silently +5",
+            "Search +4",
+            "Spot +8",
+            "Survival +6"
+          ],
+          "senses": "Darkvision 60 ft.",
+          "languages": "Common",
+          "traits": [
+            "Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +2. Fortitude +3, Reflex +4, Will +2. Armor check penalty −1.",
+            "Alertness and class bonus Track. Wild Empathy +0. Favored enemy constructs gives +2 to weapon damage and to Bluff, Listen, Sense Motive, Spot, and Survival against constructs.",
+            "The listed Hide total uses Camouflage. Hide +5 when its bonus is negated. The racial and Alertness bonuses are already included in Listen.",
+            "Camouflage still works against darkvision. True seeing negates the racial Hide bonus. Ordinary cover or concealment is still needed to attempt a Hide check.",
+            "Dazzled in bright sunlight or within daylight. With the condition, Search +3, Spot +7, and each listed attack roll falls by 1. Conditional favored-enemy bonuses still apply."
+          ],
+          "actions": [
+            "Light pick +2 melee, 1d4+1 piercing, critical ×4, 5-ft. reach. Add +2 weapon damage against constructs.",
+            "Longbow +3 ranged, 1d8 piercing, critical ×3, 100-ft. increment. Add +2 weapon damage against constructs."
+          ],
+          "tactics": "Listen for the stone sentry’s tread from behind cover. Lead the party to the safe gallery between passes. Keep the ledge clear while the party checks the old counterweight."
+        },
+        "role": "Gallery watch and Ranger.",
+        "motive": "Find a quiet gap in an old stone sentry’s route so repairers can reach a counterweight.",
+        "hook": "Lysa can listen for the sentry and guide the party between passes if they leave the narrow ledge clear."
+      }
+    ]
+  }
+}

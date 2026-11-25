@@ -1,0 +1,360 @@
+[
+  {
+    "name": "Dread Nightmare",
+    "decision": "separate",
+    "pages": "p. 156",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Dread Nightmare",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Outsider (Evil, Lawful)",
+      "ac": 24,
+      "hp": 60,
+      "hitDice": "8d8 + 24",
+      "speed": "40 ft.",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Initiative +7. AC components −2 size, +3 Dex, +13 natural. Touch AC 11, flat-footed AC 21. Base attack +8, grapple +13. Space 10 ft., reach 5 ft. Fort +9, Ref +5, Will +3.",
+      "description": "A black stallion whose hooves and breath flame in battle. A herd hunts in formation and may circle a victim before closing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Hoof +13 melee (1d8 + 5).\nFull attack. Two hooves +13 melee (1d8 + 5 each) and bite +8 melee (1d8 + 2).\nFlaming Hooves (Su). A hoof hit ignites combustible material.\nFrightful Presence (Ex). Stomp and belch smoke. Affected creatures make a DC 15 Fear save or become frightened for 5d6 rounds.\nSmoke (Su). In battle, snort a 15-ft. cone. A creature caught in it makes a DC 16 Fortitude save or takes a −3 morale penalty on attack and damage rolls until 1d6 minutes after leaving. The nightmare has concealment against creatures 5 ft. away and total concealment against creatures 10 ft. away. It sees through its smoke and can suppress it as a free action.\nTrample (Ex). As the 3.5 trample action, Reflex DC 19 half. See the table note for damage.",
+        "Traits": "Darkvision 60 ft. Etherealness (Su) works as the spell at caster level 20, with indefinite duration. It often retreats to the Near Ethereal during daylight.",
+        "Skills and feats": "Intimidate +12, Listen +12, Move Silently +12, Search +10, Sense Motive +12, Spot +12, Survival +13. Alertness, Combat Reflexes, Improved Initiative.",
+        "Encounter details": "Any land and underground, especially Nova Vaasa. Solitary, pair, or herd of 6–10. Always lawful evil. No treasure. Advancement 9–10 HD (Large), 11–18 HD (Huge). Level adjustment +4 as a cohort.",
+        "Printed source": "p. 156"
+      },
+      "ruleNotes": [
+        "The printing omits the trample damage and the area for Frightful Presence. For play, use 1d8 + 7 for trample from the hoof die and 1½ times Strength, and use the smoke cone for Frightful Presence. Use the listed smoke penalty and concealment."
+      ]
+    }
+  },
+  {
+    "name": "Grim Reaper",
+    "decision": "separate",
+    "pages": "pp. 107–108",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Grim Reaper",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Outsider (Incorporeal, Mists)",
+      "ac": 20,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "Fly 30 ft. (perfect)",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "otherStatistics": "Initiative +2. AC components +2 Dex and +8 deflection. Base attack +5, grapple +7 as printed. Space 5 ft., reach 5 ft. Fort +4, Ref +6, Will +6.",
+      "description": "A robed spirit comes to collect a dying creature’s soul. It fights only if someone interferes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. +2 scythe at +9 melee. Use the blade for 2d4 + 5 nonlethal damage and Destruction, or the pole for 1d6 + 5 nonlethal damage and Feign Death.\nDestruction (Su). A living creature hit by the blade makes a DC 16 Fortitude save or dies. Only true resurrection or miracle restores a victim slain this way.\nFeign Death (Su). The pole forces a DC 16 Will save. Failure leaves the target in a deathlike trance for 5 minutes. Magic can discern life.\nGaze of Fear (Su). As a standard action, target a foe with a DC 16 Fear save. Looking at the reaper by itself does not trigger the effect.",
+        "Traits": "DR 5/bludgeoning. Immune to cold, mind-affecting effects, and necromantic effects. Electricity and fire resistance 10. Incorporeal and Mists subtype traits. Only the dying and creatures that see ethereal or invisible beings can see it. Attacking does not end invisibility. Speak with dead can allow communication.",
+        "Running the encounter": "When a character in Ravenloft is dying, use a 5% appearance chance and add 5 percentage points for each prior brush with death. Reaching −8 HP or dying and returning counts. It alternates scythe and gaze from round to round when opposed. Death ward protects its intended target. Any healing magic used on that target makes the reaper leave. If the reaper is slain, the target stabilizes and regains 10% of maximum HP.",
+        "Skills and feats": "Hide +12, Knowledge (the afterlife) +17, Listen +13, Search +13, Sense Motive +12, Spot +14, Spellcraft +11. Weapon Focus (scythe), Weapon Specialization (scythe).",
+        "Encounter details": "Any environment. Solitary. Always neutral. No treasure. Advancement 5–10 HD (Medium).",
+        "Printed source": "pp. 107–108"
+      },
+      "ruleNotes": [
+        "The printing lists a grapple modifier alongside the incorporeal subtype and does not list touch or flat-footed AC. Apply the normal subtype rules. The printed AC components give touch 20 and flat-footed 18."
+      ]
+    }
+  },
+  {
+    "name": "Jack Frost",
+    "decision": "separate",
+    "pages": "pp. 120–121",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Jack Frost",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Fey (Cold)",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "3d6",
+      "speed": "30 ft., fly 60 ft. (perfect)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "otherStatistics": "Initiative +2 as printed. AC components +1 size and +4 Dex in humanoid form. Touch AC 15, flat-footed AC 11. Base attack +1, grapple +1. Space and reach 5 ft. each in humanoid form, or 10-ft. space and 0-ft. reach in alternate forms. Fort +1, Ref +7, Will +5.",
+      "description": "Spiteful cold spirits travel in flurries, weakening prey with vapor or mesmerizing snow before closing in humanoid form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Touch +2 melee for 1d6 cold, or bite +2 melee for 1d3 damage and Frostbite.\nFrostbite (Su). A bitten creature makes a DC 15 Fortitude save or takes 1d6 additional nonlethal damage and is fatigued until that damage is removed. This is a cold effect.\nFreezing Vapor (Su). In vapor form, pass through an enemy’s space as a move action. A creature passed through takes 3d6 cold, Reflex DC 14 half. A foe can take this damage from only one jack frost per round. Creatures killed by it freeze solid.\nSparkling Snow (Su). In snow form, use a 30-ft. gaze that works as hypnotic pattern, Will DC 14.",
+        "Traits": "Cold subtype. Alternate Form (Su). As a standard action, become vapor or sparkling snow indefinitely. Either form works as gaseous form with the printed space and reach, perfect flight 60 ft., and no running.",
+        "Skills and feats": "Bluff +6, Escape Artist +8, Hide +12, Listen +7, Move Silently +8, Spot +7. Dodge.",
+        "Encounter details": "Mountains and cold lands. Flurry of 10–30. Usually neutral evil. Standard treasure. Advancement 4–6 HD (Small).",
+        "Printed source": "pp. 120–121"
+      },
+      "ruleNotes": [
+        "Initiative is +2 in the printed table despite Dexterity 18. Retain the printed modifier."
+      ]
+    }
+  },
+  {
+    "name": "Marikith Queen",
+    "decision": "separate",
+    "pages": "pp. 149–150",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Marikith Queen",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Huge Aberration",
+      "ac": 19,
+      "hp": 95,
+      "hitDice": "10d8 + 50",
+      "speed": "30 ft., climb 20 ft.",
+      "cr": "11",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "otherStatistics": "Initiative +1. AC components −2 size, +1 Dex, +10 natural. Touch AC 9, flat-footed AC 18. Base attack +7, grapple +15. Space 10 ft., reach 10 ft. Fort +8, Ref +4, Will +9.",
+      "description": "This spiderlike queen breeds the hunters of Timor. She stays inside the hive and directs her brood against intruders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +15 melee (2d4 + 8).\nFull attack. Four claws +15 melee (2d4 + 8 each), plus either bite +10 melee (2d8 + 4 and poison) or sting +10 melee (1d8 + 4 and poison).\nImproved Grab (Ex). After at least two claws hit a Medium or smaller target, attempt to start a grapple as a free action without provoking an attack of opportunity.\nPoison (Ex). Bite and sting both require DC 20 Fortitude saves. For the bite, use 2d6 initial Constitution damage and 1d6 secondary Constitution damage. The sting has no initial damage and causes one week of secondary paralysis. An affected humanoid becomes a marikith hunter during that week. Neutralizing the poison before the change finishes reverses the transformation.",
+        "Traits": "DR 5/piercing. Darkvision 120 ft. Immune to fear, horror, and madness. Hive Mind (Su) lets her communicate telepathically with any of her brood within 5 miles. Light Sensitivity (Ex) imposes a −1 attack penalty in candlelight or starlight, −2 in torchlight, and −4 in bright sunlight or daylight. The block also lists Voice Mimicry.",
+        "Skills and feats": "Balance +9, Hide +5, Listen +10, Move Silently +7, Search +3, Spot +8. Improved Grab, Multiattack.",
+        "Encounter details": "Underground in Timor. A queen is escorted by 4–48 hunters. Always neutral evil. Double standard treasure. Advancement 11–16 HD (Huge).",
+        "Printed source": "pp. 149–150"
+      },
+      "ruleNotes": [
+        "The bite description repeats “secondary damage” with two different values. For play, use 2d6 initial and the explicitly repeated 1d6 secondary. The queen has Voice Mimicry in her stat line, but only the hunter entry gives a procedure. As a table default, use opposed Bluff with a +8 racial bonus against Listen, as for the hunters.",
+        "The queen’s printed stat line gives a 10-ft. space and +15 grapple. The full-attack line omits bite poison, which is specified in the combat description on p. 150."
+      ]
+    }
+  },
+  {
+    "name": "Dread Troll",
+    "decision": "separate",
+    "pages": "p. 194",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Dread Troll",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Giant",
+      "ac": 19,
+      "hp": 76,
+      "hitDice": "8d8 + 40",
+      "speed": "30 ft., climb 15 ft.",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "otherStatistics": "Initiative +4. AC components −1 size, +4 Dex, +6 natural. Touch AC 13, flat-footed AC 15. Base attack +6, grapple +16. Space 5 ft., reach 10 ft. Fort +11, Ref +6, Will +5.",
+      "description": "A dread troll stalks solitary travelers and bargains for a second victim in exchange for releasing the first.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +12 melee (1d6 + 6).\nFull attack. Two claws +12 melee (1d6 + 6 each) and bite +7 melee (1d6 + 3).\nRend (Ex). If both claws hit one target, deal another 2d6 + 9 damage automatically.",
+        "Traits": "Darkvision 90 ft. Scent. Regeneration 5 (Ex). Fire and acid deal normal damage. Lost parts grow back in 3d6 minutes. Holding a severed part to the stump reattaches it immediately. Alter Form (Su) changes its height to anywhere from 7 to 12 ft. Flexible limbs let it hide in tight spaces.",
+        "Skills and feats": "Escape Artist +6, Hide +4, Intimidate +6, Listen +4, Move Silently +6, Spot +4. Alertness, Iron Will, Power Attack.",
+        "Encounter details": "Any land. Solitary. Always lawful evil. Standard treasure. Advancement by character class.",
+        "Printed source": "p. 194"
+      }
+    }
+  },
+  {
+    "name": "Vorlog",
+    "decision": "separate",
+    "pages": "pp. 219–221",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Vorlog",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Humanoid (sample 6th-level human fighter)",
+      "ac": 19,
+      "hp": 51,
+      "hitDice": "6d12 + 12",
+      "speed": "30 ft.",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Initiative +6. AC components +2 Dex, +3 natural, +4 chain shirt. Touch AC 12, flat-footed AC 17. Base attack +6, grapple +10. Space 5 ft., reach 5 ft. Fort +7, Ref +4, Will +3.",
+      "description": "A vampire’s chosen companion survives an interrupted Dark Kiss. The vorlog charms a replacement and drains their Wisdom to keep them devoted.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack and full attack as printed. Unarmed strike +10/+5 melee (1d3 + 4 nonlethal and Wisdom Drain), short sword +10/+5 melee (1d6 + 4, 19–20/×2), or masterwork mighty longbow +9 ranged (1d8 + 4, 19–20/×2).\nAnimal Rage (Su). At will, animals within 50 ft. make a DC 14 Will save or rage as the spell at caster level 12 and attack the nearest creature, even the vorlog.\nCharm Person (Sp). At will at caster level 6, Will DC 12.\nWisdom Drain (Su). The unarmed hit deals 1d3 Wisdom damage to a living target. At Wisdom below 3 it becomes a lost one under the vorlog’s control. The vorlog keeps its surrogate at or below half their normal Wisdom.",
+        "Traits": "DR 5/silver and magic. Immune to mind-affecting effects, poison, sleep, and paralysis. Fast Healing (Ex) restores 1 HP per hour while at 1 HP or more, or 1 HP per round if the surrogate is physically present. At 0 HP or less it becomes a puddle of tears, moves at speed 20 ft., can climb walls and pass through tiny cracks, and must reach a dark haven in 1d4 hours or evaporate. After resting 8 hours it resumes humanoid form. Direct sunlight deals 1d6 damage each round. It will not approach a good deity’s holy symbol presented with conviction. It needs food and Wisdom and dies after three months without a surrogate.",
+        "Skills and feats": "Climb +16, Craft (bowmaking) +4, Diplomacy +3, Listen +4, Move Silently +13, Ride +4, Spot +4. Alertness, Blind-Fight, Dodge, Improved Critical (short sword), Improved Initiative, Improved Unarmed Strike, Point Blank Shot, Power Attack.",
+        "Encounter details": "Any land and underground. Solitary. Usually chaotic, always evil. Standard treasure. Gear includes 50 +1 arrows and a ring of climbing. It retains its former languages. A charmed victim who drinks the vorlog’s blood for three consecutive nights becomes its surrogate.",
+        "Template for another encounter": "Apply to a humanoid or monstrous humanoid. Keep type, size, speed, attacks, damage, saves, and existing special abilities. Increase Hit Dice one die size to a maximum of d12. Add +3 natural armor, +4 Str, +2 Dex, +2 Cha, and a +8 racial bonus to Move Silently. Add Alertness and Improved Unarmed Strike if missing. Add the vorlog attacks, traits and weaknesses above. Animal Rage Will DC is 10 + half the vorlog’s HD + Cha modifier. Charm Person Will DC is 11 + Cha modifier. CR is base +1, level adjustment base +8, and advancement by class.",
+        "Printed source": "pp. 219–221"
+      },
+      "ruleNotes": [
+        "The sample prints iterative melee bonuses in both Attack and Full Attack and gives the longbow a 19–20/×2 critical. Listed values follow the printing. The sample’s level adjustment is +15."
+      ]
+    }
+  },
+  {
+    "name": "Wolfwere",
+    "decision": "separate",
+    "pages": "pp. 223–224",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Wolfwere",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Animal (Augmented Animal, Shapechanger)",
+      "ac": 17,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "40 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "otherStatistics": "Initiative +5. AC components +1 Dex and +6 natural. Touch AC 11, flat-footed AC 16. Base attack +3, grapple +5. Space 5 ft., reach 5 ft. Fort +6, Ref +5, Will +5. Statistics are for the hybrid form.",
+      "description": "A wolfwere masquerades as a traveler or minstrel. Its song slows victims before it takes hybrid form and attacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack and full attack as printed. Bite +5 melee (1d6 + 3) and longsword +3 melee (1d8 + 1), or composite shortbow +4 ranged (1d6).\nSong of Weariness (Su). Creatures within 90 ft. make a DC 14 Will save or are slowed for 1d4 + 4 rounds as slow at caster level 6. Success gives one day of protection from the same wolfwere’s song. The song is sonic and mind-affecting.",
+        "Traits": "DR 10/cold iron, darkvision 60 ft., SR 13. Alternate Form (Su). As a standard action, assume dire wolf or Small or Medium humanoid form indefinitely as polymorph. It retains supernatural abilities in humanoid form. It speaks Sylvan and the local domain language.",
+        "Skills and feats": "Bluff +6, Diplomacy +6, Disguise +6, Hide +5, Listen +5, Move Silently +5, Perform (string instruments) +6, Spot +5. Combat Reflexes, Combat Expertise, Improved Initiative, Multiattack.",
+        "Encounter details": "Any land and underground. Solitary, pair, or troupe of 2–5 wolfweres and 2d8 wolves. Always chaotic evil. Standard treasure. Advancement by class. Level adjustment +4.",
+        "Greater wolfwere": "CR 7. Large Animal (Augmented Animal, Shapechanger). 60 HP and 8d8 + 10 as printed. Initiative +4, speed 50 ft., AC 18 (−1 size, +9 natural), touch 9, flat-footed 18. Space 5 ft., reach 10 ft. Fort +9, Ref +6, Will +8. Str 23, Dex 10, Con 17, Int 16, Wis 14, Cha 16. The printed table omits base attack and grapple. For play, +6/+16 derives from 8 animal HD, size, and Strength.\nAttack and full attack as printed. Bite +11 melee (1d8 + 6) and two claws +9 melee (1d6 + 3), or composite shortbow +5 ranged (1d6). In wolf-man form the prose instead pairs the bite with a melee weapon and gives the weapon the claws’ stated +3 attack bonus.\nSong of Weariness. Will DC 17 within 90 ft. or slowed 1d6 + 4 rounds at caster level 8. Success gives immunity to the same singer for one day. Lupine Allies (Su). Once per day as a standard action, howl to call 4d6 wolves or 2d6 dire wolves. They arrive in 2d6 rounds, serve for up to 1 hour, and gain a +2 morale bonus on attack rolls.\nAlternate Form as above. DR 10/cold iron, darkvision 60 ft., SR 21, regeneration 10. Fire and acid deal normal damage. Lost limbs do not regrow.\nBluff +7, Diplomacy +7, Disguise +6, Handle Animal +6, Hide −2, Intimidate +7, Listen +7, Move Silently +3, Perform (wind instruments) +7, Spot +7. Alertness, Combat Expertise, Improved Initiative, Multiattack, Power Attack. Temperate forest. Solitary, pair, gang of 3–5, or troupe with one greater wolfwere, 2d4 wolfweres, 1d6 dire wolves, and 3d6 wolves. Always neutral evil. Standard treasure, advancement by class, level adjustment +11.",
+        "Printed source": "pp. 223–224"
+      },
+      "ruleNotes": [
+        "The greater wolfwere’s listed 60 HP and 8d8 + 10 are retained even though its listed Constitution would usually modify the dice differently. Its written weapon routine is separate from the printed bite-and-claw routine."
+      ]
+    }
+  }
+]

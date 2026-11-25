@@ -1,0 +1,24 @@
+{
+  "baseline": "ceaeb626adcc0d145df3e2fa79cc4801279f2df6",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Bhuka"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Sandstorm (2005)",
+  "waterSenseDepthsAndSureFeetVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Sandstorm (2005)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

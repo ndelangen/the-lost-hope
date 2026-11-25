@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Basilisk",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's 2018 DMs Guild player conversion for the 2014 fifth-edition rules.",
+      "Medium Monstrosity. Strength and Constitution each rise by 1. Walk 25 ft., darkvision 60 ft., and Common spoken and written. Unarmored AC is 15 + Dexterity modifier. The bite is an unarmed strike for 1d8 slashing. No Hands prevents weapon, shield, focus or tool use.",
+      "Petrifying Gaze takes an action, targets one creature within 30 ft. that can see you and that you can see, and requires concentration for up to 1 minute. Its Constitution save DC is 8 + your Constitution modifier + proficiency bonus. Non-flesh bodies and creatures immune to paralysis are exempt. A creature that is not surprised can spend its reaction to avert its eyes when it first sees you or at the start of its turn. This prevents targeting it with the gaze and lasts until the start of its next turn.",
+      "On a failed initial save, begin at one temporary exhaustion stage. Repeat the save at the end of the target’s turns. Further failures advance the stage, and the first success starts recovery at one stage per round. Immunity to exhaustion offers no protection from these stages. Reaching the sixth stage petrifies the target until greater restoration or similar magic. Separate exhaustion does not stack with these stages. Loss of concentration clears unfinished petrification. You regain the use after either rest."
+    ]
+  },
+  {
+    "name": "Behir",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's 2018 DMs Guild player conversion for the 2014 fifth-edition rules.",
+      "Medium Monstrosity. There is no racial ability increase. Walk and climb 30 ft. each, darkvision 60 ft., and Draconic. Unarmored AC is 13 + Dexterity modifier. The bite is an unarmed strike for 1d8 slashing. No Hands prevents weapon, shield, focus or tool use.",
+      "Constrict allows a bonus-action grapple after a successful unarmed strike in the Attack action. This grapple works without hands.",
+      "Lightning Breath takes an action and fills a 30-by-5-ft. line. Dexterity saves use DC 8 + Constitution modifier + proficiency bonus. The damage starts at 2d6 lightning and climbs to 3d6 at level 5, 4d6 at level 11, and 5d6 at level 17. A successful save halves it. You regain the use after either rest. Lightning resistance appears only in the design commentary."
+    ]
+  },
+  {
+    "name": "Beholder",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's 2018 DMs Guild player conversion for the 2014 fifth-edition rules.",
+      "Shared traits grant Intelligence +1, 0 ft. walk, 60-ft. darkvision, Deep Speech and Undercommon, and AC 12 + Dexterity modifier when unarmored. The bite is an unarmed strike for 1d6 piercing. No Hands bars weapons, shields and gear requiring handling. Each form can hover and cannot be knocked prone. Medium or heavy armor prevents its flight.",
+      "Eye Tyrant. Medium Aberration. Fly 20 ft. Eye Rays grant chill touch, eldritch blast, friends and mage hand, with the benefit of a magic focus. Antimagic Cone can stop a seen creature’s spell within 60 ft. once per day as a reaction. Roll Intelligence against 10 + spell level.",
+      "Death Tyrant. Medium Undead with poison damage and poisoned condition immunity. Fly 20 ft. It needs no air, food, drink or sleep and rests semiconscious for 4 hours in place of 8 hours of sleep. It can recover HP by resting. Cure wounds, healing word and heal exclude it, and the supplement suggests repair spell counterparts for Undead and Constructs. It has the Eye Tyrant’s cantrips and focus benefit. At the start of each turn it can set or disable a 60-ft. cone. Creatures in the cone must pass a Constitution save to regain HP, DC 8 + Intelligence modifier + proficiency bonus.",
+      "Spectator. Small Aberration. Fly 30 ft. Eye Rays grant chill touch and mage hand, with the benefit of a magic focus. For Spell Reflection, give up advantage on a save against a spell or disadvantage on its attack against you. If you save or the attack misses, redirect the spell to a creature you see within 30 ft. The new target rolls its own save, or the caster rerolls the attack against it."
+    ]
+  },
+  {
+    "name": "Blight",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's 2018 DMs Guild player conversion for the 2014 fifth-edition rules.",
+      "Needle, Twig and Vine Blights belong to this one Plant profile. All three lack eyes, have 60-ft. blindsight and are immune to the blinded condition as printed. They use Common. Needle and Twig can understand, read and write Common, but cannot speak or supply verbal spell components.",
+      "Needle Blight. Medium, walks 30 ft., and gains +1 to one ability. Unarmored AC is 12 + Dexterity modifier. Claws are an unarmed strike for 1d8 slashing. Needles are a ranged weapon attack for 1d8 piercing at 30/60 ft.",
+      "Twig Blight. Small, walks 25 ft., and gains Dexterity and Constitution +1 each. Unarmored AC is 13 + Dexterity modifier. Claws are an unarmed strike for 1d4 slashing. It has Stealth proficiency, fire vulnerability and can pass for a dead shrub after concentrating motionless for 1 minute.",
+      "Vine Blight. Medium, walks 25 ft., gains Strength +1 and can speak Common. Unarmored AC is 12 + Dexterity modifier. It can resemble a cluster of vines after concentrating motionless for 1 minute. Its 1d6 bludgeoning unarmed strike lets it try a bonus-action grapple on an Attack-action hit.",
+      "Entangling Plants emanates 15 ft. from the Vine Blight. Creating the roots takes an action. Creatures present make Strength saves against 8 + Constitution modifier + proficiency bonus or become restrained. A creature can use its action to attempt a Strength check at that DC on behalf of itself or another target in reach. The ground is difficult for non-Plants. Requires concentration for up to 1 minute and recharges on either rest."
+    ]
+  }
+]

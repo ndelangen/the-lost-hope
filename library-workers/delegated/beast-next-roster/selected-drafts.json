@@ -1,0 +1,13 @@
+{
+  "Boar": "parts/spider-boar/dark-pyramid-boar.png",
+  "Cosmoth": "parts/hwt-a/cosmoth.png",
+  "Dusktail": "parts/hwt-a/dusktail-group.png",
+  "Everbug": "parts/hwt-a/everbug.png",
+  "Firelance": "parts/hwt-a/firelance.png",
+  "Gargath": "parts/hwt-b/portraits/gargath.png",
+  "Slicar": "parts/hwt-b/portraits/slicar.png",
+  "Spiderfrog": "parts/spider-boar/spiderfrog.png",
+  "Swarm of Bluebees": "parts/hwt-b/portraits/swarm-of-bluebees.png",
+  "Swarm of Dusktails": "parts/hwt-a/dusktail-group.png",
+  "Swarm of Gimlets": "parts/hwt-b/portraits/swarm-of-gimlets.png"
+}

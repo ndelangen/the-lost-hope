@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Deep Imaskari",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "8f4c45c78be3da4835f24257",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium human subrace. +2 Intelligence and −2 Dexterity. Land speed 30 ft. No racial Hit Dice or positive level adjustment listed.",
+            "Low-light vision doubles human sight distance in poor illumination and preserves color and detail.",
+            "Spell Clutch (Su). Once per day, use a standard action to prepare again one 1st-level spell you previously prepared and cast. Cast the spell separately when needed. The supernatural activation does not provoke an attack of opportunity.",
+            "+4 on Hide checks while underground.",
+            "Common and Roushoum are automatic. Bonus languages are Aquan, Dwarven, Elven, Terran, and Undercommon, or by region. The Deep Imaskar region lists Abyssal, Aquan, Celestial, Draconic, Terran, and Undercommon. Favored class Wizard.",
+            "Ability scores follow the racial traits on p. 9. The summary table on p. 6 instead lists a Strength penalty."
+          ]
+        },
+        {
+          "title": "Original NPC · Neris Vell",
+          "lines": [
+            "Vault surveyor and Wizard.",
+            "Motive. Map the lower vault and bring her notes back intact.",
+            "Hook. Neris marks the first doorway with charcoal so the party can find it from either side.",
+            "Deep Imaskari vault surveyor, Wizard 1 · CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Human)",
+            "AC 11 · HP 6 (1d4+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Serran Thale",
+          "lines": [
+            "Waystation warden and Cleric.",
+            "Motive. Move the refugees through two barricades before the gates close.",
+            "Hook. Serran sends the party ahead to hold the inner doors.",
+            "Deep Imaskari waystation warden, Cleric 1 · CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Human)",
+            "AC 16 · HP 10 (1d8+2) · Speed 20 ft. in scale mail; base 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Neris Vell": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Neris Vell",
+              "group": "Deep Imaskari",
+              "publication": "Deep Imaskari vault surveyor, Wizard 1",
+              "local": {
+                "entry": "npc-fa93523dc2519d48933f1791",
+                "version": "c0ec316b5045b434c3794f8f"
+              }
+            }
+          }
+        ],
+        "Original NPC · Serran Thale": [
+          {
+            "start": 15,
+            "end": 27,
+            "target": {
+              "name": "Serran Thale",
+              "group": "Deep Imaskari",
+              "publication": "Deep Imaskari waystation warden, Cleric 1",
+              "local": {
+                "entry": "npc-24113931c1d8c443daa930e6",
+                "version": "58ac3fa73bc4bad2733e39c0"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Deep Imaskari": true,
+      "deep imaskari spell clutch": true,
+      "deep imaskari low-light vision": true,
+      "deep imaskari vault surveyor": true,
+      "deep imaskari waystation warden": true
+    },
+    "hash": "10a6d0886c6d9de63e7e13bb6e6d8d552345e1a58ca0e90afe9c2bfd772ce834",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "8f4c45c78be3da4835f24257",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

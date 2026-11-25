@@ -1,0 +1,21 @@
+{
+  "baseline": "0256add9c06ee8ef7b4afdf51e2a11ce5928c466",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Illumian"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Destiny (2004)",
+  "allSixPowerSigilsAndFifteenWordsDisplayed": true,
+  "sigilAndNpcStatsVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

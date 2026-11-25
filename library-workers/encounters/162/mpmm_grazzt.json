@@ -1,0 +1,244 @@
+[
+  {
+    "name": "Gnoll Witherling",
+    "statBlock": {
+      "name": "Gnoll Witherling",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 145,
+      "classification": "Medium undead, typically chaotic evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 7,
+      "description": "When a gnoll war band turns on itself, its survivors may raise the bones of their slain in the name of Yeenoghu. These witherlings kill alongside the war band and have no appetite of their own.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Gnoll but cannot speak.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Unusual Nature. The witherling needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two attacks in any combination of Bite and Spiked Club.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) necrotic damage.\nSpiked Club. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Bonus actions": "Rampage. If the witherling reduces a creature to 0 hit points with a melee attack on its turn, it can move up to half its speed and make one Bite attack.",
+        "Reactions": "Vengeful Strike. When a gnoll within 30 ft. of the witherling drops to 0 hit points, make one Bite or Spiked Club attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 145."
+      }
+    }
+  },
+  {
+    "name": "Gray Render",
+    "statBlock": {
+      "name": "Gray Render",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 146,
+      "classification": "Large monstrosity, typically chaotic neutral",
+      "ac": 19,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "A gray render may offer to bond with an intelligent creature by warbling, scratching the earth, and bowing. Once bonded, it protects that creature fiercely, even when its behavior causes trouble outside combat.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 8,
+        "Con": 9
+      },
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 17 (2d12 + 4) piercing damage. A Medium or smaller target must succeed on a DC 16 Strength save or fall prone.\nClaw. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) slashing damage. If the target is prone, add 10 (3d6) bludgeoning damage.",
+        "Reactions": "Bloody Rampage. When the render takes damage, it makes one Claw attack against a random creature it can reach. Exclude the render's master.",
+        "Gray Render Quirks": "Choose a quirk or roll 1d12.\n1. Detests riding animals.\n2. Roars if another creature touches its master.\n3. Wants to cuddle.\n4. Pulls up trees to chew them.\n5. Produces gas strong enough to make eyes water.\n6. Offers meat to its master.\n7. Digs wherever it goes.\n8. Treats wagons and carts as enemies.\n9. Howls in the rain.\n10. Whimpers in darkness.\n11. Buries any treasure it finds.\n12. Leaps after birds even if it wrecks whatever is nearby.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 146."
+      }
+    }
+  },
+  {
+    "name": "Graz’zt",
+    "statBlock": {
+      "name": "Graz’zt",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 148,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 20,
+      "hp": 346,
+      "hitDice": "33d10 + 165",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 23
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 26
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 22,
+      "description": "Graz’zt rules from the Argent Palace in Zelatar, in the Abyssal realm of Azzatar. His chosen forms share six digits on each hand and foot. He carries Angdrelve, the acid-dripping greatsword also called Wave of Sorrow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 12,
+        "Wis": 12
+      },
+      "skills": {
+        "Deception": 15,
+        "Perception": 12,
+        "Persuasion": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison. Nonmagical bludgeoning, piercing, and slashing damage.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/day). When Graz’zt fails a saving throw, he can choose to succeed instead.\nMagic Resistance. Graz’zt has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Wave of Sorrow attacks. Graz’zt can replace one attack with a use of Spellcasting.\nWave of Sorrow (Greatsword). Melee weapon attack, +13 to hit, reach 10 ft., one target. A hit deals 20 (4d6 + 6) force damage plus 14 (4d6) acid damage.\nTeleport. Graz’zt and any equipment he wears or carries teleport up to 120 ft. to an unoccupied space he can see.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 23) without material components.\nAt will. Charm Person, Detect Magic, Dispel Magic.\n3/day each. Darkness, Dominate Person, Telekinesis, Teleport.\n1/day each. Dominate Monster, Greater Invisibility.",
+        "Bonus actions": "Change Shape. Take a form resembling a Medium humanoid or return to his true form. His size changes with the form. His other statistics and his worn or carried equipment stay the same.",
+        "Reactions": "Negate Spell (Recharge 5–6). When Graz’zt sees a creature within 60 ft. casting a spell, he can try to interrupt it. A spell of 3rd level or lower fails automatically. For a spell of 4th level or higher, make a Charisma check against DC 10 + the spell’s level. On a successful check, the spell fails and has no effect.",
+        "Legendary actions": "Graz’zt has 3 legendary actions. Spend one at the end of another creature’s turn to use an option. He regains all spent actions at the start of his turn. He must be able to act and, if surprised, must finish his first turn before using an option.\nAbyssal Magic. Use Spellcasting or the Teleport action.\nAttack. Make one Wave of Sorrow attack.\nDance, My Puppet! Choose one creature Graz’zt can see that he has charmed. It must use its reaction to move up to its speed as he directs.",
+        "Lair actions": "On initiative count 20, after anyone tied at that count, choose one option while Graz’zt is in his lair and able to act. He cannot repeat an option in consecutive rounds. If surprised, he must finish his first turn before taking a lair action.\nCommand. Cast Command on any creatures in the lair he chooses and knows are present. He can target creatures he cannot see and gives each target the same order.\nConjure Mirrors. Smooth surfaces in the lair become mirrorlike. Until he uses a different lair action, creatures in the lair have disadvantage on Dexterity (Stealth) checks to hide.",
+        "Regional effects": "Choose one or more effects for the area surrounding the lair. The effects fade over 1d10 days after Graz’zt dies.\nAgitated Beasts. Wild beasts within 6 miles frequently fight and mate as if it were breeding season.\nBeguiling Realm. Within 6 miles, Wisdom (Insight) checks have disadvantage. Charisma (Deception) and Charisma (Persuasion) checks have advantage.\nMirrors Everywhere. Within 1 mile, flat stone and metal surfaces become supernaturally reflective.",
+        "Cult": "See Cult of Graz’zt for his followers’ encounter rules.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 148."
+      }
+    }
+  },
+  {
+    "name": "Green Abishai",
+    "statBlock": {
+      "name": "Green Abishai",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 40,
+      "classification": "Medium fiend (devil), typically lawful evil",
+      "ac": 18,
+      "hp": 195,
+      "hitDice": "26d8 + 78",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 16,
+      "description": "Green abishais use diplomacy and magic to extract secrets and manipulate wary opponents.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Deception": 9,
+        "Insight": 6,
+        "Perception": 6,
+        "Persuasion": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic, Infernal, telepathy 120 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing damage from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Devil’s Sight. Magical darkness does not hinder the abishai’s darkvision.\nMagic Resistance. The abishai has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Fiendish Claw attacks, or make one Fiendish Claw attack and use Spellcasting.\nFiendish Claw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 12 (2d8 + 3) force damage. A creature hit must succeed on a DC 16 Constitution save or take 16 (3d10) poison damage and be poisoned for 1 minute. The poisoned creature repeats the save at the end of each of its turns, ending the condition on a success.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 17) without material components.\nAt will. Alter Self, Major Image.\n3/day each. Charm Person, Detect Thoughts, Fear.\n1/day each. Confusion, Dominate Person, Mass Suggestion.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 40."
+      }
+    }
+  }
+]

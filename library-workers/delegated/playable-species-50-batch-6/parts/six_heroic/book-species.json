@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Android",
+    "kind": "species",
+    "publication": "Book of Heroic Races: Player Races 2",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Intelligence +2. Medium humanoid, 30-ft. walking speed and 60-ft. darkvision that shows only shades of gray in darkness. Proficient in Perception and one chosen weapon. Reads, writes and speaks Common.",
+      "Constructed grants advantage on saves against enchantment spells and effects that deal poison damage or impose the poisoned condition.",
+      "Alchemical android. Dexterity +1 and 35-ft. walking speed. Choose proficiency with alchemist's supplies, cartographer's tools, glassblower's tools or tinker's tools.",
+      "Technological android. Constitution +1. Advantage on saves against lightning and resistance to lightning damage. Reads, writes and speaks one additional chosen language.",
+      "Androids resemble humans. An alchemical or metallic sheen in the eyes and tattoo-like conduits just under the skin can reveal the synthetic body."
+    ]
+  },
+  {
+    "name": "Gillfolk",
+    "kind": "species",
+    "publication": "Book of Heroic Races: Player Races 2",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Strength +2. Medium, with 30-ft. walking and swimming speeds. Proficient in Athletics and with nets, spears and tridents. Reads, writes and speaks Common and Deep Speech.",
+      "Gillfolk breathe both air and water. Full submersion in fresh or salt water for at least an hour is required daily. The source assigns disadvantage on actions for the day if a gillfolk goes more than a day without that immersion.",
+      "Deep Sea Gillfolk. Constitution +1 and 120-ft. darkvision. Direct sunlight on the gillfolk, its target or the thing it is looking at imposes disadvantage on attack rolls and Wisdom (Perception) checks. It has resistance to cold damage and advantage against cold.",
+      "Shore Line Gillfolk. Charisma +1 and shocking grasp. At level 3, gains speak with animals once per day. At level 5, gains misty step once per day. Charisma governs these spells.",
+      "Gillfolk resemble humans with webbed fingers and gills along the neck. Deep Sea Gillfolk can have a gray pallor and larger eyes and lips."
+    ]
+  },
+  {
+    "name": "Tengu",
+    "kind": "species",
+    "publication": "Book of Heroic Races: Player Races 1 (2015)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Dexterity +2. Medium, 30-ft. walking speed and 60-ft. darkvision. Proficient with daggers, rapiers and shortswords. Reads, writes and speaks Common, Tengu and one additional language of choice.",
+      "Cosmopolitan tengu. Intelligence +1. Gain proficiency with a chosen set of artisan's tools for one check per day. Learn one more language. Gain advantage when trying to infer the gist of an unfamiliar language without acquiring the ability to speak or write it.",
+      "Nomadic tengu. Wisdom +1. Proficient in Stealth and with thieves' tools.",
+      "Tengu are willowy, crow-like humanoids. This profile grants a walking speed."
+    ]
+  }
+]

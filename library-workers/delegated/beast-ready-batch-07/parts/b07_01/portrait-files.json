@@ -1,0 +1,10 @@
+[
+  {
+    "artGroup": "bison",
+    "file": "portraits/bison.png",
+    "sha256": "b84cd8f63b58308abcd17859fd64e308e931ef668393f02a0f27843a796a6869",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

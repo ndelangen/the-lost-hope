@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Snake, Giant Constrictor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/snake-giant-constrictor/kobold-press-snake-constrictor.webp",
+    "artist": "Giant Constrictor Snake · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "8855821d51f35d7c5610b68191f05dd1fa5182987f878a92bea998701abaf26c",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/snake-constrictor.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Snake, Giant Constrictor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/snake-giant-constrictor/snake-constrictor-pacheco.webp",
+    "artist": "Related Constrictor Snake illustration by Alejandro Pacheco · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "bf4d0051c8d581810df829cea71678688b1829718a42a2f4171884230b76539d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Constrictor%20Snake.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Snake, Giant Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/snake-giant-poisonous/kobold-press-snake-poisonous-giant.webp",
+    "artist": "Giant Poisonous Snake · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "13675617756881dd01f5be9acdbb834365e16a69cea09a4123f765bf68623349",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/snake-poisonous-giant.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Snake, Giant Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/snake-giant-poisonous/giant-venomous-snake-2024.webp",
+    "artist": "Related Giant Venomous Snake illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce2f60ddfaf2569addce62306e3a98b952278d3ae78198ca5661c518d3ae65a9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Venomous%20Snakes.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Snake, Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/snake-poisonous/kobold-press-snake-poisonous-giant.webp",
+    "artist": "Giant Poisonous Snake · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "13675617756881dd01f5be9acdbb834365e16a69cea09a4123f765bf68623349",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/snake-poisonous-giant.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Snake, Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/snake-poisonous/poisonous-snake-2014.webp",
+    "artist": "Related Poisonous Snake token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "f1ff5ecffcbdd53e7bd5e5b353adc21854f3d20f65cf3b5e63709123ec48c9c8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Poisonous%20Snake.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Snake, Swarm of Poisonous Snakes",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/snake-swarm-of-poisonous-snakes/kobold-press-snake-poisonous-swarm.webp",
+    "artist": "Swarm of Poisonous Snakes · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "ea27ac5ee2e50ade0cc85ff4f2bd3415823d25e22ae3b1b3927afd770cfb63ce",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/snake-poisonous-swarm.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Snake, Swarm of Poisonous Snakes",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/snake-swarm-of-poisonous-snakes/swarm-of-poisonous-snakes-2014.webp",
+    "artist": "Related Swarm of Poisonous Snakes token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "3685dd6bebd4f5bbdc064ce9da7a408de17be2f9388aaa1db50e9a7105901182",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Swarm%20of%20Poisonous%20Snakes.webp"
+  }
+]

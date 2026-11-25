@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Gargantua",
+    "statBlock": {
+      "name": "Gargantua",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Gargantuan aberration, typically chaotic neutral",
+      "ac": 17,
+      "hp": 388,
+      "hitDice": "21d20 + 168",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Born among giants, a gargantua develops horns and purple skin as it reaches adulthood. It can grow past forty feet tall and often settles far from other giants.",
+      "savingThrows": {
+        "Dex": 7,
+        "Int": 6,
+        "Wis": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Force, psychic.",
+        "Condition immunities": "Frightened.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Giant.",
+        "Traits": "Weird Aura. At the start of the gargantua’s turn, each creature it chooses within 30 ft. makes a DC 19 Wisdom save. On a failure, the target takes 17 (5d6) psychic damage and is frightened until the start of its next turn. It sees the gargantua as the embodiment of its worst fears. A successful save grants immunity to this gargantua’s aura for 24 hours.",
+        "Actions": "Multiattack. Make two attacks using Slam or Rock.\nSlam. Melee weapon attack, +15 to hit, reach 20 ft., one target. A hit deals 27 (3d12 + 8) bludgeoning damage.\nRock. Ranged weapon attack, +15 to hit, range 120/480 ft., one target. A hit deals 24 (3d10 + 8) bludgeoning damage.",
+        "Bonus actions": "Baleful Hex. Choose one creature the gargantua can see within 120 ft. It must succeed on a DC 19 Wisdom save or be incapacitated until the end of its next turn.\nTeleport. The gargantua and its worn or carried equipment teleport to a visible, unoccupied space within 120 ft.",
+        "Reactions": "Flick. Immediately after a visible creature of Large size or smaller within 20 ft. damages the gargantua, the creature makes a DC 23 Strength save. On a failure, it takes 18 (3d6 + 8) bludgeoning damage, is pushed up to 100 ft. horizontally away from the gargantua, and falls prone.\nSpell Mimicry (1/day). Immediately after a visible creature casts a spell of 5th level or lower, it makes a DC 19 Charisma save. On a failure, the gargantua casts the same spell at the same level, chooses the targets, and needs no material components. Use +11 to hit with spell attacks or DC 19 for a spell saving throw.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 149."
+      }
+    }
+  },
+  {
+    "name": "Giant Child",
+    "statBlock": {
+      "name": "Giant Child",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 34,
+      "classification": "Medium giant, any alignment",
+      "ac": 10,
+      "hp": 4,
+      "hitDice": "1d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Use this commoner-based profile for a young giant who is still child-sized. The child’s club could be a toy or an object picked up in a hurry.",
+      "sections": {
+        "Languages": "Giant.",
+        "Actions": "Club. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Giant child customization": "The sidebar derives this profile from the Commoner by setting Strength to 14, changing its type to Giant, giving it Giant as its only language, and replacing its Club attack. The DM can give a young giant its parents’ innate traits, damage resistances, or damage immunities.\nTeenager. Start with the Ogre. Use 10 or the corresponding parent’s score, whichever is lower, for Intelligence, Wisdom, and Charisma. Set passive Perception to 10. Keep darkvision only for a stone giant teenager and choose appropriate armor and weapons.\nYoung adult. Use a giant lower in the ordning as the starting profile. The book cites the Young Cloud Giant from Storm King’s Thunder, which adapts the Hill Giant.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 34, Giant Children sidebar. This profile applies the sidebar’s changes to the 2014 Commoner."
+      }
+    }
+  },
+  {
+    "name": "Giant Goose",
+    "statBlock": {
+      "name": "Giant Goose",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 150,
+      "classification": "Large fey, typically neutral",
+      "ac": 13,
+      "hp": 60,
+      "hitDice": "8d10 + 16",
+      "speed": "30 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Giants keep these fey geese as sentries and livestock. Their honks drive off intruders, and a keeper can sometimes coax one into laying a golden egg.",
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Giant and Sylvan but cannot speak.",
+        "Actions": "Multiattack. Make one Beak attack and two Wing attacks.\nBeak. Melee weapon attack, +4 to hit, reach 10 ft., one target. A hit deals 9 (2d6 + 2) bludgeoning damage.\nWing. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) bludgeoning damage. The target must make a DC 12 Strength save or fall prone.\nThunderous Honk (Recharge 5–6). Every other creature within 30 ft. makes a DC 12 Constitution save. On a failure, it takes 16 (3d10) thunder damage and is deafened until the start of the goose’s next turn. On a success, it takes half damage and avoids deafening. The sound carries 300 ft.",
+        "Golden egg": "On its keeper’s command, the goose can lay a golden egg once per year and a day. The hollow shell is 1 foot long, weighs 2 lb., and is worth 100 gp. Roll on Goose Egg Trinket to determine what is inside.",
+        "Goose Egg Trinket": "Roll d12.\n1. Empty shell with a poem or detailed artwork on the inside.\n2. A candy egg.\n3. A toy goose that honks when squeezed.\n4. A Potion of Giant Strength (hill giant), without a bottle.\n5. A Pearl of Power.\n6. A Brooch of Shielding.\n7. A Figurine of Wondrous Power (silver raven) that activates as the egg opens, releasing what looks like a living bird.\n8–12. Empty.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 150."
+      }
+    }
+  },
+  {
+    "name": "Giant Lynx",
+    "statBlock": {
+      "name": "Giant Lynx",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 151,
+      "classification": "Medium fey, typically neutral",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "These hunters come from the Feywild’s snowy forests. They scout with divination, work together to trap prey, and sometimes befriend frost or cloud giants.",
+      "skills": {
+        "Perception": 6,
+        "Stealth": 6
+      },
+      "sections": {
+        "Damage resistances": "Cold.",
+        "Senses": "Truesight 60 ft.",
+        "Languages": "Giant, Sylvan.",
+        "Traits": "Lynx’s Sight (1/day). The lynx casts Clairvoyance using Wisdom and needs no spell components.\nWoodland Camouflage. The lynx has advantage on Dexterity (Stealth) checks to hide in undergrowth or snowy terrain.",
+        "Actions": "Claws. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage. If the lynx moved at least 20 ft. straight toward the target immediately before hitting, the target must succeed on a DC 12 Strength save or fall prone. If the target is prone, the lynx can make another Claws attack against it as a bonus action.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 151."
+      }
+    }
+  }
+]

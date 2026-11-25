@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Nivix Cyclops",
+    "statBlock": {
+      "name": "Nivix Cyclops",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 216,
+      "classification": "Large giant, unaligned",
+      "ac": 14,
+      "hp": 115,
+      "hitDice": "10d10 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 10,
+      "description": "The Izzet League outfits these cyclopes with piston gauntlets and telescopic helmets for work in its laboratories.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 9,
+        "Wis": 3
+      },
+      "sections": {
+        "Armor": "Half plate.",
+        "Damage immunities": "Poison and psychic.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, and poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and Giant.",
+        "Traits": "Magic Resistance. The cyclops has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 23 (3d10 + 7) bludgeoning damage.",
+        "Reactions": "Spell Vitalization. Immediately after a creature within 120 ft. casts a spell of 1st level or higher, the cyclops can move up to twice its speed without provoking opportunity attacks. It can then make one Slam attack against a target of its choice.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 216."
+      }
+    }
+  },
+  {
+    "name": "Obzedat Ghost",
+    "statBlock": {
+      "name": "Obzedat Ghost",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 245,
+      "classification": "Medium undead, lawful evil",
+      "ac": 14,
+      "hp": 110,
+      "hitDice": "20d8 + 20",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 18,
+      "description": "Five dead oligarchs still control the Orzhov Syndicate. Karlov breaks ties when the council disagrees.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 8
+      },
+      "sections": {
+        "Armor": "Natural armor. Each other Obzedat ghost within 30 ft. increases this ghost’s AC by 1.",
+        "Damage resistances": "Acid, cold, fire, lightning, and thunder. The ghost also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Necrotic and poison.",
+        "Condition immunities": "Charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, and restrained.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Traits": "Council of Five. Use the trait for the ghost’s council member.\nEthereal Sight. The ghost can see 60 ft. into the Ethereal Plane from the Material Plane and vice versa.\nIncorporeal Movement. Creatures and objects count as difficult terrain for the ghost. It takes 5 (1d10) force damage if it ends its turn inside an object.\nLegendary Resistance (1/day). The ghost can turn a failed saving throw into a success.\nUndead Nature. The ghost needs no air, food, drink, or sleep.",
+        "Council of Five": "Enezesku: Enfeebling Ray. Add Ray of Enfeeblement to his at-will innate spells.\nFautomni: Undead Fortitude. If damage drops him to 0 HP, make a Constitution save with a DC of 5 plus the damage taken. On a success he drops to 1 HP. Radiant damage and critical hits bypass this trait.\nKarlov: Unnatural Vigor. Whenever he regains HP, he has advantage on attack rolls during his next turn.\nVuliev: Teleportation. Add Misty Step to his at-will innate spells.\nXil Xaxosz: Lingering Spite. When he drops to 0 HP, each creature within 5 ft. makes a DC 16 Constitution save against the burst. Failure deals 14 (4d6) necrotic damage. Success halves the damage.",
+        "Innate Spellcasting": "The ghost casts with Wisdom (save DC 16, +8 to hit with spell attacks) and needs no components.\nAt will. Chill Touch, using the 5th-level cantrip damage of 2d8. The ghost regains HP equal to half the damage the target takes.\n1/day each. Sanctuary and Spirit Guardians (cast at 4th level).",
+        "Actions": "Life Drain. Melee weapon attack, +8 to hit, reach 5 ft., one creature. A hit deals 18 (4d8) necrotic damage. The ghost regains HP equal to half the damage the target takes. The target must pass a DC 13 Constitution save or reduce its HP maximum by the full damage it took. The reduction lasts until the target finishes a long rest. The target dies if its HP maximum reaches 0.\nConvene the Ghost Council. Summon the other four council members. At the start of the summoning ghost’s next turn, they appear in unoccupied spaces within 30 ft. of it and each rolls initiative.",
+        "Legendary actions": "When all five Obzedat ghosts are within 30 ft. of one another, the council shares a pool of three legendary actions. It can use one option at a time at the end of another creature’s turn. The pool refreshes at the start of the turn of the ghost with the highest initiative.\nForced Obedience (1 action). One target that all five ghosts can see makes a DC 16 Wisdom save. On a failure, the target bows until the end of its next turn. While bowing it cannot take actions or reactions and its speed is 0 and cannot increase.\nIndentured Spirits (3 actions). Conjure 1d6 Indentured Spirits within 60 ft. of one of the ghosts.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, pp. 244–245."
+      },
+      "skills": {
+        "Insight": 8,
+        "Perception": 8
+      }
+    }
+  },
+  {
+    "name": "Orzhov Giant",
+    "statBlock": {
+      "name": "Orzhov Giant",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 202,
+      "classification": "Large giant, lawful evil",
+      "ac": 18,
+      "hp": 84,
+      "hitDice": "8d10 + 40",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "An Orzhov enforcer who singles out a foe and keeps pressing it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 8,
+        "Wis": 4
+      },
+      "sections": {
+        "Armor": "Plate.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and Giant.",
+        "Bonus actions": "Focus. Choose one creature the giant can see within 30 ft. The focus lasts 1 minute or until either creature drops to 0 HP. The giant adds 1d4 to attack rolls against its focus and subtracts 1d4 from attack rolls against other targets while its focus lasts.",
+        "Actions": "Multiattack. Make two Greataxe attacks.\nGreataxe. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 25 (3d12 + 6) slashing damage. On a critical hit, roll the damage dice three times instead of twice.\nRock. Ranged weapon attack, +9 to hit, range 60/240 ft., one target. A hit deals 28 (4d10 + 6) bludgeoning damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 202."
+      }
+    }
+  },
+  {
+    "name": "Precognitive Mage",
+    "statBlock": {
+      "name": "Precognitive Mage",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 228,
+      "classification": "Medium humanoid (any race), lawful neutral",
+      "ac": 11,
+      "hp": 63,
+      "hitDice": "14d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "An Azorius mage who uses glimpses of possible futures to change the outcome of a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 3
+      },
+      "sections": {
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common plus any one language.",
+        "Innate Spellcasting": "The mage casts with Intelligence (save DC 14) and needs no material components.\n3/day total, shared. Detect Thoughts and Mage Armor. Mage Armor raises the mage’s AC to 14.\n1/day each. Clairvoyance and Locate Object.",
+        "Actions": "Quarterstaff. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) if wielded with two hands.\nGlimpse the Temporal Flood (Recharge 5–6). Pick one creature the mage can see within 120 ft. The target takes 18 (4d8) psychic damage and must pass a DC 14 Intelligence save or be stunned until the end of its next turn.",
+        "Reactions": "Precognitive Insight (3/day). When the mage or a creature it can see makes an attack roll, a saving throw, or an ability check, the mage can grant advantage or impose disadvantage on that roll.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 228."
+      },
+      "skills": {
+        "Perception": 3
+      }
+    }
+  },
+  {
+    "name": "Rakdos",
+    "statBlock": {
+      "name": "Rakdos",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 247,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 20,
+      "hp": 300,
+      "hitDice": "24d12 + 144",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 30
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 14,
+      "description": "The winged demon who leads the Cult of Rakdos carries a flaming scythe and prizes a performance he has never seen before.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 15,
+        "Con": 13,
+        "Wis": 11,
+        "Cha": 17
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic. Rakdos also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, and poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal and Common.",
+        "Traits": "Captivating Presence. Any creature starting its turn within 30 ft. of Rakdos makes a DC 25 Wisdom save. On a failure, it becomes charmed by Rakdos for 1 minute or until it gets farther than 30 ft. from him. A successful save grants immunity to Captivating Presence for 24 hours.\nCruel Entertainment. When a creature Rakdos can see within 60 ft. drops to 0 HP, he gains 25 temporary HP.\nLegendary Resistance (3/day). Rakdos can turn a failed saving throw into a success.\nMagic Resistance. Rakdos has advantage on saving throws against spells and other magical effects.\nMagic Weapons. Rakdos’s weapon attacks are magical.",
+        "Innate Spellcasting": "Rakdos casts with Charisma (save DC 25) and needs no material components.\nAt will. Hellish Rebuke (cast at 5th level).",
+        "Actions": "Multiattack. Make two attacks with Curtain-Call Scythe or Claw.\nCurtain-Call Scythe. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 24 (3d10 + 8) slashing damage plus 13 (3d8) fire damage.\nClaw. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 17 (2d8 + 8) slashing damage.",
+        "Legendary actions": "Rakdos has three legendary actions and regains them at the start of his turn. He can use one option at a time at the end of another creature’s turn.\nSadistic Revelry (1 action). Each ally of Rakdos or creature charmed by him within 60 ft. must use its reaction. It moves up to half its speed toward the nearest creature it can see if it is more than 5 ft. away, then makes one melee attack against that creature if able.\nScythe (2 actions). Use Curtain-Call Scythe.\nTouch of Pain (3 actions). Make one Claw attack against a creature within 10 ft. The target makes a DC 25 Constitution save. On a failure it is poisoned for 1 minute and cannot maintain concentration while poisoned this way. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Lair context": "Rakdos sometimes withdraws for months or years to his lair below the guildhall. The book describes the retreat on p. 246.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, pp. 246–247."
+      },
+      "skills": {
+        "Intimidation": 17,
+        "Performance": 17,
+        "Persuasion": 17
+      }
+    }
+  }
+]

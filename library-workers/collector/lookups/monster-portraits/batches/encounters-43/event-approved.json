@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mimic Mimiature",
+    "slug": "mimic-mimiature",
+    "id": "monster-20ef58614066ed2a6a2e2c1e:a7a44510a6c889df9f66e88d",
+    "entry": "monster-20ef58614066ed2a6a2e2c1e",
+    "version": "a7a44510a6c889df9f66e88d",
+    "suffix": "encounters-43/mimic-mimiature.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-43/mimic-mimiature.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-43/event-drafts/mimic-mimiature-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 43 2026-11-23/event-drafts/mimic-mimiature-event-v1.png",
+    "overrides": [
+      {
+        "entry": "monster-20ef58614066ed2a6a2e2c1e",
+        "name": "Mimic Mimiature",
+        "file": "images/monsters/mimic-mimiature/parchment-portrait.webp",
+        "sha256": "8613ec881ef05944b63fee0b8d47c54f65820b72dc950c8fd2d8fc62340c8f92",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "",
+        "subjectPrompt": "One little mimicking box with old oak and simple iron straps, one small toothy opened seam and a tiny tongue, restrained organic detail. Keep the small box silhouette readable.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "2120f12794d7772b5af69ef072d35f9ac24ec4c09fb481407d4b21efe8213a53",
+    "bytes": 2468585
+  },
+  {
+    "name": "Mimic Companion",
+    "slug": "mimic-companion",
+    "id": "monster-726b8cebe8804f34171b7ed0:e569a27cc276b649db6cf041",
+    "entry": "monster-726b8cebe8804f34171b7ed0",
+    "version": "e569a27cc276b649db6cf041",
+    "suffix": "encounters-43/mimic-companion.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-43/mimic-companion.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-43/event-drafts/mimic-companion-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 43 2026-11-23/event-drafts/mimic-companion-event-v1.png",
+    "overrides": [],
+    "sha256": "431d8a5e9039d353ed421a7b8dc5f31be4961b84ce3b9fbb4b8b2a24f03840ab",
+    "bytes": 2515561
+  }
+]

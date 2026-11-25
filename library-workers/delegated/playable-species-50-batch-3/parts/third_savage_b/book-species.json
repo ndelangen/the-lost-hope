@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Fire Elemental",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Starts as a Small elemental with the Fire subtype, +4 Dexterity, −4 Intelligence, 50-ft. land speed, darkvision 60 ft., and Ignan. It has no weapon, armor, or shield proficiencies.",
+      "Immune to fire, poison, sleep, paralysis, stunning, and critical hits. Cold attacks impose −10 on any saving throw they allow. Cold damage doubles when there is no saving throw. It cannot enter water or another nonflammable liquid.",
+      "Starts with +3 natural armor, a slam for 1d4 physical plus 1d4 fire, and Improved Initiative as a bonus feat. A lone slam adds one and a half times the Strength bonus to its physical damage.",
+      "Level 2 grants Burn, +2 Dexterity and Weapon Finesse (slam) as a bonus feat. Slam targets save against catching fire. Creatures that hit the elemental with a natural or unarmed attack take its fire damage and save against ignition. Burn uses Reflex DC 10 + half its class HD + Constitution modifier.",
+      "Becomes Medium at level 5 and Large at 13, gaining 10-ft. reach with Large size. Slam damage increases at levels 6, 9 and 12. Natural armor reaches +4 at 11 and DR 5/+1 appears at 14.",
+      "Fire elemental is the favored progression. It ends at class level 14, with 8d8 HD and encounter CR 5."
+    ]
+  },
+  {
+    "name": "Fire Giant",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Starts with +4 Strength, 40-ft. base land speed, darkvision 60 ft., and Common and Giant. Uses the Giant type and Fire subtype. Fire cannot harm it, and cold attacks impose −10 on any saving throw or deal double damage if they allow no save.",
+      "Knows simple and martial weapons, light and medium armor, and shields. The initial +2 natural armor increases to +4 at class level 4, +6 at 7 and +8 at 11.",
+      "Rock throwing begins at 5 with 1d6 base damage and a 30-ft. range increment. The class adds its Strength bonus to the damage and +1 to the attack roll. Maximum range is five increments. At 9 the base becomes 1d8 and the increment 60 ft. At 14 the figures reach 2d6 and 120 ft.",
+      "At 6 a fire giant can try to catch a rock or similar projectile that would hit it. It must be ready and aware, once per round as a free action. Reflex DC 15 for Small, 20 for Medium, or 25 for Large. A magic attack bonus raises the DC by that amount.",
+      "Becomes Large with 10-ft. reach at 11. Fire giant is the favored progression. It ends at class level 19 with 15d8 HD and encounter CR 10."
+    ]
+  },
+  {
+    "name": "Flesh Golem",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Intelligent construct character with −2 Dexterity, −6 Intelligence, no Constitution, and fixed Charisma 1. Base land speed 30 ft., cannot run, darkvision 60 ft., and Common. The monster class provides neither equipment proficiencies nor skill points.",
+      "Construct protections include immunity to mental effects, poison, disease, and most Fortitude-save effects unless they also affect objects. It avoids critical hits, subdual damage, ability damage, energy drain, and massive-damage death. This character can heal with rest. At 0 hp it is destroyed and can be reanimated with limited wish, wish, or miracle. Limited wish costs it a level.",
+      "Starts immune to acid, cold, electricity, fire, and sonic damage. Magical cold or fire slows it for 2d6 rounds. Magical electricity heals 1 hp per 3 damage it would ordinarily deal, with no save against the electricity.",
+      "In combat, each round adds 1 percentage point to its chance of berserking. It attacks the nearest living creature or a smaller object until it sees no valid target or its creator within 60 ft. succeeds at a DC 19 Charisma check. One minute of rest resets the chance.",
+      "Starts with two slams and +3 natural armor. Spell resistance equals class level +10 from level 2 until broad magic immunity replaces it at level 9, with the stated energy exceptions. Level 6 grants DR 5/+1. Large size and 10-ft. reach come at 14.",
+      "Flesh golem is the favored class. It ends at level 15 with 9d10 HD, +10 natural armor, and encounter CR 7."
+    ]
+  },
+  {
+    "name": "Frost Giant",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Giant with the Cold subtype. Starts with +4 Strength, 40-ft. base land speed, darkvision 60 ft., and Common and Giant. Under the book’s revised cold subtype, immune to cold and takes −10 on saves against fire or double fire damage when no saving throw is allowed.",
+      "Proficient with simple and martial weapons, light armor, and shields. Natural armor begins at +2 and increases to +4 at 4, +6 at 7, +8 at 11 and +9 at 13.",
+      "At 5 the frost giant can throw rocks with +1 on the attack roll and its Strength bonus to damage. The progression is 1d6 at 30-ft. increments, 1d8 at 60-ft. increments from level 10, then 2d6 at 120-ft. increments from level 14. Maximum range is five increments.",
+      "At 6 the frost giant can try once per round to catch a rock or similar projectile that would hit it if it is ready and aware. Reflex DC 15 Small, 20 Medium or 25 Large, increased by any magic attack bonus on the projectile.",
+      "Becomes Large with 10-ft. reach at 11. Frost giant is the favored progression. It ends at level 18 with 14d8 HD and encounter CR 9."
+    ]
+  },
+  {
+    "name": "Ghaele",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Medium outsider with the Chaotic and Good subtypes and no starting ability adjustments. Base land speed 50 ft., darkvision 60 ft., low-light vision, +4 on saves against poison, and Celestial, Infernal, and Draconic.",
+      "The class gives simple and martial weapon proficiency. It casts as a cleric of its class level up to caster level 14. It can also prepare spells from the Air, Animal, Chaos, Good, and Plant domains as regular cleric-list options.",
+      "Lesser spell-like abilities start at level 2 and increase at levels 5 and 8. Spell resistance is class level +8 from 3, tongues starts at 4, and acid, cold, and electricity resistance 5 starts at 5.",
+      "At level 6 the class gains its intermediate spell-like abilities and a free-action 20-ft. protective aura. The aura uses magic circle against evil with +4 bonuses and adds minor globe of invulnerability at 10.",
+      "At level 7 the ghaele can switch as a standard action into a 5-ft. incorporeal globe with perfect 150-ft. flight and two light rays of up to 300 ft. per round. Its spell-like abilities work in either form. Its physical attacks, prepared spells, and gaze require humanoid form. The gaze starts at 7 and grows in range and HD threshold.",
+      "Later tiers add electrical and petrification immunity, stronger acid and cold resistance, damage reduction, greater spell-like abilities, and weapon infusion. Ghaele is the favored progression, ending at level 20 with 10d8 HD and encounter CR 13."
+    ]
+  }
+]

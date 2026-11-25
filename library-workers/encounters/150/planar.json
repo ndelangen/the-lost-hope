@@ -1,0 +1,454 @@
+[
+  {
+    "name": "Cambion",
+    "statBlock": {
+      "name": "Cambion",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend, any evil alignment",
+      "ac": 19,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "30 ft., fly 60 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "description": "A winged descendant of a fiend and a humanoid. It can command charmed victims and attack from the air.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "Deception": 6,
+        "Intimidation": 6,
+        "Perception": 4,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Str": 7,
+        "Con": 6,
+        "Int": 5,
+        "Cha": 6
+      },
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Scale mail. The listed AC includes Fiendish Blessing.",
+        "Damage resistances": "Cold, fire, lightning, and poison. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Infernal.",
+        "Traits": "Fiendish Blessing. Add its Charisma bonus to AC.",
+        "Innate spellcasting": "Charisma is its spellcasting ability (save DC 14). It casts these spells without material components.\n3/day each. Alter Self, Command, Detect Magic.\n1/day. Plane Shift (self only).",
+        "Actions": "Multiattack. Make two melee attacks or use Fire Ray twice.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage for a two-handed melee hit. Add 3 (1d6) fire damage to either.\nFire Ray. Ranged spell attack, +7 to hit, range 120 ft., one target. Hit 10 (3d6) fire damage.\nFiendish Charm. Choose one visible humanoid within 30 ft. It makes a DC 14 Wisdom save or is magically Charmed for 1 day. While Charmed it obeys the cambion's spoken commands. Harm from any creature or a suicidal order from the cambion lets it repeat the save and end the charm on a success. A successful save or the charm ending grants 24 hours of immunity to that cambion's Fiendish Charm.",
+        "Printed source": "Monster Manual (2014), p. 36. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Chain Devil",
+    "statBlock": {
+      "name": "Chain Devil",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 16,
+      "hp": 85,
+      "hitDice": "10d8 + 40",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "description": "A jailer of the Nine Hells that binds victims with its own chains and animates loose chains nearby.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 4,
+        "Cha": 5
+      },
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing damage from nonmagical attacks that use no silvered weapon.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Devil's Sight. Magical darkness leaves the devil's darkvision unchanged.\nMagic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Chain attacks.\nChain. Melee weapon attack, +8 to hit, reach 10 ft., one target. Hit 11 (2d6 + 4) slashing damage. If the devil isn't already grappling a creature, a creature hit is Grappled (escape DC 14). While held it is Restrained and takes 7 (2d6) piercing damage at the start of each of its turns.\nAnimate Chains (recharges after a short or long rest). Magically animate up to four visible chains within 60 ft. that nobody is wearing or carrying. Each chain grows barbs and becomes an object with AC 20, 20 HP, piercing resistance, and psychic and thunder immunity. When the devil uses Multiattack on its turn, each animated chain can make one additional Chain attack. Each chain can hold one creature in its own grapple and cannot attack while it holds that creature. A chain becomes inanimate at 0 HP or if the devil becomes Incapacitated or dies.",
+        "Reactions": "Unnerving Mask. When a creature the devil sees starts its turn within 30 ft., the devil can appear to be one of its departed loved ones or bitter enemies. If the creature sees the devil, it must succeed on a DC 14 Wisdom save or be Frightened until the end of that turn.",
+        "Infernal return": "If it dies outside the Nine Hells, its body vanishes in smoke or dissolves into ichor. It returns immediately to its home layer at full strength. Death in the Nine Hells destroys the chain devil permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67–68 and 72. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Hell Hound",
+    "statBlock": {
+      "name": "Hell Hound",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend, lawful evil",
+      "ac": 15,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "50 ft.",
+      "cr": "3",
+      "xp": 700,
+      "description": "A fire-breathing fiend that hunts in packs and may guard a devil or fire giant.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "savingThrows": {},
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Infernal and cannot speak.",
+        "Traits": "Keen Hearing and Smell. It has advantage on Wisdom (Perception) checks that use hearing or smell.\nPack Tactics. It has advantage on an attack against a creature if at least one of the hound's allies within 5 ft. of the target is free of the Incapacitated condition.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage.\nFire Breath (recharge 5–6). Each creature in a 15-ft. cone makes a DC 12 Dexterity save. It takes 21 (6d6) fire damage on a failure or half on a success.",
+        "After death": "The hound's internal fire consumes its body in smoke and embers, leaving scorched tufts of fur.",
+        "Printed source": "Monster Manual (2014), p. 182."
+      }
+    }
+  },
+  {
+    "name": "Lemure",
+    "statBlock": {
+      "name": "Lemure",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 7,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "15 ft.",
+      "cr": "0",
+      "xp": 10,
+      "description": "A malformed devil born from a mortal soul condemned to the Nine Hells.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 5
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, Frightened, Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Infernal and cannot speak.",
+        "Traits": "Devil's Sight. Magical darkness leaves the devil's darkvision unchanged.\nHellish Rejuvenation. A lemure slain in the Nine Hells returns after 1d10 days with full HP. It stays dead if a good-aligned creature under Bless slew it, or if its remains are sprinkled with Holy Water before it returns.",
+        "Actions": "Fist. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 2 (1d4) bludgeoning damage.",
+        "Infernal return": "If it dies outside the Nine Hells, its body vanishes in smoke or dissolves into ichor. It returns immediately to its home layer at full strength.",
+        "Printed source": "Monster Manual (2014), pp. 67–69 and 76. The stat block's Hellish Rejuvenation trait gives the specific conditions for death in the Nine Hells."
+      }
+    }
+  },
+  {
+    "name": "Magmin",
+    "statBlock": {
+      "name": "Magmin",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small elemental, chaotic neutral",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "2d6 + 2",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "description": "A fire spirit in a crust of black magma. It looks for things to burn whenever its summoner lets it roam.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Fire.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Ignan.",
+        "Traits": "Death Burst. At its death, each creature within 10 ft. makes a DC 11 Dexterity save and takes 7 (2d6) fire damage on a failure or half on a success. Flammable objects in the area ignite if nobody is wearing or carrying them.",
+        "Bonus actions": "Ignited Illumination. The magmin can set itself alight or put out its flames. While lit it sheds bright light for 10 ft. and dim light for another 10 ft.",
+        "Actions": "Touch. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d6) fire damage. The strike ignites a creature or flammable object it hits. The burning target takes 3 (1d6) fire damage at the end of each of its turns until a creature takes an action to douse it.",
+        "Printed source": "Monster Manual (2014), p. 212. The official errata applies the ongoing Touch damage to the target and updates resistance wording."
+      }
+    }
+  },
+  {
+    "name": "Nightmare",
+    "statBlock": {
+      "name": "Nightmare",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend, neutral evil",
+      "ac": 13,
+      "hp": 68,
+      "hitDice": "8d10 + 24",
+      "speed": "60 ft., fly 90 ft.",
+      "cr": "3",
+      "xp": 700,
+      "description": "A black, flame-wreathed steed that carries wicked riders between the Material and Ethereal Planes.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Languages": "Understands Abyssal, Common, and Infernal and cannot speak.",
+        "Traits": "Confer Fire Resistance. The nightmare can make any creature riding it resistant to fire damage.\nIllumination. It sheds bright light for 10 ft. and dim light for another 10 ft.",
+        "Actions": "Hooves. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage.\nEthereal Stride. The nightmare magically crosses between the Material and Ethereal Planes. It can take up to three willing creatures within 5 ft. along.",
+        "Printed source": "Monster Manual (2014), p. 235."
+      }
+    }
+  },
+  {
+    "name": "Planetar",
+    "statBlock": {
+      "name": "Planetar",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large celestial, lawful good",
+      "ac": 19,
+      "hp": 200,
+      "hitDice": "16d10 + 112",
+      "speed": "40 ft., fly 120 ft.",
+      "cr": "16",
+      "xp": 15000,
+      "description": "An angel sent to act directly on behalf of a deity. It can bring rain, summon a plague, or fight with a radiant greatsword.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "skills": {
+        "Perception": 11
+      },
+      "savingThrows": {
+        "Con": 12,
+        "Wis": 11,
+        "Cha": 12
+      },
+      "passivePerception": 21,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Radiant. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Traits": "Angelic Weapons. Its weapon attacks count as magical and deal an extra 5d8 radiant damage on a hit. The Greatsword entry includes that extra damage.\nDivine Awareness. It recognizes a lie when it hears one.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nImmortal Nature. It needs no food, drink, or sleep.",
+        "Innate spellcasting": "Charisma is its spellcasting ability (save DC 20). It casts these spells without material components.\nAt will. Detect Evil and Good, Invisibility (self only).\n3/day each. Blade Barrier, Dispel Evil and Good, Flame Strike, Raise Dead.\n1/day each. Commune, Control Weather, Insect Plague.",
+        "Actions": "Multiattack. Make two melee attacks.\nGreatsword. Melee weapon attack, +12 to hit, reach 5 ft., one target. Hit 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage.\nHealing Touch (4/day). Touch another creature. It magically regains 30 (6d8 + 3) HP and loses any curse, disease, poison, blindness, or deafness.",
+        "Printed source": "Monster Manual (2014), pp. 15 and 17. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Solar",
+    "statBlock": {
+      "name": "Solar",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large celestial, lawful good",
+      "ac": 21,
+      "hp": 243,
+      "hitDice": "18d10 + 144",
+      "speed": "50 ft., fly 150 ft.",
+      "cr": "21",
+      "xp": 33000,
+      "description": "One of the most powerful angels. Its greatsword can fly and fight on command. A shot from its longbow can kill outright.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 22
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 25
+        },
+        "Wis": {
+          "score": 25
+        },
+        "Cha": {
+          "score": 30
+        }
+      },
+      "skills": {
+        "Perception": 14
+      },
+      "savingThrows": {
+        "Int": 14,
+        "Wis": 14,
+        "Cha": 17
+      },
+      "passivePerception": 24,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Radiant. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Necrotic and poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Traits": "Angelic Weapons. Its weapon attacks count as magical and deal an extra 6d8 radiant damage on a hit. The attack entries include that extra damage.\nDivine Awareness. It recognizes a lie when it hears one.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nImmortal Nature. It needs no food, drink, or sleep.",
+        "Innate spellcasting": "Charisma is its spellcasting ability (save DC 25). It casts these spells without material components.\nAt will. Detect Evil and Good, Invisibility (self only).\n3/day each. Blade Barrier, Dispel Evil and Good, Resurrection.\n1/day each. Commune, Control Weather.",
+        "Actions": "Multiattack. Make two Greatsword attacks.\nGreatsword. Melee weapon attack, +15 to hit, reach 5 ft., one target. Hit 22 (4d6 + 8) slashing damage plus 27 (6d8) radiant damage.\nSlaying Longbow. Ranged weapon attack, +13 to hit, range 150/600 ft., one target. Hit 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. A creature hit with 100 HP or fewer makes a DC 15 Constitution save or dies.\nFlying Sword. Release the greatsword into an unoccupied space within 5 ft., where it hovers by magic. The sword falls if the solar dies. Effects that target the hovering sword treat the solar as holding it.\nHealing Touch (4/day). Touch another creature. It magically regains 40 (8d8 + 4) HP and loses any curse, disease, poison, blindness, or deafness.",
+        "Bonus actions": "Command Flying Sword. While the solar sees its hovering sword, it can mentally order it to fly up to 50 ft. and either make one attack or return to the solar's hands.",
+        "Legendary actions": "The solar has 3 legendary actions. It can take one option at the end of another creature's turn. It regains spent actions at the start of its turn. It cannot use them while Incapacitated or otherwise unable to act. If surprised, it must finish its first turn before using them. Assuming the solar's form does not grant these actions.\nTeleport. Magically teleport up to 120 ft. to a visible unoccupied space, taking worn and carried gear.\nSearing Burst (2 actions). Each creature the solar chooses within 10 ft. makes a DC 23 Dexterity save against its divine magic. On a failure take 14 (4d6) fire damage plus 14 (4d6) radiant damage. On a success take half.\nBlinding Gaze (3 actions). Choose a visible creature within 30 ft. that can see the solar. It makes a DC 15 Constitution save or is Blinded until magic, such as Lesser Restoration, removes the blindness.",
+        "Printed source": "Monster Manual (2014), pp. 15 and 18. The official errata corrects the Slaying Longbow range and updates resistance and legendary action timing."
+      }
+    }
+  }
+]

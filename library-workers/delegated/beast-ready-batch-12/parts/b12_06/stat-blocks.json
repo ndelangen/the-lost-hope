@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Shark, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 13,
+    "hp": 126,
+    "speed": "0 ft., swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "otherStatistics": "Fixed Perception 13, Stealth 10. Modifiers STR +6, DEX +0, CON +5, INT −5, WIS +0, CHA −3. Natural armor. Keensense 60 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy gray shark with a pale belly, a broad head and an open, tooth-lined jaw.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 358–359, Tiburón, Gigante. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Blood Frenzy. The shark has advantage on melee attacks against creatures below their hit point maximum.\nBlood Sense. By scent, the shark can pinpoint creatures below their hit point maximum within 120 ft. and discern their general direction up to 1 mile away.\nElectrical Sensitivity. When the shark takes lightning damage, it must succeed on a DC 15 Constitution save or become incapacitated until the end of its next turn.\nWater Breathing. The shark breathes only underwater.",
+      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit for 19 (3d8 + 6) piercing damage.",
+      "Bonus actions": "Swift Hunter. Move up to half the shark’s speed toward a hostile creature it can see. This movement does not provoke opportunity attacks."
+    }
+  },
+  {
+    "name": "Shark, Hunter",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 63,
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Fixed Perception 12, Stealth 11. Modifiers STR +3, DEX +1, CON +2, INT −5, WIS +0, CHA −3. Natural armor. Keensense 30 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stout gray-brown shark with dark stripes along its back and sides and a pale underside.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 357–358, Tiburón, Cazador. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Blood Frenzy. The shark has advantage on melee attacks against creatures below their hit point maximum.\nBlood Sense. By scent, the shark can pinpoint creatures below their hit point maximum within 60 ft. and discern their general direction up to 1 mile away.\nElectrical Sensitivity. When the shark takes lightning damage, it must succeed on a DC 12 Constitution save or become incapacitated until the end of its next turn.\nWater Breathing. The shark breathes only underwater.",
+      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit for 12 (2d8 + 3) piercing damage.",
+      "Bonus actions": "Swift Hunter. Move up to half the shark’s speed toward a hostile creature it can see. This movement does not provoke opportunity attacks."
+    }
+  },
+  {
+    "name": "Shark, Reef",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 27,
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Fixed Perception 12, Stealth 11. Modifiers STR +2, DEX +1, CON +1, INT −5, WIS +0, CHA −3. Natural armor. Keensense 30 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slim blue-gray shark with a pale underside and dark fin tips.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 358, Tiburón, de Arrecife. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Blood Sense. By scent, the shark can pinpoint creatures below their hit point maximum within 60 ft. and discern their general direction up to 1 mile away.\nElectrical Sensitivity. When the shark takes lightning damage, it must succeed on a DC 11 Constitution save or become incapacitated until the end of its next turn.\nPack Tactics. The shark has advantage on attacks against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.\nWater Breathing. The shark breathes only underwater.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 6 (1d8 + 2) piercing damage.",
+      "Bonus actions": "Stealthy Hunter. Take the Hide action."
+    }
+  },
+  {
+    "name": "Snake, Constrictor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 15,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Fixed Perception 10, Stealth 12. Modifiers STR +2, DEX +2, CON +1, INT −5, WIS +0, CHA −4. Keensense 10 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A thick-bodied snake with dark brown blotches across its tan coils and a low, broad head.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 355, Serpiente, constrictora. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 5 (1d6 + 2) piercing damage.\nConstrict. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 6 (1d8 + 2) bludgeoning damage. A Large or smaller target hit this way becomes grappled, escape DC 12. The target is restrained until the grapple ends. The snake cannot use Constrict against another target while it holds this grapple.",
+      "Bonus actions": "Crush. One creature grappled by the snake must pass a DC 12 Strength save or take 4 (1d8) bludgeoning damage and begin suffocating until the grapple ends."
+    }
+  },
+  {
+    "name": "Snake, Flying",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 10,
+    "speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Fixed Perception 11, Stealth 13. Modifiers STR −3, DEX +1, CON +0, INT −4, WIS +1, CHA −3. Keensense 10 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A coiled olive-green snake with lighter bands, a raised head and outstretched membranous wings.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 356, Serpiente, voladora. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack from that enemy.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit for 3 (1d4 + 1) piercing damage. The target must also succeed on a DC 11 Constitution save or take 5 (2d4) poison damage.",
+      "Reactions": "Reflexive Escape. When a creature the snake can see attacks it, the snake can move up to 5 ft. The attack misses if this movement takes the snake out of the attack’s reach."
+    }
+  }
+]

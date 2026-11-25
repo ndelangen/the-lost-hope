@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Ape",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 350,
+    "printedPages": [
+      350
+    ],
+    "section": "Monsters, Animals",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "supportingPages": [
+      229,
+      232
+    ],
+    "appearanceEvidence": "The source names an ape. The gray mantle, fur tone, and gorilla-like build are editorial choices in the original portrait.",
+    "habitatEvidence": "The v0.2 block has no habitat line. The legacy Ape rules page lists forest. Woodland canopy is an editorial search tag based on its climbing speed.",
+    "printingNotes": [
+      "The native stat block supplies ability modifiers and fixed Perception and Stealth. It does not supply ability scores or Hit Dice. XP comes from the native CR table."
+    ]
+  },
+  {
+    "name": "Ape",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition Monster Manual",
+    "printedPages": [
+      317
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/ifxnk/qjfj/basic/301-350",
+    "sourceWitness": "Indexable mirror of the authored Monster Manual text.",
+    "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16788-ape",
+    "srdCrossCheck": "",
+    "officialErrata": "",
+    "appearanceEvidence": "The source names an ape. The gray mantle, fur tone, and gorilla-like build are editorial choices in the original portrait.",
+    "habitatEvidence": "The legacy Ape rules page lists forest. Woodland canopy is an editorial search tag based on its climbing speed."
+  },
+  {
+    "name": "Axe Beak",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 351,
+    "printedPages": [
+      351
+    ],
+    "section": "Monsters, Animals",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "supportingPages": [
+      229
+    ],
+    "appearanceEvidence": "The 2014 Monster Manual describes a tall, flightless bird with strong legs and a heavy, wedge-shaped bill. Its blue-gray plumage is editorial.",
+    "habitatEvidence": "The v0.2 block has no habitat line. Grassland and hills are editorial search tags for this edition, based on the habitats listed with the legacy Axe Beak rules.",
+    "printingNotes": [
+      "The native stat block supplies ability modifiers and fixed Perception and Stealth. It does not supply ability scores or Hit Dice. XP comes from the native CR table."
+    ]
+  },
+  {
+    "name": "Axe Beak",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition Monster Manual",
+    "printedPages": [
+      317
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/ifxnk/qjfj/basic/301-350",
+    "sourceWitness": "Indexable mirror of the authored Monster Manual text.",
+    "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16793-axe-beak",
+    "srdCrossCheck": "",
+    "officialErrata": "",
+    "appearanceEvidence": "The 2014 Monster Manual describes a tall, flightless bird with strong legs and a heavy, wedge-shaped bill. Its blue-gray plumage is editorial.",
+    "habitatEvidence": "The legacy Axe Beak rules page lists grassland and hill. The 2014 entry gives no habitat line."
+  },
+  {
+    "name": "Bat",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 352,
+    "printedPages": [
+      352
+    ],
+    "section": "Monsters, Animals",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "supportingPages": [
+      229,
+      127,
+      232
+    ],
+    "appearanceEvidence": "The source identifies a bat with echolocation. Its brown fur, broad ears, and wing pose are editorial visual details.",
+    "habitatEvidence": "Caves and forest are editorial search tags based on ordinary roosting and foraging habitats. The v0.2 block gives no habitat line.",
+    "printingNotes": [
+      "The native stat block supplies ability modifiers and fixed Perception and Stealth. It does not supply ability scores or Hit Dice. XP comes from the native CR table."
+    ]
+  }
+]

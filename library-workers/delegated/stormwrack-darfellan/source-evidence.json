@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Darfellan",
+    "kind": "species",
+    "publication": "Stormwrack (2005)",
+    "edition": "3.5 edition",
+    "book": "Stormwrack",
+    "authors": [
+      "Richard Baker",
+      "Joseph D. Carriker Jr.",
+      "Jennifer Clarke Wilkes"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2005",
+    "productCode": "620-17867000-001-EN",
+    "isbn": "0-7869-3689-4",
+    "printedPages": {
+      "playableSpecies": [
+        37,
+        38,
+        39
+      ],
+      "racialTraits": 37,
+      "illustration": 38,
+      "monsterExamples": [
+        143,
+        144
+      ],
+      "drowning": 11
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "53d29c7c6ed20da69c3ddd8474c64c88a59b572834e0bfc56900cf422e9d2511",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Joel Thomas, Darfellan barbarian, p. 38.",
+    "sourceDistinctions": [
+      "Page 37 gives the main playable traits. Page 143 supplies the type and +0 level adjustment and also presents separate Warrior and Barbarian stat blocks.",
+      "The sample Warrior prints a secondary bite bonus that differs from the p. 37 formula. These original builds follow the explicit player rule and core secondary damage.",
+      "Page 144 supplies the Handle Animal rule for marine mammals in the combat prose, outside both player trait lists.",
+      "Wizards’ collected archive has no Stormwrack errata file. The official FAQ has no Darfellan entry."
+    ],
+    "entryId": "species-62f29ec2388f5aacec940eb7",
+    "versionKey": "0035635035c37916ca3f05a4",
+    "slug": "darfellan",
+    "portraitSelection": "generated",
+    "portraitForm": "Oru Breakwater, an original Darfellan Barbarian",
+    "npcExamples": [
+      "Oru Breakwater",
+      "Tava Ebbgate"
+    ]
+  }
+]

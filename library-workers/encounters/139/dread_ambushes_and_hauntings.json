@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Boowray",
+    "decision": "separate",
+    "pages": "p. 39",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Boowray",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny fey (incorporeal)",
+      "ac": 16,
+      "hp": 5,
+      "hitDice": "1d6+2",
+      "speed": "30 ft. (6 squares), fly 60 ft. (good)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "otherStatistics": "Initiative +8. AC 16 (+2 size, +4 Dex). Space 2½ ft., reach 0 ft. Base attack +0, grapple −11. Fort +2, Ref +7, Will +3. Hide +6, Listen +6, Spot +6. Improved Initiative and Lightning Reflexes (bonus), Weapon Finesse. Temperate forest. Solitary. No treasure. Always lawful evil. Advancement 5–6 HD (Small).",
+      "description": "This fey approaches as a translucent child and whispers instructions that only its chosen victim can hear.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Bite +4 melee (1d2−4).\nSuggestive Whispers (Sp). Use suggestion at will as an 8th-level sorcerer. The listener can resist with a DC 17 Will save. Each suggestion the listener obeys imposes a cumulative −1 penalty on further saves against the whispers. A successful save reduces the accumulated penalty by 1. Only the victim hears the whispers. The boowray speaks in a language the victim speaks fluently and can remain invisible. Silence blocks the whispers while it lasts. Acts performed under direct compulsion require no Ravenloft powers checks. Prolonged harassment can call for Ravenloft Madness saves and eventually shift the victim's alignment to evil.",
+        "Defenses": "Incorporeal subtype. Immune to mind-influencing effects. Invisibility (Su) at will as a free action, for any duration. Dispel evil can drive it away.",
+        "Tactics": "It hides until it chooses a victim, then appears harmless. It escapes through solid objects or turns invisible when confronted. Bite if it cannot retreat.",
+        "Printed source": "p. 39"
+      },
+      "ruleNotes": [
+        "The book lists AC 16 but no touch or flat-footed values. From its listed AC bonuses, touch AC is 16 and flat-footed AC is 12."
+      ]
+    }
+  },
+  {
+    "name": "Bowlyn",
+    "decision": "separate",
+    "pages": "p. 40",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Bowlyn",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead (incorporeal)",
+      "ac": 13,
+      "hp": 26,
+      "hitDice": "4d12",
+      "speed": "Fly 30 ft. (perfect, 6 squares)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "otherStatistics": "Initiative +6. AC 13 (+2 Dex, +1 deflection), touch 13, flat-footed 11. Base attack +2, grapple +4. Space 5 ft., reach 5 ft. Fort +4, Ref +3, Will +2. Balance +6, Hide +8, Listen +8, Profession (sailor) +6, Search +8, Spot +10. Alertness (bonus), Dodge, Power Attack. Any aquatic environment. Solitary. No treasure. Always chaotic evil. Advancement 5–8 HD (Medium).",
+      "description": "A drowned sailor rises to punish the crew it blames for its death. Its first appearance always falls on the anniversary of the accident.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Incorporeal touch +7 melee (1d6, or 1d6+7 against ethereal targets) or ghostly scimitar +7 melee (1d6+3).\nSeasick Touch (Su). A hit on a living victim deals 1d6 damage. On a failed DC 15 Fortitude save, it also nauseates the victim until a Heal check or healing magic cures the nausea.\nManifestation (Su). While manifested, creatures on the Material or Ethereal Plane can attack the bowlyn, and it can strike with its touch or scimitar. Seeing it manifest causes fear as cast by a 12th-level sorcerer. DC 15 Will negates.\nTelekinesis (Su). Once per round as a free action, as a 12th-level sorcerer. It can only move objects.",
+        "Defenses": "Incorporeal subtype, undead traits, and +5 turn resistance.",
+        "Haunting": "It waits 1–10 years after death before returning. Once per night it engineers an accident against a former crewmate or where it worked on the ship. It uses Seasick Touch if it cannot cause an accident. It keeps returning until the crew dies or the ship is destroyed. Running the ship aground immediately destroys the spirit.",
+        "Printed source": "p. 40"
+      }
+    }
+  },
+  {
+    "name": "Bruja",
+    "decision": "separate",
+    "pages": "pp. 42–43",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Bruja",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium monstrous humanoid",
+      "ac": 17,
+      "hp": 38,
+      "hitDice": "8d8+2",
+      "speed": "30 ft. (6 squares)",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Initiative +7. AC 17 (+3 Dex, +4 natural), touch 13, flat-footed 14. Base attack +8, grapple +14. Space 5 ft., reach 5 ft. Fort +6, Ref +2, Will +2 as printed. Gather Information +5, Handle Animal +7, Sense Motive +7, Survival +9. Alertness and Track (bonus), Animal Affinity, Improved Initiative, Power Attack. Rural terrain. Solitary. No treasure. Always neutral. Advancement 9–12 HD (Medium), 13–16 HD (Large). Speaks the local language and communicates with wild animals.",
+      "description": "A solitary, haglike figure who knows when and how she will die. She often disguises herself to help travelers without alarming them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "One claw +14 melee (1d6+6). Full attack, two claws +14 melee each (1d6+6 per hit).\nSpell-like abilities at will. Bless, disguise self (DC 12), hide from undead (DC 13), invisibility (DC 13), pass without trace, and speak with animals.\nSpell-like abilities once per day each. Dispel evil (DC 17), heal, magic circle against evil (DC 15), remove curse (DC 15), and sunray (DC 19).",
+        "Traits": "Wild empathy, darkvision 60 ft., immunity to surprise, spell resistance 10, swift tracker, and ranger-style tracking. The book gives no wild empathy or swift tracker level.\nIn combat she favors magic, using her claws when cornered.",
+        "Printed source": "pp. 42–43"
+      },
+      "ruleNotes": [
+        "The printed 8d8+2 Hit Dice cannot roll the accompanying 6 HP. Use 38 HP, the average of the printed dice and modifier, as a table ruling."
+      ]
+    }
+  },
+  {
+    "name": "Carrion Stalker",
+    "decision": "separate",
+    "pages": "pp. 43–44",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Carrion Stalker",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny vermin",
+      "ac": 17,
+      "hp": 6,
+      "hitDice": "1d8+2",
+      "speed": "20 ft. (4 squares)",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "otherStatistics": "Initiative +3. AC 17 (+2 size, +3 Dex, +2 natural), touch 15, flat-footed 14. Base attack +0, grapple −12. Space 2 ft., reach 15 ft. Fort +4, Ref +3, Will +0. Hide +18, Spot +4. Underground. Solitary or clusters of 2–6. No treasure. Always neutral. Advancement 2–4 HD (Small), with overlapping ranges in print.",
+      "description": "A corpse-dwelling scavenger whose eight legs resemble exposed ribs. It uses the corpse for cover and to anchor its tendrils.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Tendrils (Ex). Tendril +5 ranged (1d2 plus pinning). Full attack, up to eight tendrils +5 ranged each (1d2 plus pinning per hit). On any hit, the target makes one Reflex save at DC 13 + the number of tendrils that hit or is pinned. The stalker itself is not considered grappled. Escape requires an Escape Artist or Strength check at DC 15 + the number of wrapping tendrils. Each tendril deals 1 damage per round to the bound target. An ally who uses Aid Another to help takes 1 damage. The stalker keeps attacking that target with tendrils that previously missed, at the printed +4 to hit. Each tendril has AC 20 (+8 size, +2 natural), 2 separate HP, and takes damage only from slashing weapons. Tendrils continue stinging for 1d4 rounds after the stalker dies.\nInfest (Ex). Drag the pinned victim 5 ft. closer each round without provoking attacks of opportunity. When the victim reaches the stalker's square, release 2d4 larvae as a free action and die. If killed first, the stalker releases its larvae toward an adjacent creature. Larvae burrow on the following round. Before then, a helper who succeeds on a DC 15 Spot check can remove 1d4 larvae as a standard action. While larvae are burrowed, each deals 1d2 temporary Constitution damage per round unless the victim succeeds on a Fortitude save at DC 12 + the number of burrowed larvae. Removing each requires a DC 15 Heal check. Helpers risk the tendrils if the victim is still bound. Remove disease kills all larvae. They mature in two weeks.",
+        "Senses": "Heatsense (Ex) detects warm-blooded creatures within 30 ft. through invisibility or concealment. Treat the stalker as blinded against creatures that give off no heat. Vermin traits.",
+        "Tactics": "Stay hidden in a corpse until warm-blooded prey comes within 15 ft., then strike with the tendrils.",
+        "Printed source": "pp. 43–44"
+      }
+    }
+  },
+  {
+    "name": "Carrionette",
+    "decision": "separate",
+    "pages": "pp. 44–45",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Carrionette",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Diminutive construct",
+      "ac": 14,
+      "hp": 11,
+      "hitDice": "2d10",
+      "speed": "15 ft. (3 squares)",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "otherStatistics": "Initiative +0. AC 14 (+4 size), touch 14, flat-footed 14. Base attack +0, grapple −12. Space 1 ft., reach 0 ft. Fort +0, Ref +0, Will −1. Climb +8, including a +8 racial bonus. Odiare. Solitary or packs of 2–8. No treasure. Always chaotic evil. Advancement 3–4 HD (Tiny).",
+      "description": "A painted marionette that uses silver needles to disable a victim and take over their body.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Straight razor −2 melee (1d4−2) or silver needle +0 ranged (special).\nSilver Needles (Su). Carries 10 reusable needles. Throw one up to 15 ft. A hit strikes a limb the carrionette chooses and deals no damage. A failed DC 14 Will save paralyzes that limb and makes the trailing silver cord invisible. Removing the needle ends paralysis after 1d4 rounds. The needles are nonmagical, and carrionettes are immune to the paralysis.\nPossession (Su). Drive a silver needle into the neck of a sleeping, unconscious, or fully immobilized humanoid or monstrous humanoid. The doll and victim swap essences indefinitely, as magic jar with no save. The carrionette wakes in the stolen body after one round and can safely remove its own needles. The victim wakes in the doll after one hour. The doll remains linked to the carrionette, which dies if the doll is destroyed. If the victim in the doll drives a silver needle into the stolen body, reverse the swap. The carrionette remains inert in the doll for an hour, and the victim wakes in their own body after one round.\nVentriloquism (Sp). At will.",
+        "Defenses": "Construct traits and darkvision 60 ft. Warp wood instantly destroys the carrionette.",
+        "Printed source": "pp. 44–45"
+      }
+    }
+  },
+  {
+    "name": "Crypt Cat",
+    "decision": "separate",
+    "pages": "pp. 46–47",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Crypt Cat",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny undead",
+      "ac": 15,
+      "hp": 4,
+      "hitDice": "½d12",
+      "speed": "30 ft. (6 squares)",
+      "cr": "1/3",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "otherStatistics": "Initiative +7 as printed. AC 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13. Base attack +0, grapple −9. Space 5 ft., reach 5 ft. as listed. Fort +0, Ref +2, Will +2. Balance +5, Climb +5, Jump +5, Move Silently +4. Improved Initiative, Weapon Finesse. Any land or underground. Solitary or guardians in groups of 10–20. Standard treasure. Always neutral.",
+      "description": "This mummified cat guards a tomb. It lies still until it can surprise intruders, then its claws leave wounds that resist ordinary healing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Claw +2 melee (1d3−1 and infection). Full attack, two claws +2 melee each (1d3−1 and infection) and a bite (1d3−1 and infection, use −3 to hit as a table ruling).\nInfection (Su). A living creature damaged by a crypt cat must make a DC 12 Fortitude save. On a failure, 1 HP from that wound remains unhealed even with magical healing. A single heal or remove disease spell cures all such wounds.",
+        "Defenses": "Undead traits, immunity to cold, and damage reduction 5/bludgeoning.",
+        "Printed source": "pp. 46–47"
+      },
+      "ruleNotes": [
+        "The printing omits the bite attack bonus. The table ruling treats the bite as a standard secondary natural attack, five below the claw bonus."
+      ]
+    }
+  },
+  {
+    "name": "Midnight Cat",
+    "decision": "separate",
+    "pages": "pp. 46–47",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Midnight Cat",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny magical beast",
+      "ac": 22,
+      "hp": 16,
+      "hitDice": "3d10",
+      "speed": "30 ft. (6 squares)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "otherStatistics": "Initiative +7. AC 22 (+2 size, +3 Dex, +7 luck), touch 22, flat-footed 19. Base attack +3, grapple −7. Space 2½ ft., reach 0 ft. Fort +3, Ref +6, Will +3. Balance +11, Climb +10, Hide +14, Listen +9, Move Silently +12, Spot +10. Improved Initiative, Weapon Finesse. Any land. Solitary. Standard treasure. Always neutral evil. Usually speaks at least one domain language.",
+      "description": "A black cat with misty breath that trades relief from curses for favors, often at someone else's expense.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Claw +6 melee (1d2−2). Full attack, two claws +6 melee each (1d2−2 per hit) and bite −2 melee (1d3−2).\nSteal Breath (Sp). Perch on the chest of a sleeping victim and inhale its breath. DC 15 Fortitude or 1 point of Constitution drain. The victim also cannot benefit from healing magic until the cat dies.\nCurses (Sp). As a standard action at will, draw out a curse up to troublesome severity by inhaling the victim's breath. The target can be awake. The cat usually demands payment or an evil favor. When offended, it can instead lay a curse of vengeance up to troublesome severity at will as a standard action, with a +15 curse check. Use the Ravenloft curse rules.",
+        "Traits": "Darkvision 60 ft. and low-light vision. Racial skill bonuses of +4 to Hide and Move Silently and +8 to Balance. The racial Hide bonus rises to +8 in darkness. Uses its Dexterity modifier when climbing.",
+        "Tactics": "Avoid a fight with a larger creature. When attacked, respond with a curse.",
+        "Printed source": "pp. 46–47"
+      }
+    }
+  }
+]

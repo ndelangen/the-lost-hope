@@ -1,0 +1,25 @@
+{
+  "commit": "0ee65129ee5f823c5079e91dea88e610f6b8b76d",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 542,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-31-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-31-style-reference.jpg",
+  "styleDirection": "Use the campaign event and stage paintings for directional lighting, grounded materials, and restrained color. Keep the square portraits on light neutral gray-beige parchment with fine paper grain. Check silhouettes against the published creature design and at library size.",
+  "results": "output/dm-library/encounter-batches/31/results.json",
+  "searchResults": "output/dm-library/encounter-batches/31/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Xorannox",
+      "source": "https://www.dndbeyond.com/monsters/4486053-xorannox",
+      "challenge": "14"
+    }
+  ],
+  "nextSourceNote": "Compare the final Xorannox stat block with the public preview. Check its Villain Actions and keep the Where Evil Lives printing separate."
+}

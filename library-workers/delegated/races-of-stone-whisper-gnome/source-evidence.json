@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Whisper Gnome",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "book": "Races of Stone",
+    "authors": [
+      "David Noonan",
+      "Jesse Decker",
+      "Michelle Lyons"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2004",
+    "productCode": "620-96567000-001",
+    "isbn": "0-7869-3278-3",
+    "printedPages": {
+      "entry": 94,
+      "appearanceAndArt": 95,
+      "playableTraits": 96,
+      "extraSilenceFeat": 139,
+      "silencingStrikeFeat": 144
+    },
+    "pdfPages": {
+      "entry": 94,
+      "appearanceAndArt": 95,
+      "playableTraits": 96,
+      "extraSilenceFeat": 139,
+      "silencingStrikeFeat": 144
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "116ee9b23da70166a7c726a51bd2c1b0087882d92a8a1376088f9ce256a5992c",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "William O’Connor, p. 95. Scott Roller, chest illustration p. 96.",
+    "sourceDistinctions": [
+      "One daily self-centered silence is available regardless of Charisma. Charisma 10 or higher adds three other daily spell-like abilities.",
+      "The silence emanation moves with the gnome. It has a 20-ft. radius at caster level 1.",
+      "The first printing describes Gnome and Terran in the language prose and gives no explicit level adjustment. The later Exemplars of Evil example confirms the gnome subtype and uses Common and Gnome."
+    ],
+    "entryId": "species-e6afa4533fd02005e8e393a7",
+    "versionKey": "9caa043c27200fd9fb213fa2",
+    "slug": "whisper-gnome",
+    "portraitSelection": "generated",
+    "portraitForm": "Nella Sedgefold, an original Whisper Gnome Rogue",
+    "npcExamples": [
+      "Nella Sedgefold",
+      "Tovin Larkwell"
+    ]
+  }
+]

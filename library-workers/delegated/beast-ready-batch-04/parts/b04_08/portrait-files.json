@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "giant-goat",
+    "file": "portraits/giant-goat.png",
+    "sha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-hyena",
+    "file": "portraits/giant-hyena.png",
+    "sha256": "e79074ef555e40476e5421598c04d12275d705c347c1d518118f1db43eb7e59b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-lizard",
+    "file": "portraits/giant-lizard.png",
+    "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

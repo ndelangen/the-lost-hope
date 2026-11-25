@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Karsite",
+    "npc": "Ilyra Keene",
+    "file": "",
+    "sha256": "8c1dac2e8a0d44e8f40e8d6c71749e0bf53192ab4109357603a7be2fdeb383b4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Lumi",
+    "npc": "Aurin Vell",
+    "file": "",
+    "sha256": "95b89813d177386104d79e67a60b322605ed3c2a091562743175d8395ac1ff8b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Maug",
+    "npc": "Basalt Wren",
+    "file": "",
+    "sha256": "85509de3c50856c7cfa814b28cb23e00abeee2ca6de9ce33a2ed74f4121869f9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Nerra",
+    "npc": "Sive",
+    "file": "",
+    "sha256": "b7e1b48846f6b228a2ae1a1f8b4881fc14ab0a9d53f623fc8f5ed4245c68a77f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

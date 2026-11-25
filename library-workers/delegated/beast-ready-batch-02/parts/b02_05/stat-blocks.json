@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Cat",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 13 and Stealth 13. Darkvision 30 ft. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small, slim brown tabby with dark stripes, upright ears, and a long curved tail.",
+    "habitats": [
+      "Settlements",
+      "Farms",
+      "Woodland edges"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 354. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR −4, DEX +1, CON +0, INT −4, WIS +1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Traits": "Heightened Smell. Use Perception 18 for scent.",
+      "Actions": "Claws. Melee weapon attack, +3 to hit with 5-ft. reach against one creature. Hit for 3 (1d4 + 1) slashing damage.",
+      "Bonus actions": "Charming Mewl. Choose one visible creature within 10 ft. The cat meows, and the target must pass a DC 11 Charisma save or become charmed through the end of the target’s next turn. A successful save or the effect ending gives the target 24 hours of immunity to this cat’s Charming Mewl."
+    }
+  },
+  {
+    "name": "Cat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Stealth +4. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small, slim brown tabby with dark stripes, upright ears, and a long curved tail.",
+    "habitats": [
+      "Settlements",
+      "Farms",
+      "Woodland edges"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed page 320. https://www.dndbeyond.com/monsters/16820-cat",
+      "Traits": "Keen Smell. The cat has advantage on Wisdom (Perception) checks based on scent.",
+      "Actions": "Claws. Melee weapon attack, +0 to hit with 5-ft. reach against one target. On a hit, deal 1 slashing damage."
+    }
+  },
+  {
+    "name": "Hyena",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 8,
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 13 and Stealth 10. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sandy, dark-spotted hyena with high shoulders, low hindquarters, round ears, and a blunt dark muzzle.",
+    "habitats": [
+      "Savanna",
+      "Open grassland",
+      "Dry scrub"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 360. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR +0, DEX +0, CON +1, INT −4, WIS +1, CHA −3. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Traits": "Cackling Chorus. At least three hyenas must be within 30 ft. of each other. A creature starting its turn within 10 ft. of a participating hyena makes a Constitution save. On a failure, it is deafened until the start of its next turn. The printed text gives both DC 10 and a DC of 8 + participating hyenas.\nPack Tactics. The hyena has advantage on attacks against a creature if one of the hyena’s non-incapacitated allies is within 5 ft. of that creature.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one creature. Hit for 3 (1d6) piercing damage.",
+      "At the table": "To run the conflicting DCs, use the printed count formula as a table ruling. Three participating hyenas mean DC 11."
+    }
+  },
+  {
+    "name": "Jackal",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 13 and Stealth 11. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A lean, long-legged jackal with triangular ears, a narrow muzzle, reddish flanks, and a grizzled black saddle.",
+    "habitats": [
+      "Savanna",
+      "Dry scrub",
+      "Open grassland"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 362. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR −1, DEX +1, CON +0, INT −4, WIS +1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Traits": "Heightened Hearing and Smell. Use Perception 18 for hearing or scent.\nPack Tactics. The jackal has advantage on attacks against a creature if one of the jackal’s non-incapacitated allies is within 5 ft. of it.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit with 5-ft. reach against one creature. Hit for 3 (1d4 + 1) piercing damage. The target must pass a DC 10 Constitution save or contract shriveling fever.",
+      "Disease": "Shriveling fever. The creature is poisoned while infected. At the end of each long rest, repeat the DC 10 Constitution save. Each failure reduces Strength by 1d4. Two successful saves end the disease. Strength returns after a long rest following the cure. If the disease reduces Strength to 0, the creature dies."
+    }
+  },
+  {
+    "name": "Lizard",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 9,
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 9 and Stealth 12. Darkvision 30 ft. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small olive-brown lizard with a wedge-shaped head, pebbled scales, four splayed legs, and a slender tapered tail.",
+    "habitats": [
+      "Rocky ground",
+      "Dry scrub",
+      "Stone walls"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 363. XP comes from the CR table on page 229. ",
+      "Ability modifiers": "STR −4, DEX +0, CON +0, INT −5, WIS −1, CHA −4. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one creature. Hit for 2 (1d4) piercing damage.",
+      "Reactions": "Detach Tail. At 5 HP or fewer, when the lizard takes damage, it can detach its tail to reduce the damage by 2 (1d4). It can immediately move up to its speed without provoking opportunity attacks. It regains use after a short or long rest."
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Regold (Veteran)",
+    "publication": "DDAL04-07 - The Innocent",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/regold-veteran/veteran-2014-token.webp",
+    "artist": "Base creature token: Veteran · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "9d6940203bf0180fd019005d106275828f2fb67e600c559cd15b34734ba88466",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Veteran.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "The Visitor",
+    "publication": "DDAL04-07 - The Innocent",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/the-visitor/incubus-2014-related.webp",
+    "artist": "Related creature art: Incubus · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "92ac05f0f791f11695170468952ee4509ca0e9fe1f7eac0ee4d515554d0bf197",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Incubus.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "The Visitor",
+    "publication": "DDAL04-07 - The Innocent",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/the-visitor/incubus-2024-jodie-muir.webp",
+    "artist": "Related Incubus art by Jodie Muir · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "905ca692aaf967b5cace6e116151eb37fece471a913b5d8bdef1581e7f11524e",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Incubus.webp"
+  }
+]

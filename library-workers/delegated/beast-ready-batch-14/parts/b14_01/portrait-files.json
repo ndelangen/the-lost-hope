@@ -1,0 +1,29 @@
+[
+  {
+    "artGroup": "ice-spider",
+    "file": "portraits/ice-spider.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4422ce415581e93f257ddcb79982725b56b66279766c6ad372f8737ee321561e",
+    "credit": "OpenAI ImageGen",
+    "depiction": "White body fur and small red eyes. Shared by the Ice Spider and the queen."
+  },
+  {
+    "artGroup": "pig",
+    "file": "portraits/pig.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "789f965913cfee4e504f09b79277f083c197e58b5f3742b42b747e198a535083",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Fat domestic pig with a round snout and curled tail."
+  },
+  {
+    "artGroup": "yak",
+    "file": "portraits/yak.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a14d759892999b7ed8cfbfbd18f0d4ae9d6a55571ce669572e173f4f2a600d33",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Shaggy brown domestic yak with curved horns."
+  }
+]

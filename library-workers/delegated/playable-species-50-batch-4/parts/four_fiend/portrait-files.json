@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Feytouched",
+    "file": "",
+    "sha256": "32e6abc54e59da5f989fb90d491f29f6e7c27b17aa4f6be2ae8cdf87d244d26a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Reva Thornstep"
+  },
+  {
+    "name": "Maeluth",
+    "file": "",
+    "sha256": "78ff2f04d2c64e2de496ccd65f54766644a3f9c4cca254c8347c48d70fc454cb",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Brena Coalward"
+  },
+  {
+    "name": "Mechanatrix",
+    "file": "",
+    "sha256": "aec4f36caa26baf592051df956f00f488acad7ec21d81dae36336bf5d5b6658d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Darsa Wheelmark"
+  },
+  {
+    "name": "Shyft",
+    "file": "",
+    "sha256": "97d6ecbe952d4d578eab0ae99eceaca56e148a0150611c2d6f3817c60dc7373b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Pell Greywick"
+  },
+  {
+    "name": "Wispling",
+    "file": "",
+    "sha256": "d0e669c56d09d5d51469a7e5e07e635b4def65b61b01f94058271f1d373edd64",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Fera Copperfin"
+  },
+  {
+    "name": "Spriggan",
+    "file": "",
+    "sha256": "d84ae7e283efeb732a862aa8cb8bf502187f531f39d2dcebce6d35ff68daa0bf",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Orro Rootcuff"
+  }
+]

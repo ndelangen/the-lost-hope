@@ -1,0 +1,384 @@
+[
+  {
+    "name": "Animated Armor",
+    "statBlock": {
+      "name": "Animated Armor",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 16,
+      "classification": "Medium construct, unaligned",
+      "ac": 18,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 6,
+      "description": "A suit of armor comes to life, often in a sentry post where it can pass for a decoration until it moves.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Blindsight 60 ft.",
+        "Damage immunities": "poison, psychic.",
+        "Condition immunities": "Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned.",
+        "Languages": "None.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 5 (1d6 + 2) bludgeoning damage.",
+        "Habitats": "Urban.",
+        "Printed source": "Monster Manual (2024), p. 16."
+      }
+    }
+  },
+  {
+    "name": "Iron Golem",
+    "statBlock": {
+      "name": "Iron Golem",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 181,
+      "classification": "Large construct, unaligned",
+      "ac": 20,
+      "hp": 252,
+      "hitDice": "24d10 + 120",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 10,
+      "description": "This metal guardian can stand watch for generations. Its magical core turns fire into a source of healing and lets it burn or poison intruders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+9 (19).",
+        "Senses": "Darkvision 120 ft.",
+        "Damage immunities": "fire, poison, psychic.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned.",
+        "Languages": "Understands Common plus two other languages but can't speak.",
+        "Traits": "Fire Absorption. Exposure to fire damage restores HP equal to the fire damage dealt.\nImmutable Form. The golem cannot change shape.\nMagic Resistance. The golem rolls saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two attacks in any combination of Bladed Arm and Fiery Bolt.\nBladed Arm. Melee attack, +12 to hit, reach 10 ft. On a hit, deal 20 (3d8 + 7) slashing damage and 10 (3d6) fire damage.\nFiery Bolt. Ranged attack, +10 to hit, range 120 ft. On a hit, deal 36 (8d8) fire damage.\nPoison Breath (recharge 6). Each creature in a 60-ft. cone makes a DC 18 Constitution save against 55 (10d10) poison damage. A success halves the damage.",
+        "Habitats": "Any.",
+        "Treasure": "Any.",
+        "Orders (1d4)": "1. Block a door no one has opened until a prophecy comes true.\n2. Vent poison whenever possible unless someone uses the password.\n3. Keep still like a statue until the community truly needs help.\n4. Stand guard over the place where a potent magic item lies.",
+        "Printed source": "Monster Manual (2024), p. 181."
+      }
+    }
+  },
+  {
+    "name": "Clay Golem",
+    "statBlock": {
+      "name": "Clay Golem",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 72,
+      "classification": "Large construct, unaligned",
+      "ac": 14,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 9,
+      "description": "A sculpted guardian made from earth tied to the place it protects. It can keep its watch long after its creator dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "bludgeoning, piercing, slashing.",
+        "Damage immunities": "acid, poison, psychic.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned.",
+        "Languages": "Common plus one other language.",
+        "Traits": "Acid Absorption. Replace acid damage with healing equal to the amount of that damage.\nBerserk. At the start of each of the golem's turns, if it is Bloodied, roll 1d6. On a 6, it goes berserk. On its turns in that state, it attacks the nearest creature it can see. If it cannot move close enough to attack a creature, it attacks an object. The state ends when it is destroyed or stops being Bloodied.\nImmutable Form. The golem cannot change shape.\nMagic Resistance. The golem rolls saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two Slam attacks. Make three if the golem used Hasten this turn.\nSlam. Melee attack, +9 to hit, reach 5 ft. On a hit, deal 10 (1d10 + 5) bludgeoning damage and 6 (1d12) acid damage. Reduce the target's HP maximum by the acid damage it took.",
+        "Bonus actions": "Hasten (recharge 5–6). The golem takes both the Dash and Disengage actions.",
+        "Habitats": "Urban.",
+        "Treasure": "Relics.",
+        "Orders (1d4)": "1. Stop anyone entering with a weapon drawn.\n2. Protect the creator's family or community when a threat is in sight.\n3. Bar Fiends from crossing a bridge.\n4. Remove visitors from the creator's workshop.",
+        "Printed source": "Monster Manual (2024), p. 72."
+      }
+    }
+  },
+  {
+    "name": "Flesh Golem",
+    "statBlock": {
+      "name": "Flesh Golem",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 121,
+      "classification": "Medium construct, neutral",
+      "ac": 9,
+      "hp": 127,
+      "hitDice": "15d8 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "description": "A maker animates a body assembled from several others. Fragments of the former lives sometimes surface in its behavior.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "lightning, poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned.",
+        "Languages": "Understands Common plus one other language but can't speak.",
+        "Traits": "Aversion to Fire. Taking fire damage gives the golem Disadvantage on attack rolls and ability checks through the end of its next turn.\nBerserk. At the start of each of the golem's turns, if it is Bloodied, roll 1d6. On a 6, it goes berserk. On its turns in that state, it attacks the nearest creature it can see. If it cannot move close enough to attack a creature, it attacks an object. The state ends when it is destroyed or stops being Bloodied. Its creator can use an action within 60 ft. to try a DC 15 Charisma (Persuasion) check, provided the golem can hear them. A success stops the frenzy through the start of the golem's next turn, when it rolls again if still Bloodied.\nImmutable Form. The golem cannot change shape.\nLightning Absorption. Exposure to lightning damage restores HP equal to the lightning damage dealt.\nMagic Resistance. The golem rolls saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 13 (2d8 + 4) bludgeoning damage and 4 (1d8) lightning damage.",
+        "Habitats": "Any.",
+        "Treasure": "Arcana.",
+        "Appearance (1d6)": "1. Humanlike and animal parts stitched together.\n2. Heavy clothing and makeup hide the seams.\n3. Gaps in the body's assembly lie exposed.\n4. Body parts serve unusual purposes, such as hands covering the torso.\n5. Fine stitching frames nearly flawless features.\n6. Visible bellows or other machinery move the body.",
+        "Printed source": "Monster Manual (2024), p. 121."
+      }
+    }
+  },
+  {
+    "name": "Stone Golem",
+    "statBlock": {
+      "name": "Stone Golem",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 301,
+      "classification": "Large construct, unaligned",
+      "ac": 18,
+      "hp": 220,
+      "hitDice": "21d10 + 105",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 10,
+      "description": "These animated statues often guard tombs, sanctuaries, and monuments well after their makers are gone.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 120 ft.",
+        "Damage immunities": "poison, psychic.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned.",
+        "Languages": "Understands Common plus two other languages but can't speak.",
+        "Traits": "Immutable Form. The golem cannot change shape.\nMagic Resistance. The golem rolls saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two attacks in any combination of Slam and Force Bolt.\nSlam. Melee attack, +10 to hit, reach 5 ft. On a hit, deal 15 (2d8 + 6) bludgeoning damage and 9 (2d8) force damage.\nForce Bolt. Ranged attack, +9 to hit, range 120 ft. On a hit, deal 22 (4d10) force damage.",
+        "Bonus actions": "Slow (recharge 5–6). Cast Slow with no spell components. Use Constitution as its spellcasting ability, with a save DC of 17.",
+        "Habitats": "Any.",
+        "Treasure": "None.",
+        "Orders (1d6)": "1. Admit only visitors in ceremonial clothing.\n2. Cast Slow on anyone who touches the city's prized relic, then help capture them.\n3. Break a particular dam or bridge when ordered by the holder of the ruler's medallion.\n4. Obey whoever returns a lost crest to its chest, then shut down for a year.\n5. Show the secret passage to anyone who repeats the ruler's final words.\n6. Hunt the kind of monster that killed the hero the golem depicts.",
+        "Printed source": "Monster Manual (2024), p. 301."
+      }
+    }
+  },
+  {
+    "name": "Helmed Horror",
+    "statBlock": {
+      "name": "Helmed Horror",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 166,
+      "classification": "Medium construct, neutral",
+      "ac": 20,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4
+      },
+      "description": "A suit of animated armor with a soldier's judgment. It follows its maker's commands and can withstand spells its maker chose in advance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Blindsight 60 ft.",
+        "Damage immunities": "necrotic, poison.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Stunned.",
+        "Languages": "Understands Common plus one other language but can't speak.",
+        "Gear": "Shield.",
+        "Traits": "Magic Resistance. The horror rolls saves against spells and other magical effects with Advantage.\nSpell Immunity. Its creator chooses three spells to which it is immune. Heat Metal, Lightning Bolt, and Magic Missile are common choices.",
+        "Actions": "Multiattack. Make two Arcane Sword attacks.\nArcane Sword. Melee attack, +6 to hit, reach 5 ft. On a hit, deal 8 (1d8 + 4) slashing damage and 5 (1d10) force damage.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments.",
+        "Directives (1d6)": "1. Fly its master's palanquin to its destination.\n2. Keep a treasure safe by fitting it into the armor.\n3. Wear a missing or dead hero's gear and impersonate them.\n4. Work as a servant or laborer.\n5. Join a legion made from the armor of earlier defenders.\n6. Stand guard among suits of mundane armor.",
+        "Printed source": "Monster Manual (2024), p. 166."
+      }
+    }
+  },
+  {
+    "name": "Shield Guardian",
+    "statBlock": {
+      "name": "Shield Guardian",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 277,
+      "classification": "Large construct, unaligned",
+      "ac": 17,
+      "hp": 142,
+      "hitDice": "15d10 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "description": "A magical bodyguard follows whoever wears its command amulet. It can shield that wearer from harm and hold a spell for later use.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned.",
+        "Languages": "Understands commands given in any language but can't speak.",
+        "Traits": "Bound. While the guardian and its amulet are on the same plane, the wearer can call it telepathically to the amulet. On that plane, the guardian knows the distance and direction to the amulet. Whenever the wearer takes damage within 60 ft. of the guardian, transfer half that damage to the guardian, rounding up.\nRegeneration. It begins each of its turns by regaining 10 HP if it has at least 1 HP.\nSpell Storing. A spellcaster wearing the amulet can cast a spell of level 4 or lower on the guardian from within 5 ft. The spell takes no immediate effect and replaces any spell already stored. The guardian can later cast it with the original caster's parameters and spellcasting ability, without components. Casting uses up the stored spell.",
+        "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee attack, +7 to hit, reach 10 ft. On a hit, deal 11 (2d6 + 4) bludgeoning damage and 7 (2d6) force damage.",
+        "Reactions": "Protection. When an attack roll hits the amulet's wearer within 5 ft. of the guardian, give the wearer +5 AC until the start of the guardian's next turn. The bonus applies to the triggering attack and can cause it to miss.",
+        "Habitats": "Urban.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 277."
+      }
+    }
+  }
+]

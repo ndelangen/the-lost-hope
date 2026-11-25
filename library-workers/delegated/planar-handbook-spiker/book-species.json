@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Spiker",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid native to Acheron. The species entry gives the Extraplanar subtype away from Acheron. Land speed 30 ft., darkvision 60 ft., and no racial ability score adjustments.",
+      "Natural armor +1, acid resistance 5, and DR 2/piercing or slashing. Either piercing or slashing bypasses the DR. The official errata corrects the first printing’s DR label.",
+      "Metallic-looking skin grants no special susceptibility to rusting effects.",
+      "Natural Spikes work as armor spikes, with Martial Weapon Proficiency granted as a racial bonus feat. Medium spikes deal 1d6 piercing, critical ×2. They can make a regular light melee attack or one off-hand attack under the normal two-weapon rules.",
+      "Use the spikes on a successful opposed grapple check made to deal damage. They replace ordinary unarmed grapple damage. Alternatively, make the light spike attack against AC while grappling at the usual −4. The spikes deal no automatic damage on unrelated grapple checks or to a creature merely holding the Spiker.",
+      "Worn armor has its maximum Dexterity bonus reduced by 1 and its armor check penalty worsened by 2. A chain shirt has maximum Dexterity bonus +3 and armor check penalty −4 for a Spiker. Shields and arcane spell failure are unaffected by these changes.",
+      "Common is automatic and Infernal is a bonus language. Favored class Fighter. LA +0. The playable profile adds no racial Hit Dice."
+    ]
+  }
+]

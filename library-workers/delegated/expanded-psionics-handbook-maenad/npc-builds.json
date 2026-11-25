@@ -1,0 +1,118 @@
+{
+  "builds": [
+    {
+      "id": "maenad-shoal-rescuer-35e",
+      "title": "Maenad shoal rescuer, Wilder 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Maenad, Psionic)",
+      "ac": 13,
+      "hp": 8,
+      "hitDice": "1d6+2",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 8,
+        "CHA": 15
+      },
+      "skills": [
+        "Concentration +6",
+        "Profession (sailor) +3",
+        "Spot +3",
+        "Swim +8"
+      ],
+      "senses": "Ordinary vision",
+      "languages": "Common, Maenad",
+      "traits": [
+        "Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. With Force Screen, AC 17, touch 11, flat-footed 16. BAB +0, grapple +1. Fortitude +2, Reflex +1, Will +1.",
+        "Skill Focus (Swim) adds +3. Wilder manifester level 1. Reserve 5 PP per day, from 2 class, 1 Charisma and 2 species. Force Screen is the sole known power.",
+        "Wild Surge +1 can increase Force Screen to manifester level 2 for the same 1 PP, extending its duration to 2 minutes. Immediately roll for 5% psychic enervation. On enervation, lose 1 PP and become dazed until the end of your next turn.",
+        "Outburst (Ex) once per day for up to 4 rounds. This encounter uses a standard action to start it. While active, Str 14, Int 8, Wis 6, grapple +2, Will +0, Swim +9, Spot +2, and Profession (sailor) +2."
+      ],
+      "actions": [
+        "Shortspear +1 melee, 5-ft. reach, or +1 thrown, 20-ft. range increment. One-handed damage 1d6+1 piercing, critical ×2. With Outburst, melee +2 and damage 1d6+2 on melee or thrown hits.",
+        "Sonic Energy Ray once per day. Standard action with a scream, +1 ranged touch to 25 ft., 1d6−1 sonic, ignores object hardness. No save. Power resistance applies. Manifester level 1. Costs no PP.",
+        "Force Screen, 1 PP. Standard action, personal. Gain a +4 shield bonus to AC for 1 minute. The shield bonus also applies against incorporeal touch attacks."
+      ],
+      "tactics": "Mark the shallow route with the depth line. Ask the party to secure its shore end before swimming out for the marooned pilot. Use Outburst when the extra strength would help, and keep the once-daily ray for a clear target."
+    },
+    {
+      "id": "maenad-repair-shipwright-35e",
+      "title": "Maenad drydock shipwright, Expert 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1/2. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Maenad, Psionic)",
+      "ac": 14,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 12,
+        "CON": 13,
+        "INT": 13,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +5",
+        "Craft (shipbuilding) +8",
+        "Knowledge (architecture and engineering) +5",
+        "Profession (shipwright) +4",
+        "Search +5",
+        "Swim +4",
+        "Use Rope +5"
+      ],
+      "senses": "Ordinary vision",
+      "languages": "Common, Maenad, Aquan",
+      "traits": [
+        "Studded leather +3, Dexterity +1. Touch 11, flat-footed 13. BAB +0, grapple +2. Fortitude +1, Reflex +1, Will +2.",
+        "Skill Focus (Craft, shipbuilding) adds +3. Armor check penalty −1, doubled to −2 for Swim. Naturally Psionic supplies 2 PP. The racial ray uses its own daily use.",
+        "Outburst (Ex) once per day for up to 4 rounds. This encounter uses a standard action to start it. While active, Str 16, Int 11, Wis 8, grapple +3, Will +1, Climb +6, Swim +5, Craft +7, Knowledge +4, Search +4, and Profession +3."
+      ],
+      "actions": [
+        "Club +2 melee, 1d6+2 bludgeoning one-handed, critical ×2, 5-ft. reach. With Outburst, +3 melee and 1d6+3 damage.",
+        "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. range increment. Reload as a move action.",
+        "Sonic Energy Ray once per day. Standard action with a scream, +1 ranged touch to 25 ft., 1d6−1 sonic, ignores object hardness. No save. Power resistance applies. Manifester level 1. Costs no PP."
+      ],
+      "tactics": "Inspect and brace the hull before asking anyone to work below it. Use Outburst for the lift after the supports are ready. Keep the ray away from the loaded braces."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Maenad",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Expanded Psionics Handbook (2004)",
+      "name": "Vara Flintshore",
+      "build": "maenad-shoal-rescuer-35e",
+      "role": "Shoal rescue swimmer and Wilder.",
+      "motive": "Bring a pilot off a tidal shelf before the channel fills.",
+      "hook": "Vara can carry a depth line to the pilot if the party secures it on shore."
+    },
+    {
+      "species": "Maenad",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Expanded Psionics Handbook (2004)",
+      "name": "Toren Glasswake",
+      "build": "maenad-repair-shipwright-35e",
+      "role": "Drydock shipwright and hull repair lead.",
+      "motive": "Lift a grounded vessel enough to inspect the keel without collapsing the bracing.",
+      "hook": "Toren can identify the replacement timber and needs someone to hold the brace while it seats."
+    }
+  ]
+}

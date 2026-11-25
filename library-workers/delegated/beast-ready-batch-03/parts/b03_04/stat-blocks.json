@@ -1,0 +1,316 @@
+[
+  {
+    "name": "Eagle",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A brown eagle with a pale head and tail, hooked golden beak, layered flight feathers, and curved black talons.",
+    "habitats": [
+      "Mountains",
+      "Coastal cliffs",
+      "Forest edges"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 124. ",
+      "Traits": "Keen Sight. Roll Wisdom (Perception) checks with advantage when they depend on sight.",
+      "Actions": "Talons. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Eagle",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A brown eagle with a pale head and tail, hooked golden beak, layered flight feathers, and curved black talons.",
+    "habitats": [
+      "Mountains",
+      "Coastal cliffs",
+      "Forest edges"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual (2014), Appendix A, printed p. 322. https://www.dndbeyond.com/monsters/16852-eagle",
+      "Traits": "Keen Sight. Roll Wisdom (Perception) checks with advantage when they depend on sight.",
+      "Actions": "Talons. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Octopus",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "5 ft., swim 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +2 and Stealth +4. Darkvision 30 ft., passive Perception 12. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A russet octopus with a rounded mantle, horizontal pupils, and eight tapering arms with pale suckers.",
+    "habitats": [
+      "Underwater",
+      "Coastal waters",
+      "Reefs"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 146. ",
+      "Traits": "Hold Breath. Out of water, the octopus can go 30 minutes without taking a breath.\nUnderwater Camouflage. Roll Dexterity (Stealth) checks with advantage while underwater.\nWater Breathing. Breathes only underwater.",
+      "Actions": "Tentacles. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 1 bludgeoning damage and grapples the target (escape DC 10). Until the grapple ends, the octopus can use Tentacles only on that target.\nInk Cloud (recharges after a short or long rest). As an action while underwater, release ink in a 5-ft. radius around the octopus. That area is heavily obscured for 1 minute unless a strong current disperses the ink sooner. After releasing ink, the octopus can Dash as a bonus action.",
+      "At the table": "Apply the grapple on a hit. The target can spend an action to attempt a DC 10 Strength (Athletics) or Dexterity (Acrobatics) check to escape. A creature trying to see something in the ink is effectively blinded for that purpose."
+    }
+  },
+  {
+    "name": "Octopus",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "5 ft., swim 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +2 and Stealth +4. Darkvision 30 ft., passive Perception 12. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A russet octopus with a rounded mantle, horizontal pupils, and eight tapering arms with pale suckers.",
+    "habitats": [
+      "Underwater",
+      "Coastal waters",
+      "Reefs"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual (2014), Appendix A, printed p. 333. https://www.dndbeyond.com/monsters/16968-octopus",
+      "Traits": "Hold Breath. Out of water, the octopus can go 30 minutes without taking a breath.\nUnderwater Camouflage. Roll Dexterity (Stealth) checks with advantage while underwater.\nWater Breathing. Breathes only underwater.",
+      "Actions": "Tentacles. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 1 bludgeoning damage and grapples the target (escape DC 10). Until the grapple ends, the octopus can use Tentacles only on that target.\nInk Cloud (recharges after a short or long rest). As an action while underwater, release ink in a 5-ft. radius around the octopus. That area is heavily obscured for 1 minute unless a strong current disperses the ink sooner. After releasing ink, the octopus can Dash as a bonus action.",
+      "At the table": "Apply the grapple on a hit. The target can spend an action to attempt a DC 10 Strength (Athletics) or Dexterity (Acrobatics) check to escape. A creature trying to see something in the ink is effectively blinded for that purpose."
+    }
+  },
+  {
+    "name": "Vulture",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A brown scavenging bird with a bare grey head and neck, a hooked beak, a pale feather ruff, and broad wings.",
+    "habitats": [
+      "Deserts",
+      "Grasslands",
+      "Rocky slopes"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 157. ",
+      "Traits": "Keen Sight and Smell. Roll Wisdom (Perception) checks with advantage when using sight or smell.\nPack Tactics. Attack rolls against a creature have advantage if at least one ally of the vulture is within 5 ft. of that creature and is not incapacitated.",
+      "Actions": "Beak. Melee weapon attack, +2 to hit against one target within 5 ft. A hit deals 2 (1d4) piercing damage."
+    }
+  },
+  {
+    "name": "Vulture",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A brown scavenging bird with a bare grey head and neck, a hooked beak, a pale feather ruff, and broad wings.",
+    "habitats": [
+      "Deserts",
+      "Grasslands",
+      "Rocky slopes"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual (2014), Appendix A, printed p. 339. https://www.dndbeyond.com/monsters/17048-vulture",
+      "Traits": "Keen Sight and Smell. Roll Wisdom (Perception) checks with advantage when using sight or smell.\nPack Tactics. Attack rolls against a creature have advantage if at least one ally of the vulture is within 5 ft. of that creature and is not incapacitated.",
+      "Actions": "Beak. Melee weapon attack, +2 to hit against one target within 5 ft. A hit deals 2 (1d4) piercing damage."
+    }
+  }
+]

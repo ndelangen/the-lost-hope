@@ -66,6 +66,10 @@ test('playable species expose traits while NPC hooks stay in the DM view', () =>
   expect(dm.sections.map(({ title }) => title)).toContain('Original NPC · Pell Reedgate')
   expect(browseLibrary(false, 'Pell Reedgate')).toEqual([])
   expect(browseLibrary(true, 'Pell Reedgate').map(({ slug }) => slug)).toContain('halfling')
+  expect(getLibraryEntry('npcs', 'tesk-reedmark', false)).toBeUndefined()
+  expect(
+    getLibraryEntry('npcs', 'tesk-reedmark', true)?.sections.map(({ title }) => title),
+  ).toContain('Hook')
 })
 
 test('staged printings retain exact editions and their own portraits', () => {
@@ -100,4 +104,14 @@ test('uses the existing fifth-edition glossary for compatible staged printings',
   const bear = getLibraryEntry('beasts', 'bear-mcdm', true)!
   expect(bear.selected.edition).toBe('2014 fifth edition compatible')
   expect(bear.selected.glossary).toBe('srd-5-1')
+})
+
+test('retains incomplete printings with their status, hold notes, and existing art', () => {
+  const dm = getLibraryEntry('beasts', 'ghamoo-ra', true)!
+  expect(dm.selected.status).toBe('Incomplete')
+  expect(dm.sections.map(({ title }) => title)).toContain('Source hold')
+  expect(dm.art.length).toBeGreaterThan(0)
+  const player = getLibraryEntry('beasts', 'ghamoo-ra', false)!
+  expect(player.selected.status).toBeUndefined()
+  expect(player.sections).toEqual([])
 })

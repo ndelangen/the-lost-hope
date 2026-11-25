@@ -1,0 +1,34 @@
+[
+  {
+    "entry": "beast-337fd5e0989d665c32319b66",
+    "version": "b4418656523483d2cbfc7dea",
+    "name": "Fire Lizard",
+    "file": "images/adnd2e-monstrous-manual-lizards/fire-lizard.png",
+    "sha256": "b6ef88a35d815e44ae1f452ce323faf4adc88fd9d7f9d98ed75b84f508f320ad",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-06c7d9e76691615246d03075",
+    "version": "3264242d1a4127e9ab4cd07b",
+    "name": "Giant Lizard",
+    "file": "images/adnd2e-monstrous-manual-lizards/giant-lizard.png",
+    "sha256": "0a484d2d5a73289ab2340f297153b919d87bc430000059a12b1945a14a380a1b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-42978d059335def85f24b82d",
+    "version": "6362c9a084cbbaf8252a493e",
+    "name": "Minotaur Lizard",
+    "file": "images/adnd2e-monstrous-manual-lizards/minotaur-lizard.png",
+    "sha256": "a8bd73549f9cd5d2818d8cf81a68c3c8a56e189f6cb469417440adeef84c2d81",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-4d70aa92a2c3ee30b87ee4bc",
+    "version": "ac387d8287fc115487de5413",
+    "name": "Subterranean Lizard",
+    "file": "images/adnd2e-monstrous-manual-lizards/subterranean-lizard.png",
+    "sha256": "1cb387f2b1e49530b47bdd4d1ec9187b7d38bc9b20002eb996e4c5aaa2e0dc01",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Kna",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "traits": [
+      "Large, muscular sea traders with orange scales, a single fish tail and a contrasting dorsal fin. Apply STR +1 and DEX −1 at creation. Minimum final STR 13. Natural descending AC 5 before Dexterity.",
+      "Kna need water to breathe and air-breathing magic to move on land effectively. Swim 150 ft. (50 ft. per encounter round) or move on land 30 ft. (10 ft.) with that magic. A dry-land Dexterity penalty of 2 applies under the shared sea-people rules.",
+      "Kna make underwater heavy crossbows which deal 2d4 plus the wielder’s Strength damage bonus. Spears are their other common weapon.",
+      "Young Kna enter at −48,000 XP with 2d8, then gain 3d8 at −46,000, 4d8 at −42,000, 5d8 at −36,000 and 6d8 at −24,000. Adults have 7d8 at 0 XP. Levels 1, 2, 4, 6 and 8 bring 8d8, 9d8, 10d8, 11d8 and 12d8 at 48,000, 140,000, 660,000, 1,260,000 and 1,860,000 XP respectively. Levels 3, 5 and 7 add no die. Level 9 begins at 2,160,000 XP and later levels cost 300,000 XP each.",
+      "PC3 creature hero. Attack as a monster and save as a fighter of the same Hit Dice. Choose STR, INT, WIS or DEX as prime requisite. Dexterity affects descending AC. All sea heroes speak Kna trade in addition to their own language. The optional split-level rules are used for intermediate Kopru and Sea Giant abilities.",
+      "From 9th level, gain 2 hp per level with no Constitution modifier. From beyond 8th level use one additional effective HD per two levels for attacks and saves."
+    ]
+  },
+  {
+    "name": "Kopru",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "traits": [
+      "Three claw-tipped tails, a tentacled mouth and unarmored descending AC 3 before Dexterity. Apply CON +1 and CHA −1 at creation. Swim 150 ft. (50 ft.) and move on land 30 ft. (10 ft.).",
+      "The permanent equivalent of clerical Resist Fire protects a young or adult Kopru from ordinary fire and heat. Against magical fire gain +2 to the save and reduce damage by 1 per die, to a minimum of 1 per die. Direct lava immersion remains dangerous. At 0 XP gain a separate +2 on saves against magical attacks.",
+      "Adults can attempt domination by concentrating on an intelligent creature within 40 ft. It saves vs. death ray. A failed save gives ongoing control at any distance and access to thoughts and memories. Each occupied slot prevents another use of that slot. Start with one slot and add slots as Intelligence grants bonus languages. INT 16 grants two total and INT 18 grants four.",
+      "Victims retry the save monthly. Death of the Kopru, a wish or dispel magic against its HD ends control. Successfully saving against a domination attempt gives lasting immunity to Kopru domination. Escaping an established effect, including by the monthly save, leaves the creature eligible for another attempt.",
+      "At −260,000 XP start at 3d8+1 and 1d6 tails. Tail damage changes to 1d8 at −257,000, 1d10 at −242,000, 2d6 at −212,000 and 2d8 at −163,000. HD becomes 4d8+2 at −251,000, 5d8+2 at −229,000, 6d8+3 at −190,000 and 7d8+3 at −130,000. At 0 XP attain 8d8+4, 3d6 tails, domination and magical resistance. Bite damage remains 1d4. Levels 1, 2, 4, 6 and 8 add one die each, at 260,000, 560,000, 1,160,000, 1,760,000 and 2,360,000 XP. Levels 3, 5 and 7 add no die. Level 9 starts at 2,660,000 XP and later levels cost 300,000 XP each.",
+      "PC3 creature hero. Attack as a monster and save as a fighter of the same Hit Dice. Choose STR, INT, WIS or DEX as prime requisite. Dexterity affects descending AC. All sea heroes speak Kna trade in addition to their own language. The optional split-level rules are used for intermediate Kopru and Sea Giant abilities.",
+      "From 9th level, gain 2 hp per level with no Constitution modifier. From beyond 8th level use one additional effective HD per two levels for attacks and saves."
+    ]
+  },
+  {
+    "name": "Merrow",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "traits": [
+      "Amphibious mermen and mermaids whose scaled lower bodies usually have two separate finned tails. A single tail is possible. Apply INT −1 and DEX +1 at creation. Natural descending AC 7 before Dexterity.",
+      "Breathe water through gills or air after clearing water from the lungs. Swim 120 ft. (40 ft.) or move on land 30 ft. (10 ft.). The ordinary land-Dexterity and dehydration rules apply. From day two out of water take a cumulative daily −2 to attacks, saves and Constitution until the penalties are reversed by saltwater immersion.",
+      "Dolphin Song carries up to 500 ft. and conveys speech among merrow, dolphins and whales. Animals can decline requests.",
+      "Start at 0 XP and 1d8. Level 1 at 1,000 XP gives 2d8. Further dice arrive at levels 2, 4, 5, 6 and 8, at 2,000, 8,000, 16,000, 32,000 and 130,000 XP respectively, ending at 7d8. Levels 3 and 7 add no die. Level 9 begins at 260,000 XP and later levels cost 200,000 XP each.",
+      "PC3 creature hero. Attack as a monster and save as a fighter of the same Hit Dice. Choose STR, INT, WIS or DEX as prime requisite. Dexterity affects descending AC. All sea heroes speak Kna trade in addition to their own language. The optional split-level rules are used for intermediate Kopru and Sea Giant abilities.",
+      "From 9th level, gain 2 hp per level with no Constitution modifier. From beyond 8th level use one additional effective HD per two levels for attacks and saves."
+    ]
+  },
+  {
+    "name": "Sea Giant",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "traits": [
+      "Blue-sheened, web-fingered giants averaging roughly 15–21 feet. Apply STR +2 and DEX −2, and enforce minimum final STR 15. Natural descending AC improves as they mature. Swim or walk 120 ft. (40 ft.).",
+      "Breathe water. Hold breath for CON minutes or half that while exerting, then make Constitution checks each minute until breathing resumes or drowning begins. In confined or cluttered spaces built for smaller folk, check Dexterity to avoid mishaps.",
+      "Young giants start at −400,000 XP, 4d8, AC 9 and 1d6 weapon / 1d3 bare hand. At −395,000 AC becomes 8 and damage becomes 2d6 / 1d6. At −385,000 gain 5d8 and AC 7. At −370,000 AC 6 and damage 3d6 / 1d8. At −352,000 gain 6d8 and AC 5. At −327,000 AC 4 and damage 4d6 / 2d6. At −294,000 gain 7d8 and AC 3. At −252,000 AC 2 and damage 5d6 / 2d8. At −200,000 gain 8d8 and AC 1. At 0 XP gain 9d8 and AC 0, with 6d6 weapon / 3d6 bare hand and an additional +2 damage on top of Strength.",
+      "Levels 2, 4, 6 and 8 add one die each, at 700,000, 1,300,000, 1,900,000 and 2,500,000 XP. Levels 1, 3, 5 and 7 add no die. Level 9 begins at 2,800,000 XP and later levels cost 300,000 XP each. At 0 XP, Water Blast once per ten-minute turn. The cone sweeps away creatures without a save. Save vs. death ray to avoid 1d6 rounds of stunning that prevent spells and quarter movement. Underwater cone 50 ft. long by 30 ft. wide at the base. Surface wave 120 ft. by 60 ft. and vessels in its area take 2d6 hull damage.",
+      "PC3 creature hero. Attack as a monster and save as a fighter of the same Hit Dice. Choose STR, INT, WIS or DEX as prime requisite. Dexterity affects descending AC. All sea heroes speak Kna trade in addition to their own language. The optional split-level rules are used for intermediate Kopru and Sea Giant abilities.",
+      "From 9th level, gain 2 hp per level with no Constitution modifier. From beyond 8th level use one additional effective HD per two levels for attacks and saves."
+    ]
+  },
+  {
+    "name": "Shark-Kin",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "traits": [
+      "Scaled sea hunters with a dorsal crest, outward-set eyes, rows of teeth, clawed hands and webbed digits. Apply STR +1, INT −1, DEX +1 and CHA −1 at creation. Minimum final STR 13. Natural descending AC 6 before Dexterity.",
+      "Outcasts can have lasting developed legs, breathe air and ignore both land dehydration and the usual land Dexterity penalty. Other shark-kin grow legs for tribal leadership rites and lose them 1d4 days after choosing a leader. Ordinary legless shark-kin breathe water only. All swim 240 ft. (80 ft.). Developed legs give land move 120 ft. (40 ft.).",
+      "Basic natural routine is bite 1d6 and two claws at 1d3 each. Fresh blood in water within 150 ft. requires a Wisdom check. On failure pursue and attack perceived foes with +2 to hit and to resist fear. A berserk NPC never fails morale. Reroll after dropping a victim, with +4 when no foes remain and allies are at risk.",
+      "Shark Empathy exchanges simple feelings at 50 yards. A successful Wisdom check stops a shark feeding frenzy against the group, without making the sharks friendly.",
+      "Start at −1,200 XP as a teenager with 1d8. At 0 XP reach 2d8. Gain one die at each of levels 1, 2, 4, 5, 6 and 8, at 1,200, 2,400, 10,000, 20,000, 40,000 and 160,000 XP respectively, ending at 8d8. Levels 3 and 7 add no die. Level 9 starts at 320,000 XP and later levels cost 300,000 XP each.",
+      "PC3 creature hero. Attack as a monster and save as a fighter of the same Hit Dice. Choose STR, INT, WIS or DEX as prime requisite. Dexterity affects descending AC. All sea heroes speak Kna trade in addition to their own language. The optional split-level rules are used for intermediate Kopru and Sea Giant abilities.",
+      "From 9th level, gain 2 hp per level with no Constitution modifier. From beyond 8th level use one additional effective HD per two levels for attacks and saves."
+    ]
+  }
+]

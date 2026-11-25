@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Asherati",
+    "species": "species-f67efafcfd9979118858245e",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Sandstorm (2005)"
+    ],
+    "portraitSha256": "5ebaf854f813f5aba6e4256d888d1d755895ec5291944700c8900f022a3a1cff",
+    "caption": "Rashen Dustline · Original Asherati NPC",
+    "npcReceipts": [
+      {
+        "name": "Rashen Dustline",
+        "id": "npc-7bbe0faea15e398fbf747421",
+        "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+      },
+      {
+        "name": "Neral Glassbank",
+        "id": "npc-36f891fa759273bd97f6f089",
+        "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+      }
+    ]
+  }
+]

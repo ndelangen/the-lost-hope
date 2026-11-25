@@ -1,0 +1,26 @@
+{
+  "baseline": "d92037c70a538974e2d529ab31b19d572b8436e7",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Vril"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Drow of the Underdark (2007)",
+  "publishedErrataAndShriekSkinshiftScalingVerified": true,
+  "editionSpecificRulesAndSourcesVerified": true,
+  "separateSpeciesScopeVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Drow of the Underdark (2007)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

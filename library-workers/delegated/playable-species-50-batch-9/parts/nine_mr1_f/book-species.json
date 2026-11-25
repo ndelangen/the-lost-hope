@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Will-o’-Wisp",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2.",
+      "Will o' Wisp is a spaced spelling of Will-o’-Wisp. Small Undead with +2 Dexterity, Strength capped at 1, 0-ft. walk and 40-ft. fly. Darkvision 60 ft. Can speak, read and write Common and one other language spoken in life. Ephemeral prevents holding writing tools.",
+      "Ephemeral prevents wearing or carrying any gear. Immune to exhaustion, grappled, paralyzed, prone, restrained and unconscious. Also immune to poison damage and poisoned, and resistant to lightning and necrotic damage. Under the supplement's rule for unconsciousness immunity, dropping to 0 HP kills the character.",
+      "Rest four hours in semiconscious trance in place of sleep. Requires neither air nor drink. Consume Life provides nourishment for a week.",
+      "Ignited Illumination toggles as a bonus action. Lit, it gives bright light for 10 ft. and dim light for 10 ft. more. Extinguished, it glows less brightly than a candle. Hidden Step is a bonus action once per short or long rest. Invisibility ends at the start of the next turn or earlier on attacking, making a damage roll or forcing a saving throw.",
+      "Shock uses an action for a Wisdom-based melee spell attack within reach. Damage is 1d8 lightning, increasing by one die at levels 5, 11 and 17.",
+      "Consume Life uses a bonus action on a visible living creature at 0 HP within 5 ft. The target dies on a failed Constitution save against 8 + proficiency + Constitution modifier. A kill permits spending one Hit Die to heal and provides a week's nourishment. A natural 1 on the failed save creates a neutral wisp in that space that can go a week without feeding."
+    ]
+  },
+  {
+    "name": "Wraith",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2.",
+      "Medium Undead. +1 Dexterity and +1 Constitution. Walk 0 ft. Fly 30 ft. with hover. Darkvision 60 ft. Can speak, read and write Common and one other language spoken in life.",
+      "Bereft of Body allows shields and bars worn armor. Four hours of semiconscious trance replace sleep. No need for air, food or drink.",
+      "Life Drain deals 1d6 necrotic as an unarmed strike on a hit. Direct sunlight on the wraith, the attack target or the subject being perceived imposes disadvantage on attacks and sight-based Perception checks.",
+      "Resists necrotic. Immune to poison damage and exhaustion, grappled, paralyzed, petrified, poisoned, prone and restrained. The player package gives no movement through solid obstacles."
+    ]
+  },
+  {
+    "name": "Wyvern",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2.",
+      "Medium Dragon. +2 Strength and +1 Constitution. Walk 20 ft. Fly 30 ft. when free of medium or heavy armor. Darkvision 60 ft. Can speak, read and write Common. No Hands prevents holding writing tools.",
+      "Natural Armor is 13 + Dexterity modifier while unarmored. No Hands prevents wielding weapons, using shields or manipulating gear such as tools and foci.",
+      "Stinger is an unarmed strike that deals 1d4 piercing and 1d4 poison on a hit, before the usual Strength modifier. The player damage is direct."
+    ]
+  },
+  {
+    "name": "Xorn",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2.",
+      "Medium Elemental. +1 Constitution. Walk and burrow 20 ft. Darkvision 60 ft. Speaks, reads and writes Terran.",
+      "Earth Glide lets a xorn move through nonmagical unworked soil and stone without disturbing it. Treasure Sense locates precious metals and stones by scent within 60 ft.",
+      "Unarmed claws deal 1d8 slashing on a hit. Natural Armor gives AC 17 while unarmored. Worn armor grants no benefit. A shield works subject to Three Arms.",
+      "Three Arms allows three held items. A character with Extra Attack can choose among held weapons for each strike. After a qualifying two-weapon fighting attack, a different qualifying weapon can make the bonus attack. Usual ability-modifier rules apply. The bonus attack suspends the shield benefit until the start of the next turn. The same suspension applies for wielding a heavy weapon or using a versatile weapon two-handed."
+    ]
+  },
+  {
+    "name": "Yeti",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2.",
+      "Medium Monstrosity. +1 Strength and +1 Constitution. Walk and climb 30 ft. Darkvision 60 ft. Speaks, reads and writes Yeti.",
+      "Claws deal 1d4 slashing on an unarmed hit. Natural Armor while unarmored is 11 + Dexterity modifier. Resists cold. After taking fire damage, attacks and ability checks have disadvantage until the end of the yeti's next turn.",
+      "Keen Smell gives advantage on smell-based Perception. Snow Camouflage gives advantage on Stealth to hide in snowy terrain.",
+      "Chilling Gaze takes an action to select a visible creature within 30 ft. If it can see the yeti, it makes a Constitution save. Failure deals 1d8 cold and reduces its speed by 10 ft. until the start of the yeti's next turn. The printed DC ends after 8 + proficiency bonus +, with the final modifier missing. Rusk uses Constitution for that missing modifier as a table ruling."
+    ]
+  }
+]

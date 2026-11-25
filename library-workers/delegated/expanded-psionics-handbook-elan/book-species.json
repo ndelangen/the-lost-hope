@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Elan",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Aberration with the Psionic subtype. Charisma −2, land speed 30 ft., and no darkvision. Humanoid-only effects such as charm person do not apply.",
+      "Naturally Psionic grants 2 bonus power points at 1st level. Manifesting powers requires a separate source, such as a psionic class. The 2006 errata confirms 2 points for the creature chapter’s Elan as well.",
+      "Resistance (Su). Spend 1 power point as an immediate action for a +4 racial bonus on all saving throws until the beginning of your next action.",
+      "Resilience (Su). Spend power points as an immediate action when about to take damage. Reduce the incoming damage by 2 HP per power point spent.",
+      "Repletion (Su). Spend 1 power point to go without food or water for 24 hours. Use the core standard-action default for supernatural abilities.",
+      "An immediate action uses your swift action on your turn or on the following turn if used outside your turn. You cannot take one while flat-footed.",
+      "A four-hour daily trance provides the benefit of eight hours of human sleep. The 2006 errata removes maximum age. The aging thresholds remain 200 years for middle age, 400 for old, and 1,000 for venerable.",
+      "Elans emerge from a psionic ritual undergone by adult humans. A new Elan retains basic memories and personality and starts again as a 1st-level character with new classes and skills.",
+      "Automatic language Common. Bonus languages may include any nonsecret language. Favored class Psion. Level adjustment +0."
+    ]
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Deathjump Spider",
+    "publication": "Scepter Tower of Spellgard",
+    "edition": "4th edition",
+    "classification": "Medium natural beast (spider), unaligned",
+    "ac": 20,
+    "hp": 55,
+    "speed": "6 squares, climb 6 (spider climb)",
+    "xp": 175,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 4
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Level 4 Skirmisher. Initiative +8. Fortitude 17, Reflex 18, Will 16. Bloodied 27. Perception +9, tremorsense 5 squares. Resist 5 poison. Languages —.",
+    "appearance": "A human-sized, patterned brown spider with eight dark eyes, prominent fangs and eight jointed legs.",
+    "habitats": [
+      "Spellgard",
+      "Tower Stores",
+      "Battlements",
+      "Secure Storerooms"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Scepter Tower of Spellgard, Adventure Book Two, pp. 41, 59, 60, 63. T1, Tower Stores. T12, Battlement. T13, Secure Storerooms. T15, Rooftop Battlement.",
+      "Printed ability modifiers": "Str +5, Dex +6, Con +4, Int -3, Wis +4, Cha +1.",
+      "Printed powers": "Bite. Melee basic, standard, at-will, Poison. +6 vs. AC. On a hit, deal 2d6 + 3 damage. The target takes ongoing 5 poison damage and is slowed. One save ends both.\nDeath from Above. Melee, standard, at-will, Poison. Shift 6 squares and make a Bite attack. A hit deals 1d6 extra damage and also knocks the target prone.\nProdigious Leap. Move, encounter. Shift 10 squares.",
+      "Traits and skills": "Spider climb. Athletics +10 (+20 when jumping). Stealth +11.",
+      "Encounter checks": "T1 uses three spiders with ettercaps. They use tremorsense to detect approaches at the southeast door and alert the webspinner. If entry takes 3 or more rounds, the webspinner has time to warn the fang guards through the southwest door. If the party enters the southern chamber promptly, the two closest spiders attack.\nT12 uses two spiders. They stay out of combat until attackers reach the battlement level. On hearing battle they climb around the tower exterior and attack with Death from Above.\nT13 uses four spiders. On the ceiling in darkness they have total concealment. A light directed at the webs reduces that to concealment and characters can compare Perception with the spiders’ Stealth +11 to see them. They attack if intruders investigate the northeast corner or try to open the vault doors. They flank and leap after characters who break away.\nT15 uses a trained spider clinging 10 ft. above the lookouts on the spire. Its tremorsense detects approaches the lookouts cannot see. It drops on the party and fights to the death."
+    }
+  },
+  {
+    "name": "Fire Beetles",
+    "publication": "Scepter Tower of Spellgard",
+    "edition": "4th edition",
+    "classification": "Small natural beast, unaligned",
+    "ac": 13,
+    "hp": 32,
+    "speed": "6 squares",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Level 1 Brute. Initiative +1. Fortitude 13, Reflex 12, Will 11. Bloodied 16. Perception +0. Resist 10 fire. Languages —.",
+    "appearance": "Five dog-sized beetles with dark carapaces, dark orange patches and ember-bright eyes.",
+    "habitats": [
+      "Spellgard",
+      "Lookout",
+      "Ruins"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Scepter Tower of Spellgard, Adventure Book Two, p. 7. R2, Lookout.",
+      "Printed ability modifiers": "Str +2, Dex +1, Con +1, Int -5, Wis +0, Cha -1.",
+      "Printed powers": "Bite. Melee basic, standard, at-will. +5 vs. AC. On a hit, deal 2d4 + 2 damage.\nFire Spray. Close, standard, recharge 5–6, Fire. Close blast 3. +4 vs. Reflex. On a hit, deal 3d6 fire damage.",
+      "Encounter checks": "Franco Darano’s five trained beetles occupy the second floor. DC 16 Perception notices the faint red glow from the stairs. The beetles provide bright, torchlike illumination on the second level. If they leave or die, daylight through the arrow slits gives dim illumination. They use Fire Spray against groups and flank lone targets for Bite. On attack Franco calls for help and the R1 wererats arrive in 5 rounds. The beetles fight to the death."
+    }
+  },
+  {
+    "name": "Gray Wolves",
+    "publication": "Scepter Tower of Spellgard",
+    "edition": "4th edition",
+    "classification": "Medium natural beast, unaligned",
+    "ac": 16,
+    "hp": 38,
+    "speed": "8 squares",
+    "xp": 125,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Level 2 Skirmisher. Initiative +5. Fortitude 14, Reflex 14, Will 13. Bloodied 19. Perception +7, low-light vision. Languages —.",
+    "appearance": "A pack of lean gray wolves with mottled coats, narrow flanks and low stalking postures.",
+    "habitats": [
+      "Spellgard",
+      "Kennel",
+      "Fallen Lands"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Scepter Tower of Spellgard, Adventure Book Two, p. 11. R6, Kennel.",
+      "Printed ability modifiers": "Str +2, Dex +3, Con +3, Int -3, Wis +2, Cha +1.",
+      "Printed powers": "Bite. Melee basic, standard, at-will. +7 vs. AC. On a hit, deal 1d6 + 2 damage, or 2d6 + 2 against a prone target.",
+      "Traits and skills": "Combat Advantage. When the wolf hits a target it has combat advantage against, the target also falls prone.",
+      "Encounter checks": "Five hungry gray wolves are chained to the south wall by 20-ft. leashes. They cannot leave the room. The leash squares between wolf and anchor are difficult terrain, and the wolves ignore each other’s leashes. The kennel is dark. The wolves leave wererats and goblins alone and prefer fresh meat to trail rations. Their howls put occupants of R7 and R8 on alert for 1 hour. They flank and pile onto prone targets.\nThe first time a wolf knocks a PC prone in a chain square, describe the chain looping around the PC’s leg as the PC gets up. This first incident has no mechanical effect. On the next such knockdown, an adjacent wolf can move through at least three squares adjacent to the prone PC, provoking opportunity attacks normally. The attacking wolf can do this if it still has a move action. The chain entangles the prone PC, who is grabbed by that wolf. Other wolves attack the PC normally."
+    }
+  },
+  {
+    "name": "Spitting Drake",
+    "publication": "Scepter Tower of Spellgard",
+    "edition": "4th edition",
+    "classification": "Medium natural beast (reptile), unaligned",
+    "ac": 17,
+    "hp": 38,
+    "speed": "7 squares",
+    "xp": 150,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 2
+      }
+    },
+    "otherStatistics": "Level 3 Artillery. Initiative +5. Fortitude 14, Reflex 16, Will 14. Bloodied 19. Perception +3. Resist 10 acid. Languages —.",
+    "appearance": "A wingless bronze drake with four clawed feet, an angular head, a plated spine and a long tapering tail.",
+    "habitats": [
+      "Spellgard",
+      "Bunkroom",
+      "Ruins"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Scepter Tower of Spellgard, Adventure Book Two, p. 8. R4, Bunkroom.",
+      "Printed ability modifiers": "Str +3, Dex +5, Con +3, Int -3, Wis +3, Cha +2.",
+      "Printed powers": "Bite. Melee basic, standard, at-will. +6 vs. AC. On a hit, deal 1d6 + 2 damage.\nCaustic Spit. Ranged, standard, at-will, Acid. Ranged 10 squares. +8 vs. Reflex. On a hit, deal 1d10 + 4 acid damage.",
+      "Encounter checks": "Two trained drakes join three human guards in the frontal defense of the bunkroom while a shadowhunter bat and Borlem Darano take their positions. The guards press the party while the drakes use Caustic Spit on the back ranks. The drakes fight to the death. Fighting alerts Kalmo at R5, who sends two gravehounds in round 4 and two more in round 5, then joins in round 6."
+    }
+  }
+]

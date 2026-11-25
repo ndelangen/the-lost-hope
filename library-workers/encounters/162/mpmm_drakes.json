@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Guard Drake",
+    "statBlock": {
+      "name": "Guard Drake",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 151,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "A guard drake looks like a squat, wingless version of the dragon whose scales created it. It bonds with the first creature to feed it and can learn the same commands as a guard dog.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Chromatic drake mechanics": "Choose the color of the dragon that supplied the scales. Each color adds the movement and defense listed below to the base stat block.\nBlack. Swim 30 ft. The drake breathes air and water and has acid resistance.\nBlue. Burrow 20 ft. The drake has lightning resistance.\nGreen. Swim 30 ft. The drake breathes air and water and has poison resistance.\nRed. Climb 30 ft. The drake has fire resistance.\nWhite. Burrow 20 ft. and climb 30 ft. The drake has cold resistance.",
+        "Creation and training": "A chromatic dragon donates 10 pounds of fresh scales. The ritual also needs a large supply of fresh meat and an iron cauldron. After several days, a Small egg emerges and hatches within a few hours. A hatchling bonds to its first feeder. It reaches full size and can finish training in two to three weeks. Guard drakes cannot reproduce, and their scales cannot make another drake.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 151."
+      }
+    }
+  },
+  {
+    "name": "Guard Drake (Black)",
+    "statBlock": {
+      "name": "Guard Drake (Black)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 151,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "This squat, wingless guard drake was made from a black dragon's scales. It bonds with its first feeder and can learn the same commands as a guard dog.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak.",
+        "Damage resistances": "Acid.",
+        "Traits": "Amphibious. The drake can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 151."
+      }
+    }
+  },
+  {
+    "name": "Guard Drake (Blue)",
+    "statBlock": {
+      "name": "Guard Drake (Blue)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 151,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., burrow 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "This squat, wingless guard drake was made from a blue dragon's scales. It bonds with its first feeder and can learn the same commands as a guard dog.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak.",
+        "Damage resistances": "Lightning.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 151."
+      }
+    }
+  },
+  {
+    "name": "Guard Drake (Green)",
+    "statBlock": {
+      "name": "Guard Drake (Green)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 151,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "This squat, wingless guard drake was made from a green dragon's scales. It bonds with its first feeder and can learn the same commands as a guard dog.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak.",
+        "Damage resistances": "Poison.",
+        "Traits": "Amphibious. The drake can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 151."
+      }
+    }
+  },
+  {
+    "name": "Guard Drake (Red)",
+    "statBlock": {
+      "name": "Guard Drake (Red)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 151,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "This squat, wingless guard drake was made from a red dragon's scales. It bonds with its first feeder and can learn the same commands as a guard dog.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak.",
+        "Damage resistances": "Fire.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 151."
+      }
+    }
+  },
+  {
+    "name": "Guard Drake (White)",
+    "statBlock": {
+      "name": "Guard Drake (White)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 151,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., climb 30 ft., burrow 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "This squat, wingless guard drake was made from a white dragon's scales. It bonds with its first feeder and can learn the same commands as a guard dog.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak.",
+        "Damage resistances": "Cold.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 151."
+      }
+    }
+  },
+  {
+    "name": "Hellfire Engine",
+    "statBlock": {
+      "name": "Hellfire Engine",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 152,
+      "classification": "Huge construct, typically lawful evil",
+      "ac": 18,
+      "hp": 216,
+      "hitDice": "16d12 + 112",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 10,
+      "description": "Devil commanders hold these magical siege machines in reserve against invading demons and mortals. A loose engine can rampage on its own.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Wis": 5,
+        "Cha": 0
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Infernal and cannot speak.",
+        "Damage resistances": "Cold and psychic. Also bludgeoning, piercing, and slashing damage from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, deafened, exhaustion, frightened, paralyzed, poisoned, and unconscious.",
+        "Traits": "Immutable Form. Spells and effects cannot change the engine's shape.\nMagic Resistance. The engine has advantage on saves against spells and other magical effects.\nUnusual Nature. The engine needs no air, food, drink, or sleep.",
+        "Actions": "Flesh-Crushing Stride. Move in a straight line up to the engine's speed. The engine can enter spaces occupied by creatures of Large size or smaller. Each creature whose space it enters makes a DC 18 Dexterity save. On a success, push it to the nearest space outside the engine's path. On a failure, it falls prone and takes 28 (8d6) bludgeoning damage.\nIf the engine stays in the prone creature's space, the creature is restrained while they share the space. The restrained creature or another creature within 5 ft. of it can make a DC 18 Strength check. On a success, the restrained creature moves to an unoccupied space it chooses within 5 ft. of the engine, ending the restraint.\nHellfire Weapons. Choose a weapon or roll a d6. On 1–2 use Bonemelt Sprayer, on 3–4 use Lightning Flail, and on 5–6 use Thunder Cannon.\nBonemelt Sprayer. Each creature in a 60-ft. cone makes a DC 20 Dexterity save. On a failure, it takes 11 (2d10) fire damage plus 18 (4d8) acid damage. On a success, halve both. On a failure, the fuel coats the target and deals 5 (1d10) fire damage plus 9 (2d8) acid damage at the end of each of its turns. The target or another creature within 5 ft. of it can use an action to scrape off the fuel.\nLightning Flail. Melee weapon attack, +10 to hit, reach 15 ft., one creature. A hit deals 18 (3d8 + 5) bludgeoning damage plus 22 (5d8) lightning damage. Choose up to three other creatures the engine can see within 30 ft. of the target. Each makes a DC 20 Dexterity save, taking 22 (5d8) lightning damage on a failure or half on a success.\nThunder Cannon. Choose a point the engine can see within 120 ft. Each creature within 30 ft. of the point makes a DC 20 Dexterity save. On a failure, it takes 27 (5d10) bludgeoning damage plus 19 (3d12) thunder damage. On a success, halve both.\nSoul of a slain creature. If the chosen weapon option kills a creature, its soul rises from the River Styx as a lemure in Avernus after 1d4 hours. If it remains dead when the lemure rises, restoring it requires Wish or killing the lemure and then casting True Resurrection on the creature's original body. Constructs and devils are immune to this soul effect.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 152."
+      }
+    }
+  }
+]

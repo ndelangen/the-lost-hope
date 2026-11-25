@@ -1,0 +1,409 @@
+[
+  {
+    "name": "Vegepygmy",
+    "statBlock": {
+      "name": "Vegepygmy",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 196,
+      "classification": "Small plant, neutral",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "2d6 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A small fungus person that hunts in damp forests and caves. It communicates by hissing, gesturing, and tapping its body, and often lives among myconids and other fungi.",
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Vegepygmy.",
+        "Armor": "Natural armor.",
+        "Damage resistances": "Lightning and piercing.",
+        "Traits": "Plant Camouflage. The fungus has advantage on Dexterity (Stealth) checks where abundant plant growth provides concealment.\nRegeneration. The fungus regains 3 hit points at the start of its turn. Cold, fire, or necrotic damage prevents this recovery at the start of its next turn. It dies only if it starts its turn with 0 hit points and this trait fails to restore any.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Russet Mold": "Identification. This reddish-brown mold grows in darkness and damp warmth. On metal, a successful DC 15 Intelligence (Nature) or Wisdom (Survival) check distinguishes it from rust.\nExposure. A creature that comes within 5 ft. must make a DC 13 Constitution save against the released spores. On a failure, it is poisoned and takes 7 (2d6) poison damage at the start of each of its turns as mold sprouts on it. At the end of each of its turns, it can repeat the save to end the effect. Magic that neutralizes poison or cures disease also destroys the infestation.\nNew growth. A creature dies if this damage reduces it to 0 HP. If the victim is a beast, giant, or humanoid, its corpse produces newborn Vegepygmies after 24 hours. A Small corpse produces one, Medium two, Large four, Huge eight, and Gargantuan sixteen. Moldies born from beasts take the form of Thornies.\nClearing it. Each point of acid, necrotic, or radiant damage clears 1 square foot. A pound of salt, a gallon of alcohol, or magic that cures disease clears a 10-foot square. Sunlight destroys exposed patches. Weapons and most other damage have no effect.",
+        "Printed source": "Volo's Guide to Monsters, p. 196."
+      }
+    }
+  },
+  {
+    "name": "Vegepygmy Chief",
+    "statBlock": {
+      "name": "Vegepygmy Chief",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 197,
+      "classification": "Small plant, neutral",
+      "ac": 14,
+      "hp": 33,
+      "hitDice": "6d6 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Other Vegepygmies defer to these hardy elders. Each grows clusters of spores that can poison nearby creatures and seed new mold folk.",
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Vegepygmy.",
+        "Armor": "Natural armor.",
+        "Damage resistances": "Lightning and piercing.",
+        "Traits": "Plant Camouflage. The fungus has advantage on Dexterity (Stealth) checks where abundant plant growth provides concealment.\nRegeneration. The fungus regains 5 hit points at the start of its turn. Cold, fire, or necrotic damage prevents this recovery at the start of its next turn. It dies only if it starts its turn with 0 hit points and this trait fails to restore any.",
+        "Actions": "Multiattack. Make two Claws attacks or two melee Spear attacks.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nSpear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) with a two-handed melee attack.\nSpores (1/day). A spore cloud spreads in a 15-foot radius around the chief and reaches around corners. Each non-plant creature in the area makes a DC 12 Constitution save. On a failure, it is poisoned and takes 9 (2d8) poison damage at the start of each of its turns. At the end of each of its turns, it can repeat the save to end the effect.",
+        "Spore-borne offspring": "An eligible creature that dies while infected by the chief’s spores produces new Vegepygmies as described under Russet Mold in the Vegepygmy profile.",
+        "Printed source": "Volo's Guide to Monsters, p. 197."
+      }
+    }
+  },
+  {
+    "name": "War Priest",
+    "statBlock": {
+      "name": "War Priest",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 218,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 18,
+      "hp": 117,
+      "hitDice": "18d8 + 36",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A devotee of a war deity who plans battles, leads soldiers, counters hostile spellcasters, and tends to the wounded.",
+      "savingThrows": {
+        "Con": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Intimidation": 5,
+        "Religion": 4
+      },
+      "sections": {
+        "Languages": "Any two languages.",
+        "Armor": "Plate armor.",
+        "Spellcasting": "A 9th-level cleric spellcaster using Wisdom (spell save DC 15, +7 to hit with spell attacks).\nCantrips (at will). Light, Mending, Sacred Flame, Spare the Dying.\n1st level (4 slots). Divine Favor, Guiding Bolt, Healing Word, Shield of Faith.\n2nd level (3 slots). Lesser Restoration, Magic Weapon, Prayer of Healing, Silence, Spiritual Weapon.\n3rd level (3 slots). Beacon of Hope, Crusader's Mantle, Dispel Magic, Revivify, Spirit Guardians, Water Walk.\n4th level (3 slots). Banishment, Freedom of Movement, Guardian of Faith, Stoneskin.\n5th level (1 slot). Flame Strike, Mass Cure Wounds, Hold Monster.",
+        "Actions": "Multiattack. Make two melee attacks.\nMaul. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage.",
+        "Reactions": "Guided Strike (recharges after a short or long rest). After the priest or another creature within 30 ft. rolls an attack, the priest can grant +10 to the roll before the hit or miss is determined.",
+        "Printed source": "Volo's Guide to Monsters, p. 218."
+      }
+    }
+  },
+  {
+    "name": "Warlock of the Archfey",
+    "statBlock": {
+      "name": "Warlock of the Archfey",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 219,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 11,
+      "hp": 49,
+      "hitDice": "11d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A pact with a lord of the Feywild gives this warlock magic. It may keep company with boggles, quicklings, redcaps, satyrs, or sprites.",
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 2,
+        "Deception": 6,
+        "Nature": 2,
+        "Persuasion": 6
+      },
+      "sections": {
+        "Languages": "Any two languages (usually Sylvan).",
+        "Condition immunities": "Charmed.",
+        "Innate Spellcasting": "The warlock uses Charisma to cast these spells (spell save DC 15) without material components.\nAt will. Disguise Self, Mage Armor (self only), Silent Image, Speak with Animals.\n1/day. Conjure Fey.",
+        "Spellcasting": "An 11th-level warlock spellcaster using Charisma (spell save DC 14, +6 to hit with spell attacks). It regains all spent slots after a short or long rest.\nCantrips (at will). Dancing Lights, Eldritch Blast, Friends, Mage Hand, Minor Illusion, Prestidigitation, Vicious Mockery.\n1st–5th level (3 5th-level slots). Blink, Charm Person, Dimension Door, Dominate Beast, Faerie Fire, Fear, Hold Monster, Misty Step, Phantasmal Force, Seeming, Sleep.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Reactions": "Misty Escape (recharges after a short or long rest). When the warlock takes damage, it becomes invisible and teleports up to 60 ft. to a visible, unoccupied space. It stays invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.",
+        "Printed source": "Volo's Guide to Monsters, p. 219."
+      }
+    }
+  },
+  {
+    "name": "Warlock of the Fiend",
+    "statBlock": {
+      "name": "Warlock of the Fiend",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 219,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An archfiend of the Lower Planes grants this warlock power. Imps or quasits sometimes serve as companions. The warlock may aid fiendish cults or hunt them down.",
+      "savingThrows": {
+        "Wis": 4,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 4,
+        "Deception": 7,
+        "Persuasion": 7,
+        "Religion": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Any two languages (usually Abyssal or Infernal).",
+        "Damage resistances": "Slashing damage from nonmagical attacks, unless the attack uses a silvered weapon.",
+        "Innate Spellcasting": "The warlock uses Charisma to cast these spells (spell save DC 15) without material components.\nAt will. Alter Self, False Life, Levitate (self only), Mage Armor (self only), Silent Image.\n1/day each. Feeblemind, Finger of Death, Plane Shift.",
+        "Spellcasting": "A 17th-level warlock spellcaster using Charisma (spell save DC 15, +7 to hit with spell attacks). It regains all spent slots after a short or long rest.\nCantrips (at will). Eldritch Blast, Fire Bolt, Friends, Mage Hand, Minor Illusion, Prestidigitation, Shocking Grasp.\n1st–5th level (4 5th-level slots). Banishment, Burning Hands, Flame Strike, Hellish Rebuke, Magic Circle, Scorching Ray, Scrying, Stinking Cloud, Suggestion, Wall of Fire.",
+        "Traits": "Dark One's Own Luck (recharges after a short or long rest). After making an ability check or saving throw, the warlock can add 1d10 to the roll before any of its effects occur.",
+        "Actions": "Mace. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 219."
+      }
+    }
+  },
+  {
+    "name": "Warlock of the Great Old One",
+    "statBlock": {
+      "name": "Warlock of the Great Old One",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 220,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This warlock draws power from a distant eldritch being. It might work alongside aberrations and cultists or investigate the harm its patron has caused.",
+      "savingThrows": {
+        "Wis": 4,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Any two languages, telepathy 30 ft.",
+        "Damage resistances": "Psychic.",
+        "Innate Spellcasting": "The warlock uses Charisma to cast these spells (spell save DC 15) without material components.\nAt will. Detect Magic, Jump, Levitate, Mage Armor (self only), Speak with Dead.\n1/day each. Arcane Gate, True Seeing.",
+        "Spellcasting": "A 14th-level warlock spellcaster using Charisma (spell save DC 15, +7 to hit with spell attacks). It regains all spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Eldritch Blast, Guidance, Mage Hand, Minor Illusion, Prestidigitation, Shocking Grasp.\n1st–5th level (3 5th-level slots). Armor of Agathys, Arms of Hadar, Crown of Madness, Clairvoyance, Contact Other Plane, Detect Thoughts, Dimension Door, Dissonant Whispers, Dominate Beast, Telekinesis, Vampiric Touch.",
+        "Traits": "Whispering Aura. If the warlock is not incapacitated, at the start of each of its turns it chooses creatures within 5 ft. Each chosen creature makes a DC 15 Wisdom save, taking 10 (3d6) psychic damage on a failure.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 220."
+      }
+    }
+  },
+  {
+    "name": "Warlord",
+    "statBlock": {
+      "name": "Warlord",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 220,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 18,
+      "hp": 229,
+      "hitDice": "27d8 + 108",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This renowned commander can rally devoted followers and might turn a run of victories into an army command or a claim to the throne.",
+      "savingThrows": {
+        "Str": 9,
+        "Dex": 7,
+        "Con": 8
+      },
+      "skills": {
+        "Athletics": 9,
+        "Intimidation": 8,
+        "Perception": 5,
+        "Persuasion": 8
+      },
+      "sections": {
+        "Languages": "Any two languages.",
+        "Armor": "Plate armor.",
+        "Traits": "Indomitable (3/day). The warlord can reroll a failed saving throw and must use the new result.\nSurvivor. At the start of its turn, the warlord regains 10 hit points if it has at least 1 hit point and is below half its hit point maximum.",
+        "Actions": "Multiattack. Make two weapon attacks.\nGreatsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage.\nShortbow. Ranged weapon attack, +7 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Legendary actions": "The warlord has three legendary actions and regains spent actions at the start of its turn. Use one option at the end of another creature’s turn.\nWeapon Attack (1 action). Make one weapon attack.\nCommand Ally (1 action). Choose an ally the warlord can see within 30 ft. If it can see and hear the warlord, the ally can use its reaction to make one weapon attack with advantage.\nFrighten Foe (2 actions). Choose a visible enemy within 30 ft. If the enemy can see and hear the warlord, it must succeed on a DC 16 Wisdom save or be frightened until the end of the warlord’s next turn.",
+        "Printed source": "Volo's Guide to Monsters, p. 220."
+      }
+    }
+  }
+]

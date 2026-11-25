@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Hammerskull",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 11. No listed skills, languages, or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A slate-blue and green bipedal herbivore with a thick plated head, small forelimbs, and a sturdy tail.",
+    "habitats": [
+      "Ixalan plains",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), pp. 28–29. \nUses Giant Goat from the 2014 Monster Manual, p. 326. https://www.dndbeyond.com/monsters/16885-giant-goat",
+      "Traits": "Charge. After moving straight toward a target at least 20 ft., the hammerskull adds 5 (2d4) bludgeoning damage if it hits that target with Ram on the same turn. A creature hit this way must pass a DC 13 Strength save or fall prone.\nSure-Footed. Roll with advantage on Strength and Dexterity saves against effects that would knock the hammerskull prone.",
+      "Actions": "Ram. +5 to hit in melee, reach 5 ft., one target. The hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "At the table": "Use the Giant Goat’s numbers with the hammerskull’s plated head. The Charge damage applies on the hit. Only a creature rolls the save against being knocked prone."
+    }
+  },
+  {
+    "name": "Horned Frog",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 18,
+    "hitDice": "4d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2, Stealth +3. Darkvision 30 ft. Passive Perception 12. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "An oversized, broad-mouthed frog with two short peaks above the eyes, mottled olive skin, and webbed feet.",
+    "habitats": [
+      "Ixalan marshes",
+      "Rainforest wetlands"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 39. \nUses Giant Frog from the 2014 Monster Manual, p. 325. https://www.dndbeyond.com/monsters/16884-giant-frog",
+      "Traits": "Amphibious. The horned frog breathes both air and water.\nStanding Leap. Its long jump can reach 20 ft. and its high jump 10 ft. It needs no running start for either.",
+      "Actions": "Bite. +3 to hit in melee, reach 5 ft., one target. On a hit, deal 4 (1d6 + 1) piercing damage and grapple the target (escape DC 11). The target is restrained while the grapple lasts, and the frog cannot use Bite against another target in that time.\nSwallow. Make a Bite attack against one Small or smaller creature the frog is grappling. A hit swallows the target and ends the grapple. While swallowed, the target is blinded and restrained and has total cover from attacks and other effects originating outside the frog. At the start of each of the frog’s turns, the target takes 5 (2d4) acid damage. The frog can hold one swallowed creature at a time. If the frog dies, the creature is no longer restrained and can spend 5 ft. of movement to emerge from the corpse, prone.",
+      "At the table": "The Bite grapple and restraint start on a hit. The size limit applies to Swallow, which requires its own successful Bite attack against a creature the frog already holds."
+    }
+  },
+  {
+    "name": "Macaw",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A broad tropical bird with a curved dark beak, a pale cheek patch, muted brick-red and blue plumage, and a long tapering tail.",
+    "habitats": [
+      "Ixalan rainforest canopy",
+      "Riverbank clay licks",
+      "Coastal clay licks"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 39. \nUses Raven from the 2014 Monster Manual, p. 335. https://www.dndbeyond.com/monsters/16992-raven",
+      "Traits": "Mimicry. The bird can imitate simple sounds it has heard, including snippets of humanoid voices. A listener who succeeds on a DC 10 Wisdom (Insight) check can tell it is an imitation.",
+      "Actions": "Beak. +4 to hit in melee, reach 5 ft., one target. The hit deals a fixed 1 piercing damage.",
+      "At the table": "Use the printed Raven’s Tiny size and 50-ft. flight speed. The Ixalan account describes birds imitating travelers’ voices, and the Raven’s Mimicry rule gives the check to recognize the imitation."
+    }
+  },
+  {
+    "name": "Parrot",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A colorful jungle bird with a curved dark beak, a pale cheek patch, muted red and olive feathers, and a long tapered tail.",
+    "habitats": [
+      "Ixalan rainforest canopy",
+      "Riverbank clay licks",
+      "Coastal clay licks"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 39. \nUses Raven from the 2014 Monster Manual, p. 335. https://www.dndbeyond.com/monsters/16992-raven",
+      "Traits": "Mimicry. The bird can imitate simple sounds it has heard, including snippets of humanoid voices. A listener who succeeds on a DC 10 Wisdom (Insight) check can tell it is an imitation.",
+      "Actions": "Beak. +4 to hit in melee, reach 5 ft., one target. The hit deals a fixed 1 piercing damage.",
+      "At the table": "Use the printed Raven’s Tiny size and 50-ft. flight speed. The Ixalan account describes birds imitating travelers’ voices, and the Raven’s Mimicry rule gives the check to recognize the imitation."
+    }
+  },
+  {
+    "name": "Piranha",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 8. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A small, round-bodied freshwater fish with silvery scales, a muted rusty belly, a forked tail, and sharp teeth.",
+    "habitats": [
+      "Great River",
+      "Great River tributaries",
+      "Freshwater rivers",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 40. \nUses Quipper from the 2014 Monster Manual, p. 335. https://www.dndbeyond.com/monsters/16989-quipper",
+      "Traits": "Blood Frenzy. The piranha has advantage on melee attacks against creatures below their hit point maximum.\nWater Breathing. The piranha breathes only underwater.",
+      "Actions": "Bite. +5 to hit in melee, reach 5 ft., one target. The hit deals a fixed 1 piercing damage.",
+      "At the table": "Use the individual Quipper for this entry. The Swarm of Piranhas has a separate block based on the Swarm of Quippers."
+    }
+  }
+]

@@ -1,0 +1,245 @@
+{
+  "new": {},
+  "added": [
+    {
+      "entry": "monster-74545654acdc2f3d2745de22",
+      "version": "63e2ff25e56229cc085eca12",
+      "name": "Grick",
+      "file": "images/monsters/shared-portraits-148/grick-alpha-e0bc9aa77285.png",
+      "sha256": "e0bc9aa77285a0589bb68da779f838b483bf5e70256dbd091fd34f6da9fb862b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Grick (2014 portrait)"
+    },
+    {
+      "entry": "monster-fe6bf5f2a867ec1ae472552e",
+      "version": "9f8fa5eb2ebb7af6156ed4e5",
+      "name": "Phase Spider",
+      "file": "images/monsters/phase-spider/batch-151-portrait.png",
+      "sha256": "8aac8e92603aaed9f8ccaf8683eb54703e7974e1b6f6eb5a2e70d807d81657ac",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Phase Spider (2014 portrait)"
+    },
+    {
+      "entry": "monster-fa9e5b754f074d8894497110",
+      "version": "7f1eff03df36cbd4147059ab",
+      "name": "Roper",
+      "file": "images/monsters/roper/batch-150-portrait.png",
+      "sha256": "8a332f9b2a89586b135a5c46ca3d15a0b30ac3ea114e3aba34db268db0323d63",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Roper (2014 portrait)"
+    },
+    {
+      "entry": "monster-5dfe99ebc9df1bfe4ce75aea",
+      "version": "0abfaf72c4cb69c1dc7436eb",
+      "name": "Darkmantle",
+      "file": "images/monsters/darkmantle/batch-151-portrait.png",
+      "sha256": "9f0cfc3684e0c959804e7d63dd9d41b08fc9955f0a33b53cc6ac230e1a891f71",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Darkmantle (2014 portrait)"
+    },
+    {
+      "entry": "monster-36b3e6fbcc518aae66b919ba",
+      "version": "ee61e227f21bb0f9ce287dc3",
+      "name": "Cloud Giant",
+      "file": "images/monsters/shared-portraits-147/cloud-giant-optional-actions-604c3fc7ce16.png",
+      "sha256": "604c3fc7ce16b82545fb6616787a854936b4c5c4c94ef9acea687024720ff77c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Cloud Giant (2014 portrait)"
+    },
+    {
+      "entry": "monster-0fd546d169d80b25bd2c8fc3",
+      "version": "65597b12f631ff384602406f",
+      "name": "Fire Giant",
+      "file": "images/monsters/shared-portraits-148/fire-giant-optional-actions-bafcd68566d1.png",
+      "sha256": "bafcd68566d1746035ecbcc1ddaa87d990acee2cb80580781931f3783f0f7bd3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Fire Giant (2014 portrait)"
+    },
+    {
+      "entry": "monster-51359acf674565146c0e3bd1",
+      "version": "168583a7a7fd4e27e647d5bc",
+      "name": "Frost Giant",
+      "file": "images/monsters/shared-portraits-148/frost-giant-optional-actions-1ea02d8257b7.png",
+      "sha256": "1ea02d8257b71e6b314c77c42019680090c52361469251099d5ef66c0abeaf7a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Frost Giant (2014 portrait)"
+    },
+    {
+      "entry": "monster-d7e2b47677ea42deb814097f",
+      "version": "9a957c3a62f9e76c88427350",
+      "name": "Hill Giant",
+      "file": "images/monsters/shared-portraits-147/hill-giant-optional-actions-c4de51f9ade7.png",
+      "sha256": "c4de51f9ade749d4f55ade83e1c6dbf15546dc45e2d77b5a03082672c2a0749b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Hill Giant (2014 portrait)"
+    },
+    {
+      "entry": "monster-366ce73d96725dff6c7322c4",
+      "version": "528cb4a9290e017820c8fa6e",
+      "name": "Stone Giant",
+      "file": "images/monsters/shared-portraits-147/stone-giant-optional-actions-e8a34ce39a2b.png",
+      "sha256": "e8a34ce39a2bfc5b7af1b9273d2cb903fa6899ebe9be893b3a4eeaa62d1bdcff",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Stone Giant (2014 portrait)"
+    },
+    {
+      "entry": "monster-761339d582921d4c70552924",
+      "version": "28e2a36a815dc96b9ec3f3b9",
+      "name": "Storm Giant",
+      "file": "images/monsters/shared-portraits-148/storm-giant-optional-actions-ce8a96b637cb.png",
+      "sha256": "ce8a96b637cb5c690aa8f675ff6461fb2152e805080c20548d59f21772da2607",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Storm Giant (2014 portrait)"
+    },
+    {
+      "entry": "monster-ed2617b17cd354617b764e0f",
+      "version": "00ebeb7de7e288289f96229a",
+      "name": "Barbed Devil",
+      "file": "images/monsters/barbed-devil-summoner/parchment-portrait.webp",
+      "sha256": "d1b1db67464668122475c8356bcfea9c5b5051008c9d960197811fd4cc923df4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Barbed Devil (2014 portrait)"
+    },
+    {
+      "entry": "monster-46f7c880b64d8e9fab142512",
+      "version": "0a60d2b6e19d4dee295232a3",
+      "name": "Bearded Devil",
+      "file": "images/monsters/bearded-devil-summoner/parchment-portrait.webp",
+      "sha256": "f73c1f6fdd8f3b7ccf135e2d57da9e92374909bf423462414c52b9a587b2d7e3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Bearded Devil (2014 portrait)"
+    },
+    {
+      "entry": "monster-6f9864083a3241d7d0e5451c",
+      "version": "942f9c9548da6ceb7e2b5546",
+      "name": "Chain Devil",
+      "file": "images/monsters/chain-devil/batch-150-portrait.png",
+      "sha256": "950bf75fd35420435648ecae3f63521fede067561862a21259acb6c8279d68a4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Chain Devil (2014 portrait)"
+    },
+    {
+      "entry": "monster-5565d1121045ae915c356ca5",
+      "version": "8f6dd0fe5722958c730276d6",
+      "name": "Lemure",
+      "file": "images/monsters/devil-lemure/parchment-portrait.webp",
+      "sha256": "4bd4c5be7e22881bc9e1edd537918d7bf070dc045f62d2a9dc9c09c7c760c4fe",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Lemure (2014 portrait)"
+    },
+    {
+      "entry": "monster-4ba8ea9de054114e0db40470",
+      "version": "b1791175968d0c9a2d504c5b",
+      "name": "Grimlock",
+      "file": "images/monsters/shared-portraits-148/grimlock-0577e62576f7.png",
+      "sha256": "0577e62576f77d0f2a047640acc71408f5b9f46332657284b5e3d42fec0108dc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Grimlock (2014 portrait)"
+    },
+    {
+      "entry": "monster-37c2a9d664e9b4dcea784cd7",
+      "version": "f442be5705acee5036cd2a36",
+      "name": "Ancient Brass Dragon",
+      "file": "images/monsters/adult-brass-dragon/batch-149-portrait.png",
+      "sha256": "a414234cc51f7d7600bbe41fc368dc351bf214b2d3753b06f4ce25af059e0760",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ancient Brass Dragon (2014 portrait)"
+    },
+    {
+      "entry": "monster-0e0814d2855de0466bc65b88",
+      "version": "69b3fc901a1df4a3e8e1e204",
+      "name": "Ancient Bronze Dragon",
+      "file": "images/monsters/adult-bronze-dragon/batch-149-portrait.png",
+      "sha256": "e7b18c582ddbe106d5dccfc4948a071e1d0112a227668a221abdc3b5aa837f8c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ancient Bronze Dragon (2014 portrait)"
+    },
+    {
+      "entry": "monster-497a8716aef7c78f8ed2339a",
+      "version": "e2a1aa0736c4bfb23dcf734c",
+      "name": "Ancient Copper Dragon",
+      "file": "images/monsters/adult-copper-dragon/batch-149-portrait.png",
+      "sha256": "d76dcae8cf2068fee744b0084a5db01a3a8ca9f33776f1ec2a4d53e9a3b457c8",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ancient Copper Dragon (2014 portrait)"
+    },
+    {
+      "entry": "monster-000674d515cf3a6b9ae65bd4",
+      "version": "d15b7e3d2d92226f6e2a099f",
+      "name": "Ancient Gold Dragon",
+      "file": "images/monsters/adult-gold-dragon/batch-149-portrait.png",
+      "sha256": "d8acc026f4cea2e467e98b4bf424735187107118381db0f43668ccc5b45ad36a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ancient Gold Dragon (2014 portrait)"
+    },
+    {
+      "entry": "monster-7983ed8e30ab95b20c77a8a5",
+      "version": "d2de9ebd711a03e5e2fba9c8",
+      "name": "Ancient Silver Dragon",
+      "file": "images/monsters/adult-silver-dragon/batch-149-portrait.png",
+      "sha256": "029853120c328c04d9d5ae9be1cfaa937838b9a262112547c63143a388fd60ee",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ancient Silver Dragon (2014 portrait)"
+    },
+    {
+      "entry": "monster-a8798b348c11b3bf3a717b54",
+      "version": "b17f3f3bf10d1448629c0ee0",
+      "name": "Young Black Dragon",
+      "file": "images/monsters/adult-black-dragon/batch-149-portrait.png",
+      "sha256": "d154947fdce4f4497601e24738494627fa7f8ce120a6c2c940bcb3e60d8902f2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Young Black Dragon (2014 portrait)"
+    },
+    {
+      "entry": "monster-922f70c4b0a89f20db7ddcfe",
+      "version": "49710ee8dee8f12c18978c3c",
+      "name": "Young Blue Dragon",
+      "file": "images/monsters/adult-blue-dragon/batch-149-portrait.png",
+      "sha256": "4fcfcaa3afb777d887b9afadb45da30e5e9d68f77db8241dffffb02fa42a639a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Young Blue Dragon (2014 portrait)"
+    },
+    {
+      "entry": "monster-3d021907291287ea906d5fdd",
+      "version": "910eb687f1ca1f7ff283cfa1",
+      "name": "Young Green Dragon",
+      "file": "images/monsters/adult-green-dragon/batch-149-portrait.png",
+      "sha256": "7192442bcadf2e75e59fb98fba0029b245912134c44cd16e18725bbfef7dce3f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Young Green Dragon (2014 portrait)"
+    },
+    {
+      "entry": "monster-552c321aaebc567d5157f13c",
+      "version": "b81336c53594a1287c08f1c3",
+      "name": "Merrow",
+      "file": "images/monsters/merfolk-merrow/parchment-portrait.webp",
+      "sha256": "ee4ef2d5ebf24233ef68ff1e175c6416e478a58ace87931a5a2bf03e52da576c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Merrow (2014 portrait)"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+[
+  {
+    "name": "Stegosaurus",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC from natural armor. Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy four-legged dinosaur with a small head, two rows of raised plates on its back, and long spikes on its elevated tail.",
+    "habitats": [
+      "Chult jungle",
+      "Chultan wilderness"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, First printing, September 2017, printed p. 231, p. 232. https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+      "Actions": "Tail. Melee weapon attack, +7 to hit against one target within 10 ft. A hit deals 26 (6d6 + 5) piercing damage.",
+      "Encounter notes": "Stegosaurs travel in mixed-age herds. The lone animal in Appendix B is curious and approaches. It swipes with its tail if anyone touches it."
+    }
+  },
+  {
+    "name": "Velociraptor",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 10,
+    "hitDice": "3d4 + 3",
+    "speed": "30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "AC from natural armor. Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A turkey-sized, feathered dinosaur with a narrow toothy head, two long clawed hind legs, feathered forelimbs and a long tail.",
+    "habitats": [
+      "Chult jungle",
+      "Beaches",
+      "Ruins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, First printing, September 2017, printed p. 235, p. 236. https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+      "Traits": "Pack Tactics. When an ally within 5 ft. of the target is not incapacitated, attack rolls against that creature have advantage.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit against one creature within 5 ft. A hit deals 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) slashing damage.",
+      "Encounter notes": "The Appendix B ambush uses a pack of 3d6 velociraptors. Roll one Dexterity (Stealth) check with advantage for the pack. A character whose passive Perception equals or exceeds the roll is not surprised."
+    }
+  },
+  {
+    "name": "Wild Dog",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A lean wild canid with tall rounded ears, long legs, and irregular charcoal, ochre and cream patches.",
+    "habitats": [
+      "Omu ruins",
+      "Omu walled compound",
+      "Open woodland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, First printing, September 2017, printed p. 96, p. 97. https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city Uses Jackal, Monster Manual (2014), printed p. 331. https://www.dndbeyond.com/monsters/16936-jackal",
+      "Traits": "Keen Hearing and Smell. Wisdom (Perception) checks that depend on hearing or smell have advantage.\nPack Tactics. When an ally within 5 ft. of the target is not incapacitated, attack rolls against that creature have advantage.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit against one target within 5 ft. A hit deals 1 (1d4 - 1) piercing damage.",
+      "Encounter notes": "Six wild dogs feed on a body in the Walled Compound. The dogs leave characters alone while they keep their distance."
+    }
+  },
+  {
+    "name": "Zebra",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact equine with black and pale stripes, a short upright mane, rounded ears and a thin tufted tail.",
+    "habitats": [
+      "Savanna",
+      "Open grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, First printing, September 2017, printed p. 106, p. 107. https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city Uses Riding Horse, Monster Manual (2014), printed p. 336. https://www.dndbeyond.com/monsters/16997-riding-horse",
+      "Actions": "Hooves. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "Encounter notes": "Wongo’s Shrine gives the Zebra the Riding Horse statistics. When the shrine masks deliver their curse, anyone who looked through one in the last hour makes a DC 15 Constitution save. A failed save transforms the viewer into the animal on the last mask they used, as polymorph. The curse ends after 24 hours.",
+      "Base-stat erratum": "First-print Monster Manual p. 336 gives Hooves +2 to hit for the Riding Horse. The official errata had corrected it to +5 by 2016. The 2017 Zebra reference uses the corrected Riding Horse block."
+    }
+  }
+]

@@ -3,6 +3,7 @@ export const libraryTypes = {
   monsters: 'Monsters',
   beasts: 'Beasts',
   species: 'Playable species',
+  npcs: 'NPCs',
   rules: 'Rules',
   ideas: 'Encounter ideas',
 } as const

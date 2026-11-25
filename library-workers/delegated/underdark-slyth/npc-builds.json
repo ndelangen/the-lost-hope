@@ -1,0 +1,130 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 3 (1 class HD, LA +2).",
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Normal vision.",
+      "speed": "30 ft.; swim 30 ft. in amorphous form",
+      "id": "slyth-reedstone-sluice-keeper-35e",
+      "title": "Slyth sluice keeper, Druid 1",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "languages": "Common, Undercommon, Aquan, Druidic",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Concentration +6",
+        "Disguise +4",
+        "Escape Artist +7",
+        "Handle Animal +4",
+        "Heal +7",
+        "Knowledge (nature) +7",
+        "Survival +13"
+      ],
+      "traits": [
+        "Neutral good. Leather armor +2 and Dexterity +3. Touch 13, flat-footed 12. BAB +0, grapple +0. Fortitude +4, Reflex +3, Will +5.",
+        "Alternate Form (Su). Enter amorphous form as a standard action. It gives a 30-ft. swim speed and passage through openings as small as 2 inches in diameter. Return to normal form with a full-round action that does not provoke.",
+        "In amorphous form all worn and carried equipment melds and magic items stop functioning. Material and natural armor cease to apply. Dexterity, any effective deflection bonus, and armor from force effects can apply.",
+        "In amorphous form the Slyth cannot attack, be flanked, or be stunned, and is immune to critical hits. Other supernatural abilities stop. Spells with verbal, somatic, material, or focus components cannot be cast.",
+        "The form lasts up to 10 minutes per class level. After returning to normal, wait as long as the actual time spent in amorphous form before changing again.",
+        "Water Breathing (Ex) allows indefinite breathing underwater. Immunities (Ex) cover polymorphing and poison. Sonic resistance 5.",
+        "Armor is AC 15 in normal form and AC 13 in amorphous form, with touch 13 and flat-footed 10 in amorphous form.",
+        "Nature Sense adds +2 to Knowledge (nature) and Survival. Combat Casting adds +4 to Concentration when casting defensively or while grappled or pinned. Wild empathy +1. No animal companion is present in this encounter."
+      ],
+      "actions": [
+        "Quarterstaff +0 melee with one end for 1d6 bludgeoning, critical ×2. Use it in normal form.",
+        "Druid spells prepared, CL 1. Cantrips are create water, guidance, and light. First-level spells are cure light wounds for 1d8+1 healing and entangle (Reflex DC 14, vegetation required). These prepared spells require components, so cast them only in normal form.",
+        "At one class level, plan for a maximum of 10 minutes in amorphous form. After a six-minute swim through the grate, return to normal in a space large enough to stand and wait six minutes before shifting again."
+      ],
+      "tactics": "Plip follows the flooded channel through the grate to reach the sluice release from the other side. She returns to normal form before working the release or casting."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 3 (1 class HD, LA +2).",
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Normal vision.",
+      "speed": "30 ft.; swim 30 ft. in amorphous form",
+      "id": "slyth-stonewake-seep-vault-scout-35e",
+      "title": "Slyth seep-vault scout, Wizard 1",
+      "ac": 13,
+      "hp": 6,
+      "hitDice": "1d4+2",
+      "initiative": 7,
+      "languages": "Common, Undercommon, Aquan, Gnome, Terran",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 16,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Concentration +6",
+        "Disguise +3",
+        "Escape Artist +7",
+        "Knowledge (arcana) +7",
+        "Knowledge (dungeoneering) +7",
+        "Knowledge (local) +7",
+        "Spellcraft +7",
+        "Survival +6"
+      ],
+      "traits": [
+        "Neutral. Unarmored, Dexterity +3. Touch 13, flat-footed 10. BAB +0, grapple −1. Fortitude +2, Reflex +3, Will +4. Improved Initiative adds +4. Scribe Scroll is the Wizard bonus feat.",
+        "Alternate Form (Su). Enter amorphous form as a standard action. It gives a 30-ft. swim speed and passage through openings as small as 2 inches in diameter. Return to normal form with a full-round action that does not provoke.",
+        "In amorphous form all worn and carried equipment melds and magic items stop functioning. Material and natural armor cease to apply. Dexterity, any effective deflection bonus, and armor from force effects can apply.",
+        "In amorphous form the Slyth cannot attack, be flanked, or be stunned, and is immune to critical hits. Other supernatural abilities stop. Spells with verbal, somatic, material, or focus components cannot be cast.",
+        "The form lasts up to 10 minutes per class level. After returning to normal, wait as long as the actual time spent in amorphous form before changing again.",
+        "Water Breathing (Ex) allows indefinite breathing underwater. Immunities (Ex) cover polymorphing and poison. Sonic resistance 5.",
+        "With mage armor already active, AC is 17 in either form, touch 13 and flat-footed 14. Without it, AC is 13 in either form."
+      ],
+      "actions": [
+        "Light crossbow +3 for 1d8 piercing, critical 19–20/×2, range increment 80 ft. The crossbow cannot be used in amorphous form.",
+        "Wizard spells prepared, CL 1. Cantrips are detect magic, light, and mage hand. First-level spells are mage armor (+4 force armor for 1 hour) and grease (Reflex DC 14, duration 1 round). Cast only in normal form because each requires components.",
+        "Cast mage armor before shifting. After three minutes scouting the seep, return using a full-round action in the vault and wait three minutes before shifting again."
+      ],
+      "tactics": "Murra checks the seep opening before the party forces the vault door. Cast mage armor in advance and use amorphous form for the swim. Return to normal before using a spell or crossbow."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Slyth",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Underdark (2003)",
+      "name": "Plip Reedstone",
+      "build": "slyth-reedstone-sluice-keeper-35e",
+      "role": "Sluice keeper and Druid.",
+      "motive": "Reach the submerged release without trapping the party on the wrong side.",
+      "hook": "Plip knows where the grate leaves an opening into the release chamber."
+    },
+    {
+      "species": "Slyth",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Underdark (2003)",
+      "name": "Murra Stonewake",
+      "build": "slyth-stonewake-seep-vault-scout-35e",
+      "role": "Seep-vault scout and Wizard.",
+      "motive": "Check whether the seep route opens into a safe vault.",
+      "hook": "Murra found a narrow break in the submerged masonry."
+    }
+  ]
+}

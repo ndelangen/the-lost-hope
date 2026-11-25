@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Drake, Light",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 260–261",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Drake, Light",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Tiny Dragon",
+      "ac": 12,
+      "hp": 26,
+      "speed": "20 ft., fly 60 ft.",
+      "cr": "1/2",
+      "abilities": {
+        "Str": {
+          "modifier": -2
+        },
+        "Dex": {
+          "modifier": 2
+        },
+        "Con": {
+          "modifier": 1
+        },
+        "Int": {
+          "modifier": -1
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Perception 13, Stealth 12. Vulnerable to necrotic damage. Resistant to radiant damage. Darkvision 60 ft. Languages Common and Draconic.",
+      "description": "These cave drakes cover themselves in shiny trinkets, sleep in heaps for warmth, and hunt undead that stray into their territory.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str -2, Dex +2, Con +1, Int -1, Wis +1, Cha +2",
+        "Traits": "Reflective Scales. A light source within 5 ft. of the drake sheds bright light and dim light 10 ft. farther than usual. If the drake wears or carries an object lit by Daylight, light within 10 ft. of the drake counts as sunlight.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nBreath Weapon (recharge 6). Each creature in a 30-ft.-long, 5-ft.-wide line makes a DC 13 Dexterity save. Failure deals 5 (2d4) radiant damage and Blinds the creature for 1 minute. Success halves the damage and prevents the condition. A Blinded creature can repeat a DC 13 Constitution save at the end of each of its turns to end the effect.",
+        "Spellcasting": "Charisma, save DC 12, no material components. At will: Dancing Lights, Light. Three times per day each: Color Spray, Faerie Fire.",
+        "Familiar variant": "A willing companion can form a magical telepathic bond with the drake. The companion can perceive through the drake’s senses within 1 mile of it. Within 10 ft. of the drake, the companion gains Sacred Flame and uses the higher of its own save DC and the drake’s. The drake can leave at any time and end the bond.",
+        "Printed source": "Chapter 8, pp. 260–261"
+      }
+    }
+  },
+  {
+    "name": "Far Trader",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 264–265",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Far Trader",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Aberration",
+      "ac": 14,
+      "hp": 62,
+      "speed": "30 ft.",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "modifier": 1
+        },
+        "Dex": {
+          "modifier": 2
+        },
+        "Con": {
+          "modifier": 4
+        },
+        "Int": {
+          "modifier": 3
+        },
+        "Wis": {
+          "modifier": 5
+        },
+        "Cha": {
+          "modifier": 6
+        }
+      },
+      "otherStatistics": "Studded leather. Perception 15, Stealth 12. Vulnerable to radiant damage and resistant to necrotic damage. Darkvision 120 ft. Speaks all languages.",
+      "description": "Far traders sail the Astral Sea to sell luxury goods and magic-infused stones. Their hidden home port is the black-rock city of Far Spire.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +1, Dex +2, Con +4, Int +3, Wis +5, Cha +6",
+        "Traits": "Astral Seafarer. Proficient with airships and waterborne vessels. Add its proficiency bonus to checks to control such a vessel and grant advantage on saves made aboard.\nEthereal Sight. See 60 ft. across the boundary between the Material and Ethereal Planes from either side.\nFar Traveler. Advantage on saves against environmental dangers such as Void terrain and infernal gases.\nPhrenic Weapons. Its weapon attacks are magical and add 2d4 psychic damage on a hit, included below.\nRegeneration. Regain 2 HP at the start of each turn. Fire or radiant damage disables this trait at the start of its next turn. The trader dies only if it starts a turn at 0 HP and fails to regenerate.\nTrader’s Eye. Advantage on Intelligence (Investigation) checks to spot defective or counterfeit goods and on Wisdom (Insight) checks to catch someone trying to sell those goods.",
+        "Actions": "Multiattack. Make two Scimitar or Psychic Bolt attacks. The trader can replace one with Spellcasting.\nScimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage plus 5 (2d4) psychic damage.\nPsychic Bolt. Ranged spell attack, +6 to hit, range 120 ft., one target. Hit 9 (2d4 + 4) psychic damage.",
+        "Spellcasting": "Charisma, save DC 14. At will: Message, Minor Illusion. Three times per day each: Disguise Self, Suggestion.",
+        "Bonus Actions": "Etherealness. Switch between the Material and Ethereal Planes. The trader remains visible from the other plane, but cannot affect or be affected by anything there.\nTrader’s Jargon. One creature the trader can see within 30 ft. makes a DC 14 Charisma save. On a failure, it is vulnerable to psychic damage until the end of its next turn.",
+        "Printed source": "Chapter 8, pp. 264–265"
+      }
+    }
+  },
+  {
+    "name": "Ghoul, Bone",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 267–268",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Ghoul, Bone",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Undead",
+      "ac": 13,
+      "hp": 110,
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "modifier": 3
+        },
+        "Dex": {
+          "modifier": 6
+        },
+        "Con": {
+          "modifier": 0
+        },
+        "Int": {
+          "modifier": 0
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Perception 15, Stealth 16. Resistant to radiant damage. Immune to poison damage, Exhaustion, Charmed, and Poisoned. Darkvision 60 ft. Language Common.",
+      "description": "A green skeleton shines through the flesh of this Void-warped ghoul. It hunts in daylight, where it is invisible, and takes shelter after dark.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +6, Con +0, Int +0, Wis +2, Cha -1",
+        "Traits": "Corrupted Radiance. At the start of the ghoul’s turn, each creature within 10 ft. makes a DC 15 Constitution save. On a failure, it takes 2 (1d4) radiant damage and is Poisoned until the start of the ghoul’s next turn.\nHungry Dead Nature. The ghoul needs no air or sleep. If it goes 24 hours without eating 2 lb. of raw meat, it loses Exhaustion immunity and risks starvation until it eats that amount. If starvation has already given it Exhaustion, it cannot remove those levels until it eats at least 4 lb. of raw meat.\nPhosphorescent. Invisible in bright light. Stealth 10 in dim light or darkness.\nSpider Climb. Climb difficult surfaces and ceilings without an ability check.\nUndead Resilience. Immune to poison damage, Exhaustion, and Poisoned.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks. When the Bite and at least one Claw hit the same target other than a Construct or Undead, that target makes a DC 14 Constitution save or contracts Ghoul Hunger.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage plus 5 (2d4) radiant damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 8 (2d4 + 3) slashing damage plus 5 (2d4) radiant damage. A creature other than a Construct or Undead also makes a DC 14 Constitution save or is Poisoned for 1 minute. While Poisoned by this attack, it takes 2 (1d4) radiant damage at the start of each turn. It can repeat the save at the end of each of its turns to end the effect.",
+        "Bonus Actions": "Startling Lunge. Choose a visible creature within 15 ft. and move up to 15 ft. toward it without provoking opportunity attacks. If the ghoul moves within 5 ft. of the target, it makes a DC 14 Wisdom save. Failure gives the ghoul advantage on its next attack roll against that target before the end of the ghoul’s next turn.",
+        "Ghoul Hunger": "The Block references the Monster Vault sidebar. As a table fallback, the published Black Flag Roleplaying Reference Document v0.1 disease makes the infected creature Poisoned until cured. Eating any Humanoid flesh suppresses that condition for 1 hour. Every 12 hours, make a DC 13 Constitution save with disadvantage if the creature ate Humanoid flesh while infected. Failure lowers maximum HP by 7 (2d6) until a long rest after the cure, and maximum HP 0 kills it. Two successful saves cure the disease. After two failures or death while infected, it becomes a ghoul, or an ashrat if its proficiency bonus is +4 or higher. Wish or magic of similar strength can undo the transformation.",
+        "Printed source": "Chapter 8, pp. 267–268"
+      },
+      "ruleNotes": [
+        "The book says the disease is triggered if both attacks hit, although Multiattack lists three attacks. This summary treats a Bite and at least one Claw against the same target as the two required hits. The separate disease text is a labeled reference-document fallback."
+      ]
+    }
+  },
+  {
+    "name": "Ratatosk",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 275",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Ratatosk",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Tiny Celestial",
+      "ac": 14,
+      "hp": 82,
+      "speed": "20 ft., climb 20 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "modifier": -3
+        },
+        "Dex": {
+          "modifier": 4
+        },
+        "Con": {
+          "modifier": 1
+        },
+        "Int": {
+          "modifier": 3
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": 6
+        }
+      },
+      "otherStatistics": "Perception 12, Stealth 16. Resistant to radiant damage and to bludgeoning, piercing, and slashing from nonmagical attacks. Darkvision 60 ft. Languages Celestial and Common, telepathy 100 ft.",
+      "description": "A tusked squirrel-like celestial that once carried messages between the gods and now uses secrets to start arguments.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str -3, Dex +4, Con +1, Int +3, Wis +2, Cha +6",
+        "Traits": "Celestial Resilience. Resistant to radiant damage and to bludgeoning, piercing, and slashing from nonmagical attacks.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.",
+        "Actions": "Multiattack. Make two Gore or Annoying Chitter attacks. The ratatosk can replace one with Spellcasting or Divisive Chatter if available.\nGore. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 6 (1d4 + 4) piercing damage plus 7 (2d6) psychic damage.\nAnnoying Chitter. Ranged spell attack, +6 to hit, range 60 ft., one target. Hit 14 (3d6 + 4) psychic damage.\nDivisive Chatter (recharge 5–6). Choose up to four creatures the ratatosk can see within 30 ft. Each makes a DC 14 Charisma save. On a failure, it spends its action each turn arguing with an ally, complaining about an ally, or otherwise showing displeasure toward an ally over a trivial matter for 1 minute. It can repeat the save at the end of each of its turns to end the effect.",
+        "Spellcasting": "Charisma, save DC 14, no material or somatic components. At will: Animal Messenger, Message. Three times per day each: Sending, Suggestion.",
+        "Bonus Actions": "Skitter. Dash or Hide.",
+        "Reactions": "Desperate Lies. When a visible creature targets the ratatosk with an attack, the ratatosk points to another creature within 5 ft. of itself and lies. The attacker must pass a DC 14 Wisdom save or attack the creature it pointed to instead.",
+        "Printed source": "Chapter 8, p. 275"
+      }
+    }
+  },
+  {
+    "name": "Spawn of Nidhogg",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 278",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Spawn of Nidhogg",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Monstrosity",
+      "ac": 14,
+      "hp": 82,
+      "speed": "30 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "modifier": 2
+        },
+        "Dex": {
+          "modifier": 6
+        },
+        "Con": {
+          "modifier": 1
+        },
+        "Int": {
+          "modifier": -1
+        },
+        "Wis": {
+          "modifier": 4
+        },
+        "Cha": {
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 13, Stealth 16. Resistant to Exhaustion and Frightened. Immune to necrotic and poison damage and to Poisoned. Darkvision 120 ft. Languages Common, Draconic, and Void Speech.",
+      "description": "These snake-bodied servants of Nidhogg feed on the drowned dead at the foot of the World Tree and gnaw at its roots.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +6, Con +1, Int -1, Wis +4, Cha +0",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMonstrosity Resilience. Resistant to Exhaustion and Frightened.\nNidhogg’s Blessing. Gain 9 (2d8) temporary HP on reducing a hostile creature to 0 HP.\nStench. A creature that starts its turn within 10 ft. of the spawn makes a DC 14 Constitution save. On a failure it is Poisoned until the start of its next turn. On a success it is immune to the Stench of all spawn of Nidhogg for 1 hour.",
+        "Actions": "Multiattack. Make two Bite attacks, or one Bite and one Constrict.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 6 (1d4 + 4) piercing damage plus 10 (3d6) poison damage.\nConstrict. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 13 (2d8 + 4) bludgeoning damage. A Medium or smaller creature is Grappled (escape DC 14) and Restrained until it escapes. The spawn cannot Constrict another target until that grapple ends.\nRotten Breath (recharge 5–6). Each creature in a 30-ft. cone makes a DC 14 Constitution save. Failure deals 13 (3d8) necrotic damage plus 10 (3d6) poison damage and Poisons it for 1 minute. Success halves the damage and prevents the condition. A creature Poisoned by the breath can repeat the save at the end of each of its turns to end the condition. Nonmagical plants in the cone wither and die. Plant creatures and magical plants save with disadvantage and take maximum damage.",
+        "Reactions": "Slithering Pursuit. When a hostile creature the spawn can see within 30 ft. moves, the spawn can move up to half its speed toward it without provoking opportunity attacks.",
+        "Printed source": "Chapter 8, p. 278"
+      }
+    }
+  },
+  {
+    "name": "Void Mite",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 282–283",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Void Mite",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Tiny Aberration (Void)",
+      "ac": 10,
+      "hp": 7,
+      "speed": "20 ft., burrow 10 ft., climb 20 ft.",
+      "cr": "0",
+      "abilities": {
+        "Str": {
+          "modifier": -4
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 0
+        },
+        "Int": {
+          "modifier": -5
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": -4
+        }
+      },
+      "otherStatistics": "Perception 12, Stealth 14. Resistant to Charmed, Frightened, Paralyzed, and Stunned. Immune to necrotic damage. Keensense 10 ft. No languages.",
+      "description": "A small pest that burrows through stone, eats whatever it finds, and can interfere with a nearby spell.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str -4, Dex +0, Con +0, Int -5, Wis +2, Cha -4",
+        "Traits": "Aberrant Resilience. Resistant to Charmed, Frightened, Paralyzed, and Stunned. Advantage on saves against spells and effects that change its form.\nSpider Climb. Climb difficult surfaces and ceilings without an ability check.\nTunneler. Burrow through solid rock at half burrowing speed and leave a tunnel 1 inch wide.",
+        "Actions": "Obliterating Bite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d4) necrotic damage. The target cannot regain HP until the start of the mite’s next turn.",
+        "Reactions": "Dampen Spell. When a creature the mite can see within 10 ft. casts a spell, the caster makes a DC 12 Constitution save. If it fails, the spell fails and the casting action is spent. The spell slot or daily use is retained.",
+        "Printed source": "Chapter 8, pp. 282–283"
+      },
+      "ruleNotes": [
+        "The stat header lists Aberrant Resilience under both resistance and immunity. The trait grants condition resistance and advantage against form changes. The only explicit immunity is to necrotic damage."
+      ]
+    }
+  },
+  {
+    "name": "Void Mite, Swarm of Void Mites",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 283",
+    "notes": "This encounter uses the Black Flag Roleplaying printing.",
+    "statBlock": {
+      "name": "Void Mite, Swarm of Void Mites",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Swarm of Tiny Aberrations (Void)",
+      "ac": 14,
+      "hp": 180,
+      "speed": "40 ft., burrow 30 ft., climb 30 ft.",
+      "cr": "10",
+      "abilities": {
+        "Str": {
+          "modifier": 2
+        },
+        "Dex": {
+          "modifier": 4
+        },
+        "Con": {
+          "modifier": 4
+        },
+        "Int": {
+          "modifier": -5
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": -4
+        }
+      },
+      "otherStatistics": "Perception 12, Stealth 22. Resistant to bludgeoning, piercing, and slashing. Immune to necrotic damage, Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, and Stunned. Keensense 60 ft. No languages.",
+      "description": "A mass of mites develops a shared awareness and projects its hunger into nearby creatures. It can devour flesh, stone, and spells.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +4, Con +4, Int -5, Wis +2, Cha -4",
+        "Traits": "Aberrant Swarm Resilience. Resistant to bludgeoning, piercing, and slashing. Immune to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, and Stunned. Advantage on saves against spells and effects that change its form.\nDriving Hunger. A creature that starts its turn in the swarm’s space or within 10 ft. of it makes a DC 16 Constitution save. On a failure, it must spend a bonus action on its next turn eating or searching for food.\nSwarm. Creatures can occupy the swarm’s space and it can occupy theirs. It can pass through any opening that admits a Tiny mite. It cannot regain HP or gain temporary HP.\nSpider Climb. Climb difficult surfaces and ceilings without an ability check.\nTunneler. Burrow through solid rock at half burrowing speed and leave a tunnel 5 ft. wide.",
+        "Actions": "Multiattack. Make two Obliterating Bites attacks.\nObliterating Bites. Melee weapon attack, +8 to hit, reach 0 ft., one target in the swarm’s space. Hit 27 (6d8) necrotic damage plus 14 (4d6) force damage. At half the swarm’s maximum HP or fewer, use 13 (3d8) necrotic damage plus 7 (2d6) force damage instead. The target cannot regain HP until the start of the swarm’s next turn. A creature or object reduced to 0 HP by this attack dies and turns to fine gray dust. The creature’s worn or carried items survive.",
+        "Reactions": "Devour Spell. When a creature the swarm can see within 60 ft. casts a spell, the caster makes a DC 16 Constitution save. On a failure, it takes 10 (3d6) force damage and the spell fails, using up both the casting action and the spell slot or daily use. On a success, the damage is halved and the spell proceeds.",
+        "Printed source": "Chapter 8, p. 283"
+      }
+    }
+  }
+]

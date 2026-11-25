@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Giant Bat",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      355
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195012-giant-bat",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195012-giant-bat",
+    "byline": "Monster Manual, pg. 355",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195012-giant-bat",
+    "sourceDistinctions": [
+      "The modern block has 120-ft. Blindsight and no separate Echolocation or Keen Hearing trait.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ]
+  },
+  {
+    "name": "Giant Boar",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      355
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195013-giant-boar",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195013-giant-boar",
+    "byline": "Monster Manual, pg. 355",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195013-giant-boar",
+    "sourceDistinctions": [
+      "Strength save is +5. The charge effects happen on a qualifying hit without a saving throw.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ],
+    "supportingRules": [
+      {
+        "heading": "Bloodied",
+        "url": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Bloodied"
+      }
+    ]
+  },
+  {
+    "name": "Giant Centipede",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      355
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195014-giant-centipede",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195014-giant-centipede",
+    "byline": "Monster Manual, pg. 355",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195014-giant-centipede",
+    "sourceDistinctions": [
+      "The modern Poisoned rider applies on the hit. It gives no separate save, poison damage, paralysis or 0-HP stabilization rider.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ]
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      355
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake",
+    "byline": "Monster Manual, pg. 355",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake",
+    "sourceDistinctions": [
+      "Constrict uses a Strength save and applies Grappled on a failure. There is no additional Restrained condition or explicit one-target cap.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ]
+  },
+  {
+    "name": "Giant Crab",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      356
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/4775818-giant-crab",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/4775818-giant-crab",
+    "byline": "Monster Manual, pg. 356",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/4775818-giant-crab",
+    "sourceDistinctions": [
+      "The roster monster URL lists Monster Manual p. 356, and the publisher also reproduces the matching stat block in its 2024 Basic Rules. The row uses the Monster Manual byline. The 5etools index additionally points to the 2024 Player’s Handbook p. 350 as a secondary cross-reference.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ],
+    "supportingRules": [
+      {
+        "heading": "Giant Crab, matching 2024 Basic Rules web block",
+        "url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#GiantCrab"
+      }
+    ]
+  }
+]

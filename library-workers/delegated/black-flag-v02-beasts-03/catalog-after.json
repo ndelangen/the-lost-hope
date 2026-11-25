@@ -1,0 +1,3791 @@
+[
+  {
+    "name": "Saber-Toothed Tiger",
+    "version": {
+      "key": "8c08735b8482d303d31c325a",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "63"
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "arctic",
+            "hill",
+            "mountain"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A muscular, heavy-shouldered cat with long curved saber teeth and a thick tan coat."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +6 to hit · reach 5 ft. · 1d10 + 4 piercing",
+            "Claws · melee · +6 to hit · reach 5 ft. · 2d4 + 4 slashing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Heightened Smell · Use Perception 18 when relying on smell.",
+            "Pounce · Move at least 20 ft. straight toward a creature and hit it with Claws on the same turn. It makes a DC 14 STR save or falls prone. The tiger can then use a bonus action to make one Claws attack against the prone creature."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Multiattack · Make one Bite and one Claws attack.",
+            "Bite · A hit forces a DC 14 DEX save. On failure the target suffers a puncture wound and loses 5 (1d10) HP at the start of each of its turns. A creature can spend an action and pass a DC 12 WIS (Medicine) check to stop the bleeding. Magical healing also closes it."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 16. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR +4, DEX +2, CON +2, INT -4, WIS +1, CHA -1.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 372–373."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Heightened Smell · Use Perception 18 when relying on smell.": [
+          {
+            "start": 23,
+            "end": 33,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Pounce · Move at least 20 ft. straight toward a creature and hit it with Claws on the same turn. It makes a DC 14 STR save or falls prone. The tiger can then use a bonus action to make one Claws attack against the prone creature.": [
+          {
+            "start": 132,
+            "end": 137,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          },
+          {
+            "start": 214,
+            "end": 219,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Bite · A hit forces a DC 14 DEX save. On failure the target suffers a puncture wound and loses 5 (1d10) HP at the start of each of its turns. A creature can spend an action and pass a DC 12 WIS (Medicine) check to stop the bleeding. Magical healing also closes it.": [
+          {
+            "start": 195,
+            "end": 203,
+            "target": {
+              "name": "Medicine",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-0bb91ce850f85fc64573be0c",
+                "version": "PHB:178:https://5e.tools/skills.html#medicine_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 16. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "arctic": true,
+      "A muscular, heavy-shouldered cat with": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "portraitHash": "aaa36d1e4f31303023f9b194f9b263ab625229962d28424d91326c9de1a3e05e"
+  },
+  {
+    "name": "Scorpion Insect",
+    "version": {
+      "key": "8779398bb005e104a5156b39",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Scorpion illustration by Michele Giorgi · Monster Manual (2024) · Black Flag Roleplaying Reference Document v0.2"
+        },
+        {
+          "url": "",
+          "credit": "Related Scorpion token · Monster Manual (2014) · Black Flag Roleplaying Reference Document v0.2"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "8"
+        ],
+        [
+          "Challenge",
+          "0"
+        ],
+        [
+          "Size",
+          "Tiny"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 10 ft."
+        ],
+        [
+          "Armor class notes",
+          "natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "desert"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A small segmented scorpion with paired pincers and a curved tail tipped with a sting."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "keensense 10 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "poison"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Sting · melee · +2 to hit · reach 5 ft. · 1d4 piercing"
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Sting · After the piercing hit, the target makes a DC 10 CON save or takes an extra 2 (1d4) poison damage."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 9 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR -4, DEX +0, CON -1, INT -5, WIS -1, CHA -4.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.",
+            "Keensense perceives the surroundings within its listed radius without relying on sight.",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 361."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 9 and Stealth 12. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 61,
+            "end": 68,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ],
+        "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.": [
+          {
+            "start": 13,
+            "end": 21,
+            "target": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          },
+          {
+            "start": 37,
+            "end": 46,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "desert": true,
+      "A small segmented scorpion with": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Scorpion illustration by Michele Giorgi · Monster Manual (2024) · Black Flag Roleplaying Reference Document v0.2"
+      },
+      {
+        "url": "",
+        "credit": "Related Scorpion token · Monster Manual (2014) · Black Flag Roleplaying Reference Document v0.2"
+      }
+    ],
+    "portraitHash": "b937f3b86b2bd76cc6bcfaa35cd4521f841b41302747b25c0d6db06241410f3e"
+  },
+  {
+    "name": "Swarm of Bats",
+    "version": {
+      "key": "8a47389ffe6795b14a3f899d",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "14"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Swarm of Tiny Beasts"
+        ],
+        [
+          "Speed",
+          "walk 0 ft., fly 30 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "forest",
+            "mountain",
+            "underdark",
+            "urban"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A dense flight of small bats with membranous wings and pointed ears."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "keensense 60 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "prone",
+            "restrained",
+            "stunned"
+          ]
+        },
+        {
+          "title": "Attack options",
+          "lines": [
+            "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 7 HP or fewer."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bites · melee · +4 to hit · 2d6 piercing or 1d6 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Cacophonous Swarm · A creature casting a spell with a verbal component in the swarm’s space makes a DC 12 CON save. On failure the spell fails and consumes the casting action. The slot or daily use remains available.",
+            "Echolocation · Keensense does not work while deafened.",
+            "Heightened Hearing · Use Perception 16 when relying on hearing.",
+            "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny bat. Cannot regain HP or gain temporary HP."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 11 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR -3, DEX +2, CON +0, INT -4, WIS +1, CHA -3.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Vulnerable to deafened. The beast has disadvantage on checks and saves to avoid or end that condition.",
+            "Resistant to blinded. The beast has advantage on checks and saves to avoid or end that condition.",
+            "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+            "Keensense perceives the surroundings within its listed radius without relying on sight.",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 352–353."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "charmed": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "grappled": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "paralyzed": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "petrified": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Petrified",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+              "local": {
+                "entry": "compendium-48610e3ace37764a7f7e9029",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+              }
+            }
+          }
+        ],
+        "prone": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "restrained": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "stunned": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stunned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              }
+            }
+          }
+        ],
+        "Echolocation · Keensense does not work while deafened.": [
+          {
+            "start": 45,
+            "end": 53,
+            "target": {
+              "name": "Deafened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot hear and automatically fail checks that require hearing.",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing · Use Perception 16 when relying on hearing.": [
+          {
+            "start": 25,
+            "end": 35,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 11 and Stealth 14. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ],
+        "Vulnerable to deafened. The beast has disadvantage on checks and saves to avoid or end that condition.": [
+          {
+            "start": 14,
+            "end": 22,
+            "target": {
+              "name": "Deafened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot hear and automatically fail checks that require hearing.",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              }
+            }
+          },
+          {
+            "start": 38,
+            "end": 50,
+            "target": {
+              "name": "Disadvantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the lower roll.",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Resistant to blinded. The beast has advantage on checks and saves to avoid or end that condition.": [
+          {
+            "start": 13,
+            "end": 20,
+            "target": {
+              "name": "Blinded",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+              }
+            }
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "forest": true,
+      "A dense flight of small": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "portraitHash": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda"
+  },
+  {
+    "name": "Swarm of Insects",
+    "version": {
+      "key": "4755087a3a32c55aaccc5905",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "24"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Swarm of Tiny Beasts"
+        ],
+        [
+          "Speed",
+          "walk 20 ft., climb 20 ft."
+        ],
+        [
+          "Armor class notes",
+          "natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "desert",
+            "forest",
+            "grassland",
+            "hill",
+            "swamp",
+            "underdark",
+            "urban"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A mass of tiny crawling insects with glossy shells, jointed legs and antennae."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "keensense 10 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "prone",
+            "restrained",
+            "stunned"
+          ]
+        },
+        {
+          "title": "Attack options",
+          "lines": [
+            "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 12 HP or fewer."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bites · melee · +3 to hit · 4d4 piercing or 2d4 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Crawling Swarm · A creature casting a spell with a somatic component in the swarm’s space makes a DC 11 CON save. On failure the spell fails and consumes the casting action. The slot or daily use remains available.",
+            "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny insect. Cannot regain HP or gain temporary HP."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 8 and Stealth 11. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR -4, DEX +1, CON +0, INT -5, WIS -2, CHA -5.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+            "Keensense perceives the surroundings within its listed radius without relying on sight.",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 362."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "charmed": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "grappled": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "paralyzed": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "petrified": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Petrified",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+              "local": {
+                "entry": "compendium-48610e3ace37764a7f7e9029",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+              }
+            }
+          }
+        ],
+        "prone": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "restrained": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "stunned": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stunned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              }
+            }
+          }
+        ],
+        "Crawling Swarm · A creature casting a spell with a somatic component in the swarm’s space makes a DC 11 CON save. On failure the spell fails and consumes the casting action. The slot or daily use remains available.": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Crawling",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-0290238f4141bd2398e7779b",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#crawling_xphb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 8 and Stealth 11. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 61,
+            "end": 68,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "desert": true,
+      "A mass of tiny crawling": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "portraitHash": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952"
+  },
+  {
+    "name": "Swarm of Poisonous Snakes",
+    "version": {
+      "key": "48049ae9489d65520641f6fe",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "14"
+        ],
+        [
+          "Hit points",
+          "48"
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Swarm of Tiny Beasts"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., swim 30 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "coastal",
+            "desert",
+            "forest",
+            "grassland",
+            "hill",
+            "swamp"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A tangled mass of thin venomous snakes with overlapping coils and raised heads."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "keensense 10 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "poison",
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "prone",
+            "restrained",
+            "stunned"
+          ]
+        },
+        {
+          "title": "Attack options",
+          "lines": [
+            "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 24 HP or fewer."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bites · melee · +6 to hit · 4d4 piercing or 2d4 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Poisonous Swarm · A creature starting its turn in the swarm’s space must make a DC 14 CON save or be poisoned until the start of its next turn.",
+            "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny snake. Cannot regain HP or gain temporary HP."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Bites · After the piercing hit, the target makes a separate DC 14 CON save for 18 (4d8) poison damage on failure or half on success. The swarm’s HP threshold changes only the piercing damage."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 10 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR -1, DEX +4, CON +0, INT -5, WIS +0, CHA -4.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.",
+            "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+            "Keensense perceives the surroundings within its listed radius without relying on sight.",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 371."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "charmed": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "grappled": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "paralyzed": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "petrified": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Petrified",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+              "local": {
+                "entry": "compendium-48610e3ace37764a7f7e9029",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+              }
+            }
+          }
+        ],
+        "prone": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "restrained": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "stunned": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stunned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              }
+            }
+          }
+        ],
+        "Poisonous Swarm · A creature starting its turn in the swarm’s space must make a DC 14 CON save or be poisoned until the start of its next turn.": [
+          {
+            "start": 101,
+            "end": 109,
+            "target": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 10 and Stealth 14. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ],
+        "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.": [
+          {
+            "start": 13,
+            "end": 21,
+            "target": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          },
+          {
+            "start": 37,
+            "end": 46,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "coastal": true,
+      "A tangled mass of thin": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      }
+    ],
+    "portraitHash": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe"
+  },
+  {
+    "name": "Swarm of Quippers",
+    "version": {
+      "key": "552c442a70d5d290ed781804",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "34"
+        ],
+        [
+          "Challenge",
+          "1"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Swarm of Tiny Beasts"
+        ],
+        [
+          "Speed",
+          "walk 0 ft., swim 40 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "underwater"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A tight school of small fish with blunt heads and rows of sharp teeth."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "prone",
+            "restrained",
+            "stunned"
+          ]
+        },
+        {
+          "title": "Attack options",
+          "lines": [
+            "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 17 HP or fewer."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bites · melee · +5 to hit · 4d8 piercing or 2d8 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Blood Frenzy · Melee attack rolls have advantage against creatures below maximum HP.",
+            "Heightened Smell · Use Perception 15 when relying on smell.",
+            "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny quipper. Cannot regain HP or gain temporary HP.",
+            "Water Breathing · Breathes only underwater."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Bites · After the piercing hit, the target makes a DC 13 DEX save. On failure it loses 4 (1d8) HP at the start of each of its turns. A creature can spend an action and pass a DC 10 WIS (Medicine) check to stop the bleeding. Magical healing also closes the wound."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 10 and Stealth 13. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR +1, DEX +3, CON +0, INT -5, WIS +0, CHA -4.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+            "The underwater tag is supported by the v0.2 Water Breathing trait and the Swarm of Piranhas habitat in Monster Manual (2024).",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 366."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "charmed": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "grappled": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "paralyzed": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "petrified": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Petrified",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+              "local": {
+                "entry": "compendium-48610e3ace37764a7f7e9029",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+              }
+            }
+          }
+        ],
+        "prone": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "restrained": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "stunned": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stunned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              }
+            }
+          }
+        ],
+        "Blood Frenzy · Melee attack rolls have advantage against creatures below maximum HP.": [
+          {
+            "start": 39,
+            "end": 48,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Heightened Smell · Use Perception 15 when relying on smell.": [
+          {
+            "start": 23,
+            "end": 33,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Water Breathing · Breathes only underwater.": [
+          {
+            "start": 0,
+            "end": 15,
+            "target": {
+              "name": "Water Breathing",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 287,
+              "description": "A level 3 transmutation spell.",
+              "local": {
+                "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Bites · After the piercing hit, the target makes a DC 13 DEX save. On failure it loses 4 (1d8) HP at the start of each of its turns. A creature can spend an action and pass a DC 10 WIS (Medicine) check to stop the bleeding. Magical healing also closes the wound.": [
+          {
+            "start": 186,
+            "end": 194,
+            "target": {
+              "name": "Medicine",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-0bb91ce850f85fc64573be0c",
+                "version": "PHB:178:https://5e.tools/skills.html#medicine_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 10 and Stealth 13. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ],
+        "The underwater tag is supported by the v0.2 Water Breathing trait and the Swarm of Piranhas habitat in Monster Manual (2024).": [
+          {
+            "start": 44,
+            "end": 59,
+            "target": {
+              "name": "Water Breathing",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 287,
+              "description": "A level 3 transmutation spell.",
+              "local": {
+                "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+              }
+            }
+          },
+          {
+            "start": 74,
+            "end": 91,
+            "target": {
+              "name": "Swarm of Piranhas",
+              "group": "Creatures",
+              "publication": "Plane Shift: Ixalan",
+              "page": 40,
+              "description": "A Medium beast with challenge rating 1. Named abilities include Blood Frenzy, Swarm, Water Breathing.",
+              "local": {
+                "entry": "compendium-3f2c3c5fe4665844bbbb14b7",
+                "version": "PSX:40:https://5e.tools/bestiary.html#swarm%20of%20piranhas_psx"
+              }
+            }
+          },
+          {
+            "start": 103,
+            "end": 110,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "underwater": true,
+      "A tight school of small": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      }
+    ],
+    "portraitHash": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d"
+  },
+  {
+    "name": "Swarm of Rats",
+    "version": {
+      "key": "3d06d99f60a01405687d2d75",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "10"
+        ],
+        [
+          "Hit points",
+          "14"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Swarm of Tiny Beasts"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., swim 30 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "forest",
+            "swamp",
+            "underdark",
+            "urban"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A tumbling mass of small rats with matted fur, round ears and nearly hairless tails."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "darkvision 30 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "prone",
+            "restrained",
+            "stunned"
+          ]
+        },
+        {
+          "title": "Attack options",
+          "lines": [
+            "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 7 HP or fewer."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bites · melee · +2 to hit · 2d6 piercing or 1d6 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Accustomed to Filth · Has advantage on saves against contracting diseases.",
+            "Heightened Smell · Use Perception 15 when relying on smell.",
+            "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny rat. Cannot regain HP or gain temporary HP."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Bites · A creature hit must make a DC 9 CON save. On failure, the GM chooses Rat Plague or poisoning until the end of the target’s next turn. The short poisoning option is complete in v0.2.",
+            "Rat Plague (v0.1 supplement) · If using the earlier publisher sidebar, the victim is poisoned and regains HP only by magic until cured. Repeat this bite’s CON save every 24 hours. Success cures the disease. Failure lowers maximum HP by 3 (1d6). The loss ends after a long rest once cured, and reaching 0 maximum HP kills the victim. Rats are immune to the disease’s effects."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 10 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR -1, DEX +0, CON -1, INT -4, WIS +0, CHA -4.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+            "The v0.2 Rat Plague option points to a Diseased Rats sidebar absent from this . The separately labeled supplement summarizes the publisher’s v0.1 sidebar. The v0.2 fallback is the listed short poisoning option.",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 367."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "darkvision 30 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "charmed": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "grappled": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "paralyzed": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "petrified": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Petrified",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+              "local": {
+                "entry": "compendium-48610e3ace37764a7f7e9029",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+              }
+            }
+          }
+        ],
+        "prone": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "restrained": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "stunned": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stunned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              }
+            }
+          }
+        ],
+        "Accustomed to Filth · Has advantage on saves against contracting diseases.": [
+          {
+            "start": 26,
+            "end": 35,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Heightened Smell · Use Perception 15 when relying on smell.": [
+          {
+            "start": 23,
+            "end": 33,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Rat Plague (v0.1 supplement) · If using the earlier publisher sidebar, the victim is poisoned and regains HP only by magic until cured. Repeat this bite’s CON save every 24 hours. Success cures the disease. Failure lowers maximum HP by 3 (1d6). The loss ends after a long rest once cured, and reaching 0 maximum HP kills the victim. Rats are immune to the disease’s effects.": [
+          {
+            "start": 85,
+            "end": 93,
+            "target": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 10 and Stealth 12. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "forest": true,
+      "A tumbling mass of small": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "portraitHash": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5"
+  },
+  {
+    "name": "Swarm of Ravens",
+    "version": {
+      "key": "f49dff7812f6a7c9c0cf5d5c",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "13"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Swarm of Tiny Beasts"
+        ],
+        [
+          "Speed",
+          "walk 10 ft., fly 50 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "hill",
+            "swamp",
+            "urban"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A flock of black ravens with heavy bills and widely spread, fingered wings."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "prone",
+            "restrained",
+            "stunned"
+          ]
+        },
+        {
+          "title": "Attack options",
+          "lines": [
+            "Beaks has 5 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 6 HP or fewer."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Beaks · melee · +4 to hit · reach 5 ft. · 2d8 piercing or 1d8 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Carrion Sense · Pinpoints carrion, dead creatures and Undead without Incorporeal Movement by scent within 60 ft.",
+            "Pilfering Swarm · A creature casting a spell with a material component in the swarm’s space makes a DC 12 DEX save. On failure the spell fails and consumes the casting action. The slot or daily use remains available. The ravens steal the component.",
+            "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny raven. Cannot regain HP or gain temporary HP."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR -2, DEX +2, CON -1, INT -4, WIS +1, CHA -1.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+            "Use the printed 5 ft. Beaks reach and apply the printed restriction that the target must be in the swarm’s space.",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 367–368."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "charmed": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "grappled": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "paralyzed": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "petrified": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Petrified",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+              "local": {
+                "entry": "compendium-48610e3ace37764a7f7e9029",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+              }
+            }
+          }
+        ],
+        "prone": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "restrained": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "stunned": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stunned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 12. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "hill": true,
+      "A flock of black ravens": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Rowan Holloway · Monster Manual (2024)"
+      }
+    ],
+    "portraitHash": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b"
+  },
+  {
+    "name": "War Horse",
+    "version": {
+      "key": "65fcc7f0b8d315e88dd30df5",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Warhorse illustration · Monster Manual (2024) · Black Flag Roleplaying Reference Document v0.2"
+        },
+        {
+          "url": "",
+          "credit": "Related Warhorse token · Monster Manual (2014) · Black Flag Roleplaying Reference Document v0.2"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "15"
+        ],
+        [
+          "Hit points",
+          "22"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 60 ft."
+        ],
+        [
+          "Armor class notes",
+          "scale mail barding"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "urban"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A strong riding horse with a broad chest, muscular legs and fitted metal barding."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Hooves · melee · +6 to hit · reach 5 ft. · 1d8 + 4 bludgeoning"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Trampling Charge · Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. It makes a DC 14 STR save or falls prone. The horse can then use a bonus action to make one Hooves attack against the prone creature."
+          ]
+        },
+        {
+          "title": "Reaction mechanics",
+          "lines": [
+            "Trained Shift · When an effect would knock the rider prone or dismount the rider, grant the rider advantage on the check or save to avoid it."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 11 and Stealth 11. Use Stealth instead of rolling when the creature hides.",
+            "Printed ability modifiers are STR +4, DEX +1, CON +1, INT -4, WIS +1, CHA -2.",
+            "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 359–360."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Trampling Charge · Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. It makes a DC 14 STR save or falls prone. The horse can then use a bonus action to make one Hooves attack against the prone creature.": [
+          {
+            "start": 143,
+            "end": 148,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          },
+          {
+            "start": 226,
+            "end": 231,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Reaction mechanics": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Reaction",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-a735155b57d286690d62c026",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#reaction_xphb"
+              }
+            }
+          }
+        ],
+        "Trained Shift · When an effect would knock the rider prone or dismount the rider, grant the rider advantage on the check or save to avoid it.": [
+          {
+            "start": 53,
+            "end": 58,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          },
+          {
+            "start": 98,
+            "end": 107,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 11 and Stealth 11. Use Stealth instead of rolling when the creature hides.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 62,
+            "end": 69,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Encounter",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 366,
+              "local": {
+                "entry": "compendium-174bae67209d62a4c0653d38",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#encounter_xphb"
+              }
+            }
+          },
+          {
+            "start": 63,
+            "end": 70,
+            "target": {
+              "name": "Monster",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-b4209f03e638437b4a2ff334",
+                "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "urban": true,
+      "A strong riding horse with": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Warhorse illustration · Monster Manual (2024) · Black Flag Roleplaying Reference Document v0.2"
+      },
+      {
+        "url": "",
+        "credit": "Related Warhorse token · Monster Manual (2014) · Black Flag Roleplaying Reference Document v0.2"
+      }
+    ],
+    "portraitHash": "7ded40bd2e7457833f9a02fb4298dcbb1fac17a4211c01811e384d066a7741ca"
+  }
+]

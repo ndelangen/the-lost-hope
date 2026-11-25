@@ -1,0 +1,520 @@
+[
+  {
+    "name": "Adult Brass Dragon",
+    "statBlock": {
+      "name": "Adult Brass Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 55,
+      "classification": "Huge dragon (metallic), chaotic good",
+      "ac": 18,
+      "hp": 172,
+      "hitDice": "15d12 + 75",
+      "speed": "40 ft., burrow 30 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 21,
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 6
+      },
+      "skills": {
+        "History": 7,
+        "Perception": 11,
+        "Persuasion": 8,
+        "Stealth": 5
+      },
+      "description": "This desert dragon favors conversation. Its lair hides mirages and refreshing water.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+10 (20).",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Desert.",
+        "Treasure": "Arcana.",
+        "Traits": "Legendary Resistance (3/day, or 4/day in its lair). When it fails a save, it can spend a use to succeed instead.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can replace one with either Sleep Breath or Scorching Ray through Spellcasting.\nRend. Melee attack, +11 to hit, reach 10 ft. Hit 17 (2d10 + 6) Slashing damage plus 4 (1d8) Fire damage.\nFire Breath (recharge 5–6). Each creature in a 60-ft. line that is 5 ft. wide makes a DC 18 Dexterity save. Failure deals 45 (10d8) Fire damage. Success halves the damage.\nSleep Breath. Each creature in a 60-ft. cone makes a DC 18 Constitution save. On failure, it is Incapacitated until the end of its next turn, when it repeats the save. On a second failure, it falls Unconscious for 10 minutes. Damage ends the unconsciousness, as does an action taken by a creature within 5 ft. to wake it.",
+        "Spellcasting": "Casting one of these spells takes an action. Charisma is the spellcasting ability (save DC 16). The spells require no Material components.\nAt will. Detect Magic, Minor Illusion, Scorching Ray, Shapechange, Speak with Animals.\n1/day each. Detect Thoughts, Control Weather.\nShapechange is limited to Beast and Humanoid forms. It grants no Temporary Hit Points, and maintaining it requires neither Concentration nor Temporary Hit Points.",
+        "Legendary actions": "It has 3 uses, or 4 in its lair. It can spend one use on one option immediately after another creature’s turn. It regains spent uses at the start of its turn. It cannot take legendary actions while Incapacitated or otherwise unable to act.\nBlazing Light. Cast Scorching Ray through Spellcasting.\nPounce. Move up to half its Speed and make one Rend attack.\nScorching Sands. One visible creature within 120 ft. makes a DC 16 Dexterity save. On failure, it takes 27 (6d8) Fire damage and its Speed is halved until the end of its next turn. The dragon must wait until the start of its next turn to choose this option again, regardless of the save result.",
+        "Lair resources": "The encounter is worth 11,500 XP in the lair. The dragon has 4 daily Legendary Resistance uses and 4 legendary action uses there.",
+        "Regional effects": "Mirages. While in the lair, the dragon can cast Major Image using the same spellcasting ability as its Spellcasting action and without Material components. The range is 1 mile, and it does not need to see where the illusion appears.\nRefreshing Water. Drinking water from within 1 mile of the lair grants 2d4 Temporary Hit Points. The dragon immediately learns that the drinker is present.\nBoth effects end immediately when the dragon dies or moves its lair.",
+        "Printed source": "Monster Manual (2024), pp. 55 and 56 for the stat block and regional effects."
+      }
+    }
+  },
+  {
+    "name": "Adult Bronze Dragon",
+    "statBlock": {
+      "name": "Adult Bronze Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 59,
+      "classification": "Huge dragon (metallic), lawful good",
+      "ac": 18,
+      "hp": 212,
+      "hitDice": "17d12 + 102",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 22,
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 7
+      },
+      "skills": {
+        "Insight": 7,
+        "Perception": 12,
+        "Stealth": 5
+      },
+      "description": "This coastal dragon breathes lightning. Around its lair, currents make swimming easier and the dragon can change the weather.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+10 (20).",
+        "Damage immunities": "Lightning.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Coastal.",
+        "Treasure": "Implements.",
+        "Traits": "Amphibious. It can breathe both air and water.\nLegendary Resistance (3/day, or 4/day in its lair). When it fails a save, it can spend a use to succeed instead.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can replace one with either Repulsion Breath or level 2 Guiding Bolt through Spellcasting.\nRend. Melee attack, +12 to hit, reach 10 ft. Hit 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage.\nLightning Breath (recharge 5–6). Each creature in a 90-ft. line that is 5 ft. wide makes a DC 19 Dexterity save. Failure deals 55 (10d10) Lightning damage. Success halves the damage.\nRepulsion Breath. Each creature in a 30-ft. cone makes a DC 19 Strength save. Failure pushes it up to 60 ft. directly away from the dragon and knocks it Prone.",
+        "Spellcasting": "Casting one of these spells takes an action. Charisma is the spellcasting ability (save DC 17, +10 to hit with spell attacks). The spells require no Material components.\nAt will. Detect Magic, Guiding Bolt (level 2), Shapechange, Speak with Animals, Thaumaturgy.\n1/day each. Detect Thoughts, Water Breathing.\nShapechange is limited to Beast and Humanoid forms. It grants no Temporary Hit Points, and maintaining it requires neither Concentration nor Temporary Hit Points.",
+        "Legendary actions": "It has 3 uses, or 4 in its lair. It can spend one use on one option immediately after another creature’s turn. It regains spent uses at the start of its turn. It cannot take legendary actions while Incapacitated or otherwise unable to act.\nGuiding Light. Cast level 2 Guiding Bolt through Spellcasting.\nPounce. Move up to half its Speed and make one Rend attack.\nThunderclap. Center a 20-ft.-radius sphere on a visible point within 90 ft. Each creature inside makes a DC 17 Constitution save. On failure, it takes 10 (3d6) Thunder damage and is Deafened until the end of its next turn.",
+        "Lair resources": "The encounter is worth 15,000 XP in the lair. The dragon has 4 daily Legendary Resistance uses and 4 legendary action uses there.",
+        "Regional effects": "Buoying Currents. Within 1 mile of the lair, swimming costs no extra movement for creatures without a Swim Speed.\nSun and Storms. While in the lair, the dragon can cast Control Weather using the same spellcasting ability as its Spellcasting action and without Material components. The spell affects weather out to 1 mile from the lair and works whether the dragon is indoors or outdoors.\nBoth effects end immediately when the dragon dies or moves its lair.",
+        "Printed source": "Monster Manual (2024), pp. 59 and 60 for the stat block and regional effects."
+      }
+    }
+  },
+  {
+    "name": "Adult Copper Dragon",
+    "statBlock": {
+      "name": "Adult Copper Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 79,
+      "classification": "Huge dragon (metallic), chaotic good",
+      "ac": 18,
+      "hp": 184,
+      "hitDice": "16d12 + 80",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 22,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Deception": 9,
+        "Perception": 12,
+        "Stealth": 6
+      },
+      "description": "This playful dragon dwells among hills. Nearby animals learn Draconic, and intruders can break into fits of laughter.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+11 (21).",
+        "Damage immunities": "Acid.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Hill.",
+        "Treasure": "Arcana.",
+        "Traits": "Legendary Resistance (3/day, or 4/day in its lair). When it fails a save, it can spend a use to succeed instead.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can replace one with either Slowing Breath or level 4 Mind Spike through Spellcasting.\nRend. Melee attack, +11 to hit, reach 10 ft. Hit 17 (2d10 + 6) Slashing damage plus 4 (1d8) Acid damage.\nAcid Breath (recharge 5–6). Each creature in a 60-ft. line that is 5 ft. wide makes a DC 18 Dexterity save. Failure deals 54 (12d8) Acid damage. Success halves the damage.\nSlowing Breath. Each creature in a 60-ft. cone makes a DC 18 Constitution save. On failure, its Speed is halved, it cannot take Reactions, and it must choose between taking an action and taking a Bonus Action on its turn. These effects last until the end of its next turn.",
+        "Spellcasting": "Casting one of these spells takes an action. Charisma is the spellcasting ability (save DC 17). The spells require no Material components.\nAt will. Detect Magic, Mind Spike (level 4), Minor Illusion, Shapechange.\n1/day each. Greater Restoration, Major Image.\nShapechange is limited to Beast and Humanoid forms. It grants no Temporary Hit Points, and maintaining it requires neither Concentration nor Temporary Hit Points.",
+        "Legendary actions": "It has 3 uses, or 4 in its lair. It can spend one use on one option immediately after another creature’s turn. It regains spent uses at the start of its turn. It cannot take legendary actions while Incapacitated or otherwise unable to act.\nGiggling Magic. One visible creature within 90 ft. makes a DC 17 Charisma save. On failure, it takes 24 (7d6) Psychic damage. Until the end of its next turn, it rolls and subtracts 1d6 from each ability check or attack roll it makes. The dragon must wait until the start of its next turn to choose this option again, regardless of the save result.\nMind Jolt. Cast level 4 Mind Spike through Spellcasting. The dragon cannot choose this option again until the start of its next turn.\nPounce. Move up to half its Speed and make one Rend attack.",
+        "Lair resources": "The encounter is worth 13,000 XP in the lair. The dragon has 4 daily Legendary Resistance uses and 4 legendary action uses there.",
+        "Regional effects": "Chatty Critters. Tiny Beasts within 6 miles of the lair can magically speak and understand Draconic.\nGiggle Fits. When a creature other than the dragon or one of its allies rolls a natural 1 on a D20 Test within 1 mile of the lair, it makes a DC 15 Wisdom save. Failure leaves it Incapacitated with laughter until the end of its next turn.\nBoth effects end immediately when the dragon dies or moves its lair.",
+        "Printed source": "Monster Manual (2024), pp. 79 and 80 for the stat block and regional effects."
+      }
+    }
+  },
+  {
+    "name": "Ancient Black Dragon",
+    "statBlock": {
+      "name": "Ancient Black Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 40,
+      "classification": "Gargantuan dragon (chromatic), chaotic evil",
+      "ac": 22,
+      "hp": 367,
+      "hitDice": "21d20 + 147",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 26,
+      "savingThrows": {
+        "Dex": 9,
+        "Wis": 9
+      },
+      "skills": {
+        "Perception": 16,
+        "Stealth": 9
+      },
+      "description": "This ancient dragon fouls the water around its swamp lair. Fog slows travelers as they approach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+16 (26).",
+        "Damage immunities": "Acid.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Swamp.",
+        "Treasure": "Relics.",
+        "Traits": "Amphibious. It can breathe both air and water.\nLegendary Resistance (4/day, or 5/day in its lair). When it fails a save, it can spend a use to succeed instead.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can replace one with level 4 Melf's Acid Arrow through Spellcasting.\nRend. Melee attack, +15 to hit, reach 15 ft. Hit 17 (2d8 + 8) Slashing damage plus 9 (2d8) Acid damage.\nAcid Breath (recharge 5–6). Each creature in a 90-ft. line that is 10 ft. wide makes a DC 22 Dexterity save. Failure deals 67 (15d8) Acid damage. Success halves the damage.",
+        "Spellcasting": "Casting one of these spells takes an action. Charisma is the spellcasting ability (save DC 21, +13 to hit with spell attacks). The spells require no Material components.\nAt will. Detect Magic, Fear, Melf's Acid Arrow (level 4).\n1/day each. Create Undead, Speak with Dead, Vitriolic Sphere (level 5).",
+        "Legendary actions": "It has 3 uses, or 4 in its lair. It can spend one use on one option immediately after another creature’s turn. It regains spent uses at the start of its turn. It cannot take legendary actions while Incapacitated or otherwise unable to act.\nCloud of Insects. One visible creature within 120 ft. makes a DC 21 Dexterity save. On failure, it takes 33 (6d10) Poison damage and has Disadvantage on saves to maintain Concentration until the end of its next turn. The dragon must wait until the start of its next turn to choose this option again, regardless of the save result.\nFrightful Presence. Cast Fear through Spellcasting. The dragon cannot choose this option again until the start of its next turn.\nPounce. Move up to half its Speed and make one Rend attack.",
+        "Lair resources": "The encounter is worth 41,000 XP in the lair. The dragon has 5 daily Legendary Resistance uses and 4 legendary action uses there.",
+        "Regional effects": "Acrid Haze. Foul fog leaves the area within 1 mile of the lair Lightly Obscured. Travel there takes twice as long for creatures other than the dragon and its allies.\nFoul Water. Water sources within 1 mile of the lair are magically polluted. A creature drinking that water makes a DC 15 Constitution save or becomes Poisoned for 1 hour.\nBoth effects end immediately when the dragon dies or moves its lair.",
+        "Printed source": "Monster Manual (2024), p. 40."
+      }
+    }
+  },
+  {
+    "name": "Ancient Blue Dragon",
+    "statBlock": {
+      "name": "Ancient Blue Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 50,
+      "classification": "Gargantuan dragon (chromatic), lawful evil",
+      "ac": 22,
+      "hp": 481,
+      "hitDice": "26d20 + 208",
+      "speed": "40 ft., burrow 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 27
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 27,
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 10
+      },
+      "skills": {
+        "Perception": 17,
+        "Stealth": 7
+      },
+      "description": "This dragon hunts amid dust and thunderstorms. Even the ground near its lair can give way beneath travelers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+14 (24).",
+        "Damage immunities": "Lightning.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Coastal, desert.",
+        "Treasure": "Relics.",
+        "Traits": "Legendary Resistance (4/day, or 5/day in its lair). When it fails a save, it can spend a use to succeed instead.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can replace one with level 3 Shatter through Spellcasting.\nRend. Melee attack, +16 to hit, reach 15 ft. Hit 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage.\nLightning Breath (recharge 5–6). Each creature in a 120-ft. line that is 10 ft. wide makes a DC 23 Dexterity save. Failure deals 88 (16d10) Lightning damage. Success halves the damage.",
+        "Spellcasting": "Casting one of these spells takes an action. Charisma is the spellcasting ability (save DC 22). The spells require no Material components.\nAt will. Detect Magic, Invisibility, Mage Hand, Shatter (level 3).\n1/day each. Scrying, Sending.",
+        "Legendary actions": "It has 3 uses, or 4 in its lair. It can spend one use on one option immediately after another creature’s turn. It regains spent uses at the start of its turn. It cannot take legendary actions while Incapacitated or otherwise unable to act.\nCloaked Flight. Cast Invisibility on itself through Spellcasting and can fly up to half its Fly Speed. The dragon cannot choose this option again until the start of its next turn.\nSonic Boom. Cast level 3 Shatter through Spellcasting. The dragon cannot choose this option again until the start of its next turn.\nTail Swipe. Make one Rend attack.",
+        "Lair resources": "The encounter is worth 62,000 XP in the lair. The dragon has 5 daily Legendary Resistance uses and 4 legendary action uses there.",
+        "Regional effects": "Sinkholes. When a creature other than the dragon or one of its allies finishes a Long Rest within 1 mile of the lair, roll 1d20. On a 1, a sinkhole opens under it. The creature must succeed on a DC 15 Dexterity save or fall 2d4 × 10 ft. into the hole.\nSpiteful Storms. Thunderstorms and dust devils leave the area within 1 mile of the lair Lightly Obscured.\nBoth effects end immediately when the dragon dies or moves its lair.",
+        "Printed source": "Monster Manual (2024), p. 50."
+      }
+    }
+  },
+  {
+    "name": "Ancient Green Dragon",
+    "statBlock": {
+      "name": "Ancient Green Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 154,
+      "classification": "Gargantuan dragon (chromatic), lawful evil",
+      "ac": 21,
+      "hp": 402,
+      "hitDice": "23d20 + 161",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 27,
+      "savingThrows": {
+        "Dex": 8,
+        "Wis": 10
+      },
+      "skills": {
+        "Deception": 13,
+        "Perception": 17,
+        "Persuasion": 13,
+        "Stealth": 8
+      },
+      "description": "This forest dragon uses small animals as spies. Ordinary plants make the air near its lair poisonous.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+15 (25).",
+        "Damage immunities": "Poison.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Forest.",
+        "Treasure": "Arcana.",
+        "Traits": "Amphibious. It can breathe both air and water.\nLegendary Resistance (4/day, or 5/day in its lair). When it fails a save, it can spend a use to succeed instead.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can replace one with level 5 Mind Spike through Spellcasting.\nRend. Melee attack, +15 to hit, reach 15 ft. Hit 17 (2d8 + 8) Slashing damage plus 10 (3d6) Poison damage.\nPoison Breath (recharge 5–6). Each creature in a 90-ft. cone makes a DC 22 Constitution save. Failure deals 77 (22d6) Poison damage. Success halves the damage.",
+        "Condition immunities": "Poisoned.",
+        "Spellcasting": "Casting one of these spells takes an action. Charisma is the spellcasting ability (save DC 21). The spells require no Material components.\nAt will. Detect Magic, Mind Spike (level 5).\n1/day each. Geas, Modify Memory.",
+        "Legendary actions": "It has 3 uses, or 4 in its lair. It can spend one use on one option immediately after another creature’s turn. It regains spent uses at the start of its turn. It cannot take legendary actions while Incapacitated or otherwise unable to act.\nMind Invasion. Cast level 5 Mind Spike through Spellcasting.\nNoxious Miasma. Center a 30-ft.-radius sphere on a visible point within 90 ft. Each creature inside makes a DC 21 Constitution save. On failure, it takes 17 (5d6) Poison damage and takes a −2 penalty to AC until the end of its next turn. The dragon must wait until the start of its next turn to choose this option again, regardless of the save result.\nPounce. Move up to half its Speed and make one Rend attack.",
+        "Lair resources": "The encounter is worth 50,000 XP in the lair. The dragon has 5 daily Legendary Resistance uses and 4 legendary action uses there.",
+        "Regional effects": "Beast Spies. Within 1 mile of the lair, Tiny Beasts can magically understand Draconic and communicate telepathically with the dragon.\nPoisonous Thicket. Ordinary plants poison the air within 1 mile of the lair. A creature other than the dragon or one of its allies that finishes a Long Rest in the area makes a DC 15 Constitution save or becomes Poisoned for 1 hour.\nBoth effects end immediately when the dragon dies or moves its lair.",
+        "Printed source": "Monster Manual (2024), p. 154."
+      }
+    }
+  },
+  {
+    "name": "Ancient Red Dragon",
+    "statBlock": {
+      "name": "Ancient Red Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 256,
+      "classification": "Gargantuan dragon (chromatic), chaotic evil",
+      "ac": 22,
+      "hp": 507,
+      "hitDice": "26d20 + 234",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 27
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 26,
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 9
+      },
+      "skills": {
+        "Perception": 16,
+        "Stealth": 7
+      },
+      "description": "This dragon rules a lair surrounded by extreme heat and drifting ash.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+14 (24).",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Hill, mountain.",
+        "Treasure": "Any.",
+        "Traits": "Legendary Resistance (4/day, or 5/day in its lair). When it fails a save, it can spend a use to succeed instead.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can replace one with level 3 Scorching Ray through Spellcasting.\nRend. Melee attack, +17 to hit, reach 15 ft. Hit 19 (2d8 + 10) Slashing damage plus 10 (3d6) Fire damage.\nFire Breath (recharge 5–6). Each creature in a 90-ft. cone makes a DC 24 Dexterity save. Failure deals 91 (26d6) Fire damage. Success halves the damage.",
+        "Spellcasting": "Casting one of these spells takes an action. Charisma is the spellcasting ability (save DC 23, +15 to hit with spell attacks). The spells require no Material components.\nAt will. Command (level 2), Detect Magic, Scorching Ray (level 3).\n1/day each. Fireball (level 6), Scrying.",
+        "Legendary actions": "It has 3 uses, or 4 in its lair. It can spend one use on one option immediately after another creature’s turn. It regains spent uses at the start of its turn. It cannot take legendary actions while Incapacitated or otherwise unable to act.\nCommanding Presence. Cast level 2 Command through Spellcasting. The dragon cannot choose this option again until the start of its next turn.\nFiery Rays. Cast level 3 Scorching Ray through Spellcasting. The dragon cannot choose this option again until the start of its next turn.\nPounce. Move up to half its Speed and make one Rend attack.",
+        "Lair resources": "The encounter is worth 75,000 XP in the lair. The dragon has 5 daily Legendary Resistance uses and 4 legendary action uses there.",
+        "Regional effects": "Burning Heat. The area within 1 mile of the lair is subject to Extreme Heat. A burning creature or object takes 1d4 extra Fire damage at the start of each of its turns.\nSmoldering Haze. Ash leaves the area within 1 mile of the lair Lightly Obscured. A creature other than the dragon or one of its allies that finishes a Long Rest there must succeed on a DC 15 Constitution save or become Poisoned for 1 hour.\nBoth effects end immediately when the dragon dies or moves its lair.",
+        "Printed source": "Monster Manual (2024), p. 256."
+      }
+    }
+  },
+  {
+    "name": "Ancient White Dragon",
+    "statBlock": {
+      "name": "Ancient White Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 330,
+      "classification": "Gargantuan dragon (chromatic), chaotic evil",
+      "ac": 20,
+      "hp": 333,
+      "hitDice": "18d20 + 144",
+      "speed": "40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 23,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Perception": 13,
+        "Stealth": 6
+      },
+      "description": "This arctic dragon crosses ice effortlessly. Chilly fog and dangerously cold water surround its lair.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+12 (22).",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Arctic.",
+        "Treasure": "Arcana.",
+        "Traits": "Ice Walk. It can cross and climb icy surfaces without an ability check. Difficult Terrain made of ice or snow costs it no extra movement.\nLegendary Resistance (4/day, or 5/day in its lair). When it fails a save, it can spend a use to succeed instead.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee attack, +14 to hit, reach 15 ft. Hit 17 (2d8 + 8) Slashing damage plus 7 (2d6) Cold damage.\nCold Breath (recharge 5–6). Each creature in a 90-ft. cone makes a DC 22 Constitution save. Failure deals 63 (14d8) Cold damage. Success halves the damage.",
+        "Legendary actions": "It has 3 uses, or 4 in its lair. It can spend one use on one option immediately after another creature’s turn. It regains spent uses at the start of its turn. It cannot take legendary actions while Incapacitated or otherwise unable to act.\nFreezing Burst. Center a 30-ft.-radius sphere on a visible point within 120 ft. Each creature inside makes a DC 20 Constitution save. On failure, it takes 14 (4d6) Cold damage and its Speed is 0 until the end of the affected creature's next turn. The dragon must wait until the start of its next turn to choose this option again, regardless of the save result.\nFrightful Presence. Cast Fear without Material components, using Charisma (save DC 18). The dragon cannot choose this option again until the start of its next turn.\nPounce. Move up to half its Speed and make one Rend attack.",
+        "Lair resources": "The encounter is worth 33,000 XP in the lair. The dragon has 5 daily Legendary Resistance uses and 4 legendary action uses there.",
+        "Regional effects": "Frigid Cold. The area within 1 mile of the lair is subject to Extreme Cold. Water there counts as Frigid Water. Use the Dungeon Master's Guide hazard rules for both.\nGlacial Gloom. Chilly fog leaves the area within 1 mile of the lair Lightly Obscured. A creature other than the dragon or one of its allies that finishes a Long Rest there must succeed on a DC 15 Constitution save or have its Speed reduced by 10 ft. for 1 hour.\nBoth effects end immediately when the dragon dies or moves its lair.",
+        "Printed source": "Monster Manual (2024), p. 330."
+      }
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Duskling",
+    "kind": "species",
+    "publication": "Magic of Incarnum (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Fey with the Incarnum subtype. +2 Constitution, −2 Intelligence. Base land speed 30 ft. Low-light vision doubles human range with color and detail.",
+      "Effects that specifically target humanoids, such as charm person, cannot target a Duskling. The species chooses a fixed home plane at character creation with DM approval. On the Material Plane it has the Extraplanar subtype.",
+      "The Incarnum subtype marks eligibility for targeted effects. The permanent racial essentia pool increases by 1, or starts at 1 if the character has no other source.",
+      "Racial movement gives a +5-ft. enhancement bonus to land speed per invested essentia. It applies with light or no armor and a light load.",
+      "Reallocate essentia among the eligible investments as a swift action on your turn. Pool size and the capacity of each investment are separate.",
+      "Normal capacity per investment is 1 at character levels 1–5, 2 at 6–11, 3 at 12–17, and 4 at 18–20.",
+      "Common and Sylvan are automatic. Bonus languages are Elf (the book’s name for Elven), Gnoll, Gnome, Goblin, and Halfling. Favored class Totemist. The published examples list LA +0 and use class Hit Dice.",
+      "The optional 1st-level Duskling Barbarian substitution uses a d10 Hit Die. Incarnum Speed replaces Fast Movement. Each invested point gives +10 ft. enhancement to base land speed with up to medium armor and load and +2 insight on initiative checks. The two enhancement bonuses to speed do not stack.",
+      "The optional d10 Barbarian substitutions at 7th and 11th level grant Incarnum Defense and Incarnum Rage respectively. Defense replaces Barbarian damage reduction and gives DR 1/— plus resistance 1 to each energy type per point. Incarnum Rage replaces Greater Rage and grants 2 essentia during rage. Greater Rage then replaces Mighty Rage if reached."
+    ]
+  }
+]

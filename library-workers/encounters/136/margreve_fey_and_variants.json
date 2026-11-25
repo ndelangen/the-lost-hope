@@ -1,0 +1,400 @@
+[
+  {
+    "name": "Alseid",
+    "decision": "separate",
+    "pages": "Appendix, pp. 215–216",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Alseid",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Monstrosity",
+      "ac": 13,
+      "hp": 23,
+      "speed": "40 ft.",
+      "cr": "1/2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A deer-bodied guardian that patrols deep woods and slips between patches of moonlight.",
+      "otherStatistics": "Perception 15. Stealth 15. Resistant to Charmed. Speaks Common, Elvish, and Sylvan.",
+      "sections": {
+        "Ability modifiers": "STR +1 · DEX +3 · CON +1 · INT -1 · WIS +3 · CHA -1",
+        "Traits": "Forest Sight. Lightly obscured areas do not impede its sight, and dim light looks like bright light.\nHeightened Sight. Perception 20 when using sight.\nMonstrosity Resilience. Resistant to Exhaustion and Frightened.\nWoodfriend. In forest terrain, leave no tracks and know true north. Nonmagical plants never slow its movement, and thorns, spines, and similar plant hazards deal it no damage as it passes.",
+        "Actions": "Moon Spear. Weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 6 (1d6 + 3) piercing damage plus 3 (1d6) radiant damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. Hit 6 (1d6 + 3) piercing damage.",
+        "Bonus Actions": "Moon Step. Teleport with worn and carried gear up to 30 ft. to an unoccupied space it can see. Both spaces must be in bright or dim light.",
+        "Printed source": "Appendix, pp. 215–216"
+      }
+    }
+  },
+  {
+    "name": "Child of the Briar, Greater",
+    "decision": "separate",
+    "pages": "Appendix, p. 221",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Child of the Briar, Greater",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Plant",
+      "ac": 14,
+      "hp": 76,
+      "speed": "30 ft., climb 10 ft.",
+      "cr": "3",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A thorny ambusher that pins larger prey and anchors the briar pack’s spellcasting.",
+      "otherStatistics": "Natural armor. Perception 12. Stealth 17. Vulnerable to fire. Resistant to piercing and poison damage and to Poisoned. Darkvision 60 ft. Speaks Briarclick, Common, and Sylvan.",
+      "sections": {
+        "Ability modifiers": "STR +1 · DEX +3 · CON +1 · INT +1 · WIS +0 · CHA +2",
+        "Traits": "Fey Blessing. Advantage on saves against being Charmed. Magic cannot put it to sleep.\nPlant Resilience. Resistant to Exhaustion, Paralyzed, Petrified, and Unconscious.",
+        "Actions": "Multiattack. Make two attacks using Claw or Spitdart Tongue. If both Claws hit one Large or smaller creature, it is Grappled, escape DC 13. At the start of each of its turns while held, it takes 2 (1d4) piercing damage plus 2 (1d4) poison damage. The child can hold one creature at a time.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage plus 5 (2d4) poison damage.\nSpitdart Tongue. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. Hit 7 (1d8 + 3) piercing damage plus 5 (2d4) poison damage.",
+        "Bonus Actions": "Entangle (Recharge 6). While within 10 ft. of another child of the briar, cast Entangle at DC 13. Each friendly child of the briar within 30 ft. can spend a reaction to join. Each ally who joins adds 1 to the DC and 5 ft. to the side of the area, up to DC 17 and a 40-ft. square. The area must include a participant. Participants ignore this casting and cannot start another Entangle until it ends.",
+        "Reactions": "Thorn Burst. When a visible creature within 10 ft. hits the child with a melee attack, the attacker makes a DC 13 Dexterity save. On a failure, it takes 5 (2d4) poison damage.",
+        "Spellcasting": "Entangle. Choose a 20-ft. square within 90 ft. It becomes difficult terrain for up to 1 minute with concentration. Creatures there when the spell is cast make a Strength save or become Restrained until the spell ends. A creature can spend an action to make a Strength check against the spell DC, freeing itself on a success.",
+        "Printed source": "Appendix, p. 221"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Child of the Briar",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Child of the Briar, Swarm of",
+    "decision": "separate",
+    "pages": "Appendix, p. 222",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Child of the Briar, Swarm of",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Swarm of Tiny Plants",
+      "ac": 13,
+      "hp": 80,
+      "speed": "20 ft., climb 10 ft.",
+      "cr": "3",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A knot of little thorn-creatures that pours through gaps and makes standing inside it painful.",
+      "otherStatistics": "Perception 12. Stealth 17. Vulnerable to fire. Darkvision 60 ft. Speaks Briarclick, Common, and Sylvan.",
+      "sections": {
+        "Ability modifiers": "STR -2 · DEX +3 · CON +0 · INT +1 · WIS +0 · CHA +2",
+        "Traits": "Fey Blessing. Advantage on saves against being Charmed. Magic cannot put it to sleep.\nPlant Resilience. Resistant to Exhaustion, Paralyzed, Petrified, and Unconscious.\nSwarm. The swarm shares spaces with other creatures and fits through any opening a Tiny Plant can pass through. It cannot regain HP or gain temporary HP.\nSwarm Resilience. Resistant to bludgeoning, piercing, and slashing damage. Immune to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, and Stunned.\nThorny Swarm. A creature that starts its turn in the swarm’s space makes a DC 13 Dexterity save or takes 2 (1d4) piercing damage.",
+        "Actions": "Multiattack. Make two Claws attacks or use Hail of Thorns twice.\nClaws. Melee weapon attack, +5 to hit, reach 0 ft., one creature in the swarm’s space. Hit 15 (6d4) piercing damage, or 7 (3d4) while the swarm has half its HP or fewer.\nHail of Thorns. One visible creature within 20 ft. makes a DC 13 Dexterity save. Failure deals 15 (6d4) piercing damage, or 7 (3d4) while the swarm has half its HP or fewer. A success halves the damage.",
+        "Printed source": "Appendix, p. 222"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Child of the Briar",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Child of the Briar, Vampiric",
+    "decision": "separate",
+    "pages": "Appendix, pp. 221–222",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Child of the Briar, Vampiric",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Plant",
+      "ac": 14,
+      "hp": 111,
+      "speed": "30 ft., climb 20 ft.",
+      "cr": "5",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A blood-drinking briar hunter that homes in on wounds and clings to ceilings.",
+      "otherStatistics": "Natural armor. Perception 13. Stealth 20. Vulnerable to fire. Resistant to necrotic damage. Darkvision 60 ft. Speaks Briarclick, Common, and Sylvan.",
+      "sections": {
+        "Ability modifiers": "STR +2 · DEX +7 · CON +1 · INT +1 · WIS +0 · CHA +3",
+        "Traits": "Fey Blessing. Advantage on saves against being Charmed. Magic cannot put it to sleep.\nPlant Resilience. Resistant to Exhaustion, Paralyzed, Petrified, and Unconscious.\nRegeneration. If it has at least 1 HP at the start of its turn, regain 2 HP. Fire or radiant damage suppresses this healing at the start of its next turn.\nSpider Climb. Climb difficult surfaces and ceilings without an ability check.",
+        "Actions": "Multiattack. Make three attacks using Claw or Spitdart Tongue. Replace one Claw attack with Feast if desired. If two Claws hit one Large or smaller creature, it is Grappled, escape DC 15. The child can hold one creature at a time.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) piercing damage plus 4 (1d8) necrotic damage.\nSpitdart Tongue. Ranged weapon attack, +7 to hit, range 20/60 ft., one target. Hit 8 (1d8 + 4) piercing damage plus 4 (1d8) necrotic damage.\nFeast. A creature the child is Grappling makes a DC 15 Constitution save. Failure deals 18 (4d8) necrotic damage, halved on a success. The child regains HP equal to the damage dealt.",
+        "Bonus Actions": "Cry for Blood. Choose one creature within 30 ft. that is below full HP. On a failed DC 14 Constitution save, the child has advantage on its next attack roll against that creature before the start of the child’s next turn.",
+        "Printed source": "Appendix, pp. 221–222"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Child of the Briar",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Elf, Shadow Fey",
+    "decision": "separate",
+    "pages": "Appendix, p. 224",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Elf, Shadow Fey",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 15,
+      "hp": 12,
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A visitor from the Shadow Realm who fights with a blade or bow and slips away through dim light.",
+      "otherStatistics": "Chain shirt. Perception 12. Stealth 14. Darkvision 60 ft. Speaks Common, Elvish, and Umbral.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +2 · CON +0 · INT +0 · WIS +0 · CHA +1",
+        "Traits": "Fey Ancestry. Resistant to Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, attacks have disadvantage and sight-based Perception is 7.",
+        "Actions": "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Bonus Actions": "Shadow Traveler (2/Day). From shadows, dim light, or darkness, teleport into a visible unoccupied space within 30 ft. Smoke briefly marks both spaces.",
+        "Printed source": "Appendix, p. 224"
+      }
+    }
+  },
+  {
+    "name": "Elf, Shadow Fey Duelist",
+    "decision": "separate",
+    "pages": "Appendix, p. 224",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Elf, Shadow Fey Duelist",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 17,
+      "hp": 119,
+      "speed": "30 ft.",
+      "cr": "6",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A mobile court fighter who wears down one opponent with a poisoned rapier and dagger.",
+      "otherStatistics": "Studded leather. Perception 14. Stealth 18. Darkvision 60 ft. Speaks Common, Elvish, and Umbral.",
+      "sections": {
+        "Ability modifiers": "STR +1 · DEX +5 · CON +2 · INT +1 · WIS +4 · CHA +3",
+        "Traits": "Duelist’s Mobility. Opportunity attacks against the duelist have disadvantage. If it begins its turn Prone, it can stand immediately without spending movement.\nFey Ancestry. Resistant to Charmed. Magic cannot put it to sleep.\nPoisoned Weapons. Any weapon hit deals an extra 2d6 poison damage. The listed attacks already include it.\nSunlight Sensitivity. In sunlight, attacks have disadvantage and sight-based Perception is 9.",
+        "Actions": "Multiattack. Make two Rapier attacks and one Dagger attack. If two attacks hit the same creature, it makes a DC 16 Constitution save or is Poisoned for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.\nRapier. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 9 (1d8 + 5) piercing damage plus 7 (2d6) poison damage.\nDagger. Melee or ranged weapon attack, +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 7 (1d4 + 5) piercing damage plus 7 (2d6) poison damage.",
+        "Bonus Actions": "Shadow Traveler (3/Day). From shadows, dim light, or darkness, teleport into a visible unoccupied space within 30 ft. Smoke briefly marks both spaces.",
+        "Reactions": "Parry. Add 3 to AC against one melee attack that would hit. The duelist must see the attacker and wield a melee weapon.",
+        "Printed source": "Appendix, p. 224"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Elf, Shadow Fey",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Elf, Shadow Fey Enchantress",
+    "decision": "separate",
+    "pages": "Appendix, p. 225",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Elf, Shadow Fey Enchantress",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 16,
+      "hp": 152,
+      "speed": "30 ft.",
+      "cr": "7",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A court spellcaster who charms by speaking softly and gives nearby allies a timely edge.",
+      "otherStatistics": "Breastplate. Perception 16. Stealth 16. Resistant to force damage. Darkvision 60 ft. Speaks Common, Elvish, and Umbral.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +6 · CON +2 · INT +1 · WIS +3 · CHA +7",
+        "Traits": "Fey Ancestry. Resistant to Charmed. Magic cannot put it to sleep.\nPhrenic Weapons. Its weapon attacks are magical. Any weapon hit deals an extra 4d8 psychic damage. The listed Rapier attack already includes it.\nSunlight Sensitivity. In sunlight, attacks have disadvantage and sight-based Perception is 11.",
+        "Actions": "Multiattack. Make two attacks using Rapier or Shadow Bolt. Replace one attack with Spellcasting if desired.\nRapier. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage plus 18 (4d8) psychic damage.\nShadow Bolt. Ranged spell attack, +7 to hit, range 120 ft., one target. Hit 11 (2d6 + 4) cold damage plus 14 (4d6) necrotic damage.\nBeguiling Whispers (Recharge 5–6). Choose up to two creatures within 60 ft. that the enchantress can see and that can hear her. Each makes a DC 15 Charisma save. Failure deals 36 (8d8) psychic damage and Charms for 1 minute. Success halves the damage and prevents the charm. While Charmed this way, a creature has disadvantage on Wisdom and Charisma saves against her spells.\nSpellcasting. Cast a spell from the list below.",
+        "Spellcasting": "Charisma, save DC 15. No material components are required.\nAt will. Command, Message.\n3/day. Charm, Enthrall, Fear, Hold, Hypnotic Pattern.\n1/day. Confusion, Dominate, Greater Invisibility, Greater Hold, Phantasmal Killer.",
+        "Bonus Actions": "Shadow Traveler (3/Day). From shadows, dim light, or darkness, teleport into a visible unoccupied space within 30 ft. Smoke briefly marks both spaces.",
+        "Reactions": "Inspiring Command. When a visible friendly creature within 30 ft. makes an attack roll or save, it can add 1d4 if it can hear and understand the enchantress.",
+        "Printed source": "Appendix, p. 225"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Elf, Shadow Fey",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Elf, Shadow Fey Guardian",
+    "decision": "separate",
+    "pages": "Appendix, pp. 225–226",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Elf, Shadow Fey Guardian",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Humanoid",
+      "ac": 15,
+      "hp": 95,
+      "speed": "30 ft.",
+      "cr": "4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A towering shadow guard who can spot intruders through magical darkness and shield a nearby ally.",
+      "otherStatistics": "Chain shirt. Perception 14. Stealth 12. Immune to Charmed, Frightened, and Unconscious. Darkvision 60 ft. Speaks Common, Elvish, and Umbral.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +2 · CON +5 · INT -2 · WIS +2 · CHA -1",
+        "Traits": "Shadow-Infused Weapons. Its weapon attacks are magical. Any weapon hit deals an extra 1d8 cold damage. The listed attacks already include it.\nShadow’s Vigil. Perception 19 when using hearing or sight. Magical darkness does not impede its darkvision.\nSunlight Sensitivity. In sunlight, attacks have disadvantage and sight-based Perception is 9.",
+        "Actions": "Multiattack. Make two attacks using Pike or Javelin.\nPike. Melee weapon attack, +5 to hit, reach 10 ft., one target. Hit 14 (2d10 + 3) piercing damage plus 4 (1d8) cold damage.\nJavelin. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 10 (2d6 + 3) piercing damage plus 4 (1d8) cold damage.",
+        "Bonus Actions": "Shadow Traveler (2/Day). From shadows, dim light, or darkness, teleport into a visible unoccupied space within 30 ft. Smoke briefly marks both spaces.",
+        "Reactions": "Protective Interference. When an attack targets a visible friendly creature within 5 ft. of the guardian, impose disadvantage on the attack roll. The guardian must see the attacker and wield a melee weapon.",
+        "Printed source": "Appendix, pp. 225–226"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Elf, Shadow Fey",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lunarchidna, Greater",
+    "decision": "separate",
+    "pages": "Appendix, pp. 233–234",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Lunarchidna, Greater",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Aberration",
+      "ac": 16,
+      "hp": 93,
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This web hunter grows stronger under a quarter or half moon and binds prey after landing both claws.",
+      "otherStatistics": "Natural armor. Perception 11. Stealth 17. Vulnerable to fire. Immune to poison damage and to Poisoned and Restrained. Darkvision 60 ft., keensense 10 ft. Speaks Deep Speech and Sylvan.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +3 · CON +2 · INT +1 · WIS +1 · CHA +2",
+        "Traits": "Aberrant Resilience. Resistant to Charmed, Frightened, Paralyzed, and Stunned. Advantage on saves against spells and effects that would change its form.\nSpider Climb. Climb difficult surfaces and ceilings without an ability check.\nSunlight Sensitivity. In sunlight, attacks have disadvantage and sight-based Perception is 6.\nWeb Walker. Ignore movement restrictions from webbing.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks. If both Claws hit one Medium or smaller creature, it can use Wrap Up on that creature.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 12 (2d8 + 3) necrotic damage. The target makes a DC 13 Constitution save. On a failure, reduce its HP maximum by the damage taken until it finishes a long rest. If its maximum reaches 0, it dies.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing damage.\nWrap Up. Choose one Medium or smaller creature within 5 ft. It makes a DC 13 Strength save, with disadvantage if Restrained by webbing. On a failure it is wrapped, Blinded, Restrained, and unable to breathe until freed. At the start of each of the lunarchidna’s turns, the wrapped target makes a DC 13 Constitution save or takes 5 (1d4 + 3) bludgeoning damage. Destroying the web frees the target (AC 13, 15 HP, vulnerable to fire damage and immune to bludgeoning, poison, and psychic damage). The lunarchidna can wrap only one creature at a time.",
+        "Bonus Actions": "Web (Recharge 4–6). Choose one visible creature within 30 ft. It makes a DC 13 Strength save or is Restrained by webbing. Any creature, including the target, may spend an action to free it with a successful DC 13 Strength check. The web can also be destroyed (AC 13, 15 HP, vulnerable to fire damage and immune to bludgeoning, poison, and psychic damage).\nShadow Stealth. In dim light or darkness, take the Hide action.",
+        "Encounter notes": "The moon determines the profile. Use Lesser during daylight, a new moon, or a crescent moon; Greater under a quarter or half moon; and Transcendent under a gibbous or full moon. The phase table is on p. 233.",
+        "Printed source": "Appendix, pp. 233–234"
+      },
+      "ruleNotes": [
+        "Keensense detects its surroundings within range without relying on sight."
+      ],
+      "relatedCreatures": [
+        {
+          "name": "Lunarchidna, Lesser",
+          "kind": "monster"
+        },
+        {
+          "name": "Lunarchidna, Transcendent",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lunarchidna, Transcendent",
+    "decision": "separate",
+    "pages": "Appendix, pp. 233–235",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Lunarchidna, Transcendent",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Aberration",
+      "ac": 16,
+      "hp": 137,
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "6",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "At its strongest under a gibbous or full moon, the lunarchidna vanishes in light and projects a beam of moonlight.",
+      "otherStatistics": "Natural armor. Perception 11. Stealth 20. Vulnerable to fire. Immune to poison damage and to Poisoned and Restrained. Darkvision 60 ft., keensense 10 ft. Speaks Deep Speech and Sylvan.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +7 · CON +2 · INT +1 · WIS +1 · CHA +2",
+        "Traits": "Aberrant Resilience. Resistant to Charmed, Frightened, Paralyzed, and Stunned. Advantage on saves against spells and effects that would change its form.\nSpider Climb. Climb difficult surfaces and ceilings without an ability check.\nSunlight Sensitivity. In sunlight, attacks have disadvantage and sight-based Perception is 6.\nWeb Walker. Ignore movement restrictions from webbing.\nLight Invisibility. Invisible in bright or dim light.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks. If both Claws hit one Medium or smaller creature, it can use Wrap Up on that creature.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) necrotic damage. The target makes a DC 15 Constitution save. On a failure, reduce its HP maximum by the damage taken until it finishes a long rest. If its maximum reaches 0, it dies.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.\nWrap Up. Choose one Medium or smaller creature within 5 ft. It makes a DC 15 Strength save, with disadvantage if Restrained by webbing. On a failure it is wrapped, Blinded, Restrained, and unable to breathe until freed. At the start of each of the lunarchidna’s turns, the wrapped target makes a DC 15 Constitution save or takes 7 (1d6 + 4) bludgeoning damage. Destroying the web frees the target (AC 15, 20 HP, vulnerable to fire damage and immune to bludgeoning, poison, and psychic damage). The lunarchidna can wrap only one creature at a time.\nLunar Beam (Recharge 5–6). Each creature in a line 30 ft. long and 5 ft. wide makes a DC 15 Dexterity save. On a failure it takes 28 (8d6) radiant damage. A success halves the damage.",
+        "Bonus Actions": "Web (Recharge 4–6). Choose one visible creature within 30 ft. It makes a DC 15 Strength save or is Restrained by webbing. Any creature, including the target, may spend an action to free it with a successful DC 15 Strength check. The web can also be destroyed (AC 15, 20 HP, vulnerable to fire damage and immune to bludgeoning, poison, and psychic damage).",
+        "Encounter notes": "The moon determines the profile. Use Lesser during daylight, a new moon, or a crescent moon; Greater under a quarter or half moon; and Transcendent under a gibbous or full moon. The phase table is on p. 233.",
+        "Printed source": "Appendix, pp. 233–235"
+      },
+      "ruleNotes": [
+        "Keensense detects its surroundings within range without relying on sight."
+      ],
+      "relatedCreatures": [
+        {
+          "name": "Lunarchidna, Lesser",
+          "kind": "monster"
+        },
+        {
+          "name": "Lunarchidna, Greater",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Piney",
+    "decision": "separate",
+    "pages": "Appendix, pp. 236–237",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Piney",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 14,
+      "hp": 38,
+      "speed": "30 ft.",
+      "cr": "1",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A forest defender who changes how the trees protect and sustain it at the start of each turn.",
+      "otherStatistics": "Natural armor. Perception 14. Stealth 10. Resistant to Charmed. Speaks Common and Piney.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +0 · CON +1 · INT -1 · WIS +2 · CHA +0",
+        "Traits": "Forest Sight. Lightly obscured areas do not impede its sight, and dim light looks like bright light.\nPlant Body. Resistant to Exhaustion, Paralyzed, Petrified, and Unconscious.\nVerdant Infusion. At the start of each of its turns, choose one option below.\nOaken Flesh. Gain +2 AC and resistance to bludgeoning damage until the start of its next turn.\nStrong Roots. Gain immunity to Prone and advantage on ability checks to grapple until the start of its next turn.\nSun Feaster. If it starts this turn in sunlight, regain 3 HP.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage.",
+        "Printed source": "Appendix, pp. 236–237"
+      }
+    }
+  },
+  {
+    "name": "Piney Rootwalker",
+    "decision": "separate",
+    "pages": "Appendix, pp. 237–238",
+    "notes": "Uses the independent encounter stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Piney Rootwalker",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Plant",
+      "ac": 16,
+      "hp": 68,
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "3",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An elder piney as tall and solid as a tree, able to root itself into the ground and slow advancing foes.",
+      "otherStatistics": "Natural armor. Perception 15. Stealth 10. Vulnerable to fire damage. Resistant to bludgeoning damage and to Charmed. Tremorsense 15 ft. Speaks Common and Piney.",
+      "sections": {
+        "Ability modifiers": "STR +4 · DEX +0 · CON +2 · INT -1 · WIS +3 · CHA -1",
+        "Traits": "Forest Sight. Lightly obscured areas do not impede its sight, and dim light looks like bright light.\nOne with the Woods. In forest terrain, the rootwalker cannot be tracked and has Stealth 15.\nPlant Resilience. Resistant to Exhaustion, Paralyzed, Petrified, and Unconscious.\nSun Feast. Regain 3 HP at the start of a turn spent in sunlight.",
+        "Actions": "Multiattack. Make two attacks using Slam or Rock.\nSlam. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 13 (2d8 + 4) bludgeoning damage.\nRock. Ranged weapon attack, +6 to hit, range 60/240 ft., one target. Hit 15 (2d10 + 4) bludgeoning damage.",
+        "Bonus Actions": "Anchor Roots. Until the start of its next turn, the rootwalker cannot move, be moved, or be knocked Prone. The area within 10 ft. of it is difficult terrain.",
+        "Printed source": "Appendix, pp. 237–238"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Piney",
+          "kind": "monster"
+        }
+      ]
+    }
+  }
+]

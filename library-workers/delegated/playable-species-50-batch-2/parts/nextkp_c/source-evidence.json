@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Satarre",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "url": "https://anyflip.com/qkxdf/sqvy/basic/",
+    "secondarySources": [
+      "https://www.dndbeyond.com/sources/dnd/boet",
+      ""
+    ],
+    "printedPages": [
+      38,
+      39
+    ],
+    "heading": "Unbound Satarre",
+    "sourceDistinctions": [
+      "Book of Ebon Tides prints Unbound Satarre as a subrace. This profile uses the printed Unbound rules under the existing Satarre catalog name. The base profile is cross-referenced to Tome of Heroes."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "slug": "satarre",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Vesk Nhal"
+    ]
+  },
+  {
+    "name": "Lamia",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "url": "",
+    "secondarySources": [
+      "https://koboldpress.com/kpstore/product/unlikely-heroes-for-5th-edition/",
+      ""
+    ],
+    "printedPages": [
+      14,
+      15,
+      16
+    ],
+    "heading": "Lamia",
+    "sourceDistinctions": [
+      "The book’s player option has a human upper body and serpentine lower body. Its Medium Monstrosity profile stays separate from the leonine monster record.",
+      "The last four traits are at the top of p. 16, before the Ramag entry."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "slug": "lamia",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Tara Embercoil"
+    ]
+  },
+  {
+    "name": "Mushroomfolk",
+    "kind": "species",
+    "publication": "Underworld Player’s Guide (2020)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "url": "",
+    "secondarySources": [
+      ""
+    ],
+    "printedPages": [
+      25,
+      26,
+      27
+    ],
+    "heading": "Mushroomfolk",
+    "sourceDistinctions": [
+      "The book presents Acid Cap, Favored, and Morel as Mushroomfolk subraces. The example uses Morel. Mushroomfolk has its own player profile and creature type."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "slug": "mushroomfolk",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Nerin Alderfold"
+    ]
+  }
+]

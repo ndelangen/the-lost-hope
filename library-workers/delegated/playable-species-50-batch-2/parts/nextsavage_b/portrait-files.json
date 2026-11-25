@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Efreeti",
+    "npc": "Kesh Brassmark",
+    "file": "",
+    "sha256": "248309c4cae5cfd6204fcbea30ac4b9d36984800fc008a40feedafa0e68c57f8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Flamebrother Salamander",
+    "npc": "Sava Coil",
+    "file": "",
+    "sha256": "4f3e407f8543464b17b5cb3fe32ea77cc5b29a9c402d56521109ea47ff175fe7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Athach",
+    "npc": "Tov Flintarm",
+    "file": "",
+    "sha256": "3f734c9f96afbc921939f302b6d492406450c7cc5654ce686a8f95b85ab85c82",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Grig",
+    "npc": "Fenn Burr",
+    "file": "",
+    "sha256": "8f25bb8442aa51e002eaf1f3e4ab8616ab3c26c61728d6d5f2bb40e1f72d9c9f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Harpy",
+    "npc": "Ryn Reedcall",
+    "file": "",
+    "sha256": "34c729cd933cff2c6a198bf552417ecaa70ad2da621d1b0652c83d422a1c08a9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

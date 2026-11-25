@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Female Steeder",
+    "publication": "Out of the Abyss - D&D Encounters",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 30,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "skills": {
+      "Stealth": 7
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Darkvision 120 ft., passive Perception 10. No languages.",
+    "appearance": "A large tarantula-like steeder with a broad body and thick hairy legs.",
+    "habitats": [
+      "Underdark",
+      "Duergar settlements"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Out of the Abyss - D&D Encounters, Appendix C: Creatures, p. 62.",
+      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement on its turn to jump up to 90 ft. vertically or horizontally.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The target makes a DC 12 Constitution save and takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg (recharges when no creatures are grappled by the steeder). Melee weapon attack, +5 to hit, reach 5 ft., one Medium or smaller creature. On a hit, the target sticks to its leg and is grappled until it escapes (escape DC 12).",
+      "Encounter ecology": "Duergar train these larger steeders as mounts. They do not spin webs. Their legs secrete the adhesive used to climb and catch prey."
+    },
+    "hitDice": "4d10 + 8",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Male Steeder",
+    "publication": "Out of the Abyss - D&D Encounters",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "skills": {
+      "Stealth": 5
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Darkvision 120 ft., passive Perception 10. No languages.",
+    "appearance": "A pony-sized tarantula-like steeder with compact body and long, bristled legs.",
+    "habitats": [
+      "Underdark",
+      "Duergar settlements"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Out of the Abyss - D&D Encounters, Appendix C: Creatures, pp. 62–63.",
+      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement on its turn to jump up to 60 ft. vertically or horizontally.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 2) piercing damage. The target makes a DC 12 Constitution save and takes 4 (1d8) acid damage on a failure or half on a success.\nSticky Leg (recharges when no creatures are grappled by the steeder). Melee weapon attack, +4 to hit, reach 5 ft., one Small or Tiny creature. On a hit, the target sticks to its leg and is grappled until it escapes (escape DC 12).",
+      "Encounter ecology": "Duergar use these pony-sized steeders as beasts of burden. Their leg secretions allow climbing and capture."
+    },
+    "hitDice": "2d8 + 4",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Female Steeder",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 30,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "skills": {
+      "Stealth": 7
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Darkvision 120 ft., passive Perception 10. No languages.",
+    "appearance": "A large tarantula-like steeder with a broad body and thick hairy legs.",
+    "habitats": [
+      "Maerimydra",
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX3-16 - Assault on Maerimydra, Monster/NPC Statistics appendix, p. 54.",
+      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nLeap. The steeder can use all its movement to jump up to 120 ft. vertically or horizontally.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The target makes a DC 12 Constitution save and takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg (recharges when no creatures are grappled by the steeder). Melee weapon attack, +5 to hit, reach 5 ft., one Medium or smaller creature. On a hit, the target sticks to its leg and is grappled until it escapes (escape DC 12).",
+      "Encounter ecology": "A quaggoth rider joins the fight on a female steeder, and the adventure also provides two female steeder mounts."
+    },
+    "hitDice": "4d10 + 8",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Spider King",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 44,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "skills": {
+      "Perception": 4,
+      "Stealth": 7
+    },
+    "passivePerception": 14,
+    "otherStatistics": "Natural armor. Blindsight 10 ft., darkvision 60 ft., passive Perception 14. No languages. The HP is fixed at 44 by the adventure.",
+    "appearance": "A demonic mutation has given this giant spider two heads and raised its front into a vaguely humanoid posture.",
+    "habitats": [
+      "Underdark",
+      "Whorlstone Tunnels",
+      "Dire Den"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Out of the Abyss, Chapter 4: Gracklstugh, p. 74.",
+      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nWeb Sense. While touching a web, it knows the exact location of any other creature touching the same web.\nWeb Walker. It ignores movement restrictions caused by webs.\nTwo heads. It has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.\nDire Den awareness. It senses intruders who enter its domain and cannot be surprised by them.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The target makes a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure or half on a success. If the poison damage reduces it to 0 HP, it is stable and poisoned for 1 hour even after regaining HP. It is paralyzed while poisoned this way.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one creature. A hit restrains the target in webbing. The target can use its action to make a DC 12 Strength check and break the web on a success. The web can also be attacked to destroy it. It has AC 10 and 5 HP, is vulnerable to fire, and is immune to bludgeoning, poison, and psychic damage.",
+      "Encounter ecology": "It waits with two ordinary giant spiders. It blocks the chamber entrance while they approach along the walls or ceiling. They fight to the death and do not follow fleeing prey."
+    },
+    "savingThrows": {
+      "Constitution": 3,
+      "Wisdom": 2
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Young Bulette",
+    "publication": "Princes of the Apocalypse",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 45,
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "skills": {},
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Passive Perception 11. No listed skills, special senses, or languages.",
+    "appearance": "A juvenile bulette with a low armored body, powerful forelimbs, and a broad toothed mouth.",
+    "habitats": [
+      "Bulette Kennels",
+      "Temple of the Elder Elemental Eye"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Princes of the Apocalypse, Chapter 5: Temple of the Elder Elemental Eye, p. 139.",
+      "Traits": "Charge. If it moves at least 20 ft. straight toward a target and hits it with Bite on the same turn, the hit deals 9 (2d8) extra bludgeoning damage. A creature hit also makes a DC 15 Strength save or falls prone.",
+      "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 14 (2d8 + 5) bludgeoning damage.",
+      "Encounter ecology": "Three young bulettes occupy the north kennels. They sleep if Rorgrin is absent. A character sneaking past them makes a DC 11 Dexterity (Stealth) check. They awaken on a failed check or if attacked and hiss at strangers to alert Rorgrin.",
+      "Printing note": "Area G13 calls for the Rhinoceros statistics with Bite in place of Gore. The Beast type comes from that proxy. The adventure supplies no separate damage type, so Bite retains the proxy’s bludgeoning damage."
+    },
+    "hitDice": "6d10 + 12",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Golden Stag",
+    "publication": "Hoard of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "skills": {},
+    "passivePerception": 10,
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages in the normal stag branch.",
+    "appearance": "A tall stag with a coat that shines like spun gold and pale branching antlers that look plated with platinum.",
+    "habitats": [
+      "Roadside hills",
+      "Forest near the caravan route"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Hoard of the Dragon Queen, Episode 4: On the Road, p. 35.",
+      "Traits": "Charge. If the stag moves at least 20 ft. straight toward a target and hits it with Ram on the same turn, the hit deals 7 (2d6) extra damage. A creature hit must also succeed on a DC 13 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit, reach 5 ft., one prone creature. On a hit, deal 8 (2d4 + 3) bludgeoning damage.",
+      "Encounter ecology": "In the normal stag branch, the hunters can corner and fight the animal. In two other branches it speaks a prophecy or is discovered to be a cursed elf prince. The Beast profile uses the adventure’s Elk instructions.",
+      "Printing note": "The p. 35 encounter directs the DM to use Elk statistics. The publisher errata changes the older table label The Golden Hind to The Golden Stag. The Elk supplement gives no separate damage type for the additional Charge dice."
+    },
+    "hitDice": "2d10 + 2",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  }
+]

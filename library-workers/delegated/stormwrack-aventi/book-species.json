@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Aventi",
+    "kind": "species",
+    "publication": "Stormwrack (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with Human and Aquatic subtypes. No ability score adjustments. Land speed 30 ft. and swim speed 30 ft. LA +0 and advancement by character class.",
+      "Amphibious (Ex). Breathes air and water without a time limit.",
+      "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+      "Water Spell Power (Ex) grants +1 effective caster level for spells with the [Water] descriptor. The trait provides no spells or spell slots. A spell’s name or presence in a domain list does not supply the descriptor.",
+      "Human Blood means an Aventi counts as human for race-related effects, including human-only magic items. The Aventi traits do not grant the standard human bonus feat or extra skill points.",
+      "Common is automatic. Aquan, Elven, and Sahuagin are bonus languages. Favored class Any."
+    ]
+  }
+]

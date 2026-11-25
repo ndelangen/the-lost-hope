@@ -1,0 +1,874 @@
+[
+  {
+    "name": "Korobokuru",
+    "kind": "species",
+    "group": "3.0 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "fd38e6d3870f8234fe6feef7",
+      "publication": "Oriental Adventures (2001)",
+      "edition": "3.0 edition",
+      "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "A short, relatively lean dwarf relative, around 4 feet tall, with comparatively long limbs, pointed ears, and thick hair. The source places their communities in remote areas outside Rokugan.",
+            "Constitution +2, Intelligence −2. Small. Base land speed 20 ft. Apply size bonuses of +1 AC, +1 to attacks, and +4 Hide. Use appropriately sized weapons and three-quarters of Medium carrying capacity.",
+            "Darkvision to 60 ft. in black and white.",
+            "Racial +2 on saves against poison and on saves against spells and spell-like effects.",
+            "Racial +1 on attacks against goblinoids, including goblins, hobgoblins, bugbears, bakemono, and goblin rats.",
+            "Dodge bonus +4 to AC against giants. Lose it when circumstances deny the Dexterity bonus to AC.",
+            "Racial +2 on Wilderness Lore checks. Automatic languages Common and Dwarven. Bonus languages Giant, Goblin, Hengeyokai, and Sylvan. Favored class Barbarian.",
+            "The playable rules give 60-ft. darkvision. The published warrior encounter on pp. 171–172 lists 120 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Bramble",
+          "lines": [
+            "Mountain-pass rescuer who can hold an evacuation route",
+            "Motive. Get a stranded repair crew off the pass before dark.",
+            "Hook. Bramble has a safety rope on the safe side but needs someone to reach the crew from the other bank.",
+            "Korobokuru pass rescuer, Barbarian 1 · CR 1 · Small Humanoid (Dwarf)",
+            "AC 14 · HP 11 (1d12+1 plus Toughness) · Speed 30 ft. with fast movement"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Bramble": [
+          {
+            "start": 15,
+            "end": 22,
+            "target": {
+              "name": "Bramble",
+              "group": "Korobokuru",
+              "publication": "Korobokuru pass rescuer, Barbarian 1",
+              "local": {
+                "entry": "npc-8f564af39fab12a40644275e",
+                "version": "7e16bc7e88e94214e5a0762f"
+              }
+            }
+          }
+        ],
+        "Hook. Bramble has a safety rope on the safe side but needs someone to reach the crew from the other bank.": [
+          {
+            "start": 6,
+            "end": 13,
+            "target": {
+              "name": "Bramble",
+              "group": "Korobokuru",
+              "publication": "Korobokuru pass rescuer, Barbarian 1",
+              "local": {
+                "entry": "npc-8f564af39fab12a40644275e",
+                "version": "7e16bc7e88e94214e5a0762f"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Korobokuru": true,
+      "Bramble": true,
+      "korobokuru darkvision goblinoids": true,
+      "korobokuru pass rescuer": true
+    },
+    "hash": "034edd7fee57f287ada56192018e7eb5b878223497a67772f2906ecc478550e2",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Oriental Adventures (2001)",
+    "defaultVersionKey": "fd38e6d3870f8234fe6feef7",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "group": "3.0 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "3b7e3645fa73052d657cfc7c",
+      "publication": "Oriental Adventures (2001) · Bamboo",
+      "edition": "3.0 edition",
+      "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+            "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+            "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+            "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+            "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+            "Bamboo lineage. Racial +2 Wilderness Lore and +4 Hide in woods or forests. Trackless Step leaves no trail in natural surroundings.",
+            "Racial +2 on saves against spells or spell-like effects with earth, rock, stone, or wood in the name, earth shugenja spells, and wu jen spells tied to earth or wood.",
+            "Speak with animals once per day for one minute, as a 1st-level caster. This version can speak with any animal."
+          ]
+        },
+        {
+          "title": "Original NPC · Ilen",
+          "lines": [
+            "River lineage ferry healer who can guide an underwater rescue",
+            "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+            "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+            "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+            "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Ilen": [
+          {
+            "start": 15,
+            "end": 19,
+            "target": {
+              "name": "Ilen",
+              "group": "Spirit Folk",
+              "publication": "River Spirit Folk ferry healer, Adept 1",
+              "local": {
+                "entry": "npc-113b30d91ec49098fb522921",
+                "version": "d282de92080e9778e2cd3284"
+              }
+            }
+          }
+        ],
+        "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+          {
+            "start": 6,
+            "end": 10,
+            "target": {
+              "name": "Ilen",
+              "group": "Spirit Folk",
+              "publication": "River Spirit Folk ferry healer, Adept 1",
+              "local": {
+                "entry": "npc-113b30d91ec49098fb522921",
+                "version": "d282de92080e9778e2cd3284"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "90ad05b270700946b43866f8",
+        "publication": "Oriental Adventures (2001) · River",
+        "edition": "3.0 edition",
+        "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+              "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+              "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+              "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+              "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+              "River lineage.",
+              "Breathe air and water. Swim speed 30 ft. Routine swimming needs no check.",
+              "Racial +8 on Swim checks for special actions or hazards. May take 10 even when rushed or threatened. Can run while swimming in a straight line.",
+              "Racial +2 on saves against spells or spell-like effects with water in the name, water shugenja spells, and water-related wu jen spells.",
+              "Speak with animals once per day for one minute, as a 1st-level caster. This version works on fish."
+            ]
+          },
+          {
+            "title": "Original NPC · Ilen",
+            "lines": [
+              "River lineage ferry healer who can guide an underwater rescue",
+              "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+              "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+              "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+              "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Ilen": [
+            {
+              "start": 15,
+              "end": 19,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ],
+          "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+            {
+              "start": 6,
+              "end": 10,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "b7bf3c6b66ce6f202fbc5430",
+        "publication": "Oriental Adventures (2001) · Sea",
+        "edition": "3.0 edition",
+        "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+              "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+              "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+              "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+              "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+              "Sea lineage.",
+              "Breathe air and water. Swim speed 30 ft. Routine swimming needs no check.",
+              "Racial +8 on Swim checks for special actions or hazards. May take 10 even when rushed or threatened. Can run while swimming in a straight line.",
+              "Racial +2 on saves against spells and spell-like effects with the fire descriptor.",
+              "Predict the next 24 hours of weather with a DC 15 Knowledge (nature) or untrained Intelligence check, with a +2 racial bonus."
+            ]
+          },
+          {
+            "title": "Original NPC · Ilen",
+            "lines": [
+              "River lineage ferry healer who can guide an underwater rescue",
+              "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+              "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+              "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+              "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Ilen": [
+            {
+              "start": 15,
+              "end": 19,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ],
+          "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+            {
+              "start": 6,
+              "end": 10,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Spirit Folk": true,
+      "Ilen": true,
+      "Bamboo spirit folk": true,
+      "spirit folk low-light": true,
+      "spirit folk ferry healer": true
+    },
+    "hash": "22cdee76762b4dafcdaf2df54198741484bb2d9b8487226df4426f39d3d4884e",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Oriental Adventures (2001) · Bamboo",
+    "defaultVersionKey": "3b7e3645fa73052d657cfc7c",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "group": "3.0 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "90ad05b270700946b43866f8",
+      "publication": "Oriental Adventures (2001) · River",
+      "edition": "3.0 edition",
+      "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+            "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+            "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+            "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+            "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+            "River lineage.",
+            "Breathe air and water. Swim speed 30 ft. Routine swimming needs no check.",
+            "Racial +8 on Swim checks for special actions or hazards. May take 10 even when rushed or threatened. Can run while swimming in a straight line.",
+            "Racial +2 on saves against spells or spell-like effects with water in the name, water shugenja spells, and water-related wu jen spells.",
+            "Speak with animals once per day for one minute, as a 1st-level caster. This version works on fish."
+          ]
+        },
+        {
+          "title": "Original NPC · Ilen",
+          "lines": [
+            "River lineage ferry healer who can guide an underwater rescue",
+            "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+            "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+            "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+            "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Ilen": [
+          {
+            "start": 15,
+            "end": 19,
+            "target": {
+              "name": "Ilen",
+              "group": "Spirit Folk",
+              "publication": "River Spirit Folk ferry healer, Adept 1",
+              "local": {
+                "entry": "npc-113b30d91ec49098fb522921",
+                "version": "d282de92080e9778e2cd3284"
+              }
+            }
+          }
+        ],
+        "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+          {
+            "start": 6,
+            "end": 10,
+            "target": {
+              "name": "Ilen",
+              "group": "Spirit Folk",
+              "publication": "River Spirit Folk ferry healer, Adept 1",
+              "local": {
+                "entry": "npc-113b30d91ec49098fb522921",
+                "version": "d282de92080e9778e2cd3284"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "3b7e3645fa73052d657cfc7c",
+        "publication": "Oriental Adventures (2001) · Bamboo",
+        "edition": "3.0 edition",
+        "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+              "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+              "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+              "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+              "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+              "Bamboo lineage. Racial +2 Wilderness Lore and +4 Hide in woods or forests. Trackless Step leaves no trail in natural surroundings.",
+              "Racial +2 on saves against spells or spell-like effects with earth, rock, stone, or wood in the name, earth shugenja spells, and wu jen spells tied to earth or wood.",
+              "Speak with animals once per day for one minute, as a 1st-level caster. This version can speak with any animal."
+            ]
+          },
+          {
+            "title": "Original NPC · Ilen",
+            "lines": [
+              "River lineage ferry healer who can guide an underwater rescue",
+              "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+              "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+              "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+              "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Ilen": [
+            {
+              "start": 15,
+              "end": 19,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ],
+          "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+            {
+              "start": 6,
+              "end": 10,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "b7bf3c6b66ce6f202fbc5430",
+        "publication": "Oriental Adventures (2001) · Sea",
+        "edition": "3.0 edition",
+        "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+              "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+              "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+              "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+              "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+              "Sea lineage.",
+              "Breathe air and water. Swim speed 30 ft. Routine swimming needs no check.",
+              "Racial +8 on Swim checks for special actions or hazards. May take 10 even when rushed or threatened. Can run while swimming in a straight line.",
+              "Racial +2 on saves against spells and spell-like effects with the fire descriptor.",
+              "Predict the next 24 hours of weather with a DC 15 Knowledge (nature) or untrained Intelligence check, with a +2 racial bonus."
+            ]
+          },
+          {
+            "title": "Original NPC · Ilen",
+            "lines": [
+              "River lineage ferry healer who can guide an underwater rescue",
+              "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+              "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+              "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+              "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Ilen": [
+            {
+              "start": 15,
+              "end": 19,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ],
+          "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+            {
+              "start": 6,
+              "end": 10,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Spirit Folk": true,
+      "Ilen": true,
+      "River spirit folk": true,
+      "spirit folk low-light": true,
+      "spirit folk ferry healer": true
+    },
+    "hash": "22cdee76762b4dafcdaf2df54198741484bb2d9b8487226df4426f39d3d4884e",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Oriental Adventures (2001) · Bamboo",
+    "defaultVersionKey": "3b7e3645fa73052d657cfc7c",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "group": "3.0 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "b7bf3c6b66ce6f202fbc5430",
+      "publication": "Oriental Adventures (2001) · Sea",
+      "edition": "3.0 edition",
+      "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+            "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+            "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+            "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+            "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+            "Sea lineage.",
+            "Breathe air and water. Swim speed 30 ft. Routine swimming needs no check.",
+            "Racial +8 on Swim checks for special actions or hazards. May take 10 even when rushed or threatened. Can run while swimming in a straight line.",
+            "Racial +2 on saves against spells and spell-like effects with the fire descriptor.",
+            "Predict the next 24 hours of weather with a DC 15 Knowledge (nature) or untrained Intelligence check, with a +2 racial bonus."
+          ]
+        },
+        {
+          "title": "Original NPC · Ilen",
+          "lines": [
+            "River lineage ferry healer who can guide an underwater rescue",
+            "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+            "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+            "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+            "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Ilen": [
+          {
+            "start": 15,
+            "end": 19,
+            "target": {
+              "name": "Ilen",
+              "group": "Spirit Folk",
+              "publication": "River Spirit Folk ferry healer, Adept 1",
+              "local": {
+                "entry": "npc-113b30d91ec49098fb522921",
+                "version": "d282de92080e9778e2cd3284"
+              }
+            }
+          }
+        ],
+        "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+          {
+            "start": 6,
+            "end": 10,
+            "target": {
+              "name": "Ilen",
+              "group": "Spirit Folk",
+              "publication": "River Spirit Folk ferry healer, Adept 1",
+              "local": {
+                "entry": "npc-113b30d91ec49098fb522921",
+                "version": "d282de92080e9778e2cd3284"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "3b7e3645fa73052d657cfc7c",
+        "publication": "Oriental Adventures (2001) · Bamboo",
+        "edition": "3.0 edition",
+        "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+              "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+              "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+              "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+              "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+              "Bamboo lineage. Racial +2 Wilderness Lore and +4 Hide in woods or forests. Trackless Step leaves no trail in natural surroundings.",
+              "Racial +2 on saves against spells or spell-like effects with earth, rock, stone, or wood in the name, earth shugenja spells, and wu jen spells tied to earth or wood.",
+              "Speak with animals once per day for one minute, as a 1st-level caster. This version can speak with any animal."
+            ]
+          },
+          {
+            "title": "Original NPC · Ilen",
+            "lines": [
+              "River lineage ferry healer who can guide an underwater rescue",
+              "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+              "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+              "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+              "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Ilen": [
+            {
+              "start": 15,
+              "end": 19,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ],
+          "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+            {
+              "start": 6,
+              "end": 10,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "90ad05b270700946b43866f8",
+        "publication": "Oriental Adventures (2001) · River",
+        "edition": "3.0 edition",
+        "source": "https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+              "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+              "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+              "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+              "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+              "River lineage.",
+              "Breathe air and water. Swim speed 30 ft. Routine swimming needs no check.",
+              "Racial +8 on Swim checks for special actions or hazards. May take 10 even when rushed or threatened. Can run while swimming in a straight line.",
+              "Racial +2 on saves against spells or spell-like effects with water in the name, water shugenja spells, and water-related wu jen spells.",
+              "Speak with animals once per day for one minute, as a 1st-level caster. This version works on fish."
+            ]
+          },
+          {
+            "title": "Original NPC · Ilen",
+            "lines": [
+              "River lineage ferry healer who can guide an underwater rescue",
+              "Motive. Recover a missing ferry passenger before the current takes them past the landing.",
+              "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.",
+              "River Spirit Folk ferry healer, Adept 1 · Provisional CR 1/2 · Medium Humanoid (Spirit)",
+              "AC 11 · HP 4 (1d6) · Speed 30 ft., swim 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Ilen": [
+            {
+              "start": 15,
+              "end": 19,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ],
+          "Hook. Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore.": [
+            {
+              "start": 6,
+              "end": 10,
+              "target": {
+                "name": "Ilen",
+                "group": "Spirit Folk",
+                "publication": "River Spirit Folk ferry healer, Adept 1",
+                "local": {
+                  "entry": "npc-113b30d91ec49098fb522921",
+                  "version": "d282de92080e9778e2cd3284"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Spirit Folk": true,
+      "Ilen": true,
+      "Sea spirit folk": true,
+      "spirit folk low-light": true,
+      "spirit folk ferry healer": true
+    },
+    "hash": "22cdee76762b4dafcdaf2df54198741484bb2d9b8487226df4426f39d3d4884e",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Oriental Adventures (2001) · Bamboo",
+    "defaultVersionKey": "3b7e3645fa73052d657cfc7c",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

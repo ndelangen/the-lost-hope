@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Human Knave",
+    "query": "spiked morningstar fortified bridges stay down",
+    "condition": "Prone",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Human Trickshot",
+    "query": "hooded bayonet woodland roads ricochet bolt",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

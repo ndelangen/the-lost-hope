@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Shark",
+    "file": "",
+    "selection": "generated",
+    "sha256": "b9a101777ae98edbbcbf9d13852a7496d71b27bb80c79a10aa56443705bab03d",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Shark",
+    "file": "",
+    "selection": "generated",
+    "sha256": "233e1df81e455d8c10ebd956abb8c6dfa4f02682058bf5441b00ebe80b7a61e4",
+    "width": 1254,
+    "height": 1254
+  }
+]

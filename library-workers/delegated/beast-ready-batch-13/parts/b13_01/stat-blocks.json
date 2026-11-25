@@ -1,0 +1,345 @@
+[
+  {
+    "name": "Awakened White Moose",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Large Beast, neutral evil",
+    "ac": 11,
+    "hp": 68,
+    "hitDice": "8d10 + 24",
+    "speed": "40 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Passive Perception 11. Languages Druidic. AC 11 from natural armor.",
+    "appearance": "A heavy white bull moose with broad palmate antlers and a dark muzzle.",
+    "habitats": [
+      "Forest",
+      "Arctic"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 82, Chapter 1, The White Moose.",
+      "Traits": "Charge. If the moose moves at least 20 ft. straight toward a target and then hits it with Antlers on that turn, the hit deals an extra 9 (2d8) bludgeoning damage. A creature hit this way must pass a DC 14 Strength save or fall prone.\nSure-Footed. The moose has advantage on Strength and Dexterity saves against being knocked prone.",
+      "Actions": "Multiattack. Make one Antlers attack and one Hooves attack.\nAntlers. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 13 (2d8 + 4) piercing damage.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 9 (2d4 + 4) bludgeoning damage.",
+      "At the table": "The moose serves the frost druid Ravisin and lairs in area E6. It is attuned to the full-moon mirror in E7, which functions as a crystal ball while its frame is lit. It uses the mirror to find familiar hunters and loggers."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Cave Bear",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 42,
+    "hitDice": "5d10 + 15",
+    "speed": "40 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 13. Languages none. AC 12 from natural armor.",
+    "appearance": "A broad-bodied bear with thick brown fur and sturdy paws.",
+    "habitats": [
+      "Cave",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 76, Chapter 1, Good Mead, area V7. Base stat block in the 2014 Monster Manual p. 334.",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit for 9 (1d8 + 5) piercing damage.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit for 12 (2d6 + 5) slashing damage.",
+      "At the table": "If more than two intruders are visible in the V4 encounter, the verbeeg whistles for Yogobor, who arrives three rounds later. In V7, a creature can sneak past the sleeping bear in the dark with a DC 14 Dexterity (Stealth) check. A light that illuminates it wakes it. When reduced to 20 HP or fewer, it tries to flee if the verbeeg is out of sight."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Chimeric Baboon",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Passive Perception 11. Languages none.",
+    "appearance": "An olive-brown baboon with a long muzzle and exposed upper canines.",
+    "habitats": [
+      "Menagerie"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 246, Chapter 7, area Y16 Menagerie, Chimeric Creations table. Base stat block in the 2014 Monster Manual p. 318.",
+      "Traits": "Pack Tactics. The baboon has advantage on an attack roll against a creature if one of the baboon’s allies is within 5 ft. of that creature and is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. Hit for 1 (1d4 − 1) piercing damage plus 3 (1d6) poison damage.",
+      "At the table": "A creature made by the Chimeric Creator is loyal to the person who pulled its lever."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Chimeric Cat",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Blindsight 60 ft., tremorsense 60 ft. Passive Perception 13. Languages none.",
+    "appearance": "A tabby cat with a slender pair of sensory antennae.",
+    "habitats": [
+      "Menagerie"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 246, Chapter 7, area Y16 Menagerie, Chimeric Creations table. Base stat block in the 2014 Monster Manual p. 320.",
+      "Traits": "Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Claws. Melee weapon attack, +0 to hit, reach 5 ft., one target. Hit for 1 slashing damage.",
+      "At the table": "A creature made by the Chimeric Creator is loyal to the person who pulled its lever."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    }
+  },
+  {
+    "name": "Chimeric Fox",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "30 ft., burrow 5 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 13. Languages none.",
+    "appearance": "A compact arctic fox with pale winter fur shifting to a mottled parchment tan along its side.",
+    "habitats": [
+      "Menagerie",
+      "Arctic",
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 246, Chapter 7, area Y16 Menagerie, Chimeric Creations table. Base stat block on p. 288 of the adventure.",
+      "Traits": "Keen Hearing. The fox has advantage on Wisdom (Perception) checks that rely on hearing.\nCamouflaging Fur. Its fur changes color to match its surroundings, granting advantage on Dexterity (Stealth) checks.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit for 1 piercing damage.",
+      "At the table": "A creature made by the Chimeric Creator is loyal to the person who pulled its lever."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "skills": {
+      "Perception": 3,
+      "Stealth": 5
+    }
+  },
+  {
+    "name": "Chimeric Hare",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "20 ft., burrow 5 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 0,
+    "abilities": {
+      "Str": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Passive Perception 12. Languages none.",
+    "appearance": "A white snowshoe hare with upright black-tipped ears and a pair of feathered wings.",
+    "habitats": [
+      "Menagerie",
+      "Arctic"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden p. 246, Chapter 7, area Y16 Menagerie, Chimeric Creations table. Base stat block on p. 294 of the adventure.",
+      "Traits": "Escape. The hare can Dash, Disengage, or Hide as a bonus action on each of its turns.",
+      "At the table": "A creature made by the Chimeric Creator is loyal to the person who pulled its lever."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "skills": {
+      "Perception": 2,
+      "Stealth": 5
+    }
+  }
+]

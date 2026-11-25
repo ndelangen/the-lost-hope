@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Modron Monodrone",
+    "statBlock": {
+      "name": "Modron Monodrone",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 216,
+      "classification": "Medium construct, lawful neutral",
+      "ac": 15,
+      "hp": 5,
+      "hitDice": "1d8 + 1",
+      "speed": "30 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 10,
+      "description": "The lowest rank of Mechanus follows orders from duodrones. It can fly and attack with force-charged gears.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Modron.",
+        "Condition immunities": "Charmed.",
+        "Traits": "Disintegration. The modron turns to dust when it dies. Its gear and anything else it wore or carried remain.",
+        "Actions": "Gear. Melee attack, +4 to hit, reach 5 ft. A hit deals 6 (1d8 + 2) Force damage.\nGear Flinger. Ranged attack, +4 to hit, range 120 ft. A hit deals 6 (1d8 + 2) Force damage.",
+        "Habitats": "Mechanus.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 216."
+      }
+    }
+  },
+  {
+    "name": "Modron Duodrone",
+    "statBlock": {
+      "name": "Modron Duodrone",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 217,
+      "classification": "Medium construct, lawful neutral",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "Duodrones direct monodrones as part of the Mechanus hierarchy. They can throw their clockwork blades and catch them as they fly back.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Modron.",
+        "Condition immunities": "Charmed.",
+        "Traits": "Disintegration. The modron turns to dust when it dies. Its gear and anything else it wore or carried remain.",
+        "Actions": "Multiattack. Make two Clockwork Blade attacks.\nClockwork Blade. Melee or ranged attack, +3 to hit, reach 5 ft. or range 30 ft. A hit deals 4 (1d6 + 1) Force damage. The blade immediately returns by magic to the duodrone's hand after a ranged attack, whether it hit or missed.",
+        "Habitats": "Mechanus.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 217."
+      }
+    }
+  },
+  {
+    "name": "Modron Tridrone",
+    "statBlock": {
+      "name": "Modron Tridrone",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 217,
+      "classification": "Medium construct, lawful neutral",
+      "ac": 15,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "Tridrones carry out quadrone orders and pass instructions to duodrones. A thrown clockwork spear returns to its wielder.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Modron.",
+        "Condition immunities": "Charmed.",
+        "Traits": "Disintegration. The modron turns to dust when it dies. Its gear and anything else it wore or carried remain.",
+        "Actions": "Multiattack. Make three Clockwork Spear attacks.\nClockwork Spear. Melee or ranged attack, +3 to hit, reach 5 ft. or range 120 ft. A hit deals 4 (1d6 + 1) Force damage. The spear immediately returns by magic to the tridrone's hand after a ranged attack, whether it hit or missed.",
+        "Habitats": "Mechanus.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 217."
+      }
+    }
+  },
+  {
+    "name": "Modron Quadrone",
+    "statBlock": {
+      "name": "Modron Quadrone",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 218,
+      "classification": "Medium construct, lawful neutral",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 12,
+      "skills": {
+        "Perception": 2
+      },
+      "description": "A flying officer from Mechanus. It oversees tridrones and can fire gears over long distances.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Modron.",
+        "Condition immunities": "Charmed.",
+        "Traits": "Disintegration. The modron turns to dust when it dies. Its gear and anything else it wore or carried remain.",
+        "Actions": "Multiattack. Choose either four Slam attacks or four Gears Launcher attacks.\nSlam. Melee attack, +4 to hit, reach 5 ft. A hit deals 4 (1d4 + 2) Force damage.\nGears Launcher. Ranged attack, +4 to hit, range 320 ft. A hit deals 4 (1d4 + 2) Force damage.",
+        "Habitats": "Mechanus.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 218."
+      }
+    }
+  },
+  {
+    "name": "Modron Pentadrone",
+    "statBlock": {
+      "name": "Modron Pentadrone",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 218,
+      "classification": "Large construct, lawful neutral",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "5d10 + 5",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4
+      },
+      "description": "A large enforcer in the Mechanus hierarchy. It directs quadrones and can pin down intruders with a blast of paralysis gas.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Modron.",
+        "Condition immunities": "Charmed.",
+        "Traits": "Disintegration. The modron turns to dust when it dies. Its gear and anything else it wore or carried remain.",
+        "Actions": "Multiattack. Choose either five Slam attacks or five Electrical Discharge attacks.\nSlam. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) Force damage.\nElectrical Discharge. Ranged attack, +4 to hit, range 120 ft. A hit deals 5 (1d6 + 2) Lightning damage.\nParalysis Gas (Recharge 5–6). Each creature in a 30-ft. Cone makes a DC 11 Constitution save. A creature that fails is Paralyzed. It repeats the save at the end of each of its turns, ending the effect on a success. After 1 minute it succeeds automatically.",
+        "Habitats": "Mechanus.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 218."
+      }
+    }
+  }
+]

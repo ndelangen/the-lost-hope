@@ -1,0 +1,20 @@
+{
+  "baseline": "171499ecdb18bf9f3bd894380b2a3336ef453152",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Sharakim"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Destiny (2004)",
+  "racialTraitsAndLightingModifiersVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

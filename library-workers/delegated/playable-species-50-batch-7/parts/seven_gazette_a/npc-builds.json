@@ -1,0 +1,311 @@
+{
+  "builds": [
+    {
+      "id": "a5e-tern-flintpin",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Ridge sentry, Rogue 1",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "speed": "30 ft. and Wind Rider glide",
+      "senses": "Darkvision 60 ft., passive Perception 14 before situational expertise.",
+      "languages": "Common, Auran, and Sylvan, including signing the culture languages.",
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +3",
+        "Intimidation +1 with d4 expertise",
+        "Investigation +2",
+        "Nature +2 or +4 with Wisdom",
+        "Perception +4",
+        "Stealth +5 with d6 expertise"
+      ],
+      "traits": [
+        "Aspect of the Hunt. Grey-feathered birdfolk with finesse talons and 60-ft. darkvision. Sight- or hearing-based Perception adds a d4 expertise die. In moonlight or starlight, Wildling Nightwalker also grants a d4 to Investigation and increases qualifying Perception expertise to d6.",
+        "Proficiency +2. Saves Str +1, Dex +5, Con +1, Int +2, Wis +2, Cha −1. Fitted padded leather sets AC 12 + Dex 3. Its piercing flaw makes it breakable on a piercing critical hit.",
+        "Wind Rider. Unencumbered and with no weapon wielded, glide up to 30 ft. horizontally at a 1:1 descent rate. Land or move the full 30 ft. each round. Three consecutive full gliding rounds without landing give one level of fatigue, cleared on a short or long rest. Resist falling damage while not incapacitated.",
+        "Origins. Wildling with Nightwalker, Land Hunter, and mountain Weather Sense. Land Hunter and Hide in the Shadows together grant a d6 Stealth expertise die. He can hide in dim light from creatures without darkvision. He can forage for himself and one other in 4 hours once per long rest, estimate time and season at home, and predict nonmagical mountain weather after a minute outdoors.",
+        "Soldier grants +1 Strength, +1 Dexterity, Athletics, Intimidation, a dice set and Sylvan. Military Bearing helps him exchange news with soldiers and get routine questions answered. Devotion rewards completing his duty. When he Helps an ally attack a creature, he may spend inspiration to give that creature disadvantage on attacks against anyone else until his next turn."
+      ],
+      "actions": [
+        "Talons. Finesse natural weapon +5, reach 5 ft. Hit 1d4+3 slashing. Both hands remain free.",
+        "Dagger. Melee +5, reach 5 ft. Hit 1d4+3 piercing.",
+        "Sneak Attack. Once each turn, add 1d6 to a finesse weapon hit if he had advantage or if another nonincapacitated enemy of the target is within 5 ft. of it and Tern did not have disadvantage."
+      ],
+      "tactics": "Glides from a high perch before attacking. Hides in dim light if the pursuer lacks darkvision and strikes only if the ridge path cannot be secured by talk.",
+      "difficulty": "Class level 1. No assigned CR."
+    },
+    {
+      "id": "a5e-alder-tine",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Ferryfold defender, Herald 1",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 14
+      },
+      "speed": "30 ft.",
+      "senses": "Passive Perception 12 before forest expertise.",
+      "languages": "Common, Elvish and Sylvan, spoken, read, written and signed.",
+      "skills": [
+        "Animal Handling +2",
+        "Athletics +5",
+        "Insight +2",
+        "Intimidation +5 using Strength",
+        "Medicine +2",
+        "Perception +2 with d4 in forests",
+        "Religion +1",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +3, Dex +1, Con +2, Int −1, Wis +2, Cha +4. Fitted leather brigandine gives 13 + Dex 1 and can break to a piercing critical. Uses no shield or helmet.",
+        "Regal Antlers and forest terrain. Ignore natural forest difficult terrain, add a d4 to forest Perception, halve damage from sharp terrain hazards and use a bonus action to Hide or Disengage. His hooves cannot wear ordinary shoes and his antlers prevent headgear.",
+        "Divine Sense detects the presence of Fey or Elementals within 30 ft. Enhance it as a bonus action twice per long rest to learn location, count and type, and detect hallowed or desecrated sites in range. Those creatures make DC 12 Wisdom saves with advantage if their CR exceeds 1. A failure also reveals identity.",
+        "Nomad grants Animal Handling, Survival, Perception, land vehicles and tinker’s tools. He can predict a day of natural weather after one minute outside and uses a d4 on suitable land-vehicle checks. Guildmember grants +1 Con, +1 Str, Athletics, Medicine and woodcarver’s tools. In town he can earn a moderate living woodcarving and take guild jobs.",
+        "Devotion rewards hard-kept promises to travelers. When he Helps an ally attack a creature, spending inspiration also gives that creature disadvantage against other targets until his next turn.",
+        "Herald magic uses Charisma, save DC 12 and spell attack +4. Two level-1 slots per long rest. Bless and heroism are prepared, with light and guidance as cantrips. Carries a holy symbol."
+      ],
+      "actions": [
+        "Spear. +5 piercing, reach 5 ft. or throw 20/60 ft. Hit 1d6+3, or 1d8+3 when wielding in two hands in melee.",
+        "Antlers. Bonus-action unarmed strike +5, reach 5 ft. Hit 1d6+3 piercing.",
+        "Lay on Hands. Action and touch. Spend any amount from a 5-hp pool to heal that many hit points on a living nonconstruct, or spend all 5 to neutralize one poison or cure one disease. Restores on a long rest.",
+        "Bless. Action, 30 ft., three targets, concentration up to one minute. They add a d4 to attack rolls and saves. Or cast heroism on one willing creature touched. Concentration for up to one minute, immunity to being frightened and 2 temporary hit points at the start of each turn.",
+        "Light. Action and touch. An object sheds 20 ft. of bright light and 20 more of dim light for one hour. Guidance. Action and touch. A willing target adds 1d4 to one ability check within a minute of concentration."
+      ],
+      "tactics": "Watches for someone crossing away from the ferry lights. Leads with persuasion, blesses companions if things turn hostile and clears a path with spear or antlers.",
+      "difficulty": "Class level 1. No assigned CR."
+    },
+    {
+      "id": "a5e-luma-mothreed",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Wayside healer, Cleric 1",
+      "size": "Small",
+      "type": "Humanoid and Fey",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 16,
+        "CHA": 12
+      },
+      "speed": "25 ft., fly 30 ft.",
+      "senses": "Passive Perception 15 before scent expertise.",
+      "languages": "Common, Sylvan, and Halfling, spoken, read, written and signed.",
+      "skills": [
+        "Animal Handling +5",
+        "Insight +5",
+        "Medicine +5",
+        "Perception +5",
+        "Persuasion +3",
+        "Religion +1",
+        "Survival +5"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +0, Dex +2, Con +2, Int −1, Wis +5, Cha +3. Armor of Conviction gives AC 10 + Dex 2 + Wis 3 in plain clothes, with no shield.",
+        "Dual Humanoid and Fey creature type. Wings allow 30-ft. flight with a 20-lb. cap at Strength 10. Carries a light pouch, clothing and a holy symbol, with travel gear set down before flying. She can hover for two full consecutive rounds, after which each uninterrupted extra round adds fatigue. Her antennae give a d4 expertise die on scent checks.",
+        "Nomad gives Animal Handling, Survival, Perception, land vehicles and tinker’s tools. She can forecast normal weather after a minute outdoors and has a d4 on relevant land-vehicle checks. Hermit gives +1 Wisdom, +1 Constitution, Medicine, Religion, an herbalism kit and Inner Voice. Cleric grants Insight, Persuasion, and weaver’s tools. Ordination brings food, lodging and introductions from her order in exchange for rites.",
+        "Coming of Age. Personal milestones earn inspiration. A bonus action can spend it for one hour of proficiency with a weapon, armor, skill, or tool.",
+        "Healer archetype. Wisdom DC 13, spell attack +5, two 1st-level slots per long rest. Prepare bless, detect magic, protection from evil and good, and sanctuary. Archetype provides cure wounds and healing word, Armor of Conviction adds shield of faith. Cantrips are guidance, light, sacred flame, spare the dying, and thaumaturgy. Prepared ritual spells and ceremony can be cast as rituals."
+      ],
+      "actions": [
+        "Healing Touch. Action, touch. Restore 1 hp, twice per long rest without spending slots.",
+        "Cure Wounds. Action, touch, one slot. Heal 1d8+6 hp. Healing Word instead takes a bonus action at 60 ft. and heals 1d4+6 hp. Each includes the +3 Wisdom modifier from the spell and a further +3 from Heal Up. Both exclude Constructs and Undead.",
+        "Sacred Flame. Action, one visible target within 60 ft., even through cover. DC 13 Dexterity save or take 1d8 radiant. Spare the Dying touches and stabilizes a living creature at 0 hp.",
+        "Bless. Action, 30 ft., concentration up to a minute. Three targets add a d4 to attacks and saves. Shield of Faith uses a bonus action to raise one target’s AC by 2 within 60 ft. for up to 10 minutes of concentration."
+      ],
+      "tactics": "Walks between the cots and saves flight for reaching injured people across obstacles. Uses Healing Touch for small wounds and saves slots for emergencies.",
+      "difficulty": "Class level 1. No assigned CR."
+    },
+    {
+      "id": "a5e-rivet-reedgate",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Lock examiner, Rogue 1",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "speed": "25 ft.",
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Dwarvish, and Gnomish, spoken, read, written and signed. Service Frame adds Draconic and Elvish.",
+      "skills": [
+        "Acrobatics +5",
+        "Culture +4",
+        "Engineering +4",
+        "Insight +3 with d4 expertise",
+        "Investigation +4",
+        "Perception +3",
+        "Persuasion +1",
+        "Stealth +5",
+        "Thieves’ tools +5 with d4 expertise"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +0, Dex +5, Con +1, Int +4, Wis +1, Cha −1. Fitted padded leather gives AC 12 + Dex 3, with piercing flaw.",
+        "Service Frame gives artisan proficiency with calligrapher’s supplies and a d4 on Insight. Anticipatory Nimbleness lets Rivet move through larger creatures’ spaces. Self-defense Specialist grants an integrated boot dagger and proficiency with it.",
+        "No air or sleep needed. Resist poison from Constructed Nature and fire from fire planarite. Every 24 hours without a flask of lamp oil gives one fatigue and one strife. A long rest includes four hours inactive with normal passive Perception and four hours of light activity. Count as Large for carrying, plus two bulky items.",
+        "Mechanical Metabolism. Nonmagical healing only works through rests. Magical healing restores half unless a same-round repair, such as mending or Engineering, accompanies it. Rivet follows the normal Humanoid creature type because the heritage adds no explicit type change.",
+        "Artisan grants +1 Intelligence, +1 Dexterity, Insight, Persuasion and smith’s tools. Trade Mark gives workshop access in settlements, with ordinary prices when a buyer is available. Cosmopolitan adds Culture, Engineering, a d4 to concealing equipment or keeping it when challenged, and contacts in town. After observing someone for a minute within 60 ft., Insight or History against their passive Deception reads social rank, origin, and whether their Charisma is lower than Rivet’s.",
+        "Knowledge destiny awards inspiration for substantive discoveries. As a bonus action, Rivet may spend it to learn one objective attribute of a creature or item in sight."
+      ],
+      "actions": [
+        "Boot dagger. Melee +5, reach 5 ft. Hit 1d4+3 piercing. Concealed while stowed. A DC 15 Investigation check identifies it as a weapon, at disadvantage while it is worn and stowed. Gain a d4 expertise die on the draw attack if the target did not know of the blade. Resheathing uses a bonus action.",
+        "Sneak Attack. Once per turn, add 1d6 to a finesse hit with advantage or when another nonincapacitated enemy of the target is within 5 ft. and Rivet does not have disadvantage.",
+        "Locksmith. Work one minute with thieves’ tools. On success against the lock’s DC, Rivet either raises an unlocked lock’s DC by 10 once or makes a key after probing it. Thieves’ tools use Dexterity +3, proficiency +2 and a d4."
+      ],
+      "tactics": "Leads with a close examination of the latch, then questions witnesses discreetly. Draws the heel blade only if a witness corners them.",
+      "difficulty": "Class level 1. No assigned CR."
+    },
+    {
+      "id": "a5e-vesper-sprig",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Hedgerow traveler, Druid 1",
+      "size": "Small",
+      "type": "Fey",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 12
+      },
+      "speed": "30 ft.",
+      "senses": "Passive Perception 15.",
+      "languages": "Common and Sylvan, spoken, read, written and signed. Druidic.",
+      "skills": [
+        "Animal Handling +5",
+        "Medicine +5",
+        "Nature +2",
+        "Perception +5",
+        "Religion +2",
+        "Survival +5 with d4 in Feywood"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +1, Dex +2, Con +2, Int +0, Wis +5, Cha +1. Nature Skin gives unarmored AC 13 + Dex 2. Uses no shield and holds a carved quarterstaff. Fey Whimsy supplies minor illusion with Wisdom.",
+        "Fey Logic. Vesper acts as Small despite variable appearance and can wield gear with a prehensile tail. Once per short rest add a d4 to one untrained skill check. A promise recipient can react once a day to compel Vesper as suggestion, resisted by DC 10 Wisdom save. They do not yet have outgoing suggestion.",
+        "Aversion is ticking clocks. Vesper cannot touch, manipulate or willingly approach one within 5 ft. A DC 20 Wisdom save suppresses aversion to that clock and similar things within 30 ft. for an hour. Failure ends their turn and blocks a new attempt for the day. Ignore aversion to a protected creature that attacks Vesper or an ally.",
+        "Dreaming Wilds with Feywood and Survival, a wooden flute, and shillelagh from Wilds as Weapon. Normal travel through nonmagical Feywood difficult terrain, d4 to Survival there, and self-supply in natural landscapes. Once a day improvise a mundane travel item or tool kit worth up to 10 gp from nearby material. It reverts after 24 hours or 10 minutes out of their possession, whichever comes first.",
+        "Hermit adds +1 Wisdom and +1 Constitution, Medicine, Religion, herbalism kit and Inner Voice. Druid grants Animal Handling, Perception, Nature, Druidic and druidcraft. Eldritch Survivor substitutes Survival for understanding magically altered places, foods or creatures with an expertise die. Herbal Apothecary gives expertise with kits and herbal searches, and doubles medicinals or rare herbs found with the kit.",
+        "Metamorphosis destiny. Vesper pursues a permanent form that can root in both realms. Sacrifices in that pursuit earn inspiration. They can spend it as an action to communicate for an hour with a visible non-Humanoid of CR 1 or less and add a d4 to influence checks.",
+        "Druid uses Wisdom, save DC 13 and spell attack +5, with two 1st-level slots. Prepares entangle, faerie fire, goodberry and speak with animals. Cantrips are druidcraft plus produce flame and thorn whip, and separate origin spells shillelagh and minor illusion."
+      ],
+      "actions": [
+        "Quarterstaff. Melee +1, reach 5 ft. Hit 1d6−1 bludgeoning. After shillelagh as a bonus action, the staff becomes magical for a minute, uses Wisdom and deals 1d8+3 bludgeoning at +5. Dropping the staff ends shillelagh.",
+        "Produce Flame. Action, make light or throw it up to 30 ft. for a +5 ranged spell attack and 1d8 fire. Thorn Whip. Action, +5 melee spell attack within 30 ft., 1d6 piercing and pull a Large or smaller target up to 10 ft.",
+        "Entangle. One slot, action, 90 ft., 20-ft. square of difficult terrain for up to one minute with concentration. Creatures in the area when cast make DC 13 Strength saves or become restrained. An affected creature can spend an action on a DC 13 Strength check to escape.",
+        "Minor Illusion. Action, 30 ft. Make a sound or still image of an object fitting in a 5-ft. cube for a minute. Inspect against DC 13 Investigation. Contact exposes an image."
+      ],
+      "tactics": "Approaches with staff lowered. Uses an illusion to draw pursuers away or entangle to bar a chase. Leaves rather than remain near a ticking clock.",
+      "difficulty": "Class level 1. No assigned CR."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Tern Flintpin",
+      "species": "Birdfolk",
+      "speciesPublication": "Gate Pass Gazette #5",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-tern-flintpin",
+      "size": "Medium",
+      "role": "Ridge sentry and signal relay.",
+      "motive": "Recover the missing shutters of a warning lantern before the fog settles.",
+      "hook": "Tern marks a hand signal on a scrap of slate. Someone on the opposite ridge has been repeating it back all night from an abandoned watch post."
+    },
+    {
+      "name": "Alder Tine",
+      "species": "Cervid",
+      "speciesPublication": "Gate Pass Gazette #11",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-alder-tine",
+      "size": "Medium",
+      "role": "Ferry warden and woodcarver.",
+      "motive": "Collect the names of a missing ferry crew before a successor is appointed.",
+      "hook": "Alder has carved nine ferry tags. Eight have been claimed. The ticket seller insists a ninth passenger never boarded."
+    },
+    {
+      "name": "Luma Mothreed",
+      "species": "Chrysalian",
+      "speciesPublication": "Gate Pass Gazette #15",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-luma-mothreed",
+      "size": "Small",
+      "role": "Healer who tends caravan crossings.",
+      "motive": "Reach a cut-off rest stop with enough medicine to keep the road open.",
+      "hook": "Yellow thread marks every injured traveler from the last caravan. Luma recognizes her own stitching, but she has never treated them."
+    },
+    {
+      "name": "Rivet Reedgate",
+      "species": "Constructed",
+      "speciesPublication": "Gate Pass Gazette #0",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-rivet-reedgate",
+      "size": "Medium",
+      "role": "Retired lockmaker who investigates break-ins.",
+      "motive": "Prove an archive was opened with a living key.",
+      "hook": "Rivet can reassemble the lock to reveal a missing piece. The curator demands a report before dusk and insists the lock was never disassembled."
+    },
+    {
+      "name": "Vesper Sprig",
+      "species": "Dreamborn",
+      "speciesPublication": "Gate Pass Gazette #4",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-vesper-sprig",
+      "size": "Small",
+      "role": "Guide who maps places where the Dreaming touches the Waking.",
+      "motive": "Find a second path between the worlds after an old hedge route closed.",
+      "hook": "Someone has tied a working pocket watch to the only reachable hedge gate. Vesper asks for help taking it down before the gate’s promised opening."
+    }
+  ]
+}

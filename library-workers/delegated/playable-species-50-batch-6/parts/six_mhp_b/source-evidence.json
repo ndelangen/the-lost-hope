@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Mousefolk",
+    "publication": "Mage Hand Press: Mousefolk (2021)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://magehandpress.com/2021/09/mousefolk/",
+    "page": "Mousefolk Traits, Mouseling and Ratling",
+    "sourceLocator": "Mousefolk Traits, Mouseling and Ratling",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "The standalone article prints both subgroups. Wick uses Mouseling. I treated the 2014 character as Humanoid because the article assigns no alternate rules type."
+  },
+  {
+    "name": "Sirine",
+    "publication": "Mage Hand Press: Sirine (2017)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Fey",
+    "url": "https://magehandpress.com/2017/03/sirine/",
+    "page": "Unearthly Beauty and Sirine Traits",
+    "sourceLocator": "Unearthly Beauty and Sirine Traits",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "The article calls Sirines fey and says effects targeting fey apply. Nemi uses Fey as the rules type. The article grants charm person before the separate level-5 suggestion trait."
+  },
+  {
+    "name": "Fetchling",
+    "publication": "Mage Hand Press: Fetchling (2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://magehandpress.com/2016/06/fetchling/",
+    "page": "Children of Shadow and Fetchling Traits",
+    "sourceLocator": "Children of Shadow and Fetchling Traits",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "This is the Mage Hand Press conversion. Evil Eye gives immunity after a successful save and has no stated rest limit. The source describes a gaunt humanoid, which I used as the rules type."
+  },
+  {
+    "name": "Myconid",
+    "publication": "Mage Hand Press: Myconid (2015)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://magehandpress.com/2015/09/myconids/",
+    "page": "Myconid Traits",
+    "sourceLocator": "Myconid Traits",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "The article describes fungi and refers to other humanoids in its reproduction section, but supplies no dedicated type. Ripplecap uses Humanoid as the 2014 player default. The article gives no duration beyond using minor illusion and concentrating, so this build uses the cantrip’s one-minute cap. The Hallucination Spores DC is Intelligence-based, and Pacifying Spores use a printed fixed DC 11. These are the standalone traits, separate from the monster stat block."
+  }
+]

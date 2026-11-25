@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Cnidaran",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern and Hit Point Press",
+    "author": "Loot Tavern design team",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "version": "First-printing chapter 6, read from the rendered original page",
+    "printedPages": [
+      152
+    ],
+    "heading": "Cnidaran Traits",
+    "publisherListing": "",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "sourceDistinctions": [
+      "The player trait groups two morphs. Senn uses Nematocyst and gets no Shimmerskin magic.",
+      "Use the 2014 fighter and Soldier background. The printed appendage has no special reach."
+    ]
+  },
+  {
+    "name": "Cyclopian",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern and Hit Point Press",
+    "author": "Loot Tavern design team",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "version": "First-printing chapter 6, read from the rendered original page",
+    "printedPages": [
+      154
+    ],
+    "heading": "Cyclopian Traits",
+    "publisherListing": "",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "sourceDistinctions": [
+      "The written creature type is Humanoid plus the stated Aberration qualification.",
+      "AC 12 assumes no spell slot has been spent. Mage armor gives AC 15 for eight hours."
+    ]
+  },
+  {
+    "name": "Gobboc",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern and Hit Point Press",
+    "author": "Loot Tavern design team",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "version": "First-printing chapter 6, read from the rendered original page",
+    "printedPages": [
+      156
+    ],
+    "heading": "Gobboc Traits",
+    "publisherListing": "",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "sourceDistinctions": [
+      "The source art shows a chicken-like feathered humanoid. The chicken is a distinct spell form and its own stat block, not a second ongoing morph.",
+      "The printed Coward’s Creed depends on a melee hit. It does not grant the full rogue Cunning Action feature at level 1."
+    ]
+  },
+  {
+    "name": "Golynn",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern and Hit Point Press",
+    "author": "Loot Tavern design team",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "version": "First-printing chapter 6, read from the rendered original page",
+    "printedPages": [
+      158
+    ],
+    "heading": "Golynn Traits",
+    "publisherListing": "",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "sourceDistinctions": [
+      "The printed golynn has a digging feature and no special claw attack.",
+      "Daro’s AC uses natural armor and a shield. Dueling applies with the shield because it is not a weapon."
+    ]
+  },
+  {
+    "name": "Lotol",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern and Hit Point Press",
+    "author": "Loot Tavern design team",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+    "version": "First-printing chapter 6, read from the rendered original page",
+    "printedPages": [
+      160
+    ],
+    "heading": "Lotol Traits",
+    "publisherListing": "",
+    "errata": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "sourceDistinctions": [
+      "Adaptive Polymorphism grants two selections. Tavi has water breathing, swimming, and tongue retrieval from the chosen adaptations, with no Shocking Skin or darkvision.",
+      "The art depicts gills and mail. Scale mail is equipment, consistent with the written Lotol skin lacking natural scales."
+    ]
+  }
+]

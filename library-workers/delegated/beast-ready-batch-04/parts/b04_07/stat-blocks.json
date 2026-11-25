@@ -1,0 +1,318 @@
+[
+  {
+    "name": "Giant Elk",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 14,
+    "hp": 42,
+    "hitDice": "5d12 + 10",
+    "speed": "60 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +4, passive Perception 14. Speaks Giant Elk and understands Common, Elvish, and Sylvan without speaking them.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A huge elk with a dark shaggy neck, a tawny coat, and broad branching antlers.",
+    "habitats": [
+      "Forest",
+      "Meadows",
+      "Mountain slopes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 132, Giant Elk. ",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn to deal an extra 7 (2d6) damage. A creature hit must also succeed on a DC 14 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft., one prone creature. A hit deals 22 (4d8 + 4) bludgeoning damage.",
+      "At the table": "Charge damage applies to a qualifying Ram hit even on a successful save. Hooves is a separate action against a prone creature within 5 ft."
+    }
+  },
+  {
+    "name": "Giant Elk",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 14,
+    "hp": 42,
+    "hitDice": "5d12 + 10",
+    "speed": "60 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +4, passive Perception 14. Speaks Giant Elk and understands Common, Elvish, and Sylvan without speaking them.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A huge elk with a dark shaggy neck, a tawny coat, and broad branching antlers.",
+    "habitats": [
+      "Forest",
+      "Meadows",
+      "Mountain slopes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 325, Giant Elk. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn to deal an extra 7 (2d6) damage. A creature hit must also succeed on a DC 14 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft., one prone creature. A hit deals 22 (4d8 + 4) bludgeoning damage.",
+      "At the table": "Charge damage applies to a qualifying Ram hit even on a successful save. Hooves is a separate action against a prone creature within 5 ft."
+    }
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d6 + 1",
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Blindsight 30 ft., passive Perception 8. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A large dark beetle with six jointed legs, curved antennae, and two luminous glands.",
+    "habitats": [
+      "Underground",
+      "Dark forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 132, Giant Fire Beetle. ",
+      "Traits": "Illumination. The beetle sheds bright light within 10 ft. of itself and dim light for another 10 ft.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 2 (1d6 − 1) slashing damage.",
+      "At the table": "The beetle has two light-producing glands. They continue giving off light for 1d6 days after it dies."
+    }
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d6 + 1",
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Blindsight 30 ft., passive Perception 8. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A large dark beetle with six jointed legs, curved antennae, and two luminous glands.",
+    "habitats": [
+      "Underground",
+      "Dark forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 325, Giant Fire Beetle. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+      "Traits": "Illumination. The beetle sheds bright light within 10 ft. of itself and dim light for another 10 ft.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 2 (1d6 − 1) slashing damage.",
+      "At the table": "The beetle has two light-producing glands. They continue giving off light for 1d6 days after it dies."
+    }
+  },
+  {
+    "name": "Giant Frog",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 18,
+    "hitDice": "4d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2, Stealth +3. Darkvision 30 ft., passive Perception 12. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A broad-headed, mottled frog with thick folded hind legs and webbed toes.",
+    "habitats": [
+      "Wetlands",
+      "Ponds",
+      "Marshes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 133, Giant Frog. ",
+      "Traits": "Amphibious. The frog can breathe in both air and water.\nStanding Leap. The frog can long jump up to 20 ft. and high jump up to 10 ft., with or without a run-up.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage and grapples the target (escape DC 11). The target is restrained while grappled. The frog cannot bite a different target until that grapple ends.\nSwallow. Make one Bite attack against a Small or smaller target the frog already grapples. A hit ends the grapple and swallows the target. The swallowed target is blinded and restrained, has total cover against attacks and other effects from outside the frog, and takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can hold one swallowed target. If the frog dies, the target is no longer restrained by it and can spend 5 ft. of movement to leave the corpse, emerging prone.",
+      "At the table": "Use Bite to establish the grapple and Swallow as a separate action. Swallow requires a new attack roll and works only on a Small or smaller grappled target."
+    }
+  },
+  {
+    "name": "Giant Frog",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 18,
+    "hitDice": "4d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2, Stealth +3. Darkvision 30 ft., passive Perception 12. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A broad-headed, mottled frog with thick folded hind legs and webbed toes.",
+    "habitats": [
+      "Wetlands",
+      "Ponds",
+      "Marshes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 325, Giant Frog. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
+      "Traits": "Amphibious. The frog can breathe in both air and water.\nStanding Leap. The frog can long jump up to 20 ft. and high jump up to 10 ft., with or without a run-up.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage and grapples the target (escape DC 11). The target is restrained while grappled. The frog cannot bite a different target until that grapple ends.\nSwallow. Make one Bite attack against a Small or smaller target the frog already grapples. A hit ends the grapple and swallows the target. The swallowed target is blinded and restrained, has total cover against attacks and other effects from outside the frog, and takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can hold one swallowed target. If the frog dies, the target is no longer restrained by it and can spend 5 ft. of movement to leave the corpse, emerging prone.",
+      "At the table": "Use Bite to establish the grapple and Swallow as a separate action. Swallow requires a new attack roll and works only on a Small or smaller grappled target."
+    }
+  }
+]

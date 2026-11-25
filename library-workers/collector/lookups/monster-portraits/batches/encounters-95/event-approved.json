@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Spellscale",
+    "slug": "spellscale",
+    "caption": "Isette Mossglass · Original Spellscale NPC",
+    "id": "species-698fc69c2a8340b0b43c0b67:476d713ca5079d6d444ceafe",
+    "entry": "species-698fc69c2a8340b0b43c0b67",
+    "version": "476d713ca5079d6d444ceafe",
+    "suffix": "encounters-95/spellscale.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-95/spellscale.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-95/event-drafts/spellscale-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 95 2026-11-24/event-drafts/spellscale-event-v1.png",
+    "overrides": [],
+    "sha256": "ff8d69b228bf601b48d98f3d0148e4009f6589a08a62e3fddcf54e082b4dde53",
+    "bytes": 1918538
+  }
+]

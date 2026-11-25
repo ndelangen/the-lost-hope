@@ -1,0 +1,7 @@
+# Spiker source check
+
+The July 2004 first printing places the Spiker description on pp. 14–15 and the racial traits on p. 15. The printed damage reduction label conflicts with its accompanying text. Wizards’ November 2004 errata specifies DR 2/piercing or slashing. Apply the reduction to qualifying attacks unless the attack deals piercing or slashing damage. [First printing]() · [Wizards errata archive, ](https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP)
+
+The March 2008 FAQ, pp. 50–51, distinguishes an opposed grapple check to deal damage from an attack roll against AC. For the former, spike damage replaces the usual unarmed damage. The latter uses the light weapon attack at −4. The FAQ also permits an ordinary melee attack with armor spikes or a single light off-hand spike attack under the two-weapon rules. [Wizards archive, ](https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP) · [Armor spikes](https://www.d20srd.org/srd/equipment/armor.htm#armorSpikes) · [Grapple](https://www.d20srd.org/srd/combat/specialAttacks.htm#grapple)
+
+The independent review confirmed both builds’ attack math, Parry’s adjusted armor and armor check penalty, Grip’s opposed check and separate attack roll, and the patch’s publication scope. David Hudnut’s original illustration and the description informed Grip’s organic spikes and metallic-looking skin. Grip’s clothing and pose are original.

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Aventi",
+    "kind": "species",
+    "publication": "Stormwrack (2005)",
+    "edition": "3.5 edition",
+    "book": "Stormwrack",
+    "authors": [
+      "Richard Baker",
+      "Joseph D. Carriker Jr.",
+      "Jennifer Clarke Wilkes"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2005",
+    "productCode": "620-17867000-001-EN",
+    "isbn": "0-7869-3689-4",
+    "printedPages": {
+      "playableSpecies": [
+        34,
+        35,
+        36
+      ],
+      "racialTraits": 34,
+      "illustration": 35,
+      "monsterExamples": [
+        138,
+        139
+      ],
+      "deity": 49,
+      "domains": 110
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "53d29c7c6ed20da69c3ddd8474c64c88a59b572834e0bfc56900cf422e9d2511",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Eric Polak, Aventi paladin, p. 35.",
+    "sourceDistinctions": [
+      "Page 34 gives the detailed player profile with Human and Aquatic subtypes. Pages 138–139 supply separate class-based encounter examples.",
+      "Water Spell Power applies only to the printed Water descriptor. Create Water qualifies, but the core Water Breathing spell has no Water descriptor.",
+      "Amphibious permits air and water breathing without limit. Human Blood applies race-related effects and does not provide standard human bonus feats or skills.",
+      "Wizards’ collected archive has no Stormwrack errata file. The official FAQ has no Aventi entry."
+    ],
+    "entryId": "species-fe99e5bffeab077779035b95",
+    "versionKey": "68a5e613ca1d9c94e65c3595",
+    "slug": "aventi",
+    "portraitSelection": "generated",
+    "portraitForm": "Selka of Tideglass, an original Aventi Cleric",
+    "npcExamples": [
+      "Selka of Tideglass",
+      "Kerrin of Shalebank"
+    ]
+  }
+]

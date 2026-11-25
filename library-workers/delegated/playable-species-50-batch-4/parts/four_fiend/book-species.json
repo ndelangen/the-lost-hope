@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Feytouched",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium fey, land speed 30 ft., low-light vision, and level adjustment +1. Applying the book’s p. 9 ability-score method gives Dexterity +2, Constitution −2, Charisma +2.",
+      "Immune to mind-affecting spells and effects. Hide and Move Silently gain +2 racial bonuses.",
+      "Charm person once per day as a spell-like ability, caster level equal to Hit Dice. The entry gives Will DC 11.",
+      "The character section gives bard or rogue as favored class and notes that isolated feytouched often train as druids or rangers. The single sample racial Hit Die is exchanged for the first class Hit Die in this example."
+    ]
+  },
+  {
+    "name": "Maeluth",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium outsider, land speed 20 ft., favored class cleric, level adjustment +1. The 3.0 ability-score method yields Dexterity −2 and Constitution +4. Languages in the entry are Common, Dwarven, and Undercommon.",
+      "Outsider traits from p. 136 include darkvision 60 ft. and the printed restriction on raise dead and resurrection. Wish or miracle can restore life.",
+      "Dwarf-derived defenses grant +2 on saves against spells and spell-like effects, +2 Fortitude against poison, and a +4 dodge bonus to AC against giants. Attacks against orcs and goblinoids gain +1.",
+      "Stonecunning grants +2 to detect unusual stonework, prompts an automatic check within 10 ft., allows Search for stone traps as a rogue, and indicates approximate depth. Appraise and Craft or Profession checks involving stone or metal gain +2.",
+      "Fiend Hammer is supernatural. It gives one melee weapon the unholy property for 1 minute, once per day."
+    ]
+  },
+  {
+    "name": "Mechanatrix",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium outsider, land speed 20 ft., favored class fighter and level adjustment +1. The book’s method yields Dexterity −2, Constitution +2, Intelligence +2, and Charisma −2. The sample has +1 natural armor.",
+      "Outsider traits from p. 136 include darkvision 60 ft. and the printed restriction on raise dead and resurrection. Wish or miracle can restore life.",
+      "Fire and cold resistance 5. Electricity immunity instead heals 1 HP per 3 points of would-be electrical damage. The mechanatrix makes no save against the electricity effect.",
+      "Shocking grasp once per day, with caster level equal to character level or 1, whichever is higher. Spot gains +2, and Knowledge (architecture and engineering) gains +4."
+    ]
+  },
+  {
+    "name": "Shyft",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium outsider, land speed 30 ft., favored class rogue, Common, level adjustment +3. The p. 9 score conversion gives Strength −2, Dexterity +2, Wisdom +2 and Charisma −2.",
+      "Outsider traits from p. 136 include darkvision 60 ft. and the printed restriction on raise dead and resurrection. Wish or miracle can restore life.",
+      "The entry adds low-light vision and resistance 5 to cold, fire and sonic. Hide and Move Silently gain +4.",
+      "Ethereal jaunt once per day as a spell-like ability. The caster level is the higher of 9 or actual character level."
+    ]
+  },
+  {
+    "name": "Wispling",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Small outsider, land speed 20 ft., favored class rogue, Common, and level adjustment +1. The p. 9 score conversion gives Strength −2, Dexterity +4 and Intelligence +2.",
+      "Outsider traits from p. 136 include darkvision 60 ft. and the printed restriction on raise dead and resurrection. Wish or miracle can restore life.",
+      "Halfling-derived traits grant +1 racial to all saves, +2 morale on fear saves, +1 on attacks with thrown weapons, and +2 racial to Climb, Jump, Listen and Move Silently.",
+      "Change self once per day as a 1st-level sorcerer, classified as supernatural in the entry. It changes appearance for 10 minutes, still within the character’s body type. This is a visual glamer."
+    ]
+  },
+  {
+    "name": "Spriggan",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Small fey with low-light vision, 20-ft. land speed, 5 racial d6 Hit Dice and level adjustment +2. ECL starts at 7 and increases by class level. Favored class rogue. Common and Gnome are spoken, with Sylvan and Kobold noted as additional languages.",
+      "The p. 9 conversion of the natural form yields Dexterity +10, Constitution +2 and Wisdom −2. Climb, Disable Device, Move Silently, Open Lock and Sleight of Hand each receive +4 racial. The build uses the 3.0 skill name Pick Pocket for the book’s Sleight of Hand.",
+      "In natural form, add +3d6 racial melee sneak attack when flanking or against a target denied Dexterity to AC. It stacks with class sneak attack. At will, cast produce flame, scare and shatter as spell-like abilities at CL 8, with save DC 10 + spell level.",
+      "At-will supernatural size change takes the spriggan from Small to Large. The Large form has speed 30 ft., space and reach 10 ft., Strength +8, Dexterity −4 and Constitution +6 relative to natural form. The size modifier swings from +1 to −1 on attacks and AC. A carried short sword uses the printed increased damage die. Racial sneak attack and innate spell-like abilities are unavailable while enlarged."
+    ]
+  }
+]

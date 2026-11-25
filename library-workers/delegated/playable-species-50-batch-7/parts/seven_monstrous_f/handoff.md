@@ -1,0 +1,13 @@
+# Monstrous Races player conversions
+
+Displacer Beast, Dragon Turtle, and Mimic use Tyler Kamstra's 2018 DMs Guild player conversions for the 2014 fifth-edition rules. I read the original and v2 trait blocks. The Displacer Beast and Dragon Turtle blocks are still on pp. 64 and 71. The Mimic traits move from p. 142 in the original to p. 146 in v2. Its original introduction starts on p. 141. The traits take precedence when the design commentary lists abilities, speeds, or damage types that the finished block does not grant. [Original supplement]() · [v2 text]() · [Author's publication listing](https://rpgbot.net/dnd5/dmsguild/)
+
+| NPC | Manual build check |
+| --- | --- |
+| Kest Ashpad, Displacer Beast Fighter 5 | AC 14 is 12 + 2 Dex. HP 44 is 12 at level 1 plus 8 at each of the next four levels. A tentacle hits at +7 from Strength +4 and proficiency +3. The build applies the Strength bonus to bludgeoning and uses ordinary 5-ft. reach. |
+| Brack Slatewake, Dragon Turtle Barbarian 3 | AC 16 is 14 + 2 Dex. HP 32 is 14 at level 1 plus 9 at each of the next two levels. Bite hits at +5 and adds 2 damage while raging. The printed breath DC is 12 from 8 + 2 Con + 2 proficiency. The player profile never specifies the target's save ability. Brack uses Constitution as an explicit table ruling, following the 2014 monster's steam save ability. |
+| Latch, Mimic Monk 2 | AC 13 is 11 + 2 Dex, which ties Unarmored Defense. HP 15 is 9 at level 1 plus 6 at level 2. Its racial unarmed attacks and ordinary body check hit at +5. Athletics +5 resolves a pseudopod grapple. The supplement's p. 7 rule reserves conventional strikes for Martial Arts and Flurry of Blows bonus attacks, so each body check deals 1d4 + 3 bludgeoning. |
+
+All three use no equipment that needs hands. Latch's lockbox shape is part of its body. Its False Appearance requires concentration for the one-minute setup and continued motionlessness thereafter. Its Adhesive reaction has the printed Huge limit, and a hit with a pseudopod instead allows a normal grapple as a bonus action. [2014 class rules](https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes) · [2014 combat rules](https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat) · [2014 dragon turtle steam](https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-d#DragonTurtle)
+
+Built-in ImageGen produced the three square portraits. I checked them at full size and at 96 pixels beside Big Linda. The Displacer Beast revision corrects the seven paws in its first draft and keeps both tentacles. [Portrait comparison](portrait-review.jpg) · [Prompts](portrait-prompts.json) · [Portrait hashes and sizes](portrait-files.json)

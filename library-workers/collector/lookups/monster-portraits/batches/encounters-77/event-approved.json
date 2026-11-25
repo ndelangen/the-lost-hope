@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Slaughter Demon",
+    "slug": "slaughter-demon",
+    "caption": "Slaughter Demon · Original bestiary portrait",
+    "id": "monster-3f34b1eda2b2be707119ca40:00b362bb937ce0568c0720f0",
+    "entry": "monster-3f34b1eda2b2be707119ca40",
+    "version": "00b362bb937ce0568c0720f0",
+    "suffix": "encounters-77/slaughter-demon.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-77/slaughter-demon.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-77/event-drafts/slaughter-demon-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 77 2026-11-24/event-drafts/slaughter-demon-event-v1.png",
+    "overrides": [],
+    "sha256": "0b3b94380f61eb6e946c16b007ce70e3f5ae660de77f77faded5c11bb9c2cc41",
+    "bytes": 2592935
+  }
+]

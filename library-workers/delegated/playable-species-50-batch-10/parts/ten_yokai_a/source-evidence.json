@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Enkoh",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern Publishing",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=123",
+    "version": "Final v1.00 digital printing, read from its rendered authored folios",
+    "printedPages": [
+      118,
+      119,
+      120
+    ],
+    "heading": "Enkoh Traits",
+    "publisherListing": "https://loottavern.com/ryokos-guide/",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Toma uses the Hulking form. His +2 Strength and +1 Constitution use the flexible adjustments on p. 117."
+    ]
+  },
+  {
+    "name": "Fuyōren",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern Publishing",
+    "creatureType": "Plant",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=126",
+    "version": "Final v1.00 digital printing, read from its rendered authored folios",
+    "printedPages": [
+      121,
+      122
+    ],
+    "heading": "Fuyōren Traits",
+    "publisherListing": "https://loottavern.com/ryokos-guide/",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Fuyōren is the v1.00 trait heading, distinct from the draft and roster spelling Fuyōhren."
+    ],
+    "aliases": [
+      "Fuyōhren",
+      "Fuyohren"
+    ]
+  },
+  {
+    "name": "Hanamori",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern Publishing",
+    "creatureType": "Plant",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=128",
+    "version": "Final v1.00 digital printing, read from its rendered authored folios",
+    "printedPages": [
+      123,
+      124
+    ],
+    "heading": "Hanamori Traits",
+    "publisherListing": "https://loottavern.com/ryokos-guide/",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Sumi’s +1 Dexterity and +2 Constitution use the flexible adjustments on p. 117. Rugged and Unarmored Defense are distinct choices."
+    ]
+  },
+  {
+    "name": "Haniwa",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern Publishing",
+    "creatureType": "Construct",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=130",
+    "version": "Final v1.00 digital printing, read from its rendered authored folios",
+    "printedPages": [
+      125,
+      126
+    ],
+    "heading": "Haniwa Traits",
+    "publisherListing": "https://loottavern.com/ryokos-guide/",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "Grave Guardian uses the 2014 sanctuary with the published Player’s Handbook errata. Earthen uppercut appears on p. 281.",
+      "The companion uses the 2014 Mastiff statistics with the printed Clay Companion and Soul Shell changes."
+    ],
+    "relatedRules": [
+      "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=286",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-m",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "https://www.dndbeyond.com/sources/dnd/sae/players-handbook-2014"
+    ]
+  },
+  {
+    "name": "Isetsu",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Loot Tavern Publishing",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+    "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=132",
+    "version": "Final v1.00 digital printing, read from its rendered authored folios",
+    "printedPages": [
+      127,
+      128
+    ],
+    "heading": "Isetsu Traits",
+    "publisherListing": "https://loottavern.com/ryokos-guide/",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The printed Waterborne trait gives no swim speed. Brittle Shell adds a temporary bonus to a chosen AC calculation. Fortune Favoured has no rounding direction in its trait text."
+    ],
+    "aliases": [
+      "Istesu"
+    ],
+    "relatedRules": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/introduction",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+    ]
+  }
+]

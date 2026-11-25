@@ -1,0 +1,240 @@
+[
+  {
+    "name": "Clawfoot",
+    "publication": "Eberron: Rising from the Last War",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "printedPage": 289,
+    "ac": 13,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Perception +3, Stealth +5. Passive Perception 13. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tall-human-sized bipedal dinosaur with sharp teeth, a stiff tail, and large sickle-shaped toe claws.",
+    "habitats": [
+      "Grassland",
+      "Talenta Plains",
+      "Q’barra"
+    ],
+    "sections": {
+      "Printed source": "Eberron: Rising from the Last War, Chapter 6, Friends and Foes, Dinosaurs, p. 289. https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+      "Traits": "Pack Tactics. The clawfoot has advantage on an attack roll against a creature if an ally is within 5 ft. of that target and the ally is not incapacitated.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claws on the same turn. It falls prone if it fails a DC 11 Strength save. The clawfoot can then Bite that target once as a bonus action if it is prone.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 7 (1d8 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 7 (1d8 + 3) slashing damage.",
+      "Encounter ecology": "Clawfoots hunt larger prey, often in packs. Talenta halflings train these dinosaurs as war mounts.",
+      "Source notes": "Charisma is 6 (−2) in the printed block. The indexed summary gives 10."
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 5
+    }
+  },
+  {
+    "name": "Fastieth",
+    "publication": "Eberron: Rising from the Last War",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "printedPage": 289,
+    "ac": 14,
+    "hp": 9,
+    "hitDice": "2d8",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Passive Perception 10. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A human-sized bipedal plant-eater with large eyes, strong hindlegs, and brightly patterned scales.",
+    "habitats": [
+      "Grassland",
+      "Talenta Plains",
+      "Q’barra"
+    ],
+    "sections": {
+      "Printed source": "Eberron: Rising from the Last War, Chapter 6, Friends and Foes, Dinosaurs, p. 289. https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+      "Traits": "Quickness (Recharge 5–6). The fastieth can take Dodge as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 8 (1d8 + 4) piercing damage.",
+      "Encounter ecology": "Fastieths prefer to flee when threatened. Talenta halflings breed them for speed and favor even-tempered animals as riding mounts. A fastieth can carry a halfling with light gear but is too small for larger riders.",
+      "Source notes": "The p. 289 block prints Quickness under traits. It uses a bonus action and recharges on 5–6."
+    }
+  },
+  {
+    "name": "Two-Headed Crocodile",
+    "publication": "Infernal Machine Rebuild",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "printedPage": 89,
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "20 ft., swim 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Natural armor. Perception +2, Stealth +2. Passive Perception 12. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, armored crocodile with two independent heads and one long tail.",
+    "habitats": [
+      "Swamp",
+      "Temple guardroom"
+    ],
+    "sections": {
+      "Printed source": "Infernal Machine Rebuild, Appendix B, NPCs and Monsters, p. 89. https://www.dndbeyond.com/sources/imr/npcs-and-monsters",
+      "Traits": "Hold Breath. The crocodile holds its breath for up to 15 minutes.\nTwo Heads. It has advantage on Wisdom (Perception) checks and on saves against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.\nWakeful. If one head falls asleep, the other stays awake.",
+      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +4 to hit, 5 ft. reach, one creature. A hit deals 7 (1d10 + 2) piercing damage and grapples the creature, escape DC 12. The captive is restrained while grappled. The head holding it cannot bite another target until the grapple ends.",
+      "Encounter ecology": "One crocodile accompanies the lizardfolk shaman in the Temple of Moloch guardroom. If guards in area 5 warn them about intruders, the guardroom group goes to area 1 to intercept them.",
+      "Source notes": "The appendix gives a standalone Large Beast block. The bite restriction applies to the head maintaining the grapple."
+    },
+    "skills": {
+      "Perception": 2,
+      "Stealth": 2
+    }
+  },
+  {
+    "name": "Chimeric Fox",
+    "publication": "NERDS Restoring Harmony: A Voice in the Wilderness",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "printedPage": 8,
+    "ac": 13,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "30 ft., burrow 5 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Perception +3, Stealth +5. Darkvision 60 ft. Proficiency bonus +2. Passive Perception 13. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small fox with pale fur that shifts to the tan of its surroundings.",
+    "habitats": [
+      "Forest",
+      "Wilderness"
+    ],
+    "sections": {
+      "Printed source": "NERDS Restoring Harmony: A Voice in the Wilderness, Adventure 2, Monster/NPC Statistics, p. 8. ",
+      "Traits": "Chimeric Creation. The fox’s coat changes color to match its surroundings, granting advantage on Dexterity (Stealth) checks.\nKeen Hearing. The fox has advantage on Wisdom (Perception) checks that depend on hearing.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, 5 ft. reach, one creature. A hit deals 1 piercing damage.",
+      "Encounter ecology": "A skittish fox follows Red and Elowen on the trip to Lemondrop Ledges. If Red treats it kindly, it tags along and may bark to warn them or distract a foe.",
+      "Source notes": "The supplies a complete Tiny Beast block on unnumbered sheet 8. The NERDS encounter on sheet 5 describes the fox choosing to follow Red after kind treatment."
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 5
+    }
+  }
+]

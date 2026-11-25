@@ -1,0 +1,255 @@
+{
+  "Elan": {
+    "profiles": [
+      {
+        "name": "Elan",
+        "imageKey": "species:elan",
+        "kind": "species",
+        "type": "Aberration (Psionic)",
+        "publication": "Expanded Psionics Handbook (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndtools.one/expanded-psionics-handbook",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Aberration with the Psionic subtype. Charisma −2, land speed 30 ft., and no darkvision. Humanoid-only effects such as charm person do not apply.",
+          "Naturally Psionic grants 2 bonus power points at 1st level. Manifesting powers requires a separate source, such as a psionic class. The 2006 errata confirms 2 points for the creature chapter’s Elan as well.",
+          "Resistance (Su). Spend 1 power point as an immediate action for a +4 racial bonus on all saving throws until the beginning of your next action.",
+          "Resilience (Su). Spend power points as an immediate action when about to take damage. Reduce the incoming damage by 2 HP per power point spent.",
+          "Repletion (Su). Spend 1 power point to go without food or water for 24 hours. Use the core standard-action default for supernatural abilities.",
+          "An immediate action uses your swift action on your turn or on the following turn if used outside your turn. You cannot take one while flat-footed.",
+          "A four-hour daily trance provides the benefit of eight hours of human sleep. The 2006 errata removes maximum age. The aging thresholds remain 200 years for middle age, 400 for old, and 1,000 for venerable.",
+          "Elans emerge from a psionic ritual undergone by adult humans. A new Elan retains basic memories and personality and starts again as a 1st-level character with new classes and skills.",
+          "Automatic language Common. Bonus languages may include any nonsecret language. Favored class Psion. Level adjustment +0."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Elan",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Expanded Psionics Handbook (2004)",
+            "name": "Teva Alder",
+            "build": {
+              "id": "elan-archive-conservator-35e",
+              "title": "Elan archive conservator, Seer Psion 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Aberration (Psionic)",
+              "ac": 11,
+              "hp": 6,
+              "hitDice": "1d4+2",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 8,
+                "DEX": 13,
+                "CON": 14,
+                "INT": 15,
+                "WIS": 12,
+                "CHA": 8
+              },
+              "skills": [
+                "Concentration +6",
+                "Gather Information +1",
+                "Knowledge (history) +6",
+                "Knowledge (psionics) +6",
+                "Psicraft +6",
+                "Search +4"
+              ],
+              "senses": "Ordinary vision; no darkvision",
+              "languages": "Common, Dwarven, Elven",
+              "traits": [
+                "Touch 11, flat-footed 10. With Inertial Armor, AC 15, touch 11, flat-footed 14. BAB +0, grapple −1. Fortitude +2, Reflex +1, Will +3.",
+                "Manifester level 1, Seer discipline. 5 PP per day: 2 class, 1 Intelligence, 2 Elan. Each known power costs 1 PP. No known power here requires a save.",
+                "Investigator adds +2 to Search and Gather Information. Psion bonus feat Combat Manifestation gives +4 on Concentration to manifest defensively or while grappled or pinned.",
+                "Resistance: 1 PP, immediate action, +4 racial bonus to all saves until the start of the next action. Resilience: immediate action, reduce incoming damage by 2 HP per PP spent.",
+                "Repletion: 1 PP for 24 hours without food or water. A flat-footed Elan cannot use either immediate defense. All three abilities draw from the same reserve."
+              ],
+              "actions": [
+                "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, range increment 80 ft. Reload as a move action. Dagger −1 melee, 1d4−1 piercing or slashing (minimum 1), critical 19–20/×2.",
+                "Inertial Armor, 1 PP. Standard action, personal. Gain +4 armor AC for 1 hour. The force field protects against incorporeal attacks.",
+                "Call to Mind, 1 PP. Take 1 minute to retry a failed Knowledge check with a +4 competence bonus.",
+                "Detect Psionics, 1 PP. Standard action, 60-ft. cone, concentration up to 1 minute. First round detects presence, second reveals number and strongest aura, third locates and gives the strength of each aura."
+              ],
+              "tactics": "Read the overwritten entry from the gallery where the original ledger still catches the light. Reserve enough points for one defense. If threatened, use cover and the crossbow while the party gets the ledgers clear."
+            },
+            "role": "Archive conservator and disputed-record witness.",
+            "motive": "Recover the names erased from a public register before its replacement is certified.",
+            "hook": "Teva can retry a failed reading after a minute of quiet. The party needs to buy that time while the closing bell draws nearer."
+          },
+          {
+            "species": "Elan",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Expanded Psionics Handbook (2004)",
+            "name": "Corren Vale",
+            "build": {
+              "id": "elan-seal-escort-35e",
+              "title": "Elan night courier escort, Fighter 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Aberration (Psionic)",
+              "ac": 16,
+              "hp": 12,
+              "hitDice": "1d10+2",
+              "initiative": 5,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 15,
+                "DEX": 13,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 12,
+                "CHA": 6
+              },
+              "skills": [
+                "Climb +3",
+                "Jump +3"
+              ],
+              "senses": "Ordinary vision; no darkvision",
+              "languages": "Common",
+              "traits": [
+                "Chain shirt +4, light wooden shield +1, Dexterity +1. Touch 11, flat-footed 15. BAB +1, grapple +3. Fortitude +4, Reflex +1, Will +1.",
+                "Improved Initiative and Fighter bonus Weapon Focus (longsword). Climb and Jump include −3 combined armor and shield check penalty.",
+                "2 PP per day from Naturally Psionic. The reserve powers the racial abilities.",
+                "Resistance: 1 PP, immediate action, +4 racial bonus to all saves until the start of the next action. Resilience: immediate action, reduce incoming damage by 2 HP per PP spent.",
+                "Repletion: 1 PP for 24 hours without food or water. A flat-footed Elan cannot use either immediate defense. All three abilities draw from the same reserve."
+              ],
+              "actions": [
+                "Longsword +4 melee, 1d8+2 slashing, critical 19–20/×2, reach 5 ft.",
+                "Javelin +2 thrown, 1d6+2 piercing, critical ×2, 30-ft. range increment."
+              ],
+              "tactics": "Signal the courier through with the hooded lamp. Put the shield between the courier and trouble. If the route is too long to stop for supplies, spend 1 PP on Repletion before leaving and keep the other for a defense."
+            },
+            "role": "Night courier escort and signal-lamp keeper.",
+            "motive": "Get the courier and sealed testimony across the causeway before the morning hearing.",
+            "hook": "Corren will walk the full night if someone can carry the lamp signal across a stretch of road where the old markers are gone."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Elan",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Expanded Psionics Handbook (2004)",
+        "name": "Teva Alder",
+        "build": {
+          "id": "elan-archive-conservator-35e",
+          "title": "Elan archive conservator, Seer Psion 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Aberration (Psionic)",
+          "ac": 11,
+          "hp": 6,
+          "hitDice": "1d4+2",
+          "initiative": 1,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 8,
+            "DEX": 13,
+            "CON": 14,
+            "INT": 15,
+            "WIS": 12,
+            "CHA": 8
+          },
+          "skills": [
+            "Concentration +6",
+            "Gather Information +1",
+            "Knowledge (history) +6",
+            "Knowledge (psionics) +6",
+            "Psicraft +6",
+            "Search +4"
+          ],
+          "senses": "Ordinary vision; no darkvision",
+          "languages": "Common, Dwarven, Elven",
+          "traits": [
+            "Touch 11, flat-footed 10. With Inertial Armor, AC 15, touch 11, flat-footed 14. BAB +0, grapple −1. Fortitude +2, Reflex +1, Will +3.",
+            "Manifester level 1, Seer discipline. 5 PP per day: 2 class, 1 Intelligence, 2 Elan. Each known power costs 1 PP. No known power here requires a save.",
+            "Investigator adds +2 to Search and Gather Information. Psion bonus feat Combat Manifestation gives +4 on Concentration to manifest defensively or while grappled or pinned.",
+            "Resistance: 1 PP, immediate action, +4 racial bonus to all saves until the start of the next action. Resilience: immediate action, reduce incoming damage by 2 HP per PP spent.",
+            "Repletion: 1 PP for 24 hours without food or water. A flat-footed Elan cannot use either immediate defense. All three abilities draw from the same reserve."
+          ],
+          "actions": [
+            "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, range increment 80 ft. Reload as a move action. Dagger −1 melee, 1d4−1 piercing or slashing (minimum 1), critical 19–20/×2.",
+            "Inertial Armor, 1 PP. Standard action, personal. Gain +4 armor AC for 1 hour. The force field protects against incorporeal attacks.",
+            "Call to Mind, 1 PP. Take 1 minute to retry a failed Knowledge check with a +4 competence bonus.",
+            "Detect Psionics, 1 PP. Standard action, 60-ft. cone, concentration up to 1 minute. First round detects presence, second reveals number and strongest aura, third locates and gives the strength of each aura."
+          ],
+          "tactics": "Read the overwritten entry from the gallery where the original ledger still catches the light. Reserve enough points for one defense. If threatened, use cover and the crossbow while the party gets the ledgers clear."
+        },
+        "role": "Archive conservator and disputed-record witness.",
+        "motive": "Recover the names erased from a public register before its replacement is certified.",
+        "hook": "Teva can retry a failed reading after a minute of quiet. The party needs to buy that time while the closing bell draws nearer."
+      },
+      {
+        "species": "Elan",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Expanded Psionics Handbook (2004)",
+        "name": "Corren Vale",
+        "build": {
+          "id": "elan-seal-escort-35e",
+          "title": "Elan night courier escort, Fighter 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Aberration (Psionic)",
+          "ac": 16,
+          "hp": 12,
+          "hitDice": "1d10+2",
+          "initiative": 5,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 15,
+            "DEX": 13,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 12,
+            "CHA": 6
+          },
+          "skills": [
+            "Climb +3",
+            "Jump +3"
+          ],
+          "senses": "Ordinary vision; no darkvision",
+          "languages": "Common",
+          "traits": [
+            "Chain shirt +4, light wooden shield +1, Dexterity +1. Touch 11, flat-footed 15. BAB +1, grapple +3. Fortitude +4, Reflex +1, Will +1.",
+            "Improved Initiative and Fighter bonus Weapon Focus (longsword). Climb and Jump include −3 combined armor and shield check penalty.",
+            "2 PP per day from Naturally Psionic. The reserve powers the racial abilities.",
+            "Resistance: 1 PP, immediate action, +4 racial bonus to all saves until the start of the next action. Resilience: immediate action, reduce incoming damage by 2 HP per PP spent.",
+            "Repletion: 1 PP for 24 hours without food or water. A flat-footed Elan cannot use either immediate defense. All three abilities draw from the same reserve."
+          ],
+          "actions": [
+            "Longsword +4 melee, 1d8+2 slashing, critical 19–20/×2, reach 5 ft.",
+            "Javelin +2 thrown, 1d6+2 piercing, critical ×2, 30-ft. range increment."
+          ],
+          "tactics": "Signal the courier through with the hooded lamp. Put the shield between the courier and trouble. If the route is too long to stop for supplies, spend 1 PP on Repletion before leaving and keep the other for a defense."
+        },
+        "role": "Night courier escort and signal-lamp keeper.",
+        "motive": "Get the courier and sealed testimony across the causeway before the morning hearing.",
+        "hook": "Corren will walk the full night if someone can carry the lamp signal across a stretch of road where the old markers are gone."
+      }
+    ]
+  }
+}

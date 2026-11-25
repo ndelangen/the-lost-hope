@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Raptoran",
+    "kind": "species",
+    "publication": "Races of the Wild (2005)",
+    "edition": "3.5 edition",
+    "book": "Races of the Wild",
+    "author": "Skip Williams",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "February 2005",
+    "productCode": "620-17928-001-EN",
+    "isbn": "0-7869-3438-7",
+    "printedPages": {
+      "introduction": 65,
+      "anatomy": 67,
+      "playableTraits": 68,
+      "names": 82,
+      "publishedSentry": [
+        183,
+        184
+      ],
+      "sampleEndurance": [
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "footbow": [
+        164,
+        165
+      ]
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "b9f7210842634a2cf9dc20223203708eb79795657acee820e6f919eb06272ed5",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "sourceDistinctions": [
+      "Gliding is available before powered flight. The 5 and 10 HD thresholds are advancement on one playable profile.",
+      "The published Sentry is a separate Ranger 5. The p. 184 Youth Pilgrim lists fly speed despite having 1 HD. Both original builds follow the playable thresholds.",
+      "The 10 HD playable endurance wording differs from the 10-minute daily limit retained by several 10+ HD published NPCs.",
+      "The playable list supplies no level adjustment; the new builds use ECL equal to class level."
+    ],
+    "entryId": "species-2563316f22db2578288a6b94",
+    "versionKey": "fd4e2742e570dfc1a5a77b7d",
+    "slug": "raptoran",
+    "portraitSelection": "generated",
+    "portraitForm": "Avilli, an original Raptoran glider",
+    "npcExamples": [
+      "Avilli",
+      "Tarinel"
+    ]
+  }
+]

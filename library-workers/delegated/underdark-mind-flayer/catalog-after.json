@@ -1,0 +1,2815 @@
+[
+  {
+    "name": "Mind Flayer",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-4f4b9f733f6afea5aa6467de",
+      "name": "Mind Flayer",
+      "kind": "monster",
+      "group": "Aberration",
+      "groups": [
+        "Aberration"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+        },
+        {
+          "url": "",
+          "credit": "Monster Manual (2014)"
+        },
+        {
+          "url": "",
+          "credit": "Michael Broussard · Monster Manual (2024)"
+        }
+      ],
+      "versions": [
+        {
+          "key": "eb96caa3cf08041bcbdd4c63",
+          "publication": "DDEX3-03 - The Occupation of Szith Morcane",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "13d8 + 13"
+            ],
+            [
+              "Challenge",
+              "7"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "11"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "19"
+            ],
+            [
+              "Wis",
+              "17"
+            ],
+            [
+              "Cha",
+              "17"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Tentacles · melee · +7 to hit · reach 5 ft. · 2d10 + 4 psychic",
+                "Extract Brain · melee · +7 to hit · reach 5 ft. · 10d10 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "9a5be3f8a7d140221af776af",
+          "publication": "DDEX3-08 - The Malady of Elventree",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "13d8 + 13"
+            ],
+            [
+              "Challenge",
+              "7"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "11"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "19"
+            ],
+            [
+              "Wis",
+              "17"
+            ],
+            [
+              "Cha",
+              "17"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Tentacles · melee · +7 to hit · reach 5 ft. · 2d10 + 4 psychic",
+                "Extract Brain · melee · +7 to hit · reach 5 ft. · 10d10 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "c64db0c785554b276504612f",
+          "publication": "Icewind Dale: Rime of the Frostmaiden",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17104-mind-flayer",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30833/421/1000/1000/638063863513745427.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Icewind Dale: Rime of the Frostmaiden"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "13d8 + 13"
+            ],
+            [
+              "Challenge",
+              "7"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "16"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "11"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "19"
+            ],
+            [
+              "Wis",
+              "17"
+            ],
+            [
+              "Cha",
+              "17"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Wis +6",
+                "Cha +6",
+                "Int +7"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A humanoid with a bulbous, octopus-like head and four tentacles around its mouth."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Tentacles · melee · +7 to hit · reach 5 ft. · 2d10 + 4 psychic",
+                "Extract Brain · melee · +7 to hit · reach 5 ft. · 10d10 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#mind%20flayer_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "76a3b13628b912e6cb75ba31",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "description": "A Medium aberration with challenge rating 7. Listed habitats: underdark. Named abilities include Magic Resistance, Tentacles, Extract Brain.",
+          "source": "https://5e.tools/bestiary.html#mind%20flayer_mm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30833/421/1000/1000/638063863513745427.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Monster Manual (2014)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "13d8 + 13"
+            ],
+            [
+              "Challenge",
+              "7"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "16"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Strength",
+              "11"
+            ],
+            [
+              "Dexterity",
+              "12"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "19"
+            ],
+            [
+              "Wisdom",
+              "17"
+            ],
+            [
+              "Charisma",
+              "17"
+            ],
+            [
+              "Alignment",
+              "lawful evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Wis +6",
+                "Cha +6",
+                "Int +7",
+                "Intelligence +7, Wisdom +6, Charisma +6"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A humanoid with a bulbous, octopus-like head and four tentacles around its mouth."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Tentacles · melee · +7 to hit · reach 5 ft. · 2d10 + 4 psychic",
+                "Extract Brain · melee · +7 to hit · reach 5 ft. · 10d10 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 120 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Deep Speech, Undercommon, telepathy 120 ft."
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Magic Resistance"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Tentacles · Melee attack · +7 to hit · 2d10 + 4 psychic damage · Escape DC 15 · DC 15 Intelligence save · reach 5 ft. · Grappled · Stunned",
+                "Extract Brain · Melee attack · +7 to hit · 10d10 piercing damage · reach 5 ft. · 0 hit points · Additional effect upon reaching 0 HP · Incapacitated · Grappled",
+                "Mind Blast (Recharge 5–6) · DC 15 Intelligence save · 4d8 + 4 psychic damage · 60-foot cone · 1 minute · Repeat the save at the end of each turn · Stunned"
+              ]
+            },
+            {
+              "title": "Spellcasting reference",
+              "lines": [
+                "Innate Spellcasting (Psionics) · Intelligence · DC 15 · Detect thoughts · Levitate · Dominate monster · Plane shift",
+                "At will · detect thoughts, levitate",
+                "1/day each · dominate monster, plane shift (self only)"
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Psionic Commanders",
+                "Hive Mind Colonies",
+                "Hunger of the Mind",
+                "Qualith"
+              ]
+            }
+          ],
+          "sourceCode": "MM",
+          "page": 222,
+          "references": [
+            {
+              "label": "Monster Manual (2014), p. 222",
+              "url": "https://5e.tools/bestiary.html#mind%20flayer_mm"
+            },
+            {
+              "label": "Breastplate (item)",
+              "url": "https://5e.tools/items.html#breastplate_phb",
+              "local": {
+                "entry": "item-0ce400c7c9fe7fb4103d7816",
+                "version": "PHB:145:https://5e.tools/items.html#breastplate_phb"
+              },
+              "preview": {
+                "name": "Breastplate",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 145,
+                "description": "A medium armor.",
+                "local": {
+                  "entry": "item-0ce400c7c9fe7fb4103d7816",
+                  "version": "PHB:145:https://5e.tools/items.html#breastplate_phb"
+                }
+              }
+            },
+            {
+              "label": "Detect thoughts (spell)",
+              "url": "https://5e.tools/spells.html#detect%20thoughts_phb",
+              "local": {
+                "entry": "compendium-13f6f1c6ba3cd2807d78c858",
+                "version": "PHB:231:https://5e.tools/spells.html#detect%20thoughts_phb"
+              },
+              "preview": {
+                "name": "Detect Thoughts",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 231,
+                "description": "A level 2 divination spell. Wisdom saving throw.",
+                "local": {
+                  "entry": "compendium-13f6f1c6ba3cd2807d78c858",
+                  "version": "PHB:231:https://5e.tools/spells.html#detect%20thoughts_phb"
+                }
+              }
+            },
+            {
+              "label": "Levitate (spell)",
+              "url": "https://5e.tools/spells.html#levitate_phb",
+              "local": {
+                "entry": "compendium-6e52d059e9ed2ecb0acb9b5c",
+                "version": "PHB:255:https://5e.tools/spells.html#levitate_phb"
+              },
+              "preview": {
+                "name": "Levitate",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 255,
+                "description": "A level 2 transmutation spell. Constitution saving throw.",
+                "local": {
+                  "entry": "compendium-6e52d059e9ed2ecb0acb9b5c",
+                  "version": "PHB:255:https://5e.tools/spells.html#levitate_phb"
+                }
+              }
+            },
+            {
+              "label": "Dominate monster (spell)",
+              "url": "https://5e.tools/spells.html#dominate%20monster_phb",
+              "local": {
+                "entry": "compendium-bccffaf5d1a5fad43374ccd9",
+                "version": "PHB:235:https://5e.tools/spells.html#dominate%20monster_phb"
+              },
+              "preview": {
+                "name": "Dominate Monster",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 235,
+                "description": "A level 8 enchantment spell. Wisdom saving throw. Can inflict Charmed.",
+                "local": {
+                  "entry": "compendium-bccffaf5d1a5fad43374ccd9",
+                  "version": "PHB:235:https://5e.tools/spells.html#dominate%20monster_phb"
+                }
+              }
+            },
+            {
+              "label": "Plane shift (spell)",
+              "url": "https://5e.tools/spells.html#plane%20shift_phb",
+              "local": {
+                "entry": "compendium-50334400b8b0d922ec0312fe",
+                "version": "PHB:266:https://5e.tools/spells.html#plane%20shift_phb"
+              },
+              "preview": {
+                "name": "Plane Shift",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 266,
+                "description": "A level 7 conjuration spell. Charisma saving throw.",
+                "local": {
+                  "entry": "compendium-50334400b8b0d922ec0312fe",
+                  "version": "PHB:266:https://5e.tools/spells.html#plane%20shift_phb"
+                }
+              }
+            },
+            {
+              "label": "Grappled (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#grappled_phb",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              },
+              "preview": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "label": "Stunned (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#stunned_phb",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              },
+              "preview": {
+                "name": "Stunned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-d8bc271631b0ee01401d9eda",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+                }
+              }
+            },
+            {
+              "label": "Incapacitated (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#incapacitated_phb",
+              "local": {
+                "entry": "compendium-b982916d13c7b1a5bf750c36",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+              },
+              "preview": {
+                "name": "Incapacitated",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot take actions or reactions.",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Medium aberration with challenge rating 7. Listed habitats: underdark. Named abilities include Magic Resistance, Tentacles, Extract Brain.": [
+              {
+                "start": 97,
+                "end": 102,
+                "target": {
+                  "name": "Magic",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-07ceb4292d06406c48366301",
+                    "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+                  }
+                }
+              },
+              {
+                "start": 103,
+                "end": 113,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Arcana",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-69dba21e446d3403d34e63e2",
+                    "version": "PHB:177:https://5e.tools/skills.html#arcana_phb"
+                  }
+                }
+              },
+              {
+                "start": 11,
+                "end": 20,
+                "target": {
+                  "name": "Deception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-0839cb8ea42ddb14652f72af",
+                    "version": "PHB:178:https://5e.tools/skills.html#deception_phb"
+                  }
+                }
+              },
+              {
+                "start": 25,
+                "end": 32,
+                "target": {
+                  "name": "Insight",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                    "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+                  }
+                }
+              },
+              {
+                "start": 37,
+                "end": 47,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 52,
+                "end": 62,
+                "target": {
+                  "name": "Persuasion",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 179,
+                  "local": {
+                    "entry": "compendium-c53db7b407a93f295c291cf9",
+                    "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+                  }
+                }
+              },
+              {
+                "start": 67,
+                "end": 74,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 120 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Deep Speech, Undercommon, telepathy 120 ft.": [
+              {
+                "start": 0,
+                "end": 11,
+                "target": {
+                  "name": "Deep Speech",
+                  "group": "Languages",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 123,
+                  "local": {
+                    "entry": "compendium-b27c54121759edae6262a795",
+                    "version": "PHB:123:https://5e.tools/languages.html#deep%20speech_phb"
+                  }
+                }
+              }
+            ],
+            "Magic Resistance": [
+              {
+                "start": 6,
+                "end": 16,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Tentacles · Melee attack · +7 to hit · 2d10 + 4 psychic damage · Escape DC 15 · DC 15 Intelligence save · reach 5 ft. · Grappled · Stunned": [
+              {
+                "start": 120,
+                "end": 128,
+                "target": {
+                  "name": "Grappled",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                  "local": {
+                    "entry": "compendium-e9c29509e4a14efaf316630f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                  }
+                }
+              },
+              {
+                "start": 131,
+                "end": 138,
+                "target": {
+                  "name": "Stunned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-d8bc271631b0ee01401d9eda",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+                  }
+                }
+              }
+            ],
+            "Extract Brain · Melee attack · +7 to hit · 10d10 piercing damage · reach 5 ft. · 0 hit points · Additional effect upon reaching 0 HP · Incapacitated · Grappled": [
+              {
+                "start": 135,
+                "end": 148,
+                "target": {
+                  "name": "Incapacitated",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot take actions or reactions.",
+                  "local": {
+                    "entry": "compendium-b982916d13c7b1a5bf750c36",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                  }
+                }
+              },
+              {
+                "start": 151,
+                "end": 159,
+                "target": {
+                  "name": "Grappled",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                  "local": {
+                    "entry": "compendium-e9c29509e4a14efaf316630f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                  }
+                }
+              }
+            ],
+            "Mind Blast (Recharge 5–6) · DC 15 Intelligence save · 4d8 + 4 psychic damage · 60-foot cone · 1 minute · Repeat the save at the end of each turn · Stunned": [
+              {
+                "start": 147,
+                "end": 154,
+                "target": {
+                  "name": "Stunned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-d8bc271631b0ee01401d9eda",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+                  }
+                }
+              }
+            ],
+            "Spellcasting reference": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Spellcasting",
+                  "group": "Variant rules",
+                  "publication": "Xanathar's Guide to Everything",
+                  "page": 85,
+                  "local": {
+                    "entry": "compendium-e713887bf7765ba7221c649e",
+                    "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                  }
+                }
+              }
+            ],
+            "Innate Spellcasting (Psionics) · Intelligence · DC 15 · Detect thoughts · Levitate · Dominate monster · Plane shift": [
+              {
+                "start": 7,
+                "end": 19,
+                "target": {
+                  "name": "Spellcasting",
+                  "group": "Variant rules",
+                  "publication": "Xanathar's Guide to Everything",
+                  "page": 85,
+                  "local": {
+                    "entry": "compendium-e713887bf7765ba7221c649e",
+                    "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                  }
+                }
+              },
+              {
+                "start": 56,
+                "end": 71,
+                "target": {
+                  "name": "Detect Thoughts",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 231,
+                  "description": "A level 2 divination spell. Wisdom saving throw.",
+                  "local": {
+                    "entry": "compendium-13f6f1c6ba3cd2807d78c858",
+                    "version": "PHB:231:https://5e.tools/spells.html#detect%20thoughts_phb"
+                  }
+                }
+              },
+              {
+                "start": 74,
+                "end": 82,
+                "target": {
+                  "name": "Levitate",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 255,
+                  "description": "A level 2 transmutation spell. Constitution saving throw.",
+                  "local": {
+                    "entry": "compendium-6e52d059e9ed2ecb0acb9b5c",
+                    "version": "PHB:255:https://5e.tools/spells.html#levitate_phb"
+                  }
+                }
+              },
+              {
+                "start": 85,
+                "end": 101,
+                "target": {
+                  "name": "Dominate Monster",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 235,
+                  "description": "A level 8 enchantment spell. Wisdom saving throw. Can inflict Charmed.",
+                  "local": {
+                    "entry": "compendium-bccffaf5d1a5fad43374ccd9",
+                    "version": "PHB:235:https://5e.tools/spells.html#dominate%20monster_phb"
+                  }
+                }
+              },
+              {
+                "start": 104,
+                "end": 115,
+                "target": {
+                  "name": "Plane Shift",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 266,
+                  "description": "A level 7 conjuration spell. Charisma saving throw.",
+                  "local": {
+                    "entry": "compendium-50334400b8b0d922ec0312fe",
+                    "version": "PHB:266:https://5e.tools/spells.html#plane%20shift_phb"
+                  }
+                }
+              }
+            ],
+            "At will · detect thoughts, levitate": [
+              {
+                "start": 10,
+                "end": 25,
+                "target": {
+                  "name": "Detect Thoughts",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 231,
+                  "description": "A level 2 divination spell. Wisdom saving throw.",
+                  "local": {
+                    "entry": "compendium-13f6f1c6ba3cd2807d78c858",
+                    "version": "PHB:231:https://5e.tools/spells.html#detect%20thoughts_phb"
+                  }
+                }
+              },
+              {
+                "start": 27,
+                "end": 35,
+                "target": {
+                  "name": "Levitate",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 255,
+                  "description": "A level 2 transmutation spell. Constitution saving throw.",
+                  "local": {
+                    "entry": "compendium-6e52d059e9ed2ecb0acb9b5c",
+                    "version": "PHB:255:https://5e.tools/spells.html#levitate_phb"
+                  }
+                }
+              }
+            ],
+            "1/day each · dominate monster, plane shift (self only)": [
+              {
+                "start": 13,
+                "end": 29,
+                "target": {
+                  "name": "Dominate Monster",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 235,
+                  "description": "A level 8 enchantment spell. Wisdom saving throw. Can inflict Charmed.",
+                  "local": {
+                    "entry": "compendium-bccffaf5d1a5fad43374ccd9",
+                    "version": "PHB:235:https://5e.tools/spells.html#dominate%20monster_phb"
+                  }
+                }
+              },
+              {
+                "start": 31,
+                "end": 42,
+                "target": {
+                  "name": "Plane Shift",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 266,
+                  "description": "A level 7 conjuration spell. Charisma saving throw.",
+                  "local": {
+                    "entry": "compendium-50334400b8b0d922ec0312fe",
+                    "version": "PHB:266:https://5e.tools/spells.html#plane%20shift_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "5b7c0c8038baa5a5bb5f8c4e",
+          "publication": "Monster Manual (2024)",
+          "edition": "2024 fifth edition",
+          "description": "A Medium aberration with challenge rating 7. Listed habitats: underdark. Named abilities include Magic Resistance, Tentacles, Extract Brain.",
+          "source": "https://5e.tools/bestiary.html#mind%20flayer_xmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47139/80/1000/1000/638741964415748098.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Michael Broussard · Monster Manual (2024)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "99"
+            ],
+            [
+              "Hit dice",
+              "18d8 + 18"
+            ],
+            [
+              "Challenge",
+              "7"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., fly 15 ft."
+            ],
+            [
+              "Passive Perception",
+              "16"
+            ],
+            [
+              "Strength",
+              "11"
+            ],
+            [
+              "Dexterity",
+              "12"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "19"
+            ],
+            [
+              "Wisdom",
+              "17"
+            ],
+            [
+              "Charisma",
+              "17"
+            ],
+            [
+              "Alignment",
+              "lawful evil"
+            ],
+            [
+              "Initiative",
+              "+4"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Dex +4",
+                "Int +7",
+                "Wis +6",
+                "Cha +6",
+                "Dexterity +4, Intelligence +7, Wisdom +6, Charisma +6"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Movement notes",
+              "lines": [
+                "Can hover",
+                "fly · (hover)"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Tentacles · melee · +7 to hit · reach 5 ft. · 4d8 + 4 psychic"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Arcana +7, Insight +6, Perception +6, Stealth +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "Darkvision 120 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Deep Speech, Undercommon; telepathy 120 ft."
+              ]
+            },
+            {
+              "title": "Damage resistances",
+              "lines": [
+                "psychic"
+              ]
+            },
+            {
+              "title": "Treasure",
+              "lines": [
+                "arcana"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Magic Resistance · Advantage"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Tentacles · Melee attack · +7 to hit · 4d8 + 4 psychic damage · Escape DC 14 · reach 5 ft. · Grappled · Stunned",
+                "Extract Brain · Constitution save · DC 15 · 10d10 piercing damage · 0 Hit Points · Additional effect upon reaching 0 HP · Grappled · Hit Points",
+                "Mind Blast (Recharge 5–6) · Intelligence save · DC 15 · 6d8 + 4 psychic damage · 60-foot Cone · Cone [Area of Effect] · Stunned"
+              ]
+            },
+            {
+              "title": "Spellcasting reference",
+              "lines": [
+                "Spellcasting · Intelligence · DC 15 · Detect Thoughts · Dominate Monster · Plane Shift",
+                "At will · Detect Thoughts",
+                "1/day each · Dominate Monster, Plane Shift (self only)"
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Mind Flayers",
+                "Habitat:",
+                "Treasure:",
+                "Mind Flayer Colonies"
+              ]
+            }
+          ],
+          "sourceCode": "XMM",
+          "references": [
+            {
+              "label": "Monster Manual (2025), p. 214",
+              "url": "https://5e.tools/bestiary.html#mind%20flayer_xmm"
+            },
+            {
+              "label": "Detect Thoughts (spell)",
+              "url": "https://5e.tools/spells.html#detect%20thoughts_xphb",
+              "local": {
+                "entry": "compendium-13f6f1c6ba3cd2807d78c858",
+                "version": "XPHB:262:https://5e.tools/spells.html#detect%20thoughts_xphb"
+              },
+              "preview": {
+                "name": "Detect Thoughts",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 262,
+                "description": "A level 2 divination spell. Wisdom saving throw.",
+                "local": {
+                  "entry": "compendium-13f6f1c6ba3cd2807d78c858",
+                  "version": "XPHB:262:https://5e.tools/spells.html#detect%20thoughts_xphb"
+                }
+              }
+            },
+            {
+              "label": "Dominate Monster (spell)",
+              "url": "https://5e.tools/spells.html#dominate%20monster_xphb",
+              "local": {
+                "entry": "compendium-bccffaf5d1a5fad43374ccd9",
+                "version": "XPHB:265:https://5e.tools/spells.html#dominate%20monster_xphb"
+              },
+              "preview": {
+                "name": "Dominate Monster",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 265,
+                "description": "A level 8 enchantment spell. Wisdom saving throw. Can inflict Charmed.",
+                "local": {
+                  "entry": "compendium-bccffaf5d1a5fad43374ccd9",
+                  "version": "XPHB:265:https://5e.tools/spells.html#dominate%20monster_xphb"
+                }
+              }
+            },
+            {
+              "label": "Plane Shift (spell)",
+              "url": "https://5e.tools/spells.html#plane%20shift_xphb",
+              "local": {
+                "entry": "compendium-50334400b8b0d922ec0312fe",
+                "version": "XPHB:305:https://5e.tools/spells.html#plane%20shift_xphb"
+              },
+              "preview": {
+                "name": "Plane Shift",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 305,
+                "description": "A level 7 conjuration spell.",
+                "local": {
+                  "entry": "compendium-50334400b8b0d922ec0312fe",
+                  "version": "XPHB:305:https://5e.tools/spells.html#plane%20shift_xphb"
+                }
+              }
+            },
+            {
+              "label": "Advantage (rule)",
+              "url": "https://5e.tools/variantrules.html#advantage_xphb",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+              },
+              "preview": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            },
+            {
+              "label": "Grappled (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#grappled_xphb",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+              },
+              "preview": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "label": "Stunned (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#stunned_xphb",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "XPHB:376:https://5e.tools/conditionsdiseases.html#stunned_xphb"
+              },
+              "preview": {
+                "name": "Stunned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 376,
+                "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-d8bc271631b0ee01401d9eda",
+                  "version": "XPHB:376:https://5e.tools/conditionsdiseases.html#stunned_xphb"
+                }
+              }
+            },
+            {
+              "label": "Hit Points (rule)",
+              "url": "https://5e.tools/variantrules.html#hit%20points_xphb",
+              "local": {
+                "entry": "compendium-5d00c0625087810d93d13966",
+                "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+              },
+              "preview": {
+                "name": "Hit Points",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-5d00c0625087810d93d13966",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                }
+              }
+            },
+            {
+              "label": "Cone [Area of Effect] (rule)",
+              "url": "https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb",
+              "terms": [
+                "Cone"
+              ],
+              "local": {
+                "entry": "compendium-9528f97bf2fb41a0bf865e75",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb"
+              },
+              "preview": {
+                "name": "Cone [Area of Effect]",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-9528f97bf2fb41a0bf865e75",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Medium aberration with challenge rating 7. Listed habitats: underdark. Named abilities include Magic Resistance, Tentacles, Extract Brain.": [
+              {
+                "start": 97,
+                "end": 102,
+                "target": {
+                  "name": "Magic",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-07ceb4292d06406c48366301",
+                    "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+                  }
+                }
+              },
+              {
+                "start": 103,
+                "end": 113,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 312,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "XPHB:312:https://5e.tools/spells.html#resistance_xphb"
+                  }
+                }
+              }
+            ],
+            "Hit points": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Hit Points",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 368,
+                  "local": {
+                    "entry": "compendium-5d00c0625087810d93d13966",
+                    "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "Arcana +7, Insight +6, Perception +6, Stealth +4": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Arcana",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-69dba21e446d3403d34e63e2",
+                    "version": "XPHB:14:https://5e.tools/skills.html#arcana_xphb"
+                  }
+                }
+              },
+              {
+                "start": 11,
+                "end": 18,
+                "target": {
+                  "name": "Insight",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                    "version": "XPHB:14:https://5e.tools/skills.html#insight_xphb"
+                  }
+                }
+              },
+              {
+                "start": 23,
+                "end": 33,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                  }
+                }
+              },
+              {
+                "start": 38,
+                "end": 45,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                  }
+                }
+              }
+            ],
+            "Darkvision 120 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 365,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                  }
+                }
+              }
+            ],
+            "Deep Speech, Undercommon; telepathy 120 ft.": [
+              {
+                "start": 0,
+                "end": 11,
+                "target": {
+                  "name": "Deep Speech",
+                  "group": "Languages",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 37,
+                  "local": {
+                    "entry": "compendium-b27c54121759edae6262a795",
+                    "version": "XPHB:37:https://5e.tools/languages.html#deep%20speech_xphb"
+                  }
+                }
+              }
+            ],
+            "Damage resistances": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Magic Resistance · Advantage": [
+              {
+                "start": 6,
+                "end": 16,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 312,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "XPHB:312:https://5e.tools/spells.html#resistance_xphb"
+                  }
+                }
+              },
+              {
+                "start": 19,
+                "end": 28,
+                "target": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                  }
+                }
+              }
+            ],
+            "Tentacles · Melee attack · +7 to hit · 4d8 + 4 psychic damage · Escape DC 14 · reach 5 ft. · Grappled · Stunned": [
+              {
+                "start": 93,
+                "end": 101,
+                "target": {
+                  "name": "Grappled",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 367,
+                  "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                  "local": {
+                    "entry": "compendium-e9c29509e4a14efaf316630f",
+                    "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                  }
+                }
+              },
+              {
+                "start": 104,
+                "end": 111,
+                "target": {
+                  "name": "Stunned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 376,
+                  "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-d8bc271631b0ee01401d9eda",
+                    "version": "XPHB:376:https://5e.tools/conditionsdiseases.html#stunned_xphb"
+                  }
+                }
+              }
+            ],
+            "Extract Brain · Constitution save · DC 15 · 10d10 piercing damage · 0 Hit Points · Additional effect upon reaching 0 HP · Grappled · Hit Points": [
+              {
+                "start": 70,
+                "end": 80,
+                "target": {
+                  "name": "Hit Points",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 368,
+                  "local": {
+                    "entry": "compendium-5d00c0625087810d93d13966",
+                    "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                  }
+                }
+              },
+              {
+                "start": 122,
+                "end": 130,
+                "target": {
+                  "name": "Grappled",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 367,
+                  "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                  "local": {
+                    "entry": "compendium-e9c29509e4a14efaf316630f",
+                    "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                  }
+                }
+              },
+              {
+                "start": 133,
+                "end": 143,
+                "target": {
+                  "name": "Hit Points",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 368,
+                  "local": {
+                    "entry": "compendium-5d00c0625087810d93d13966",
+                    "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                  }
+                }
+              }
+            ],
+            "Mind Blast (Recharge 5–6) · Intelligence save · DC 15 · 6d8 + 4 psychic damage · 60-foot Cone · Cone [Area of Effect] · Stunned": [
+              {
+                "start": 89,
+                "end": 93,
+                "target": {
+                  "name": "Cone [Area of Effect]",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-9528f97bf2fb41a0bf865e75",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb"
+                  }
+                }
+              },
+              {
+                "start": 96,
+                "end": 117,
+                "target": {
+                  "name": "Cone [Area of Effect]",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-9528f97bf2fb41a0bf865e75",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb"
+                  }
+                }
+              },
+              {
+                "start": 120,
+                "end": 127,
+                "target": {
+                  "name": "Stunned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 376,
+                  "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-d8bc271631b0ee01401d9eda",
+                    "version": "XPHB:376:https://5e.tools/conditionsdiseases.html#stunned_xphb"
+                  }
+                }
+              }
+            ],
+            "Spellcasting reference": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Spellcasting",
+                  "group": "Variant rules",
+                  "publication": "Xanathar's Guide to Everything",
+                  "page": 85,
+                  "local": {
+                    "entry": "compendium-e713887bf7765ba7221c649e",
+                    "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                  }
+                }
+              }
+            ],
+            "Spellcasting · Intelligence · DC 15 · Detect Thoughts · Dominate Monster · Plane Shift": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Spellcasting",
+                  "group": "Variant rules",
+                  "publication": "Xanathar's Guide to Everything",
+                  "page": 85,
+                  "local": {
+                    "entry": "compendium-e713887bf7765ba7221c649e",
+                    "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                  }
+                }
+              },
+              {
+                "start": 38,
+                "end": 53,
+                "target": {
+                  "name": "Detect Thoughts",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 262,
+                  "description": "A level 2 divination spell. Wisdom saving throw.",
+                  "local": {
+                    "entry": "compendium-13f6f1c6ba3cd2807d78c858",
+                    "version": "XPHB:262:https://5e.tools/spells.html#detect%20thoughts_xphb"
+                  }
+                }
+              },
+              {
+                "start": 56,
+                "end": 72,
+                "target": {
+                  "name": "Dominate Monster",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 265,
+                  "description": "A level 8 enchantment spell. Wisdom saving throw. Can inflict Charmed.",
+                  "local": {
+                    "entry": "compendium-bccffaf5d1a5fad43374ccd9",
+                    "version": "XPHB:265:https://5e.tools/spells.html#dominate%20monster_xphb"
+                  }
+                }
+              },
+              {
+                "start": 75,
+                "end": 86,
+                "target": {
+                  "name": "Plane Shift",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 305,
+                  "description": "A level 7 conjuration spell.",
+                  "local": {
+                    "entry": "compendium-50334400b8b0d922ec0312fe",
+                    "version": "XPHB:305:https://5e.tools/spells.html#plane%20shift_xphb"
+                  }
+                }
+              }
+            ],
+            "At will · Detect Thoughts": [
+              {
+                "start": 10,
+                "end": 25,
+                "target": {
+                  "name": "Detect Thoughts",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 262,
+                  "description": "A level 2 divination spell. Wisdom saving throw.",
+                  "local": {
+                    "entry": "compendium-13f6f1c6ba3cd2807d78c858",
+                    "version": "XPHB:262:https://5e.tools/spells.html#detect%20thoughts_xphb"
+                  }
+                }
+              }
+            ],
+            "1/day each · Dominate Monster, Plane Shift (self only)": [
+              {
+                "start": 13,
+                "end": 29,
+                "target": {
+                  "name": "Dominate Monster",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 265,
+                  "description": "A level 8 enchantment spell. Wisdom saving throw. Can inflict Charmed.",
+                  "local": {
+                    "entry": "compendium-bccffaf5d1a5fad43374ccd9",
+                    "version": "XPHB:265:https://5e.tools/spells.html#dominate%20monster_xphb"
+                  }
+                }
+              },
+              {
+                "start": 31,
+                "end": 42,
+                "target": {
+                  "name": "Plane Shift",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 305,
+                  "description": "A level 7 conjuration spell.",
+                  "local": {
+                    "entry": "compendium-50334400b8b0d922ec0312fe",
+                    "version": "XPHB:305:https://5e.tools/spells.html#plane%20shift_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "89fdf25b7e6e81327077549b",
+          "publication": "Phandelver and Below: The Shattered Obelisk",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17104-mind-flayer",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30833/421/1000/1000/638063863513745427.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Phandelver and Below: The Shattered Obelisk"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "13d8 + 13"
+            ],
+            [
+              "Challenge",
+              "7"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "16"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "11"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "19"
+            ],
+            [
+              "Wis",
+              "17"
+            ],
+            [
+              "Cha",
+              "17"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Wis +6",
+                "Cha +6",
+                "Int +7"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A humanoid with a bulbous, octopus-like head and four tentacles around its mouth."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Tentacles · melee · +7 to hit · reach 5 ft. · 2d10 + 4 psychic",
+                "Extract Brain · melee · +7 to hit · reach 5 ft. · 10d10 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#mind%20flayer_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "f46ebd7fce74e221300247a3",
+          "publication": "Waterdeep: Dragon Heist",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17104-mind-flayer",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30833/421/1000/1000/638063863513745427.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Waterdeep: Dragon Heist"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "13d8 + 13"
+            ],
+            [
+              "Challenge",
+              "7"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "16"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "11"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "19"
+            ],
+            [
+              "Wis",
+              "17"
+            ],
+            [
+              "Cha",
+              "17"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Wis +6",
+                "Cha +6",
+                "Int +7"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A humanoid with a bulbous, octopus-like head and four tentacles around its mouth."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Tentacles · melee · +7 to hit · reach 5 ft. · 2d10 + 4 psychic",
+                "Extract Brain · melee · +7 to hit · reach 5 ft. · 10d10 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#mind%20flayer_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "1e6c7b365bc018056c77d11e",
+          "publication": "Waterdeep: Dungeon of the Mad Mage",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17104-mind-flayer",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30833/421/1000/1000/638063863513745427.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "13d8 + 13"
+            ],
+            [
+              "Challenge",
+              "7"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "16"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "11"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "19"
+            ],
+            [
+              "Wis",
+              "17"
+            ],
+            [
+              "Cha",
+              "17"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Wis +6",
+                "Cha +6",
+                "Int +7"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A humanoid with a bulbous, octopus-like head and four tentacles around its mouth."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Tentacles · melee · +7 to hit · reach 5 ft. · 2d10 + 4 psychic",
+                "Extract Brain · melee · +7 to hit · reach 5 ft. · 10d10 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#mind%20flayer_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "monsterSearch": true,
+    "global": true,
+    "version": {
+      "key": "fe1384c0f68128446bdf72d4",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Aberration"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Aberration. +2 Strength, +4 Dexterity, +2 Constitution, +8 Intelligence, +6 Wisdom, +6 Charisma. Land speed 30 ft. Darkvision 60 ft. and +3 natural armor.",
+            "Four primary tentacle attacks deal 1d4 bludgeoning each before Strength.",
+            "Mind Blast (Sp) affects creatures in a 60-ft. cone. A failed Will save stuns for 3d4 rounds. The Charisma-based DC is 14 + Charisma modifier, reflecting a 4th-level equivalent. The entry gives no use limit.",
+            "Psionics (Sp), CL 8. At will, charm monster, detect thoughts, levitate, plane shift, and suggestion. Save DCs use Charisma.",
+            "Improved Grab (Ex). A tentacle hit on a Small, Medium, or Large creature allows a free grapple attempt without provoking. On success the tentacle attaches to the head. It can grab a Huge or larger creature if it can reach the head.",
+            "If one or more tentacles are attached at the start of the mind flayer’s turn, one grapple check can attach the rest. The target can escape all with one successful opposed grapple or Escape Artist check. The mind flayer gets +2 on the opposed check per tentacle attached at the start of the opponent’s turn.",
+            "Extract (Ex). Start the turn with all four tentacles attached and win a grapple check to extract the brain. This is normally fatal. The printed rule exempts constructs, elementals, oozes, plants, and undead, and extraction does not instantly kill a creature with multiple heads.",
+            "Telepathy (Su) communicates with a creature within 100 ft. that has a language. The two creatures can use different languages.",
+            "Spell resistance is 25 + class levels.",
+            "Eight racial Hit Dice (8d8) grant BAB +6, base Fortitude +2, Reflex +2, Will +6, and three feats. Racial skill points are 11 × (2 + Intelligence modifier). Racial class skills are Bluff, Concentration, Hide, Intimidate, Knowledge (any), Listen, Move Silently, and Spot.",
+            "Common and Undercommon are automatic. Bonus languages are Abyssal, Aquan, Draconic, Dwarven, Elven, Gnome, Infernal, and Terran.",
+            "LA +7. ECL 15 before class levels and ECL 16 with one class level. Favored class Wizard.",
+            "Uses the Monster Manual’s innate spell-like abilities. The Expanded Psionics Handbook presents a separate power-point variant."
+          ]
+        },
+        {
+          "title": "Original NPC · Ilyth Voss",
+          "lines": [
+            "Sealed-archive warden.",
+            "Motive. Keep visitors away from the sealed record chamber.",
+            "Hook. Ilyth offers a safe route out if the party returns the ledger intact.",
+            "Mind Flayer sealed-archive warden, racial Hit Dice only · CR 8. ECL 15 (8 racial HD, LA +7). · Medium Aberration",
+            "AC 16 · HP 52 (8d8+16) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Sael Nethrix",
+          "lines": [
+            "Seal researcher and Wizard.",
+            "Motive. Finish reading the seal before the chamber is closed again.",
+            "Hook. Sael can translate the outer inscription in exchange for time to study it.",
+            "Mind Flayer seal researcher, Wizard 1 · CR 9. ECL 16 (8 racial HD, 1 class HD, LA +7). · Medium Aberration",
+            "AC 16 · HP 57 (8d8+1d4+18) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Ilyth Voss": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Ilyth Voss",
+              "group": "Mind Flayer",
+              "publication": "Mind Flayer sealed-archive warden, racial Hit Dice only",
+              "local": {
+                "entry": "npc-eee2eb4c6595c4badc6726c9",
+                "version": "25bcf05d8e1c3baac3d6f8d8"
+              }
+            }
+          }
+        ],
+        "Original NPC · Sael Nethrix": [
+          {
+            "start": 15,
+            "end": 27,
+            "target": {
+              "name": "Sael Nethrix",
+              "group": "Mind Flayer",
+              "publication": "Mind Flayer seal researcher, Wizard 1",
+              "local": {
+                "entry": "npc-643b44889b6740d16dc86cbd",
+                "version": "0c66a6cb3a54995336b77778"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Mind Flayer": true,
+      "mind flayer mind blast": true,
+      "mind flayer telepathy": true,
+      "mind flayer sealed archive warden": true,
+      "mind flayer seal researcher": true
+    },
+    "hash": "0755e7fd667c8eb8ef5f8235c60bcd5d54eeac9e8fbdff23e932c0201aeb16fe",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "fe1384c0f68128446bdf72d4",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "reef-shark",
+    "file": "portraits/reef-shark.png",
+    "sha256": "6f2fab1af6cf9e06fa2af63260b1c24c042594eec93c1427ea3f181b5b74b812",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "scorpion",
+    "file": "portraits/scorpion.png",
+    "sha256": "c93a0150b8dc71654dd0fcfa019a65001bdc5eec5d3a65dc2eccd49427ac64bb",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "sea-horse",
+    "file": "portraits/sea-horse.png",
+    "sha256": "b945b89924ea71d69b00f16c39853f9e304556f5730d730a6f80cef6affcc009",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Fey’ri",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "firstPrinting": "March 2003",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        118,
+        119,
+        120,
+        121
+      ],
+      "racialTraits": [
+        119,
+        120
+      ],
+      "illustration": 119,
+      "monsterRevision": 5
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "revisionGuide": "",
+    "revisionGuideSha256": "cf7330becd93e73876cf4a081ade396666f9db7301f0094850f19cf666863a18",
+    "coreErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "coreErrataFilename": "",
+    "coreErrataSha256": "ad0182470b2706542bf3faa9ab75bc225dd3abd93b7d6794a473d19629f4aa0f",
+    "printedArtCredit": "Vinod Rams, p. 119.",
+    "sourceDistinctions": [
+      "Races of Faerûn gives the original player traits, including at-will indefinite humanoid alter self and a 40-ft. poor fly speed in winged form.",
+      "The 2004 Monster Update converts the earlier Monsters of Faerûn entry. This 3.5 adaptation applies its Change Shape and DR 10/magic to the player chassis and retains the 2003 four-choice list.",
+      "A character can select only one of DR, dimension door, and enervation. That choice raises LA from +2 to +3. Selected spell-like abilities use character level, not effective character level.",
+      "The 2004 guide describes an optional lesser planetouched framework but gives no named Lesser Fey’ri entry. The builds use the Native Outsider form."
+    ],
+    "entryId": "species-6125133792c0d47b37972477",
+    "versionKey": "9c361708c73ec479de395b0a",
+    "slug": "feyri",
+    "portraitSelection": "generated",
+    "portraitForm": "Vaelis Ashthread, an original Fey’ri in her natural winged form",
+    "npcExamples": [
+      "Vaelis Ashthread",
+      "Nyrel Duskmantle"
+    ]
+  }
+]

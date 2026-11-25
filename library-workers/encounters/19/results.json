@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Sheep",
+    "imageKey": "beast:sheep",
+    "kind": "beast",
+    "type": "Beast",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/299616-sheep",
+    "challenge": "0",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/299616-sheep",
+    "slug": "sheep",
+    "entry": "beast-5c599616ac500daae9e6b0bc",
+    "version": "30885e3eb5a9f2380f6676f7",
+    "generated": true,
+    "primaryPortraitSha256": "a7e8c33a26f0869dfbf725000bc94c4d17928918a48cc48a5ec79ba8238f0f6f",
+    "status": "Stat block",
+    "appearance": "A small domestic sheep with a woolly coat, narrow hooves, and short ears.",
+    "habitats": [
+      "Grassland",
+      "Hills",
+      "Mountains",
+      "Livestock pens",
+      "Good Mead"
+    ]
+  }
+]

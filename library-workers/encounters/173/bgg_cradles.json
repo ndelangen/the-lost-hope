@@ -1,0 +1,459 @@
+[
+  {
+    "name": "Cloud Giant Destiny Gambler",
+    "statBlock": {
+      "name": "Cloud Giant Destiny Gambler",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 124,
+      "classification": "Huge giant (bard), any alignment",
+      "ac": 15,
+      "hp": 337,
+      "hitDice": "27d12 + 162",
+      "speed": "40 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 19,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A cloud giant lays wagers against rivals across the planes and wears a runic half mask that cuts through magical trickery.",
+      "savingThrows": {
+        "Con": 12,
+        "Int": 10,
+        "Wis": 9,
+        "Cha": 12
+      },
+      "skills": {
+        "Deception": 18,
+        "Insight": 9,
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Thunder.",
+        "Senses": "Truesight 30 ft. (requires cloud rune).",
+        "Languages": "Common, Giant.",
+        "Traits": "Cloud Rune. A mask in the giant’s possession bears the rune. While holding or wearing it, the giant has truesight out to 30 ft. and can use Thunderous Clap and Negate Spell. The mask has AC 15, 45 HP, and immunity to necrotic, poison, and psychic damage. It recovers all its HP at the end of every turn. It turns to dust at 0 HP or when the giant dies. If the rune is destroyed, the giant can inscribe it on a mask it possesses when it finishes a short or long rest.",
+        "Actions": "Multiattack. Make three Flying Staff attacks.\nFlying Staff. Melee or ranged weapon attack, +14 to hit, reach 10 ft. or range 30/90 ft., one target. On a hit, deal 18 (3d6 + 8) bludgeoning damage plus 16 (3d10) thunder damage. The staff magically returns to the giant’s hand immediately after a ranged attack, hit or miss.\nThunderous Clap (requires Cloud Rune). Magically summon a thundercloud in a 30-ft.-radius sphere around a visible point within 60 ft. It spreads around corners. Each creature in the cloud makes a DC 20 Constitution save. Failure deals 52 (8d12) thunder damage and knocks the creature prone. Success halves the damage and avoids being knocked prone. The clap is audible 300 ft. from the center. The cloud heavily obscures the area until the start of the giant’s next turn or until strong wind disperses it.\nSpellcasting. Cast one listed spell without material components, using Charisma (save DC 20).\nAt will. Detect Magic, Fog Cloud, Light, Minor Illusion.\n1/day each. Dream (as an action), Gaseous Form, Major Image.",
+        "Reactions": "Negate Spell (requires Cloud Rune). When the giant sees a creature within 60 ft. casting a spell, it can interrupt the casting. A spell cast with a slot of 3rd level or lower fails. For a spell of 4th level or higher, the caster must pass a DC 18 Intelligence save or the spell fails.",
+        "Optional wager spells": "For a giant that has won a wager for spellcasting power, add one or more of Circle of Death, Harm, Otiluke’s Freezing Sphere, and Sunbeam to Spellcasting. Each added spell is usable once per day.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 124–125."
+      }
+    }
+  },
+  {
+    "name": "Cloud Giant of Evil Air",
+    "statBlock": {
+      "name": "Cloud Giant of Evil Air",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 125,
+      "classification": "Huge giant, typically neutral evil",
+      "ac": 14,
+      "hp": 200,
+      "hitDice": "16d12 + 96",
+      "speed": "40 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An adherent of Yan-C-Bin takes flight in a magical vest fitted with roc feathers. The vest works only for its wearer.",
+      "savingThrows": {
+        "Con": 10,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "skills": {
+        "Insight": 7,
+        "Perception": 7,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Auran, Common, Giant.",
+        "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
+        "Actions": "Multiattack. Make two Scimitar attacks and one Storm Boomerang attack.\nScimitar. Melee weapon attack, +12 to hit, reach 10 ft., one target. On a hit, deal 18 (3d6 + 8) slashing damage.\nStorm Boomerang. Ranged weapon attack, +12 to hit, range 60/240 ft., one target. On a hit, deal 15 (3d4 + 8) bludgeoning damage plus 7 (2d6) thunder damage. The target must pass a DC 16 Constitution save or become stunned until the end of its next turn. The boomerang magically returns to the giant’s hand immediately after the attack, hit or miss.\nSpellcasting. Cast one listed spell without material components, using Charisma (save DC 16).\nAt will. Detect Magic, Fog Cloud, Light.\n2/day. Telekinesis.\n1/day. Gaseous Form.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 125."
+      }
+    }
+  },
+  {
+    "name": "Cradle of the Cloud Scion",
+    "statBlock": {
+      "name": "Cradle of the Cloud Scion",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 166,
+      "classification": "Gargantuan elemental, typically chaotic neutral",
+      "ac": 19,
+      "hp": 624,
+      "hitDice": "32d20 + 288",
+      "speed": "0 ft., fly 90 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 28
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A persistent cloud tower holds a sleeping scion. Disturb it and the cloud takes the shape of a towering wind elemental.",
+      "savingThrows": {
+        "Int": 10,
+        "Cha": 12
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison, thunder.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Awakening of the Scion. At 0 HP, the cradle dissipates into wisps of cloud. Scion of Memnor immediately appears in the space it occupied and takes its initiative count.\nFlyby. Flying out of an enemy’s reach does not provoke an opportunity attack.\nLegendary Resistance (5/day). The cradle can turn a failed saving throw into a success.\nMagic Resistance. The cradle has advantage on saves against spells and other magical effects.\nSiege Monster. The cradle deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make three attacks in any combination of Slam and Wind Javelin.\nSlam. Melee weapon attack, +17 to hit, reach 20 ft., one target. On a hit, deal 31 (4d10 + 9) bludgeoning damage plus 19 (3d12) thunder damage.\nWind Javelin. Ranged weapon attack, +17 to hit, range 120 ft., one target. On a hit, deal 27 (4d8 + 9) bludgeoning damage plus 10 (3d6) thunder damage. The target must pass a DC 25 Strength save or fall prone.\nVortex (recharge 5–6). Center a cylinder 30 ft. in radius and 100 ft. high on a visible point within 90 ft. Each creature other than the cradle inside makes a DC 25 Dexterity save. Failure deals 71 (11d12) bludgeoning damage and restrains the creature in the vortex. Success halves the damage and pushes the creature to the nearest unoccupied space outside the cylinder. The vortex lasts until the start of the cradle’s next turn. Creatures still restrained by it fall prone when it ends.\nA creature restrained by the vortex can use an action to attempt a DC 19 Strength (Athletics) or Dexterity (Acrobatics) check. On success, it escapes and moves 3d6 × 10 ft. away in a random direction.",
+        "Reactions": "Thunderclap. Immediately after taking damage, the cradle can force every other creature in a 30-ft.-radius sphere centered on itself to make a DC 25 Constitution save. Failure deals 18 (4d8) thunder damage and deafens the creature for 1 minute.",
+        "Regional effects": "One or more of the regional effects listed under Scion of Memnor can begin while the scion still sleeps inside the cradle.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 166–167."
+      }
+    }
+  },
+  {
+    "name": "Cradle of the Fire Scion",
+    "statBlock": {
+      "name": "Cradle of the Fire Scion",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 172,
+      "classification": "Gargantuan elemental, typically lawful evil",
+      "ac": 20,
+      "hp": 555,
+      "hitDice": "30d20 + 240",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 27
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "25",
+      "xp": 75000,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A dormant volcano hides a scion of Surtur. Its cradle rises from the chambers below as a walking mass of molten rock.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Exhaustion, petrified, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Awakening of the Scion. At 0 HP, the cradle hardens and crumbles into ash. Scion of Surtur immediately appears in the space it occupied and takes its initiative count.\nLegendary Resistance (5/day). The cradle can turn a failed saving throw into a success.\nMagic Resistance. The cradle has advantage on saves against spells and other magical effects.\nSiege Monster. The cradle deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make three attacks in any combination of Slam and Hurl Lava.\nSlam. Melee weapon attack, +17 to hit, reach 20 ft., one target. On a hit, deal 31 (4d10 + 9) bludgeoning damage plus 14 (4d6) fire damage.\nHurl Lava. Ranged weapon attack, +17 to hit, range 120 ft., one target. On a hit, deal 27 (4d8 + 9) fire damage. A creature or flammable object hit ignites and takes 10 (3d6) fire damage at the start of each of its turns. A creature within 5 ft. of the fire can use an action to put it out.\nErupting Breath (recharge 5–6). Each creature in a 90-ft. cone makes a DC 24 Dexterity save. Failure deals 55 (10d10) fire damage and poisons the creature for 1 minute. Success halves the damage and avoids the poison. A poisoned creature can make a DC 24 Constitution save at the end of each of its turns, ending the poison on a success.",
+        "Bonus actions": "Lava Geyser. Center a cylinder 20 ft. in radius and 50 ft. high over a visible point on the ground within 120 ft. Each creature in the cylinder takes 14 (4d6) fire damage on a failed DC 21 Dexterity save.",
+        "Regional effects": "One or more of the regional effects listed under Scion of Surtur can begin while the scion still sleeps inside the cradle.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 172–173."
+      }
+    }
+  },
+  {
+    "name": "Cradle of the Frost Scion",
+    "statBlock": {
+      "name": "Cradle of the Frost Scion",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 174,
+      "classification": "Gargantuan elemental, typically neutral evil",
+      "ac": 20,
+      "hp": 499,
+      "hitDice": "27d20 + 216",
+      "speed": "40 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A glacier shelters a sleeping scion of Thrym. Its animated cradle wields frost, mist, and ice.",
+      "savingThrows": {
+        "Wis": 11,
+        "Cha": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Cold, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Awakening of the Scion. At 0 HP, the cradle shatters into ice shards. Scion of Thrym immediately appears in the space it occupied and takes its initiative count.\nLegendary Resistance (5/day). The cradle can turn a failed saving throw into a success.\nMagic Resistance. The cradle has advantage on saves against spells and other magical effects.\nSiege Monster. The cradle deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two Slam or Hurl Icicle attacks.\nSlam. Melee weapon attack, +15 to hit, reach 20 ft., one target. On a hit, deal 30 (4d10 + 8) bludgeoning damage plus 11 (2d10) cold damage.\nHurl Icicle. Ranged weapon attack, +15 to hit, range 120 ft., one target. On a hit, deal 26 (4d8 + 8) piercing damage plus 9 (2d8) cold damage. The target must pass a DC 23 Strength save or fall prone.\nFreezing Breath (recharge 5–6). Each creature in a 90-ft. cone makes a DC 23 Constitution save. Failure deals 52 (8d12) cold damage and reduces speed to 0 until the end of the creature’s next turn. Success halves the damage and leaves speed unchanged.\nIf the breath’s damage would drop a target to 0 HP, it drops to 1 HP and becomes a petrified ice statue. Bludgeoning damage shatters the statue and kills the creature. Fire damage instead thaws the statue and ends the petrification without dealing damage.",
+        "Bonus actions": "Chilling Mist. Magically conjure a sphere 30 ft. in radius on a visible point within 90 ft. The mist spreads around corners. Each creature inside must pass a DC 19 Constitution save or take 28 (8d6) cold damage and lose its reactions until the start of its next turn. The mist disappears at the end of the cradle’s turn.",
+        "Regional effects": "One or more of the regional effects listed under Scion of Thrym can begin while the scion still sleeps inside the cradle.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 174–175."
+      }
+    }
+  },
+  {
+    "name": "Cradle of the Hill Scion",
+    "statBlock": {
+      "name": "Cradle of the Hill Scion",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 164,
+      "classification": "Gargantuan elemental, typically chaotic evil",
+      "ac": 19,
+      "hp": 402,
+      "hitDice": "23d20 + 161",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A mass of earth and roots rises to defend a slumbering scion of Grolantor.",
+      "savingThrows": {
+        "Wis": 10,
+        "Cha": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, paralyzed, petrified, poisoned, prone.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Awakening of the Scion. At 0 HP, the cradle crumbles into soil and moss. Scion of Grolantor immediately appears in the space it occupied and takes its initiative count.\nLegendary Resistance (5/day). The cradle can turn a failed saving throw into a success.\nMagic Resistance. The cradle has advantage on saves against spells and other magical effects.\nSiege Monster. The cradle deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make three attacks in any combination of Slam and Spit Rock, plus one Grasping Root attack.\nSlam. Melee weapon attack, +14 to hit, reach 20 ft., one target. On a hit, deal 33 (4d12 + 7) bludgeoning damage.\nSpit Rock. Ranged weapon attack, +14 to hit, range 120 ft., one target. On a hit, deal 25 (4d8 + 7) bludgeoning damage. The target must pass a DC 22 Strength save or fall prone.\nGrasping Root. Melee weapon attack, +14 to hit, reach 30 ft., one creature the cradle isn’t already grappling. A hit grapples the target (escape DC 17). While grappled, the target takes 29 (4d10 + 7) bludgeoning damage at the start of each of its turns. The root has AC 19. A single hit that deals at least 15 slashing damage to the root severs it, freeing the target without damaging the cradle.\nRolling Hills (recharge 6). Magically create a wave of dirt from a point on the ground within 120 ft. It can extend up to 30 ft. in length, height, and width. Each creature in the wave makes a DC 22 Strength save. Failure deals 58 (9d12) bludgeoning damage, knocks the creature prone, and buries it. Success halves the damage only.\nA buried creature is restrained, has total cover, and can’t breathe. The buried creature or an unburied creature within 5 ft. can use an action to make a DC 17 Strength (Athletics) check. Success ends the prone and restrained conditions from the burial.",
+        "Regional effects": "One or more of the regional effects listed under Scion of Grolantor can begin while the scion still sleeps inside the cradle.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 164–165."
+      }
+    }
+  },
+  {
+    "name": "Cradle of the Stone Scion",
+    "statBlock": {
+      "name": "Cradle of the Stone Scion",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 168,
+      "classification": "Gargantuan elemental, typically neutral",
+      "ac": 20,
+      "hp": 455,
+      "hitDice": "26d20 + 182",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A bipedal mass of rock and crystal defends the slumbering scion deep inside a mountain.",
+      "savingThrows": {
+        "Wis": 11,
+        "Cha": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone.",
+        "Senses": "Tremorsense 120 ft.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Awakening of the Scion. At 0 HP, the cradle crumbles into dust. Scion of Skoraeus immediately appears in the space it occupied and takes its initiative count.\nLegendary Resistance (5/day). The cradle can turn a failed saving throw into a success.\nMagic Resistance. The cradle has advantage on saves against spells and other magical effects.\nSiege Monster. The cradle deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two Slam or Spit Rock attacks.\nSlam. Melee weapon attack, +15 to hit, reach 20 ft., one target. On a hit, deal 30 (4d10 + 8) bludgeoning damage.\nSpit Rock. Ranged weapon attack, +15 to hit, range 120 ft., one target. On a hit, deal 24 (3d10 + 8) bludgeoning damage. The target must pass a DC 23 Strength save or fall prone.\nShattering Roar (recharge 5–6). Each creature within 60 ft. of the cradle makes a DC 23 Constitution save. Failure deals 33 (6d10) thunder damage and leaves the creature incapacitated until the end of its next turn.",
+        "Bonus actions": "Crystal Flare. Each creature within 30 ft. of the cradle makes a DC 22 Constitution save. Failure deals 21 (6d6) radiant damage and blinds the creature until the end of the cradle’s next turn.\nStone Spikes. Choose a 20-ft. square of ground within 90 ft. Crystal spikes turn it into difficult terrain until the beginning of the cradle’s next turn. A creature takes 10 (3d6) piercing damage for each 5 ft. it moves in the area.",
+        "Regional effects": "One or more of the regional effects listed under Scion of Skoraeus can begin while the scion still sleeps inside the cradle.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 168–169."
+      }
+    }
+  },
+  {
+    "name": "Cradle of the Storm Scion",
+    "statBlock": {
+      "name": "Cradle of the Storm Scion",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 170,
+      "classification": "Gargantuan elemental, typically chaotic good",
+      "ac": 19,
+      "hp": 682,
+      "hitDice": "35d20 + 315",
+      "speed": "40 ft., fly 60 ft. (hover), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 23
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "27",
+      "xp": 105000,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A storm-wrapped elemental shelters a sleeping scion of Stronmaus. It can fight from land, air, or water.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, thunder. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Lightning, poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned.",
+        "Languages": "Giant, Primordial.",
+        "Traits": "Awakening of the Scion. At 0 HP, the cradle bursts into light. Scion of Stronmaus immediately appears in the space it occupied and takes its initiative count.\nLegendary Resistance (5/day). The cradle can turn a failed saving throw into a success.\nMagic Resistance. The cradle has advantage on saves against spells and other magical effects.\nSiege Monster. The cradle deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make three attacks in any combination of Slam and Spit Hailstone.\nSlam. Melee weapon attack, +18 to hit, reach 20 ft., one target. On a hit, deal 36 (4d12 + 10) bludgeoning damage plus 19 (3d12) lightning damage.\nSpit Hailstone. Ranged weapon attack, +18 to hit, range 120 ft., one target. On a hit, deal 32 (4d10 + 10) bludgeoning damage plus 14 (4d6) cold damage. The target must pass a DC 26 Strength save or fall prone.\nLightning Barrage (recharge 5–6). Hurl magical lightning bolts at up to two visible creatures within 500 ft. Each target makes a DC 22 Dexterity save. Failure deals 71 (11d12) lightning damage and stuns the creature until the end of its next turn. Success halves the damage and avoids the stun.",
+        "Reactions": "Booming Step. Immediately after taking damage, the cradle can magically teleport up to 60 ft. to a visible, unoccupied space. Each creature within 10 ft. of the space it left makes a DC 22 Constitution save. Failure deals 14 (4d6) thunder damage. Success halves the damage.",
+        "Regional effects": "One or more of the regional effects listed under Scion of Stronmaus can begin while the scion still sleeps inside the cradle.",
+        "Printed source": "Bigby Presents: Glory of the Giants, pp. 170–171."
+      }
+    }
+  }
+]

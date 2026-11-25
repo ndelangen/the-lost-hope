@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Plesiosaurus",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "pdfPage": 259,
+    "printedPages": [
+      259
+    ],
+    "viewerPages": [
+      259
+    ],
+    "section": "Dinosaurs",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 450,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": 4,
+      "DEX": 2,
+      "CON": 3,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description from the matching generated Monster portrait and the flippers named in the printed Flipper Slam.",
+    "habitatEvidence": "Coastal waters and open ocean are suggested encounter locations based on its swim speed, flippers, and hour-long breath hold.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+    "mechanicsNotes": []
+  },
+  {
+    "name": "Triceratops",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "pdfPage": 259,
+    "printedPages": [
+      259
+    ],
+    "viewerPages": [
+      259
+    ],
+    "section": "Dinosaurs",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 1800,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 9
+    },
+    "abilityModifiers": {
+      "STR": 6,
+      "DEX": -1,
+      "CON": 3,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description based on the matching generated Monster portrait and the Gore attack.",
+    "habitatEvidence": "Grasslands and woodland edges are editorial suggestions that give a Huge terrestrial beast room to use Trampling Charge.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+    "mechanicsNotes": [
+      "The Warning Bugle exception requires failure of the charge’s Strength save rather than the Wisdom save."
+    ]
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "pdfPage": 259,
+    "printedPages": [
+      259
+    ],
+    "viewerPages": [
+      259
+    ],
+    "section": "Dinosaurs",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 3900,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 8,
+      "DEX": 0,
+      "CON": 4,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -1
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description from the same-form generated Monster portrait and the Bite and Tail attacks.",
+    "habitatEvidence": "Grasslands and woodland edges are editorial encounter suggestions based on its Huge size and terrestrial movement.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+    "mechanicsNotes": [
+      "Keep the printed Strength modifier +8, attack bonuses +8, and +5 in both damage rolls. Do not recalculate them from ability modifiers.",
+      "Rending Shake does not state a separate grapple-release rule."
+    ]
+  },
+  {
+    "name": "Velociraptor",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "pdfPage": 260,
+    "printedPages": [
+      260
+    ],
+    "viewerPages": [
+      260
+    ],
+    "section": "Dinosaurs",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 100,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": -2,
+      "DEX": 4,
+      "CON": 1,
+      "INT": -3,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description based on the original staged portrait, dromaeosaur anatomy, and the printed Bite and Claws attacks.",
+    "habitatEvidence": "Scrub and open woodland are editorial placements for a small land predator that hunts alongside allies.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+    "mechanicsNotes": [
+      "Keep DEX +4, +4 to hit, and +2 in the printed Bite and Claws damage rolls.",
+      "Maul is a separate action, outside its Bite-and-Claws Multiattack."
+    ]
+  },
+  {
+    "name": "Stirge",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "pdfPage": 340,
+    "printedPages": [
+      340
+    ],
+    "viewerPages": [
+      340
+    ],
+    "section": "Stirge",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 25,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 9,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": -3,
+      "DEX": 2,
+      "CON": 0,
+      "INT": -4,
+      "WIS": -1,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description based on the original staged portrait, with flight and blood feeding from the v0.2 block.",
+    "habitatEvidence": "Caves and marshes are editorial encounter placements inferred from its darkvision, flying speed, and blood-feeding behavior.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+    "mechanicsNotes": [
+      "Keep direct HP loss separate from the initial piercing damage. Detachment by a creature’s action has no listed check."
+    ]
+  }
+]

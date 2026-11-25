@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Half-Ogre",
+    "kind": "species",
+    "publication": "Races of Destiny (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Large Giant with +6 Strength, −2 Dexterity, +2 Constitution, −2 Intelligence, and −2 Charisma.",
+      "Base land speed 30 ft. Darkvision reaches 60 ft. and sees in black and white. +4 natural armor.",
+      "The Giant type supplies low-light vision and simple and martial weapon proficiency.",
+      "Large size gives −1 to AC and attacks. A Half-Ogre occupies a 10-ft. space and has 10-ft. natural reach.",
+      "Common and Giant are automatic. Bonus languages are Abyssal, Draconic, Gnoll, Goblin, and Orc.",
+      "Favored class Barbarian. Level adjustment +2. The playable entry grants no racial Hit Dice. One class level is effective character level 3."
+    ]
+  }
+]

@@ -1,0 +1,168 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -66,6 +66,137 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Large Scorpion",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A two-foot scorpion with two pincers and a segmented tail. The Large and Huge forms range from tan through brown to black. The entry mentions rumors of white specimens deep underground.",
++      "combat": {
++        "habitats": ["Warm wilderness", "Subterranean areas including dungeons"],
++        "creatureType": "Animal",
++        "numberOfAttacks": 3,
++        "armorClass": 5,
++        "movement": "9",
++        "hitDice": "2+2",
++        "thac0": 19,
++        "damageDice": "1–4 / 1–4 / 1",
++        "xp": 175,
++        "size": "S, 2 ft. long"
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Pincers and sting",
++            "effectNote": "Each pincer deals 1d4 damage. The sting deals 1 point of damage and calls for a save vs. poison at +2."
++          },
++          {
++            "name": "Type A poison",
++            "effectNote": "The Large Scorpion is the stated exception to the preceding lethal-sting description. Its printed poison damage is 15 on a failed save or 0 on a successful save."
++          }
++        ]
++      },
++      "notes": [
++        "1–6 appearing. Uncommon. The table lists swarm organization, any activity, carnivore, no intelligence (0), treasure D, and neutral alignment.",
++        "Average (8) morale. Special defenses and magic resistance Nil.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 309."
++      ]
++    },
++    {
++      "name": "Huge Scorpion",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A four-foot scorpion with pincers and a segmented tail. The Large and Huge forms range from tan through brown to black. The entry mentions rumors of white specimens deep underground.",
++      "combat": {
++        "habitats": ["Warm wilderness", "Subterranean areas including dungeons"],
++        "creatureType": "Animal",
++        "numberOfAttacks": 3,
++        "armorClass": 4,
++        "movement": "12",
++        "hitDice": "4+4",
++        "thac0": 15,
++        "damageDice": "1–8 / 1–8 / 1–3",
++        "xp": 420,
++        "size": "M, 4 ft. long"
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Pincers and sting",
++            "effectNote": "Each pincer deals 1d8 damage. The sting deals 1d3 damage. A failed save vs. type F poison kills the victim the next round."
++          },
++          {
++            "name": "Pincer pin",
++            "effectNote": "A Huge Scorpion can pin a target in its pincers similarly to the Giant Scorpion. The Huge Scorpion text explicitly allows the pinned target to fight back."
++          }
++        ]
++      },
++      "notes": [
++        "1–4 appearing. Common. The table lists swarm organization, any activity, carnivore, no intelligence (0), treasure D, and neutral alignment.",
++        "Average (10) morale. Special defenses and magic resistance Nil.",
++        "This creature entry specifies death next round on a failed Type F save. The Dungeon Master Guide general poison table lists immediate onset.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 309."
++      ]
++    },
++    {
++      "name": "Giant Scorpion",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A five- to six-foot scorpion with a hard green carapace, yellowish green legs and pincers, and a segmented black tail ending in a stinger.",
++      "combat": {
++        "habitats": [
++          "Warm wilderness and deserts",
++          "Subterranean areas, underground burrows, and dungeons"
++        ],
++        "creatureType": "Animal",
++        "numberOfAttacks": 3,
++        "armorClass": 3,
++        "movement": "15",
++        "hitDice": "5+5",
++        "thac0": 15,
++        "damageDice": "1–10 / 1–10 / 1–4",
++        "xp": 650,
++        "size": "M, 5–6 ft. long",
++        "attackOptions": "Two pincers and one sting. The attacks can target up to three opponents."
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Pincer grab",
++            "effectNote": "Each pincer deals 1d10 damage. A grabbed victim takes another 1d10 each round until released. The victim gets one bend bars/lift gates attempt per combat as their sole action for that round."
++          },
++          {
++            "name": "Sting",
++            "effectNote": "The sting deals 1d4 damage. It automatically hits a victim caught in the pincers if directed at that victim. Roll normally against an untrapped target. A failed save vs. type F poison kills the victim the next round."
++          },
++          {
++            "name": "Stinging frenzy",
++            "effectNote": "At 1 or 2 HP, the Giant Scorpion makes two tail-only sting attempts per round. The entry states that scorpions can be affected by their own poison."
++          },
++          {
++            "name": "Aggression",
++            "effectNote": "It has a 95% chance to attack any creature that approaches."
++          }
++        ],
++        "Lair": [
++          {
++            "name": "Burrow",
++            "effectNote": "An underground burrow or dungeon lair has a 20% chance to contain 5d4 eggs."
++          }
++        ]
++      },
++      "notes": [
++        "1–4 appearing. Uncommon. The table lists swarm organization, any activity, carnivore, no intelligence (0), treasure D, and neutral alignment.",
++        "Steady (11) morale. Special defenses and magic resistance Nil.",
++        "This creature entry specifies death next round on a failed Type F save. The Dungeon Master Guide general poison table lists immediate onset.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 309."
++      ]
+     },
+     {
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -4080,6 +4080,7 @@
+ Giant Scorpion	beast	Beast	SRD 5.1	2014 fifth edition	Wizards of the Coast		3
+ Giant Scorpion	beast	Beast	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		3
+ Giant Scorpion	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		3
++Giant Scorpion	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Giant Scorpion Insect	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		3
+ Giant Sea Eel	beast	Beast	Ghosts of Saltmarsh	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/310356-giant-sea-eel	1/2
+ Giant Sea Horse	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16893-giant-sea-horse	1/2
+@@ -5255,6 +5256,7 @@
+ Huge Gray Ooze	monster	Ooze	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/276567-huge-gray-ooze	8
+ Huge Ochre Jelly	monster	Ooze	Tales from the Yawning Portal	2014 fifth edition	Wizards of the Coast		2
+ Huge Polar Bear	beast	Beast	Tales from the Yawning Portal	2014 fifth edition	Wizards of the Coast		2
++Huge Scorpion	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Huge Shark	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		4
+ Huge Stone Golem	monster	Construct	Storm King's Thunder	2014 fifth edition	Wizards of the Coast		10
+ Huge Viper Snake	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		3
+@@ -5971,6 +5973,7 @@
+ Large Drake	beast	Beast	Plane Shift: Amonkhet	2014 fifth edition	Wizards of the Coast		1
+ Large Mimic	monster	Monstrosity	The Lost Dungeon of Rickedness: Big Rick Energy	2014 fifth edition	Wizards of the Coast		3
+ Large Mimic	monster	Monstrosity	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast		2
++Large Scorpion	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Large Shark	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		2
+ Large Viper Snake	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		2
+ Larva	monster	Fiend	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195104-larva	0

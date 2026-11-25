@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Dara",
+    "publication": "Obojima: Tales from the Tall Grass (5.5e )",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "1985 Games",
+    "author": "Adam Lee, Ari Levitch, and Jeremiah Crofton",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/dexhd/qfnf/basic/51-100",
+    "rulesReadUrl": "https://anyflip.com/dexhd/qfnf/basic/51-100",
+    "publisherListing": "",
+    "version": "5.5e , ISBN 978-1-954777-16-3, second printing July 2025",
+    "printedPages": [
+      163,
+      164,
+      165
+    ],
+    "heading": "Dara Traits and Talisman Forms",
+    "renderedPage": "https://online.anyflip.com/dexhd/qfnf/mobile/index.html#p=83",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary",
+    "sourceDistinctions": [
+      "The printed profile groups Blue and Red Dara. Selka uses Blue. The color text says Blue knows Knowledge and Red knows Might, and says each can produce that form once per day in addition to other forms. The formal trait grants one creation per Long Rest. This build uses a single shared use. The one-hour lifetime comes from the shared creation rule.",
+      "Selka can choose any form open to Blue Dara, including Knowledge. Selka has Sacred Revelation immediately. Impart Knowledge begins at level 10.",
+      "Read the Talisman Forms table on the rendered original spread. The search index omitted that table."
+    ]
+  },
+  {
+    "name": "Nakudama",
+    "publication": "Obojima: Tales from the Tall Grass (5.5e )",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "1985 Games",
+    "author": "Adam Lee, Ari Levitch, and Jeremiah Crofton",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/dexhd/qfnf/basic/51-100",
+    "rulesReadUrl": "https://anyflip.com/dexhd/qfnf/basic/51-100",
+    "publisherListing": "",
+    "version": "5.5e , ISBN 978-1-954777-16-3, second printing July 2025",
+    "printedPages": [
+      168
+    ],
+    "heading": "Naku Naku and Nakudama Traits",
+    "renderedPage": "https://online.anyflip.com/dexhd/qfnf/mobile/index.html#p=85",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary",
+    "sourceDistinctions": [
+      "The 2024 trait block lists a 30-ft. Speed and no separate Swim Speed. Amphibious governs breathing. Latching Tongue does not move its target or supply a saving throw in this printing.",
+      "The target of Grasping Tongue is an object. Only a creature wearing or carrying it makes the save. The example DC is 8 + 2 Strength + 2 proficiency."
+    ]
+  }
+]

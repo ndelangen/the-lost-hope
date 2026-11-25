@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Giant Marble Snake",
+    "file": "",
+    "selection": "generated",
+    "sha256": "6ee0099d443b4b3ed88548148999f3064925fe0f9ca9018ba24a80ca277ea58e",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Marmoset",
+    "file": "",
+    "selection": "generated",
+    "sha256": "3145f02fc0a6fc62eb0c4e2ae6cd2e228d6ada2e92f0e43492191258aef101e9",
+    "width": 1254,
+    "height": 1254
+  }
+]

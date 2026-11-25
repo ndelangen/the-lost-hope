@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Archer",
+    "statBlock": {
+      "name": "Archer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 49,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 16,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "description": "A trained marksman who can turn a narrow miss into a hit or make a well-placed shot hurt more.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 6,
+        "Perception": 5
+      },
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Armor": "Studded leather armor.",
+        "Actions": "Multiattack. Make two attacks, using Shortsword or Longbow.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage.\nLongbow. Ranged weapon attack, +6 to hit, range 150/600 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.",
+        "Bonus actions": "Archer's Eye (3/day). Immediately after making an attack roll or damage roll with a ranged weapon, the archer can roll 1d10 and add it to that roll's total.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 49."
+      }
+    }
+  },
+  {
+    "name": "Armanite",
+    "statBlock": {
+      "name": "Armanite",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 50,
+      "classification": "Large fiend (demon), typically chaotic evil",
+      "ac": 16,
+      "hp": 94,
+      "hitDice": "9d10 + 45",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 11,
+      "description": "A fast, hoofed demon that strikes with claws and a serrated tail or fires lightning through a line of foes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Traits": "Magic Resistance. The armanite has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Claw, one Hooves, and one Serrated Tail attack.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 10 (2d4 + 5) slashing damage plus 9 (2d8) lightning damage.\nHooves. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) bludgeoning damage. A Large or smaller creature hit must succeed on a DC 16 Strength save or fall prone.\nSerrated Tail. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) slashing damage.\nLightning Lance (Recharge 5–6). Release lightning in a line 60 ft. long and 10 ft. wide. Each creature in the line makes a DC 15 Dexterity save, taking 36 (8d8) lightning damage on a failure or half on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 50."
+      }
+    }
+  },
+  {
+    "name": "Astral Dreadnought",
+    "statBlock": {
+      "name": "Astral Dreadnought",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 51,
+      "classification": "Gargantuan monstrosity (titan), unaligned",
+      "ac": 20,
+      "hp": 297,
+      "hitDice": "17d20 + 119",
+      "speed": "15 ft., fly 80 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 19,
+      "description": "An Astral titan whose eye suppresses magic and whose jaws send swallowed prey to a private demiplane.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 9
+      },
+      "skills": {
+        "Perception": 9
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Damage resistances": "Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned.",
+        "Armor": "Natural armor.",
+        "Languages": "None.",
+        "Traits": "Antimagic Cone. Its open eye projects a 150-ft. cone with the effects of Antimagic Field. The dreadnought chooses the direction at the start of each of its turns. The cone stops working if its eye closes or it is blinded.\nAstral Entity. The dreadnought cannot leave the Astral Plane. Banishment and other forms of transport cannot move it off the plane.\nDemiplanar Donjon. Swallowed things enter an otherwise indestructible demiplane. Only Wish, Bite, or Donjon Visit can get a creature inside. Escape requires magic that enables planar travel, such as Plane Shift. The space resembles a stone cavern about 1,000 ft. across and 100 ft. high, littered with the remains of old meals. Nothing inside can injure the dreadnought. When the dreadnought dies, the demiplane disappears and its contents appear around the corpse.\nLegendary Resistance (3/day). When the dreadnought fails a save, it can spend one use to succeed instead.\nSever Silver Cord. On a critical hit against a creature using Astral Projection, the dreadnought can sever the creature's silver cord in place of dealing damage.\nUnusual Nature. The dreadnought needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 36 (5d10 + 9) force damage. The dreadnought swallows a Huge or smaller creature hit if it is incapacitated or if this damage reduces it to 0 hit points. It and its worn and carried gear appear in a free space on the Donjon floor.\nClaw. Melee weapon attack, +16 to hit, reach 20 ft., one target. A hit deals 19 (3d6 + 9) force damage.",
+        "Legendary actions": "3 actions. Spend the indicated cost on one option at the end of another creature's turn. The creature regains spent actions at the start of its turn. It cannot use them while incapacitated or otherwise unable to act. If surprised, it must wait until after its first turn.\nClaw (1 action). Make one Claw attack.\nDonjon Visit (2 actions). One visible creature of Huge size or smaller within 60 ft. makes a DC 19 Charisma save. On a failure it teleports to an unoccupied space on the Donjon floor. At the end of its next turn, it reappears in the space it left or the nearest unoccupied space if that space is occupied.\nPsychic Projection (3 actions). Every creature within 60 ft. makes a DC 19 Wisdom save, taking 26 (4d10 + 4) psychic damage on a failure or half on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 51."
+      }
+    }
+  },
+  {
+    "name": "Autumn Eladrin",
+    "statBlock": {
+      "name": "Autumn Eladrin",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 115,
+      "classification": "Medium fey (elf), typically chaotic neutral",
+      "ac": 19,
+      "hp": 165,
+      "hitDice": "22d8 + 66",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 13,
+      "description": "A Feywild elf whose charm can disarm hostilities and whose weapon attacks carry psychic force.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 7,
+        "Medicine": 7
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Damage resistances": "Psychic.",
+        "Armor": "Natural armor.",
+        "Traits": "Enchanting Presence. A creature other than an eladrin that starts its turn within 60 ft. makes a DC 16 Wisdom save. On a failure, the eladrin charms it for 1 minute. On a success it is immune to any eladrin's Enchanting Presence for 24 hours. If the eladrin damages a creature it has charmed this way, the creature can repeat the save and end the charm on a success.\nMagic Resistance. The eladrin has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks using Longsword or Longbow. Spellcasting can replace one attack.\nLongsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) slashing damage one-handed or 6 (1d10 + 1) slashing damage two-handed, plus 22 (5d8) psychic damage either way.\nLongbow. Ranged weapon attack, +7 to hit, range 150/600 ft., one target. A hit deals 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage.",
+        "Spellcasting": "As an action, cast one of the following spells using Charisma (spell save DC 16). No material components are required.\nAt will. Hold Person.\n2/day each. Cure Wounds at 5th level, Lesser Restoration.\n1/day each. Greater Restoration, Revivify.",
+        "Bonus actions": "Fey Step (Recharge 4–6). Teleport up to 30 ft. to an unoccupied space the eladrin can see, taking worn and carried equipment along.",
+        "Reactions": "Foster Peace. When a creature charmed by the eladrin succeeds on an attack roll within 60 ft., the eladrin can magically turn that hit into a miss if it can see the attacker.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 115."
+      }
+    }
+  },
+  {
+    "name": "Babau",
+    "statBlock": {
+      "name": "Babau",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 52,
+      "classification": "Medium fiend (demon), typically chaotic evil",
+      "ac": 16,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "description": "A demon with acid-coated claws, a debilitating gaze, and several spells it can cast at will.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Actions": "Multiattack. Make two Claw attacks. Spellcasting or Weakening Gaze can replace one attack.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d4 + 4) slashing damage plus 2 (1d4) acid damage.\nWeakening Gaze. One creature the babau can see within 20 ft. makes a DC 13 Constitution save. On a failure, for 1 minute its weapon attacks that use Strength deal half damage. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Spellcasting": "As an action, cast one of the following spells using Wisdom (spell save DC 11). No material components are required.\nAt will. Darkness, Dispel Magic, Fear, Heat Metal, Levitate.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 52."
+      }
+    }
+  },
+  {
+    "name": "Bael",
+    "statBlock": {
+      "name": "Bael",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 54,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 23,
+      "description": "An archdevil who frightens nearby foes, bolsters his allies, and regenerates unless exposed to cold or radiant damage.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 11,
+        "Int": 11,
+        "Cha": 13
+      },
+      "skills": {
+        "Intimidation": 13,
+        "Perception": 13,
+        "Persuasion": 13
+      },
+      "sections": {
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Armor": "Plate armor.",
+        "Traits": "Dread. A creature other than a devil that starts its turn within 10 ft. of Bael makes a DC 22 Wisdom save. On a failure it is frightened of him until the start of its next turn. It succeeds automatically if Bael chooses to let it or if he is incapacitated.\nLegendary Resistance (3/day). When Bael fails a save, he can spend one use to succeed instead.\nMagic Resistance. Bael has advantage on saves against spells and other magical effects.\nRegeneration. Bael recovers 20 hit points at the start of his turn. Cold or radiant damage prevents recovery at the start of his next turn. He dies only if he starts his turn at 0 hit points and fails to regenerate.",
+        "Actions": "Multiattack. Make two Hellish Morningstar attacks.\nHellish Morningstar. Melee weapon attack, +13 to hit, reach 20 ft., one target. A hit deals 16 (2d8 + 7) force damage plus 9 (2d8) necrotic damage.\nInfernal Command. Each of Bael's allies within 60 ft. cannot be charmed or frightened until the end of Bael's next turn.\nTeleport. Bael teleports up to 120 ft. to an unoccupied space he can see, taking worn and carried equipment along.",
+        "Spellcasting": "As an action, cast one of the following spells using Charisma (spell save DC 21). No material components are required.\nAt will. Alter Self (can become Medium), Charm Person, Detect Magic, Invisibility, Major Image.\n3/day each. Dispel Magic, Fly, Suggestion, Wall of Fire.\n1/day. Dominate Monster.",
+        "Legendary actions": "3 actions. Spend the indicated cost on one option at the end of another creature's turn. The creature regains spent actions at the start of its turn. It cannot use them while incapacitated or otherwise unable to act. If surprised, it must wait until after its first turn.\nFiendish Magic (1 action). Use Spellcasting or Teleport.\nInfernal Command (1 action). Use Infernal Command.\nAttack (2 actions). Make one Hellish Morningstar attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 54."
+      }
+    }
+  },
+  {
+    "name": "Balhannoth",
+    "statBlock": {
+      "name": "Balhannoth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 55,
+      "classification": "Large aberration, typically chaotic evil",
+      "ac": 17,
+      "hp": 114,
+      "hitDice": "12d10 + 48",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "description": "A blind ambusher that senses desire, shapes convincing traps, and can teleport away with grappled prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Senses": "Blindsight 500 ft. (blind beyond this radius).",
+        "Languages": "Understands Deep Speech, telepathy 1 mile.",
+        "Condition immunities": "Blinded.",
+        "Armor": "Natural armor.",
+        "Traits": "Legendary Resistance (2/day). When the balhannoth fails a save, it can spend one use to succeed instead.",
+        "Actions": "Multiattack. Make one Bite and two Tentacle attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 19 (3d10 + 3) piercing damage.\nTentacle. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage, grapples the target (escape DC 15), and moves it up to 5 ft. toward the balhannoth. The target is restrained until the grapple ends. That tentacle cannot attack another target while the grapple lasts. The balhannoth has four tentacles.",
+        "Legendary actions": "3 actions. Spend the indicated cost on one option at the end of another creature's turn. The creature regains spent actions at the start of its turn. It cannot use them while incapacitated or otherwise unable to act. If surprised, it must wait until after its first turn.\nBite (1 action). Make one Bite attack against a creature it has grappled.\nTeleport (1 action). Teleport up to 60 ft. to an unoccupied space it can see. Its worn and carried equipment and any creatures it has grappled go with it.\nVanish (1 action). Become magically invisible for up to 10 minutes. The effect ends immediately after the balhannoth makes an attack roll.",
+        "Lair actions": "On initiative count 20, after anyone tied at that count, the balhannoth can use one option while in its lair. It cannot choose the same option in consecutive rounds. Using an option requires being in the lair and able to act. If surprised, the creature must finish its first turn before using one.\nTeleport. One creature within 500 ft. makes a DC 16 Wisdom save. On a failure, the balhannoth teleports it and its worn or carried belongings to a free space of the balhannoth's choice within 60 ft. of the balhannoth.\nVanish. One creature within 500 ft. makes a DC 16 Wisdom save. On a failure, the balhannoth becomes invisible to that creature for 1 minute, or until it attacks that creature.\nWarp Terrain. After 10 minutes, an area up to 500 ft. square resembles a location desired by one Humanoid the balhannoth sensed with Sense Desires. Only nonliving material changes. The effect cannot create moving parts or magical properties. Close inspection exposes imitations, such as blank books or fake valuables. The terrain stays changed until the balhannoth dies or uses Warp Terrain again.",
+        "Regional effects": "The lair can cause one or more of these effects. All end immediately when the balhannoth dies.\nSense Desires. Within 1 mile of itself, the balhannoth detects the strongest desires of Humanoids and learns whether those desires involve a place, such as a safe place to rest, a temple, or a home.\nSupernatural Lure. Creatures within 1 mile of the lair feel close to what they want most. The feeling strengthens as they approach the lair.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 55."
+      }
+    }
+  }
+]

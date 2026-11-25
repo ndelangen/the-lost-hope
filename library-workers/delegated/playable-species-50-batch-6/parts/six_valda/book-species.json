@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mandrake",
+    "kind": "species",
+    "publication": "Valda’s Spire of Secrets",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Medium Humanoid with a 30-ft. walk. Effects specific to Plants can affect a Mandrake too. Choose +2 to one ability score and +1 to another, or +1 to three different scores. Speak, read and write Common and one language agreed with the GM.",
+      "Four hours of direct sun in a day replaces food for that day. They breathe through leaves and limbs and can take up water and nutrients through their feet.",
+      "Proficiency in Nature. Advantage on Persuasion checks to deal with Beasts and Plants.",
+      "Root Magic uses Intelligence, Wisdom or Charisma, chosen at character creation. Learn shillelagh, with the added option to cast it on yourself and use one limb as the club. At levels 3 and 5, respectively, gain goodberry and barkskin without materials, each once per long rest through this trait. Appropriate spell slots can also pay for either.",
+      "Entangling Vines costs a bonus action. Choose a visible Large or smaller creature within 30 ft. Its speed is locked at 0 until its next turn ends, or until it takes the Disengage action. Uses equal proficiency bonus per long rest.",
+      "Choose a harvest season. At 3rd level its benefit starts. Spring can bring an airborne target within 30 ft. of the ground down safely. Summer can move the target up to 10 ft. to an empty spot on a floor or the ground. Autumn can catch a second creature within 5 ft. of the first. Winter adds cold damage equal to proficiency bonus."
+    ]
+  },
+  {
+    "name": "Geppettin",
+    "kind": "species",
+    "publication": "Valda’s Spire of Secrets",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Living toys count as Humanoids, and effects specific to Constructs can affect them too. All three forms have a 30-ft. walk and 60-ft. darkvision. Choose +2 to one ability score and +1 to another, or +1 to three different scores. Speak, read and write Common and one language agreed with the GM.",
+      "Construct Anatomy grants immunity to nonmagical disease and removes the need to eat, breathe or sleep. Magic cannot put them to sleep. Four motionless, conscious hours complete a long rest.",
+      "False Appearance. While motionless, a Geppettin passes for an ordinary doll of their material.",
+      "Bisque is Small and made of porcelain. Sudden Strike adds proficiency bonus to damage from a weapon attack roll that damages a creature on the Geppettin’s first turn in combat. Proficient in Intimidation, with advantage against creatures that have yet to see the Bisque move.",
+      "Marionette is Small or Medium and carved from wood. Clipped Strings gives a melee weapon Reach for an attack on the Marionette’s turn if the weapon lacks Two-Handed and Reach. Proficient in Performance, with advantage on checks to dance.",
+      "Plushie, also called Raggedy, is Small and stuffed. Proficient in Persuasion, with advantage against children and other Humanoids fond of cute things. As a reaction to bludgeoning damage, gain resistance to that damage and move 5 ft. away from its source. The reaction requires space for that movement."
+    ]
+  },
+  {
+    "name": "Spirithost",
+    "kind": "species",
+    "publication": "Valda’s Spire of Secrets",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Medium living Humanoid with a 30-ft. walk. Effects specific to Undead apply too, except effects that turn Undead. Choose +2 to one ability score and +1 to another, or +1 to three different scores. Speak, read and write Common and one language agreed with the GM.",
+      "Ethereal Vision reaches 120 ft. into the Ethereal Plane from the Material Plane. When an able Spirithost falls, Ghostly Descent deducts 60 ft. from the distance used to calculate damage.",
+      "Other creatures are difficult terrain for Incorporeal Movement. Barriers thicker than 1 ft. of stone, 1 in. of ordinary metal, a thin lead sheet or 3 ft. of dirt or wood stop passage. Ending movement inside an object or creature moves the Spirithost to the nearest free space they can occupy and deals 2 force damage per foot displaced.",
+      "Spirit Speech casts speak with dead without materials and allows questions equal to proficiency bonus. The free use returns after a long rest. Suitable spell slots can also cast it. Choose Intelligence, Wisdom or Charisma for the trait’s spellcasting ability."
+    ]
+  }
+]

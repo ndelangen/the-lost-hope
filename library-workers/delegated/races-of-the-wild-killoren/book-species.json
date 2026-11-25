@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "publication": "Races of the Wild (2005) · Ancient",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+      "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+      "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+      "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+      "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+      "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+      "Aspect of the Ancient: add a racial bonus to Knowledge (nature) equal to Hit Dice. Gain another +2 on saves against enchantments, stacking with the usual +2 for a total racial bonus of +4. Hair is white and eyes sky blue.",
+      "Optional Killoren Ancient feat from p. 151: after 10 minutes of uninterrupted communion over a specific question, make any Knowledge check with +4 insight. On success it yields information as a trained check would, even if you lack ranks."
+    ]
+  },
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "publication": "Races of the Wild (2005) · Destroyer",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+      "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+      "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+      "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+      "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+      "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+      "Aspect of the Destroyer: choose a smite attack at most once per hour, with a daily cap equal to your Charisma bonus (minimum 1). Add the Charisma bonus to the attack and +1 damage per Hit Die. Valid targets are aberrations, constructs, humanoids, oozes, outsiders, and undead. An ineligible target still uses the hourly and daily use. Hair and eyes become lusterless black.",
+      "Optional Killoren Destroyer feat from p. 151: a foe hit by an eligible smite must make a Will save (DC 10 + half character level, rounded down, + Charisma modifier) or become dazed for 1 round."
+    ]
+  },
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "publication": "Races of the Wild (2005) · Hunter",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+      "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+      "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+      "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+      "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+      "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+      "Aspect of the Hunter: +2 racial bonus to Hide, Listen, Move Silently, Spot, and initiative checks. Hair and eyes turn deep forest green and skin takes on a deeper brown tone.",
+      "Optional Killoren Hunter feat from p. 151: use a move action to pinpoint a living creature within 30 ft. if you have line of effect. A creature you cannot see retains total concealment."
+    ]
+  }
+]

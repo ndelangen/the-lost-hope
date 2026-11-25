@@ -1,0 +1,57 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Animal Lord; Forager",
+    "publication": "Monster Manual (2025)",
+    "edition": "2024 fifth edition",
+    "file": "images/monsters/animal-lord-forager/source-animal-lords.webp",
+    "artist": "Animal Lords by Valera Lutfullina",
+    "kind": "illustration",
+    "sha256": "333a0422cac7d4e8ed6251226e4c97e2e69ff68fa1c27256f7730cdfae6510b9",
+    "reference": "images/monsters/animal-lord/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Animal Lord; Hunter",
+    "publication": "Monster Manual (2025)",
+    "edition": "2024 fifth edition",
+    "file": "images/monsters/animal-lord-hunter/source-animal-lords.webp",
+    "artist": "Animal Lords by Valera Lutfullina",
+    "kind": "illustration",
+    "sha256": "333a0422cac7d4e8ed6251226e4c97e2e69ff68fa1c27256f7730cdfae6510b9",
+    "reference": "images/monsters/animal-lord/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Animal Lord; Sage",
+    "publication": "Monster Manual (2025)",
+    "edition": "2024 fifth edition",
+    "file": "images/monsters/animal-lord-sage/source-animal-lords.webp",
+    "artist": "Animal Lords by Valera Lutfullina",
+    "kind": "illustration",
+    "sha256": "333a0422cac7d4e8ed6251226e4c97e2e69ff68fa1c27256f7730cdfae6510b9",
+    "reference": "images/monsters/animal-lord/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Archelon",
+    "publication": "Monster Manual (2025)",
+    "edition": "2024 fifth edition",
+    "file": "images/monsters/archelon/source-archelon.webp",
+    "artist": "Archelon by April Prime",
+    "kind": "illustration",
+    "sha256": "6da970d38b88a8c9e8e0ef2d27d5f4b3e838cdd00326663ca5c01ee4e59ca6e4",
+    "reference": "images/beasts/archelon/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Empyrean Iota",
+    "publication": "Monster Manual (2025)",
+    "edition": "2024 fifth edition",
+    "file": "images/monsters/empyrean-iota/source-empyreans.webp",
+    "artist": "Empyrean group art by Néstor Ossandón Leal",
+    "kind": "illustration",
+    "sha256": "90952631186b63c552d27f9aa6576bb7e22908c63e0349e64717b93f8c644104",
+    "reference": "images/monsters/empyrean-celestial/xmm-1.webp"
+  }
+]

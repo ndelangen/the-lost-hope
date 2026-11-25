@@ -1,0 +1,2766 @@
+{
+  "baseline": "36d277f73e85bd6b2f553b1ec9dd72a8e692f8c9",
+  "profiles": 50,
+  "generatedPortraits": 20,
+  "reusedExistingPortraits": 30,
+  "entries": [
+    {
+      "owner": "b08_01",
+      "name": "Squid",
+      "kind": "beast",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "indexed_cr": "1",
+      "art_group": "squid",
+      "reuse_source": "indexed:images/beasts/squid/parchment-portrait.webp",
+      "reuse_sha256": "8dcb2884bc0e384f0427cf3971550803d7047daeafa0d3008177588af680f6e5",
+      "runtime_file": "images/beasts/squid/parchment-portrait.webp",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/squid.webp",
+        "sha256": "8dcb2884bc0e384f0427cf3971550803d7047daeafa0d3008177588af680f6e5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Squid",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised v3.5 System Reference Document",
+        "sourceArchive": "SRD-3.5-RTF.zip",
+        "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceShard": "MonstersAnimals.rtf",
+        "section": "Squid",
+        "sourceUrl": "https://www.d20srd.org/srd/monsters/squid.htm",
+        "url": "https://www.d20srd.org/srd/monsters/squid.htm",
+        "sharedRulesShards": [
+          "TypesSubtypesAbilities.rtf"
+        ],
+        "appearanceEvidence": "The text describes an aquatic mollusk, and the attack table names its arms. Mantle shape, coloration and posture describe the reused portrait.",
+        "habitatEvidence": "The Squid table lists a temperate aquatic environment.",
+        "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+        "mechanicsNotes": [
+          "The creature expressly permits Improved Grab against any size. Its successful initial grapple deals Bite damage.",
+          "The creature entry gives Ink Cloud size, concealment and the once-per-minute interval. It does not give a separate dissipation duration."
+        ],
+        "reusedPortrait": {
+          "source": "indexed:images/beasts/squid/parchment-portrait.webp",
+          "sha256": "8dcb2884bc0e384f0427cf3971550803d7047daeafa0d3008177588af680f6e5"
+        }
+      }
+    },
+    {
+      "owner": "b08_01",
+      "name": "Tiger",
+      "kind": "beast",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "indexed_cr": "4",
+      "art_group": "tiger",
+      "reuse_source": "beast-ready-batch-02/parts/b02_09/portraits/tiger.png",
+      "reuse_sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+      "runtime_file": "images/beast-ready-batch-02/tiger.png",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "reused-portraits/tiger.png",
+        "sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Tiger",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised v3.5 System Reference Document",
+        "sourceArchive": "SRD-3.5-RTF.zip",
+        "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceShard": "MonstersAnimals.rtf",
+        "section": "Tiger",
+        "sourceUrl": "https://www.d20srd.org/srd/monsters/tiger.htm",
+        "url": "https://www.d20srd.org/srd/monsters/tiger.htm",
+        "sharedRulesShards": [
+          "TypesSubtypesAbilities.rtf",
+          "CombatII.rtf",
+          "MonsterFeats.rtf"
+        ],
+        "appearanceEvidence": "The SRD describes the size and mass of a tiger. Stripes, coat color and stance describe the reused portrait.",
+        "habitatEvidence": "The Tiger table lists warm forests. The Hide trait names tall grass and dense undergrowth as favorable cover.",
+        "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+        "mechanicsNotes": [
+          "The Tiger feat line calls the bite and claw feats Improved Natural Weapon. The shared monster feat heading reads Improved Natural Attack. The staged names and attack dice follow the Tiger entry.",
+          "The shared Rake timing applies to an ordinary grapple, and the creature’s Pounce expressly includes two rake attacks as part of the charge."
+        ],
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_09/portraits/tiger.png",
+          "sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5"
+        }
+      }
+    },
+    {
+      "owner": "b08_01",
+      "name": "Triceratops",
+      "kind": "beast",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "indexed_cr": "9",
+      "art_group": "triceratops",
+      "reuse_source": "beast-ready-batch-05/reused-portraits/triceratops.webp",
+      "reuse_sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789",
+      "runtime_file": "images/monsters/triceratops/parchment-portrait.webp",
+      "printed_cr": "9",
+      "portrait": {
+        "file": "reused-portraits/triceratops.webp",
+        "sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Triceratops",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised v3.5 System Reference Document",
+        "sourceArchive": "SRD-3.5-RTF.zip",
+        "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceShard": "MonstersDi-Do.rtf",
+        "section": "Dinosaur, Triceratops",
+        "sourceUrl": "https://www.d20srd.org/srd/monsters/dinosaur.htm#triceratops",
+        "url": "https://www.d20srd.org/srd/monsters/dinosaur.htm#triceratops",
+        "sharedRulesShards": [
+          "TypesSubtypesAbilities.rtf",
+          "CombatII.rtf"
+        ],
+        "appearanceEvidence": "The SRD gives Huge size and a gore attack. Horns, frill and posture describe the reused portrait.",
+        "habitatEvidence": "The Triceratops table lists temperate plains.",
+        "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+        "mechanicsNotes": [
+          "The table gives Trample damage and the combat prose gives DC 28. Timing, coverage, size restriction and the choice of defense come from the shared Trample rule."
+        ],
+        "reusedPortrait": {
+          "source": "beast-ready-batch-05/reused-portraits/triceratops.webp",
+          "sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789"
+        }
+      }
+    },
+    {
+      "owner": "b08_01",
+      "name": "Tyrannosaurus",
+      "kind": "beast",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "indexed_cr": "8",
+      "art_group": "tyrannosaurus",
+      "reuse_source": "indexed:images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+      "reuse_sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+      "runtime_file": "images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+      "printed_cr": "8",
+      "portrait": {
+        "file": "reused-portraits/tyrannosaurus.webp",
+        "sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Tyrannosaurus",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised v3.5 System Reference Document",
+        "sourceArchive": "SRD-3.5-RTF.zip",
+        "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceShard": "MonstersDi-Do.rtf",
+        "section": "Dinosaur, Tyrannosaurus",
+        "sourceUrl": "https://www.d20srd.org/srd/monsters/dinosaur.htm#tyrannosaurus",
+        "url": "https://www.d20srd.org/srd/monsters/dinosaur.htm#tyrannosaurus",
+        "sharedRulesShards": [
+          "TypesSubtypesAbilities.rtf",
+          "CombatII.rtf"
+        ],
+        "appearanceEvidence": "The SRD describes a dinosaur longer than 30 ft. with a long head and large teeth. Color and pose describe the reused portrait.",
+        "habitatEvidence": "The Tyrannosaurus table lists warm plains.",
+        "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+        "mechanicsNotes": [
+          "The creature text sets different maximum target sizes for Improved Grab and Swallow Whole. The successful swallowing grapple and escape-to-mouth option use the shared Swallow Whole rules."
+        ],
+        "reusedPortrait": {
+          "source": "indexed:images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+          "sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316"
+        }
+      }
+    },
+    {
+      "owner": "b08_01",
+      "name": "War Pony",
+      "kind": "beast",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "indexed_cr": "1/2",
+      "art_group": "war-pony",
+      "reuse_source": "indexed:images/beasts/war-pony/parchment-portrait.webp",
+      "reuse_sha256": "b564a87e30cecf28608a31b4677e40119a2e929b2b55da1f75aac539ce901a35",
+      "runtime_file": "images/beasts/war-pony/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/war-pony.webp",
+        "sha256": "b564a87e30cecf28608a31b4677e40119a2e929b2b55da1f75aac539ce901a35",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "War Pony",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised v3.5 System Reference Document",
+        "sourceArchive": "SRD-3.5-RTF.zip",
+        "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceShard": "MonstersAnimals.rtf",
+        "section": "Pony, War",
+        "sourceUrl": "https://www.d20srd.org/srd/monsters/ponyWar.htm",
+        "url": "https://www.d20srd.org/srd/monsters/ponyWar.htm",
+        "sharedRulesShards": [
+          "TypesSubtypesAbilities.rtf",
+          "SkillsII.rtf"
+        ],
+        "appearanceEvidence": "The SRD describes a domesticated pony bred for strength and aggression. Its coat, mane and tack describe the reused portrait.",
+        "habitatEvidence": "The Pony, War table lists temperate plains.",
+        "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+        "mechanicsNotes": [
+          "The Pony, War prose calls for a Ride check. The Ride skill gives DC 10 and its free-action timing."
+        ],
+        "reusedPortrait": {
+          "source": "indexed:images/beasts/war-pony/parchment-portrait.webp",
+          "sha256": "b564a87e30cecf28608a31b4677e40119a2e929b2b55da1f75aac539ce901a35"
+        }
+      }
+    },
+    {
+      "owner": "b08_01",
+      "name": "Wolf",
+      "kind": "beast",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "indexed_cr": "1",
+      "art_group": "wolf",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/wolf.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wolf",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised v3.5 System Reference Document",
+        "sourceArchive": "SRD-3.5-RTF.zip",
+        "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceShard": "MonstersAnimals.rtf",
+        "section": "Wolf",
+        "sourceUrl": "https://www.d20srd.org/srd/monsters/wolf.htm",
+        "url": "https://www.d20srd.org/srd/monsters/wolf.htm",
+        "sharedRulesShards": [
+          "TypesSubtypesAbilities.rtf",
+          "CombatII.rtf"
+        ],
+        "appearanceEvidence": "The SRD describes a Medium pack hunter. Coat, ears and posture describe the reused portrait.",
+        "habitatEvidence": "The Wolf table lists temperate forests.",
+        "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+        "mechanicsNotes": [
+          "The printed +1 trip modifier is the wolf’s check modifier before any situational adjustment. The shared Trip rule supplies the target size limit and opposed roll."
+        ],
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+          "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+        }
+      }
+    },
+    {
+      "owner": "b08_01",
+      "name": "Wolverine",
+      "kind": "beast",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "indexed_cr": "2",
+      "art_group": "wolverine",
+      "reuse_source": "indexed:images/beasts/wolverine/parchment-portrait.webp",
+      "reuse_sha256": "696bfc4e9a3dc67069266eb71d8757fdb5c6072ce2f6e210902fcbfbf483f975",
+      "runtime_file": "images/beasts/wolverine/parchment-portrait.webp",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/wolverine.webp",
+        "sha256": "696bfc4e9a3dc67069266eb71d8757fdb5c6072ce2f6e210902fcbfbf483f975",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wolverine",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Revised v3.5 System Reference Document",
+        "sourceArchive": "SRD-3.5-RTF.zip",
+        "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+        "sourceShard": "MonstersAnimals.rtf",
+        "section": "Wolverine",
+        "sourceUrl": "https://www.d20srd.org/srd/monsters/wolverine.htm",
+        "url": "https://www.d20srd.org/srd/monsters/wolverine.htm",
+        "sharedRulesShards": [
+          "TypesSubtypesAbilities.rtf",
+          "Basics.rtf"
+        ],
+        "appearanceEvidence": "The SRD compares the animal to a larger, stronger badger. Coat bands and posture describe the reused portrait.",
+        "habitatEvidence": "The Wolverine table lists cold forests.",
+        "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+        "mechanicsNotes": [
+          "The rage math is derived from the creature’s exact printed adjustments. This is the Wolverine’s extraordinary Rage, with its printed trigger and duration."
+        ],
+        "reusedPortrait": {
+          "source": "indexed:images/beasts/wolverine/parchment-portrait.webp",
+          "sha256": "696bfc4e9a3dc67069266eb71d8757fdb5c6072ce2f6e210902fcbfbf483f975"
+        }
+      }
+    },
+    {
+      "owner": "b08_02",
+      "name": "Batracine",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "batracine",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_02/portraits/batracine.png",
+        "sha256": "6c1b809f7ee2406280889d75b41d8d589f59b748ba4a1dd8025d90779bf13344",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Batracine",
+        "edition": "AD&D 2nd edition",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          14,
+          15
+        ],
+        "viewerPages": [
+          15,
+          16
+        ],
+        "section": "Batracine",
+        "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+        "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+        "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+        "mechanicsNotes": [
+          "Bite’s 1d4 is the only attack damage listed. The tongue description does not specify a separate roll or combat condition.",
+          "Leap distance uses 2 Hit Dice rather than the +2 HP bonus."
+        ],
+        "artGroup": "batracine",
+        "relatedRules": [
+          {
+            "section": "Monster Legacies and Leap",
+            "printedPages": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "sourceUrl": ""
+          },
+          {
+            "section": "Parasite, Cardinal Tick",
+            "printedPages": [
+              85
+            ],
+            "sourceUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b08_02",
+      "name": "Caniquine",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "caniquine",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_02/portraits/caniquine.png",
+        "sha256": "6c34cb9cd21cd65a03328050d3dcdf8371b79fb3309c08a03a928f47b424f871",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Caniquine",
+        "edition": "AD&D 2nd edition",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          15,
+          16
+        ],
+        "viewerPages": [
+          16,
+          17
+        ],
+        "section": "Caniquine",
+        "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+        "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+        "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+        "mechanicsNotes": [
+          "The kick is an extra trained-mount option, with a stationary restriction and a signal requirement if combined with bite.",
+          "Base XP 270. With a Legacy, 420 XP."
+        ],
+        "artGroup": "caniquine",
+        "relatedRules": [
+          {
+            "section": "Monster Legacies and example powers",
+            "printedPages": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "sourceUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b08_02",
+      "name": "Cinnavixen",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "cinnavixen",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_02/portraits/cinnavixen.png",
+        "sha256": "6d44d09c42b4f34c9f4eda925cb58914f3db4ac68b75d73b71efe24a9d848f15",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Cinnavixen",
+        "edition": "AD&D 2nd edition",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          17,
+          18
+        ],
+        "viewerPages": [
+          18,
+          19
+        ],
+        "section": "Cinnavixen",
+        "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+        "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+        "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+        "mechanicsNotes": [
+          "The printed bleed rate is 1 HP per round per bite. Pressure must stay in place through more than 24 hours of bandaging.",
+          "Bite infection chance and the separate parasite saving-throw procedure are each preserved. The source does not explicitly specify their interaction."
+        ],
+        "artGroup": "cinnavixen",
+        "relatedRules": [
+          {
+            "section": "Parasite, Cardinal Tick and Vermilia",
+            "printedPages": [
+              85,
+              86
+            ],
+            "sourceUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b08_02",
+      "name": "Echyan",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "echyan",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_02/portraits/echyan.png",
+        "sha256": "ab83566d5bc3d712d7c3e555e72e90295c5c370e2923b5da3c617ed2d9a2b2f8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Echyan",
+        "edition": "AD&D 2nd edition",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          26
+        ],
+        "viewerPages": [
+          27
+        ],
+        "section": "Echyan",
+        "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+        "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+        "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+        "mechanicsNotes": [
+          "The source does not define the condition for AC 10.",
+          "The recurring attached damage is separate from the unspecified Swallow Whole resolution.",
+          "Base XP 1,400. With a Legacy, 2,000 XP."
+        ],
+        "artGroup": "echyan",
+        "relatedRules": [
+          {
+            "section": "Monster Legacies",
+            "printedPages": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "sourceUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b08_02",
+      "name": "Feliquine",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "feliquine",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_02/portraits/feliquine.png",
+        "sha256": "58aab3d368d394522f56f15e688ac7920f056a34a24a55be71baa01d152b21ec",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Feliquine",
+        "edition": "AD&D 2nd edition",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          32,
+          33
+        ],
+        "viewerPages": [
+          33,
+          34
+        ],
+        "section": "Feliquine",
+        "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+        "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+        "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+        "mechanicsNotes": [
+          "The entry gives THAC0 15 explicitly.",
+          "A hind-leg kick rules out front claw attacks in its round. The kick text does not bar a bite or require a rider signal.",
+          "Base XP 270. With a Legacy, 420 XP."
+        ],
+        "artGroup": "feliquine",
+        "relatedRules": [
+          {
+            "section": "Monster Legacies",
+            "printedPages": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "sourceUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b08_03",
+      "name": "Herathian Voat",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "herathian-voat",
+      "reuse_source": "indexed:images/beasts/herathian-voat/parchment-portrait.webp",
+      "reuse_sha256": "3dcbb4ef9a9ad4a0844822421756d34eb34a3c7c5a0039e2c25d411e0159a65c",
+      "runtime_file": "images/beasts/herathian-voat/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/herathian-voat.webp",
+        "sha256": "3dcbb4ef9a9ad4a0844822421756d34eb34a3c7c5a0039e2c25d411e0159a65c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Herathian Voat",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR , product 2524XXX1501",
+        "heading": "Voat, Herathian",
+        "printedPages": [
+          116,
+          117
+        ],
+        "pdfPages": [
+          117,
+          118
+        ],
+        "sourceUrl": "",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+        "printedClimateTerrain": "Any forest or plains",
+        "habitatEvidence": "The p. 116 table gives forest or plains. p. 117 describes seasonal movement between Herath, the Yazak Steppes, and western Hule.",
+        "appearanceEvidence": "p. 117 describes the loose skin, oversized feet, blunt snout, no tail, and raking claws. The pale hide follows the reused portrait.",
+        "printingNotes": [
+          "The print uses Slagovich juggernaut as an alias but also says a Slagovich juggernaut was created to hunt Herathian voats. Retain the printed encounter heading and the combat rules on these pages. No alternate stat block is inferred.",
+          "The appendix gives a brief War Cry save rule. The more detailed Campaign Book p. 107 distinguishes monsters with morale ratings from targets without them. The encounter summary uses the appendix version."
+        ],
+        "supportingSources": {
+          "Red Curse and Legacy rules": "",
+          "Initial Region 1–4 table": "",
+          "Amber Paralysis": "",
+          "War Cry and Weapon Hand": "",
+          "Campaign Book comparison": ""
+        }
+      }
+    },
+    {
+      "owner": "b08_03",
+      "name": "Jorri",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "jorri",
+      "reuse_source": "indexed:images/beasts/jorri/parchment-portrait.webp",
+      "reuse_sha256": "e77650da26cab97e9cd0a47ca65cbf7a93a299fb9a00f79e4985368b1d6a0605",
+      "runtime_file": "images/beasts/jorri/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/jorri.webp",
+        "sha256": "e77650da26cab97e9cd0a47ca65cbf7a93a299fb9a00f79e4985368b1d6a0605",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Jorri",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR , product 2524XXX1501",
+        "heading": "Jorri",
+        "printedPages": [
+          57,
+          58
+        ],
+        "pdfPages": [
+          58,
+          59
+        ],
+        "sourceUrl": "",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+        "printedClimateTerrain": "Saltwater",
+        "habitatEvidence": "The table gives saltwater and p. 58 describes coastal dens, play in the surf, and reefs.",
+        "appearanceEvidence": "pp. 57–58 describe short oily gray-black fur, white whiskers, webbed hind toes, and a crescent tail. These match the reused portrait.",
+        "printingNotes": [
+          "Description gives 2–4 ft. length while the table gives 3–4 ft. The combat profile uses the table.",
+          "The source gives no extra attack bonus, recurring damage or fixed duration for the jaw lock."
+        ],
+        "supportingSources": {
+          "Red Curse and Legacy rules": "",
+          "Initial Region 1–4 table": ""
+        }
+      }
+    },
+    {
+      "owner": "b08_03",
+      "name": "Juhrion",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "juhrion",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_03/portraits/juhrion.png",
+        "sha256": "9b8afecceb7ad3063d0d964323cb24ff7d69a5ba443e704994118b02ace56b3f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Juhrion",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR , product 2524XXX1501",
+        "heading": "Juhrion",
+        "printedPages": [
+          58,
+          59
+        ],
+        "pdfPages": [
+          59,
+          60
+        ],
+        "sourceUrl": "",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+        "printedClimateTerrain": "Any",
+        "habitatEvidence": "The p. 58 table allows any terrain. p. 59 describes dens in caves or hollowed thicket beds.",
+        "appearanceEvidence": "p. 58 explicitly describes the huge four-footed bear shape, lack of hair, red leathery hide, large teeth, and harpoon-shaped claws. The stance and muted shade are editorial.",
+        "printingNotes": [
+          "Table lists special defenses as nil while ecology explicitly grants immunity to vermilia. The summary preserves both.",
+          "The claw paragraph gives a 50% infection chance and points to the Parasite entry, which gives the poison save. A practical reading is to roll the claw chance first and apply the appropriate save on exposure. The text does not state a roll order."
+        ],
+        "supportingSources": {
+          "Red Curse and Legacy rules": "",
+          "Initial Region 1–4 table": "",
+          "Parasite: Vermilia": ""
+        }
+      }
+    },
+    {
+      "owner": "b08_03",
+      "name": "Lupasus",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "lupasus",
+      "reuse_source": "indexed:images/beasts/lupasus/parchment-portrait.webp",
+      "reuse_sha256": "51744344fa8e3a3d9105eba8a4d11d9f868b9df38e1c254d029a8f507a9a1aae",
+      "runtime_file": "images/beasts/lupasus/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/lupasus.webp",
+        "sha256": "51744344fa8e3a3d9105eba8a4d11d9f868b9df38e1c254d029a8f507a9a1aae",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Lupasus",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR , product 2524XXX1501",
+        "heading": "Lupasus",
+        "printedPages": [
+          68,
+          69
+        ],
+        "pdfPages": [
+          69,
+          70
+        ],
+        "sourceUrl": "",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+        "printedClimateTerrain": "Any steppes",
+        "habitatEvidence": "p. 68 gives any steppes and describes Yazak, prairies, forest lands, and all but the highest mountains.",
+        "appearanceEvidence": "p. 68 describes a typical gray wolf shape with white underside, a bushy tail, and soft fur covering the wings. The reused portrait has layered wing edges.",
+        "printingNotes": [
+          "The source lists no special attacks in its combat table. Flight rules and optional Legacy effects are described in prose."
+        ],
+        "supportingSources": {
+          "Red Curse and Legacy rules": "",
+          "Initial Region 1–4 table": "",
+          "General flying maneuverability": ""
+        }
+      }
+    },
+    {
+      "owner": "b08_03",
+      "name": "Marine Cat",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "marine-cat",
+      "reuse_source": "indexed:images/beasts/marine-cat/parchment-portrait.webp",
+      "reuse_sha256": "79b713a311443f1ea3dac63c05035bf2a61efb5cfd8a26f5c244c5bd97376f7b",
+      "runtime_file": "images/beasts/marine-cat/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/marine-cat.webp",
+        "sha256": "79b713a311443f1ea3dac63c05035bf2a61efb5cfd8a26f5c244c5bd97376f7b",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Marine Cat",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR , product 2524XXX1501",
+        "heading": "Cat, Marine",
+        "printedPages": [
+          16,
+          17
+        ],
+        "pdfPages": [
+          17,
+          18
+        ],
+        "sourceUrl": "",
+        "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "sourceWitness": "Local TSR checked against the printed table and continuation text. pages count the cover.",
+        "printedClimateTerrain": "Shipboard",
+        "habitatEvidence": "Table specifies shipboard and the prose describes dock outings and life around rigging, cargo holds, and staterooms.",
+        "appearanceEvidence": "p. 16 describes a slightly larger-than-usual cat, often dark with bright eyes. The stripes and green eyes follow the reused portrait.",
+        "printingNotes": [
+          "The glossary permits small family groups under Solitary. Retain the separate printed 1d2 number appearing.",
+          "The appendix gives no percentile chance or default Legacy, and neither named power belongs to an ordinary marine cat by default."
+        ],
+        "supportingSources": {
+          "Red Curse and Legacy rules": "",
+          "Initial Region 1–4 table": "",
+          "Breathe Water": "",
+          "Swim": ""
+        }
+      }
+    },
+    {
+      "owner": "b08_04",
+      "name": "Nikt’oo",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "niktoo",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_04/portraits/niktoo.png",
+        "sha256": "c41436a38d6ebf71a6b5baeb6122f7e91137f467af21a00f49d09e00ac205566",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Nikt’oo",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR2524",
+        "section": "Nikt’oo",
+        "printedPages": [
+          78,
+          79
+        ],
+        "pdfPages": [
+          79,
+          80
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "operationalEvidence": "Visual p. 78 confirms that the AC 6 exception is location-based and that only the natural 20 against an attacking human-sized or smaller creature severs a limb. The out-of-water penalty applies to males in the continuation on p. 79.",
+        "supportingAppendixPages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "legacyRulesUrl": "",
+        "appearanceEvidence": "Anatomy and color summarized from the entry and checked against the new portrait.",
+        "habitatEvidence": "Climate and terrain from the entry table, with named encounter settings from the accompanying prose.",
+        "artGroup": "niktoo"
+      }
+    },
+    {
+      "owner": "b08_04",
+      "name": "Omm-wa",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "omm-wa",
+      "reuse_source": "indexed:images/beasts/omm-wa/parchment-portrait.webp",
+      "reuse_sha256": "d43d52b53f64e9c1b0a1815757c683144c0c9b0d5c59ccc99589233c9ab4455a",
+      "runtime_file": "images/beasts/omm-wa/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/omm-wa.webp",
+        "sha256": "d43d52b53f64e9c1b0a1815757c683144c0c9b0d5c59ccc99589233c9ab4455a",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Omm-wa",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR2524",
+        "section": "Omm-wa",
+        "printedPages": [
+          81,
+          82
+        ],
+        "pdfPages": [
+          82,
+          83
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "operationalEvidence": "Table and Combat text on p. 81 establish AC 6 (10), weapon damage, encounter multiples, shallow-water movement limits and Burn. The introductory Armor Class definition on p. 3 supplies the armored versus unarmored convention. Page 82 provides ecology and twin outcomes. Campaign Book Book Two supplies the Burn mechanics and general HD substitution.",
+        "supportingAppendixPages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "legacyRulesUrl": "",
+        "appearanceEvidence": "Anatomy and color summarized from the entry and checked against the reused portrait.",
+        "habitatEvidence": "Climate and terrain from the entry table, with named encounter settings from the accompanying prose.",
+        "artGroup": "omm-wa",
+        "reuseSha256": "d43d52b53f64e9c1b0a1815757c683144c0c9b0d5c59ccc99589233c9ab4455a"
+      }
+    },
+    {
+      "owner": "b08_04",
+      "name": "Succulus",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "succulus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_04/portraits/succulus.png",
+        "sha256": "6fa9bf97689e4aaddd307882ad7fd00a8ae5185ce8a095a6676649309d782acf",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Succulus",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR2524",
+        "section": "Succulus",
+        "printedPages": [
+          103,
+          104
+        ],
+        "pdfPages": [
+          104,
+          105
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "operationalEvidence": "Visual p. 103 supplies the table, including one attack at 3d4 and 420 XP. The p. 104 continuation defines touch, detection, resistance, reverse weapon contact and feeding. The appendix gives the monster Spikes rules on p. 8 and refers to the Campaign Book, which names and defines Digging.",
+        "supportingAppendixPages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "legacyRulesUrl": "",
+        "sourceDiscrepancies": "The creature entry calls the two Legacies Dig and Spikes, and uses singular Spike in the combat prose. Digging is the Campaign Book name. This profile uses the appendix’s monster form of Spikes.",
+        "appearanceEvidence": "Anatomy and color summarized from the entry and checked against the new portrait.",
+        "habitatEvidence": "Climate and terrain from the entry table, with named encounter settings from the accompanying prose.",
+        "artGroup": "succulus"
+      }
+    },
+    {
+      "owner": "b08_04",
+      "name": "Swampmare",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "swampmare",
+      "reuse_source": "indexed:images/beasts/swampmare/parchment-portrait.webp",
+      "reuse_sha256": "e91fbf1ed393b3fc787d28c23a50aaaa948ef3bf903621774978af3803b4ecb5",
+      "runtime_file": "images/beasts/swampmare/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/swampmare.webp",
+        "sha256": "e91fbf1ed393b3fc787d28c23a50aaaa948ef3bf903621774978af3803b4ecb5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swampmare",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "kind": "beast",
+        "publisher": "TSR, Inc.",
+        "printing": "1996 TSR2524",
+        "section": "Swampmare",
+        "printedPages": [
+          104,
+          105
+        ],
+        "pdfPages": [
+          105,
+          106
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+        "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "operationalEvidence": "Visual p. 104 distinguishes the claw/claw/bite baseline and the 1d6 Forefeet special attack from the prose’s four-attack sequence in water. Visual p. 105 continues the one-round change and keeps the weapon damage maximum at 1 per round. The appendix overrides the ordinary Plant Form duration with this creature’s six-hour maximum.",
+        "supportingAppendixPages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "legacyRulesUrl": "",
+        "sourceDiscrepancies": "The printed attack table gives three routine attacks and a separate Forefeet special attack. The combat prose gives four attacks in water without spelling out the individual roll sequence. The 1d6 Forefeet line supplies the damage for the extra attack when applying the water exception.",
+        "appearanceEvidence": "Anatomy and color summarized from the entry and checked against the reused portrait.",
+        "habitatEvidence": "Climate and terrain from the entry table, with named encounter settings from the accompanying prose.",
+        "artGroup": "swampmare",
+        "reuseSha256": "e91fbf1ed393b3fc787d28c23a50aaaa948ef3bf903621774978af3803b4ecb5"
+      }
+    },
+    {
+      "owner": "b08_05",
+      "name": "Trosip",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "trosip",
+      "reuse_source": "indexed:images/beasts/trosip/parchment-portrait.webp",
+      "reuse_sha256": "c1e136bef79480466c4d5d094105c55b598a8598ded85cdd5c3650de66fee008",
+      "runtime_file": "images/beasts/trosip/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/trosip.webp",
+        "sha256": "c1e136bef79480466c4d5d094105c55b598a8598ded85cdd5c3650de66fee008",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Trosip",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "printing": "1996 TSR text, v1.0 (June 2006)",
+        "sourcePdfSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          112,
+          113
+        ],
+        "viewerPages": [
+          113,
+          114
+        ],
+        "pageNumbering": "The page number is one greater than the printed folio.",
+        "url": "",
+        "sourceUrl": "",
+        "verification": "Read the actual Appendix entry and checked the continuation against the page columns.",
+        "appearanceSource": "Appendix pp. 112–113 describe dark grey dust-bunny shapes. The reused portrait depicts several dusty clumps.",
+        "habitatSource": "Appendix p. 112 Climate/Terrain, plus household, cave and dungeon interiors in the prose.",
+        "printingNote": "The p. 112 table combines Tiny size with a 6′–9′ diameter. The scan visibly uses foot marks. The entry does not specify a correction."
+      }
+    },
+    {
+      "owner": "b08_05",
+      "name": "Voat",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "voat",
+      "reuse_source": "indexed:images/beasts/voat/parchment-portrait.webp",
+      "reuse_sha256": "7818ff5599db53331a679988dd1b4dc95e611b48dd8d694a7918309615139f8b",
+      "runtime_file": "images/beasts/voat/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/voat.webp",
+        "sha256": "7818ff5599db53331a679988dd1b4dc95e611b48dd8d694a7918309615139f8b",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Voat",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "printing": "1996 TSR text, v1.0 (June 2006)",
+        "sourcePdfSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          115,
+          116
+        ],
+        "viewerPages": [
+          116,
+          117
+        ],
+        "pageNumbering": "The page number is one greater than the printed folio.",
+        "url": "",
+        "sourceUrl": "",
+        "verification": "Read the actual Appendix entry and checked the continuation against the page columns.",
+        "appearanceSource": "Appendix pp. 115–116 describe the ratlike body, coarse grey fur, ears, snout, teeth and tail. The reused portrait depicts the general appearance.",
+        "habitatSource": "The table gives any terrain. The prose names ships, warehouses, food stores and caves with scarlet pimpernel.",
+        "supportingRules": "Appendix pp. 6–8 and Savage Coast Campaign Book Part 2 pp. 85 and 99 for uses, minimum effective level and Phase.",
+        "supportingSourceUrl": ""
+      }
+    },
+    {
+      "owner": "b08_05",
+      "name": "Vulturehound",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "vulturehound",
+      "reuse_source": "indexed:images/beasts/vulturehound/parchment-portrait.webp",
+      "reuse_sha256": "d804139e1e1b3b5cd28fdc9eae5ea6647cc320bbb6a54d00afbd2be613d25b33",
+      "runtime_file": "images/beasts/vulturehound/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/vulturehound.webp",
+        "sha256": "d804139e1e1b3b5cd28fdc9eae5ea6647cc320bbb6a54d00afbd2be613d25b33",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Vulturehound",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "printing": "1996 TSR text, v1.0 (June 2006)",
+        "sourcePdfSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          117,
+          118
+        ],
+        "viewerPages": [
+          118,
+          119
+        ],
+        "pageNumbering": "The page number is one greater than the printed folio.",
+        "url": "",
+        "sourceUrl": "",
+        "verification": "Read the actual Appendix entry and checked the continuation against the page columns.",
+        "appearanceSource": "Appendix p. 118 describes the vulture head, shaggy dog body, hooked beak, feathered wings and doglike taloned legs, all visible in the reused portrait.",
+        "habitatSource": "Appendix pp. 117–118 gives steppe climates and locates populations in Renardy and the Yazak Steppes.",
+        "supportingRules": "Appendix pp. 4, 6–8 and Savage Coast Campaign Book Part 2 pp. 85, 96 and 104 for Class C flight and Legacy procedures.",
+        "supportingSourceUrl": ""
+      }
+    },
+    {
+      "owner": "b08_05",
+      "name": "Wynzet",
+      "kind": "beast",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "indexed_cr": "",
+      "art_group": "wynzet",
+      "reuse_source": "indexed:images/beasts/wynzet/parchment-portrait.webp",
+      "reuse_sha256": "46ca43296a4dd52670d1f94e0f539aeaa96971751fbe896dedbd9fc6f7c94298",
+      "runtime_file": "images/beasts/wynzet/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/wynzet.webp",
+        "sha256": "46ca43296a4dd52670d1f94e0f539aeaa96971751fbe896dedbd9fc6f7c94298",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wynzet",
+        "kind": "beast",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "printing": "1996 TSR text, v1.0 (June 2006)",
+        "sourcePdfSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+        "printedPages": [
+          122,
+          123
+        ],
+        "viewerPages": [
+          123,
+          124
+        ],
+        "pageNumbering": "The page number is one greater than the printed folio.",
+        "url": "",
+        "sourceUrl": "",
+        "verification": "Read the actual Appendix entry and checked the continuation against the page columns.",
+        "appearanceSource": "Appendix pp. 122–123 describes grey squirrel and rabbit forms, fluffy fur and wide eyes. The reused portrait depicts the squirrel form.",
+        "habitatSource": "Appendix p. 122 lists any forest and notes abundance in Robrenn.",
+        "supportingRules": "Appendix pp. 6–7 and Savage Coast Campaign Book Part 2 pp. 85 and 88 for uses, effective level and general Bite duration.",
+        "supportingSourceUrl": ""
+      }
+    },
+    {
+      "owner": "b08_06",
+      "name": "Almiraj",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "almiraj",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b08_06/portraits/almiraj.png",
+        "sha256": "b8bc228dad2a7fe595ce9de19a3c1024dbe14a0054b23c19a59d03fa5d238c53",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Almiraj",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          211
+        ],
+        "viewerPages": [
+          212
+        ],
+        "heading": "Appendix D / Almiraj",
+        "supportingPages": [
+          194,
+          196
+        ],
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "url": "https://www.dndbeyond.com/sources/dnd/toa",
+        "errataUrl": "",
+        "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+        "appearanceSource": "P. 211 text and illustration show a rabbit with a 1-ft. spiral horn. Fur color and the portrait pose are editorial.",
+        "habitatSource": "P. 211 places these animals in Chult and earthen burrows. Appendix B p. 194 lists them in jungle and ruins.",
+        "sourceDistinctions": [
+          "The block is Small even though the prose calls the creature a large rabbit. The familiar form requires DM permission.",
+          "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+        ]
+      }
+    },
+    {
+      "owner": "b08_06",
+      "name": "Brontosaurus",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "brontosaurus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/b08_06/portraits/brontosaurus.png",
+        "sha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Brontosaurus",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          215
+        ],
+        "viewerPages": [
+          216
+        ],
+        "heading": "Appendix D / Brontosaurus",
+        "supportingPages": [
+          194,
+          197
+        ],
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "url": "https://www.dndbeyond.com/sources/dnd/toa",
+        "errataUrl": "",
+        "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+        "appearanceSource": "P. 215 describes an immense four-legged dinosaur with a dangerous tail. Neck, coloration and profile details are editorial sauropod anatomy.",
+        "habitatSource": "Appendix B p. 194 places the brontosaurus among the jungle, river and swamp encounters.",
+        "sourceDistinctions": [
+          "Both Stomp and Tail have a printed reach of 20 ft. The printed action list has no Multiattack.",
+          "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+        ]
+      }
+    },
+    {
+      "owner": "b08_06",
+      "name": "Deinonychus",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "deinonychus",
+      "reuse_source": "beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png",
+      "reuse_sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+      "runtime_file": "images/beast-ready-batch-07/deinonychus.png",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/deinonychus.png",
+        "sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Deinonychus",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          217
+        ],
+        "viewerPages": [
+          218
+        ],
+        "heading": "Appendix D / Deinonychus",
+        "supportingPages": [
+          194,
+          197
+        ],
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "url": "https://www.dndbeyond.com/sources/dnd/toa",
+        "errataUrl": "",
+        "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+        "appearanceSource": "P. 217 describes a larger relative of Velociraptor that grips prey with its claws. Color, scales and other visual details are editorial and match the selected portrait.",
+        "habitatSource": "Appendix B p. 194 lists jungle and ruin encounters in Chult.",
+        "sourceDistinctions": [
+          "The September 2017 Pounce needs a straight 20-ft. approach and a Claw hit on the same turn. The target’s DC 12 save is Strength, and the follow-up is one bonus-action Bite if the target is prone.",
+          "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+        ]
+      }
+    },
+    {
+      "owner": "b08_06",
+      "name": "Dimetrodon",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "dimetrodon",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b08_06/portraits/dimetrodon.png",
+        "sha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Dimetrodon",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          217
+        ],
+        "viewerPages": [
+          218
+        ],
+        "heading": "Appendix D / Dimetrodon",
+        "supportingPages": [
+          194,
+          197
+        ],
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "url": "https://www.dndbeyond.com/sources/dnd/toa",
+        "errataUrl": "",
+        "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+        "appearanceSource": "P. 217 supplies the sail-backed reptile silhouette. Color, muzzle, tail and ribbed sail details are editorial.",
+        "habitatSource": "P. 217 specifies shores and shallow water. Appendix B pp. 194 and 197 add the beach, river, swamp and riverbank context.",
+        "sourceDistinctions": [
+          "The stat block gives a swim speed. It does not list Hold Breath. The Constitution score is 15 (+2), visually checked on the page.",
+          "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+        ]
+      }
+    },
+    {
+      "owner": "b08_06",
+      "name": "Flying Monkey",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "flying-monkey",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b08_06/portraits/flying-monkey.png",
+        "sha256": "3154dcbc49c9d07e425980718ce0d9e694327d349cd697d3e77b6878397ce57c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Flying Monkey",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          220
+        ],
+        "viewerPages": [
+          221
+        ],
+        "heading": "Appendix D / Flying Monkey",
+        "supportingPages": [
+          194,
+          200,
+          221
+        ],
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "url": "https://www.dndbeyond.com/sources/dnd/toa",
+        "errataUrl": "",
+        "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+        "appearanceSource": "The p. 220 illustration shows the wings and monkey body. P. 221 gives a range of colors and about a 5-ft. spread of feathered wings. The selected colors are editorial.",
+        "habitatSource": "Appendix B p. 194 lists beach, jungle, mountain, river, and ruin encounters. Mountain forests is an editorial search label for mountain habitat.",
+        "sourceDistinctions": [
+          "P. 220 holds the stat block, with descriptive text continued on p. 221. The swoop and training rules belong to the p. 200 encounter, outside the printed stat block.",
+          "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+        ]
+      }
+    },
+    {
+      "owner": "b08_07",
+      "name": "Giant Snapping Turtle",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "giant-snapping-turtle",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b08_07/portraits/giant-snapping-turtle.png",
+        "sha256": "c0052ecb2b70097da1ec1c6a831942a5a3af746b7f339633631eba7bb275a927",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Snapping Turtle",
+        "kind": "beast",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "copyrightYear": 2017,
+        "section": "Appendix D: Monsters and NPCs",
+        "sourceHeading": "Giant Snapping Turtle",
+        "pdfPage": 223,
+        "printedPages": [
+          222
+        ],
+        "pageNumbering": "This copy counts the cover as page 1. The index is one greater than the printed folio.",
+        "sourceUrl": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=223",
+        "url": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=223",
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "publisherListing": "https://www.dndbeyond.com/sources/dnd/toa",
+        "digitalReference": "https://www.dndbeyond.com/monsters/33030-giant-snapping-turtle",
+        "errataUrl": "",
+        "sourceDistinctions": [
+          "The book separately gives King Toba 120 HP and enhanced saving throws against magic on p. 83. Neither modifier belongs to the standard appendix creature.",
+          "Stable lists a DC 10 Dexterity check and all movement to stand without granting a different action economy.",
+          "The 2021 publisher errata has no alteration to this creature’s Appendix D stat block."
+        ],
+        "appearanceEvidence": "Page 222 describes shells up to 12 ft. across and powerful snapping jaws. Shell scutes, beak details, and colors are editorial natural-history choices for the original portrait.",
+        "habitatEvidence": "Appendix B encounter table p. 195 gives Beach, Rivers, and Swamp. Chapter 2 p. 36 identifies Snapping Turtle Bay.",
+        "artGroup": "giant-snapping-turtle"
+      }
+    },
+    {
+      "owner": "b08_07",
+      "name": "Hadrosaurus",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "hadrosaurus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b08_07/portraits/hadrosaurus.png",
+        "sha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Hadrosaurus",
+        "kind": "beast",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "copyrightYear": 2017,
+        "section": "Appendix D: Monsters and NPCs",
+        "sourceHeading": "Hadrosaurus",
+        "pdfPage": 225,
+        "printedPages": [
+          224
+        ],
+        "pageNumbering": "This copy counts the cover as page 1. The index is one greater than the printed folio.",
+        "sourceUrl": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=225",
+        "url": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=225",
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "publisherListing": "https://www.dndbeyond.com/sources/dnd/toa",
+        "digitalReference": "https://www.dndbeyond.com/monsters/17241-hadrosaurus",
+        "errataUrl": "",
+        "sourceDistinctions": [
+          "The actual printed STR value is 15 (+2). OCR misreads it as −2. The printed Tail attack uses +4 to hit and 1d10 + 2.",
+          "The Racing Dinosaurs table in chapter 1 uses racetrack statistics. The encounter uses the appendix defaults.",
+          "The 2021 publisher errata has no alteration to this creature’s Appendix D stat block."
+        ],
+        "appearanceEvidence": "The description on p. 224 specifies a bony head crest and semi-quadrupedal herbivore form. The crest contour and colors in the original are editorial.",
+        "habitatEvidence": "Appendix B table p. 194 places hadrosauruses in jungle, river, and swamp encounters. The p. 197 encounter describes a grazing herd.",
+        "artGroup": "hadrosaurus"
+      }
+    },
+    {
+      "owner": "b08_07",
+      "name": "Jaculi",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "jaculi",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b08_07/portraits/jaculi.png",
+        "sha256": "1b053afe35438d32c9a31c7bb377e4ebff72beafb60812735f4c8f91ee4a9685",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Jaculi",
+        "kind": "beast",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "copyrightYear": 2017,
+        "section": "Appendix D: Monsters and NPCs",
+        "sourceHeading": "Jaculi",
+        "pdfPage": 226,
+        "printedPages": [
+          224,
+          225
+        ],
+        "pageNumbering": "This copy counts the cover as page 1. The index is one greater than the printed folio.",
+        "sourceUrl": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=226",
+        "url": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=226",
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "publisherListing": "https://www.dndbeyond.com/sources/dnd/toa",
+        "digitalReference": "https://www.dndbeyond.com/monsters/33039-jaculi",
+        "errataUrl": "",
+        "sourceDistinctions": [
+          "Spring’s range and advantage threshold are distinct. The added damage follows a successful Spring Bite independent of the 10-ft. advantage threshold.",
+          "The 2021 publisher errata has no alteration to this creature’s Appendix D stat block."
+        ],
+        "appearanceEvidence": "Appendix D p. 224 describes a 15-ft. snake whose scales imitate wood and stone. The credited plate on the same folio shows a cooler-toned spined head. The original portrait uses a different composition.",
+        "habitatEvidence": "Appendix D p. 224 describes damp climates, rainforests, and cool dungeons. Appendix B p. 195 adds River and Ruins encounter categories.",
+        "artGroup": "jaculi"
+      }
+    },
+    {
+      "owner": "b08_07",
+      "name": "Quetzalcoatlus",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "quetzalcoatlus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b08_07/portraits/quetzalcoatlus.png",
+        "sha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Quetzalcoatlus",
+        "kind": "beast",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2017",
+        "copyrightYear": 2017,
+        "section": "Appendix D: Monsters and NPCs",
+        "sourceHeading": "Quetzalcoatlus",
+        "pdfPage": 231,
+        "printedPages": [
+          229,
+          230
+        ],
+        "pageNumbering": "This copy counts the cover as page 1. The index is one greater than the printed folio.",
+        "sourceUrl": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=231",
+        "url": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=231",
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "publisherListing": "https://www.dndbeyond.com/sources/dnd/toa",
+        "digitalReference": "https://www.dndbeyond.com/monsters/17242-quetzalcoatlus",
+        "errataUrl": "",
+        "sourceDistinctions": [
+          "The Dive Attack trait gives no separate damage type for the extra dice. The underlying Bite deals piercing damage.",
+          "The printed Bite targets one creature. The nearby Pterafolk belongs to another entry.",
+          "The 2021 publisher errata has no alteration to this creature’s Appendix D stat block."
+        ],
+        "appearanceEvidence": "Page 229 describes a pteranodon relative with a wingspan over 30 ft. and a quadrupedal ground gait. Colors, crest and membrane anatomy are editorial pterosaur portrait choices.",
+        "habitatEvidence": "Appendix B p. 194 places quetzalcoatluses in Beach, Mountains, and Rivers encounter columns. The p. 198 encounter describes a flight overhead.",
+        "artGroup": "quetzalcoatlus"
+      }
+    },
+    {
+      "owner": "b08_08",
+      "name": "Stegosaurus",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "stegosaurus",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "parts/b08_08/portraits/stegosaurus.png",
+        "sha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Stegosaurus",
+        "kind": "beast",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, September 2017",
+        "publisher": "Wizards of the Coast",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          231
+        ],
+        "pdfPage": 232,
+        "viewerPages": [
+          232
+        ],
+        "section": "Appendix D, Monsters and NPCs, Stegosaurus",
+        "sourceUrl": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+        "url": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/toa",
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "officialErrata": "",
+        "errataEvidence": "The official Tomb of Annihilation errata v2.0 does not change the Stegosaurus rules.",
+        "appearanceEvidence": "The heavy frame, rows of plates and high flexible spiked tail come from printed p. 231. Color and the exact plates shown are editorial.",
+        "habitatEvidence": "The Jungle columns of the Wilderness Encounters table on printed p. 194 list Stegosaurus. The printed p. 231 description notes mixed-age herds.",
+        "mechanicsNotes": [
+          "Stegosaurus has a single Tail action. The adjacent Stone Juggernaut block supplies its own Devastating Roll and Slam."
+        ],
+        "contextPrintedPages": [
+          194,
+          198
+        ]
+      }
+    },
+    {
+      "owner": "b08_08",
+      "name": "Velociraptor",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "velociraptor",
+      "reuse_source": "beast-ready-batch-01/parts/black_flag/portraits/velociraptor.png",
+      "reuse_sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+      "runtime_file": "images/beast-ready-batch-01/velociraptor.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/velociraptor.png",
+        "sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Velociraptor",
+        "kind": "beast",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, September 2017",
+        "publisher": "Wizards of the Coast",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          235
+        ],
+        "pdfPage": 236,
+        "viewerPages": [
+          236
+        ],
+        "section": "Appendix D, Monsters and NPCs, Velociraptor",
+        "sourceUrl": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+        "url": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/toa",
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "officialErrata": "",
+        "errataEvidence": "The official Tomb of Annihilation errata v2.0 does not change the Velociraptor rules.",
+        "appearanceEvidence": "Printed p. 235 describes a feathered dinosaur about the size of a large turkey. The mottled tan feathers and colors follow the reused portrait.",
+        "habitatEvidence": "The Wilderness Encounters table on printed p. 194 lists Velociraptor in beach, jungle and ruin columns. Pages 198–199 describe a pack ambush.",
+        "mechanicsNotes": [
+          "The Appendix B Velociraptor encounter continues from printed p. 198 onto p. 199. The appended group check is scenario procedure. The basis for the main stat block is Appendix D p. 235."
+        ],
+        "contextPrintedPages": [
+          194,
+          198,
+          199
+        ]
+      }
+    },
+    {
+      "owner": "b08_08",
+      "name": "Wild Dog",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "wild-dog",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b08_08/portraits/wild-dog.png",
+        "sha256": "fbb0c2e35a467b8ca4334eb49263454fab778a0f050356683ac57cadb5f2d187",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Wild Dog",
+        "kind": "beast",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, September 2017",
+        "publisher": "Wizards of the Coast",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          96
+        ],
+        "pdfPage": 97,
+        "viewerPages": [
+          97
+        ],
+        "section": "Chapter 3, Dwellers of the Forbidden City, 2. Walled Compound",
+        "sourceUrl": "https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city",
+        "url": "https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/toa",
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "officialErrata": "",
+        "errataEvidence": "The official Tomb of Annihilation errata v2.0 does not change the Wild Dog rules.",
+        "appearanceEvidence": "The adventure names wild dogs and uses Jackal statistics. It does not describe their phenotype. The original portrait takes visual cues from African painted dogs.",
+        "habitatEvidence": "Printed p. 96 places six wild dogs in the Walled Compound in Omu. Open woodland is an editorial placement.",
+        "mechanicsNotes": [
+          "Wild Dog is the Tomb of Annihilation encounter label. The adventure uses the Jackal block, with no standalone Wild Dog stat changes."
+        ],
+        "contextPrintedPages": [],
+        "reskinReference": {
+          "publication": "Monster Manual (2014)",
+          "publisher": "Wizards of the Coast",
+          "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+          "firstPrintWitnessSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "name": "Jackal",
+          "printedPage": 331,
+          "pdfPage": 332,
+          "url": "https://www.dndbeyond.com/monsters/16936-jackal",
+          "sourceNotes": "The Walled Compound encounter explicitly directs use of Jackal statistics. The printed Jackal block is on p. 331. No applied errata."
+        }
+      }
+    },
+    {
+      "owner": "b08_08",
+      "name": "Zebra",
+      "kind": "beast",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "zebra",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b08_08/portraits/zebra.png",
+        "sha256": "0a79e2ff5d6fe681691f9b51a15a7db405954a54d090609b112c64b9ffcef951",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Zebra",
+        "kind": "beast",
+        "publication": "Tomb of Annihilation",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, September 2017",
+        "publisher": "Wizards of the Coast",
+        "isbn": "978-0-7869-6610-3",
+        "printedPages": [
+          106
+        ],
+        "pdfPage": 107,
+        "viewerPages": [
+          107
+        ],
+        "section": "Chapter 3, Dwellers of the Forbidden City, Wongo’s Shrine, areas 12B–12C",
+        "sourceUrl": "https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city",
+        "url": "https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/toa",
+        "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+        "officialErrata": "",
+        "errataEvidence": "The official Tomb of Annihilation errata v2.0 does not change the Zebra rules.",
+        "appearanceEvidence": "The encounter calls the form a zebra. The striped coat, upright mane and tufted tail are editorial portrait details.",
+        "habitatEvidence": "Savanna and open grassland are editorial habitats for an ordinary zebra. Wongo’s Shrine introduces it as a form from the mask curse.",
+        "mechanicsNotes": [
+          "The scenario curse belongs to Wongo’s Shrine areas 12B–12C. The Zebra inherits the 2014 Riding Horse block."
+        ],
+        "contextPrintedPages": [
+          105,
+          106
+        ],
+        "reskinReference": {
+          "publication": "Monster Manual (2014)",
+          "publisher": "Wizards of the Coast",
+          "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+          "firstPrintWitnessSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "name": "Riding Horse",
+          "printedPage": 336,
+          "pdfPage": 337,
+          "url": "https://www.dndbeyond.com/monsters/16997-riding-horse",
+          "sourceNotes": "The adventure explicitly assigns the Riding Horse statistics. The first print p. 336 gives Hooves +2. Wizards of the Coast errata v1.2 ©2016 already corrects it to +5, and v2.0 repeats the correction.",
+          "prePublicationErrata": "",
+          "officialErrata": ""
+        }
+      }
+    },
+    {
+      "owner": "b08_09",
+      "name": "Deathjump Spider",
+      "kind": "beast",
+      "publication": "Keep on the Shadowfell (2009 revision)",
+      "edition": "4th edition",
+      "indexed_cr": "Level 4 Skirmisher (175 XP)",
+      "art_group": "deathjump-spider",
+      "reuse_source": "indexed:images/beasts/deathjump-spider/parchment-portrait.webp",
+      "reuse_sha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+      "runtime_file": "images/beasts/deathjump-spider/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/deathjump-spider.webp",
+        "sha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Deathjump Spider",
+        "publication": "Keep on the Shadowfell (2009 revision)",
+        "edition": "4th edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2009 digital revision",
+        "sourceFile": "",
+        "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+        "sourceUrl": "",
+        "sourceUrlRole": "Readable text mirror of the 2009 revision. The verified local is the rules source.",
+        "printedPages": [
+          55
+        ],
+        "pdfPages": [
+          55
+        ],
+        "encounterContextPages": [
+          54,
+          55
+        ],
+        "pageNumbering": "One-based pages match the numbered printed folios.",
+        "section": "Area 12, Hobgoblin Guard Room",
+        "level": 4,
+        "role": "Skirmisher",
+        "xp": 175,
+        "initiative": 8,
+        "defenses": {
+          "AC": 20,
+          "Fortitude": 17,
+          "Reflex": 18,
+          "Will": 16
+        },
+        "printedAbilityModifiers": {
+          "Str": 5,
+          "Dex": 6,
+          "Con": 4,
+          "Int": -3,
+          "Wis": 4,
+          "Cha": 1
+        },
+        "appearanceEvidence": "Editorial description of the reused portrait, with shape and scale cross-checked against the adventure prose.",
+        "habitatEvidence": "Encounter locations from the 2009 revision. They describe the beasts’ placement in this adventure.",
+        "sourceDistinctions": [
+          "Use the 2009 adventure’s +6 Bite and its printed Death from Above and Prodigious Leap timings. Area 12 checks are separate from the creature powers."
+        ],
+        "bloodied": 27
+      }
+    },
+    {
+      "owner": "b08_09",
+      "name": "Giant Rat",
+      "kind": "beast",
+      "publication": "Keep on the Shadowfell (2009 revision)",
+      "edition": "4th edition",
+      "indexed_cr": "Level 1 Minion (25 XP)",
+      "art_group": "giant-rat",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png",
+      "reuse_sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+      "runtime_file": "images/beast-ready-batch-05/giant-rat.png",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/giant-rat.png",
+        "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Rat",
+        "publication": "Keep on the Shadowfell (2009 revision)",
+        "edition": "4th edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2009 digital revision",
+        "sourceFile": "",
+        "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+        "sourceUrl": "",
+        "sourceUrlRole": "Readable text mirror of the 2009 revision. The verified local is the rules source.",
+        "printedPages": [
+          44
+        ],
+        "pdfPages": [
+          44
+        ],
+        "encounterContextPages": [
+          44,
+          45
+        ],
+        "pageNumbering": "One-based pages match the numbered printed folios.",
+        "section": "Area 9, The Maze of Caves",
+        "level": 1,
+        "role": "Minion",
+        "xp": 25,
+        "initiative": 3,
+        "defenses": {
+          "AC": 15,
+          "Fortitude": 13,
+          "Reflex": 15,
+          "Will": 12
+        },
+        "printedAbilityModifiers": {
+          "Str": 1,
+          "Dex": 3,
+          "Con": 1,
+          "Int": -4,
+          "Wis": 0,
+          "Cha": -2
+        },
+        "appearanceEvidence": "Editorial description of the reused portrait, with shape and scale cross-checked against the adventure prose.",
+        "habitatEvidence": "Encounter locations from the 2009 revision. They describe the beasts’ placement in this adventure.",
+        "sourceDistinctions": [
+          "The adventure rat is a 1-HP Minion with one Bite. Area 9 supplies terrain-specific concealment and Stealth procedures. It supplies no fixed Stealth bonus or bloodied value."
+        ]
+      }
+    },
+    {
+      "owner": "b08_09",
+      "name": "Guard Drake",
+      "kind": "beast",
+      "publication": "Keep on the Shadowfell (2009 revision)",
+      "edition": "4th edition",
+      "indexed_cr": "Level 2 Brute (125 XP)",
+      "art_group": "guard-drake",
+      "reuse_source": "indexed:images/beasts/guard-drake/parchment-portrait.webp",
+      "reuse_sha256": "1c2e141487aad507b22fe28a130661997cce62e84565d5625b843663852e266c",
+      "runtime_file": "images/beasts/guard-drake/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/guard-drake.webp",
+        "sha256": "1c2e141487aad507b22fe28a130661997cce62e84565d5625b843663852e266c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Guard Drake",
+        "publication": "Keep on the Shadowfell (2009 revision)",
+        "edition": "4th edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2009 digital revision",
+        "sourceFile": "",
+        "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+        "sourceUrl": "",
+        "sourceUrlRole": "Readable text mirror of the 2009 revision. The verified local is the rules source.",
+        "printedPages": [
+          20,
+          32
+        ],
+        "pdfPages": [
+          20,
+          32
+        ],
+        "encounterContextPages": [
+          20,
+          32,
+          33
+        ],
+        "pageNumbering": "One-based pages match the numbered printed folios.",
+        "section": "Encounter A4, Burial Site, and Area 3, Excavation Site",
+        "level": 2,
+        "role": "Brute",
+        "xp": 125,
+        "initiative": 3,
+        "defenses": {
+          "AC": 15,
+          "Fortitude": 15,
+          "Reflex": 13,
+          "Will": 12
+        },
+        "printedAbilityModifiers": {
+          "Str": 4,
+          "Dex": 3,
+          "Con": 5,
+          "Int": -3,
+          "Wis": 2,
+          "Cha": 2
+        },
+        "appearanceEvidence": "Editorial description of the reused portrait, with shape and scale cross-checked against the adventure prose.",
+        "habitatEvidence": "Encounter locations from the 2009 revision. They describe the beasts’ placement in this adventure.",
+        "sourceDistinctions": [
+          "The two printed blocks match. Both put the Bite damage increase and fear immunity within 2 squares of an ally. Neither block lists low-light vision. The excavation tactics use “pounce” descriptively."
+        ],
+        "bloodied": 24
+      }
+    },
+    {
+      "owner": "b08_09",
+      "name": "Kruthik Adult",
+      "kind": "beast",
+      "publication": "Keep on the Shadowfell (2009 revision)",
+      "edition": "4th edition",
+      "indexed_cr": "Level 4 Brute (175 XP)",
+      "art_group": "kruthik-adult",
+      "reuse_source": "indexed:images/beasts/kruthik-adult/parchment-portrait.webp",
+      "reuse_sha256": "b6c76c4a1c5348a1a1e53cdfcc5e3537b453dd8374e2356b43a020ea1fdb22df",
+      "runtime_file": "images/beasts/kruthik-adult/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/kruthik-adult.webp",
+        "sha256": "b6c76c4a1c5348a1a1e53cdfcc5e3537b453dd8374e2356b43a020ea1fdb22df",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Kruthik Adult",
+        "publication": "Keep on the Shadowfell (2009 revision)",
+        "edition": "4th edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "2009 digital revision",
+        "sourceFile": "",
+        "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+        "sourceUrl": "",
+        "sourceUrlRole": "Readable text mirror of the 2009 revision. The verified local is the rules source.",
+        "printedPages": [
+          47
+        ],
+        "pdfPages": [
+          47
+        ],
+        "encounterContextPages": [
+          46,
+          47
+        ],
+        "pageNumbering": "One-based pages match the numbered printed folios.",
+        "section": "Area 10, Kruthik Lair",
+        "level": 4,
+        "role": "Brute",
+        "xp": 175,
+        "initiative": 6,
+        "defenses": {
+          "AC": 17,
+          "Fortitude": 14,
+          "Reflex": 15,
+          "Will": 13
+        },
+        "printedAbilityModifiers": {
+          "Str": 5,
+          "Dex": 6,
+          "Con": 5,
+          "Int": -1,
+          "Wis": 4,
+          "Cha": 1
+        },
+        "appearanceEvidence": "Editorial description of the reused portrait, with shape and scale cross-checked against the adventure prose.",
+        "habitatEvidence": "Encounter locations from the 2009 revision. They describe the beasts’ placement in this adventure.",
+        "sourceDistinctions": [
+          "Printed Wisdom 12 (+4) is retained as it appears on p. 47.",
+          "Tactics describe using Toxic Spikes against the first PC in range, while the power specifies two different targets.",
+          "The detailed p. 47 tunnel feature gives the Medium adult half speed and Small kruthiks full speed."
+        ],
+        "bloodied": 33
+      }
+    },
+    {
+      "owner": "b08_10",
+      "name": "Kruthik Hatchling",
+      "kind": "beast",
+      "publication": "Keep on the Shadowfell (2009 revision)",
+      "edition": "4th edition",
+      "indexed_cr": "Level 2 Minion (31 XP)",
+      "art_group": "kruthik-hatchling",
+      "reuse_source": "indexed:images/beasts/kruthik-hatchling/parchment-portrait.webp",
+      "reuse_sha256": "cd06c7118ae734ffed5a18103dc8c105ce6f85c73f88bebbf4bfec36d99607b4",
+      "runtime_file": "images/beasts/kruthik-hatchling/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/kruthik-hatchling.webp",
+        "sha256": "cd06c7118ae734ffed5a18103dc8c105ce6f85c73f88bebbf4bfec36d99607b4",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Kruthik Hatchling",
+        "kind": "beast",
+        "publication": "Keep on the Shadowfell (2009 revision)",
+        "edition": "4th edition",
+        "printing": "2009 revision, 71-page Wizards H1 ",
+        "publisher": "Wizards of the Coast",
+        "printedHeading": "6 Kruthik Hatchlings (H)",
+        "section": "Area 10, Kruthik Lair",
+        "printedPages": [
+          46,
+          47
+        ],
+        "statBlockPage": 46,
+        "pdfPage": 46,
+        "viewerPages": [
+          46,
+          47
+        ],
+        "sourceUrl": "",
+        "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+        "sourceNotes": [
+          "The stat block gives 1 HP and omits a bloodied value. A missed attack never damages the hatchling."
+        ],
+        "matchingPageNumbering": "One-based pages and printed folios match at the cited pages.",
+        "level": 2,
+        "role": "Minion",
+        "xp": 31,
+        "printedInitiative": 4,
+        "printedBloodied": null,
+        "defenses": {
+          "AC": 15,
+          "Fortitude": 13,
+          "Reflex": 15,
+          "Will": 12
+        },
+        "powersRecharge": "No recharge power in the printed block. The listed attack is at-will.",
+        "appearanceEvidence": "The p. 46 read-aloud describes six-limbed reptilian creatures with silver chitin, four scythelike limbs, two smaller limbs, a short tail and serrated mandibles. The search description follows the reused portrait. Its smaller inner limb pair is not clearly visible.",
+        "habitatEvidence": "The text places the hive under Shadowfell Keep and describes burrows between the chambers. The tags are editorial labels for this printed encounter site.",
+        "artworkSource": "indexed:images/beasts/kruthik-hatchling/parchment-portrait.webp",
+        "artworkSha256": "cd06c7118ae734ffed5a18103dc8c105ce6f85c73f88bebbf4bfec36d99607b4"
+      }
+    },
+    {
+      "owner": "b08_10",
+      "name": "Kruthik Young",
+      "kind": "beast",
+      "publication": "Keep on the Shadowfell (2009 revision)",
+      "edition": "4th edition",
+      "indexed_cr": "Level 2 Brute (125 XP)",
+      "art_group": "kruthik-young",
+      "reuse_source": "indexed:images/beasts/kruthik-young/parchment-portrait.webp",
+      "reuse_sha256": "d0c0f1ab6c4adde5beb22052640a2f6bb90bac8293a9a1f734c4e53373176cc5",
+      "runtime_file": "images/beasts/kruthik-young/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/kruthik-young.webp",
+        "sha256": "d0c0f1ab6c4adde5beb22052640a2f6bb90bac8293a9a1f734c4e53373176cc5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Kruthik Young",
+        "kind": "beast",
+        "publication": "Keep on the Shadowfell (2009 revision)",
+        "edition": "4th edition",
+        "printing": "2009 revision, 71-page Wizards H1 ",
+        "publisher": "Wizards of the Coast",
+        "printedHeading": "3 Kruthik Young (Y)",
+        "section": "Area 10, Kruthik Lair",
+        "printedPages": [
+          46,
+          47
+        ],
+        "statBlockPage": 46,
+        "pdfPage": 46,
+        "viewerPages": [
+          46,
+          47
+        ],
+        "sourceUrl": "",
+        "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+        "sourceNotes": [
+          "The young’s burrow 2 lacks the tunneling annotation printed for the hatchling. The area’s separate tunnel rule still allows the young to move through the existing lair tunnels at full speed.",
+          "The encounter tactic refers to the adult’s toxic spikes. The young can use its own Claw and aura."
+        ],
+        "matchingPageNumbering": "One-based pages and printed folios match at the cited pages.",
+        "level": 2,
+        "role": "Brute",
+        "xp": 125,
+        "printedInitiative": 4,
+        "printedBloodied": 21,
+        "defenses": {
+          "AC": 15,
+          "Fortitude": 13,
+          "Reflex": 14,
+          "Will": 11
+        },
+        "powersRecharge": "No recharge power in the printed block. The listed attack is at-will.",
+        "appearanceEvidence": "The p. 46 read-aloud describes six-limbed reptilian creatures with silver chitin, four scythelike limbs, two smaller limbs, a short tail and serrated mandibles. The search description follows the reused portrait, which emphasizes four visible main limbs.",
+        "habitatEvidence": "The text places the hive under Shadowfell Keep and describes burrows between the chambers. The tags are editorial labels for this printed encounter site.",
+        "artworkSource": "indexed:images/beasts/kruthik-young/parchment-portrait.webp",
+        "artworkSha256": "d0c0f1ab6c4adde5beb22052640a2f6bb90bac8293a9a1f734c4e53373176cc5"
+      }
+    },
+    {
+      "owner": "b08_10",
+      "name": "Rat Swarm",
+      "kind": "beast",
+      "publication": "Keep on the Shadowfell (2009 revision)",
+      "edition": "4th edition",
+      "indexed_cr": "Level 2 Skirmisher (125 XP)",
+      "art_group": "rat-swarm",
+      "reuse_source": "beast-ready-batch-07/reused-portraits/rat-swarm.webp",
+      "reuse_sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+      "runtime_file": "images/monsters/swarm-of-rats/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/rat-swarm.webp",
+        "sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Rat Swarm",
+        "kind": "beast",
+        "publication": "Keep on the Shadowfell (2009 revision)",
+        "edition": "4th edition",
+        "printing": "2009 revision, 71-page Wizards H1 ",
+        "publisher": "Wizards of the Coast",
+        "printedHeading": "Rat Swarm (R)",
+        "section": "Area 1, Goblin Guard Room",
+        "printedPages": [
+          28,
+          29
+        ],
+        "statBlockPage": 28,
+        "pdfPage": 28,
+        "viewerPages": [
+          28,
+          29
+        ],
+        "sourceUrl": "",
+        "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+        "sourceNotes": [],
+        "matchingPageNumbering": "One-based pages and printed folios match at the cited pages.",
+        "level": 2,
+        "role": "Skirmisher",
+        "xp": 125,
+        "printedInitiative": 6,
+        "printedBloodied": 18,
+        "defenses": {
+          "AC": 15,
+          "Fortitude": 12,
+          "Reflex": 14,
+          "Will": 11
+        },
+        "powersRecharge": "No recharge power in the printed block. The listed attack is at-will.",
+        "appearanceEvidence": "Page 28 describes a swarm of hungry rats under the trap canvas. The exact color and stacked composition are editorial details from the reused portrait.",
+        "habitatEvidence": "Pages 28–29 place these hungry rats in a hidden pit in the goblin guard room. The tags describe the printed encounter site.",
+        "artworkSource": "beast-ready-batch-07/reused-portraits/rat-swarm.webp",
+        "artworkSha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5"
+      }
+    },
+    {
+      "owner": "b08_11",
+      "name": "Giant Bumblebee",
+      "kind": "beast",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "indexed_cr": "",
+      "art_group": "giant-bumblebee",
+      "reuse_source": "indexed:images/beasts/giant-bumblebee/parchment-portrait.webp",
+      "reuse_sha256": "65a717519a628b5b71df378ee582abeb66d41140c9bc91354ef555e18772f8f3",
+      "runtime_file": "images/beasts/giant-bumblebee/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/giant-bumblebee.webp",
+        "sha256": "65a717519a628b5b71df378ee582abeb66d41140c9bc91354ef555e18772f8f3",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Bumblebee",
+        "kind": "beast",
+        "publication": "The Land Beyond the Magic Mirror",
+        "edition": "AD&D 1st edition",
+        "author": "Gary Gygax",
+        "publisher": "TSR Hobbies, Inc.",
+        "year": 1983,
+        "productNumber": 9073,
+        "printing": "EX2 original 1983 release",
+        "sourceFile": "",
+        "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+        "sourceHeading": "B. Garden of Colossal Flowers and New Monsters, Bee, Giant, Bumble-bee column",
+        "sourceLocator": "Printed pp. 9, 27",
+        "printedPages": [
+          9,
+          27
+        ],
+        "pdfPages": [
+          9,
+          27
+        ],
+        "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+        "publisherPreview": "",
+        "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+        "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+        "artworkSource": "indexed:images/beasts/giant-bumblebee/parchment-portrait.webp",
+        "artworkSha256": "65a717519a628b5b71df378ee582abeb66d41140c9bc91354ef555e18772f8f3",
+        "sourceNotes": [
+          "Printed p. 27 has “String” in the bumblebee special attack row. The surrounding bee prose and the garden poison block establish that the attack is a sting. No garden sting-use limit is printed and the general column does not say “Sting once” as workers and soldiers do.",
+          "The printed garden block has movement 3″/24″ and HP 36; the general bee table has 6″/24″ and no fixed HP.",
+          "The generic bumblebee level/XP field is incomplete. Do not infer a coefficient from the honey bees."
+        ]
+      }
+    },
+    {
+      "owner": "b08_11",
+      "name": "Giant Dragonfly",
+      "kind": "beast",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "indexed_cr": "",
+      "art_group": "giant-dragonfly",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b08_11/portraits/giant-dragonfly.png",
+        "sha256": "bf7e624f93e2e8b70203ca79976e58e0f12b276dea68deea8795e68095997426",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Dragonfly",
+        "kind": "beast",
+        "publication": "The Land Beyond the Magic Mirror",
+        "edition": "AD&D 1st edition",
+        "author": "Gary Gygax",
+        "publisher": "TSR Hobbies, Inc.",
+        "year": 1983,
+        "productNumber": 9073,
+        "printing": "EX2 original 1983 release",
+        "sourceFile": "",
+        "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+        "sourceHeading": "Forest-road Giant Dragonfly encounter and New Monsters, Dragonfly, Giant",
+        "sourceLocator": "Printed pp. 22, 27",
+        "printedPages": [
+          22,
+          27
+        ],
+        "pdfPages": [
+          22,
+          27
+        ],
+        "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+        "publisherPreview": "",
+        "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+        "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+        "artworkSource": "Original OpenAI ImageGen portrait in this part",
+        "artworkSha256": "bf7e624f93e2e8b70203ca79976e58e0f12b276dea68deea8795e68095997426",
+        "sourceNotes": [
+          "The appendix line reads “x2 on initiative.” The explanatory paragraph and encounter block each specify +2 on initiative. Use the explained +2 modifier with the stated one attack.",
+          "The general appendix places “save as 16th level magic-user” in its magic-resistance column. The actual 25% resistance appears in the road encounter and is scoped there.",
+          "The appendix gives no numeric morale. Use the printed casualty and damage thresholds for the road encounter."
+        ]
+      }
+    },
+    {
+      "owner": "b08_11",
+      "name": "Giant Honey Bee (Soldier)",
+      "kind": "beast",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "indexed_cr": "",
+      "art_group": "giant-honey-bee-soldier",
+      "reuse_source": "indexed:images/beasts/giant-honey-bee-soldier/parchment-portrait.webp",
+      "reuse_sha256": "a7ee4c181b196dedb320a82cf2c3db15eb977f02025e8a4a581e2d96ec3a26f1",
+      "runtime_file": "images/beasts/giant-honey-bee-soldier/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/giant-honey-bee-soldier.webp",
+        "sha256": "a7ee4c181b196dedb320a82cf2c3db15eb977f02025e8a4a581e2d96ec3a26f1",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Honey Bee (Soldier)",
+        "kind": "beast",
+        "publication": "The Land Beyond the Magic Mirror",
+        "edition": "AD&D 1st edition",
+        "author": "Gary Gygax",
+        "publisher": "TSR Hobbies, Inc.",
+        "year": 1983,
+        "productNumber": 9073,
+        "printing": "EX2 original 1983 release",
+        "sourceFile": "",
+        "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+        "sourceHeading": "New Monsters, Bee, Giant, Honey soldier column",
+        "sourceLocator": "Printed p. 27",
+        "printedPages": [
+          27
+        ],
+        "pdfPages": [
+          27
+        ],
+        "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+        "publisherPreview": "",
+        "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+        "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+        "artworkSource": "indexed:images/beasts/giant-honey-bee-soldier/parchment-portrait.webp",
+        "artworkSha256": "a7ee4c181b196dedb320a82cf2c3db15eb977f02025e8a4a581e2d96ec3a26f1",
+        "sourceNotes": [
+          "The table does not name the 2–8 damage attack. The second damage entry is assigned to the sting based on the layout and the attack-count note. No later bee rules are imported."
+        ]
+      }
+    },
+    {
+      "owner": "b08_11",
+      "name": "Giant Honey Bee (Worker)",
+      "kind": "beast",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "indexed_cr": "",
+      "art_group": "giant-honey-bee-worker",
+      "reuse_source": "indexed:images/beasts/giant-honey-bee-worker/parchment-portrait.webp",
+      "reuse_sha256": "bd0d63cdfd57ecc5e151194d8c7743e90720b7ab85abac51723373c6720fe865",
+      "runtime_file": "images/beasts/giant-honey-bee-worker/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/giant-honey-bee-worker.webp",
+        "sha256": "bd0d63cdfd57ecc5e151194d8c7743e90720b7ab85abac51723373c6720fe865",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Honey Bee (Worker)",
+        "kind": "beast",
+        "publication": "The Land Beyond the Magic Mirror",
+        "edition": "AD&D 1st edition",
+        "author": "Gary Gygax",
+        "publisher": "TSR Hobbies, Inc.",
+        "year": 1983,
+        "productNumber": 9073,
+        "printing": "EX2 original 1983 release",
+        "sourceFile": "",
+        "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+        "sourceHeading": "New Monsters, Bee, Giant, Honey worker column",
+        "sourceLocator": "Printed p. 27",
+        "printedPages": [
+          27
+        ],
+        "pdfPages": [
+          27
+        ],
+        "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+        "publisherPreview": "",
+        "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+        "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+        "artworkSource": "indexed:images/beasts/giant-honey-bee-worker/parchment-portrait.webp",
+        "artworkSha256": "bd0d63cdfd57ecc5e151194d8c7743e90720b7ab85abac51723373c6720fe865",
+        "sourceNotes": [
+          "The table’s attack-count parenthesis says “string”; the following “Sting once” and poison text identify the attack as a sting."
+        ]
+      }
+    },
+    {
+      "owner": "b08_11",
+      "name": "Oliphant",
+      "kind": "beast",
+      "publication": "The Land Beyond the Magic Mirror",
+      "edition": "AD&D 1st edition",
+      "indexed_cr": "",
+      "art_group": "oliphant",
+      "reuse_source": "indexed:images/beasts/oliphant/parchment-portrait.webp",
+      "reuse_sha256": "daa6992b4877a413ef9aadb19d07705e94469dd3893f74a25a475559da527b08",
+      "runtime_file": "images/beasts/oliphant/parchment-portrait.webp",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/oliphant.webp",
+        "sha256": "daa6992b4877a413ef9aadb19d07705e94469dd3893f74a25a475559da527b08",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Oliphant",
+        "kind": "beast",
+        "publication": "The Land Beyond the Magic Mirror",
+        "edition": "AD&D 1st edition",
+        "author": "Gary Gygax",
+        "publisher": "TSR Hobbies, Inc.",
+        "year": 1983,
+        "productNumber": 9073,
+        "printing": "EX2 original 1983 release",
+        "sourceFile": "",
+        "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+        "sourceHeading": "Chessboard Rook and New Monsters, Oliphant",
+        "sourceLocator": "Printed pp. 11, 30",
+        "printedPages": [
+          11,
+          30
+        ],
+        "pdfPages": [
+          11,
+          30
+        ],
+        "sourceUrl": "https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
+        "publisherPreview": "",
+        "appearanceEvidence": "Species prose and original printed artwork, with details matching the staged portrait noted where inferred.",
+        "habitatEvidence": "Specific habitats, ecological ranges and encounter locations come from the original printed folios.",
+        "artworkSource": "indexed:images/beasts/oliphant/parchment-portrait.webp",
+        "artworkSha256": "daa6992b4877a413ef9aadb19d07705e94469dd3893f74a25a475559da527b08",
+        "sourceNotes": [
+          "The generic oliphant and Chessboard Rook share the profile. The armor, fixed HP and 25% magic resistance are encounter-specific.",
+          "Generic oliphant level and XP are blank on p. 30. No numeric morale is printed."
+        ]
+      }
+    }
+  ]
+}

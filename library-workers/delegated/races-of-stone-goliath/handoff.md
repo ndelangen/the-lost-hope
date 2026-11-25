@@ -1,0 +1,9 @@
+# Goliath for D&D 3.5
+
+One new Goliath version from the August 2004 first printing of *Races of Stone*. The playable Goliath is a Medium Monstrous Humanoid with level adjustment +1. Powerful Build lets it use Large weapons and count as one size larger for specified checks and defenses. It normally occupies a 5-ft. space and has 5-ft. natural reach. The official FAQ confirms 60-ft. darkvision from the creature type. [Printed traits, p. 56]() · [Wizards FAQ archive](https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP) · [Species rules](book-species.json)
+
+The optional Mountain Rage substitution makes a Barbarian actually Large, with 10-ft. reach. It keeps the same weapon size and grapple size modifier. Mountain Movement lets a Goliath make standing jumps using the running-jump rules and climb at half speed without the usual −5 penalty. [Mountain Rage, pp. 150–151]()
+
+Kethan Linekeeper Varukutai is an original Expert 1 and route rigger, provisional CR 1. His portrait is full-body on plain parchment with natural gray mottling and subtle lithoderms. Rova Stonecaller Athamavi is an original Barbarian 1 and rockfall lookout, provisional CR 2. Her card includes both ordinary and Mountain Rage totals. [Encounter cards](encounter-cards.md) · [NPC builds](npc-builds.json) · [Portrait](portrait-sheet.jpg) · [Framing before and after](portrait-comparison.jpg) · [96 px thumbnail](portrait-thumbnails.jpg)
+
+The temporary copy checks search under the 3.5 edition by name, traits, and NPC role. Both encounter lookups return the same 3.5 builds, and the new portrait resolves only on this version. The five fifth-edition profiles, their NPCs, and the existing default version and image match the baseline. [Rules patch](rules.patch) · [Portrait index addition](portrait-index-preview.json) · [Before](catalog-before.json) · [After](catalog-after.json) · [Verification](verification.json) · [Independent reviews](independent-source-notes.md)

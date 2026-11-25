@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Ape",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 25,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Ability modifiers STR +5, DEX +2, CON +2, INT -2, WIS +1, CHA -2. Perception 13. Stealth 12. Resistant to the Stunned condition. No special senses. Languages none.",
+    "appearance": "A gray-brown gorilla with a heavy brow and broad shoulders, walking on its knuckles.",
+    "habitats": [
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 356, p. 358, Simio.",
+      "Actions": "Multiattack. Make two Fist attacks. If both hit the same Medium or smaller creature, it is grappled (escape DC 13). The ape can grapple only one creature at a time.\nFist. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 5 (1d4 + 3) bludgeoning damage.\nRock. Ranged weapon attack, +5 to hit, range 25/50 ft., one target. Hit for 7 (1d8 + 3) bludgeoning damage.",
+      "At the table": "Condition resistance grants advantage on checks and saves made to avoid or end Stunned. A grapple imposed by a hit requires no separate attack-side check. The target can spend an action to attempt an escape against the listed DC."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Ape, Giant",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 12,
+    "hp": 176,
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "otherStatistics": "Ability modifiers STR +8, DEX +2, CON +4, INT -2, WIS +1, CHA -2. Perception 14. Stealth 12. Resistant to the Stunned condition. No special senses. Languages none.",
+    "appearance": "A massive silverback with a gray saddle, heavy shoulders, and long knuckle-walking arms.",
+    "habitats": [
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 357, p. 359, Simio, Gigante.",
+      "Actions": "Multiattack. Make two Fist attacks or two Rock attacks. If both Fist attacks hit the same Large or smaller creature, it is grappled (escape DC 16). Each of the ape’s two fists can grapple one target.\nFist. Melee weapon attack, +8 to hit, reach 10 ft., one target. Hit for 27 (4d10 + 5) bludgeoning damage.\nRock. Ranged weapon attack, +8 to hit, range 50/100 ft., one target. Hit for 23 (4d8 + 5) bludgeoning damage.",
+      "Bonus actions": "Throw. Throw a Large or smaller creature grappled by the ape up to 50 feet in a random direction and knock it prone. If it hits a solid surface, it takes 3 (1d6) bludgeoning damage per 10 feet traveled. If thrown at another creature, that creature must succeed on a DC 16 Dexterity save or take the same damage and fall prone.",
+      "At the table": "Condition resistance grants advantage on checks and saves made to avoid or end Stunned. A grapple imposed by a hit requires no separate attack-side check. The target can spend an action to attempt an escape against the listed DC."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Axe Beak",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 11,
+    "hp": 13,
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Ability modifiers STR +2, DEX +1, CON +1, INT -4, WIS +0, CHA -3. Perception 12. Stealth 11. No special senses. Languages none.",
+    "appearance": "A large flightless bird with slate-gray feathers and a deep, hatchet-shaped beak.",
+    "habitats": [
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 350, p. 352, Pico de hacha.",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 6 (1d8 + 2) slashing damage.",
+      "Bonus actions": "Evasive. Take the Disengage or Dodge action."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Baboon",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 11,
+    "hp": 10,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Ability modifiers STR -1, DEX +1, CON +0, INT -3, WIS +1, CHA -2. Perception 11. Stealth 11. Darkvision 30 ft. Languages none.",
+    "appearance": "An olive-brown baboon with a long muzzle and an arched tail.",
+    "habitats": [
+      "Forest",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 335, p. 337, Babuino.",
+      "Traits": "Pack Tactics. The baboon has advantage on attack rolls against a creature if a non-incapacitated ally of the baboon is within 5 ft. of that creature.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit for 3 (1d4 + 1) piercing damage.",
+      "Reactions": "Startling Display. When a creature the baboon can see attacks it from within 5 ft., the baboon can bare its teeth, puff out its chest, or give a quick series of grunts. The attacker must pass a DC 11 Wisdom save or have disadvantage on that attack roll."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Badger",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 9,
+    "speed": "20 ft., burrow 10 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Ability modifiers STR -3, DEX +0, CON +1, INT -4, WIS +1, CHA -3. Perception 11. Stealth 10. Darkvision 30 ft. Languages none.",
+    "appearance": "A squat gray-brown badger with a black-and-cream striped face.",
+    "habitats": [
+      "Farmland",
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 357, p. 359, Tejón.",
+      "Traits": "Grumpy. In combat, attack the creature that damaged the badger most recently if it is within reach or the badger can move to it without provoking opportunity attacks. Otherwise, attack the nearest hostile creature.\nHeightened Smell. Use Perception 16 when perceiving by smell.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one creature. Hit for 2 (1d4) piercing damage."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  }
+]

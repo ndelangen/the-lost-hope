@@ -1,0 +1,291 @@
+[
+  {
+    "name": "Faerie Dragon Adult",
+    "statBlock": {
+      "name": "Faerie Dragon Adult",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 117,
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 35,
+      "hitDice": "10d4 + 10",
+      "speed": "10 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "description": "A cat-sized dragon with butterfly wings and cool-colored scales. Its pranks often steer people toward someone in need or an injustice they can put right.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Draconic and Sylvan. Telepathy 60 ft. with faerie dragons only.",
+        "Traits": "Magic Resistance. The dragon has Advantage on saves against spells and other magical effects.",
+        "Actions": "Bite. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 7 (1d4 + 5) piercing damage plus 3 (1d6) psychic damage.\nEuphoria Breath (recharge 5–6). Each creature in a 15-ft. cone makes a DC 13 Wisdom save. On a failure, the target becomes Incapacitated. It spends all its movement going in a random direction on each of its turns while affected. It repeats the save at the end of each of its turns. Success ends the effect, and the target succeeds automatically after 1 minute.",
+        "Spellcasting": "As an action, cast one spell using Charisma (save DC 13) without material components.\nAt will. Dancing Lights, Mage Hand, Minor Illusion.\n1/day each. Hallucinatory Terrain, Polymorph.",
+        "Bonus actions": "Superior Invisibility. Cast Greater Invisibility on itself using Charisma, without spell components.",
+        "Habitats": "Forest.",
+        "Treasure": "Implements.",
+        "Printed source": "Monster Manual (2024), p. 117."
+      }
+    }
+  },
+  {
+    "name": "Faerie Dragon Youth",
+    "statBlock": {
+      "name": "Faerie Dragon Youth",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 117,
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 13,
+      "hp": 21,
+      "hitDice": "6d4 + 6",
+      "speed": "10 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 3,
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "description": "A warm-scaled dragon about the size of a cat. It likes to surprise stuffy or discourteous strangers with a puff of euphoric breath.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Draconic and Sylvan. Telepathy 60 ft. with faerie dragons only.",
+        "Traits": "Magic Resistance. The dragon has Advantage on saves against spells and other magical effects.",
+        "Actions": "Bite. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 5 (1d4 + 3) piercing damage plus 2 (1d4) psychic damage.\nEuphoria Breath (recharge 5–6). Each creature in a 15-ft. cone makes a DC 12 Wisdom save. On a failure, the target is Incapacitated until the end of its next turn and spends all its movement that turn going in a random direction.",
+        "Spellcasting": "As an action, cast one spell using Charisma (save DC 12) without material components.\nAt will. Dancing Lights, Mage Hand, Minor Illusion.",
+        "Bonus actions": "Superior Invisibility. Cast Greater Invisibility on itself using Charisma, without spell components.",
+        "Habitats": "Forest.",
+        "Treasure": "Implements.",
+        "Printed source": "Monster Manual (2024), p. 117."
+      }
+    }
+  },
+  {
+    "name": "Sahuagin Priest",
+    "statBlock": {
+      "name": "Sahuagin Priest",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 265,
+      "classification": "Medium fiend, lawful evil",
+      "ac": 12,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "30 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 16,
+      "skills": {
+        "Perception": 6,
+        "Religion": 3
+      },
+      "description": "A sea devil who directs sahuagin raids in the name of Sekolah or another fiend. The priest counts any life lost in battle as an offering, including those of its own allies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Sahuagin.",
+        "Damage resistances": "Acid and cold.",
+        "Traits": "Blood Frenzy. The priest attacks with Advantage against creatures below their hit point maximum.\nLimited Amphibiousness. The priest breathes air and water. It must submerge at least once every 4 hours to avoid suffocating out of water.\nShark Telepathy. The priest uses magic to command sharks within 120 ft. telepathically.",
+        "Actions": "Multiattack. Make two Spectral Jaws attacks.\nSpectral Jaws. Melee or ranged attack, +4 to hit, reach 5 ft. or range 120 ft. On a hit, deal 11 (2d8 + 2) force damage.",
+        "Spellcasting": "As an action, cast one spell using Wisdom (save DC 12) without material components.\nAt will. Thaumaturgy.\n2/day each. Hold Person, Tongues.",
+        "Bonus actions": "Fiendish Aid (2 uses per day total). Cast Bless or Healing Word using Wisdom.",
+        "Habitats": "Coastal and underwater.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 265."
+      }
+    }
+  },
+  {
+    "name": "Lizardfolk Geomancer",
+    "statBlock": {
+      "name": "Lizardfolk Geomancer",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 197,
+      "classification": "Medium elemental, neutral",
+      "ac": 13,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft., burrow 20 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "skills": {
+        "Nature": 2,
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "description": "A lizardfolk spellcaster who calls on primal and earthen magic to protect its people and territory.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Languages": "Draconic and Primordial (Terran).",
+        "Actions": "Multiattack. Make two Earth Burst attacks.\nEarth Burst. Melee or ranged attack, +4 to hit, reach 5 ft. or range 60 ft. On a hit, deal 9 (2d6 + 2) bludgeoning damage.\nHail of Stone (recharge 5–6). Choose a point the geomancer can see within 60 ft. Each creature in a 20-ft.-radius, 40-ft.-high cylinder centered on that point makes a DC 12 Constitution save. On a failure, it takes 15 (6d4) bludgeoning damage and is knocked Prone. On a success, it takes half damage.",
+        "Spellcasting": "As an action, cast one spell using Wisdom (save DC 12) without material components.\nAt will. Elementalism.\n1/day each. Meld into Stone, Speak with Plants, Spike Growth.",
+        "Habitats": "Forest and swamp.",
+        "Treasure": "Individual.",
+        "Printed source": "Monster Manual (2024), p. 197."
+      }
+    }
+  },
+  {
+    "name": "Lizardfolk Sovereign",
+    "statBlock": {
+      "name": "Lizardfolk Sovereign",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 197,
+      "classification": "Medium elemental, neutral",
+      "ac": 15,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft., burrow 20 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 2
+      },
+      "description": "A lizardfolk ruler who gains strength through rituals tied to the Elemental Plane of Earth. The rites can also bring out a violent streak.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Draconic and Primordial (Terran).",
+        "Condition immunities": "Frightened.",
+        "Actions": "Multiattack. Make one Bite attack and one Earthen Maul attack.\nBite. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 8 (1d10 + 3) piercing damage. If the target is a creature other than a Construct or Undead, the sovereign gains Temporary Hit Points equal to the damage dealt.\nEarthen Maul. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 10 (2d6 + 3) bludgeoning damage. A Medium or smaller creature hit by the attack is knocked Prone.",
+        "Bonus actions": "Charge. Move straight toward a visible enemy, up to the sovereign's Speed or Swim Speed.",
+        "Habitats": "Forest and swamp.",
+        "Treasure": "Individual.",
+        "Printed source": "Monster Manual (2024), p. 197."
+      }
+    }
+  }
+]

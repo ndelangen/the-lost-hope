@@ -1,0 +1,147 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -313226,6 +313226,20 @@
+       ]
+     },
+     {
++      "name": "Wildren",
++      "kind": "species",
++      "publication": "Planar Handbook (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Outsider native to the Beastlands. It gains the Extraplanar subtype away from the Beastlands. Racial adjustments are +4 Constitution, −2 Dexterity, and −2 Charisma.",
++        "Land speed 20 ft. even in medium or heavy armor or with a medium or heavy load. Burrow speed 10 ft. In soil or loose dirt, a Wildren can dig a warren for one Medium creature in one hour.",
++        "Darkvision 60 ft. and scent. Each of its two primary natural claws deals 1d4 + Strength bonus. A claw-only full attack can use both claws.",
++        "Fury (Ex), 1/day. After taking at least 1 point of damage, the Wildren can activate Fury at the start of its next turn. For one round, it gains +4 Strength and takes −2 AC. It cannot end Fury voluntarily. Fury stacks with barbarian rage.",
++        "Stability (Ex) grants +4 on ability checks to resist bull rush or trip while standing firmly on the ground. It does not apply while climbing, flying, riding, or otherwise off firm footing.",
++        "Common and Dwarven are automatic. Wildren can communicate with badgers as if using speak with animals limited to badgers. Bonus languages are Sylvan, Gnome, Goblin, Orc, and Terran. Favored class Barbarian. LA +1. The profile specifies no racial Hit Dice."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Player's Handbook (2014)",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -2426,6 +2426,79 @@
+       "tactics": "Read the overwritten entry from the gallery where the original ledger still catches the light. Reserve enough points for one defense. If threatened, use cover and the crossbow while the party gets the ledgers clear."
+     },
+     {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "type": "Outsider (Extraplanar)",
++      "senses": "Darkvision 60 ft. and scent.",
++      "languages": "Common, Dwarven, and communication with badgers as speak with animals.",
++      "id": "wildren-ashbank-burrow-scout-35e",
++      "title": "Wildren ashbank burrow scout, Barbarian 1",
++      "ac": 13,
++      "hp": 16,
++      "hitDice": "1d12+4",
++      "initiative": 1,
++      "speed": "30 ft., burrow 10 ft.",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 12,
++        "CON": 18,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Climb +7", "Listen +7", "Spot +3", "Survival +5", "Swim +7"],
++      "traits": [
++        "Chaotic good. Material Plane. Leather armor +2, Dexterity +1, touch 11, flat-footed 12. Barbarian fast movement adds 10 ft. to land speed in light armor with a light load.",
++        "BAB +1, grapple +4. Fortitude +6, Reflex +1, Will +1. Alertness adds +2 Listen and Spot. Illiterate.",
++        "Stability adds +4 on ability checks to resist bull rush or trip while firmly grounded. Strength-based resistance is +7 before Fury or rage, +9 with one, and +11 with both.",
++        "Fury (Ex), 1/day. After taking at least 1 point of damage, the Wildren can activate Fury at the start of its next turn. For one round, it gains +4 Strength and takes −2 AC. It cannot end Fury voluntarily. Fury stacks with barbarian rage.",
++        "Barbarian rage 1/day lasts 9 rounds (3 + raging Constitution modifier of +6). It adds +4 Strength, +4 Constitution, and +2 morale on Will saves, and applies −2 AC. Fortitude becomes +8, Will becomes +3, and current and maximum HP rise by 2 for the duration. After rage, Rusk is fatigued for the rest of the encounter."
++      ],
++      "actions": [
++        "One claw +4 melee as a standard attack, or two claws at +4 each in a full attack. Each deals 1d4+3 piercing and slashing, critical ×2, reach 5 ft.",
++        "With Fury or rage alone, claws attack at +6 each for 1d4+5 and AC drops to 11. With both active, claws attack at +8 each for 1d4+7 and AC drops to 9 for the one round of overlap."
++      ],
++      "tactics": "Rusk uses scent to check the ashbank for missing woodcutters. He follows a trail through broken ground and burrows through loose earth if a surface passage collapses. When injured, he decides at the start of his next turn whether to spend Fury."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "type": "Outsider (Extraplanar)",
++      "senses": "Darkvision 60 ft. and scent.",
++      "languages": "Common, Dwarven, and communication with badgers as speak with animals.",
++      "id": "wildren-cutbank-warren-guard-35e",
++      "title": "Wildren cutbank warren guard, Fighter 1",
++      "ac": 14,
++      "hp": 14,
++      "hitDice": "1d10+4",
++      "initiative": 0,
++      "speed": "20 ft., burrow 10 ft.",
++      "abilityScores": {
++        "STR": 14,
++        "DEX": 10,
++        "CON": 18,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Climb +2", "Handle Animal +3", "Listen +3", "Spot +3"],
++      "traits": [
++        "Neutral good. Material Plane. Scale mail +4, touch 10, flat-footed 14. Armor check penalty −4. The medium armor leaves land speed at 20 ft.",
++        "BAB +1, grapple +3. Fortitude +6, Reflex +0, Will +1. Alertness and the Fighter bonus feat Weapon Focus (claw).",
++        "Stability adds +4 on ability checks to resist bull rush or trip while firmly grounded. Strength-based resistance is +6, or +8 during Fury.",
++        "Fury (Ex), 1/day. After taking at least 1 point of damage, the Wildren can activate Fury at the start of its next turn. For one round, it gains +4 Strength and takes −2 AC. It cannot end Fury voluntarily. Fury stacks with barbarian rage."
++      ],
++      "actions": [
++        "One claw +4 melee as a standard attack, or two claws at +4 each in a full attack. Each deals 1d4+2 piercing and slashing, critical ×2, reach 5 ft.",
++        "During Fury, claws attack at +6 each for 1d4+4 and AC drops to 12 for one round."
++      ],
++      "tactics": "Dara asks the local badgers which exit is blocked, then guards the open tunnel while the party escorts trapped workers out. She can dig a fresh one-person warren in loose soil if she has an hour."
++    },
++    {
+       "id": "sea-kin-harbor-healer-35e",
+       "title": "Sea Kin tidal basin healer, Druid 1",
+       "origin": "Original DM Library NPC",
+@@ -3305,6 +3378,28 @@
+       "hook": "Daranvar can hold the crossing while the party checks the construct for its maker’s mark."
+     },
+     {
++      "species": "Wildren",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Rusk Ashbank",
++      "build": "wildren-ashbank-burrow-scout-35e",
++      "role": "Ashbank burrow scout and Barbarian.",
++      "motive": "Find the woodcutters before rising water cuts off the trail.",
++      "hook": "Rusk found the first scent at a bank that has begun to collapse."
++    },
++    {
++      "species": "Wildren",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Dara Cutbank",
++      "build": "wildren-cutbank-warren-guard-35e",
++      "role": "Cutbank warren guard and Fighter.",
++      "motive": "Evacuate trapped workers from the cutbank without losing the open tunnel.",
++      "hook": "The badgers can tell Dara which branch is blocked."
++    },
++    {
+       "species": "Pallid Elf",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -10320,6 +10320,7 @@
+ Wildcat (Large)	beast	Beast	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4486046-wildcat-large	1
+ Wildcat (Medium)	beast	Beast	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4486047-wildcat-medium	1
+ Wildfire Spirit	monster	Elemental	Tasha's Cauldron of Everything	2014 fifth edition	Wizards of the Coast		
++Wildren	species	Outsider (Extraplanar)	Planar Handbook (2004)	3.5 edition	Wizards of the Coast	https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes	
+ Wilfred Godefroy	monster	Undead	Ravenloft: The Horrors Within	2024 fifth edition	Wizards of the Coast		6
+ Will o’Shadow	monster		Blood Spawn: Creatures of Light and Shadow	AD&D 2nd edition	Wizards of the Coast		
+ Will-o'-Wells	monster	Undead	The Wild Beyond the Witchlight	2014 fifth edition	Wizards of the Coast		2

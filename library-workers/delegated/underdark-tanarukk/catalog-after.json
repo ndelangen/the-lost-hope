@@ -1,0 +1,852 @@
+[
+  {
+    "name": "Tanarukk",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-4305f8554eddb445b1fccfa1",
+      "name": "Tanarukk",
+      "kind": "monster",
+      "group": "Fiend",
+      "groups": [
+        "Fiend"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "John-Paul Balmet · Volo's Guide to Monsters"
+        }
+      ],
+      "versions": [
+        {
+          "key": "c81802718af94816ddc90c7d",
+          "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+          "edition": "2014 fifth edition",
+          "description": "A Medium fiend with challenge rating 5. Listed habitats: hill, mountain, underdark. Named abilities include Magic Resistance, Bite, Greatsword.",
+          "source": "https://5e.tools/bestiary.html#tanarukk_mpmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/708/1000/1000/637880558089220468.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "John-Paul Balmet · Mordenkainen Presents: Monsters of the Multiverse"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "14"
+            ],
+            [
+              "Hit points",
+              "95"
+            ],
+            [
+              "Hit dice",
+              "10d8 + 50"
+            ],
+            [
+              "Challenge",
+              "5"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Fiend"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "12"
+            ],
+            [
+              "Strength",
+              "18"
+            ],
+            [
+              "Dexterity",
+              "13"
+            ],
+            [
+              "Constitution",
+              "20"
+            ],
+            [
+              "Intelligence",
+              "9"
+            ],
+            [
+              "Wisdom",
+              "9"
+            ],
+            [
+              "Charisma",
+              "9"
+            ],
+            [
+              "Creature tags",
+              "demon"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "hill",
+                "mountain",
+                "underdark",
+                "hill, mountain, underdark"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +7 to hit · reach 5 ft. · 1d8 + 4 piercing",
+                "Greatsword · melee · +7 to hit · reach 5 ft. · 2d6 + 4 slashing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Intimidation +2, Perception +2"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Abyssal, Common, plus any one language"
+              ]
+            },
+            {
+              "title": "Damage resistances",
+              "lines": [
+                "fire, poison"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Magic Resistance"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Bite · Melee attack · +7 to hit · 1d8 + 4 piercing damage · reach 5 ft.",
+                "Greatsword · Melee attack · +7 to hit · 2d6 + 4 slashing damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Bonus actions reference",
+              "lines": [
+                "Aggressive"
+              ]
+            },
+            {
+              "title": "Reactions reference",
+              "lines": [
+                "Unbridled Fury"
+              ]
+            }
+          ],
+          "sourceCode": "MPMM",
+          "page": 240,
+          "references": [
+            {
+              "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 240",
+              "url": "https://5e.tools/bestiary.html#tanarukk_mpmm"
+            },
+            {
+              "label": "Baphomet (creature)",
+              "url": "https://5e.tools/bestiary.html#baphomet_mpmm",
+              "local": {
+                "entry": "monster-14e0e19b7dda48e011091178",
+                "version": "beb0a08124f208cced102822"
+              },
+              "preview": {
+                "name": "Baphomet",
+                "group": "Fiend",
+                "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+                "page": 58,
+                "description": "A Huge fiend with challenge rating 23. Named abilities include Labyrinthine Recall, Legendary Resistance (3/Day), Magic Resistance.",
+                "local": {
+                  "entry": "monster-14e0e19b7dda48e011091178",
+                  "version": "beb0a08124f208cced102822"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Medium fiend with challenge rating 5. Listed habitats: hill, mountain, underdark. Named abilities include Magic Resistance, Bite, Greatsword.": [
+              {
+                "start": 108,
+                "end": 113,
+                "target": {
+                  "name": "Magic",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-07ceb4292d06406c48366301",
+                    "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+                  }
+                }
+              },
+              {
+                "start": 114,
+                "end": 124,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Intimidation +2, Perception +2": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Intimidation",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 179,
+                  "local": {
+                    "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                    "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+                  }
+                }
+              },
+              {
+                "start": 17,
+                "end": 27,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Damage resistances": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Magic Resistance": [
+              {
+                "start": 6,
+                "end": 16,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "b1fea65986e655c8b103b698",
+          "publication": "Volo's Guide to Monsters",
+          "edition": "2014 fifth edition",
+          "description": "A Medium fiend with challenge rating 5. Listed habitats: underdark, mountain, hill. Named abilities include Aggressive, Magic Resistance, Bite.",
+          "source": "https://5e.tools/bestiary.html#tanarukk_vgm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/9/772/1000/1000/636331434621056023.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "John-Paul Balmet · Volo's Guide to Monsters"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "14"
+            ],
+            [
+              "Hit points",
+              "95"
+            ],
+            [
+              "Hit dice",
+              "10d8 + 50"
+            ],
+            [
+              "Challenge",
+              "5"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Fiend"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "12"
+            ],
+            [
+              "Strength",
+              "18"
+            ],
+            [
+              "Dexterity",
+              "13"
+            ],
+            [
+              "Constitution",
+              "20"
+            ],
+            [
+              "Intelligence",
+              "9"
+            ],
+            [
+              "Wisdom",
+              "9"
+            ],
+            [
+              "Charisma",
+              "9"
+            ],
+            [
+              "Creature tags",
+              "demon, orc"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark",
+                "mountain",
+                "hill",
+                "underdark, mountain, hill"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +7 to hit · reach 5 ft. · 1d8 + 4 piercing",
+                "Greatsword · melee · +7 to hit · reach 5 ft. · 2d6 + 4 slashing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Intimidation +2, Perception +2"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Abyssal, Common, Orc"
+              ]
+            },
+            {
+              "title": "Damage resistances",
+              "lines": [
+                "fire, poison"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Aggressive",
+                "Magic Resistance"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Bite · Melee attack · +7 to hit · 1d8 + 4 piercing damage · reach 5 ft.",
+                "Greatsword · Melee attack · +7 to hit · 2d6 + 4 slashing damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Reactions reference",
+              "lines": [
+                "Unbridled Fury"
+              ]
+            }
+          ],
+          "sourceCode": "VGM",
+          "page": 186,
+          "references": [
+            {
+              "label": "Volo's Guide to Monsters, p. 186",
+              "url": "https://5e.tools/bestiary.html#tanarukk_vgm"
+            }
+          ],
+          "inline": {
+            "A Medium fiend with challenge rating 5. Listed habitats: underdark, mountain, hill. Named abilities include Aggressive, Magic Resistance, Bite.": [
+              {
+                "start": 120,
+                "end": 125,
+                "target": {
+                  "name": "Magic",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-07ceb4292d06406c48366301",
+                    "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+                  }
+                }
+              },
+              {
+                "start": 126,
+                "end": 136,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Intimidation +2, Perception +2": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Intimidation",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 179,
+                  "local": {
+                    "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                    "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+                  }
+                }
+              },
+              {
+                "start": 17,
+                "end": 27,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Damage resistances": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Magic Resistance": [
+              {
+                "start": 6,
+                "end": 16,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "John-Paul Balmet · Volo's Guide to Monsters"
+      }
+    },
+    "monsterSearch": true,
+    "global": true,
+    "version": {
+      "key": "e4e2ca80c3c024bea8b74d6b",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Native)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Outsider (Native). +4 Strength, +2 Dexterity, −2 Wisdom, −4 Charisma. Land speed 20 ft. Darkvision 60 ft. and +4 natural armor.",
+            "Fire resistance 10. Spell resistance is 14 + class levels.",
+            "Proficient with all martial weapons.",
+            "The natural bite deals 1d6 bludgeoning, piercing, and slashing damage before Strength. In a full attack with a weapon, apply a −5 penalty to the bite attack and add half the Strength bonus to its damage.",
+            "Control Flame (Sp), 1/day, caster level 5. As a standard action, change an existing nonmagical fire within 10 ft. Dim it to coals or brighten it to daylight brightness and twice its normal illumination radius. The effect lasts 5 minutes. Heat output and fuel consumption stay the same.",
+            "Orc Blood allows the tanarukk to use or create items with orc-specific powers as an orc.",
+            "Five racial Hit Dice (5d8) grant BAB +5, base Fortitude +4, Reflex +4, Will +4, and two feats. Racial skill points are 8 × (8 + Intelligence modifier). The racial class skills are Hide, Intimidate, Listen, Search, and Spot.",
+            "LA +3. ECL 8 before class levels and ECL 9 with one class level. Favored class Barbarian.",
+            "Abyssal and Orc are automatic. Add the home region’s automatic languages and choose bonus languages by region. The original entry describes tanarukks as illiterate until they take a PC class other than Barbarian.",
+            "Underdark supplies the 3.5 advancement entry and refers to Races of Faerûn for the detailed playable rules."
+          ]
+        },
+        {
+          "title": "Original NPC · Khar Ashridge",
+          "lines": [
+            "Coal-gate sentry.",
+            "Motive. Keep the gate clear until a work crew gets inside.",
+            "Hook. Khar waits beside the brazier that lights the coal gate.",
+            "Tanarukk coal-gate sentry, racial Hit Dice only · Provisional CR 3. ECL 8 (5 racial HD, LA +3). · Medium Outsider (Native)",
+            "AC 16 · HP 36 (5d8+10) · Speed 20 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Varka Coalvein",
+          "lines": [
+            "Ember-gallery scout and Rogue.",
+            "Motive. Signal the party once the escape route opens.",
+            "Hook. Varka agrees to brighten a flame beside the safe passage.",
+            "Tanarukk ember-gallery scout, Rogue 1 · Provisional CR 4. ECL 9 (5 racial HD, 1 class HD, LA +3). · Medium Outsider (Native)",
+            "AC 20 · HP 42 (5d8+1d6+12) · Speed 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Khar Ashridge": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Khar Ashridge",
+              "group": "Tanarukk",
+              "publication": "Tanarukk coal-gate sentry, racial Hit Dice only",
+              "local": {
+                "entry": "npc-c2fe7435c24a3fdd139cfcec",
+                "version": "c701ea843278dbc06bb9ddbc"
+              }
+            }
+          }
+        ],
+        "Original NPC · Varka Coalvein": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Varka Coalvein",
+              "group": "Tanarukk",
+              "publication": "Tanarukk ember-gallery scout, Rogue 1",
+              "local": {
+                "entry": "npc-742c24cb7c5d2f245b913836",
+                "version": "dce1677ad268322675e6f436"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Tanarukk": true,
+      "tanarukk control flame": true,
+      "tanarukk spell resistance": true,
+      "tanarukk coal gate sentry": true,
+      "tanarukk ember gallery scout": true
+    },
+    "hash": "ef211917c1b203858d86a62d08ed6384fe6be327b069ffcc4b62a43e7568f61c",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "e4e2ca80c3c024bea8b74d6b",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

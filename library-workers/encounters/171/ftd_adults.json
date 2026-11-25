@@ -1,0 +1,481 @@
+[
+  {
+    "name": "Adult Amethyst Dragon",
+    "statBlock": {
+      "name": "Adult Amethyst Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 161,
+      "classification": "Huge dragon (gem), typically neutral",
+      "ac": 19,
+      "hp": 229,
+      "hitDice": "17d12 + 119",
+      "speed": "40 ft., fly 80 ft. (hover), swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 23,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Gravity bends around this lake-dwelling gem dragon. Its breath can pin opponents in place while it projects itself into two spaces.",
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 12,
+        "Wis": 8,
+        "Cha": 10
+      },
+      "skills": {
+        "Arcana": 15,
+        "Perception": 13,
+        "Persuasion": 10,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Force, psychic.",
+        "Condition immunities": "Frightened, prone.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft.",
+        "Traits": "Amphibious. Breathe air and water.\nLegendary Resistance (3/day). Turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 18 (2d10 + 7) piercing damage plus 9 (2d8) force damage.\nClaw. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 11 (1d8 + 7) slashing damage.\nSingularity Breath (Recharge 5–6). Each creature in a 90-ft. cone makes a DC 20 Strength save. On a failure it takes 45 (10d8) force damage and has speed 0 until the start of the dragon’s next turn. On a success it takes half damage and keeps its speed.",
+        "Spellcasting (Psionics)": "As an action, cast one of these spells using Intelligence (spell save DC 18). No components are required.\n1/day each. Blink, Control Water, Dispel Magic, Protection from Evil and Good, Sending.",
+        "Bonus actions": "Change Shape. Become a Small or Medium creature by magic. Only size changes among the dragon’s statistics. The form ends at 0 HP or when the dragon spends another bonus action to end it.\nPsychic Step. Teleport to a visible, unoccupied space within 60 ft.",
+        "Legendary actions": "The dragon has 3 legendary actions. Use one option at the end of another creature’s turn, then subtract its cost. The dragon regains spent legendary actions at the start of its own turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nExplosive Crystal (3 actions). Pick a visible point within 60 ft. Each creature in a 20-ft.-radius sphere centered there must pass a DC 20 Dexterity save or take 13 (3d8) force damage and fall prone.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. The dragon cannot use the same lair action two rounds in a row.\nBeguiling Whisper. Whisper to one creature within telepathy range. On a failed DC 15 Wisdom save, it is charmed until initiative count 20 next round and follows the dragon’s commands as well as it can, except commands that directly harm it.\nImprisoning Force. Cast Forcecage without components (spell save DC 18). That cage ends early if the dragon uses this option again or dies.\nSpatial Projection. Choose a space in the lair large enough for the dragon. Until initiative count 20 next round, the dragon occupies its original space and that space at once. When it moves or acts, choose which copy does so. An attack or effect that reaches both copies affects the dragon only once.",
+        "Regional effects": "One or more of these effects can occur near the lair.\nBackground Check. Once a day the dragon can cast Legend Lore without components about a person, place, or object within 1 mile of the lair.\nCrystal Profusion. Amethyst and geodes form on muddy shores and lake beds within 6 miles.\nThriving Wildlife. Fish and other aquatic Beasts flourish in waters within 6 miles. Foraging there produces twice the usual food.\nWatery Sight. As an action the dragon can cast Clairvoyance without components on any body of water within 6 miles.\nOn death, nearby aquatic populations return to normal over 1d10 days. Existing amethysts remain and new crystals form at their ordinary rate.",
+        "Lair difficulty": "In its lair, the dragon is CR 17 (18,000 XP).",
+        "Optional dragon customization": "Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 160–161 (lair, regional effects and adult stat block)."
+      }
+    }
+  },
+  {
+    "name": "Adult Crystal Dragon",
+    "statBlock": {
+      "name": "Adult Crystal Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 171,
+      "classification": "Huge dragon (gem), typically chaotic neutral",
+      "ac": 16,
+      "hp": 172,
+      "hitDice": "15d12 + 75",
+      "speed": "40 ft., burrow 40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This gem dragon makes its lair among quartz and ice. It draws protection from the radiance of its own breath.",
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 9,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Perception": 10,
+        "Stealth": 9,
+        "Survival": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, radiant.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) piercing damage plus 4 (1d8) radiant damage.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 9 (1d8 + 5) slashing damage.\nScintillating Breath (Recharge 5–6). Each creature in a 60-ft. cone makes a DC 17 Constitution save, taking 40 (9d8) radiant damage on a failure or half on a success. The dragon then gains 15 temporary HP.",
+        "Spellcasting (Psionics)": "As an action, cast one of these spells using Intelligence (spell save DC 16). No components are required.\nAt will. Dancing Lights, Guidance.\n1/day each. Command, Divination, Hypnotic Pattern, Lesser Restoration.",
+        "Bonus actions": "Change Shape. Become a Small or Medium creature by magic. Only size changes among the dragon’s statistics. The form ends at 0 HP or when the dragon spends another bonus action to end it.\nPsychic Step. Teleport to a visible, unoccupied space within 60 ft.",
+        "Legendary actions": "The dragon has 3 legendary actions. Use one option at the end of another creature’s turn, then subtract its cost. The dragon regains spent legendary actions at the start of its own turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nStarlight Strike (3 actions). A visible creature within 60 ft. must pass a DC 17 Dexterity save or take 31 (9d6) radiant damage.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. The dragon cannot use the same lair action two rounds in a row.\nBeguiling Whisper. Whisper to one creature within telepathy range. On a failed DC 15 Wisdom save, it is charmed until initiative count 20 next round and follows the dragon’s commands as well as it can, except commands that directly harm it.\nIce Passage. Open a passage through up to 5 ft. of ice or snow. The opening can be up to 30 ft. high and wide.\nStarlight’s Gleam. Choose a visible point in the lair and fill a 10-ft.-radius sphere with dim light. Each other creature there when the light appears must pass a DC 15 Dexterity save or take 13 (2d12) radiant damage and glow. Attacks against glowing creatures have advantage. Those creatures cannot hide or benefit from invisibility. The light and glow end at initiative count 20 next round.",
+        "Regional effects": "One or more of these effects can occur near the lair.\nClear Skies. Except for magical weather, the lair has clear skies, no precipitation, light winds, and the best visibility the time of day allows.\nCrystal Profusion. Quartz forms in natural stone within 6 miles, particularly where natural light reaches it.\nIcy Sight. As an action the dragon can cast Clairvoyance without components on ice or quartz within 6 miles.\nPositive Energy. A creature finishing a long rest within 6 miles recovers two additional spent Hit Dice.\nThriving Wildlife. Animals flourish within 6 miles. Checks to hunt, fish, or trap for food have advantage.\nOn death, the extra Hit Dice recovery ends at once and animal populations settle over 1d10 days. Existing quartz remains and new crystals form at their ordinary rate.",
+        "Lair difficulty": "In its lair, the dragon is CR 13 (10,000 XP).",
+        "Optional dragon customization": "Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 171 (lair, regional effects and adult stat block)."
+      }
+    }
+  },
+  {
+    "name": "Adult Deep Dragon",
+    "statBlock": {
+      "name": "Adult Deep Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 174,
+      "classification": "Huge dragon, typically neutral evil",
+      "ac": 17,
+      "hp": 147,
+      "hitDice": "14d12 + 56",
+      "speed": "40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This secret-hoarding Underdark dragon uses spores to spread terror and turn intruders against each other.",
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 8,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "skills": {
+        "Perception": 7,
+        "Persuasion": 12,
+        "Stealth": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Poison, psychic.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 150 ft.",
+        "Languages": "Common, Draconic, Undercommon.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) piercing damage plus 5 (1d10) poison damage.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) slashing damage.\nTail. Melee weapon attack, +9 to hit, reach 15 ft., one target. A hit deals 9 (1d8 + 5) bludgeoning damage. A creature hit must pass a DC 17 Strength save or fall prone.\nChange Shape. Become a Small or Medium creature by magic. Only size changes among the dragon’s statistics. The form ends at 0 HP or when the dragon uses its action to end it.\nNightmare Breath (Recharge 5–6). Each creature in a 60-ft. cone makes a DC 16 Wisdom save. On a failure it takes 33 (6d10) psychic damage and is frightened of the dragon for 1 minute. On a success it only takes half damage. A frightened target can repeat its save at the end of each of its turns, ending the effect on a success.",
+        "Legendary actions": "The dragon has 3 legendary actions. Use one option at the end of another creature’s turn, then subtract its cost. The dragon regains spent legendary actions at the start of its own turn.\nCommanding Spores (1 action). Choose a visible creature within 30 ft. On a failed DC 16 Wisdom save it uses its reaction on a melee weapon attack against a random creature within reach. On a failed save with no available reaction or no creature within reach, it instead takes 5 (1d10) psychic damage.\nTail (1 action). Make one Tail attack.\nSpore Salvo (2 actions). A visible creature within 30 ft. must pass a DC 16 Constitution save or take 17 (5d6) poison damage and be poisoned for 1 minute. It can repeat the save at the end of each of its turns to end the condition.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. The dragon cannot use the same lair action two rounds in a row.\nDeep Torpor. Cast Slow without components using Charisma (spell save DC 16). It ends early if the dragon uses this option again or dies.\nMossy Sludge. Moss makes the ceiling, floor, and walls difficult terrain until initiative count 20 next round.\nToxic Spores. Fill a visible 20-ft. cube within 120 ft. Creatures inside must pass a DC 15 Constitution save or take 14 (4d6) poison damage and be poisoned until the end of their next turn.",
+        "Regional effects": "One or more of these effects can occur near the lair.\nPreservation of Knowledge. Writing on physical objects within 6 miles cannot be damaged nonmagically.\nRestless Sleep. A creature finishing a long rest within 6 miles must pass a DC 10 Constitution save before it can reduce its exhaustion. Creatures immune to the poisoned condition ignore the effect.\nVerdant Growth. Plants and fungi cover more area and grow faster within 6 miles. Foraging there produces twice the usual food.\nWhen the dragon dies, these changes fade over 1d10 days.",
+        "Optional innate spellcasting": "For the spellcasting variant, the adult selection on p. 107 is Command, Dissonant Whispers, Faerie Fire, and Water Breathing. Each is usable once per day without material components, using Charisma (spell save DC 16).",
+        "Lair difficulty": "In its lair, the dragon is CR 12 (8,400 XP).",
+        "Optional dragon customization": "Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 173–174 (adult stat block, lair and regional effects) and p. 107 (optional spells)."
+      }
+    }
+  },
+  {
+    "name": "Adult Emerald Dragon",
+    "statBlock": {
+      "name": "Adult Emerald Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 196,
+      "classification": "Huge dragon (gem), typically lawful neutral",
+      "ac": 18,
+      "hp": 207,
+      "hitDice": "18d12 + 90",
+      "speed": "40 ft., burrow 30 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 23,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This gem dragon conceals its volcanic lair with illusions. Wandering rocks and shifting paths can turn an approach into an ambush.",
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 10,
+        "Wis": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Arcana": 9,
+        "Deception": 9,
+        "Perception": 13,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Fire, psychic.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nShift Perception (1/day). Cast Hallucinatory Terrain without components using Intelligence (spell save DC 17).\nTunneler. Burrow through solid rock at half burrow speed, optionally leaving a 15-ft.-diameter tunnel.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 17 (2d10 + 6) piercing damage plus 7 (2d6) psychic damage.\nClaw. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 10 (1d8 + 6) slashing damage.\nDisorienting Breath (Recharge 5–6). Each creature in a 60-ft. cone makes a DC 18 Intelligence save. On a failure it takes 42 (12d6) psychic damage. Until the end of its next turn, it subtracts a fresh 1d6 from each attack roll or ability check it makes. On a success it only takes half damage.",
+        "Spellcasting (Psionics)": "As an action, cast one of these spells using Intelligence (spell save DC 17). No components are required.\nAt will. Mage Hand (invisible hand), Minor Illusion.\n1/day each. Detect Thoughts, Dispel Magic, Invisibility, Major Image.",
+        "Bonus actions": "Change Shape. Become a Small or Medium creature by magic. Only size changes among the dragon’s statistics. The form ends at 0 HP or when the dragon spends another bonus action to end it.\nPsychic Step. Teleport to a visible, unoccupied space within 60 ft.",
+        "Legendary actions": "The dragon has 3 legendary actions. Use one option at the end of another creature’s turn, then subtract its cost. The dragon regains spent legendary actions at the start of its own turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nEmerald Embers (3 actions). One visible creature within 60 ft. must pass a DC 17 Dexterity save or take 31 (9d6) fire damage.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. The dragon cannot use the same lair action two rounds in a row.\nBeguiling Whisper. Whisper to one creature within telepathy range. On a failed DC 15 Wisdom save, it is charmed until initiative count 20 next round and follows the dragon’s commands as well as it can, except commands that directly harm it.\nDistort Perceptions. One visible creature in the lair must pass a DC 15 Intelligence save or take 22 (4d10) psychic damage and have disadvantage on saves until the start of its next turn.\nVanish. Become invisible until initiative count 20 next round.",
+        "Regional effects": "One or more of these effects can occur near the lair.\nCrystal Profusion. Crystal formations and emerald veins grow in natural stone within 6 miles.\nFiery Sight. As an action the dragon can cast Clairvoyance without components on fire or lava within 6 miles.\nSubtle Obstruction. Rocks within 6 miles shift on their own when unobserved, sometimes blocking routes or tripping travelers.\nThriving Wildlife. Giant Lizards gather within 6 miles.\nOn death, rocks immediately stop moving and giant lizard populations return to normal over 1d10 days. Existing crystals and emeralds remain and new ones form at their ordinary rate.",
+        "Lair difficulty": "In its lair, the dragon is CR 15 (13,000 XP).",
+        "Optional dragon customization": "Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 196 (lair, regional effects and adult stat block)."
+      }
+    }
+  },
+  {
+    "name": "Adult Moonstone Dragon",
+    "statBlock": {
+      "name": "Adult Moonstone Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 212,
+      "classification": "Huge dragon, typically neutral",
+      "ac": 19,
+      "hp": 195,
+      "hitDice": "17d12 + 85",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This dragon walks the border between waking and dreaming. Around its lair, sleepers may speak with it, and travelers may find paths between planes.",
+      "savingThrows": {
+        "Int": 11,
+        "Wis": 10,
+        "Cha": 11
+      },
+      "skills": {
+        "Perception": 10,
+        "Persuasion": 11,
+        "Stealth": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Charmed.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, Elvish, Gnomish, Sylvan.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) piercing damage plus 7 (2d6) radiant damage.\nClaw. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage.\nTail. Melee weapon attack, +10 to hit, reach 15 ft., one target. A hit deals 9 (1d8 + 5) bludgeoning damage. A creature hit must pass a DC 18 Strength save or fall prone.\nBreath Weapon (shared Recharge 5–6). Choose Dream Breath or Moonlight Breath.\nDream Breath. Each creature in a 90-ft. cone must pass a DC 18 Constitution save or fall unconscious for 10 minutes. Damage or an action spent waking the creature ends the effect early.\nMoonlight Breath. Each creature in a 90-ft. line 10 ft. wide makes a DC 18 Dexterity save, taking 49 (9d10) radiant damage on a failure or half on a success.",
+        "Spellcasting": "As an action, cast one of these spells using Charisma (spell save DC 19). No material components are required.\nAt will. Faerie Fire.\n1/day each. Calm Emotions, Invisibility, Revivify.",
+        "Legendary actions": "The dragon has 3 legendary actions. Use one option at the end of another creature’s turn, then subtract its cost. The dragon regains spent legendary actions at the start of its own turn.\nTail (1 action). Make one Tail attack.\nCast a Spell (2 actions). Use Spellcasting.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. The dragon cannot use the same lair action two rounds in a row.\nBanish into Dream. One visible creature within 120 ft. must pass a DC 15 Charisma save or be sent to a harmless demiplane, stunned there until initiative count 20 next round. It returns to its former space or the closest unoccupied space.\nCompulsive Dance. One visible creature in the lair hears a tune and must pass a DC 15 Intelligence save or dance until initiative count 20 next round. It is incapacitated and must spend all movement dancing.\nDisorienting Visions. Every creature in the lair must pass a DC 20 Wisdom save or have disadvantage on ability checks until initiative count 20 next round.",
+        "Regional effects": "One or more of these effects can occur near the lair.\nDream Communication. The dragon can speak telepathically in the dreams of any language-understanding creature that sleeps, trances, or enters reverie within 6 miles. The creature remembers the conversation on waking.\nPlanar Transition. Portals within 6 miles link the Material Plane, the Feywild, and the Border Ethereal. Passing through in either direction takes 5 ft. of movement.\nOn death, nearby portals close at once.",
+        "Lair difficulty": "In its lair, the dragon is CR 16 (15,000 XP).",
+        "Optional dragon customization": "Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 212 (lair, regional effects and adult stat block)."
+      }
+    }
+  },
+  {
+    "name": "Adult Sapphire Dragon",
+    "statBlock": {
+      "name": "Adult Sapphire Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 215,
+      "classification": "Huge dragon (gem), typically lawful neutral",
+      "ac": 18,
+      "hp": 225,
+      "hitDice": "18d12 + 108",
+      "speed": "40 ft., burrow 30 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 23,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This subterranean gem dragon can dig its own approach through solid rock and use sound to break an intruder’s advance.",
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 11,
+        "Wis": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "History": 9,
+        "Perception": 13,
+        "Persuasion": 14,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Lightning, thunder.",
+        "Condition immunities": "Frightened.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nSpider Climb. Traverse difficult surfaces and ceilings without an ability check.\nTunneler. Burrow through solid rock at half burrow speed, optionally leaving a 10-ft.-diameter tunnel.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 17 (2d10 + 6) piercing damage plus 5 (1d10) thunder damage.\nClaw. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 10 (1d8 + 6) slashing damage.\nDebilitating Breath (Recharge 5–6). Each creature in a 60-ft. cone makes a DC 19 Constitution save. On a failure it takes 44 (8d10) thunder damage and is incapacitated until the end of its next turn. On a success it only takes half damage.",
+        "Spellcasting (Psionics)": "As an action, cast one of these spells using Intelligence (spell save DC 17). No components are required.\n1/day each. Dissonant Whispers, Hold Monster, Meld into Stone, Telekinesis.",
+        "Bonus actions": "Change Shape. Become a Small or Medium creature by magic. Only size changes among the dragon’s statistics. The form ends at 0 HP or when the dragon spends another bonus action to end it.\nPsychic Step. Teleport to a visible, unoccupied space within 60 ft.",
+        "Legendary actions": "The dragon has 3 legendary actions. Use one option at the end of another creature’s turn, then subtract its cost. The dragon regains spent legendary actions at the start of its own turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nTelekinetic Fling (3 actions). Choose a visible Small or smaller object within 60 ft. that nobody is wearing or carrying. Fling it at a creature visible to the dragon and within 60 ft. of the object. The target must pass a DC 17 Dexterity save or take 31 (9d6) bludgeoning damage.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. The dragon cannot use the same lair action two rounds in a row.\nAwesome Thunder. Choose a visible creature in the lair. It must pass a DC 15 Constitution save or take 13 (3d8) thunder damage and be stunned until the end of its next turn. The blast is audible up to 300 ft. away.\nBeguiling Whisper. Whisper to one creature within telepathy range. On a failed DC 15 Wisdom save, it is charmed until initiative count 20 next round and follows the dragon’s commands as well as it can, except commands that directly harm it.\nStone Passage. Touch stone up to 30 ft. in any dimension and reshape it to open or close a passage through a wall less than 10 ft. thick.",
+        "Regional effects": "One or more of these effects can occur near the lair.\nCrystal Profusion. Natural stone within 6 miles grows crystals and sapphire veins, particularly underground.\nStony Sight. As an action the dragon can cast Clairvoyance without components on any natural stone formation within 6 miles.\nTelepathic Enhancement. A creature’s innate or magical telepathy range doubles while within 1 mile, including telepathy from Rary’s Telepathic Bond.\nThriving Wildlife. Giant Spiders gather within 6 miles.\nOn death, telepathy returns to normal at once and giant spider populations return to normal over 1d10 days. Existing crystals and sapphires remain and new ones form at their ordinary rate.",
+        "Lair difficulty": "In its lair, the dragon is CR 16 (15,000 XP).",
+        "Optional dragon customization": "Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 215 (lair, regional effects and adult stat block)."
+      }
+    }
+  },
+  {
+    "name": "Adult Topaz Dragon",
+    "statBlock": {
+      "name": "Adult Topaz Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 221,
+      "classification": "Huge dragon (gem), typically chaotic neutral",
+      "ac": 18,
+      "hp": 210,
+      "hitDice": "20d12 + 80",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 23,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This coastal gem dragon can drain strength with its breath. Close to its lair, rest may offer less recovery than visitors expect.",
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 9,
+        "Wis": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Intimidation": 14,
+        "Perception": 13,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, necrotic.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft.",
+        "Traits": "Amphibious. Breathe air and water.\nFabricate (1/day). Cast Fabricate without components using Intelligence.\nLegendary Resistance (3/day). Turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 15 (2d10 + 4) piercing damage plus 3 (1d6) necrotic damage.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage.\nDesiccating Breath (Recharge 5–6). Each creature in a 60-ft. cone makes a DC 17 Constitution save. On a failure it takes 35 (10d6) necrotic damage and is weakened until the end of its next turn. While weakened, it has disadvantage on Strength checks and saves, and its Strength-based weapon attacks deal half damage. On a success it only takes half damage.",
+        "Spellcasting (Psionics)": "As an action, cast one of these spells using Intelligence (spell save DC 17). No components are required.\n1/day each. Bane, Control Water, Create or Destroy Water.",
+        "Bonus actions": "Change Shape. Become a Small or Medium creature by magic. Only size changes among the dragon’s statistics. The form ends at 0 HP or when the dragon spends another bonus action to end it.\nPsychic Step. Teleport to a visible, unoccupied space within 60 ft.",
+        "Legendary actions": "The dragon has 3 legendary actions. Use one option at the end of another creature’s turn, then subtract its cost. The dragon regains spent legendary actions at the start of its own turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nEssential Reduction (3 actions). Target a visible creature or an unattended object within 60 ft. It must pass a DC 17 Constitution save or take 28 (8d6) necrotic damage. A target reduced to 0 HP by the damage crumbles to dust.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. The dragon cannot use the same lair action two rounds in a row.\nBeguiling Whisper. Whisper to one creature within telepathy range. On a failed DC 15 Wisdom save, it is charmed until initiative count 20 next round and follows the dragon’s commands as well as it can, except commands that directly harm it.\nCancellation. End one active spell of 5th level or lower the dragon knows is active in the lair.\nNegative Energy Infusion. Up to two visible creatures in the lair each make a DC 15 Constitution save, taking 14 (4d6) necrotic damage on a failure. Until initiative count 20 next round, no creature in the lair except the dragon can regain HP.",
+        "Regional effects": "One or more of these effects can occur near the lair.\nCrystal Profusion. Natural stone within 6 miles grows crystals and topaz veins, particularly underground.\nNegative Energy. A creature finishing a long rest within 6 miles must pass a DC 15 Constitution save to reduce exhaustion or regain spent Hit Dice. Creatures resistant or immune to necrotic damage ignore this effect.\nThriving Wildlife. Giant squid gather and hunt in the sea within 6 miles.\nWatery Sight. As an action the dragon can cast Clairvoyance without components on any body of water within 6 miles.\nOn death, the squid population returns to normal over 1d10 days. Existing crystals and topazes remain and new ones form at their ordinary rate.",
+        "Lair difficulty": "In its lair, the dragon is CR 14 (11,500 XP).",
+        "Optional dragon customization": "Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 221 (lair, regional effects and adult stat block)."
+      }
+    }
+  }
+]

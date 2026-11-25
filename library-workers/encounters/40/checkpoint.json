@@ -1,0 +1,28 @@
+{
+  "commit": "133ef3bae36ecd1e45dcdb1936d407e12130ac1b",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 562,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "galleryComparison": "output/dm-library/review/encounters-40-gallery.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-40-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/40/results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Basilisk Companion",
+      "kind": "monster",
+      "role": "Companion"
+    },
+    {
+      "name": "Lightbender Companion",
+      "kind": "monster",
+      "role": "Companion"
+    }
+  ],
+  "nextSourceNote": "Use exact final companion profiles, retaining their distinct wild entries, and link credited publisher images by exact base printing."
+}

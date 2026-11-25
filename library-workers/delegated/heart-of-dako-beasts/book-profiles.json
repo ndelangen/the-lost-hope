@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Kappu",
+    "kind": "beast",
+    "publication": "Humblewood: The Heart of Dako",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "appearance": "A stout, semiaquatic rodent large enough to ride, with a thick furry tail that helps it swim and balance.",
+    "combat": {
+      "size": "Large",
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "armorClass": 11,
+      "hitPoints": 13,
+      "hitDice": "2d10 + 2",
+      "challenge": "1/4",
+      "xp": 50,
+      "speed": {
+        "walk": 60,
+        "swim": 30
+      },
+      "abilities": {
+        "Str": 17,
+        "Dex": 12,
+        "Con": 12,
+        "Int": 4,
+        "Wis": 10,
+        "Cha": 6
+      },
+      "skills": {
+        "Perception": 2
+      },
+      "passivePerception": 10,
+      "habitats": [
+        "Marshy Tanglewilds rainforest"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "hitBonus": 5,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 8,
+              "dice": "2d4 + 3",
+              "type": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Keen Hearing",
+          "effectNote": "Advantage on Wisdom (Perception) checks based on hearing."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Bite",
+          "effectNote": "One target takes 8 (2d4 + 3) piercing damage on a hit.",
+          "toHit": 5,
+          "reachFeet": 5,
+          "damageRolls": [
+            {
+              "diceCount": 2,
+              "die": 4,
+              "bonus": 3,
+              "damageType": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "The original prints Perception +2 and passive Perception 10.",
+      "In the night travel encounter, a DC 14 Wisdom (Animal Handling) check can tame grazing kappu for riding. See p. 7.",
+      "The kappu refuse to cross the 5-ft.-wide Redroar River rope bridge in the p. 8 encounter. The Companions' mounts are too large to cross safely there.",
+      "Hit Point Press, The Heart of Dako, p. 24, and reference cards, p. 8."
+    ]
+  },
+  {
+    "name": "Swarm of Tanglewasps",
+    "kind": "beast",
+    "publication": "Humblewood: The Heart of Dako",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "appearance": "A swarm of tiny iridescent wasps with blue-green thoraxes and dark reddish abdomens. They cluster around a concealed hardened mud nest.",
+    "combat": {
+      "size": "Medium",
+      "creatureType": "Swarm of Tiny Beasts",
+      "alignment": "Unaligned",
+      "armorClass": 11,
+      "hitPoints": 22,
+      "hitDice": "5d8",
+      "challenge": "1/2",
+      "xp": 100,
+      "speed": {
+        "walk": 30
+      },
+      "abilities": {
+        "Str": 3,
+        "Dex": 13,
+        "Con": 10,
+        "Int": 1,
+        "Wis": 7,
+        "Cha": 1
+      },
+      "passivePerception": 8,
+      "senses": [
+        "Blindsight 10 ft."
+      ],
+      "habitats": [
+        "Tanglewilds rainforest"
+      ],
+      "resistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "Fire"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Frightened",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Stunned"
+      ],
+      "attacks": [
+        {
+          "name": "Sting",
+          "hitBonus": 3,
+          "mode": "Melee Weapon Attack",
+          "reach": 0,
+          "damage": [
+            {
+              "average": 10,
+              "dice": "4d4",
+              "type": "poison"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Swarm",
+          "effectNote": "The swarm can share spaces with other creatures and move through a gap large enough for one Tiny insect. It cannot regain HP or gain temporary HP."
+        },
+        {
+          "name": "Wrong Step",
+          "effectNote": "The swarm surrounds a 1-ft. ball of hardened mud in a 5-ft. space. Spotting the concealed nest takes a DC 17 Wisdom (Perception) check. A creature that steps on the nest is grappled on a failed save (escape DC 14). The nest can grapple only one creature. While grappled, the creature takes 5 (2d4) poison damage at the start of each of its turns. Another creature within reach of the nest can spend an action to free it with a DC 14 Strength (Athletics) check.",
+          "saves": [
+            {
+              "ability": "Strength",
+              "dc": 14
+            }
+          ],
+          "damageRolls": [
+            {
+              "diceCount": 2,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "poison",
+              "trigger": "start of grappled target turn"
+            }
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Sting",
+          "effectNote": "One target in the swarm's space (0-ft. reach) takes 10 (4d4) poison damage on a hit, or 5 (2d4) when the swarm is at half HP or fewer.",
+          "toHit": 3,
+          "reachFeet": 0,
+          "damageRolls": [
+            {
+              "diceCount": 4,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "poison",
+              "trigger": "above half HP"
+            },
+            {
+              "diceCount": 2,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "poison",
+              "trigger": "half HP or fewer"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "The stat block prints a single 30-ft. speed. The reference art depicts winged insects.",
+      "The night travel table on p. 7 calls for a DC 17 group Wisdom (Perception) check to avoid disturbing nests and provoking 2d6 swarms.",
+      "Hit Point Press, The Heart of Dako, p. 25, and reference cards, p. 10."
+    ]
+  }
+]

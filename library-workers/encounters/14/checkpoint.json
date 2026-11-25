@@ -1,0 +1,57 @@
+{
+  "commit": "61d9765c47b8b78a7c8625dcee9362872cf18b4d",
+  "publication": "Waterdeep: Dungeon of the Mad Mage",
+  "encounterVersions": 14,
+  "fullStatBlocks": 14,
+  "reusedExactStatBlocks": 1,
+  "additionallyServedSourceVersions": 1,
+  "totalMadMageVersionsWithLocalRules": 192,
+  "generatedPortraitsInstalled": 14,
+  "generatedDraftsBackedUp": 14,
+  "replacedPortraitsBackedUp": 12,
+  "allRecentVersionsWithGeneratedPortrait": 489,
+  "creditedGalleriesVerified": 14,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-14-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-14-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/14/results.json",
+  "nextSourcePublication": "Waterdeep: Dragon Heist",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Halfling Wererat",
+      "source": "https://www.dndbeyond.com/monsters/280330-halfling-wererat",
+      "challenge": "2"
+    },
+    {
+      "name": "Havia Quickknife",
+      "source": "https://www.dndbeyond.com/monsters/285389-havia-quickknife",
+      "challenge": "3"
+    },
+    {
+      "name": "Manshoon's Simulacrum",
+      "source": "https://www.dndbeyond.com/monsters/285380-manshoons-simulacrum",
+      "challenge": "8"
+    },
+    {
+      "name": "Mookie Plush",
+      "source": "https://www.dndbeyond.com/monsters/285396-mookie-plush",
+      "challenge": "3"
+    },
+    {
+      "name": "Rishaal",
+      "source": "https://www.dndbeyond.com/monsters/280320-rishaal",
+      "challenge": "6"
+    },
+    {
+      "name": "Roscoe Underbough",
+      "source": "https://www.dndbeyond.com/monsters/280305-roscoe-underbough",
+      "challenge": "2"
+    },
+    {
+      "name": "Yorn the Terror",
+      "source": "https://www.dndbeyond.com/monsters/285362-yorn-the-terror",
+      "challenge": "1/2"
+    }
+  ]
+}

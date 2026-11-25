@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Kesh",
+    "kind": "species",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Dexterity +2. Medium, walking speed 30 ft., darkvision 60 ft. Proficient in Survival. Common, Keshian and one chosen language.",
+      "Minor Alteration grants alter appearance once per long rest at 1st level. The visual disguise leaves the kesh’s black eyes unchanged. At levels 4, 9 and 14, each milestone adds one use and an hour to the duration. All uses return on a long rest.",
+      "Memory Meld grants shared vision once per long rest, using Charisma to channel it.",
+      "Noble Kesh, or Shavnali, add +1 Charisma, proficiency with the long blade and energy staff, and another language.",
+      "Star Kesh, or Kelamir, add +1 Intelligence and one artisan tool proficiency. Add proficiency to Intelligence (Astrophysics) checks, or double it if already proficient."
+    ]
+  },
+  {
+    "name": "Matokai",
+    "kind": "species",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Constitution +2. Medium, walking speed 30 ft. Common, Matokai and Bahtera. Claws give unarmed strikes 1d4 + Strength modifier slashing damage.",
+      "Firetail adds +1 Intelligence and fire resistance. Use the Constitution-based fire lance talent once per long rest. It starts at rank 1 and rises to ranks 2, 3 and 4 at levels 6, 11 and 16.",
+      "Skytalon adds +1 Wisdom and Insight proficiency. As a bonus action, double walking speed and jumping distance for 1 minute, once per short or long rest.",
+      "Stonefang adds +1 Strength. As a bonus action, gain resistance to bludgeoning, piercing and slashing until the start of the next turn. Uses per short or long rest increase from one to two at level 6 and three at level 11.",
+      "Waveclaw adds +1 Charisma, air and water breathing, darkvision 60 ft. and cold resistance."
+    ]
+  },
+  {
+    "name": "Promethean",
+    "kind": "species",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Dexterity +2. Medium, walking speed 30 ft., darkvision 60 ft. Common and one chosen language. Select a playable lineage after the Chrysalis.",
+      "Crescent adds +1 Intelligence and Perception proficiency. Gain advantage on saves against mind-altering or hallucinatory effects of toxins or esper powers.",
+      "Fire-Blooded adds +1 Strength, advantage on saves against poison and disease, and resistance to poison damage. Maximum Effort doubles proficiency on a chosen Athletics or Acrobatics check once per long rest. Add one use at levels 5, 9 and 14."
+    ]
+  },
+  {
+    "name": "Valna",
+    "kind": "species",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Dexterity +2 and Wisdom +1. Medium, walking speed 30 ft., darkvision 60 ft. Common and Valna.",
+      "Claws grant a 20-ft. climb speed while free of heavy armor. Unarmed claw strikes deal 1d4 + Strength modifier slashing.",
+      "Catlike Agility adds 10 ft. of movement in any direction when taking the Disengage action.",
+      "Empathic Sense adds double proficiency to Wisdom (Insight) checks for a creature’s mood or general attitude, replacing any proficiency bonus that would otherwise apply.",
+      "Survival Training grants two proficiencies chosen from Perception, Stealth, Survival and Xenobiology."
+    ]
+  }
+]

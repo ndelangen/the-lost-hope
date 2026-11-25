@@ -1,0 +1,443 @@
+[
+  {
+    "name": "Axe Beak",
+    "statBlock": {
+      "name": "Axe Beak",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 24,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 11,
+      "hp": 19,
+      "hitDice": "3d10 + 3",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "This flightless bird cuts through brush with its axe-shaped bill. When a flock hunts together, some birds distract the prey while others attack or steer the young away from danger. Axe beaks raised from eggs can serve as mounts.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Actions": "Beak. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) Slashing damage.",
+        "Habitats": "Arctic, grassland, hill.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 24."
+      }
+    }
+  },
+  {
+    "name": "Azer Sentinel",
+    "statBlock": {
+      "name": "Azer Sentinel",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 25,
+      "classification": "Medium elemental, lawful neutral",
+      "ac": 17,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "savingThrows": {
+        "Con": 4
+      },
+      "passivePerception": 11,
+      "description": "Azer sentinels defend their community's smiths. Their living bronze bodies radiate intense heat, and their weapons carry that heat into battle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Languages": "Primordial (Ignan).",
+        "Damage immunities": "Fire, Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Fire Aura. Unless the sentinel is Incapacitated, at the end of each of its turns it deals 5 (1d10) Fire damage to every creature it chooses in a 5-ft. Emanation.\nIllumination. The sentinel sheds Bright Light within 10 ft. and Dim Light for another 10 ft.",
+        "Actions": "Burning Hammer. Melee attack, +5 to hit, reach 5 ft. A hit deals 8 (1d10 + 3) Bludgeoning damage plus 3 (1d6) Fire damage.",
+        "Habitats": "Mountain, Elemental Plane of Fire.",
+        "Treasure": "Armaments, individual.",
+        "Printed source": "Monster Manual (2024), p. 25."
+      }
+    }
+  },
+  {
+    "name": "Brazen Gorgon",
+    "statBlock": {
+      "name": "Brazen Gorgon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 149,
+      "classification": "Large construct, unaligned",
+      "ac": 19,
+      "hp": 161,
+      "hitDice": "17d10 + 68",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "skills": {
+        "Perception": 10
+      },
+      "passivePerception": 20,
+      "description": "Moloch's followers built this metal bull to guard their shrines. Its body glows from the heat inside. The ribs swing open during a charge, trapping a victim against the furnace-hot frame.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Fire.",
+        "Condition immunities": "Exhaustion, Petrified.",
+        "Traits": "Flame Aura. At the end of each of the gorgon's turns, every creature in its 5-ft. Emanation takes 13 (3d8) Fire damage.\nIllumination. The gorgon sheds Bright Light within 10 ft. and Dim Light for another 10 ft.",
+        "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee attack, +8 to hit, reach 5 ft. A hit deals 11 (2d6 + 4) Piercing damage plus 10 (3d6) Fire damage.\nSmelting Charge (Recharge 5–6). The gorgon moves up to its Speed, ignores Opportunity Attacks during the move, and can pass through spaces occupied by Medium or smaller creatures. The first time it enters each creature's space during the charge, that creature makes a DC 16 Dexterity save. On a failure, it takes 13 (2d8 + 4) Piercing damage plus 13 (3d8) Fire damage. The gorgon also pulls the creature into its space and Grapples it (escape DC 14). If the gorgon already has a creature Grappled, the new target instead falls Prone. The grappled creature is Restrained until the grapple ends, and it moves with the gorgon at no extra movement cost.",
+        "Habitats": "Forest, grassland, hill.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 149."
+      }
+    }
+  },
+  {
+    "name": "Bulette Pup",
+    "statBlock": {
+      "name": "Bulette Pup",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 63,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 16,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft., burrow 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "skills": {
+        "Perception": 4
+      },
+      "passivePerception": 14,
+      "description": "Young bulettes hunt in groups and erupt from below to seize prey in their jaws. The pups can bring down creatures larger than themselves, and an adult may be close by.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Darkvision 30 ft., Tremorsense 60 ft.",
+        "Actions": "Bite. Melee attack, +5 to hit, reach 5 ft. A hit deals 14 (2d10 + 3) Piercing damage.",
+        "Bonus actions": "Leap. The pup spends 10 ft. of movement to jump up to 30 ft.",
+        "Habitats": "Grassland, hill, mountain.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 63."
+      }
+    }
+  },
+  {
+    "name": "Cockatrice Regent",
+    "statBlock": {
+      "name": "Cockatrice Regent",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 75,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 15,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "savingThrows": {
+        "Wis": 6
+      },
+      "passivePerception": 13,
+      "description": "Larger and bolder than other cockatrices, a regent attacks with a petrifying bite. Its unstable magic lashes out against creatures that hurt it, even from a distance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft.",
+        "Condition immunities": "Petrified.",
+        "Traits": "Flyby. Flying out of an enemy's reach doesn't provoke an Opportunity Attack.",
+        "Actions": "Multiattack. Make one Petrifying Bite attack and two Talons attacks.\nPetrifying Bite. Melee attack, +7 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) Piercing damage. A creature hit also makes a DC 14 Constitution save. On a failure it is Restrained. If it is still Restrained at the end of its next turn, it repeats the save. A success ends the effect. A second failure replaces Restrained with Petrified.\nTalons. Melee attack, +7 to hit, reach 5 ft. A hit deals 18 (4d6 + 4) Slashing damage.",
+        "Reactions": "Magical Backlash. When a creature within 120 ft. damages the regent, that creature makes a DC 14 Dexterity save. On a failure, it takes 13 (3d6 + 3) Force damage.",
+        "Habitats": "Grassland.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 75."
+      }
+    }
+  },
+  {
+    "name": "Colossus",
+    "statBlock": {
+      "name": "Colossus",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 76,
+      "classification": "Gargantuan construct (titan), unaligned",
+      "ac": 23,
+      "hp": 553,
+      "hitDice": "27d20 + 270",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "25",
+      "xp": 75000,
+      "savingThrows": {
+        "Dex": 8,
+        "Wis": 8
+      },
+      "passivePerception": 10,
+      "description": "Faithful artisans build these towering figures in honor of their gods. A divine power can awaken the crystal in a colossus's heart and send it to defend the faithful or carry out the deity's will. Many lie dormant in remote places.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+16 (26).",
+        "Senses": "Truesight 300 ft.",
+        "Languages": "Understands Celestial and Common, and can't speak.",
+        "Damage resistances": "Necrotic, Radiant.",
+        "Damage immunities": "Poison, Psychic.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Stunned, Unconscious.",
+        "Traits": "Immutable Form. The colossus can't shape-shift.\nLegendary Resistance (4/day). When it fails a saving throw, the colossus can spend a use to succeed.\nMagic Resistance. The colossus has Advantage on saving throws against spells and other magical effects.\nSiege Monster. The colossus deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make three attacks using Slam or Radiant Ray in any combination.\nSlam. Melee attack, +18 to hit, reach 20 ft. A hit deals 32 (4d10 + 10) Bludgeoning damage and pushes the target up to 20 ft. directly away from the colossus.\nRadiant Ray. Ranged attack, +18 to hit, range 300 ft. A hit deals 22 (4d10) Radiant damage. A Large or smaller creature hit also falls Prone.\nDivine Beam (Recharge 5–6). Creatures in a 300-ft.-long, 10-ft.-wide Line make a DC 26 Dexterity save. The beam deals 65 (10d12) Radiant damage on a failure or half as much on a success. If this damage reduces a creature to 0 HP, it disintegrates into dust. The magic items it wore or carried remain.",
+        "Legendary actions": "3 uses. The colossus can spend one use on an option immediately after another creature's turn. It cannot do so while Incapacitated or otherwise unable to act. It regains spent uses at the start of its turn.\nSmite. Make one Radiant Ray attack.\nStomp. Move up to half its Speed without provoking Opportunity Attacks. The colossus can make one Slam attack at any point during this move.",
+        "Habitats": "Any.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 76."
+      }
+    }
+  },
+  {
+    "name": "Dire Worg",
+    "statBlock": {
+      "name": "Dire Worg",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 335,
+      "classification": "Huge fey, neutral evil",
+      "ac": 16,
+      "hp": 147,
+      "hitDice": "14d12 + 56",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Perception": 11
+      },
+      "passivePerception": 21,
+      "description": "This outsized worg unnerves prey with a supernatural howl. Dire worgs often hunt with ettins, ogres, and trolls, and can teleport with a willing ally.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Goblin, Sylvan, Worg.",
+        "Traits": "Magic Resistance. The worg has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Bite attacks.\nBite. Melee attack, +10 to hit, reach 5 ft. A hit deals 15 (2d8 + 6) Piercing damage plus 7 (2d6) Poison damage and leaves the target Poisoned until the start of the worg's next turn. The target can't regain HP while Poisoned by this bite.\nDreadful Howl (Recharge 5–6). Each creature other than a worg within 30 ft. makes a DC 16 Wisdom save. On a failure the creature takes 36 (8d8) Psychic damage and is Frightened until the start of the dire worg's next turn. On a success it takes half damage only.",
+        "Bonus actions": "Warp Step. The worg and one willing creature of its choice within 5 ft. of it teleport up to 30 ft. to an unoccupied space the worg can see.",
+        "Habitats": "Forest, grassland, hill, Feywild.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 335."
+      }
+    }
+  },
+  {
+    "name": "Ghast Gravecaller",
+    "statBlock": {
+      "name": "Ghast Gravecaller",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 130,
+      "classification": "Medium undead, chaotic evil",
+      "ac": 16,
+      "hp": 97,
+      "hitDice": "15d8 + 30",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "savingThrows": {
+        "Con": 5,
+        "Wis": 5
+      },
+      "passivePerception": 12,
+      "description": "Gravecallers speak with corpses and wield necrotic magic. Some pass themselves off as liches or vampires.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common.",
+        "Damage immunities": "Necrotic, Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Poisoned.",
+        "Traits": "Stench. Any creature that starts its turn in a 5-ft. Emanation from the ghast makes a DC 13 Constitution save. On a failure, it is Poisoned until the start of its next turn. On a success, it gains immunity to this ghast's Stench for 24 hours.",
+        "Actions": "Multiattack. Make two Horrific Necrosis attacks. The ghast can replace one of them with a Claw attack.\nClaw. Melee attack, +6 to hit, reach 5 ft. A hit deals 13 (3d6 + 3) Slashing damage. A target other than an Undead is also Paralyzed until the end of its next turn.\nHorrific Necrosis. Melee or ranged attack, +7 to hit, reach 5 ft. or range 120 ft. A hit deals 15 (2d10 + 4) Necrotic damage and leaves the target Frightened until the end of its next turn.\nSpellcasting. Cast Speak with Dead or Thaumaturgy at will using Intelligence. Neither spell requires Material components for the ghast.",
+        "Habitats": "Swamp, Underdark, urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 130."
+      }
+    }
+  }
+]

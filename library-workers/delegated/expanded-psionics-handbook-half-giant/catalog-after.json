@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Half-Giant",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "6f6fae120fd9ec10afc78686",
+      "publication": "Expanded Psionics Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://www.dndtools.one/expanded-psionics-handbook",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Giant (Psionic)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Giant with the Psionic subtype. Strength +2, Constitution +2, Dexterity −2. Base land speed 30 ft. Low-light vision extends human vision in dim light to twice the distance and retains color and detail. Humanoid-only effects such as charm person do not apply.",
+            "Fire Acclimated grants +2 racial bonus on saving throws against fire spells and effects.",
+            "Powerful Build treats a Half-Giant as one size category larger when a size modifier to an opposed check is advantageous, such as grapple, bull rush, or trip. Use the larger category when determining whether a size-based special attack, such as improved grab or swallow whole, can affect the Half-Giant.",
+            "Powerful Build allows weapons designed for creatures one size larger. Actual size determines space and reach. A Medium Half-Giant normally has 5-ft. space and reach. Powerful Build stacks with effects such as Expansion that change actual size.",
+            "Naturally Psionic grants 2 bonus power points at 1st level. Manifesting powers requires an additional source, such as a psionic class.",
+            "Racial Stomp is a psi-like ability usable once per day at half Hit Dice in manifester levels, rounded down, minimum 1. Standard action, 20-ft. cone-shaped spread along the ground. A grounded creature that fails its Reflex save falls prone and takes 1d4 nonlethal damage per racial manifester level. A success negates both effects. Save DC 11 + Charisma modifier. Power resistance does not apply. Automatic psi-like augmentation spends no PP.",
+            "Automatic language Common. Bonus languages Draconic, Giant, Gnoll, Ignan. Favored class Psychic Warrior. Level adjustment +1."
+          ]
+        },
+        {
+          "title": "Original NPC · Anet Copperstep",
+          "lines": [
+            "Desert pass rescuer and Psychic Warrior.",
+            "Motive. Get a trapped traveler off a narrow ledge before the scree slips.",
+            "Hook. Anet has the line and can reach the ledge if the party holds the upper anchor.",
+            "Half-Giant desert pass rescuer, Psychic Warrior 1 · Provisional CR 1. ECL 2. · Medium Giant (Psionic)",
+            "AC 14 · HP 11 (1d8+3) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Nadi Flintwell",
+          "lines": [
+            "Glassworks kiln watch and evacuation lead.",
+            "Motive. Clear the furnace passage before the glassworking crew loses its exit.",
+            "Hook. Nadi can guide workers through the side passage if the party moves the empty racks out of the way.",
+            "Half-Giant glassworks kiln watch, Fighter 1 · Provisional CR 1. ECL 2. · Medium Giant (Psionic)",
+            "AC 15 · HP 15 (1d10+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Anet Copperstep": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Anet Copperstep",
+              "group": "Half-Giant",
+              "publication": "Half-Giant desert pass rescuer, Psychic Warrior 1",
+              "local": {
+                "entry": "npc-0896a91f97d1309f966c1c93",
+                "version": "2d9b4598907ecc971147c949"
+              }
+            }
+          }
+        ],
+        "Original NPC · Nadi Flintwell": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Nadi Flintwell",
+              "group": "Half-Giant",
+              "publication": "Half-Giant glassworks kiln watch, Fighter 1",
+              "local": {
+                "entry": "npc-5b84239f77b0cf8bfa06cc61",
+                "version": "07718d7b6be2ecd38c2f4cb5"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Half-Giant": true,
+      "half-giant powerful build": true,
+      "half-giant stomp": true,
+      "half-giant pass rescuer": true,
+      "half-giant kiln watch": true
+    },
+    "hash": "6210261fa94dec0b336b4b5cbee6b87d869e82c5f28a5a8ed5ed936295515280",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Expanded Psionics Handbook (2004)",
+    "defaultVersionKey": "6f6fae120fd9ec10afc78686",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

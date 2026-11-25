@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Brownie",
+    "file": "portraits/brownie.png",
+    "sha256": "dc8957d4ee24f7c799117789d96a6c75e2429315e4197cfbbb19d83f8e43f205",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "name": "Dryad",
+    "file": "portraits/dryad.png",
+    "sha256": "d21cdcb59b49917f2b232440c3314d342a1296b91743587ac9ee09564b2b3999",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "name": "Faun",
+    "file": "portraits/faun.png",
+    "sha256": "f971a16a08838fd9a4ec046cbe66ba765268c86be2e138119e4b9e0979cbdba6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "name": "Hsiao",
+    "file": "portraits/hsiao.png",
+    "sha256": "b79eb70961c1621f172e899bbfd067fa0d021c7c7769617f26866ab59d26c981",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "name": "Leprechaun",
+    "file": "portraits/leprechaun.png",
+    "sha256": "3e1db3adbc0f15281435f90b51bb16c03354b588c7116293faec8a55ea12314f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "commit": "685641b6f4492c244db5c7c46b5f9a9f0ec44b98",
+  "publication": "Spelljammer: Adventures in Space",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "spelljammerRecordsWithLocalRules": 93,
+  "generatedPortraitsInstalled": 2,
+  "firstGeneratedPortraits": 1,
+  "revisedGeneratedPortraits": 1,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 536,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-27-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-27-style-reference.jpg",
+  "styleDirection": "Use actual campaign event and stage illustrations for lighting and rendering. Keep the portraits square on light, subtly textured neutral parchment.",
+  "results": "output/dm-library/encounter-batches/27/results.json",
+  "searchResults": "output/dm-library/encounter-batches/27/search-results.json",
+  "aliasesVerified": "output/dm-library/encounter-batches/27/alias-results.json",
+  "nextSourcePublication": "Monster Manual (2024)",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Dracolich (Gargantuan)",
+      "source": "https://www.dndbeyond.com/monsters/6198504-dracolich-gargantuan",
+      "challenge": "17"
+    },
+    {
+      "name": "Shadow Dragon (Large)",
+      "source": "https://www.dndbeyond.com/monsters/5195202-shadow-dragon-large",
+      "challenge": "13"
+    }
+  ],
+  "verificationBasis": "The publisher pages require access. Light of Xaryxis pp. 13, 15–16, and 34–35 supplies the named NPC rules and their 2014 base profiles."
+}

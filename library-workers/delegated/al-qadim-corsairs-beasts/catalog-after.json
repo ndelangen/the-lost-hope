@@ -1,0 +1,1742 @@
+[
+  {
+    "name": "Addazahr (Backbiter)",
+    "version": {
+      "key": "1b3a59742fc268118865c73e",
+      "publication": "Corsairs of the Great Sea",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "4"
+        ],
+        [
+          "Hit points",
+          "1"
+        ],
+        [
+          "Hit dice",
+          "1 hp"
+        ],
+        [
+          "Size",
+          "T, 2 inches long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6, Fl 18 (B)"
+        ],
+        [
+          "THAC0",
+          "20"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1 + disease"
+        ],
+        [
+          "XP",
+          "15"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Desert",
+            "Hills",
+            "Plains",
+            "Seasonal grasslands of Zakhara"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A slender pale-amber flying insect about 2 inches long, with a straw-like body and nearly transparent wings."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Bite · Deals 1 damage. A human or non-burden animal saves vs. paralyzation or develops sore, swollen joints. The separate beast-of-burden rule causes back pain and weakness that prevents carrying loads or traveling far.",
+            "Recovery · A cure disease spell cures the effect. Without magical treatment it lasts about two weeks."
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Fragile · Any hit destroys an individual. Normal or magical cold and fire can harm it. It drowns if submerged and prevented from getting out."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Arrival at Adhal · The affected camels show symptoms on the second night of travel. A successful Desert Survival or Healing proficiency check identifies the cause. See Adventure Book p. 8."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral, animal intelligence 1, morale 6. Uncommon, daytime, omnivorous, and encountered in groups of 6–60. The block gives each insect 1 HP.",
+            "The source gives a paralyzation save for people and other animals and gives no separate save in the beast-of-burden paragraph.",
+            "The second-night timing belongs to the camel encounter. The animal entry gives no general onset time.",
+            "TSR, Corsairs of the Great Sea (1994), unnumbered Monstrous Compendium leaf, p. 100."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Addazahr (Backbiter)": true,
+      "addazahr backbiter straw": true
+    },
+    "hash": "8cbae15fbe6b8cb77922af369b5c1ac2ce0caa49557fa3f1bf04a1ebcc232d5b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Electric Eel",
+    "version": {
+      "key": "69b36ffc7805df9386137d46",
+      "publication": "Corsairs of the Great Sea",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "9"
+        ],
+        [
+          "Hit points",
+          "16"
+        ],
+        [
+          "Hit dice",
+          "2"
+        ],
+        [
+          "Size",
+          "L, 9 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "Sw 12"
+        ],
+        [
+          "THAC0",
+          "16"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1d3"
+        ],
+        [
+          "XP",
+          "65"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A long-bodied electric eel, 9 ft. long in the printed encounter."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Electric discharge · Once an hour, the eel releases a shock in a 15-ft. radius. It deals 3d8 electrical damage within 5 ft., 2d8 from 5 to 10 ft., and 1d8 to everyone else within range."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Reception Pool · The eel attacks disturbances in area 4’s water-filled pit. A character who falls in begins within 5 ft. unless they flee as soon as they spot the eel."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral, nonintelligent, morale 7. The encounter fixes this eel at 16 HP.",
+            "The printed distance bands overlap at exactly 5 ft. The source gives no saving throw for the discharge.",
+            "TSR, Corsairs of the Great Sea (1994), Adventure Book p. 24."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Electric Eel": true,
+      "electric eel reception pool": true
+    },
+    "hash": "ae6e5ab0afba88275802c6e4f1451b272b9ab7e78a0bd0fa2b8e4fbfc52faabf",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Shark",
+    "version": {
+      "key": "de5e8db52998edce431e2bbf",
+      "publication": "Corsairs of the Great Sea",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit points",
+          "40"
+        ],
+        [
+          "Hit dice",
+          "7"
+        ],
+        [
+          "Size",
+          "L, 12 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "Sw 24"
+        ],
+        [
+          "THAC0",
+          "13"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "3d4"
+        ],
+        [
+          "XP",
+          "420"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Waters around Terrapin Isle"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A shark about 12 ft. long in the Terrapin Isle encounter."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Terrapin Isle · Six sharks accompany the malenti in the water and attack characters forced into it. They are listed at 40 HP and 420 XP each."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral, nonintelligent, morale 10.",
+            "TSR, Corsairs of the Great Sea (1994), Adventure Book p. 52."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Shark": true,
+      "shark malenti terrapin isle": true
+    },
+    "hash": "802eb1f7d0780cfdae404f354e0dbc36283458b6260c77027b4eb6e167a26179",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Giant Shark",
+    "version": {
+      "key": "f03700aa5f8085905c8291f6",
+      "publication": "Corsairs of the Great Sea",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit points",
+          "68"
+        ],
+        [
+          "Hit dice",
+          "11"
+        ],
+        [
+          "Size",
+          "G, 30 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "Sw 18"
+        ],
+        [
+          "THAC0",
+          "9"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "4d4"
+        ],
+        [
+          "XP",
+          "3000"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Waters around Terrapin Isle"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A gargantuan shark, about 30 ft. long in the Terrapin Isle encounter."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Swallow whole · The giant shark can swallow prey when its attack roll is at least 4 above the minimum needed to hit. Swallowed creatures take 20 damage each round. They can attack from within at a cumulative −1 penalty per round. Killing the shark is the only printed escape."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Terrapin Isle · Two giant sharks are listed in the malenti encounter, with 68 HP and 3,000 XP each."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral, nonintelligent, morale 11.",
+            "TSR, Corsairs of the Great Sea (1994), Adventure Book p. 52."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "0e1fa64c25b1c7c71503d435",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "126"
+          ],
+          [
+            "Hit dice",
+            "11d12 + 55"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 0 ft., swim 50 ft."
+          ],
+          [
+            "Str",
+            "23"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "21"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +9 to hit · reach 5 ft. · 3d10 + 6 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "589c8c4b3507028e7d675486",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "5d78df2a0e881d535f3f5ae0",
+        "publication": "DDEP2 - Mulmaster Undone V2",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "126"
+          ],
+          [
+            "Hit dice",
+            "11d12 + 55"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 0 ft., swim 50 ft."
+          ],
+          [
+            "Str",
+            "23"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "21"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +9 to hit · reach 5 ft. · 3d10 + 6 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "3f08754a9142792e054d7a7f",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Huge beast with challenge rating 5. Listed habitats: underwater. Named abilities include Blood Frenzy, Water Breathing, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20shark_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "126"
+          ],
+          [
+            "Hit dice",
+            "11d12 + 55"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 0 ft., swim 50 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "23"
+          ],
+          [
+            "Dexterity",
+            "11"
+          ],
+          [
+            "Constitution",
+            "21"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +9 to hit · reach 5 ft. · 3d10 + 6 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +3"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 60 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underwater"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Blood Frenzy",
+              "Water Breathing"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +9 to hit · 3d10 + 6 piercing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 328,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 328",
+            "url": "https://5e.tools/bestiary.html#giant%20shark_mm"
+          }
+        ],
+        "inline": {
+          "A Huge beast with challenge rating 5. Listed habitats: underwater. Named abilities include Blood Frenzy, Water Breathing, Bite.": [
+            {
+              "start": 105,
+              "end": 120,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 287,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "blindsight 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            }
+          ],
+          "Water Breathing": [
+            {
+              "start": 0,
+              "end": 15,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 287,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "78d3277a1ee37e2bff123b53",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Huge beast with challenge rating 5. Listed habitats: underwater. Named abilities include Water Breathing, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20shark_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/58417/130/1000/1000/639226715031150192.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "92"
+          ],
+          [
+            "Hit dice",
+            "8d12 + 40"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 5 ft., swim 60 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Strength",
+            "23"
+          ],
+          [
+            "Dexterity",
+            "11"
+          ],
+          [
+            "Constitution",
+            "21"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ],
+          [
+            "Initiative",
+            "+3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "underwater"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +9 to hit · reach 5 ft. · 3d10 + 6 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +3"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Blindsight 60 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Water Breathing"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Bite · Melee attack · +9 to hit · 3d10 + 6 piercing damage · reach 5 ft. · Advantage · Hit Points"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 359",
+            "url": "https://5e.tools/bestiary.html#giant%20shark_xmm"
+          },
+          {
+            "label": "Advantage (rule)",
+            "url": "https://5e.tools/variantrules.html#advantage_xphb",
+            "local": {
+              "entry": "compendium-694118169b5a4aef2291ff71",
+              "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+            },
+            "preview": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+              }
+            }
+          },
+          {
+            "label": "Hit Points (rule)",
+            "url": "https://5e.tools/variantrules.html#hit%20points_xphb",
+            "local": {
+              "entry": "compendium-5d00c0625087810d93d13966",
+              "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+            },
+            "preview": {
+              "name": "Hit Points",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 368,
+              "local": {
+                "entry": "compendium-5d00c0625087810d93d13966",
+                "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Huge beast with challenge rating 5. Listed habitats: underwater. Named abilities include Water Breathing, Bite.": [
+            {
+              "start": 91,
+              "end": 106,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "XPHB:340:https://5e.tools/spells.html#water%20breathing_xphb"
+                }
+              }
+            }
+          ],
+          "Hit points": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Hit Points",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-5d00c0625087810d93d13966",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            }
+          ],
+          "Water Breathing": [
+            {
+              "start": 0,
+              "end": 15,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "XPHB:340:https://5e.tools/spells.html#water%20breathing_xphb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +9 to hit · 3d10 + 6 piercing damage · reach 5 ft. · Advantage · Hit Points": [
+            {
+              "start": 75,
+              "end": 84,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            },
+            {
+              "start": 87,
+              "end": 97,
+              "target": {
+                "name": "Hit Points",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-5d00c0625087810d93d13966",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "ccd16ec2d645ba16e3ca36fa",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "description": "A giant shark is 30 feet long and normally found in deep oceans. Utterly fearless, it preys on anything that crosses its path, including whales and ships.",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "126"
+          ],
+          [
+            "Hit dice",
+            "11d12 + 55"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "0 ft., swim 50 ft."
+          ],
+          [
+            "XP",
+            "1800"
+          ],
+          [
+            "Str",
+            "23"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "21"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Huge beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +3 Senses blindsight 60 ft., passive Perception 13 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Blood Frenzy. The shark has advantage on melee attack rolls against any creature that doesn’t have all its hit points. Water Breathing. The shark can breathe only underwater."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +3 Senses blindsight 60 ft., passive Perception 13 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Blood Frenzy. The shark has advantage on melee attack rolls against any creature that doesn’t have all its hit points. Water Breathing. The shark can breathe only underwater.": [
+            {
+              "start": 28,
+              "end": 37,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 119,
+              "end": 134,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 287,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "1c624a3294f9413b87b9bd4d",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "92"
+          ],
+          [
+            "Hit dice",
+            "8d12 + 40"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "5 ft., Swim 60 ft."
+          ],
+          [
+            "XP",
+            "1800"
+          ],
+          [
+            "Str",
+            "23"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "21"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Huge Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +3 Senses Blindsight 60 ft.; Passive Perception 13 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Water Breathing. The shark can breathe only underwater."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The shark makes two Bite attacks. Bite. Melee Attack Roll: +9 (with Advantage if the target doesn’t have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +3 Senses Blindsight 60 ft.; Passive Perception 13 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            },
+            {
+              "start": 47,
+              "end": 65,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Water Breathing. The shark can breathe only underwater.": [
+            {
+              "start": 0,
+              "end": 15,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "XPHB:340:https://5e.tools/spells.html#water%20breathing_xphb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The shark makes two Bite attacks. Bite. Melee Attack Roll: +9 (with Advantage if the target doesn’t have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage.": [
+            {
+              "start": 59,
+              "end": 70,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 81,
+              "end": 90,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            },
+            {
+              "start": 126,
+              "end": 136,
+              "target": {
+                "name": "Hit Points",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-5d00c0625087810d93d13966",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Shark": true,
+      "giant shark terrapin isle swallowed": true
+    },
+    "hash": "0530ca2b868e9110ca7b33a850b86b1e8a1b92d92fd62faa4ad1b5ada029a6bb",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ]
+  }
+]

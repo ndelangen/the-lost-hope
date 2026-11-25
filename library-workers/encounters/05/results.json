@@ -1,0 +1,737 @@
+[
+  {
+    "name": "Arcanaloth",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "challenge": "12",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17109-arcanaloth",
+    "index": "https://5e.tools/bestiary.html#arcanaloth_mm",
+    "appearance": "A jackal-headed fiend with hands capable of wielding magic and a taste for fine robes.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Beholder",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "13",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17099-beholder",
+    "index": "https://5e.tools/bestiary.html#beholder_mm",
+    "appearance": "A floating sphere with a great central eye, a toothy mouth and a crown of smaller eyes on stalks.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Beholder",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "13",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17099-beholder",
+    "index": "https://5e.tools/bestiary.html#beholder_mm",
+    "appearance": "A floating sphere with a great central eye, a toothy mouth and a crown of smaller eyes on stalks.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Beholder Zombie",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17111-beholder-zombie",
+    "index": "https://5e.tools/bestiary.html#beholder%20zombie_mm",
+    "appearance": "A decaying beholder with a torn hide, a cloudy central eye and smaller eyestalks.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Bone Naga",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17118-bone-naga",
+    "index": null,
+    "appearance": "The animated skeleton of a naga, with a serpentine spine and a fanged head.",
+    "habitats": null
+  },
+  {
+    "name": "Crawling Claw",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "challenge": "0",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17139-crawling-claw",
+    "index": "https://5e.tools/bestiary.html#crawling%20claw_mm",
+    "appearance": "A severed hand animated to move on its fingers.",
+    "habitats": null
+  },
+  {
+    "name": "Crawling Claw",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "0",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17139-crawling-claw",
+    "index": "https://5e.tools/bestiary.html#crawling%20claw_mm",
+    "appearance": "A severed hand animated to move on its fingers.",
+    "habitats": null
+  },
+  {
+    "name": "Death Slaad",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "challenge": "10",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17113-death-slaad",
+    "index": "https://5e.tools/bestiary.html#death%20slaad_mm",
+    "appearance": "A slate-gray, toadlike humanoid with clawed hands. It can assume a humanoid guise.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Death Slaad",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "10",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17113-death-slaad",
+    "index": "https://5e.tools/bestiary.html#death%20slaad_mm",
+    "appearance": "A slate-gray, toadlike humanoid with clawed hands. It can assume a humanoid guise.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Displacer Beast",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17130-displacer-beast",
+    "index": "https://5e.tools/bestiary.html#displacer%20beast_mm",
+    "appearance": "A six-legged, panther-like predator with two barbed tentacles rising from its shoulders.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Empyrean",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "23",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17212-empyrean",
+    "index": "https://5e.tools/bestiary.html#empyrean_mm",
+    "appearance": "A towering, humanlike celestial with the build and features of an idealized deity.",
+    "habitats": [
+      "Upper Planes",
+      "Material Plane, where some evil empyreans settle"
+    ]
+  },
+  {
+    "name": "Fire Snake",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17199-fire-snake",
+    "index": "https://5e.tools/bestiary.html#fire%20snake_mm",
+    "appearance": "A snake-shaped young salamander with a body that radiates intense heat.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Fomorian",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17146-fomorian",
+    "index": "https://5e.tools/bestiary.html#fomorian_mm",
+    "appearance": "An enormous, misshapen giant with mismatched limbs and a prominent, baleful eye.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Fomorian",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17146-fomorian",
+    "index": "https://5e.tools/bestiary.html#fomorian_mm",
+    "appearance": "An enormous, misshapen giant with mismatched limbs and a prominent, baleful eye.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Githzerai Zerth",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17152-githzerai-zerth",
+    "index": "https://5e.tools/bestiary.html#githzerai%20zerth_mm",
+    "appearance": "A lean, angular humanoid with pointed ears and yellow-toned skin who fights without armor.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Gnoll Fang of Yeenoghu",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17154-gnoll-fang-of-yeenoghu",
+    "index": "https://5e.tools/bestiary.html#gnoll%20fang%20of%20yeenoghu_mm",
+    "appearance": "A demonic, upright hyena with a snapping jaw and long claws.",
+    "habitats": [
+      "Grassland",
+      "Forest",
+      "Hill",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Gnoll Pack Lord",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17153-gnoll-pack-lord",
+    "index": "https://5e.tools/bestiary.html#gnoll%20pack%20lord_mm",
+    "appearance": "An upright hyena with a powerful build, a long muzzle and a leader’s gear.",
+    "habitats": [
+      "Grassland",
+      "Forest",
+      "Hill",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Green Slaad",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17115-green-slaad",
+    "index": "https://5e.tools/bestiary.html#green%20slaad_mm",
+    "appearance": "A large, green, toadlike humanoid that can hide its shape behind a humanoid guise.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Grick Alpha",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17158-grick-alpha",
+    "index": "https://5e.tools/bestiary.html#grick%20alpha_mm",
+    "appearance": "A large, rock-colored worm with a hooked beak surrounded by four barbed tentacles.",
+    "habitats": [
+      "Underdark",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Half-Ogre",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17185-half-ogre",
+    "index": "https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm",
+    "appearance": "A broad, towering humanoid with an ogre’s build, often armed with a battleaxe.",
+    "habitats": [
+      "Underdark",
+      "Mountain",
+      "Forest",
+      "Hill",
+      "Urban",
+      "Desert",
+      "Arctic"
+    ]
+  },
+  {
+    "name": "Helmed Horror",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17159-helmed-horror",
+    "index": "https://5e.tools/bestiary.html#helmed%20horror_mm",
+    "appearance": "A hollow suit of plate armor that moves and fights on its own.",
+    "habitats": null
+  },
+  {
+    "name": "Hobgoblin Captain",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17160-hobgoblin-captain",
+    "index": "https://5e.tools/bestiary.html#hobgoblin%20captain_mm",
+    "appearance": "An upright, red- or orange-skinned goblinoid in half plate, armed with a greatsword.",
+    "habitats": [
+      "Underdark",
+      "Grassland",
+      "Forest",
+      "Hill",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Hobgoblin Warlord",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17161-hobgoblin-warlord",
+    "index": "https://5e.tools/bestiary.html#hobgoblin%20warlord_mm",
+    "appearance": "An armored goblinoid officer carrying a longsword, shield and javelins.",
+    "habitats": [
+      "Underdark",
+      "Grassland",
+      "Forest",
+      "Hill",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Kenku",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17165-kenku",
+    "index": "https://5e.tools/bestiary.html#kenku_mm",
+    "appearance": "A feathered, crowlike humanoid with a beak and no wings.",
+    "habitats": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Marid",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "11",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17143-marid",
+    "index": "https://5e.tools/bestiary.html#marid_mm",
+    "appearance": "A towering water genie with fishlike features.",
+    "habitats": [
+      "Underwater",
+      "Coastal"
+    ]
+  },
+  {
+    "name": "Marid",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "11",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17143-marid",
+    "index": "https://5e.tools/bestiary.html#marid_mm",
+    "appearance": "A towering water genie with fishlike features.",
+    "habitats": [
+      "Underwater",
+      "Coastal"
+    ]
+  },
+  {
+    "name": "Mezzoloth",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17124-mezzoloth",
+    "index": "https://5e.tools/bestiary.html#mezzoloth_mm",
+    "appearance": "A stocky insectlike fiend armed with claws and a trident.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Monodrone",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17176-monodrone",
+    "index": "https://5e.tools/bestiary.html#monodrone_mm",
+    "appearance": "A spherical modron with one central eye and a pair of wings.",
+    "habitats": [
+      "Mechanus"
+    ]
+  },
+  {
+    "name": "Mud Mephit",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17173-mud-mephit",
+    "index": "https://5e.tools/bestiary.html#mud%20mephit_mm",
+    "appearance": "A winged elemental made of mud that can pass for an ordinary mound when still.",
+    "habitats": [
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Needle Blight",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17215-needle-blight",
+    "index": "https://5e.tools/bestiary.html#needle%20blight_mm",
+    "appearance": "A shambling plant creature covered with sharp conifer-like needles.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Nycaloth",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17125-nycaloth",
+    "index": "https://5e.tools/bestiary.html#nycaloth_mm",
+    "appearance": "A muscular, bat-winged fiend with clawed hands and a greataxe.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Pentadrone",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17179-pentadrone",
+    "index": "https://5e.tools/bestiary.html#pentadrone_mm",
+    "appearance": "A five-armed geometric modron with a star-shaped body.",
+    "habitats": [
+      "Mechanus"
+    ]
+  },
+  {
+    "name": "Peryton",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17190-peryton",
+    "index": "https://5e.tools/bestiary.html#peryton_mm",
+    "appearance": "A predatory bird with a stag’s head and branching antlers. Its shadow can look humanoid.",
+    "habitats": [
+      "Mountain",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Quadrone",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17178-quadrone",
+    "index": "https://5e.tools/bestiary.html#quadrone_mm",
+    "appearance": "A cube-bodied modron with wings and four arms.",
+    "habitats": [
+      "Mechanus"
+    ]
+  },
+  {
+    "name": "Red Slaad",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17116-red-slaad",
+    "index": "https://5e.tools/bestiary.html#red%20slaad_mm",
+    "appearance": "A muscular red, toadlike creature with long claws.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Red Slaad",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17116-red-slaad",
+    "index": "https://5e.tools/bestiary.html#red%20slaad_mm",
+    "appearance": "A muscular red, toadlike creature with long claws.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Revenant",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17196-revenant",
+    "index": "https://5e.tools/bestiary.html#revenant_mm",
+    "appearance": "An animated humanoid corpse whose eyes betray the spirit’s burning determination.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Hill",
+      "Urban",
+      "Desert",
+      "Arctic"
+    ]
+  },
+  {
+    "name": "Revenant",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17196-revenant",
+    "index": "https://5e.tools/bestiary.html#revenant_mm",
+    "appearance": "An animated humanoid corpse whose eyes betray the spirit’s burning determination.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Hill",
+      "Urban",
+      "Desert",
+      "Arctic"
+    ]
+  },
+  {
+    "name": "Sahuagin Baron",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17198-sahuagin-baron",
+    "index": "https://5e.tools/bestiary.html#sahuagin%20baron_mm",
+    "appearance": "A large, four-armed fishlike humanoid with fins, claws and rows of sharp teeth.",
+    "habitats": [
+      "Underwater",
+      "Coastal"
+    ]
+  },
+  {
+    "name": "Scarecrow",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17200-scarecrow",
+    "index": "https://5e.tools/bestiary.html#scarecrow_mm",
+    "appearance": "A straw-stuffed figure animated to stand guard or pursue intruders.",
+    "habitats": [
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Shadow Demon",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17131-shadow-demon",
+    "index": "https://5e.tools/bestiary.html#shadow%20demon_mm",
+    "appearance": "A flying demon with the insubstantial shape of a horned shadow.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Shadow Demon",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17131-shadow-demon",
+    "index": "https://5e.tools/bestiary.html#shadow%20demon_mm",
+    "appearance": "A flying demon with the insubstantial shape of a horned shadow.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Slaad Tadpole",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17117-slaad-tadpole",
+    "index": "https://5e.tools/bestiary.html#slaad%20tadpole_mm",
+    "appearance": "A tiny, clawed, toadlike larva that hatches after a red slaad’s egg gestates in its host.",
+    "habitats": null
+  },
+  {
+    "name": "Smoke Mephit",
+    "kind": "monster",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17174-smoke-mephit",
+    "index": "https://5e.tools/bestiary.html#smoke%20mephit_mm",
+    "appearance": "A small, winged elemental with a body made of smoke.",
+    "habitats": [
+      "Urban"
+    ]
+  },
+  {
+    "name": "Thri-kreen",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17203-thri-kreen",
+    "index": "https://5e.tools/bestiary.html#thri-kreen_mm",
+    "appearance": "A four-armed insectoid with mandibles, antennae and a color-changing carapace.",
+    "habitats": [
+      "Grassland",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Umber Hulk",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17205-umber-hulk",
+    "index": "https://5e.tools/bestiary.html#umber%20hulk_mm",
+    "appearance": "A broad, armored burrower with insectlike eyes, heavy claws and powerful mandibles.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Water Weird",
+    "kind": "monster",
+    "publication": "Dragonlance: Shadow of the Dragon Queen",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17208-water-weird",
+    "index": "https://5e.tools/bestiary.html#water%20weird_mm",
+    "appearance": "A transparent, serpentine shape formed from water. It vanishes from sight when fully submerged.",
+    "habitats": [
+      "Underdark",
+      "Urban",
+      "Pools and fountains"
+    ]
+  },
+  {
+    "name": "Water Weird",
+    "kind": "monster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17208-water-weird",
+    "index": "https://5e.tools/bestiary.html#water%20weird_mm",
+    "appearance": "A transparent, serpentine shape formed from water. It vanishes from sight when fully submerged.",
+    "habitats": [
+      "Underdark",
+      "Urban",
+      "Pools and fountains"
+    ]
+  },
+  {
+    "name": "Water Weird",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17208-water-weird",
+    "index": "https://5e.tools/bestiary.html#water%20weird_mm",
+    "appearance": "A transparent, serpentine shape formed from water. It vanishes from sight when fully submerged.",
+    "habitats": [
+      "Underdark",
+      "Urban",
+      "Pools and fountains"
+    ]
+  },
+  {
+    "name": "Yochlol",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "10",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17127-yochlol",
+    "index": "https://5e.tools/bestiary.html#yochlol_mm",
+    "appearance": "In its demon form, a pillar of yellow slime with one eye and flailing tentacles. It can resemble a drow or a giant spider.",
+    "habitats": [
+      "Demonweb Pits in the Abyss",
+      "Temples of Lolth on the Material Plane"
+    ]
+  }
+]

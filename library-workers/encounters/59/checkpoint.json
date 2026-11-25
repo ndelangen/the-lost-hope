@@ -1,0 +1,26 @@
+{
+  "commit": "b6014da531f8b61453f6b4e75998ab100646e9fc",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "preservedGalleries": 2,
+  "recentProfilesWithGeneratedPortrait": 616,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-59-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/59/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Hobgoblin Death Captain",
+      "source": "https://www.dndbeyond.com/monsters/4485883-hobgoblin-death-captain",
+      "challenge": "6"
+    },
+    {
+      "name": "Hobgoblin War Mage",
+      "source": "https://www.dndbeyond.com/monsters/4485889-hobgoblin-war-mage",
+      "challenge": "3"
+    }
+  ],
+  "nextSourceNote": "Both are indexed source-only in the current catalog. Verify distinct combat roles and keep publication variants under each existing entry."
+}

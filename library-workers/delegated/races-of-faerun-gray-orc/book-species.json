@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Gray Orc",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid (Orc). +2 Strength, −2 Intelligence, +2 Wisdom, −2 Charisma. Land speed 40 ft.",
+      "Proficient with the greataxe and longbow.",
+      "Light Sensitivity (Ex) gives −1 on attack rolls in bright sunlight or within a daylight spell.",
+      "Scent (Ex). Detect creatures by smell at 30 ft. in still air, 60 ft. upwind and 15 ft. downwind. Use a move action to determine direction. Pinpoint a scent source within 5 ft.",
+      "A character with Track can follow a scent trail using Survival. A fresh trail typically has DC 10, increasing by 2 per hour.",
+      "Orc Blood. Counts as an orc for racial effects and items.",
+      "Common and Orc are automatic. Bonus languages are Draconic, Giant, and Goblin.",
+      "Favored class Cleric. No racial Hit Dice. Level adjustment +1 gives ECL 2 at the first class level.",
+      "This 3.5 profile uses the printed attack-only Light Sensitivity and core Scent rules. The Gray Orc player entry does not grant darkvision."
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Lich",
+    "pages": "pp. 202–203",
+    "statBlock": {
+      "name": "Lich",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, any evil alignment",
+      "ac": 17,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "30 ft.",
+      "cr": "21",
+      "xp": 33000,
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "An undead wizard whose phylactery anchors its soul. A lich can keep artifacts and spellbooks close at hand while hiding the phylactery elsewhere.",
+      "otherStatistics": "Natural armor. Saves Con +10, Int +12, Wis +9. Skills Arcana +19, History +12, Insight +9, Perception +9. Resists cold, lightning, and necrotic. Immune to poison damage and bludgeoning, piercing, and slashing from nonmagical attacks. Immune to Charmed, Exhaustion, Frightened, Paralyzed, and Poisoned. Truesight 120 ft., passive Perception 19. Common and up to five other languages.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). The lich can turn a failed saving throw into a success.\nRejuvenation. If its phylactery still exists when the lich is destroyed, a new body forms within 5 ft. of it in 1d10 days. The lich returns with full HP.\nTurn Resistance. The lich has advantage on saves against effects that turn undead.\nUndead Nature. The lich doesn't need air, food, drink, or sleep.",
+        "Spellcasting": "18th-level wizard spellcaster. Intelligence is its spellcasting ability (save DC 20, +12 to hit). The following spells are prepared.\nAt will (cantrips). Mage Hand, Prestidigitation, Ray of Frost.\n1st level (4 slots). Detect Magic, Magic Missile, Shield, Thunderwave.\n2nd level (3 slots). Detect Thoughts, Invisibility, Melf's Acid Arrow, Mirror Image.\n3rd level (3 slots). Animate Dead, Counterspell, Dispel Magic, Fireball.\n4th level (3 slots). Blight, Dimension Door.\n5th level (3 slots). Cloudkill, Scrying.\n6th level (1 slot). Disintegrate, Globe of Invulnerability.\n7th level (1 slot). Finger of Death, Plane Shift.\n8th level (1 slot). Dominate Monster, Power Word Stun.\n9th level (1 slot). Power Word Kill.",
+        "Actions": "Paralyzing Touch. Melee spell attack, +12 to hit, reach 5 ft., one creature. Hit 10 (3d6) cold damage. The target makes a DC 18 Constitution save or is Paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the paralysis on a success.",
+        "Legendary actions": "The creature has 3 legendary actions and spends them one option at a time at the end of another creature's turn. It regains them at the start of its turn. It can't use them while incapacitated or otherwise unable to act, or before its first turn if surprised.\nCantrip (1 action). Cast one cantrip.\nParalyzing Touch (2 actions). Use Paralyzing Touch.\nFrightening Gaze (2 actions). Choose one visible creature within 10 ft. It makes a DC 18 Wisdom save against this magic or is Frightened for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. After it succeeds or the effect ends, it is immune to this gaze for 24 hours.\nDisrupt Life (3 actions). Each non-undead creature within 20 ft. makes a DC 18 Constitution save against this magic. Failure deals 21 (6d6) necrotic damage. Success halves it.",
+        "Lair actions": "In its lair the lich is CR 22 (41,000 XP). On initiative count 20, losing ties, choose one option that was not used the previous round. The creature can't use a lair action while incapacitated or otherwise unable to act, or before its first turn if surprised.\nRecover a Spell Slot. Roll 1d8. Regain one spent spell slot of the rolled level or lower. If no spent slot qualifies, the action has no effect.\nNegative Energy Tether. Link to a visible creature within 30 ft. Whenever the lich takes damage, the target makes a DC 18 Constitution save. On a failure the lich takes half the damage, rounded down, and the target takes the remainder. The link ends on initiative count 20 of the next round or when either creature leaves the lair.\nSpirits of the Dead. Call apparitions of creatures that died in the lair to attack one visible creature within 60 ft. It makes a DC 18 Constitution save. Failure deals 52 (15d6) necrotic damage. Success halves it. The apparitions vanish after the attack.",
+        "Phylactery": "Feed the Phylactery. If the lich casts Imprisonment for this purpose, it can trap the body and soul of one target in its phylactery in place of the usual imprisonment options. The lich and phylactery must be on the same plane, and the phylactery holds only one creature at a time.\nDispel Magic cast on the phylactery with a 9th-level slot releases its prisoner. After 24 hours inside, the prisoner is consumed and only divine intervention can restore them to life.\nThe phylactery may require a particular ritual, item, or weapon to destroy. The print leaves that requirement to the DM. Imprisonment is part of the printed phylactery procedure and does not appear in this stat block’s prepared spell list.",
+        "Printed source": "Monster Manual (2014), pp. 202–203, with official errata."
+      }
+    }
+  },
+  {
+    "name": "Tarrasque",
+    "pages": "p. 286",
+    "statBlock": {
+      "name": "Tarrasque",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan monstrosity (titan), unaligned",
+      "ac": 25,
+      "hp": 676,
+      "hitDice": "33d20 + 330",
+      "speed": "40 ft.",
+      "cr": "30",
+      "xp": 155000,
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "A towering, heavily armored titan that surfaces after long periods of dormancy. It tears through walls and can swallow creatures whole.",
+      "otherStatistics": "Natural armor. Saves Int +5, Wis +9, Cha +9. Immune to fire, poison, and bludgeoning, piercing, and slashing from nonmagical attacks. Immune to Charmed, Frightened, Paralyzed, and Poisoned. Blindsight 120 ft., passive Perception 10. No languages.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). The tarrasque can turn a failed saving throw into a success.\nMagic Resistance. The tarrasque has advantage on saves against spells and other magical effects.\nReflective Carapace. If targeted by Magic Missile, a line spell, or any spell that requires a ranged attack roll, roll 1d6. The tarrasque is unaffected on every result. On a 6, it reflects the effect back at the caster, who becomes the target as if the tarrasque cast the spell.\nSiege Monster. The tarrasque deals double damage to objects and structures.",
+        "Actions": "Multiattack. The tarrasque may first use Frightful Presence. It then makes one Bite, two Claw attacks, one Horns attack, and one Tail attack. It can use Swallow in place of Bite.\nBite. Melee weapon attack, +19 to hit, reach 10 ft., one target. Hit 36 (4d12 + 10) piercing damage. A creature hit by it is Grappled (escape DC 20) and Restrained while that grapple lasts. The tarrasque cannot bite another target until the grapple ends.\nClaw. Melee weapon attack, +19 to hit, reach 15 ft., one target. Hit 28 (4d8 + 10) slashing damage.\nHorns. Melee weapon attack, +19 to hit, reach 10 ft., one target. Hit 32 (4d10 + 10) piercing damage.\nTail. Melee weapon attack, +19 to hit, reach 20 ft., one target. Hit 24 (4d6 + 10) bludgeoning damage. A creature hit by it falls Prone unless it succeeds on a DC 20 Strength save.\nFrightful Presence. Choose any creatures within 120 ft. that are aware of the tarrasque. Each makes a DC 17 Wisdom save or is Frightened for 1 minute. A target can repeat the save at the end of each of its turns, with disadvantage if the tarrasque is within its line of sight. Success ends the effect. A creature that saves or whose fear ends is immune to this Frightful Presence for 24 hours.\nSwallow. Make a Bite attack against a Large or smaller creature the tarrasque is grappling. A hit deals Bite damage, ends the grapple, and swallows it. A swallowed creature is Blinded and Restrained, has total cover from outside the tarrasque, and takes 56 (16d6) acid damage at the start of each of the tarrasque's turns. If a swallowed creature deals at least 60 damage to the tarrasque in a single turn, the tarrasque makes a DC 20 Constitution save at the end of that turn. On a failure it regurgitates all swallowed creatures. They land Prone within 10 ft. of it. If the tarrasque dies, the restraint from swallowing ends. A swallowed creature can spend 30 ft. of movement to exit the corpse Prone.",
+        "Legendary actions": "The creature has 3 legendary actions and spends them one option at a time at the end of another creature's turn. It regains them at the start of its turn. It can't use them while incapacitated or otherwise unable to act, or before its first turn if surprised.\nAttack (1 action). Make one Claw or Tail attack.\nMove (1 action). Move up to half its speed.\nChomp (2 actions). Make one Bite attack or use Swallow.",
+        "Printed source": "Monster Manual (2014), p. 286, with official errata."
+      }
+    }
+  },
+  {
+    "name": "Adult Red Dragon",
+    "pages": "pp. 98–99 and 86",
+    "statBlock": {
+      "name": "Adult Red Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge dragon, chaotic evil",
+      "ac": 19,
+      "hp": 256,
+      "hitDice": "19d12 + 133",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "cr": "17",
+      "xp": 18000,
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "description": "A territorial dragon that watches the land from high peaks and guards its hoard in mountain caverns. Heat and vents make a volcanic lair especially dangerous to intruders.",
+      "otherStatistics": "Natural armor. Saves Dex +6, Con +13, Wis +7, Cha +11. Skills Perception +13, Stealth +6. Immune to fire damage. Blindsight 60 ft., darkvision 120 ft., passive Perception 23. Common and Draconic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). The dragon can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. The dragon may first use Frightful Presence. It then makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +14 to hit, reach 10 ft., one target. Hit 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage.\nClaw. Melee weapon attack, +14 to hit, reach 5 ft., one target. Hit 15 (2d6 + 8) slashing damage.\nTail. Melee weapon attack, +14 to hit, reach 15 ft., one target. Hit 17 (2d8 + 8) bludgeoning damage.\nFrightful Presence. Choose any creatures within 120 ft. that are aware of the dragon. Each makes a DC 19 Wisdom save or is Frightened for 1 minute. A target can repeat the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends is immune to this Frightful Presence for 24 hours.\nFire Breath (recharge 5–6). Creatures in a 60-ft. cone make a DC 21 Dexterity save. Failure deals 63 (18d6) fire damage. Success halves it.",
+        "Legendary actions": "The creature has 3 legendary actions and spends them one option at a time at the end of another creature's turn. It regains them at the start of its turn. It can't use them while incapacitated or otherwise unable to act, or before its first turn if surprised.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make a Tail attack.\nWing Attack (2 actions). Each creature within 10 ft. makes a DC 22 Dexterity save. On a failure, it takes 15 (2d6 + 8) bludgeoning damage and falls Prone. The dragon can then fly up to 40 ft., half its flying speed.",
+        "Lair actions": "On initiative count 20, losing ties, choose one option that was not used the previous round. The creature can't use a lair action while incapacitated or otherwise unable to act, or before its first turn if surprised.\nMagma Geyser. Choose a ground point the dragon can see within 120 ft. Magma erupts in a 5-ft.-radius, 20-ft.-high column. Each creature in it makes a DC 15 Dexterity save. Failure deals 21 (6d6) fire damage. Success halves it.\nTremor. Each other creature on the ground within 60 ft. of the dragon makes a DC 15 Dexterity save or falls Prone.\nVolcanic Gas. Choose a visible point within 120 ft. A 20-ft.-radius sphere of gas spreads around corners and is lightly obscured. It lasts until initiative count 20 of the next round. Each creature starting its turn inside makes a DC 13 Constitution save or is Poisoned until the end of its turn. A creature poisoned this way is also Incapacitated.",
+        "Regional effects": "Small earthquakes are common within 6 miles of the lair. Water sources within 1 mile are unnaturally warm and sulfurous. Rocky fissures within 1 mile form portals to the Elemental Plane of Fire and admit creatures from that plane. These effects fade over 1d10 days after the dragon dies.",
+        "Variant spellcasting": "Under the optional dragon spellcasting rule, choose five spells of 5th level or lower. The dragon can cast each once per day without material components. Its Charisma spell save DC is 19 and its spell attack bonus is +11. The book leaves the spell choices to the DM.",
+        "Printed source": "Monster Manual (2014), pp. 98–99 and 86."
+      }
+    }
+  }
+]

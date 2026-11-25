@@ -1,0 +1,21 @@
+{
+  "baseline": "48e21a5c9ecdef5b87e4a961710ea5c669011794",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Mongrelfolk"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Destiny (2004)",
+  "emulateRaceDiffuseBloodAndSoundImitationVerified": true,
+  "existingFifthEditionMonsterPreserved": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

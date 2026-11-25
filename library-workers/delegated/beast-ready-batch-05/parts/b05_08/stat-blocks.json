@@ -1,0 +1,216 @@
+[
+  {
+    "name": "Triceratops",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 95,
+    "hitDice": "10d12 + 30",
+    "speed": "50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC from natural armor. Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy four-legged dinosaur with rough brown hide, a broad bony frill, two long brow horns, a shorter nose horn, and a heavy tail.",
+    "habitats": [
+      "Grassland",
+      "Open plains",
+      "Open woodland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 156. ",
+      "Traits": "Trampling Charge. Move at least 20 ft. directly toward a creature and hit it with Gore that turn. The creature must pass a DC 13 Strength save or fall prone. If that target is prone, the triceratops can Stomp it once as a bonus action.",
+      "Actions": "Gore. Melee weapon attack, +9 to hit against one target within 5 ft. A hit deals 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit against one prone creature within 5 ft. A hit deals 22 (3d10 + 6) bludgeoning damage.",
+      "At the table": "Stomp can be chosen as the normal action against a prone creature. Trampling Charge is what enables the bonus-action Stomp against the creature hit by Gore."
+    }
+  },
+  {
+    "name": "Triceratops",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 95,
+    "hitDice": "10d12 + 30",
+    "speed": "50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC from natural armor. Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy four-legged dinosaur with rough brown hide, a broad bony frill, two long brow horns, a shorter nose horn, and a heavy tail.",
+    "habitats": [
+      "Grassland",
+      "Open plains",
+      "Open woodland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 80. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/",
+      "Traits": "Trampling Charge. Move at least 20 ft. directly toward a creature and hit it with Gore that turn. The creature must pass a DC 13 Strength save or fall prone. If that target is prone, the triceratops can Stomp it once as a bonus action.",
+      "Actions": "Gore. Melee weapon attack, +9 to hit against one target within 5 ft. A hit deals 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit against one prone creature within 5 ft. A hit deals 22 (3d10 + 6) bludgeoning damage.",
+      "At the table": "Stomp can be chosen as the normal action against a prone creature. Trampling Charge is what enables the bonus-action Stomp against the creature hit by Gore."
+    }
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 136,
+    "hitDice": "13d12 + 52",
+    "speed": "50 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 9,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "AC from natural armor. Perception +4. Passive Perception 14. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A huge orange-brown bipedal dinosaur with dark mottling, an oversized toothed head, short two-fingered forelimbs, heavy hind legs, and a long balancing tail.",
+    "habitats": [
+      "Grassland",
+      "Open plains",
+      "Woodland edges"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 157. ",
+      "Actions": "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit against one target within 10 ft. A hit deals 33 (4d12 + 7) piercing damage. A Medium or smaller creature hit is also grappled, escape DC 17, and restrained while grappled. The tyrannosaurus cannot Bite a different target while this grapple lasts.\nTail. Melee weapon attack, +10 to hit against one target within 10 ft. A hit deals 20 (3d8 + 7) bludgeoning damage.",
+      "At the table": "The Bite grapples on a hit without a further roll. The grappled creature can spend its action to attempt a DC 17 Strength (Athletics) or Dexterity (Acrobatics) check to escape."
+    }
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 136,
+    "hitDice": "13d12 + 52",
+    "speed": "50 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 9,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "AC from natural armor. Perception +4. Passive Perception 14. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A huge orange-brown bipedal dinosaur with dark mottling, an oversized toothed head, short two-fingered forelimbs, heavy hind legs, and a long balancing tail.",
+    "habitats": [
+      "Grassland",
+      "Open plains",
+      "Woodland edges"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 80. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/",
+      "Actions": "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit against one target within 10 ft. A hit deals 33 (4d12 + 7) piercing damage. A Medium or smaller creature hit is also grappled, escape DC 17, and restrained while grappled. The tyrannosaurus cannot Bite a different target while this grapple lasts.\nTail. Melee weapon attack, +10 to hit against one target within 10 ft. A hit deals 20 (3d8 + 7) bludgeoning damage.",
+      "At the table": "The Bite grapples on a hit without a further roll. The grappled creature can spend its action to attempt a DC 17 Strength (Athletics) or Dexterity (Acrobatics) check to escape."
+    }
+  }
+]

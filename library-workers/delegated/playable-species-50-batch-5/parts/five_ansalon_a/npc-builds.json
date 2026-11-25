@@ -1,0 +1,232 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid (kender)",
+      "size": "Small",
+      "id": "dnd35-ansalon-kender-nim-alderloop",
+      "title": "Millrace scout, true Kender Rogue 1",
+      "difficulty": "Rogue 1, ECL 1, CR 1.",
+      "speed": "30 ft.",
+      "ac": 17,
+      "hp": 8,
+      "hitDice": "1d6+2",
+      "initiative": 7,
+      "senses": "Normal vision.",
+      "languages": "Common, Kenderspeak, Goblin.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Bluff +4 (+8 to taunt)",
+        "Disable Device +5",
+        "Hide +10",
+        "Move Silently +6",
+        "Open Lock +9",
+        "Search +5",
+        "Sleight of Hand +8",
+        "Spot +6",
+        "Tumble +6"
+      ],
+      "traits": [
+        "Studded leather +3, Dex +3, size +1. Touch 14, flat-footed 14. BAB +0, grapple –5. Fort +3, Ref +6, Will +1.",
+        "Four ranks each in the nine listed skills. Studded leather applies a –1 armor check penalty. Improved Initiative is the 1st-level feat.",
+        "Fearless. Nim ignores mundane and magical fear. The racial taunt bonus applies on a Bluff check and has no separate compulsion or action rule. Concentration –2 untrained, including the racial penalty.",
+        "Trapfinding permits Search checks above DC 20 to find traps and allows Disable Device on magic traps. Sneak attack adds 1d6 when the opponent is denied its Dex bonus to AC or when Nim flanks in melee. Limit ranged sneak attacks to 30 feet."
+      ],
+      "actions": [
+        "Small short sword +0 melee, 1d4–1 piercing (minimum 1), 19–20/×2.",
+        "Small sling +4 ranged, 1d3–1 bludgeoning (minimum 1), ×2, 50-ft. increment. Load as a move action that provokes."
+      ],
+      "tactics": [
+        "Use the sluice supports as cover. Keep a loaded sling ready or flank an opponent already engaged by an ally."
+      ]
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid (human)",
+      "size": "Medium",
+      "id": "dnd35-ansalon-tarmak-kered-vann",
+      "title": "Ford keeper, Tarmak Fighter 1",
+      "difficulty": "Fighter 1, ECL 1, CR 1.",
+      "speed": "20 ft. in hide armor, 30 ft. unarmored.",
+      "ac": 14,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 5,
+      "senses": "Normal vision.",
+      "languages": "Tarmakian.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 6
+      },
+      "skills": [
+        "Climb +4",
+        "Jump –2",
+        "Swim +1"
+      ],
+      "traits": [
+        "Hide armor +3 and Dex +1. Touch 11, flat-footed 13. BAB +1, grapple +4. Fort +4, Ref +1, Will +0.",
+        "Four ranks each in Climb, Jump, and Swim. The Tarmak’s four bonus skill points go to Swim. Hide gives –3 armor check penalty, doubled for Swim. Jump includes –6 for the reduced land speed.",
+        "Improved Initiative is the general feat, Power Attack is the Tarmak bonus feat, and Weapon Focus (greatclub) is the Fighter bonus feat."
+      ],
+      "actions": [
+        "Greatclub +5 melee, 1d10+4 bludgeoning, ×2. Power Attack for 1 changes the line to +4 and 1d10+6.",
+        "Javelin +2 ranged, 1d6+3 piercing, ×2, 30-ft. increment."
+      ],
+      "tactics": [
+        "Stand where the ford narrows. Throw a javelin if an opponent remains across the water."
+      ]
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Monstrous humanoid",
+      "size": "Medium",
+      "id": "dnd35-ansalon-kyrie-rill-cliffcall",
+      "title": "Aerie lookout, Kyrie racial tier 1",
+      "difficulty": "Kyrie 1, 1 racial HD, ECL 1, CR 1 from the progression table.",
+      "speed": "20 ft. land. Glide 40 ft. (average) with a light load.",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft.",
+      "languages": "Auran, Kothian, Common.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Listen +6",
+        "Spot +6",
+        "Survival +6"
+      ],
+      "traits": [
+        "Leather +2 and Dex +3 give AC 15, touch 13, flat-footed 12. BAB +1, grapple +1. Fort +2, Ref +5, Will +4.",
+        "Four ranks each in Listen, Spot, and Survival. Point Blank Shot adds +1 attack and damage within 30 feet.",
+        "Glide 40 feet with average maneuverability, moving 20 feet forward per 5 feet descended. Conscious gliding negates falling damage and requires a light load. If unconscious during descent, take only 1d6 falling damage. No powered flight or spell slots at tier 1."
+      ],
+      "actions": [
+        "Javelin +4 ranged, 1d6 piercing, ×2, 30-ft. increment. Within 30 ft. use +5 and 1d6+1.",
+        "Dagger +1 melee, 1d4 piercing or slashing, 19–20/×2.",
+        "Animal domain, speak with animals once per day as a standard action spell-like ability. Personal. Discuss questions with natural animals for 1 minute (caster level 1 for this example)."
+      ],
+      "tactics": [
+        "Scout from a perch. If threatened, throw a javelin or glide down to a clear landing."
+      ]
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid (elf, fire)",
+      "size": "Medium",
+      "id": "dnd35-ansalon-phaethon-sera-cinderstep",
+      "title": "Pass watchkeeper, Phaethon Monk 1",
+      "difficulty": "Monk 1, ECL 3. CR 1 as a class-level encounter estimate.",
+      "speed": "30 ft. land, fly 60 ft. (average) with wings.",
+      "ac": 16,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 7,
+      "senses": "Low-light vision.",
+      "languages": "Common, Elven.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +7",
+        "Listen +7",
+        "Spot +7",
+        "Tumble +7"
+      ],
+      "traits": [
+        "Unarmored AC 16, touch 16, flat-footed 13. Includes Dex +3 and Monk Wis +3. Monk Wis bonus is lost when immobilized or helpless, in armor, carrying a shield, or with a medium or heavy load. BAB +0, grapple +1. Fort +3, Ref +5, Will +5.",
+        "Four ranks each in Balance, Listen, Spot and Tumble. Feats: Improved Initiative, monk unarmed proficiency and bonus Stunning Fist.",
+        "Fire immunity. Cold damage increases by half even if a save was allowed and succeeded.",
+        "Manifest flaming wings as a free action without provoking. Use 60-ft. average flight or the additional fire damage this round. Use one mode per round if applying wing damage."
+      ],
+      "actions": [
+        "Unarmed strike +1 melee, 1d6+1 bludgeoning, ×2. With wing damage add 1d6 fire and forgo flight this round. Full attack flurry –1/–1 for 1d6+1 bludgeoning per hit.",
+        "Stunning Fist once per day, declared before rolling an unarmed attack. A damaged target that fails Fort DC 13 is stunned until just before Sera’s next action. Creatures immune to critical hits are immune to this effect."
+      ],
+      "tactics": [
+        "Use flight to reach solid ground. If cornered, stay on the ground for a wing-enhanced strike."
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Nim Alderloop",
+      "species": "Kender",
+      "size": "Small",
+      "speciesPublication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "build": "dnd35-ansalon-kender-nim-alderloop",
+      "role": "Millrace scout.",
+      "motive": "Find a route around the toll gate before the water rises.",
+      "hook": "Nim has marked an overlooked opening beneath the sluice wheel."
+    },
+    {
+      "name": "Kered Vann",
+      "species": "Tarmak",
+      "size": "Medium",
+      "speciesPublication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "build": "dnd35-ansalon-tarmak-kered-vann",
+      "role": "Ford keeper.",
+      "motive": "Hold the crossing open until the mule train reaches the far bank.",
+      "hook": "Kered offers an escorted crossing if the party helps check the ruined bridge abutment."
+    },
+    {
+      "name": "Rill Cliffcall",
+      "species": "Kyrie",
+      "size": "Medium",
+      "speciesPublication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "build": "dnd35-ansalon-kyrie-rill-cliffcall",
+      "role": "Aerie lookout.",
+      "motive": "Pass news of an approaching storm to a pack train below the cliffs.",
+      "hook": "Rill can glide across a ravine and guide people along the safer switchback."
+    },
+    {
+      "name": "Sera Cinderstep",
+      "species": "Phaethon",
+      "size": "Medium",
+      "speciesPublication": "Races of Ansalon (2007)",
+      "edition": "3.5 edition",
+      "build": "dnd35-ansalon-phaethon-sera-cinderstep",
+      "role": "Pass watchkeeper.",
+      "motive": "Keep travelers away from a cracked ledge until the trail can be reset.",
+      "hook": "Sera demonstrates an emergency landing point where a trail marker has broken."
+    }
+  ]
+}

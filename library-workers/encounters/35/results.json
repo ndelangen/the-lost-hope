@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Angulotl Yegg",
+    "kind": "monster",
+    "type": "Humanoid",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "monster-abaf04e874a3937ffae8b650",
+    "version": "ea2b25ed338c0011dae93323",
+    "slug": "angulotl-yegg",
+    "encounterStatus": "local-stat-block",
+    "parent": "Angulotl Blade",
+    "generated": true,
+    "status": "Stat block",
+    "appearance": "A small frogfolk retainer wearing light leather armor and carrying a poison knife and an acid flask.",
+    "habitats": [
+      "Freshwater marshes",
+      "Swamps",
+      "Jungle rivers"
+    ],
+    "query": "frogfolk retainer freshwater marshes excoriating acid",
+    "role": "Retainer",
+    "relatedPublisherCredit": "D&D Beyond publisher art · Flee, Mortals!",
+    "primaryPortraitSha256": "efd21e3d9e2d80a3221780ace3d20a9539527c4fccd5264d5d1387bc0100661b"
+  },
+  {
+    "name": "Clawfish Companion",
+    "kind": "beast",
+    "type": "Beast",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "beast-80076c1d1057536bb8d1e1c0",
+    "version": "45aae38c5efede28184a4ce6",
+    "slug": "clawfish-companion",
+    "encounterStatus": "local-stat-block",
+    "parent": "Clawfish",
+    "generated": true,
+    "status": "Stat block",
+    "appearance": "A trained eel-like river beast with eight reptilian legs and long, rippling fins.",
+    "habitats": [
+      "Freshwater rivers",
+      "Riverbanks",
+      "Jungle rivers"
+    ],
+    "query": "eel-like caregiver riverbanks lightning retaliation",
+    "role": "Companion",
+    "relatedPublisherCredit": "D&D Beyond publisher art · Flee, Mortals!",
+    "primaryPortraitSha256": "94d0a76be853d34a94b712ebff561a53a8cc7066db4972030d0101f9d0efe339"
+  }
+]

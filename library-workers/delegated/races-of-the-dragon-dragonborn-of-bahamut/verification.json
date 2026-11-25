@@ -1,0 +1,26 @@
+{
+  "baseline": "051da9f8e21e8157f4bd1dd05c3c7ad00f617b95",
+  "temporaryCopy": true,
+  "spellscalePresentInBaseline": true,
+  "sameNameFizbanMonsterPreserved": true,
+  "genericDragonbornSpeciesPreserved": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Dragonborn of Bahamut"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of the Dragon (2006)",
+  "riteAndAspectsVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Races of the Dragon (2006)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

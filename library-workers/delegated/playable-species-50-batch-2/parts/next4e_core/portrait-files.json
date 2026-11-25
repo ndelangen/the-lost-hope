@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Drow",
+    "file": "",
+    "sha256": "14f52dba37755bed64e56ab4af47ec6a80961857d93ea82755e977b0b38f55d4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Bugbear",
+    "file": "",
+    "sha256": "4833e32ed9b9feb97f09d305edfe1802388f18d44f7352fcd0e9da6a929dc000",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hobgoblin",
+    "file": "",
+    "sha256": "03e9bca4884264abcdad8548007a6131bf5b771949768ef84c6f71dc10361368",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Gnome",
+    "file": "",
+    "sha256": "8cff146a2635454efc872d387844a62bc4f4af1c417c4be2ec4067f085e4296a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

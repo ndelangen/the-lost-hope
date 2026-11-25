@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mummy",
+    "file": "",
+    "sha256": "f00dedbb20e0672669fef6b57cad9479b5bb0715c0cec9c365b89ef96d7254e3",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ogre",
+    "file": "",
+    "sha256": "04dc89933f9910f98b7c8e5cc852199b0ef861b7d4cb1a418850399238c65dda",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Stone Giant",
+    "file": "",
+    "sha256": "022bbdd190bbe1b96dbb865b285da41a2ff2cde7cbb25da4408d1baa644f9a91",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Succubus",
+    "file": "",
+    "sha256": "3535042483d7f7353655f262ab58cd4f713aa791854729e9fead97652bc537fa",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Treant",
+    "file": "",
+    "sha256": "6eedbce223dad3aa25e99874c826ed62e8a8c1e0dea0ccac8b74e86e722f8a3c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

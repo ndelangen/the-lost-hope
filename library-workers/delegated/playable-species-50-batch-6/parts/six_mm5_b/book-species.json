@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Greenspawn Zealot",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium monstrous humanoid with the dragonblood subtype. It has six racial d8 Hit Dice, darkvision 60 ft., land speed 30 ft., +3 natural armor and immunity to acid. Its languages are Common and Draconic.",
+      "Tiamat’s Grace gives +2 on saves while adjacent to another greenspawn zealot. Zealotry permits one save reroll per day as an immediate action.",
+      "Favored enemy humans gives +2 to weapon damage and to relevant Bluff, Listen, Sense Motive, Spot and Survival checks against humans.",
+      "Touch of Tiamat has an 18-point daily damage pool. Divide it among successful melee touch attacks against living creatures, with a Constitution-based Will save for half. The actual damage dealt also heals one dragon or dragonblood creature within 30 ft., including the zealot. With divine casting and worship of Tiamat, an inflict spell can instead supply the damage for that simultaneous healing.",
+      "Favored soul is the favored class, with cleric as the printed fallback. Both are associated classes. The book lists racial HD 6 and LA +2 for base ECL 8. Adding class levels increases ECL separately from CR. Use the 3.5 monster-character rules with DM permission."
+    ]
+  },
+  {
+    "name": "Shaedling",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium fey with four racial d6 Hit Dice, land speed 30 ft. and fly 60 ft. with good maneuverability. Keep its printed darkvision 60 ft., low-light vision and DR 5/cold iron. It speaks Common and Sylvan.",
+      "Shadow Gossamer creates one item up to 15 lb. as a swift action. The maker is proficient with weapons it makes this way. Their range increments increase by 10 ft. Shields have one less armor check penalty. An item disappears once it has spent more than one round out of a shaedling’s hands.",
+      "Sleeping Curse is usable once per day. A special shadow-gossamer javelin targets a foe within 30 ft. On a hit, failure on a Charisma-based Fortitude save puts the target to sleep for 1d6 rounds. Remove curse ends the effect.",
+      "Wall of Darkness creates up to 30 ft. of shadow wall once per day. It blocks sight for creatures without darkvision. The entry gives no wall height or duration.",
+      "Favored class rogue. The book lists racial HD 4 and LA +3 for base ECL 7. Use the 3.5 monster-character rules with DM permission."
+    ]
+  },
+  {
+    "name": "Bladerager Troll",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Large giant with six racial d8 Hit Dice, speed 20 ft., 10-ft. space and reach, darkvision 60 ft., low-light vision and scent. It speaks Giant. The printed base armor bonuses are +5 natural and +8 steel plates.",
+      "Regeneration 5 converts damage apart from fire and acid to nonlethal damage. Lost body parts grow back in 5 minutes or can be reattached immediately by pressing them to the stump.",
+      "It has two claws and a secondary bite. Pounce lets it full attack at the end of a charge. If both claws hit during a full attack, rend adds damage. Its installed armor and weapons make it distinct from an unmodified troll.",
+      "Mind-affecting spells and abilities do not affect it. Direct contact with its mind deals 1d4 Wisdom damage to whoever made contact. At death, shrapnel deals 5d6 piercing in a 30-ft. burst, with a Constitution-based Reflex save for half.",
+      "Favored class fighter. Fighter and barbarian are associated classes. The book lists racial HD 6 and LA +5 for base ECL 11. Use the 3.5 monster-character rules with DM permission."
+    ],
+    "parentSpecies": "Troll"
+  },
+  {
+    "name": "Ushemoi",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Ushemoi share low-light vision and a racial transformation that builds in response to spellcasting or injury. Arkamoi, Hadrimoi and Lashemoi are Medium monstrous humanoids at speed 30 ft. Turlemoi are Large monstrous humanoids at speed 40 ft. with climb 30 ft. Each form has separate racial HD and LA. Use the 3.5 monster-character rules with DM permission.",
+      "Arkamoi: 4d8 racial HD, LA +4, base ECL 8, DR 5/slashing or piercing and SR 14. It casts as sorcerer 4 and racial casting stacks with sorcerer levels. Casting arcane spells adds +1 save DC, +2 spell damage and +2 deflection AC per spell, up to five steps in one minute. From the third step it can grant an ally +2 morale to its next check, attack or damage roll as an immediate action. Favored class sorcerer. Speaks Common, Draconic and Undercommon.",
+      "Hadrimoi: 9d8 racial HD, LA +4, base ECL 13, DR 10/slashing and piercing. Each injury gives +2 dodge AC, +1 attacks and Reflex saves, and +10 ft. land speed, to a maximum of five steps within one minute. At +30 ft. it can move as part of its full attack within its speed, but fear and opposed Intimidate checks are harder by 4 and it loses Hit Dice protection against fear. Four light weapons can be used in one full attack without penalties. Favored class rogue. Speaks Common and Undercommon.",
+      "Lashemoi: 2d8 racial HD, LA +2, base ECL 4, +2 natural armor, DR 5/slashing or piercing and two claws. Each injury adds +1 to attacks, damage and natural armor, to a maximum of five steps within one minute. Broken Courage gives −4 on fear saves and checks to resist Intimidate, and removes protection against fear effects based on Hit Dice. Favored class barbarian. Speaks Common.",
+      "Turlemoi: 12d8 racial HD, LA +4, base ECL 16, DR 10/slashing or piercing, two slams and rock throwing at 60-ft. increments to five increments. It has Broken Courage as the Lashemoi. Each injury adds +1 attacks, +2 damage and +2 natural armor, to five steps within one minute. From the third step it gains immunity to mind-affecting abilities and stops retreating. Favored class barbarian. Speaks Common."
+    ]
+  }
+]

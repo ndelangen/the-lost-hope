@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Quickling",
+    "statBlock": {
+      "name": "Quickling",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 207,
+      "classification": "Tiny fey, typically chaotic evil",
+      "ac": 16,
+      "hp": 10,
+      "hitDice": "3d4 + 3",
+      "speed": "120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 4
+        },
+        "Dex": {
+          "score": 23
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 15,
+      "description": "The Queen of Air and Darkness cursed these tiny Fey with a pace the rest of the world can barely follow. A quickling lives at most fifteen years and often uses its speed to make others take the blame for its pranks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 8,
+        "Sleight Of Hand": 8,
+        "Stealth": 8,
+        "Perception": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Sylvan.",
+        "Traits": "Blurred Movement. The quickling imposes disadvantage on attack rolls against it. Attacks lose that disadvantage if the quickling is incapacitated or its speed is 0.\nEvasion. While not incapacitated, the quickling takes no damage on a successful Dexterity save against an effect that normally deals half damage on a success. It takes half damage on a failed save against that effect.",
+        "Actions": "Multiattack. Make three Dagger attacks.\nDagger. Melee or ranged weapon attack, +8 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 8 (1d4 + 6) piercing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 207."
+      }
+    }
+  },
+  {
+    "name": "Red Abishai",
+    "statBlock": {
+      "name": "Red Abishai",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 40,
+      "classification": "Medium fiend (devil), typically lawful evil",
+      "ac": 22,
+      "hp": 289,
+      "hitDice": "34d8 + 136",
+      "speed": "30 ft., fly 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 18,
+      "description": "A commander among Tiamat's devils, a red abishai leads troops in the Nine Hells or takes control of a cult that has strayed from her orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 12,
+        "Con": 10,
+        "Wis": 8
+      },
+      "skills": {
+        "Intimidation": 10,
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic, Infernal, telepathy 120 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Frightened, poisoned.",
+        "Traits": "Devil's Sight. The abishai sees through magical darkness out to the range of its darkvision.\nMagic Resistance. The abishai has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite and one Claw attack. The abishai can also use either Frightful Presence or Incite Fanaticism.\nBite. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 22 (3d10 + 6) piercing damage plus 38 (7d10) fire damage.\nClaw. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 17 (2d10 + 6) force damage plus 11 (2d10) fire damage.\nFrightful Presence. The abishai chooses creatures within 120 ft. that are aware of it. Each makes a DC 18 Wisdom save. On a failure it is frightened of the abishai for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds or recovers gains immunity to this abishai's Frightful Presence for 24 hours.\nIncite Fanaticism. Choose up to four other creatures within 60 ft. that can see the abishai. Until the start of its next turn, each has advantage on attack rolls and is immune to the frightened condition.\nPower of the Dragon Queen. Choose one Dragon the abishai can see within 120 ft. The Dragon makes a DC 18 Charisma save with disadvantage if it is chromatic. A success grants immunity to this ability from this abishai for 1 hour. On a failure the Dragon is charmed by the abishai for 1 hour and treats it as a trusted friend to heed and protect. Damage from the abishai or one of its companions ends the charm.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 40."
+      }
+    }
+  },
+  {
+    "name": "Redcap",
+    "statBlock": {
+      "name": "Redcap",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 208,
+      "classification": "Small fey, typically chaotic evil",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "6d6 + 24",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "A redcap can sprout where a sentient creature kills out of bloodlust in the Feywild or near a fey crossing. The bloodstained cap appears first, then the creature rises in moonlight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 6,
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Sylvan.",
+        "Traits": "Iron Boots. The redcap has disadvantage on Dexterity (Stealth) checks.\nOutsize Strength. Treat the redcap as Medium when it grapples. It can attack with heavy weapons without the disadvantage normally imposed by their weight.",
+        "Actions": "Multiattack. Make three Wicked Sickle attacks.\nWicked Sickle. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) slashing damage.\nIronbound Pursuit. Move up to the redcap's speed to a creature it can see and kick it. The target makes a DC 14 Dexterity save. On a failure it takes 20 (3d10 + 4) bludgeoning damage and falls prone.",
+        "Blood-soaked cap": "A redcap vanishes if three days pass without soaking its cap in fresh blood from a victim.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 208."
+      }
+    }
+  },
+  {
+    "name": "Retriever",
+    "statBlock": {
+      "name": "Retriever",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Large construct, typically lawful evil",
+      "ac": 19,
+      "hp": 210,
+      "hitDice": "20d10 + 100",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 15,
+      "description": "Followers of Lolth built these spiderlike constructs to take demons alive. They also send retrievers after other creatures or objects that must come back intact.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 10,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 60 ft.",
+        "Languages": "Understands Abyssal, Elvish, and Undercommon but cannot speak.",
+        "Damage immunities": "Necrotic, poison, psychic. Bludgeoning, piercing, slashing from nonmagical attacks that are not adamantine.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Traits": "Faultless Tracker. The master assigns one quarry at a time. It can be a specific creature or object the master knows personally, or a type of creature or object the master has seen. On the same plane as its quarry, the retriever knows the direction and distance to it. The retriever always knows its master's location.",
+        "Actions": "Multiattack. Make two Foreleg attacks and use Force Beam or Paralyzing Beam if available.\nForeleg. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 15 (2d8 + 6) slashing damage.\nForce Beam. One creature the retriever can see within 60 ft. makes a DC 16 Dexterity save. It takes 27 (5d10) force damage on a failure or half on a success.\nParalyzing Beam (Recharge 5–6). One creature the retriever can see within 60 ft. makes a DC 18 Constitution save. On a failure it is paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. During its movement, the retriever can pick up a creature paralyzed this way if it is Medium or smaller. The retriever can then carry the creature while walking or climbing at full speed.",
+        "Spellcasting": "As an action, cast one listed spell using Wisdom (spell save DC 13). Material components are waived.\n3/day each. Web, Plane Shift. Plane Shift carries only the retriever and up to one incapacitated creature, which counts as willing for the spell.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 209."
+      }
+    }
+  },
+  {
+    "name": "Rot Troll",
+    "statBlock": {
+      "name": "Rot Troll",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 247,
+      "classification": "Large giant, typically chaotic evil",
+      "ac": 16,
+      "hp": 138,
+      "hitDice": "12d10 + 72",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 13,
+      "description": "Necrotic energy can change a regenerating troll into a rot troll. It loses regeneration as the change takes hold and keeps its normal healing. Its necrotic aura harms nearby creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Damage immunities": "Necrotic.",
+        "Traits": "Rancid Degeneration. At the end of each of the troll's turns, each creature within 5 ft. takes 11 (2d10) necrotic damage. Skip this effect if the troll took acid or fire damage since the end of its previous turn.",
+        "Actions": "Multiattack. Make one Bite and two Claws attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 9 (1d10 + 4) piercing damage plus 16 (3d10) necrotic damage.\nClaws. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage plus 7 (2d6) necrotic damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 247."
+      }
+    }
+  },
+  {
+    "name": "Rutterkin",
+    "statBlock": {
+      "name": "Rutterkin",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium fiend (demon), typically chaotic evil",
+      "ac": 12,
+      "hp": 37,
+      "hitDice": "5d8 + 15",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 11,
+      "description": "Mobs of these demons roam the Abyss and surround intruders. Their bites carry a disease that can turn a dying victim into a manes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Abyssal but can't speak.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Immobilizing Fear. A creature other than a demon that starts its turn within 30 ft. of one or more rutterkins makes a DC 11 Wisdom save. It has disadvantage if six or more rutterkins are within that range. On a failure the creature is frightened of the rutterkins for 1 minute and restrained while frightened this way. It can repeat the save at the end of each of its turns to end the effect. Any successful save grants immunity to every rutterkin's Immobilizing Fear for 24 hours.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 12 (3d6 + 2) piercing damage. A creature hit makes a DC 13 Constitution save against disease or becomes poisoned. It can repeat the save at the end of each long rest, ending the effect on a success. If it drops to 0 HP while poisoned by the bite, it dies and immediately becomes a living Manes. Only Wish can reverse the transformation.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 210."
+      }
+    }
+  },
+  {
+    "name": "Sacred Statue",
+    "statBlock": {
+      "name": "Sacred Statue",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 114,
+      "classification": "Large construct, shares the eidolon's alignment",
+      "ac": 19,
+      "hp": 95,
+      "hitDice": "10d10 + 40",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "passivePerception": 14,
+      "description": "This effigy houses the spirit of an eidolon that guards a sacred site. The effigy becomes a construct while the eidolon animates it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages the Eidolon knew in life.",
+        "Damage resistances": "Acid, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Cold, necrotic, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Traits": "False Appearance. The statue has advantage on its initiative roll if it is motionless when combat starts. A creature that has never seen the statue move or act needs a successful DC 18 Intelligence (Investigation) check to recognize it as a creature.\nGhostly Inhabitant. The eidolon leaves if the statue drops to 0 HP, if the eidolon spends a bonus action to move out, or if an effect turns or forces it out, such as Dispel Evil and Good. It appears in an unoccupied space within 5 ft. of the statue.\nInert. The statue is an object while empty.\nUnusual Nature. The statue needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Slam or Rock attacks in any combination.\nSlam. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 43 (6d12 + 4) bludgeoning damage.\nRock. Ranged weapon attack, +8 to hit, range 60/240 ft., one target. A hit deals 37 (6d10 + 4) bludgeoning damage.",
+        "Sacred animation mechanics": "When an Eidolon enters the statue's space, it can animate the statue with Sacred Animation (Recharge 5–6). The eidolon uses this stat block instead of its own until it leaves. Page 114 lists CR and XP only for the Eidolon.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 114."
+      }
+    }
+  }
+]

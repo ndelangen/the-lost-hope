@@ -1,0 +1,30 @@
+{
+  "Shadow Mastiff Alpha": {
+    "sha256": "c8cc7d2060ee50ce7e62c53e9c776f2e77f349dd44d8550fefa56c951be09c08",
+    "source": "Shadow Mastiff"
+  },
+  "Storm Giant Quintessent": {
+    "sha256": "012ad70c530afc07a6e06de2160c413ee7f9973a37fb92e126a130a4c9834163",
+    "source": "Storm Giant Quintessent"
+  },
+  "Swashbuckler": {
+    "sha256": "7f97fe6f0e530787d41758961a76abd7041074714c935cc6c6111e00cff03c31",
+    "source": "Swashbuckler"
+  },
+  "Sword Wraith Commander": {
+    "sha256": "b20b7b8c0d2a5edb6f2ad59255b994b4b476a22f9eae0227d8e9d819d6939c6c",
+    "source": "Sword Wraith Commander"
+  },
+  "Sword Wraith Warrior": {
+    "sha256": "54d6ceb1272a3ab9e03cf751f8b92609aca81274d9f98e46f3b7db25b55967c2",
+    "source": "Sword Wraith Warrior"
+  },
+  "Ulitharid": {
+    "sha256": "37e7f4c2af660158e6d9b7472703e9e1f00ff719dbd2ae341c5c31c747160e71",
+    "source": "Ulitharid"
+  },
+  "Vegepygmy": {
+    "sha256": "0c2b8e28b4eec97edf15b787b4bbc6d1d0be7c7d125f3659e58aeb08f9ae6ac8",
+    "source": "Vegepygmy"
+  }
+}

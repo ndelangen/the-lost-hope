@@ -1,0 +1,180 @@
+{
+  "builds": [
+    {
+      "id": "valda-mandrake-alder-wick",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "title": "Autumn Mandrake trail custodian, Champion Fighter 3",
+      "difficulty": "Fighter 3",
+      "ac": 18,
+      "hp": 28,
+      "hitDice": "3d10+6",
+      "initiative": 1,
+      "senses": "Passive Perception 15.",
+      "languages": "Common, Sylvan.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 17,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +5",
+        "Athletics +4",
+        "Nature +1",
+        "Perception +5",
+        "Survival +5"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Strength save +4 and Constitution save +4. Scale mail gives 14 + Dexterity 1. Shield adds 2 and Defense adds 1, for AC 18. Scale mail imposes disadvantage on Stealth.",
+        "Improved Critical. Weapon attacks score a critical hit on a natural 19 or 20. He makes one attack per Attack action.",
+        "Folk Hero background. Woodcarver’s tools, land vehicles and Rustic Hospitality. Mandrake grants Nature, plus advantage when using Persuasion to deal with a Beast or Plant.",
+        "Four hours of direct sun satisfy today’s food needs. Plant-specific effects apply to him. Root Magic uses Wisdom."
+      ],
+      "actions": [
+        "Spear. Weapon attack +4 to hit, reach 5 ft. or thrown range 20/60 ft. One target takes 1d6+2 piercing. A two-handed hit deals 1d8+2 when his shield is off.",
+        "Shillelagh (bonus action, at will, 1 minute). Stow the spear or cast before drawing it so the free hand can handle the mistletoe and shamrock. Target his own limb through Root Magic. The enchanted limb makes a magic melee weapon attack at +5 to hit, reach 5 ft., for 1d8+3 bludgeoning.",
+        "Entangling Vines (bonus action, twice per long rest). Stop the speed of a visible Large or smaller creature within 30 ft. until the end of its next turn or until it takes the Disengage action. Autumn can catch a second eligible creature within 5 ft. of the first.",
+        "Goodberry (action, once per long rest, no material). Make up to ten berries. A creature uses an action to eat one, healing 1 HP and meeting its food needs for the day. The berries expire in 24 hours. Keep one hand free for the somatic component.",
+        "Second Wind (bonus action, once per short or long rest). Regain 1d10+3 HP up to maximum.",
+        "Action Surge (once per short or long rest). Take one additional action on his turn."
+      ],
+      "tactics": "Alder asks visitors to step around the survey stakes. If two intruders rush through, he catches both in vines and holds the gap with his shield. He uses Action Surge to cover the retreat when a traveler runs."
+    },
+    {
+      "id": "valda-geppettin-brass-pin",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Small",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "title": "Marionette Geppettin toll keeper, Fighter 2",
+      "difficulty": "Fighter 2",
+      "ac": 17,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Dwarvish.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 11
+      },
+      "skills": [
+        "Athletics +1",
+        "Insight +3",
+        "Intimidation +2",
+        "Perception +3",
+        "Performance +2"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Strength save +1 and Constitution save +4. Leather gives 11 + Dexterity 3. Shield adds 2 and Defense adds 1, for AC 17.",
+        "Construct effects apply. Immune to nonmagical disease. No need to eat, breathe or sleep. Immune to magical sleep. Four motionless, conscious hours complete a long rest.",
+        "While motionless he passes for a wooden doll. He has advantage on Performance checks to dance.",
+        "Soldier background. Dice set, land vehicles and Military Rank. He makes one attack per Attack action."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5 to hit, 1d8+3 piercing. Clipped Strings raises its reach to 10 ft. for attacks on his turn. Use ordinary 5-ft. reach for an opportunity attack outside that turn.",
+        "Second Wind (bonus action, once per short or long rest). Regain 1d10+2 HP up to maximum.",
+        "Action Surge (once per short or long rest). Take one additional action on his turn."
+      ],
+      "tactics": "Brass Pin stays by the till and asks visitors for their name and business in the same tone. A thief may mistake him for a trade sign. If the thief bolts, he steps into the doorway and makes his first rapier attack from 10 ft."
+    },
+    {
+      "id": "valda-spirithost-mira-grayglass",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "title": "Spirithost courier and locksmith, Rogue 2",
+      "difficulty": "Rogue 2",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Ethereal Vision 120 ft. from Material Plane, passive Perception 13.",
+      "languages": "Common, Elvish, Gnomish and thieves’ cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +3",
+        "Persuasion +2",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Dexterity save +5 and Intelligence save +3. Leather armor gives 11 + Dexterity 3, for AC 14.",
+        "Expertise in Stealth and thieves’ tools. A Dexterity check with her thieves’ tools is +7. Guild Artisan grants tinker’s tools, Gnomish and Guild Membership.",
+        "Other creatures are difficult terrain to her. She can cross up to 1 ft. of stone, 1 in. of common metal, a thin sheet of lead or 3 ft. of wood or dirt. Ending movement inside something sends her to the nearest space she can occupy and costs 2 force damage per foot displaced.",
+        "Undead-specific effects apply except turning. Ghostly Descent deducts 60 ft. in falling damage calculations while she is not incapacitated.",
+        "Sneak Attack. Once per turn, a hit with a finesse or ranged weapon deals an extra 1d6 if she has advantage, or if another enemy of the target is within 5 ft. of it, is not incapacitated, and she has no disadvantage."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5 to hit, reach 5 ft. One target takes 1d8+3 piercing, plus Sneak Attack when eligible.",
+        "Dagger. Melee or ranged weapon attack +5 to hit, reach 5 ft. or thrown range 20/60 ft. One target takes 1d4+3 piercing, plus Sneak Attack when eligible.",
+        "Cunning Action (bonus action). Dash, Disengage or Hide.",
+        "Spirit Speech (action, once per long rest). Cast speak with dead with verbal and somatic components, a 10-ft. range and a 10-minute duration. Ask a corpse up to two questions about what it knew in life. The corpse needs a mouth and must have been free from the spell for the last ten days. Undead are ineligible. Mira uses Intelligence for this trait."
+      ],
+      "tactics": "Mira counts the paces to an empty space before crossing a door. She ducks out of reach with Cunning Action if the room is already occupied. If a courier has died, her two questions concern who took the parcel and where they said they would go."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Alder Wick",
+      "species": "Mandrake",
+      "size": "Medium",
+      "speciesPublication": "Valda’s Spire of Secrets",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "valda-mandrake-alder-wick",
+      "role": "Custodian of a woodland right of way.",
+      "motive": "Keep the footpath open until the last cart clears it.",
+      "hook": "Two caravans arrive with contradictory route charters and expect him to settle the matter before dusk."
+    },
+    {
+      "name": "Brass Pin",
+      "species": "Geppettin",
+      "size": "Small",
+      "speciesPublication": "Valda’s Spire of Secrets",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "valda-geppettin-brass-pin",
+      "role": "Wooden marionette and keeper of a night tollhouse.",
+      "motive": "Recover the tollhouse ledger before the morning audit.",
+      "hook": "A respectable customer pays with an old trade token bearing the sign of Brass Pin’s childhood maker."
+    },
+    {
+      "name": "Mira Grayglass",
+      "species": "Spirithost",
+      "size": "Medium",
+      "speciesPublication": "Valda’s Spire of Secrets",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "valda-spirithost-mira-grayglass",
+      "role": "Border Ethereal courier and working locksmith.",
+      "motive": "Deliver a parcel whose recipient vanished during the last leg.",
+      "hook": "Mira can reach the other side of a locked office door. The room beyond has a thick lead lining, and her apprentice is overdue."
+    }
+  ]
+}

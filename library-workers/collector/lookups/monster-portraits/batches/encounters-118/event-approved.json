@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Uldra",
+    "slug": "uldra",
+    "caption": "Rimewillow · Original Uldra NPC",
+    "id": "species-d736dce46017b4e060f0985f:ef17c3277a32bc20095487d0",
+    "entry": "species-d736dce46017b4e060f0985f",
+    "version": "ef17c3277a32bc20095487d0",
+    "suffix": "encounters-118/uldra.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-118/uldra.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-118/event-drafts/uldra-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 118 2026-11-24/event-drafts/uldra-event-v1.png",
+    "overrides": [],
+    "sha256": "9dbde2dbc434c2fb47f671bc6e2b47503176758b30f0e51e29b07b62917525eb",
+    "bytes": 2196157
+  }
+]

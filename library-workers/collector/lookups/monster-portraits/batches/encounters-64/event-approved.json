@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Half-Giant",
+    "slug": "half-giant",
+    "caption": "Anet Copperstep · Original Half-Giant NPC",
+    "id": "species-41cbe8d3b2075cf80ecd14b0:6f6fae120fd9ec10afc78686",
+    "entry": "species-41cbe8d3b2075cf80ecd14b0",
+    "version": "6f6fae120fd9ec10afc78686",
+    "suffix": "encounters-64/half-giant.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-64/half-giant.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-64/event-drafts/half-giant-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 64 2026-11-24/event-drafts/half-giant-event-v1.png",
+    "overrides": [],
+    "sha256": "fd40cbd6f749c001dccf9a57ade1e14eb4c5cf491b8aba2a07b050d062af6e10",
+    "bytes": 2213622
+  }
+]

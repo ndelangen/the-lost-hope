@@ -1,0 +1,269 @@
+{
+  "Kuo-toa": {
+    "profiles": [
+      {
+        "name": "Kuo-toa",
+        "imageKey": "species:kuo-toa",
+        "kind": "species",
+        "type": "Monstrous Humanoid (Aquatic)",
+        "publication": "Underdark (2003)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Monstrous Humanoid (Aquatic). +2 Strength, +2 Constitution, +2 Intelligence, +4 Wisdom, −2 Charisma. Land speed 20 ft. Darkvision 60 ft. and +6 natural armor.",
+          "Amphibious (Ex) allows indefinite breathing in air and water. Swim speed 50 ft. gives +8 on Swim checks for hazards and special actions and allows taking 10 even under pressure.",
+          "Keen Sight (Ex) can spot moving creatures or objects even if invisible or ethereal. An invisible or ethereal target that keeps still can avoid this detection.",
+          "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds for 1 round. Take a −1 circumstance penalty on attack rolls, saves, and checks while in bright light.",
+          "Electricity resistance 10. Immune to poison and paralysis. Slippery (Ex) provides immunity to magical and ordinary webs. Racial bonuses are +8 on Escape Artist and +4 on Search and Spot.",
+          "Adhesive (Ex). Coating a shield takes 1 hour and materials worth 20 gp. A missed melee attack against the kuo-toa triggers Reflex DC 11 + its Constitution modifier. On a failed save a held weapon sticks and is pulled from its wielder’s grip, or a natural-weapon attacker is grappled. The coating expires after three days or one catch. A DC 20 Strength check frees the weapon or limb.",
+          "Lightning Bolt (Su). Two or more kuo-toa clerics (whips) stay within 30 ft. of one another to build a bolt every 1d4 rounds and join hands to release it. It deals 1d6 damage per whip. Reflex halves at DC 11 + highest participating Wisdom modifier + number of whips.",
+          "Weapon Familiarity treats pincer staffs as martial weapons.",
+          "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Racial skill points are 5 × (2 + Intelligence modifier). Racial class skills are Craft, Escape Artist, Knowledge, Listen, Move Silently, Search, and Spot.",
+          "LA +3. ECL 5 with only racial Hit Dice. ECL 6 with one class level. Favored class Rogue.",
+          "Racial automatic languages are Kuo-Toan, Undercommon, and Aquan. Racial bonus languages are Common, Dwarven, Elven, and Serusan, or use the regional bonus list. The Kuo-Toa region lists Common, Kuo-Toan, and Undercommon as automatic and Aquan, Draconic, Dwarven, and Elven (drow dialect) as bonus languages."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Kuo-toa",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Underdark (2003)",
+            "name": "Lilli Seachild",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 3. ECL 6 (2 racial HD, 1 class HD, LA +3).",
+              "size": "Medium",
+              "type": "Monstrous Humanoid (Aquatic)",
+              "senses": "Darkvision 60 ft. and Keen Sight.",
+              "speed": "20 ft.; swim 50 ft.",
+              "id": "kuo-toa-seachild-shore-warden-35e",
+              "title": "Kuo-toa shore warden, Fighter 1",
+              "ac": 21,
+              "hp": 28,
+              "hitDice": "2d8+1d10+9",
+              "initiative": 5,
+              "languages": "Aquan, Common, Kuo-Toan, Undercommon",
+              "abilityScores": {
+                "STR": 16,
+                "DEX": 12,
+                "CON": 16,
+                "INT": 12,
+                "WIS": 14,
+                "CHA": 8
+              },
+              "skills": [
+                "Escape Artist +7",
+                "Listen +9",
+                "Search +10",
+                "Spot +13",
+                "Swim +10 with shield"
+              ],
+              "traits": [
+                "Neutral. Leather armor +2, heavy wooden shield +2, Dexterity +1, natural armor +6. Touch 11, flat-footed 20. BAB +3, grapple +6. Fortitude +5, Reflex +4, Will +5.",
+                "Amphibious (Ex) allows indefinite breathing in air and water. Swim speed 50 ft. gives +8 on Swim checks for hazards and special actions and allows taking 10 even under pressure.",
+                "Keen Sight (Ex) can spot moving creatures or objects even if invisible or ethereal. An invisible or ethereal target that keeps still can avoid this detection.",
+                "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds for 1 round. Take a −1 circumstance penalty on attack rolls, saves, and checks while in bright light.",
+                "Electricity resistance 10. Immune to poison and paralysis. Slippery (Ex) provides immunity to magical and ordinary webs. Racial bonuses are +8 on Escape Artist and +4 on Search and Spot.",
+                "Alertness adds +2 to Listen and Spot. Improved Initiative adds +4. Weapon Focus (shortspear) adds +1 to attacks with the shortspear."
+              ],
+              "actions": [
+                "Shortspear +7 melee for 1d6+3 piercing, critical ×2.",
+                "Adhesive (Ex). Coating a shield takes 1 hour and materials worth 20 gp. A missed melee attack against the kuo-toa triggers Reflex DC 11 + its Constitution modifier. On a failed save a held weapon sticks and is pulled from its wielder’s grip, or a natural-weapon attacker is grappled. The coating expires after three days or one catch. A DC 20 Strength check frees the weapon or limb.",
+                "The shield starts with a fresh coating. The save to avoid it is Reflex DC 14. Once it catches a weapon or limb, mark the coating spent.",
+                "After one round of blindness from abrupt bright light, sustained bright light reduces the shortspear attack to +6, Search to +9, and saves to Fortitude +4, Reflex +3, Will +4."
+              ],
+              "tactics": "Lilli keeps her coated shield between herself and an attacker on the landing. If daylight floods the shore, she withdraws into the deeper passage when she can do so safely."
+            },
+            "role": "Shore warden and Fighter.",
+            "motive": "Keep the landing open for the boat coming out of the lower passage.",
+            "hook": "Lilli has just recoated her shield and is holding the landing alone."
+          },
+          {
+            "species": "Kuo-toa",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Underdark (2003)",
+            "name": "Rripp Siltwatch",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 3. ECL 6 (2 racial HD, 1 class HD, LA +3).",
+              "size": "Medium",
+              "type": "Monstrous Humanoid (Aquatic)",
+              "senses": "Darkvision 60 ft. and Keen Sight.",
+              "speed": "20 ft.; swim 50 ft.",
+              "id": "kuo-toa-siltwatch-sluice-scout-35e",
+              "title": "Kuo-toa sluice scout, Rogue 1",
+              "ac": 21,
+              "hp": 23,
+              "hitDice": "2d8+1d6+6",
+              "initiative": 7,
+              "languages": "Aquan, Common, Dwarven, Kuo-Toan, Undercommon",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 16,
+                "CON": 14,
+                "INT": 14,
+                "WIS": 16,
+                "CHA": 8
+              },
+              "skills": [
+                "Escape Artist +16",
+                "Listen +8",
+                "Move Silently +8",
+                "Search +12",
+                "Spot +13",
+                "Swim +12"
+              ],
+              "traits": [
+                "Neutral. Leather armor +2, Dexterity +3, natural armor +6. Touch 13, flat-footed 18. BAB +2, grapple +3. Fortitude +2, Reflex +8, Will +6.",
+                "Amphibious (Ex) allows indefinite breathing in air and water. Swim speed 50 ft. gives +8 on Swim checks for hazards and special actions and allows taking 10 even under pressure.",
+                "Keen Sight (Ex) can spot moving creatures or objects even if invisible or ethereal. An invisible or ethereal target that keeps still can avoid this detection.",
+                "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds for 1 round. Take a −1 circumstance penalty on attack rolls, saves, and checks while in bright light.",
+                "Electricity resistance 10. Immune to poison and paralysis. Slippery (Ex) provides immunity to magical and ordinary webs. Racial bonuses are +8 on Escape Artist and +4 on Search and Spot.",
+                "Improved Initiative adds +4. Weapon Finesse uses Dexterity to attack with the rapier. Trapfinding. Sneak Attack adds 1d6 on eligible hits."
+              ],
+              "actions": [
+                "Rapier +5 melee for 1d6+1 piercing, critical 18–20/×2.",
+                "Use Swim +12 to take 10 for a result of 22 when crossing a hazardous sluice. Use Escape Artist +16 if caught in a mundane snare. Webs do not impede this scout.",
+                "A moving invisible swimmer can be seen through Keen Sight if the scout can otherwise see the swimmer’s location. A perfectly still opponent can evade the ability. Seeing an ethereal target does not allow a mundane rapier to strike it."
+              ],
+              "tactics": "Rripp waits below the sluice, watching for movement in the dim channel. He signals the party when the moving scout crosses his view, then swims around the obstruction."
+            },
+            "role": "Sluice scout and Rogue.",
+            "motive": "Find the moving intruder before it reaches the upper gate.",
+            "hook": "Rripp gives the party a signal when the unseen swimmer passes the sluice."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Kuo-toa",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Underdark (2003)",
+        "name": "Lilli Seachild",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 3. ECL 6 (2 racial HD, 1 class HD, LA +3).",
+          "size": "Medium",
+          "type": "Monstrous Humanoid (Aquatic)",
+          "senses": "Darkvision 60 ft. and Keen Sight.",
+          "speed": "20 ft.; swim 50 ft.",
+          "id": "kuo-toa-seachild-shore-warden-35e",
+          "title": "Kuo-toa shore warden, Fighter 1",
+          "ac": 21,
+          "hp": 28,
+          "hitDice": "2d8+1d10+9",
+          "initiative": 5,
+          "languages": "Aquan, Common, Kuo-Toan, Undercommon",
+          "abilityScores": {
+            "STR": 16,
+            "DEX": 12,
+            "CON": 16,
+            "INT": 12,
+            "WIS": 14,
+            "CHA": 8
+          },
+          "skills": [
+            "Escape Artist +7",
+            "Listen +9",
+            "Search +10",
+            "Spot +13",
+            "Swim +10 with shield"
+          ],
+          "traits": [
+            "Neutral. Leather armor +2, heavy wooden shield +2, Dexterity +1, natural armor +6. Touch 11, flat-footed 20. BAB +3, grapple +6. Fortitude +5, Reflex +4, Will +5.",
+            "Amphibious (Ex) allows indefinite breathing in air and water. Swim speed 50 ft. gives +8 on Swim checks for hazards and special actions and allows taking 10 even under pressure.",
+            "Keen Sight (Ex) can spot moving creatures or objects even if invisible or ethereal. An invisible or ethereal target that keeps still can avoid this detection.",
+            "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds for 1 round. Take a −1 circumstance penalty on attack rolls, saves, and checks while in bright light.",
+            "Electricity resistance 10. Immune to poison and paralysis. Slippery (Ex) provides immunity to magical and ordinary webs. Racial bonuses are +8 on Escape Artist and +4 on Search and Spot.",
+            "Alertness adds +2 to Listen and Spot. Improved Initiative adds +4. Weapon Focus (shortspear) adds +1 to attacks with the shortspear."
+          ],
+          "actions": [
+            "Shortspear +7 melee for 1d6+3 piercing, critical ×2.",
+            "Adhesive (Ex). Coating a shield takes 1 hour and materials worth 20 gp. A missed melee attack against the kuo-toa triggers Reflex DC 11 + its Constitution modifier. On a failed save a held weapon sticks and is pulled from its wielder’s grip, or a natural-weapon attacker is grappled. The coating expires after three days or one catch. A DC 20 Strength check frees the weapon or limb.",
+            "The shield starts with a fresh coating. The save to avoid it is Reflex DC 14. Once it catches a weapon or limb, mark the coating spent.",
+            "After one round of blindness from abrupt bright light, sustained bright light reduces the shortspear attack to +6, Search to +9, and saves to Fortitude +4, Reflex +3, Will +4."
+          ],
+          "tactics": "Lilli keeps her coated shield between herself and an attacker on the landing. If daylight floods the shore, she withdraws into the deeper passage when she can do so safely."
+        },
+        "role": "Shore warden and Fighter.",
+        "motive": "Keep the landing open for the boat coming out of the lower passage.",
+        "hook": "Lilli has just recoated her shield and is holding the landing alone."
+      },
+      {
+        "species": "Kuo-toa",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Underdark (2003)",
+        "name": "Rripp Siltwatch",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 3. ECL 6 (2 racial HD, 1 class HD, LA +3).",
+          "size": "Medium",
+          "type": "Monstrous Humanoid (Aquatic)",
+          "senses": "Darkvision 60 ft. and Keen Sight.",
+          "speed": "20 ft.; swim 50 ft.",
+          "id": "kuo-toa-siltwatch-sluice-scout-35e",
+          "title": "Kuo-toa sluice scout, Rogue 1",
+          "ac": 21,
+          "hp": 23,
+          "hitDice": "2d8+1d6+6",
+          "initiative": 7,
+          "languages": "Aquan, Common, Dwarven, Kuo-Toan, Undercommon",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 14,
+            "WIS": 16,
+            "CHA": 8
+          },
+          "skills": [
+            "Escape Artist +16",
+            "Listen +8",
+            "Move Silently +8",
+            "Search +12",
+            "Spot +13",
+            "Swim +12"
+          ],
+          "traits": [
+            "Neutral. Leather armor +2, Dexterity +3, natural armor +6. Touch 13, flat-footed 18. BAB +2, grapple +3. Fortitude +2, Reflex +8, Will +6.",
+            "Amphibious (Ex) allows indefinite breathing in air and water. Swim speed 50 ft. gives +8 on Swim checks for hazards and special actions and allows taking 10 even under pressure.",
+            "Keen Sight (Ex) can spot moving creatures or objects even if invisible or ethereal. An invisible or ethereal target that keeps still can avoid this detection.",
+            "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds for 1 round. Take a −1 circumstance penalty on attack rolls, saves, and checks while in bright light.",
+            "Electricity resistance 10. Immune to poison and paralysis. Slippery (Ex) provides immunity to magical and ordinary webs. Racial bonuses are +8 on Escape Artist and +4 on Search and Spot.",
+            "Improved Initiative adds +4. Weapon Finesse uses Dexterity to attack with the rapier. Trapfinding. Sneak Attack adds 1d6 on eligible hits."
+          ],
+          "actions": [
+            "Rapier +5 melee for 1d6+1 piercing, critical 18–20/×2.",
+            "Use Swim +12 to take 10 for a result of 22 when crossing a hazardous sluice. Use Escape Artist +16 if caught in a mundane snare. Webs do not impede this scout.",
+            "A moving invisible swimmer can be seen through Keen Sight if the scout can otherwise see the swimmer’s location. A perfectly still opponent can evade the ability. Seeing an ethereal target does not allow a mundane rapier to strike it."
+          ],
+          "tactics": "Rripp waits below the sluice, watching for movement in the dim channel. He signals the party when the moving scout crosses his view, then swims around the obstruction."
+        },
+        "role": "Sluice scout and Rogue.",
+        "motive": "Find the moving intruder before it reaches the upper gate.",
+        "hook": "Rripp gives the party a signal when the unseen swimmer passes the sluice."
+      }
+    ]
+  }
+}

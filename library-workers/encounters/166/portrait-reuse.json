@@ -1,0 +1,202 @@
+{
+  "Champion": {
+    "sha256": "1bc6e3fa18da70069723c632ea1866bed1039a5b3e1c126a62aca91bbf3103cb",
+    "source": "Champion"
+  },
+  "Chitine": {
+    "sha256": "0124334f84f950bc39bd564cd0ce8e6ef1a09af66efe1100ee3f6f2c9c24d80d",
+    "source": "Chitine (MPMM)"
+  },
+  "Choldrith": {
+    "sha256": "78b90a8c0c942c4751bc26792c81fcec0a82e0c485b48c403a02397ea23c6ca8",
+    "source": "Choldrith (MPMM)"
+  },
+  "Cloud Giant Smiling One": {
+    "sha256": "3f5b1ba5230dbafad27fb274dc6153cf601c0e730988506a96a1f49e02985497",
+    "source": "Cloud Giant Smiling One (MPMM)"
+  },
+  "Conjurer": {
+    "sha256": "ce9e01add45960f373dc70d461103ad40a537f7957b993b4ba316b016646f8cd",
+    "source": "Conjurer Wizard (MPMM)"
+  },
+  "Darkling": {
+    "sha256": "a04370836cb1701ac15be1694faf88e7991829389d62eb095255c403cf09340f",
+    "source": "Darkling (MPMM)"
+  },
+  "Darkling Elder": {
+    "sha256": "0c96528deb769b3c1e8b12df5c7b5404e5ff7bf26c557474df7640ff43c7151f",
+    "source": "Darkling Elder (MPMM)"
+  },
+  "Death Kiss": {
+    "sha256": "6c370c1629d007999d6a89758813fcbe9fc9356c5fdb9d0cce6f356602088e1f",
+    "source": "Death Kiss (MPMM)"
+  },
+  "Deep Scion": {
+    "sha256": "fa6b97a700f2f2dab5eccd4398b8414a92ce9dbc9866de2a0a7a0d6b6767d2b9",
+    "source": "Deep Scion"
+  },
+  "Devourer": {
+    "sha256": "483324a56bdf0978406cca55edb6b02a55f75833c10e34f45af201b2ce492cbc",
+    "source": "Devourer (MPMM)"
+  },
+  "Diviner": {
+    "sha256": "b3a4dc5eafd8544887633aecbaca02e437cbc7889ed9ffd88f3975878e27cd00",
+    "source": "Diviner Wizard (MPMM)"
+  },
+  "Draegloth": {
+    "sha256": "cc6d6214660431223f0b29357faca756d0cd8983a0fbc44201c4b31938e965ea",
+    "source": "Draegloth (MPMM)"
+  },
+  "Elder Brain": {
+    "sha256": "c139629303633e88c3e1e8b4b15472c4b8e112cdcf30cd57d7079d3fc0bfd8d6",
+    "source": "Elder Brain (MPMM)"
+  },
+  "Enchanter": {
+    "sha256": "a909de248bb513b8c4e2801162442a587b947f4357f7bce11ff4c17e15fd3533",
+    "source": "Enchanter Wizard (MPMM)"
+  },
+  "Evoker": {
+    "sha256": "977c3a65ed3748269aeb3a327a1ea9fff5a4f45a92b7ecf6d76553fa603c53d7",
+    "source": "Evoker Wizard (MPMM)"
+  },
+  "Fire Giant Dreadnought": {
+    "sha256": "79b4bafe7d4dae3fbe0d4133c589bb3c2e3c907b00e1699e4118a134d49865ab",
+    "source": "Fire Giant Dreadnought (MPMM)"
+  },
+  "Firenewt Warlock of Imix": {
+    "sha256": "9bc1d42aeefa2eb3fdf2ede56b91f73d27d04152ce869e9ac0637ccf13fdec11",
+    "source": "Firenewt Warlock of Imix"
+  },
+  "Firenewt Warrior": {
+    "sha256": "f58a84c7f9b7f5afcc838f9155b30e93ce0763b1c948c1920b464e76adf750a9",
+    "source": "Firenewt Warrior"
+  },
+  "Flail Snail": {
+    "sha256": "5ccd089226082e437e25a4034aff1ae6235712918f2322dfec9cd777a0909ad9",
+    "source": "Flail Snail (MPMM)"
+  },
+  "Flind": {
+    "sha256": "25d1c012806ffafc0253c2f733407561696c6eb5dbfd2689500623593738d1eb",
+    "source": "Flind (MPMM)"
+  },
+  "Froghemoth": {
+    "sha256": "05c3cd8c9c9abdbde977806ac562fff5ac64603cab68d6c69b49050ea3d4c88e",
+    "source": "Froghemoth (MPMM)"
+  },
+  "Frost Giant Everlasting One": {
+    "sha256": "c795c7dacced5237b9ce9844a62f6905d0bdb46ecc60a949699225e88698497a",
+    "source": "Frost Giant Everlasting One (MPMM)"
+  },
+  "Gauth": {
+    "sha256": "536036e4c36b155cc66013ea09449494c5b0d407841d7f74c54674d550c99d6b",
+    "source": "Gauth (MPMM)"
+  },
+  "Gazer": {
+    "sha256": "95b0790c146c351e1571019a0029012305e442b80f89793a79c7cd1913b0f9c3",
+    "source": "Gazer"
+  },
+  "Giant Strider": {
+    "sha256": "8bf0e36f7326695b2c786aa4427f19e7b672beb111e96495b0b3fe19dbea77ee",
+    "source": "Giant Strider"
+  },
+  "Girallon": {
+    "sha256": "a57da4d1e0be7b72d0d4be86cfeca25e2d41c4bd829f998c3659ff18967c5818",
+    "source": "Girallon"
+  },
+  "Gnoll Flesh Gnawer": {
+    "sha256": "8b75458d02eeffa93e1ab4c6bfb10340164e1eb68ec34586cc1ec3ca15b9f6a0",
+    "source": "Gnoll Flesh Gnawer (MPMM)"
+  },
+  "Gnoll Hunter": {
+    "sha256": "c9169eb8217f91dff34158c0b2da5f9808486b38ab1512a32b9f9f438424b0ec",
+    "source": "Gnoll Hunter (MPMM)"
+  },
+  "Gnoll Witherling": {
+    "sha256": "a668eb5baf67c855c64fbd0c48204d41a69c999099d460d0b93a2cd82b341fc1",
+    "source": "Gnoll Witherling (MPMM)"
+  },
+  "Green Guard Drake": {
+    "sha256": "48d559f7a62635b2077ac52cc021d4253dbfd1934182b576fd2bd741b1b5f3bc",
+    "source": "Green Guard Drake"
+  },
+  "Grung": {
+    "sha256": "c0fab0b872dbbd008c20eb0cbc5becbfd22edf00cc9f812908381db4c78e9949",
+    "source": "Grung (MPMM)"
+  },
+  "Grung (Blue)": {
+    "sha256": "1857ddd32e696503495c4d9a548a686d6d314d4cced508521b1d1c58c35ae688",
+    "source": "Grung (Blue) (MPMM)"
+  },
+  "Grung (Gold)": {
+    "sha256": "a09c0f2c6e82bd3af757406c4abb4f64569293367612218102f7618c35d7e28b",
+    "source": "Grung (Gold) (MPMM)"
+  },
+  "Grung (Green)": {
+    "sha256": "c0fab0b872dbbd008c20eb0cbc5becbfd22edf00cc9f812908381db4c78e9949",
+    "source": "Grung (Green) (MPMM)"
+  },
+  "Grung (Orange)": {
+    "sha256": "3ad71d2d595a6d898dcb01c1bf81dbe2afcf6e893eb1cf6f7c43f9d86969c4f6",
+    "source": "Grung (Orange) (MPMM)"
+  },
+  "Grung (Purple)": {
+    "sha256": "cb14781a9c88fd18c864fa92239d427e4eff500711d6cb15e2f2437bbb073173",
+    "source": "Grung (Purple) (MPMM)"
+  },
+  "Grung (Red)": {
+    "sha256": "b661d78b6919c926ec466f9e2090691b32328845c3aad02fc1a8c43b7297a674",
+    "source": "Grung (Red) (MPMM)"
+  },
+  "Grung Elite Warrior": {
+    "sha256": "306c1649886b14e2e3c1a943474cc4dc3cb1d4e2c358f6eaaba6bf259f896962",
+    "source": "Grung Elite Warrior"
+  },
+  "Grung Elite Warrior (Blue)": {
+    "sha256": "137f69678889805a178dc72ef96f2b6d95b0517ff1ed300367c36cf24aa8cc87",
+    "source": "Grung Elite Warrior (Blue) (MPMM)"
+  },
+  "Grung Elite Warrior (Gold)": {
+    "sha256": "c8d5bbadcd42bfd401feebb0f15ec6176ac29c60ececa59754a578e205bbcd39",
+    "source": "Grung Elite Warrior (Gold) (MPMM)"
+  },
+  "Grung Elite Warrior (Green)": {
+    "sha256": "55e4fac4ca65068b8c8c1ed318f3e5d5b2ee5ddfb967a4963eb745a1bafff0ca",
+    "source": "Grung Elite Warrior (Green) (MPMM)"
+  },
+  "Grung Elite Warrior (Orange)": {
+    "sha256": "16fc472496d3171a23625e7128ca0ffe2078b18b0103b313cf207f3e041dd72f",
+    "source": "Grung Elite Warrior (Orange) (MPMM)"
+  },
+  "Grung Elite Warrior (Purple)": {
+    "sha256": "7ea14f6ff71c63849098d21517686c28c57d62a2ede4189825752bf942a8600e",
+    "source": "Grung Elite Warrior (Purple) (MPMM)"
+  },
+  "Grung Elite Warrior (Red)": {
+    "sha256": "ab52731747c67f4ec7700e6b785d3eceb249db4a7b2da00db0a79a75f07af1d4",
+    "source": "Grung Elite Warrior (Red) (MPMM)"
+  },
+  "Grung Wildling": {
+    "sha256": "ed7ca6575ea3fd9ea3c741afc556e1d48b713dafc2dd6528918a73038d6633d9",
+    "source": "Grung Wildling (MPMM)"
+  },
+  "Grung Wildling (Blue)": {
+    "sha256": "4432ffb731900b79aa298852ea0087538da64707a956624a8c7aabb522ad0d95",
+    "source": "Grung Wildling (Blue) (MPMM)"
+  },
+  "Grung Wildling (Gold)": {
+    "sha256": "f0944a61ad74a2431f0c25d06c9eca99467115d1d7129a1b0b191cee90f7b394",
+    "source": "Grung Wildling (Gold) (MPMM)"
+  },
+  "Grung Wildling (Green)": {
+    "sha256": "89a8b9fb0527b35b3911ed5cbdd7c4d65c244b359ec1100008ad18ecdb597f45",
+    "source": "Grung Wildling (Green) (MPMM)"
+  },
+  "Grung Wildling (Orange)": {
+    "sha256": "45ea5ee6e15f5298da50312264d936e6b10989b26d4e6f6c6fc527f363bfbfe5",
+    "source": "Grung Wildling (Orange) (MPMM)"
+  },
+  "Grung Wildling (Purple)": {
+    "sha256": "ed7ca6575ea3fd9ea3c741afc556e1d48b713dafc2dd6528918a73038d6633d9",
+    "source": "Grung Wildling (Purple) (MPMM)"
+  }
+}

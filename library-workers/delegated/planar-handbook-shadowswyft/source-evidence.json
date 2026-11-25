@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Shadowswyft",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Planar Handbook",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "July 2004",
+    "productCode": "620-17920-001-EN",
+    "isbn": "0-7869-3429-8",
+    "printedPages": {
+      "speciesTable": 6,
+      "playableSpecies": [
+        13,
+        14
+      ],
+      "racialTraits": 14,
+      "illustration": 14,
+      "ageHeightWeight": 18
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "ea54f6b6945dcebe9819669310abd11f3ac95cbc2e7abc3da8533fe58a2c54a7",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Steve Prescott, A shadowswyft rogue, p. 14.",
+    "sourceDistinctions": [
+      "The race has both darkvision 120 ft. and low-light vision. Its 40-ft. speed is a base speed.",
+      "Light Blindness triggers on abrupt exposure to bright light and causes one round of blindness followed by dazzle while in the affected area.",
+      "The examples use the standard Blinded and Dazzled conditions. Neither inherits an additional vulnerability to sunbeam or sunburst.",
+      "These encounters take place on the Material Plane, so their type includes the Extraplanar subtype."
+    ],
+    "entryId": "species-32ec8686825b6736e180e63d",
+    "versionKey": "a19f3b2be94a466045ee44e7",
+    "slug": "shadowswyft",
+    "portraitSelection": "generated",
+    "portraitForm": "Mheer Wink, an original Shadowswyft Rogue",
+    "npcExamples": [
+      "Mheer Wink",
+      "Pohl Nod"
+    ]
+  }
+]

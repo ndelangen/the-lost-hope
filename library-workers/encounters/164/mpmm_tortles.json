@@ -1,0 +1,391 @@
+[
+  {
+    "name": "Tanarukk",
+    "statBlock": {
+      "name": "Tanarukk",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 240,
+      "classification": "Medium fiend (demon), typically chaotic evil",
+      "ac": 14,
+      "hp": 95,
+      "hitDice": "10d8 + 50",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 12,
+      "description": "Abyssal magic turns warriors into tanarukks. Their allies often keep them imprisoned between battles to contain their violent attempts to seize power.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 2,
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, and one other language.",
+        "Damage resistances": "Fire, poison.",
+        "Traits": "Magic Resistance. The tanarukk has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite and one Greatsword attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.\nGreatsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage.",
+        "Bonus actions": "Aggressive. Move up to the tanarukk's speed toward an enemy it can see.",
+        "Reactions": "Unbridled Fury. When a melee attack hits the tanarukk, make one Bite or Greatsword attack with advantage against the attacker.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 240."
+      }
+    }
+  },
+  {
+    "name": "Thorny Vegepygmy",
+    "statBlock": {
+      "name": "Thorny Vegepygmy",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 253,
+      "classification": "Medium plant, typically neutral",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Lightning, piercing.",
+        "Traits": "Plant Camouflage. The thorny has advantage on Dexterity (Stealth) checks in terrain with ample vegetation to hide it.\nRegeneration. Regain 5 hit points at the start of the thorny's turn. Taking cold, fire, or necrotic damage prevents this healing at the start of its next turn. The thorny dies only if it begins its turn at 0 hit points and fails to regenerate.\nThorny Body. At the start of its turn, the thorny deals 2 (1d4) piercing damage to each creature grappling it.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 10 (2d8 + 1) piercing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 253."
+      }
+    }
+  },
+  {
+    "name": "Titivilus",
+    "statBlock": {
+      "name": "Titivilus",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 242,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 20,
+      "hp": 150,
+      "hitDice": "20d8 + 60",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 22
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 24
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 26
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 16,
+      "description": "Titivilus negotiates on Dispater's behalf. He recruits outsiders to remove rivals and create problems that he can solve to secure his place at court.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 8,
+        "Wis": 11,
+        "Cha": 13
+      },
+      "skills": {
+        "Deception": 13,
+        "Insight": 11,
+        "Intimidation": 13,
+        "Persuasion": 13
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that do not use silvered weapons.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/day). When Titivilus fails a save, he can spend one use to succeed.\nMagic Resistance. Titivilus has advantage on saves against spells and other magical effects.\nRegeneration. Titivilus regains 10 hit points at the start of his turn. Taking cold or radiant damage prevents this healing at the start of his next turn. He dies only if he begins his turn at 0 hit points and fails to regenerate.\nVentriloquism. When Titivilus speaks, he can make his voice come from a point he chooses within 60 ft.",
+        "Actions": "Multiattack. Make one Silver Sword attack and use Frightful Word.\nSilver Sword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) force damage with one hand or 9 (1d10 + 4) force damage with two hands, plus 16 (3d10) necrotic damage either way. A creature hit loses maximum hit points equal to half the necrotic damage it takes.\nFrightful Word. Choose a visible creature within 10 ft. It must pass a DC 21 Wisdom save or be frightened of Titivilus for 1 minute. On its turns, it must Dash and move away by the safest available route. It can skip the Dash if it has nowhere to move. It repeats the save at the end of each of its turns, ending the effect on a success.\nTeleport. Titivilus and his worn or carried equipment teleport up to 120 ft. to an unoccupied space he can see.\nTwisting Words. Choose a visible creature within 60 ft. It must pass a DC 21 Charisma save or become charmed by Titivilus for 1 minute. If Titivilus damages the charmed creature, it can repeat the save to end the charm. A creature that succeeds on the save gains immunity to his Twisting Words for 24 hours.",
+        "Spellcasting": "Use an action to cast one spell without material components. Charisma is the spellcasting ability (spell save DC 21).\nAt will. Alter Self, Major Image, Nondetection, Sending, Suggestion.\n3/day each. Mislead, Modify Memory.",
+        "Legendary actions": "Titivilus has 3 legendary actions and recovers them at the start of his turn. Spend the stated cost on one option immediately after another creature finishes its turn. He cannot use them while incapacitated or otherwise unable to act. If surprised, he must finish his first turn before using them.\nCorrupting Guidance (1 action). Use Twisting Words, or choose a creature within 60 ft. that Titivilus has charmed. On a failed DC 21 Charisma save, he decides how it acts during its next turn.\nTeleport (1 action). Use Teleport.\nAssault (2 actions). Make one Silver Sword attack or use Frightful Word.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 242."
+      }
+    }
+  },
+  {
+    "name": "Tlincalli",
+    "statBlock": {
+      "name": "Tlincalli",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 242,
+      "classification": "Large monstrosity, typically neutral",
+      "ac": 15,
+      "hp": 85,
+      "hitDice": "10d10 + 30",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "description": "These desert hunters have humanoid torsos and scorpion bodies. They hunt at dawn and dusk and shelter in loose earth or ruins between hunts.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Tlincalli.",
+        "Actions": "Multiattack. Make one Longsword or Spiked Chain attack and one Sting attack.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage with one hand or 8 (1d10 + 3) with two hands.\nSpiked Chain. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. A Large or smaller creature hit is grappled (escape DC 11) and restrained until the grapple ends. The tlincalli cannot use this chain against another target during the grapple.\nSting. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage. The creature must pass a DC 14 Constitution save or be poisoned for 1 minute. If it fails by 5 or more, it is paralyzed while poisoned this way. It repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 242."
+      }
+    }
+  },
+  {
+    "name": "Tortle",
+    "statBlock": {
+      "name": "Tortle",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 244,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 17,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 4,
+        "Survival": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Aquan, Common.",
+        "Traits": "Hold Breath. The tortle can hold its breath for 1 hour.",
+        "Actions": "Claw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage.\nSpear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) if wielded with two hands in melee.\nLight Crossbow. Ranged weapon attack, +2 to hit, range 80/320 ft., one target. A hit deals 4 (1d8) piercing damage.\nShell Defense. Withdraw into the shell and gain +4 AC and advantage on Strength and Constitution saves until emerging. Inside the shell, the tortle is prone, its speed is 0 and cannot increase, and it has disadvantage on Dexterity saves. It cannot take reactions, and its only available action is a bonus action to emerge.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 244."
+      }
+    }
+  },
+  {
+    "name": "Tortle Druid",
+    "statBlock": {
+      "name": "Tortle Druid",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 244,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 17,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Animal Handling": 4,
+        "Nature": 2,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Aquan, Common.",
+        "Traits": "Hold Breath. The tortle can hold its breath for 1 hour.",
+        "Actions": "Multiattack. Make four Claw attacks or two Nature's Wrath attacks.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage.\nNature's Wrath. Ranged spell attack, +4 to hit, range 90 ft., one target. A hit deals 9 (2d6 + 2) cold, fire, lightning, or thunder damage, chosen by the druid.\nShell Defense. Withdraw into the shell and gain +4 AC and advantage on Strength and Constitution saves until emerging. Inside the shell, the tortle is prone, its speed is 0 and cannot increase, and it has disadvantage on Dexterity saves. It cannot take reactions, and its only available action is a bonus action to emerge.",
+        "Spellcasting": "Use an action to cast one listed spell. Wisdom is the spellcasting ability (spell save DC 12).\nAt will. Druidcraft, Guidance.\n2/day each. Cure Wounds, Hold Person, Speak with Animals, Thunderwave.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 244."
+      }
+    }
+  },
+  {
+    "name": "Transmuter Wizard",
+    "statBlock": {
+      "name": "Transmuter Wizard",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 265,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 49,
+      "hitDice": "11d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "sections": {
+        "Armor": "AC 15 with Mage Armor.",
+        "Languages": "Any four languages.",
+        "Traits": "Transmuter's Stone. While carrying the magic stone the wizard made, it gains one benefit of its choice. Choose the benefit at the end of each long rest.",
+        "Transmuter's Stone mechanics": "Darkvision. Gain darkvision out to 60 ft.\nResilience. Gain proficiency in Constitution saving throws.\nResistance. Gain resistance to one type of damage, chosen when selecting this benefit. The options are acid, cold, fire, lightning, and thunder.\nSpeed. Increase the wizard's walking speed by 10 ft.",
+        "Actions": "Multiattack. Make three Arcane Burst attacks.\nArcane Burst. Melee or ranged spell attack, +6 to hit, reach 5 ft. or range 120 ft., one target. A hit deals 19 (3d10 + 3) acid damage.",
+        "Spellcasting": "Use an action to cast one listed spell. Intelligence is the spellcasting ability (spell save DC 14).\nAt will. Light, Message, Prestidigitation.\n2/day each. Fireball, Hold Person, Knock, Mage Armor, Polymorph, Slow.\n1/day. Telekinesis.",
+        "Bonus actions": "Transmute (Recharge 4–6). Cast Alter Self or, while carrying the stone, change the benefit of Transmuter's Stone.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 265."
+      }
+    }
+  }
+]

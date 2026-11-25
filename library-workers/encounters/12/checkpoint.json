@@ -1,0 +1,44 @@
+{
+  "commit": "a08cdf116ee1afa57c4452fcff3ade62449d4a72",
+  "encounterVersions": 13,
+  "fullStatBlocks": 13,
+  "generatedPortraitsInstalled": 13,
+  "draftsBackedUp": 14,
+  "r2ObjectsVerified": 13,
+  "allRecentVersionsWithGeneratedPortrait": 470,
+  "olderSameNameVersionsVerified": 9,
+  "creditedGalleriesVerified": 13,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-12-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-12-portraits-1.jpg",
+  "results": "output/dm-library/encounter-batches/12/results.json",
+  "nextSourcePublication": "Mordenkainen’s Tome of Foes",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Amnizu (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/302932-amnizu-summoner-variant",
+      "challenge": "18"
+    },
+    {
+      "name": "Drow Inquisitor (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/302935-drow-inquisitor-summoner-variant",
+      "challenge": "14"
+    },
+    {
+      "name": "Drow Shadowblade (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/302938-drow-shadowblade-summoner-variant",
+      "challenge": "11"
+    },
+    {
+      "name": "Geryon (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/302941-geryon-summoner-variant",
+      "challenge": "22"
+    },
+    {
+      "name": "Molydeus (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/302926-molydeus-summoner-variant",
+      "challenge": "21"
+    }
+  ]
+}

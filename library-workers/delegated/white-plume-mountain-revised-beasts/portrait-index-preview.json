@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-72785437344616bb8d821f9d",
+    "version": "6298d3aaedc269384a78018a",
+    "name": "Advanced Huge Monstrous Crab",
+    "file": "images/white-plume-mountain-revised-beasts/advanced-huge-monstrous-crab.png",
+    "sha256": "87b9579cd34794dcc2fbbc0a349343beb2a598e42db5ba6c7d54adb88c599820",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-06785f4693c6689faff736ae",
+    "version": "8ba270eae9044bb899d5ba4a",
+    "name": "Large Monstrous Scorpion",
+    "file": "images/white-plume-mountain-revised-beasts/large-monstrous-scorpion.png",
+    "sha256": "302adb7d33bc59f7751fbeb16e036d63290d4df6897b3779b76c40364d757ebd",
+    "credit": "OpenAI ImageGen"
+  }
+]

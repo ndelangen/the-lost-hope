@@ -1,0 +1,27 @@
+{
+  "commit": "4c7663a9927069b4a62397016d64b1c37e2d64ac",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 568,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "galleryComparison": "output/dm-library/review/encounters-43-gallery.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-43-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/43/results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Chimeron",
+      "source": "https://www.dndbeyond.com/monsters/4485806-chimeron",
+      "challenge": "12"
+    },
+    {
+      "name": "Wobalas",
+      "source": "https://www.dndbeyond.com/monsters/4486048-wobalas",
+      "challenge": "10"
+    }
+  ]
+}

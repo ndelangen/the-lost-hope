@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Azmyth",
+    "kind": "monster",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A crested bat with a bearded chin, white pupil-less eyes, and leathery gray, mauve, or emerald green skin. Its tail ends in a needle-sharp point.",
+    "combat": {
+      "habitats": [
+        "Any land",
+        "Solitary wanderers that return to favorite haunts"
+      ],
+      "creatureType": "Magical Beast",
+      "armorClass": 2,
+      "movement": "3, Fl 24 (A)",
+      "hitDice": "2",
+      "thac0": 19,
+      "numberOfAttacks": 2,
+      "damageDice": "1 / 1–2",
+      "xp": 650,
+      "size": "S, 3 ft.",
+      "senses": [
+        "Infravision 90 ft."
+      ],
+      "languages": [
+        "Telepathy 60 ft."
+      ]
+    },
+    "mechanics": {
+      "Physical attacks": [
+        {
+          "name": "Bite and tail stab",
+          "effectNote": "The bite deals 1 damage and the tail stab deals 1d2."
+        }
+      ],
+      "Magic": [
+        {
+          "name": "Know alignment",
+          "effectNote": "Three times per day."
+        },
+        {
+          "name": "Invisibility",
+          "effectNote": "Self only, once per day for up to six rounds. It ends when the Azmyth makes a successful attack."
+        },
+        {
+          "name": "Silence",
+          "effectNote": "Once per day, centered on the Azmyth in a 15-foot radius."
+        },
+        {
+          "name": "Shocking grasp",
+          "effectNote": "Twice per day, direct contact deals 1d8+6 electrical damage. It can be added to a physical attack."
+        },
+        {
+          "name": "Magic resistance",
+          "effectNote": "40%."
+        }
+      ],
+      "Behavior": [
+        {
+          "name": "Voluntary companionship",
+          "effectNote": "Azmyths sometimes form lifelong partnerships with humanoids. The entry distinguishes them from familiars under a wizard’s direct control."
+        }
+      ]
+    },
+    "notes": [
+      "Rare, solitary, and active at any time. Omnivore. High intelligence (13–14). Chaotic neutral. Elite (14) morale. Treasure Nil. 1 appearing.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, pp. 15–16."
+    ]
+  },
+  {
+    "name": "Night Hunter",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A velvet-black bat, including its wing claws, with violet, orange, or red eyes and a sharp triangular tail.",
+    "combat": {
+      "habitats": [
+        "Any land",
+        "Double-ended caves, the underworld, and tall dense woods"
+      ],
+      "creatureType": "Animal",
+      "armorClass": 6,
+      "movement": "2, Fl 18 (A)",
+      "hitDice": "2+2",
+      "thac0": 19,
+      "numberOfAttacks": 4,
+      "damageDice": "1–4 / 1–2 / 1–2 / 1–6 or 3–12",
+      "xp": 175,
+      "size": "M, 7 ft.",
+      "senses": [
+        "Infravision 120 ft."
+      ],
+      "attackOptions": "One bite, two wing-claw rakes, and either a tail slash or a tail stab."
+    },
+    "mechanics": {
+      "Physical attacks": [
+        {
+          "name": "Bite and wing claws",
+          "effectNote": "Bite for 1d4, and rake once with each wing claw for 1d2 per rake."
+        },
+        {
+          "name": "Tail slash or stab",
+          "effectNote": "Choose a slash for 1d6 or a stab for 3d4."
+        }
+      ],
+      "Behavior": [
+        {
+          "name": "Ambush",
+          "effectNote": "It flies low and uses terrain as cover. Its loud calls when excited make surprise uncommon."
+        },
+        {
+          "name": "Lair counts",
+          "effectNote": "The table gives 1–12 appearing and 1–30 in a lair. The prose says lairs usually hold over 30."
+        }
+      ]
+    },
+    "notes": [
+      "Also called dragazhar. Uncommon pack hunter. Nocturnal above ground and active at any time underground. Carnivore. Average to high intelligence (8–14). Neutral evil. Steady (11) morale. Treasure M, O, Z in lair. The table lists no special attacks, special defenses, or magic resistance.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, pp. 15–16."
+    ]
+  },
+  {
+    "name": "Sinister",
+    "kind": "monster",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A jet-black, manta ray-shaped bat with no distinct head or neck. Its muscular wings lack the conspicuous finger bones of other bats.",
+    "combat": {
+      "habitats": [
+        "Any land",
+        "Above-ground hunting grounds used mostly at night"
+      ],
+      "creatureType": "Magical Beast",
+      "armorClass": 3,
+      "movement": "2, Fl 21 (A)",
+      "hitDice": "4+4",
+      "thac0": 17,
+      "numberOfAttacks": 1,
+      "damageDice": "2–5",
+      "xp": 2000,
+      "size": "L, 9 ft.",
+      "senses": [
+        "Infravision 160 ft."
+      ],
+      "languages": [
+        "Telepathy 20 ft., only with other Sinisters"
+      ]
+    },
+    "mechanics": {
+      "Magic": [
+        {
+          "name": "Levitation",
+          "effectNote": "Natural precision levitation lets it hang motionless."
+        },
+        {
+          "name": "Energy field",
+          "effectNote": "A naturally generated, five-foot-deep field surrounds it at all times. The field repels ordinary missiles and absorbs missile spells such as magic missile and Melf’s acid arrow. Melee attacks and other spells are unaffected by the field."
+        },
+        {
+          "name": "Hold monster",
+          "effectNote": "Once per day. Usually saved for escape, though it may use the spell when hunting."
+        },
+        {
+          "name": "Magic resistance",
+          "effectNote": "70%."
+        }
+      ],
+      "Behavior": [
+        {
+          "name": "Music",
+          "effectNote": "Silent bands may gather around singers or musicians and follow them. The prose says they leave performers alone unless attacked."
+        },
+        {
+          "name": "Alignment discrepancy",
+          "effectNote": "The table gives lawful evil. The prose describes Sinisters as non-evil."
+        }
+      ]
+    },
+    "notes": [
+      "Rare, found in bands of 1d6, and active at any time. Omnivore. Average to exceptional intelligence (8–16). Champion (15–16) morale. Treasure Nil.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, pp. 15–16."
+    ]
+  }
+]

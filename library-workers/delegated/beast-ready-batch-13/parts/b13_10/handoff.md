@@ -1,0 +1,9 @@
+# Out of the Abyss beasts
+
+I checked the September 2015 first printing against the rendered pages and the official errata. All three entries appear as Beasts in D&D Beyond's public monster lists. The individual creature pages redirected to the book purchase page during verification. [Publisher record](https://wpn.wizards.com/en/products/out-of-the-abyss) · [Official errata](https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss)
+
+- Cave Badger uses the adventure variant on p. 96 and the Giant Badger base block from the 2014 Monster Manual, p. 323. The adventure adds natural armor, tremorsense, and the ability to leave tunnels, and increases the burrow speed to 15 ft. The square Giant Badger portrait matches the roster checksum. [Official base block](https://www.dndbeyond.com/monsters/16874-giant-badger)
+- Female Steeder has a standalone Large Beast block on p. 231. It spends its entire move to Leap up to 90 ft. when its speed is at least 30 ft., and Sticky Leg recharges when it has no creatures grappled. The rider-triggered reaction on p. 226 belongs to the Duergar Kavalrachni's Cavalry Training. [D&D Beyond monster list](https://www.dndbeyond.com/monsters?page=57)
+- Fiendish Giant Spider uses the adventure variant on p. 97 and the 2014 Giant Wolf Spider base block on p. 330. The adventure raises the challenge to 1/2 and adds cold, fire, and lightning resistance and immunity to poison damage and the poisoned condition. The square Giant Wolf Spider portrait matches the roster checksum and depicts the inherited body form. The adventure's baleful energy appears in the text. [Official base block](https://www.dndbeyond.com/monsters/16900-giant-wolf-spider)
+
+The new Female Steeder portrait uses Big Linda as the style reference. It is square, with plain tan parchment, no scene or text, and the full silhouette inside the frame. [Female Steeder portrait](portraits/female-steeder.png)

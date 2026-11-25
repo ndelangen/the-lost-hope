@@ -1,0 +1,190 @@
+{
+  "Vegepygmy": {
+    "sha256": "0c2b8e28b4eec97edf15b787b4bbc6d1d0be7c7d125f3659e58aeb08f9ae6ac8",
+    "source": "Vegepygmy"
+  },
+  "Vegepygmy Chief": {
+    "sha256": "dce4b54f7990c1919d2e2b3e231c2d8bf962f10e19505263e2ded933753fd616",
+    "source": "Vegepygmy Chief"
+  },
+  "War Priest": {
+    "sha256": "da3e7efe592e709468c2a109fafa5281b6abfb4c43e68c63845bfdb91a418b21",
+    "source": "War Priest"
+  },
+  "Warlock of the Archfey": {
+    "sha256": "5901d6f08071b9eea5c9d1b0392255c23d425adaaa0f4c1ec0011cb8def5552e",
+    "source": "Warlock of the Archfey"
+  },
+  "Warlock of the Fiend": {
+    "sha256": "f0c8bcb9ee9dc44fe9be166f822d5ddd746f504df858c8e2ae799a5cea99dbad",
+    "source": "Warlock of the Fiend"
+  },
+  "Warlock of the Great Old One": {
+    "sha256": "f19b9100ff7d59b8207074acb1b7c27641e69f85013f3d7683daaffc70fdadba",
+    "source": "Warlock of the Great Old One"
+  },
+  "Warlord": {
+    "sha256": "f1ce819e239143e6dd4c493d25b65ae30a754a8e909b66d796da8bbcf3ed26f1",
+    "source": "Warlord"
+  },
+  "White Guard Drake": {
+    "sha256": "342c06f759a84d013b947c4452d32bf776242e8788234a31c22a69ab41e1e0ca",
+    "source": "White Guard Drake"
+  },
+  "Wood Woad": {
+    "sha256": "d8adb2010acca978ac6c2f1b91dc0df01730d16c72d27d9a0bdf74d7fb229bc5",
+    "source": "Wood Woad"
+  },
+  "Xvart": {
+    "sha256": "0ac9b375387fc1f37c3e788eabb684e1ebf406f21526b5314ed1b9675603f4ab",
+    "source": "Xvart"
+  },
+  "Xvart Speaker": {
+    "sha256": "0ac9b375387fc1f37c3e788eabb684e1ebf406f21526b5314ed1b9675603f4ab",
+    "source": "Xvart"
+  },
+  "Xvart Warlock of Raxivort": {
+    "sha256": "d04a21b54652601fa655f5cd2e2dbacff0b0f5c6ccc110e9464c2ee91bed4acb",
+    "source": "Xvart Warlock of Raxivort"
+  },
+  "Yeth Hound": {
+    "sha256": "61b2e32f0d79bccb0d9db4017d0a7870a19edd0371c0f210132c20c1a0d34376",
+    "source": "Yeth Hound"
+  },
+  "Yuan-ti Anathema": {
+    "sha256": "b43a5a2fbcbdeb0915677077b4c27fc5850f898b03bcb1c2b0d0769c71ae41dd",
+    "source": "Yuan-ti Anathema"
+  },
+  "Yuan-ti Broodguard": {
+    "sha256": "326cb3471236a9e6e391f08c1170fae3bd219a6972bb121c0d591ef94e16cc0d",
+    "source": "Yuan-ti Broodguard"
+  },
+  "Yuan-ti Mind Whisperer": {
+    "sha256": "2c797f7e5686a9a363a8fcb1ad58522a701b7440003dda7d9a96042c553c6e92",
+    "source": "Yuan-ti Mind Whisperer"
+  },
+  "Yuan-ti Nightmare Speaker": {
+    "sha256": "9649f0b21e30516501286c39606da89cc3b39a528cfcee3bdc69680fc379a811",
+    "source": "Yuan-ti Nightmare Speaker"
+  },
+  "Yuan-ti Pit Master": {
+    "sha256": "a22b18d0d46beb1e10ea77c9c520ad217f5a6f5aa447b909c85250e2ce63bae8",
+    "source": "Yuan-ti Pit Master"
+  },
+  "Adult Kruthik": {
+    "sha256": "6cf6301344955689344f39a5de6b72f73c84d2434ffae8e2775a044e487041dd",
+    "source": "Adult Kruthik"
+  },
+  "Adult Oblex": {
+    "sha256": "6a95a18c2a81b48c8cc60cf737ba4da4a2e21e5069e403c99c53b28593ed6070",
+    "source": "Adult Oblex"
+  },
+  "Air Elemental Myrmidon": {
+    "sha256": "c0431da79fc7c384df61aa3cf3859f977b8fad51928683d616a53093ec194f1f",
+    "source": "Air Elemental Myrmidon"
+  },
+  "Alkilith": {
+    "sha256": "d3650a7fcc13307ed9b32a0e25c838c9465d30ee82b0c1a97d1f199c006032f0",
+    "source": "Alkilith"
+  },
+  "Allip": {
+    "sha256": "074f426dcbf6960a7bc56d2288283f0b31cb716ddd3ebd791a62053b5e14c0d2",
+    "source": "Allip"
+  },
+  "Amnizu": {
+    "sha256": "45fc5422abd7696ff41326ff9af0efa7b4350587d99a41ae64492804f724951b",
+    "source": "Amnizu"
+  },
+  "Armanite": {
+    "sha256": "c4345009678b3aa9475c4cfd34a5675e2f449045cfc4d203f27faafee26a8755",
+    "source": "Armanite"
+  },
+  "Astral Dreadnought": {
+    "sha256": "7ae2f627a3262a3c21f268737300f08c05a6bff3f7ce962414fff4ae252d9f00",
+    "source": "Astral Dreadnought"
+  },
+  "Autumn Eladrin": {
+    "sha256": "673dbab46ad8151671911c8b17256b15f32031a1140011dc65af953d3c5a3cf6",
+    "source": "Autumn Eladrin"
+  },
+  "Bael": {
+    "sha256": "4a9b4ad0054c402087d1e3345b6c4721e0049d485a83b9df2171051ed9830bb4",
+    "source": "Bael"
+  },
+  "Balhannoth": {
+    "sha256": "845ded6a7bc2fc2f0ef861a5f67f7a135c2608c4e47e14a03c4c203a7c9810fa",
+    "source": "Balhannoth"
+  },
+  "Baphomet": {
+    "sha256": "becfecde12dbf93a93627f31c7fb2feed5fca2564b3d1d784bbeb4e9c38b1843",
+    "source": "Baphomet"
+  },
+  "Berbalang": {
+    "sha256": "70d074bd1cc2d8b44562627d36dc0db6637561982b39c990df432ea20fcc5040",
+    "source": "Berbalang"
+  },
+  "Black Abishai": {
+    "sha256": "e61b2435c5b5c63de7583efaa4aec6275e5eed367dfe8d0e9dfc80462f07090a",
+    "source": "Black Abishai"
+  },
+  "Blue Abishai": {
+    "sha256": "2a9ef95d02aebf0b195e872f727333c11f551f1b75da068a4a974074c6adcde2",
+    "source": "Blue Abishai"
+  },
+  "Boneclaw": {
+    "sha256": "a8b39a15891e5eb6127ed304c40608ad475a88eefe7dbf5e7c6a1f23a8e1c120",
+    "source": "Boneclaw"
+  },
+  "Bronze Scout": {
+    "sha256": "36f0af2b1e7c13131eb5b63d729d64c3e386baff1eb8ed9b77d9b03f6a0bc8b0",
+    "source": "Clockwork Bronze Scout"
+  },
+  "Bulezau": {
+    "sha256": "6dfc1e215dcee67598eebeda28053c3de4d129c346bbb07a8619cc835f061213",
+    "source": "Bulezau"
+  },
+  "Cadaver Collector": {
+    "sha256": "25b1b376394e8c1a9ee426b1d735bf54baa4fd977521e14b80f8562985b14cd5",
+    "source": "Cadaver Collector"
+  },
+  "Canoloth": {
+    "sha256": "863f32dde3d6d2286f06b283fc18fdae04e21fa466b95c464f8a7280720a095b",
+    "source": "Canoloth"
+  },
+  "Choker": {
+    "sha256": "9a4c6801a918eaefe54176b37b5379d214844e7e234477a743cb36e64e76801d",
+    "source": "Choker"
+  },
+  "Corpse Flower": {
+    "sha256": "5a3388f7b2bd90cc1c4cbfa4bda975f1d2fffb79740d65effec62c2dcd53ec10",
+    "source": "Corpse Flower"
+  },
+  "Deathlock": {
+    "sha256": "7c9510103924ce8e7e2ffcf468e914dfc435cb9e9756404ce6d150d6f73f7e2f",
+    "source": "Deathlock"
+  },
+  "Deathlock (Archfey Patron)": {
+    "sha256": "7c9510103924ce8e7e2ffcf468e914dfc435cb9e9756404ce6d150d6f73f7e2f",
+    "source": "Deathlock"
+  },
+  "Deathlock (Fiend Patron)": {
+    "sha256": "7c9510103924ce8e7e2ffcf468e914dfc435cb9e9756404ce6d150d6f73f7e2f",
+    "source": "Deathlock"
+  },
+  "Deathlock (Great Old One Patron)": {
+    "sha256": "7c9510103924ce8e7e2ffcf468e914dfc435cb9e9756404ce6d150d6f73f7e2f",
+    "source": "Deathlock"
+  },
+  "Deathlock Mastermind": {
+    "sha256": "5f14b7e8ce33015e0d2f64cf8bb070d3d0ec2b59542377deca9e5b2083571a46",
+    "source": "Deathlock Mastermind"
+  },
+  "Deathlock Wight": {
+    "sha256": "429a2cda9194b617bf6b7597fec1e96d9d89046b64f83ebbe376885b2ed1ad75",
+    "source": "Deathlock Wight"
+  },
+  "Demogorgon": {
+    "sha256": "f284c94edd1b897d85448bdc5f617314b9d0a4b6b70a75e7cb20c4251e9b3a2f",
+    "source": "Demogorgon"
+  }
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Black Bear",
+    "publication": "Player's Handbook (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      304
+    ],
+    "printing": "First printing, August 2014",
+    "pdfPages": [
+      305
+    ],
+    "sourceFile": " - 5th Edition (2014)/Rules/Player's ",
+    "sourceSha256": "ea22df5f9618570bdeee54a18592b0fd2e754bd5742920b339c3b5f360e5f466",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2014",
+    "sourceUrlRole": "Official product contents. The local first-printing facsimile supplies the verified rules.",
+    "section": "Appendix D, Creature Statistics",
+    "errataUrl": "",
+    "errataResult": "Version 3.0 changes Bite and Claws from +3 to +4 to hit. The exact first-printing attack bonuses are +3.",
+    "habitatEvidence": "The Appendix D stat block gives no habitat.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-04/parts/b04_01/portraits/black-bear.png",
+    "portraitSha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+    "sourceDistinctions": [
+      "The first printing has +3 to hit for both attacks. The official errata sets both to +4."
+    ]
+  },
+  {
+    "name": "Cat",
+    "publication": "Player's Handbook (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      305
+    ],
+    "printing": "First printing, August 2014",
+    "pdfPages": [
+      306
+    ],
+    "sourceFile": " - 5th Edition (2014)/Rules/Player's ",
+    "sourceSha256": "ea22df5f9618570bdeee54a18592b0fd2e754bd5742920b339c3b5f360e5f466",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2014",
+    "sourceUrlRole": "Official product contents. The local first-printing facsimile supplies the verified rules.",
+    "section": "Appendix D, Creature Statistics",
+    "errataUrl": "",
+    "errataResult": "Version 3.0 lists no stat block change for this creature.",
+    "habitatEvidence": "The Appendix D stat block gives no habitat.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-02/parts/b02_05/portraits/cat.png",
+    "portraitSha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+    "sourceDistinctions": [
+      "The first printing lists passive Perception 13 and has no darkvision entry."
+    ]
+  },
+  {
+    "name": "Constrictor Snake",
+    "publication": "Player's Handbook (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      305
+    ],
+    "printing": "First printing, August 2014",
+    "pdfPages": [
+      306
+    ],
+    "sourceFile": " - 5th Edition (2014)/Rules/Player's ",
+    "sourceSha256": "ea22df5f9618570bdeee54a18592b0fd2e754bd5742920b339c3b5f360e5f466",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2014",
+    "sourceUrlRole": "Official product contents. The local first-printing facsimile supplies the verified rules.",
+    "section": "Appendix D, Creature Statistics",
+    "errataUrl": "",
+    "errataResult": "Version 3.0 lists no stat block change for this creature.",
+    "habitatEvidence": "The Appendix D stat block gives no habitat.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-04/parts/b04_02/portraits/constrictor-snake.png",
+    "portraitSha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+    "sourceDistinctions": [
+      "Constrict in this Player's Handbook printing gives no fixed escape DC."
+    ]
+  },
+  {
+    "name": "Giant Weasel",
+    "publication": "DDEX1-09 - Outlaws of the Iron Route",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      26
+    ],
+    "author": "Will Doyle",
+    "printing": "Original Adventurers League release, December 1, 2014",
+    "printedAdventureCode": "DDEX1-9",
+    "pdfPages": [
+      26
+    ],
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-09 - Outlaws of the Iron ",
+    "sourceSha256": "be5f9c8aa3e73b95c515ec8a7c7c15709974f2d1c4ece8e010525bec75d363e3",
+    "sourceUrl": "",
+    "sourceUrlRole": "The official Wizards matches the local byte for byte.",
+    "officialIndexUrl": "",
+    "section": "Appendix 1, Monster/NPC Statistics",
+    "encounterPrintedPages": [
+      15,
+      24
+    ],
+    "habitatEvidence": "Encounter placement in area 2, Kobold Caverns, on p. 15.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-weasel.png",
+    "portraitSha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+    "sourceDistinctions": [
+      "The appendix gives 25 XP. The adventure's Combat Awards table on p. 24 agrees."
+    ]
+  },
+  {
+    "name": "Spider",
+    "publication": "DDEX1-09 - Outlaws of the Iron Route",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      31
+    ],
+    "author": "Will Doyle",
+    "printing": "Original Adventurers League release, December 1, 2014",
+    "printedAdventureCode": "DDEX1-9",
+    "pdfPages": [
+      31
+    ],
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-09 - Outlaws of the Iron ",
+    "sourceSha256": "be5f9c8aa3e73b95c515ec8a7c7c15709974f2d1c4ece8e010525bec75d363e3",
+    "sourceUrl": "",
+    "sourceUrlRole": "The official Wizards matches the local byte for byte.",
+    "officialIndexUrl": "",
+    "section": "Appendix 1, Monster/NPC Statistics",
+    "encounterPrintedPages": [
+      15,
+      24
+    ],
+    "habitatEvidence": "Encounter placement in area 2, Kobold Caverns, on p. 15.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-02/parts/b02_09/portraits/spider.png",
+    "portraitSha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+    "sourceDistinctions": [
+      "The appendix gives 10 XP. The adventure's Combat Awards table on p. 24 agrees."
+    ]
+  }
+]

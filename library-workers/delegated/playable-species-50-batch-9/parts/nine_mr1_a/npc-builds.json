@@ -1,0 +1,276 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-bullywug-quib-reedsocket",
+      "title": "Quib Reedsocket, Bullywug Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 16,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 2,
+      "speed": "20 ft. walking, 40 ft. swimming",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Deception +2",
+        "Perception +3",
+        "Stealth +4"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Bullywug. Can convey simple ideas to frogs and toads in Bullywug.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. AC 16 is leather 11 + 2 Dexterity + 2 shield + 1 Defense. HP 12 is 10 + 2 Constitution.",
+        "Fighter grants Athletics and Perception. Criminal supplies Deception, Stealth, thieves’ tools, and dice proficiency.",
+        "Amphibious. Long jump up to 20 ft. or high jump up to 10 ft. without needing a run-up. Advantage on Dexterity checks to hide in swamps."
+      ],
+      "actions": [
+        "Spear. +5 to hit, reach 5 ft. or thrown range 20/60 ft. Hit for 1d6 + 3 piercing with a one-handed grip.",
+        "Second Wind. Bonus action to regain 1d10 + 1 HP. Recharge on a short or long rest."
+      ],
+      "tactics": "Quib calls out before stepping between a traveler and the mooring ropes. In a fight, he keeps his shield up and uses the water to cut off a retreat."
+    },
+    {
+      "id": "mr2018-fomorian-marn-splitknuckle",
+      "title": "Marn Splitknuckle, Fomorian Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Giant",
+      "ac": 14,
+      "hp": 23,
+      "hitDice": "2d12 + 4",
+      "initiative": 2,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Giant, and Dwarvish from Outlander.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Unarmored AC 14 is 10 + 2 Dexterity + 2 Constitution. HP 23 is 14 at 1st level and 9 at 2nd.",
+        "Barbarian grants Animal Handling and Perception. Outlander supplies Athletics and Survival and proficiency with horn. Marn counts as one size larger for carrying, pushing, dragging, and lifting.",
+        "Rage twice per long rest. Starts as a bonus action and lasts up to 1 minute. Advantage on Strength checks and saves. +2 damage on Strength-based melee weapon attacks. Resistance to bludgeoning, piercing, and slashing. Ends early if unconscious or if a turn ends since he last attacked a hostile creature or took damage.",
+        "Reckless Attack chosen on the first attack of his turn gives advantage on all Strength-based melee weapon attacks that turn. Attack rolls against him gain advantage until his next turn. Danger Sense grants advantage on visible effects’ Dexterity saves while he can see them and is neither blinded, deafened, nor incapacitated."
+      ],
+      "actions": [
+        "Maul. +5 to hit, reach 5 ft., two-handed. Hit for 2d6 + 3 bludgeoning, or 2d6 + 5 while raging.",
+        "Evil Eye. One visible creature within 30 ft. takes 1d8 psychic damage on a failed DC 11 Charisma save.",
+        "Curse of the Evil Eye. Resolve Evil Eye, and on a failed save choose one curse effect. Twisted legs reduce speed by 10 ft. Warped joints impose disadvantage on Dexterity checks, saves and Dexterity-based attacks. Withered limbs impose the same penalties for Strength. The target repeats the Charisma save at the end of each turn until it succeeds."
+      ],
+      "tactics": "Marn opens with the curse if a fight starts across the quarry floor. Once he rages, he closes to fight with the maul and uses Reckless Attack if dropping a target can end the fight."
+    },
+    {
+      "id": "mr2018-fungi-siltcap",
+      "title": "Siltcap, Violet Fungus Monk 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Plant",
+      "ac": 15,
+      "hp": 17,
+      "hitDice": "2d8 + 4",
+      "initiative": 3,
+      "speed": "40 ft. walking",
+      "abilityScores": {
+        "STR": 11,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Religion +1",
+        "Stealth +5"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Understands, reads, and writes Common, Dwarvish and Undercommon. The latter two come from Acolyte. Communicates with travelers by tracing marks in mud.",
+      "traits": [
+        "Proficiency +2. Strength save +2, Dexterity save +5. Unarmored AC 15 is 10 + 3 Dexterity + 2 Wisdom. HP 17 is 10 at 1st level and 7 at 2nd. Unarmored Movement adds 10 ft.",
+        "Violet Fungus. Understands, reads, and writes Common. Lacks hands for weapons, shields, and implements. Remain motionless while concentrating for 1 minute to appear to be ordinary fungus.",
+        "Rotting Touch decomposes a slain target’s body. If Siltcap dies within one day, it grows from the oldest such corpse after another day with 1 HP. Unused bodies grow ordinary violet fungus in 2d6 days.",
+        "Monk grants Acrobatics and Stealth. Acolyte grants Insight and Religion. Siltcap fights without armor, carried weapons, or tools."
+      ],
+      "actions": [
+        "Rotting Touch. Unarmed strike +5 to hit, reach 5 ft. Hit for 1d6 + 3 necrotic. After attacking with it, Martial Arts allows one bonus unarmed strike for 1d4 + 3 bludgeoning at +5.",
+        "Ki, two points per short or long rest with at least 30 minutes of meditation. Spend 1 ki for a bonus-action Dodge, or bonus-action Disengage or Dash with doubled jump distance that turn. Immediately after taking the Attack action, 1 ki instead allows two bonus-action unarmed strikes at +5 for 1d4 + 3 bludgeoning each."
+      ],
+      "tactics": "Siltcap uses False Appearance if it has a minute to wait unseen. It uses Step of the Wind to keep an intruder away from its damp tunnel and Flurry if cornered."
+    },
+    {
+      "id": "mr2018-gorgon-brackplate",
+      "title": "Brackplate, Gorgon Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 18,
+      "hp": 20,
+      "hitDice": "2d10 + 4",
+      "initiative": 2,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Reads and understands Common. Signals by stamping, nodding, and turning.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Metal Skin AC 18. No armor benefit or shields. Defense style is inactive. HP 20 is 12 at 1st level and 8 at 2nd.",
+        "Fighter grants Perception and Survival. Soldier supplies Athletics and Intimidation. No hands for weapons or items requiring manipulation.",
+        "Breath uses concentration. Damage requires a Constitution save at DC 10 or half the damage taken rounded down, whichever is higher. Incapacitation also ends concentration."
+      ],
+      "actions": [
+        "Hoof. Unarmed strike +5 to hit, reach 5 ft. Hit for 1d8 + 3 bludgeoning.",
+        "Petrifying Breath. Each creature in a 15-ft. cone makes a DC 12 Constitution save or is restrained. It repeats the save at the end of its next turn. A success or lost concentration ends restraint. On a second failure it remains restrained through the remaining concentration time, up to 1 minute total. Creatures immune to petrification ignore the breath. Recharge on a short or long rest.",
+        "Second Wind. Bonus action to regain 1d10 + 2 HP, once per short or long rest. Action Surge grants one additional action on Brackplate’s turn, also once per short or long rest."
+      ],
+      "tactics": "Brackplate places itself in a doorway to keep travelers behind its shoulders. It saves the breath for a clear lane, then uses Action Surge for a hoof strike if a restrained target is in reach."
+    },
+    {
+      "id": "mr2018-hell-hound-coalwhistle",
+      "title": "Coalwhistle, Hell Hound Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Fiend",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "1d10 + 1",
+      "initiative": 2,
+      "speed": "40 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13, or 18 when hearing or smell applies.",
+      "languages": "Reads and understands Infernal. Communicates with learned gestures and short barks.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +3. AC 15 is 13 + 2 Dexterity. HP 11 is 10 + 1 Constitution.",
+        "Fighter grants Perception and Survival. Soldier supplies Athletics and Intimidation. No hands for weapons, shields, or implements. Defense style is inactive while unarmored.",
+        "Advantage on Wisdom (Perception) checks using smell or hearing."
+      ],
+      "actions": [
+        "Bite. Unarmed strike +5 to hit, reach 5 ft. Hit for 1d4 + 3 slashing plus 1d4 fire.",
+        "Fire Breath. Each creature in a 15-ft. cone makes a DC 11 Dexterity save, taking 2d6 fire damage on failure or half on success. Recharge on a short or long rest.",
+        "Second Wind. Bonus action to regain 1d10 + 1 HP. Recharge on a short or long rest."
+      ],
+      "tactics": "Coalwhistle follows a scent within sight of its team and tries to draw a foe away from the others. It saves Fire Breath until the cone is clear of allies."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Bullywug",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Quib Reedsocket",
+      "size": "Medium",
+      "build": "mr2018-bullywug-quib-reedsocket",
+      "role": "Ferry guard",
+      "motive": "Collect an honest fare without drawing attention to his former crew.",
+      "hook": "A frog showed Quib where a mooring rope was cut. He wants someone to check the next landing before the evening ferry sets off."
+    },
+    {
+      "species": "Fomorian",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Marn Splitknuckle",
+      "size": "Medium",
+      "build": "mr2018-fomorian-marn-splitknuckle",
+      "role": "Abandoned quarry caretaker",
+      "motive": "Keep the quarry’s sealed access stairs out of general use.",
+      "hook": "Someone has jammed the quarry’s old winding gear halfway between floors. Marn can lift the jammed carriage if another person reaches the brake."
+    },
+    {
+      "species": "Fungi",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Siltcap",
+      "size": "Medium",
+      "build": "mr2018-fungi-siltcap",
+      "role": "Underground shrine keeper",
+      "motive": "Protect the damp patch where its teacher is buried.",
+      "hook": "Siltcap scratched a map into the mud to show where a drain collapsed. It points to a dry patch that was underwater yesterday."
+    },
+    {
+      "species": "Gorgon",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Brackplate",
+      "size": "Medium",
+      "build": "mr2018-gorgon-brackplate",
+      "role": "Traveling freight escort",
+      "motive": "Get its team and wagon through the pass without losing another driver.",
+      "hook": "Brackplate found a loose plank on the switchback bridge. It refuses to cross and tries to point it out with one hoof."
+    },
+    {
+      "species": "Hell Hound",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Coalwhistle",
+      "size": "Medium",
+      "build": "mr2018-hell-hound-coalwhistle",
+      "role": "Runaway gate hound",
+      "motive": "Get its former handler away from a damaged gate.",
+      "hook": "Coalwhistle follows the party carrying the corner of an Infernal duty roster in its mouth. One name on the list is circled with soot."
+    }
+  ]
+}

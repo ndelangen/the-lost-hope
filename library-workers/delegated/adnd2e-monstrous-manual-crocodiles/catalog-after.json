@@ -1,0 +1,3184 @@
+[
+  {
+    "name": "Crocodile",
+    "kind": "beast",
+    "group": "Beast",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "d65baf9378adc782d6978cd4",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Size",
+          "L, 8–15 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6, Sw 12"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "2"
+        ],
+        [
+          "Damage per attack",
+          "2–8 / 1–12"
+        ],
+        [
+          "XP",
+          "65"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Subtropical and tropical / Saltwater swamps and rivers",
+            "Swamps, rivers, and other large bodies of water",
+            "Rumored in tropical city sewers"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A long, low reptile with tough hide, four short legs, and a strong tail. Its long jaws have conical teeth. The description places eyes and nostrils high enough to remain above water as it floats."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Surprise · When it lies in wait, its prey takes a −2 penalty to surprise rolls.",
+            "Bite and tail · The jaws deal 2d4 damage and the tail deals 1d12. It may seize prey and drag it underwater.",
+            "Cold · Below 40°F, its movement falls to half normal."
+          ]
+        },
+        {
+          "title": "Behavior mechanics",
+          "lines": [
+            "Hunting · Crocodiles sometimes gather but hunt independently. When several converge on the same prey, each tries to claim it.",
+            "Eggs · The female buries roughly 60 eggs in sand, guards them, and digs them out at hatching."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Number appearing in the table is 3–24. Frequency common. Average (9) morale.",
+            "Diurnal, carnivorous, and neutral. Animal intelligence (1). Organization, treasure, special defenses, and magic resistance Nil.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 49."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "4abe6061748c3a6cd7b92fbc",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d10 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "9965b756154cba3091ebf3d8",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "25"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "0 2 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 s ft., 9 w ft., 10 i ft., 11 m ft., 12   ft., 13 3 ft., 14 0 ft., 15   ft., 16 f ft., 17 t ft., 18 . ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee",
+              "Bite · melee"
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "6728886f174c2de910a67ae2",
+        "publication": "DDEX1-07 - Drums in the Marsh",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft."
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "8fd3ba897fc87bd91bbc3929",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d10 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "78af60cbade7e421ec9963dc",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 1/2. Listed habitats: swamp, urban. Named abilities include Hold Breath, Bite.",
+        "source": "https://5e.tools/bestiary.html#crocodile_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "13"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d10 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "A bite grapples its victim (escape DC 12). The victim is restrained, and the crocodile cannot bite a different target until the grapple ends.",
+              "It can remain underwater for up to 15 minutes without breathing."
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +2"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "swamp, urban"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Hold Breath · 15 minutes"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d10 + 2 piercing damage · Escape DC 12 · reach 5 ft. · Grappled · Restrained"
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 320,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 320",
+            "url": "https://5e.tools/bestiary.html#crocodile_mm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_phb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_phb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "A bite grapples its victim (escape DC 12). The victim is restrained, and the crocodile cannot bite a different target until the grapple ends.": [
+            {
+              "start": 57,
+              "end": 67,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ],
+          "Stealth +2": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +4 to hit · 1d10 + 2 piercing damage · Escape DC 12 · reach 5 ft. · Grappled · Restrained": [
+            {
+              "start": 90,
+              "end": 98,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 101,
+              "end": 111,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "65d2f6c0e94a4f5a61465428",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 1/2. Listed habitats: coastal, swamp, urban. Named abilities include Hold Breath, Bite.",
+        "source": "https://5e.tools/bestiary.html#crocodile_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43939/131/1000/1000/638607415525020149.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "2d10 + 2"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "13"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Con +3",
+              "Constitution +3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "coastal",
+              "swamp",
+              "urban",
+              "coastal, swamp, urban"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +2"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Hold Breath · 1 hour"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d8 + 2 piercing damage · Escape DC 12 · reach 5 ft. · Grappled · Restrained"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 352",
+            "url": "https://5e.tools/bestiary.html#crocodile_xmm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_xphb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_xphb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 373,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Stealth +2": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +4 to hit · 1d8 + 2 piercing damage · Escape DC 12 · reach 5 ft. · Grappled · Restrained": [
+            {
+              "start": 89,
+              "end": 97,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 100,
+              "end": 110,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "26b65f58826a4573577cd81b",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "0.5"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "719ed6a607b4cf81dd90ed8e",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "3d8+9"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Animal"
+          ],
+          [
+            "Speed",
+            "0 2 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 s ft., 9 w ft., 10 i ft., 11 m ft., 12   ft., 13 3 ft., 14 0 ft., 15   ft., 16 f ft., 17 t ft., 18 . ft."
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Touch armor class",
+            "11"
+          ],
+          [
+            "Flat-footed armor class",
+            "14"
+          ],
+          [
+            "Base attack bonus",
+            "2"
+          ],
+          [
+            "Grapple modifier",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Fort +6",
+              "Ref +4",
+              "Will +2"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +6 to hit"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "7a7aa83400e1da2822dd4f01",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "20 ft., swim 30 ft."
+          ],
+          [
+            "XP",
+            "100"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +2 Senses passive Perception 10 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Hold Breath. The crocodile can hold its breath for 15 minutes."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +2 Senses passive Perception 10 Languages —": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "start": 33,
+              "end": 43,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 118,
+              "end": 126,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 182,
+              "end": 192,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "fa09edc57b2e0ade2c4e7bd7",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "2d10 + 2"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "20 ft., Swim 30 ft."
+          ],
+          [
+            "XP",
+            "100"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +2 Senses Passive Perception 10 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Hold Breath. The crocodile can hold its breath for 1 hour."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +2 Senses Passive Perception 10 Languages None": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            },
+            {
+              "start": 25,
+              "end": 43,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 133,
+              "end": 141,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 174,
+              "end": 182,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 203,
+              "end": 213,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Crocodile": true,
+      "crocodile surprise movement cold": true,
+      "crocodile short legs conical teeth": true,
+      "crocodile rivers tropical sewers": true
+    },
+    "hash": "19b6d852094ab83c8a47eb50bb4a30717cecb83aecd3ceaa8e558d96a34cceba",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "4abe6061748c3a6cd7b92fbc",
+    "entryImage": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    }
+  },
+  {
+    "name": "Giant Crocodile",
+    "kind": "beast",
+    "group": "Beast",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "d0ecf54bac9d8674da2b9e96",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "4"
+        ],
+        [
+          "Hit dice",
+          "7"
+        ],
+        [
+          "Size",
+          "H, 21–30 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6, Sw 12"
+        ],
+        [
+          "THAC0",
+          "13"
+        ],
+        [
+          "Attacks per round",
+          "2"
+        ],
+        [
+          "Damage per attack",
+          "3–18 / 2–20"
+        ],
+        [
+          "XP",
+          "1400"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Subtropical and tropical / Saltwater swamps and rivers",
+            "Salt water or prehistoric settings"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A massive crocodile 21–30 feet long with long jaws, a squat scaly body, and a thick tail. The Giant Crocodile description says it continues growing until death."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Surprise · The Giant column lists surprise. The shared entry’s main combat text gives prey a −2 penalty to surprise when a crocodile lies in wait. The Giant paragraph gives no separate modifier.",
+            "Small boats · It rams small boats in an attempt to capsize them, then tries to break the hull with its jaws. The paragraph describes the behavior without giving ramming damage or a check."
+          ]
+        },
+        {
+          "title": "Behavior mechanics",
+          "lines": [
+            "Prey · The description includes sharks and small whales. It may also eat a fishing boat’s catch and swim away."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Number appearing in the table is 1 to 2–12. Frequency very rare to common. Steady (11) morale.",
+            "Diurnal, carnivorous, and neutral. Animal intelligence (1). Organization, treasure, special defenses, and magic resistance Nil.",
+            "The Giant paragraph calls it much rarer than ordinary crocodiles. The frequency and number appearing above retain the table’s wording.",
+            "The table gives two damage ranges. The Giant paragraph does not specify dice or a separate cold rule.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 49."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "9686874e967ea12dcd38fb5f",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "85"
+          ],
+          [
+            "Hit dice",
+            "9d12 + 27"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 50 ft."
+          ],
+          [
+            "Str",
+            "21"
+          ],
+          [
+            "Dex",
+            "9"
+          ],
+          [
+            "Con",
+            "17"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +8 to hit · reach 5 ft. · 3d10 + 5 piercing",
+              "Tail · melee · +8 to hit · reach 10 ft. · 2d8 + 5 bludgeoning"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "fc9d84014113dadd60bf0cc6",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "e909db2b13d3c26f1fd35fdc",
+        "publication": "DDAL04-14 - The Darklord",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "85"
+          ],
+          [
+            "Hit dice",
+            "9d12 + 27"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., swim 50 ft."
+          ],
+          [
+            "Str",
+            "21"
+          ],
+          [
+            "Dex",
+            "9"
+          ],
+          [
+            "Con",
+            "17"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +8 to hit · reach 5 ft. · 3d10 + 5 piercing",
+              "Tail · melee · +8 to hit · reach 10 ft. · 2d8 + 5 bludgeoning"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "1a0f8225a91cea6c6bf17800",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Huge beast with challenge rating 5. Listed habitats: swamp. Named abilities include Hold Breath, Bite, Tail.",
+        "source": "https://5e.tools/bestiary.html#giant%20crocodile_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "85"
+          ],
+          [
+            "Hit dice",
+            "9d12 + 27"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 50 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Initiative",
+            "-1"
+          ],
+          [
+            "Strength",
+            "21"
+          ],
+          [
+            "Dexterity",
+            "9"
+          ],
+          [
+            "Constitution",
+            "17"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +8 to hit · reach 5 ft. · 3d10 + 5 piercing",
+              "Tail · melee · +8 to hit · reach 10 ft. · 2d8 + 5 bludgeoning"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +5"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "swamp"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Hold Breath · 30 minutes"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Bite · Melee attack · +8 to hit · 3d10 + 5 piercing damage · Escape DC 16 · reach 5 ft. · Grappled · Restrained",
+              "Tail · Melee attack · +8 to hit · 2d8 + 5 bludgeoning damage · DC 16 Strength save · reach 10 ft. · Grappled · Prone"
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 324,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 324",
+            "url": "https://5e.tools/bestiary.html#giant%20crocodile_mm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_phb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_phb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          },
+          {
+            "label": "Prone (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#prone_phb",
+            "local": {
+              "entry": "compendium-6bb47020835c218b46b7d85a",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+            },
+            "preview": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Stealth +5": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +8 to hit · 3d10 + 5 piercing damage · Escape DC 16 · reach 5 ft. · Grappled · Restrained": [
+            {
+              "start": 90,
+              "end": 98,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 101,
+              "end": 111,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ],
+          "Tail · Melee attack · +8 to hit · 2d8 + 5 bludgeoning damage · DC 16 Strength save · reach 10 ft. · Grappled · Prone": [
+            {
+              "start": 100,
+              "end": 108,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 111,
+              "end": 116,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "8305ac87faaa579bdc0e7707",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Huge beast with challenge rating 5. Listed habitats: coastal, swamp. Named abilities include Hold Breath, Bite, Tail.",
+        "source": "https://5e.tools/bestiary.html#giant%20crocodile_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/858/1000/1000/638741964106958659.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "85"
+          ],
+          [
+            "Hit dice",
+            "9d12 + 27"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 50 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Strength",
+            "21"
+          ],
+          [
+            "Dexterity",
+            "9"
+          ],
+          [
+            "Constitution",
+            "17"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "coastal",
+              "swamp",
+              "coastal, swamp"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +8 to hit · reach 5 ft. · 3d10 + 5 piercing",
+              "Tail · melee · +8 to hit · reach 10 ft. · 3d8 + 5 bludgeoning"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +5"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Hold Breath · 1 hour"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Bite · Melee attack · +8 to hit · 3d10 + 5 piercing damage · Escape DC 15 · reach 5 ft. · Grappled · Restrained",
+              "Tail · Melee attack · +8 to hit · 3d8 + 5 bludgeoning damage · reach 10 ft. · Prone"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 356",
+            "url": "https://5e.tools/bestiary.html#giant%20crocodile_xmm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_xphb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_xphb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 373,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+              }
+            }
+          },
+          {
+            "label": "Prone (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#prone_xphb",
+            "local": {
+              "entry": "compendium-6bb47020835c218b46b7d85a",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+            },
+            "preview": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Stealth +5": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +8 to hit · 3d10 + 5 piercing damage · Escape DC 15 · reach 5 ft. · Grappled · Restrained": [
+            {
+              "start": 90,
+              "end": 98,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 101,
+              "end": 111,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            }
+          ],
+          "Tail · Melee attack · +8 to hit · 3d8 + 5 bludgeoning damage · reach 10 ft. · Prone": [
+            {
+              "start": 78,
+              "end": 83,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "3e1eb74c905ba9af339539a8",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "16"
+          ],
+          [
+            "Hit points",
+            "59"
+          ],
+          [
+            "Hit dice",
+            "7d8+28"
+          ],
+          [
+            "Challenge",
+            "4"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Animal"
+          ],
+          [
+            "Speed",
+            "0 2 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 s ft., 9 w ft., 10 i ft., 11 m ft., 12   ft., 13 3 ft., 14 0 ft., 15   ft., 16 f ft., 17 t ft., 18 . ft."
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Touch armor class",
+            "9"
+          ],
+          [
+            "Flat-footed armor class",
+            "15"
+          ],
+          [
+            "Base attack bonus",
+            "5"
+          ],
+          [
+            "Grapple modifier",
+            "21"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Fort +9",
+              "Ref +6",
+              "Will +3"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +2 to hit",
+              "Bite · melee · +11 to hit"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "b11c5eb5fc16f9888dc40c5f",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "85"
+          ],
+          [
+            "Hit dice",
+            "9d12 + 27"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., swim 50 ft."
+          ],
+          [
+            "XP",
+            "1800"
+          ],
+          [
+            "Str",
+            "21"
+          ],
+          [
+            "Dex",
+            "9"
+          ],
+          [
+            "Con",
+            "17"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Huge beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +5 Senses passive Perception 10 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Hold Breath. The crocodile can hold its breath for 30 minutes."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The crocodile makes two attacks: one with its bite and one with its tail. Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target. Tail. Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +5 Senses passive Perception 10 Languages —": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "start": 33,
+              "end": 43,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The crocodile makes two attacks: one with its bite and one with its tail. Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target. Tail. Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.": [
+            {
+              "start": 99,
+              "end": 112,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 204,
+              "end": 212,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 268,
+              "end": 278,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            },
+            {
+              "start": 337,
+              "end": 350,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 392,
+              "end": 400,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 522,
+              "end": 534,
+              "target": {
+                "name": "Saving Throw",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 179,
+                "description": "Roll a d20 and add the relevant ability modifier, plus proficiency if it applies. The effect sets the DC.",
+                "local": {
+                  "entry": "compendium-c71a1b1cfda70c19953fcff6",
+                  "version": "PHB:179:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 549,
+              "end": 554,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a10a9ddf6883b4fc5d21346b",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "85"
+          ],
+          [
+            "Hit dice",
+            "9d12 + 27"
+          ],
+          [
+            "Challenge",
+            "5"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Swim 50 ft."
+          ],
+          [
+            "XP",
+            "1800"
+          ],
+          [
+            "Str",
+            "21"
+          ],
+          [
+            "Dex",
+            "9"
+          ],
+          [
+            "Con",
+            "17"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Huge Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +5 Senses Passive Perception 10 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Hold Breath. The crocodile can hold its breath for 1 hour."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The crocodile makes one Bite attack and one Tail attack. Bite. Melee Attack Roll: +8, reach 5 ft. Hit: 21 (3d10 + 5) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 15). While Grappled, the target has the Restrained condition and can’t be targeted by the crocodile’s Tail. Tail. Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +5 Senses Passive Perception 10 Languages None": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            },
+            {
+              "start": 25,
+              "end": 43,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The crocodile makes one Bite attack and one Tail attack. Bite. Melee Attack Roll: +8, reach 5 ft. Hit: 21 (3d10 + 5) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 15). While Grappled, the target has the Restrained condition and can’t be targeted by the crocodile’s Tail. Tail. Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.": [
+            {
+              "start": 82,
+              "end": 93,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 204,
+              "end": 212,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 245,
+              "end": 253,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 274,
+              "end": 284,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            },
+            {
+              "start": 354,
+              "end": 365,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 479,
+              "end": 484,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Crocodile": true,
+      "giant crocodile ram capsize boats": true,
+      "giant crocodile long jaws thick tail": true,
+      "giant crocodile salt water prehistoric settings": true
+    },
+    "hash": "e1694e63e4380a8a5cc04f35fd33daa4c4859269fe110b9527d385b669e1fe8c",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "9686874e967ea12dcd38fb5f",
+    "entryImage": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    }
+  }
+]

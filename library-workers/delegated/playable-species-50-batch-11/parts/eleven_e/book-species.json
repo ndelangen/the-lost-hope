@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Giant Lizard",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+      "Medium Beast. Increase Strength by 2 and Constitution by 1. Unarmored AC is 11 + Dexterity modifier. Its unarmed bite deals 1d8 piercing damage before the ability modifier.",
+      "Has no hands. Cannot wield weapons, use shields or manipulate objects that need hands, including tools and spellcasting foci. Speaks, reads and writes Common.",
+      "Choose one form. Gecko walks and climbs at 30 ft. and can climb difficult surfaces or ceilings without an ability check. Iguana walks 40 ft. and climbs 30 ft. Salamander walks, climbs and swims at 30 ft. and can hold its breath for 15 minutes.",
+      "Salamander here is a Giant Lizard form. The elemental Salamander has its own profile."
+    ]
+  },
+  {
+    "name": "Giant Rat",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+      "Small Beast with +2 Dexterity and a 30-ft. walking speed. Speaks, reads and writes Common.",
+      "Its bite is an unarmed strike for 1d4 piercing before the ability modifier. It can use Dexterity and counts as a finesse weapon for features such as Sneak Attack.",
+      "Keen Smell grants advantage on Wisdom (Perception) checks that rely on smell. Pack Tactics is a bonus action to gain advantage on the next attack roll this turn against a creature within 5 ft. of a non-incapacitated ally.",
+      "Cannot wield weapons or use shields. The printed trait permits manipulating most other objects, with wording that calls the limbs tentacles."
+    ]
+  },
+  {
+    "name": "Giant Scorpion",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+      "Medium Beast with +1 Strength, +1 Constitution, 30-ft. speed and 30-ft. blindsight. Unarmored AC is 12 + Dexterity modifier. Speaks, reads and writes Common.",
+      "The sting deals 1d4 piercing and 1d4 poison on an unarmed hit before the ability modifier. The alternative claw hit deals 1d8 before the ability modifier. After a successful claw strike made as part of the Attack action, use a bonus action to try to grapple that target.",
+      "Cannot wield weapons or use shields. The printed trait allows manipulating most other objects, with wording that calls the limbs tentacles."
+    ]
+  },
+  {
+    "name": "Giant Sea Horse",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+      "Giant Seahorse is an alternate spelling. Medium Beast with +1 Strength, +1 Dexterity, walking speed 0 ft. and swimming speed 40 ft. It breathes only underwater. Speaks, reads and writes Common.",
+      "Unarmored AC is 11 + Dexterity modifier. The ram is an unarmed strike dealing 1d8 bludgeoning before the ability modifier. It can use Dexterity and counts as a finesse weapon for features such as Sneak Attack.",
+      "Once per turn, after moving at least 15 ft. toward a target, a hit against it with a Strength-based melee weapon attack adds 1d6 to the hit. This Charge damage rises to 2d6 at level 5, 3d6 at 11 and 4d6 at 17.",
+      "Cannot wield weapons or use shields. The printed trait allows manipulating most other objects, with wording that calls the limbs tentacles."
+    ]
+  },
+  {
+    "name": "Giant Vulture",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+      "Medium Beast with +1 Strength, +1 Constitution and a 10-ft. walking speed. It flies 40 ft. unless wearing medium or heavy armor.",
+      "Its unarmed bite deals 1d8 piercing before the ability modifier. Keen Sight and Smell gives advantage to Wisdom (Perception) checks based on sight or smell.",
+      "As a bonus action, Pack Tactics gives advantage to the next attack roll this turn against a creature within 5 ft. of a non-incapacitated ally.",
+      "Reads and understands Common. It cannot speak or supply verbal components. No weapons, shields or objects that require hands, including tools and spellcasting foci."
+    ]
+  }
+]

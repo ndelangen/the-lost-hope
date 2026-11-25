@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "snake-giant-constrictor",
+    "name": "Snake, Giant Constrictor",
+    "entryId": "beast-ec48cb4875d34c0b3e7e86d1",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A colossal, exceptionally heavy-bodied boa-like snake with deep olive and moss green patterned scales, broad earth-black and pale khaki saddles drawn from the face and markings of the token, and a broad gentle python-like blocky head with an amber eye and closed mouth. A huge single open U loop low across the picture, thick body curving behind on right, near head protruding low toward front left. Tail tapers alongside the open loop on the right. Substantial visual weight. Distinct green palette and low viewpoint, a very different silhouette from the brown coiled reference.",
+    "prompt": "Create ONE original square bestiary illustration, a complete naturalistic animal study on seamless warm amber-gold aged parchment. First reference is the exact series' medium, lighting, level of rendering and background; second reference is the creature appearance reference only. Colored pencil texture and fine ink cross-hatching, realistic rendered anatomy, restrained pigment, soft diffuse contact shadow. No badge, colored circle, vignette frame, rocks, horizon line, landscape, lettering, labels, letters or watermark. Fill about 78% of square with the complete isolated snake, evenly padded. A colossal, exceptionally heavy-bodied boa-like snake with deep olive and moss green patterned scales, broad earth-black and pale khaki saddles drawn from the face and markings of the token, and a broad gentle python-like blocky head with an amber eye and closed mouth. A huge single open U loop low across the picture, thick body curving behind on right, near head protruding low toward front left. Tail tapers alongside the open loop on the right. Substantial visual weight. Distinct green palette and low viewpoint, a very different silhouette from the brown coiled reference. Exactly one visibly continuous snake, one head and one fine tapered tail physically connected to the body. Keep silhouettes clear and body overlaps simple. Natural scale texture, elegant field-guide composition.",
+    "appearanceSource": "Kobold Press Foundry Giant Constrictor token and related D&D token"
+  },
+  {
+    "slug": "snake-giant-poisonous",
+    "name": "Snake, Giant Poisonous",
+    "entryId": "beast-edf54420252e4ab22d70b117",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A huge fantastical copper-red viper with dark burgundy and charcoal diamond saddles and a terracotta neck, like the creature in the token. A winding S-shaped upper body rises high from one thick broad open coil, triangular angular scaled head pointed authoritatively to the left in readable side profile. Single closed mouth and an amber eye. Short taper before the narrow tip at the bottom right. No rattles, horns, cobra hood, lightning, or added objects.",
+    "prompt": "Create ONE original square bestiary illustration, a complete naturalistic animal study on seamless warm amber-gold aged parchment. First reference is the exact series' medium, lighting, level of rendering and background; second reference is the creature appearance reference only. Colored pencil texture and fine ink cross-hatching, realistic rendered anatomy, restrained pigment, soft diffuse contact shadow. No badge, colored circle, vignette frame, rocks, horizon line, landscape, lettering, labels, letters or watermark. Fill about 78% of square with the complete isolated snake, evenly padded. A huge fantastical copper-red viper with dark burgundy and charcoal diamond saddles and a terracotta neck, like the creature in the token. A winding S-shaped upper body rises high from one thick broad open coil, triangular angular scaled head pointed authoritatively to the left in readable side profile. Single closed mouth and an amber eye. Short taper before the narrow tip at the bottom right. No rattles, horns, cobra hood, lightning, or added objects. Exactly one visibly continuous snake, one head and one fine tapered tail physically connected to the body. Keep silhouettes clear and body overlaps simple. Natural scale texture, elegant field-guide composition.",
+    "appearanceSource": "Kobold Press Foundry Giant Poisonous Snake token"
+  },
+  {
+    "slug": "snake-poisonous",
+    "name": "Snake, Poisonous",
+    "entryId": "beast-dafc458fc8c80d0efc2b63fc",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "An ordinary slender dark slate blue-black viper with very subtle soot-colored chevrons, a pale charcoal throat, one golden eye in profile and a delicate triangular head. Inspired by the black snake in the token. Show its full length, arranged diagonally in two low open, graceful S bends from the fine tip at lower left to the raised alert head at upper right, head turning slightly inward. Its mouth is closed. Each bend is visibly separate with parchment between. No hood, spikes or rattle. Clearly a delicate modestly sized animal.",
+    "prompt": "Create ONE original square bestiary illustration, a complete naturalistic animal study on seamless warm amber-gold aged parchment. First reference is the exact series' medium, lighting, level of rendering and background; second reference is the creature appearance reference only. Colored pencil texture and fine ink cross-hatching, realistic rendered anatomy, restrained pigment, soft diffuse contact shadow. No badge, colored circle, vignette frame, rocks, horizon line, landscape, lettering, labels, letters or watermark. Fill about 78% of square with the complete isolated snake, evenly padded. An ordinary slender dark slate blue-black viper with very subtle soot-colored chevrons, a pale charcoal throat, one golden eye in profile and a delicate triangular head. Inspired by the black snake in the token. Show its full length, arranged diagonally in two low open, graceful S bends from the fine tip at lower left to the raised alert head at upper right, head turning slightly inward. Its mouth is closed. Each bend is visibly separate with parchment between. No hood, spikes or rattle. Clearly a delicate modestly sized animal. Exactly one visibly continuous snake, one head and one fine tapered tail physically connected to the body. Keep silhouettes clear and body overlaps simple. Natural scale texture, elegant field-guide composition.",
+    "appearanceSource": "Related D&D Poisonous Snake token and Kobold Press Foundry token"
+  }
+]

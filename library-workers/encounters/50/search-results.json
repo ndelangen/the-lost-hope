@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Durixaviinox",
+    "query": "glacial blue wings frozen ruins vexinoth royal defense",
+    "condition": "Restrained",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Forzaantilirys",
+    "query": "forzaantirilys obsidian volcanoes mount brazen supernova",
+    "condition": "Blinded",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Frost Giant Wind Sprinter",
+    "query": "issenblau frozen mountains glaciers blizzard surge",
+    "condition": "Prone",
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  }
+]

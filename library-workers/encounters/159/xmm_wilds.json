@@ -1,0 +1,440 @@
+[
+  {
+    "name": "Flying Snake",
+    "statBlock": {
+      "name": "Flying Snake",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 353,
+      "classification": "Tiny monstrosity, unaligned",
+      "ac": 14,
+      "hp": 5,
+      "hitDice": "2d4",
+      "speed": "30 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 4
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 11,
+      "description": "A small venomous snake that can fly and swim.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Blindsight 10 ft.",
+        "Traits": "Flyby. The snake can fly out of an enemy's reach without provoking an Opportunity Attack.",
+        "Actions": "Bite. Melee attack, +4 to hit, reach 5 ft. A hit deals 1 Piercing damage and 5 (2d4) Poison damage.",
+        "Habitats": "Desert, forest, grassland.",
+        "Printed source": "Monster Manual (2024), p. 353."
+      }
+    }
+  },
+  {
+    "name": "Giant Axe Beak",
+    "statBlock": {
+      "name": "Giant Axe Beak",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 24,
+      "classification": "Huge monstrosity, unaligned",
+      "ac": 15,
+      "hp": 84,
+      "hitDice": "8d12 + 32",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "skills": {
+        "Perception": 4
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "description": "A giant flightless bird that fights for territory with dinosaurs in remote primeval lands.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Actions": "Multiattack. Make one Sharpened Beak attack and one Talons attack.\nSharpened Beak. Melee attack, +8 to hit, reach 10 ft. A hit deals 18 (2d12 + 5) Slashing damage. The axe beak chooses a creature within 5 ft. of the target to take 6 (1d12) Slashing damage.\nTalons. Melee attack, +8 to hit, reach 5 ft. A hit deals 14 (2d8 + 5) Piercing damage, and a Large or smaller creature hit falls Prone.",
+        "Habitats": "Arctic, grassland, hill.",
+        "Printed source": "Monster Manual (2024), p. 24."
+      }
+    }
+  },
+  {
+    "name": "Giant Eagle",
+    "statBlock": {
+      "name": "Giant Eagle",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 356,
+      "classification": "Large celestial, neutral good",
+      "ac": 13,
+      "hp": 26,
+      "hitDice": "4d10 + 4",
+      "speed": "10 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 16,
+      "description": "A celestial eagle that strikes with radiant talons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Languages": "Speaks Celestial and understands Common and Primordial (Auran).",
+        "Damage resistances": "Necrotic, Radiant.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +5 to hit, reach 5 ft. A hit deals 5 (1d4 + 3) Slashing damage and 3 (1d6) Radiant damage.",
+        "Habitats": "Coastal, grassland, hill, mountain.",
+        "Printed source": "Monster Manual (2024), p. 356."
+      }
+    }
+  },
+  {
+    "name": "Giant Elk",
+    "statBlock": {
+      "name": "Giant Elk",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 356,
+      "classification": "Huge celestial, neutral good",
+      "ac": 14,
+      "hp": 42,
+      "hitDice": "5d12 + 10",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "savingThrows": {
+        "Str": 6,
+        "Dex": 6
+      },
+      "skills": {
+        "Perception": 4
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "A celestial elk that bowls over foes with a charge.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+6 (16).",
+        "Senses": "Darkvision 90 ft.",
+        "Languages": "Speaks Celestial and understands Common, Elvish, and Sylvan.",
+        "Damage resistances": "Necrotic, Radiant.",
+        "Actions": "Ram. Melee attack, +6 to hit, reach 10 ft. A hit deals 11 (2d6 + 4) Bludgeoning damage and 5 (2d4) Radiant damage. If the elk moved at least 20 ft. straight toward a Huge or smaller creature immediately before hitting it, that creature takes another 5 (2d4) Bludgeoning damage and falls Prone.",
+        "Habitats": "Forest, grassland, hill.",
+        "Printed source": "Monster Manual (2024), p. 356."
+      }
+    }
+  },
+  {
+    "name": "Giant Owl",
+    "statBlock": {
+      "name": "Giant Owl",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 358,
+      "classification": "Large celestial, neutral",
+      "ac": 12,
+      "hp": 19,
+      "hitDice": "3d10 + 3",
+      "speed": "5 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 16,
+      "description": "A celestial owl that can detect magic and spy on distant places.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Speaks Celestial and understands Common, Elvish, and Sylvan.",
+        "Damage resistances": "Necrotic, Radiant.",
+        "Traits": "Flyby. The owl can fly out of an enemy's reach without provoking an Opportunity Attack.",
+        "Actions": "Talons. Melee attack, +4 to hit, reach 5 ft. A hit deals 7 (1d10 + 2) Slashing damage.",
+        "Spellcasting": "As an action, cast one listed spell with Wisdom and without components.\nAt will. Detect Evil and Good, Detect Magic.\n1/day. Clairvoyance.",
+        "Habitats": "Arctic, forest, hill.",
+        "Printed source": "Monster Manual (2024), p. 358."
+      }
+    }
+  },
+  {
+    "name": "Giant Vulture",
+    "statBlock": {
+      "name": "Giant Vulture",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 361,
+      "classification": "Large monstrosity, neutral evil",
+      "ac": 10,
+      "hp": 25,
+      "hitDice": "3d10 + 9",
+      "speed": "10 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "skills": {
+        "Perception": 3
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "description": "A giant carrion bird whose gouging attack poisons its prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common but cannot speak.",
+        "Damage resistances": "Necrotic.",
+        "Traits": "Pack Tactics. The vulture has Advantage when attacking a creature if at least one of the vulture's allies is within 5 ft. of that creature and is not Incapacitated.",
+        "Actions": "Gouge. Melee attack, +4 to hit, reach 5 ft. A hit deals 9 (2d6 + 2) Piercing damage and leaves the target Poisoned until the end of its next turn.",
+        "Habitats": "Desert, grassland, hill.",
+        "Printed source": "Monster Manual (2024), p. 361."
+      }
+    }
+  },
+  {
+    "name": "Githyanki Dracomancer",
+    "statBlock": {
+      "name": "Githyanki Dracomancer",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 135,
+      "classification": "Medium aberration (gith), lawful evil",
+      "ac": 18,
+      "hp": 255,
+      "hitDice": "30d8 + 120",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 9,
+        "Int": 10,
+        "Wis": 8
+      },
+      "skills": {
+        "Arcana": 10,
+        "Perception": 8
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 18,
+      "description": "A githyanki spellcaster who upholds the pact with red dragons and conjures their fire in battle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+8 (18).",
+        "Senses": "Blindsight 30 ft.",
+        "Languages": "Common, Draconic, Gith.",
+        "Actions": "Multiattack. Make three Draconic Strike attacks.\nDraconic Strike. Melee or ranged attack, +10 to hit, reach 10 ft. or range 120 ft. A hit deals 12 (2d6 + 5) Slashing damage and 17 (5d6) Fire damage. The target is Frightened until the start of the dracomancer's next turn.\nConjured Dragon's Breath (Recharge 5–6). Each creature in a 90-ft. Cone must make a DC 18 Dexterity save. On a failure, it takes 27 (6d8) Fire damage and 27 (6d8) Force damage. On a success, it takes half damage.",
+        "Spellcasting": "As an action, cast one listed spell with Intelligence (save DC 18, +10 to hit with spell attacks). Omit all components.\nAt will. Mage Hand (the hand is Invisible).\n2/day each. Nondetection (self only), Plane Shift, Tongues.",
+        "Bonus actions": "Misty Step (3/day). Cast Misty Step using Intelligence without components.",
+        "Habitats": "Planar (Astral Plane).",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 135."
+      }
+    }
+  },
+  {
+    "name": "Gulthias Blight",
+    "statBlock": {
+      "name": "Gulthias Blight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 45,
+      "classification": "Gargantuan plant, neutral evil",
+      "ac": 20,
+      "hp": 264,
+      "hitDice": "16d20 + 96",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {
+        "Perception": 9
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 19,
+      "description": "A cursed plant that feeds on blood and spreads its corruption by planting lesser blights.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Blindsight 120 ft.",
+        "Languages": "Common, Druidic.",
+        "Damage resistances": "Fire, Necrotic.",
+        "Condition immunities": "Deafened.",
+        "Traits": "Blight Seeds. At the end of a Long Rest, the blight expels 1d6 seeds into unoccupied ground spaces within 30 ft. After 24 hours, each seed becomes a creature under its control. Roll 1d8 for each seed. On 1–4 it becomes a Twig Blight, on 5–6 a Needle Blight, and on 7–8 a Vine Blight.",
+        "Actions": "Multiattack. Make two attacks in any mix of Slam and Thorn Volley, and use Life-Draining Root.\nSlam. Melee attack, +12 to hit, reach 10 ft. A hit deals 25 (4d8 + 7) Bludgeoning damage.\nThorn Volley. Ranged attack, +12 to hit, range 60/180 ft. A hit deals 20 (3d8 + 7) Piercing damage.\nLife-Draining Root. Choose one Huge or smaller creature the blight can see within 30 ft. On a failed DC 20 Constitution save, the creature takes 14 (2d6 + 7) Necrotic damage and is Grappled by one of the blight's six roots (escape DC 17). Until the grapple ends, the creature is Restrained and takes 14 (4d6) Necrotic damage at the start of each of its turns. The creature's Hit Point maximum decreases by the Necrotic damage it takes from this action, and the blight regains that many Hit Points.",
+        "Habitats": "Forest.",
+        "Printed source": "Monster Manual (2024), p. 45."
+      }
+    }
+  }
+]

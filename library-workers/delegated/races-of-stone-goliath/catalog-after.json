@@ -1,0 +1,718 @@
+[
+  {
+    "name": "Goliath",
+    "kind": "species",
+    "group": "2014 fifth edition",
+    "groups": [
+      "2014 fifth edition",
+      "2024 fifth edition",
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "7e4cecfcc881bceb834ec37b",
+      "publication": "Races of Stone (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144379M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Monstrous Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Monstrous Humanoid with a 30-ft. base land speed. +4 Strength, −2 Dexterity, +2 Constitution. Proficient with simple weapons through the species. Armor and shield proficiency come from other sources, such as class.",
+            "Darkvision 60 ft. comes from the Monstrous Humanoid type, as confirmed by the official 3.5 FAQ.",
+            "Powerful Build treats a Goliath as one size larger when that helps an opposed check with a size modifier, such as grapple, bull rush, or trip. Treat it as one size larger against size-dependent special attacks such as improved grab or swallow whole.",
+            "Powerful Build also allows weapons designed for creatures one size larger without an inappropriate-size penalty. Space, reach, and natural or unarmed damage use actual size. It stacks with size changes that preserve the trait.",
+            "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+            "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation.",
+            "+2 bonus on Sense Motive checks. Common and Gol-Kaa are automatic. Bonus languages are Dwarven, Giant, Gnoll, and Terran.",
+            "Favored class Barbarian. Level adjustment +1. The playable entry grants no racial Hit Dice.",
+            "Optional Barbarian substitution at class level 1 replaces ordinary rage with Mountain Rage. It makes the Goliath Large, adds +2 Strength beyond ordinary rage, and gives 10-ft. space and reach and an extra −1 to AC and attacks. The substitution keeps equipment fitting and explicitly gives no additional weapon-size or grapple benefit from Powerful Build."
+          ]
+        },
+        {
+          "title": "Original NPC · Kethan Linekeeper Varukutai",
+          "lines": [
+            "Route rigger and Expert.",
+            "Motive. Reopen the pass before sleet reaches the exposed shoulder.",
+            "Hook. Kethan can rig a crossing if the party checks which downhill anchors survived the rockfall.",
+            "Goliath route rigger, Expert 1 · Provisional CR 1. ECL 2. · Medium Monstrous Humanoid",
+            "AC 13 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Rova Stonecaller Athamavi",
+          "lines": [
+            "Rockfall lookout and Barbarian.",
+            "Motive. Get the quarry crew into shelter before the next fall.",
+            "Hook. Rova can lead the party to the shelter if they help account for the crew at the path marker.",
+            "Goliath rockfall lookout, Barbarian 1 · Provisional CR 2. ECL 2. · Medium Monstrous Humanoid",
+            "AC 14 · HP 14 (1d12+2) · Speed 40 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Kethan Linekeeper Varukutai": [
+          {
+            "start": 15,
+            "end": 42,
+            "target": {
+              "name": "Kethan Linekeeper Varukutai",
+              "group": "Goliath",
+              "publication": "Goliath route rigger, Expert 1",
+              "local": {
+                "entry": "npc-506b8f50fffce97dd3a14baf",
+                "version": "54b7242ad1af39a640d02531"
+              }
+            }
+          }
+        ],
+        "Original NPC · Rova Stonecaller Athamavi": [
+          {
+            "start": 15,
+            "end": 40,
+            "target": {
+              "name": "Rova Stonecaller Athamavi",
+              "group": "Goliath",
+              "publication": "Goliath rockfall lookout, Barbarian 1",
+              "local": {
+                "entry": "npc-0e24c72c169a02bbe6f64d20",
+                "version": "3cd0d777a1964d51e262f1ee"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "66eda1a3dd7cbb3ab4e3ea8f",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#goliath_mpmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/851/340/340/637880558312671113.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Eric Belisle, Jon Hodgson · Mordenkainen Presents: Monsters of the Multiverse"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium, 30-foot walk. Athletics proficiency, larger effective carrying size, cold resistance, and acclimation to high altitude.",
+              "As a reaction to taking damage, reduce it by 1d12 plus Constitution modifier. Uses equal proficiency bonus per long rest."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Little Giant",
+              "Mountain Born",
+              "Stone's Endurance"
+            ]
+          }
+        ],
+        "sourceCode": "MPMM",
+        "page": 21,
+        "references": [
+          {
+            "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 21",
+            "url": "https://5e.tools/races.html#goliath_mpmm"
+          },
+          {
+            "label": "Athletics (skill)",
+            "url": "https://5e.tools/skills.html#athletics_phb",
+            "local": {
+              "entry": "compendium-4d6b054f7ceab43099a939e1",
+              "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+            },
+            "preview": {
+              "name": "Athletics",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 175,
+              "local": {
+                "entry": "compendium-4d6b054f7ceab43099a939e1",
+                "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Medium, 30-foot walk. Athletics proficiency, larger effective carrying size, cold resistance, and acclimation to high altitude.": [
+            {
+              "start": 22,
+              "end": 31,
+              "target": {
+                "name": "Athletics",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 175,
+                "local": {
+                  "entry": "compendium-4d6b054f7ceab43099a939e1",
+                  "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "3b4a82d4f188ebd8968c9b11",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/races.html#goliath_xphb",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43940/490/340/340/638607450043098406.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Hinchel Or · Player’s Handbook"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "35 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 35 feet.",
+              "Source traits include Giant Ancestry, Large Form, Powerful Build."
+            ]
+          },
+          {
+            "title": "Original NPC · Skel Downwind",
+            "lines": [
+              "Mountain escort and rival",
+              "Motive. Recover a lost climbing crew before bad weather strands a second crew.",
+              "Hook. Skel trades the best lead for help convincing the rival expedition to lend its rope ladders.",
+              "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
+              "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Giant Ancestry",
+              "Large Form",
+              "Powerful Build"
+            ]
+          }
+        ],
+        "sourceCode": "XPHB",
+        "references": [
+          {
+            "label": "Player's Handbook (2024), p. 192",
+            "url": "https://5e.tools/races.html#goliath_xphb"
+          },
+          {
+            "label": "Prone (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#prone_xphb",
+            "local": {
+              "entry": "compendium-6bb47020835c218b46b7d85a",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+            },
+            "preview": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+              }
+            }
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_xphb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Original NPC · Skel Downwind": [
+            {
+              "start": 15,
+              "end": 28,
+              "target": {
+                "name": "Skel Downwind",
+                "group": "Goliath",
+                "publication": "Quay champion",
+                "local": {
+                  "entry": "npc-a9d97f1bab3d6f7445329527",
+                  "version": "2969419cc5a49d1688ac4f88"
+                }
+              }
+            }
+          ],
+          "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft.": [
+            {
+              "start": 26,
+              "end": 31,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c6cdf5df5c20030a586a09da",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium, walking speed 35 ft.",
+              "Choose one of six giant ancestries for an active benefit. Temporary Large size becomes available at level 5.",
+              "Powerful Build improves carrying capacity and checks to end the Grappled condition."
+            ]
+          },
+          {
+            "title": "Original NPC · Skel Downwind",
+            "lines": [
+              "Mountain escort and rival",
+              "Motive. Recover a lost climbing crew before bad weather strands a second crew.",
+              "Hook. Skel trades the best lead for help convincing the rival expedition to lend its rope ladders.",
+              "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
+              "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
+            ]
+          }
+        ],
+        "inline": {
+          "Powerful Build improves carrying capacity and checks to end the Grappled condition.": [
+            {
+              "start": 64,
+              "end": 72,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            }
+          ],
+          "Original NPC · Skel Downwind": [
+            {
+              "start": 15,
+              "end": 28,
+              "target": {
+                "name": "Skel Downwind",
+                "group": "Goliath",
+                "publication": "Quay champion",
+                "local": {
+                  "entry": "npc-a9d97f1bab3d6f7445329527",
+                  "version": "2969419cc5a49d1688ac4f88"
+                }
+              }
+            }
+          ],
+          "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft.": [
+            {
+              "start": 26,
+              "end": 31,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "0f00fa626c1ae40e1a2729b0",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#goliath_vgm",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Volo's Guide to Monsters"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 30 feet.",
+              "Damage resistance includes cold.",
+              "Source traits include Age, Size, Natural Athlete, Stone's Endurance, Powerful Build, Mountain Born, Languages."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Age",
+              "Size",
+              "Natural Athlete",
+              "Stone's Endurance",
+              "Powerful Build",
+              "Mountain Born",
+              "Languages"
+            ]
+          }
+        ],
+        "sourceCode": "VGM",
+        "page": 108,
+        "references": [
+          {
+            "label": "Volo's Guide to Monsters, p. 108",
+            "url": "https://5e.tools/races.html#goliath_vgm"
+          },
+          {
+            "label": "Elemental Evil Player's Companion, p. 10",
+            "url": "https://5e.tools/races.html#goliath_eepc"
+          },
+          {
+            "label": "Explorer's Guide to Wildemount, p. 175",
+            "url": "https://5e.tools/races.html#goliath_egw"
+          },
+          {
+            "label": "Icewind Dale: Rime of the Frostmaiden, p. 291",
+            "url": "https://5e.tools/races.html#goliath_idrotf"
+          },
+          {
+            "label": "Athletics (skill)",
+            "url": "https://5e.tools/skills.html#athletics_phb",
+            "local": {
+              "entry": "compendium-4d6b054f7ceab43099a939e1",
+              "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+            },
+            "preview": {
+              "name": "Athletics",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 175,
+              "local": {
+                "entry": "compendium-4d6b054f7ceab43099a939e1",
+                "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistance includes cold.": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Age, Size, Natural Athlete, Stone's Endurance, Powerful Build, Mountain Born, Languages.": [
+            {
+              "start": 27,
+              "end": 31,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            },
+            {
+              "start": 41,
+              "end": 48,
+              "target": {
+                "name": "Athlete",
+                "group": "Feats",
+                "publication": "Player's Handbook (2014)",
+                "page": 165,
+                "local": {
+                  "entry": "compendium-5db36c73a450174bc88e06b0",
+                  "version": "PHB:165:https://5e.tools/feats.html#athlete_phb"
+                }
+              }
+            }
+          ],
+          "Natural Athlete": [
+            {
+              "start": 8,
+              "end": 15,
+              "target": {
+                "name": "Athlete",
+                "group": "Feats",
+                "publication": "Player's Handbook (2014)",
+                "page": 165,
+                "local": {
+                  "entry": "compendium-5db36c73a450174bc88e06b0",
+                  "version": "PHB:165:https://5e.tools/feats.html#athlete_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "294a631b6cd6d2ef872df1f6",
+        "publication": "Elemental Evil Player's Companion",
+        "edition": "2014 fifth edition",
+        "source": "https://www.dndbeyond.com/species/22-goliath",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/4808/265/340/340/636771217418040075.png",
+        "images": [],
+        "stats": [],
+        "sections": []
+      }
+    ],
+    "queries": {
+      "Goliath": true,
+      "goliath powerful build": true,
+      "goliath mountain movement": true,
+      "goliath mountain rage": true,
+      "goliath route rigger": true,
+      "goliath rockfall lookout": true
+    },
+    "hash": "5075ac5e35b97b28e73c6e81f6f6456652a48cf564b5c801ae0ba0106465bc8a",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Eric Belisle, Jon Hodgson · Mordenkainen Presents: Monsters of the Multiverse"
+      },
+      {
+        "url": "",
+        "credit": "Volo's Guide to Monsters"
+      },
+      {
+        "url": "",
+        "credit": "Hinchel Or · Player’s Handbook"
+      }
+    ],
+    "defaultPublication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "defaultVersionKey": "66eda1a3dd7cbb3ab4e3ea8f",
+    "entryImage": {
+      "url": "",
+      "credit": "Eric Belisle, Jon Hodgson · Mordenkainen Presents: Monsters of the Multiverse"
+    }
+  }
+]

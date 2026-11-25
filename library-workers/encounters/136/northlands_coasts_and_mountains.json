@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Dragon, Fafnir",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 232–234. Compel Avarice, p. 176.",
+    "notes": "The final Black Flag Roleplaying printing supplies a distinct encounter stat block.",
+    "statBlock": {
+      "name": "Dragon, Fafnir",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Dragon",
+      "ac": 18,
+      "hp": 242,
+      "speed": "40 ft., climb 40 ft.",
+      "cr": "12",
+      "abilities": {
+        "Str": {
+          "modifier": 6
+        },
+        "Dex": {
+          "modifier": 6
+        },
+        "Con": {
+          "modifier": 5
+        },
+        "Int": {
+          "modifier": 0
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 15, Stealth 16. Darkvision 60 ft. and keensense 60 ft. Languages Common, Draconic, Dwarven, and Northern Tongue.",
+      "description": "Once a dwarf, Fafnir turned on his family over the cursed ring Andvaranaut. He now guards his hoard in secluded hillside or cliff caves, moving whenever he suspects someone might find it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +6, Dex +6, Con +5, Int +0, Wis +1, Cha -1",
+        "Traits": "Armor of Greed (3/day). Fafnir can turn a hit against him into a miss. A critical hit costs two uses. Each use grants advantage on attacks against Fafnir through the end of his next turn.\nLegendary Resistance (3/day). When Fafnir fails a save, he can succeed instead.",
+        "Actions": "Multiattack. Make three Bite attacks, replacing one with Constrict if desired.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 15 (2d8 + 6) piercing plus 11 (2d10) poison damage.\nConstrict. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 20 (4d6 + 6) bludgeoning damage. A Huge or smaller creature is Grappled (escape DC 18) and Restrained while the grapple lasts. Fafnir cannot use Constrict on another target while holding it.\nMisfortune Breath (recharge 4–6). Each creature in a 60-ft. line, 5 ft. wide, makes a DC 17 Wisdom save. Failure deals 31 (7d8) poison damage and makes the creature Poisoned through the end of Fafnir’s next turn. Success halves the damage and avoids the condition.",
+        "Legendary Actions": "Fafnir can spend 3 legendary actions per round, one option at the end of another creature’s turn. He regains them at the start of his turn.\nEntrap. Move up to half speed and make one Constrict attack.\nToxic Blood Spray (costs 2 actions; 241 HP or fewer). Each creature within 20 ft. of Fafnir makes a DC 17 Constitution save. Failure deals 10 (4d4) poison damage and makes the creature Poisoned through the end of its next turn.\nInflame Greed (costs 2 actions). Cast Compel Avarice (Wisdom, DC 13) with verbal and somatic components, without material components or concentration. Choose a visible object and target one creature within 30 ft. On a failed save it tries to steal the object, fights its holder if theft fails, or flees the others to guard it once acquired. The effect lasts up to 1 minute. A creature immune to Charmed automatically succeeds.",
+        "Lair Actions": "On initiative count 20, losing ties, use one option. Fafnir cannot repeat the same option in consecutive rounds.\nDistracting Gleam. Choose a visible point within 120 ft. Each creature within 20 ft. of the point makes a DC 15 Wisdom save. A failure bars reactions and bonus actions for up to 1 minute, until Fafnir uses this option again, or until he dies. Affected creatures repeat the save at the end of each turn to end it.\nGrasping Tentacles. Target up to three creatures Fafnir can see within 120 ft. Each makes a DC 15 Dexterity save or becomes Restrained by tentacles. Any creature, including a target, can spend an action and pass a DC 15 Strength check to free a target.\nTreasure Whirlwind. A visible point within 120 ft. becomes the center of a 15-ft.-diameter whirlwind. Each creature entering it for the first time on a turn or starting a turn there makes a DC 15 Dexterity save or takes 7 (2d6) bludgeoning damage. It lasts 1 minute, until Fafnir uses this option again, or until he dies.",
+        "Regional Effects": "The region can have any of these effects. They fade 1d10 days after Fafnir leaves or dies.\nAvariciousness. Within 1 mile, creatures guard their things, covet others’ belongings, and have disadvantage on saves against effects that compel theft or taking an object.\nFamilial Strife. Within 5 miles, creatures become hostile toward relatives. Charisma (Deception, Intimidation, or Persuasion) checks to get someone to harm a relative have advantage.\nIncreased Mishaps. Within 1 mile, checks and saves to avoid injury while climbing, jumping pits, or otherwise risking an accident have disadvantage.",
+        "Printed source": "Chapter 8, pp. 232–234. Compel Avarice, p. 176."
+      }
+    }
+  },
+  {
+    "name": "Hafgufa",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 246–247",
+    "notes": "The final Black Flag Roleplaying printing supplies a distinct encounter stat block.",
+    "statBlock": {
+      "name": "Hafgufa",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Gargantuan Monstrosity",
+      "ac": 16,
+      "hp": 237,
+      "speed": "10 ft., swim 60 ft.",
+      "cr": "12",
+      "abilities": {
+        "Str": {
+          "modifier": 6
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 9
+        },
+        "Int": {
+          "modifier": 0
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 12, Stealth 14 (19 underwater). Resistant to Exhaustion and Frightened. Darkvision 60 ft. No languages.",
+      "description": "A tentacled sea predator that can seize several creatures at once and swallow them alive. Its stomach can hold relics from earlier prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +6, Dex +0, Con +9, Int +0, Wis +2, Cha +1",
+        "Traits": "Amphibious. Breathes air and water.\nMonstrosity Resilience. Resistant to Exhaustion and Frightened.\nSeagoing Lurker. Stealth is 19 underwater.\nSiege Monster. Double damage to objects and structures.",
+        "Actions": "Multiattack. Make four Tentacle attacks. One can be replaced with Bite.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 28 (4d10 + 6) piercing damage. The attack has advantage against a creature Grappled by one of its tentacles.\nTentacle. Melee weapon attack, +10 to hit, reach 30 ft., one target. Hit 19 (3d8 + 6) bludgeoning damage. A Huge or smaller creature is Grappled (escape DC 18), and the hafgufa can pull it up to 25 ft. straight toward itself. It can hold four creatures at once.\nReeking Mist (recharge 5–6). Each creature in a 40-ft. cube centered on the hafgufa makes a DC 17 Constitution save or becomes Incapacitated for 10 minutes. Repeat the save at the end of each turn to end the effect.",
+        "Bonus Actions": "Swallow. A Large or smaller creature that the hafgufa is Grappling within 5 ft. makes a DC 18 Strength save. On a failure it is swallowed and the Grapple ends. A swallowed creature is Blinded and Restrained, has total cover against outside attacks and effects, and takes 28 (8d6) acid damage at the start of each of the hafgufa’s turns. Capacity six. If a creature inside deals at least 40 damage in a single turn, the hafgufa makes a DC 19 Constitution save at the end of that turn. On a failure it expels everyone inside, each falling Prone within 10 ft. When the hafgufa dies, the restraint ends and a swallowed creature can spend 20 ft. of movement to exit Prone.",
+        "Encounter Context": "Optional stomach find (1d6): 1, a very rare magic item from a past hero. 2, a lost ruler’s crown worth 2,000 gp. 3, an old message in a sealed bottle. 4, a treasure map etched on lead. 5, a rune-marked iron key for a giant’s lock. 6, a pirate captain’s cursed bones in a strongbox.",
+        "Printed source": "Chapter 8, pp. 246–247"
+      }
+    }
+  },
+  {
+    "name": "Hafgufa Spawn",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 247",
+    "notes": "The final Black Flag Roleplaying printing supplies a distinct encounter stat block.",
+    "statBlock": {
+      "name": "Hafgufa Spawn",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 14,
+      "hp": 55,
+      "speed": "10 ft., swim 40 ft.",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "modifier": 5
+        },
+        "Dex": {
+          "modifier": 2
+        },
+        "Con": {
+          "modifier": 5
+        },
+        "Int": {
+          "modifier": -2
+        },
+        "Wis": {
+          "modifier": 0
+        },
+        "Cha": {
+          "modifier": -2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 10, Stealth 14 (19 underwater). Resistant to Exhaustion and Frightened. Darkvision 60 ft. No languages.",
+      "description": "A juvenile hafgufa that snares prey with tentacles and can disable nearby creatures with a foul mist.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +5, Dex +2, Con +5, Int -2, Wis +0, Cha -2",
+        "Traits": "Amphibious. Breathes air and water.\nMonstrosity Resilience. Resistant to Exhaustion and Frightened.\nSeagoing Lurker. Stealth is 19 underwater.",
+        "Actions": "Multiattack. Make two Tentacle attacks. One can be replaced with Bite.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 15 (2d10 + 4) piercing damage. The attack has advantage against a creature Grappled by one of the spawn’s tentacles.\nTentacle. Melee weapon attack, +7 to hit, reach 15 ft., one target. Hit 8 (1d8 + 4) bludgeoning damage. A Large or smaller creature is Grappled (escape DC 15), and the spawn can pull it up to 10 ft. straight toward itself. It can hold four creatures at once.\nReeking Mist (1/day). Each creature in a 20-ft. cube centered on the spawn makes a DC 13 Constitution save or becomes Incapacitated for 10 minutes. Repeat the save at the end of each turn to end the effect.",
+        "Printed source": "Chapter 8, p. 247"
+      }
+    }
+  },
+  {
+    "name": "Hamingja",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 247–248",
+    "notes": "The final Black Flag Roleplaying printing supplies a distinct encounter stat block.",
+    "statBlock": {
+      "name": "Hamingja",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Celestial (Shapechanger)",
+      "ac": 12,
+      "hp": 32,
+      "speed": "30 ft., fly 20 ft. (hover)",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "modifier": -2
+        },
+        "Dex": {
+          "modifier": 4
+        },
+        "Con": {
+          "modifier": 0
+        },
+        "Int": {
+          "modifier": 1
+        },
+        "Wis": {
+          "modifier": 3
+        },
+        "Cha": {
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Perception 15, Stealth 14. Resistant to bludgeoning, piercing, slashing, and radiant damage. Immune to poison damage and to Charmed, Exhaustion, Frightened, and Poisoned. Darkvision 60 ft. Languages Common and Celestial. Telepathy 60 ft.",
+      "description": "This luminous, foxlike spirit brings luck to someone it sees as kind or destined for heroism. It generally stays unseen and takes animal or humanoid forms when it shows itself.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str -2, Dex +4, Con +0, Int +1, Wis +3, Cha +4",
+        "Traits": "Celestial Resilience. Resistant to radiant damage.\nMagic Resistance. Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite and one Radiant Touch attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nRadiant Touch. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) radiant damage.\nSpellcasting. Charisma, save DC 12, no material components. At will: Invisibility (self only), Light, Purify Food and Drink. 1/day each: Cure Wounds, Zone of Truth.",
+        "Bonus Actions": "Change Shape. Take the form of a Medium or smaller Beast or Humanoid, or return to Celestial form. Only size changes, except that a wingless form loses the flying speed. Equipment keeps its shape. Death returns the spirit to its true form.",
+        "Reactions": "Shot of Luck (3/day). When a bonded creature fails an attack roll, ability check, or save, add 1d6 to that roll. The new result may succeed.",
+        "Encounter Context": "The spirit stays with its host until either dies or the host becomes evil. In rare cases it serves a family or clan across generations.",
+        "Printed source": "Chapter 8, pp. 247–248"
+      }
+    }
+  },
+  {
+    "name": "Lindwurm, Sea",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 249–250 (stat block p. 250)",
+    "notes": "The final Black Flag Roleplaying printing supplies a distinct encounter stat block.",
+    "statBlock": {
+      "name": "Lindwurm, Sea",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Dragon",
+      "ac": 16,
+      "hp": 153,
+      "speed": "10 ft., swim 60 ft.",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "modifier": 8
+        },
+        "Dex": {
+          "modifier": 3
+        },
+        "Con": {
+          "modifier": 6
+        },
+        "Int": {
+          "modifier": -2
+        },
+        "Wis": {
+          "modifier": 4
+        },
+        "Cha": {
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 14, Stealth 19. Vulnerable to lightning damage and immune to cold damage. Darkvision 60 ft. Language Draconic.",
+      "description": "A seal-like dragon with spiny scales and a venomous bite. It can scatter nearby creatures with its flippers and slip back into the water.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +8, Dex +3, Con +6, Int -2, Wis +4, Cha -1",
+        "Traits": "Amphibious. Breathes air and water.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +8 to hit, reach 10 ft. Hit 21 (3d10 + 5) piercing damage. The target makes a DC 14 Constitution save or is Restrained by the toxin. If still Restrained, the target repeats the save at the end of its next turn. Success ends the effect and failure makes the target Paralyzed for 1 hour.\nFlipper Slap (recharge 5–6). All creatures in a 10-ft.-radius sphere around the lindwurm make a DC 16 Dexterity save. Failure deals 14 (4d6) bludgeoning damage and makes the creature Stunned until the end of its next turn. Success halves the damage and avoids Stunned.",
+        "Bonus Actions": "Deep Dive. Move up to half speed without provoking opportunity attacks.",
+        "Printed source": "Chapter 8, pp. 249–250 (stat block p. 250)"
+      }
+    }
+  },
+  {
+    "name": "Malrgotr",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 250–251",
+    "notes": "The final Black Flag Roleplaying printing supplies a distinct encounter stat block.",
+    "statBlock": {
+      "name": "Malrgotr",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 17,
+      "hp": 68,
+      "speed": "40 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "modifier": 4
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": -3
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": -2
+        }
+      },
+      "otherStatistics": "Perception 11, Stealth 10. Resistant to cold, fire, and lightning damage. Immune to Frightened and Stunned. Darkvision 60 ft. No languages.",
+      "description": "A boar with metal bristles and golden tusks. It lives in forests and peatlands and attacks walls and farm buildings when it encounters them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +0, Con +3, Int -3, Wis +1, Cha -2",
+        "Traits": "Bristles. A creature within 5 ft. that hits the malrgotr with a melee attack takes 4 (1d8) piercing damage.",
+        "Actions": "Multiattack. Make one Gore and one Hooves attack.\nGore. Melee weapon attack, +6 to hit, reach 5 ft. Hit 13 (2d8 + 4) piercing plus 3 (1d6) radiant damage.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft. Hit 9 (1d10 + 4) bludgeoning damage.",
+        "Bonus Actions": "Glorious Flare (recharge 5–6). Each creature within 15 ft. makes a DC 13 Constitution save. Failure deals 7 (2d6) radiant damage and makes the creature Blinded through the end of its next turn.",
+        "Encounter Context": "The corpse yields 50 lb. of iron and 20 lb. of gold.",
+        "Printed source": "Chapter 8, pp. 250–251"
+      }
+    }
+  },
+  {
+    "name": "Skogsra",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 256–257",
+    "notes": "The final Black Flag Roleplaying printing supplies a distinct encounter stat block.",
+    "statBlock": {
+      "name": "Skogsra",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fey",
+      "ac": 16,
+      "hp": 130,
+      "speed": "40 ft.",
+      "cr": "8",
+      "abilities": {
+        "Str": {
+          "modifier": 4
+        },
+        "Dex": {
+          "modifier": 4
+        },
+        "Con": {
+          "modifier": 2
+        },
+        "Int": {
+          "modifier": 2
+        },
+        "Wis": {
+          "modifier": 6
+        },
+        "Cha": {
+          "modifier": 7
+        }
+      },
+      "otherStatistics": "Perception 16, Stealth 14. Darkvision 60 ft. Languages Common and Sylvan.",
+      "description": "A forest predator poses as a lost traveler. Beneath the disguise is a hollow, bark-covered body from which it lashes out with vines and venomous claws.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +4, Con +2, Int +2, Wis +6, Cha +7",
+        "Actions": "Multiattack. Make three Claw attacks. One Claw can be replaced with Grasping Vines or Spellcasting.\nClaw. Melee weapon attack, +7 to hit, reach 10 ft. Hit 8 (1d8 + 4) slashing plus 7 (2d6) poison damage.\nGrasping Vines. One visible Medium or smaller creature within 15 ft. makes a DC 15 Strength save. On a failure it is pulled up to 10 ft. toward the skogsra and is Grappled (escape DC 15).\nSpellcasting. Charisma, save DC 15. At will: Charm, Shocking Grasp. 1/day each: Call Lightning, Detect Thoughts, Disguise Self, Ice Storm, Wind Wall.",
+        "Bonus Actions": "Hollow Trap. Pull a creature the skogsra is Grappling into its hollow body, ending the Grapple. The creature is Blinded and Restrained and has total cover against outside attacks and effects. At the start of each of the trapped creature’s turns, it takes 7 (2d6) slashing plus 7 (2d6) poison damage. A Humanoid reduced to 0 HP by this damage is stable and Paralyzed for 12 hours or until it regains HP. Capacity one. If the creature inside deals at least 15 damage in a single turn, the skogsra makes a DC 13 Constitution save at the end of that turn. On a failure it expels the creature Prone within 5 ft. If the skogsra dies, the restraint and paralysis from the trap end, and the creature can spend 5 ft. of movement to exit Prone.",
+        "Printed source": "Chapter 8, pp. 256–257"
+      }
+    }
+  },
+  {
+    "name": "Sleipnirspringr",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 265",
+    "notes": "The final Black Flag Roleplaying printing supplies a distinct encounter stat block.",
+    "statBlock": {
+      "name": "Sleipnirspringr",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 14,
+      "hp": 59,
+      "speed": "60 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "modifier": 3
+        },
+        "Dex": {
+          "modifier": 3
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": -2
+        },
+        "Wis": {
+          "modifier": -1
+        },
+        "Cha": {
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Perception 11, Stealth 13. No special senses or languages.",
+      "description": "An eight-legged horse descended from Wotan’s mount. It is headstrong and chooses its own rider, often someone it encounters performing a great deed or causing trouble.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +3, Con +3, Int -2, Wis -1, Cha +2",
+        "Traits": "Preternatural Balance. Automatically succeeds on saves against falling Prone and cannot be pushed or pulled by nonmagical means.",
+        "Actions": "Multiattack. Make three Hoof attacks.\nHoof. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 12 (2d8 + 3) bludgeoning damage.",
+        "Bonus Actions": "Trickster Spawn. Take the Dash, Disengage, or Dodge action.",
+        "Printed source": "Chapter 8, p. 265"
+      }
+    }
+  }
+]

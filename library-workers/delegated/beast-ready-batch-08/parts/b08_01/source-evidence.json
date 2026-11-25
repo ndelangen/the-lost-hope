@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Squid",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Squid",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/squid.htm",
+    "url": "https://www.d20srd.org/srd/monsters/squid.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf"
+    ],
+    "appearanceEvidence": "The text describes an aquatic mollusk, and the attack table names its arms. Mantle shape, coloration and posture describe the reused portrait.",
+    "habitatEvidence": "The Squid table lists a temperate aquatic environment.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The creature expressly permits Improved Grab against any size. Its successful initial grapple deals Bite damage.",
+      "The creature entry gives Ink Cloud size, concealment and the once-per-minute interval. It does not give a separate dissipation duration."
+    ],
+    "reusedPortrait": {
+      "source": "indexed:images/beasts/squid/parchment-portrait.webp",
+      "sha256": "8dcb2884bc0e384f0427cf3971550803d7047daeafa0d3008177588af680f6e5"
+    }
+  },
+  {
+    "name": "Tiger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Tiger",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/tiger.htm",
+    "url": "https://www.d20srd.org/srd/monsters/tiger.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatII.rtf",
+      "MonsterFeats.rtf"
+    ],
+    "appearanceEvidence": "The SRD describes the size and mass of a tiger. Stripes, coat color and stance describe the reused portrait.",
+    "habitatEvidence": "The Tiger table lists warm forests. The Hide trait names tall grass and dense undergrowth as favorable cover.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The Tiger feat line calls the bite and claw feats Improved Natural Weapon. The shared monster feat heading reads Improved Natural Attack. The staged names and attack dice follow the Tiger entry.",
+      "The shared Rake timing applies to an ordinary grapple, and the creature’s Pounce expressly includes two rake attacks as part of the charge."
+    ],
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_09/portraits/tiger.png",
+      "sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5"
+    }
+  },
+  {
+    "name": "Triceratops",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersDi-Do.rtf",
+    "section": "Dinosaur, Triceratops",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/dinosaur.htm#triceratops",
+    "url": "https://www.d20srd.org/srd/monsters/dinosaur.htm#triceratops",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatII.rtf"
+    ],
+    "appearanceEvidence": "The SRD gives Huge size and a gore attack. Horns, frill and posture describe the reused portrait.",
+    "habitatEvidence": "The Triceratops table lists temperate plains.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The table gives Trample damage and the combat prose gives DC 28. Timing, coverage, size restriction and the choice of defense come from the shared Trample rule."
+    ],
+    "reusedPortrait": {
+      "source": "beast-ready-batch-05/reused-portraits/triceratops.webp",
+      "sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789"
+    }
+  },
+  {
+    "name": "Tyrannosaurus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersDi-Do.rtf",
+    "section": "Dinosaur, Tyrannosaurus",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/dinosaur.htm#tyrannosaurus",
+    "url": "https://www.d20srd.org/srd/monsters/dinosaur.htm#tyrannosaurus",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatII.rtf"
+    ],
+    "appearanceEvidence": "The SRD describes a dinosaur longer than 30 ft. with a long head and large teeth. Color and pose describe the reused portrait.",
+    "habitatEvidence": "The Tyrannosaurus table lists warm plains.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The creature text sets different maximum target sizes for Improved Grab and Swallow Whole. The successful swallowing grapple and escape-to-mouth option use the shared Swallow Whole rules."
+    ],
+    "reusedPortrait": {
+      "source": "indexed:images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+      "sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316"
+    }
+  },
+  {
+    "name": "War Pony",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Pony, War",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/ponyWar.htm",
+    "url": "https://www.d20srd.org/srd/monsters/ponyWar.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "SkillsII.rtf"
+    ],
+    "appearanceEvidence": "The SRD describes a domesticated pony bred for strength and aggression. Its coat, mane and tack describe the reused portrait.",
+    "habitatEvidence": "The Pony, War table lists temperate plains.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The Pony, War prose calls for a Ride check. The Ride skill gives DC 10 and its free-action timing."
+    ],
+    "reusedPortrait": {
+      "source": "indexed:images/beasts/war-pony/parchment-portrait.webp",
+      "sha256": "b564a87e30cecf28608a31b4677e40119a2e929b2b55da1f75aac539ce901a35"
+    }
+  },
+  {
+    "name": "Wolf",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Wolf",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/wolf.htm",
+    "url": "https://www.d20srd.org/srd/monsters/wolf.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatII.rtf"
+    ],
+    "appearanceEvidence": "The SRD describes a Medium pack hunter. Coat, ears and posture describe the reused portrait.",
+    "habitatEvidence": "The Wolf table lists temperate forests.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The printed +1 trip modifier is the wolf’s check modifier before any situational adjustment. The shared Trip rule supplies the target size limit and opposed roll."
+    ],
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+    }
+  },
+  {
+    "name": "Wolverine",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Wolverine",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/wolverine.htm",
+    "url": "https://www.d20srd.org/srd/monsters/wolverine.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "Basics.rtf"
+    ],
+    "appearanceEvidence": "The SRD compares the animal to a larger, stronger badger. Coat bands and posture describe the reused portrait.",
+    "habitatEvidence": "The Wolverine table lists cold forests.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The rage math is derived from the creature’s exact printed adjustments. This is the Wolverine’s extraordinary Rage, with its printed trigger and duration."
+    ],
+    "reusedPortrait": {
+      "source": "indexed:images/beasts/wolverine/parchment-portrait.webp",
+      "sha256": "696bfc4e9a3dc67069266eb71d8757fdb5c6072ce2f6e210902fcbfbf483f975"
+    }
+  }
+]

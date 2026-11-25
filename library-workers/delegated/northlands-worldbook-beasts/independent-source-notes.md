@@ -1,0 +1,15 @@
+# Northlands Worldbook — Tales of the Valiant beasts
+
+The book credits on printed p. 2 give ©2026 Open Design LLC, ISBN 978-1-964506-38-8 and limited-edition ISBN 978-1-964506-39-5. The standard ISBN matches Kobold Press’s Tales of the Valiant product KOB-6388. The publisher also sells a D&D 5.5E edition, ISBN 978-1-964506-27-2. That number appears later in the mirror’s extracted text, so use the credits ISBN to identify this copy. All three blocks are under Mounts in Chapter 8 on printed p. 264. The extraction interleaves columns, especially Reindeer and Sea Serpent. I verified the text and footer. The page image remains unchecked. [Book text](https://www.scribd.com/document/1066608060/ToV8-Northlands-Worldbook-TOV) · [Tales of the Valiant edition](https://koboldpress.com/kpstore/product/tales-of-the-valiant-northlands-worldbook/) · [D&D 5.5E ISBN]()
+
+## Moose
+
+Large Beast, CR 1/2, AC 13, HP 22, speed 40 ft., Perception 13, Stealth 10. No listed special senses or languages. STR/DEX/CON/INT/WIS/CHA modifiers +4/+0/+2/−4/+1/−3. Forest Walker grants advantage on DEX (Stealth) checks in forest terrain. Hooves is +6, reach 5 ft., for 8 (1d8 + 4) bludgeoning. A Large or smaller target takes an extra 3 (1d6) bludgeoning and falls prone if the moose moved at least 10 ft. straight toward it immediately before the hit. There is no save. Fury is a reaction to taking 5 or more damage and grants advantage on the next attack roll before the end of the moose’s next turn. The book describes an animal nearly seven feet tall at the shoulder with broad, palmed antlers. It also calls it Elg.
+
+## Reindeer
+
+Large Beast, printed CR 1/4, AC 12, HP 15, speed 40 ft., Perception 13, Stealth 13. No listed special senses or languages. Modifiers +2/+3/+2/−4/+1/−3. Agile prevents opportunity attacks when it leaves an enemy’s reach. Snowstrider lets it treat snow and ice as ordinary terrain. Hooves is +4, reach 5 ft. The mirror reads 7 (1d8 + 2) bludgeoning. The dice ordinarily average 6 when rounded down, so retain the listed number and dice with a note until the page image confirms them. Burst of Speed is a bonus action, three times per day, that doubles speed until the start of its next turn. The lore describes cold-country herds, domesticated sled animals, and a brown coat shedding to show white below.
+
+## Sea Serpent
+
+Huge Beast, CR 3, AC 13, HP 76, land speed 0 ft., swim 50 ft., Perception 13, Stealth 15. No listed special senses or languages. Modifiers +6/+3/+3/−4/+1/−3. Bite is +8, reach 10 ft., for 19 (3d8 + 6) piercing. Constrict targets a visible Huge or smaller creature within 10 ft. and forces a DC 14 STR save. On failure it deals 10 (4d4) bludgeoning and grapples the target, with escape DC 16. The block lists no restrained rider or half damage on a successful save. Constrict is listed as an action, and Constrictor also allows it as a bonus action after a Bite hit. The book describes blue-green upper coloring, a white underside, a bony head ridge, four fangs and sail-like dorsal fins. Serpents raised from eggs can serve as mounts or ship guards.

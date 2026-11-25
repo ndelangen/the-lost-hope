@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Fireblood Dwarf",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "cbdf77879daea353b6ac7cc78be9ca16b27f73ed614a6b3dddff0b0fbb5fba9d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Stonehunter Gnome",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "bf00bbb0aa0a461ea39b82dc85402c3686bad3247602d6fc0cc7f08ce701bcf3",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Glimmerskin Halfling",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c86c6c7e634baf20cc37750e090468a53b336aa175b578bc8193317e67a41af2",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Frostblood Orc",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b262489674b0a9f38be232666569642f20e1bfd8cb917f38f9cc2625de0c9b7f",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Frostblood Half-Orc",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4bbc580418375b298650a7cd5be6cf9907a4fce44fa2ccec8830959799a5fed4",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,1262 @@
+# general-store | provisions | mundane | 4925880839572821
+Trail rations (one day) | 5 sp
+Flask of wine | 2 sp | A stoppered flask of table wine that fits in a travel pack.
+Keg of ale | 2 gp | Ale in a small wooden cask, ready to tap and share.
+Waterskin | 2 sp
+# general-store | lighting | mundane | 4925880839572821
+Torch | 1 cp
+Candle | 1 cp
+Oil lamp | 5 sp
+Hooded lantern | 5 gp
+Bullseye lantern | 10 gp
+Lamp oil (flask) | 1 sp
+Tinderbox | 5 sp
+# general-store | hardware | mundane | 4925880839572821
+Chain (10 ft) | 5 gp
+Rope (50 ft) | 1 gp
+Block and tackle | 1 gp
+Iron spikes (10) | 1 gp
+Piton | 5 cp
+Pole (10 ft) | 5 cp
+Crowbar | 2 gp
+Padlock | 10 gp
+# general-store | exploration | mundane | 4925880839572821
+Chalk | 1 cp
+Magnifying glass | 100 gp
+Steel mirror | 5 gp
+# general-store | exploration | mundane | 5etools:phb
+Hourglass | 25 gp
+# general-store | exploration | mundane | 4925880839572821
+Signal whistle | 5 cp
+Bell | 1 gp
+Signal horn | 3 gp | A hollow horn that carries a call across a camp, field, or stretch of road.
+# general-store | containers | mundane | 5etools:phb
+Jug | 2 cp
+# general-store | containers | mundane | 4925880839572821
+Sack | 1 cp
+Barrel | 2 gp
+Crate | 5 sp | A sturdy slatted box for stacking or carrying goods.
+Satchel | 2 gp | A shoulder bag with a flap to keep papers and small supplies together.
+Belt pouch | 5 sp
+# general-store | containers | mundane | 5etools:phb
+Backpack | 2 gp
+# general-store | containers | mundane | 4925880839572821
+Chest | 5 gp
+Empty flask | 2 cp
+Tankard | 2 cp
+# general-store | tools | mundane | 4925880839572821
+Brewing supplies | 20 gp
+Carpentry tools | 20 gp
+Cartography tools | 15 gp
+# general-store | tools | mundane | 5etools:phb
+Cobbler's tools | 5 gp
+# general-store | tools | mundane | 4925880839572821
+Glassblower's tools | 30 gp
+Jeweler's tools | 25 gp
+# general-store | tools | mundane | 5etools:phb
+Leatherworker's tools | 5 gp
+Mason's tools | 10 gp
+Painter's supplies | 10 gp
+Potter's tools | 10 gp
+# general-store | tools | mundane | 4925880839572821
+Smith's tools | 20 gp
+# general-store | tools | mundane | 5etools:phb
+Tinker's tools | 50 gp
+Weaver's tools | 1 gp
+Woodcarver's tools | 1 gp
+# general-store | tools | mundane | 4925880839572821
+Cooking utensils | 1 gp | Shared utensils for cooking over a campfire.
+Mess kit | 2 sp | An individual eating set for one traveler.
+Climbing kit | 25 gp
+# general-store | tools | mundane | 5etools:phb
+Healer's kit | 5 gp
+# general-store | travel | mundane | 4925880839572821
+Bedroll | 1 gp
+Two-person tent | 2 gp
+Four-person tent | 6 gp | A canvas field shelter with room for four sleepers.
+Local map | 10 gp
+Map case | 1 gp
+Winter blanket | 5 sp | A thick woven blanket that can be folded into a bedroll.
+# general-store | travel | mundane | 5etools:phb
+Diplomat's pack | 39 gp
+Dungeoneer's pack | 12 gp
+Explorer's pack | 10 gp
+# general-store | travel | mundane | 5etools:vrgr
+Monster hunter's pack | 33 gp
+# general-store | travel | mundane | 5etools:phb
+Scholar's pack | 40 gp
+# general-store | stationery | mundane | 4925880839572821
+Balance scales | 5 gp
+Ink | 10 gp
+Dip pen | 2 cp
+Parchment sheet | 1 sp
+Perfume vial | 5 gp
+String (10 ft) | 1 sp
+Wire (10 ft) | 2 sp | A coil of fine wire for tying fittings and making small repairs.
+# general-store | entertainment | mundane | 4925880839572821
+Dice | 5 sp
+Dragonchess set | 1 gp
+Playing cards | 5 sp
+Costume clothes | 5 gp
+Drum | 6 gp
+Lyre | 30 gp
+Lute | 35 gp
+Dulcimer | 25 gp
+# general-store | entertainment | mundane | 5etools:phb
+Flute | 2 gp
+Pan flute | 12 gp
+Shawm | 2 gp
+# general-store | entertainment | mundane | 4925880839572821
+Harmonica | 15 gp | A pocket-sized reed instrument played by blowing and drawing air through it.
+Violin | 50 gp | A bowed string instrument small enough for a traveling musician to carry.
+# general-store | hunting | mundane | 4925880839572821
+Hunting net | 1 gp
+Quiver | 1 gp
+Animal feed (one day) | 5 cp
+Hunting trap | 5 gp
+# general-store | clothing | mundane | 4925880839572821
+Common clothes | 5 sp
+Fine clothes | 15 gp
+Belt | 1 gp | An adjustable waist strap that can carry a pouch or sheath.
+Boots | 1 gp | Ankle-covering footwear for road and field work.
+Shoes | 1 gp | Low everyday footwear for dry floors and streets.
+Cape | 1 gp | A sleeveless outer layer that hangs from the shoulders.
+Gloves | 1 gp | Close-fitting hand coverings for travel and work.
+Hat | 1 gp | An everyday head covering for sun, rain, or cold.
+Hood | 1 gp | A loose covering that pulls over the head and ears.
+# blacksmith | weapon | mundane | 444941638209698795
+Battleaxe | 10 gp
+Club | 1 sp
+Dagger | 2 gp
+Flail | 10 gp
+Glaive | 20 gp
+Greataxe | 30 gp
+# blacksmith | weapon | mundane | 5etools:phb
+Greatclub | 2 sp
+# blacksmith | weapon | mundane | 444941638209698795
+Greatsword | 50 gp
+Halberd | 20 gp
+Lance | 10 gp
+Longsword | 15 gp
+Mace | 5 gp
+Maul | 10 gp
+Morningstar | 15 gp
+Pike | 5 gp
+Rapier | 25 gp
+Scimitar | 25 gp
+Shortsword | 10 gp
+# blacksmith | weapon | mundane | 5etools:phb
+Sickle | 1 gp
+Spear | 1 gp
+# blacksmith | weapon | mundane | 444941638209698795
+Trident | 5 gp
+Warhammer | 15 gp
+War pick | 5 gp
+Whip | 2 gp
+Shortbow | 25 gp
+Longbow | 50 gp
+Light crossbow | 25 gp
+Heavy crossbow | 50 gp
+Blowgun | 10 gp
+Javelins (5) | 5 sp | A bundle of five light spears carried for throwing.
+Darts (10) | 5 cp | Ten small weighted throwing darts packed together.
+# blacksmith | weapon | mundane | 5etools:phb
+Handaxe | 5 gp
+# blacksmith | weapon | mundane | 444941638209698795
+Sling | 1 sp
+# blacksmith | armor | mundane | 444941638209698795
+Breastplate | 400 gp
+Chain mail | 75 gp
+# blacksmith | armor | mundane | 5etools:phb
+Chain shirt | 50 gp
+# blacksmith | armor | mundane | 444941638209698795
+Half plate | 750 gp
+Hide armor | 10 gp
+Leather armor | 10 gp
+Padded armor | 5 gp
+Plate armor | 1500 gp
+Ring mail | 30 gp
+Scale mail | 50 gp
+Shield | 10 gp
+# blacksmith | armor | mundane | 5etools:scag
+Spiked armor | 75 gp
+# blacksmith | armor | mundane | 444941638209698795
+Splint armor | 200 gp
+Studded leather armor | 45 gp
+# blacksmith | ammunition | mundane | 5etools:phb
+Blowgun needles (50) | 1 gp
+# blacksmith | ammunition | mundane | 444941638209698795
+Sling bullets (20) | 4 cp
+# blacksmith | ammunition | mundane | 5etools:phb
+Arrows (20) | 1 gp
+Crossbow bolts (20) | 1 gp
+# blacksmith | hardware | mundane | 444941638209698795
+Portable ram | 4 gp
+Caltrops (20) | 5 cp
+Manacles | 2 gp
+Ball bearings (1000) | 1 gp
+Whetstone | 1 cp
+Hammer | 1 gp
+Shovel | 2 gp
+Miner's pick | 2 gp
+Hoe | 1 gp | A long-handled tool with a flat blade for breaking and tending soil.
+Pitchfork | 2 gp | A long-handled fork for moving hay, straw, and other loose material.
+Sledgehammer | 2 gp
+Tongs | 5 sp | Hinged metal grips for lifting items the smith cannot safely take by hand.
+Fire poker | 5 sp | A long iron rod for shifting embers and logs in a hearth.
+# blacksmith | materials | mundane | 444941638209698795
+Copper ingot (1 lb) | 4 sp | A one-pound cast bar of reddish copper for metalwork or trade.
+Silver ingot (1 lb) | 10 sp | A one-pound cast bar of silver for metalwork or trade.
+Electrum ingot (1 lb) | 50 sp | A one-pound bar of pale gold-silver alloy.
+Gold ingot (1 lb) | 50 gp | A one-pound cast bar of gold for trade or the jeweler’s bench.
+Iron ingot (1 lb) | 1 sp | A one-pound cast bar of iron for the forge.
+Steel ingot (1 lb) | 2 gp | A one-pound bar of steel stock for the forge.
+# emporium | focus | mundane | 753930793917415886
+Incense block | 1 gp | A pressed block that releases a fragrant smoke when burned.
+Pouch of sand | 1 cp | A small pouch of dry grit for spell components or workshop use.
+Arcane focus orb | 20 gp | A polished sphere a spellcaster can hold as an arcane focus.
+Quarterstaff | 2 sp
+Arcane focus rod | 10 gp | A short rigid rod made to serve as an arcane focus.
+Blank spellbook | 50 gp
+Totem | 1 gp
+Arcane focus wand | 10 gp | A narrow hand-held wand made to serve as an arcane focus.
+# emporium | magic item | specialty | 753930793917415886
+Wand of Web | 3000 gp
+Wand of Magic Missiles | 3000 gp
+Wand of Detect Magic | 3000 gp
+Circlet of Blasting | 4000 gp
+Cloak of Protection | 1500 gp
+Deck of Illusions | 1000 gp
+Efficient Quiver | 500 gp | A magic quiver with separate spaces for ammunition, bows, and long shafts.
+Sending Stones | 400 gp
+Restorative ointment | 200 gp
+Robe of Useful Items | 750 gp
+Bag of Holding | 500 gp
+Scrying orb | 3000 gp | A polished sphere for a diviner’s kit. Its name gives it no spellcasting property on its own.
+# emporium | component | mundane | 753930793917415886
+Bat guano (1 lb) | 2 gp | A pound of dried bat droppings sold as a spell component.
+Bloodroot | 3 gp | A portion of reddish plant root stocked by the apothecary.
+Brimstone (1 lb) | 1 gp | A pound of yellow sulfur sold as a component.
+Charcoal (1 lb) | 1 gp | A pound of charred wood for drawing, fuel, or mixing.
+Common bird feather | 1 gp | A single ordinary feather suitable for a component pouch.
+Garlic bulb | 1 gp | A whole garlic bulb with its cloves still joined.
+Iron filings (1 lb) | 1 gp | A pound of fine iron shavings stored dry.
+Mandrake root | 5 gp | A dried, branching root sold by the apothecary.
+Dried moss (1 lb) | 1 gp | A pound of dried moss packed loose for the component bench.
+Seed pearl | 10 gp | A very small pearl suitable for fine work or spell components.
+Salt (1 lb) | 1 gp | A pound of coarse salt for cooking, preserving food, or components.
+Empty vial | 1 gp
+Amber piece | 50 gp | A small piece of hardened golden resin.
+Diamond dust | 100 gp | A packet of finely powdered diamond sold by the component merchant.
+Eagle feather | 10 gp | A large feather with a stiff central shaft.
+Eye of newt | 5 gp | A small preserved newt eye kept in the apothecary’s stock.
+Silver mirror | 25 gp | A small mirror with a polished silver reflecting surface.
+Spider silk (1 oz) | 25 gp | An ounce of fine spider thread wound together for storage.
+Wolfsbane sprig | 10 gp | A sprig of aconite stocked for component work.
+Zinc dust (1 oz) | 10 gp | An ounce of fine gray zinc powder in a sealed packet.
+# emporium | component | mundane | 753930793917415886 | house
+Black pearl | 100 gp | A 100 gp specimen for component shopping. Check the spell’s minimum value.
+Diamond | 1000 gp | A 1,000 gp specimen for component shopping. Check the spell’s minimum value.
+# emporium | component | specialty | 753930793917415886
+Dragon scale shard | 25 gp | A broken piece of a large dragon scale.
+Unicorn hair | 50 gp | A strand of unicorn hair kept as a rare spell component.
+Wyvern talon | 50 gp | A hard curved claw from a wyvern, cleaned for the component trade.
+Phoenix ash (1 oz) | 250 gp | An ounce of ash gathered from a phoenix’s remains.
+Celestial blood (vial) | 500 gp | A sealed vial of blood from a celestial creature.
+Dragon blood (vial) | 500 gp | A sealed vial of blood from a dragon.
+Fiend heart | 1000 gp | A preserved fiend heart sold as a rare component.
+Unicorn horn | 250 gp | The spiral horn of a unicorn, prized as a rare component.
+Mithral ingot (1 lb) | 500 gp | A one-pound bar of lightweight mithral for specialist metalwork.
+Prismatic crystal | 500 gp | A faceted crystal that separates light into bands of color.
+# general-store, alchemist | containers | mundane | 4925880839572821
+Glass bottle | 2 gp
+# alchemist | supplies | mundane | 444941638209698800
+Alchemist's supplies | 50 gp
+# alchemist | potion | specialty | 444941638209698800
+Potion of Healing | 50 gp
+Potion of Climbing | 50 gp
+Antitoxin | 50 gp
+Potion of Greater Healing | 100 gp
+Potion of Resistance | 100 gp | A potion keyed to a particular damage type. The bottle’s type determines the resistance it grants.
+Potion of Animal Friendship | 100 gp
+Potion of Fire Breath | 100 gp
+Potion of Growth | 100 gp
+Potion of Water Breathing | 100 gp
+Potion of Superior Healing | 250 gp
+Potion of Invulnerability | 250 gp
+Potion of Clairvoyance | 250 gp
+Potion of Gaseous Form | 250 gp
+Potion of Heroism | 250 gp
+Potion of Mind Reading | 250 gp
+Oil of Slipperiness | 100 gp
+Oil of Etherealness | 250 gp
+Philter of Love | 100 gp
+# stables | mounts | mundane | 4925880839572826
+Warhorse | 400 gp
+Riding horse | 75 gp
+Pony | 30 gp
+Draft horse | 50 gp
+Mule | 8 gp
+# stables | mounts | mundane | 5etools:phb
+Donkey | 8 gp
+# stables | tack | mundane | 4925880839572826
+Pack saddle | 5 gp
+Riding saddle | 10 gp
+Military saddle | 20 gp
+Exotic saddle | 60 gp
+Saddlebags | 4 gp
+Bit and bridle | 2 gp
+Riding crop | 1 gp | A short, flexible riding aid with a looped grip.
+Horseshoes (set) | 1 gp | A matching set of shoes ready for the farrier to fit.
+# stables | vehicles | mundane | 4925880839572826
+Handcart | 10 gp
+# stables | vehicles | mundane | 4925880839572826 | house
+Covered wagon | 35 gp | A canvas-covered trade wagon priced on the same scale as an ordinary wagon.
+# stables | vehicles | mundane | 4925880839572826
+Merchant wagon | 75 gp | A wagon made for hauling a trader’s goods along roads.
+War wagon | 250 gp | A reinforced wagon intended for use with a military convoy.
+Sled | 20 gp
+# gem merchant | gemstones | mundane | 950541065126922138 | house
+Obsidian shard | 1 gp | A dark glassy fragment with a sharp broken edge.
+Lapis lazuli | 10 gp
+Aquamarine | 100 gp
+Topaz | 100 gp
+Amethyst | 50 gp
+Citrine | 25 gp
+Garnet | 50 gp
+Peridot | 25 gp
+Moonstone | 50 gp
+Sunstone | 50 gp | A warm orange or golden gemstone with a glint when turned in the light.
+Star sapphire | 500 gp
+Bloodstone | 50 gp
+Smoky quartz | 10 gp | A translucent quartz stone with a brown or gray tint.
+Bismuth crystal | 10 gp | A stepped, metallic-looking crystal with shifting surface colors.
+# gem merchant | minerals | mundane | 950541065126922138 | house
+Magnetite | 5 gp | A natural lodestone for testing iron.
+Hematite | 5 gp | Leaves a red streak on unglazed clay.
+Cinnabar | 5 gp | Red mineral pigment for an illuminator's palette.
+Orichalcum ore | 50 gp | An unrefined sample of ore sold as a source of orichalcum.
+Adamantine ore | 100 gp | Unrefined stock for a smith who can work adamantine.
+Titanium ore | 25 gp | A mineral sample sold for its titanium content.
+Cobalt ore | 10 gp | Unrefined ore sold by the mineral merchant for its cobalt content.
+Platinum ore | 150 gp | Unrefined ore sold for its platinum content.
+# gem merchant | curiosities | specialty | 950541065126922138 | house
+Echo crystal | 60 gp | Leave it on a hard surface to record the next clear sound in the room. Tap it twice to play that sound back and erase it.
+Thunderstone | 40 gp | A single-use signal stone that cracks with a thunderclap if dropped.
+Spirit stone | 80 gp | Warms within arm's reach of an incorporeal creature.
+Phosphor rock | 12 gp | Shines weakly for an hour after exposure to daylight.
+Luminous moss | 5 gp | A living patch that gives enough light to make out nearby steps.
+Petrified wood | 12 gp | A polished sample showing rings in stone.
+Fossil shell | 8 gp | A spiral shell found far above the present coastline.
+Fossil rib | 20 gp | A partial rib from a creature larger than a wagon.
+Shed carapace | 25 gp | The intact shell can be fitted over a lantern as a directional shade.
+# oddities dealer | curiosities | specialty | 950541065126124619 | house
+Lantern of lost dreams | 150 gp | Lights the page where its owner last wrote down a dream.
+Mirror of echoes | 120 gp | Reflects the empty room as it appeared a minute ago.
+Watchful teddy | 35 gp | A stitched bear that turns its head toward the first person to enter in the dark.
+Melting clock | 85 gp | Softens as the room approaches the hour set on its dial.
+Attic key | 90 gp | Turns only when the person carrying it has climbed higher than everyone else in the building.
+Nightmare hook | 100 gp | Pulls a sleeping creature out of a nightmare without waking others nearby.
+Hover candles | 12 gp | A pair that floats over the last match used to light it.
+Whispering book | 60 gp | Reads the facing page aloud when shut, once before dawn.
+Faded portrait | 30 gp | A blurred likeness that clears when the subject stands in sunlight.
+Star compass | 85 gp | Points toward the last unobstructed view of the night sky.
+Sheet ghost charm | 15 gp | A harmless ghost shape hangs in the air where the charm is pinned.
+Bubble wand | 20 gp | Makes one bubble large enough to carry a sealed written note over water.
+Lullaby bell | 25 gp | Only a creature falling asleep can hear it ring.
+Cloud mallet | 45 gp | Strikes a gavel block without sound and leaves a puff marking the point of impact.
+Drowsy shield | 80 gp | Softens sound when set upright between a sleeper and a doorway.
+Sky jigsaw | 55 gp | Holds one glimpse of the weather above the roof.
+Secret diary | 25 gp | Ink vanishes unless its writer opens the clasp.
+Fog music box | 40 gp | Uneven notes play while low mist gathers inside the lid.
+Backward quill | 18 gp | Writes legibly only on the reverse of a sheet.
+Porcelain heart | 25 gp | Beats once when its paired doll is moved.
+Dream admission ticket | 35 gp | Lets one willing sleeper follow a companion into the same dream.
+Paper glider | 6 gp | Follows the draft through a room and lands at the strongest exit.
+Moth in a jar | 15 gp | Its wings stay still near cold light and flutter near open flame.
+Sleepwalk slippers | 55 gp | Track the wearer's route in faint chalk dust until dawn.
+Freestanding doorframe | 150 gp | Opens onto a dark, shallow alcove big enough to hide a single pack.
+Bottled melody | 20 gp | Plays the tune held inside when uncorked and empties after use.
+Split hourglass | 65 gp | Sand runs only while both halves are held by different people.
+Witness brooch | 45 gp | Its glass eye clouds when the wearer closes both real eyes.
+Pocket crown | 35 gp | Leaves a readable imprint of its maker's mark in wax.
+# oddities dealer | sweets | specialty | 950541065126124619 | house
+Cotton candy ration | 4 sp | Weighs almost nothing, but dissolves in the rain.
+Dream biscuit | 1 gp | The taste recalls the last meal you shared with someone.
+Night parfait | 7 sp | Its layers separate again if the cup is left in darkness.
+Glowing dumpling | 8 sp | A bite leaves a soft blue glow on the tongue for an hour.
+Cloud macaron | 6 sp | Spirals upward if dropped and falls again when it cools.
+Lucid lollipop | 5 gp | A sleeper knows they are dreaming until the sugar taste fades.
+# herbalist | cave produce | specialty | 944067140663469532 | house
+Gloomtide tuber | 2 gp | The skin gives off a green glow when freshly cut.
+Shadowfang root | 6 gp | A spiral inside the bulb shows the oldest growth first.
+Emberspine root | 3 gp | Stays warm enough to warm cold hands for one watch.
+Frostvein root | 3 gp | Keeps a single small parcel chilled until it thaws.
+Moonbulb | 5 gp | Its juice briefly sharpens the contrast between dim shapes.
+Ironspud | 4 sp | The rind takes a hammer to crack. The dense center feeds one person.
+Sunforge tuber | 3 gp | Mash a sun-ripened root into bread dough and it rises in the time it takes to pitch a tent.
+Tidewort | 5 sp | A crisp cave vegetable that loses its briny flavor when dried.
+Veilroot | 5 gp | Steam from a cooked slice catches faint drafts at ground level.
+Ragebloom | 4 gp | Peppery enough to provoke tears for a minute after a bite.
+Crystalheart | 8 gp | A slice clouds in contact with fouled water.
+Ambersprout | 5 gp | A sweet root whose rind releases tacky sap useful on a torn bandage.
+Stormgem | 6 gp | A cut root can make a nearby compass needle twitch.
+Dusk cabbage | 8 sp | Outer leaves darken as the light drops.
+Boneknob | 7 sp | Its hard rind can be carved like a low-grade piece of horn.
+Coralsprout | 5 gp | Grows near hot vents. Cuts of the chilled root go soft and pink.
+Dreamweaver root | 5 gp | Eat a cooked piece alongside an unfamiliar dish and that night you dream of the last ingredient added to the dish.
+# tavern | drinks | mundane | 1099582065815954957 | house
+Small ale | 1 cp | A light, low-strength ale served as a table drink.
+Brown ale | 3 cp | A darker ale with a malt-forward taste.
+Strong ale | 1 sp | A fuller, stronger ale sold by the serving.
+# tavern | food | mundane | 1099582065815954957 | house
+Barley bread | 2 cp | A plain, dense bread made with barley.
+Wheat bread | 5 cp | A wheat loaf for everyday meals and travel.
+Oat pottage | 2 cp | A warm, thick bowl of cooked oats.
+Mutton stew | 5 cp | Slow-cooked mutton served in broth with vegetables.
+Eel stew | 1 sp | Chunks of eel simmered in broth and served warm.
+Roast mutton | 2 sp | A serving of sliced roast sheep meat.
+Salted herring | 1 sp | Herring preserved in salt for storage and travel.
+# butcher | fresh cuts | mundane | 1099582065815955278 | house
+Live sheep | 3 gp
+Mutton joint | 3 sp | A large cut of sheep meat suitable for slow cooking or roasting.
+Mutton chops | 2 sp | Small cuts of sheep meat taken across the ribs or loin.
+Side of pork | 8 sp | A large butcher’s cut for portioning into smaller joints.
+Salted bacon slab | 4 sp | An uncut piece of salt-cured bacon.
+Blood sausage links | 1 sp | A string of dark sausages made with blood and seasoning.
+Live chicken | 2 sp
+Dressed chicken | 3 sp | A plucked, cleaned chicken ready for cooking.
+Skinned rabbit | 1 sp | A cleaned rabbit with the hide removed, ready for a stew or roast.
+Mixed offal | 2 cp | A butcher’s assortment of edible organ cuts.
+# fishmonger | seafood | mundane | 1099582065815956707 | house
+Fresh salmon | 6 sp | Fresh salmon sold for cooking the same day.
+Fresh cod | 2 sp | Fresh white-fleshed cod for the pot or pan.
+Fresh herring | 5 cp | Fresh herring from the fish stall, sold without curing.
+Oysters (dozen) | 1 sp | Twelve oysters in their shells.
+Fresh eel | 2 sp | A fresh eel sold whole or ready to cut for cooking.
+# tailor | workwear | mundane | 1099582065815955125 | house
+Wool cap | 2 cp | A close-fitting wool cap for cold days.
+Linen shirt | 5 cp | A loose shirt woven from linen.
+Wool tunic | 1 sp | A plain wool outer layer worn over a shirt.
+Wool hose | 1 sp | Knitted or woven wool leg coverings.
+Hooded wool cloak | 4 sp | A wool cloak with a hood to cover the head and neck.
+Sheepskin coat | 8 sp | A heavy coat lined with its own fleece.
+# bakery | bread and pastry | mundane | 1099582065815956722 | house
+Rye loaf | 5 cp | A dense loaf made with rye flour.
+Oatcake | 2 cp | A flat oat cake sturdy enough to pack for travel.
+Honey cake | 4 cp | A dense sweet cake made with honey.
+Butter biscuits | 2 sp | Crumbly biscuits flavored with butter.
+Gingerbread | 6 sp | A spiced sweet baked with ginger.
+Spiced bun | 3 sp | A soft bakery roll scented with warm spices.
+Meat hand pie | 2 sp | A pastry parcel filled with meat and sized to eat without a plate.
+White flour (1 lb) | 3 sp | A pound of sifted wheat flour for bread and pastry.
+Rye flour (1 lb) | 1 sp | A pound of ground rye for dense loaves and cakes.
+Sugarloaf | 2 gp | A hard cone of sugar intended to be chipped into portions.
+# greengrocer | vegetables | mundane | 1099582065815955346 | house
+Onion bunch | 2 cp | Several fresh onions tied together for sale.
+Leek bundle | 2 cp | A tied bundle of leeks sold whole.
+Cabbage head | 2 cp | One firm head of cabbage.
+Dried peas (sack) | 5 cp | A sack of dried peas for soups, stews, and storage.
+Dried beans (sack) | 5 cp | A sack of dry beans for soaking and cooking.
+Turnips (sack) | 2 cp | A sack of turnips for roasting, stewing, or storing.
+Parsnip bundle | 2 cp | Several parsnips bundled together.
+Carrot bunch | 2 cp | A tied bunch of fresh carrots.
+Wild mushrooms (basket) | 1 sp | A basket of foraged mushrooms sold by the greengrocer.
+Rosemary sprigs | 2 cp | Several aromatic rosemary sprigs for cooking or drying.
+Apples (three) | 2 cp | Three apples sold as a small bundle.
+# tavern | drinks | mundane | 1099582065815955321 | house
+Apple cider | 2 cp | A drink pressed from apples.
+Perry | 1 sp | Cider made from pears.
+Mead | 2 sp | A fermented honey drink.
+Herbal infusion | 1 cp | A hot or steeped drink flavored with herbs.
+Fresh milk | 2 cp | Milk sold for immediate use or cooking.
+# tavern | food | mundane | 500321839878299424 | house
+Garlic toast | 4 cp | Toasted bread rubbed or seasoned with garlic.
+Pumpkin and ginger soup | 6 cp | A warm bowl of pumpkin soup seasoned with ginger.
+Grilled boar steak | 3 sp | A cut of boar cooked over the grill and served hot.
+Courgette pie | 1 sp | A savory pastry filled with sliced courgettes.
+Eggs with bacon | 1 sp | Cooked eggs served alongside cured bacon.
+Fried frog legs | 2 sp | Frog legs fried and served as a hot dish.
+Herbed roast trout | 2 sp | A roast trout seasoned with herbs.
+Mushroom and leek pie | 1 sp | A savory pie filled with mushrooms and leeks.
+Spinach tart | 8 cp | An open savory tart filled with spinach.
+Leek and potato soup | 6 cp | A thick soup of cooked leeks and potatoes.
+Lizard and vegetable skewers | 2 sp | Pieces of lizard meat and vegetables threaded together and grilled.
+Sea bream with rice | 3 sp | Cooked sea bream served with a portion of rice.
+# general-store, alchemist | stationery | mundane | 4925880839572821
+Sealing wax | 5 sp
+# general-store, emporium | clothing | mundane | 4925880839572821
+Common robes | 1 gp
+# general-store, emporium | focus | mundane | 753930793917415886
+Censer | 10 gp | A bowl or hanging vessel for burning incense.
+# mask maker | masks | specialty | 948430002766195854 | house
+Barnacle face | 95 gp | Walk across still water for one minute. Each footfall leaves a visible ring even in darkness.
+Barn owl face | 45 gp | Hear a whisper through a single thin partition while both feet remain planted.
+Velvet vapor mask | 150 gp | Once a day, turn to a wisp just long enough to pass through a loose grille. Anything in your hands stays behind.
+Facet visor | 130 gp | See all around for as long as you stand still. Taking a step ends the view.
+Raven throat mask | 60 gp | Repeat one sound you heard since dawn in its original voice. It can be used once per dawn.
+Clockwork mask | 120 gp | Once per dawn, store a natural 1 or 20 you roll. Before the next dawn, a willing creature you touch can take that result for its next d20 roll. It must choose before rolling. The dial then clears.
+# oddities dealer | keepsakes | specialty | 364369426114048487 | house
+Secondhand snow globe | 40 gp | Shows the room where the globe last spent a whole winter. Move it closer to your face to find people in the windows.
+Uncertain egg | 3 gp | The label insists it is a normal egg. Anything incubating it dreams of the creature that laid it.
+Paired sevens | 8 gp | These dice always total seven together. Rolled apart, they behave normally.
+Lined opera cape | 16 gp | A seam holds a paper object left by a former owner. The dealer offers to guess what it is before you open it.
+# emporium | funerary curiosities | specialty | 597360338087989020 | house
+Ghoul-hide mantle | 85 gp | While dry, it makes ghouls mistake your scent for that of a small member of their own kind.
+Grave muster wand | 130 gp | A bone can stand and walk toward the nearest other bone from its skeleton for one minute per dawn.
+Burial index | 150 gp | Newly written names point to graves with a location recorded in the book. Unrecorded burials leave the page blank.
+# herbalist | cave produce | mundane | 591097519830637217 | house
+Zurkhwood plank | 2 sp | Cut from a woody mushroom stem. It weighs less than a plank of oak the same size.
+Barrelstalk | 4 sp | A hollow fungus sold sealed with a wax plug. A fresh one holds a day's water for two travelers.
+Trillimac cap sheet | 1 sp | A dried sheet for wrapping something in a damp cavern.
+Waterorb pad | 2 sp | A soft, spongy fungus for lifting small spills. Wring it out before reuse.
+Ripplebark skewer | 4 cp | Looks unappetizing raw. Roasted, it has the chew of a fresh mushroom.
+Bluecap flour (1 lb) | 2 sp | A blue flour for making bread where grain is scarce.
+# herbalist | cave produce | specialty | 591097519830637217 | house
+Fire lichen strip | 3 gp | Hold it to rock for a minute. The fringe curls toward the warmest point of contact.
+Nightlight stem | 3 gp | It loses its glow when pinched, so a traveler can extinguish it without opening a shutter.
+# alchemist | potion | specialty | 865043040922031311 | house
+Rapid sprouting tonic | 12 gp | Poured over a dormant seed, it makes first growth visible before the end of the scene. It cannot sustain the plant afterward.
+Shrinking cordial | 65 gp | For ten minutes the drinker and their worn gear shrink enough to pass through a gap made for a house cat.
+Fish bait vial | 3 gp | Empty it on the surface and nearby fish gather around the spot for a minute.
+Undecided forecast | 35 gp | Seek counsel about one choice. The drink supplies a sound from one possible outcome without revealing which path made it happen.
+# general-store | tools | mundane | 360147301469947979 | house
+Wooden abacus | 2 sp
+Round spectacles | 3 gp | Round corrective lenses held in a small frame.
+Work apron | 2 sp | A protective apron for a shopkeeper or craftsperson.
+Pocket calendar | 4 sp | A small calendar that fits into a coat pocket or satchel.
+# general-store | travel | mundane | 44965696268678141 | house
+Carved drinking cup | 4 cp | A drinking cup with a carved exterior and a firm grip.
+Reindeer-hide boots | 2 gp | Thick lining keeps out snow at the cost of a bulky fit.
+Pocket stove | 3 gp | A small camp stove that folds into its lid after cooling.
+Arctic tracks handbook | 2 gp | Shows tracks in fresh snow and common changes after a thaw.
+Scrimshaw pendant | 7 sp | An engraved bone or ivory ornament worn on a cord.
+# stables | mounts | mundane | 643522234244343549
+Camel | 50 gp | A pack or riding mount suited to dry routes.
+Elephant | 200 gp | Carries heavy freight on routes that accommodate its size.
+Mastiff | 25 gp | A large dog for guarding loads or carrying small riders.
+# stables | vehicles | mundane | 643522234244343549
+Carriage | 100 gp | Enclosed passenger transport with seating and shelter.
+Chariot | 250 gp | A light, open vehicle for fast travel on level ground.
+# shipwright | boats | mundane | 643522234244343549
+Rowboat | 50 gp | Good for short crossings and bringing a few people ashore.
+Keelboat | 3000 gp | Shallow-draft cargo boat used on rivers and inland waterways.
+Longship | 10000 gp | Oars and a sail let it operate where winds are unreliable.
+Sailing ship | 10000 gp | A wind-driven merchant vessel for cargo and passengers.
+Warship | 25000 gp | A heavier vessel with room for fighters and supplies.
+Galley | 30000 gp | A long vessel with banks of oars for speed independent of the wind.
+# tavern | provisions | mundane | 617345061395342491
+Wedge of hard cheese | 1 sp | A portable piece of firm aged cheese.
+Banquet place setting | 10 gp | A meal for one person at a prepared feast.
+Fine wine (bottle) | 10 gp
+# perfumer | household | mundane | 613263674300216979 | house
+Scented candle | 6 cp | A wax candle that releases fragrance as it burns.
+Scented lamp oil | 4 sp | Burns in an ordinary lamp with a pronounced flower scent.
+Potpourri sachet | 2 sp | A small cloth packet of scented dried flowers and herbs.
+# grocer | pantry | mundane | 613263674300216979 | house
+Mulling spice pouch | 3 sp | A packet of spices for warming in wine, ale, or cider.
+# bakery | pastry | mundane | 613263674300216979 | house
+Fruit cream tart | 1 sp | A pastry shell filled with cream and topped with fruit.
+# blacksmith | household | mundane | 613263674300216979 | house
+Iron candlestick | 4 sp | A weighted iron holder for one candle.
+Brass wind chimes | 5 sp | Suspended brass pieces that ring when moved by the wind.
+# tailor | book and bag fittings | mundane | 613263674300216979 | house
+Leather book jacket | 4 sp | A removable cover sewn to a common size.
+# greengrocer | fruit and vegetables | mundane | 613263674300216991 | house
+Tomatoes (basket) | 3 cp | A small basket of fresh tomatoes.
+Cucumbers (three) | 2 cp | Three cucumbers sold together.
+Courgettes (three) | 3 cp | Three courgettes sold together.
+# grocer | pantry | mundane | 613263674300216991 | house
+Roasted coffee beans | 8 sp | Whole roasted coffee beans sold for grinding and brewing.
+# tailor | cloth | mundane | 613263674300216991 | house
+Unspun wool (bag) | 4 sp | A bag of loose wool ready for spinning or stuffing.
+Felt roll | 5 sp | A rolled length of matted wool cloth.
+Canvas roll | 8 sp | A roll of heavy woven cloth for coverings, sacks, or patching.
+Silk shirt | 2 gp | A lightweight shirt of smooth woven silk.
+# tailor | household | mundane | 613263674300217000 | house
+Linen bedsheet | 4 sp | A plain linen sheet large enough to dress a bed.
+Embroidered pillowcase | 8 sp | A fabric pillow cover decorated with stitched patterns.
+# fishmonger | seafood | mundane | 613263674300217000 | house
+Shrimp skewer | 5 cp | Several shrimp threaded onto a stick for grilling or serving.
+# greengrocer | fruit and vegetables | mundane | 613263674300217000 | house
+Fresh corn (three cobs) | 3 cp | Three fresh ears of corn.
+Mixed peppers (basket) | 5 cp | A basket of peppers in assorted colors and shapes.
+# grocer | pantry | mundane | 613263674300217000 | house
+Maize flour (1 lb) | 4 cp | A pound of finely ground maize for cooking and baking.
+# general-store | household | mundane | 613263674300216972 | house
+Broom | 2 sp | A bundle of stiff sweeping fibers secured to a long handle.
+Pet collar | 3 sp | An adjustable collar sized for a small household animal.
+# tailor | household | mundane | 613263674300216972 | house
+Nightshirt | 4 sp | A loose shirt intended for sleeping.
+# greengrocer | fruit and vegetables | mundane | 613263674300216972 | house
+Citrus basket | 2 sp | A market basket of assorted citrus fruit.
+# jeweler | jewelry | mundane | 613263674300216972 | house
+Shell bead necklace | 3 sp | A necklace strung with polished shell beads.
+# grocer | pantry | mundane | 613263674300216972 | house
+Hazelnut cocoa spread | 1 sp | A sweet spread of ground hazelnuts and cocoa.
+# bookseller | practical books | mundane | 537335799297143479 | house
+Care and Feeding of Familiars | 4 gp | Explains ordinary feeding and rest for common familiar shapes.
+Knots for Big Hands | 2 gp | Includes wide illustrations for ropework in poor light.
+Reading a Trapped Room | 6 gp | Lists everyday clues to spring plates, disguised holes, and worn hinges.
+Trail Plants for City People | 3 gp | Contrasts similar-looking plants using leaf shape, scent, and where they grow.
+An Advocate's Phrasebook | 8 gp | Summarizes common objections and the documents a hearing clerk asks to see.
+Illustrated Harbor Passage | 5 gp | Notes when seasonal winds make common coastal routes unusable.
+# bookseller | fiction | mundane | 288089707405771069 | house
+Dinner with a Mimic | 2 gp | An illustrated farce with an unexpectedly accurate index of habits.
+A History of Dragons and Drakes | 12 gp | Separates named specimens and their habitats from sailors' tales.
+The Dark Below the Old Road | 4 gp | A journal of a descent with notes on where the author turned back.
+# confectioner | sweets | specialty | 845621267542408851
+Spark drops (dozen) | 3 gp | Crackling lights flash at the lips. Different flavors create different colors.
+Grip gum (stick) | 2 gp | Press chewed gum onto two clean hard surfaces. It holds a load until pulled sharply sideways, at which point the gum comes apart.
+Pumpkin language biscuit | 1 gp | For ten minutes, understand the literal meaning of an unfamiliar spoken language. Complex figures of speech still need a speaker to explain them.
+Treble chocolate | 2 gp | For ten minutes the eater can hold a steady note even while moving or climbing.
+# jeweler | jewelry | mundane | 73324300185077527 | house
+Three-generation mourning locket | 14 gp | Three shallow frames fold out. Each takes a replacement portrait without disturbing the others.
+Turned copper ear cuffs | 6 sp | Clip over unpierced ears and come in matched pairs.
+Blue agate worry bead | 4 gp | One side is polished smooth. The other preserves the curve of the raw stone.
+Jet-and-pearl collar clasp | 12 gp | The dark half and the pale half can each serve as a brooch when unhooked.
+Reversible watch chain | 9 gp | A swivel lets the wearer turn an engraved face toward their waistcoat.
+Plain silver witness ring | 5 gp | A broad flat band leaves room for two sets of initials.
+Painted porcelain cameo | 7 gp | The jeweler can replace the miniature from a sitter or an existing sketch.
+Ring sizing ribbon | 2 sp | A paper ribbon marked in local sizes. The jeweler includes one with a commission.
+Stone setting sample board | 8 gp | Shows twelve settings beside uncut stones of the same material.
+Travel jewel roll | 1 gp | Divided suede pockets keep hard stones from scratching softer ones.
+# jeweler | jewelry | specialty | 470978073554083771 | house
+Graduated dowry chain | 18 gp | Each link carries its weight and can be sold at a different counter without cutting the chain.
+Livery pin with blank crest | 3 gp | A removable blank holds the owner's mark. Apprentices borrow them for a ceremony and return the blank.
+Split heir ring | 21 gp | Two distinct rings interlock around a single stone. A buyer can wear either half separately.
+Household jewel ledger | 2 gp | Ruled pages record repairs, weight, design, and changes in ownership.
+# confectioner | sweets | mundane | 714876140846495186 | house
+Blackberry fruit leather | 3 cp | Tart strips rolled in wax paper.
+Hearth caramel bar | 8 cp | A slab of soft caramel with roasted oat crumbs.
+Candied fennel envelope | 2 cp | Tiny sugar-coated seeds served after a heavy meal.
+Orange peel curls | 5 cp | Bitter at first, with crystallized syrup in the creases.
+Pressed flower pastilles | 4 sp | Each box contains a dozen translucent sweets with an edible petal visible inside.
+Broken sweet sack | 2 cp | An affordable paper bag filled from pieces chipped at the counter that day.
+# confectioner | sweets | specialty | 709387378846633372 | house
+Thank-you cake | 4 gp | An inscription written in icing stays legible on every slice, even a slice cut before the message was added.
+Parade jelly star | 1 gp | Break the star into its five points. Each point whistles a different note when the eater breathes out within ten seconds of swallowing it.
+Fog sugar lace | 2 gp | A delicate white sweet stays crisp in dry air and collapses when the party crosses into a noticeably wetter pocket.
+Unmeltable ice bonbon | 3 gp | Snap apart the two halves. For a minute, each half tastes of the food or drink touching its counterpart.
+Barter bakewell | 1 gp | A tart is baked with a second empty shell inside. A buyer can tuck in their own tiny gift before passing it along.
+# grocer | pantry | mundane | 490048003183321322 | house
+Bean flour (1 lb) | 4 cp | Thickens stew and travels well in a dry sack.
+Dried plums (packet) | 3 cp | Enough fruit for two breakfasts.
+Pressed mustard pot | 5 cp | The seller takes back the glazed pot for a copper.
+Sour pickle crock | 3 sp | Eight small cucumbers in brine. Repack them for travel to leave the crock in town.
+Vinegar jug | 1 sp | Pickling vinegar in a stoppered earthenware jug.
+Smoked paprika tin | 4 sp | The tight lid keeps the powder from perfuming the whole pack.
+Shelf cheese wheel | 8 sp | A palm-sized waxed wheel intended for travel.
+Grain sampler | 5 cp | Four handfuls of grain labeled so a buyer can test them before ordering a sack.
+Beeswax bowl covers (set) | 8 cp | Cloth covers seal three different sizes of bowl.
+# perfumer | toiletries | mundane | 490048003183321347 | house
+Rosewater splash | 3 sp | A mild scent that fades in about an hour.
+Dry cedar shaving oil | 6 sp | Sold with a scrap of the same wood so soap and shaving oil can be matched.
+Unscented wash powder | 2 sp | Cleans clothes without leaving a fragrance.
+Perfume blotter pack | 5 cp | Plain paper slips with space to mark which sample is on each.
+Atomizer bulb and bottle | 2 gp | Dispenses a mist from a thin liquid. A spare bulb fits the same neck.
+Citrus hair pomade | 8 sp | Keeps loose hair down under a hat.
+Attar blending kit | 3 gp | Four single-note sample oils plus separate empty bottles for trying combinations.
+# perfumer | toiletries | specialty | 490048003183321347 | house
+First-hour perfume | 5 gp | Changes through three distinct scents over one hour. Patrons at formal evenings sometimes coordinate their visits around the changes.
+Courtship sachets (pair) | 3 gp | Each cloth envelope holds the same scent. The seller will seal a name or small note inside either one.
+# toolwright | hand tools | mundane | 761530618237916403 | house
+Bench vise | 2 gp | Clamps to the side of a sturdy worktable.
+Chalk marking string | 4 sp | Snaps a straight line onto cloth, stone, or timber.
+Thickness gauge | 1 gp | Transfers one measurement to multiple parts without reading a scale.
+Collapsible sawhorse | 2 gp | The legs swing flat for carrying or stacking.
+Pin punches (set) | 1 gp | Drives small pins in or out without widening their holes.
+Awl sleeve | 3 cp | A leather guard keeps a sharp awl from piercing the tool roll.
+Soft vise jaws | 6 sp | Padded inserts grip finished wood or metal without marking it.
+# herbalist | field botanicals | specialty | 885379607972230227 | house
+Sunfold fruit | 2 gp | Its yellow peel opens a thumb's width in full daylight. Explorers set one near a chamber opening to tell whether daylight reaches it.
+Goblet fern tube | 5 sp | The split stalk forms a sturdy channel. Two can be joined to carry a trickle of water across a short gap.
+Ferryvine marker tape | 8 sp | A field cord woven from vine bast. Once wet, its pale stripes are visible against dark or muddy branches.
+Twineleaf splint leaf (pair) | 1 gp | The two leathery leaves stiffen when rubbed together. Fresh leaves conform to a shape before they harden.
+Afterrain sugar stems | 4 sp | The stems have a crisp sweet center. Buy them cut and sealed for the morning market.
+Whitevein fruit peel | 6 sp | This naturally layered peel can be sewn into a glove for handling warm pots. The pale outer surface darkens where it needs replacing.
+Nectar tuning pod | 2 gp | After air flows steadily into the wide end for a minute, the pod hums. Point it the other way and the sound stops.
+# herbalist | field botanicals | mundane | 885379607972230227 | house
+Perforated pollinator hood | 1 gp | Mesh and a stiff brim keep insects out of the wearer's face while they watch a plant from close by.
+Waxed sample envelope (dozen) | 3 sp | The folds close without glue and each holds a handful of dry seeds.
+Hand pollination brush | 2 sp | A soft dry brush in a sliding case keeps samples from touching between plants.
+# grocer | pantry | mundane | 825777281679275065 | house
+Rendered goose fat pot | 4 sp | A lidded pot of cooking fat with a wide mouth for a cold spoon.
+Dried mushroom assortment | 5 sp | Three edible sorts in separate paper sleeves.
+Recipe testing spoons (set) | 2 sp | Five shallow spoons with stamped volumes for scaling a large batch.
+# tavern | hot food | mundane | 825777281679275065 | house
+Roasted onion with barley filling | 3 cp | Served with a spoon and a small jug of broth.
+Split pea hand pie | 5 cp | A baked folded crust with peas and pickled onion.
+Plum-sour braised cabbage | 5 cp | Dark cabbage with dried plums and brown bread.
+Creamed parsnip crocks (two) | 1 sp | Two small hot earthenware bowls meant to be shared.
+# general-store | expedition tools | mundane | 655977502007494662 | house
+Stacking water tins (three) | 2 gp | Three square tins each hold a half gallon. They strap together on a pack frame without rolling.
+Camp water dipper | 3 sp | A long hooked handle can reach inside a barrel and hang on its rim.
+Wet-weather gaiter clips (pair) | 2 sp | Hold gaiters around the boot without a loose cord near the heel.
+Slate route tile | 4 sp | Mark bearings and distances on a hand-sized tile, then wipe it clean for the next leg.
+Weight tags (twenty) | 3 sp | A waxed fold covers a dry square for writing a pack weight.
+Heat shield sleeve | 5 sp | A stiff insulating sleeve keeps the side of a hot pot from touching its carrying strap.
+Tent seam brush | 1 sp | Pushes dust out of a fold before it can abrade stitched fabric.
+Caravan muster ribbon | 2 sp | Long ribbon with hand loops for keeping a caravan together in poor visibility.
+Shoulder sun flap | 4 sp | Clips to either side of a hat to shade the neck when walking across open ground.
+Canvas shade sling | 9 sp | Four loops and a shallow cut let a pair of travelers pitch shade without using a whole tent.
+Tin fuel funnel | 1 sp | A narrow spout fits a lamp filler, and a hook holds the loose cap while you pour.
+Heavy lantern collar | 5 sp | Rotates around an open oil lamp to block a draft on one side while leaving the rest exposed.
+# general-store | expedition tools | specialty | 835488168419982218 | house
+Memory soot lantern | 26 gp | A pale outline remains in its beam for one hour after it returns to full brightness. It matches the last object to fully block the opening.
+Plan-reader lamp | 38 gp | On a correctly scaled plan of a real building, its flame winks at added or relocated doors. It indicates a renovation and leaves the current location for the party to find.
+# toolwright | surveying supplies | mundane | 852587773230608087 | house
+Plane table | 7 gp | A leveled board with a rotating sight for plotting bearings in the field.
+River sounding pole | 1 gp | Marked at one-foot intervals. Its flat disk touches silt without immediately sinking through it.
+Garden staff level | 3 gp | Sight through the level tube while two other people hold staffs on the marks. Compare the height where the line crosses each staff.
+Survey chain repair links (six) | 4 sp | Each tempered link is marked to match a standard chain interval.
+Offset rod flags (bundle) | 2 sp | Color flags identify corners a surveyor measured indirectly.
+# oddities dealer | contracts and curios | specialty | 810929476645124507 | house
+Cloakroom countertoken | 11 gp | Divide it in two before leaving one with an attendant. Neither half may be sold or traded while the other remains in that attendant's keeping.
+Shabby border frame | 19 gp | Insert a paper drawing. While it stays there, copies slipped into other frames hang flat without backing, pins, or glue.
+Credit chalk and slate | 22 gp | Choose two willing people. When one awards the other a written tally on the slate, the same number is marked on the recipient's chalk stub. Washing the slate ends the agreement.
+Handbell for an empty chair | 28 gp | Ring beside a chair and the bell repeats its tone when a living creature first sits there within the next hour. If the chair remains empty the bell stays quiet.
+Seasonal coat hanger | 14 gp | After a coat hangs here for a day, the tag writes the month when it was hung. It updates each time the same coat is hung again.
+Thread of opposite seams | 17 gp | Split the length in half, sew a seam with each half, then tug one free. The other seam loosens at the same time. Useful for temporary fitting and stage clothes.
+Quiet-check door wedge | 18 gp | Push under an open door. It stays wedged until its owner speaks at their normal volume within the same room.
+# toolwright | inspection tools | mundane | 810929476645124247 | house
+Corner sighting prism | 3 gp | The narrow housing fits in a half-open door and shows what's around the jamb.
+Shallow print tray | 5 sp | A tray of damp fine sand takes an imprint from a suspect shoe for comparison with tracks.
+Measuring slate with string holes | 7 sp | Draw the room on the slate and knot each measurement cord through the hole marked for its wall. The cords keep their order when you move the slate.
+Letter unfolding spatula | 4 sp | A thin dull blade helps separate creases and folded edges on damaged paper.
+Small object sample rig | 8 sp | Holds a sample near the edge of a table for testing under different angles of light.
+# bookseller | practical books | mundane | 830491987581720185 | house
+Directing a Witness | 4 gp | A clerk's handbook with diagrams for placing observers where they can reconstruct the same event.
+Letters of the Undertakers' Guild | 3 gp | A collection of replies to common disputes over burial, ashes, transport, and family records.
+Street Histories for New Apprentices | 3 gp | Short maps show where trade halls stood before their names moved to different buildings.
+Small Doors and Narrow Halls | 4 gp | A carpenter's sample book compares passage widths with familiar household objects.
+# tattooist | studio stock | mundane | 333407178648311104 | house
+Transfer paper folio | 7 sp | Holds twenty designs drawn in reverse for placing against skin.
+Linseed tracing board | 3 gp | A pale panel makes faint lines visible with a lamp behind it.
+Ink well holder strip | 4 sp | A weighted strip keeps six open ink cups in reach without tipping.
+Pigment swatch booklet | 8 sp | Includes the fresh and healed appearance of twelve inks on painted paper samples.
+Soft aftercare wrap | 2 sp | A washable cloth band with a loose weave and flat fastener.
+Travel stencil tube | 5 sp | Spring clips hold several tacky transfer sheets under light tension so the sheets never touch in transit.
+Studio arm rest | 1 gp | A padded rest wedges in the gap between chair and table.
+# tattooist | wearable magic | specialty | 81627811988950958 | house
+Tally dots | 18 gp | Tap one of five dots in sequence to darken it. A long press on the first dot clears all five.
+Migrant swallow tattoo | 25 gp | The swallow shifts between two fixed positions each day. The artist sets both positions and the time of the shift when applying it.
+Wrist audience line | 32 gp | A set of three bars appears on the wrist while the wearer holds up a hand. The wearer can choose which bars to show. Lowering the hand conceals them.
+Anchor patch tattoo | 38 gp | Touch a clean cloth to the fresh mark to copy its outline once. Compare that outline to the skin later to check whether the tattoo stretched during a transformation.
+Countermark tattoo | 60 gp | Adds a second matching pattern when two willing bearers press their marks together for a minute. The second pattern lasts until dawn.
+Blank appointment oval | 36 gp | A recipient can press a handwritten appointment slip against the oval to move the entry onto their skin. A second slip replaces it, and soap clears the oval.
+Fitting stripe tattoo | 20 gp | The stripe appears at its usual length whenever the wearer straightens their arm. Hours later they can use the same line to verify a copied measurement.
+Tin chorus mark | 32 gp | One tap on the mark makes empty cups that touch the same wood tabletop ring softly. Activate it once before dawn.
+Shadow length notch | 42 gp | A notch inside the mark records the length of the wearer's shadow when tapped. The next tap erases and replaces the record.
+# tailor | marking and repair | mundane | 333407178648311100 | house
+Garment position diagram | 5 sp | A thin template marks sleeve lengths and hem lines before cloth is cut.
+Adjustable cuff bands (pair) | 4 sp | Hold sleeves in place for a fitting without stitches.
+Flat seam press | 9 sp | A hard-edged wooden block holds flattened fabric while the tailor works the next crease.
+# pawnbroker | secondhand equipment | mundane | 453808099953281067 | house
+Used rolltop document case | 5 sp | The clasp needs two hands. A replacement flap keeps papers dry in light rain.
+Refinished writing slope | 2 gp | A scratched hinged board props up on a set of pegs and fits onto a lap.
+Repaired leather apron | 6 sp | The pockets face sideways. One shows where its old owner kept a burnisher.
+Secondhand stage cloak | 5 sp | Two contrasting linings can be pulled out to show at a cue.
+Bent seam ruler | 2 sp | A fixed curve is convenient for tracing the same rounded shape many times.
+Lot of mismatched door handles | 6 sp | Five used handles in a sack with their original square spindles.
+Patched courier pannier | 5 sp | A split side pocket has been stitched shut. The inside is still deep enough for two rolled maps.
+Rebored tin drinking mug | 1 sp | The handle was moved for a left-handed buyer. Old mounting holes are plugged.
+Cobbled folding seat | 8 sp | Replaced hinges keep the seat upright. The legs have two different splay angles and each foot is numbered.
+# pawnbroker | secondhand magic | specialty | 865043040937316276 | house
+Cinch purse | 17 gp | Open the purse and add coins. Closing it moves the new coins into a separate inner pocket. You may remove that batch the next time you open it. Unremoved coins join the main pile when you shut it again.
+Backstamp book press | 30 gp | Press one volume without opening its cover to get an impression of the binder's most recent mark from inside the spine.
+Secondhand theater hood | 19 gp | Anyone wearing it can hear a person breathing behind a cloth curtain within arm's reach. Solid walls and doors block the effect.
+Debtwitness seal box | 31 gp | Press one document against the bottom to record its outline and total number of seals. The next document can be checked against both. The box displays no words.
+Margin bridge bookmark | 33 gp | Put one end in each of two copies of the same book. A pencil mark written over one end transfers to the other margin once, even when one edition has different page numbers.
+# chandler | lamp and candle supplies | mundane | 725079608743373094 | house
+Cotton wick braid (yard) | 4 cp | Wide flat braid fits a standard bench lamp.
+Lamp snuffer sleeve | 2 sp | A small hinged cap covers an unlit wick to keep soot off the other contents of a pack.
+Bracket drip tray | 6 sp | Hooks under a wall bracket and slides out for cleaning without moving the candle.
+Wick threading hook | 1 sp | Passes a replacement wick through a narrow burner neck.
+Travel candle tube | 5 sp | A long cap covers a candle so it can be carried beside clothing.
+Floating wick disks (four) | 3 sp | Each holds a short wick at the surface of a little bowl of oil.
+Colored bulb sleeve | 4 sp | A colored glass jacket slips around an enclosed lantern. Signalers can swap sleeves without changing the flame.
+# chandler | lamp and candle supplies | specialty | 865043040942702656 | house
+Pace-marked wick | 4 gp | Touch the wick before walking. It burns through one stripe for every hundred paces you take while the candle remains lit.
+Dovetail tapers (pair) | 7 gp | If the two flames come within a handbreadth, one extinguishes and the other doubles in height until the candles are separated.
+Sightline wax pellets (pair) | 2 gp | Stick one pellet at a destination within a hundred paces. The other softens when pressed to a lit directional lantern that points directly at its mate.
+Window candle for an agreed hour | 6 gp | When lit, the candle sheds ordinary light indoors. From outdoors its light is visible through one chosen window only during the hour set when the candle was made, such as the first hour after dusk.
+# stables | tack | mundane | 1093952565776886000 | house
+Soft fence flag set | 5 sp | Pale strips mark a temporary enclosure without a low wire.
+Brushes for long and short winter coats | 6 sp | Two brushes have different bristle lengths and distinct handles.
+Split-rope turnout lead | 4 sp | A forked last length attaches on both sides of a halter to spread pressure.
+Horn fitting gauge | 7 sp | A curved measuring stick records taper without grasping the horn itself.
+Dew catch for a feed rack | 8 sp | A shallow slanted cover keeps condensation out of a salt or feed bin.
+# alchemist | cold handling | specialty | 1093952565776887763 | house
+Two-sided thaw patch | 12 gp | Warms a cup placed on one side while icing a cup placed on the other. Peeling off the mark ends both effects.
+Drip clock flask | 7 gp | Fill to the mark and hang in a cold room. A magical latch shuts at the first freeze and holds the reading even if the flask thaws. The level records how long the room stayed above freezing. Reset by removing the stopper.
+Frost receipt film | 14 gp | Press the film over a frosted surface. For one watch it holds an outline of any frost removed in the past hour.
+# shipwright | coastal craft | mundane | 1093952565776888181 | house
+Bailing scoop with deck hook | 5 sp | A bent lip rests its handle over a rail so the scoop stays easy to reach.
+Waxed whipping thread (four spools) | 4 sp | Four thicknesses of thread for binding the ends of cut ropes.
+Tide reading slip board | 6 sp | A float leaves a drawn maximum water level on a replaceable paper slip.
+Reversible bilge mat | 2 gp | A slatted mat catches loose cargo on one side and sits above shallow water on the other.
+Stern mooring pad | 7 sp | A leather pad straps to a rope where it rubs over the back of a boat.
+# shipwright | coastal craft | specialty | 1093952565776888181 | house
+Harbor favor chalk | 18 gp | Mark an agreed dock post. Anyone who watched you make the mark can later find that post in dim light. Scrubbing the chalk off ends the effect.
+Two-color shoal spool | 14 gp | One shade shows on dry line and a second shade appears on sections dipped in salt water. The mark stays after drying until washed with clear water.
+Canted water jar | 18 gp | Its ceramic foot rights itself to stand on a tilting bench while the jar is half full or less.
+# toolwright | service tools | mundane | 233624299420612425 | house
+Leather-padded coil hook | 4 sp | Fits into the corner of a tool cart to hold a cable or hose above the wheels.
+Calibrated scale weights | 2 gp | Spare weights from one ounce to one pound, stamped to verify a scale with a known load.
+Drawknife saddle | 6 sp | Light clamping board catches a workpiece against a bench while a drawknife is pulled.
+Narrow latch shim set | 2 sp | Thin wood shims lift a sagging door to sort out the position of a catch during fitting.
+Ledger ruling straightedge | 3 sp | Built-in stops help a clerk draw the same table on the next piece of paper.
+Removable bench apron rail | 4 sp | Hooks into two bench holes to move a hanging tool apron from one workbench to another.
+# fishmonger | cold-water catch | mundane | 379146862385411548 | house
+Flailfish pair | 6 sp | A mild white fish. The stallholder sells pairs for cooks who want two equal portions.
+Mackerel icefish slab | 5 sp | Firm meat packed in coarse snow. The vendor can cut it into narrow steaks on request.
+Twohorn sculpin belly | 4 sp | A small cut sold for simmering with root vegetables.
+Northern squid mantle | 9 sp | A cleaned cut for thin strips or stuffing.
+Northern squid ink pot | 5 sp | Dark cooking ink. This pot comes with enough for a large batch of dough.
+Lantern fish basket | 8 sp | A shallow basket of small fresh fish. Sold by the basket during the short surface run.
+# fishmonger | river and estuary catch | mundane | 613193305512531226 | house
+Nelma fillet | 5 sp | One fillet of brackish-water whitefish, sold skin on.
+Brown bream string | 4 sp | Five small bony fish for stock and pickling.
+Grilled spotted eelpout | 5 sp | A whole fish split open and grilled with a sour glaze.
+Dried smelt pouch | 4 sp | A handful of thin preserved fish. Good for a trail snack or bait.
+Northern pike steaks | 7 sp | Each paper packet holds two large cuts and a bag for the bones.
+Cold-run salmon collar | 3 sp | A fatty cut sold with the bones intact for cooking over coals.
+# fishmonger | preserved seafood | mundane | 821484788316112567 | house
+Vinegar mussel jar | 6 sp | Mussels packed in sour vinegar and peppercorns.
+Dried scallop fan | 7 sp | Four scallops wrapped separately to keep them from sticking.
+Skate stock block | 5 sp | A compressed block flavored with skate and browned onion. Dissolve it in a pot of hot water.
+Rendered fish fat tin | 3 sp | A salty cooking fat in a small tin with a broad lip.
+# fishmonger | fishing goods | mundane | 334603447337394122 | house
+Cloth hook guard | 1 sp | A sewn guard folds around a baited hook between casts.
+Creel divider | 3 sp | Keeps bait and catch in separate parts of one basket.
+Fishing floats (six) | 5 sp | A mix of narrow and broad cork shapes for still or moving water.
+Net drying pins (bundle) | 3 sp | Hardwood clips hold a wet net up during a wash without pinching through the mesh.
+Wading staff grip | 2 sp | A slotted grip slides halfway down a staff to help lean into the current.
+Ice-hole marker ring | 4 sp | A bright open ring surrounds an old hole. Its short upright remains visible after a light snowfall.
+# shipwright | working deck | mundane | 865043040946874569 | house
+Deck creel rack | 1 gp | A board with pegs and a drain slot holds fish baskets off the deck.
+Recessed sounding cup | 8 sp | A small sample cup rides flush in the base of a sounding weight.
+Deck tally sliders | 6 sp | Ten painted beads run on a wire fixed to the rail for counting baskets as they come aboard.
+# stables | companion supplies | mundane | 692428511449800748 | house
+Shallow sea-pet basin | 8 sp | A glazed basin fits in a larger box so it can be carried level.
+Mast perch | 6 sp | A wide lightweight perch straps beneath a horizontal spar. The end bends if bumped by a sail.
+Crab hamper with double lid | 1 gp | An inner slatted grate can stay shut while the outer lid is left open to feed a crab.
+# tailor | festival clothing | mundane | 536209899395790558 | house
+Hem weights (packet) | 3 sp | Small weights slide into cloth pockets to stop a short flag or skirt from fluttering.
+Two-color parade sash | 5 sp | Each side is one solid color so a marshal can signal a change by turning it over.
+Festival spindle ribbon | 2 sp | A pre-cut ribbon with reinforced ends for tying to a portable frame.
+Volunteer number panel | 2 sp | A broad patch stitches onto a costume from the inside and can be removed afterward.
+Unbleached dancer's gloves | 4 sp | Thin, pale gloves with grippy cloth across the palm.
+Laced shoulder guard | 7 sp | Padded fabric spreads the load from a pole during a long procession.
+# bakery | festival orders | mundane | 1055531231393351576 | house
+Pull-apart saffron ring | 4 sp | A circle of joined buns with scored separations.
+Milled oat griddle cakes (six) | 6 cp | Thin cakes sold still warm and wrapped together with paper dividers.
+Apricot hand tart | 4 cp | Small folded pastry with an apricot center and a firm seam.
+Pressed barley loaf | 8 cp | Baked in a rectangular mold for even slices that pack flat.
+Glazed chestnut roll | 5 cp | A dark bread roll with chopped chestnut and a gloss of sugar.
+Minted curd pocket | 5 cp | A warm pastry sealed around fresh curds and chopped mint.
+# instrument maker | performance supplies | mundane | 308074430764474663 | house
+Wooden practice clappers | 4 sp | Two palm-sized boards for marking time without tuning an instrument.
+Weighted music clip | 3 sp | A heavy clip holds open a music leaf outdoors.
+Spare lute peg | 5 sp | Rough-shaped hardwood with room for the buyer to fit the taper.
+Tuning hammer | 7 sp | The shallow square socket grips a common zither or hammered-dulcimer peg.
+Accordion-fold music stand | 1 gp | A wooden stand collapses into a narrow bundle between two leather straps.
+Throat-rest mouthpiece | 6 sp | A broad-lipped replacement cup for a short lip-blown horn.
+Mute wedge for a stage drum | 3 sp | A soft wedge slides under a drumhead to take out a sharp ring in a small room.
+Stage chime chain | 8 sp | Three metal bars hang at different lengths and sound across a hall.
+# instrument maker | performance supplies | specialty | 308074430764474663 | house
+Five-tap counting baton | 12 gp | The first four taps sound only to the holder. The fifth sounds aloud and resets the count.
+Glowing cue card | 18 gp | Draw up to three cue symbols. Touch one to make it glow for a minute.
+Room-tone tuning fork | 22 gp | Strike it and hold it still to hear the strongest resonant pitch in the room. It makes no reading outdoors.
+# scribe | drafting supplies | mundane | 1028439264925592695 | house
+Witness signature ladder | 4 sp | A narrow ruler guides people to the next blank line when many names belong on one sheet.
+Page pricking wheel | 6 sp | A small wheel marks repeatable margins and fold locations without applying ink.
+Translucent plan folio | 2 gp | Thin sheets take dark linework and can be overlaid for comparison.
+Binding thread bobbin | 2 sp | Strong, smooth cotton thread to rebind a small book.
+Turnover copying board | 8 sp | A hinged lower edge props a page up while leaving both hands free.
+Quire tally clips (six) | 5 sp | Removable grips count sets of pages without folding them.
+Margin knife with guard | 7 sp | A blunt guide edge holds the page above the cut while a narrow blade removes a margin.
+Leaf size sampler | 3 sp | Nested paper cutouts let a buyer compare sizes before ordering a bundle.
+# scribe | practical scrolls | specialty | 1104437508645483682 | house
+Scroll of a Silent Appointment | 28 gp | Write two times and places on the sheet. Two willing readers learn silently and at the same time which appointment their shared ward can admit them to. The ink vanishes once that time passes.
+Scroll of the Walked Boundary | 34 gp | Read it and walk the loop it describes continuously. The paper draws each spot where the named fence, shore, or road diverges from your path. The next rain destroys the new marks.
+Scroll of Brief Magnitude | 22 gp | Speak the name of one object you can touch. It projects a one-minute scale drawing of the longest edge, even if the far end is hidden. Afterward the sheet burns away harmlessly.
+Scroll of a Patient Reply | 38 gp | Read it to give one willing recipient time to write an answer on it. Until the recipient writes, the sheet shows exactly when they agreed to answer. The inscription ends at the next sunrise.
+Scroll of Common Ground | 42 gp | Two willing people read three proposed terms aloud while touching the page. It underlines the terms they both intend to honor as worded. The underlines fade as soon as either leaves.
+Scroll of One Decisive Amendment | 45 gp | Hold it behind a document that has been edited at least once and read. The most recent deliberate alteration is highlighted for ten seconds. An entire replacement page counts as one alteration.
+# emporium | workshop supplies | mundane | 1104437508645483682 | house
+Adjustable shelf index strips | 4 sp | Short tags slide into one long rail to mark the current contents of a shared shelf.
+Marked shelf stop | 6 sp | A tapered wooden block records how far a delicate jar can sit forward without touching a closing door.
+Floor key rest | 7 sp | A cast stand catches a long key above table height so someone can compare cut depths hands-free.
+Crucible sling | 9 sp | A loose metal cradle lets two people walk a cool crucible down stairs without tilting it.
+# stables | large creature care | mundane | 1104437508645622480 | house
+Jointed scale brush | 2 gp | Broad removable bristles along three flexible sections reach around a large animal's joints.
+Heat-tolerant nesting cup | 2 gp | An open ceramic liner separates a small hot egg from combustible packing.
+Long watering gutter | 1 gp | Thin flat-bottom trough fits into a narrow enclosure without taking up the whole entrance.
+Slate brood marker | 5 sp | A short foot stands on rough ground and the chalk face records the last turning.
+# potter | kitchenware | mundane | 657666351865543612 | house
+Handled soup cup | 4 cp | Holds one serving and can be passed safely while warm.
+Lidded stew pot | 5 sp | A notch in the lid leaves room for a spoon handle.
+Fermentation jar with weight | 1 gp | A flat ceramic disk holds vegetables below the brine.
+Glazed dough trough | 8 sp | Wide walls support folding dough on a low bench.
+Pie vent bird | 3 sp | The hollow bird lets steam through a covered pie while it bakes.
+Heatproof bean pot | 6 sp | A rounded shoulder and narrow mouth fit a recessed oven.
+Nested storage crocks (three) | 8 sp | Interchangeable lids fit three different depths.
+Double-mouth serving pitcher | 4 sp | A wide lip pours from either side while the server holds the center handle.
+# potter | fittings and repairs | mundane | 657666351865543691 | house
+Pattern roller for wet clay | 5 sp | A repeatable leaf shape helps a buyer match decorative tiles.
+Rain spout tile | 4 sp | A shallow half-pipe diverts drips away from a doorstep.
+Replacement oven brick | 6 sp | Sold with the shape and kiln mark written on its wrapping.
+Pull-out stove shelf | 1 gp | A short ceramic rack can be withdrawn with a gloved hand.
+Hanging seed pan | 4 sp | Tiny holes drain water and keep seeds visible while starting.
+Pegged lid blank | 2 sp | Unfinished top with a peg to grip while fitting it to an old pot.
+# grocer | ready food | mundane | 865043040937571892 | house
+Lemon barley cup | 3 cp | Warm barley with a little sour juice and chopped chives.
+Herb and white bean mash | 3 cp | A spoonable serving of beans with oil and thyme.
+Mushroom and chestnut skewer | 5 cp | Cooked chestnuts separate the mushrooms for an even char.
+Butter-braised leeks | 4 cp | Soft leeks served cold in a shallow plate with a bread end.
+Pear and sorrel relish jar | 2 sp | A sweet-sour preserve for a cheese or meat plate.
+Lightly pickled shallot string | 8 cp | The soaked shallots are sold in a tight bundle.
+# oddities dealer | small household magic | specialty | 728175833477413139 | house
+Airing peg | 8 gp | Fasten it to wet fabric and it rings once when that fold is dry all the way through. It dries nothing by itself.
+Paired dish rests | 14 gp | Put two matching vessels on the ceramic rests. They tap once if the amounts of liquid become equal. Lifting either vessel resets them.
+Sill marker charm | 21 gp | Mark a window latch and hold the charm. It makes the sound of the latch if the window opens before dawn within the same building.
+Receipt bowl of first choice | 17 gp | Have one willing participant put three folded price slips into the bowl one at a time. When someone stirs them, the first slip that went in rises to the top.
+Stretchable cloth hanger | 12 gp | Two arms extend just far enough to support the shoulders of an ordinary garment, then retract when it is lifted.
+Dishcloth of clear water | 9 gp | Wring the cloth over a basin. The first liquid it absorbed since it last dried falls separately from whatever it absorbed later.
+# potter | small household magic | specialty | 810155420480885373 | house
+Tile of two temperatures | 15 gp | Two small piles of dust in its wells swap places whenever the left well becomes warmer than the right. Reset by brushing both clear.
+Delivery crock with a witness groove | 18 gp | Press a fresh seal into its groove. Until the lid is removed, the groove preserves the last shape it touched even if the seal breaks in transit.
+Work bowl with a level line | 16 gp | A blue ring stays at the level of the liquid poured into the bowl. After a quick tilt, it stays at the last settled level for ten breaths.
+# pawnbroker | pocket tools | mundane | 1021613496750422587 | house
+Corner crease clip | 3 cp | Closes on two folded pages without piercing either one.
+Number stencil strip | 2 sp | The ten decimal digits perforated in a thin strip of horn.
+Keyhole label plate | 1 sp | A small brass frame shows a removable address slip beside a lock.
+Mesh coin strainer | 4 sp | Screens dirt and coarse grit from coins and small fittings.
+Coin rubbing sleeve | 2 sp | Holds a single copper piece still while a buyer rubs its face onto paper.
+Clothesline gauge | 3 sp | Two folding legs show how much clearance a sagging line will leave above a low fence.
+Pocket paper level | 1 sp | A folded paper triangle with thread and bead gives a rough level on furniture.
+Folded chalk tray | 2 sp | A pair of leather flaps catch chalk dust and open to empty it.
+Temporary hinge pin | 4 sp | A stepped peg covers three common diameters for test-hanging a door.
+# oddities dealer | pocket curios | specialty | 1021613496750422587 | house
+Opinion pebble | 12 gp | Pass it around once among people who agree to answer a yes-or-no question. It counts each consenting holder’s first spoken yes or no and shows only the total number of yes votes. Silence does not affect the total.
+Sheet of first folds | 14 gp | Place it under an already folded letter, then unfold the letter over it. The sheet keeps a diagram of the creases with the oldest fold marked.
+Counterweight clasp | 16 gp | Clasp it to both ends of a strap. The ends feel equally heavy in your hands. The heavier side can still pull the strap and whatever it carries off balance.
+Doorstep tally tile | 19 gp | Set it on a single step. For one day its chalk mark rises by one each time someone lifts the tile. It cannot count creatures that step around it.
+# artificer | workshop stock | mundane | 444941638209698803 | house
+Spare cog blanks (six) | 7 sp | Uncut circular blanks match common small axle sizes.
+Gear tooth gauge | 9 sp | A set of ridged edges matches standard tooth spacing before a replacement is cut.
+Screw sorting strip | 3 sp | Slotted card holds small screws in removal order without needing separate dishes.
+Flexible mirror stalk | 2 gp | A very small polished disk on a bendable stem shows the back of a gear housing.
+# artificer | small workshop magic | specialty | 130393351703827106 | house
+Tare washer | 19 gp | Place it on the loaded pan of an ordinary balance beside an empty container and tap it once. It cancels its own weight and the weight of that container until it is lifted, so the balance measures anything added afterward.
+Pivot proof pin | 24 gp | Slide the pin through two adjacent threaded parts. It turns amber if they are assembled with opposing threads. It does not reveal how to remove either part.
+# pawnbroker | secondhand magic | specialty | 444941638209698801 | house
+Trial-fit price tag | 13 gp | Attach it to an assembled sample. For one watch, the tag turns clear if the sample is taken apart and shows an outline of the first piece removed.
+Deadline-release clip | 21 gp | Agree on an hour with a second person. Attach the clip to the flap of a document wallet. After that hour, the clip opens for either participant. Before then, both must hold it.
+
+# general-store | exploration | mundane | original | house
+Sounding bobbin | 8 sp | A weighted spool with color bands every five feet for measuring depth without committing a long rope.
+Chalk trace wallet | 4 sp | Stiff sleeves keep four labeled rubbings apart and catch the dust from friable marks.
+Draft threads | 2 sp | Six short lengths of contrasting silk on clay tabs for reading weak airflow around a frame.
+Wedge pair with pull tabs | 5 sp | Two shallow hardwood wedges can be withdrawn from the safe side by their cloth loops.
+
+# blacksmith | hardware | mundane | original | house
+Clamp-on step | 18 gp | A folding foothold clamps to a stout square rail when a ladder needs its last rung replaced.
+Load-sharing clevis | 11 gp | A yoke aligns two pull lines so a crew can split a load without a line dragging at an angle.
+Quiet rivet sleeves | 9 sp | Leather-lined collars quiet loose fittings long enough to test which one is knocking.
+Hand-crank socket | 3 gp | A replaceable square socket fits a short lever when a worn wooden crank splits.
+
+# stables | tack | mundane | original | house
+Saddlebag divider set | 7 sp | Stiff dividers keep tools from shifting under a fragile load and unlatch without removing the bag.
+Pannier rain cuff | 6 sp | An oiled flap keeps rain out when a pannier lid must stay open around a tall bundle.
+Cushioned tracing pad | 1 gp | A washable pad collects pressure marks on soft chalk so a harness can be adjusted before the next day's ride.
+Harness keeper tabs | 8 sp | Numbered leather tabs hold buckle settings while a team changes harnesses or trades animals.
+
+# alchemist | supplies | mundane | original | house
+Humidity witness slips | 1 gp | Marked paper curls when stored goods have sat in damp air long enough to warrant checking the seal.
+Seal sample envelope | 5 sp | A rigid split envelope holds the two halves of a broken wax seal without letting the edges rub together.
+Color shift tiles | 6 sp | A set of glazed tiles gives a stable comparison when an ink or dye changes as it dries.
+Settling jar with side spout | 2 gp | Draw clear liquid above the sediment without tipping the jar or clouding a sample again.
+
+# tailor | workwear | mundane | original | house
+Shift-change armband set | 9 sp | Three washable bands can mark an agreed duty or signal whose watch is next without a badge.
+Quick-release shoulder cape | 16 sp | Its stitched loop can be pulled free if a worker catches the hem in a moving door.
+Turned-cuff tool wrap | 1 gp | A rolled cloth keeps picks and small measures separate and lays flat for a count in poor light.
+Splinter apron | 13 sp | Dense felt along the pockets catches stray wood chips before they work into a worker's cuffs.
+
+# oddities dealer | curiosities | specialty | original | house
+Bell with two clappers | 14 gp | Either clapper can be pinned independently, making two recognizable signals with the same bell.
+Borrowed-key gauge | 9 gp | A loose scale and small clamps preserve a key's profile for comparison while leaving the key usable.
+Tally floats | 7 gp | Small numbered corks mark which containers drifted through a sluice or crossed a flood channel.
+Counterweight cage | 22 gp | An iron basket with marked slots holds test weights while a crew adjusts a stubborn pulley.
+
+# general-store | containers | mundane | 5etools:phb | source
+Basket | 4 sp | Open carry basket for produce, pottery, or loose supplies.
+Bucket | 5 cp | Useful for drawing water, bailing, or carrying rubble.
+Iron Pot | 2 gp | Camp cookware for a group meal.
+Pitcher | 2 cp | A wide-mouthed serving vessel.
+
+# general-store, toolwright | hardware | mundane | 5etools:phb | source
+Grappling Hook | 2 gp | Rig a line for a climb or haul.
+Ladder (10-foot) | 1 sp | Fixed-length ladder for roofs and short drops.
+
+# general-store, fishmonger | travel | mundane | 5etools:phb | source
+Fishing Tackle | 1 gp | A kit for catching a meal where fishing is possible.
+
+# general-store | travel | mundane | 5etools:phb | source
+Burglar's Pack | 16 gp | Ready-packed supplies for a break-in. Check the source for contents.
+Entertainer's Pack | 40 gp | Ready-packed equipment for a traveling performer.
+Priest's Pack | 19 gp | Field supplies for a traveling priest.
+Silk Rope (50 feet) | 10 gp | A lighter alternative to the store's hemp rope.
+Soap | 2 cp | A bar for cleaning hands, clothing, or gear.
+Traveler's Clothes | 2 gp | A durable traveling outfit.
+
+# general-store, emporium | supplies | mundane | 5etools:phb | source
+Component Pouch | 25 gp | Holds ordinary spell components. Buy specific components separately when a spell calls for them.
+
+# scribe | writing supplies | mundane | 5etools:phb | source
+Calligrapher's Supplies | 10 gp | Tools for professional lettering and inscription.
+Paper (one sheet) | 2 sp | A sheet for letters or notes.
+
+# toolwright | tools | mundane | 5etools:phb | source
+Disguise Kit | 25 gp | Supplies for changing a person's outward appearance.
+Forgery Kit | 15 gp | Tools for producing convincing credentials and documents.
+Thieves' Tools | 25 gp | Fine tools for locks and mechanical traps.
+
+# herbalist | tools | mundane | 5etools:phb | source
+Herbalism Kit | 5 gp | Kit for identifying and preparing medicinal plants.
+
+# alchemist | tools | mundane | 5etools:phb | source
+Poisoner's Kit | 50 gp | Tools for handling fictional toxins in an alchemy scene.
+
+# shipwright, toolwright | tools | mundane | 5etools:phb | source
+Navigator's Tools | 25 gp | Equipment for finding a course and tracking position.
+
+# shipwright, instrument maker | travel | mundane | 5etools:phb | source
+Spyglass | 1000 gp | Study an object, shoreline, or sail from a distance.
+
+# stables | services | mundane | 5etools:phb | source
+Stabling (per day) | 5 sp | A night's berth and care for one mount.
+
+# butcher, grocer | livestock | mundane | 5etools:phb | source
+Cow | 10 gp | One live cow.
+Goat | 1 gp | One live goat for a household or homestead.
+Pig | 3 gp | One live pig.
+
+# stables | livestock | mundane | 5etools:phb | source
+Ox | 15 gp | A draft animal for heavy loads.
+
+# grocer | spices | mundane | 5etools:phb | source
+Cinnamon | 2 gp | Sold by the pound.
+Cloves | 3 gp | Sold by the pound.
+Ginger | 1 gp | Sold by the pound.
+Pepper | 2 gp | Sold by the pound.
+Saffron | 15 gp | Sold by the pound.
+
+# tailor | cloth | mundane | 5etools:phb | source
+Canvas (1 sq. yd.) | 1 sp | Heavy cloth for bags, awnings, and sail repairs.
+Cotton Cloth (1 sq. yd.) | 5 sp | Light cloth for garments and linings.
+Linen (1 sq. yd.) | 5 gp | Cloth for shirts, household linens, and warm-weather layers.
+Silk (1 sq. yd.) | 10 gp | Fine cloth for dressmaking and decorative work.
+
+# blacksmith | weapons | mundane | 5etools:phb | source
+Hand Crossbow | 75 gp | A compact crossbow that fires one-handed and needs a free hand to reload.
+Light Hammer | 2 gp | A small purpose-built throwing weapon.
+
+# blacksmith, general-store | hardware | mundane | 5etools:phb | source
+Crossbow Bolt Case | 1 gp | Holds crossbow ammunition separately from an arrow quiver.
+
+# instrument maker | instruments | mundane | 5etools:phb | source
+Bagpipes | 30 gp | Suited to marching and performances outdoors.
+Viol | 30 gp | A bowed instrument sold with its bow.
+
+# tavern | games | mundane | 5etools:phb | source
+Three-Dragon Ante Set | 1 gp | A dedicated deck for the named tavern game.
+
+# jeweler, scribe | insignia | mundane | 5etools:phb | source
+Signet Ring | 5 gp | A personal seal for stamped correspondence.
+
+# gem merchant | gemstones | mundane | 5etools:dmg | source
+Alexandrite | 500 gp | A cut gem that can appear a different color under different light.
+Azurite | 10 gp | A low-cost deep-blue stone.
+Chalcedony | 50 gp | A pale, translucent carving stone.
+Fire Opal | 1000 gp | A bright stone for high-value jewelry or trade.
+Jacinth | 5000 gp | A high-value orange gem.
+Malachite | 10 gp | A banded green stone for carving or small inlays.
+Rhodochrosite | 10 gp | A pink ornamental stone.
+Sardonyx | 50 gp | Layered stone suited to engraving a cameo.
+Spinel | 100 gp | A cut gem for jewelry or trade.
+Zircon | 50 gp | A comparatively affordable stone for a ring or pendant.
+
+# alchemist | supplies | mundane | 5etools:phb | source
+Acid (vial) | 25 gp | One dose sold in its throw-ready container.
+Alchemist's Fire (flask) | 50 gp | A single-use flask of persistent flame.
+Holy Water (flask) | 25 gp | One flask for a temple rite or an encounter with the undead.
+
+# herbalist, alchemist | remedies | mundane | 5etools:egw | source
+Muroosa Balm | 100 gp | Apply over 1 minute to gain fire resistance for 1 hour.
+Olisuba Leaf | 50 gp | A prepared infusion for a night spent recovering from exhaustion.
+Theki Root | 3 gp | Chew before an encounter where poison is expected.
+Willowshade Oil | 30 gp | Ends petrification if applied within 1 minute of the creature becoming petrified.
+
+# oddities dealer | curiosities | specialty | 5etools:xge | house
+Charlatan's Die | 180 gp | The attuned holder can choose how it lands.
+Clockwork Amulet | 120 gp | Once per day, use a fixed attack roll of 10 before modifiers.
+Hat of Vermin | 95 gp | A magician's hat that can produce small harmless animals.
+Mystery Key | 85 gp | Test it on a lock that lacks its key. It vanishes once it opens one.
+Orb of Direction | 75 gp | Check which way is north while on the Material Plane.
+Orb of Time | 65 gp | Check the time of day on the Material Plane.
+Pipe of Smoke Monsters | 60 gp | Make a short-lived smoke outline for a story or demonstration.
+Talking Doll | 150 gp | Teach it phrases and set conditions for when it repeats them.
+
+# oddities dealer | curiosities | specialty | 5etools:egw | house
+Dust of Deliciousness | 140 gp | Flavors up to six servings. Gives diners disadvantage on Wisdom checks and saves for 1 hour.
+
+# toolwright, oddities dealer | travel | specialty | 5etools:xge | house
+Lock of Trickery | 140 gp | A guard for a door or trunk that is harder to pick than a standard lock.
+Pole of Collapsing | 100 gp | Carry a long probing pole in a much shorter form.
+Rope of Mending | 120 gp | Rejoin its severed pieces by command.
+
+# toolwright, oddities dealer | travel | specialty | 5etools:dmg | house
+Immovable Rod | 850 gp | Press its button to hold it in place. Useful as an anchor or temporary foothold.
+Rope of Climbing | 550 gp | Send one end of the rope toward an anchor by command.
+
+# fishmonger, toolwright | travel | specialty | 5etools:xge | house
+Pole of Angling | 90 gp | Carry a short pole that can change into a fishing rod.
+
+# chandler, shipwright | lighting | specialty | 5etools:xge | house
+Candle of the Deep | 90 gp | Gives light while submerged instead of going out.
+
+# chandler, shipwright | lighting | specialty | 5etools:erlw | house
+Everbright Lantern | 150 gp | Provides steady illumination without burning oil.
+
+# tailor | clothing | specialty | 5etools:xge | house
+Boots of False Tracks | 130 gp | Leave prints belonging to a different humanoid of the same size.
+Cloak of Many Fashions | 130 gp | Change the cloak's style, color, and apparent quality.
+Clothes of Mending | 80 gp | Repair small rips and tears in the garment over time.
+
+# tailor | clothing | specialty | 5etools:erlw | house
+Common Glamerweave | 130 gp | Cloth with a moving decorative illusion.
+Shiftweave | 150 gp | Switch between several outfits stored in one garment.
+
+# tailor | clothing | specialty | 5etools:dmg | house
+Boots of Elvenkind | 650 gp | Quiet the wearer's footsteps.
+Boots of the Winterlands | 750 gp | Footwear for cold environments and snowy travel.
+Cloak of Elvenkind | 800 gp | Helps the wearer hide from observers using sight.
+Slippers of Spider Climbing | 850 gp | Free both hands while moving across suitable walls or ceilings.
+
+# perfumer, oddities dealer | toiletries | specialty | 5etools:xge | house
+Perfume of Bewitching | 75 gp | A short-lived social aid when dealing with humanoids of low challenge.
+
+# instrument maker | instruments | specialty | 5etools:xge | house
+Horn of Silent Alarm | 130 gp | Signal one chosen nearby listener without broadcasting the call.
+Instrument of Illusions | 140 gp | Add brief visual images to a musical performance.
+Instrument of Scribing | 140 gp | Write short messages as part of a performance.
+Staff of Birdcalls | 80 gp | Reproduce selected bird sounds to cue a friend or entertain a crowd.
+
+# tavern, oddities dealer | curiosities | specialty | 5etools:xge | house
+Tankard of Sobriety | 100 gp | Drink alcohol from this vessel without getting drunk.
+
+# tavern, oddities dealer | curiosities | specialty | 5etools:egw | house
+Amulet of the Drunkard | 160 gp | Once a day, drinking alcohol can restore some hit points.
+
+# bookseller, scribe | writing supplies | specialty | 5etools:xge | house
+Enduring Spellbook | 130 gp | A spellbook built to withstand fire, water, and time.
+
+# bookseller, scribe | writing supplies | specialty | 5etools:ftd | house
+Emerald Pen | 150 gp | Write without ink or cast Illusory Script without material components.
+
+# bookseller, scribe | writing supplies | specialty | 5etools:erlw | house
+Scribe's Pen | 120 gp | Write without carrying ink.
+Spellshard | 140 gp | Store writing in a crystal instead of on paper.
+
+# tattooist | tattoos | specialty | 5etools:tce | house
+Barrier Tattoo (Small) | 850 gp | While attuned and unarmored, use AC 12 plus Dexterity modifier. A shield still works.
+Coiling Grasp Tattoo | 650 gp | Extend a magical grip at range.
+Eldritch Claw Tattoo | 750 gp | Enhance unarmed attacks and briefly extend their reach.
+Illuminator's Tattoo | 160 gp | Write from a fingertip and temporarily conceal one piece of writing.
+Masquerade Tattoo | 190 gp | Restyle the tattoo or use it to change your appearance briefly.
+
+# blacksmith, oddities dealer | armor | specialty | 5etools:xge | house
+Shield of Expression | 130 gp | A shield face with an expression the bearer can change.
+
+# blacksmith, oddities dealer | armor | specialty | 5etools:egw | house
+Battering Shield | 1800 gp | Turn a successful shove into a stronger displacement.
+
+# blacksmith, oddities dealer | armor | specialty | 5etools:dmg | house
+Arrow-Catching Shield | 1900 gp | Protect nearby allies from some ranged weapon attacks.
+
+# alchemist | potion | specialty | 5etools:dmg | house
+Elixir of Health | 280 gp | Carry an answer to a selection of disabling conditions.
+Potion of Diminution | 250 gp | Temporarily shrink for an infiltration or escape.
+Potion of Flying | 600 gp | A single-use flight option. Stock it at shops capable of sourcing exceptional potions.
+Potion of Invisibility | 500 gp | Grants invisibility for up to 1 hour. Attacking or casting a spell ends it early.
+Potion of Speed | 500 gp | A limited burst of haste without tying up a caster.
+Potion of Vitality | 650 gp | A recovery potion for exhaustion and other ailments.
+
+# alchemist, emporium | magic item | specialty | 5etools:dmg | house
+Alchemy Jug | 600 gp | Produce one of its listed liquids each day.
+Decanter of Endless Water | 900 gp | Issue a stream or a forceful jet of water by command.
+Dust of Disappearance | 240 gp | A single-use way to hide several nearby creatures at once.
+Dust of Dryness | 180 gp | Turn a large amount of water into a pellet that can be broken later.
+Eversmoking Bottle | 450 gp | Produce enough smoke to break sightlines.
+
+# shipwright, emporium | magic item | specialty | 5etools:dmg | house
+Cap of Water Breathing | 500 gp | Breathe underwater while wearing the cap.
+Cloak of the Manta Ray | 750 gp | Swim and breathe underwater while its hood is up.
+Folding Boat | 2200 gp | Carry a small box and deploy it as a boat when needed.
+
+# stables, emporium | magic item | specialty | 5etools:dmg | house
+Horseshoes of a Zephyr | 2600 gp | Move a mount just above the ground or water.
+Horseshoes of Speed | 1600 gp | Increase the pace of a horse or similar mount.
+
+# jeweler, emporium | magic item | specialty | 5etools:dmg | house
+Brooch of Shielding | 850 gp | Protect against force damage and magic missile.
+Periapt of Health | 650 gp | Protect against disease while wearing it.
+Periapt of Wound Closure | 850 gp | Stabilize more reliably and recover more from spent Hit Dice.
+Ring of Feather Falling | 1500 gp | Fall more slowly when the wearer drops.
+Ring of Jumping | 700 gp | Use a magic-assisted jump when climbing alone will not do.
+Ring of Mind Shielding | 950 gp | Screen thoughts and certain magical attempts to identify the wearer.
+Ring of Swimming | 650 gp | Gain a swim speed without using a spell.
+Ring of Water Walking | 850 gp | Cross supported liquids on foot.
+
+# emporium | magic item | specialty | 5etools:dmg | house
+Chime of Opening | 1800 gp | Open doors or containers from a distance using a limited number of charges.
+Driftglobe | 650 gp | Carry a light that can float beside the party.
+Eyes of Minute Seeing | 550 gp | Inspect small details at close range.
+Eyes of the Eagle | 650 gp | Spot visual details at long range.
+Goggles of Night | 650 gp | Extend or provide darkvision for scouting.
+Hat of Disguise | 750 gp | Reuse a visual disguise for infiltration and social encounters.
+Lantern of Revealing | 850 gp | Its light can expose invisible creatures and objects.
+Stone of Good Luck | 900 gp | A carried charm that improves checks and saves.
+Wand of Secrets | 550 gp | Find the closest nearby secret door or trap with charges.
+
+# emporium | magic item | specialty | 5etools:egw | house
+Breathing Bubble | 95 gp | Maintain breathable air around the wearer's head.
+Coin of Delving | 85 gp | Drop it to estimate the depth of a hole or shaft.
+Needle of Mending | 190 gp | Repair a torn object using the needle.
+Ring of Obscuring | 650 gp | Raise a patch of fog for concealment.
+
+# artificer | magic item | specialty | 5etools:tce | house
++1 All-Purpose Tool | 750 gp | Change between artisan's tools and loan the artificer a cantrip.
+Prosthetic Limb | 100 gp | A wearable replacement limb that functions for ordinary tasks.
+
+# artificer | magic item | specialty | 5etools:erlw | house
+Cleansing Stone | 90 gp | Remove dirt and grime from a creature and its clothing.
+Keycharm | 95 gp | Ties into certain ward spells for a qualifying character.
+Living Gloves | 700 gp | Lend proficiency in one supported manual skill or tool.
+
+# scribe, emporium | magic item | specialty | 5etools:wdh | house
+Paper Bird | 55 gp | Send up to 50 words to a named recipient on the same plane.
+
+# herbalist, potter | curiosities | specialty | 5etools:xge | house
+Pot of Awakening | 160 gp | Raise a mundane shrub into a small awakened companion over time.
+Staff of Flowers | 90 gp | Grow a flower from suitable ground using a charge.
+
+# stables | mounts | mundane | 5etools:egw | source
+Moorbounder | 400 gp | A powerful jumping mount for buyers who can handle a large predator.
+
+# emporium, artificer | magic item | specialty | 5etools:egw | house
+Goggles of Object Reading | 700 gp | Aid Arcana checks on visible creatures or objects and cast Identify once per dawn.

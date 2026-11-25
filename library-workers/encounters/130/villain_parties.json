@@ -1,0 +1,539 @@
+[
+  {
+    "name": "Boog",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 17,
+    "hp": 85,
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "classification": "Large Monstrosity, chaotic evil",
+    "speed": "30 ft.",
+    "hitDice": "10d10 + 30",
+    "description": "Boog is the Abominations’ bruiser. A rhino horn makes their charge as dangerous as their fists.",
+    "otherStatistics": "Natural armor. Saves Str +7, Con +5. Skills Athletics +7, Intimidation +2. Darkvision 60 ft. Passive Perception 10. Common.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, p. 357",
+      "Role": "Brute",
+      "Traits": "Boog Rampage. When Boog sees another Abomination drop to 0 HP, Boog rampages for 1 minute. Their melee attacks deal 2 extra damage while it lasts.\nBoog Charge. If Boog moves at least 10 ft. straight toward a Medium or smaller creature and hits it with Gore on the same turn, the horn Grapples it (escape DC 15). The creature is Restrained and takes 3 (1d6) piercing damage at the start of each of its turns. Boog cannot Gore another target until the grapple ends.",
+      "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack +7, reach 5 ft., one target. Hit 10 (1d10 + 5) bludgeoning damage, or 12 (1d10 + 7) during the rampage.\nGore. Melee weapon attack +7, reach 5 ft., one target. Hit 8 (1d6 + 5) piercing damage, or 10 (1d6 + 7) during the rampage.\nBoog’s Ball. Throw a magic ball with a 3-inch radius to a visible point within 60 ft. The ball’s radius at that point is 5 ft. if the throw was up to 30 ft., or 10 ft. for a longer throw. Each creature in that area makes a DC 15 Dexterity save, taking 14 (4d6) bludgeoning damage on a failure. The ball shrinks and teleports back to the throwing hand.",
+      "Villain Party Action": "Abominations. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 5, Boog Stomp. Each grounded enemy within 30 ft. makes a DC 15 Dexterity save. On a failure, it takes 14 (4d6) bludgeoning damage and falls Prone. On a success, it takes half damage and stays upright."
+    }
+  },
+  {
+    "name": "Ceemal",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 15,
+    "hp": 78,
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Wis": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "classification": "Medium Monstrosity, chaotic evil",
+    "speed": "30 ft.",
+    "hitDice": "12d8 + 24",
+    "description": "The camel-headed Abomination looks after the others at camp. In a fight, Ceemal heals allies and draws them back out of danger.",
+    "otherStatistics": "Natural armor. Saves Con +4, Int +5, Wis +6. Skills Medicine +6, Nature +5, Perception +6, Stealth +8, Survival +6. Darkvision 60 ft. Passive Perception 16. Common.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 357–358",
+      "Role": "Support",
+      "Traits": "Octopodan Camouflage. Ceemal can try to Hide while lightly obscured by natural conditions such as foliage, mist, heavy rain, or snow.",
+      "Actions": "Multiattack. Make two Fillet Knife attacks or two Acid Spit attacks.\nFillet Knife. Melee weapon attack +6, reach 5 ft., one target. Hit 7 (1d6 + 4) slashing damage. If the target is a creature, another Abomination within 5 ft. of it heals for half the damage dealt.\nAcid Spit. Ranged weapon attack +6, range 20/40 ft., one target. Hit 8 (1d8 + 4) acid damage. The target is Poisoned until the start of Ceemal’s next turn.",
+      "Bonus Actions": "To Me, Sweetie (3/day). Choose an ally within 30 ft. who can hear Ceemal. The ally can spend its reaction to move up to its speed toward Ceemal without provoking opportunity attacks.",
+      "Reactions": "Wail of Loss. When an enemy within 60 ft. reduces another Abomination Ceemal can see to 0 HP, the enemy makes a DC 14 Constitution save. It takes 7 (2d6) psychic damage on a failure or half on a success.",
+      "Villain Party Action": "Abominations. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 3, All You Can Meat. Ceemal throws a piece of meat to every Abomination they can see within 30 ft. Each target that is not Incapacitated can eat the meat without spending an action and regain 8 (1d10 + 3) HP."
+    }
+  },
+  {
+    "name": "Excess",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 14,
+    "hp": 45,
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 11,
+        "modifier": 0
+      }
+    },
+    "classification": "Medium Monstrosity, chaotic evil",
+    "speed": "30 ft., climb 30 ft.",
+    "hitDice": "6d8 + 18",
+    "description": "A subterranean scout with spider legs, a viper’s head, and a scorpion tail. Excess hunts from walls and ceilings.",
+    "otherStatistics": "Saves Dex +6, Con +5. Skills Acrobatics +6, Perception +4, Stealth +8. Darkvision 60 ft. Passive Perception 14. Common.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 357–358",
+      "Role": "Ambusher",
+      "Traits": "Spider Climb. Traverse difficult surfaces, including ceilings upside down, without making an ability check.",
+      "Actions": "Multiattack. Make one Bite attack and one Sting attack.\nBite. Melee weapon attack +6, reach 5 ft., one target. Hit 8 (1d8 + 4) piercing damage. A Medium or smaller creature is Grappled (escape DC 14) and takes 2 (1d4) poison damage at the start of each of Excess’s turns. Excess cannot bite anyone else before this grapple ends.\nSting. Melee weapon attack +6, reach 10 ft., one target. Hit 7 (1d6 + 4) piercing damage. On a failed DC 13 Constitution save, the target is Poisoned for 1 minute and can repeat the save at the end of each of its turns to end the condition.\nSwallow. Use Bite on a Medium or smaller creature grappled by Excess or from which Excess is hidden. On a hit, swallow the creature. It is no longer Grappled, but is Blinded and Restrained and has total cover from attacks and other effects outside Excess. At the start of each of Excess’s turns, it takes 10 (3d6) acid damage. Excess can hold one swallowed creature. If Excess dies, the creature is no longer Restrained and can spend 5 ft. of movement to leave the corpse, exiting Prone.",
+      "Bonus Actions": "Cunning Action. Dash, Disengage, or Hide.",
+      "Villain Party Action": "Abominations. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 2, Hypnotize. Each creature in a 15-ft. cone from Excess must make a DC 13 Wisdom save. On a failure, it is Charmed by Excess and its speed is 0 until the start of Excess’s next turn."
+    }
+  },
+  {
+    "name": "Klar",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 16,
+    "hp": 52,
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "classification": "Medium Monstrosity, chaotic evil",
+    "speed": "40 ft., swim 30 ft.",
+    "hitDice": "7d8 + 21",
+    "description": "The Abominations’ lion-headed hunt leader lures travelers close and drags them off with mantis claws.",
+    "otherStatistics": "Natural armor. Saves Str +6, Con +5. Skills Athletics +6, Deception +5, Persuasion +5, Survival +5. Darkvision 60 ft. Passive Perception 11. Common.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 357, 359",
+      "Role": "Skirmisher",
+      "Traits": "Amphibious. Klar can breathe air and water.\nMimicry. Klar can imitate animal sounds. A listener can detect the imitation with a DC 13 Wisdom (Insight) check.\nStanding Leap. Klar can long jump up to 40 ft. or high jump up to 15 ft., with or without a running start.",
+      "Actions": "Multiattack. Make one Bite attack and one Mantis Claws attack.\nBite. Melee weapon attack +6, reach 5 ft., one target. Hit 8 (1d8 + 4) piercing damage.\nMantis Claws. Melee weapon attack +6, reach 5 ft., one target. Hit 7 (1d6 + 4) slashing damage. A Medium or smaller target is Grappled (escape DC 14) and Restrained for the duration. Moving with such a target does not halve Klar’s speed. Klar can hold only one target this way.",
+      "Bonus Actions": "Bellowing Roar (1/day). Each creature that can hear Klar within 30 ft. must make a DC 13 Wisdom save or be Frightened of Klar for 1 minute. A creature that takes damage while Frightened this way can repeat the save to end the effect.\nKangaroo Leap. Jump up to half Klar’s speed without provoking opportunity attacks.",
+      "Villain Party Action": "Abominations. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 4, Come and Get It. Klar can move up to their speed without provoking opportunity attacks and make up to two Mantis Claws attacks. Each Abomination within 30 ft. who can hear Klar can then move up to its speed toward Klar without provoking opportunity attacks."
+    }
+  },
+  {
+    "name": "Sair",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 15,
+    "hp": 45,
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "classification": "Medium Monstrosity, chaotic evil",
+    "speed": "30 ft., fly 60 ft.",
+    "hitDice": "10d8",
+    "description": "An owl-headed scout with dragon wings. Sair uses psionics to drive prey toward the Abominations on the ground.",
+    "otherStatistics": "Natural armor. Saves Dex +6, Int +6. Skills Acrobatics +6, Perception +2, Survival +2. Darkvision 60 ft. Passive Perception 12. Common. Telepathy 120 ft.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 357, 359",
+      "Role": "Artillery",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
+      "Actions": "Claws. Melee weapon attack +6, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.\nPsionic Bolt (1st-order power). Ranged power attack +6, range 120 ft., one target. Hit 10 (3d6) psychic damage. A Large or smaller target is pushed 5 ft. away.\nMind Scream (1/day, 3rd-order power). Each enemy within 30 ft. makes a DC 14 Intelligence save. It takes 17 (5d6) psychic damage on a failure or half on a success. A creature reduced to 0 HP by this damage is automatically stable.",
+      "Villain Party Action": "Abominations. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 1, Aerial Transport. Move up to twice Sair’s speed. Before or during the move, pick up one willing Large Abomination or up to two willing Medium or smaller Abominations within 5 ft. Sair can release them at any point and must release them at the end. Any creature released at least 10 ft. above the ground lands Prone and takes 3 (1d6) bludgeoning damage per 10 ft. fallen.",
+      "Psionic Powers (MCDM)": "Powers are supernatural and have no components. Antimagic Field, Counterspell, and Dispel Magic do not affect powers."
+    },
+    "ruleNotes": [
+      "Sair can attack from 120 ft. away while airborne. Against a melee-heavy party, have Sair fly low enough for characters to respond."
+    ]
+  },
+  {
+    "name": "Aronar Valkys",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 20,
+    "hp": 130,
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "classification": "Medium Humanoid (Half-Elf), neutral evil",
+    "speed": "30 ft.",
+    "hitDice": "20d8 + 40",
+    "description": "Aronar wields divine magic for the Hallowed Dark and can heal Athmia while restoring an ally.",
+    "otherStatistics": "Plate and shield. Saves Dex +4, Con +5, Wis +11. Skills Insight +11, Perception +11. Resists acid and necrotic damage. Blindsight 30 ft., darkvision 120 ft. Passive Perception 21. Common, Draconic, and Elvish.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 388–389",
+      "Role": "Support",
+      "Traits": "Charm Resistant. Aronar has advantage on saves against gaining or retaining the Charmed condition.\nDelusions of Grandeur. If an effect lets Aronar save at the end of his turn, he can also repeat that save at the start. When he succeeds on a save against an effect, it ends on Aronar and on any ally with the same effect within 30 ft. of him.\nSun Eater’s Grace (3/day). If Aronar is within 30 ft. of Athmia Valkys when his spell heals another creature, Athmia regains the same number of HP.",
+      "Actions": "Multiattack. Make three Divine Mace attacks, or make one Divine Mace attack and one God Complex attack.\nDivine Mace. Melee weapon attack +11, reach 5 ft., one target. Hit 11 (1d6 + 8) bludgeoning damage plus 7 (2d6) necrotic damage. The target is Blinded until the start of its next turn on a failed DC 19 Constitution save.\nGod Complex (3/day, 3rd-level spell). Ranged spell attack +11, range 120 ft., one target. Hit 28 (8d6) necrotic damage. The next attack roll against this target before the end of Aronar’s next turn has advantage.\nCure Wounds (3/day, 3rd-level spell). Touch a creature to restore 21 (3d8 + 8) HP to it.",
+      "Bonus Actions": "Vainglory (3/day, 3rd-level spell). Restore 15 (3d4 + 8) HP to one creature of Aronar’s choice within 60 ft.",
+      "Reactions": "Sun Eater’s Soul (3/day). When an attack hits a creature Aronar can see within 30 ft., he can halve the attack damage dealt to it.",
+      "Utility Spells": "Wisdom, spell save DC 19. At will: Augury and Thaumaturgy. Once per day each: Hallow and Raise Dead. Thaumaturgy takes an action. Use each other spell’s normal casting time.",
+      "Villain Party Action": "Hallowed Dark. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 1, Shadow Blessing. Choose up to three members of the Hallowed Dark Aronar can see within 120 ft. Each can teleport up to 60 ft. to an unoccupied space it can see. Until the end of each target’s next turn, it has resistance to all damage and a +3 bonus to attack and damage rolls."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Athmia Valkys",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Athmia Valkys",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 20,
+    "hp": 117,
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "classification": "Medium Humanoid (Half-Elf), neutral evil",
+    "speed": "40 ft.",
+    "hitDice": "18d8 + 36",
+    "description": "Athmia fights beside Aronar Valkys. Her blades attack the mind and can rob a caster of their strongest available spell slot.",
+    "otherStatistics": "Studded leather. Saves Dex +11, Int +11, Wis +4. Skills Insight +4, Perception +7, Stealth +14. Resists acid and necrotic damage. Blindsight 30 ft., darkvision 120 ft. Passive Perception 17. Common, Draconic, and Elvish.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 388–389",
+      "Role": "Skirmisher",
+      "Traits": "Charm Resistant. Athmia has advantage on saves against gaining or retaining the Charmed condition.\nEvasion. When a Dexterity save would halve damage, Athmia takes none on a success and half on a failure.\nMental Assault (1/turn). When Athmia hits a creature with Soul Blade, she can force a DC 19 Intelligence save. On a failure, the target spends one spell slot of the highest level available without casting a spell. If it has no slot to spend, it instead spends 3 Hit Dice without effect. If it cannot pay either cost, it takes 10 (3d6) extra psychic damage.",
+      "Actions": "Multiattack. Make two Soul Blade attacks.\nSoul Blade. Melee or ranged weapon attack +11, reach 5 ft. or range 30/60 ft., one target. Hit 25 (5d6 + 8) psychic damage. On a failed DC 19 Wisdom save, the target is Frightened of Athmia until the end of her next turn.\nPsychic Frenzy (1/day). Each enemy within 60 ft. makes a DC 19 Wisdom save. On a failure, it is Dazed until the start of Athmia’s next turn. Athmia gains 5 temporary HP for each enemy that fails.",
+      "Bonus Actions": "Cunning Action. Dash, Disengage, or Hide.\nSun Eater’s Gift (3/day). If Aronar Valkys is within 30 ft. and is willing, Athmia and Aronar trade places.",
+      "Reactions": "Sun Eater’s Mind (3/day). When a creature Athmia can see within 60 ft. makes a spell attack against her or casts a spell requiring her to save, she can mark its mind. Her next attack against that creature is an automatic critical hit.",
+      "Villain Party Action": "Hallowed Dark. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 2, Dual Blades. Athmia moves up to her speed without provoking opportunity attacks and makes two melee attacks.",
+      "Dazed (MCDM)": "On each turn, a Dazed creature can move, take an action, or take a bonus action. It chooses only one. Its turn ends if it becomes Dazed during that turn. It can still take extra actions granted by effects such as Haste or Action Surge. Cure Ailment, Lesser Restoration, and Greater Restoration remove Dazed."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Aronar Valkys",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Caithas",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 20,
+    "hp": 104,
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "classification": "Medium Humanoid (Tiefling), neutral evil",
+    "speed": "30 ft., fly 60 ft.",
+    "hitDice": "16d8 + 32",
+    "description": "A winged archer of the Hallowed Dark. Caithas can call forth an echo of Qazyldrath to breathe acid and darkness.",
+    "otherStatistics": "Studded leather. Saves Dex +11, Con +5, Wis +11. Skills Perception +11, Stealth +11, Survival +11. Resists acid, fire, and necrotic damage. Blindsight 30 ft., darkvision 120 ft. Passive Perception 21. Common, Draconic, and Infernal.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 388–389",
+      "Role": "Artillery",
+      "Traits": "Forest Defense. While Caithas is in forest terrain, ranged attacks against him have disadvantage if he can see the attacker.",
+      "Actions": "Multiattack. Make three Scimitar attacks or three Scaled Longbow attacks.\nScimitar. Melee weapon attack +11, reach 5 ft., one target. Hit 15 (2d6 + 8) slashing damage.\nScaled Longbow. Ranged weapon attack +11, range 150/600 ft., one target. Hit 12 (1d8 + 8) piercing damage plus 7 (2d6) necrotic damage. The attack has advantage against a creature that has not attacked Caithas since the end of his last turn.\nManifestation (recharge 5–6). Qazyldrath appears in Caithas’s space and breathes a line 30 ft. long and 5 ft. wide. Each creature in it makes a DC 19 Dexterity save, taking 18 (4d8) acid damage and 18 (4d8) necrotic damage on a failure or half as much on a success. Magical darkness fills the line for 1 minute. Darkvision cannot pierce it, and supernatural light cannot illuminate it. The dragon then vanishes.",
+      "Bonus Actions": "Gaze of the Decay (1/day). Mark a creature Caithas can see within 60 ft. for 24 hours. While on the same plane, Caithas knows its distance and direction. The marked creature cannot hide from him and gains no benefit from being Invisible against him.",
+      "Villain Party Action": "Hallowed Dark. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 3, Hunter of Mortals. Make one Scaled Longbow attack against every enemy within 600 ft. Anyone reduced to 0 HP by these attacks dies."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Qazyldrath",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Draven Malas",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 20,
+    "hp": 119,
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "classification": "Medium Humanoid (Human), neutral evil",
+    "speed": "30 ft.",
+    "hitDice": "14d8 + 56",
+    "description": "A sorcerer who turned to blood magic for revenge. In battle he uses it to pin enemies down and keep the Hallowed Dark alive.",
+    "otherStatistics": "Studded leather. Saves Dex +11, Con +7, Int +11. Skills Arcana +11, Investigation +11. Resists acid and necrotic damage. Blindsight 30 ft., darkvision 120 ft. Passive Perception 10. Common and Draconic.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 389–390",
+      "Role": "Controller",
+      "Traits": "Exploit Opening (3/day). Gain advantage on an attack roll Draven makes.\nProfane Sacrifice (1/turn). After hitting a creature with a melee attack, Draven can reduce its speed to 0 until the start of his next turn. He takes 5 (1d10) psychic damage if he does.",
+      "Actions": "Multiattack. Make three Gloom Dagger attacks.\nGloom Dagger. Melee or ranged weapon attack +11, reach 5 ft. or range 20/60 ft., one target. Hit 10 (1d4 + 8) piercing damage plus 7 (3d4) necrotic damage. Draven can move the target up to 10 ft. horizontally. If this attack reduces a creature to 0 HP, he regains one use of Blood of the Dragon.\nBlood of the Dragon (1/day). Choose up to three creatures Draven can see within 60 ft. Each takes 33 (6d10) necrotic damage. On a failed DC 19 Constitution save, it also falls Prone and is Poisoned for 1 minute. It can repeat the save at the end of each of its turns to end the poisoning.",
+      "Bonus Actions": "Creeping Dread. Choose a creature Draven can see within 30 ft. in dim light or darkness. On a failed DC 19 Wisdom save, it moves its speed in a direction Draven chooses. Advantage on saves against becoming Frightened applies here, and a creature immune to Frightened succeeds automatically.",
+      "Utility Spells": "Intelligence, spell save DC 19. At will: Alarm and Mage Hand. Once per day each: Glyph of Warding and Scrying. Mage Hand takes an action. Use each other spell’s normal casting time.",
+      "Villain Party Action": "Hallowed Dark. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 4, Blood Drain. Choose an enemy Draven can see within 60 ft. It makes a DC 19 Constitution save. On a failure, it takes 27 (5d10) necrotic damage and is Dazed until the end of its next turn. On a success, it takes half damage and is not Dazed. Draven divides healing equal to twice the necrotic damage dealt between himself and any member of the Hallowed Dark he can see within 60 ft.",
+      "Dazed (MCDM)": "On each turn, a Dazed creature can move, take an action, or take a bonus action. It chooses only one. Its turn ends if it becomes Dazed during that turn. It can still take extra actions granted by effects such as Haste or Action Surge. Cure Ailment, Lesser Restoration, and Greater Restoration remove Dazed."
+    }
+  },
+  {
+    "name": "The Horror",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 14,
+    "hp": 42,
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "classification": "Large Undead, neutral evil",
+    "speed": "30 ft.",
+    "hitDice": "5d10 + 15",
+    "description": "The Grave Order made the Horror from five fallen adventurers and bound Elyas Leodeir’s unwilling soul to it.",
+    "otherStatistics": "Natural armor. Saves Str +6, Con +5, Wis +1. Skill Intimidation +4. Darkvision 60 ft. Passive Perception 9. Understands Common and cannot speak.",
+    "sections": {
+      "Printed source": "Flee, Mortals!, pp. 350–351, 353",
+      "Role": "Brute",
+      "Traits": "Dying Gasp. When the Horror dies, the creature that reduced it to 0 HP can appeal to Elyas with a DC 15 Charisma (Persuasion) check without spending an action. On a success, each enemy of the Grave Order within 30 ft. of the Horror gains 7 (2d6) temporary HP. On a failure or if nobody attempts the check, each creature within 15 ft. makes a DC 13 Dexterity save, taking 4 (1d8) acid damage and 4 (1d8) necrotic damage on a failure or half as much on a success.",
+      "Actions": "Spine Cleaver. Melee weapon attack +6, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage, or 13 (2d8 + 4) against a Grappled target.\nBone Hook. Ranged weapon attack +6, range 15 ft., one target. Hit 7 (1d6 + 4) piercing damage. A Medium or smaller target is Grappled (escape DC 14), and the Horror can pull it up to 15 ft. closer. The Horror cannot use Bone Hook against another target until this grapple ends.",
+      "Bonus Actions": "Valor’s Death. Each enemy within 10 ft. who can hear the Horror must make a DC 13 Wisdom save. On a failure, it is Frightened of the Horror for 1 minute and can repeat the save at the end of each of its turns to end the condition. A creature becomes immune to this Horror’s Valor’s Death for 24 hours when it succeeds on the save or the effect ends.",
+      "Villain Party Action": "Grave Order. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 3, Threshing Flail. The Horror moves up to its speed without provoking opportunity attacks. When the movement ends, each enemy within 30 ft. makes a DC 14 Dexterity save. On a failure, the enemy takes 7 (2d6) piercing damage and falls Prone. On a success, it takes half as much damage and stays upright."
+    }
+  }
+]

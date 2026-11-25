@@ -20,13 +20,18 @@ export type ResponsiveImageSource = {
   logicalSource: string
   repositoryPath: string
   maxWidth?: number
+  widths?: readonly number[]
+  archived?: boolean
 }
 
-export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
+export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   ...libraryImageSources.map((source) => ({
     ...source,
     role: 'illustration' as const,
     maxWidth: 768,
+    ...(source.logicalSource.startsWith('/assets/library/worker-art/')
+      ? { widths: [32, 384, 768] }
+      : {}),
   })),
   {
     id: 'npcs-durgan-ashfang-portrait',
@@ -2905,6 +2910,8 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
       'assets/images/content/scenes/the-party-clears-ride-the-lightning-s-boarding-rooms.png',
   },
 ]
+
+export const RESPONSIVE_IMAGE_SOURCES = ORIGINAL_IMAGE_SOURCES.filter((source) => !source.archived)
 
 const SOURCE_BY_LOGICAL_PATH = new Map(
   RESPONSIVE_IMAGE_SOURCES.map((source) => [source.logicalSource, source]),

@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Crocodile",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 12, Monsters",
+    "printedPages": [
+      122
+    ],
+    "viewerPages": [
+      122
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16834-crocodile",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+    "mechanicsNotes": [
+      "The grapple follows the hit without a separate save. This entry has only the printed Bite and no tail attack."
+    ],
+    "conditionRules": ""
+  },
+  {
+    "name": "Elk",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 12, Monsters",
+    "printedPages": [
+      125
+    ],
+    "viewerPages": [
+      125
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16857-elk",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+    "mechanicsNotes": [
+      "Charge leaves the extra damage’s type unspecified. Hooves needs a prone target and is listed as a separate action."
+    ],
+    "conditionRules": ""
+  },
+  {
+    "name": "Lion",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 12, Monsters",
+    "printedPages": [
+      142
+    ],
+    "viewerPages": [
+      142
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16944-lion",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+    "mechanicsNotes": [],
+    "conditionRules": ""
+  },
+  {
+    "name": "Mammoth",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 12, Monsters",
+    "printedPages": [
+      143
+    ],
+    "viewerPages": [
+      143
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16950-mammoth",
+    "appearanceEvidence": "The printed description identifies elephantine anatomy, thick fur and long tusks. Color and posture follow the reused portrait.",
+    "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+    "mechanicsNotes": [
+      "The Mammoth block starts in the left column. Its Gore and Stomp actions continue at the top of the right column, above Manticore."
+    ],
+    "conditionRules": ""
+  },
+  {
+    "name": "Panther",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 12, Monsters",
+    "printedPages": [
+      148
+    ],
+    "viewerPages": [
+      148
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16976-panther",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+    "mechanicsNotes": [],
+    "conditionRules": ""
+  },
+  {
+    "name": "Saber-­‐Toothed Tiger",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 12, Monsters",
+    "printedPages": [
+      151
+    ],
+    "viewerPages": [
+      151
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/17002-saber-toothed-tiger",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+    "mechanicsNotes": [
+      "The printed attack bonuses are +6 and both printed damage modifiers are +5, with Strength +4. The catalog key retains the exact indexed hyphen characters."
+    ],
+    "conditionRules": "",
+    "printedHeading": "Saber-Toothed Tiger"
+  },
+  {
+    "name": "Weasel",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 12, Monsters",
+    "printedPages": [
+      158
+    ],
+    "viewerPages": [
+      158
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/17052-weasel",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "These are editorial tags informed by the publisher’s revised Weasel habitat labels. The 2018 print and publisher’s legacy Weasel entry do not specify habitat. https://www.dndbeyond.com/monsters/4775849-weasel",
+    "mechanicsNotes": [
+      "The Weasel block begins by the lower left of p. 158. Its skill, sense, trait and Bite lines continue at the top of the right column, above Werewolf. Bite deals fixed damage."
+    ]
+  },
+  {
+    "name": "Wolf",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 12, Monsters",
+    "printedPages": [
+      159
+    ],
+    "viewerPages": [
+      159
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/17062-wolf",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+    "mechanicsNotes": [
+      "The attack’s +4 to hit and +2 damage modifier are both printed. The prone rider requires a creature but lists no size cap."
+    ],
+    "conditionRules": ""
+  }
+]

@@ -1,0 +1,208 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -3161,6 +3161,169 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Electric Eel",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "An elongated fish. The portrait uses a rounded body and blunt head based on freshwater electric eels. The printed combat entry gives no color or size.",
++      "combat": {
++        "habitats": ["Fresh water (summoning appendix)"],
++        "creatureType": "Animal",
++        "numberOfAttacks": 1,
++        "armorClass": 9,
++        "movement": "Sw 12",
++        "hitDice": "2",
++        "thac0": 16,
++        "damageDice": "1–3",
++        "xp": 65,
++        "immunities": ["Electricity"]
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Electrical discharge",
++            "effectNote": "The discharge reaches 15 feet. A target under 5 feet away takes 3d8, one 5 to 10 feet away takes 2d8, and one farther out within range takes 1d8. The eel recharges for an hour between discharges."
++          },
++          {
++            "name": "Electrical immunity",
++            "effectNote": "Electrical effects do not harm this eel."
++          }
++        ]
++      },
++      "notes": [
++        "1–3 appearing. Unsteady (7) morale.",
++        "The ordinary Electric Eel appears in Fresh Water Monster Summoning II on p. 378. The Fish paragraph gives no further habitat detail.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and aquatic summoning p. 378."
++      ]
++    },
++    {
++      "name": "Giant Eel",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A large, long-bodied eel with teeth. The portrait gives it a broad head and toothy jaws. The printed entry gives no measured length or coloration.",
++      "combat": {
++        "habitats": ["Aquatic habitat, salinity unspecified"],
++        "creatureType": "Animal",
++        "numberOfAttacks": 1,
++        "armorClass": 6,
++        "movement": "Sw 9",
++        "hitDice": "5",
++        "thac0": 15,
++        "damageDice": "3–18",
++        "xp": 175
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Fast bite",
++            "effectNote": "It attacks with its teeth for 3–18 damage and gets +1 to initiative rolls. The Fish prose explicitly says it has no electrical discharge."
++          }
++        ]
++      },
++      "notes": [
++        "1–4 appearing. Average (8) morale.",
++        "The Fresh Water summoning table on p. 378 separately names an eel called “giant electric.” The entry gives no basis to use that name for this non-electric Giant Eel.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and aquatic summoning p. 378."
++      ]
++    },
++    {
++      "name": "Marine Eel",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A long-bodied eel. The portrait uses a narrow moray-like head and mottled blue-gray skin. The book gives no measured length or coloration.",
++      "combat": {
++        "habitats": ["Salt water (summoning appendix)", "Fresh water (summoning appendix)"],
++        "creatureType": "Animal",
++        "numberOfAttacks": 1,
++        "armorClass": 6,
++        "movement": "Sw 9",
++        "hitDice": "6–8",
++        "damageDice": "2–8 / 3–12 / 4–16",
++        "immunities": ["Electricity"]
++      },
++      "mechanics": {
++        "Hit Dice variants": [
++          {
++            "name": "6 HD",
++            "effectNote": "THAC0 13, table damage 2–8, 420 XP."
++          },
++          {
++            "name": "7 HD",
++            "effectNote": "THAC0 13, table damage 3–12, 650 XP."
++          },
++          {
++            "name": "8 HD",
++            "effectNote": "THAC0 12, table damage 4–16, 975 XP."
++          }
++        ],
++        "Combat": [
++          {
++            "name": "Electrical discharge",
++            "effectNote": "The discharge reaches 15 feet. A target under 5 feet away takes 6d6, one 5 to 10 feet away takes 4d6, and one farther out within range takes 2d6. A failed save vs. paralyzation stuns the victim for a number of rounds equal to the damage received. The Marine Eel entry gives no recharge interval."
++          },
++          {
++            "name": "Electrical immunity",
++            "effectNote": "Electrical effects do not harm this eel."
++          }
++        ]
++      },
++      "notes": [
++        "1 appearing. Average (9) morale.",
++        "Both Salt Water and Fresh Water Monster Summoning VI list the Marine Eel. The numeric damage in its table row is separate from the discharge dice in its description.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and aquatic summoning p. 378."
++      ]
++    },
++    {
++      "name": "Weed Eel",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A slender eel with a long tapering body in the portrait. The printed entry describes its narrow lair holes but gives no measured body length or color.",
++      "combat": {
++        "habitats": [
++          "Fresh and salt water, 25 to 40 feet deep",
++          "Colony caves and connected tunnels"
++        ],
++        "creatureType": "Animal",
++        "numberOfAttacks": 1,
++        "armorClass": 8,
++        "movement": "Sw 15",
++        "hitDice": "1−1",
++        "thac0": 20,
++        "damageDice": "1",
++        "xp": 120
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Poison bite",
++            "effectNote": "The bite deals 1 damage. A victim who fails a save vs. poison dies in 1d4 rounds under the printed game rule."
++          }
++        ],
++        "Lair": [
++          {
++            "name": "Colony tunnels",
++            "effectNote": "A central cave about 30 feet long and 20 feet wide and high connects to 6-foot-diameter tunnels and individual homes 6 to 8 inches across. The colony guards its young in the central cave."
++          },
++          {
++            "name": "Scavenged objects",
++            "effectNote": "The cave floor holds small stones, coins, and gems brought back by the eels."
++          }
++        ]
++      },
++      "notes": [
++        "10–60 appearing. Unsteady (6) morale.",
++        "The table prints 1−1 Hit Dice.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and aquatic summoning p. 378."
++      ]
+     },
+     {
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -3088,6 +3088,7 @@
+ Eldritch Sable	monster	Monstrosity (Animal)	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	1.0
+ Eldritch Trickster	monster	Humanoid	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5524991-eldritch-trickster	4
+ Eldritch Troll	monster	Giant	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5524992-eldritch-troll	8
++Electric Eel	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Elemental Cataclysm	monster	Elemental	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5194982-elemental-cataclysm	22
+ Elemental Cultist	monster	Humanoid	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5194983-elemental-cultist	8
+ Elemental Lich	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
+@@ -3968,6 +3969,7 @@
+ Giant Eagle	monster	Celestial	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		1
+ Giant Eagle	beast	Beast	DDEP1 - Corruption in Kryptgarden	2014 fifth edition	Wizards of the Coast		1
+ Giant Eagle	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		1
++Giant Eel	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Giant Elk	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		2
+ Giant Elk	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16882-giant-elk	2
+ Giant Elk	monster	Celestial	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195018-giant-elk	2
+@@ -6402,6 +6404,7 @@
+ Marilith	monster	Large Fiend (Demon)	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		16
+ Marilith (Summoner Variant)	monster	Fiend	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/301638-marilith-summoner-variant	16
+ Marine Cat	beast		Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition	TSR		
++Marine Eel	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Marisa	monster	Undead	Critical Role: Call of the Netherdeep	2014 fifth edition	Wizards of the Coast		4
+ Markham Southwell	monster	Humanoid	Storm King's Thunder	2014 fifth edition	Wizards of the Coast		
+ Markos Delphi	monster	Humanoid	Keys from the Golden Vault	2014 fifth edition	Wizards of the Coast		3
+@@ -10164,6 +10167,7 @@
+ Weasel, Giant	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	0.3
+ Wechselkind	species		Grim Hollow: Player Pack	Fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/species/1699133-wechselkind	
+ Wechselkind	species		Grim Hollow: Player’s Guide	Fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/species/1987225-wechselkind	
++Weed Eel	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Weeping Willow	monster	Plant	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4486043-weeping-willow	4
+ Wei Feng Ying	monster	Humanoid	Journeys through the Radiant Citadel	2014 fifth edition	Wizards of the Coast		12
+ Weirwood Sower	monster	Aberration	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	1.0

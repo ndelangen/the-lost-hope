@@ -1,0 +1,445 @@
+[
+  {
+    "name": "Deathlock",
+    "statBlock": {
+      "name": "Deathlock",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 128,
+      "classification": "Medium undead, neutral evil",
+      "ac": 12,
+      "hp": 36,
+      "hitDice": "8d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A warlock who broke a pact and rose from the dead to finish its patron’s work. A powerful necromancer can bind a deathlock as well.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "savingThrows": {
+        "Int": 4,
+        "Cha": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Turn Resistance. The Deathlock has advantage on saves against effects that turn undead.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The Deathlock uses Charisma (save DC 13) for its innate spells. It needs no material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.",
+        "Spellcasting": "A 5th-level warlock spellcaster using Charisma (save DC 13, +5 to hit with spell attacks). It regains spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Eldritch Blast, Mage Hand.\n1st through 3rd level (two 3rd-level slots). Arms of Hadar, Dispel Magic, Hold Person, Hunger of Hadar, Invisibility, Spider Climb.",
+        "Actions": "Deathly Claw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) necrotic damage.",
+        "Patron-specific spells": "The sidebar offers patron lists for replacing some or all of the leveled warlock spells. Keep the base spell slots and cantrips.\nArchfey patron. Blink, Faerie Fire, Hunger of Hadar, Hypnotic Pattern, Phantasmal Force, Sleep.\nFiend patron. Blindness/Deafness, Burning Hands, Command, Fireball, Hellish Rebuke, Scorching Ray.\nGreat Old One patron. Armor of Agathys, Detect Thoughts, Dissonant Whispers, Hunger of Hadar, Tasha's Hideous Laughter, Phantasmal Force.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 128."
+      }
+    }
+  },
+  {
+    "name": "Deathlock (Archfey Patron)",
+    "statBlock": {
+      "name": "Deathlock (Archfey Patron)",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 128,
+      "classification": "Medium undead, neutral evil",
+      "ac": 12,
+      "hp": 36,
+      "hitDice": "8d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A Deathlock using the Archfey spell list from the patron sidebar.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "savingThrows": {
+        "Int": 4,
+        "Cha": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Turn Resistance. The Deathlock has advantage on saves against effects that turn undead.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The Deathlock uses Charisma (save DC 13) for its innate spells. It needs no material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.",
+        "Spellcasting": "A 5th-level warlock spellcaster using Charisma (save DC 13, +5 to hit with spell attacks). It regains spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Eldritch Blast, Mage Hand.\n1st through 3rd level (two 3rd-level slots). Blink, Faerie Fire, Hunger of Hadar, Hypnotic Pattern, Phantasmal Force, Sleep.",
+        "Actions": "Deathly Claw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) necrotic damage.",
+        "Patron-specific spells": "This profile applies the full example spell list from its patron. The sidebar also allows a DM to replace only some of the base Deathlock’s listed warlock spells. Cantrips, slots, rest recharge and innate spells are inherited from the Deathlock.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 128, Deathlock and Patron-Specific Spells sidebar."
+      }
+    }
+  },
+  {
+    "name": "Deathlock (Fiend Patron)",
+    "statBlock": {
+      "name": "Deathlock (Fiend Patron)",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 128,
+      "classification": "Medium undead, neutral evil",
+      "ac": 12,
+      "hp": 36,
+      "hitDice": "8d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A Deathlock using the Fiend spell list from the patron sidebar. Its patron might send it to destroy a rival god’s temple.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "savingThrows": {
+        "Int": 4,
+        "Cha": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Turn Resistance. The Deathlock has advantage on saves against effects that turn undead.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The Deathlock uses Charisma (save DC 13) for its innate spells. It needs no material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.",
+        "Spellcasting": "A 5th-level warlock spellcaster using Charisma (save DC 13, +5 to hit with spell attacks). It regains spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Eldritch Blast, Mage Hand.\n1st through 3rd level (two 3rd-level slots). Blindness/Deafness, Burning Hands, Command, Fireball, Hellish Rebuke, Scorching Ray.",
+        "Actions": "Deathly Claw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) necrotic damage.",
+        "Patron-specific spells": "This profile applies the full example spell list from its patron. The sidebar also allows a DM to replace only some of the base Deathlock’s listed warlock spells. Cantrips, slots, rest recharge and innate spells are inherited from the Deathlock.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 128, Deathlock and Patron-Specific Spells sidebar."
+      }
+    }
+  },
+  {
+    "name": "Deathlock (Great Old One Patron)",
+    "statBlock": {
+      "name": "Deathlock (Great Old One Patron)",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 128,
+      "classification": "Medium undead, neutral evil",
+      "ac": 12,
+      "hp": 36,
+      "hitDice": "8d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A Deathlock using the Great Old One spell list from the patron sidebar. Its patron might send it to gather what it needs to summon an entity.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "savingThrows": {
+        "Int": 4,
+        "Cha": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Turn Resistance. The Deathlock has advantage on saves against effects that turn undead.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The Deathlock uses Charisma (save DC 13) for its innate spells. It needs no material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.",
+        "Spellcasting": "A 5th-level warlock spellcaster using Charisma (save DC 13, +5 to hit with spell attacks). It regains spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Eldritch Blast, Mage Hand.\n1st through 3rd level (two 3rd-level slots). Armor of Agathys, Detect Thoughts, Dissonant Whispers, Hunger of Hadar, Tasha's Hideous Laughter, Phantasmal Force.",
+        "Actions": "Deathly Claw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) necrotic damage.",
+        "Patron-specific spells": "This profile applies the full example spell list from its patron. The sidebar also allows a DM to replace only some of the base Deathlock’s listed warlock spells. Cantrips, slots, rest recharge and innate spells are inherited from the Deathlock.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 128, Deathlock and Patron-Specific Spells sidebar."
+      }
+    }
+  },
+  {
+    "name": "Deathlock Mastermind",
+    "statBlock": {
+      "name": "Deathlock Mastermind",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 129,
+      "classification": "Medium undead, neutral evil",
+      "ac": 13,
+      "hp": 110,
+      "hitDice": "20d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "description": "A powerful Deathlock with enough freedom to plan its own tactics. It recruits servants and builds conspiracies to carry out its patron’s orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5,
+        "History": 5,
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Cha": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft., including magical darkness.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Turn Resistance. The Deathlock has advantage on saves against effects that turn undead.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The Deathlock uses Charisma (save DC 14) for its innate spells. It needs no material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.",
+        "Spellcasting": "A 10th-level warlock spellcaster using Charisma (save DC 14, +6 to hit with spell attacks). It regains spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Mage Hand, Minor Illusion, Poison Spray.\n1st through 5th level (two 5th-level slots). Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility.",
+        "Actions": "Deathly Claw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (3d6 + 3) necrotic damage.\nGrave Bolts. Ranged spell attack, +6 to hit, range 120 ft., one or two targets. A hit deals 18 (4d8) necrotic damage. A target of Large size or smaller must pass a DC 16 Strength save or be restrained by shadowy tendrils for 1 minute. A restrained target can use its action to repeat the save and end the effect on a success.",
+        "Patron-specific spells": "The sidebar offers patron lists for replacing some or all of the leveled warlock spells. Keep the base spell slots and cantrips.\nArchfey patron. Blink, Dominate Beast, Dominate Person, Faerie Fire, Greater Invisibility, Hunger of Hadar, Hypnotic Pattern, Phantasmal Force, Seeming, Sleep.\nFiend patron. Blindness/Deafness, Burning Hands, Command, Fire Shield, Fireball, Flame Strike, Hellish Rebuke, Scorching Ray, Stinking Cloud, Wall of Fire.\nGreat Old One patron. Clairvoyance, Detect Thoughts, Dissonant Whispers, Dominate Person, Evard's Black Tentacles, Hunger of Hadar, Phantasmal Force, Sending, Tasha's Hideous Laughter, Telekinesis.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 128–129, Deathlock Mastermind and Patron-Specific Spells sidebar."
+      }
+    }
+  },
+  {
+    "name": "Deathlock Wight",
+    "statBlock": {
+      "name": "Deathlock Wight",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 129,
+      "classification": "Medium undead, neutral evil",
+      "ac": 12,
+      "hp": 37,
+      "hitDice": "5d8 + 15",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "An undead warlock stripped of much of its magic as punishment by a patron or necromancer.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 3,
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Wis": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Sunlight Sensitivity. In sunlight, the wight has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The wight uses Charisma (save DC 13) for its innate spells. It needs neither verbal nor material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.\n1/day each. Fear, Hold Person, Misty Step.",
+        "Actions": "Multiattack. Make two Grave Bolt attacks.\nGrave Bolt. Ranged spell attack, +5 to hit, range 120 ft., one target. A hit deals 7 (1d8 + 3) necrotic damage.\nLife Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 9 (2d6 + 2) necrotic damage. On a failed DC 13 Constitution save, reduce the target’s hit point maximum by the damage taken until it finishes a long rest. The target dies if this drops its maximum to 0. A Humanoid slain by this attack rises 24 hours later as a Zombie under the wight’s control unless the Humanoid is revived or its body is destroyed. The wight can control up to twelve Zombies this way.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 129."
+      }
+    }
+  },
+  {
+    "name": "Demogorgon",
+    "statBlock": {
+      "name": "Demogorgon",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 144,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 22,
+      "hp": 406,
+      "hitDice": "28d12 + 224",
+      "speed": "50 ft., swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 29,
+      "description": "The Prince of Demons is a two-headed lord of the Abyss. The rival heads Aameul and Hathradiah share an apelike torso, a reptilian lower body and tentacles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 11,
+        "Perception": 19
+      },
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 16,
+        "Wis": 11,
+        "Cha": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire and lightning.",
+        "Damage immunities": "Poison. Nonmagical bludgeoning, piercing and slashing damage.",
+        "Condition immunities": "Charmed, exhaustion, frightened and poisoned.",
+        "Innate Spellcasting": "Demogorgon uses Charisma (save DC 23) and needs no material components.\nAt will. Detect Magic, Major Image.\n3/day each. Dispel Magic, Fear, Telekinesis.\n1/day each. Feeblemind, Project Image.",
+        "Traits": "Legendary Resistance (3/Day). When Demogorgon fails a saving throw, he can choose to succeed.\nMagic Resistance. Demogorgon has advantage on saves against spells and other magical effects.\nMagic Weapons. Demogorgon’s weapon attacks count as magical.\nTwo Heads. Demogorgon has advantage on saving throws to avoid being blinded, deafened, stunned or knocked unconscious.",
+        "Actions": "Multiattack. Make two Tentacle attacks.\nTentacle. Melee weapon attack, +17 to hit, reach 10 ft., one target. A hit deals 28 (3d12 + 9) bludgeoning damage. If the target is a creature, it makes a DC 23 Constitution save. On a failure, reduce its hit point maximum by the damage taken until it finishes a long rest. It dies if this drops its maximum to 0.\nGaze. Choose one creature Demogorgon can see within 120 ft. It makes a DC 23 Wisdom save against his magical gaze. A target that is not incapacitated can avert its eyes and pass the save automatically. It then cannot see Demogorgon until the start of his next turn. If it looks at him before then, it must immediately make the save. On a failed save, Demogorgon chooses one of the three effects or determines it at random.\nBeguiling Gaze. The target is stunned until the start of Demogorgon’s next turn or until he is out of its line of sight.\nHypnotic Gaze. The target is charmed until the start of Demogorgon’s next turn. He chooses how it spends its actions, reactions and movement. Both heads are occupied, so Demogorgon cannot use Maddening Gaze until the start of his next turn.\nInsanity Gaze. Apply Confusion without an extra save or concentration until the start of Demogorgon’s next turn.",
+        "Legendary actions": "Demogorgon has two legendary actions and regains spent uses at the start of his turn. He can use one option at the end of another creature’s turn. Each option costs one use.\nTail. Melee weapon attack, +17 to hit, reach 15 ft., one target. A hit deals 20 (2d10 + 9) bludgeoning damage plus 11 (2d10) necrotic damage.\nMaddening Gaze. Use Gaze with either the Beguiling or Insanity effect.",
+        "Lair actions": "At initiative count 20, losing ties, Demogorgon may use either option. He cannot repeat the same option in consecutive rounds.\nIllusory duplicate. An illusion of Demogorgon appears in his space and lasts until initiative count 20 of the next round. On his turn, he can move the duplicate up to his walking speed without using an action. The first time a creature or object physically interacts with him, there is a 50% chance it affects the duplicate. The duplicate vanishes if affected.\nDarkness. Cast Darkness at its lowest level in four different areas without concentration. All four effects end on initiative count 20 of the next round.",
+        "Regional effects": "The following effects can occur around Abysm, his palace in the Gaping Maw.\nVenomous beasts. Lizards, venomous snakes and other venomous beasts overpopulate the area within 6 miles.\nViolent beasts. Within 1 mile, beasts grow violent even if normally docile.\nMadness. After at least an hour within 1 mile, a Humanoid makes a DC 23 Wisdom save. On a failure, roll on Madness of Demogorgon. A success makes the creature immune to this regional effect for 24 hours.\nThe effects fade over 1d10 days if Demogorgon dies.",
+        "Madness of Demogorgon": "When a creature goes mad in Demogorgon’s lair or within sight of him, roll d100. The flaw lasts until cured.\n01–20. The creature believes someone plans to kill it and must be attacked first.\n21–40. The creature believes killing everyone involved will solve its problems.\n41–60. The creature believes it shares its head with another mind.\n61–80. The creature tries to force anyone who disagrees to submit through violence.\n81–00. The creature fears theft and refuses to let others touch its belongings.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 144–145."
+      }
+    }
+  }
+]

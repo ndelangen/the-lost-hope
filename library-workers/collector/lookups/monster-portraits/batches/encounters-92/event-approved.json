@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Azurin",
+    "slug": "azurin",
+    "caption": "Lysa Vale · Original Azurin NPC",
+    "id": "species-95aba34cc8388ba29d8118fe:5f07c75f1964951bf35432b2",
+    "entry": "species-95aba34cc8388ba29d8118fe",
+    "version": "5f07c75f1964951bf35432b2",
+    "suffix": "encounters-92/azurin.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-92/azurin.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-92/event-drafts/azurin-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 92 2026-11-24/event-drafts/azurin-event-v1.png",
+    "overrides": [],
+    "sha256": "6cc7f4205f6be4ed16488051e81c9b42906d2340a4b037ca181517646fa5ba41",
+    "bytes": 1992676
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Insect, Giant Wasp",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-giant-wasp/kobold-press-wasp-swarm.webp",
+    "artist": "Giant Wasp Foundry token (wasp swarm) · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "52d38043af0d709eebdcfc0a3708058d729397660485ab5d80d33d72e3dff7d8",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/wasp-swarm.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Giant Wasp",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-giant-wasp/giant-wasp-2024-rules-related.webp",
+    "artist": "Related Giant Wasp art by Dario Jelusic · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "8752d55d5d094620d15b3ab38a04738f8dc28d2a58ec7405d2cd318d8010298b",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Wasp.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Scorpion",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-scorpion/kobold-press-scorpion.webp",
+    "artist": "Scorpion · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "9900f88b40fa7415975ef6dee064200ea4fd94d770411f23b43df3d371bd7736",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/scorpion.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Scorpion",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-scorpion/scorpion-2024-rules-related.webp",
+    "artist": "Related Scorpion art by Michele Giorgi · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b32f0e41920b6670031b507ad53a1827c59acaf985d72e66dedde88173e4da84",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Scorpion.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Swarm of Insects",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-swarm-of-insects/kobold-press-insects-swarm.webp",
+    "artist": "Swarm of Insects · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "fa3caeca88d384caaee7be844091cba211387fe965c095d896bd240db16b7918",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/insects-swarm.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Swarm of Insects",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-swarm-of-insects/swarm-of-insects-2024-rules-related.webp",
+    "artist": "Related Swarm of Insects art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ad25483bbe86c6b4fd96ca07b94cc2d0514e434fad7c0d25a842316c0122194c",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Insects.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Lizard, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/lizard-giant/kobold-press-lizard-giant.webp",
+    "artist": "Giant Lizard · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "06c66c8dc7109e9a97798902765f32bd0ef6da22f914a9b335d9a8c5abfc6f49",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/lizard-giant.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Lizard, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/lizard-giant/giant-lizard-2024-rules-related.webp",
+    "artist": "Related Giant Lizard art by Jonathan Kuo · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "a8527332acd4d413a22dc78fe9becd6e0377a711b560f574cbe2ee286bcc289c",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Lizard.webp"
+  }
+]

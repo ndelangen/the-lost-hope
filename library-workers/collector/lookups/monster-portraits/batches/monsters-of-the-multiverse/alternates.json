@@ -1,0 +1,134 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Amnizu (Summoner)",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/amnizu-summoner/source-amnizu-mpmm.webp",
+    "artist": "Base creature art: Amnizu · Mordenkainen Presents: Monsters of the Multiverse · Tom Babbey",
+    "kind": "illustration",
+    "sha256": "2adaec8f2fdea44e3fd415ffa51716173f5b85aa9c194616084bc04882953912",
+    "reference": "images/monsters/amnizu/mpmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Amnizu (Summoner)",
+    "publication": "Mordenkainen's Tome of Foes",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/amnizu-summoner/source-amnizu-mtf.webp",
+    "artist": "Base creature art: Amnizu · Mordenkainen's Tome of Foes · Tom Babbey",
+    "kind": "illustration",
+    "sha256": "aed29a18f28e7cf4b8623aee001fbc02983824622cf2d732a9cf24aa4190cb0b",
+    "reference": "images/monsters/amnizu/mtf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Drow Inquisitor (Summoner)",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/drow-inquisitor-summoner/source-drow-inquisitor-mpmm.webp",
+    "artist": "Base creature art: Drow Inquisitor · Mordenkainen Presents: Monsters of the Multiverse · Nikki Dawes",
+    "kind": "illustration",
+    "sha256": "41db1778e39fe2961fc97ae63a5561964dbf55e5acbf137ac9bfc8ad3121f42e",
+    "reference": "images/monsters/drow-inquisitor/mpmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Drow Inquisitor (Summoner)",
+    "publication": "Mordenkainen's Tome of Foes",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/drow-inquisitor-summoner/source-drow-inquisitor-mtf.webp",
+    "artist": "Base creature art: Drow Inquisitor · Mordenkainen's Tome of Foes",
+    "kind": "token",
+    "sha256": "89ba238036c3114ddf5a87e761bd55b25fd3047d3cbb821108a2dfb81f7def98",
+    "reference": "images/monsters/drow-inquisitor/mtf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Drow Shadowblade (Summoner)",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/drow-shadowblade-summoner/source-drow-shadowblade-mpmm.webp",
+    "artist": "Base creature art: Drow Shadowblade · Mordenkainen Presents: Monsters of the Multiverse · Zuzanna Wužyk",
+    "kind": "illustration",
+    "sha256": "9a88e6e158df8aea693cb4e905af57ae6ed6820196694ba835dd515639a5c387",
+    "reference": "images/monsters/drow-shadowblade/mpmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Drow Shadowblade (Summoner)",
+    "publication": "Mordenkainen's Tome of Foes",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/drow-shadowblade-summoner/source-drow-shadowblade-mtf.webp",
+    "artist": "Base creature art: Drow Shadowblade · Mordenkainen's Tome of Foes",
+    "kind": "token",
+    "sha256": "3a525081c5f3832289a67ecf3e8855ec16a576ad9b298a35c3374a84be727474",
+    "reference": "images/monsters/drow-shadowblade/mtf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Geryon (Summoner)",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/geryon-summoner/source-geryon-mpmm.webp",
+    "artist": "Base creature art: Geryon · Mordenkainen Presents: Monsters of the Multiverse · Claudio Pozas",
+    "kind": "illustration",
+    "sha256": "fd0c316405b70cae019ad5097a6a8dd93127dad8b92182f160065feec5952b9b",
+    "reference": "images/monsters/geryon/mpmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Geryon (Summoner)",
+    "publication": "Mordenkainen's Tome of Foes",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/geryon-summoner/source-geryon-mtf.webp",
+    "artist": "Base creature art: Geryon · Mordenkainen's Tome of Foes · Claudio Pozas",
+    "kind": "illustration",
+    "sha256": "23c5d1ad06a685de6a221d1ea5a599c83eb1c7a71f384bd5a7e72c70ef0cba03",
+    "reference": "images/monsters/geryon/mtf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Molydeus (Summoner)",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/molydeus-summoner/source-molydeus-mpmm.webp",
+    "artist": "Base creature art: Molydeus · Mordenkainen Presents: Monsters of the Multiverse · Christopher Burdett",
+    "kind": "illustration",
+    "sha256": "fb48ab6cdd6ce4c0219e78a64eef546eb07395a220f3c177c40a766ccac477b6",
+    "reference": "images/monsters/molydeus/mpmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Molydeus (Summoner)",
+    "publication": "Mordenkainen's Tome of Foes",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/molydeus-summoner/source-molydeus-mtf.webp",
+    "artist": "Base creature art: Molydeus · Mordenkainen's Tome of Foes",
+    "kind": "token",
+    "sha256": "1900c34a25df50393375209720107833df571270558e7ee3b68d92ee0150eabe",
+    "reference": "images/monsters/molydeus/mtf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Sibriex (Flesh Warping)",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/sibriex-flesh-warping/source-sibriex-mpmm.webp",
+    "artist": "Base creature art: Sibriex · Mordenkainen Presents: Monsters of the Multiverse · Christopher Burdett",
+    "kind": "illustration",
+    "sha256": "6faf98924d4966b32fd449563b76b8642e6424e9972a090f8d297443bc20b5d2",
+    "reference": "images/monsters/sibriex/mpmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Sibriex (Flesh Warping)",
+    "publication": "Mordenkainen's Tome of Foes",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/sibriex-flesh-warping/source-sibriex-mtf.webp",
+    "artist": "Base creature art: Sibriex · Mordenkainen's Tome of Foes · Christopher Burdett",
+    "kind": "illustration",
+    "sha256": "654363647f0f44ecf3e1497a21a3089801af591971cb85bc0bbcfb4489a0c95f",
+    "reference": "images/monsters/sibriex/mtf-1.webp"
+  }
+]

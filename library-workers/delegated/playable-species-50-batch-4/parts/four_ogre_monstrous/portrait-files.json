@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Skullcrusher Ogre",
+    "file": "",
+    "sha256": "c44c2755bca2f144cabf88aefa931e4909d248b9134b993f9a0dbc5c77b6c896",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Naztharune Rakshasa",
+    "file": "",
+    "sha256": "6f58a7fed845ba36bb3743a74636fee7a9840b049f8c55e6b50b72b46ed519c1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Crystalline Troll",
+    "file": "",
+    "sha256": "24de9999071781e6a8dd683297bda36c3e7f3851e2a14216e8939b5cd7be0fbc",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ogre Mage",
+    "file": "",
+    "sha256": "613ea73e7bd66286f0b2ddbc5cdd3e75f81975b50c24ef5d46e6cc2b7cd88db0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Irda",
+    "file": "",
+    "sha256": "870cf564f9d406baae3a7a03f4bd9528fa6afcbc2a598e8150aba096ae50069b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

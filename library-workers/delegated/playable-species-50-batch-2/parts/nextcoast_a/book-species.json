@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Cayma",
+    "kind": "species",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Tiny lizard kin of Cay, typically 12–18 inches tall and 6–10 pounds. Their dark eyes have no visible pupil. They speak a Shazak dialect, and some also speak Common.",
+      "Ability adjustments are +2 Dexterity, −1 Strength and −1 Wisdom. Infravision 90 feet. Swimming is a bonus proficiency. A Cayma can also take Architecture or Engineering as a bonus proficiency at half the normal proficiency score, rounded down.",
+      "Class limits are fighter 8, wizard 12, priest 8, thief 14 and optional psionicist 8. Fighter/thief and thief/psionicist are the allowed combinations.",
+      "Cayma thieves apply −10 Pick Pockets, +10 Open Locks, +5 Find/Remove Traps, +10 Move Silently and +10 Hide in Shadows, in percentage points. The Savage Warrior kit separately grants detect magic within 10 feet once a day per level."
+    ]
+  },
+  {
+    "name": "Ee’aar",
+    "kind": "species",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Winged elves from Aeryl who speak Aeryla, an Elvish dialect. Ability adjustments are +2 Dexterity and −2 Constitution. Infravision extends 60 feet and daylight vision can distinguish details over a mile away. Starting characters gain no initial Legacy.",
+      "Fly 18 at maneuverability B while carrying up to half body weight, or C with a load up to body weight. Leather, studded leather and glassteel elven chain are compatible with flight. Ee’aar never use shields. Check Constitution hourly during flight, with a −1 for carrying more than half body weight, +4 while gliding in favorable wind and −1 per 5,000 feet above the first 5,000. Ceiling 20,000 feet. Failure requires half an hour of rest per two hours of prior flight.",
+      "Wing AC is 9 improved by Dexterity. Back attacks target the wings. A flank miss can hit if it beats wing AC, and a frontal attack can target the wings if the attacker is taller. At 50% HP lost only gliding is possible. At 75% lost gliding also ends. A standing jump reaches 10 feet. A qualifying fire hit or failed save ignites the wings unless extinguished in 1d4 rounds. Burned wings cause 2d6 additional damage and ground the character for one month.",
+      "Gain +1 to attack with a shortsword, bolas or lasso, and 30% resistance to sleep and charm spells. An adult carries a chest light that can be switched on, off or made to flicker at will. Enclosed confinement calls for a daily Wisdom check. Failures cause distress until open air. Five failures in one confinement require heal or cure disease.",
+      "Class limits are fighter 14, wizard 15, priest 12, thief 8, bard 10 and optional psionicist 7. Allowed combinations pair two of fighter, wizard and priest. The PC rules forbid longbows and make medium or large slashing weapons ineffective.",
+      "Ee’aar thieves apply −5 Open Locks, +5 Find/Remove Traps, −5 Hide in Shadows, +15 Detect Noise and −20 Climb Walls. These are percentage-point adjustments."
+    ]
+  },
+  {
+    "name": "Enduk",
+    "kind": "species",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Bull-headed, feather-winged folk of Eshu who speak Nimmurian. Most stand 6–7 feet tall. Those over 7 feet count as Large. Ability adjustments are +2 Strength and −2 Dexterity. Daylight vision can distinguish details up to half a mile away.",
+      "Natural AC 6. Most light armor gives AC 5. The horns deal 1d4+1 damage. At 1st level an Enduk takes a mace or club proficiency. Proficiency with other piercing or slashing melee arms waits until level 3, with a flight-lance exception. Both longbows and shortbows are forbidden, and medium or large slashing weapons are unwieldy.",
+      "Fly 12 at maneuverability C with a load up to body weight, or D up to twice body weight. Flight requires bronze plate or lighter and has a 10,000-foot ceiling. After three turns of flight, check Constitution each turn. Failure requires one turn of rest per three turns already flown.",
+      "Gliding replaces flight after losing at least half normal HP, and ends at 75% HP loss. Fire exposure calls for immediate extinguishing for 1d4 rounds. If feathers burn, take 2d6 additional damage and lose flight for one month. Enclosed spaces cause no special hindrance.",
+      "Class limits are fighter 14, wizard 12, unlimited priest, thief 8, bard 9 and optional psionicist 8. Fighter/priest, fighter/psionicist and priest/psionicist are available, with twice the ordinary chance of a wild talent when psionics are in play.",
+      "Enduk thieves apply −5 Hide in Shadows, +5 Detect Noise, −20 Climb Walls and +10 Read Languages. These are percentage-point adjustments."
+    ]
+  },
+  {
+    "name": "Gurrash",
+    "kind": "species",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Large alligator-headed lizard kin of Ator, commonly seven to eight feet tall. They speak a Shazak dialect. Ability adjustments are +2 Strength, +1 Constitution, −2 Wisdom and −2 Charisma.",
+      "Natural AC 5 and Swimming as a bonus proficiency. Only starting gurrash wizards can take Reading/Writing.",
+      "Frustration or confusion, or at least 8 damage in a single hit, triggers a Wisdom check at −2. On a failure the Gurrash fights for up to five rounds with the courage effects of the emotion spell. Removing the frustration can end a frustration-triggered rage. A wound-triggered rage targets the attacker and ends early only by magic or the target’s death.",
+      "Class limits are fighter 15, wizard 6, priest 7, thief 9 and optional psionicist 7. Fighter/priest and fighter/thief are available. Priests must be Shamans or War Priests. The Savage Warrior kit separately grants its 10-foot intrusion alarm.",
+      "Gurrash thieves apply −5 Pick Pockets, −10 Open Locks, +5 Find/Remove Traps, +5 Move Silently, +5 Hide in Shadows, +5 Detect Noise and −10 Read Languages. These are percentage-point adjustments."
+    ]
+  },
+  {
+    "name": "Manscorpion",
+    "kind": "species",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "The standard PC is an Um-Shedu manscorpion whose sunlight curse was lifted after aiding the Enduks. The DM can allow a redemption-seeking character who still bears the curse.",
+      "Ability adjustments are +1 Strength and Constitution and −1 Intelligence and Wisdom. Um-Shedu adjust effective Charisma by −1 with other humanoids and −4 with demihumans or humans. Nimmurian is the usual language.",
+      "Natural AC 7 and infravision. Body armor rated 7 or worse gives AC 6. For armor rated 6 or better, improve its AC by 1. Shields and Dexterity modify normally. They cannot swim. Choose bonus Artistic Ability or Charioteering. Astronomy and Astrology are unavailable at character creation.",
+      "The Um-Shedu sting uses sleep venom. A target failing a poison save is woozy for one round, then sleeps for 2d8 rounds. Neutralize poison can awaken the target early. The save penalty is −1 per three character levels, capped at −4. Um-Shedu are immune to other manscorpions’ venom and gain +2 on other poison saves.",
+      "Class limits are fighter 12, wizard 12, priest 12, thief 7, bard 10 and optional psionicist 7. Fighter/thief, fighter/priest and fighter/psionicist are available. Starting priests serve Idu or Ilsundal. Wizard specialization is unavailable.",
+      "Manscorpion thieves apply +5 Open Locks, −20 Move Silently, −5 Hide in Shadows, +5 Detect Noise and −25 Climb Walls. These are percentage-point adjustments."
+    ]
+  }
+]

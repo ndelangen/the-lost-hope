@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Catfolk",
+    "kind": "species",
+    "publication": "Races of the Wild (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Catfolk subtype. Dexterity +4, Charisma +2, and 40-ft. base land speed.",
+      "Low-light vision extends human distance in dim light to twice the range and retains color and detail. +1 natural armor bonus to AC.",
+      "+2 racial bonus to Listen and Move Silently checks.",
+      "Thick nails use ordinary unarmed attacks. The playable species has no racial claw or bite attack.",
+      "Common and Feline are automatic languages. Bonus languages Draconic, Gnoll, Halfling, Sylvan. Favored class Ranger. Level adjustment +1.",
+      "Optional Catfolk Pounce feat from p. 148 requires Catfolk and Dexterity 13. A Catfolk who takes it can make a full attack at the end of a charge against a flat-footed opponent. A Catfolk Fighter can take it as a bonus feat.",
+      "Lionlike, leopard-, tiger-, and cheetah-like appearances are described. The book gives these appearances the same playable traits."
+    ]
+  }
+]

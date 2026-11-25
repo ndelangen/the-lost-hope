@@ -73,6 +73,23 @@ const config = defineConfig(({ mode }) => {
     ''
 
   return {
+    build: {
+      rolldownOptions: {
+        output: {
+          codeSplitting: {
+            groups: [
+              {
+                name: (id) => {
+                  const catalog = /\/published-library-catalog\/([\w-]+)\.json$/.exec(id)
+                  return catalog ? `published-library-catalog-${catalog[1]}` : null
+                },
+                includeDependenciesRecursively: false,
+              },
+            ],
+          },
+        },
+      },
+    },
     define: {
       CORRECTIONS_ACCESS_CODE_DIGEST: JSON.stringify(accessCodeHash),
     },

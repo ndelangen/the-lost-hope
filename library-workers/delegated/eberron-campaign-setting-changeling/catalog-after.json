@@ -1,0 +1,1260 @@
+[
+  {
+    "name": "Changeling",
+    "kind": "species",
+    "group": "2024 fifth edition",
+    "groups": [
+      "2024 fifth edition",
+      "2014 fifth edition",
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-2d1d83250720679fb609f8fc",
+      "name": "Changeling",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid",
+        "Unclassified"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Eberron: Rising from the Last War"
+        },
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Eberron: Rising from the Last War"
+        }
+      ],
+      "versions": [
+        {
+          "key": "ff3a97d2437f1309b1251f6b",
+          "publication": "Eberron: Rising from the Last War",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 1/2. Named abilities include Change Appearance, Dagger, Unsettling Visage (Recharges after a Short or Long Rest).",
+          "source": "https://5e.tools/bestiary.html#changeling_erlw",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/7727/55/1000/1000/637091775858665647.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Eberron: Rising from the Last War"
+            },
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Eberron: Rising from the Last War"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "22"
+            ],
+            [
+              "Hit dice",
+              "4d8 + 4"
+            ],
+            [
+              "Challenge",
+              "1/2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "12"
+            ],
+            [
+              "Strength",
+              "8"
+            ],
+            [
+              "Dexterity",
+              "15"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "14"
+            ],
+            [
+              "Wisdom",
+              "10"
+            ],
+            [
+              "Charisma",
+              "16"
+            ],
+            [
+              "Creature tags",
+              "changeling, shapechanger"
+            ],
+            [
+              "Alignment",
+              "any alignment"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Dagger · melee or ranged · +4 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Acrobatics +4, Deception +5, Insight +2, Perception +2, Persuasion +5"
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Common, Dwarvish, Elvish, Halfling, Thieves' cant"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Change Appearance"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Dagger · Melee or ranged attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
+                "Unsettling Visage (Recharges after a Short or Long Rest) · DC 13 Wisdom save · 1 minute · within 30 feet · Repeat the save at the end of each turn · Frightened"
+              ]
+            }
+          ],
+          "sourceCode": "ERLW",
+          "page": 317,
+          "references": [
+            {
+              "label": "Eberron: Rising from the Last War, p. 317",
+              "url": "https://5e.tools/bestiary.html#changeling_erlw"
+            },
+            {
+              "label": "Leather armor (item)",
+              "url": "https://5e.tools/items.html#leather%20armor_phb",
+              "local": {
+                "entry": "item-cebdf9513c0fd232b63036a4",
+                "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+              },
+              "preview": {
+                "name": "Leather armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A light armor.",
+                "local": {
+                  "entry": "item-cebdf9513c0fd232b63036a4",
+                  "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+                }
+              }
+            },
+            {
+              "label": "Frightened (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#frightened_phb",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              },
+              "preview": {
+                "name": "Frightened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                "local": {
+                  "entry": "compendium-879f347e29c83a95483201f4",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Medium humanoid with challenge rating 1/2. Named abilities include Change Appearance, Dagger, Unsettling Visage (Recharges after a Short or Long Rest).": [
+              {
+                "start": 142,
+                "end": 151,
+                "target": {
+                  "name": "Long Rest",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 370,
+                  "local": {
+                    "entry": "compendium-98495753e138034822d956bb",
+                    "version": "XPHB:370:https://5e.tools/variantrules.html#long%20rest_xphb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Acrobatics +4, Deception +5, Insight +2, Perception +2, Persuasion +5": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Acrobatics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 176,
+                  "local": {
+                    "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+                    "version": "PHB:176:https://5e.tools/skills.html#acrobatics_phb"
+                  }
+                }
+              },
+              {
+                "start": 15,
+                "end": 24,
+                "target": {
+                  "name": "Deception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-0839cb8ea42ddb14652f72af",
+                    "version": "PHB:178:https://5e.tools/skills.html#deception_phb"
+                  }
+                }
+              },
+              {
+                "start": 29,
+                "end": 36,
+                "target": {
+                  "name": "Insight",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                    "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+                  }
+                }
+              },
+              {
+                "start": 41,
+                "end": 51,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 56,
+                "end": 66,
+                "target": {
+                  "name": "Persuasion",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 179,
+                  "local": {
+                    "entry": "compendium-c53db7b407a93f295c291cf9",
+                    "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+                  }
+                }
+              }
+            ],
+            "Unsettling Visage (Recharges after a Short or Long Rest) · DC 13 Wisdom save · 1 minute · within 30 feet · Repeat the save at the end of each turn · Frightened": [
+              {
+                "start": 46,
+                "end": 55,
+                "target": {
+                  "name": "Long Rest",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 370,
+                  "local": {
+                    "entry": "compendium-98495753e138034822d956bb",
+                    "version": "XPHB:370:https://5e.tools/variantrules.html#long%20rest_xphb"
+                  }
+                }
+              },
+              {
+                "start": 149,
+                "end": 159,
+                "target": {
+                  "name": "Frightened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                  "local": {
+                    "entry": "compendium-879f347e29c83a95483201f4",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "1026d731c19068741d638175",
+          "publication": "Blood Spawn: Creatures of Light and Shadow",
+          "edition": "AD&D 2nd edition",
+          "images": [],
+          "stats": [],
+          "sections": []
+        },
+        {
+          "key": "e9ccf2254e1181e1f2136ecd",
+          "publication": "Denizens of Darkness",
+          "edition": "3.0 edition",
+          "images": [],
+          "stats": [],
+          "sections": []
+        },
+        {
+          "key": "1d665855eca6dbd80b62abcf",
+          "publication": "Denizens of Dread",
+          "edition": "3.5 edition",
+          "images": [],
+          "stats": [],
+          "sections": []
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Eberron: Rising from the Last War"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "4dbc55abd304587b2e3bad7f",
+      "publication": "Eberron Campaign Setting (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144376M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Shapechanger)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Shapechanger subtype. Base land speed 30 ft. The edition gives no racial ability adjustments, racial Hit Dice, or level adjustment.",
+            "+2 racial on saving throws against sleep and charm effects.",
+            "+2 racial on Bluff, Intimidate, and Sense Motive checks.",
+            "Natural Linguist makes Speak Language a class skill in every class the Changeling takes.",
+            "Minor Change Shape (Su) is an at-will full-round action that physically alters the Changeling’s body, including facial features, skin color and texture, and size within the limits of disguise self. Clothing and possessions keep their appearance.",
+            "Within the disguise self limits, height can vary by up to 1 ft. and build can vary while keeping the same basic body plan. The new appearance retains the Changeling’s game traits. Wizards’ 3.5 FAQ gives the appearance of a Warforged as an example.",
+            "Minor Change Shape grants +10 circumstance on Disguise checks when used to create a disguise. The form lasts until another change. True seeing reveals the natural form, and death restores it.",
+            "In this printing, Changelings can copy a dragonmark’s appearance. Their ancestry does not develop dragonmarks or confer their powers.",
+            "Common is automatic. Bonus languages are Auran, Dwarven, Elven, Giant, Gnome, Halfling, and Terran. Favored class Rogue."
+          ]
+        },
+        {
+          "title": "Original NPC · Rem",
+          "lines": [
+            "Docket clerk and Expert.",
+            "Motive. Reconcile the two docket copies before the afternoon hearing.",
+            "Hook. Rem can show the witness both appearances from the registry counter if the party brings the disputed copy.",
+            "Changeling docket clerk, Expert 1 · Provisional CR 1/2. ECL 1. · Medium Humanoid (Shapechanger)",
+            "AC 13 · HP 7 (1d6+1) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Serr",
+          "lines": [
+            "Stage understudy and Rogue.",
+            "Motive. Cover the opening scene while the crew locates a missing performer.",
+            "Hook. Serr can take the missing performer’s place once the party retrieves the costume from the dressing rack.",
+            "Changeling stage understudy, Rogue 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Shapechanger)",
+            "AC 14 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Rem": [
+          {
+            "start": 15,
+            "end": 18,
+            "target": {
+              "name": "Rem",
+              "group": "Changeling",
+              "publication": "Changeling docket clerk, Expert 1",
+              "local": {
+                "entry": "npc-8fbd42ad079a6ceeaf6cecc9",
+                "version": "28fadf52866850bffe00d714"
+              }
+            }
+          }
+        ],
+        "Hook. Rem can show the witness both appearances from the registry counter if the party brings the disputed copy.": [
+          {
+            "start": 6,
+            "end": 9,
+            "target": {
+              "name": "Rem",
+              "group": "Changeling",
+              "publication": "Changeling docket clerk, Expert 1",
+              "local": {
+                "entry": "npc-8fbd42ad079a6ceeaf6cecc9",
+                "version": "28fadf52866850bffe00d714"
+              }
+            }
+          }
+        ],
+        "Original NPC · Serr": [
+          {
+            "start": 15,
+            "end": 19,
+            "target": {
+              "name": "Serr",
+              "group": "Changeling",
+              "publication": "Changeling stage understudy, Rogue 1",
+              "local": {
+                "entry": "npc-fbe91dc3f55aacf01938bcdd",
+                "version": "08c0f5b763f4345c3fa66d8b"
+              }
+            }
+          }
+        ],
+        "Hook. Serr can take the missing performer’s place once the party retrieves the costume from the dressing rack.": [
+          {
+            "start": 6,
+            "end": 10,
+            "target": {
+              "name": "Serr",
+              "group": "Changeling",
+              "publication": "Changeling stage understudy, Rogue 1",
+              "local": {
+                "entry": "npc-fbe91dc3f55aacf01938bcdd",
+                "version": "08c0f5b763f4345c3fa66d8b"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "dc99d1c63293d1c6881c5ccc",
+        "publication": "Eberron: Forge of the Artificer",
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/races.html#changeling_efa",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/52994/765/340/340/638996059003032033.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Leroy Steinmann · Eberron: Forge of the Artificer"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Small, Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Small or Medium.",
+              "Walking speed 30 feet.",
+              "Source traits include Changeling Instincts, Shape-Shifter."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Changeling Instincts",
+              "Shape-Shifter"
+            ]
+          }
+        ],
+        "sourceCode": "EFA",
+        "page": 34,
+        "references": [
+          {
+            "label": "Eberron: Forge of the Artificer, p. 34",
+            "url": "https://5e.tools/races.html#changeling_efa"
+          },
+          {
+            "label": "Deception (skill)",
+            "url": "https://5e.tools/skills.html#deception_xphb",
+            "local": {
+              "entry": "compendium-0839cb8ea42ddb14652f72af",
+              "version": "XPHB:14:https://5e.tools/skills.html#deception_xphb"
+            },
+            "preview": {
+              "name": "Deception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-0839cb8ea42ddb14652f72af",
+                "version": "XPHB:14:https://5e.tools/skills.html#deception_xphb"
+              }
+            }
+          },
+          {
+            "label": "Insight (skill)",
+            "url": "https://5e.tools/skills.html#insight_xphb",
+            "local": {
+              "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+              "version": "XPHB:14:https://5e.tools/skills.html#insight_xphb"
+            },
+            "preview": {
+              "name": "Insight",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                "version": "XPHB:14:https://5e.tools/skills.html#insight_xphb"
+              }
+            }
+          },
+          {
+            "label": "Intimidation (skill)",
+            "url": "https://5e.tools/skills.html#intimidation_xphb",
+            "local": {
+              "entry": "compendium-a7e769241bd92cb3d60ad83b",
+              "version": "XPHB:14:https://5e.tools/skills.html#intimidation_xphb"
+            },
+            "preview": {
+              "name": "Intimidation",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                "version": "XPHB:14:https://5e.tools/skills.html#intimidation_xphb"
+              }
+            }
+          },
+          {
+            "label": "Performance (skill)",
+            "url": "https://5e.tools/skills.html#performance_xphb",
+            "local": {
+              "entry": "compendium-7610ba8fb886e9c28979a651",
+              "version": "XPHB:14:https://5e.tools/skills.html#performance_xphb"
+            },
+            "preview": {
+              "name": "Performance",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-7610ba8fb886e9c28979a651",
+                "version": "XPHB:14:https://5e.tools/skills.html#performance_xphb"
+              }
+            }
+          },
+          {
+            "label": "Persuasion (skill)",
+            "url": "https://5e.tools/skills.html#persuasion_xphb",
+            "local": {
+              "entry": "compendium-c53db7b407a93f295c291cf9",
+              "version": "XPHB:14:https://5e.tools/skills.html#persuasion_xphb"
+            },
+            "preview": {
+              "name": "Persuasion",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-c53db7b407a93f295c291cf9",
+                "version": "XPHB:14:https://5e.tools/skills.html#persuasion_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Small or Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "ff3a97d2437f1309b1251f6b",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#changeling_erlw",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/7743/443/340/340/637093220265349425.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Eberron: Rising from the Last War"
+          },
+          {
+            "url": "",
+            "credit": "Olga Drebas · Eberron: Rising from the Last War"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 30 feet.",
+              "Source traits include Age, Alignment, Size, Shapechanger, Changeling Instincts, Languages."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Age",
+              "Alignment",
+              "Size",
+              "Shapechanger",
+              "Changeling Instincts",
+              "Languages"
+            ]
+          }
+        ],
+        "sourceCode": "ERLW",
+        "page": 17,
+        "references": [
+          {
+            "label": "Eberron: Rising from the Last War, p. 17",
+            "url": "https://5e.tools/races.html#changeling_erlw"
+          },
+          {
+            "label": "Deception (skill)",
+            "url": "https://5e.tools/skills.html#deception_phb",
+            "local": {
+              "entry": "compendium-0839cb8ea42ddb14652f72af",
+              "version": "PHB:178:https://5e.tools/skills.html#deception_phb"
+            },
+            "preview": {
+              "name": "Deception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-0839cb8ea42ddb14652f72af",
+                "version": "PHB:178:https://5e.tools/skills.html#deception_phb"
+              }
+            }
+          },
+          {
+            "label": "Insight (skill)",
+            "url": "https://5e.tools/skills.html#insight_phb",
+            "local": {
+              "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+              "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+            },
+            "preview": {
+              "name": "Insight",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+              }
+            }
+          },
+          {
+            "label": "Intimidation (skill)",
+            "url": "https://5e.tools/skills.html#intimidation_phb",
+            "local": {
+              "entry": "compendium-a7e769241bd92cb3d60ad83b",
+              "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+            },
+            "preview": {
+              "name": "Intimidation",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 179,
+              "local": {
+                "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+              }
+            }
+          },
+          {
+            "label": "Persuasion (skill)",
+            "url": "https://5e.tools/skills.html#persuasion_phb",
+            "local": {
+              "entry": "compendium-c53db7b407a93f295c291cf9",
+              "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+            },
+            "preview": {
+              "name": "Persuasion",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 179,
+              "local": {
+                "entry": "compendium-c53db7b407a93f295c291cf9",
+                "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Age, Alignment, Size, Shapechanger, Changeling Instincts, Languages.": [
+            {
+              "start": 27,
+              "end": 36,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a968e39dd0d7f7396b03ec45",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#changeling_mpmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/820/340/340/637880558263246600.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Sarah Stone · Mordenkainen Presents: Monsters of the Multiverse"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Small, Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium or Small Fey, 30-foot walk. Choose two proficiencies from Deception, Insight, Intimidation, Performance, and Persuasion.",
+              "Spend an action to change appearance and voice, including the option to change between Medium and Small. Clothing, equipment, and other statistics stay the same."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Creature Type",
+              "Size",
+              "Changeling Instincts",
+              "Shapechanger"
+            ]
+          }
+        ],
+        "sourceCode": "MPMM",
+        "page": 10,
+        "references": [
+          {
+            "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 10",
+            "url": "https://5e.tools/races.html#changeling_mpmm"
+          },
+          {
+            "label": "Deception (skill)",
+            "url": "https://5e.tools/skills.html#deception_phb",
+            "local": {
+              "entry": "compendium-0839cb8ea42ddb14652f72af",
+              "version": "PHB:178:https://5e.tools/skills.html#deception_phb"
+            },
+            "preview": {
+              "name": "Deception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-0839cb8ea42ddb14652f72af",
+                "version": "PHB:178:https://5e.tools/skills.html#deception_phb"
+              }
+            }
+          },
+          {
+            "label": "Insight (skill)",
+            "url": "https://5e.tools/skills.html#insight_phb",
+            "local": {
+              "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+              "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+            },
+            "preview": {
+              "name": "Insight",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+              }
+            }
+          },
+          {
+            "label": "Intimidation (skill)",
+            "url": "https://5e.tools/skills.html#intimidation_phb",
+            "local": {
+              "entry": "compendium-a7e769241bd92cb3d60ad83b",
+              "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+            },
+            "preview": {
+              "name": "Intimidation",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 179,
+              "local": {
+                "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+              }
+            }
+          },
+          {
+            "label": "Performance (skill)",
+            "url": "https://5e.tools/skills.html#performance_phb",
+            "local": {
+              "entry": "compendium-7610ba8fb886e9c28979a651",
+              "version": "PHB:179:https://5e.tools/skills.html#performance_phb"
+            },
+            "preview": {
+              "name": "Performance",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 179,
+              "local": {
+                "entry": "compendium-7610ba8fb886e9c28979a651",
+                "version": "PHB:179:https://5e.tools/skills.html#performance_phb"
+              }
+            }
+          },
+          {
+            "label": "Persuasion (skill)",
+            "url": "https://5e.tools/skills.html#persuasion_phb",
+            "local": {
+              "entry": "compendium-c53db7b407a93f295c291cf9",
+              "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+            },
+            "preview": {
+              "name": "Persuasion",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 179,
+              "local": {
+                "entry": "compendium-c53db7b407a93f295c291cf9",
+                "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Medium or Small Fey, 30-foot walk. Choose two proficiencies from Deception, Insight, Intimidation, Performance, and Persuasion.": [
+            {
+              "start": 65,
+              "end": 74,
+              "target": {
+                "name": "Deception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-0839cb8ea42ddb14652f72af",
+                  "version": "PHB:178:https://5e.tools/skills.html#deception_phb"
+                }
+              }
+            },
+            {
+              "start": 76,
+              "end": 83,
+              "target": {
+                "name": "Insight",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                  "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+                }
+              }
+            },
+            {
+              "start": 85,
+              "end": 97,
+              "target": {
+                "name": "Intimidation",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 179,
+                "local": {
+                  "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                  "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+                }
+              }
+            },
+            {
+              "start": 99,
+              "end": 110,
+              "target": {
+                "name": "Performance",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 179,
+                "local": {
+                  "entry": "compendium-7610ba8fb886e9c28979a651",
+                  "version": "PHB:179:https://5e.tools/skills.html#performance_phb"
+                }
+              }
+            },
+            {
+              "start": 116,
+              "end": 126,
+              "target": {
+                "name": "Persuasion",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 179,
+                "local": {
+                  "entry": "compendium-c53db7b407a93f295c291cf9",
+                  "version": "PHB:179:https://5e.tools/skills.html#persuasion_phb"
+                }
+              }
+            }
+          ],
+          "Creature Type": [
+            {
+              "start": 0,
+              "end": 13,
+              "target": {
+                "name": "Creature Type",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-d1d9b442b6bb631028aa4466",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#creature%20type_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Changeling": true,
+      "changeling minor change shape": true,
+      "changeling natural linguist": true,
+      "changeling sense motive": true,
+      "changeling docket clerk": true,
+      "changeling stage understudy": true
+    },
+    "hash": "6b7a4fb452519d165bbba8f62a95be55566eb19df8aaf6414ef276115a031f35",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Leroy Steinmann · Eberron: Forge of the Artificer"
+      },
+      {
+        "url": "",
+        "credit": "Eberron: Rising from the Last War"
+      },
+      {
+        "url": "",
+        "credit": "Olga Drebas · Eberron: Rising from the Last War"
+      },
+      {
+        "url": "",
+        "credit": "Sarah Stone · Mordenkainen Presents: Monsters of the Multiverse"
+      }
+    ],
+    "defaultPublication": "Eberron Campaign Setting (2004)",
+    "defaultVersionKey": "4dbc55abd304587b2e3bad7f",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

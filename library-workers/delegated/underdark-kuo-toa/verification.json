@@ -1,0 +1,25 @@
+{
+  "baseline": "48bbf133c1c1ae6a636a76f589397b7ad507f26c",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Kuo-toa"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Underdark (2003)",
+  "amphibiousKeenSightAdhesiveLightBlindnessAndWhipLightningVerified": true,
+  "existingMonsterVersionsPreserved": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Underdark (2003)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

@@ -1,0 +1,2329 @@
+{
+  "baseline": "5613de2730537c8fb98fcdeb826b22addae6c000",
+  "profiles": 50,
+  "generatedPortraits": 41,
+  "reusedExistingPortraits": 3,
+  "entries": [
+    {
+      "owner": "ixalan_a",
+      "name": "Aegisaur",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "aegisaur",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/ixalan_a/portraits/aegisaur.png",
+        "sha256": "54247adaabf3b13f89d6c05c49b7465bb59ae6f98d4a705f65ee7935b35979ba",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Aegisaur",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 28,
+        "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+        "section": "An Ixalan Bestiary, Scales, Spikes, and Hammers",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "name": "Ankylosaurus",
+          "publication": "Monster Manual",
+          "year": 2014,
+          "edition": "2014 fifth edition",
+          "printedPage": 79,
+          "url": "",
+          "publisherReprint": "https://www.dndbeyond.com/monsters/17088-ankylosaurus"
+        },
+        "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+        "appearanceEvidence": "p. 28 describes shell-like armored scales and a bony tail club. Bellowing Aegisaur shows the broad, low armored body and colorful neck scales.",
+        "habitatEvidence": "p. 28 groups Aegisaur with armored Ixalan plains herbivores. Grassland is the editorial search equivalent.",
+        "creditedArt": "Craig J. Spearing, Bellowing Aegisaur, p. 28.",
+        "sourceDistinctions": [
+          "The 2014 print gives +7 to hit. The numerical attack bonus follows print."
+        ]
+      }
+    },
+    {
+      "owner": "ixalan_a",
+      "name": "Aerosaur (Large)",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "ixalan-aerosaur",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/ixalan_a/portraits/ixalan-aerosaur-v2.png",
+        "sha256": "9094c2520aae2cc567b577c9c1aec66561774bd3f4b363a0cc432eaa88543559",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Aerosaur (Large)",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 29,
+        "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+        "section": "An Ixalan Bestiary, Soaring Flocks",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "name": "Quetzalcoatlus",
+          "publication": "Volo’s Guide to Monsters",
+          "year": 2016,
+          "edition": "2014 fifth edition",
+          "printedPage": 140,
+          "url": "https://online.anyflip.com/tqblu/upsf/files/basic-html/page141.html",
+          "publisherPageIndex": ""
+        },
+        "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+        "appearanceEvidence": "p. 29 describes leathery-winged reptiles, including pterodons and sunwings. A crested beak is visible in Shining Aerosaur. The gliding pose and palette are original portrait choices.",
+        "habitatEvidence": "High perches and coastal updrafts are both named on p. 29. Ixalan coast is the editorial search tag for the coastal setting.",
+        "creditedArt": "Dan Scott, Shining Aerosaur, and Johann Bodin, Sky Terror, appear on p. 29.",
+        "sourceDistinctions": [
+          "Large is the catalog’s relative form label. The Quetzalcoatlus rules classify it as Huge.",
+          "The printed Dive Attack adds damage without naming a separate damage type."
+        ]
+      }
+    },
+    {
+      "owner": "ixalan_a",
+      "name": "Aerosaur (Small)",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "ixalan-aerosaur",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/ixalan_a/portraits/ixalan-aerosaur-v2.png",
+        "sha256": "9094c2520aae2cc567b577c9c1aec66561774bd3f4b363a0cc432eaa88543559",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Aerosaur (Small)",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 29,
+        "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+        "section": "An Ixalan Bestiary, Soaring Flocks",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "name": "Pteranodon",
+          "publication": "Monster Manual",
+          "year": 2014,
+          "edition": "2014 fifth edition",
+          "printedPage": 80,
+          "url": "",
+          "publisherReprint": "https://www.dndbeyond.com/monsters/17093-pteranodon"
+        },
+        "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+        "appearanceEvidence": "p. 29 describes leathery-winged reptiles, including pterodons and sunwings. A crested beak is visible in Shining Aerosaur. The gliding pose and palette are original portrait choices.",
+        "habitatEvidence": "High perches and coastal updrafts are both named on p. 29. Ixalan coast is the editorial search tag for the coastal setting.",
+        "creditedArt": "Dan Scott, Shining Aerosaur, and Johann Bodin, Sky Terror, appear on p. 29.",
+        "sourceDistinctions": [
+          "Small is the catalog’s relative form label. The Pteranodon rules classify it as Medium. Its listed flight speed applies normally."
+        ]
+      }
+    },
+    {
+      "owner": "ixalan_a",
+      "name": "Altisaur",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "altisaur",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/ixalan_a/portraits/altisaur.png",
+        "sha256": "125f11553e6a19d2af0f2d0bf02cabf5cf6ee392cc8b07766f1d8eca48462e3e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Altisaur",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 27,
+        "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+        "section": "An Ixalan Bestiary, The Rumbling Herds",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "name": "Brontosaurus",
+          "publication": "Volo’s Guide to Monsters",
+          "year": 2016,
+          "edition": "2014 fifth edition",
+          "printedPage": 139,
+          "url": "https://online.anyflip.com/tqblu/upsf/files/basic-html/page140.html",
+          "publisherPageIndex": ""
+        },
+        "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+        "appearanceEvidence": "p. 27 groups Altisaurs with enormous long-necked herbivores. A four-legged build and powerful tail follow the Brontosaurus model. The pose and pigments are original.",
+        "habitatEvidence": "p. 27 places Altisaurs on the Sun Coast plains and in sparse forests where they browse the tops of trees.",
+        "creditedArt": "Keep any existing Altisaur book art reference and credit.",
+        "sourceDistinctions": [
+          "The Ixalan text assigns the same Brontosaurus base to Altisaurs and Brontodons. This entry keeps the Altisaur name and setting description."
+        ]
+      }
+    },
+    {
+      "owner": "ixalan_a",
+      "name": "Armasaur",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "armasaur",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "parts/ixalan_a/portraits/armasaur-v2.png",
+        "sha256": "31554131022aca36342f6a0c9815261aa7e7cb67fadfc51f635c4f5d32d96930",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Armasaur",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 28,
+        "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+        "section": "An Ixalan Bestiary, Scales, Spikes, and Hammers",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "name": "Stegosaurus",
+          "publication": "Volo’s Guide to Monsters",
+          "year": 2016,
+          "edition": "2014 fifth edition",
+          "printedPage": 140,
+          "url": "https://online.anyflip.com/tqblu/upsf/files/basic-html/page141.html",
+          "publisherPageIndex": ""
+        },
+        "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+        "appearanceEvidence": "p. 28 describes jutting back plates and a whiplike tail with defensive spikes. Steadfast Armasaur shows the four-legged silhouette.",
+        "habitatEvidence": "p. 28 groups Armasaur with armored Ixalan plains herbivores. Grassland is the editorial search equivalent.",
+        "creditedArt": "Greg Opalanski, Steadfast Armasaur, p. 28."
+      }
+    },
+    {
+      "owner": "ixalan_b",
+      "name": "Brontodon",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "brontodon",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/ixalan_b/portraits/brontodon.png",
+        "sha256": "c8b574189947b866f03bcdeb570873e8887f4d18507be309cf5480505827e0ad",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Brontodon",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "pdfPage": 27,
+        "printedPages": [
+          27
+        ],
+        "section": "An Ixalan Bestiary, The Rumbling Herds",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "appearanceEvidence": "The long neck and bulk are described on Ixalan p. 27. The green scales and head quills come from Dan Scott’s Belligerent Brontodon illustration on that page.",
+        "habitatEvidence": "The source places the long-necked herd dinosaurs in tall-tree feeding grounds. Sun Coast plains and sparse forests are explicit for Altisaur in the same passage and are inferred tags for Brontodon.",
+        "reskinReference": {
+          "name": "Brontosaurus",
+          "publication": "Volo's Guide to Monsters",
+          "printing": "First printing, November 2016",
+          "printedPage": 139,
+          "printedPages": [
+            139
+          ],
+          "publicationUrl": "",
+          "rulesReadUrl": "",
+          "rulesReadWitness": "",
+          "publisher": "Wizards of the Coast"
+        },
+        "creditedArt": "Dan Scott, Belligerent Brontodon, Ixalan page 27."
+      }
+    },
+    {
+      "owner": "ixalan_b",
+      "name": "Ceratops",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "ceratops",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/ixalan_b/portraits/ceratops.png",
+        "sha256": "6dfc38218f876e1adb5bac54bfe18c3d64d73dbce0d2a3098cd0bf66ecb937e8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ceratops",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "pdfPage": 28,
+        "printedPages": [
+          28
+        ],
+        "section": "An Ixalan Bestiary, Horned Herbivores",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "appearanceEvidence": "Ixalan p. 28 describes the horns and feathered frill. Zezhou Chen’s Goring Ceratops supplies the scale and plumage reference.",
+        "habitatEvidence": "Ixalan p. 28 explicitly places the horned herbivores on the plains. Sun Empire is a setting tag for the people who ride them.",
+        "reskinReference": {
+          "name": "Triceratops",
+          "publication": "Monster Manual",
+          "printing": "First printing, September 2014",
+          "printedPage": 80,
+          "printedPages": [
+            80
+          ],
+          "publicationUrl": "https://www.dndbeyond.com/monsters/17039-triceratops",
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/17039-triceratops",
+          "rulesReadWitness": "Local Monster Manual , printed p. 80",
+          "publisher": "Wizards of the Coast"
+        },
+        "creditedArt": "Zezhou Chen, Goring Ceratops, Ixalan page 28."
+      }
+    },
+    {
+      "owner": "ixalan_b",
+      "name": "Ferocidon",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "ferocidon",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/ixalan_b/portraits/ferocidon.png",
+        "sha256": "f69cff654030d127b4473c18ea66b94f8caa8d91bd0e658600d01d7f75292753",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ferocidon",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "pdfPage": 30,
+        "printedPages": [
+          30
+        ],
+        "section": "An Ixalan Bestiary, Teeth and Frills",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "appearanceEvidence": "Ixalan p. 30 identifies a vicious raptor relative that hunts larger prey. Allosaur shape follows the base creature, and the colors and head feathers in the new portrait are editorial design.",
+        "habitatEvidence": "Open ground follows the Allosaurus description and its official D&D Beyond grassland tag. The Ixalan and jungle-edge tags apply the p. 27 setting overview to this predator.",
+        "reskinReference": {
+          "name": "Allosaurus",
+          "publication": "Monster Manual",
+          "printing": "First printing, September 2014",
+          "printedPage": 79,
+          "printedPages": [
+            79
+          ],
+          "publicationUrl": "https://www.dndbeyond.com/monsters/17087-allosaurus",
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/17087-allosaurus",
+          "rulesReadWitness": "Local Monster Manual , printed p. 79",
+          "publisher": "Wizards of the Coast"
+        }
+      }
+    },
+    {
+      "owner": "ixalan_b",
+      "name": "Gishath, Sun's Avatar",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "10",
+      "art_group": "gishath-suns-avatar",
+      "printed_cr": "10",
+      "portrait": {
+        "file": "parts/ixalan_b/portraits/gishath-suns-avatar.png",
+        "sha256": "9165ee1c4111c8e74e6628990ce57d313381c4e4db4b8c79c8e4bea572d362e0",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Gishath, Sun's Avatar",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "pdfPage": 32,
+        "printedPages": [
+          32
+        ],
+        "section": "An Ixalan Bestiary, Gishath, Sun's Avatar",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "appearanceEvidence": "The build, feathers and bony spines follow Zack Stella’s credited Gishath portrait on p. 32.",
+        "habitatEvidence": "Ixalan jungle and Sun Empire are setting tags inferred from the landscape in the p. 32 art and the broader dinosaur description on p. 27. Gishath has no printed habitat field.",
+        "creditedArt": "Zack Stella, Gishath, Sun’s Avatar, Ixalan page 32."
+      }
+    },
+    {
+      "owner": "ixalan_b",
+      "name": "Hadrosaur",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "hadrosaur",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/ixalan_b/portraits/hadrosaur.png",
+        "sha256": "355da53aacf6b3acedd5d204b6e430f3876b71572385bd8dd2178f49c0c080e3",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Hadrosaur",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "pdfPage": 29,
+        "printedPages": [
+          29
+        ],
+        "section": "An Ixalan Bestiary, Scales, Spikes, and Hammers continuation",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "appearanceEvidence": "Volo’s Guide to Monsters p. 139 describes the bony head crests and partly quadrupedal posture. The bill shape is an editorial reconstruction of a hadrosaur.",
+        "habitatEvidence": "Ixalan p. 29 names Hadrosaurus as an example of an herbivore relying on speed, stealth, or numbers. Grassland, wetland, and swamp are editorial tags consistent with the base creature’s indexed grassland and swamp habitats.",
+        "reskinReference": {
+          "name": "Hadrosaurus",
+          "publication": "Volo's Guide to Monsters",
+          "printing": "First printing, November 2016",
+          "printedPage": 140,
+          "printedPages": [
+            140
+          ],
+          "publicationUrl": "",
+          "rulesReadUrl": "",
+          "rulesReadWitness": "",
+          "publisher": "Wizards of the Coast"
+        }
+      }
+    },
+    {
+      "owner": "ixalan_c",
+      "name": "Hammerskull",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "hammerskull",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/ixalan_c/portraits/hammerskull.png",
+        "sha256": "ed6ff28ed30a36c49c8ff045ed0bc214cfb23688b99104b2e0cd34a33bca759a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Hammerskull",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 28,
+        "pdfPages": [
+          28,
+          29
+        ],
+        "section": "An Ixalan Bestiary, Horned Herbivores, Scales, Spikes, and Hammers",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "entry": "Giant Goat",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 326,
+          "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16885-giant-goat",
+          "srdCrossCheck": "",
+          "pageLocatorWitness": "5etools 2014 Monster Manual index"
+        },
+        "appearanceEvidence": "The text on p. 28 describes defensive head plating and the lack of prominent horns or spikes. Lars Grant-West’s credited art on p. 29 shows the blue-green palette and body shape. The original portrait uses a new pose.",
+        "habitatEvidence": "The Horned Herbivores introduction on p. 28 places this group on the plains. Grassland is an editorial search tag for that setting.",
+        "creditedArt": "Lars Grant-West, Territorial Hammerskull, p. 29."
+      }
+    },
+    {
+      "owner": "ixalan_c",
+      "name": "Horned Frog",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "horned-frog",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/ixalan_c/portraits/horned-frog.png",
+        "sha256": "b771e8e84024129c51d2a456466bc544ef8a0d5d7887ce0d97a681f7d613ea1f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Horned Frog",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 39,
+        "pdfPages": [
+          39
+        ],
+        "section": "An Ixalan Bestiary, Life of the Forest",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "entry": "Giant Frog",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 325,
+          "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16884-giant-frog",
+          "srdCrossCheck": "",
+          "pageLocatorWitness": "5etools 2014 Monster Manual index"
+        },
+        "appearanceEvidence": "p. 39 describes a huge horned frog. The brow peaks, colors, and webbing are editorial visual details for the original portrait.",
+        "habitatEvidence": "p. 39 places the large horned frogs in marshes within the forest discussion. Rainforest wetlands is an editorial search tag."
+      }
+    },
+    {
+      "owner": "ixalan_c",
+      "name": "Macaw",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "ixalan-parrot",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/ixalan_c/portraits/ixalan-parrot.png",
+        "sha256": "96a65a32c6831e96ba18ce89791885ac23240fae073e6eb8448e00136fd2ef3c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Macaw",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 39,
+        "pdfPages": [
+          39
+        ],
+        "section": "An Ixalan Bestiary, Life of the Forest",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "entry": "Raven",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 335,
+          "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16992-raven",
+          "srdCrossCheck": "",
+          "pageLocatorWitness": "5etools 2014 Monster Manual index"
+        },
+        "appearanceEvidence": "p. 39 describes large macaws and parrots and mentions the plumage of jungle parrots. Beak, cheek, tail, and colors are editorial visual details in the shared original portrait.",
+        "habitatEvidence": "p. 39 places both birds in trees and at clay licks on riverbeds and the coast. Rainforest canopy is a search term for the tree habitat."
+      }
+    },
+    {
+      "owner": "ixalan_c",
+      "name": "Parrot",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "ixalan-parrot",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/ixalan_c/portraits/ixalan-parrot.png",
+        "sha256": "96a65a32c6831e96ba18ce89791885ac23240fae073e6eb8448e00136fd2ef3c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Parrot",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 39,
+        "pdfPages": [
+          39
+        ],
+        "section": "An Ixalan Bestiary, Life of the Forest",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "entry": "Raven",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 335,
+          "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16992-raven",
+          "srdCrossCheck": "",
+          "pageLocatorWitness": "5etools 2014 Monster Manual index"
+        },
+        "appearanceEvidence": "p. 39 describes large macaws and parrots and mentions the plumage of jungle parrots. Beak, cheek, tail, and colors are editorial visual details in the shared original portrait.",
+        "habitatEvidence": "p. 39 places both birds in trees and at clay licks on riverbeds and the coast. Rainforest canopy is a search term for the tree habitat."
+      }
+    },
+    {
+      "owner": "ixalan_c",
+      "name": "Piranha",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "piranha",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/ixalan_c/portraits/piranha.png",
+        "sha256": "45f9c014c3a37d14423a5213437b9879dc5df7c7e4f676dcd364cfc6839be4c5",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Piranha",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 40,
+        "pdfPages": [
+          40
+        ],
+        "section": "An Ixalan Bestiary, Life of the Waters",
+        "sourceUrl": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "reskinReference": {
+          "entry": "Quipper",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 335,
+          "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16989-quipper",
+          "srdCrossCheck": "",
+          "pageLocatorWitness": "5etools 2014 Monster Manual index"
+        },
+        "appearanceEvidence": "p. 40 identifies piranhas as small biting fish. The coloration, scale pattern, and fin shapes are editorial visual details in the original portrait.",
+        "habitatEvidence": "p. 40 places the piranhas in the waters of the Great River and its tributaries. Freshwater rivers and Underwater are editorial search terms."
+      }
+    },
+    {
+      "owner": "ixalan_d",
+      "name": "Sailback",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "sailback",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/ixalan_d/portraits/sailback.png",
+        "sha256": "0c058d344baae7ee05fcb3348f3bf1e79ac2c1a9833e13233adb23cb5a9d2292",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Sailback",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 30,
+        "printedPages": [
+          30
+        ],
+        "section": "An Ixalan Bestiary, Teeth and Frills",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "artGroup": "sailback",
+        "reskinReference": {
+          "name": "Giant Crocodile",
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "printedPage": 324,
+          "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page325.html",
+          "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g"
+        },
+        "appearanceEvidence": "Dan Scott's Snapping Sailback on p. 30 shows the long, toothed snout, dark blue scales, colored head quills, and tall orange-to-blue sail. The full body and subdued palette are editorial choices for the new portrait.",
+        "habitatEvidence": "p. 30 describes Sailbacks as predators that ambush prey in lakes and rivers.",
+        "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+        "creditedArt": "Dan Scott, Snapping Sailback. Retain the existing book image and credit."
+      }
+    },
+    {
+      "owner": "ixalan_d",
+      "name": "Swarm of Piranhas",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "swarm-of-piranhas",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/ixalan_d/portraits/swarm-of-piranhas.png",
+        "sha256": "63f0f1c375ee051724b8343df8fee238c0a96a5f12227887fc74290c81d743ce",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Swarm of Piranhas",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 40,
+        "printedPages": [
+          40
+        ],
+        "section": "An Ixalan Bestiary, Life of the Waters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "artGroup": "swarm-of-piranhas",
+        "reskinReference": {
+          "name": "Swarm of Quippers",
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "printedPage": 338,
+          "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page339.html",
+          "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-s"
+        },
+        "appearanceEvidence": "p. 40 describes small biting fish gathering in churning swarms. Silver-grey scales, red bellies, body shape, and forked tails are editorial portrait details based on a recognizable piranha silhouette.",
+        "habitatEvidence": "p. 40 names the Great River and its tributaries. Freshwater is an editorial normalization of those habitats. Underwater follows the inherited Water Breathing trait.",
+        "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+        "errataDate": "2016",
+        "errataUrl": "",
+        "errataEvidence": "Version 1.1 adds immunity to the grappled condition for all swarms. This correction predates the first printing of Plane Shift: Ixalan."
+      }
+    },
+    {
+      "owner": "ixalan_d",
+      "name": "Trilobite",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "ixalan-trilobite",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/ixalan_d/portraits/ixalan-trilobite.png",
+        "sha256": "b9ee7c98a90b38fdc4fa0f6caa51dd3fbe250315528442c335a63f9fd9cafb6f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Trilobite",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 40,
+        "printedPages": [
+          40
+        ],
+        "section": "An Ixalan Bestiary, Life of the Waters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "artGroup": "ixalan-trilobite",
+        "reskinReference": {
+          "name": "Crab",
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "printedPage": 320,
+          "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page321.html",
+          "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c"
+        },
+        "appearanceEvidence": "YW Tang's Shore Keeper on p. 40 shows a dark, broad, segmented marine arthropod with rust-red extensions. The three-lobed shell layout and compound eyes are editorial identification details. Both catalog sizes share the portrait.",
+        "habitatEvidence": "p. 40 places trilobites along the shores of rivers and seas. Beaches, riverbanks, and shallow water are search terms drawn from its nearby shoreline description.",
+        "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+        "creditedArt": "YW Tang, Shore Keeper. Preserve credited book art wherever the index links it."
+      }
+    },
+    {
+      "owner": "ixalan_d",
+      "name": "Trilobite (Giant)",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "ixalan-trilobite",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/ixalan_d/portraits/ixalan-trilobite.png",
+        "sha256": "b9ee7c98a90b38fdc4fa0f6caa51dd3fbe250315528442c335a63f9fd9cafb6f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Trilobite (Giant)",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 40,
+        "printedPages": [
+          40
+        ],
+        "section": "An Ixalan Bestiary, Life of the Waters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "artGroup": "ixalan-trilobite",
+        "reskinReference": {
+          "name": "Giant Crab",
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "printedPage": 324,
+          "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page325.html",
+          "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g"
+        },
+        "appearanceEvidence": "YW Tang's Shore Keeper on p. 40 shows a dark, broad, segmented marine arthropod with rust-red extensions. The three-lobed shell layout and compound eyes are editorial identification details. Both catalog sizes share the portrait.",
+        "habitatEvidence": "p. 40 places trilobites along the shores of rivers and seas. Beaches, riverbanks, and shallow water are search terms drawn from its nearby shoreline description.",
+        "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+        "creditedArt": "YW Tang, Shore Keeper. Preserve credited book art wherever the index links it."
+      }
+    },
+    {
+      "owner": "ixalan_d",
+      "name": "Tyrant",
+      "kind": "beast",
+      "publication": "Plane Shift: Ixalan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "8",
+      "art_group": "tyrant",
+      "printed_cr": "8",
+      "portrait": {
+        "file": "parts/ixalan_d/portraits/tyrant.png",
+        "sha256": "fd1181a105719dafa1ee47afe5a88fbc85bb009b8aa229c01048bf7936c408ac",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Tyrant",
+        "kind": "beast",
+        "publication": "Plane Shift: Ixalan",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, January 2018",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 31,
+        "printedPages": [
+          31
+        ],
+        "section": "An Ixalan Bestiary, Dinosaur Tyrants",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+        "artGroup": "tyrant",
+        "reskinReference": {
+          "name": "Tyrannosaurus Rex",
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "printedPage": 80,
+          "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page81.html",
+          "publisherRulesUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-t"
+        },
+        "appearanceEvidence": "The Dinosaur Tyrants text on p. 31 describes the oversized head, blade-like teeth, and reduced forelimbs. Jonathan Kuo's Regisaur Alpha on that page also informs the palette and feathering. The staged portrait uses a new pose for an ordinary wild tyrant.",
+        "habitatEvidence": "Editorial setting tags inferred from the Dinosaur Tyrants section and the forested terrain in the Regisaur Alpha illustration, p. 31. The printed action block has no formal habitat list.",
+        "secondaryCrossCheck": "Compared against the corresponding Monster Manual entry in the local 5etools extract. The Ixalan , Monster Manual print witness, and Wizards rules determine the staged block.",
+        "creditedArt": "Jonathan Kuo, Regisaur Alpha. Keep any credited book art and links."
+      }
+    },
+    {
+      "owner": "zendikar_a",
+      "name": "Baloth",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "baloth",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/zendikar_a/portraits/baloth.png",
+        "sha256": "c74b6b4a727b99fec6348d86cbf7d088004698c7107d2e8ef91a887f6b6349c9",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Baloth",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "printedPages": [
+          33
+        ],
+        "pageNumbering": "One-based page number, including the cover.",
+        "url": "",
+        "reskinReference": {
+          "name": "Triceratops",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            80
+          ],
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/17039-triceratops",
+          "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+        },
+        "appearanceSource": "p. 33 describes horns, plates and spines and depicts a rampaging baloth. Portrait anatomy and colors are an original interpretation.",
+        "habitatSource": "p. 33 describes baloth herds stampeding over the Onduan plains. Zendikar wilds is an editorial search term."
+      }
+    },
+    {
+      "owner": "zendikar_a",
+      "name": "Drake (Large)",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "zendikar-drake",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/zendikar_a/portraits/zendikar-drake.png",
+        "sha256": "5c37ceb0d8ddd13add24a6d61b21da7cb774f4019f1ed18653c011017a916b00",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Drake (Large)",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "printedPages": [
+          24
+        ],
+        "pageNumbering": "One-based page number, including the cover.",
+        "url": "",
+        "reskinReference": {
+          "name": "Giant Eagle",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            324
+          ],
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+          "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+        },
+        "appearanceSource": "p. 24 describes reptilian bodies, two legs and leathery wings, and illustrates a blue drake. Crest and scale colors are editorial choices.",
+        "habitatSource": "p. 24 places drakes in Akoum above and farther north than dragons and associates them with air and sea. Coastal air is editorial."
+      }
+    },
+    {
+      "owner": "zendikar_a",
+      "name": "Drake (Small)",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "zendikar-drake",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/zendikar_a/portraits/zendikar-drake.png",
+        "sha256": "5c37ceb0d8ddd13add24a6d61b21da7cb774f4019f1ed18653c011017a916b00",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Drake (Small)",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "printedPages": [
+          24
+        ],
+        "pageNumbering": "One-based page number, including the cover.",
+        "url": "",
+        "reskinReference": {
+          "name": "Pteranodon",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            80
+          ],
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/17093-pteranodon",
+          "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+        },
+        "appearanceSource": "p. 24 describes reptilian bodies, two legs and leathery wings. The illustration is shared with the Large Drake as editorial art.",
+        "habitatSource": "p. 24 places drakes in Akoum above and farther north than dragons and associates them with air and sea. Coastal air is editorial."
+      }
+    },
+    {
+      "owner": "zendikar_a",
+      "name": "Gnarlid",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "gnarlid",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/zendikar_a/portraits/gnarlid.png",
+        "sha256": "ceb5c1cdaa7937e00b0c811ff7a37d81bcca2d5d4fccb233eac45bcc36bd06d8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Gnarlid",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "printedPages": [
+          34
+        ],
+        "pageNumbering": "One-based page number, including the cover.",
+        "url": "",
+        "reskinReference": {
+          "name": "Brown Bear",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            319
+          ],
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+          "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+        },
+        "appearanceSource": "p. 34 describes the bearlike and wolverinelike shape, horns, possible spikes and growth. Coat color and shoulder-spine placements are original art choices.",
+        "habitatSource": "Forest habitat is inferred from the discussion of beasts drawing on green mana on p. 33 and the gnarlid growth description on p. 34. The gnarlid paragraph gives no named locality."
+      }
+    },
+    {
+      "owner": "zendikar_a",
+      "name": "Great Cat",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "great-cat",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/zendikar_a/portraits/great-cat.png",
+        "sha256": "517b7591ffcf480f2c97e65611e0a28289b672d28d92bf92407abaa03c8a0ec4",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Great Cat",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "printedPages": [
+          34
+        ],
+        "pageNumbering": "One-based page number, including the cover.",
+        "url": "",
+        "reskinReference": {
+          "name": "Saber-Toothed Tiger",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            336
+          ],
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/17002-saber-toothed-tiger",
+          "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+        },
+        "appearanceSource": "p. 34 describes at least two kinds with enormous blades pointing back from the forelegs and compares them with the Saber-Toothed Tiger. The image at the foot of the page shows a spotted felid. Upper canines in the portrait are an editorial adaptation of the comparison.",
+        "habitatSource": "p. 34 says great cats use their foreleg blades to cut through heavy undergrowth. Zendikar woodlands is an inferred search term."
+      }
+    },
+    {
+      "owner": "zendikar_b",
+      "name": "Heartstabber Mosquito",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "heartstabber-mosquito",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/zendikar_b/portraits/heartstabber-mosquito.png",
+        "sha256": "050c8e54c8dd7d7858338f152bd5ae1b52c2b1ed75ff91fd281e7332d9fc04b8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Heartstabber Mosquito",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "url": "",
+        "printedPages": [
+          27
+        ],
+        "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+        "reskinReference": {
+          "name": "Stirge",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "publisher": "Wizards of the Coast",
+          "version": "First printing, September 2014",
+          "printedPages": [
+            284
+          ],
+          "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/17023-stirge"
+        },
+        "adjustments": "Use the referenced block as printed.",
+        "habitatSource": "Zendikar p. 27, Venomous Vermin, names the swamps of Guul Draz.",
+        "appearanceSource": "Zendikar p. 27 describes the enormous mosquito. Its detailed anatomy is editorial, based on mosquito anatomy."
+      }
+    },
+    {
+      "owner": "zendikar_b",
+      "name": "Oxen",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "oxen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/zendikar_b/portraits/oxen.png",
+        "sha256": "c234a6978ab4a541978d6d13f06c6cb0a72c33eb0471fe5e09cd6353cbea7f3e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Oxen",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "url": "",
+        "printedPages": [
+          34
+        ],
+        "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+        "reskinReference": {
+          "name": "Giant Goat",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "publisher": "Wizards of the Coast",
+          "version": "First printing, September 2014",
+          "printedPages": [
+            326
+          ],
+          "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/16885-giant-goat"
+        },
+        "adjustments": "Use the referenced block as printed.",
+        "habitatSource": "Zendikar p. 34 names Murasa’s Pillar Plains. Grassland is an editorial search term inferred from the region.",
+        "appearanceSource": "Zendikar p. 34 identifies the oxen and their use as powerful pack animals. Their markings and detailed cattle anatomy are editorial."
+      }
+    },
+    {
+      "owner": "zendikar_b",
+      "name": "Shoal Serpent",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "shoal-serpent",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/zendikar_b/portraits/shoal-serpent.png",
+        "sha256": "9b1e19418963062e768d25db55ee86373e94ac39b3957a4a8e513db7b66f2fd7",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Shoal Serpent",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "url": "",
+        "printedPages": [
+          26
+        ],
+        "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+        "reskinReference": {
+          "name": "Plesiosaurus",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "publisher": "Wizards of the Coast",
+          "version": "First printing, September 2014",
+          "printedPages": [
+            80
+          ],
+          "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/16981-plesiosaurus"
+        },
+        "adjustments": "Use the referenced block as printed.",
+        "habitatSource": "Zendikar p. 26, Other Creatures of the Seas, places it off the coast of Ondu.",
+        "appearanceSource": "Zendikar p. 26 describes its enormous size and compares it to a reef. Neck shape and dorsal plating are editorial visual details."
+      }
+    },
+    {
+      "owner": "zendikar_b",
+      "name": "Terastodon",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "6",
+      "art_group": "terastodon",
+      "printed_cr": "6",
+      "portrait": {
+        "file": "parts/zendikar_b/portraits/terastodon.png",
+        "sha256": "518cd810912cc35cb568f9779e78caa7f410205133fb46fbff6cadca2571bb17",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Terastodon",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "url": "",
+        "printedPages": [
+          34
+        ],
+        "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+        "reskinReference": {
+          "name": "Mammoth",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "publisher": "Wizards of the Coast",
+          "version": "First printing, September 2014",
+          "printedPages": [
+            332
+          ],
+          "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/16950-mammoth"
+        },
+        "adjustments": "Use the referenced block as printed.",
+        "habitatSource": "Flooded woodland is an editorial habitat tag inferred from the p. 34 illustration. The text specifies no range.",
+        "appearanceSource": "Zendikar p. 34 describes the elephant form, four tusks, armored hide and pointed plate. The adjacent illustration shows the beast wading."
+      }
+    },
+    {
+      "owner": "zendikar_b",
+      "name": "Terra Stomper",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "8",
+      "art_group": "terra-stomper",
+      "printed_cr": "8",
+      "portrait": {
+        "file": "parts/zendikar_b/portraits/terra-stomper.png",
+        "sha256": "2255de9f2322af778d0e5d4ebfd9341a33c0554046349d9475ebc95b15ead1b5",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Terra Stomper",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "url": "",
+        "printedPages": [
+          34
+        ],
+        "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+        "reskinReference": {
+          "name": "Tyrannosaurus Rex",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "publisher": "Wizards of the Coast",
+          "version": "First printing, September 2014",
+          "printedPages": [
+            80
+          ],
+          "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/17041-tyrannosaurus-rex"
+        },
+        "adjustments": "Use the referenced block as printed.",
+        "habitatSource": "Zendikar p. 34 names the Vastwood of Tazeem.",
+        "appearanceSource": "Zendikar p. 34 gives six legs and the size of a tree. Jaws, tail and reptilian skin are editorial shape choices informed by the referenced attack actions."
+      }
+    },
+    {
+      "owner": "zendikar_b",
+      "name": "Woodcrasher Baloth",
+      "kind": "beast",
+      "publication": "Plane Shift: Zendikar",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "woodcrasher-baloth",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/zendikar_b/portraits/woodcrasher-baloth.png",
+        "sha256": "1a04ed8499f67dc0b1036c3dcddedc395f017e7f7cea1127b2e585087cbe1b61",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Woodcrasher Baloth",
+        "publication": "Plane Shift: Zendikar",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "author": "James Wyatt",
+        "printing": "First printing, April 2016",
+        "url": "",
+        "printedPages": [
+          33
+        ],
+        "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+        "reskinReference": {
+          "name": "Triceratops",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "publisher": "Wizards of the Coast",
+          "version": "First printing, September 2014",
+          "printedPages": [
+            80
+          ],
+          "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+          "rulesReadUrl": "https://www.dndbeyond.com/monsters/17039-triceratops"
+        },
+        "adjustments": "The Zendikar text adds a 30-ft. climbing speed. Keep the Triceratops block’s 50-ft. walking speed and other statistics.",
+        "habitatSource": "Zendikar p. 33 places woodcrashers in Turntimber forest and describes them moving from tree to tree. Forest canopy is the editorial search tag for that behavior.",
+        "appearanceSource": "Zendikar p. 33, Baloths, describes muscular hunters with horns, spines and plates, and woodcrashers with large climbing claws."
+      }
+    },
+    {
+      "owner": "amonkhet",
+      "name": "Ammit",
+      "kind": "beast",
+      "publication": "Plane Shift: Amonkhet",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "ammit",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/amonkhet/portraits/ammit.png",
+        "sha256": "bbe5700e86d19e311d27029799ac123fd305abea43b755a092a58e08234cfda0",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ammit",
+        "kind": "beast",
+        "publication": "Plane Shift: Amonkhet",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, July 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 30,
+        "printedPages": [
+          30
+        ],
+        "section": "An Amonkhet Bestiary, Demons",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "30c1ab2f0de527d50a73097d05b6b41e6bf8472d63a276b46901487554116e23",
+        "pageNumbering": "page index, counting the cover as page 1. The folios have no visible printed page numbers.",
+        "reskinReference": "Monster Manual (2014), p. 324, Giant Crocodile",
+        "reskinUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g#GiantCrocodile",
+        "reskinFolioUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=325",
+        "reskinEvidence": "Checked the rendered Monster Manual folio and the official 2014 Basic Rules on D&D Beyond. The mobile viewer counts its cover as page 1.",
+        "printedChanges": "Use the Giant Crocodile as recommended on page 30. The paragraph gives no mechanical changes.",
+        "appearanceEvidence": "page 30 calls it crocodilian. James Wyatt’s Wizards-published story Brazen describes the leonine body, alligator muzzle, red eyes, and thick hide. The long crocodilian tail and surface textures are art interpretation.",
+        "habitatEvidence": "The trials are explicit on page 30. Amonkhet desert is inferred from the Demons section’s placement of its demonic fauna in the desert around Ifnir. Swamp is inherited index metadata from Giant Crocodile.",
+        "relatedSources": [
+          "https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03"
+        ],
+        "artGroup": "ammit",
+        "creditedArt": "The existing catalog illustration is Slawomir Maniak’s Archfiend of Ifnir, the neighboring art on page 30. Keep the existing link and credit. The new portrait is an original Ammit."
+      }
+    },
+    {
+      "owner": "amonkhet",
+      "name": "Cerodon",
+      "kind": "beast",
+      "publication": "Plane Shift: Amonkhet",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "6",
+      "art_group": "cerodon",
+      "printed_cr": "6",
+      "portrait": {
+        "file": "parts/amonkhet/portraits/cerodon.png",
+        "sha256": "31cf6434c41e3a28ac4b73c97c2e13a442f76b39f37d108a0f3e4b7c01df6005",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Cerodon",
+        "kind": "beast",
+        "publication": "Plane Shift: Amonkhet",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, July 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 37,
+        "printedPages": [
+          37
+        ],
+        "section": "An Amonkhet Bestiary, Desert creatures",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "30c1ab2f0de527d50a73097d05b6b41e6bf8472d63a276b46901487554116e23",
+        "pageNumbering": "page index, counting the cover as page 1. The folios have no visible printed page numbers.",
+        "reskinReference": "Monster Manual (2014), p. 332, Mammoth",
+        "reskinUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-m#Mammoth",
+        "reskinFolioUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=333",
+        "reskinEvidence": "Checked the rendered Monster Manual folio and the official 2014 Basic Rules on D&D Beyond. The mobile viewer counts its cover as page 1.",
+        "printedChanges": "Add Siege Monster to the Mammoth stat block. Keep Huge size and all printed combat values.",
+        "appearanceEvidence": "page 37 describes the bull shape and horn spread. Igor Kieryluk’s credited Desert Cerodon on that page shows the cliff-like crown.",
+        "habitatEvidence": "Desert is supported by the bestiary section and Desert Cerodon illustration title. Hekma perimeter is an editorial search tag based on its tendency to challenge the barrier. Arctic is inherited index metadata from Mammoth.",
+        "relatedSources": [],
+        "artGroup": "cerodon",
+        "creditedArt": "Desert Cerodon by Igor Kieryluk, page 37. Keep the existing image and credit."
+      }
+    },
+    {
+      "owner": "amonkhet",
+      "name": "Hippopotamus",
+      "kind": "beast",
+      "publication": "Plane Shift: Amonkhet",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "hippopotamus",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "parts/amonkhet/portraits/hippopotamus.png",
+        "sha256": "3fa9d0349cf6e1b26cc5add91546b65abe8860ba0e9b9fb945a0e2dab3d417ca",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Hippopotamus",
+        "kind": "beast",
+        "publication": "Plane Shift: Amonkhet",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, July 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 38,
+        "printedPages": [
+          38
+        ],
+        "section": "An Amonkhet Bestiary, The Luxa River",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "30c1ab2f0de527d50a73097d05b6b41e6bf8472d63a276b46901487554116e23",
+        "pageNumbering": "page index, counting the cover as page 1. The folios have no visible printed page numbers.",
+        "reskinReference": "Monster Manual (2014), p. 322, Elephant",
+        "reskinUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-e#Elephant",
+        "reskinFolioUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=323",
+        "reskinEvidence": "Checked the rendered Monster Manual folio and the official 2014 Basic Rules on D&D Beyond. The mobile viewer counts its cover as page 1.",
+        "printedChanges": "Replace Gore with Bite, retaining its attack and damage values. Add a 30-ft. swim speed and Hold Breath. The 2014 Monster Manual errata corrects both attack damage expressions to +6.",
+        "appearanceEvidence": "page 38 identifies a hippopotamus but gives no detailed appearance. The description and portrait use ordinary hippopotamus anatomy.",
+        "habitatEvidence": "The Luxa River is explicit on page 38. Adjacent riverbanks are an editorial search tag inferred from that river habitat. Grassland is inherited index metadata from Elephant.",
+        "relatedSources": [
+          "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014#Elephantp322"
+        ],
+        "artGroup": "hippopotamus"
+      }
+    },
+    {
+      "owner": "amonkhet",
+      "name": "Large Drake",
+      "kind": "beast",
+      "publication": "Plane Shift: Amonkhet",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "amonkhet-drake",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/amonkhet/portraits/amonkhet-drake.png",
+        "sha256": "92c677ba863e254425324c44ca59a2425c051ee223eeb44129128e7de7ad85db",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Large Drake",
+        "kind": "beast",
+        "publication": "Plane Shift: Amonkhet",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, July 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 33,
+        "printedPages": [
+          33
+        ],
+        "section": "An Amonkhet Bestiary, Drakes",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "30c1ab2f0de527d50a73097d05b6b41e6bf8472d63a276b46901487554116e23",
+        "pageNumbering": "page index, counting the cover as page 1. The folios have no visible printed page numbers.",
+        "reskinReference": "Monster Manual (2014), p. 324, Giant Eagle",
+        "reskinUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g#GiantEagle",
+        "reskinFolioUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=325",
+        "reskinEvidence": "Checked the rendered Monster Manual folio and the official 2014 Basic Rules on D&D Beyond. The mobile viewer counts its cover as page 1.",
+        "printedChanges": "Use the Giant Eagle stat block for the larger drake. The reskin does not supply alternate alignment, language, or attack mechanics.",
+        "appearanceEvidence": "Angler Drake by Svetlin Velinov appears on page 33. The text specifies two legs and large wings. Colors and tail details in the generated art are editorial.",
+        "habitatEvidence": "page 33 describes their attraction to the glint of lazotep, gold, and the Luxa’s water, and says they perch on city spires and obelisks.",
+        "relatedSources": [],
+        "artGroup": "amonkhet-drake",
+        "creditedArt": "Angler Drake by Svetlin Velinov, page 33. Keep the existing image and credit."
+      }
+    },
+    {
+      "owner": "amonkhet",
+      "name": "Small Drake",
+      "kind": "beast",
+      "publication": "Plane Shift: Amonkhet",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "amonkhet-drake",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/amonkhet/portraits/amonkhet-drake.png",
+        "sha256": "92c677ba863e254425324c44ca59a2425c051ee223eeb44129128e7de7ad85db",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Small Drake",
+        "kind": "beast",
+        "publication": "Plane Shift: Amonkhet",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, July 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 33,
+        "printedPages": [
+          33
+        ],
+        "section": "An Amonkhet Bestiary, Drakes",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "30c1ab2f0de527d50a73097d05b6b41e6bf8472d63a276b46901487554116e23",
+        "pageNumbering": "page index, counting the cover as page 1. The folios have no visible printed page numbers.",
+        "reskinReference": "Monster Manual (2014), p. 80, Pteranodon",
+        "reskinUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-p#Pteranodon",
+        "reskinFolioUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=81",
+        "reskinEvidence": "Checked the rendered Monster Manual folio and the official 2014 Basic Rules on D&D Beyond. The mobile viewer counts its cover as page 1.",
+        "printedChanges": "Use the Pteranodon stat block for the smaller drake, including its printed Medium mechanical size.",
+        "appearanceEvidence": "Angler Drake by Svetlin Velinov appears on page 33. The text specifies two legs and large wings. Colors and tail details in the generated art are editorial.",
+        "habitatEvidence": "page 33 describes their attraction to the glint of lazotep, gold, and the Luxa’s water, and says they perch on city spires and obelisks.",
+        "relatedSources": [],
+        "artGroup": "amonkhet-drake",
+        "creditedArt": "Angler Drake by Svetlin Velinov, page 33. Keep the existing image and credit."
+      }
+    },
+    {
+      "owner": "kaladesh",
+      "name": "Drake (Large)",
+      "kind": "beast",
+      "publication": "Plane Shift: Kaladesh",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "kaladesh-drake",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/kaladesh/portraits/kaladesh-drake.png",
+        "sha256": "9525a7ed36c8130cb110deb69aa6dfe4792a169cd6fd2ba74039e2d963b090f8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Drake (Large)",
+        "kind": "beast",
+        "publication": "Plane Shift: Kaladesh",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, February 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 29,
+        "printedPages": [
+          29
+        ],
+        "section": "A Kaladesh Bestiary, Drakes",
+        "sourceUrl": "",
+        "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+        "artGroup": "kaladesh-drake",
+        "appearanceEvidence": "p. 29 describes reptilian bodies, leathery wings and two clawed legs. Izzy’s Take Down illustration supplies the long neck and face silhouette. The rules use the same description for both sizes.",
+        "habitatEvidence": "p. 29 describes rushes hunting in Kaladesh skies, clinging to rocky crags and sky beasts, and hunting game at high elevations. Habitat tags use this setting text.",
+        "reskinReference": {
+          "name": "Giant Eagle",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 324,
+          "official2014RulesUrl": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+          "printedRulesWitness": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+          "publisher": "Wizards of the Coast"
+        },
+        "sourceDistinctions": [
+          "The Kaladesh text directs use of the Giant Eagle base and lists no numerical, trait, or language changes. Giant Eagle and its alignment remain printed base mechanics."
+        ],
+        "creditedArt": "Izzy, Take Down. Keep the credited book artwork and its link unchanged."
+      }
+    },
+    {
+      "owner": "kaladesh",
+      "name": "Drake (Small)",
+      "kind": "beast",
+      "publication": "Plane Shift: Kaladesh",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "kaladesh-drake",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/kaladesh/portraits/kaladesh-drake.png",
+        "sha256": "9525a7ed36c8130cb110deb69aa6dfe4792a169cd6fd2ba74039e2d963b090f8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Drake (Small)",
+        "kind": "beast",
+        "publication": "Plane Shift: Kaladesh",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, February 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 29,
+        "printedPages": [
+          29
+        ],
+        "section": "A Kaladesh Bestiary, Drakes",
+        "sourceUrl": "",
+        "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+        "artGroup": "kaladesh-drake",
+        "appearanceEvidence": "p. 29 describes reptilian bodies, leathery wings and two clawed legs. Izzy’s Take Down illustration supplies the long neck and face silhouette. The rules use the same description for both sizes.",
+        "habitatEvidence": "p. 29 describes rushes hunting in Kaladesh skies, clinging to rocky crags and sky beasts, and hunting game at high elevations. Habitat tags use this setting text.",
+        "reskinReference": {
+          "name": "Pteranodon",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 80,
+          "official2014RulesUrl": "https://www.dndbeyond.com/monsters/17093-pteranodon",
+          "printedRulesWitness": "https://anyflip.com/kqwdv/eoae/basic/51-100",
+          "publisher": "Wizards of the Coast"
+        },
+        "sourceDistinctions": [
+          "“Small” is the existing catalog variant label for the smaller drake. The referenced Pteranodon’s printed size is Medium."
+        ],
+        "creditedArt": "Izzy, Take Down. Keep the credited book artwork and its link unchanged."
+      }
+    },
+    {
+      "owner": "kaladesh",
+      "name": "Gremlin",
+      "kind": "beast",
+      "publication": "Plane Shift: Kaladesh",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "gremlin",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/kaladesh/portraits/gremlin.png",
+        "sha256": "ed51d32dc7fe44e635b83e44d84d2cf76039bc941f6284203d41d3d1e79158a7",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Gremlin",
+        "kind": "beast",
+        "publication": "Plane Shift: Kaladesh",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, February 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 26,
+        "printedPages": [
+          26
+        ],
+        "section": "A Kaladesh Bestiary, Gremlins",
+        "sourceUrl": "",
+        "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+        "artGroup": "gremlin",
+        "appearanceEvidence": "p. 26 states the six-legged, long-snouted anatomy and describes the dense claws. Kev Walker’s Brazen Scourge shows the face, tall ears and textured skin.",
+        "habitatEvidence": "p. 26 describes their attraction to aether and gives laboratories and workshops as examples, with Ghirapur as a named city at risk.",
+        "sourceDistinctions": [
+          "Small size, 27 HP, and 5d8 + 5 are printed together. The climbing behavior in the setting text does not add a climb speed to the stat block."
+        ],
+        "creditedArt": "Kev Walker, Brazen Scourge. Keep the credited book artwork and its link unchanged."
+      }
+    },
+    {
+      "owner": "kaladesh",
+      "name": "Sky Leviathan",
+      "kind": "beast",
+      "publication": "Plane Shift: Kaladesh",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "10",
+      "art_group": "sky-leviathan",
+      "printed_cr": "10",
+      "portrait": {
+        "file": "parts/kaladesh/portraits/sky-leviathan.png",
+        "sha256": "25ca7eac068bfdb5d5c15e8fa3d29773ee11a50e511273178858f885d4431c8c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Sky Leviathan",
+        "kind": "beast",
+        "publication": "Plane Shift: Kaladesh",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, February 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 28,
+        "printedPages": [
+          28
+        ],
+        "section": "A Kaladesh Bestiary, Whales and Leviathans",
+        "sourceUrl": "",
+        "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+        "artGroup": "sky-leviathan",
+        "appearanceEvidence": "p. 28 compares leviathans to enormous eels and shows Sam Burley’s Aethersquall Ancient. Mouth shape and subdued blue-gray scales in the new portrait are editorial choices.",
+        "habitatEvidence": "p. 28 describes leviathans filtering the aethersphere, moving along aether flows and feeding on drakes and airships. Airship routes is an editorial search term from that behavior.",
+        "sourceDistinctions": [
+          "The printed Bite attack modifier is +9, as listed. The Purple Worm comparison is descriptive. Use the self-contained Kaladesh stat block."
+        ],
+        "creditedArt": "Sam Burley, Aethersquall Ancient. Keep credited book artwork and its link unchanged."
+      }
+    },
+    {
+      "owner": "kaladesh",
+      "name": "Sky Whale",
+      "kind": "beast",
+      "publication": "Plane Shift: Kaladesh",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "sky-whale",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/kaladesh/portraits/sky-whale.png",
+        "sha256": "ffee91221c1338b89ed2dcd75e3249d5159d99a30686476ee116a7147401a32d",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Sky Whale",
+        "kind": "beast",
+        "publication": "Plane Shift: Kaladesh",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, February 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 28,
+        "printedPages": [
+          28
+        ],
+        "section": "A Kaladesh Bestiary, Whales and Leviathans",
+        "sourceUrl": "",
+        "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+        "artGroup": "sky-whale",
+        "appearanceEvidence": "p. 28 describes a flying filter-feeding whale and gives it a flipper attack. Tail shape and markings are editorial anatomy and art choices.",
+        "habitatEvidence": "p. 28 describes docile flying whales filtering organisms from aether currents. Skies of Kaladesh is an editorial search term for this setting.",
+        "reskinReference": {
+          "name": "Giant Crocodile",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 324,
+          "official2014RulesUrl": "https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+          "printedRulesWitness": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+          "publisher": "Wizards of the Coast"
+        },
+        "sourceDistinctions": [
+          "The printed adaptation says to use Giant Crocodile statistics, replace Bite with a Flipper identical to Tail, and grant fly 50 ft. with hover. This overlay retains the base walking and swimming speeds, Hold Breath and Stealth. The prior secondary index lists only flight.",
+          "Tail and Flipper share one target restriction. Replacing Bite removes the base creature’s bite grapple and its associated restraint."
+        ]
+      }
+    },
+    {
+      "owner": "dunes_kavu",
+      "name": "River Serpent",
+      "kind": "beast",
+      "publication": "Plane Shift: Amonkhet",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "river-serpent",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/dunes_kavu/portraits/river-serpent.png",
+        "sha256": "fa791ce7e078ce4a611172262b4a2f901aeca96bedc771a7ca69adb50126493f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "River Serpent",
+        "publication": "Plane Shift: Amonkhet",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, July 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 38,
+        "pdfPageNumbering": "One-based page number, counting the cover.",
+        "section": "An Amonkhet Bestiary, The Luxa River",
+        "sourceUrl": "",
+        "sourceSha256": "30c1ab2f0de527d50a73097d05b6b41e6bf8472d63a276b46901487554116e23",
+        "appearanceEvidence": "The river text describes the more mundane serpent as resembling a Giant Constrictor Snake. The blue scaling and crest are editorial choices based on the general River Serpent illustration. The artwork depicts a more dramatic specimen with flipperlike limbs, which are omitted for this constrictor depiction.",
+        "habitatEvidence": "The river section places serpent encounters toward the river bottom in the Luxa. Amonkhet, Luxa River and Riverbed are searchable tags derived from the prose.",
+        "printedIllustration": "Christopher Moeller, River Serpent, on p. 38.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "abilityRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/using-ability-scores",
+        "reskinReference": {
+          "name": "Giant Constrictor Snake",
+          "publication": "Monster Manual",
+          "edition": "2014 fifth edition",
+          "printedPage": 324,
+          "officialRulesWitness": "Wizards of the Coast System Reference Document 5.1, p. 374",
+          "url": "",
+          "additionalOfficialWitness": "",
+          "scope": "CR 2 ordinary River Serpent. The behir-based variation belongs to the separate Giant River Serpent entry."
+        }
+      }
+    },
+    {
+      "owner": "dunes_kavu",
+      "name": "Serpopard",
+      "kind": "beast",
+      "publication": "Plane Shift: Amonkhet",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "serpopard",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/dunes_kavu/portraits/serpopard.png",
+        "sha256": "08f35683bba08308ce5cc01f22b65a7343c8c4104dacb032c7c0853c20520ad5",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Serpopard",
+        "publication": "Plane Shift: Amonkhet",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, July 2017",
+        "copyrightYear": 2017,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 37,
+        "pdfPageNumbering": "One-based page number, counting the cover.",
+        "section": "An Amonkhet Bestiary, Serpopard",
+        "sourceUrl": "",
+        "sourceSha256": "30c1ab2f0de527d50a73097d05b6b41e6bf8472d63a276b46901487554116e23",
+        "appearanceEvidence": "Creature description and Tyler Jacobson’s Prowling Serpopard illustration on p. 37.",
+        "habitatEvidence": "The prose explicitly places it in trees near desert oases and along the Luxa River inside the Hekma. The tags restate those locations.",
+        "printedIllustration": "Tyler Jacobson, Prowling Serpopard, on p. 37.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "abilityRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/using-ability-scores",
+        "sourceIssue": "Pounce requires a Claw hit. Bite is the only printed action. Do not add an inferred Claw attack or change the trigger to Bite."
+      }
+    },
+    {
+      "owner": "dunes_kavu",
+      "name": "Kavu Predator",
+      "kind": "beast",
+      "publication": "Plane Shift: Dominaria",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "kavu-predator",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/dunes_kavu/portraits/kavu-predator.png",
+        "sha256": "3c4f82dd602ce3475d72322c604ffdb0fda1b66bb4fad9e72b6a5445231b02a2",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Kavu Predator",
+        "publication": "Plane Shift: Dominaria",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, July 2018",
+        "copyrightYear": 2018,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 24,
+        "pdfPageNumbering": "One-based page number, counting the cover.",
+        "section": "Elves of Llanowar, Kavu, Arboreal Foes",
+        "sourceUrl": "",
+        "sourceSha256": "d8c18095edb6c739aea2e08dd86c895a51797723482d5c1a9d95f59c8937fc0b",
+        "appearanceEvidence": "Kavu are reptilian, and the arboreal section describes climbing breeds. Broad claws and angular features draw on the adjacent Kavu Climber illustration. Color is editorial.",
+        "habitatEvidence": "The Kelfae breed arboreal kavu in Llanowar. Forest canopy and Kelfae woodlands are editorial tags derived from the Elves of Llanowar section and Kavu text.",
+        "printedIllustration": "Jonathan Kuo, Kavu Climber, on p. 24.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "abilityRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/using-ability-scores"
+      }
+    },
+    {
+      "owner": "dunes_kavu",
+      "name": "Steel Leaf Kavu",
+      "kind": "beast",
+      "publication": "Plane Shift: Dominaria",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "steel-leaf-kavu",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "parts/dunes_kavu/portraits/steel-leaf-kavu.png",
+        "sha256": "06705c758d6020b762746ade48840047d6b143cc062be7d8c636e8207ec72596",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Steel Leaf Kavu",
+        "publication": "Plane Shift: Dominaria",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "First printing, July 2018",
+        "copyrightYear": 2018,
+        "author": "James Wyatt with Ashlie Hope",
+        "publisher": "Wizards of the Coast",
+        "pdfPage": 24,
+        "pdfPageNumbering": "One-based page number, counting the cover.",
+        "section": "Elves of Llanowar, Kavu, Deadly Chargers",
+        "sourceUrl": "",
+        "sourceSha256": "d8c18095edb6c739aea2e08dd86c895a51797723482d5c1a9d95f59c8937fc0b",
+        "appearanceEvidence": "The section describes riding breeds. The pose-independent features draw on the visible mount anatomy in Chris Rahn’s Steel Leaf Champion illustration.",
+        "habitatEvidence": "The source describes the Basiphem maintaining forest-floor stables for their largest ground-dwelling kavu. The habitat tags condense that location and the Llanowar setting.",
+        "printedIllustration": "Chris Rahn, Steel Leaf Champion, beside the stat block on p. 24. This printed art citation is documentation only.",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "abilityRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/using-ability-scores"
+      }
+    },
+    {
+      "owner": "black_flag",
+      "name": "Plesiosaurus",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "2",
+      "art_group": "reuse:plesiosaurus",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "images/monsters/plesiosaurus/parchment-portrait.webp",
+        "sha256": "c1ccf37963e1f9ea88fa45b872eb1c9d5874a3d184a98ad52f88b86a4df356a5",
+        "credit": "OpenAI ImageGen",
+        "reused": true
+      },
+      "source": {
+        "name": "Plesiosaurus",
+        "kind": "beast",
+        "edition": "Black Flag Roleplaying",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "pdfPage": 259,
+        "printedPages": [
+          259
+        ],
+        "viewerPages": [
+          259
+        ],
+        "section": "Dinosaurs",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 450,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 14
+        },
+        "abilityModifiers": {
+          "STR": 4,
+          "DEX": 2,
+          "CON": 3,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -3
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description from the matching generated Monster portrait and the flippers named in the printed Flipper Slam.",
+        "habitatEvidence": "Coastal waters and open ocean are suggested encounter locations based on its swim speed, flippers, and hour-long breath hold.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+        "mechanicsNotes": []
+      }
+    },
+    {
+      "owner": "black_flag",
+      "name": "Triceratops",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "5",
+      "art_group": "reuse:triceratops",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "images/monsters/triceratops/parchment-portrait.webp",
+        "sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789",
+        "credit": "OpenAI ImageGen",
+        "reused": true
+      },
+      "source": {
+        "name": "Triceratops",
+        "kind": "beast",
+        "edition": "Black Flag Roleplaying",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "pdfPage": 259,
+        "printedPages": [
+          259
+        ],
+        "viewerPages": [
+          259
+        ],
+        "section": "Dinosaurs",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 1800,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 10,
+          "Stealth": 9
+        },
+        "abilityModifiers": {
+          "STR": 6,
+          "DEX": -1,
+          "CON": 3,
+          "INT": -4,
+          "WIS": 0,
+          "CHA": -3
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description based on the matching generated Monster portrait and the Gore attack.",
+        "habitatEvidence": "Grasslands and woodland edges are editorial suggestions that give a Huge terrestrial beast room to use Trampling Charge.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+        "mechanicsNotes": [
+          "The Warning Bugle exception requires failure of the charge’s Strength save rather than the Wisdom save."
+        ]
+      }
+    },
+    {
+      "owner": "black_flag",
+      "name": "Tyrannosaurus Rex",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "8",
+      "art_group": "reuse:tyrannosaurus-rex",
+      "printed_cr": "8",
+      "portrait": {
+        "file": "images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+        "sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+        "credit": "OpenAI ImageGen",
+        "reused": true
+      },
+      "source": {
+        "name": "Tyrannosaurus Rex",
+        "kind": "beast",
+        "edition": "Black Flag Roleplaying",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "pdfPage": 259,
+        "printedPages": [
+          259
+        ],
+        "viewerPages": [
+          259
+        ],
+        "section": "Dinosaurs",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 3900,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 14,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": 8,
+          "DEX": 0,
+          "CON": 4,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -1
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description from the same-form generated Monster portrait and the Bite and Tail attacks.",
+        "habitatEvidence": "Grasslands and woodland edges are editorial encounter suggestions based on its Huge size and terrestrial movement.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+        "mechanicsNotes": [
+          "Keep the printed Strength modifier +8, attack bonuses +8, and +5 in both damage rolls. Do not recalculate them from ability modifiers.",
+          "Rending Shake does not state a separate grapple-release rule."
+        ]
+      }
+    },
+    {
+      "owner": "black_flag",
+      "name": "Velociraptor",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/2",
+      "art_group": "velociraptor",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/black_flag/portraits/velociraptor.png",
+        "sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Velociraptor",
+        "kind": "beast",
+        "edition": "Black Flag Roleplaying",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "pdfPage": 260,
+        "printedPages": [
+          260
+        ],
+        "viewerPages": [
+          260
+        ],
+        "section": "Dinosaurs",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 100,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 14
+        },
+        "abilityModifiers": {
+          "STR": -2,
+          "DEX": 4,
+          "CON": 1,
+          "INT": -3,
+          "WIS": 1,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description based on the original staged portrait, dromaeosaur anatomy, and the printed Bite and Claws attacks.",
+        "habitatEvidence": "Scrub and open woodland are editorial placements for a small land predator that hunts alongside allies.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+        "mechanicsNotes": [
+          "Keep DEX +4, +4 to hit, and +2 in the printed Bite and Claws damage rolls.",
+          "Maul is a separate action, outside its Bite-and-Claws Multiattack."
+        ]
+      }
+    },
+    {
+      "owner": "black_flag",
+      "name": "Stirge",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/8",
+      "art_group": "stirge",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/black_flag/portraits/stirge.png",
+        "sha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Stirge",
+        "kind": "beast",
+        "edition": "Black Flag Roleplaying",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "pdfPage": 340,
+        "printedPages": [
+          340
+        ],
+        "viewerPages": [
+          340
+        ],
+        "section": "Stirge",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 25,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 9,
+          "Stealth": 12
+        },
+        "abilityModifiers": {
+          "STR": -3,
+          "DEX": 2,
+          "CON": 0,
+          "INT": -4,
+          "WIS": -1,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description based on the original staged portrait, with flight and blood feeding from the v0.2 block.",
+        "habitatEvidence": "Caves and marshes are editorial encounter placements inferred from its darkvision, flying speed, and blood-feeding behavior.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 block gives no habitat.",
+        "mechanicsNotes": [
+          "Keep direct HP loss separate from the initial piercing damage. Detachment by a creature’s action has no listed check."
+        ]
+      }
+    }
+  ]
+}

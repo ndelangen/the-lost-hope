@@ -1,0 +1,404 @@
+[
+  {
+    "name": "Death Giant Reaper",
+    "statBlock": {
+      "name": "Death Giant Reaper",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 126,
+      "classification": "Huge giant, any alignment",
+      "ac": 18,
+      "hp": 172,
+      "hitDice": "15d12 + 75",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 17,
+      "description": "A death giant reaper wears armor shaped like an insect carapace and carries a great scythe. Its shadow magic helps it strike from a distance and sap frightened foes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 8,
+        "History": 8,
+        "Perception": 7,
+        "Stealth": 6
+      },
+      "savingThrows": {
+        "Con": 9,
+        "Int": 8,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Damage immunities": "necrotic.",
+        "Condition immunities": "frightened.",
+        "Senses": "darkvision 120 ft.",
+        "Languages": "Giant.",
+        "Actions": "Multiattack. Make two attacks using Scythe or Soul Bolt.\nScythe. Melee weapon attack, +12 to hit, reach 15 ft., one target. A hit deals 21 (3d8 + 8) slashing damage plus 11 (2d10) necrotic damage.\nSoul Bolt. Ranged spell attack, +8 to hit, range 120 ft., one creature. A hit deals 26 (4d10 + 4) necrotic damage. If the creature is frightened, the giant gains temporary hit points equal to the damage dealt.",
+        "Bonus actions": "Frightening Teleport (Recharge 4–6). Magically teleport the giant and its worn or carried equipment up to 40 ft. to an unoccupied space it can see. Each creature within 10 ft. of the space the giant left must succeed on a DC 16 Wisdom save or become frightened until the end of that creature’s next turn.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 126."
+      }
+    }
+  },
+  {
+    "name": "Death Giant Shrouded One",
+    "statBlock": {
+      "name": "Death Giant Shrouded One",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 127,
+      "classification": "Huge giant (wizard), any alignment",
+      "ac": 12,
+      "hp": 195,
+      "hitDice": "17d12 + 85",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 23
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 18,
+      "description": "This death giant inscribes its magic on a fallen giant’s skull. With the skull in hand, it can give its staff a spectral blade or wrap itself in a shroud of souls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 11,
+        "Perception": 8,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Con": 10,
+        "Int": 11,
+        "Wis": 8,
+        "Cha": 8
+      },
+      "sections": {
+        "Damage immunities": "necrotic.",
+        "Condition immunities": "frightened.",
+        "Senses": "darkvision 120 ft.",
+        "Languages": "Common, Giant.",
+        "Traits": "Death Rune. The giant can use Reaping Scythe and Shroud of Souls while holding or wearing the skull marked with this rune. The skull has AC 18, 35 HP, and immunity to necrotic, poison and psychic damage. It returns to full HP at the end of every turn. It crumbles to dust if it reaches 0 HP or the giant dies. If the rune is destroyed, the giant can mark another skull it possesses when it finishes a short or long rest.",
+        "Actions": "Multiattack. Make three Soul Burst attacks. If the giant has its death rune, it can make three Reaping Scythe attacks instead.\nSoul Burst. Melee or ranged spell attack, +11 to hit, reach 10 ft. or range 120 ft., one target. A hit deals 28 (4d10 + 6) necrotic damage. If the target is frightened, the giant gains temporary hit points equal to the damage dealt.\nReaping Scythe (Requires Death Rune). Melee spell attack, +11 to hit, reach 15 ft., one creature. A hit deals 38 (7d10) necrotic damage. The creature cannot regain hit points until the end of its next turn and dies if this attack reduces it to 0 HP.\nSpellcasting. The giant casts one spell from this list using Intelligence. At will, Detect Magic and Mage Armor. Three times per day each, Speak with Dead and Tenser’s Floating Disk. Mage Armor raises AC to 15.",
+        "Bonus actions": "Frightening Teleport (Recharge 4–6). Magically teleport the giant and its worn or carried equipment up to 40 ft. to an unoccupied space it can see. Each creature within 10 ft. of the space the giant left must succeed on a DC 19 Wisdom save or become frightened until the end of that creature’s next turn.\nShroud of Souls (Requires Death Rune). The giant surrounds itself with a torrent of souls. A creature starting its turn within 5 ft. of the shrouded giant must pass a DC 19 Wisdom save or have disadvantage on saving throws until the end of its next turn. The shroud ends after 1 minute or sooner if the giant dies, uses Shroud of Souls again, or loses its death rune to destruction.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 127."
+      }
+    }
+  },
+  {
+    "name": "Dust Hulk",
+    "statBlock": {
+      "name": "Dust Hulk",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 131,
+      "classification": "Large elemental, typically chaotic neutral",
+      "ac": 16,
+      "hp": 68,
+      "hitDice": "8d10 + 24",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "description": "This descendant of stone giants moves as a cloud of grit and gravel. Its constantly shifting body is both its artwork and its means of slipping through narrow cracks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, restrained.",
+        "Senses": "darkvision 60 ft.",
+        "Languages": "Giant, Terran.",
+        "Traits": "Air Form. The dust hulk can enter a hostile creature’s space and stop there. It can move through gaps as narrow as 1 inch without squeezing.\nDeath Burst. When the dust hulk dies, its dust fills a 10-ft.-radius sphere centered on it. Each creature in the sphere must succeed on a DC 14 Constitution save or be blinded for 1 minute. It can repeat the save at the end of each of its turns, ending the blindness on a success.",
+        "Actions": "Multiattack. Make three Slam attacks. The dust hulk can replace one with Stinging Dust.\nSlam. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) bludgeoning damage.\nStinging Dust. Choose one creature in the dust hulk’s space. It makes a DC 14 Constitution save. On a failure it takes 10 (3d6) bludgeoning damage and becomes blinded until the end of its next turn. On a success it takes half damage only.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 131."
+      }
+    }
+  },
+  {
+    "name": "Echo of Demogorgon",
+    "statBlock": {
+      "name": "Echo of Demogorgon",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 132,
+      "classification": "Large fiend (demon), typically chaotic evil",
+      "ac": 14,
+      "hp": 85,
+      "hitDice": "10d10 + 30",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 17,
+      "description": "Demogorgon can transform a devoted ettin into a two-headed fiend with tentacles for arms. Its heads bicker and howl with enough force to turn nearby creatures against one another.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 7
+      },
+      "savingThrows": {
+        "Str": 9,
+        "Cha": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "cold, fire, lightning.",
+        "Condition immunities": "charmed, frightened.",
+        "Senses": "darkvision 60 ft.",
+        "Languages": "Abyssal, Giant, Orc.",
+        "Traits": "Magic Resistance. The echo has advantage on saves against spells and other magical effects.\nWakeful. If one head is asleep, the other stays awake.",
+        "Actions": "Multiattack. Make two Tentacle attacks.\nTentacle. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 13 (2d6 + 6) bludgeoning damage plus 9 (2d8) necrotic damage.",
+        "Bonus actions": "Discordant Screams. Choose one creature the echo can see within 60 ft. It must succeed on a DC 13 Wisdom save or suffer one of the following effects, chosen by the echo.\nConfused Reaction. The creature must spend its reaction to make a melee attack against another creature the echo chooses and can see.\nPsychic Torment. The creature takes 13 (2d12) psychic damage.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 132."
+      }
+    }
+  },
+  {
+    "name": "Ettin Ceremorph",
+    "statBlock": {
+      "name": "Ettin Ceremorph",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 133,
+      "classification": "Large aberration, typically lawful evil",
+      "ac": 15,
+      "hp": 104,
+      "hitDice": "11d10 + 44",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 18,
+      "description": "Two tadpoles can transform an ettin into a guardian for a mind flayer colony. One head sinks into the body and directs its movements while the other uses psionics.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8
+      },
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "psychic.",
+        "Condition immunities": "charmed, frightened, stunned, unconscious.",
+        "Senses": "darkvision 120 ft.",
+        "Languages": "Deep Speech, Giant, telepathy 60 ft., Undercommon.",
+        "Traits": "Magic Resistance. The ceremorph has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Tentacles attack and one Slam attack. The ceremorph can replace either attack with Mind Bolt if available.\nTentacles. Melee weapon attack, +7 to hit, reach 10 ft., one creature. A hit deals 15 (2d10 + 4) psychic damage. A Large or smaller target is also grappled (escape DC 14) and must succeed on a DC 15 Intelligence save or be stunned until that grapple ends.\nSlam. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 22 (4d8 + 4) bludgeoning damage.\nExtract Brain. Melee weapon attack, +7 to hit, reach 5 ft., one incapacitated Humanoid grappled by the ceremorph. A hit deals 55 (10d10) piercing damage. If that damage reduces the target to 0 HP, the ceremorph eats its brain and kills it.\nMind Bolt (3/day). Ranged spell attack, +7 to hit, range 120 ft., one creature. A hit deals 17 (2d12 + 4) psychic damage. The creature must succeed on a DC 15 Intelligence save or be stunned until the end of its next turn.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 133."
+      }
+    }
+  },
+  {
+    "name": "Fensir Devourer",
+    "statBlock": {
+      "name": "Fensir Devourer",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 135,
+      "classification": "Huge celestial, typically chaotic neutral",
+      "ac": 17,
+      "hp": 138,
+      "hitDice": "12d12 + 60",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 18,
+      "description": "After a thousand years or more in Ysgard, some fensirs grow to about 25 feet tall and develop a hunger they cannot satisfy. A devourer can curse nearby creatures as it dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8,
+        "Survival": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Traits": "Death Curse. If the fensir starts its turn at 0 HP and fails to regenerate, each creature within 30 ft. of it when it dies must make a DC 13 Charisma save. A creature that fails is cursed for 24 hours. It gains no benefit from a short or long rest and must make a DC 13 Charisma save at the end of every hour or take 11 (2d10) psychic damage.\nRegeneration. The fensir regains 10 HP at the start of its turn if outside sunlight. Taking acid or fire damage suppresses regeneration at the start of its next turn. The fensir dies only if it starts its turn at 0 HP and fails to regenerate.\nSunlight Hypersensitivity. If the fensir starts its turn in sunlight, it must pass a DC 15 Constitution save or be petrified until it is out of the sunlight.",
+        "Actions": "Multiattack. Make two attacks in any combination of Rend and Boulder.\nRend. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 21 (3d10 + 5) slashing damage.\nBoulder. Ranged weapon attack, +8 to hit, range 60/240 ft., one target. A hit deals 18 (2d12 + 5) bludgeoning damage. A Large or smaller creature hit must succeed on a DC 16 Strength save or fall prone. Roll a d6 after each throw. On a 4 or lower, the fensir runs out of boulders.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 135."
+      }
+    }
+  },
+  {
+    "name": "Fensir Skirmisher",
+    "statBlock": {
+      "name": "Fensir Skirmisher",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 135,
+      "classification": "Large giant, any alignment",
+      "ac": 15,
+      "hp": 94,
+      "hitDice": "9d10 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 16,
+      "description": "Years of fighting in Ysgard teach skirmishers to wield earth as a weapon. They can hurl a fleck of gravel that grows into a boulder on its way to the target.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 6
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 3
+      },
+      "sections": {
+        "Armor": "Chain shirt.",
+        "Senses": "darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Traits": "Regeneration. The fensir regains 10 HP at the start of its turn if outside sunlight. Taking acid or fire damage suppresses regeneration at the start of its next turn. The fensir dies only if it starts its turn at 0 HP and fails to regenerate.\nSunlight Hypersensitivity. If the fensir starts its turn in sunlight, it must pass a DC 15 Constitution save or be petrified until it is out of the sunlight.",
+        "Actions": "Multiattack. Make three Battleaxe attacks or two Magic Stone attacks.\nBattleaxe. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands.\nMagic Stone. Ranged spell attack, +5 to hit, range 60 ft., one target. A hit deals 15 (2d12 + 2) bludgeoning damage. A Large or smaller creature hit must succeed on a DC 13 Strength save or fall prone.\nMud to Stone (Recharge 6). Choose a point the fensir can see within 60 ft. Magical mud fills a 30-ft.-radius sphere centered there. Each creature other than a fensir in the sphere must succeed on a DC 13 Dexterity save or take 13 (3d8) bludgeoning damage and become restrained. The creature must roll the save again at the end of its next turn. A success ends the effect, while a failure petrifies it for 24 hours.\nSpellcasting. The fensir uses Intelligence to cast Create or Destroy Water, Detect Magic, or Pass without Trace. It can cast each spell once per day.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 135."
+      }
+    }
+  }
+]

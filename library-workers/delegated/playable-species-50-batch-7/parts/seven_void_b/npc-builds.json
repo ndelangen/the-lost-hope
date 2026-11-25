@@ -1,0 +1,188 @@
+{
+  "builds": [
+    {
+      "id": "voidrunner-keridani-osrel-venn-psion-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Keridani mediator, Psion 1",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "senses": "Passive Perception 13. Empathic Sense can read visible emotions. A creature hides its emotions from Osrel with Deception against passive Insight 13.",
+      "speed": "30 ft.",
+      "languages": "Common, Dwarvish, Elvish, Gnomish, Goblin, Halfling, Orc.",
+      "ac": 14,
+      "hp": 8,
+      "hitDice": "1d6",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 16
+      },
+      "skills": [
+        "Arcana +2",
+        "History +2",
+        "Insight +3",
+        "Investigation +2",
+        "Perception +3",
+        "Persuasion +5",
+        "Science +2",
+        "Stealth +4"
+      ],
+      "traits": [
+        "Empathic Sense gift. Enlightened culture with Student of the Mind. Diplomat background, with +1 Charisma and +1 Constitution. Reason destiny, unfulfilled. Expertise die on negotiation Persuasion and listening Perception.",
+        "Proficiency +2. Saves Str −1, Dex +2, Con +4, Int +2, Wis +1, Cha +3. Synthweave coat. Proficient with calligrapher’s supplies, computers, and space vehicles.",
+        "Osrel can speak into a visible creature’s mind within 60 ft. if they share a language. The creature cannot reply through this trait. Adhesive Pads grant 1d4 on climb checks and saves against disarming.",
+        "Charisma-based psionics, rating I, attack +5, save DC 13, 4 points. Long rest restores all points. At the end of a short rest, Osrel may expend the d6 Hit Die to recover that many points, to the normal limit. Only one of the listed concentrations stays active at once.",
+        "After one hour observing an unfamiliar means of communication, Osrel understands simple meaning and can convey yes or no. Reason grants inspiration on a critical Intelligence check success or a successful save against charmed, confused, frightened, or rattled. Spend that inspiration for an expertise die on Intelligence checks for one hour."
+      ],
+      "actions": [
+        "Psionic Blast. Action. Ranged psionic attack +5 against one visible creature within 30 ft. Hit 1d8+3 psychic. Costs no points.",
+        "Binding. Action, 1 point. One creature within 60 ft. makes a Strength save DC 13. Failure restrains it for up to one minute while Osrel concentrates. It repeats the save at the end of each turn, ending the restraint on success.",
+        "Emote. Action, free reflex. Send a simple emotional signal to one creature within 120 ft. with Intelligence 6 or higher without a common language. Concentration up to one round.",
+        "Adrenalize. Bonus action, free reflex from the culture. A willing creature within 30 ft. can add an expertise die to one Strength, Dexterity, or Constitution check of its choice before the result is determined. Concentration up to one minute.",
+        "Mandibles. Melee weapon attack +1, reach 5 ft. Hit 1d4−1 piercing. After damaging the target, Osrel can spend one of two poison uses. The target makes a Constitution save DC 12 and takes 2d4 poison on failure. Long rest restores both uses."
+      ],
+      "tactics": "Ask each side to state its terms. If the meeting turns violent, restrain the first attacker with Binding, stay clear of melee, and use Psionic Blast only if the guards cannot restore order."
+    },
+    {
+      "id": "voidrunner-naato-daro-vesh-scout-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Naato salvage scout, Scout 1",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "senses": "Passive Perception 13.",
+      "speed": "30 ft.",
+      "languages": "Common, Goblin, Orc.",
+      "ac": 16,
+      "hp": 9,
+      "hitDice": "1d8",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 14
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Computers (proficient)",
+        "Engineering +1",
+        "Investigation +1",
+        "Perception +3",
+        "Stealth +5"
+      ],
+      "traits": [
+        "Camouflage gift. Drifter culture. Salvager background, with +1 Wisdom and +1 Dexterity. Exploration destiny, unfulfilled. Expertise die on balancing Acrobatics and camouflage Stealth.",
+        "Proficiency +2. Saves Str +0, Dex +5, Con +1, Int −1, Wis +1, Cha +4. Unarmored scales give AC 16. Artful Defense would give AC 15. Use one AC formula. Shoot First adds Charisma +2 to normal initiative.",
+        "Balancing Tail gives advantage on checks and saves to stay balanced or avoid prone. Cold damage slows Daro through the end of their next turn. While slowed, halve speed, subtract 2 from AC and Dexterity saves, and allow no reaction. On the turn they may use an action or bonus action and make at most one attack.",
+        "Familiar Operations grants an expertise die to Computers checks using a familiar ship or station system and to checks to resist being rattled or incurring strife. Zero-g is ordinary terrain for Daro, and Dexterity check rolls below 10 to maneuver in low gravity count as 10. Chosen At The Ready tool is a sewing kit, usable with a bonus action when it would normally use the Use an Object action. System Hotwire reduces the power cost of a system maneuver through a medical bay or operations center by 1 to a minimum of 0, three times per long rest. Daro can change the selected deck types on a long rest.",
+        "Multitasker allows a second journey activity if one is Salvaging. Significant new discoveries grant Exploration inspiration. Spend that inspiration to add an expertise die on saves against environmental and encounter obstacles for one hour."
+      ],
+      "actions": [
+        "Slugger. Ranged weapon attack +5, range 50/150 ft. Hit 2d4+3 piercing. Holds 20 shots. Reload as an action with a free hand. Carries 40 rounds in total including the loaded set.",
+        "Vibroknife. Melee weapon attack +5, reach 5 ft. Hit 1d4+3 thunder. Finesse.",
+        "Dastardly Gambit. Reaction, two uses per long rest. When a creature that sees or hears Daro or their piloted vehicle makes a check, attack, or save, Daro can subtract 1d6 after the roll.",
+        "Camouflage. Bonus action, once per long rest. Advantage on Stealth checks for up to one minute. This does not provide invisibility."
+      ],
+      "tactics": "Open from useful cover. Spend Gambit on an opponent’s decisive attack or save. If the route is blocked, go quiet, use camouflage and look for a different way into the wreck."
+    },
+    {
+      "id": "voidrunner-sipher-lio-crag-trooper-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "size": "Small",
+      "type": "Humanoid",
+      "title": "Sipher station responder, Trooper 1",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "speed": "25 ft.",
+      "languages": "Common, Dwarvish.",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Engineering +2",
+        "Insight +1 (plus 1d4)",
+        "Medicine +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Energy Bolt gift, lightning. Belter culture. Miner background, with +1 Constitution and +1 Dexterity. Victory destiny, unfulfilled. Expertise die on lifting Athletics and mechanical-trap Engineering.",
+        "Proficiency +2. Saves Str +4, Dex +3, Con +4, Int +0, Wis +1, Cha −1. Synthweave duty suit. Insight checks gain 1d4 expertise. Once per long rest add 1d4 to an Intelligence, Wisdom, or Charisma save through Hiveminded.",
+        "Favored Ordnance, light firearms. After dealing its extra 1d4 damage on a hit, Lio cannot apply the extra damage again before the start of their next turn.",
+        "Lio is proficient with space and land vehicles, multi-scanners, and weapon and armor maintenance tools. Engineering from two origins lets Lio choose Medicine proficiency instead for one of them. Belter Repair journey activity results improve one step. A rolled critical success removes an additional critical malfunction. In cramped spaces Lio adds an expertise die to Stealth and moves at full speed while squeezing. Miner Danger Sense adds an expertise die on skill checks to spot hazards or traps.",
+        "Defeating a worthy foe grants Victory inspiration. Spend it to gain an expertise die on opposed checks against another creature for one hour."
+      ],
+      "actions": [
+        "Energy Bolt. Action. Ranged natural weapon attack +5, range 30 ft. Hit 1d8+3 lightning.",
+        "Laser Pistol. Ranged weapon attack +5, range 40/100 ft. Hit 2d4+3 radiant plus 1d4 radiant when Favored Ordnance is available. Reload after 20 shots as an action with a free hand. Lio has a battery sufficient for 40 light-weapon shots.",
+        "Tactical Baton. Melee weapon attack +4, reach 5 ft. Hit 1d4+2 bludgeoning.",
+        "Combat Medic. Action. Restore 4 hit points to an ally within reach. Two uses per short or long rest.",
+        "Indomitable Soul. Bonus action when at 6 HP or less. Gain 1d10+1 temporary HP for up to one minute and ignore frightened and rattled while those temporary HP last. Existing effects still count down. Once per short or long rest.",
+        "Gauge Threat. Action. Choose one target Lio sees within 60 ft. Make an Insight check against the target’s passive Deception. Use Engineering instead of Insight if the target is a construct. On success learn the target’s CR or class level."
+      ],
+      "tactics": "Get an injured worker behind cover, use Combat Medic, then block pursuit. Use Energy Bolt at close firing distances and the pistol if the target stays outside 30 ft."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Osrel Venn",
+      "species": "Keridani",
+      "size": "Medium",
+      "role": "A mediator stationed at a regional jump terminal.",
+      "motive": "Get the dock union and carrier captains talking before a strike isolates the smaller stations.",
+      "hook": "Osrel asks the party to escort a witness who will testify only in a language neither delegation knows.",
+      "edition": "Level Up: Advanced 5th Edition",
+      "speciesPublication": "Voidrunner's Codex (2025)",
+      "build": "voidrunner-keridani-osrel-venn-psion-1"
+    },
+    {
+      "name": "Daro Vesh",
+      "species": "Naato",
+      "size": "Medium",
+      "role": "A drifter who guides crews through wrecks.",
+      "motive": "Recover the last working pilot log from the wreck that scattered their old crew.",
+      "hook": "Daro offers the party a salvage share if they hold a route open through the ship’s collapsed boarding spine.",
+      "edition": "Level Up: Advanced 5th Edition",
+      "speciesPublication": "Voidrunner's Codex (2025)",
+      "build": "voidrunner-naato-daro-vesh-scout-1"
+    },
+    {
+      "name": "Lio Crag",
+      "species": "Sipher",
+      "size": "Small",
+      "role": "A Belter station rescue responder and former miner.",
+      "motive": "Clear the evacuation shafts while the station owner insists the fault can wait.",
+      "hook": "Lio has a route through the disused ore intake, but needs a second crew to get the injured off shift.",
+      "edition": "Level Up: Advanced 5th Edition",
+      "speciesPublication": "Voidrunner's Codex (2025)",
+      "build": "voidrunner-sipher-lio-crag-trooper-1"
+    }
+  ]
+}

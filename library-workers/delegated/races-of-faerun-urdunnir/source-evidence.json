@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Urdunnir",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "firstPrinting": "March 2003",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "racialTraits": [
+        22
+      ],
+      "region": [
+        23
+      ],
+      "illustration": [
+        21
+      ],
+      "shapeMetal": [
+        191
+      ]
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "coreDwarf": "https://www.d20srd.org/srd/races.htm#dwarves",
+    "coreStoneShape": "https://www.d20srd.org/srd/spells/stoneShape.htm",
+    "printedArtCredit": "Wayne England, p. 21.",
+    "regionalRevision": "",
+    "sourceDistinctions": [
+      "The Urdunnir and any passengers must hold their breath during Stone Walk. The entry sets a payload cap at twice the Urdunnir’s own weight.",
+      "The race’s Shape Metal ability is a full-round action and is capped at 5 cubic feet. Its equivalent spell is on p. 191.",
+      "The core 3.5 Dwarf supplies stability, weapon familiarity, and the movement rule for medium or heavy armor and loads."
+    ],
+    "entryId": "species-2aad9fcaf946d745d50f673c",
+    "versionKey": "9c083754815b795da3fd48b0",
+    "slug": "urdunnir",
+    "portraitSelection": "generated",
+    "portraitForm": "Breka Flintvein, an original Urdunnir gemcutter",
+    "npcExamples": [
+      "Breka Flintvein",
+      "Dorrin Slatebrace"
+    ]
+  }
+]

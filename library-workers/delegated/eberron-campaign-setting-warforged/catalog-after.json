@@ -1,0 +1,598 @@
+[
+  {
+    "name": "Warforged",
+    "kind": "species",
+    "group": "2024 fifth edition",
+    "groups": [
+      "2024 fifth edition",
+      "2014 fifth edition",
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "f75a24ec605d7cde1c1549a8",
+      "publication": "Eberron Campaign Setting (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144376M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Construct (Living Construct)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Construct with the Living Construct subtype and a Constitution score. Base land speed 30 ft. +2 Constitution, −2 Wisdom, and −2 Charisma. Class determines Hit Dice, BAB, saves, and skill points. The playable entry lists no level adjustment.",
+            "Use ordinary vision and normal saves against mind-affecting spells and abilities. Living Constructs are subject to critical hits, nonlethal damage, stunning, ability damage and drain, death effects, and necromancy.",
+            "Immune to poison, sleep effects, paralysis, disease, nausea, fatigue, exhaustion, effects causing sickened, and energy drain.",
+            "The official errata allows natural recovery of nonlethal damage and bars natural healing of lethal damage. Healing-subschool spells and supernatural healing of HP or ability damage work at half effect. Repair light damage works at full effect.",
+            "Effects that target living creatures or constructs can affect a Warforged. Raise dead and resurrection can restore one to life.",
+            "The p. 46 Craft repair procedure takes 8 hours and restores 1 HP per point the check exceeds 15. The procedure requires ranks, as clarified in the errata. Use Craft (armorsmithing, blacksmithing, gemcutting, or sculpting), including for self-repair. Taking 10 is allowed. Taking 20 is barred.",
+            "Heat metal, chill metal, and repel metal or stone affect Warforged as if they wore metal armor. Repel wood also applies. Rusting grasp deals 2d6 damage, Reflex half at DC 14 + caster ability modifier. A rust monster’s touch deals 2d6, Reflex DC 17 half.",
+            "At 0 HP, a Warforged is disabled and gets one move or standard action per round without losing HP for strenuous actions. At −1 through −9 HP it is inert, unconscious and helpless, and loses HP only if damaged again.",
+            "Warforged function without food, sleep, or air. A Warforged can benefit from consumables. Spell preparation and infusions retain their class rest requirements.",
+            "Composite Plating gives a +2 armor bonus to AC. It occupies the armor and magic robe slot and can be enchanted as armor. The plating prevents wearing other armor or magic robes and does not stack with other armor bonuses. It imposes 5% arcane spell failure unless a class feature waives failure in light armor.",
+            "Light Fortification gives a 25% chance to negate the extra effects of a critical hit or sneak attack and roll damage normally.",
+            "One natural slam deals 1d4 base damage. Common is automatic, with no racial bonus languages. Favored class Fighter.",
+            "Adamantine Body is an optional 1st-level feat. It sets the plating armor bonus to +8, grants DR 2/adamantine, reduces base speed to 20 ft., and counts as heavy armor. Maximum Dexterity bonus +1, armor check penalty −5, and arcane spell failure 35%."
+          ]
+        },
+        {
+          "title": "Original NPC · Swage",
+          "lines": [
+            "Latch maker and Artificer.",
+            "Motive. Replace a worn lift hinge and repair the attendant before the next shift.",
+            "Hook. Swage can get the lift working if the party retrieves the old hinge from the inspection cage.",
+            "Warforged latch maker, Artificer 1 · Provisional CR 1. ECL 1. · Medium Construct (Living Construct)",
+            "AC 13 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Keel",
+          "lines": [
+            "Drain gate watch and Fighter.",
+            "Motive. Hold the flooded drain gate open long enough to get the maintenance crew out.",
+            "Hook. Keel can hold the gate below the waterline while the party leads the crew to the landing.",
+            "Warforged drain gate watch, Fighter 1 · Provisional CR 1. ECL 1. · Medium Construct (Living Construct)",
+            "AC 21 · HP 13 (1d10+3) · Speed 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Swage": [
+          {
+            "start": 15,
+            "end": 20,
+            "target": {
+              "name": "Swage",
+              "group": "Warforged",
+              "publication": "Warforged latch maker, Artificer 1",
+              "local": {
+                "entry": "npc-aa4ae39c97374d1f9ae06422",
+                "version": "8e100cbc197c22d9636256ce"
+              }
+            }
+          }
+        ],
+        "Hook. Swage can get the lift working if the party retrieves the old hinge from the inspection cage.": [
+          {
+            "start": 6,
+            "end": 11,
+            "target": {
+              "name": "Swage",
+              "group": "Warforged",
+              "publication": "Warforged latch maker, Artificer 1",
+              "local": {
+                "entry": "npc-aa4ae39c97374d1f9ae06422",
+                "version": "8e100cbc197c22d9636256ce"
+              }
+            }
+          }
+        ],
+        "Original NPC · Keel": [
+          {
+            "start": 15,
+            "end": 19,
+            "target": {
+              "name": "Keel",
+              "group": "Warforged",
+              "publication": "Warforged drain gate watch, Fighter 1",
+              "local": {
+                "entry": "npc-d6dba7e8a54d32d2cf8eef5b",
+                "version": "768069ae22a1e4283e917850"
+              }
+            }
+          }
+        ],
+        "Hook. Keel can hold the gate below the waterline while the party leads the crew to the landing.": [
+          {
+            "start": 6,
+            "end": 10,
+            "target": {
+              "name": "Keel",
+              "group": "Warforged",
+              "publication": "Warforged drain gate watch, Fighter 1",
+              "local": {
+                "entry": "npc-d6dba7e8a54d32d2cf8eef5b",
+                "version": "768069ae22a1e4283e917850"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "11e6d936c8e1758bde18bf17",
+        "publication": "Eberron: Forge of the Artificer",
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/races.html#warforged_efa",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/52994/778/340/340/638996059022064405.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Ignacio Bazan-Lazcano · Eberron: Forge of the Artificer"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Small, Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Small or Medium.",
+              "Walking speed 30 feet.",
+              "Damage resistance includes poison.",
+              "Source traits include Construct Resilience, Integrated Protection, Sentry's Rest, Specialized Design, Tireless."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Construct Resilience",
+              "Integrated Protection",
+              "Sentry's Rest",
+              "Specialized Design",
+              "Tireless"
+            ]
+          }
+        ],
+        "sourceCode": "EFA",
+        "page": 38,
+        "references": [
+          {
+            "label": "Eberron: Forge of the Artificer, p. 38",
+            "url": "https://5e.tools/races.html#warforged_efa"
+          },
+          {
+            "label": "Poisoned (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#poisoned_xphb",
+            "local": {
+              "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+            },
+            "preview": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+              }
+            }
+          },
+          {
+            "label": "Exhaustion (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#exhaustion_xphb",
+            "local": {
+              "entry": "compendium-90b17ab4e431f588d2571743",
+              "version": "XPHB:365:https://5e.tools/conditionsdiseases.html#exhaustion_xphb"
+            },
+            "preview": {
+              "name": "Exhaustion",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 365,
+              "description": "Accumulated fatigue imposes penalties that worsen as you gain levels of exhaustion.",
+              "local": {
+                "entry": "compendium-90b17ab4e431f588d2571743",
+                "version": "XPHB:365:https://5e.tools/conditionsdiseases.html#exhaustion_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Small or Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistance includes poison.": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Construct Resilience, Integrated Protection, Sentry's Rest, Specialized Design, Tireless.": [
+            {
+              "start": 55,
+              "end": 65,
+              "target": {
+                "name": "Protection",
+                "group": "Feats",
+                "publication": "Player's Handbook (2024)",
+                "page": 209,
+                "local": {
+                  "entry": "compendium-e5730ab5b188d192f2cfe4f4",
+                  "version": "XPHB:209:https://5e.tools/feats.html#protection_xphb"
+                }
+              }
+            }
+          ],
+          "Integrated Protection": [
+            {
+              "start": 11,
+              "end": 21,
+              "target": {
+                "name": "Protection",
+                "group": "Feats",
+                "publication": "Player's Handbook (2024)",
+                "page": 209,
+                "local": {
+                  "entry": "compendium-e5730ab5b188d192f2cfe4f4",
+                  "version": "XPHB:209:https://5e.tools/feats.html#protection_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "8c8f4875c71df0b86477bf65",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#warforged_erlw",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/7745/909/340/340/637093534176301920.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Eberron: Rising from the Last War"
+          },
+          {
+            "url": "",
+            "credit": "Craig J Spearing · Eberron: Rising from the Last War"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 30 feet.",
+              "Damage resistance includes poison.",
+              "Source traits include Age, Alignment, Size, Constructed Resilience, Sentry's Rest, Integrated Protection, Specialized Design, Languages."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Age",
+              "Alignment",
+              "Size",
+              "Constructed Resilience",
+              "Sentry's Rest",
+              "Integrated Protection",
+              "Specialized Design",
+              "Languages"
+            ]
+          }
+        ],
+        "sourceCode": "ERLW",
+        "page": 35,
+        "references": [
+          {
+            "label": "Eberron: Rising from the Last War, p. 35",
+            "url": "https://5e.tools/races.html#warforged_erlw"
+          },
+          {
+            "label": "Poisoned (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#poisoned_phb",
+            "local": {
+              "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+            },
+            "preview": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          },
+          {
+            "label": "Unconscious (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#unconscious_phb",
+            "local": {
+              "entry": "compendium-f8c99497573ef8dfe75b50cd",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#unconscious_phb"
+            },
+            "preview": {
+              "name": "Unconscious",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act, move, or speak. You drop what you are holding and fall prone.",
+              "local": {
+                "entry": "compendium-f8c99497573ef8dfe75b50cd",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#unconscious_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistance includes poison.": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Age, Alignment, Size, Constructed Resilience, Sentry's Rest, Integrated Protection, Specialized Design, Languages.": [
+            {
+              "start": 27,
+              "end": 36,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            },
+            {
+              "start": 94,
+              "end": 104,
+              "target": {
+                "name": "Protection",
+                "group": "Feats",
+                "publication": "Player's Handbook (2024)",
+                "page": 209,
+                "local": {
+                  "entry": "compendium-e5730ab5b188d192f2cfe4f4",
+                  "version": "XPHB:209:https://5e.tools/feats.html#protection_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Integrated Protection": [
+            {
+              "start": 11,
+              "end": 21,
+              "target": {
+                "name": "Protection",
+                "group": "Feats",
+                "publication": "Player's Handbook (2024)",
+                "page": 209,
+                "local": {
+                  "entry": "compendium-e5730ab5b188d192f2cfe4f4",
+                  "version": "XPHB:209:https://5e.tools/feats.html#protection_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Warforged": true,
+      "warforged living construct": true,
+      "warforged light fortification": true,
+      "warforged composite plating": true,
+      "warforged adamantine body": true,
+      "warforged latch maker": true,
+      "warforged drain gate watch": true
+    },
+    "hash": "f8668d371b8b9fe02d02a2bc5bce274b5236318931f7b8d5ec12acc66cb517a4",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Ignacio Bazan-Lazcano · Eberron: Forge of the Artificer"
+      },
+      {
+        "url": "",
+        "credit": "Eberron: Rising from the Last War"
+      },
+      {
+        "url": "",
+        "credit": "Craig J Spearing · Eberron: Rising from the Last War"
+      }
+    ],
+    "defaultPublication": "Eberron Campaign Setting (2004)",
+    "defaultVersionKey": "f75a24ec605d7cde1c1549a8",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

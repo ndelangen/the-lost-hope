@@ -1,0 +1,275 @@
+{
+  "builds": [
+    {
+      "id": "mr2-elder-brain-vellum-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Aberration",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Class-built NPC. No assigned challenge rating.",
+      "title": "Elder Brain memory keeper, Monk 2",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 2,
+      "speed": "15 ft. walk, 20 ft. swim while unarmored",
+      "senses": "Blindsight 30 ft. Passive Perception 13.",
+      "languages": "Understands, reads and writes Common, Deep Speech, Undercommon, Draconic and Elvish. No speech. Telepathic Hub 30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 14,
+        "WIS": 16,
+        "CHA": 11
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Arcana +4",
+        "History +4",
+        "Insight +5"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +1, Dex +4. Unarmored Defense gives AC 10 + 2 Dex + 3 Wis. Unarmored Movement adds 10 ft. to its speeds.",
+        "Two ki per short or long rest with 30 minutes of meditation. No armor, shield, hand-held gear or spells in this build.",
+        "Vellum can relay a discussion between nearby creatures through Telepathic Hub. It relies on blindsight in an encounter."
+      ],
+      "actions": [
+        "Tentacle. Melee unarmed strike +4, reach 5 ft., 1d4+2 psychic. After spending the Attack action on the strike, Martial Arts can add a bonus-action lash at +4 for 1d4+2 bludgeoning.",
+        "Mind Blast. Action, 15-ft. cone, Intelligence DC 12. Deal 2d6 psychic on failure or half on success. Once per short or long rest.",
+        "Ki. Spend 1 ki immediately after an Attack action for two bonus-action lashes at +4, 1d4+2 bludgeoning each. Alternatively use 1 ki to Dodge as a bonus action, or to Dash or Disengage as a bonus action and double jump distance for that turn."
+      ],
+      "tactics": "Vellum lets allies coordinate telepathically from the mouth of a narrow passage. If rushed, it uses Mind Blast when it can catch opponents clear of allies and spends ki to evade pursuit."
+    },
+    {
+      "id": "mr2-quickling-bram-tallowheel-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Fey",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Class-built NPC. No assigned challenge rating.",
+      "title": "Quickling errand runner, Rogue 1",
+      "size": "Tiny",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "60 ft. walk",
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Sylvan.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Dex +5, Int +3. Fitted leather gives AC 11 + 3 Dex. Expertise in Stealth and thieves’ tools, the latter +7 with Dexterity.",
+        "Evasion. Dexterity saves that normally halve damage deal no damage on a success and half on a failure.",
+        "His Tiny rapier retains finesse with a 1d2 damage die. Bram knows Thieves’ Cant."
+      ],
+      "actions": [
+        "Tiny rapier. Melee weapon attack +5, reach 5 ft., 1d2+3 piercing.",
+        "Sneak Attack. Add 1d6 piercing on one rapier hit per turn with advantage, or when an active enemy of the target is within 5 ft. of it and Bram has no disadvantage.",
+        "Blurred Movement. Dash as a bonus action. After covering his full movement including the Dash without reentering a space he just left, attacks against him have disadvantage until his next turn. Any damage ends this defense."
+      ],
+      "tactics": "Bram strikes targets already occupied and runs when there is room for the full 120-ft. route. In confined areas he uses his speed without counting on blur."
+    },
+    {
+      "id": "mr2-sea-spawn-neris-knot-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Humanoid",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Class-built NPC. No assigned challenge rating.",
+      "title": "Sea Spawn reef guard, Barbarian 2",
+      "size": "Medium",
+      "ac": 14,
+      "hp": 23,
+      "hitDice": "2d12+4",
+      "initiative": 2,
+      "speed": "20 ft. walk, 30 ft. swim",
+      "senses": "Darkvision 120 ft. Passive Perception 13.",
+      "languages": "Understands, reads and writes Aquan and Common. No speech.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5, Con +4. His natural armor gives AC 12 + 2 Dex. Barbarian Unarmored Defense gives the same AC by a separate calculation.",
+        "Danger Sense gives advantage on Dexterity saves against visible effects while he is not blinded, deafened or incapacitated. Reckless Attack at the first attack on his turn gives advantage on his Strength-based melee weapon attacks that turn and grants advantage on attacks against him until his next turn.",
+        "Neris holds his breath for up to 3 minutes and surfaces before that limit."
+      ],
+      "actions": [
+        "Bite. Melee weapon attack +5, reach 5 ft., 1d8+3 piercing, or 1d8+5 while raging.",
+        "Tentacle. Melee weapon attack +5, reach 5 ft., 1d4+3 bludgeoning, or 1d4+5 while raging. On a hit he can use his bonus action to grapple a target at most one size larger using the free tentacle. Athletics +5, opposed by the target’s Athletics or Acrobatics.",
+        "Slam. Melee unarmed strike +5, reach 5 ft., 1d4+3 bludgeoning, or 1d4+5 while raging.",
+        "Rage. Bonus action, twice per long rest, up to 1 minute. Advantage on Str checks and saves, +2 Strength-based melee damage and resistance to bludgeoning, piercing and slashing. Ends early if knocked unconscious or if his turn ends without attacking a hostile creature since his last turn or taking damage since then."
+      ],
+      "tactics": "He rages at the start of a fight, then tries to hold an intruder at the shoreline with his tentacle. He surfaces between dives and uses a bite on later turns while holding a target."
+    },
+    {
+      "id": "mr2-shadow-mastiff-sable-bell-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Monstrosity",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Class-built NPC. No assigned challenge rating.",
+      "title": "Shadow Mastiff night sentinel, Barbarian 1",
+      "size": "Medium",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "1d12+1",
+      "initiative": 2,
+      "speed": "40 ft. walk",
+      "senses": "Darkvision 60 ft. Sees Ethereal creatures and objects. Passive Perception 13, or 18 with applicable hearing or smell advantage.",
+      "languages": "Common and Sylvan.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5, Con +3. Unarmored Defense gives AC 10 + 2 Dex + 1 Con.",
+        "Advantage on Wisdom (Perception) using hearing or smell. In sunlight, disadvantage on attacks, checks and saves.",
+        "Four paws with no grasping hands. Sable Bell wears a collar and uses no armor or shield."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +5, reach 5 ft., 1d8+3 piercing, or 1d8+5 while raging.",
+        "Shadow Blend. Bonus action in dim light or darkness, once per short or long rest. Invisible until the next turn starts or Sable Bell attacks, rolls damage, forces a save or leaves dim light or darkness.",
+        "Rage. Bonus action, twice per long rest, up to 1 minute. Advantage on Str checks and saves, +2 Strength-based melee damage and resistance to bludgeoning, piercing and slashing. Ends early if knocked unconscious or if its turn ends without attacking a hostile creature since its last turn or taking damage since then."
+      ],
+      "tactics": "Sable Bell stays under cover and favors a bite while raging. It uses Shadow Blend on a different turn to escape or reach a new position in the dark."
+    },
+    {
+      "id": "mr2-slithering-tracker-fenline-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Ooze",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Class-built NPC. No assigned challenge rating.",
+      "title": "Slithering Tracker culvert stalker, Barbarian 2",
+      "size": "Medium",
+      "ac": 13,
+      "hp": 21,
+      "hitDice": "2d12+2",
+      "initiative": 2,
+      "speed": "30 ft. walk, 30 ft. climb, 30 ft. swim",
+      "senses": "Passive Perception 13.",
+      "languages": "Understands, reads and writes Common and Dwarvish. No speech.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3, or +5 to track prey"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5, Con +3. Unarmored Defense gives AC 10 + 2 Dex + 1 Con. No armor, weapons or handheld gear.",
+        "Vulnerable to cold and fire. Immune to the blinded, deafened, exhaustion and prone conditions. Passes through a 1-inch gap and climbs difficult walls and ceilings without a check.",
+        "Advantage on attacks against creatures Fenline surprised and on underwater Stealth. After one minute still with concentration, it resembles a mundane puddle while motionless.",
+        "Reckless Attack at the first attack on its turn gives advantage on Strength-based melee weapon attacks that turn and grants advantage on attacks against it until its next turn. Danger Sense gives advantage on Dexterity saves against visible effects if it is not blinded, deafened or incapacitated."
+      ],
+      "actions": [
+        "Life Leech. Melee unarmed strike +5, reach 5 ft., 1d8+3 necrotic, or 1d8+5 while raging. After a hit in the Attack action, Fenline can use a bonus action to grapple an adjacent target at most one size larger. Athletics +5, opposed by the target’s Athletics or Acrobatics.",
+        "Damage Transfer. While Fenline grapples a creature, halve incoming damage and assign half to each. At this table round each share down and apply the recipient’s normal damage modifiers afterward.",
+        "Rage. Bonus action, twice per long rest, up to 1 minute. Advantage on Str checks and saves, +2 Strength-based melee damage and resistance to bludgeoning, piercing and slashing. Ends early if knocked unconscious or if its turn ends without attacking a hostile creature since its last turn or taking damage since then."
+      ],
+      "tactics": "Fenline passes for pooled water before combat. It either rages before closing or spends its first bonus action on a grapple. It keeps hold of the target and uses the low ceiling to avoid being surrounded."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Vellum",
+      "species": "Elder Brain",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "role": "A silent keeper of memories who has rented a dry alcove above a flooded archive.",
+      "motive": "Recover the names that a rival archivist erased from the public record.",
+      "hook": "Vellum can let distant witnesses speak mind-to-mind. It wants an escort across the archive to interview them.",
+      "build": "mr2-elder-brain-vellum-5e"
+    },
+    {
+      "name": "Bram Tallowheel",
+      "species": "Quickling",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "role": "A sharp-tongued courier who knows which alleys stay open after curfew.",
+      "motive": "Recover a delivery docket before a client learns he traded it for a pack of marked cards.",
+      "hook": "He can describe the route a fleeing courier used and will run it again if the party guards the far end.",
+      "build": "mr2-quickling-bram-tallowheel-5e"
+    },
+    {
+      "name": "Neris Knot",
+      "species": "Sea Spawn",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "role": "A former diver who checks the mooring chains at a reef gate.",
+      "motive": "Keep the passage open for the fishing crew that taught him to dive.",
+      "hook": "He scratches a warning onto a piece of driftwood. Something has jammed the tidal gate from below.",
+      "build": "mr2-sea-spawn-neris-knot-5e"
+    },
+    {
+      "name": "Sable Bell",
+      "species": "Shadow Mastiff",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "role": "A talking gatekeeper who leaves an empty collar on a hook when off duty.",
+      "motive": "Find the person ringing the gate bell from the Ethereal Plane.",
+      "hook": "Sable Bell saw a hand reach through the arch at dusk and can point out where it disappeared.",
+      "build": "mr2-shadow-mastiff-sable-bell-5e"
+    },
+    {
+      "name": "Fenline",
+      "species": "Slithering Tracker",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "role": "A former ferryman who waits beneath a low stone culvert.",
+      "motive": "Recover a stolen crossing tally and find the person who cut the ferry ropes.",
+      "hook": "Letters emerge in a puddle under an old sluice. Fenline offers to lead the party through a flooded side passage.",
+      "build": "mr2-slithering-tracker-fenline-5e"
+    }
+  ]
+}

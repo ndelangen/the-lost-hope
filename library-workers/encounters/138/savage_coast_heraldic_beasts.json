@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Aurochs Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46",
+    "notes": "The appendix gives this servant its own stat line and abilities under Heraldic Servant.",
+    "statBlock": {
+      "name": "Aurochs Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Heraldic servant",
+      "ac": 4,
+      "hp": null,
+      "hitDice": "7+2",
+      "thac0": 13,
+      "speed": "16",
+      "cr": "",
+      "xp": 3000,
+      "otherStatistics": "Any terrain and activity cycle. Very rare. Solitary, appearing alone. No diet or treasure. Neutral, or matches the bearer. Intelligence High (13–14). Size Medium, 4 ft. long. Morale Champion (15–16). Magic resistance 25%.",
+      "description": "A shaggy, horned servant that takes a bison-like shape or stands upright like a minotaur.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sharedRules": [
+        "Heraldic servant rules"
+      ],
+      "sections": {
+        "Actions": "Horns. In natural form, make one attack for 1d6 damage. With a running start, charge for 2d6 instead. A charge hit allows a separate trample attack for 2d4 damage. A target hit by the trample loses its initiative that round if it has yet to attack.\nHumanoid weapons. Fight as a 7th-level warrior with +2 damage. The servant arrives with a halberd or can use a halberd, battle axe, or lance supplied by its bearer, including a magical one. It retains the weapon held when it shifted to natural form for its next humanoid transformation.",
+        "Traits": "Armored head. The head has AC 0.\nSpell immunity. Mind-affecting spells have no effect.",
+        "Bearer benefits": "While telepathically linked, the bearer gains +2 damage with halberds, battle axes, and lances. Baron Calturix of Nemausa is the known bearer.",
+        "Printed source": "pp. 44–46"
+      }
+    }
+  },
+  {
+    "name": "Bear Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46",
+    "notes": "The appendix gives this servant its own stat line and abilities under Heraldic Servant.",
+    "statBlock": {
+      "name": "Bear Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Heraldic servant",
+      "ac": 5,
+      "hp": null,
+      "hitDice": "6+6",
+      "thac0": 13,
+      "speed": "12 upright, 18 on all fours or in humanoid form",
+      "cr": "",
+      "xp": 3000,
+      "otherStatistics": "Any terrain and activity cycle. Very rare. Solitary, appearing alone. No diet or treasure. Neutral, or matches the bearer. Intelligence High (13–14). Size Medium, 6½ ft. tall. Morale Fearless (19–20). Magic resistance 20%.",
+      "description": "A dark-furred bear that stands upright to fight. Its humanoid form keeps its claws and bear-like face.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sharedRules": [
+        "Heraldic servant rules"
+      ],
+      "sections": {
+        "Actions": "Claws and bite. In either active form, make two claw attacks for 1d10 each and a bite for 2d8. In natural form, if either claw hits, the bear can make a separate hug attack for 2d8 more damage.\nHold person (3/day). Use the 2nd-level priest spell.",
+        "Traits": "Exceptional Strength. Strength 18/00.\nSpell defense. Immune to all charm and hold spells. If magic resistance fails against a sleep spell, the servant must travel back to its coat of arms and remain inactive for one turn.",
+        "Bearer benefits": "While carrying the coat of arms as a shield, the bearer gains Strength 18/00 unless the servant is active and more than a mile away. Other magical defenses apply under the shared rules. Hold person and the sleep vulnerability stay with the servant. The Count of Harstal is the known bearer.",
+        "Printed source": "pp. 44–46"
+      }
+    }
+  },
+  {
+    "name": "Bee Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–47",
+    "notes": "The appendix gives this servant its own stat line and abilities under Heraldic Servant.",
+    "statBlock": {
+      "name": "Bee Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Heraldic servant",
+      "ac": 5,
+      "hp": null,
+      "hitDice": "6+4",
+      "thac0": 13,
+      "speed": "8, fly 36 (C). Humanoid form 18, fly 24 (C).",
+      "cr": "",
+      "xp": 3000,
+      "otherStatistics": "Any terrain and activity cycle. Very rare. Solitary, appearing alone. No diet or treasure. Neutral, or matches the bearer. Intelligence Exceptional (15–16). Size Medium, 5 ft. long. Morale Champion (15–16). Magic resistance 35%.",
+      "description": "A human-sized bumblebee with a heavy stinger. The humanoid form keeps its wings and compound eyes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sharedRules": [
+        "Heraldic servant rules"
+      ],
+      "sections": {
+        "Actions": "Sting. In natural form, make one attack for 2d6 damage, then resolve the poison.\nPoison. Save vs. poison at −2. A success still deals another 2d6 damage. Failure deals another 5d4 damage and paralyzes for one round.\nHumanoid attacks. The stinger is gone. The servant can deliver the poison by touch or attack with a dagger it knows how to use.",
+        "Traits": "Infravision 90 ft. in either active form.\nFear aura. Extends 10 ft. and affects only opponents.",
+        "Bearer benefits": "While telepathically linked or personally carrying the arms with the servant inactive, use the poison touch three times per day for half damage and the fear aura once per day. Magus Rex of Herath is the known bearer.",
+        "Printed source": "pp. 44–47"
+      },
+      "ruleNotes": [
+        "The bee’s profile gives the fear aura’s radius and targets but omits a save category and duration."
+      ]
+    }
+  },
+  {
+    "name": "Black Swan Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 51, 53",
+    "notes": "The appendix gives this servant its own stat line and abilities under Heraldic Servant.",
+    "statBlock": {
+      "name": "Black Swan Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Heraldic servant",
+      "ac": 7,
+      "hp": null,
+      "hitDice": "4+4",
+      "thac0": 15,
+      "speed": "6, fly 18 (C). Humanoid flight uses fly with maneuverability A.",
+      "cr": "",
+      "xp": 2000,
+      "otherStatistics": "Any terrain and activity cycle. Very rare. Solitary, appearing alone. No diet or treasure. Neutral, or matches the bearer. Intelligence Exceptional (15–16). Size Medium, 5 ft. tall. Morale Champion (15–16). Magic resistance 40%.",
+      "description": "A black swan with a gold bill. In humanoid form it looks like an elven woman in a feathered cloak.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sharedRules": [
+        "Heraldic servant rules"
+      ],
+      "sections": {
+        "Actions": "Beak. Make one attack for 1d6 in natural form. The humanoid form carries a dagger.\nCharm. Choose a target at will, once per target per day. Immortals are immune. The target saves vs. breath weapon with +1 for each 10% of magic resistance or fraction thereof. Total charm immunity grants +10 instead. A natural 1 fails regardless of modifiers. On failure, the target cannot harm the swan or its bearer.\nMental command. Use the 1st-level priest spell on a creature already charmed. A command that provokes a strong negative response allows a new save to break the charm.",
+        "Traits": "Enchanted defense. A creature that resists the charm still needs a +1 or better weapon to hit the servant.\nBoth active forms can use charm and command.",
+        "Bearer benefits": "While in contact with the servant, the bearer gains the protection against weapons below +1 and can use fly three times per day. The Count of Enom is the known bearer.",
+        "Printed source": "pp. 44–46, 51, 53"
+      },
+      "ruleNotes": [
+        "The profile gives no charm duration. Keep the charm and its stated escape save together when running the encounter."
+      ]
+    }
+  },
+  {
+    "name": "Dolphin Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–48",
+    "notes": "The appendix gives this servant its own stat line and abilities under Heraldic Servant.",
+    "statBlock": {
+      "name": "Dolphin Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Heraldic servant",
+      "ac": 4,
+      "hp": null,
+      "hitDice": "4+4",
+      "thac0": 15,
+      "speed": "20, swim 30. Humanoid form 18, swim 16.",
+      "cr": "",
+      "xp": 3000,
+      "otherStatistics": "Any terrain and activity cycle. Very rare. Solitary, appearing alone. No diet or treasure. Neutral, or matches the bearer. Intelligence Genius (17–18). Size Medium, 5 ft. long. Morale Fearless (19–20). Magic resistance 15%.",
+      "description": "A dolphin servant that swims through air just above the ground. Its humanoid form keeps its gills and webbed hands and feet.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sharedRules": [
+        "Heraldic servant rules"
+      ],
+      "sections": {
+        "Actions": "Ram. In natural form, make one attack for 2d4 damage.\nHumanoid weapons. Use any weapon available to a wizard at the listed THAC0.\nSpellcasting. Cast as an 8th-level wizard in either active form. In natural form, dolphin speech and flipper gestures supply verbal and somatic components, but spells with material components are unavailable. The humanoid form can carry materials and often has two minor magic items. The bearer can supply a spellbook, which the servant absorbs on returning to natural form.",
+        "Traits": "Saving throws. Use the saves of an 8th-level wizard.\nAir movement. A magical field supports the natural form a few feet above the ground, where it moves as if swimming.\nSpeech. The humanoid form can still communicate with dolphins.",
+        "Bearer benefits": "While in contact or personally carrying its arms, use the servant’s saving throws whenever they are better. While telepathically linked, the bearer can breathe water and cast any 1st-level spell known to the servant. The Baroness of Savaria is the known bearer.",
+        "Printed source": "pp. 44–48"
+      },
+      "ruleNotes": [
+        "The printing leaves the spell selection to the referee. Prepare the available spells as for an 8th-level wizard."
+      ]
+    }
+  },
+  {
+    "name": "Dragon Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–48",
+    "notes": "The appendix gives this servant its own stat line and abilities under Heraldic Servant.",
+    "statBlock": {
+      "name": "Dragon Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Heraldic servant",
+      "ac": 0,
+      "hp": null,
+      "hitDice": "7+7",
+      "thac0": 13,
+      "speed": "12, fly 30 (C) in natural form. Humanoid has no wings.",
+      "cr": "",
+      "xp": 6000,
+      "otherStatistics": "Any terrain and activity cycle. Very rare. Solitary, appearing alone. No diet or treasure. Neutral, or matches the bearer. Intelligence High (13–14). Size Medium, 6 ft. tall. Morale Champion (15–16). Magic resistance 15%.",
+      "description": "A six-foot green dragon. Its humanoid form keeps the scales, claws, and teeth and loses its wings and tail.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sharedRules": [
+        "Heraldic servant rules"
+      ],
+      "sections": {
+        "Actions": "Claws and bite. In dragon form, make two claw attacks for 1d10 each and a bite for 3d6. Its tail can also strike a creature behind it for 2d6.\nFire breath (3/day). In either active form, breathe fire for 6d8 damage in place of physical attacks.\nHumanoid weapons. Fight as an 8th-level fighter using two claws for 1d6 each and a bite for 2d6, or a two-handed sword. If desired, the servant arrives with a +1/+3 two-handed sword, which is absorbed when it returns to dragon form.",
+        "Traits": "The same AC and hit points apply in either active form. Only the natural form flies.",
+        "Bearer benefits": "While telepathically linked, the bearer gains two effective levels instead of one and is immune to fire-based attacks. The King of Robrenn is the known bearer.",
+        "Printed source": "pp. 44–48"
+      },
+      "ruleNotes": [
+        "The servant’s fire breath lists damage and uses but gives no area or save details. The sword’s +1/+3 notation is retained as printed."
+      ]
+    }
+  }
+]

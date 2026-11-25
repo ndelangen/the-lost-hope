@@ -1,0 +1,230 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (birdfolk)",
+      "id": "pc2-faenare-windsinger-mature",
+      "title": "Faenare windsinger, mature",
+      "difficulty": "Mature creature-hero tier, 0 XP. Base THAC0 18. Side initiative on 1d6.",
+      "ac": 5,
+      "hp": 11,
+      "hitDice": "2d8",
+      "initiative": 0,
+      "speed": "Ground 120 ft (40 ft/round), flight 360 ft (120 ft/round)",
+      "languages": "Faenare birdsong, Cloud Giant, Elven, Fairy, Giant Eagle, Harpy, Giant Roc, Neutral",
+      "senses": "Normal sight. Surprised only on 1 in 12.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 11,
+        "WIS": 15,
+        "CHA": 13
+      },
+      "skills": [
+        "Singing (two slots)",
+        "Mountain routes",
+        "Bird calls"
+      ],
+      "traits": [
+        "Neutral. Rolled 5 and 4, with +1 per die for Constitution 13. Natural AC 6 improves to 5 from Dexterity 15. Teren wears a light harness with no armor or shield.",
+        "Elf 2 save targets are death/poison 12, wands 13, paralysis/petrification 13, breath 15, and rods/staves/spells 15. Apply +1 to magic saves from Wisdom and +4 to saves against air-based effects.",
+        "Harpy song cannot charm Teren. Natural birds will not attack her, including giant eagles and rocs. She can question ordinary birds at will, but their reports and favors are simple.",
+        "Permanent lightning ward. As a table ruling, use this NPC’s 2 HD to absorb two damage dice from each separate lightning attack. Roll a save normally for any remaining damage."
+      ],
+      "actions": [
+        "Two talons, each THAC0 18 and 1d4 damage. Attack with both talons in place of a weapon attack.",
+        "Sling, THAC0 16 at medium range, 1d4 damage. The attack includes +1 from Dexterity and +1 from Faenare sling training. Short/medium/long range thresholds are 40/80/160 ft indoors. Add +1 to hit at short range or −1 at long range. In flight Teren handles the sling with her talons.",
+        "Song of the Wake, prepared once. On completing two uninterrupted rounds of song, undead of 6 HD or fewer within 30 ft save vs. Spells or hold back from Teren and her party for 1d4+1 rounds. An interruption that prevents finishing the song spoils the effect.",
+        "Cure Light Wounds, prepared once. Touch a living creature to heal 1d6+1 HP or remove paralysis.",
+        "Group Bless, once daily with at least four other mature Faenare. Sing for one round to gain +1 to attack, damage and morale for six turns. The effect ends early if any singer gets more than 100 ft from another. Teren cannot use it alone."
+      ],
+      "tactics": "Teren puts distance between herself and a threat. If undead block the pass, she asks an ally to guard her through the two rounds of song. She saves the healing spell for the return descent."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Small",
+      "type": "Humanoid (gnome)",
+      "id": "pc2-skygnome-flight-fitter-2",
+      "title": "Skygnome flight fitter, level 2",
+      "difficulty": "Skygnome 2, 4,000 XP. Base THAC0 17. Side initiative on 1d6.",
+      "ac": 5,
+      "hp": 18,
+      "hitDice": "3d8",
+      "initiative": 0,
+      "speed": "Ground 60 ft (20 ft/round). Vehicle or mount supplies air movement.",
+      "languages": "Skycommon, Gnome, Dwarf, Goblin, Halfling, Kobold, Neutral",
+      "senses": "Infravision 90 ft",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Machine Building",
+        "Piloting",
+        "Fantasy Physics",
+        "Rope work"
+      ],
+      "traits": [
+        "Neutral. Rolled 5, 4 and 6, plus 1 per die from Constitution 13. Leather flying gear starts at AC 7 and Dexterity 16 improves it to AC 5. Armor Class is 4 against foes larger than a human.",
+        "Dwarf 3 save targets are death/poison 8, wands 9, paralysis/petrification 10, breath 13, and rods/staves/spells 12. Roll air and electrical saves at +1.",
+        "When an accidental fall of more than 10 ft is about to occur in the sky, roll a death save at +2 for Dexterity, needing a natural 6 or better. On success Nell catches a nearby hold. Deliberate jumps and dungeon pits use the ordinary falling rules."
+      ],
+      "actions": [
+        "War hammer, THAC0 16, 1d6+1 damage. Strength 13 accounts for the +1 to hit and damage. Roll base THAC0 17 before that adjustment.",
+        "Sky sense. The DM checks a 50% chance for Nell to estimate one requested flight detail while aboard a flying machine, structure or mount. Options are altitude, speed, maneuver safety and magical influence on the weather.",
+        "Machinery check. Roll 1d20−1 against the relevant ability score when the DM calls for an Ability Check involving a machine. An Intelligence check for identifying a mechanical fault succeeds on a natural roll of 13 or lower."
+      ],
+      "tactics": "Nell keeps a hand on the nearest rail while she assesses the flight. If threatened at the dock, she calls for the crew to get below deck and covers the hatch with her hammer."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Small",
+      "type": "Humanoid (fey trickster)",
+      "id": "pc2-gremlin-stagehand-3",
+      "title": "Gremlin stagehand, level 3",
+      "difficulty": "Gremlin 3, 21,000 XP. Base THAC0 17. Side initiative on 1d6.",
+      "ac": 5,
+      "hp": 13,
+      "hitDice": "2d8+2",
+      "initiative": 0,
+      "speed": "Ground 120 ft (40 ft/round)",
+      "languages": "Skycommon, Fairy, Gnome, Leprechaun, Chaotic",
+      "senses": "Normal sight. 50% Hide in Crannies.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Stagecraft",
+        "Puppet voices",
+        "Backstage routes"
+      ],
+      "traits": [
+        "Chaotic. Rolls of 5 and 4 plus 1 per die for Constitution 13, then +2 from advancement. Natural AC 7 with no armor improves to AC 5 from Dexterity.",
+        "Elf 2 save targets are death/poison 12, wands 13, paralysis/petrification 13, breath 15, and rods/staves/spells 15. Add +2 on saves against mind control and illusions.",
+        "Foe Fumble. When a foe misses Pip with an attack, repeat the attack with the foe as its own target, at −2. His 14 ft chaotic aura gives victims +1 on saves against Pip’s tricks and spells.",
+        "Ignore the first 20 ft of any fall. Jump 12 ft horizontally or 6 ft vertically from standing, or 15 ft horizontally or 9 ft vertically from a running start of at least 10 ft."
+      ],
+      "actions": [
+        "Tiny dagger, THAC0 17, 1d3 damage in melee.",
+        "Leg Whip, twice daily. Target one creature within 28 ft. It saves vs. Spells at +1, or +3 if especially large and strong. Failure binds its legs for 2d4 rounds, leaving a hop of up to one-fifth walking speed. If running when struck, it must also pass a Dexterity check or fall for 1d3 damage.",
+        "Hide in Crannies. Roll 50% in a suitable nook, behind machinery or behind a large prop. Roll 25% to go unnoticed by an observer who is looking elsewhere. Attacking or moving ends the latter concealment.",
+        "Chaotic Aura. Spend a round to try one specific prank within 14 ft. Flip an unattended wooden stage sign as a simple task, succeeding on 26–100 on d100. If the attempt fails, Pip can try that same task again the next day."
+      ],
+      "tactics": "Pip looks for a side passage and prefers an escape to a fight. He ties up the quickest pursuer with Leg Whip and hides behind the stage trunks."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (avian)",
+      "id": "pc2-nagpa-manuscript-mender-1",
+      "title": "Nagpa manuscript mender, level 1",
+      "difficulty": "Nagpa 1, 300,000 XP. Base THAC0 10. Side initiative on 1d6.",
+      "ac": 3,
+      "hp": 45,
+      "hitDice": "10d8",
+      "initiative": 0,
+      "speed": "Ground 120 ft (40 ft/round)",
+      "languages": "Skycommon, Nagpa, Elven, Dwarf, Neutral",
+      "senses": "Normal sight",
+      "abilityScores": {
+        "STR": 9,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 16,
+        "WIS": 13,
+        "CHA": 11
+      },
+      "skills": [
+        "Serraine trade records",
+        "Paper and ink",
+        "Ancient Elven scripts",
+        "Merchant heraldry",
+        "Bookbinding",
+        "Negotiation",
+        "Library catalogues"
+      ],
+      "traits": [
+        "Neutral. Hit Die rolls 5, 4, 6, 3, 5, 4, 6, 4, 5 and 3 total 45. Constitution 12 adds nothing. Natural AC 4 improves to 3 with Dexterity 13. Avar wears no armor and carries no shield.",
+        "Magic-User 10 save targets, after Nagpa’s +2 bonus, are death/poison 9, wands 10, paralysis/petrification 9, breath 12, and rods/staves/spells 10. Add +1 to magic saves from Wisdom.",
+        "Kariwa. Spend half an hour each afternoon in reverie. If skipped, save vs. Spells at next dawn or sleep unwakeably for 1d4 hours. Each consecutive missed day after the first adds −2 to the roll and one hour to sleep. Each missed day also carries a cumulative 5% chance of a stress reaction such as claustrophobia."
+      ],
+      "actions": [
+        "Staff, THAC0 10, 1d6 damage, or bite, THAC0 10, 1d8 damage. Wield the staff two-handed. Choose one.",
+        "Darkness, three times daily. Range 120 ft and duration 12 turns. Obscure a 30 ft diameter or cast on an object so it moves with that object. If aimed at a creature’s eyes, it saves vs. Spells or is blinded for the duration.",
+        "Paralysis, three times daily. Every Lawful creature within 10 ft saves vs. Spells or is paralyzed for 1d4 rounds. Avar has no innate way to tell who is Lawful.",
+        "Create Flames, three times daily. One flammable object within 60 ft burns for 1d3 rounds. A creature in contact with it takes 2d6 each round, with a save vs. Spells for half.",
+        "Phantasmal Force, three times daily. Project a familiar sight in a 20 ft cube within 240 ft. It lasts while Avar concentrates. Touch dispels a harmless illusion. A creature image has AC 9 and disappears if hit. An attacked target that succeeds on a save vs. Spells sees through the effect, which inflicts only apparent harm."
+      ],
+      "tactics": "Avar offers proof in writing before risking a confrontation. If cornered, he screens the archive door with Darkness or distracts pursuers with an image of empty shelves falling. He uses flames only away from the manuscript stacks."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Faenare",
+      "speciesPublication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Medium",
+      "name": "Teren Amberwake",
+      "role": "Windsinger who escorts couriers through the high passes",
+      "motive": "Recover a dead courier’s message before the first snow covers the route.",
+      "hook": "A rook keeps repeating a phrase from the missing courier. Teren wants witnesses before she brings it to the clan.",
+      "build": "pc2-faenare-windsinger-mature"
+    },
+    {
+      "species": "Skygnome",
+      "speciesPublication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Small",
+      "name": "Nell Springline",
+      "role": "Repairs skiffs and flies their first test runs",
+      "motive": "Get a grounded courier back in the air so the lower settlements receive their medicine.",
+      "hook": "The repair looks sound, but a gust changes direction inside the hangar whenever the skiff is rolled out.",
+      "build": "pc2-skygnome-flight-fitter-2"
+    },
+    {
+      "species": "Gremlin",
+      "speciesPublication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Small",
+      "name": "Pip Tonguetack",
+      "role": "Hides under a puppet stage and keeps its performers on their toes",
+      "motive": "Give the puppeteers an opening-night prank the audience will talk about for weeks.",
+      "hook": "Pip offers to show the party where a patron’s ring fell if one of them can deliver a convincing fake entrance cue.",
+      "build": "pc2-gremlin-stagehand-3"
+    },
+    {
+      "species": "Nagpa",
+      "speciesPublication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Medium",
+      "name": "Avar Foldquill",
+      "role": "Repairs water-damaged manuscripts for the city’s archivists",
+      "motive": "Find the missing sheet of a harbor ledger before a provenance dispute closes the archive.",
+      "hook": "Avar has found a second watermark on the ledger. The retired papermaker who might recognize it lives in a neighborhood where Avar cannot show his face easily.",
+      "build": "pc2-nagpa-manuscript-mender-1"
+    }
+  ]
+}

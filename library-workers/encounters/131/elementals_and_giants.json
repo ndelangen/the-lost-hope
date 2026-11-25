@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Air Spark",
+    "decision": "share",
+    "pages": "pp. 230, 293",
+    "notes": "Both adventure printings match the Flee, Mortals! profile, including the minion trait, Wind Sweep group attack, size limit and movement per participant. The hazard that rewards pushing intruders into a frigid lake belongs to Durixaviinox's Rest."
+  },
+  {
+    "name": "Earth Spark",
+    "decision": "share",
+    "pages": "pp. 280, 296",
+    "notes": "Both adventure printings match the standalone minion profile. Trampling Rampage, Shatter Smash and Snort Rocks retain the same targeting, damage and save rules."
+  },
+  {
+    "name": "Force of Blood",
+    "decision": "share",
+    "pages": "pp. 282, 298",
+    "notes": "Both adventure printings match the standalone statistics, Visceral Sight, hit and miss effects, healing trigger and both Convocation of Blood options. Meskrit is a specific lair inhabitant who uses this block."
+  },
+  {
+    "name": "Force of Earth",
+    "decision": "share",
+    "pages": "p. 298",
+    "notes": "Earth Glide, both attacks and both Convocation of Earth options match. The ambush beneath the ash and the adjacent guards belong to the Ash Queen's Reliquary encounter."
+  },
+  {
+    "name": "Force of Iron",
+    "decision": "share",
+    "pages": "pp. 283, 299",
+    "notes": "Both adventure printings use Ferrous Greatblade in the Multiattack text and attack heading. The Flee, Mortals! Multiattack says Ferrous Blade while its attack heading says Ferrous Greatblade. The local profile already uses Greatblade, the name confirmed by Where Evil Lives, so the runnable mechanics share. Scope the existing rule note to the Flee, Mortals! printed wording. Form Stance, the AC changes and both Convocation of Iron options match."
+  },
+  {
+    "name": "Water Spark",
+    "decision": "share",
+    "pages": "p. 301",
+    "notes": "The minion trait, Whirlpool Suction and Whelming Wave match. Neither printing specifies when the speed reduction from Whirlpool Suction ends. The local end-of-turn ruling is explicitly labeled as a table ruling in the trait, so it can stay."
+  },
+  {
+    "name": "Atæshia",
+    "decision": "share",
+    "pages": "p. 295",
+    "notes": "The stat block matches, including From Death, Life, Reborn From War and all three villain actions. The annual vigil, alert sequence and transport effects belong to the Ash Queen's Reliquary encounter outside the stat block."
+  },
+  {
+    "name": "Essence of Mist",
+    "decision": "share",
+    "pages": "pp. 244, 296",
+    "notes": "Both adventure printings match the base profile, including Flowing Form, Gasping Aura, Breathless Rend, both Convocation of Breath options and the trigger that ends Breathstealer's Shimmer."
+  },
+  {
+    "name": "Oracle of Storms",
+    "decision": "share",
+    "pages": "p. 300",
+    "notes": "The storm progression, Tempest Bolt range and disadvantage rules, both Convocation of Storms options and all four utility spells match. Miklan uses this block. The hero statues that call reinforcements are an Ash Queen's Reliquary room mechanic."
+  },
+  {
+    "name": "Zenith Aastrika",
+    "decision": "share",
+    "pages": "p. 120",
+    "notes": "The stat block matches, including Power of Flame, the conditions following Battle Tranquility and all three villain actions. The healing lava pool, brazier smoke, accompanying giants and battle behavior are Molten Enclave area Z9 context on p. 115."
+  }
+]

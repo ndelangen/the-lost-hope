@@ -1,0 +1,318 @@
+[
+  {
+    "name": "Ghost",
+    "statBlock": {
+      "name": "Ghost",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, any alignment",
+      "ac": 11,
+      "hp": 45,
+      "hitDice": "10d8",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "cr": "4",
+      "xp": 1100,
+      "description": "A lingering soul bound to a person, place, or object that mattered in life.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, fire, lightning, and thunder. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Cold, necrotic, poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Ethereal Sight. It can see 60 ft. into the Ethereal Plane from the Material Plane and 60 ft. into the Material Plane from the Ethereal Plane.\nIncorporeal Movement. Treat creatures and objects as difficult terrain when passing through them. Ending a turn inside an object deals 5 (1d10) force damage to this creature.\nUndead Nature. It can exist without air, food, drink, or sleep.",
+        "Actions": "Withering Touch. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 17 (4d6 + 3) necrotic damage.\nEtherealness. The ghost moves between the Material Plane and the Ethereal Plane. Creatures can see the ghost from the Material Plane when it is in the Border Ethereal and from the Border Ethereal when it is on the Material Plane. Effects cannot reach in either direction across the planar boundary.\nHorrifying Visage. Each non-undead creature within 60 ft. that can see the ghost makes a DC 13 Wisdom save. On a failure, the creature is Frightened for 1 minute. If that save fails by 5 or more, it also ages 1d4 × 10 years. While Frightened, it can repeat the save at the end of each of its turns to end the condition. A successful save or the end of the effect grants 24 hours of immunity to this ghost's Horrifying Visage. Greater Restoration reverses the aging if cast within 24 hours of the aging.\nPossession (recharge 6). Choose one visible Humanoid within 5 ft. On a failed DC 13 Charisma save, the ghost disappears into the target and controls its body. The target is Incapacitated and remains aware. Only effects that turn undead can target the ghost while it possesses the body. The ghost keeps its alignment, Intelligence, Wisdom, Charisma, and immunity to being Charmed or Frightened. For everything else it uses the host's statistics, with no access to the host's knowledge, class features, or proficiencies. Possession ends when the body reaches 0 HP, the ghost leaves as a bonus action, an effect turns the ghost, or an effect such as Dispel Evil and Good forces it out. The ghost then returns to an unoccupied space within 5 ft. of the body. For 24 hours after a successful initial save or the end of possession, the target is immune to Possession by that ghost.",
+        "Haunting": "Resolving the ghost's unfinished business can end the haunting. An object, event, or sensation linked to its former life may also expose a weakness.",
+        "Printed source": "Monster Manual (2014), p. 147. The official errata adds hover and updates resistance wording."
+      }
+    }
+  },
+  {
+    "name": "Ghast",
+    "statBlock": {
+      "name": "Ghast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, chaotic evil",
+      "ac": 13,
+      "hp": 36,
+      "hitDice": "8d8",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "description": "A ghoul infused with enough Abyssal power to lead a pack and resist attempts to turn it.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Traits": "Stench. A creature that starts its turn within 5 ft. of the ghast makes a DC 10 Constitution save. On a failure, it is Poisoned until the start of its next turn. On a success, it gains 24 hours of immunity to that ghast's Stench.\nTurning Defiance. The ghast rolls saves against turning effects with advantage. Ghouls within 30 ft. of the ghast gain the same advantage.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 12 (2d8 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing damage. A non-undead creature hit by the claws makes a DC 10 Constitution save. Failure leaves it Paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 148."
+      }
+    }
+  },
+  {
+    "name": "Ghoul",
+    "statBlock": {
+      "name": "Ghoul",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, chaotic evil",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "cr": "1",
+      "xp": 200,
+      "description": "A flesh-eating undead that hunts in packs around tombs and places of decay.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one creature. Hit 9 (2d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) slashing damage. A creature that is neither an elf nor undead makes a DC 10 Constitution save or becomes Paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 148."
+      }
+    }
+  },
+  {
+    "name": "Shadow",
+    "statBlock": {
+      "name": "Shadow",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, chaotic evil",
+      "ac": 12,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "40 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "description": "A twisted humanoid silhouette that stalks the dark and feeds on living strength.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "skills": {
+        "Stealth": 4
+      },
+      "savingThrows": {},
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage vulnerabilities": "Radiant.",
+        "Damage resistances": "Acid, cold, fire, lightning, and thunder. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Necrotic, poison.",
+        "Condition immunities": "Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Amorphous. It passes through openings at least 1 inch wide without squeezing.\nShadow Stealth. In dim light or darkness, its Stealth bonus rises to +6 and it can Hide as a bonus action.\nSunlight Weakness. Sunlight gives it disadvantage on attack rolls, ability checks, and saving throws.\nUndead Nature. It can exist without air, food, drink, or sleep.",
+        "Actions": "Strength Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 9 (2d6 + 2) necrotic damage and reduce the target's Strength score by 1d4. Reaching Strength 0 this way kills the target. A surviving target recovers the lost Strength when it finishes a short or long rest. If the attack kills a non-evil Humanoid, a new Shadow rises from the corpse after 1d4 hours.",
+        "Return from death": "If a creature that produced a Shadow returns to life, its Shadow senses the return. The creature casts no shadow until the undead Shadow is destroyed.",
+        "Printed source": "Monster Manual (2014), p. 269. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Skeleton",
+    "statBlock": {
+      "name": "Skeleton",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, lawful evil",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "2d8 + 4",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "description": "Animated bones that can carry out detailed orders and sometimes repeat habits from life.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 9,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Armor scraps.",
+        "Damage vulnerabilities": "Bludgeoning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands every language it knew in life. It cannot speak.",
+        "Traits": "Undead Nature. It can exist without air, food, drink, or sleep.",
+        "Actions": "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 272."
+      }
+    }
+  },
+  {
+    "name": "Specter",
+    "statBlock": {
+      "name": "Specter",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, chaotic evil",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "0 ft., fly 50 ft. (hover)",
+      "cr": "1",
+      "xp": 200,
+      "description": "A restless humanoid spirit severed from its former life. It emerges from dark refuges at night to attack the living.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, lightning, and thunder. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Necrotic, poison.",
+        "Condition immunities": "Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands every language it knew in life. It cannot speak.",
+        "Traits": "Incorporeal Movement. Treat creatures and objects as difficult terrain when passing through them. Ending a turn inside an object deals 5 (1d10) force damage to this creature.\nSunlight Sensitivity. In sunlight it has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.\nUndead Nature. It can exist without air, food, drink, or sleep.",
+        "Actions": "Life Drain. Melee spell attack, +4 to hit, reach 5 ft., one creature. Hit 10 (3d6) necrotic damage. On a failed DC 10 Constitution save, lower the target's maximum HP by the damage it took until it finishes a long rest. The target dies if this effect lowers its maximum HP to 0.",
+        "Printed source": "Monster Manual (2014), p. 279. Resistance wording follows the official errata."
+      }
+    }
+  }
+]

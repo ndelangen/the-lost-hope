@@ -1,0 +1,328 @@
+[
+  {
+    "name": "Gnoll Demoniac",
+    "statBlock": {
+      "name": "Gnoll Demoniac",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 141,
+      "classification": "Medium fiend, chaotic evil",
+      "ac": 16,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "savingThrows": {
+        "Str": 6,
+        "Con": 6,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "description": "A gnoll that has eaten Abyss-tainted flesh in a rite and taken on Yeenoghu's appetite. It rushes headlong into battle and may turn on its pack in a frenzy.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Gnoll.",
+        "Actions": "Multiattack. Make two Abyssal Strike attacks.\nAbyssal Strike. Melee or ranged attack, +6 to hit, reach 5 ft. or range 60 ft. A hit deals 20 (5d6 + 3) Poison damage.\nHunger of Yeenoghu (recharge 5–6). Choose a point the gnoll can see within 60 ft. A 30-ft. Cube of magical Darkness originates there. The Cube is Difficult Terrain and lasts up to 1 minute, ending early if the gnoll loses Concentration. A creature that starts its turn in the Cube or enters it for the first time on a turn makes a DC 14 Dexterity save. On a failure, the creature takes 28 (8d6) Necrotic damage and the gnoll gives 10 Temporary Hit Points to itself or to a creature of its choice it can see. On a success, the target takes half damage only.",
+        "Bonus actions": "Rampage (2/day). Immediately after the gnoll damages a creature that was already Bloodied, it moves up to half its Speed and makes one Abyssal Strike attack.",
+        "Habitats": "Deserts, forests, grasslands, and hills.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 141."
+      }
+    }
+  },
+  {
+    "name": "Manes Vaporspawn",
+    "statBlock": {
+      "name": "Manes Vaporspawn",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 201,
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 13,
+      "hp": 19,
+      "hitDice": "3d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A contorted demon born from a tormented soul. Its sickening haze can incapacitate creatures nearby.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Abyssal but can't speak.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Grappled, Poisoned, Restrained.",
+        "Traits": "Contortionist. The demon can pass through an opening as narrow as 1 inch at its normal movement cost.\nSickening Vapors. At the end of the demon's turn, each creature in its 5-ft. Emanation makes a DC 12 Constitution save. On a failure, the creature is Incapacitated until the end of its next turn. On a success, it is immune to this demon's Sickening Vapors for 24 hours.",
+        "Actions": "Claw. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) Slashing damage plus 5 (2d4) Necrotic damage.",
+        "Bonus actions": "Shadow Stealth. The demon takes the Hide action while in Dim Light or Darkness.",
+        "Habitats": "The Abyss.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 201."
+      }
+    }
+  },
+  {
+    "name": "Swarm of Dretches",
+    "statBlock": {
+      "name": "Swarm of Dretches",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 104,
+      "classification": "Large swarm of Small fiends (demons), chaotic evil",
+      "ac": 12,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 9,
+      "description": "A mob of dretches that might spill out of the Abyss or march with a demonic invasion. Left to itself, it tears through a place and ruins whatever it finds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal. Telepathy 60 ft., limited to creatures that understand Abyssal.",
+        "Damage resistances": "Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned.",
+        "Traits": "Fetid Aura. A creature that starts its turn in the swarm's 10-ft. Emanation makes a DC 12 Constitution save. On a failure, it is Poisoned until the start of its next turn. While Poisoned this way, it can take at most one action or Bonus Action on its turn and can't take Reactions.\nSwarm. The swarm and other creatures can share spaces. It fits through openings a Small creature can use. It can't regain Hit Points or gain Temporary Hit Points.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +4 to hit, reach 5 ft. A hit deals 12 (3d6 + 2) Slashing damage, reduced to 9 (3d4 + 2) if the swarm is Bloodied.",
+        "Habitats": "The Abyss.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 104."
+      }
+    }
+  },
+  {
+    "name": "Swarm of Lemures",
+    "statBlock": {
+      "name": "Swarm of Lemures",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 194,
+      "classification": "Large swarm of Medium fiends (devils), lawful evil",
+      "ac": 12,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A mass of lemures that acts with one mind after the devils crowd together or press themselves into a single body.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-2 (8).",
+        "Senses": "Darkvision 120 ft., including through magical Darkness.",
+        "Languages": "Understands Infernal but can't speak.",
+        "Damage resistances": "Bludgeoning, Cold, Piercing, Slashing.",
+        "Damage immunities": "Fire, Poison.",
+        "Condition immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned.",
+        "Traits": "Hellish Restoration. If the swarm dies in the Nine Hells, it returns to life at full Hit Points after 1d10 days. A kill by a creature under the effect of Bless or a sprinkling of Holy Water on the remains prevents its return.\nSwarm. The swarm and other creatures can share spaces. It fits through openings a Medium creature can use. It can't regain Hit Points or gain Temporary Hit Points.",
+        "Actions": "Multiattack. Make two Vile Slime attacks.\nVile Slime. Melee attack, +4 to hit, reach 5 ft. A hit deals 11 (2d8 + 2) Poison damage, reduced to 9 (2d6 + 2) if the swarm is Bloodied.",
+        "Habitats": "The Nine Hells.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 194."
+      }
+    }
+  },
+  {
+    "name": "Swarm of Larvae",
+    "statBlock": {
+      "name": "Swarm of Larvae",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 193,
+      "classification": "Large swarm of Medium fiends, neutral evil",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "3d10 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "Larvae huddle together when desperate. The resulting mass can overwhelm vulnerable prey as it writhes forward amid whimpers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands all languages but can't speak.",
+        "Damage resistances": "Bludgeoning, Piercing, Slashing.",
+        "Condition immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned.",
+        "Traits": "Swarm. The swarm and other creatures can share spaces. It fits through openings a Medium creature can use. It can't regain Hit Points or gain Temporary Hit Points.",
+        "Actions": "Bites. Melee attack, +4 to hit, reach 5 ft. A hit deals 9 (2d6 + 2) Necrotic damage, reduced to 7 (2d4 + 2) if the swarm is Bloodied.",
+        "Habitats": "The Lower Planes.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 193."
+      }
+    }
+  },
+  {
+    "name": "Larva",
+    "statBlock": {
+      "name": "Larva",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 193,
+      "classification": "Medium fiend, neutral evil",
+      "ac": 9,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "description": "A dead soul in a wormlike body. It has painful scraps of memory from its former life and usually tries to stay away from other creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common plus one other language but can't speak.",
+        "Actions": "Bite. Melee attack, +1 to hit, reach 5 ft. A hit deals 1 (1d4 - 1) Necrotic damage.",
+        "Habitats": "The Lower Planes.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 193."
+      }
+    }
+  }
+]

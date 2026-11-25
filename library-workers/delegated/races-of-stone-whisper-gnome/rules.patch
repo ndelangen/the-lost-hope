@@ -1,0 +1,171 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -311375,6 +311375,24 @@
+       ]
+     },
+     {
++      "name": "Whisper Gnome",
++      "kind": "species",
++      "publication": "Races of Stone (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Small Humanoid (Gnome) with 30-ft. base land speed. +2 Dexterity, +2 Constitution, −2 Strength, −2 Charisma.",
++        "Small size gives +1 to AC and attacks, +4 size on Hide, and uses Small weapons. Lifting and carrying capacity is three-quarters of Medium.",
++        "Low-light vision doubles normal human range and preserves color and detail. Darkvision sees in black and white out to 60 ft.",
++        "Weapon Familiarity treats the gnome hooked hammer as a martial weapon.",
++        "+1 racial on attack rolls against kobolds and goblinoids. +4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
++        "+4 racial bonus on Hide and Move Silently, and +2 racial on Listen and Spot. The size and racial Hide bonuses total +8 before ranks and other modifiers.",
++        "Racial silence 1/day at caster level 1, regardless of Charisma. Center it on the Whisper Gnome’s body. The 20-ft.-radius emanation moves with the gnome and lasts 1 minute, dismissible. It blocks sound and verbal spell components.",
++        "Charisma 10 or higher also grants ghost sound, mage hand, and message once per day each. Caster level 1. Save DC where applicable is 10 + Charisma modifier + spell level.",
++        "The language description lists Gnome and says most also speak Terran. The printed traits give no separate bonus language list or level adjustment. Favored class Rogue.",
++        "The optional Extra Silence feat sets daily silence uses to 3 + Charisma bonus. Each further selection adds three uses. Silencing Strike requires sneak attack and spends a daily silence use on a declared melee sneak attack. On a hit that deals sneak attack damage, silence centers on the target for 1 round per character level with no save. Dismiss the field as a standard action."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+       "name": "Duergar",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -594,6 +594,99 @@
+       "tactics": "Follow the wolf’s track to the reserve boundary. Keep the party from crowding it, then loop ahead with Burst to flag the snare line before the wolf reaches it."
+     },
+     {
++      "id": "whisper-gnome-night-courier-35e",
++      "title": "Whisper Gnome night courier, Rogue 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Small",
++      "type": "Humanoid (Gnome)",
++      "ac": 16,
++      "hp": 8,
++      "hitDice": "1d6+2",
++      "initiative": 3,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 17,
++        "CON": 14,
++        "INT": 13,
++        "WIS": 10,
++        "CHA": 10
++      },
++      "skills": [
++        "Balance +7",
++        "Disable Device +5",
++        "Hide +15",
++        "Listen +8",
++        "Move Silently +11",
++        "Open Lock +7",
++        "Search +5",
++        "Spot +8",
++        "Tumble +7"
++      ],
++      "senses": "Darkvision 60 ft., low-light vision.",
++      "languages": "Common, Gnome",
++      "traits": [
++        "Leather armor +2, Dexterity +3, small size +1. Touch 14, flat-footed 13. BAB +0, grapple −4. Fortitude +2, Reflex +5, Will +0.",
++        "+1 racial on attack rolls against kobolds and goblinoids. +4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
++        "Against Giant-type creatures, AC 20 and touch 18 while able to dodge. Alertness adds +2 Listen and Spot, already included. Trapfinding allows Search checks for traps above DC 20 and Disable Device against magic traps."
++      ],
++      "actions": [
++        "Small rapier +1 melee, 1d4 piercing, critical 18–20/×2. +2 to hit against kobolds and goblinoids.",
++        "Small light crossbow +4 ranged, 1d6 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action. +5 to hit against kobolds and goblinoids.",
++        "Sneak attack adds 1d6 if the target is flanked or denied its Dexterity bonus to AC. Ranged sneak attacks require a target within 30 ft.",
++        "Racial silence 1/day at caster level 1, regardless of Charisma. Center it on the Whisper Gnome’s body. The 20-ft.-radius emanation moves with the gnome and lasts 1 minute, dismissible. It blocks sound and verbal spell components.",
++        "Charisma 10 grants ghost sound (Will disbelief DC 10 on interaction), mage hand, and message 1/day each at caster level 1."
++      ],
++      "tactics": "Nella needs to deliver a ledger slip before the postern closes. She asks the party to find who left the recipient’s lantern unlit. She uses message to speak before crossing, then centers silence on herself if she must move through a stairwell without being heard."
++    },
++    {
++      "id": "whisper-gnome-bellwright-35e",
++      "title": "Whisper Gnome bellwright, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Small",
++      "type": "Humanoid (Gnome)",
++      "ac": 16,
++      "hp": 13,
++      "hitDice": "1d10+3",
++      "initiative": 6,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 15,
++        "CON": 16,
++        "INT": 12,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": [
++        "Climb +4",
++        "Craft (bellmaking) +5",
++        "Hide +9",
++        "Jump +4",
++        "Listen +2",
++        "Move Silently +5",
++        "Spot +2"
++      ],
++      "senses": "Darkvision 60 ft., low-light vision.",
++      "languages": "Common, Gnome",
++      "traits": [
++        "Studded leather +3, Dexterity +2, small size +1. Touch 13, flat-footed 14. BAB +1, grapple −2. Fortitude +5, Reflex +2, Will +0. Armor check penalty −1.",
++        "+1 racial on attack rolls against kobolds and goblinoids. +4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
++        "Against Giant-type creatures, AC 20 and touch 17 while able to dodge. Improved Initiative and Weapon Focus (gnome hooked hammer) are already included. Weapon Familiarity makes the hammer martial."
++      ],
++      "actions": [
++        "Small gnome hooked hammer +4 melee with either head wielded alone in two hands. Blunt head deals 1d6+1 bludgeoning, critical ×3. Hook deals 1d4+1 piercing, critical ×4. +5 to hit against kobolds and goblinoids.",
++        "Small light crossbow +4 ranged, 1d6 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action. +5 to hit against kobolds and goblinoids.",
++        "Racial silence 1/day at caster level 1, regardless of Charisma. Center it on the Whisper Gnome’s body. The 20-ft.-radius emanation moves with the gnome and lasts 1 minute, dismissible. It blocks sound and verbal spell components.",
++        "Charisma 8 leaves only the always-available racial silence on the spell-like ability list."
++      ],
++      "tactics": "Tovin asks the party to steady the cracked bell before it rattles the repair platform. He surrounds himself with silence while they lower the clapper. He keeps the platform clear with his hooked hammer if anything threatens the crew."
++    },
++    {
+       "id": "route-warden",
+       "title": "Route warden",
+       "origin": "Original DM Library NPC",
+@@ -1880,6 +1973,28 @@
+       "hook": "Sura can identify which release pin was replaced if the party keeps the walkway clear."
+     },
+     {
++      "species": "Whisper Gnome",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Stone (2004)",
++      "name": "Nella Sedgefold",
++      "build": "whisper-gnome-night-courier-35e",
++      "role": "Night courier and Rogue.",
++      "motive": "Deliver a ledger slip before the postern closes and find out why its intended recipient missed the lantern signal.",
++      "hook": "Nella can approach the postern while the party checks the dark lantern and its keeper."
++    },
++    {
++      "species": "Whisper Gnome",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Stone (2004)",
++      "name": "Tovin Larkwell",
++      "build": "whisper-gnome-bellwright-35e",
++      "role": "Bellwright and Fighter.",
++      "motive": "Weigh the cracked clapper before the crew recasts it.",
++      "hook": "Tovin can surround the repair platform with silence while the party steadies the bell and lowers the clapper."
++    },
++    {
+       "species": "Half-Giant",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -10258,6 +10258,7 @@
+ West Wind	monster	Humanoid	Lost Laboratory of Kwalish	2014 fifth edition	Wizards of the Coast		3
+ Whirling Chandelier	monster	Construct	Vecna: Eve of Ruin	2014 fifth edition	Wizards of the Coast		7
+ Whirlwyrm	beast	Beast	Turn of Fortune's Wheel	2014 fifth edition	Wizards of the Coast		5
++Whisper Gnome	species	Humanoid (Gnome)	Races of Stone (2004)	3.5 edition	Wizards of the Coast	https://openlibrary.org/books/OL8144379M	
+ Whistler	monster	Aberration	Journeys through the Radiant Citadel	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2739106-whistler	9
+ White Abishai	monster	Fiend	Mordenkainen Presents: Monsters of the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2560959-white-abishai	6
+ White Abishai	monster	Fiend	Mordenkainen’s Tome of Foes	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/94636-white-abishai	6

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bariaur",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider native to Ysgard. It gains the Extraplanar subtype away from Ysgard. Racial adjustments are +2 Strength and −2 Charisma. Land speed 40 ft. and darkvision 60 ft.",
+      "Quadruped. +4 on checks to resist bull rush and trip, and 1½ times the normal carrying capacity for the Bariaur’s Strength. Bariaurs wear barding and cannot wear humanoid boots.",
+      "Powerful Charge. On a charge a Bariaur can make a single ram attack for 2d6 bludgeoning damage plus 1½ times its Strength modifier. Apply the normal charge rules. The trait only grants the ram during a charge.",
+      "Spell resistance equals 11 + class level. Bariaurs have a +2 racial bonus on Will saves against spells and spell-like abilities and a +2 racial bonus on Listen and Spot checks.",
+      "Celestial and Common are automatic. Abyssal and Infernal are bonus languages. Favored class Ranger. LA +1. The playable profile specifies no racial Hit Dice.",
+      "Page 8 identifies the larger Bariaurs in Book of Exalted Deeds as Exalted Bariaurs."
+    ]
+  }
+]

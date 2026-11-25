@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Kir-Lanan",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Monstrous Humanoid. +4 Strength, +2 Dexterity, −2 Wisdom. Darkvision 60 ft., +3 natural armor, and +4 racial Hide. Space and reach 5 ft.",
+      "Land 30 ft. and fly 90 ft. with good maneuverability, which allows hovering under 3.5 aerial movement.",
+      "Two primary claws deal 1d4 piercing and slashing each before Strength. A full attack with a one-handed weapon can add one secondary claw at −5 and half the Strength bonus to damage.",
+      "Proficient with all simple weapons and light armor.",
+      "Four racial Hit Dice (4d8) give BAB +4, base Fortitude +1, Reflex +4, and Will +4, plus two chosen feats. Racial skill points are seven times (2 + Intelligence modifier, minimum 1). Racial class skills are Escape Artist, Hide, Listen, Move Silently, Spot, and Use Magic Device.",
+      "Negative Energy Touch (Su), 3/day. Make a melee touch attack or deliver it with a claw that hits normal AC. Deals 2d6 damage and 1 point of Strength damage. Fortitude DC 12 + Charisma modifier negates the Strength damage only. Heal HP equal to the energy damage dealt, up to maximum HP.",
+      "Ray of Enfeeblement (Sp), 3/day at caster level 4. Ranged touch within 35 ft. The target takes a 1d6+2 Strength penalty for 4 minutes, to a minimum score of 1. No save. Spell resistance applies.",
+      "Rebuke or command undead 3/day as an evil Cleric of a level equal to the Kir-Lanan’s total Hit Dice.",
+      "Cure spells, holy water, and blessed weapons affect a Kir-Lanan as they would undead. Inflict spells and other negative energy heal it. A Kir-Lanan is a living creature and cannot be turned.",
+      "Soulless. Cannot use positive energy or divine magic or take levels in Cleric, Druid, or Paladin. Ranger levels grant no spellcasting. A Bard can learn inflict spells in place of cure spells. Return from death requires wish or miracle.",
+      "Common and Kir-Lanan are automatic. Bonus languages are by region. Favored class Fighter. Level adjustment +4 gives ECL 8 before class levels.",
+      "This 3.5 profile uses the 2003 player traits. The 2004 monster conversion confirms the type, space, reach, and level adjustment."
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "commit": "5bd08df661552e0368722c939afba5a07de6422b",
+  "publication": "Oriental Adventures (2001)",
+  "edition": "3.0 edition",
+  "playableSpecies": 2,
+  "fullNpcBuilds": 2,
+  "generatedPortraitsInstalled": 2,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-52-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/52/results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Human Guard",
+      "source": "https://www.dndbeyond.com/monsters/4485895-human-guard",
+      "challenge": "1/8"
+    },
+    {
+      "name": "Human Scoundrel",
+      "source": "https://www.dndbeyond.com/monsters/4485898-human-scoundrel",
+      "challenge": "3"
+    }
+  ],
+  "nextSourceNote": "Prioritize reusable NPCs and distinct monsters. Human Guard is a minion, so verify the group attack and distinguish it from the 4e soldier printing. Playable species are staged separately."
+}

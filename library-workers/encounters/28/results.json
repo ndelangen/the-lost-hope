@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Dracolich (Gargantuan)",
+    "imageKey": "monster:dracolich-gargantuan",
+    "kind": "monster",
+    "type": "Undead",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/6198504-dracolich-gargantuan",
+    "challenge": "17",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/54765/353/1000/1000/639063408464015207.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/6198504-dracolich-gargantuan",
+    "slug": "dracolich-gargantuan",
+    "entry": "monster-eb8e0d7b6af4f62da9794f25",
+    "version": "fc382f323c4b3c983f8abab3",
+    "generated": true,
+    "primaryPortraitSha256": "e16360ec463020e662f8dc0c469fe9da24a28703891dfd2872e7689cb14f17cb",
+    "status": "Stat block",
+    "appearance": "A skeletal dragon with weathered bones, ragged wings, and traces of its former scales.",
+    "habitats": [
+      "Dragon lairs",
+      "Corrupted ruins",
+      "Any environment"
+    ]
+  },
+  {
+    "name": "Shadow Dragon (Large)",
+    "imageKey": "monster:shadow-dragon-large",
+    "kind": "monster",
+    "type": "Dragon",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/5195202-shadow-dragon-large",
+    "challenge": "13",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/47139/238/1000/1000/638741964631791149.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/5195202-shadow-dragon-large",
+    "slug": "shadow-dragon-large",
+    "entry": "monster-87d6ccfd8b97bbee5289fcec",
+    "version": "716feb246c262f5b670b0abd",
+    "generated": true,
+    "primaryPortraitSha256": "6b18a04a9f1f2acb9570eccd4b52629fcea709b1637e4a066cf6d2cd37d49fe7",
+    "status": "Stat block",
+    "appearance": "A dark-scaled dragon with smoky wing membranes and a silhouette that blends into darkness.",
+    "habitats": [
+      "Shadowfell",
+      "Underdark",
+      "Accursed ruins"
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Giant Bombardier Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A four-foot beetle with hardened wing covers and chewing mandibles.",
+    "combat": {
+      "habitats": [
+        "Any forest"
+      ],
+      "numberOfAttacks": 1,
+      "armorClass": 4,
+      "movement": 9,
+      "hitDice": "2+2",
+      "thac0": 19,
+      "size": "S, 4 ft. long",
+      "damageDice": "2–12",
+      "xp": 120
+    },
+    "mechanics": {
+      "Special attacks and defenses": [
+        {
+          "name": "Acid cloud",
+          "effectNote": "When attacked or disturbed, it has a 50% chance each round to turn and discharge an 8-foot sphere of reddish acidic vapor from its abdomen. The cloud deals 3d4 damage per round to a creature within it. It can discharge every third round and at most twice in eight hours."
+        },
+        {
+          "name": "Sound of the discharge",
+          "effectNote": "Within 15 feet, creatures that can hear have a 20% chance of being stunned. A creature that avoids the stun has a separate 20% chance of deafness. Stun lasts 2d4 rounds followed by 2d4 rounds of deafness. Deafness alone lasts 2d6 rounds."
+        },
+        {
+          "name": "Printed defense",
+          "effectNote": "The table lists fire cloud as a separate special defense. The text describes the acidic discharge and gives no separate procedure for a fire cloud."
+        }
+      ]
+    },
+    "notes": [
+      "3–12 appearing. Common and listed as solitary. Neutral.",
+      "Active by day. Carnivore. Nonintelligent (0). Elite (13) morale. Treasure and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+    ]
+  },
+  {
+    "name": "Giant Boring Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A nine-foot burrowing beetle with large chewing mandibles.",
+    "combat": {
+      "habitats": [
+        "Any land",
+        "Rotting wood and underground tunnels"
+      ],
+      "numberOfAttacks": 1,
+      "armorClass": 3,
+      "movement": 6,
+      "hitDice": "5",
+      "thac0": 15,
+      "size": "L, 9 ft. long",
+      "damageDice": "5–20",
+      "xp": 175
+    },
+    "mechanics": {
+      "Habitat and behavior": [
+        {
+          "name": "Rotting wood",
+          "effectNote": "The beetle feeds on rotting wood and similar matter. It is found alone in large trees and can gather in underground tunnel complexes."
+        },
+        {
+          "name": "Fungus farms",
+          "effectNote": "Tunnel colonies cultivate fungi for food. They react quickly when shriekers in the farm sound an alarm."
+        },
+        {
+          "name": "Reported nest intelligence",
+          "effectNote": "The account describes rumors of nests that reason collectively at a human level. An individual beetle has Animal intelligence (1)."
+        }
+      ]
+    },
+    "notes": [
+      "3–18 appearing. Common and listed as solitary. Neutral.",
+      "Nocturnal. Omnivore. Animal intelligence (1). Elite (14) morale. Treasure C, R, S, T. Special attacks, special defenses and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), p. 18."
+    ]
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A beetle with two small red-glowing glands above its eyes and another near the back of its abdomen.",
+    "combat": {
+      "habitats": [
+        "Any land",
+        "Above and below ground"
+      ],
+      "numberOfAttacks": 1,
+      "armorClass": 4,
+      "movement": 12,
+      "hitDice": "1+2",
+      "thac0": 19,
+      "size": "S, 2½ ft. long",
+      "damageDice": "2–8",
+      "xp": 35
+    },
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Cold light",
+          "effectNote": "Three glands shed cool red light in a 10-foot radius. The light persists for 1d6 days after removal."
+        },
+        {
+          "name": "Mandibles",
+          "effectNote": "The beetle attacks with its mandibles for the table’s 2–8 damage. The glowing glands produce no heat."
+        }
+      ]
+    },
+    "notes": [
+      "3–12 appearing. Common and listed as solitary. Neutral.",
+      "Nocturnal. Omnivore. Nonintelligent (0). Steady (12) morale. Treasure, special attacks, special defenses and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+    ]
+  }
+]

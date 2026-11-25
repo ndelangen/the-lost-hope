@@ -1,0 +1,405 @@
+[
+  {
+    "name": "Githyanki Knight",
+    "statBlock": {
+      "name": "Githyanki Knight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 135,
+      "classification": "Medium aberration (gith), lawful evil",
+      "ac": 18,
+      "hp": 117,
+      "hitDice": "18d8 + 36",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 12,
+      "description": "Githyanki knights defend Astral Plane territory against intruders. Their sacred silver swords can sever the cords of creatures traveling by Astral Projection.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5,
+        "Int": 5,
+        "Wis": 5
+      },
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Languages": "Common, Gith",
+        "Gear": "Plate Armor.",
+        "Actions": "Multiattack. Make three Silver Sword attacks. The knight can replace one attack with Telekinesis through Spellcasting, if available.\nSilver Sword. Melee attack, +6 to hit, reach 5 ft. A hit deals 10 (2d6 + 3) Slashing damage plus 14 (4d6) Psychic damage. On a critical hit against a target in an astral body, the knight can sever the cord tethering that body to the target's material body in place of the damage.",
+        "Spellcasting": "As an action, cast one of the following spells using Intelligence (spell save DC 13), with no components.\nAt will. Mage Hand (the hand is Invisible).\n2/day each. Nondetection (self only) and Tongues.\n1/day each. Plane Shift and Telekinesis.",
+        "Bonus actions": "Misty Step (2/day). Cast Misty Step using Intelligence, with no components.",
+        "Habitats": "Planar (Astral Plane).",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 135."
+      }
+    }
+  },
+  {
+    "name": "Githyanki Warrior",
+    "statBlock": {
+      "name": "Githyanki Warrior",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 134,
+      "classification": "Medium aberration (gith), lawful evil",
+      "ac": 17,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "Githyanki warriors fight with blades that channel psionic force. Many serve Vlaakith in campaigns against mind flayers, githzerai, and other enemies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 3,
+        "Int": 3,
+        "Wis": 3
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Languages": "Common, Gith",
+        "Gear": "Half Plate Armor.",
+        "Actions": "Multiattack. Make two Psi Blade attacks.\nPsi Blade. Melee attack, +4 to hit, reach 5 ft. A hit deals 9 (2d6 + 2) Slashing damage plus 7 (2d6) Psychic damage.",
+        "Spellcasting": "As an action, cast one of the following spells using Intelligence, with no components.\nAt will. Mage Hand (the hand is Invisible).\n2/day. Nondetection (self only).",
+        "Bonus actions": "Misty Step (2/day). Cast Misty Step using Intelligence, with no components.",
+        "Habitats": "Planar (Astral Plane).",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 134."
+      }
+    }
+  },
+  {
+    "name": "Githzerai Monk",
+    "statBlock": {
+      "name": "Githzerai Monk",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 136,
+      "classification": "Medium aberration (gith), lawful neutral",
+      "ac": 14,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "Githzerai monks practice physical discipline alongside psionics. Some leave their sanctuaries to test that training in harsher parts of the multiverse.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 4,
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Str": 3,
+        "Dex": 4,
+        "Int": 3,
+        "Wis": 4
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Languages": "Common, Gith",
+        "Actions": "Multiattack. Make two Psi Strike attacks.\nPsi Strike. Melee attack, +4 to hit, reach 5 ft. A hit deals 6 (1d8 + 2) Bludgeoning damage plus 9 (2d8) Psychic damage.",
+        "Spellcasting": "As an action, cast one of the following spells using Wisdom, with no components.\nAt will. Mage Hand (the hand is Invisible).\n1/day. See Invisibility.",
+        "Bonus actions": "Psi-Powered Leap (2/day). Cast Jump using Wisdom, with no components.",
+        "Reactions": "Psionic Defense (2/day total). When the trigger for Feather Fall or Shield occurs, cast that spell using Wisdom, with no components. Both spells use the same two daily uses.",
+        "Habitats": "Planar (Limbo).",
+        "Treasure": "Arcana, Individual.",
+        "Printed source": "Monster Manual (2024), p. 136."
+      }
+    }
+  },
+  {
+    "name": "Githzerai Zerth",
+    "statBlock": {
+      "name": "Githzerai Zerth",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 137,
+      "classification": "Medium aberration (gith), lawful neutral",
+      "ac": 17,
+      "hp": 84,
+      "hitDice": "13d8 + 26",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 16,
+      "description": "Zerths carry on Zerthimon's teachings. They hone their psionics in githzerai sanctuaries and can travel among the planes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 6,
+        "Insight": 6,
+        "Perception": 6
+      },
+      "savingThrows": {
+        "Str": 4,
+        "Dex": 7,
+        "Int": 6,
+        "Wis": 6
+      },
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Languages": "Common, Gith",
+        "Actions": "Multiattack. Make two Psi Strike attacks.\nPsi Strike. Melee attack, +7 to hit, reach 5 ft. A hit deals 11 (2d6 + 4) Bludgeoning damage plus 13 (3d8) Psychic damage.",
+        "Spellcasting": "As an action, cast one of the following spells using Wisdom (spell save DC 14), with no components.\nAt will. Mage Hand (the hand is Invisible).\n1/day each. Phantasmal Killer (level 6), Plane Shift, and See Invisibility.",
+        "Bonus actions": "Psi-Powered Leap (2/day). Cast Jump using Wisdom, with no components.",
+        "Reactions": "Psionic Defense (2/day total). When the trigger for Feather Fall or Shield occurs, cast that spell using Wisdom, with no components. Both spells use the same two daily uses.",
+        "Habitats": "Planar (Limbo).",
+        "Treasure": "Arcana, Individual.",
+        "Printed source": "Monster Manual (2024), p. 137."
+      }
+    }
+  },
+  {
+    "name": "Drider",
+    "statBlock": {
+      "name": "Drider",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 105,
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 19,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 16,
+      "description": "Driders combine the features of spiders and humanoids, often drow transformed by Lolth. Their climbing and web magic let them hunt from cavern ceilings or dense forest canopies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 6,
+        "Stealth": 10
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon",
+        "Traits": "Spider Climb. Climb difficult surfaces or ceilings without an ability check.\nSunlight Sensitivity. While in sunlight, the drider has Disadvantage on ability checks and attack rolls.\nWeb Walker. Webs do not restrict the drider's movement. It knows where every other creature touching the same web is.",
+        "Actions": "Multiattack. Make three attacks using Foreleg or Poison Burst in any combination.\nForeleg. Melee attack, +7 to hit, reach 10 ft. A hit deals 13 (2d8 + 4) Piercing damage.\nPoison Burst. Ranged attack, +6 to hit, range 120 ft. A hit deals 13 (3d6 + 3) Poison damage.",
+        "Bonus actions": "Magic of the Spider Queen (Recharge 5–6). Cast Darkness, Faerie Fire, or Web using Wisdom (spell save DC 14), with no Material components.",
+        "Habitats": "Forest, Underdark.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 105."
+      }
+    }
+  },
+  {
+    "name": "Kenku",
+    "statBlock": {
+      "name": "Kenku",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 183,
+      "classification": "Medium monstrosity, neutral",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "A curse left these birdfolk flightless and able to speak only by imitating sounds. Kenku use mimicry to signal allies or lure foes toward an ambush.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 4,
+        "Perception": 2,
+        "Stealth": 5
+      },
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Primordial (Auran)",
+        "Traits": "Mimicry. The kenku can imitate sounds it has heard, including voices. A listener can recognize an imitation with a successful DC 14 Wisdom (Insight) check.",
+        "Actions": "Shadow Blade. Melee or ranged attack, +5 to hit, reach 5 ft. or range 60 ft. A hit deals 6 (1d6 + 3) Necrotic damage. The blade returns magically to the kenku's hand immediately after a ranged attack.",
+        "Bonus actions": "Eldritch Lantern (Recharge 4–6). Cast Faerie Fire using Intelligence (spell save DC 10).",
+        "Habitats": "Forest, Planar (Shadowfell), Urban.",
+        "Treasure": "Implements, Individual.",
+        "Printed source": "Monster Manual (2024), p. 183."
+      }
+    }
+  },
+  {
+    "name": "Winged Kobold",
+    "statBlock": {
+      "name": "Winged Kobold",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 185,
+      "classification": "Small dragon, neutral",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "4d6 - 4",
+      "speed": "30 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 8,
+      "description": "Kobolds call their winged kin urds and often take the wings as a sign of draconic favor. An urd can spit elemental energy while staying out of melee reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic",
+        "Traits": "Pack Tactics. The kobold has Advantage when attacking a creature if an ally within 5 ft. of that target isn't Incapacitated.\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls.",
+        "Actions": "Dragon-Tooth Blade. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) Piercing damage.\nChromatic Spittle. Ranged attack, +5 to hit, range 30 ft. A hit deals 6 (1d6 + 3) damage. The kobold chooses Acid, Cold, Fire, Lightning, or Poison.",
+        "Habitats": "Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 185."
+      }
+    }
+  }
+]
