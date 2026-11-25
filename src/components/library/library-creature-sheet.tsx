@@ -34,7 +34,7 @@ export function LibraryCreatureSheet({
     sheet.defenses.length > 0 ||
     sheet.savingThrows.length > 0
   const gallery = entry.art?.length ? entry.art : undefined
-  const version = entry.selected.id
+  const version = entry.selected.glossary
   const linked = (line: string, damage?: 'prose' | 'list') => (
     <LibraryRuleText line={line} search={search} version={version} damage={damage} />
   )
@@ -48,16 +48,22 @@ export function LibraryCreatureSheet({
           <div className="grid min-w-0 content-start gap-3">
             <div className="flex flex-wrap items-center gap-2 text-xs font-semibold tracking-wide">
               <span className="text-teal-800 uppercase dark:text-teal-300">{category}</span>
-              <span className="text-muted-foreground">{entry.selected.label}</span>
+              <span className="text-muted-foreground">
+                {entry.selected.label}
+                {entry.selected.edition && ` · ${entry.selected.edition}`}
+              </span>
             </div>
             <h1 className="font-serif text-4xl font-semibold tracking-tight sm:text-5xl">
-              {entry.name}
+              {entry.selected.variantName ?? entry.name}
             </h1>
             {sheet.classification?.lines.length ? (
               <p className="text-sm font-medium">
                 {linked(sheet.classification.lines.join(' · '))}
               </p>
             ) : null}
+            {entry.selected.status && (
+              <p className="text-muted-foreground text-xs font-medium">{entry.selected.status}</p>
+            )}
             {entry.summary && (
               <p className="max-w-prose text-sm leading-relaxed">{linked(entry.summary)}</p>
             )}
@@ -154,7 +160,7 @@ export function LibraryCreatureSheet({
           {hasFacts && (
             <LibraryCreatureStatistics
               sheet={sheet}
-              fifthEdition={version !== 'original'}
+              fifthEdition={version === 'srd-5-1' || version === 'srd-5-2-1'}
               linked={(line, damage) => (
                 <LibraryRuleText
                   line={line}

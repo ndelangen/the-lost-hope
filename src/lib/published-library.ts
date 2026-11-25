@@ -43,13 +43,24 @@ export function browseLibrary(dm: boolean, query?: string, type?: LibraryType, g
     if (words.length) {
       const searchable = [name, summary, ...groups, price ?? '']
       for (const printing of record.printings) {
+        searchable.push(printing.label, printing.edition ?? '', printing.variantName ?? '')
         const sections = [...(printing.player ?? []), ...(dm ? printing.gm : [])]
         searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
       }
       const text = normalize(searchable.join(' '))
       if (!words.every((word) => text.includes(word))) return []
     }
-    return [{ name, slug, summary, group: mainGroup, type: record.type, price, art: art?.[0] }]
+    return [
+      {
+        name,
+        slug,
+        summary,
+        group: mainGroup,
+        type: record.type,
+        price,
+        art: art?.[0] ?? record.printings[0].art?.[0],
+      },
+    ]
   })
   function rank(name: string) {
     const normalized = normalize(name)
@@ -79,18 +90,45 @@ export function getLibraryEntry(type: string, slug: string, dm: boolean, version
   if (!selected) return undefined
   const relatedType = type === 'beasts' ? 'monsters' : type === 'monsters' ? 'beasts' : undefined
   const related = relatedType ? entriesByPath.get(relatedType + '/' + slug) : undefined
+  const defaultArt = art ?? []
+  const printingArt = selected.art ?? []
+  const [primary, alternates] =
+    selected === printings[0] ? [defaultArt, printingArt] : [printingArt, defaultArt]
+  const artwork = [
+    ...primary,
+    ...alternates.filter((image) => !primary.some(({ file }) => file === image.file)),
+  ]
+  const glossary =
+    selected.edition === '2014 fifth edition' ||
+    selected.edition === '2014 fifth edition compatible'
+      ? 'srd-5-1'
+      : selected.edition === '2024 fifth edition'
+        ? 'srd-5-2-1'
+        : selected.id
   return {
     name,
     group,
     groups,
     relatedType: related && (dm || !related.gmOnly) ? relatedType : undefined,
     summary,
-    art,
+    art: artwork,
     price,
     rating: dm ? rating : undefined,
     gmOnly: record.gmOnly === true,
-    printings: printings.map(({ id, label }) => ({ id, label })),
-    selected: { id: selected.id, label: selected.label, artReference: selected.artReference },
+    printings: printings.map(({ id, label, variantName }) => ({
+      id,
+      label: variantName ? label + ' · ' + variantName : label,
+    })),
+    selected: {
+      id: selected.id,
+      label: selected.label,
+      edition: selected.edition,
+      variantName: selected.variantName,
+      source: selected.source,
+      artReference: selected.artReference,
+      status: dm ? selected.status : undefined,
+      glossary,
+    },
     sections: [...(selected.player ?? []), ...(dm ? selected.gm : [])],
     abilityDisplay: dm ? selected.abilityDisplay : undefined,
   }
