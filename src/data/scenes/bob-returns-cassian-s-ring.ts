@@ -230,5 +230,41 @@ export default createScene({
         },
       ],
     },
+    {
+      title: 'A simple quest',
+      lines: [
+        {
+          say: [
+            [
+              'What else are you looking for, fellas? Or perhaps you’re interested in a quest this evening?',
+            ],
+          ],
+          speaker: refs.npcs.bob_the_merchant,
+        },
+        {
+          say: [
+            [
+              'You follow to where the moon shines brightest, and then you stomp four times. Whatever comes, you kill it. Simple quest, right?',
+            ],
+          ],
+          speaker: refs.npcs.bob_the_merchant,
+        },
+        {
+          say: [
+            ['Oh, I guess you’ll want a reward? Hmm. I’m sure it will be something legendary.'],
+          ],
+          speaker: refs.npcs.bob_the_merchant,
+        },
+        {
+          note: [
+            [
+              'The place is out on ',
+              refs.locations.the_old_battlefield,
+              '. The monster and the reward are not decided yet.',
+            ],
+          ],
+        },
+      ],
+    },
   ],
 })
